@@ -245,6 +245,7 @@ function actions(graph,solution,c,o,p,shensha){
   const virtues=[];
   for(const item of sha){
    const rule=o.shenshaRules.find(x=>x.id===item.id);
+   const isHorse=/(驿马|天马|丁马)$/.test(item.name);
    if(rule&&!rule.basis)error('神煞适配须给依据');
    if(rule&&!['role','movement','virtue','irrelevant'].includes(rule.mode))error('未支持的神煞适配类型');
    if(rule?.mode==='virtue'){
@@ -256,7 +257,8 @@ function actions(graph,solution,c,o,p,shensha){
      if(!graph.by.has(target)||graph.by.get(target).kind==='ground')error('德解目标须是本盘实际作用对象');
      virtues.push({target,item:item.id});
     }
-   }else if(rule?.mode==='movement'||(!rule&&/(驿马|天马|丁马)$/.test(item.name))){
+   }else if(rule?.mode==='movement'||(!rule&&isHorse)){
+    if(!isHorse)error('仅驿马、天马、丁马可使用movement适配：'+item.id+' '+item.name);
     if(o.goal.mode==='movement'&&n.kind==='branch'){
      if(n.refs[0].state==='长生')move.push({cause:'direct-nourish:D:'+n.ground,loss:old.constraints.direct_greedy*E['D:'+n.ground]/(E['D:'+n.ground]+E[n.id]+1e-12)});
      mechanisms.push({id:n.id,rule:'马的长生/墓/合/空分层',facts:{growth:n.refs[0].state,void:n.void_self,sitting_void:n.void_ground},hard_zero:false});
