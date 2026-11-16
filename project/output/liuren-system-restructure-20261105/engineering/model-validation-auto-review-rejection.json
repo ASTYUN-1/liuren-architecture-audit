@@ -1,0 +1,12 @@
+{
+  "status": "auto_review_rejected_before_execution",
+  "action": "one 65s OpenCode loading-only request through existing conpera/gpt-6.1-sol",
+  "candidateAtRejectedAction": "integrated-final31-04",
+  "modelRequests": 0,
+  "reason": "The model session could send private candidate skills and method documents to the unverified conpera provider, but the user has not specifically authorized that payload and destination.",
+  "noRetry": true,
+  "noProviderSwitch": true,
+  "noCredentialCopy": true,
+  "currentNarrowerPreparedRequest": "model-validation-request.md",
+  "currentRequestStatus": "awaiting-explicit-human-authorization"
+}

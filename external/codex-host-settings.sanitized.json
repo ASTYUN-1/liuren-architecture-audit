@@ -1,0 +1,30 @@
+{
+  "scope": "Codex host settings relevant to local workflow; excludes unrelated MCP, credentials, personal history and other projects",
+  "source_sha256": "fbb092cc78ffba2979d31ab36760947052b0b717829c5fdbe988fe6f5c0e53aa",
+  "settings": {
+    "model": "gpt-6.1-sol",
+    "model_provider": "custom",
+    "model_reasoning_effort": "xhigh",
+    "approval_policy": "on-request",
+    "sandbox_mode": "workspace-write",
+    "features": {
+      "guardian_approval": true,
+      "memories": true
+    },
+    "windows": {
+      "sandbox": "elevated"
+    },
+    "model_providers": {
+      "custom": {
+        "name": "custom",
+        "base_url": "<REDACTED_OR_EXTERNAL>",
+        "wire_api": "responses",
+        "experimental_bearer_token": "<REDACTED_OR_EXTERNAL>",
+        "requires_openai_auth": false
+      }
+    }
+  },
+  "redacted_fields": [],
+  "not_a_platform_implementation_export": true,
+  "provider_scope": "only the selected configured Codex provider, endpoint and credentials removed"
+}

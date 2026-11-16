@@ -1,0 +1,39 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-anli001-0005",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-anli001-0005.md",
+    "locator": "案例.txt 第41–47行",
+    "case_file_sha256": "aa37e7afe254d72d63cd91b231fe70d75cfe9e219e8b352573623bf1728f402d",
+    "original_time": "2024年1月23日17:31",
+    "source_text_sha256": "619249e3e15c0a54e0ff742fa87342871167265ab926e674844191b508509068"
+  },
+  "time": {
+    "precision": "minute",
+    "date": "2024-01-23",
+    "datetime": "2024-01-23T17:31"
+  },
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "issues": [
+    "SPECIAL_DIVINATION_METHOD"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

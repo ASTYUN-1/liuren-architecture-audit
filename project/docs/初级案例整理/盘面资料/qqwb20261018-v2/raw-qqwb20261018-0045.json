@@ -1,0 +1,46 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261018-0045",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-qqwb20261018-0045.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\stage1_v2\\cases\\raw-qqwb20261018-0045.md",
+    "locator": "raw/records.jsonl 第 45 行（seq=44）detail 与 mofan 字段",
+    "shared_original_group": null,
+    "case_file_sha256": "edd4c170123020a259bf08ffd008f7a0c2e7a7ac546d7c62ac7be59f94799f51",
+    "original_time": "2026-07-26(六月十三) 15:34（pan/044_2.jpg）；另盘 pan/044_1.jpg 记为 2026-07-26(六月十三) 15:36",
+    "source_text_sha256": "649d06365b7651f9b2b6a46fd35e6a93a501589811b1fb9e8614e644b2c8cec7",
+    "image_evidence": null
+  },
+  "time": {
+    "precision": "unknown",
+    "date": "2026-07-26",
+    "datetime": null,
+    "issue": "MULTIPLE_TIME_CANDIDATES"
+  },
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "issues": [
+    "MULTIPLE_TIME_CANDIDATES",
+    "IMAGE_LEDGER_TIME_MISMATCH",
+    "TIME_FIELD_SOURCE_MISMATCH"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

@@ -1,0 +1,132 @@
+{
+  "scope": "read-only replay of exact failed result arguments; no task, review or recheck executed",
+  "real_model_called": false,
+  "total": 10,
+  "accepted_now": 7,
+  "outcomes": [
+    {
+      "index": 0,
+      "action": "recheck",
+      "ok": false,
+      "issues": [
+        {
+          "code": "finding_evidence",
+          "path": "/findings/0/evidence_refs",
+          "unknown_refs": [
+            "LF3329-class-ground scope",
+            "书籍库/北海闲人/理法简易.txt:3319-3347"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "recheck",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "index": 2,
+      "action": "recheck",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "index": 3,
+      "action": "recheck",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "index": 4,
+      "action": "review",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "index": 5,
+      "action": "review",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "index": 6,
+      "action": "review",
+      "ok": false,
+      "issues": [
+        {
+          "code": "review_route_coverage",
+          "path": "/review/checks/1/evidence_refs",
+          "missing_refs": [
+            "route:Q_pass",
+            "route:Q_score"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "action": "review",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "index": 8,
+      "action": "review",
+      "ok": false,
+      "issues": [
+        {
+          "code": "review_evidence",
+          "path": "/review/checks/0/evidence_refs",
+          "unknown_refs": [
+            "input:e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "dc912388773e3d4cb2d2c13af23c2541b260c1f06c557a2ad774bd7d4a10e5c6"
+          ]
+        },
+        {
+          "code": "review_evidence",
+          "path": "/review/checks/1/evidence_refs",
+          "unknown_refs": [
+            "input:e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "dc912388773e3d4cb2d2c13af23c2541b260c1f06c557a2ad774bd7d4a10e5c6"
+          ]
+        },
+        {
+          "code": "review_evidence",
+          "path": "/review/checks/2/evidence_refs",
+          "unknown_refs": [
+            "input:e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "dc912388773e3d4cb2d2c13af23c2541b260c1f06c557a2ad774bd7d4a10e5c6"
+          ]
+        },
+        {
+          "code": "review_evidence",
+          "path": "/review/checks/3/evidence_refs",
+          "unknown_refs": [
+            "input:e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "dc912388773e3d4cb2d2c13af23c2541b260c1f06c557a2ad774bd7d4a10e5c6"
+          ]
+        },
+        {
+          "code": "review_evidence",
+          "path": "/review/checks/4/evidence_refs",
+          "unknown_refs": [
+            "input:e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "e26f94c56d49000b2fd2580280facf900b93e0051249bfb5316fd40432690ec3",
+            "dc912388773e3d4cb2d2c13af23c2541b260c1f06c557a2ad774bd7d4a10e5c6"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "action": "review",
+      "ok": true,
+      "issues": []
+    }
+  ]
+}

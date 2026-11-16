@@ -1,0 +1,97 @@
+{
+  "runtime_releases": 84,
+  "runtime_hash_checks": 10247,
+  "runtime_issues": [
+    {
+      "release": "20261111-bifa-use-45-r2",
+      "checked": 123,
+      "ok": false,
+      "issues": [
+        {
+          "path": "loader-contract.json",
+          "missing": false
+        },
+        {
+          "path": "reading-route.json",
+          "missing": false
+        },
+        {
+          "path": "references/shensha-authority-evidence.json",
+          "missing": false
+        },
+        {
+          "path": "references/shensha-policy.json",
+          "missing": false
+        },
+        {
+          "path": "references/confirmed-policy-register.json",
+          "missing": false
+        }
+      ]
+    }
+  ],
+  "registered_source_checks": 1664,
+  "source_map_issues": [],
+  "book_checks": 10,
+  "book_issues": [],
+  "local_imports": 314,
+  "missing_current_imports": [],
+  "missing_test_imports": [
+    {
+      "source": "tools/tests/liuren-analysis-route.test.mjs",
+      "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+      "exists": false,
+      "generated_directory": false,
+      "is_test": true
+    },
+    {
+      "source": "tools/tests/liuren-direct.test.mjs",
+      "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/tool.js",
+      "exists": false,
+      "generated_directory": false,
+      "is_test": true
+    },
+    {
+      "source": "tools/tests/liuren-quantity-review.test.mjs",
+      "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+      "exists": false,
+      "generated_directory": false,
+      "is_test": true
+    },
+    {
+      "source": "tools/tests/liuren-strength-quantity.test.mjs",
+      "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+      "exists": false,
+      "generated_directory": false,
+      "is_test": true
+    },
+    {
+      "source": "tools/tests/liuren-tool-reliability.test.mjs",
+      "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+      "exists": false,
+      "generated_directory": false,
+      "is_test": true
+    }
+  ],
+  "raw_link_candidates": 3486,
+  "raw_link_kinds": {
+    "markdown-link": 3224,
+    "js-import": 262
+  },
+  "raw_link_roots": {
+    "docs": 129,
+    "knowledge": 60,
+    "materials": 977,
+    "output": 654,
+    "runtime": 610,
+    "tests": 1,
+    "tools": 36,
+    "书籍库": 2,
+    "排盘工具魔改": 1017
+  },
+  "triage_counts": {
+    "experience-relative-link-resolved": 14,
+    "historical-or-documentation-reference-requires-context": 3444,
+    "current-source-reference-review": 28
+  }
+}

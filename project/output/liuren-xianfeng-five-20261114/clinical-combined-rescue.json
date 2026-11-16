@@ -1,0 +1,1492 @@
+{
+  "scope": "six selected actors and four candidate relations; does not numerically resolve clash, combination, authority or outcome; no whole-chart prediction",
+  "request": {
+    "mode": "selected_relations",
+    "season_profile": "four-seasons",
+    "season_basis": "申月非季土月，两表相同；不按原载结果选择",
+    "actors": [
+      {
+        "id": "S:甲",
+        "role": "考生",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败"
+      },
+      {
+        "id": "T:寅",
+        "role": "干上兼初传禄德",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败"
+      },
+      {
+        "id": "T:未",
+        "role": "主类幕贵",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败"
+      },
+      {
+        "id": "T:午",
+        "role": "先锋兼行年上神及月将",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败"
+      },
+      {
+        "id": "T:巳",
+        "role": "中传制末鬼候选",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败"
+      },
+      {
+        "id": "T:申",
+        "role": "末传，冲初寅、克甲的日鬼",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败"
+      }
+    ],
+    "links": [
+      {
+        "source": "T:午",
+        "target": "T:未",
+        "basis": "先锋及行年午生幕贵未；午未六合另作定性，不计算合化"
+      },
+      {
+        "source": "T:午",
+        "target": "T:申",
+        "basis": "午火克申，核已选先锋对末鬼的制约候选"
+      },
+      {
+        "source": "T:巳",
+        "target": "T:申",
+        "basis": "中传巳火克末传申金，核中传制末鬼候选；刑合另作定性"
+      },
+      {
+        "source": "T:申",
+        "target": "S:甲",
+        "basis": "末传申金克考生甲；计算作用参考，不以鬼旺直接等同伤害性质"
+      }
+    ],
+    "review": true
+  },
+  "result": {
+    "schema": "liuren-selected-strength-v1",
+    "model": "liuren-palace-strength-v1",
+    "base_model": "liuren-strength-research-v05-direct",
+    "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+    "selected_policy": {
+      "id": "liuren-selected-relations-v1",
+      "route_gate": 0.75,
+      "local_balance": "frozen",
+      "source_loss": "baseline-direct-greedy-and-binding",
+      "groups": false
+    },
+    "chart_sha256": "6b11467cce3d30cf2090c8b743c6a3e99ea1c5247cd2569b1d9ad442235a1216",
+    "scope": "selected_relations",
+    "season_profile": "four-seasons",
+    "season_basis": "申月非季土月，两表相同；不按原载结果选择",
+    "actors": [
+      {
+        "id": "S:甲",
+        "role": "考生",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败",
+        "single_palace": 2.432,
+        "single_palace_level": "弱，仍有作用",
+        "adjusted": 1.547556,
+        "delta": -0.884444,
+        "level": "弱，仍有作用"
+      },
+      {
+        "id": "T:寅",
+        "role": "干上兼初传禄德",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败",
+        "single_palace": 2.2,
+        "single_palace_level": "弱，仍有作用",
+        "adjusted": 2.2,
+        "delta": 0,
+        "level": "弱，仍有作用"
+      },
+      {
+        "id": "T:未",
+        "role": "主类幕贵",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败",
+        "single_palace": 3.859,
+        "single_palace_level": "偏弱至中等，可发挥作用",
+        "adjusted": 4.426517,
+        "delta": 0.567517,
+        "level": "偏弱至中等，可发挥作用"
+      },
+      {
+        "id": "T:午",
+        "role": "先锋兼行年上神及月将",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败",
+        "single_palace": 4.111818,
+        "single_palace_level": "偏弱至中等，可发挥作用",
+        "adjusted": 3.783448,
+        "delta": -0.32837,
+        "level": "偏弱至中等，可发挥作用"
+      },
+      {
+        "id": "T:巳",
+        "role": "中传制末鬼候选",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败",
+        "single_palace": 3.3,
+        "single_palace_level": "偏弱至中等，可发挥作用",
+        "adjusted": 3.261542,
+        "delta": -0.038458,
+        "level": "偏弱至中等，可发挥作用"
+      },
+      {
+        "id": "T:申",
+        "role": "末传，冲初寅、克甲的日鬼",
+        "basis": "复用原盘已核身份；只核已选关系，不以旺衰指数直接裁成败",
+        "single_palace": 8.3135,
+        "single_palace_level": "强",
+        "adjusted": 7.721264,
+        "delta": -0.592236,
+        "level": "强"
+      }
+    ],
+    "applied_relations": [
+      {
+        "source": "T:午",
+        "target": "T:未",
+        "basis": "先锋及行年午生幕贵未；午未六合另作定性，不计算合化",
+        "type": "生",
+        "gate": 0.75,
+        "tau": 1,
+        "received": 0.567517,
+        "source_cost": 0.283759
+      },
+      {
+        "source": "T:午",
+        "target": "T:申",
+        "basis": "午火克申，核已选先锋对末鬼的制约候选",
+        "type": "克",
+        "gate": 0.75,
+        "tau": 1,
+        "received": -0.223058,
+        "source_cost": 0.044612
+      },
+      {
+        "source": "T:巳",
+        "target": "T:申",
+        "basis": "中传巳火克末传申金，核中传制末鬼候选；刑合另作定性",
+        "type": "克",
+        "gate": 0.75,
+        "tau": 1,
+        "received": -0.192289,
+        "source_cost": 0.038458
+      },
+      {
+        "source": "T:申",
+        "target": "S:甲",
+        "basis": "末传申金克考生甲；计算作用参考，不以鬼旺直接等同伤害性质",
+        "type": "克",
+        "gate": 0.75,
+        "tau": 1,
+        "received": -0.884444,
+        "source_cost": 0.176889
+      }
+    ],
+    "already_local_or_blocked": [],
+    "interpretation": "分数描述力量；弱仍可作用，0不等于整件事绝对不成。取用与关系适用性由AI依原法判断；未选关系及合局数值未补入。",
+    "receipt_sha256": "07a6c26999b1447a61b019521d1a7441afd60c80b51cd801963806f7e5db66be",
+    "convergence": {
+      "residual": 7.861757911342693e-10,
+      "spread": 2.058226922230233e-10
+    },
+    "coverage": {
+      "actors": [
+        "S:甲",
+        "T:寅",
+        "T:未",
+        "T:午",
+        "T:巳",
+        "T:申"
+      ],
+      "submitted_relations": 4,
+      "computed_relations": 4,
+      "skipped_relations": 0,
+      "unselected_palaces_updated": false,
+      "semantic_role_validated": false,
+      "relation_applicability_validated": false,
+      "event_verdict_supported": false,
+      "qualitative_conditions": "刑冲合害、神煞专项、制救通达与兑现仍依原法；合局数值暂缓"
+    },
+    "review": {
+      "schema": "liuren-strength-review-v1",
+      "state_basis": [
+        {
+          "id": "S:甲",
+          "kind": "day",
+          "ground": "寅",
+          "carrier": null,
+          "month": "申",
+          "month_qi": "死",
+          "references": [
+            {
+              "place": "寅",
+              "state": "临官",
+              "weight": 1,
+              "body_ratio": 1.15,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "子",
+            "丑"
+          ],
+          "evaluation_void": [
+            "子",
+            "丑"
+          ],
+          "void_self": null,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": false,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 2.3,
+          "local_net": 0.13200000000027196,
+          "outward_restriction": 0,
+          "direct_relations": [
+            {
+              "id": "S:甲>T:寅|view:S:甲",
+              "source": "S:甲",
+              "target": "T:寅",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "day_upper",
+                  "gate": 1
+                },
+                {
+                  "kind": "yin",
+                  "gate": 0.75
+                }
+              ],
+              "owner": "S:甲",
+              "blocked": null,
+              "route": "day_upper",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2.4320000002153273,
+              "target_strength": 2.2000000000045326,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": "S:甲",
+              "observed_received": 0.13799999999999998,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "T:寅>S:甲|view:S:甲",
+              "source": "T:寅",
+              "target": "S:甲",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "day_upper",
+                  "gate": 1
+                },
+                {
+                  "kind": "yin",
+                  "gate": 0.75
+                }
+              ],
+              "owner": "S:甲",
+              "blocked": null,
+              "route": "day_upper",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2.2000000000045326,
+              "target_strength": 2.4320000002153273,
+              "tau": 1,
+              "received": 0.13200000000027196,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": "S:甲",
+              "observed_received": 0.13200000000027196,
+              "observed_source_cost": 0
+            }
+          ],
+          "pending_action_conditions": []
+        },
+        {
+          "id": "T:寅",
+          "kind": "branch",
+          "ground": "寅",
+          "carrier": null,
+          "month": "申",
+          "month_qi": "死",
+          "references": [
+            {
+              "place": "寅",
+              "state": "临官",
+              "weight": 0.7,
+              "body_ratio": 1.15,
+              "access": 1
+            },
+            {
+              "place": "寅",
+              "state": "临官",
+              "weight": 0.3,
+              "body_ratio": 1.15,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "子",
+            "丑"
+          ],
+          "evaluation_void": [
+            "子",
+            "丑"
+          ],
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": null,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 2.3,
+          "local_net": -0.10000000000045328,
+          "outward_restriction": 0,
+          "direct_relations": [
+            {
+              "id": "T:寅>D:寅",
+              "source": "T:寅",
+              "target": "D:寅",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2.2000000000045326,
+              "target_strength": 2,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.13200000000027196,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "D:寅>T:寅",
+              "source": "D:寅",
+              "target": "T:寅",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2,
+              "target_strength": 2.2000000000045326,
+              "tau": 1,
+              "received": 0.12,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.12,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "T:寅>J:腾蛇",
+              "source": "T:寅",
+              "target": "J:腾蛇",
+              "type": "生",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2.2000000000045326,
+              "target_strength": 3.740000000390239,
+              "tau": 1,
+              "received": 0.44000000000090655,
+              "source_cost": 0.22000000000045328,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.44000000000090655,
+              "observed_source_cost": 0.22000000000045328
+            },
+            {
+              "id": "S:甲>T:寅|view:S:甲",
+              "source": "S:甲",
+              "target": "T:寅",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "day_upper",
+                  "gate": 1
+                },
+                {
+                  "kind": "yin",
+                  "gate": 0.75
+                }
+              ],
+              "owner": "S:甲",
+              "blocked": null,
+              "route": "day_upper",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2.4320000002153273,
+              "target_strength": 2.2000000000045326,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": "S:甲",
+              "observed_received": 0.13799999999999998,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "T:寅>S:甲|view:S:甲",
+              "source": "T:寅",
+              "target": "S:甲",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "day_upper",
+                  "gate": 1
+                },
+                {
+                  "kind": "yin",
+                  "gate": 0.75
+                }
+              ],
+              "owner": "S:甲",
+              "blocked": null,
+              "route": "day_upper",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 2.2000000000045326,
+              "target_strength": 2.4320000002153273,
+              "tau": 1,
+              "received": 0.13200000000027196,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": "S:甲",
+              "observed_received": 0.13200000000027196,
+              "observed_source_cost": 0
+            }
+          ],
+          "pending_action_conditions": [
+            "adopted_shensha"
+          ]
+        },
+        {
+          "id": "T:未",
+          "kind": "branch",
+          "ground": "未",
+          "carrier": null,
+          "month": "申",
+          "month_qi": "休",
+          "references": [
+            {
+              "place": "未",
+              "state": "养",
+              "weight": 0.7,
+              "body_ratio": 0.8,
+              "access": 1
+            },
+            {
+              "place": "未",
+              "state": "养",
+              "weight": 0.3,
+              "body_ratio": 0.8,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "子",
+            "丑"
+          ],
+          "evaluation_void": [
+            "子",
+            "丑"
+          ],
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": null,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 3.4,
+          "local_net": 0.45899999999999996,
+          "outward_restriction": 0,
+          "direct_relations": [
+            {
+              "id": "T:未>D:未",
+              "source": "T:未",
+              "target": "D:未",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3.859000000066415,
+              "target_strength": 4.25,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.204,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "D:未>T:未",
+              "source": "D:未",
+              "target": "T:未",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 4.25,
+              "target_strength": 3.859000000066415,
+              "tau": 1,
+              "received": 0.255,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.255,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "J:天空>T:未",
+              "source": "J:天空",
+              "target": "T:未",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3.6040000000812578,
+              "target_strength": 3.859000000066415,
+              "tau": 1,
+              "received": 0.204,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.204,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "T:未>J:天空",
+              "source": "T:未",
+              "target": "J:天空",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3.859000000066415,
+              "target_strength": 3.6040000000812578,
+              "tau": 1,
+              "received": 0.204,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.204,
+              "observed_source_cost": 0
+            }
+          ],
+          "pending_action_conditions": []
+        },
+        {
+          "id": "T:午",
+          "kind": "branch",
+          "ground": "午",
+          "carrier": null,
+          "month": "申",
+          "month_qi": "囚",
+          "references": [
+            {
+              "place": "午",
+              "state": "帝旺",
+              "weight": 0.7,
+              "body_ratio": 1.25,
+              "access": 1
+            },
+            {
+              "place": "午",
+              "state": "帝旺",
+              "weight": 0.3,
+              "body_ratio": 1.25,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "子",
+            "丑"
+          ],
+          "evaluation_void": [
+            "子",
+            "丑"
+          ],
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": null,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 3.75,
+          "local_net": 0.36181818181950637,
+          "outward_restriction": 0,
+          "direct_relations": [
+            {
+              "id": "T:午>D:午",
+              "source": "T:午",
+              "target": "D:午",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 4.111818182332879,
+              "target_strength": 3,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.22499999999999998,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "D:午>T:午",
+              "source": "D:午",
+              "target": "T:午",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3,
+              "target_strength": 4.111818182332879,
+              "tau": 1,
+              "received": 0.18,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.18,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "J:青龙>T:午",
+              "source": "J:青龙",
+              "target": "T:午",
+              "type": "生",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 0.9090909090975319,
+              "target_strength": 4.111818182332879,
+              "tau": 1,
+              "received": 0.18181818181950637,
+              "source_cost": 0.09090909090975319,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.18181818181950637,
+              "observed_source_cost": 0.09090909090975319
+            }
+          ],
+          "pending_action_conditions": []
+        },
+        {
+          "id": "T:巳",
+          "kind": "branch",
+          "ground": "巳",
+          "carrier": null,
+          "month": "申",
+          "month_qi": "囚",
+          "references": [
+            {
+              "place": "巳",
+              "state": "临官",
+              "weight": 0.7,
+              "body_ratio": 1.15,
+              "access": 1
+            },
+            {
+              "place": "巳",
+              "state": "临官",
+              "weight": 0.3,
+              "body_ratio": 1.15,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "子",
+            "丑"
+          ],
+          "evaluation_void": [
+            "子",
+            "丑"
+          ],
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": null,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 3.4499999999999997,
+          "local_net": -0.15000000000027525,
+          "outward_restriction": 0,
+          "direct_relations": [
+            {
+              "id": "T:巳>D:巳",
+              "source": "T:巳",
+              "target": "D:巳",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3.3000000000027523,
+              "target_strength": 3,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.19800000000016513,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "D:巳>T:巳",
+              "source": "D:巳",
+              "target": "T:巳",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3,
+              "target_strength": 3.3000000000027523,
+              "tau": 1,
+              "received": 0.18,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.18,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "T:巳>J:勾陈",
+              "source": "T:巳",
+              "target": "J:勾陈",
+              "type": "生",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 3.3000000000027523,
+              "target_strength": 2.36000000034607,
+              "tau": 1,
+              "received": 0.6600000000005505,
+              "source_cost": 0.33000000000027524,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.6600000000005505,
+              "observed_source_cost": 0.33000000000027524
+            }
+          ],
+          "pending_action_conditions": [
+            "adopted_shensha"
+          ]
+        },
+        {
+          "id": "T:申",
+          "kind": "branch",
+          "ground": "申",
+          "carrier": null,
+          "month": "申",
+          "month_qi": "旺",
+          "references": [
+            {
+              "place": "申",
+              "state": "临官",
+              "weight": 0.7,
+              "body_ratio": 1.15,
+              "access": 1
+            },
+            {
+              "place": "申",
+              "state": "临官",
+              "weight": 0.3,
+              "body_ratio": 1.15,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "子",
+            "丑"
+          ],
+          "evaluation_void": [
+            "子",
+            "丑"
+          ],
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": null,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 7.475,
+          "local_net": 0.8385,
+          "outward_restriction": 0,
+          "direct_relations": [
+            {
+              "id": "T:申>D:申",
+              "source": "T:申",
+              "target": "D:申",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 8.31349999978605,
+              "target_strength": 6.5,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.44849999999999995,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "D:申>T:申",
+              "source": "D:申",
+              "target": "T:申",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 6.5,
+              "target_strength": 8.31349999978605,
+              "tau": 1,
+              "received": 0.39,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.39,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "J:白虎>T:申",
+              "source": "J:白虎",
+              "target": "T:申",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 7.923499999814119,
+              "target_strength": 8.31349999978605,
+              "tau": 1,
+              "received": 0.44849999999999995,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.44849999999999995,
+              "observed_source_cost": 0
+            },
+            {
+              "id": "T:申>J:白虎",
+              "source": "T:申",
+              "target": "J:白虎",
+              "type": "比和",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 8.31349999978605,
+              "target_strength": 7.923499999814119,
+              "tau": 1,
+              "received": 0.44849999999999995,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.44849999999999995,
+              "observed_source_cost": 0
+            }
+          ],
+          "pending_action_conditions": [
+            "adopted_shensha"
+          ]
+        }
+      ],
+      "relation_candidates": [
+        {
+          "actors": [
+            "S:甲",
+            "T:寅"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "甲",
+              "to": "寅",
+              "value": "比和"
+            }
+          ],
+          "submitted": false,
+          "already_local": true,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "S:甲",
+            "T:未"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "甲",
+              "to": "未",
+              "value": "克"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "S:甲",
+            "T:午"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "甲",
+              "to": "午",
+              "value": "生"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "S:甲",
+            "T:巳"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "甲",
+              "to": "巳",
+              "value": "生"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "S:甲",
+            "T:申"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "甲",
+              "to": "申",
+              "value": "被克"
+            }
+          ],
+          "submitted": true,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:寅",
+            "T:未"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "寅",
+              "to": "未",
+              "value": "克"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:寅",
+            "T:午"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "寅",
+              "to": "午",
+              "value": "生"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:寅",
+            "T:巳"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "寅",
+              "to": "巳",
+              "value": "生"
+            },
+            {
+              "type": "六害",
+              "from": "寅",
+              "to": "巳"
+            },
+            {
+              "type": "刑",
+              "from": "寅",
+              "to": "巳",
+              "profile": "directed-pair; efficacy not decided"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:寅",
+            "T:申"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "寅",
+              "to": "申",
+              "value": "被克"
+            },
+            {
+              "type": "六冲",
+              "from": "寅",
+              "to": "申"
+            },
+            {
+              "type": "刑",
+              "from": "申",
+              "to": "寅",
+              "profile": "directed-pair; efficacy not decided"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:未",
+            "T:午"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "未",
+              "to": "午",
+              "value": "被生"
+            },
+            {
+              "type": "六合",
+              "from": "未",
+              "to": "午"
+            }
+          ],
+          "submitted": true,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:未",
+            "T:巳"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "未",
+              "to": "巳",
+              "value": "被生"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:未",
+            "T:申"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "未",
+              "to": "申",
+              "value": "生"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:午",
+            "T:巳"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "午",
+              "to": "巳",
+              "value": "比和"
+            }
+          ],
+          "submitted": false,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:午",
+            "T:申"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "午",
+              "to": "申",
+              "value": "克"
+            }
+          ],
+          "submitted": true,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        },
+        {
+          "actors": [
+            "T:巳",
+            "T:申"
+          ],
+          "facts": [
+            {
+              "type": "five_elements",
+              "from": "巳",
+              "to": "申",
+              "value": "克"
+            },
+            {
+              "type": "六合",
+              "from": "巳",
+              "to": "申"
+            },
+            {
+              "type": "六破",
+              "from": "巳",
+              "to": "申"
+            },
+            {
+              "type": "刑",
+              "from": "巳",
+              "to": "申",
+              "profile": "directed-pair; efficacy not decided"
+            }
+          ],
+          "submitted": true,
+          "already_local": false,
+          "numeric_use": "仅事实核查；是否切题、可作用及是否提交补算由原法裁定"
+        }
+      ],
+      "season_comparison": {
+        "selected_profile": "four-seasons",
+        "comparison_profile": "quarter-earth",
+        "rows": [
+          {
+            "id": "S:甲",
+            "selected": 1.547556,
+            "comparison": 1.547556,
+            "delta": 0
+          },
+          {
+            "id": "T:寅",
+            "selected": 2.2,
+            "comparison": 2.2,
+            "delta": 0
+          },
+          {
+            "id": "T:未",
+            "selected": 4.426517,
+            "comparison": 4.426517,
+            "delta": 0
+          },
+          {
+            "id": "T:午",
+            "selected": 3.783448,
+            "comparison": 3.783448,
+            "delta": 0
+          },
+          {
+            "id": "T:巳",
+            "selected": 3.261542,
+            "comparison": 3.261542,
+            "delta": 0
+          },
+          {
+            "id": "T:申",
+            "selected": 7.721264,
+            "comparison": 7.721264,
+            "delta": 0
+          }
+        ],
+        "interpretation": "同一对象与关系快照分别核算；差异不决定采用表，不平均、不计两票"
+      },
+      "limitation": "仅核已声明对象；未声明对象与专项条件未穷尽。pending是计算适配提示，不是成败裁决或新待办清单"
+    },
+    "quantity_basis": {
+      "schema": "liuren-quantity-strength-basis-v1",
+      "void_excluded_by_recomputation": true,
+      "scope": "selected_relations",
+      "baseline_reference": 5,
+      "calibration": "research-unvalidated",
+      "rows": [
+        {
+          "id": "S:甲",
+          "seasonal": "死",
+          "with_void": 1.547556,
+          "without_void": 1.547556,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 2.3,
+          "tomb_access": 1,
+          "local_net": 0.13200000000027196,
+          "outward_restriction": 0
+        },
+        {
+          "id": "T:寅",
+          "seasonal": "死",
+          "with_void": 2.2,
+          "without_void": 2.2,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 2.3,
+          "tomb_access": 1,
+          "local_net": -0.10000000000045328,
+          "outward_restriction": 0
+        },
+        {
+          "id": "T:未",
+          "seasonal": "休",
+          "with_void": 4.426517,
+          "without_void": 4.426517,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 3.4,
+          "tomb_access": 1,
+          "local_net": 0.45899999999999996,
+          "outward_restriction": 0
+        },
+        {
+          "id": "T:午",
+          "seasonal": "囚",
+          "with_void": 3.783448,
+          "without_void": 3.783448,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 3.75,
+          "tomb_access": 1,
+          "local_net": 0.36181818181950637,
+          "outward_restriction": 0
+        },
+        {
+          "id": "T:巳",
+          "seasonal": "囚",
+          "with_void": 3.261542,
+          "without_void": 3.261542,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 3.4499999999999997,
+          "tomb_access": 1,
+          "local_net": -0.15000000000027525,
+          "outward_restriction": 0
+        },
+        {
+          "id": "T:申",
+          "seasonal": "旺",
+          "with_void": 7.721264,
+          "without_void": 7.721264,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 7.475,
+          "tomb_access": 1,
+          "local_net": 0.8385,
+          "outward_restriction": 0
+        }
+      ],
+      "limitations": "不含空亡视图将本次图中各源与目标的数值空减一起移除，重算原关系；保留事实空位、墓与生克。5是模型基准，非已校准的数量中气；不裁成败，不映射量级。"
+    }
+  }
+}

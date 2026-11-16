@@ -1,0 +1,399 @@
+{
+  "schema": "staged-chart-resolutions-v1",
+  "warning": "AI只能填proposed；人工核对后改confirmed，另以--accept-confirmed明确启用。确认标记不等于外部真实性证明。",
+  "resolutions": {
+    "raw-qqwb20261018-0001": {
+      "status": "proposed",
+      "case_file_sha256": "f261e3121b2f0225d959ba5c65fe42f927e78dbe9380e0dc0940a08a3619d1cd",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0006": {
+      "status": "proposed",
+      "case_file_sha256": "2d62d82bfb425ecb1df6840e53099296b87419f6e568934488162339f7b7bcd7",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0008": {
+      "status": "proposed",
+      "case_file_sha256": "9945ea4041d92c25edb3d8cd13ce25e6a7829385b3cf57c41a38b02ab02363a8",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0010": {
+      "status": "proposed",
+      "case_file_sha256": "f8b72ccf7a67cddf04da39300d2d6fe533d71646934a09d46c783438fd653680",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "乙未",
+          "庚午",
+          "甲申"
+        ],
+        "source_month_general": null,
+        "source_chart_description": "四柱：丙午 乙未 庚午 甲申；课体：涉害、斩关、间传、六仪、励德、天网（盘图标注）",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0012": {
+      "status": "proposed",
+      "case_file_sha256": "216e0291ed13fa24a241930fa6a1d93d996a4053aaf8e41622570f82e5f2dadd",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "壬寅",
+          "乙巳",
+          "己巳",
+          "甲子"
+        ],
+        "source_month_general": null,
+        "source_chart_description": "四柱：壬寅 乙巳 己巳 甲子；课体：蒿矢、元胎、斩关、励德（盘图标注）",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0024": {
+      "status": "proposed",
+      "case_file_sha256": "5a204367aadd74ee4543744fb6ea79de95a5ed9cf75f0609f0ae06bbd1fc703b",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丁酉",
+          "辛亥",
+          "戊戌"
+        ],
+        "source_month_general": null,
+        "source_chart_description": "四柱：丙午 丁酉 辛亥 戊戌；课体：反吟、元胎、斩关（盘图标注）",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0033": {
+      "status": "proposed",
+      "case_file_sha256": "a1cc8acab654eecdfdeec96258e7cae14b48a41de2481ef32c021a976b4a3ee7",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丁酉",
+          "癸卯",
+          "庚申"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丁酉 癸卯 庚申；课体 元首、稼穑、斩关；癸卯日第四局；月将巳将，甲午旬辰空",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0044": {
+      "status": "proposed",
+      "case_file_sha256": "05d930825fba79e17232af79296f0cdc2d4229f5d6e432deb60c94b23f9bd8a2",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0048": {
+      "status": "proposed",
+      "case_file_sha256": "f93fe338ee52e88772ca0a9b1acf4e24c1fb847e4ce4dcf28b3b846df5c82a40",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙申",
+          "丙申",
+          "丙申",
+          "丙申"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙申 丙申 丙申 丙申；课体 遥克、弹射、元胎；月将巳，甲戊旬，昼贵；驿马亥；盘面占事「课题是否通过」",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0049": {
+      "status": "proposed",
+      "case_file_sha256": "037396bb852a9fa239c19c5cd339fcb1caebf56cfaf60c79e3d78befcd1e09a0",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "乙未",
+          "壬寅",
+          "丁未"
+        ],
+        "source_month_general": "未",
+        "source_chart_description": "题干「原卦是六爻，我看的时候换成了六壬」，并注「我所用的换将法为日躔换将，这一卦用中气和月合的话，月将为午」；课盘四柱 丙午 乙未 壬寅 丁未；月将未，甲午旬，昼贵；驿马申；课体「伏吟 元胎 励德」；盘面标「已出题」，无所问之事原文",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0056b": {
+      "status": "proposed",
+      "case_file_sha256": "f77f736690eb11fac2211dcd6fe1b74e38ef402522d42dac9a490cd66de057be",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供可明确归属本子案例的课式信息；不得沿用第一题戊寅女的盘面",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0057": {
+      "status": "proposed",
+      "case_file_sha256": "eb9d01efaf24c8a68e48698c474c7f1e986dd81642990c3d3cbe3b7e81d9cd71",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0060a": {
+      "status": "proposed",
+      "case_file_sha256": "ac626da923d4bcbc376aeaae9b8cffd72d4ad96ccc9ec9e73ee783782dc81c5e",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "戊戌",
+          "己巳"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丙申 戊戌 己巳；旬首甲戌，空亡申酉，月将巳；图上未见课体名；盘面问事原文「xy说她要去看医生，耳朵有点问题，她耳朵咋了？」",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0060b": {
+      "status": "proposed",
+      "case_file_sha256": "a2a8af9aaeeaf5a62c64e37bce94a8530308a66d50436a42ff547b2fca0478bc",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供（本题未附盘图）",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0061": {
+      "status": "proposed",
+      "case_file_sha256": "e1426fbaf7a4784745a14b7165553bfe202d0ae6a702a593805fb7349d4504f7",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丁酉",
+          "壬辰",
+          "庚子"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丁酉 壬辰 庚子；月将巳，甲申旬，午未空；驿马寅、丁马亥、天马申；课体「重审 不备 乱首」；图上无年命、无所问之事",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0065": {
+      "status": "proposed",
+      "case_file_sha256": "6baab806e2128624518763af8b8ff95c65201e6bceb55ad643f486fe0c53ec26",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+        "IMAGE_LEDGER_TIME_MISMATCH",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "壬午",
+          "丙午"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丙申 壬午 丙午；「月将:巳将 甲戌旬 申酉空」；课体「元首，退茹，六仪，斩关」；课义「关隔频频，虎戌临身，退求生意，空亡后蹲」；盘面无年命、无所问之事",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0067": {
+      "status": "proposed",
+      "case_file_sha256": "720eba579bece97d2664b8c381bffac246401b4cb430a83cf0ba1e50985712a9",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "SPECIAL_DIVINATION_METHOD"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "乙巳",
+          "辛巳",
+          "癸未",
+          "庚申"
+        ],
+        "source_month_general": "酉",
+        "source_chart_description": "四柱 乙巳 辛巳 癸未 庚申；月将酉，盘图注「活时起课 巳时」；下部被裁切，未见图上标注的课体名与所问之事",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261018-0069": {
+      "status": "proposed",
+      "case_file_sha256": "540fe4e50e6b7bb6eb7f10c94085ca358ca8044a5c02feddb5b0330d335566b7",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "壬午",
+          "丁未"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丙申 壬午 丁未；月将巳，空亡申酉；课体「元首，斩关，间传」；课义「阳拱阳神，两贵为邻，辰酉合定，酒色败身」；另标真太阳时 13时15分（未采用）",
+        "other_input": "未注明"
+      }
+    }
+  }
+}

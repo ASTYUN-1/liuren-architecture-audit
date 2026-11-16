@@ -1,0 +1,146 @@
+[
+  {
+    "path": "project/output/liuren-consistency-20261109/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "0de8c4e6ce6095dd66f28b429d58629b564a3837afc4924069316d6dfde3454f",
+    "export_sha256": "d110aaff13e56a2bc67ddd2379bd273fdc1b5f0f357b2f2f99947d07f9e82586"
+  },
+  {
+    "path": "project/output/liuren-core-handoff-20261107/native_host_checks.py",
+    "kind": "credential-redaction",
+    "original_sha256": "e409a30e5b933deea7faed34febe03188e29d1223cd8be39b0a32bda99b522d1",
+    "export_sha256": "8bda9faf6ef7d10fe396466c9eb1232110713bcddd67aa8353d0d12a6dd27d14"
+  },
+  {
+    "path": "project/output/liuren-event-positioning-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "12cc2e09d9e12198f63ce9b7843466c68b2a48fb1e5bc4e7e76e994d825fe158",
+    "export_sha256": "860d766ae52e9c29b766c8fa6c80a6771242582e5dea00c2ad40b3ab3ee201c1"
+  },
+  {
+    "path": "project/output/liuren-flow-repair-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "12cc2e09d9e12198f63ce9b7843466c68b2a48fb1e5bc4e7e76e994d825fe158",
+    "export_sha256": "860d766ae52e9c29b766c8fa6c80a6771242582e5dea00c2ad40b3ab3ee201c1"
+  },
+  {
+    "path": "project/output/liuren-handoff-audit-20261106/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "51f01664a1781afb05070465ad4744e0618dd586cd078c926b9e96df20113455",
+    "export_sha256": "8ad3a066d9b22e64e3d55770f181b01667410b39808e290e741bd3927b04a1a1"
+  },
+  {
+    "path": "project/output/liuren-natural-positioning-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "12cc2e09d9e12198f63ce9b7843466c68b2a48fb1e5bc4e7e76e994d825fe158",
+    "export_sha256": "860d766ae52e9c29b766c8fa6c80a6771242582e5dea00c2ad40b3ab3ee201c1"
+  },
+  {
+    "path": "project/output/liuren-packet-failure-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "12cc2e09d9e12198f63ce9b7843466c68b2a48fb1e5bc4e7e76e994d825fe158",
+    "export_sha256": "860d766ae52e9c29b766c8fa6c80a6771242582e5dea00c2ad40b3ab3ee201c1"
+  },
+  {
+    "path": "project/output/liuren-palace-integration-20261109/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "326ff1fd54903b500dc0fedfb05bb709540f860e1a8ec42874191bc55c13df4c",
+    "export_sha256": "cc2e6ebe103db1d7ec751bdbf29c4eccc4e21193a3ba6b2d4b1dbfcd8a9da9a0"
+  },
+  {
+    "path": "project/output/liuren-receipt-fix-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "12cc2e09d9e12198f63ce9b7843466c68b2a48fb1e5bc4e7e76e994d825fe158",
+    "export_sha256": "860d766ae52e9c29b766c8fa6c80a6771242582e5dea00c2ad40b3ab3ee201c1"
+  },
+  {
+    "path": "project/output/liuren-schema-compat-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "326ff1fd54903b500dc0fedfb05bb709540f860e1a8ec42874191bc55c13df4c",
+    "export_sha256": "cc2e6ebe103db1d7ec751bdbf29c4eccc4e21193a3ba6b2d4b1dbfcd8a9da9a0"
+  },
+  {
+    "path": "project/output/liuren-slim-flow-validation-20261107/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "8ff07b4e11455458acbc7085f9dbdf45ac84808b4df306a4bca8aa2f358d93ce",
+    "export_sha256": "2cbddd9fb9c4a83390cc6c518be4e0f2bea9538bda951901dff4ff4a47821b62"
+  },
+  {
+    "path": "project/output/liuren-stability-audit-20261107/native_host_checks.py",
+    "kind": "credential-redaction",
+    "original_sha256": "a898137258ef3eb072bdc57b53516e113aa815b7e78410ffe49b24a388947b76",
+    "export_sha256": "3a60a722df36ae711670bd27a94f69d62acc5c32008a7c95403f11325b2d1cfb"
+  },
+  {
+    "path": "project/output/liuren-stalled-child-repair-20261107/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "5a7a12206eb3bc1f4dd3715d0d8d2084de2596f7a1bd7e6bc481f93e7757faa8",
+    "export_sha256": "f31057ffa3a5f63506abcc716e18ec713b929fa80f0e318ade3711feeffdaa4b"
+  },
+  {
+    "path": "project/output/liuren-system-audit-20261106/before/tools/verify-domestic-entry.py",
+    "kind": "credential-redaction",
+    "original_sha256": "3dcf8f101bf48399a40a42f3aaf7c4bca63f63baa488b1f0704b6c36c5e3ed4d",
+    "export_sha256": "3506f2a0f8b1c0d05a5a2ce0c5dbe39d475dd9dab9cdee2fa1a92bebe46ac521"
+  },
+  {
+    "path": "project/output/liuren-system-audit-20261106/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "9af115ec779ae12540d24a8dd41947e59d588288786373454143b7697241c918",
+    "export_sha256": "a059799ce0d3393073beef96be2612e2bc08151d6bf6bcf03cb833c7e5ef3ae4"
+  },
+  {
+    "path": "project/output/liuren-system-audit-20261106/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "378e013151d37b787700b82b9966118bbd662fed4fcc860a0a0e2cfbcf245e14",
+    "export_sha256": "1148d31576e3b10e7db84d08fc67f9644b1eaeb7fa4aa0916d571fa7d3e5d900"
+  },
+  {
+    "path": "project/output/liuren-token-limit-audit-20261107/capture_native_adapter.py",
+    "kind": "credential-redaction",
+    "original_sha256": "2be6c7ff87cebbff7be44070a65c2ea6f44b94a85764d3bba0640af0ecc2f79d",
+    "export_sha256": "a34523cfcc44b73041fe96ff00505859382f39ba66c2ef6648d6e4f913ca564c"
+  },
+  {
+    "path": "project/output/liuren-token-limit-audit-20261107/capture_native_adapter_30.py",
+    "kind": "credential-redaction",
+    "original_sha256": "c374aa9a70f7059130a3b115eb4125244c662fbbe27645dc5403b68ecfdca809",
+    "export_sha256": "16b85cdfb798393bd2afad867ea915ac2c9f0cc7696119651552d185836021d8"
+  },
+  {
+    "path": "project/output/liuren-tool-contract-20261106/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "f13f246fa7c336966cf254e3f7b379a9cec5f91ca6ac74f3d7d5fe3718732e9a",
+    "export_sha256": "cc25654e71102fc8ed0f73ec1727373cf9e87fc58a2cfcef387c3f49a4a490b5"
+  },
+  {
+    "path": "project/output/liuren-tool-contract-20261106/host_packet.py",
+    "kind": "credential-redaction",
+    "original_sha256": "011abda824ccc757594029fbe207d6aec16c3b5924a6ab18ad6e37679d95582e",
+    "export_sha256": "ba5f84f8ec36286570a3e5962e4731f1469843b2c2e3f754b901fb816eb46b01"
+  },
+  {
+    "path": "project/output/liuren-tool-upgrade-20261109/probe_opencode.py",
+    "kind": "credential-redaction",
+    "original_sha256": "326ff1fd54903b500dc0fedfb05bb709540f860e1a8ec42874191bc55c13df4c",
+    "export_sha256": "cc2e6ebe103db1d7ec751bdbf29c4eccc4e21193a3ba6b2d4b1dbfcd8a9da9a0"
+  },
+  {
+    "path": "project/output/liuren-workflow-review-20261106/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "a92b32b1dce0537c50dba3c8d1bf6fbfbd645a3a8c1603b0398f565df3643058",
+    "export_sha256": "76f5dcafeaf8bd4059a9a2edbb4f1425aa6cf7c8a87b0123e6437c6094073b43"
+  },
+  {
+    "path": "project/output/liuren-workflow-review-final-20261106/host_chain.py",
+    "kind": "credential-redaction",
+    "original_sha256": "a92b32b1dce0537c50dba3c8d1bf6fbfbd645a3a8c1603b0398f565df3643058",
+    "export_sha256": "76f5dcafeaf8bd4059a9a2edbb4f1425aa6cf7c8a87b0123e6437c6094073b43"
+  },
+  {
+    "path": "project/output/workflow-optimization-20261102/candidate/tests/workflow-optimization.test.ts",
+    "kind": "credential-redaction",
+    "original_sha256": "fcbe4aeabe09cb70d5acc953a5baa062fbcf20123cfb6089d97e92d7edf69c2b",
+    "export_sha256": "834fff2153e7f3bcc2401818145f77ae716d793dfd0a4ba975878a2d241857e9"
+  }
+]

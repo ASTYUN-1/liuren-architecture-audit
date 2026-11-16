@@ -1,0 +1,37 @@
+{
+  "release": "20261106-flow-recovery-12",
+  "activePointerMatches": true,
+  "newRuntimeFilesIntact": true,
+  "oldRuntimeUnchanged": true,
+  "testCount": 156,
+  "testsPassed": 156,
+  "testLogSha256": "00460c7c095e3a12463bc8981e915c7030118b2f079d23981bfc07e83d02222c",
+  "doctorRuntime": {
+    "release": "20261106-flow-recovery-12",
+    "method_version": "4817ea7b1f19f1669c05ffd66dfa79173307b5576ebed43bc334ff506ecb2375",
+    "files": 98,
+    "modules": 59,
+    "groups": [
+      "liuren"
+    ]
+  },
+  "doctorProgramChart": {
+    "ok": true,
+    "pillars": [
+      "丙午",
+      "乙未",
+      "庚戌",
+      "癸未"
+    ],
+    "heaven_earth": 12,
+    "shensha_release": "20261106-flow-recovery-12"
+  },
+  "doctorOverallOk": false,
+  "doctorRemainingResearchIssues": 85,
+  "doctorErrors": [
+    "research mechanical validation has gaps"
+  ],
+  "realModelCalled": false,
+  "predictionAndLatencyValidated": false,
+  "restartOpenCodeRequired": true
+}

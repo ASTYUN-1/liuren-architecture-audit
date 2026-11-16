@@ -1,0 +1,73 @@
+{
+  "skill": "yingqi-panduan",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我朋友出差了，大概一周左右回来，你帮我看看他具体什么时候能到家？",
+      "expected_behavior": "应激活 yingqi-panduan, 并先定迟速（周内尺度）→ 再走两线定日期（五行法看申金被克待火灭之期 + 天将变化法看《心印赋》居位判辞）, 交叉输出具体到某日的应期并标注两线合断/单线独断的置信度",
+      "notes": "正面\"何时归\"场景：成败（必归）已定, 只补时间维, 正是 A2 触发场景 1+2 的典型"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "年底前这笔工钱能讨回来吗？如果讨得回来，大概什么时候？",
+      "expected_behavior": "应激活 yingqi-panduan, 并先确认吉凶（干支互传·传递之象则必得）→ 太岁发用先定迟速为年内数日 → 再用天将变化法（蛇居丑月无力、凶神没则吉事来）定具体讨回日期, 输出应期+置信度",
+      "notes": "正面\"讨回/何时\"场景, 与书中案例 2（占能否讨回工钱）完全同构, 成败已定补时间维"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我的执业证书大概什么时候能发下来？什么时候能拿到手？",
+      "expected_behavior": "应激活 yingqi-panduan, 并先定迟速（发放在月内/年内）→ 两线定日期（天将变化法找\"贵人\"等关键天将达到何位即发放 + 五行法查催动元素旺衰）, 输出发放/到手的应期与置信度",
+      "notes": "正面\"发放/拿到/什么时候\"场景, trigger 词\"发放/什么时候\"直接命中"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "公司说年底可能给我升职，那大概什么时候能升？会不会很快？",
+      "expected_behavior": "应激活 yingqi-panduan, 并先定迟速确认时间尺度（年内/很快/快不快）→ 再定具体日期, 若两线冲突则复查迟速或声明单线独断降置信度, 输出升迁应期",
+      "notes": "正面待办节点确认场景（A2 场景 4）：事件已在进行, 确认\"还有多久/快不快\", 升迁属 composes-with 的 shengzhi-jiaxin 结论后的时间延伸"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下 2026 年 8 月 6 日农历是几号？",
+      "expected_behavior": "不应激活本 skill, 因为这是纯历法日期换算, 无课传可占、无吉凶成败前提, 直接给出干支/农历换算结果即可",
+      "notes": "诱饵: 完全无关场景（历法计算）, 不含任何\"何时应验\"占断意图"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我跟朋友合伙开店，你帮我看看这事到底能不能成？",
+      "expected_behavior": "不应激活本 skill, 应激活 sanbu-duanke；应期必须建立在吉凶成败已定的基础上, 此处成败悬而未决, 须先走三步断课法（明占类→定侧重→看显象）出结论, 再回来补时间维",
+      "notes": "跨 skill 混淆诱饵 (硬性要求至少 1 条): 防止同书 skill 互相抢调用——\"吉凶未定先问成不成\"是 sanbu-duanke 的核心场景, 本 skill 的边界里明确禁止此情况"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "最近总觉得身体不对，你帮我看看是不是有什么灾病凶煞？",
+      "expected_behavior": "不应激活本 skill, 应激活 xiongsha-suduan；用户只问\"有无灾病\"的吉凶定性、完全未问时间维度, 凶煞速断（旬丁/白虎/勾陈/天空否定式过滤）才是首答, 待定出凶煞后再谈应期",
+      "notes": "跨 skill 混淆诱饵: 无时间维度的灾病查询归凶煞 skill, 本 skill 只管\"何时\"不管\"有无\""
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "太岁发用是不是就表示应验在年内？",
+      "expected_behavior": "边界判定为可激活但须纠正依赖：涉及\"年内\"时间信号可进入本 skill, 但\"太岁发用应年内\"是单一固定口诀, 作者明言此类速断\"基本上没有征验\"——应仍按先定迟速→两线定日期的流程走, 口诀只作大尺度线索之一, 并提示 ce07 风险",
+      "notes": "边界: trigger 词\"年内\"命中, 但依赖单一口诀速断是作者明确警告的禁区（ce07/ce08）"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "我能讨回工钱吗？能的话什么时候能讨到？",
+      "expected_behavior": "边界判定为本 skill 不直接开工：成败（能不能讨回）尚悬而未决, 应先将\"能不能讨回\"交 cailu-panduan 判定（传递之象必得）, 取得结论后再回本 skill 断应期——串联不可合并, 顺序不可颠倒",
+      "notes": "边界: 成败与时间双问混在一起, 前置吉凶判断未完成, 属 A2 触发场景 2 的\"成败已定\"前提不成立的情况"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0)。诱饵类型: 1 条完全无关场景（历法计算）+ 2 条同书兄弟 skill 混淆（sanbu-duanke 成败前置 / xiongsha-suduan 灾病定性）。"
+}

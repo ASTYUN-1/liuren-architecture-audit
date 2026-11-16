@@ -1,0 +1,129 @@
+{
+  "nativeUiSha256": "40a4daecddd56b240d0696d55223b8d6021f63f156c2e4ac7aa90e8b8d4c12a8",
+  "method": "sizhu_sel_fun",
+  "nativeMonthDefaults": [
+    {
+      "month": "子",
+      "general": "丑",
+      "website": "丑"
+    },
+    {
+      "month": "丑",
+      "general": "子",
+      "website": "子"
+    },
+    {
+      "month": "寅",
+      "general": "亥",
+      "website": "亥"
+    },
+    {
+      "month": "卯",
+      "general": "戌",
+      "website": "戌"
+    },
+    {
+      "month": "辰",
+      "general": "酉",
+      "website": "酉"
+    },
+    {
+      "month": "巳",
+      "general": "申",
+      "website": "申"
+    },
+    {
+      "month": "午",
+      "general": "未",
+      "website": "未"
+    },
+    {
+      "month": "未",
+      "general": "午",
+      "website": "午"
+    },
+    {
+      "month": "申",
+      "general": "巳",
+      "website": "巳"
+    },
+    {
+      "month": "酉",
+      "general": "辰",
+      "website": "辰"
+    },
+    {
+      "month": "戌",
+      "general": "卯",
+      "website": "卯"
+    },
+    {
+      "month": "亥",
+      "general": "寅",
+      "website": "寅"
+    }
+  ],
+  "reverseDates": [
+    "1964-06-30 10:00:00",
+    "2024-06-15 10:00:00"
+  ],
+  "website": {
+    "pillars": {
+      "y": "甲辰",
+      "m": "庚午",
+      "d": "庚戌",
+      "h": "辛巳"
+    },
+    "monthGeneral": "未",
+    "sike": [
+      [
+        "玄武",
+        "戌",
+        "庚"
+      ],
+      [
+        "天后",
+        "子",
+        "戌"
+      ],
+      [
+        "天后",
+        "子",
+        "戌"
+      ],
+      [
+        "腾蛇",
+        "寅",
+        "子"
+      ]
+    ],
+    "sanchuan": [
+      [
+        "初",
+        "子孙",
+        "壬",
+        "子",
+        "天后",
+        " "
+      ],
+      [
+        "中",
+        "妻财",
+        "空",
+        "寅",
+        "腾蛇",
+        "○"
+      ],
+      [
+        "末",
+        "父母",
+        "甲",
+        "辰",
+        "六合",
+        "⨀"
+      ]
+    ],
+    "date": null
+  },
+  "allNativeDefaultsMatch": true
+}

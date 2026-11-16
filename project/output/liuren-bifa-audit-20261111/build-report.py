@@ -1,0 +1,145 @@
+"""Build human-readable audit evidence; never install these findings as rules."""
+import collections, hashlib, json, re
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2]
+OUT=Path(__file__).resolve().parent
+def read(name):return json.loads((OUT/name).read_text(encoding='utf-8'))
+def write(name,data):(OUT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+rows=read('condition-audit-entries.json');charts=read('engine-720-geometries.json');summary=read('audit-summary.json')
+index={(x['day'],x['day_upper']):x for x in charts}
+book='书籍库/北海闲人/毕法赋全解-正式整理本.md'
+bs=(ROOT/book).read_text(encoding='utf-8').splitlines()
+oldbook='书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt'
+os=(ROOT/oldbook).read_text(encoding='utf-8-sig').splitlines()
+evidence=[]
+for line in sorted({line for r in rows for line in r['source_lines']}):
+    evidence.append({'path':book,'line_start':line,'line_end':line,'quote':bs[line-1],
+                     'sha256':hashlib.sha256((ROOT/book).read_bytes()).hexdigest(),'role':'后人注解/整理转录本'})
+for anchor in ['上下俱合格  如日干与上神作六合','贵覆干支格  缘干支上皆乘昼夜贵人例','有始无终难变易第三三','闭口卦体两般推第三八','空空如也事休追第七四','贵人差迭事参差第四六']:
+    ix=next(i for i,l in enumerate(os) if anchor in l)
+    end=ix
+    while end+1<len(os) and (not os[end].strip() or end==ix):end+=1
+    # The anchor paragraph is enough for identity; detailed accompanying text is
+    # separately preserved in the unchanged source, not silently reconstructed.
+    evidence.append({'path':oldbook,'line_start':ix+1,'line_end':ix+1,'quote':os[ix],
+                     'sha256':hashlib.sha256((ROOT/oldbook).read_bytes()).hexdigest(),'role':'古籍转录本/非原刻扫描'})
+write('source-evidence.json',evidence)
+
+bad=[r for r in rows if r['status']=='条件不符']
+partial=[r for r in rows if r['status']=='部分条件符合']
+lines=['# 错配与条件不足清单','',
+       '以下是导出条目的条件核对，不是预测效果评价。每行对应一个“日柱＋干上神＋原标签”；同一盘可以有多行。',
+       '完整四课、天地盘、昼夜天将与旬空见同目录 JSON。表中“不符”指所写构成条件不符，不表示同盘其他毕法也全部无效。','',
+       '## 所列结构或位置不符','', '|日柱|干上神|原标签|三传|逐项核对|','|---|---|---|---|---|']
+for r in bad:
+    x=index[(r['day'],r['day_upper'])]
+    facts='；'.join(k+'='+str(v) for k,v in r['conditions'].items())
+    lines.append('|'+r['day']+'|'+r['day_upper']+'|'+r['label']+'|'+'→'.join(t[3] for t in x['sanchuan'])+'|'+facts+'|')
+lines+=['','## 仅部分所列条件成立','', '|日柱|干上神|原标签|逐项核对|','|---|---|---|---|']
+for r in partial:
+    facts='；'.join(k+'='+str(v) for k,v in r['conditions'].items())
+    lines.append('|'+r['day']+'|'+r['day_upper']+'|'+r['label']+'|'+facts+'|')
+lines+=['','## 字段混入与编号问题','']
+for r in rows:
+    if r['text_flags'] or r['status']=='导出污染':lines.append('- '+r['day']+'，干上'+r['day_upper']+'：`'+r['label']+'`。'+('；'.join(r['text_flags']) or '不是毕法条目，且课义末句截断。'))
+lines+=['','## 单独保留的口径差异','',
+        '第46法共有1295条“贵在干前/后”相关标签。逐盘比对表明，全部与贵人支相对于日干寄宫的自然地支前后位置吻合；其中690条不符合北海按“干上天将居贵前五、贵后六”判贵前后的方法。',
+        '这690条登记为“口径待核”，没有混入上面的已确认错配。按当前来源引用使用时，必须说明采用哪一前后定义；不把标签直接理解成“贵人差迭正格已成”。',
+        '第22法的“上下俱合”也有同名异义：《大全》用干与干上、支与支上的两组纵向六合，北海整理本同名段落则用上下两层横向六合。引擎的10条B类标签符合《大全》，本轮未判错。','']
+(OUT/'错配与条件不足清单.md').write_text('\n'.join(lines),encoding='utf-8')
+
+status=summary['status_counts']
+report=f'''# 毕法赋导出内容正确性核查
+
+本轮结论：原引擎能够导出毕法，但这份列表不能作为“本盘已逐条验成立”的事实直接进入研判。已确认存在结构或位置错配、部分条件成立、编号错误及非毕法文字混入。也有大量可确认的正确结构，不能因此把整份毕法资料判废。
+
+## 核查对象与范围
+
+- 当前原引擎的 `GetBiFa(日柱, 干上神)` 是60日柱×12种干上神的查表函数。已导出全部720格，并逐盘确认查表参数与第一课上神一致。
+- 又生成同一720格各自的昼贵、夜贵版本，共1440份天将盘，按标签所写昼夜核对，没有把“夜占候选出现在昼盘列表”本身判成错误。
+- 全表共9075行、250种不同原始文本；去除错号后，题名涉及67法。100法不是100个都能仅凭固定天地盘几何条件判断的开关。
+- 选8个问题盘，经当前校验引擎哈希的正式 worker 与原页面 JSON 导出器再次复现，导出 `raw.bifa` 均与720查表一致。问题存在于原标签及其条件表达，不是本轮抄录产生。
+- 本轮核查导出标签与程序盘结构是否相符，未重新验算九宗门取传算法，也未验证任何吉凶预测效果。四柱采用手动输入以遍历盘式，不代表720个实际占时。
+- 主要对照北海《毕法赋全解》整理本，并对关键定义回查项目内《六壬大全》转录本；两者均不等于原刻扫描验校。出处、原句、行号与哈希另存。
+
+## 已确认的具体问题
+
+|问题|盘面与输出|核查结果|
+|---|---|---|
+|第32法结构错配|乙巳日、干上巳，三传未→申→酉，却列“三传互克众人欺”|土→金→金，既非初克中、中克末，也非末克中、中克初；正格不成立。|
+|第38法批量错配|“Ⅴ.旬尾加旬首”共60条|60条全部不满足旬尾加旬首。这60盘的天地盘旋转差均为偶数，而旬尾比旬首前进9支，几何条件根本不同。不能因同属“闭口”标题就补足该明确条件。|
+|第24法方向错配|丁卯日、己卯日，均干上亥，三传未→亥→卯，却列“干传支”|支上未在初传，干上亥在中传，是支→干方向；已把中末、初中及干支二课扩展纳入检查，仍不符合所写方向。|
+|第33法细分错配|乙卯日、干上寅或申，都列“Ⅰ.初生末墓”|分别为丑→亥→酉、未→亥→卯；都不是乙木初亥长生、末未墓。后者尤其更接近初墓的相反方向，不可照“初生末墓”读。|
+|第61法位置自相矛盾|六个辛日，干上丑，却列“昼虎不临干”|昼盘的丑墓白虎实际就在干上，所写“不临干”不符。墓虎本身可成立，错误在位置限定。|
+|第85法夹克不全|辛卯日、干上申，列昼占初遭夹克|初传亥坐丑，受丑土克；昼将白虎金却生亥水，未形成地盘、天将共同夹克初传。|
+|编号及题名错误|甲子日、干上寅列“4.贵人差迭…”；壬寅日、干上辰列“84.不传行者考初时”|前者应属46法。后者指向82法且语序有误，84法实际是“合中犯煞蜜中砒”；不能靠数字调用相应规则。|
+|字段混入|癸未日、干上卯的毕法尾部含“课体：…”“课义：传及支干，总下”|不是毕法条目，课义还截断。必须作为污染文字处理。|
+
+60条“旬尾加旬首”中只有10盘是伏吟，其余为其他盘式；不是“全部60伏吟盘都有该标签”。例如甲子日伏吟，子仍临子、酉仍临酉，不能说酉加子。此前进度中的“60个伏吟盘”表述已更正。
+
+## 部分条件成立，不能整条采用
+
+本轮有34条只满足部分检查条件，已逐条列出。例如：
+
+- “干受上神生，干寄宫受上神克”：12个乙日盘中，干上子或亥确实生乙，但水不克乙寄宫辰土。前半句对，后半句不对。
+- 戊辰日干上午，支上巳，确有日禄临支；但支辰土不是巳火的墓，不能同时采纳标签中的“禄被支墓”。
+- 三传日辰内战类有3盘，只具备所列部分下克上关系。不能因“三传受克”就补成日、辰、三传全部内战。
+- “昼夜贵加”有14条只确认上下相加，课传未见上层贵人；年命未提供，不能补称六处成立。是否因年命成用须另查。
+- 4条“来去俱空”确认了返吟，却没有三传全部旬空或落空。只能保留返吟结构，不可直接套完整标题。
+
+## 已核对的正确部分与未完成部分
+
+|本轮逐行状态|条数|含义|
+|---|---:|---|
+|结构符合|{status['结构符合']}|该行明确列出并已定义的结构条件符合；不代表标题中的吉凶、迟速、结果也已成立。|
+|需昼夜条件|{status['需昼夜条件']}|无昼夜限定的标签仅在某一昼夜分支可成立，使用前须与实际盘筛选。|
+|部分条件符合|{status['部分条件符合']}|有关系成立，但不足以确认所列全式。|
+|条件不符|{status['条件不符']}|所列结构或位置不符，共涉及71个不同盘式；一盘可有多条错配。|
+|口径待核|{status['口径待核']}|第46法前后定义不同，未混入已确认错误。|
+|待核|{status['待核']}|细分类格尚未完成独立语义定义，或年命、特殊口径等资料不足。不能当作默认通过。|
+|非毕法文字|{status['导出污染']}|课体、截断课义混入。|
+
+另有2条错号记录，属于独立的文字质量标记，与上述状态可能重叠，不能再相加计算总量。这些数字不是“正确率/错误率”，因为全100法的所有细分条件尚未验收。
+
+可明确肯定的例子：第5法六阳60条、第6法六阴94条、无后缀第31法递生84条、第51法戌加亥15条、第52法辰加寅60条，均符合本轮检查的几何条件。第32法无后缀33条中32条符合、1条不符。逐法覆盖见《百法覆盖表》。
+
+对漏报另做了有限探查，例如递生几何存在而不见第31法标签、戌加亥存在但未发用时不列第51法；这只能说明导出并非穷尽扫描，不能直接把所有未列出的法都定为漏算。也不能用“未输出某法”反推本盘不存在该关系。
+
+## 两处需要区分来源定义
+
+“上下俱合”：《大全》明说日干与干上合、地支与支上合；北海同名段落用上神彼此合、下神彼此合。引擎10条B类符合《大全》，本轮排除了按另一同名定义造成的误报。这是关系定义不同，暂未形成必须由用户裁决的吉凶互斥问题。
+
+“贵在干前/后”：1295条标签均符合贵支相对日干寄宫自然支位的前后划分；其中690条与北海按干上天将判前后的方法不同。这是已定位的实现口径差异，不能一边引用北海的条件解释，一边无说明地套用引擎标签。本轮保留待核，不修改现行方法。
+
+## 当前进入研判的路径
+
+原页面 `index.html:2191` 导出 `bifa: P.BiFa`；当前 `tools/liuren-direct/chart.mjs` 的 `factsFromRaw` 未收录该字段，`liuren-chart-view.mjs` 与核心交接也没有每盘毕法列表。因此，当前常规裁决盘没有自动整批传入本轮这些原标签；原始归档及原页面仍有它们。
+
+这不代表毕法思想完全没有使用：核心及结构方法中仍有制救、递生递克、阴神、空亡等内容，活动 `references/bifa.md` 也要求排盘标签只作候选并回读原法。本轮没有统计真实研判中的实际使用频率，不能用静态代码声称“每次都读过/完全没用过”。
+
+## 使用结论与交付边界
+
+现阶段应把原毕法导出视为待核候选索引。已确认错配的行不应作为该盘事实使用；部分符合的行只能保留已核关系；未核行不能默认成立。后续若接入判断，应逐条输出原标签、采用的原文定义、实际条件与所缺条件，再按占类、位置、旺衰、空亡、制救讨论作用，不能直接把标题判辞当结论。
+
+本轮只写本目录的调查证据，没有修改引擎、活动41版、现行专业口径或网站。完整720格遍历已经完成；所有细分类格的语义核查尚未完成，不能称“百法全面验收通过”。
+
+## 文件与复核
+
+- `错配与条件不足清单.md`：72条不符、34条部分符合、错号和污染的逐盘清单。
+- `百法覆盖表.md` / `coverage-100.json`：标准100法逐法导出及本轮核查状态。
+- `condition-audit-entries.json`：9075行逐条状态、核查条件、来源行号与保留缺口。
+- `engine-720-geometries.json` / `engine-day-night-1440.json`：原程序四课三传、天地盘与昼夜天将证据。
+- `exporter-reproductions.json`：8个问题盘经正式导出器复现的原JSON。
+- `source-evidence.json` / `source-hashes.json`：实际所引原句、行号与来源哈希。
+- `audit-conditions.py`：独立按五行关系、坐标和旬首旬尾等核查，未调用原毕法表来裁真假。
+
+复现：先运行 `inspect-engine.mjs`、`inspect-variants.mjs`（进程时区设Asia/Shanghai），再运行 `audit-conditions.py`、`verify-exporter.mjs`、`build-report.py`。这些命令只重建调查文件。
+
+知识工作台的全库校验另有既存未通过记录（742条中657通过、85阻断），本轮未处理该无关队列，也未借其机械校验声称毕法语义正确。当前书籍来源在本目录单独按原文及哈希保存。
+'''
+(OUT/'核查报告.md').write_text(report,encoding='utf-8')
+assert sum(summary['status_counts'].values())==9075
+assert len(bad)==72 and len(partial)==34
+assert len({(r['day'],r['day_upper']) for r in bad})==71
+assert all((ROOT/e['path']).read_text(encoding='utf-8-sig').splitlines()[e['line_start']-1:e['line_end']]==e['quote'].splitlines() for e in evidence)
+print(json.dumps({'report_written':True,'entry_total':len(rows),'source_quotes_verified':len(evidence),'bad_entries':len(bad),'partially_matching':len(partial)},ensure_ascii=False))

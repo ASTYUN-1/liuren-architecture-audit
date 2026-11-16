@@ -1,0 +1,44 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261018-0001",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-qqwb20261018-0001.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\stage1_v2\\cases\\raw-qqwb20261018-0001.md",
+    "locator": "raw/records.jsonl 第 1 行（seq=0）detail 字段（mofan 字段为空）",
+    "shared_original_group": null,
+    "case_file_sha256": "f261e3121b2f0225d959ba5c65fe42f927e78dbe9380e0dc0940a08a3619d1cd",
+    "original_time": "未注明",
+    "source_text_sha256": "6ee55d5fd65ebe3c64cae75e3e8953879ead020af8eb905c03d4d9d09d793f59",
+    "image_evidence": null
+  },
+  "time": {
+    "precision": "unknown",
+    "datetime": null,
+    "issue": "MISSING_CALENDAR_DATE"
+  },
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "issues": [
+    "MISSING_CALENDAR_DATE",
+    "TIME_FIELD_SOURCE_MISMATCH"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

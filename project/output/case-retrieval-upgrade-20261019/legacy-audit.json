@@ -1,0 +1,54 @@
+{
+  "legacy_rows": 242,
+  "mapped_rows": 242,
+  "unmapped_rows": [],
+  "ambiguous_rows": [],
+  "files_without_unique_legacy_row": [],
+  "conflicting_files": [
+    {
+      "source": "案例项目库/事业占/case-014-raw-anli001-0007-分析复盘.md",
+      "fields": {
+        "编号": {
+          "source": "raw-anli001-0007",
+          "legacy": "case-014"
+        }
+      }
+    },
+    {
+      "source": "案例项目库/事业占/case-018-raw-anli002-0007-分析复盘.md",
+      "fields": {
+        "编号": {
+          "source": "case-0035",
+          "legacy": "case-018"
+        }
+      }
+    },
+    {
+      "source": "案例项目库/交易占/case-023-raw-anli001-0031-分析复盘.md",
+      "fields": {
+        "编号": {
+          "source": "case-0028(task_alias暂编号)",
+          "legacy": "case-023"
+        }
+      }
+    },
+    {
+      "source": "案例项目库/失物占/case-023-金手链环卫妇人捡走.md",
+      "fields": {
+        "技法": {
+          "source": "玄武太阴所临地盘定方位, 乾宫戌亥方位, 反吟卯酉为门户道路不取东西, 天后乘财发用=拾者女性, 类神不空物在, 反吟初末相同主速应, 喜事人家应天喜临戌",
+          "legacy": "玄武太阴所临地盘定方位(乾宫戌亥), 反吟卯酉为门户道路不取东西, 天后乘财发用=拾者女性, 类神不空物在, 反吟初末相同主速应, 喜事人家应天喜临戌"
+        }
+      }
+    },
+    {
+      "source": "案例项目库/官讼占/case-004-raw-qqwb20261018-0002a-分析复盘.md",
+      "fields": {
+        "编号": {
+          "source": "case-0050",
+          "legacy": "case-004"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "release": "20261102-integrated-01",
+  "status": "active",
+  "scope": "local-opencode",
+  "methodVersion": "09ee3b9b5f3c580539abb9ce323d542ae7cd4e5d80310794efc0c83cf9d0ae4a",
+  "runtime": "runtime/liuren/20261102-integrated-01",
+  "backup": "output/liuren-consolidation-20261102/workflow/backup",
+  "previousRelease": "20261027-quantity-02",
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "files": {
+    "liuren/daliuren/refs/daliuren-paipan.md": "e61eb4a57fcd681873b532149e6a3154f7c16060dd8fc37a86a78a81b3db29fb",
+    "liuren/daliuren/refs/judgment-workflow.md": "f14773c9560fab6ee8cccb0745634f557e9c5e84f3cff2a5dfe96d5682ea98ac",
+    "liuren/daliuren/refs/liqi-analysis.md": "1c6932ebf1a7b3d4069e78e2c88eee078f33d6b6acc84fedaae0d1c2315827f3",
+    "liuren/daliuren/refs/liqi-sources.md": "5bf894a2b6244f216c364b8d96ed3962ab4337d940730d41cde92ad3850ea0e5",
+    "liuren/daliuren/refs/rule-semantics.md": "f848cb3f71e3f1470e373ac238dff3151e883b0757e1a0fdaa79266b61a5dcbc",
+    "liuren/daliuren/refs/shensha-use.md": "cdd8d0f25892d48ba3c5830637c61683bd6d0c9029b04ff0d7b67e8e6cb19fc3",
+    "liuren/daliuren/SKILL.md": "2e7be65f2c4c1efee9f5fc85831ca4615a106f5494d25f712556201ea059d8b8",
+    "liuren/liuren-cases/refs/case-retrieval-v2.md": "34f6448b0d02e78d699199333d693cee6ee324954fd91650974fbc43312219a0",
+    "liuren/liuren-cases/refs/experience-retrieval-v2.md": "6e0c3681463430da7d7b302409cbc4aeedac8302030d91b2490cf3892e7cad4c",
+    "liuren/liuren-cases/SKILL.md": "18721682063616493eea8a1ce3948d2d433b24f3883d00009153bafe3d0b4ee4",
+    "liuren/liuren-extract/SKILL.md": "688c7746f29eb82efb80f83bb1ac8384d442ef56d6fef7904c59e4ec8eb524d9",
+    "liuren/liuren-tuiming/SKILL.md": "67306bdef655031db6f825779127e3402e906755666d50bc24a4403707c0c5b3"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract",
+    "liuren-tuiming"
+  ],
+  "groups": [
+    "liuren"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "ec9dfea449e16ffb474442f01b06c243b7132962de012974f1a148f25a888449",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  },
+  "workflowEntry": "tools/liuren-workflow.py",
+  "websiteChanged": false,
+  "workflowImplementation": {
+    "tools/liuren-workflow.py": "e9177fa3f956b454a95cf4e8cdb482cbca09a9e14205828ca10afd50a710064f",
+    "tools/liuren_workflow.py": "7209054052a0c8fd578ccc63cce5d7378e4d72e4c0f3fbe934e8b2282d65b4fa",
+    "tools/experience_retrieval.py": "38bfa82771a380a83dfd41c9f8848b4500f48e3867c088f25dcfe390e841eb65",
+    "tools/case_retrieval.py": "3aa6fa3acea58804133823a39b9d38387e202605ddf45fe40ef0157d8ad69f95",
+    "tools/liuren_research_overlay.py": "4c53b682870eb43ee7d5e57665860d11cc4d10e2513e7dd826349c8a7e8221c9",
+    "tools/liuren_knowledge_workbench.py": "bf15545597ab432ce8e9a1a8d9c1d081ec7fe01889c6241f5ba51bf163d3b34e",
+    "tools/liuren_book_cases.py": "7e6dfc12b2e29a4e3d197da7c6c19435e33e004c09bc685bb966a25cb7cb1c95",
+    "tools/liuren_book_reconstruction_verify.mjs": "23ed60ae2557ce9810735141043dd5a64e3b77fd8f00cb08891297e887a73139",
+    "tools/liuren_book_reconstruction.mjs": "baa426386d0bb87eedb372ebbed658dc74853304a1de4179cfc3f81dceafd149",
+    "tools/load-liuren-methods.py": "d745f4f8c0eaa4402f45f19f406ed987fc6ae379fd4f0d0088b8985c0ac5ba21",
+    "tools/load-liuren-procedure.py": "b9a582b9bc75207a199565006b86e7d215b0bec7efbcc5e325a1fc593306b924"
+  }
+}

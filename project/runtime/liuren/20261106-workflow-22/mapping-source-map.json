@@ -1,0 +1,148 @@
+{
+  "schema": "class-mapping-integration-source-v1",
+  "common_rules": [
+    "LR26-TXY-G01",
+    "LR26-TXY-G02",
+    "LR26-TXY-G03",
+    "LR26-TXY-G04",
+    "LR26-TXY-G05",
+    "LR26-TXY-G06",
+    "LR26-TXY-G07",
+    "LR26-TXY-G08",
+    "LR26-TXY-G09",
+    "LR26-TXY-G10",
+    "LR26-TXY-G11",
+    "LR26-TXY-G12"
+  ],
+  "domain_rules": {
+    "relationship": [
+      "LR26-TXY-C01",
+      "LR26-TXY-C02",
+      "LR26-TXY-C03",
+      "LR26-TXY-C04"
+    ],
+    "interpersonal": [
+      "LR26-TXY-C05",
+      "LR26-TXY-C06",
+      "LR26-TXY-C07",
+      "LR26-TXY-C25"
+    ],
+    "recruitment": [
+      "LR26-TXY-C07",
+      "LR26-TXY-C08",
+      "LR26-TXY-C09",
+      "LR26-TXY-C15"
+    ],
+    "promotion-salary": [
+      "LR26-TXY-C07",
+      "LR26-TXY-C08",
+      "LR26-TXY-C09",
+      "LR26-TXY-C15"
+    ],
+    "finance": [
+      "LR26-TXY-C06",
+      "LR26-TXY-C08",
+      "LR26-TXY-C10",
+      "LR26-TXY-C11",
+      "LR26-TXY-C12",
+      "LR26-TXY-C13"
+    ],
+    "exam": [
+      "LR26-TXY-C14",
+      "LR26-TXY-C15"
+    ],
+    "illness": [
+      "LR26-TXY-C16",
+      "LR26-TXY-C17",
+      "LR26-TXY-C18"
+    ],
+    "pregnancy": [
+      "LR26-TXY-C19",
+      "LR26-TXY-C20"
+    ],
+    "home": [
+      "LR26-TXY-C21",
+      "LR26-TXY-C22"
+    ],
+    "travel": [
+      "LR26-TXY-C23",
+      "LR26-TXY-C24",
+      "LR26-TXY-C25"
+    ],
+    "lost-person-object": [
+      "LR26-TXY-C26",
+      "LR26-TXY-C27"
+    ],
+    "weather": [
+      "LR26-TXY-C28",
+      "LR26-TXY-C29"
+    ],
+    "agriculture": [
+      "LR26-TXY-C30",
+      "LR26-TXY-C31",
+      "LR26-TXY-C32",
+      "LR26-TXY-C33"
+    ]
+  },
+  "new_rules": [
+    "LR26-SJ-H01",
+    "LR26-SJ-H02",
+    "LR26-SJ-H03",
+    "LR26-SJ-H04",
+    "LR26-SJ-H05",
+    "LR26-SJ-H06",
+    "LR26-SJ-T子",
+    "LR26-SJ-T丑",
+    "LR26-SJ-T寅",
+    "LR26-SJ-T卯",
+    "LR26-SJ-T辰",
+    "LR26-SJ-T巳",
+    "LR26-SJ-T午",
+    "LR26-SJ-T未",
+    "LR26-SJ-T申",
+    "LR26-SJ-T酉",
+    "LR26-SJ-T戌",
+    "LR26-SJ-T亥",
+    "LR26-SJ-J贵人",
+    "LR26-SJ-J螣蛇",
+    "LR26-SJ-J朱雀",
+    "LR26-SJ-J六合",
+    "LR26-SJ-J勾陈",
+    "LR26-SJ-J青龙",
+    "LR26-SJ-J天空",
+    "LR26-SJ-J白虎",
+    "LR26-SJ-J太常",
+    "LR26-SJ-J玄武",
+    "LR26-SJ-J太阴",
+    "LR26-SJ-J天后"
+  ],
+  "sources": {
+    "书籍库/北海闲人/北海闲人-神将释.txt": "79229f1e45dfdef83570cf909d194877a7d6b2c782bcdd6f25b957f69e9ebb87",
+    "书籍库/北海闲人/六壬金针_修正版.md": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+    "书籍库/现代著作/献给六壬天一群的六壬笔记-2023年.txt": "ad936a9da5bd32a803e911b341c1c350ead8ac7f0be2eaa28a3f45722541dc4d",
+    "书籍库/北海闲人/毕法赋全解-正式整理本.md": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+    "书籍库/现代著作/万占方编·十二地支类象信息（入门）.txt": "4dd273480b24c36f14ced69246b32670a543c10a19558ec3e47d1cfdf0abe643",
+    "书籍库/经典古籍/佚名/壬归.txt": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+    "书籍库/北海闲人/理法简易.txt": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+    "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+    "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt": "16b5c104551cb118aebe2651e4d1fdfb88945f464d3db933a6a21145e8f181bc",
+    "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt": "af0b11cc713bf323d7534cce8fdde912d3f93ddb78531b47b1bcb7b136c063f1",
+    "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt": "e3312f2d3910f14f809c8e364f7c38e96c2ca36557dd158a077a6052de06ec69",
+    "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af"
+  },
+  "source_priority": [
+    "北海闲人（含毕法讲解）",
+    "壬归",
+    "指南",
+    "毕法原文"
+  ],
+  "supplemental_sources": [
+    "粹言",
+    "心镜",
+    "断案",
+    "天一群笔记",
+    "万占汇编"
+  ],
+  "semantic_review": "本轮逐段审读与人工归纳声明；不是程序验证所得",
+  "independent_validation_count": 0
+}

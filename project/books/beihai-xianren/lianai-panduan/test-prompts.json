@@ -1,0 +1,73 @@
+{
+  "skill": "lianai-panduan",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "占我和她恋爱能不能成？",
+      "expected_behavior": "应激活 lianai-panduan, 走常法: 干为男支为女, 看干支上神关系——生合则终成眷属、冲克刑害则各奔东西, 对照课体断语（解离格/干支乘墓/人宅皆死/交车相合）, 输出成/散/先好后坏结论",
+      "notes": "恋爱成否直接问, 命中「恋爱能不能成」核心 trigger。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我暗恋一个女生, 占占她对我有没有意思？她心里还有没有别人？",
+      "expected_behavior": "应激活 lianai-panduan, 用常法干支上神关系断对方心意, 用变法第三者象（天后/妻财/太阴临干 + 官龙贵临支）与琐象（四课不备三课=三角关系）查有无第三者, 输出结论与风险标签",
+      "notes": "暗恋/对方心意/有没有别人场景, 命中 trigger。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "占一下我和男友的关系发展, 会不会分手？",
+      "expected_behavior": "应激活 lianai-panduan, 按常法→变法（年命倒置/第三者象）→琐象（勾陈鬼=为情痛苦、鬼临三四=防被骗）顺序执行, 输出成散结论、过程特征与婚期线索",
+      "notes": "关系发展/会不会散场景, 命中「关系发展」 trigger。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "什么时候能结婚？帮我占占婚期。",
+      "expected_behavior": "应激活 lianai-panduan, 查男女本命/行年相加临课传强信号（命中=婚必成）与太常发用婚礼之象, 给出成婚倾向与月将级婚期线索; 精确定日再转 yingqi-panduan",
+      "notes": "婚期场景, 命中「婚期」 trigger; 粗略婚期在本 skill、精细断日转应期模块。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "明天出门要带伞吗？帮我看看天气预报。",
+      "expected_behavior": "不应激活本 skill, 因为这是纯天气信息查询, 无恋爱对象也无课传盘面, 属于无关场景",
+      "notes": "诱饵: 完全无关场景（天气查询）。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占一下我和同事的相处关系, 最近工作上老有摩擦, 合不合得来？",
+      "expected_behavior": "不应激活本 skill, 应激活 renji-guanxi（一般人际相处/对方态度损益用损益矩阵, 恋爱 skill 只管「恋爱能否成/婚期」）",
+      "notes": "跨 skill 混淆诱饵（同书兄弟 skill renji-guanxi）: 同事相处 vs 恋爱成否, 主题错位。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我占一下今年的整体运势怎么样？",
+      "expected_behavior": "不应激活本 skill, 应激活 sanbu-duanke（三步断课法总入口, 明占类后转 shiyun-zonghe 综合时运断法）, 恋爱只是时运五维之一",
+      "notes": "跨 skill 混淆诱饵（同书总入口 sanbu-duanke）: 泛问综合运势非恋爱专项。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占我和我老婆的夫妻关系, 会不会离婚？",
+      "expected_behavior": "边界场景: 已婚夫妻的「相处质量/谁贤不贤」走 renji-guanxi 夫妻框架（p26）; 但「会不会离婚」的聚散成否判断归本 skill 常法（干支上神冲克刑害则散）。期望先澄清主问题侧重, 或按成散判断给出结论",
+      "notes": "边界: 已婚夫妻「相处」与「成散」两域交叉, renji-guanxi 与本 skill 共用 p26 框架。"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "帮我看看我一生的姻缘格局怎么样？婚姻会不会幸福？",
+      "expected_behavior": "问「一生姻缘格局/性格决定姻缘」应归 zhongshen-nianyun（终身与年运课法）, 而非本 skill; 本 skill 只管「当前/近期这段恋爱能否成」。期望区分时间尺度后再选 skill",
+      "notes": "边界: 恋爱成败（近期/单段）vs 一生姻缘格局（终身）, 时间尺度不同。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）。本文件诱饵构成: 1 条完全无关场景（天气查询）+ 2 条同书兄弟 skill 跨 skill 混淆诱饵（renji-guanxi 同事相处、sanbu-duanke 泛问综合运势）+ 2 条边界场景（已婚夫妻相处 vs 离婚成散、近期恋爱 vs 一生姻缘格局）。"
+}

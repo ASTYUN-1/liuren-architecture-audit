@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "release": "20261112-integrated-flow-49",
+  "parent_files_unchanged": 126,
+  "backup_files_verified": 15,
+  "runtime_files_verified": 130,
+  "modules_readable": 81,
+  "domains_planned": 17,
+  "source_spans_verified": 62,
+  "book_ids": [
+    "RG",
+    "LF",
+    "TY",
+    "QA",
+    "KN",
+    "TR",
+    "KE"
+  ],
+  "models_unchanged": true,
+  "validation_scope": "engineering_integrity_and_exact_source_spans",
+  "real_model_stability_verified": false,
+  "predictive_validation_count": 0
+}

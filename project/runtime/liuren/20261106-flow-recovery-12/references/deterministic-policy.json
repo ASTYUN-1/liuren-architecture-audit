@@ -1,0 +1,30 @@
+{
+  "schema": "liuren-deterministic-policy-v1",
+  "release": "20261106-deterministic-foundation-09",
+  "implementation": "tools/liuren-deterministic.mjs",
+  "growth": {
+    "profile": "element-forward-water-earth",
+    "start": {
+      "木": "亥",
+      "火": "寅",
+      "土": "申",
+      "金": "巳",
+      "水": "申"
+    },
+    "basis": [
+      "E02",
+      "E05"
+    ],
+    "notEquivalent": "engine growth.day_stem"
+  },
+  "seasonalProfiles": [
+    "four-seasons",
+    "quarter-earth"
+  ],
+  "seasonalSelection": "explicit source-conditioned; not automatically adjudicated",
+  "kinReference": "day stem by default; arbitrary reference explicit",
+  "relations": "existence and direction only; no efficacy or transformation",
+  "lifeRule": "references/nianming.md; verified nominal age required",
+  "numberSource": "references/quantity-sources.md; branch/stem/sheng/cheng only; no guessed general table",
+  "independentPredictiveValidationCount": 0
+}

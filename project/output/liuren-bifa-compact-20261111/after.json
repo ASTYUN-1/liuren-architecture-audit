@@ -1,0 +1,22 @@
+{
+  "release": "20261111-compact-bifa-44",
+  "runtime": "runtime/liuren/20261111-compact-bifa-44",
+  "methodVersion": "6a254e05ccd89a78725c097a40d30e39c1a5713dbb4d5f283b39bb3bb68fe8cb",
+  "files": {
+    "tools/liuren-chart-view.mjs": "2c50264c2dea45083e20a346466d38bafe35067cd5e24ea898949d09cba8466e",
+    "tools/liuren-core-handoff.mjs": "c004c433fd89690aeb19fc2de179c7b5851584aff46a67fb1ce4368ab7260df8",
+    "tools/tests/liuren-core-handoff.test.mjs": "6f4e725ded35a4e4c31f1cee064cbbeccac71e292c958c1dd449860db9e7a795",
+    "tools/tests/liuren-codex.test.mjs": "ba0274cba3eb64b05cc1013e9f45e415e68b125a984a82a36dbdfd8b422fe2c7",
+    ".opencode/liuren-active.json": "7029092cfd84a2e8a4b2b78fc52600951d0e061a45c575dfa10a736bf4b62eee",
+    "opencode.json": "90c82b6f3e58a195c597aa5277722a3b2bfe3df3dd40812a5a974855b1974bd4",
+    ".opencode/oh-my-opencode-slim.jsonc": "c84432e0284c6a554c5c64c597337cca3f3c17da5448d0b0684c902bfff392ed",
+    "README.md": "253ecacce4c990d0e2d72a6821163ad0de6417bc8f5391583a5b7887f5008b46",
+    "目录总索引.md": "e82b9eaf3c42415226527b6835c08390cb422dfcf3df9ed07cbd4dd0af23d3c9"
+  },
+  "new_files": [
+    "tools/liuren-bifa-view.mjs",
+    "tools/liuren-bifa-statements.json",
+    "tools/tests/liuren-bifa-view.test.mjs"
+  ],
+  "frozen43_unchanged": true
+}

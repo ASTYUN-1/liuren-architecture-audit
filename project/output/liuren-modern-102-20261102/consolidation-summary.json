@@ -1,0 +1,50 @@
+{
+  "schema": "liuren-modern-102-consolidation-v1",
+  "registered_complete_cases": 102,
+  "reused_complete_cases": 12,
+  "newly_reviewed_cases": 90,
+  "groups": {
+    "A": {
+      "cases": 27,
+      "subjudgments": 365,
+      "source_cards": 71
+    },
+    "A-tail": {
+      "cases": 3,
+      "subjudgments": 46,
+      "source_cards": 7
+    },
+    "B": {
+      "cases": 30,
+      "subjudgments": 272,
+      "source_cards": 38
+    },
+    "C": {
+      "cases": 30,
+      "subjudgments": 379,
+      "source_cards": 32
+    }
+  },
+  "all_subjudgments": 1225,
+  "new_subjudgments": 1062,
+  "source_cards": 148,
+  "canonical_operation_entries": 7,
+  "consolidated_families": 7,
+  "source_cards_with_canonical_route": 39,
+  "standalone_source_branches": 109,
+  "whole_card_predictive_equivalence_merges": 0,
+  "source_cards_deleted": 0,
+  "method_restoration_counts": {
+    "false": 69,
+    "true": 21,
+    "unknown": 12
+  },
+  "scope_exclusions": [
+    "BK26-MODERN-001",
+    "BK26-MODERN-010",
+    "BK26-MODERN-016",
+    "BK26-MODERN-047",
+    "BK26-MODERN-061"
+  ],
+  "independent_validation_count": 0
+}

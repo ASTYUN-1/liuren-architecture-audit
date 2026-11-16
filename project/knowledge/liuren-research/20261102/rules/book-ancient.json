@@ -1,0 +1,292 @@
+[
+  {
+    "schema": "liuren-rule-card-v1",
+    "id": "LR26-BOOK-ANCIENT-001",
+    "title": "失麦面案：贼人不机械锁定玄武，按食物与场所链参初中末",
+    "categories": [
+      "失物占"
+    ],
+    "claim_origin": "原文明示",
+    "review_state": "source_checked",
+    "status": "source_method",
+    "conditions": [
+      "问所失为麦面及何人所偷，原作者以巳炉灶、铸印、太常食业及中末人力合论。",
+      "编者明言此课不用玄武断贼，而以初传兼参中末。"
+    ],
+    "exclusions": [
+      "不凭食物类象先验认定现实盗贼职业。",
+      "没有原始侦查记录，叙事后知果是仅作原载结果。"
+    ],
+    "conclusion": "在本案以物品麦面、食物加工场所与三传人物类象串联偷者身份；保留作者不只锁定玄武的取用分支，不能反推所有失窃课都不用玄武。",
+    "reasoning_steps": [
+      "固定所失物为麦面及问题为何人，不把一般失物得否替代问人。",
+      "照原载巳炉灶、太常博士酒食，中末戌天空人力，得两人力合偷。",
+      "再由申麦面、阴神丑墓勾陈解释勾引，并保留后知结果与愚按评价。"
+    ],
+    "alternatives": [
+      "愚按称最合古法是编者评价，不是排他性证明。",
+      "人力、博士的历史身份与现代职业对照未知；同盘现代占病取象不形成反证或同案。"
+    ],
+    "evidence_refs": [
+      {
+        "path": "书籍库/现代著作/《壬占汇选》.txt",
+        "line_start": 687,
+        "line_end": 701,
+        "quote": "　某占失麦面，未知何人所偷，丁卯日卯将戌时。\n\n　　蛇 朱 合 勾\n\n　　戌 亥 子 丑　　　勾 后 常 合　　 兄 己巳 常 \n\n　贵酉　　　 寅青　　丑 申 巳 子　　 子 　戌 蛇 ◎\n\n　后申　　　 卯空　　申 卯 子 丁　　 父 丁卯 空 ⊙\n\n　　未 午 巳 辰\n\n　　阴 玄 常 虎\n\n　邵彦和曰：据此课象是人力勾引来偷去，后知果是人力与对门面店博士合偷。盖巳为炉灶，又铸印课，太常为博士，亦主酒食，中传戌为人力，末传天空，亦是人力，是两人力合偷也。申为麦面，阴神丑土墓之，而作勾陈，故主勾引也。方本。愚按此课不用元武断贼而以初传断贼兼以中末参之，最合古法。",
+        "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+        "role": "原书断语",
+        "author": "邵彦和及愚按；段落身份细分：原载断语与结果、后按"
+      }
+    ],
+    "support_case_ids": [
+      "BK26-ANCIENT-009",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L687-L701"
+    ],
+    "source_case_ids": [
+      "BK26-ANCIENT-009",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L687-L701"
+    ],
+    "counterexample_case_ids": [],
+    "legacy_entry_ids": [],
+    "relations": [],
+    "limitations": [
+      "只确认本案有该取用链条；本轮未重排、未验证一般预测效力。"
+    ],
+    "independent_validation_count": 0,
+    "reference_value": "保留邵彦和及愚按原载取用和推理；原载结果覆盖与事实核验另列，不因反馈未明否定方法价值。",
+    "method_development_exposed": true,
+    "method_type": "盗贼取用条件分支",
+    "logic_stages": [
+      "取用",
+      "类象链",
+      "反证"
+    ],
+    "organization_review": {
+      "state": "source_checked_existing_card_scope",
+      "decision": "retain_distinct_condition_branch",
+      "family": "失物取用条件",
+      "condition_branch": "麦面问偷者：物业场所链及初中末可代玄武；不等所有失物不用玄武。",
+      "no_new_efficacy_claim": true,
+      "independent_validation_count": 0
+    }
+  },
+  {
+    "schema": "liuren-rule-card-v1",
+    "id": "LR26-BOOK-ANCIENT-002",
+    "title": "任所定位失准后的暗拱解释须保留事后身份，不当固定地名算法",
+    "categories": [
+      "事业占"
+    ],
+    "claim_origin": "原文明示",
+    "review_state": "source_checked",
+    "status": "source_method",
+    "conditions": [
+      "郭御青起初以行年、官马、发用定位卫或燕，实际选新野而原说全无影响。",
+      "原文883明确称后详课数日夜才得暗拱地盘周地，并告诫后占也不必尽照此法。"
+    ],
+    "exclusions": [
+      "不得把事后解释作为本案原预测命中。",
+      "不将相似字、分野或暗拱任意映射所有地名。"
+    ],
+    "conclusion": "保存任所占先前候选和实际失准，再单列事后暗拱解释及作者自限；当前文本不足以把暗拱周地或字音新野变成通用可执行地名算法。",
+    "reasoning_steps": [
+      "按原文分别列初断卫燕、实际新野、后详暗拱周地的时间顺序。",
+      "保留官禄马行年之外的作者探索，同时明确原文未给完整映射步骤。",
+      "附录愚按以未将新/合野的另一解释，不合成为作者事前已知。"
+    ],
+    "alternatives": [
+      "编者字音法与郭御青暗拱法并非同一方法，均没有追加独立事件。",
+      "文内刘梦岩只提相关经历，不构成一份完整可复核的新课。"
+    ],
+    "evidence_refs": [
+      {
+        "path": "书籍库/现代著作/《壬占汇选》.txt",
+        "line_start": 869,
+        "line_end": 883,
+        "quote": "　山西姚君昌祚于崇正丁丑年五月戊辰日未将辰时占任所。\n\n　　龙 勾 合 朱\n\n　　申 酉 戌 亥　　　合 空 朱 龙　　 财 　亥 朱 ◎\n\n　空未　　　 子蛇　　戌 未 亥 申　　 官 丙寅 后 ⊙\n\n　虎午　　　 丑贵　　未 辰 申 戊　　 父 己巳 常 \n\n　　巳 辰 卯 寅\n\n　　常 玄 阴 后\n\n　郭御青曰此课天上行年加申为山西分野，岂有选本省之理。官马加临卫，初临燕。余初断非卫即燕，后选新野周分传课全无影响。余后详课情数日夜，乃得之。盖四课暗拱地盘周地也。此断在官禄马行年之外。余后占刘梦岩任所日干上见癸亥法从此出。课体隐现无穷，执一便谬。后遇占任所又不必尽照此法也。愚按占任所或占官职以支上测之多验，然取初交未将非新乎，合之非新野乎，如此取象难乎不难乎。",
+        "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+        "role": "原书断语",
+        "author": "郭御青及愚按"
+      }
+    ],
+    "support_case_ids": [
+      "BK26-ANCIENT-020",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L869-L883"
+    ],
+    "source_case_ids": [
+      "BK26-ANCIENT-020",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L869-L883"
+    ],
+    "counterexample_case_ids": [],
+    "legacy_entry_ids": [],
+    "relations": [],
+    "limitations": [
+      "作者亲自告诫执一便谬；仅确认其复盘和自限说法。"
+    ],
+    "independent_validation_count": 0,
+    "reference_value": "保留郭御青及愚按原载取用和推理；原载结果覆盖与事实核验另列，不因反馈未明否定方法价值。",
+    "method_development_exposed": true,
+    "method_type": "任所定位复盘与自限",
+    "logic_stages": [
+      "取用",
+      "方位定位",
+      "反证"
+    ],
+    "organization_review": {
+      "state": "source_checked_existing_card_scope",
+      "decision": "retain_distinct_condition_branch",
+      "family": "定位复盘与自限",
+      "condition_branch": "任所卫燕失准后暗拱周地和编者字音新野两支；作者明说后占不必尽照。",
+      "no_new_efficacy_claim": true,
+      "independent_validation_count": 0
+    }
+  },
+  {
+    "schema": "liuren-rule-card-v1",
+    "id": "LR26-BOOK-ANCIENT-003",
+    "title": "寻银两占：类神并见合断，方向取初传或类神所临须分前提",
+    "categories": [
+      "失物占"
+    ],
+    "claim_origin": "原文明示",
+    "review_state": "source_checked",
+    "status": "source_method",
+    "conditions": [
+      "1097初占银未见后1113明示再占，二课占时分别丑、酉。",
+      "1127吴稼云提出类神并见合断，愚按提出未见类神取初传、已见取类神所临。"
+    ],
+    "exclusions": [
+      "不把两次占课当两件独立验证事件。",
+      "不将金银类神或方向法扩大至所有失物类别而不核条件。"
+    ],
+    "conclusion": "保存初占未见与再占的同事件关系，按作者原说同时参酉及太阴等银类神的位置；方向取初传或类神所临须标明类神是否出现的前提，不可只选吻合结果的符号。",
+    "reasoning_steps": [
+      "1097–1111初课完整保留，1113原文未见再占说明初次不能直接记已寻得。",
+      "再课酉加午、太阴临水等按作者合断南方炉灶水湿处，盗者自家人另列子判断。",
+      "吴注与愚按分署，类神在传/加日辰不出日时的应期原说保留待核。"
+    ],
+    "alternatives": [
+      "初课从发用午巳蛇雀取炉灶、水遁取湿泥，吴另从传入巳末辰解炉灶水缸，不混成唯一链条。",
+      "果然一词覆盖的具体子判断不明，不能证明找出盗者及所有细节。"
+    ],
+    "evidence_refs": [
+      {
+        "path": "书籍库/现代著作/《壬占汇选》.txt",
+        "line_start": 1097,
+        "line_end": 1127,
+        "quote": "　某占失银，庚午日子将丑时。\n\n　　合 朱 蛇 贵\n\n　　辰 巳 午 未　　　合 朱 蛇 贵　　 官 庚午 蛇 \n\n　勾卯　　　 申后　　辰 巳 午 未　　 官 己巳 朱 \n\n　青寅　　　 酉阴　　巳 午 未 庚　　 父 戊辰 合 \n\n　　丑 子 亥 戌\n\n　　空 虎 常 玄\n\n　邵彦和曰：其物在南方,炉灶近水边，湿泥土中藏之，或落水缸畔中，有杨树枝及有水果处寻之。盖南方炉灶者，发用午巳蛇雀也，近水湿泥者，乃午未上遁得壬癸也。类神酉临火墓作太阴，是以银不出去也。吴稼云曰午发用南方也，传入巳故在灶下也，末见辰作六合,乃水缸也，方本占案。\n\n　某寻银未见再占庚午日子将酉时\n\n　　龙 勾 合 朱\n\n　　申 酉 戌 亥　　　蛇 勾 后 朱　　 兄 癸酉 勾 \n\n　空未　　　 子蛇　　子 酉 寅 亥　　 子 甲子 蛇 \n\n　虎午　　　 丑贵　　酉 午 亥 庚　　 财 丁卯 阴 \n\n　　巳 辰 卯 寅\n\n　　常 玄 阴 后\n\n　邵彦和曰银在南方炉灶前水湿处寻之，乃自家人盗耳。盖辰作元武，当主仆辈，酉作类神作勾加午，末传更见太阴临水，太阴亦类神也，故主在水湿处寻之，果然。凡占失物须看类神，类神在传或加日辰，定见传日不出日，传时不出时，宜秘之。方本。吴稼云曰大抵类神并见者，则合而断之，此秘诀也。今乃悟之矣。愚按类神未见，则以初传为方向类神，已见则以类神所临处为方向。",
+        "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+        "role": "原书断语",
+        "author": "邵彦和、吴稼云及愚按"
+      }
+    ],
+    "support_case_ids": [
+      "BK26-ANCIENT-036",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L1113-L1127",
+      "BK26-ANCIENT-035",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L1097-L1111"
+    ],
+    "source_case_ids": [
+      "BK26-ANCIENT-036",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L1113-L1127",
+      "BK26-ANCIENT-035",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L1097-L1111"
+    ],
+    "counterexample_case_ids": [],
+    "legacy_entry_ids": [],
+    "relations": [],
+    "limitations": [
+      "同事件两次盘需各自保存，不以第二次叙事倒灌初课命中。"
+    ],
+    "independent_validation_count": 0,
+    "reference_value": "保留邵彦和及吴稼云、愚按原载取用和推理；原载结果覆盖与事实核验另列，不因反馈未明否定方法价值。",
+    "method_development_exposed": true,
+    "method_type": "失物类神合断与应期",
+    "logic_stages": [
+      "取用",
+      "方位定位",
+      "应期",
+      "反证"
+    ],
+    "organization_review": {
+      "state": "source_checked_existing_card_scope",
+      "decision": "retain_distinct_condition_branch",
+      "family": "失物取用条件",
+      "condition_branch": "银物并见酉/太阴须合断；方向未见类取初、已见取所临；同事件初再占不增验证。",
+      "no_new_efficacy_claim": true,
+      "independent_validation_count": 0
+    }
+  },
+  {
+    "schema": "liuren-rule-card-v1",
+    "id": "LR26-BOOK-ANCIENT-004",
+    "title": "三人约同行以初末引从干辨先后，三次出发不算同行成功",
+    "categories": [
+      "出行占"
+    ],
+    "claim_origin": "原文明示",
+    "review_state": "source_checked",
+    "status": "source_method",
+    "conditions": [
+      "癸酉年冬郭与张、王约春正同行，郭以日干居中、初末引从断不能同日。",
+      "1403原载张庚寅先、郭乙未中、王壬子后，并以初末地盘解释各期。"
+    ],
+    "exclusions": [
+      "不能将所有初末引从干都判同行失败，须保留多人同约及该课结构前提。",
+      "不把同一同行事件的三人出发当三次独立验证。"
+    ],
+    "conclusion": "本案先区分每个人能出发与能否共同出发；按郭原说明，初末引从日干映射先后同行人，各期取初末地盘而本人取发用，保留为该案例中的来源方法。",
+    "reasoning_steps": [
+      "固定郭为日干，张王为约同行人，不能把三人都能动当同行已成。",
+      "原作者由初末引从干说一先一后，记录各自目标日期。",
+      "逐项保存正月初三庚寅、初八乙未及二十五壬子，不将三个日期合成一个应期。"
+    ],
+    "alternatives": [
+      "张王如何先验分别对应初末的步骤未详，不能据结果反配后称算法完整。",
+      "作者密示防人有意先就的说法只是自述，未证明实际没有影响。"
+    ],
+    "evidence_refs": [
+      {
+        "path": "书籍库/现代著作/《壬占汇选》.txt",
+        "line_start": 1389,
+        "line_end": 1403,
+        "quote": "　崇正癸酉年十二月癸酉日丑将申时占出行郭氏占案\n\n　　龙 空 虎 常\n\n　　戌 亥 子 丑　　　朱 玄 空 蛇　　 官 辛未 朱 \n\n　勾酉　　　 寅玄　　未 寅 亥 午　　 兄 甲子 虎 \n\n　合申　　　 卯阴　　寅 酉 午 癸　　 财 己巳 贵 \n\n　　未 午 巳 辰\n\n　　朱 蛇 贵 后\n\n　郭御青曰癸酉年冬，余与同胞内弟张君公函，王君肇与约春正公车同行，得此课。初末引从日干必不能同行。一在余先，一在余后也。果张公函于正月初三庚寅日先行，余于初八乙未日行，乃发用也。王君尚卜行期。余密示余弟季升王君必于子日行，今且勿言，言则有意先就矣。王君果于正月二十五壬子日行。盖张行于初传之地盘，王行于末传之地盘，干为余，居中真引从也，人一动一履，莫非前定奇哉。",
+        "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+        "role": "原书断语",
+        "author": "郭御青"
+      }
+    ],
+    "support_case_ids": [
+      "BK26-ANCIENT-050",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L1389-L1403"
+    ],
+    "source_case_ids": [
+      "BK26-ANCIENT-050",
+      "book:书籍库/现代著作/《壬占汇选》.txt:L1389-L1403"
+    ],
+    "counterexample_case_ids": [],
+    "legacy_entry_ids": [],
+    "relations": [],
+    "limitations": [
+      "原书日期和真实出行未外核；映射先验步骤不全。"
+    ],
+    "independent_validation_count": 0,
+    "reference_value": "保留郭御青原载取用和推理；原载结果覆盖与事实核验另列，不因反馈未明否定方法价值。",
+    "method_development_exposed": true,
+    "method_type": "多人同行角色与应期",
+    "logic_stages": [
+      "取用",
+      "过程结果",
+      "应期",
+      "反证"
+    ],
+    "organization_review": {
+      "state": "source_checked_existing_card_scope",
+      "decision": "retain_distinct_condition_branch",
+      "family": "结果与过程分层",
+      "condition_branch": "三人约同日：初末引从干区分先后，地盘与发用各取期；都能出发不等同行。",
+      "no_new_efficacy_claim": true,
+      "independent_validation_count": 0
+    }
+  }
+]

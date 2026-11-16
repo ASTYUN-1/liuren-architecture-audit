@@ -1,0 +1,77 @@
+{
+  "scope": "dispatch-smoke-only",
+  "directory": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+  "turns": [
+    {
+      "label": "A",
+      "status": "completed",
+      "prompt": "这是本机任务分发联调，不进行案例分析。禁止调用任何工具、子智能体、后台任务或其他模型。请仅回复 ACK-A-731。",
+      "session_id": "ses_eb205a17cffeVqCEjWYGrCjA1R",
+      "returncode": 0,
+      "text": "ACK-A-731",
+      "tool_names": [],
+      "error_types": []
+    },
+    {
+      "label": "B",
+      "status": "completed",
+      "prompt": "这是第二条独立任务分发联调。禁止调用任何工具、子智能体、后台任务或其他模型。请仅回复 ACK-B-842。",
+      "session_id": "ses_eb20507baffeDwzOacz3lKRIDW",
+      "returncode": 0,
+      "text": "ACK-B-842",
+      "tool_names": [],
+      "error_types": []
+    },
+    {
+      "label": "A-followup",
+      "status": "completed",
+      "prompt": "仍禁止调用任何工具、子智能体或后台任务。请先原样写出你上一轮回复的确认码，再单独一行回复 FOLLOWUP-OK。",
+      "session_id": "ses_eb205a17cffeVqCEjWYGrCjA1R",
+      "returncode": 0,
+      "text": "ACK-A-731\nFOLLOWUP-OK",
+      "tool_names": [],
+      "error_types": []
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses_eb205a17cffeVqCEjWYGrCjA1R",
+      "title": "批量分发联调-A-20261018-154655",
+      "directory": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+      "parentID": null,
+      "assistant_turns": [
+        {
+          "providerID": "deepseek",
+          "modelID": "deepseek-flash",
+          "finish": "stop",
+          "completed": 1792309654334
+        },
+        {
+          "providerID": "deepseek",
+          "modelID": "deepseek-flash",
+          "finish": "stop",
+          "completed": 1792309668874
+        }
+      ],
+      "tool_calls": []
+    },
+    {
+      "id": "ses_eb20507baffeDwzOacz3lKRIDW",
+      "title": "批量分发联调-B-20261018-154655",
+      "directory": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+      "parentID": null,
+      "assistant_turns": [
+        {
+          "providerID": "deepseek",
+          "modelID": "deepseek-flash",
+          "finish": "stop",
+          "completed": 1792309662021
+        }
+      ],
+      "tool_calls": []
+    }
+  ],
+  "child_session_count": 0,
+  "verified_no_tool_calls": true,
+  "verified_deepseek_only": true
+}

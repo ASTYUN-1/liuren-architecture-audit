@@ -1,0 +1,23 @@
+{
+  "release": "20261111-quantity-logic-46",
+  "runtime": "runtime/liuren/20261111-quantity-logic-46",
+  "methodVersion": "090015b5f89c2be07507db5b6631b8e6f4e84d8b903cd9292e7f4c27ed8028ff",
+  "files": {
+    "tools/liuren-flow-control.mjs": "063b49661427ad885cd161c7a3e076ac699107422f162d4380fa0af7c12219f6",
+    "tools/liuren-method-tools.mjs": "5440d9a9d42ba68d0fac22e3a496fdfc0348515dfae3947b9adeba630cebf7e1",
+    "tools/tests/liuren-flow-control.test.mjs": "fc5aafa9a797531354c48997468862614b8dd526411ae9dc56ddcdacb1a8f116",
+    "tools/tests/liuren-core-handoff.test.mjs": "d2f1b17cf89e51876733ac727af7d55c4ccf3e476445a4665594d559e4de93ab",
+    ".opencode/liuren-active.json": "bc813cd9d788c7dfc0870cc3795b456f0c023a7b8fef13e310fcbe2ae9d72ad1",
+    "opencode.json": "3de3005344e28a7c9371cf4de91ec96909fd02f099df25abd307fd180863a2b4",
+    ".opencode/oh-my-opencode-slim.jsonc": "8a5c5d1f86266d5b655188ecc35e69a69d6dfd213474c6fd1887f300be3b1d6d",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "e2adf30ec5a345708f4b58ecdc6b44f0683c043aed390b7da07cd6276d0d0ac1",
+    "integrations/codex/daliuren-codex/SKILL.md": "3eb07813bfb207fe236411481a61f30f95db5b8995cc00a59e9eb5fcd403e2f3",
+    "integrations/codex/daliuren-codex/references/host.md": "441f2e64fedadd28f13db181baad16cd52819c08949079be8ab72f9b5614ac29",
+    "README.md": "f4e7665168a8e620306534c4c7ede88ee298bde62ee8f0f06890a67dabd63b1e",
+    "目录总索引.md": "a17b9c077474354c044afb346252eff23adaabcb94e51199ee6e6c66c05a6048",
+    "AGENTS.md": "5af5a36cb42de0d5da23ac72ab0f6d0821d8d46b16d6c4508c20de263ec266ae",
+    "docs/本机六壬高效执行.md": "20ddfeb7ed6acf5fc83645dd27ec430af0fa7866e48ff6f131ae758c40864789"
+  },
+  "frozen45_unchanged": true,
+  "models_unchanged": true
+}

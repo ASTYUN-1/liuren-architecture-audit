@@ -1,0 +1,192 @@
+{
+  "staged_release": "20261103-class-mapping-01",
+  "issues": [],
+  "valid": true,
+  "research": {
+    "record_count": 730,
+    "passed": 730,
+    "blocked": 0,
+    "valid": true,
+    "complete": false
+  },
+  "modules": 58,
+  "dictionary_omitted_unless_selected": true,
+  "walkthrough_kind": "出处及阅读路径复核；没有实际预测与反馈",
+  "walkthroughs": [
+    {
+      "question": "朋友已经答应还钱，等实际到账",
+      "domains": [
+        "finance"
+      ],
+      "condition": [],
+      "expected": [
+        "LR26-TXY-C11"
+      ],
+      "reading": "债款目标先入财务；等待阶段与主动追讨分支、还意与有钱分开。",
+      "modules": [
+        "class-mapping",
+        "positioning",
+        "evidence",
+        "finance",
+        "relations",
+        "liqi",
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement",
+        "structure",
+        "adjudication",
+        "report"
+      ]
+    },
+    {
+      "question": "公司同事是否支持我",
+      "domains": [
+        "interpersonal"
+      ],
+      "condition": [],
+      "expected": [
+        "LR26-TXY-C05"
+      ],
+      "reading": "发生在公司不自动改为求职；四课阴阳神的助阻必须参与。",
+      "modules": [
+        "class-mapping",
+        "positioning",
+        "evidence",
+        "interpersonal",
+        "relations",
+        "liqi",
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement",
+        "structure",
+        "adjudication",
+        "report"
+      ]
+    },
+    {
+      "question": "婚问课传显朱雀勾陈天空",
+      "domains": [
+        "relationship"
+      ],
+      "condition": [
+        "jiang-symbols"
+      ],
+      "expected": [
+        "LR26-TXY-C04"
+      ],
+      "reading": "龙后合之外的显象须核作用；不按将名凭空增加官司或第三者。",
+      "modules": [
+        "class-mapping",
+        "positioning",
+        "evidence",
+        "relationship",
+        "shenjiang-use",
+        "jiang-symbols",
+        "relations",
+        "liqi",
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement",
+        "structure",
+        "adjudication",
+        "report"
+      ]
+    },
+    {
+      "question": "妻子代问丈夫病势",
+      "domains": [
+        "illness"
+      ],
+      "condition": [],
+      "expected": [
+        "LR26-TXY-C16"
+      ],
+      "reading": "区分北海概法、人物类与粹言六亲代占，选明参照；不机械把干固定为提问妻子。",
+      "modules": [
+        "class-mapping",
+        "positioning",
+        "evidence",
+        "illness",
+        "relations",
+        "liqi",
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement",
+        "structure",
+        "adjudication",
+        "report"
+      ]
+    },
+    {
+      "question": "梦问需核无蛇看巳的补充路径",
+      "domains": [],
+      "condition": [
+        "shen-symbols"
+      ],
+      "expected": [
+        "LR26-SJ-T巳"
+      ],
+      "reading": "按天一笔记条件读互换，巳为梦与乘蛇之神为人只在示例层取用；不改坐标。",
+      "modules": [
+        "class-mapping",
+        "positioning",
+        "evidence",
+        "shenjiang-use",
+        "shen-symbols",
+        "relations",
+        "liqi",
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement",
+        "structure",
+        "adjudication",
+        "report"
+      ]
+    },
+    {
+      "question": "已取子神，能否直接等同天后恩泽",
+      "domains": [],
+      "condition": [
+        "shen-symbols"
+      ],
+      "expected": [
+        "LR26-SJ-T子"
+      ],
+      "reading": "北海明确保留神将差别；不能把恩泽无条件移给子。",
+      "modules": [
+        "class-mapping",
+        "positioning",
+        "evidence",
+        "shenjiang-use",
+        "shen-symbols",
+        "relations",
+        "liqi",
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement",
+        "structure",
+        "adjudication",
+        "report"
+      ]
+    }
+  ],
+  "independent_validation_count": 0
+}

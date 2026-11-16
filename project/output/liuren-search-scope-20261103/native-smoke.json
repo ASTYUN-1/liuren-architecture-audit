@@ -1,0 +1,58 @@
+{
+  "host": {
+    "execPath": "C:\\Users\\QLMa_\\AppData\\Local\\Programs\\@opencode-aidesktop\\OpenCode.exe",
+    "electron": "42.3.3",
+    "node": "24.15.0"
+  },
+  "scope": {
+    "libraries": {
+      "cases": [
+        "案例项目库"
+      ],
+      "experience": [
+        "经验日志"
+      ],
+      "books": [
+        "书籍库",
+        "books"
+      ],
+      "research": [
+        "knowledge/liuren-research",
+        "knowledge/liuren-v3",
+        "资料来源/qq-homework-20261018"
+      ]
+    },
+    "methods": "runtime/liuren/20261103-local-restore-01 (registered modules only)",
+    "operation_files": [
+      "docs/本机OpenCode完整输出规则.md",
+      "docs/本机六壬完整研判流程.md",
+      "docs/本机六壬高效执行.md",
+      "docs/本机六壬直接排盘.md",
+      "docs/本机六壬资料检索范围.md",
+      "docs/初级案例整理/优秀作业参照规则.md",
+      "docs/应期取数归纳-20261027/天干参与及奇门参照-补充审阅稿.md",
+      "docs/应期取数归纳-20261027/核心归纳-审阅稿.md",
+      "docs/应期取数归纳-20261027/原文证据摘录.md",
+      "docs/应期取数归纳-20261027/天一群笔记专项核查.md"
+    ],
+    "read_only_records": [
+      "排盘存档/六壬",
+      "tmp/liuren-materials",
+      ".opencode/skills/liuren"
+    ],
+    "excluded": "whole docs, web, mobile, ui-rebuild, output, old runtimes, archives, caches and arbitrary shell",
+    "exceptions": "Only the explicitly listed operation/professional source files in docs may be read; docs is never scanned."
+  },
+  "original_lines": 10,
+  "development_doc_denied": true,
+  "methods_bytes": 15190,
+  "both_retrievals_returned": true,
+  "scan_paths": [
+    "runtime/liuren/20261103-local-restore-01/details/risk.md",
+    "runtime/liuren/20261103-local-restore-01/details/shensha-tradition.md",
+    "runtime/liuren/20261103-local-restore-01/details/shensha-tradition.md",
+    "runtime/liuren/20261103-local-restore-01/domains/classical-conflict.md",
+    "runtime/liuren/20261103-local-restore-01/domains/finance.md"
+  ],
+  "model_calls": 0
+}

@@ -1,0 +1,2914 @@
+{
+  "schema": "liuren-bifa-statements-v1",
+  "release": "20261111-compact-bifa-44",
+  "scope": "本轮依据已绑定两书的基本定义与核心象义压缩；不是偏僻正变旁格全集。",
+  "laws": [
+    {
+      "number": 1,
+      "title": "前后引从升迁吉",
+      "core_imagery": "前后扶持、推引；引干偏于职位进展，引支偏于宅居迁修。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D01",
+        "BF-B01"
+      ],
+      "rules": [
+        "BF01-stem",
+        "BF01-branch"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "首尾相见始终宜",
+      "core_imagery": "首尾相接、周而复始；谋合有延续之象，求解散则有牵缠。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D02",
+        "BF-B02"
+      ],
+      "rules": [
+        "BF02-boundary",
+        "BF02-return"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "帘幕贵人高甲第",
+      "core_imagery": "考试选拔有幕后考官或上人扶持之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D03",
+        "BF-B03"
+      ],
+      "rules": [
+        "BF03-curtain"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "催官使者赴官期",
+      "core_imagery": "催促赴任、职位调动；催官之义用于官职事务。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D04",
+        "BF-B04"
+      ],
+      "rules": [
+        "BF04-usher",
+        "BF04-warrant"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "六阳数足须公用",
+      "core_imagery": "阳明、公开、公事与进取之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D05",
+        "BF-B05"
+      ],
+      "rules": [
+        "BF05-yang"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "六阴相继尽昏迷",
+      "core_imagery": "隐伏、私事、退藏与迟缓之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D06",
+        "BF-B06"
+      ],
+      "rules": [
+        "BF06-yin"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "旺禄临身徒妄作",
+      "core_imagery": "本位已有禄养，偏宜守成；另谋须比较现有依靠与外求之利。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D07",
+        "BF-B07"
+      ],
+      "rules": [
+        "BF07-lu"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "权摄不正禄临支",
+      "core_imagery": "禄归他方，受人节制；可取代理、挂名、借宅食禄之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D08",
+        "BF-B08"
+      ],
+      "rules": [
+        "BF08-lu"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "避难逃生须弃旧",
+      "core_imagery": "比较各处生财旺禄与克墓脱空，避不利处而就可依处。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D09",
+        "BF-B09"
+      ],
+      "rules": [
+        "BF09-routes"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "朽木难雕别作为",
+      "core_imagery": "成器之材落空，原谋难落实，可另寻生计或方案。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D10",
+        "BF-B10"
+      ],
+      "rules": [
+        "BF10-wheel",
+        "BF10-rotten"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "众鬼虽彰全不畏",
+      "core_imagery": "鬼有制或有承接转生，压力存在化解途径。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D11",
+        "BF-B11"
+      ],
+      "rules": [
+        "BF11-rescue",
+        "BF11-ghost-parent"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "虽忧狐假虎威仪",
+      "core_imagery": "借所在之地或他方力量制住克耗，离开依托则保护可能失去。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D12",
+        "BF-B12"
+      ],
+      "rules": [
+        "BF12-fox"
+      ]
+    },
+    {
+      "number": 13,
+      "title": "鬼贼当时无畏忌",
+      "core_imagery": "鬼局当令，取暂贪荣旺、威胁缓发之象，仍须察后时变化。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D13",
+        "BF-B13"
+      ],
+      "rules": [
+        "BF13-season"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "传财太旺返财亏",
+      "core_imagery": "财势强而我未必能任，所见财多与实际可得须分开。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D14",
+        "BF-B14"
+      ],
+      "rules": [
+        "BF14-wealth-season"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "脱上逢脱防虚诈",
+      "core_imagery": "连环泄耗、付出递增；交涉有虚言欺诈之虞。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D15",
+        "BF-B15"
+      ],
+      "rules": [
+        "BF15-double",
+        "BF15-thief"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "空上乘空事莫追",
+      "core_imagery": "虚言、落空、无实可据，着手与兑现乏力。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D16",
+        "BF-B16"
+      ],
+      "rules": [
+        "BF16-empty"
+      ]
+    },
+    {
+      "number": 17,
+      "title": "进茹空亡宜退步",
+      "core_imagery": "前进路径见空陷，取退守避耗之意；退路须另有可依处。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D17",
+        "BF-B17"
+      ],
+      "rules": [
+        "BF17-advance"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "踏脚空亡进用宜",
+      "core_imagery": "退守路径见空陷，宜另寻进路；进路须实有生禄可依。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D18",
+        "BF-B18"
+      ],
+      "rules": [
+        "BF18-retreat"
+      ]
+    },
+    {
+      "number": 19,
+      "title": "胎财生气妻怀孕",
+      "core_imagery": "胎与生气同见，为孕育、生长之象，用于胎孕问事。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D19",
+        "BF-B19"
+      ],
+      "rules": [
+        "BF19-stem-fetus",
+        "BF19-branch-fetus"
+      ]
+    },
+    {
+      "number": 20,
+      "title": "胎财死气损胎推",
+      "core_imagery": "胎兼死气，胎孕事项有生长受阻、损伤之忧。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D20",
+        "BF-B20"
+      ],
+      "rules": [
+        "BF20-fetus-dead"
+      ]
+    },
+    {
+      "number": 21,
+      "title": "交车相合交关利",
+      "core_imagery": "双方交相联结，利于交涉、合作、互通。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D21",
+        "BF-B21"
+      ],
+      "rules": [
+        "BF21-cross"
+      ]
+    },
+    {
+      "number": 22,
+      "title": "上下皆合两心齐",
+      "core_imagery": "上下相合、双方相就，取同心协力之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D22",
+        "BF-B22"
+      ],
+      "rules": [
+        "BF22-main",
+        "BF22-vertical",
+        "BF22-upper"
+      ]
+    },
+    {
+      "number": 23,
+      "title": "彼求我事支传干",
+      "core_imagery": "由支方流向干方，取对方来就我方之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D23",
+        "BF-B23"
+      ],
+      "rules": [
+        "BF23-to-stem"
+      ]
+    },
+    {
+      "number": 24,
+      "title": "我求彼事干传支",
+      "core_imagery": "由干方流向支方，取我方向对方求取或奔赴之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D24",
+        "BF-B24"
+      ],
+      "rules": [
+        "BF24-to-branch"
+      ]
+    },
+    {
+      "number": 25,
+      "title": "金日逢丁凶祸动",
+      "core_imagery": "旬丁引动暗鬼，常占有突发动扰；官职事务可取催任之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D25",
+        "BF-B25"
+      ],
+      "rules": [
+        "BF25-ding"
+      ]
+    },
+    {
+      "number": 26,
+      "title": "水日逢丁财动之",
+      "core_imagery": "财物或伴侣方面有动，分别察收入、支出、聚合、分离。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D26",
+        "BF-B26"
+      ],
+      "rules": [
+        "BF26-ding",
+        "BF26-horse"
+      ]
+    },
+    {
+      "number": 27,
+      "title": "传财化鬼财休觅",
+      "core_imagery": "财助鬼势，取财引来压力；官职事务另有以财助官之义。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D27",
+        "BF-B27"
+      ],
+      "rules": [
+        "BF27-drain"
+      ]
+    },
+    {
+      "number": 28,
+      "title": "传鬼化财财险危",
+      "core_imagery": "鬼局空陷而独留实财，取险中求财、得财未稳之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D28",
+        "BF-B28"
+      ],
+      "rules": [
+        "BF28-real-wealth"
+      ]
+    },
+    {
+      "number": 29,
+      "title": "眷属丰盈居狭宅",
+      "core_imagery": "一方得生而另一方被泄；人宅占可取人旺宅狭之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D29",
+        "BF-B29"
+      ],
+      "rules": [
+        "BF29-main"
+      ]
+    },
+    {
+      "number": 30,
+      "title": "屋宅宽广致人衰",
+      "core_imagery": "一方被泄而另一方得生；人宅占可取宅广人衰、投入耗身之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D30",
+        "BF-B30"
+      ],
+      "rules": [
+        "BF30-main"
+      ]
+    },
+    {
+      "number": 31,
+      "title": "三传递生人举荐",
+      "core_imagery": "层层传助、辗转牵引；助力落向须看递生终点。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D31",
+        "BF-B31"
+      ],
+      "rules": [
+        "BF31-chain"
+      ]
+    },
+    {
+      "number": 32,
+      "title": "三传互克众人欺",
+      "core_imagery": "层层制约、辗转压迫；受克对象须看递克终点。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D32",
+        "BF-B32"
+      ],
+      "rules": [
+        "BF32-chain"
+      ]
+    },
+    {
+      "number": 33,
+      "title": "有始无终难变易",
+      "core_imagery": "生传墓取先振后滞，墓传生取先滞后振。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D33",
+        "BF-B33"
+      ],
+      "rules": [
+        "BF33-birth-tomb",
+        "BF33-tomb-birth"
+      ]
+    },
+    {
+      "number": 34,
+      "title": "苦去甘来乐里悲",
+      "core_imagery": "初鬼末救有先忧后解之象；德禄与鬼互见可呈喜忧交织。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D34",
+        "BF-B34"
+      ],
+      "rules": [
+        "BF34-ghost-child",
+        "BF34-two-edged"
+      ]
+    },
+    {
+      "number": 35,
+      "title": "人宅受脱俱招盗",
+      "core_imagery": "各脱是双方各有耗损，互脱是彼此耗损对方。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D35",
+        "BF-B35"
+      ],
+      "rules": [
+        "BF35-each",
+        "BF35-cross"
+      ]
+    },
+    {
+      "number": 36,
+      "title": "干支皆败势倾颓",
+      "core_imagery": "败气并临，取衰败、灰心、失序、破旧之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D36",
+        "BF-B36"
+      ],
+      "rules": [
+        "BF36-each",
+        "BF36-cross"
+      ]
+    },
+    {
+      "number": 37,
+      "title": "末助初兮三等论",
+      "core_imagery": "末传资助初传；初财、初鬼、初父母受助的喜忌不同。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D37",
+        "BF-B37"
+      ],
+      "rules": [
+        "BF37-assist"
+      ]
+    },
+    {
+      "number": 38,
+      "title": "闭口卦体两般推",
+      "core_imagery": "堵塞、隐匿、不言、不泄；财禄作旬尾可取不肯交付之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D38",
+        "BF-B38"
+      ],
+      "rules": [
+        "BF38-tail-head",
+        "BF38-head-thief",
+        "BF38-ground-head-thief",
+        "BF38-closed-lu",
+        "BF38-closed-wealth"
+      ]
+    },
+    {
+      "number": 39,
+      "title": "太阳照武宜擒贼",
+      "core_imagery": "阳光显露隐情，盗情有暴露、可追查之象；须具日照条件。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D39",
+        "BF-B39"
+      ],
+      "rules": [
+        "BF39-sun-thief"
+      ]
+    },
+    {
+      "number": 40,
+      "title": "后合占婚岂用媒",
+      "core_imagery": "私下相接、自行结合；婚恋有不经媒介而亲近之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D40",
+        "BF-B40"
+      ],
+      "rules": [
+        "BF40-queen-match",
+        "BF40-queen-trans"
+      ]
+    },
+    {
+      "number": 41,
+      "title": "富贵干支逢禄马",
+      "core_imagery": "禄马互见，有职位俸禄与迁动之象，偏利动用。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D41",
+        "BF-B41"
+      ],
+      "rules": [
+        "BF41-luma"
+      ]
+    },
+    {
+      "number": 42,
+      "title": "尊崇传内遇三奇",
+      "core_imagery": "三奇取文途、尊荣、助益之辅象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D42",
+        "BF-B42"
+      ],
+      "rules": [
+        "BF42-xun",
+        "BF42-five-zi"
+      ]
+    },
+    {
+      "number": 43,
+      "title": "害贵讼直作曲断",
+      "core_imagery": "举动触犯主事之人，交涉有理亦可能受曲抑。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D43",
+        "BF-B43"
+      ],
+      "rules": [
+        "BF43-harm"
+      ]
+    },
+    {
+      "number": 44,
+      "title": "课传俱贵转无依",
+      "core_imagery": "主事者多、委托不一，依靠分散而难归一处。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D44",
+        "BF-B44"
+      ],
+      "rules": [
+        "BF44-crowd"
+      ]
+    },
+    {
+      "number": 45,
+      "title": "昼夜贵加求两贵",
+      "core_imagery": "涉及两位主事者，需辗转请托或双方会面。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D45",
+        "BF-B45"
+      ],
+      "rules": [
+        "BF45-stack",
+        "BF45-cover"
+      ]
+    },
+    {
+      "number": 46,
+      "title": "贵人差迭事参差",
+      "core_imagery": "贵位错置、意见不一，托事反复、两头难靠。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D46",
+        "BF-B46"
+      ],
+      "rules": [
+        "BF46-mismatch"
+      ]
+    },
+    {
+      "number": 47,
+      "title": "贵虽在狱宜临干",
+      "core_imagery": "贵临辰戌须分临身、入宅与普通入狱，求助情势各异。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D47",
+        "BF-B47"
+      ],
+      "rules": [
+        "BF47-prison"
+      ]
+    },
+    {
+      "number": 48,
+      "title": "鬼乘天乙乃神祗",
+      "core_imagery": "贵人兼鬼，权势与压力同在；官职事务与常人忧事分用。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D48",
+        "BF-B48"
+      ],
+      "rules": [
+        "BF48-ghost"
+      ]
+    },
+    {
+      "number": 49,
+      "title": "两贵受克难干贵",
+      "core_imagery": "两贵自身受制，难以腾力助我，干求易受阻。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D49",
+        "BF-B49"
+      ],
+      "rules": [
+        "BF49-restrained"
+      ]
+    },
+    {
+      "number": 50,
+      "title": "二贵皆空虚喜期",
+      "core_imagery": "两贵空陷，许诺、报喜或援助有虚而难落实之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D50",
+        "BF-B50"
+      ],
+      "rules": [
+        "BF50-empty"
+      ]
+    },
+    {
+      "number": 51,
+      "title": "魁度天门关隔定",
+      "core_imagery": "关卡、堵塞、阻隔，通行与推进不畅。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D51",
+        "BF-B51"
+      ],
+      "rules": [
+        "BF51-gate"
+      ]
+    },
+    {
+      "number": 52,
+      "title": "罡塞鬼户任谋为",
+      "core_imagery": "鬼门被塞，取避患、隐蔽之用。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D52",
+        "BF-B52"
+      ],
+      "rules": [
+        "BF52-gate"
+      ]
+    },
+    {
+      "number": 53,
+      "title": "两蛇夹墓凶难免",
+      "core_imagery": "墓受蛇缠，束缚、蒙蔽、拘滞加重，须察冲墓救解。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D53",
+        "BF-B53"
+      ],
+      "rules": [
+        "BF53-snake"
+      ]
+    },
+    {
+      "number": 54,
+      "title": "虎视逢虎力难施",
+      "core_imagery": "虎视又逢虎，惊惧、受围、力量难施。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D54",
+        "BF-B54"
+      ],
+      "rules": [
+        "BF54-tiger"
+      ]
+    },
+    {
+      "number": 55,
+      "title": "所谋多拙逢网罗",
+      "core_imagery": "罗网兜裹，动用受束；守原位与寻冲解须比较。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D55",
+        "BF-B55"
+      ],
+      "rules": [
+        "BF55-each",
+        "BF55-cross"
+      ]
+    },
+    {
+      "number": 56,
+      "title": "天网自裹己招非",
+      "core_imagery": "自身年命参与墓覆，取自陷束缚、自招烦恼之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D56",
+        "BF-B56"
+      ],
+      "rules": [
+        "BF56-life"
+      ]
+    },
+    {
+      "number": 57,
+      "title": "费有余而得不足",
+      "core_imagery": "助益空陷而克耗又见，所得与所费不相称。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D57",
+        "BF-B57"
+      ],
+      "rules": [
+        "BF57-cost"
+      ]
+    },
+    {
+      "number": 58,
+      "title": "用破身心无所归",
+      "core_imagery": "初起可依之物已破，后续又缺承接，进退乏所依归。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D58",
+        "BF-B58"
+      ],
+      "rules": [
+        "BF58-broken"
+      ]
+    },
+    {
+      "number": 59,
+      "title": "华盖覆日人昏晦",
+      "core_imagery": "华盖兼墓覆日，晦滞、蒙昧、孤高，行动不畅。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D59",
+        "BF-B59"
+      ],
+      "rules": [
+        "BF59-canopy"
+      ]
+    },
+    {
+      "number": 60,
+      "title": "太阳射宅屋光辉",
+      "core_imagery": "太阳月将临宅，取明朗、受光饰或上人照拂之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D60",
+        "BF-B60"
+      ],
+      "rules": [
+        "BF60-sun-house"
+      ]
+    },
+    {
+      "number": 61,
+      "title": "干乘墓虎无占病",
+      "core_imagery": "墓与虎同临身，压抑拘滞兼惊伤之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D61",
+        "BF-B61"
+      ],
+      "rules": [
+        "BF61-tomb"
+      ]
+    },
+    {
+      "number": 62,
+      "title": "支乘墓虎有伏尸",
+      "core_imagery": "墓虎临宅，沉埋、旧患与家宅不安之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D62",
+        "BF-B62"
+      ],
+      "rules": [
+        "BF62-house"
+      ]
+    },
+    {
+      "number": 63,
+      "title": "彼此全伤防两损",
+      "core_imagery": "双方各受上神克制，各有所损。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D63",
+        "BF-B63"
+      ],
+      "rules": [
+        "BF63-each"
+      ]
+    },
+    {
+      "number": 64,
+      "title": "夫妇芜淫各有私",
+      "core_imagery": "交互克是彼此损害，交互下克上有解离、不相容之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D64",
+        "BF-B64"
+      ],
+      "rules": [
+        "BF64-mutual-attack",
+        "BF64-separation"
+      ]
+    },
+    {
+      "number": 65,
+      "title": "干墓并关人宅废",
+      "core_imagery": "关墓同见，阻滞、闭塞；由干课或支课发用区别人宅所指。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D65",
+        "BF-B65"
+      ],
+      "rules": [
+        "BF65-gate"
+      ]
+    },
+    {
+      "number": 66,
+      "title": "支坟财并旅程稽",
+      "core_imagery": "支墓作财，财路与所往之地有暗昧、迟滞之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D66",
+        "BF-B66"
+      ],
+      "rules": [
+        "BF66-wealth-tomb"
+      ]
+    },
+    {
+      "number": 67,
+      "title": "受虎克神为病症",
+      "core_imagery": "以白虎所乘支克何五行，作疾病问事的受克部类线索。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D67",
+        "BF-B67"
+      ],
+      "rules": [
+        "BF67-carrier"
+      ]
+    },
+    {
+      "number": 68,
+      "title": "制鬼之位乃良医",
+      "core_imagery": "制鬼者为解忧途径；依问可取医者、捕者、代理交涉者。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D68",
+        "BF-B68"
+      ],
+      "rules": [
+        "BF68-rescue"
+      ]
+    },
+    {
+      "number": 69,
+      "title": "虎乘遁鬼殃非浅",
+      "core_imagery": "明鬼暗鬼或虎鬼并见，显性压力与隐患相叠。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D69",
+        "BF-B69"
+      ],
+      "rules": [
+        "BF69-hidden",
+        "BF69-plain-hidden",
+        "BF69-hidden-plain"
+      ]
+    },
+    {
+      "number": 70,
+      "title": "鬼临三四讼灾随",
+      "core_imagery": "支之两课皆鬼，所在环境烦忧密集，空实决定显发程度。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D70",
+        "BF-B70"
+      ],
+      "rules": [
+        "BF70-two"
+      ]
+    },
+    {
+      "number": 71,
+      "title": "病符克宅全家患",
+      "core_imagery": "旧岁病符克支，取旧患、疲惫、陈旧因素侵扰环境之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D71",
+        "BF-B71"
+      ],
+      "rules": [
+        "BF71-illness"
+      ]
+    },
+    {
+      "number": 72,
+      "title": "丧吊全逢挂缟衣",
+      "core_imagery": "丧吊同见，取哀伤、吊问、丧礼牵挂之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D72",
+        "BF-B72"
+      ],
+      "rules": [
+        "BF72-mourning"
+      ]
+    },
+    {
+      "number": 73,
+      "title": "前后逼迫难进退",
+      "core_imagery": "进退两处受迫，缺少自由选择，宜寻找可守之位。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D73",
+        "BF-B73"
+      ],
+      "rules": [
+        "BF73-return-clamp"
+      ]
+    },
+    {
+      "number": 74,
+      "title": "空空如也事休追",
+      "core_imagery": "所求落空、言而难实；所忧为空时也可取消散之义。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D74",
+        "BF-B74"
+      ],
+      "rules": [
+        "BF74-all-void",
+        "BF74-sky-void",
+        "BF74-lessons-void"
+      ]
+    },
+    {
+      "number": 75,
+      "title": "宾主不投刑在上",
+      "core_imagery": "刑在相应位置，交涉不投、强制冲突；自刑可取自扰之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D75",
+        "BF-B75"
+      ],
+      "rules": [
+        "BF75-two-punish",
+        "BF75-three-punish",
+        "BF75-self-punish"
+      ]
+    },
+    {
+      "number": 76,
+      "title": "彼此猜忌害相随",
+      "core_imagery": "六害相随，猜忌、隐损、不相顾接。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D76",
+        "BF-B76"
+      ],
+      "rules": [
+        "BF76-harm-each",
+        "BF76-harm-upper",
+        "BF76-harm-base-upper",
+        "BF76-harm-trans",
+        "BF76-harm-cross"
+      ]
+    },
+    {
+      "number": 77,
+      "title": "互生俱生凡事益",
+      "core_imagery": "各生为双方各得助益，互生为彼此扶助。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D77",
+        "BF-B77"
+      ],
+      "rules": [
+        "BF77-cross",
+        "BF77-each"
+      ]
+    },
+    {
+      "number": 78,
+      "title": "互旺皆旺坐谋宜",
+      "core_imagery": "各旺为双方各有力量，互旺为相就而兴旺，偏宜坐谋。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D78",
+        "BF-B78"
+      ],
+      "rules": [
+        "BF78-each",
+        "BF78-cross"
+      ]
+    },
+    {
+      "number": 79,
+      "title": "干支值绝凡谋决",
+      "core_imagery": "绝有断开、终止、了结之象，求成与求散取义不同。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D79",
+        "BF-B79"
+      ],
+      "rules": [
+        "BF79-each",
+        "BF79-cross"
+      ]
+    },
+    {
+      "number": 80,
+      "title": "人宅皆死各衰羸",
+      "core_imagery": "死气并临，缺生气、意愿消退、发展乏力。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D80",
+        "BF-B80"
+      ],
+      "rules": [
+        "BF80-each",
+        "BF80-cross"
+      ]
+    },
+    {
+      "number": 81,
+      "title": "传墓入墓分憎爱",
+      "core_imagery": "传入墓而受拘止；所喜入墓不利，所忧入墓可减患。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D81",
+        "BF-B81"
+      ],
+      "rules": [
+        "BF81-tomb-chain"
+      ]
+    },
+    {
+      "number": 82,
+      "title": "不行传者考初时",
+      "core_imagery": "初实中末空陷，事重初起与实处，后续承接乏力。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D82",
+        "BF-B82"
+      ],
+      "rules": [
+        "BF82-stop"
+      ]
+    },
+    {
+      "number": 83,
+      "title": "万事喜忻三六合",
+      "core_imagery": "三合六合相呼应，联结、和合、彼此接应。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D83",
+        "BF-B83"
+      ],
+      "rules": [
+        "BF83-call"
+      ]
+    },
+    {
+      "number": 84,
+      "title": "合中犯煞蜜中砒",
+      "core_imagery": "合中有刑冲害，表面相合而内藏冲突、反复之端。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D84",
+        "BF-B84"
+      ],
+      "rules": [
+        "BF84-break-union"
+      ]
+    },
+    {
+      "number": 85,
+      "title": "初遭夹克不由己",
+      "core_imagery": "发用受上下夹制，所指事项不由自主，须按被夹者取义。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D85",
+        "BF-B85"
+      ],
+      "rules": [
+        "BF85-clamp"
+      ]
+    },
+    {
+      "number": 86,
+      "title": "将逢内战所谋危",
+      "core_imagery": "内部制战，事情易从内部起矛盾、受搅扰。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D86",
+        "BF-B86"
+      ],
+      "rules": [
+        "BF86-internal"
+      ]
+    },
+    {
+      "number": 87,
+      "title": "人宅坐墓甘招晦",
+      "core_imagery": "人宅自坐墓地，主动依附或陷于蒙蔽，难以脱身。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D87",
+        "BF-B87"
+      ],
+      "rules": [
+        "BF87-each-seat",
+        "BF87-cross-seat"
+      ]
+    },
+    {
+      "number": 88,
+      "title": "干支乘墓各昏迷",
+      "core_imagery": "墓神覆于干支，双方昏沉、受蒙蔽、闭塞不畅。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D88",
+        "BF-B88"
+      ],
+      "rules": [
+        "BF88-each",
+        "BF88-cross"
+      ]
+    },
+    {
+      "number": 89,
+      "title": "任信丁马须言动",
+      "core_imagery": "伏吟虽静，丁马入位仍有骤动、迁动之象。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D89",
+        "BF-B89"
+      ],
+      "rules": [
+        "BF89-moving"
+      ]
+    },
+    {
+      "number": 90,
+      "title": "来去俱空岂动宜",
+      "core_imagery": "返吟虽动而传皆空，往来虚张、动而难成实效。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D90",
+        "BF-B90"
+      ],
+      "rules": [
+        "BF90-empty-return"
+      ]
+    },
+    {
+      "number": 91,
+      "title": "虎临干鬼凶速速",
+      "core_imagery": "虎乘日鬼，压力或惊扰来得迅疾；官职事务另察催官之义。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D91",
+        "BF-B91"
+      ],
+      "rules": [
+        "BF91-tiger"
+      ]
+    },
+    {
+      "number": 92,
+      "title": "龙加生气吉迟迟",
+      "core_imagery": "龙乘生气，助益渐来、较缓而持续。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D92",
+        "BF-B92"
+      ],
+      "rules": [
+        "BF92-dragon",
+        "BF92-dragon-month"
+      ]
+    },
+    {
+      "number": 93,
+      "title": "妄用三传灾福异",
+      "core_imagery": "起传须依可信起法，不因趋避需要改变三传。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D93",
+        "BF-B93"
+      ],
+      "rules": [
+        "BF93-origin"
+      ]
+    },
+    {
+      "number": 94,
+      "title": "喜惧空亡乃妙机",
+      "core_imagery": "所欲怕空、所忌喜空；区分直接作用、扶助与制救。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D94",
+        "BF-B94"
+      ],
+      "rules": [
+        "BF94-void-action"
+      ]
+    },
+    {
+      "number": 95,
+      "title": "六爻现卦防其克",
+      "core_imagery": "合局六亲与其受克之类须对应，兼察生扶制化。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D95",
+        "BF-B95"
+      ],
+      "rules": [
+        "BF95-kin-group"
+      ]
+    },
+    {
+      "number": 96,
+      "title": "旬内空亡逐类推",
+      "core_imagery": "逐一映射旬空之六亲、天将、禄与位置，取虚、减、迟或不动之义。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D96",
+        "BF-B96"
+      ],
+      "rules": [
+        "BF96-void-kins"
+      ]
+    },
+    {
+      "number": 97,
+      "title": "所筮不入仍凭类",
+      "core_imagery": "主类不入课传时，按占类补查天地盘，仍围绕所问取类。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D97",
+        "BF-B97"
+      ],
+      "rules": [
+        "BF97-absent-kind"
+      ]
+    },
+    {
+      "number": 98,
+      "title": "非占现类勿言之",
+      "core_imagery": "围绕原问解释已现类象，避免无关事项旁断。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D98",
+        "BF-B98"
+      ],
+      "rules": [
+        "BF98-scope"
+      ]
+    },
+    {
+      "number": 99,
+      "title": "常占不应逢吉象",
+      "core_imagery": "同象随人事、职业、所求与进退阶段而异用。",
+      "kind": "method",
+      "evidence_ids": [
+        "BF-D99",
+        "BF-B99"
+      ],
+      "rules": [
+        "BF99-context"
+      ]
+    },
+    {
+      "number": 100,
+      "title": "已灾凶逃反无疑",
+      "core_imagery": "分已发生与后续阶段，并按结绝、制鬼等具体结构取义。",
+      "kind": "structure",
+      "evidence_ids": [
+        "BF-D100",
+        "BF-B100"
+      ],
+      "rules": [
+        "BF100-stage",
+        "BF100-finish",
+        "BF100-earth-conflict"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "BF02-boundary",
+      "number": 2,
+      "name": "首尾相见",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "首尾相接、周而复始；谋合有延续之象，求解散则有牵缠。",
+      "evidence_ids": [
+        "BF-D02"
+      ]
+    },
+    {
+      "id": "BF02-return",
+      "number": 2,
+      "name": "回环结构",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "课传回环、往复牵缠，事有延续或反复。",
+      "evidence_ids": [
+        "BF-D02"
+      ]
+    },
+    {
+      "id": "BF05-yang",
+      "number": 5,
+      "name": "课传全阳",
+      "condition_template": "四课上神{四课}，三传{三传}，皆为阳支。",
+      "imagery": "阳明、公开、公事与进取之象。",
+      "evidence_ids": [
+        "BF-B06"
+      ]
+    },
+    {
+      "id": "BF06-yin",
+      "number": 6,
+      "name": "课传全阴",
+      "condition_template": "四课上神{四课}，三传{三传}，皆为阴支。",
+      "imagery": "隐伏、私事、退藏与迟缓之象。",
+      "evidence_ids": [
+        "BF-B06"
+      ]
+    },
+    {
+      "id": "BF16-empty",
+      "number": 16,
+      "name": "空上乘空",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "虚言、落空、无实可据，着手与兑现乏力。",
+      "evidence_ids": [
+        "BF-B16"
+      ]
+    },
+    {
+      "id": "BF21-cross",
+      "number": 21,
+      "name": "交车六合",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方交相联结，利于交涉、合作、互通。",
+      "evidence_ids": [
+        "BF-D21",
+        "BF-D22"
+      ]
+    },
+    {
+      "id": "BF22-main",
+      "number": 22,
+      "name": "上下皆合主格",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "上下相合、双方相就，取同心协力之象。",
+      "evidence_ids": [
+        "BF-D22"
+      ]
+    },
+    {
+      "id": "BF22-vertical",
+      "number": 22,
+      "name": "上下俱合格（大全）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "上下相合、双方相就，取同心协力之象。",
+      "evidence_ids": [
+        "BF-D22"
+      ]
+    },
+    {
+      "id": "BF22-upper",
+      "number": 22,
+      "name": "独干支上神六合",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方表面相合、相就，仅具上神合这一层。",
+      "evidence_ids": [
+        "BF-D22"
+      ]
+    },
+    {
+      "id": "BF23-to-stem",
+      "number": 23,
+      "name": "支传干",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "由支方流向干方，取对方来就我方之象。",
+      "evidence_ids": [
+        "BF-B23"
+      ]
+    },
+    {
+      "id": "BF24-to-branch",
+      "number": 24,
+      "name": "干传支",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "由干方流向支方，取我方向对方求取或奔赴之象。",
+      "evidence_ids": [
+        "BF-B23"
+      ]
+    },
+    {
+      "id": "BF26-ding",
+      "number": 26,
+      "name": "财乘旬丁",
+      "condition_template": "{日柱}日，{财丁位置}旬遁丁，为日财。",
+      "imagery": "因财物或伴侣而动，财物往来、收入支出或聚散。",
+      "evidence_ids": [
+        "BF-D26"
+      ]
+    },
+    {
+      "id": "BF26-horse",
+      "number": 26,
+      "name": "财乘日驿马",
+      "condition_template": "{日柱}日，{财马位置}为日财，兼日驿马。",
+      "imagery": "因财物或伴侣而动，有出入求财、异地往来之象。",
+      "evidence_ids": [
+        "BF-D26"
+      ]
+    },
+    {
+      "id": "BF27-drain",
+      "number": 27,
+      "name": "三传合局脱干",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "三传泄干，向外投入、消耗自身；此为传脱分支。",
+      "evidence_ids": [
+        "BF-D27"
+      ]
+    },
+    {
+      "id": "BF31-chain",
+      "number": 31,
+      "name": "三传递生",
+      "condition_template": "三传{三传}，{递向}递生；终点{终点}对日干{日干}为{终点对干}。",
+      "imagery": "层层传助、辗转牵引；助力落向须看递生终点。",
+      "evidence_ids": [
+        "BF-B31",
+        "BF-D31"
+      ]
+    },
+    {
+      "id": "BF32-chain",
+      "number": 32,
+      "name": "三传递克",
+      "condition_template": "三传{三传}，{递向}递克；终点{终点}对日干{日干}为{终点对干}。",
+      "imagery": "层层制约、辗转压迫；受克对象须看递克终点。",
+      "evidence_ids": [
+        "BF-B32",
+        "BF-D32"
+      ]
+    },
+    {
+      "id": "BF37-assist",
+      "number": 37,
+      "name": "末生初",
+      "condition_template": "末传{末传}生初传{初传}；初传对日干{日干}为{初传六亲}。",
+      "imagery": "末传资助初传；初财、初鬼、初父母受助的喜忌不同。",
+      "evidence_ids": [
+        "BF-B37",
+        "BF-D37"
+      ]
+    },
+    {
+      "id": "BF41-luma",
+      "number": 41,
+      "name": "干支逢禄马",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "禄马互见，有职位俸禄与迁动之象，偏利动用。",
+      "evidence_ids": [
+        "BF-D41"
+      ]
+    },
+    {
+      "id": "BF47-prison",
+      "number": 47,
+      "name": "贵临辰戌",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "贵临辰戌须分临身、入宅与普通入狱，求助情势各异。",
+      "evidence_ids": [
+        "BF-D47"
+      ]
+    },
+    {
+      "id": "BF51-gate",
+      "number": 51,
+      "name": "魁度天门发用",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "关卡、堵塞、阻隔，通行与推进不畅。",
+      "evidence_ids": [
+        "BF-D51"
+      ]
+    },
+    {
+      "id": "BF52-gate",
+      "number": 52,
+      "name": "罡塞鬼户",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "鬼门被塞，取避患、隐蔽之用。",
+      "evidence_ids": [
+        "BF-D52"
+      ]
+    },
+    {
+      "id": "BF61-tomb",
+      "number": 61,
+      "name": "墓虎加干",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "墓与虎同临身，压抑拘滞兼惊伤之象。",
+      "evidence_ids": [
+        "BF-D61"
+      ]
+    },
+    {
+      "id": "BF69-hidden",
+      "number": 69,
+      "name": "虎乘遁鬼",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "明鬼暗鬼或虎鬼并见，显性压力与隐患相叠。",
+      "evidence_ids": [
+        "BF-D69",
+        "BF-B69"
+      ]
+    },
+    {
+      "id": "BF69-plain-hidden",
+      "number": 69,
+      "name": "干明支暗二鬼",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "干方明鬼、支方暗鬼，显性压力与隐患并见。",
+      "evidence_ids": [
+        "BF-D69"
+      ]
+    },
+    {
+      "id": "BF69-hidden-plain",
+      "number": 69,
+      "name": "干暗支明二鬼",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "干方暗鬼、支方明鬼，隐患与显性压力并见。",
+      "evidence_ids": [
+        "BF-B69"
+      ]
+    },
+    {
+      "id": "BF70-two",
+      "number": 70,
+      "name": "鬼临三四",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "支之两课皆鬼，所在环境烦忧密集，空实决定显发程度。",
+      "evidence_ids": [
+        "BF-D70"
+      ]
+    },
+    {
+      "id": "BF77-cross",
+      "number": 77,
+      "name": "互生结构",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互相扶助、彼此得益。",
+      "evidence_ids": [
+        "BF-D77"
+      ]
+    },
+    {
+      "id": "BF77-each",
+      "number": 77,
+      "name": "俱生结构",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方各有生助，各得益处。",
+      "evidence_ids": [
+        "BF-D77"
+      ]
+    },
+    {
+      "id": "BF83-call",
+      "number": 83,
+      "name": "三六相呼",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "三合六合相呼应，联结、和合、彼此接应。",
+      "evidence_ids": [
+        "BF-B83"
+      ]
+    },
+    {
+      "id": "BF85-clamp",
+      "number": 85,
+      "name": "初遭夹克",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "发用受上下夹制，所指事项不由自主，须按被夹者取义。",
+      "evidence_ids": [
+        "BF-B85"
+      ]
+    },
+    {
+      "id": "BF86-internal",
+      "number": 86,
+      "name": "将逢内战",
+      "condition_template": "{内战位置}。",
+      "imagery": "内部制战，事情易从内部起矛盾、受搅扰。",
+      "evidence_ids": [
+        "BF-B86"
+      ]
+    },
+    {
+      "id": "BF91-tiger",
+      "number": 91,
+      "name": "虎乘日鬼",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "虎乘日鬼，压力或惊扰来得迅疾；官职事务另察催官之义。",
+      "evidence_ids": [
+        "BF-B91",
+        "BF-D61"
+      ]
+    },
+    {
+      "id": "BF01-stem",
+      "number": 1,
+      "name": "初末引从干上",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "前后扶持自身，职位进展或有人推引之象。",
+      "evidence_ids": [
+        "BF-B01",
+        "BF-D01"
+      ]
+    },
+    {
+      "id": "BF01-branch",
+      "number": 1,
+      "name": "初末引从支上",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "前后扶持支方，人宅占有迁居、修宅之象。",
+      "evidence_ids": [
+        "BF-B01",
+        "BF-D01"
+      ]
+    },
+    {
+      "id": "BF03-curtain",
+      "number": 3,
+      "name": "帘幕贵人临干",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "考试选拔有幕后考官或上人扶持之象。",
+      "evidence_ids": [
+        "BF-B03",
+        "BF-D03"
+      ]
+    },
+    {
+      "id": "BF04-usher",
+      "number": 4,
+      "name": "催官使者临干",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "催促赴任、职位调动；催官之义用于官职事务。",
+      "evidence_ids": [
+        "BF-B04",
+        "BF-D04"
+      ]
+    },
+    {
+      "id": "BF04-warrant",
+      "number": 4,
+      "name": "催官符结构",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "财局生起官星，官职事务有资助赴任之象；常占另察财助鬼。",
+      "evidence_ids": [
+        "BF-B04",
+        "BF-D04"
+      ]
+    },
+    {
+      "id": "BF07-lu",
+      "number": 7,
+      "name": "旺禄临干",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "本位已有禄养，偏宜守成；另谋须比较现有依靠与外求之利。",
+      "evidence_ids": [
+        "BF-B07",
+        "BF-D07"
+      ]
+    },
+    {
+      "id": "BF08-lu",
+      "number": 8,
+      "name": "日禄临支",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "禄归他方，受人节制；可取代理、挂名、借宅食禄之象。",
+      "evidence_ids": [
+        "BF-B08",
+        "BF-D08"
+      ]
+    },
+    {
+      "id": "BF09-routes",
+      "number": 9,
+      "name": "避难逃生取舍核查",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "比较各处生财旺禄与克墓脱空，避不利处而就可依处。",
+      "evidence_ids": [
+        "BF-B09",
+        "BF-D09"
+      ]
+    },
+    {
+      "id": "BF10-wheel",
+      "number": 10,
+      "name": "斫轮基本结构",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "木就金斫、加工成器；官职可取任用，须察卯之空实。",
+      "evidence_ids": [
+        "BF-B10",
+        "BF-D10"
+      ]
+    },
+    {
+      "id": "BF10-rotten",
+      "number": 10,
+      "name": "朽木难雕",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "成器之材落空，原谋难落实，可另寻生计或方案。",
+      "evidence_ids": [
+        "BF-B10",
+        "BF-D10"
+      ]
+    },
+    {
+      "id": "BF11-rescue",
+      "number": 11,
+      "name": "课传鬼与子孙制鬼",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "鬼有制或有承接转生，压力存在化解途径。",
+      "evidence_ids": [
+        "BF-B11",
+        "BF-D11"
+      ]
+    },
+    {
+      "id": "BF11-ghost-parent",
+      "number": 11,
+      "name": "传鬼为生",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "鬼局生父母、父母再生干，取承接压力而转为助益之象。",
+      "evidence_ids": [
+        "BF-B11",
+        "BF-D11"
+      ]
+    },
+    {
+      "id": "BF12-fox",
+      "number": 12,
+      "name": "狐假虎威",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "借所在之地或他方力量制住克耗，离开依托则保护可能失去。",
+      "evidence_ids": [
+        "BF-B12",
+        "BF-D12"
+      ]
+    },
+    {
+      "id": "BF13-season",
+      "number": 13,
+      "name": "三传鬼局当四时旺",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "鬼局当令，取暂贪荣旺、威胁缓发之象，仍须察后时变化。",
+      "evidence_ids": [
+        "BF-B13",
+        "BF-D13"
+      ]
+    },
+    {
+      "id": "BF14-wealth-season",
+      "number": 14,
+      "name": "传财当令旺相",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "财势强而我未必能任，所见财多与实际可得须分开。",
+      "evidence_ids": [
+        "BF-B14",
+        "BF-D14"
+      ]
+    },
+    {
+      "id": "BF15-double",
+      "number": 15,
+      "name": "脱上逢脱",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "连环泄耗、付出递增；交涉有虚言欺诈之虞。",
+      "evidence_ids": [
+        "BF-B15",
+        "BF-D15"
+      ]
+    },
+    {
+      "id": "BF15-thief",
+      "number": 15,
+      "name": "脱盗乘玄",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "自身被泄且乘玄武，取隐损、耗费与虚诈之虞。",
+      "evidence_ids": [
+        "BF-B15",
+        "BF-D15"
+      ]
+    },
+    {
+      "id": "BF17-advance",
+      "number": 17,
+      "name": "进茹逢空",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "前进路径见空陷，取退守避耗之意；退路须另有可依处。",
+      "evidence_ids": [
+        "BF-B17",
+        "BF-D17"
+      ]
+    },
+    {
+      "id": "BF18-retreat",
+      "number": 18,
+      "name": "退茹逢空",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "退守路径见空陷，宜另寻进路；进路须实有生禄可依。",
+      "evidence_ids": [
+        "BF-B18",
+        "BF-D18"
+      ]
+    },
+    {
+      "id": "BF19-stem-fetus",
+      "number": 19,
+      "name": "干胎财兼月生气",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "胎与生气同见，为孕育、生长之象，用于胎孕问事。",
+      "evidence_ids": [
+        "BF-B19",
+        "BF-D19"
+      ]
+    },
+    {
+      "id": "BF19-branch-fetus",
+      "number": 19,
+      "name": "支胎兼月生气",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "胎与生气同见，为孕育、生长之象，用于胎孕问事。",
+      "evidence_ids": [
+        "BF-B19",
+        "BF-D19"
+      ]
+    },
+    {
+      "id": "BF20-fetus-dead",
+      "number": 20,
+      "name": "干胎财兼月死气",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "胎兼死气，胎孕事项有生长受阻、损伤之忧。",
+      "evidence_ids": [
+        "BF-B20",
+        "BF-D20"
+      ]
+    },
+    {
+      "id": "BF25-ding",
+      "number": 25,
+      "name": "金日逢旬丁",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "旬丁引动暗鬼，常占有突发动扰；官职事务可取催任之象。",
+      "evidence_ids": [
+        "BF-B25",
+        "BF-D25"
+      ]
+    },
+    {
+      "id": "BF28-real-wealth",
+      "number": 28,
+      "name": "鬼局财实鬼空",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "鬼局空陷而独留实财，取险中求财、得财未稳之象。",
+      "evidence_ids": [
+        "BF-B28",
+        "BF-D28"
+      ]
+    },
+    {
+      "id": "BF29-main",
+      "number": 29,
+      "name": "局生一方而脱另一方",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "一方得生而另一方被泄；人宅占可取人旺宅狭之象。",
+      "evidence_ids": [
+        "BF-B29",
+        "BF-D29"
+      ]
+    },
+    {
+      "id": "BF30-main",
+      "number": 30,
+      "name": "局生一方而脱另一方",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "一方被泄而另一方得生；人宅占可取宅广人衰、投入耗身之象。",
+      "evidence_ids": [
+        "BF-B30",
+        "BF-D30"
+      ]
+    },
+    {
+      "id": "BF33-birth-tomb",
+      "number": 33,
+      "name": "长生传墓",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "先有生助而后趋拘滞，取先振后滞、后劲不足之象。",
+      "evidence_ids": [
+        "BF-B33",
+        "BF-D33"
+      ]
+    },
+    {
+      "id": "BF33-tomb-birth",
+      "number": 33,
+      "name": "墓传长生",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "先滞后得生助，取困中转机、渐有开展之象。",
+      "evidence_ids": [
+        "BF-B33",
+        "BF-D33"
+      ]
+    },
+    {
+      "id": "BF34-ghost-child",
+      "number": 34,
+      "name": "初鬼末子孙",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "末传子孙可制初鬼，有先忧后解的途径。",
+      "evidence_ids": [
+        "BF-B34",
+        "BF-D34"
+      ]
+    },
+    {
+      "id": "BF34-two-edged",
+      "number": 34,
+      "name": "两面刀（戊日伏吟）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "德禄起而末见鬼，喜忧交织；末鬼又能生初，助害须分看。",
+      "evidence_ids": [
+        "BF-B34",
+        "BF-D34"
+      ]
+    },
+    {
+      "id": "BF35-each",
+      "number": 35,
+      "name": "各脱",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方各有耗损，投入、精神或资源被泄。",
+      "evidence_ids": [
+        "BF-B35",
+        "BF-D35"
+      ]
+    },
+    {
+      "id": "BF35-cross",
+      "number": 35,
+      "name": "互脱",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互有泄耗，交涉可能彼此耗费。",
+      "evidence_ids": [
+        "BF-B35",
+        "BF-D35"
+      ]
+    },
+    {
+      "id": "BF36-each",
+      "number": 36,
+      "name": "各败",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "败气并临，取衰败、灰心、失序、破旧之象。",
+      "evidence_ids": [
+        "BF-B36",
+        "BF-D36"
+      ]
+    },
+    {
+      "id": "BF36-cross",
+      "number": 36,
+      "name": "互败",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互临败地，彼此关系失序、败坏或灰心。",
+      "evidence_ids": [
+        "BF-B36",
+        "BF-D36"
+      ]
+    },
+    {
+      "id": "BF63-each",
+      "number": 63,
+      "name": "各伤",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方各受上神克制，各有所损。",
+      "evidence_ids": [
+        "BF-B63",
+        "BF-D63"
+      ]
+    },
+    {
+      "id": "BF78-each",
+      "number": 78,
+      "name": "各旺",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方各有旺气，偏宜守位筹谋。",
+      "evidence_ids": [
+        "BF-B78",
+        "BF-D78"
+      ]
+    },
+    {
+      "id": "BF78-cross",
+      "number": 78,
+      "name": "互旺",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互相就旺，有相投得势之象。",
+      "evidence_ids": [
+        "BF-B78",
+        "BF-D78"
+      ]
+    },
+    {
+      "id": "BF79-each",
+      "number": 79,
+      "name": "各绝",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方各临绝地，有各自断开、止息、决定之象。",
+      "evidence_ids": [
+        "BF-B79",
+        "BF-D79"
+      ]
+    },
+    {
+      "id": "BF79-cross",
+      "number": 79,
+      "name": "互绝",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互临绝地，有关系断开、相互了结之象。",
+      "evidence_ids": [
+        "BF-B79",
+        "BF-D79"
+      ]
+    },
+    {
+      "id": "BF80-each",
+      "number": 80,
+      "name": "各死",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "死气并临，缺生气、意愿消退、发展乏力。",
+      "evidence_ids": [
+        "BF-B80",
+        "BF-D80"
+      ]
+    },
+    {
+      "id": "BF80-cross",
+      "number": 80,
+      "name": "互死",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互临死气，彼此意愿消退、关系缺乏生气。",
+      "evidence_ids": [
+        "BF-B80",
+        "BF-D80"
+      ]
+    },
+    {
+      "id": "BF88-each",
+      "number": 88,
+      "name": "各墓",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "墓神覆于干支，双方昏沉、受蒙蔽、闭塞不畅。",
+      "evidence_ids": [
+        "BF-B88",
+        "BF-D88"
+      ]
+    },
+    {
+      "id": "BF88-cross",
+      "number": 88,
+      "name": "互墓",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方上神互为对方墓神，彼此蒙蔽、拘滞。",
+      "evidence_ids": [
+        "BF-B88",
+        "BF-D88"
+      ]
+    },
+    {
+      "id": "BF38-tail-head",
+      "number": 38,
+      "name": "旬尾加旬首",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "堵塞、隐匿、不言、不泄；财禄作旬尾可取不肯交付之象。",
+      "evidence_ids": [
+        "BF-B38",
+        "BF-D38"
+      ]
+    },
+    {
+      "id": "BF38-head-thief",
+      "number": 38,
+      "name": "天盘旬首乘玄武（北海）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "隐匿、不言、难查之象；此依北海天盘旬首取法。",
+      "evidence_ids": [
+        "BF-B38",
+        "BF-D38"
+      ]
+    },
+    {
+      "id": "BF38-ground-head-thief",
+      "number": 38,
+      "name": "地盘旬首上乘玄武（大全）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "隐匿、不言、难查之象；此依大全地盘旬首取法。",
+      "evidence_ids": [
+        "BF-B38",
+        "BF-D38"
+      ]
+    },
+    {
+      "id": "BF38-closed-lu",
+      "number": 38,
+      "name": "日禄作旬尾",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "禄有闭藏、不肯交付之象。",
+      "evidence_ids": [
+        "BF-B38",
+        "BF-D38"
+      ]
+    },
+    {
+      "id": "BF38-closed-wealth",
+      "number": 38,
+      "name": "课传财作旬尾",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "财有闭藏、交付不畅之象。",
+      "evidence_ids": [
+        "BF-B38",
+        "BF-D38"
+      ]
+    },
+    {
+      "id": "BF39-sun-thief",
+      "number": 39,
+      "name": "玄武与太阳邻接",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "太阳照露隐情，盗情趋于显露；须具实际日照。",
+      "evidence_ids": [
+        "BF-B39",
+        "BF-D39"
+      ]
+    },
+    {
+      "id": "BF40-queen-match",
+      "number": 40,
+      "name": "后合分居干支",
+      "condition_template": "干上{干上}乘{干将}，支上{支上}乘{支将}，分见天后、六合。",
+      "imagery": "双方有私下相接、婚恋自行亲近之象。",
+      "evidence_ids": [
+        "BF-B40",
+        "BF-D40"
+      ]
+    },
+    {
+      "id": "BF40-queen-trans",
+      "number": 40,
+      "name": "后合同入三传",
+      "condition_template": "{后合位置}，天后、六合同入三传。",
+      "imagery": "私下接洽、自行结合；婚恋可取不经媒介而亲近之象。",
+      "evidence_ids": [
+        "BF-B40",
+        "BF-D40"
+      ]
+    },
+    {
+      "id": "BF42-xun",
+      "number": 42,
+      "name": "三奇（旬遁）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "旬遁三奇，取文途、尊荣之辅象。",
+      "evidence_ids": [
+        "BF-B42",
+        "BF-D42"
+      ]
+    },
+    {
+      "id": "BF42-five-zi",
+      "number": 42,
+      "name": "三奇（五子元遁）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "五子元遁三奇，取文途、尊荣之辅象。",
+      "evidence_ids": [
+        "BF-B42",
+        "BF-D42"
+      ]
+    },
+    {
+      "id": "BF43-harm",
+      "number": 43,
+      "name": "害干上贵",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "举动触犯主事之人，交涉有理亦可能受曲抑。",
+      "evidence_ids": [
+        "BF-B43",
+        "BF-D43"
+      ]
+    },
+    {
+      "id": "BF44-crowd",
+      "number": 44,
+      "name": "遍地贵人基本例",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "主事者多、委托不一，依靠分散而难归一处。",
+      "evidence_ids": [
+        "BF-B44",
+        "BF-D44"
+      ]
+    },
+    {
+      "id": "BF45-stack",
+      "number": 45,
+      "name": "昼夜贵相加入课传",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "涉及两位主事者，需辗转请托或双方会面。",
+      "evidence_ids": [
+        "BF-B45",
+        "BF-D45"
+      ]
+    },
+    {
+      "id": "BF45-cover",
+      "number": 45,
+      "name": "两贵覆干支",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "涉及两位主事者，需辗转请托或双方会面。",
+      "evidence_ids": [
+        "BF-B45",
+        "BF-D45"
+      ]
+    },
+    {
+      "id": "BF46-mismatch",
+      "number": 46,
+      "name": "贵人差迭",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "贵位错置、意见不一，托事反复、两头难靠。",
+      "evidence_ids": [
+        "BF-B46",
+        "BF-D46"
+      ]
+    },
+    {
+      "id": "BF48-ghost",
+      "number": 48,
+      "name": "鬼乘实际天乙",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "贵人兼鬼，权势与压力同在；官职事务与常人忧事分用。",
+      "evidence_ids": [
+        "BF-B48",
+        "BF-D48"
+      ]
+    },
+    {
+      "id": "BF49-restrained",
+      "number": 49,
+      "name": "两贵各受地克",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "两贵自身受制，难以腾力助我，干求易受阻。",
+      "evidence_ids": [
+        "BF-B49",
+        "BF-D49"
+      ]
+    },
+    {
+      "id": "BF50-empty",
+      "number": 50,
+      "name": "二贵皆空陷",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "两贵空陷，许诺、报喜或援助有虚而难落实之象。",
+      "evidence_ids": [
+        "BF-B50",
+        "BF-D50"
+      ]
+    },
+    {
+      "id": "BF53-snake",
+      "number": 53,
+      "name": "两蛇夹墓基本结构",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "墓受蛇缠，束缚、蒙蔽、拘滞加重，须察冲墓救解。",
+      "evidence_ids": [
+        "BF-B53",
+        "BF-D53"
+      ]
+    },
+    {
+      "id": "BF54-tiger",
+      "number": 54,
+      "name": "柔日虎视复见虎",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "虎视又逢虎，惊惧、受围、力量难施。",
+      "evidence_ids": [
+        "BF-B54",
+        "BF-D54"
+      ]
+    },
+    {
+      "id": "BF55-each",
+      "number": 55,
+      "name": "各网",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "罗网兜裹，动用受束；守原位与寻冲解须比较。",
+      "evidence_ids": [
+        "BF-B55",
+        "BF-D55"
+      ]
+    },
+    {
+      "id": "BF55-cross",
+      "number": 55,
+      "name": "互网",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互受网罗，彼此动用受牵制。",
+      "evidence_ids": [
+        "BF-B55",
+        "BF-D55"
+      ]
+    },
+    {
+      "id": "BF56-life",
+      "number": 56,
+      "name": "本命墓覆干候选",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "自身年命参与墓覆，取自陷束缚、自招烦恼之象。",
+      "evidence_ids": [
+        "BF-B56",
+        "BF-D56"
+      ]
+    },
+    {
+      "id": "BF57-cost",
+      "number": 57,
+      "name": "生空与鬼脱对照",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "助益空陷而克耗又见，所得与所费须比较各自空实。",
+      "evidence_ids": [
+        "BF-B57",
+        "BF-D57"
+      ]
+    },
+    {
+      "id": "BF58-broken",
+      "number": 58,
+      "name": "用破且中末无依",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "初起可依之物已破，后续又缺承接，进退乏所依归。",
+      "evidence_ids": [
+        "BF-B58",
+        "BF-D58"
+      ]
+    },
+    {
+      "id": "BF59-canopy",
+      "number": 59,
+      "name": "华盖兼日墓临干发用",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "华盖兼墓覆日，晦滞、蒙昧、孤高，行动不畅。",
+      "evidence_ids": [
+        "BF-B59",
+        "BF-D59"
+      ]
+    },
+    {
+      "id": "BF60-sun-house",
+      "number": 60,
+      "name": "太阳临支",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "宅居明朗、受光饰或上人照拂；月将临支之象。",
+      "evidence_ids": [
+        "BF-B60",
+        "BF-D60"
+      ]
+    },
+    {
+      "id": "BF62-house",
+      "number": 62,
+      "name": "干墓或支墓乘虎临支",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "墓虎临宅，沉埋、旧患与家宅不安之象。",
+      "evidence_ids": [
+        "BF-B62",
+        "BF-D62"
+      ]
+    },
+    {
+      "id": "BF64-mutual-attack",
+      "number": 64,
+      "name": "交互克（芜淫结构）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互有克制、各持所图，关系不协。",
+      "evidence_ids": [
+        "BF-B64",
+        "BF-D64"
+      ]
+    },
+    {
+      "id": "BF64-separation",
+      "number": 64,
+      "name": "交互下克上（解离结构）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方各克对方上神，互不相容、解离之象。",
+      "evidence_ids": [
+        "BF-B64",
+        "BF-D64"
+      ]
+    },
+    {
+      "id": "BF65-gate",
+      "number": 65,
+      "name": "干墓兼季关发用",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "关墓同见，阻滞、闭塞；由干课或支课发用区别人宅所指。",
+      "evidence_ids": [
+        "BF-B65",
+        "BF-D65"
+      ]
+    },
+    {
+      "id": "BF66-wealth-tomb",
+      "number": 66,
+      "name": "支墓作日财发用",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "支墓作财，财路与所往之地有暗昧、迟滞之象。",
+      "evidence_ids": [
+        "BF-B66",
+        "BF-D66"
+      ]
+    },
+    {
+      "id": "BF67-carrier",
+      "number": 67,
+      "name": "白虎乘神所克五行",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "白虎乘{虎乘五行}，所乘支克{虎所克五行}，以受克五行作病症部类线索。",
+      "evidence_ids": [
+        "BF-B67",
+        "BF-D67"
+      ]
+    },
+    {
+      "id": "BF68-rescue",
+      "number": 68,
+      "name": "制鬼位置",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "制鬼者为解忧途径；依问可取医者、捕者、代理交涉者。",
+      "evidence_ids": [
+        "BF-B68",
+        "BF-D68"
+      ]
+    },
+    {
+      "id": "BF71-illness",
+      "number": 71,
+      "name": "岁病符克宅",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "旧岁病符克支，取旧患、疲惫、陈旧因素侵扰环境之象。",
+      "evidence_ids": [
+        "BF-B71",
+        "BF-D71"
+      ]
+    },
+    {
+      "id": "BF72-mourning",
+      "number": 72,
+      "name": "丧吊全逢",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "丧吊同见，取哀伤、吊问、丧礼牵挂之象。",
+      "evidence_ids": [
+        "BF-B72",
+        "BF-D72"
+      ]
+    },
+    {
+      "id": "BF73-return-clamp",
+      "number": 73,
+      "name": "初传克处回归又受克",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "进退两处受迫，缺少自由选择，宜寻找可守之位。",
+      "evidence_ids": [
+        "BF-B73",
+        "BF-D73"
+      ]
+    },
+    {
+      "id": "BF74-all-void",
+      "number": 74,
+      "name": "三传全空陷",
+      "condition_template": "三传{三传}，{三传空陷}。",
+      "imagery": "所求落空、言而难实；所忧为空时也可取消散之义。",
+      "evidence_ids": [
+        "BF-B74",
+        "BF-D74"
+      ]
+    },
+    {
+      "id": "BF74-sky-void",
+      "number": 74,
+      "name": "两空一天空",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "两传空陷，另一传乘天空，过程虚浮、所求难落实。",
+      "evidence_ids": [
+        "BF-B74",
+        "BF-D74"
+      ]
+    },
+    {
+      "id": "BF74-lessons-void",
+      "number": 74,
+      "name": "四课全空陷",
+      "condition_template": "{四课空陷}。",
+      "imagery": "课上所指人事虚浮、落空，着手与落实乏力。",
+      "evidence_ids": [
+        "BF-B74",
+        "BF-D74"
+      ]
+    },
+    {
+      "id": "BF75-two-punish",
+      "number": 75,
+      "name": "二字刑（子卯在两上）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方不投、交涉有强制冲突。",
+      "evidence_ids": [
+        "BF-B75",
+        "BF-D75"
+      ]
+    },
+    {
+      "id": "BF75-three-punish",
+      "number": 75,
+      "name": "三字刑",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "刑在相应位置，交涉不投、强制冲突；自刑可取自扰之象。",
+      "evidence_ids": [
+        "BF-B75",
+        "BF-D75"
+      ]
+    },
+    {
+      "id": "BF75-self-punish",
+      "number": 75,
+      "name": "四课全逢自刑支",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "自扰、自生烦恼；课上所指人事有纠结之象。",
+      "evidence_ids": [
+        "BF-B75",
+        "BF-D75"
+      ]
+    },
+    {
+      "id": "BF76-harm-each",
+      "number": 76,
+      "name": "各上下害",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "六害相随，猜忌、隐损、不相顾接。",
+      "evidence_ids": [
+        "BF-B76",
+        "BF-D76"
+      ]
+    },
+    {
+      "id": "BF76-harm-upper",
+      "number": 76,
+      "name": "两上害",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "六害相随，猜忌、隐损、不相顾接。",
+      "evidence_ids": [
+        "BF-B76",
+        "BF-D76"
+      ]
+    },
+    {
+      "id": "BF76-harm-base-upper",
+      "number": 76,
+      "name": "本位与两上皆害",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "六害相随，猜忌、隐损、不相顾接。",
+      "evidence_ids": [
+        "BF-B76",
+        "BF-D76"
+      ]
+    },
+    {
+      "id": "BF76-harm-trans",
+      "number": 76,
+      "name": "三传相邻六害",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "六害相随，猜忌、隐损、不相顾接。",
+      "evidence_ids": [
+        "BF-B76",
+        "BF-D76"
+      ]
+    },
+    {
+      "id": "BF76-harm-cross",
+      "number": 76,
+      "name": "交互六害",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "六害相随，猜忌、隐损、不相顾接。",
+      "evidence_ids": [
+        "BF-B76",
+        "BF-D76"
+      ]
+    },
+    {
+      "id": "BF81-tomb-chain",
+      "number": 81,
+      "name": "初传入中墓且末入墓乡",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "传入墓而受拘止；所喜入墓不利，所忧入墓可减患。",
+      "evidence_ids": [
+        "BF-B81",
+        "BF-D81"
+      ]
+    },
+    {
+      "id": "BF82-stop",
+      "number": 82,
+      "name": "初实中末空陷",
+      "condition_template": "初传{初传}临地盘{初传地}，支与坐地皆不空；{中末空陷}。",
+      "imagery": "事重初起与实处，后续承接乏力；按初传所指判断眼前之事。",
+      "evidence_ids": [
+        "BF-B82",
+        "BF-D82"
+      ]
+    },
+    {
+      "id": "BF84-break-union",
+      "number": 84,
+      "name": "合中犯煞",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "合中有刑冲害，表面相合而内藏冲突、反复之端。",
+      "evidence_ids": [
+        "BF-B84",
+        "BF-D84"
+      ]
+    },
+    {
+      "id": "BF87-each-seat",
+      "number": 87,
+      "name": "各坐墓",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "人宅自坐墓地，主动依附或陷于蒙蔽，难以脱身。",
+      "evidence_ids": [
+        "BF-B87",
+        "BF-D87"
+      ]
+    },
+    {
+      "id": "BF87-cross-seat",
+      "number": 87,
+      "name": "互坐墓",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "双方互坐墓地，互相陷于蒙蔽或拘滞。",
+      "evidence_ids": [
+        "BF-B87",
+        "BF-D87"
+      ]
+    },
+    {
+      "id": "BF89-moving",
+      "number": 89,
+      "name": "伏吟逢旬丁日马",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "伏吟虽静，丁马入位仍有骤动、迁动之象。",
+      "evidence_ids": [
+        "BF-B89",
+        "BF-D89"
+      ]
+    },
+    {
+      "id": "BF90-empty-return",
+      "number": 90,
+      "name": "返吟三传空陷",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "返吟虽动而传皆空，往来虚张、动而难成实效。",
+      "evidence_ids": [
+        "BF-B90",
+        "BF-D90"
+      ]
+    },
+    {
+      "id": "BF92-dragon",
+      "number": 92,
+      "name": "龙乘生日之神",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "生助渐来、较缓而持续；此为龙乘父母分支。",
+      "evidence_ids": [
+        "BF-B92",
+        "BF-D92"
+      ]
+    },
+    {
+      "id": "BF92-dragon-month",
+      "number": 92,
+      "name": "龙乘父母兼月生气（大全正格）",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "龙乘父母又兼月生气，助益渐来、较缓而持续。",
+      "evidence_ids": [
+        "BF-B92",
+        "BF-D92"
+      ]
+    },
+    {
+      "id": "BF93-origin",
+      "number": 93,
+      "name": "可信程序盘起例核查",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "起传须依可信起法，不因趋避需要改变三传。",
+      "evidence_ids": [
+        "BF-B93",
+        "BF-D93"
+      ]
+    },
+    {
+      "id": "BF94-void-action",
+      "number": 94,
+      "name": "空陷与作用核查",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "所欲怕空、所忌喜空；区分直接作用、扶助与制救。",
+      "evidence_ids": [
+        "BF-B94",
+        "BF-D94"
+      ]
+    },
+    {
+      "id": "BF95-kin-group",
+      "number": 95,
+      "name": "三传六亲合局",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "合局六亲与其受克之类须对应，兼察生扶制化。",
+      "evidence_ids": [
+        "BF-B95",
+        "BF-D95"
+      ]
+    },
+    {
+      "id": "BF96-void-kins",
+      "number": 96,
+      "name": "本旬两空逐类映射",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "逐一映射旬空之六亲、天将、禄与位置，取虚、减、迟或不动之义。",
+      "evidence_ids": [
+        "BF-B96",
+        "BF-D96"
+      ]
+    },
+    {
+      "id": "BF97-absent-kind",
+      "number": 97,
+      "name": "所筮不入按类补查",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "主类不入课传时，按占类补查天地盘，仍围绕所问取类。",
+      "evidence_ids": [
+        "BF-B97",
+        "BF-D97"
+      ]
+    },
+    {
+      "id": "BF98-scope",
+      "number": 98,
+      "name": "非占现类问项约束",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "围绕原问解释已现类象，避免无关事项旁断。",
+      "evidence_ids": [
+        "BF-B98",
+        "BF-D98"
+      ]
+    },
+    {
+      "id": "BF99-context",
+      "number": 99,
+      "name": "因人因事因时取义",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "同象随人事、职业、所求与进退阶段而异用。",
+      "evidence_ids": [
+        "BF-B99",
+        "BF-D99"
+      ]
+    },
+    {
+      "id": "BF100-stage",
+      "number": 100,
+      "name": "已灾与未灾阶段核查",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "分已发生与后续阶段，并按结绝、制鬼等具体结构取义。",
+      "evidence_ids": [
+        "BF-B100",
+        "BF-D100"
+      ]
+    },
+    {
+      "id": "BF100-finish",
+      "number": 100,
+      "name": "干上绝神作鬼或财",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "绝神作鬼或财，取结绝旧事、了结财务之象。",
+      "evidence_ids": [
+        "BF-B100",
+        "BF-D100"
+      ]
+    },
+    {
+      "id": "BF100-earth-conflict",
+      "number": 100,
+      "name": "初末土鬼互冲",
+      "condition_template": "{核实条件}；{落点}。",
+      "imagery": "鬼与鬼相冲，忧患可因相争而减；求官却有官星被冲之虞。",
+      "evidence_ids": [
+        "BF-B100",
+        "BF-D100"
+      ]
+    }
+  ],
+  "variants": {
+    "BF37-assist": {
+      "妻财": "末传助初财，有财源得助之象。",
+      "官鬼": "末传助初鬼，压力得助、忧患加重之象。",
+      "父母": "末传助初父母，有生助承接；还须察末鬼是否另伤自身。"
+    },
+    "BF47-prison": {
+      "贵人临身": "贵人虽临辰戌，落在干寄宫则取临身扶持，利于求助。",
+      "贵人入宅": "贵人临日支，取贵人入宅、贵客到访或人事照拂之象。",
+      "贵人入狱": "主事者处拘制、烦忧之地，干求不畅，须察其能否助我。"
+    },
+    "BF85-clamp": {
+      "妻财": "财受夹克，财物被把持或费用不由己。",
+      "官鬼": "鬼受夹克，压力受制，有减忧途径。",
+      "兄弟": "同类受夹克，自身或同伴受制、难以自主。",
+      "父母": "生助受夹克，援助与承接受阻。",
+      "子孙": "制鬼者受夹克，解忧或行动能力受制。"
+    }
+  },
+  "combinations": {
+    "BF26-ding-horse": {
+      "name": "财乘丁马",
+      "condition_template": "{日柱}日，{财丁位置}为日财，旬遁丁，又为日驿马，财、丁、马同支。",
+      "imagery": "因财物或伴侣而动，有出入求财、异地往来之象；丁马同支，动象较强。"
+    }
+  },
+  "presentation": "只输出明列条件全真项；不把方法、候选、缺项作为成格条目；同法合并但保留全部子格。"
+}

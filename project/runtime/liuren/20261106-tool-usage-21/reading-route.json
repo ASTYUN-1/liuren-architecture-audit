@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 2,
+  "domainStage": 1,
+  "domains": [
+    "finance",
+    "recruitment",
+    "promotion-salary",
+    "relationship",
+    "interpersonal",
+    "period-outlook",
+    "long-period",
+    "pregnancy",
+    "exam",
+    "illness",
+    "lost-person-object",
+    "classical-conflict",
+    "home",
+    "travel",
+    "weather",
+    "agriculture"
+  ],
+  "labels": {
+    "positioning": "定位与选线",
+    "evidence": "材料核证与争点交接（无两库对照）",
+    "relations": "课位与关系",
+    "liqi": "理气与救制",
+    "void": "空亡与变质",
+    "bashajiubao": "八煞九宝",
+    "engine-shensha-output": "引擎神煞字段",
+    "shensha-focus": "32项",
+    "shensha-use": "神煞取用",
+    "movement": "动态与阴神",
+    "structure": "课体结构",
+    "adjudication": "独立裁决子智能体接口",
+    "report": "报告与交付检查",
+    "daliuren-paipan": "排盘操作",
+    "nianming": "年命",
+    "timing": "应期",
+    "risk": "风险细则",
+    "shensha-tradition": "神煞方法",
+    "rule-semantics": "规则语义",
+    "liqi-sources": "来源卡",
+    "quantity": "数量与精度",
+    "quantity-sources": "数法来源与条件",
+    "workflow-contract": "可选结构化审计（非本机默认）",
+    "class-mapping": "分类与九系统取用",
+    "shenjiang-use": "神将同用与互换",
+    "shen-symbols": "十二天神候选义",
+    "jiang-symbols": "十二天将职能",
+    "mapping-provenance": "取用合并与原文回查"
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "初看课势，依问定侧重",
+      "required": [
+        "class-mapping",
+        "positioning",
+        "relations",
+        "liqi",
+        "structure"
+      ],
+      "action": "原问与可靠课盘→确定结果区分→取类定位与专项→关系及待核主线",
+      "note": "类象取用与理气贯通；空亡和制救未核，不先定结果。"
+    },
+    {
+      "id": 2,
+      "title": "察类辨用，循气取象",
+      "required": [
+        "void",
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use",
+        "movement"
+      ],
+      "action": "核主象真假、主客取与候选及制救条件，整理可能改变本问的关系和待裁处",
+      "note": "专业检查保留；前置不完整裁完全部矛盾，已核同版资料复用。"
+    },
+    {
+      "id": 3,
+      "title": "资料核证，独立裁决，完整交付",
+      "required": [
+        "evidence",
+        "adjudication",
+        "report"
+      ],
+      "action": "必要专法与材料核证→中性争点文件→裁决者查漏及裁决→主智能体核查复用→完整正文",
+      "note": "完整盘随交接；争点不是封闭清单。返回只核事实、引用、覆盖和报告一致性，不重新权衡；具体错误或新增资料才重裁。"
+    }
+  ],
+  "conditional": {
+    "daliuren-paipan": {
+      "stage": 1,
+      "trigger": "需要起课或核对程序盘",
+      "selectWith": "--condition daliuren-paipan",
+      "beforeRequired": "class-mapping"
+    },
+    "nianming": {
+      "stage": 1,
+      "trigger": "涉及本命或行年规则的计算、核验或采用",
+      "selectWith": "--nianming",
+      "beforeRequired": "class-mapping"
+    },
+    "rule-semantics": {
+      "stage": 1,
+      "trigger": "否定范围、摘要条件或规则强度存疑",
+      "selectWith": "--condition rule-semantics",
+      "beforeRequired": "positioning"
+    },
+    "liqi-sources": {
+      "stage": 1,
+      "trigger": "所采用方法存在来源或口径分歧",
+      "selectWith": "--condition liqi-sources",
+      "beforeRequired": "positioning"
+    },
+    "risk": {
+      "stage": 2,
+      "trigger": "四大凶象承担主判或最强反证",
+      "selectWith": "--condition risk",
+      "beforeRequired": "movement"
+    },
+    "shensha-tradition": {
+      "stage": 2,
+      "trigger": "采用季煞或传统神煞层级说明",
+      "selectWith": "--condition shensha-tradition",
+      "beforeRequired": "bashajiubao"
+    },
+    "quantity": {
+      "stage": 3,
+      "trigger": "原问要求金额、分数、数量、重量、距离等数值，或已选应期专法需要数理时长",
+      "selectWith": "--condition quantity",
+      "beforeRequired": "evidence"
+    },
+    "quantity-sources": {
+      "stage": 3,
+      "trigger": "需要核对取数数表、原法条件或精确数值案例；已取得对应原书可复用",
+      "selectWith": "--condition quantity-sources",
+      "beforeRequired": "evidence"
+    },
+    "timing": {
+      "stage": 3,
+      "trigger": "有时间任务",
+      "selectWith": "--timing",
+      "beforeRequired": "evidence"
+    },
+    "shenjiang-use": {
+      "stage": 1,
+      "trigger": "采用神将同用、互换，或需要核对具体神将类义的适用范围",
+      "selectWith": "--condition shenjiang-use",
+      "beforeRequired": "positioning"
+    },
+    "shen-symbols": {
+      "stage": 1,
+      "trigger": "需查十二天神的基础义、复合取义或与本家天将的差别",
+      "selectWith": "--condition shen-symbols",
+      "beforeRequired": "positioning"
+    },
+    "jiang-symbols": {
+      "stage": 1,
+      "trigger": "需查十二天将的职能、占类取义或与本家支神的差别",
+      "selectWith": "--condition jiang-symbols",
+      "beforeRequired": "positioning"
+    },
+    "mapping-provenance": {
+      "stage": 1,
+      "trigger": "需核合并对应、旧 I/B 上下文、原卡或未决条件",
+      "selectWith": "--condition mapping-provenance",
+      "beforeRequired": "positioning"
+    }
+  },
+  "domainAfter": "positioning",
+  "extrasBefore": "report",
+  "professionalMainline": "课势定侧重→察类循气→子智能体独立裁决",
+  "legacyCoverage": {
+    "1": {
+      "title": "数据准备",
+      "required": [],
+      "macroStage": 1
+    },
+    "2": {
+      "title": "明占类",
+      "required": [
+        "class-mapping",
+        "positioning"
+      ],
+      "macroStage": 1
+    },
+    "3": {
+      "title": "理气总纲",
+      "required": [
+        "relations",
+        "liqi",
+        "void",
+        "structure"
+      ],
+      "macroStage": 1,
+      "macroStages": [
+        1,
+        2
+      ],
+      "note": "旧第三环节的liqi在新阶段1，void在新阶段2；macroStage仅表示起始阶段，不表示整环节限定在该阶段。"
+    },
+    "4": {
+      "title": "依气察象",
+      "required": [],
+      "macroStage": 2
+    },
+    "5": {
+      "title": "综合核查",
+      "required": [
+        "bashajiubao",
+        "engine-shensha-output",
+        "shensha-focus",
+        "shensha-use"
+      ],
+      "macroStage": 2
+    },
+    "6": {
+      "title": "动态深化",
+      "required": [
+        "movement"
+      ],
+      "macroStage": 2
+    },
+    "7": {
+      "title": "全局复核",
+      "required": [],
+      "macroStage": 2
+    },
+    "8": {
+      "title": "制救裁决（独立子智能体）",
+      "required": [
+        "adjudication"
+      ],
+      "macroStage": 3
+    },
+    "9": {
+      "title": "应期与取数",
+      "required": [],
+      "macroStage": 3
+    },
+    "10": {
+      "title": "收尾核证",
+      "required": [
+        "evidence"
+      ],
+      "macroStage": 3
+    },
+    "11": {
+      "title": "交付复核",
+      "required": [
+        "report"
+      ],
+      "macroStage": 3
+    }
+  },
+  "adjudicationAgent": "liuren-adjudicator",
+  "domainReadRequired": true,
+  "eventRolePolicy": "references/event-positioning-policy.json"
+}

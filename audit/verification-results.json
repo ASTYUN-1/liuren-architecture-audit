@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-16 Asia/Shanghai",
+  "models_called": 0,
+  "native_agents_spawned": 0,
+  "node": {
+    "major": 24,
+    "actual": "24.22.1",
+    "scope": "bundled Node used for verification"
+  },
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "installed_codex_skill_equal_to_maintenance": true,
+  "full55_bound_checks": 261,
+  "exploratory_tests": {
+    "pass": 41,
+    "fail": 3,
+    "causes": [
+      "YAML npm dependency intentionally not bundled",
+      "historical chart fixture not copied by core-only restore",
+      "OpenCode SDK npm dependency intentionally not bundled"
+    ],
+    "scope": "not full-suite acceptance; subsequent selected independent tests separately recorded"
+  },
+  "dynamic_checks": [
+    {
+      "name": "node-contract-tests",
+      "argv": [
+        "C:/Users/QLMa_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "--test",
+        "tools/tests/liuren-adjudication-contract.test.mjs"
+      ],
+      "exit_code": 0,
+      "log": "node-contract-tests.log"
+    },
+    {
+      "name": "codex-complete-transport-tests",
+      "argv": [
+        "C:/Users/QLMa_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "--test",
+        "--test-name-pattern=health|packet preserves|main and bound|material wrapper|submit refuses|Codex reader|core paging|full Unicode|39 Codex|create an unread",
+        "tools/tests/liuren-codex.test.mjs"
+      ],
+      "exit_code": 0,
+      "log": "codex-complete-transport-tests.log"
+    },
+    {
+      "name": "python-retrieval-tests",
+      "argv": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "tools.tests.test_case_retrieval",
+        "tools.tests.test_experience_retrieval",
+        "tools.tests.test_liuren_book_search"
+      ],
+      "exit_code": 0,
+      "log": "python-retrieval-tests.log"
+    },
+    {
+      "name": "full55-status",
+      "argv": [
+        "C:/Users/QLMa_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "tools/liuren-codex.mjs",
+        "status"
+      ],
+      "exit_code": 0,
+      "log": "full55-status.log"
+    }
+  ]
+}

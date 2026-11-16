@@ -1,0 +1,348 @@
+{
+  "release": "20261115-trial-decision-61",
+  "scope": "既有盘的真实OpenCode工具接口核验；没有重新调用模型，不是五例预测复测",
+  "cases": [
+    {
+      "alias": "new-01",
+      "title": "英语四级",
+      "pillars": [
+        "丙午",
+        "乙未",
+        "壬辰",
+        "庚戌"
+      ],
+      "initial": {
+        "branch": "巳",
+        "liuqin": "妻财",
+        "ground": "申",
+        "general": "太阴",
+        "status": "",
+        "branch_state": {
+          "month_qi": "休",
+          "growth_ground": "病",
+          "growth_yin": "长生",
+          "strength_index": 3.655,
+          "strength_level": "偏弱至中等",
+          "local": [
+            "神克地",
+            "神与地六合",
+            "神与地六破",
+            "神刑地",
+            "神克将",
+            "阴神生神",
+            "阴神与神六害",
+            "阴神刑神",
+            "将与地比和"
+          ]
+        },
+        "general_state": {
+          "element": "金",
+          "month_qi": "相",
+          "growth_carrier": "长生",
+          "growth_ground": "临官",
+          "strength_index": 5.794,
+          "strength_level": "较旺",
+          "coexistence": [
+            "乘神巳:长生兼受克"
+          ]
+        },
+        "shensha": [
+          [
+            "S02",
+            "帘幕贵人"
+          ],
+          [
+            "S07",
+            "旬癸闭口"
+          ],
+          [
+            "S10",
+            "月生气"
+          ],
+          [
+            "S19",
+            "岁病符"
+          ]
+        ],
+        "role_in_question": null,
+        "event_effect": null,
+        "interpretation_required": "初传必须核查但不自动替换主类：先解释其在本问是发动、压力、门槛、款项还是结果线索，再看状态与作用。衰弱不等于无力发动；旬空不自动等于事件不发生；发用旺也不保证成功。",
+        "special_conditions": "闭口、空墓、月破及神将专项象义不全部包含在旺衰分数；须按本问职责另核，不能因分数较高便降为消息迟。宫位、乘将及其各自十二气不得混写。"
+      },
+      "season_profile": "quarter-earth",
+      "has_alternative_season_keys": false,
+      "model_called": false,
+      "event_verdict": null
+    },
+    {
+      "alias": "new-02",
+      "title": "加油站面试",
+      "pillars": [
+        "甲辰",
+        "辛未",
+        "壬寅",
+        "丙午"
+      ],
+      "initial": {
+        "branch": "亥",
+        "liuqin": "兄弟",
+        "ground": "亥",
+        "general": "天空",
+        "status": "",
+        "branch_state": {
+          "month_qi": "死",
+          "growth_ground": "临官",
+          "growth_yin": "临官",
+          "strength_index": 1.264,
+          "strength_level": "衰弱",
+          "local": [
+            "神与地比和",
+            "神与地自刑",
+            "将克神",
+            "阴神与神比和",
+            "阴神与神自刑",
+            "将克地"
+          ]
+        },
+        "general_state": {
+          "element": "土",
+          "month_qi": "旺",
+          "growth_carrier": "临官",
+          "growth_ground": "临官",
+          "strength_index": 7.244,
+          "strength_level": "较旺"
+        },
+        "shensha": [
+          [
+            "S12",
+            "日德"
+          ],
+          [
+            "S13",
+            "日禄"
+          ],
+          [
+            "S21",
+            "月死气"
+          ],
+          [
+            "S30",
+            "月血光"
+          ]
+        ],
+        "role_in_question": null,
+        "event_effect": null,
+        "interpretation_required": "初传必须核查但不自动替换主类：先解释其在本问是发动、压力、门槛、款项还是结果线索，再看状态与作用。衰弱不等于无力发动；旬空不自动等于事件不发生；发用旺也不保证成功。",
+        "special_conditions": "闭口、空墓、月破及神将专项象义不全部包含在旺衰分数；须按本问职责另核，不能因分数较高便降为消息迟。宫位、乘将及其各自十二气不得混写。"
+      },
+      "season_profile": "quarter-earth",
+      "has_alternative_season_keys": false,
+      "model_called": false,
+      "event_verdict": null
+    },
+    {
+      "alias": "new-03",
+      "title": "钥匙扣娃娃",
+      "pillars": [
+        "丙午",
+        "丙申",
+        "辛未",
+        "丙申"
+      ],
+      "initial": {
+        "branch": "亥",
+        "liuqin": "子孙",
+        "ground": "寅",
+        "general": "白虎",
+        "status": "旬空",
+        "branch_state": {
+          "month_qi": "相",
+          "growth_ground": "病",
+          "growth_yin": "长生",
+          "strength_index": 4.412,
+          "strength_level": "偏弱至中等",
+          "local": [
+            "神生地",
+            "神与地六合",
+            "神与地六破",
+            "将生神",
+            "阴神生神",
+            "阴神与神六害",
+            "将克地"
+          ]
+        },
+        "general_state": {
+          "element": "金",
+          "month_qi": "旺",
+          "growth_carrier": "病",
+          "growth_ground": "绝",
+          "strength_index": 3.605,
+          "strength_level": "偏弱至中等"
+        },
+        "shensha": [
+          [
+            "S06",
+            "成神"
+          ],
+          [
+            "S08",
+            "岁小耗"
+          ],
+          [
+            "S20",
+            "岁干死符"
+          ],
+          [
+            "S21S",
+            "月死神"
+          ],
+          [
+            "S22",
+            "季孤辰"
+          ]
+        ],
+        "role_in_question": null,
+        "event_effect": null,
+        "interpretation_required": "初传必须核查但不自动替换主类：先解释其在本问是发动、压力、门槛、款项还是结果线索，再看状态与作用。衰弱不等于无力发动；旬空不自动等于事件不发生；发用旺也不保证成功。",
+        "special_conditions": "闭口、空墓、月破及神将专项象义不全部包含在旺衰分数；须按本问职责另核，不能因分数较高便降为消息迟。宫位、乘将及其各自十二气不得混写。"
+      },
+      "season_profile": "quarter-earth",
+      "has_alternative_season_keys": false,
+      "model_called": false,
+      "event_verdict": null
+    },
+    {
+      "alias": "new-04",
+      "title": "催收房租",
+      "pillars": [
+        "丙午",
+        "壬辰",
+        "戊辰",
+        "戊午"
+      ],
+      "initial": {
+        "branch": "亥",
+        "liuqin": "妻财",
+        "ground": "申",
+        "general": "朱雀",
+        "status": "旬空",
+        "branch_state": {
+          "month_qi": "死",
+          "growth_ground": "长生",
+          "growth_yin": "病",
+          "strength_index": 1.454,
+          "strength_level": "衰弱",
+          "local": [
+            "地生神",
+            "神与地六害",
+            "神克将",
+            "神生阴神",
+            "阴神与神六合",
+            "阴神与神六破",
+            "将克地"
+          ]
+        },
+        "general_state": {
+          "element": "火",
+          "month_qi": "休",
+          "growth_carrier": "绝",
+          "growth_ground": "病",
+          "strength_index": 1.871,
+          "strength_level": "衰弱"
+        },
+        "shensha": [
+          [
+            "S06",
+            "成神"
+          ],
+          [
+            "S08",
+            "岁小耗"
+          ],
+          [
+            "S20",
+            "岁干死符"
+          ]
+        ],
+        "role_in_question": null,
+        "event_effect": null,
+        "interpretation_required": "初传必须核查但不自动替换主类：先解释其在本问是发动、压力、门槛、款项还是结果线索，再看状态与作用。衰弱不等于无力发动；旬空不自动等于事件不发生；发用旺也不保证成功。",
+        "special_conditions": "闭口、空墓、月破及神将专项象义不全部包含在旺衰分数；须按本问职责另核，不能因分数较高便降为消息迟。宫位、乘将及其各自十二气不得混写。"
+      },
+      "season_profile": "quarter-earth",
+      "has_alternative_season_keys": false,
+      "model_called": false,
+      "event_verdict": null
+    },
+    {
+      "alias": "new-05",
+      "title": "护士科室调动",
+      "pillars": [
+        "乙巳",
+        "庚辰",
+        "甲戌",
+        "庚午"
+      ],
+      "initial": {
+        "branch": "申",
+        "liuqin": "官鬼",
+        "ground": "巳",
+        "general": "青龙",
+        "status": "旬空",
+        "branch_state": {
+          "month_qi": "相",
+          "growth_ground": "长生",
+          "growth_yin": "病",
+          "strength_index": 3.602,
+          "strength_level": "偏弱至中等",
+          "local": [
+            "地克神",
+            "神与地六合",
+            "神与地六破",
+            "地刑神",
+            "神克将",
+            "神生阴神",
+            "阴神与神六害",
+            "将生地"
+          ],
+          "formations": [
+            "内战"
+          ],
+          "coexistence": [
+            "地盘巳:长生兼受克"
+          ]
+        },
+        "general_state": {
+          "element": "木",
+          "month_qi": "囚",
+          "growth_carrier": "绝",
+          "growth_ground": "病",
+          "strength_index": 0.855,
+          "strength_level": "极衰"
+        },
+        "shensha": [
+          [
+            "S03",
+            "日驿马"
+          ],
+          [
+            "S20",
+            "岁干死符"
+          ],
+          [
+            "S21",
+            "月死气"
+          ]
+        ],
+        "role_in_question": null,
+        "event_effect": null,
+        "interpretation_required": "初传必须核查但不自动替换主类：先解释其在本问是发动、压力、门槛、款项还是结果线索，再看状态与作用。衰弱不等于无力发动；旬空不自动等于事件不发生；发用旺也不保证成功。",
+        "special_conditions": "闭口、空墓、月破及神将专项象义不全部包含在旺衰分数；须按本问职责另核，不能因分数较高便降为消息迟。宫位、乘将及其各自十二气不得混写。"
+      },
+      "season_profile": "quarter-earth",
+      "has_alternative_season_keys": false,
+      "model_called": false,
+      "event_verdict": null
+    }
+  ]
+}

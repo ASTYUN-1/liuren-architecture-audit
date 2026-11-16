@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "release": "20261105-no-retrieval-01",
+  "phase": "active",
+  "methodVersion": "fd1f3a520e3dcd88c653d4b7646fca3176d70552e35103dd41894c6deacc4ad5",
+  "modules": 59,
+  "professionalModulesByteUnchanged": 55,
+  "required": 14,
+  "domains": 16,
+  "routeCombinationsSameAsBaseline": 8192,
+  "domainPlansSameAsBaseline": 64,
+  "disabledScanAndRootChecks": 4,
+  "excludedHistoricalExperienceAliases": 2,
+  "oldRuntimeUnchanged": true,
+  "calculationPolicyUnchanged": true,
+  "configDiffLimitedToExperiment": true,
+  "modelCalls": 0,
+  "predictiveValidationCount": 0
+}

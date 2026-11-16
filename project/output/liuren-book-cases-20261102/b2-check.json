@@ -1,0 +1,15 @@
+{
+  "modern_records": 107,
+  "modern_complete": 102,
+  "modern_fragment": 5,
+  "ancient_records": 437,
+  "ancient_complete": 426,
+  "new_method_cards": 10,
+  "verified_reference_count": 610,
+  "quote_mismatch": 0,
+  "sha256_mismatch": 0,
+  "modern_boundary_candidates": 189,
+  "ancient_boundary_candidates": 561,
+  "candidate_state": "all_pending_not_case_count",
+  "independent_validation_count": 0
+}

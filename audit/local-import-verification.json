@@ -1,0 +1,2200 @@
+[
+  {
+    "source": "tools/export-liuren-engine-books.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/generate-current-case-charts.mjs",
+    "target": "./batch-case-charts.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-contract.mjs",
+    "target": "./liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-contract.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-contract.mjs",
+    "target": "./liuren-adjudication-schema.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-files.mjs",
+    "target": "./liuren-adjudication-contract.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-files.mjs",
+    "target": "./liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-files.mjs",
+    "target": "./liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-files.mjs",
+    "target": "./liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-adjudication-files.mjs",
+    "target": "./liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-basic-states.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-basic-states.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-audit.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-audit.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-audit.mjs",
+    "target": "./liuren-bifa-source-rules.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-audit.mjs",
+    "target": "./liuren-bifa-source-rules.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-basic.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-basic.mjs",
+    "target": "./liuren-bifa-basic-rules.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-batch.mjs",
+    "target": "./liuren-bifa-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-batch.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-batch.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-batch.mjs",
+    "target": "./liuren-bifa-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-batch.mjs",
+    "target": "./liuren-bifa-source-rules.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-view.mjs",
+    "target": "./liuren-bifa-basic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-view.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-bifa-view.mjs",
+    "target": "./liuren-bifa-statements.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-calendar-v2.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-calendar-v2.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-chart-view.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-chart-view.mjs",
+    "target": "./liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-chart-view.mjs",
+    "target": "./liuren-strength-interpretation.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-chart-view.mjs",
+    "target": "./liuren-bifa-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-chart-view.mjs",
+    "target": "./liuren-base-index-profile.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-chart-view.mjs",
+    "target": "./liuren-local-strength-profile.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-adjudication-output.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "./liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-codex.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-compute-schema.mjs",
+    "target": "./liuren-quantity-adjustment.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-compute-schema.mjs",
+    "target": "./liuren-year-life.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-consistency-audit.mjs",
+    "target": "./liuren-quantity-review.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-consistency-audit.mjs",
+    "target": "./liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-bifa-basic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-bifa-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-method-tools.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-core-handoff.mjs",
+    "target": "./liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-calendar.mjs",
+    "target": "./liuren-calendar-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-deterministic-calendar.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-event-positioning.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-method-tools.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-time-evaluation.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-quantity-adjustment.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-year-life.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic-io.mjs",
+    "target": "./liuren-source-encodings.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-deterministic.mjs",
+    "target": "./liuren-basic-state-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct.mjs",
+    "target": "./liuren-direct/chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct.mjs",
+    "target": "./liuren-tool-transport.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct.mjs",
+    "target": "./liuren-year-life.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-event-positioning.mjs",
+    "target": "./liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-flow-control.mjs",
+    "target": "./liuren-adjudication-output.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-flow-control.mjs",
+    "target": "./liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-local-strength.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-method-tools.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-method-tools.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-method-tools.mjs",
+    "target": "./liuren-method-registry.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-palace-strength.mjs",
+    "target": "./liuren-strength-engine.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-palace-strength.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-palace-strength.mjs",
+    "target": "./liuren-strength-rules.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-palace-strength.mjs",
+    "target": "./liuren-strength-interpretation.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-quantity-adjustment.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-quantity-adjustment.mjs",
+    "target": "./liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-resolved-chart.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-resolved-chart.mjs",
+    "target": "./liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-resolved-chart.mjs",
+    "target": "./liuren-basic-states.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-resolved-chart.mjs",
+    "target": "./liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-shensha.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-shensha.mjs",
+    "target": "./liuren-engine-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-shensha.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength-engine.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength-engine.mjs",
+    "target": "./liuren-strength-rules.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength-engine.mjs",
+    "target": "./liuren-strength-profile.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength-rules.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength.mjs",
+    "target": "./liuren-strength-engine.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength.mjs",
+    "target": "./liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-strength.mjs",
+    "target": "./liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-time-evaluation.mjs",
+    "target": "./liuren-deterministic-calendar.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-time-evaluation.mjs",
+    "target": "./liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-time-evaluation.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-tool-transport.mjs",
+    "target": "../tmp/liuren-tool-transport/",
+    "exists": false,
+    "generated_directory": true,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-trial-decision.mjs",
+    "target": "./liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-trial-decision.mjs",
+    "target": "./liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren_book_reconstruction.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren_book_reconstruction.mjs",
+    "target": "../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren_book_reconstruction_verify.mjs",
+    "target": "./liuren_book_reconstruction.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren_book_reconstruction_verify.mjs",
+    "target": "./liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct/chart.mjs",
+    "target": "../liuren-year-life.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct/chart.mjs",
+    "target": "./legacy-engine-manifest.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct/chart.mjs",
+    "target": "./legacy-engine-worker.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct/legacy-engine-worker.mjs",
+    "target": "../../排盘工具魔改/",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/liuren-direct/legacy-engine-worker.mjs",
+    "target": "./legacy-engine-manifest.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": "tools/tests/batch-case-charts.test.mjs",
+    "target": "../batch-case-charts.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-adjudication-contract.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-adjudication-plugin.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-adjudication-plugin.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-event-positioning.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-quantity-adjustment.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-method-tools.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+    "exists": false,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../../.opencode/liuren-active.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-analysis-route.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-basic-states.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-basic-states.test.mjs",
+    "target": "../liuren-basic-states.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-basic-states.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-basic-states.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-basic-states.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-audit.test.mjs",
+    "target": "../liuren-bifa-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-audit.test.mjs",
+    "target": "../../output/liuren-bifa-audit-20261111/",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-basic.test.mjs",
+    "target": "../liuren-bifa-basic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-basic.test.mjs",
+    "target": "../liuren-bifa-batch.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-basic.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-basic.test.mjs",
+    "target": "../liuren-bifa-basic-rules.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-guide.test.mjs",
+    "target": "../liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-guide.test.mjs",
+    "target": "../liuren-bifa-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-guide.test.mjs",
+    "target": "../liuren-bifa-batch.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-guide.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-reviewed.test.mjs",
+    "target": "../liuren-bifa-basic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-reviewed.test.mjs",
+    "target": "../liuren-bifa-batch.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-reviewed.test.mjs",
+    "target": "../../output/liuren-bifa-audit-20261111/engine-day-night-1440.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-view.test.mjs",
+    "target": "../liuren-bifa-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-view.test.mjs",
+    "target": "../liuren-bifa-basic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-view.test.mjs",
+    "target": "../liuren-bifa-batch.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-view.test.mjs",
+    "target": "../../output/liuren-bifa-audit-20261111/engine-day-night-1440.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-bifa-view.test.mjs",
+    "target": "../../output/liuren-bifa-current-handoff-20261111/正式盘导出.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-book-search-transport.test.mjs",
+    "target": "../../.opencode/tools/liuren_materials.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-health.test.mjs",
+    "target": "../liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-health.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-health.test.mjs",
+    "target": "../liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-health.test.mjs",
+    "target": "../../.opencode/tools/liuren_chart.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-view.test.mjs",
+    "target": "../liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-view.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-view.test.mjs",
+    "target": "../liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-view.test.mjs",
+    "target": "../../output/liuren-energy-prototype-20261108/fixed-v02/model.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-chart-view.test.mjs",
+    "target": "../../output/liuren-energy-yin-20261106-1443/chart-result.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-class-selection-trial.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-class-selection-trial.test.mjs",
+    "target": "../../.opencode/plugins/liuren-adjudication.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-class-selection-trial.test.mjs",
+    "target": "../../.opencode/tools/liuren_materials.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-class-selection-trial.test.mjs",
+    "target": "../../.opencode/tools/liuren_chart.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-codex.test.mjs",
+    "target": "../liuren-codex.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-codex.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-codex.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-codex.test.mjs",
+    "target": "../liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-compute-interface.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-compute-interface.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-compute-interface.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-compute-interface.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-compute-interface.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-consistency-audit.test.mjs",
+    "target": "../liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-consistency-audit.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-consistency-audit.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../liuren-flow-control.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../liuren-adjudication-output.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-core-handoff.test.mjs",
+    "target": "../../.opencode/plugins/liuren-adjudication.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../liuren-deterministic-calendar.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../liuren-adjudication-contract.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-deterministic.test.mjs",
+    "target": "../../.opencode/plugins/liuren-adjudication.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-direct.test.mjs",
+    "target": "../liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-direct.test.mjs",
+    "target": "./fixtures/liuren-historical-hashes.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-direct.test.mjs",
+    "target": "../../.opencode/tools/liuren_chart.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-direct.test.mjs",
+    "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/tool.js",
+    "exists": false,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "../liuren-flow-control.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "../liuren-adjudication-output.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "../liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-flow-control.test.mjs",
+    "target": "../../.opencode/plugins/liuren-adjudication.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-local-strength.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-local-strength.test.mjs",
+    "target": "../liuren-local-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-materials-transport.test.mjs",
+    "target": "../../.opencode/tools/liuren_materials.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-method-quantity-scope.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-method-quantity-scope.test.mjs",
+    "target": "../liuren-method-tools.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-method-quantity-scope.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-node-runtime.test.mjs",
+    "target": "../liuren-node-runtime.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-palace-strength.test.mjs",
+    "target": "../liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-palace-strength.test.mjs",
+    "target": "../liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-palace-strength.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-palace-strength.test.mjs",
+    "target": "../../output/liuren-energy-yin-20261106-1443/chart-result.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-quantity-review.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+    "exists": false,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-codex.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-quantity-review.test.mjs",
+    "target": "../liuren-quantity-adjustment.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-shensha.test.mjs",
+    "target": "../liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-shensha.test.mjs",
+    "target": "../liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-shensha.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-shensha.test.mjs",
+    "target": "../liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-shensha.test.mjs",
+    "target": "../liuren-engine-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-shensha.test.mjs",
+    "target": "../liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-source-handoff.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-source-handoff.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-source-handoff.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-interpretation.test.mjs",
+    "target": "../liuren-strength-interpretation.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-interpretation.test.mjs",
+    "target": "../liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-interpretation.test.mjs",
+    "target": "../liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-interpretation.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-strength-engine.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-quantity-adjustment.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-method-tools.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-quantity-review.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../liuren-compute-schema.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+    "exists": false,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-quantity.test.mjs",
+    "target": "../../output/liuren-energy-yin-20261106-1443/chart-result.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-review.test.mjs",
+    "target": "../liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength-review.test.mjs",
+    "target": "../../output/liuren-energy-yin-20261106-1443/chart-result.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength.test.mjs",
+    "target": "../liuren-strength-engine.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength.test.mjs",
+    "target": "../liuren-strength-rules.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-strength.test.mjs",
+    "target": "../liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-reliability.test.mjs",
+    "target": "../../.opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+    "exists": false,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-reliability.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-reliability.test.mjs",
+    "target": "../liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-reliability.test.mjs",
+    "target": "../liuren-adjudication-schema.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-transport.test.mjs",
+    "target": "../liuren-tool-transport.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-transport.test.mjs",
+    "target": "../liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-upgrade.test.mjs",
+    "target": "../liuren-deterministic-calendar.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-upgrade.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-upgrade.test.mjs",
+    "target": "../liuren-method-tools.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-upgrade.test.mjs",
+    "target": "../liuren-palace-strength.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-upgrade.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-tool-upgrade.test.mjs",
+    "target": "../../output/liuren-energy-yin-20261106-1443/chart-result.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-trial-decision.test.mjs",
+    "target": "../liuren-trial-decision.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-trial-decision.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-trial-month-initial.test.mjs",
+    "target": "../liuren-deterministic.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-trial-month-initial.test.mjs",
+    "target": "../liuren-trial-decision.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-trial-month-initial.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-trial-month-initial.test.mjs",
+    "target": "../../.opencode/plugins/liuren-adjudication.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-wire-schema.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-wire-schema.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-workflow-consistency.test.mjs",
+    "target": "../liuren-codex.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-workflow-consistency.test.mjs",
+    "target": "../liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-year-life.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-resolved-chart.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-adjudication-contract.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../liuren-compute-schema.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "./fixtures/liuren-adjudication-v2.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../../.opencode/tools/liuren_chart.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/liuren-year-life.test.mjs",
+    "target": "../../.opencode/plugins/liuren-adjudication.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": "tools/tests/fixtures/liuren-adjudication-v2.mjs",
+    "target": "../../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": true
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-adjudication-schema.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../tools/liuren_chart.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../tools/liuren_materials.ts",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-adjudication-contract.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-adjudication-files.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-deterministic-io.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-compute-schema.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-adjudication-output.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-flow-control.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-event-positioning.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-core-handoff.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-consistency-audit.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-analysis-route.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/plugins/liuren-adjudication.ts",
+    "target": "../../tools/liuren-trial-decision.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-trial-decision.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-tool-transport.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-node-runtime.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-shensha.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-chart-view.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-year-life.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../../tools/liuren-direct.mjs",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_chart.ts",
+    "target": "../liuren-active.json",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  },
+  {
+    "source": ".opencode/tools/liuren_materials.ts",
+    "target": "../../",
+    "exists": true,
+    "generated_directory": false,
+    "is_test": false
+  }
+]

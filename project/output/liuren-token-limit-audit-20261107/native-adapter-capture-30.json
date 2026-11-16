@@ -1,0 +1,72 @@
+{
+  "externalModelCalls": 0,
+  "configFilesChanged": false,
+  "modelMetadata": {
+    "id": "deepseek-flash",
+    "api": {
+      "id": "deepseek-flash",
+      "url": "https://api.deepseek.com",
+      "npm": "@ai-sdk/openai-compatible"
+    },
+    "limit": {
+      "context": 1048576,
+      "output": 393216
+    },
+    "variants": {
+      "low": {
+        "reasoningEffort": "low"
+      },
+      "high": {
+        "reasoningEffort": "high"
+      },
+      "max": {
+        "reasoningEffort": "max"
+      }
+    }
+  },
+  "providerNpm": null,
+  "configuredNpm": null,
+  "sessionID": "ses_e4b1cb35fffe4mmm350FR6UstJ",
+  "helpStatuses": [
+    "completed"
+  ],
+  "release": "20261107-slim-30",
+  "execution_health": {
+    "schema": "liuren-loaded-implementation-v1",
+    "ready": true,
+    "release": "20261107-slim-30",
+    "loaded": {
+      ".opencode/plugins/liuren-adjudication.ts": "16165ef722f70e4b47795c85a83abbbdb4a5b8e17c47d70977f87fc8c38768d3",
+      "tools/liuren-flow-control.mjs": "0998a32cb29bf6a869f76c211fb1464dad943b18ad8c1db21800023cd96edf3a"
+    },
+    "mismatches": []
+  },
+  "features": {
+    "full_page_batch": 4,
+    "method_module_assembly": true,
+    "exact_source_aliases": true,
+    "calculation_receipts": true,
+    "archive_metadata_passthrough": true,
+    "provider_default_output_budget": false,
+    "explicit_output_budget": true,
+    "requested_max_output_tokens": 393216,
+    "bounded_same_session_recovery": true,
+    "pending_task_discovery": true,
+    "loaded_implementation_check": true
+  },
+  "capturedRequests": [
+    {
+      "model": "deepseek-flash",
+      "max_tokens": 393216,
+      "reasoning_effort": "high",
+      "stream": true
+    },
+    {
+      "model": "deepseek-flash",
+      "max_tokens": 393216,
+      "reasoning_effort": "high",
+      "stream": true
+    }
+  ],
+  "passed": true
+}

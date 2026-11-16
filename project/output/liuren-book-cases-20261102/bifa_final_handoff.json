@@ -1,0 +1,45 @@
+{
+  "schema": "bifa-final-handoff-v1",
+  "status": "stage_saved_stopped_no_further_expansion",
+  "cases": 131,
+  "complete": 48,
+  "fragment": 83,
+  "source_methods": 139,
+  "reconstruction_requests": 63,
+  "raw_archives": 504,
+  "canonical_families": 20,
+  "legacy_entries_reviewed": [
+    "B0303"
+  ],
+  "subjudgments_reviewed": 10,
+  "new_audits": 10,
+  "new_candidate_revision_rules": 10,
+  "owning_book_validator": "131/131 PASS",
+  "owning_overlay_validator": "20/20 PASS",
+  "global_workbench_validation": true,
+  "auxiliary_source_refs_rechecked": 538,
+  "fragment_routes": {
+    "engine_source_conflict": 11,
+    "relation_constrained_candidates": 29,
+    "cross_source_missing_inputs": 43
+  },
+  "independent_validation_count": 0,
+  "artifact_sha256": {
+    "knowledge/liuren-research/20261102/book-cases/bifa.json": "7d17f5edb1ec3c324b8fec072dc3016aacdb8eccb0714b4f39e75501bdf2957b",
+    "knowledge/liuren-research/20261102/rules/book-bifa.json": "f080621a2e79367b8c2ddd779a4fc6de68e8f4141bf05702aadf7a2e8b5731db",
+    "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json": "1d18d73a2145248397f23a83ace2ded875180614bf0975cf10798330b77d700b",
+    "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json": "b1204d64a5a11f990e908d50ab337f37922992e9f6c53a806d97366012efb872",
+    "knowledge/liuren-research/20261102/families/legacy-bifa-continuation.json": "aa726fd2c52b4dd419e58c14fb4adb74eda96cf3753a0d46d00fd74eaae6c71d",
+    "output/liuren-book-cases-20261102/bifa_reconstruction_review.json": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726"
+  },
+  "documents": [
+    "docs/六壬知识整理-20261102/毕法拆案与用法记录.md",
+    "docs/六壬知识整理-20261102/旧经验续审-毕法及相关.md"
+  ],
+  "pending": [
+    "统一正式import、索引和完整附录由knowledge_tools按本hash执行，本交接不冒报完成。",
+    "BIFA090↔ANCIENT431新同源提示留待后续反向复核；本次停止前不再开新批。",
+    "其余807条旧经验未在本续审中展开；已有其他代理/先前审查仍按其真实记录计。",
+    "关系29案未全实跑、缺参43案及11冲突未消除；无新证据不反复同输入重算。"
+  ]
+}

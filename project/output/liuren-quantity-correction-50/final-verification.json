@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "release": "20261112-quantity-correction-50",
+  "parent_files_unchanged": 131,
+  "backup_files_verified": 11,
+  "runtime_content_files_verified": 132,
+  "modules_readable": 83,
+  "domains_planned": 17,
+  "source_spans_verified": 69,
+  "models_and_budget_unchanged": true,
+  "strength_algorithm_unchanged": true,
+  "new_numerical_tasks_require_receipt_review": true,
+  "real_model_validation": false,
+  "predictive_validation_count": 0
+}

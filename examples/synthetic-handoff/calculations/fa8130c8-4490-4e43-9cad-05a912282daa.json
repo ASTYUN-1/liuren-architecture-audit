@@ -1,0 +1,37 @@
+{
+  "request": {
+    "action": "imagery",
+    "imagery": {
+      "id": "DF449-growth",
+      "target": "T:丑",
+      "reference": "ground",
+      "basis": "合成传输验收"
+    }
+  },
+  "result": {
+    "schema": "liuren-imagery-v1",
+    "method": "DF449-growth",
+    "facts": {
+      "target": "T:丑",
+      "ground": "辰",
+      "general": "腾蛇",
+      "reference": "ground",
+      "place": "辰",
+      "growth": "墓"
+    },
+    "matches": [
+      {
+        "attribute": "新旧",
+        "candidate": "废旧（本段专项取象）"
+      }
+    ],
+    "source": {
+      "path": "书籍库/排盘引擎内置资料/六壬东方朔射覆.txt",
+      "line_start": 449,
+      "line_end": 450,
+      "line_mode": "lf",
+      "sha256": "ab01d081a1794d702e705f1dabe01608603f26f3270162d48de37494b6f5ac23"
+    },
+    "basis": "合成传输验收"
+  }
+}

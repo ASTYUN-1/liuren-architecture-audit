@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-19T00:34:30",
+  "errors": [],
+  "source_files": 109,
+  "case_files_in_snapshot": 247,
+  "annotation_sources": 109,
+  "entries": 808,
+  "relations": 145,
+  "all_original_hashes_unchanged": true,
+  "all_independent_validation_increments_zero": true,
+  "scope_note": "校验覆盖、引用和原文完整性，不证明断法正确或经验泛化有效。",
+  "rendered_links_checked": 6451,
+  "quoted_ranges_checked": 808
+}

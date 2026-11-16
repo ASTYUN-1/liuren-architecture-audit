@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "release": "20261105-adjudication-01",
+  "methodVersion": "56deba0ca86415f0425dbe64c27bddad6d37a277bf4959f8c8b9d44193985576",
+  "overlayFingerprint": "aaf91ad9a2a838ddf2d7ce7ae2ea7eca17c760ce939c530e844b74003f5b85ac",
+  "checks": [
+    {
+      "check": "native-complete-method",
+      "module": "positioning"
+    },
+    {
+      "check": "native-complete-method",
+      "module": "liqi"
+    },
+    {
+      "check": "native-complete-method",
+      "module": "structure"
+    },
+    {
+      "check": "native-complete-method",
+      "module": "adjudication"
+    },
+    {
+      "check": "native-complete-method",
+      "module": "evidence"
+    },
+    {
+      "check": "native-complete-method",
+      "module": "report"
+    },
+    {
+      "check": "native-complete-method",
+      "module": "exam"
+    },
+    {
+      "check": "native-paged-reference",
+      "file": "references/expert-adjudication.md",
+      "lines": 19
+    },
+    {
+      "check": "native-paged-reference",
+      "file": "references/expert-adjudication-cases.md",
+      "lines": 194
+    },
+    {
+      "check": "native-paged-reference",
+      "file": "references/expert-adjudication-excerpts.md",
+      "lines": 897
+    },
+    {
+      "check": "native-paged-reference",
+      "file": "references/expert-adjudication-sources.json",
+      "lines": 455
+    },
+    {
+      "check": "native-paged-reference",
+      "file": "procedures/liuren-cases.md",
+      "lines": 74
+    },
+    {
+      "check": "native-paged-reference",
+      "file": "procedures/liuren-extract.md",
+      "lines": 67
+    },
+    {
+      "check": "config-and-unregistered-old-runtime-denied"
+    }
+  ],
+  "modelCalls": 0,
+  "predictiveValidationCount": 0
+}

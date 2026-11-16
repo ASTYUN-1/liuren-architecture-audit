@@ -1,0 +1,73 @@
+{
+  "skill": "leishen-keti",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我占一下，这套房子我能不能买得到？",
+      "expected_behavior": "应激活 leishen-keti, 并为房屋取类神(亥为楼阁/午厅堂/卯房宿/丑勾田产), 扫描类神是否现课传, 输出类神命中表",
+      "notes": "A2 触发场景 1: 能否得到某物的典型问题"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我考驾照的证还没下来，帮我测测什么时候能拿到？",
+      "expected_behavior": "应激活 leishen-keti, 取证件类神(戌印绶乘六合), 扫课传与位次, 先定'证在否', 应期日期再交由 yingqi-panduan",
+      "notes": "书案例 c06 同类问题, 具体物件的类神取法"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "帮我测测我老婆是不是已经怀上了？",
+      "expected_behavior": "应激活 leishen-keti, 取胎神为类神(如丙日干上子), 查是否现课传与旺衰, 输出孕象成立与否的判断链",
+      "notes": "书案例 c03 同类问题, 胎神类神"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "这课我该看类神还是看课体？哪个更准？",
+      "expected_behavior": "应激活 leishen-keti, 用双侧重选择法: 先尝试取类神, 取不到/方向类则切课体线, 并用两线互证评估置信度",
+      "notes": "A2 触发场景 4: 主线分叉决策"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "明天上海会不会下雨？",
+      "expected_behavior": "不应激活 leishen-keti, 因为这是纯气象预报问题, 无干支课传与占问对象, 不构成壬课占问",
+      "notes": "诱饵: 完全无关场景(纯天气查询)"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "类神已经取到了，但它好像空亡了，这事到底还能不能成？",
+      "expected_behavior": "不应激活本 skill(leishen-keti), 应激活 kongwang-bianzhi: 类神已确立, 剩下'真假校验'环节, 属空亡/变质辨析的职责",
+      "notes": "诱饵: 跨 skill 混淆诱饵(硬性要求), 防止 leishen-keti 与下游校验闸门 kongwang-bianzhi 抢调用"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "占一下明年的经济大趋势往哪走？",
+      "expected_behavior": "不应激活本 skill(leishen-keti), 应激活 keti-qishi: 方向/大势类问题无具体对象可取类神, 直接走课体气势阅读法",
+      "notes": "诱饵: 跨 skill 混淆(contrasts-with), 类神线 vs 课体线场景"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占我能不能进这家公司？",
+      "expected_behavior": "应激活 leishen-keti: 职位可取材类神(禄/父母/长生), 先取类神扫课传; 若用户未给具体岗位或盘面, 先澄清数据; 若只问'职业发展方向'则不取类神, 走课体线",
+      "notes": "边界: 求职对象是否足够具体以取材类神"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "帮我占下病能不能好？",
+      "expected_behavior": "应激活 leishen-keti: 病可取白虎官鬼为类神, 属'能否成'占问; 但若用户问的是吉凶轻重而非'是否痊愈', 则偏向 jixiong-tiaozhi 的定性调制——需先辨用户意图再选线",
+      "notes": "边界: 病占的'成败'类问 vs '吉凶定性'问"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "should_trigger×4 + should_not_trigger×3(含 1 条跨 skill 兄弟诱饵 + 1 条完全无关) + edge_case×2。诱饵类型: ①纯天气查询(无关) ②'类神已取但空亡'→kongwang-bianzhi(兄弟 skill 混淆, 下游校验闸门) ③'经济大势'→keti-qishi(课体主线)。所有 should_not_trigger 必须通过(诱饵容错为 0)。"
+}

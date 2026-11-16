@@ -1,0 +1,2815 @@
+{
+  "summary": {
+    "record_count": 640,
+    "eligible_count": 569,
+    "mechanical_valid": false,
+    "explicit_rule_family_count": 77,
+    "semantic_validation": "external_review_declaration_only",
+    "independent_validation_count": 0,
+    "complete": false,
+    "present": true
+  },
+  "own_rule_count": 32,
+  "own_rules_eligible": 32,
+  "own_issues": [],
+  "unrelated_issues": [
+    {
+      "id": "LR26-M102A-002-TIME",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-002-SEAL",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-002-VOID",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-002-LOSS",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-002-ART",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-003-DIV",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-003-WATER",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-003-ROLE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-004-FOOD",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-004-SANC",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-004-SEAL",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-004-MID",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-004-LING",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-005-CATCH",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-005-ACCIDENT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-005-VIDEO",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-005-ZHANG",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-006-SCHOOL",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-006-DEPART",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-007-COMPETE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-007-ALT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-007-RANK",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-008-SEXT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-008-CHILD",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-009-PREG",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-009-FLOW",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-011-DREAM",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-011-PHOTO",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-012-VISIT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-012-FOOD",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-013-LEG",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-013-DOOR",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-014-SAVE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-014-DEMOTE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-014-PEACH",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-015-EXAM",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-015-LATER",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-015-FILL",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-017-REL",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-017-CHILD",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-018-PROFIT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-018-TIME",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-019-FIND",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-019-RETURN",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-019-RAIN",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-020-STRANGE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-020-RELIEF",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-021-KEEP",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-021-LATER",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-022-ARREST",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-022-JAIL",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-023-DIV",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-023-FEE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-023-LONG",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-024-DEATH",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-024-LOC",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-025-FIND",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-025-ALT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-026-ALT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-026-MAIN",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-027-ALT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-027-MAIN",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-028-OFFER",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-028-ROLE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-028-ALT",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-029-MOVE",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-029-LATER",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-030-HEALTH",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-030-WEALTH",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-030-HOME",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    },
+    {
+      "id": "LR26-M102A-030-CHILD",
+      "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "semantic_review_state": "source_checked",
+      "mechanical_state": "blocked",
+      "eligible_for_search": false,
+      "errors": [
+        "书案注册ID须精确等于book:path:Lstart-Lend"
+      ],
+      "evidence_checks": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "errors": []
+        }
+      ],
+      "target_entry_ids": [],
+      "target_case_paths": [],
+      "related_status_notes": []
+    }
+  ],
+  "note": "actual apply_experience + retrieve，内存构建不写共享缓存；不代表方法效力。"
+}

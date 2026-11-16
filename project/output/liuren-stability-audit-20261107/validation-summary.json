@@ -1,0 +1,129 @@
+{
+  "release": "20261107-slim-29",
+  "localOnly": true,
+  "websiteChanged": false,
+  "plugin": "oh-my-opencode-slim@2.2.18",
+  "mcp": {
+    "enabledAndProbed": 8,
+    "aoci": "project disabled: not initialized; global unchanged"
+  },
+  "nativeNormalFlow": true,
+  "nativeLengthRecovery": true,
+  "realModelTest": "one minimal workflow tool call, not full professional judgment",
+  "node": {
+    "passed": 221,
+    "failed": 0
+  },
+  "python": {
+    "testsRun": 48,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "passed": true,
+    "scope": [
+      "test_liuren_method_loader",
+      "test_liuren_class_mapping",
+      "test_liuren_single_method",
+      "test_liuren_plan_transport",
+      "test_liuren_material_scope",
+      "test_liuren_book_search",
+      "test_liuren_local_read.LocalReadTests.test_batches_reconstruct_every_selected_module_without_abridgement",
+      "test_liuren_local_read.LocalReadTests.test_condition_routes_remain_intact_and_invalid_conditions_are_rejected"
+    ],
+    "externalModelCalls": 0,
+    "exclusions": "Historical two-library retrieval tests and the 20261027-only publication verifier are not current normal-flow checks; prior full-suite findings remain in activation evidence."
+  },
+  "routes": {
+    "release": "20261107-slim-29",
+    "checks": [
+      {
+        "check": "活动指针/manifest/全包字节身份一致",
+        "passed": true,
+        "detail": 106
+      },
+      {
+        "check": "主线8项唯一且旧6项不再重复",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "16占类×结果/应期/数量及13触发分支均连通",
+        "passed": true,
+        "detail": 272
+      },
+      {
+        "check": "全部登记模块经真实CLI逐页重建，含兼容别名",
+        "passed": true,
+        "detail": {
+          "modules": 59,
+          "pageCalls": 84
+        }
+      },
+      {
+        "check": "维护入口文件可读取：procedures/common.md",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "维护入口文件可读取：procedures/liuren-cases.md",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "维护入口文件可读取：procedures/liuren-extract.md",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "普通研判禁用边界保留：案例项目库",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "普通研判禁用边界保留：经验日志",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "普通研判禁用边界保留：runtime/liuren/20261107-slim-26",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "活动实现/三书/入口哈希登记一致",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "loader全部实现源hash一致",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "神煞固定取法及专业正文未改",
+        "passed": true,
+        "detail": null
+      }
+    ],
+    "externalModelCalls": 0,
+    "predictiveValidationCount": 0,
+    "websiteChanged": false
+  },
+  "preflightReady": true,
+  "integrity": {
+    "release": "20261107-slim-29",
+    "methodVersion": "929138c017bf52d27bd5cc01b8e8ef34bc85013412054197b7048e61af3f1a78",
+    "frozen28Intact": true,
+    "professionalMethodBodiesUnchanged": true,
+    "changedRuntimeFiles": [
+      "loader-contract.json",
+      "references/deterministic-tools.md",
+      "references/shensha-policy.json"
+    ],
+    "sourceHashesConsistent": true
+  },
+  "professionalAccuracy": "not evaluated",
+  "originalFailedJudgmentRegenerated": false,
+  "guide": "docs/本机六壬稳定运行指南.md",
+  "report": "output/liuren-stability-audit-20261107/完整筛查报告.md"
+}

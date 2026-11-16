@@ -1,0 +1,23 @@
+{
+  "rule_count": 14,
+  "evidence_ref_count": 39,
+  "source_case_ref_count": 6,
+  "quote_mismatch": 0,
+  "hash_mismatch": 0,
+  "independent_validation_count": 0,
+  "by_status": {
+    "candidate": 8,
+    "source_method": 5,
+    "suspended": 1
+  },
+  "source_paths": [
+    "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/cases/raw-qqwb20261019-0002.md",
+    "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/cases/raw-qqwb20261019-0026.md",
+    "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/cases/raw-qqwb20261019-0037.md",
+    "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/cases/raw-qqwb20261019-0200.md",
+    "书籍库/现代著作/《壬占汇选》.txt",
+    "书籍库/现代著作/当代壬占汇选第五版.md",
+    "经验日志/2-案例库经验提取.md",
+    "经验日志/古籍-壬占汇选.md"
+  ]
+}

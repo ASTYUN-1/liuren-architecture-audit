@@ -1,0 +1,75 @@
+{
+  "version": "20261030-direct-01",
+  "scope": "local-opencode",
+  "created_at": "2026-10-30T01:49:50.451014+00:00",
+  "modified": [
+    {
+      "path": ".opencode/liuren-active.json",
+      "before_sha256": "66a1a8439c559503995adfc28eaebb4a72a9d9a25892aa398202eb6a4e22920f",
+      "after_sha256": "a0a73af040d81330b6cb53f4e3e0f8679d8e22b2ae6e9a4fee3948f2a6136471"
+    },
+    {
+      "path": "docs/本机OpenCode完整输出规则.md",
+      "before_sha256": "c3ab05d54b5d0f00757e9cc84e2268df8d8304c29b273e80e494691942b9b936",
+      "after_sha256": "e3374fd436d3d4434a711e439ebae1ca345273ed964fc6f475aca32a33f63f0b"
+    },
+    {
+      "path": "tools/load-liuren-methods.py",
+      "before_sha256": "7a2ced982c7cf18940903d7ac218eaf7efc19da0354f02e755dc2cc162e1aa98",
+      "after_sha256": "d745f4f8c0eaa4402f45f19f406ed987fc6ae379fd4f0d0088b8985c0ac5ba21"
+    },
+    {
+      "path": "排盘存档/README.md",
+      "before_sha256": "389626b482f326423bbb2ee4073baad441c448520bf7284d899de9c141eec913",
+      "after_sha256": "5abe83473f211e83e8d5ca5f0e8fa3e9a5b123dae0188b347b5f05d893217c18"
+    },
+    {
+      "path": "tools/tests/test_liuren_method_loader.py",
+      "before_sha256": "9012a040f08f0a0142a41a87373c017320b3564aab0998d0278b8adfabd2d081",
+      "after_sha256": "41f94c15761be302761c9b9085e257fccb79c9bc4a3d958b3df5c15ba7d14b35"
+    },
+    {
+      "path": ".opencode/skills/liuren/daliuren/SKILL.md",
+      "before_sha256": "bd09ec7d1e4ea4e0757b2654af2a0981396e2d99eae57632a7988b49f3cde145",
+      "after_sha256": "0ce9cf0556bd6eff202231bccd4dad5b968daed1cf5ef922ef8780adf8e77adb"
+    },
+    {
+      "path": ".opencode/skills/liuren/daliuren/refs/daliuren-paipan.md",
+      "before_sha256": "ed34de5c3cafae2f98e56a42e87be8d7d929313dde56c17909f8744a41eba95b",
+      "after_sha256": "e61eb4a57fcd681873b532149e6a3154f7c16060dd8fc37a86a78a81b3db29fb"
+    }
+  ],
+  "added": {
+    ".opencode/tools/liuren_chart.ts": "3c6e5fba51caa971431264ed24e522a64835c9f737b34abe57a8a98ba98390d5",
+    "tools/liuren-direct.mjs": "e7314eb058e44da742fe4dfbcf0d9f3d1ac034a2de769f24b21234aecf04c6bf",
+    "docs/本机六壬直接排盘.md": "ec9dfea449e16ffb474442f01b06c243b7132962de012974f1a148f25a888449",
+    "docs/本机六壬直接排盘接通记录-20261030.md": "22938c8cfda98e18cdbcf06c010e305fd6316be760ebfe389e3d946b16369690",
+    "tools/tests/liuren-direct.test.mjs": "f3ec45045196aece36a1b8c253185955f308ac7b233fba7f599fc5542750063b",
+    "tools/tests/fixtures/liuren-historical-hashes.json": "10c9f89e2100eb6cf253903fe60c094421d4208032b217b770cb7374e3973e35",
+    "tools/liuren-direct/chart.mjs": "070f4c4a163c1b03d3a655e8fe1c2d39347f4b4bdba26b3af32e69f25e6da440",
+    "tools/liuren-direct/legacy-engine-manifest.json": "cfe78c737c4ffc54af22e92f7a8f3a0982c8700304d9fc461d7f6be9f73a1a44",
+    "tools/liuren-direct/legacy-engine-worker.mjs": "1155539037020422d2bf78b5461a1a68ef9dd60565151730e482dc9c2757642a"
+  },
+  "validation": {
+    "direct_engine_tests": {
+      "passed": 8,
+      "failed": 0
+    },
+    "method_loader_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "skill_validator": "passed",
+    "syntax": "passed",
+    "links": "passed",
+    "protected_files_unchanged": 168,
+    "all_modules_verified": 49,
+    "opencode_discovery": true,
+    "model_api_called": false,
+    "live_services_restarted": false,
+    "end_to_end_deepseek_tested": false
+  },
+  "adapter_origin": "大六壬研判工作流/adapters (copied locally; no runtime dependency on sibling project)",
+  "method_release": "20261027-quantity-02",
+  "method_version_unchanged": "c92f8987e41b01824c2b64e73eeb7c5dc8afb26cfded19c7818d2ab5f750c24e"
+}

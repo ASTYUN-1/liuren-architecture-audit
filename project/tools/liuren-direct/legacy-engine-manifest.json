@@ -1,0 +1,16 @@
+{
+  "engine_id": "legacy-modified-liuren-json-2026-10-13",
+  "files": [
+    {"path":"index.html","sha256":"859a5ffc8c5a95ec999bd64dd12dff070fb706b6659098842fd14facf9c91017"},
+    {"path":"index.js","sha256":"40a4daecddd56b240d0696d55223b8d6021f63f156c2e4ac7aa90e8b8d4c12a8"},
+    {"path":"js/lunar.js","sha256":"de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3"},
+    {"path":"js/data.js","sha256":"5eeb7b3bba2c33b01da4e4c96e485d8be0d1b7eb46f440b41e622b8e4a0174de"},
+    {"path":"js/hexin.js","sha256":"ab18b1144104e11f2e48b76fc7eaff161ac718adfa59e16c863295bb3a11056f"},
+    {"path":"js/api.js","sha256":"f252860291c1698895123145735e646aae0680c8dd02dfa8c1a5d7ec88fd7227"},
+    {"path":"js/guize.js","sha256":"b8f74d71eb24af5a789139dbc89514cb1a2ed52727b3bb92cc5f563779a9ae91"},
+    {"path":"js/paipan.js","sha256":"983f9c342c35a6e0353975675050276df93d6d666ddea25aeb053bc9ff5d63a3"}
+  ],
+  "execution": "isolated-node-vm; original algorithms and original page JSON exporter",
+  "network": false,
+  "timezone": "Asia/Shanghai"
+}

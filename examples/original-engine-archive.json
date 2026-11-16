@@ -1,0 +1,2188 @@
+{
+  "schema": "liuren-paipan-v1",
+  "basic": {
+    "pillars": [
+      "丙午",
+      "己亥",
+      "甲午",
+      "庚午"
+    ],
+    "datetime": "2026年11月16日 12时00分",
+    "lunar": {
+      "y": "二〇二六",
+      "m": "十月",
+      "d": "初八"
+    },
+    "jieqi": {
+      "name": "立冬",
+      "y": 2026,
+      "m": 11,
+      "d": 7,
+      "h": 17,
+      "i": 52,
+      "s": 5
+    },
+    "jiang": "卯",
+    "xunkong": [
+      "辰",
+      "巳"
+    ],
+    "xun": "甲午",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季",
+      "user": [],
+      "cundang": {
+        "ws": "",
+        "dy": "",
+        "fk": "",
+        "tag": "workflow"
+      },
+      "zhenghuoshi": "正时",
+      "sizhu": {
+        "yg": "甲",
+        "yz": "子",
+        "mz": "子",
+        "dg": "甲",
+        "dz": "子",
+        "hz": "子",
+        "yuejiang": "丑"
+      },
+      "Date": "2026-11-16",
+      "Time": "12:00"
+    }
+  },
+  "tiandipan": [
+    {
+      "di": "子",
+      "tian": "酉",
+      "tianjiang": "太常",
+      "shensha": [
+        "返魂",
+        "金神",
+        "门煞",
+        "天破",
+        "圣心",
+        "天怪",
+        "日官",
+        "红沙",
+        "丁马",
+        "生气"
+      ],
+      "nayin": "山下火",
+      "xungan": "丁"
+    },
+    {
+      "di": "丑",
+      "tian": "戌",
+      "tianjiang": "玄武",
+      "shensha": [
+        "官符",
+        "天车",
+        "三丘",
+        "管神",
+        "游神",
+        "天财",
+        "忧神",
+        "小煞",
+        "阴奸",
+        "天坑",
+        "华盖",
+        "寡宿",
+        "血支",
+        "关神"
+      ],
+      "nayin": "平地木",
+      "xungan": "戊"
+    },
+    {
+      "di": "寅",
+      "tian": "亥",
+      "tianjiang": "太阴",
+      "shensha": [
+        "岁宅",
+        "劫煞",
+        "皇书",
+        "月刑",
+        "奸门",
+        "天刑",
+        "雷公",
+        "风伯",
+        "天解",
+        "岁小耗",
+        "支德",
+        "死符",
+        "文星",
+        "血忌"
+      ],
+      "nayin": "平地木",
+      "xungan": "己"
+    },
+    {
+      "di": "卯",
+      "tian": "子",
+      "tianjiang": "天后",
+      "shensha": [
+        "大耗",
+        "岁破",
+        "灾煞",
+        "天盗",
+        "时盗",
+        "丝麻煞",
+        "天赦",
+        "泰神",
+        "悬索",
+        "天鸡",
+        "五鬼",
+        "天龙",
+        "福星",
+        "日盗",
+        "支冲",
+        "晴朗煞",
+        "天马",
+        "旬奇",
+        "进神"
+      ],
+      "nayin": "壁上土",
+      "xungan": "庚"
+    },
+    {
+      "di": "辰",
+      "tian": "丑",
+      "tianjiang": "贵人",
+      "shensha": [
+        "岁煞",
+        "岁墓",
+        "五墓",
+        "天目",
+        "浴盆",
+        "枉屈",
+        "天贼",
+        "天恩",
+        "皇恩",
+        "月厌",
+        "天狗",
+        "贵人",
+        "游都",
+        "支害",
+        "天医",
+        "退神"
+      ],
+      "nayin": "壁上土",
+      "xungan": "辛"
+    },
+    {
+      "di": "巳",
+      "tian": "寅",
+      "tianjiang": "腾蛇",
+      "shensha": [
+        "岁虎",
+        "天解",
+        "阳煞",
+        "月合",
+        "火烛煞",
+        "月德",
+        "亡神",
+        "月亡神",
+        "日德",
+        "干德",
+        "日禄",
+        "死神",
+        "孤辰"
+      ],
+      "nayin": "金箔金",
+      "xungan": "壬"
+    },
+    {
+      "di": "午",
+      "tian": "卯",
+      "tianjiang": "朱雀",
+      "shensha": [
+        "将军",
+        "火鬼",
+        "大煞",
+        "雨师",
+        "月官符",
+        "日医",
+        "支破",
+        "闭口",
+        "月天鼠小耗",
+        "死气",
+        "桃花",
+        "咸池",
+        "阳刃",
+        "羊刃"
+      ],
+      "nayin": "金箔金",
+      "xungan": "癸"
+    },
+    {
+      "di": "未",
+      "tian": "辰",
+      "tianjiang": "六合",
+      "shensha": [
+        "迷惑煞",
+        "戏神",
+        "丧魄",
+        "天德",
+        "解神",
+        "天贼",
+        "吊客"
+      ],
+      "nayin": "无纳音",
+      "xungan": "空"
+    },
+    {
+      "di": "申",
+      "tian": "巳",
+      "tianjiang": "勾陈",
+      "shensha": [
+        "奸神",
+        "风煞",
+        "飞符",
+        "金神",
+        "支亡",
+        "日亡神",
+        "破碎",
+        "月破",
+        "病符"
+      ],
+      "nayin": "无纳音",
+      "xungan": "空"
+    },
+    {
+      "di": "酉",
+      "tian": "午",
+      "tianjiang": "青龙",
+      "shensha": [
+        "岁刑",
+        "四废",
+        "信煞",
+        "天咒",
+        "天鬼",
+        "长绳",
+        "天吏",
+        "仪神",
+        "支刑",
+        "太岁",
+        "丧车",
+        "旬仪",
+        "进神"
+      ],
+      "nayin": "沙中金",
+      "xungan": "甲"
+    },
+    {
+      "di": "戌",
+      "tian": "未",
+      "tianjiang": "天空",
+      "shensha": [
+        "天耳",
+        "相负",
+        "信神",
+        "天书",
+        "黄幡",
+        "鲁都",
+        "帘幕",
+        "天喜",
+        "地医",
+        "退神",
+        "血光"
+      ],
+      "nayin": "沙中金",
+      "xungan": "乙"
+    },
+    {
+      "di": "亥",
+      "tian": "申",
+      "tianjiang": "白虎",
+      "shensha": [
+        "返魂",
+        "天诏",
+        "游魂",
+        "月害",
+        "游祸",
+        "阴煞",
+        "女灾",
+        "墓门",
+        "雷煞",
+        "天狱",
+        "奸私",
+        "劫杀",
+        "日鬼",
+        "驿马",
+        "支马",
+        "成神",
+        "丧门"
+      ],
+      "nayin": "山下火",
+      "xungan": "丙"
+    }
+  ],
+  "sike": [
+    {
+      "name": "第一课",
+      "tianjiang": "太阴",
+      "tianpan": "亥",
+      "dizhi": "甲"
+    },
+    {
+      "name": "第二课",
+      "tianjiang": "白虎",
+      "tianpan": "申",
+      "dizhi": "亥"
+    },
+    {
+      "name": "第三课",
+      "tianjiang": "朱雀",
+      "tianpan": "卯",
+      "dizhi": "午"
+    },
+    {
+      "name": "第四课",
+      "tianjiang": "天后",
+      "tianpan": "子",
+      "dizhi": "卯"
+    }
+  ],
+  "sanchuan": [
+    {
+      "name": "初传",
+      "liuqin": "官鬼",
+      "tianGan": "丙",
+      "diZhi": "申",
+      "tianjiang": "白虎",
+      "status": ""
+    },
+    {
+      "name": "中传",
+      "liuqin": "子孙",
+      "tianGan": "空",
+      "diZhi": "巳",
+      "tianjiang": "勾陈",
+      "status": "○"
+    },
+    {
+      "name": "末传",
+      "liuqin": "兄弟",
+      "tianGan": "壬",
+      "diZhi": "寅",
+      "tianjiang": "腾蛇",
+      "status": "⨀"
+    }
+  ],
+  "keti": [
+    "遥克",
+    "蒿矢",
+    "元胎"
+  ],
+  "keyi": "",
+  "keJing": [
+    [
+      {
+        "key": "遥克课 睽卦",
+        "value": ""
+      },
+      {
+        "key": "特征",
+        "value": "四课上下俱无相克，则取日干与其他三课上神比较。若同时出现数者遥克日干，日干遥克之神，则取与日干比者为用。"
+      }
+    ],
+    [
+      {
+        "key": "蒿矢课",
+        "value": ""
+      },
+      {
+        "key": "特征",
+        "value": "先取遥克日干之神作初传，为蒿矢课。远神克日缓而轻，如折蒿为矢力弱难伤。三传带金为矢有簇，有杀伤力。"
+      },
+      {
+        "key": "含义",
+        "value": "开始气势汹汹，后来雷声大雨点小。忧喜皆无实，文书虚谋。不宜有客，有客多反目成仇。利主不利客，利小不利大。诸事先难后利，先动手无利，后动手有利。"
+      },
+      {
+        "key": "注意",
+        "value": "三传神将凶，日辰无气。有盗贼及其他阴谋灾害。三传神将吉，日辰有气者，谒贵有喜，待人亦来。"
+      },
+      {
+        "key": "占事",
+        "value": "开始时有如雷般的凶势，但愈久愈休，逐渐消失。"
+      },
+      {
+        "key": "文书",
+        "value": "忧喜不能成实，文书停留在谋划上。"
+      },
+      {
+        "key": "行人",
+        "value": "不宜有客，有客多为仇敌。"
+      },
+      {
+        "key": "兵事",
+        "value": "兵利主一方，不利客一方。"
+      }
+    ],
+    [
+      {
+        "key": "六十、元胎课 家人卦",
+        "value": ""
+      },
+      {
+        "key": "特征",
+        "value": "三传皆四孟（寅申巳亥），又名玄胎课。"
+      },
+      {
+        "key": "含义",
+        "value": "事体皆新，胎孕成型。官加爵位，婚获美妻。病难速愈，财可大兴。道路跋涉，奔波繁忙。若老少占病，为后世投胎之兆，最凶。发用若为父母，主尊长有灾；子孙发用，值空亡名元胎不育，主百事无成，占子息尤艰。发用乘天后值空亡，则主因孕伤母。"
+      },
+      {
+        "key": "注意",
+        "value": "此课大体为新鲜吉庆之象。但身喜心忧，事远而多伏，触则成祸。"
+      }
+    ],
+    [
+      {
+        "key": "绝胎格",
+        "value": "元胎课逢反吟，虽开花但不结子。"
+      }
+    ],
+    [
+      {
+        "key": "病胎格",
+        "value": "元胎课逢寅加巳，巳加申，申加亥，亥加寅，上神气泄于下神。主怀胎有忧，事远而伏，暗昧不明，触则成祸。"
+      }
+    ],
+    [
+      {
+        "key": "生胎格",
+        "value": "元胎课若逢寅加亥，亥加申，申加巳，巳加寅，上神受下神之生。百事皆吉，怀孕大吉。"
+      }
+    ],
+    [
+      {
+        "key": "蓦越格",
+        "value": "元胎课，日鬼乘马自第四课发用。占主蓦然而来，或有惊疑、或有盗窃。"
+      }
+    ]
+  ],
+  "bifa": "25.金日逢丁凶祸动.C.蛇虎遁鬼格.六甲.夜\n25.金日逢丁凶祸动.E.马载虎鬼格.昼\n26.水日逢丁财动之.A.财乘丁马格.③财乘日本临干上.夜常\n26.水日逢丁财动之.A.财乘丁马格.④财乘日本.夜常\n37.末助初兮三等论.D.自招其祸格\n46.贵人差迭事参差.夜贵在干前\n46.贵人差迭事参差.昼贵在干后\n47.贵虽在狱宜临干\n66.支坟财并旅程稽\n69.虎乘遁鬼殃非浅.夜虎\n75.宾主不投刑在上.Ⅲ.三字刑\n77.互生俱生凡事益.B.俱生格\n91.虎乘干鬼凶速速.A.马载虎鬼格.昼",
+  "zhiZhi": "甲午日第四局干上亥\n课体：遥克，蒿矢，元胎。\n课义：申为矢箭，射中非善，马载马鬼，昼难脱患。\n解曰：蒿矢本无力，得申金发用，便为矢有金镞。若被射中，非吉祥之事。况申金又为日鬼，而兼驿马，鬼则患深，马则动速。夜占犹可，昼占白虎乘之，其凶更甚。虽有善避者，岂能脱然免于患耶。\n断曰：蒿矢之卦，祸福俱轻。然合病胎之格，忧疑莫决。虎临干鬼发用，至为凶险。幸是折腰，吉凶皆半途消散，求官者反嫌其空陷也。若四季占，亥水无气，却喜申鬼生亥，乃不幸中之幸。否则虚心坐待，长生在干，亦可窃金育日也。\n天时：雨后生寒，日孟出而不出，大风之象。\n家宅：卯加午为闭口，主有喑者。虎乘申，主家有病人未愈。宅上朱勾，主有文书勾连之事，宜慎。\n婚姻：虽见和合，有阻；\n胎产：安吉，防生哑儿。\n功名：巳年月大吉，合催官捧印，化龙之兆。\n求财：惊患多而获利细。\n疾病：主咽喉症，巳酉丑月占，为脓血之灾。\n失脱：元武临贵，勾陈落空，不能捕获。\n出行：出必旋返。\n行人：中路有阻。\n争讼：利主不利客托贵无力。\n兵战：宜慎。\n毕法云：宾主不投刑在上，闭口卦体两般推。\n课经云：亥加寅，夜将太常，乘日之长生，来人必占婚姻，或有恩赐服食等事。\n神将论云：太冲乘勾空为沙门，用日主其僧多不洁少实。又天后加申，甲日为湖池。",
+  "jiYingQian": "甲午日第四局干上亥\n课体：蒿矢、玄胎、闭口、折腰、不行传。\n又：此课亥来生日，是官长垂顾，太阴阴祐之象。但羊刃作雀在宅，乃本家之朱雀恐目下本家有事起。初传白虎作鬼祟，中传巳为子孙空亡暗害，是家中人所为，从此遂自生事。末传寅加巳上落空，远则四年，近则四月，被事牵缠。若见令嗣人讼，其身不便免议。傅大录占课时，正得知县意，乃与其叔竞田，与弟争财，其弟与人作闹，大录妻叶氏证虚二次，其弟挟恨，故告他子违法事。州府送判枉法，计会得免，故不过半年。又课中与支不足，因行察劫掠贼案，受钱一千贯，三年事发，禁勘八个月，第四年配英州而死（《壬占汇选》作：己酉年正月十五甲午日子将卯时，傅大禄己巳生，四十一岁占平生。傅生于十一月初三日午时）。\n又同日时，何子玉占得此课。其何子玉，年壬戌，四十八，行年在丑上。此课先生曰：“来年行年寅上，因僧人丧之水边，拾得物，有十一年之宽，后依旧不足，犯刑责刑事，却做炉匠，被姓陈人坏了。”次年有一僧人，五月过水而死，有银四斤在腹，被他拾得，果有十一年之宽。第十一年，又在此溪边，却被人劫尽其财。后作坑冶匠，未及四年，为陈巡检装诬作贼，配英州。亥加寅，七与四，乃十一年也，马作鬼，有凶动也（《壬占汇选》作：何子重壬戌生，四十八岁占平生，同得此课）。\n《玉历钤》云：此课申为日鬼，临亥为害，且将皆凶，气象不和。幸而蒿矢，中传空亡折腰，凡百忧喜无成。\n《毕法》云：此课日上亥虽为甲之长生，初传申却是木绝，又来克伐，虽有面前之微吉，却有背后之深害，谚曰“贪得一粒粟，失却半年粮”，此之谓也。\n上神生日，日上生辰上，用克日，初克末。\n课名：蒿矢、玄胎。中末空亡，然甲日乃为凶中之吉，盖初传申乃日鬼，若不空，即为害。但此占事，虽可解忧，不可作吉，虽朱勾在中援引，亦不能成功。\n《义》曰：神将生助，福自有成。先凶后吉，渐得其情。闻忧有解，成事变更。守正修德，无不利亨。\n《象》曰：白虎当途事可忧，凶中有救放眉头。吉人终不为灾害，天理昭昭自有由。\n又：此蒿矢带金之卦，其凶可畏，一曰玄胎，亦曰天网。《经》云：“神遥克日名蒿矢，射我虽端当不畏。贵人逆转子无良，天乙顺行臣不义。家有宾来不可容，亦忧口舌西南至。”凡事主动摇，人情倒置，象如以蒿为矢，射我虽中而不人。祸福俱轻，求事难成，利主不利客。占行人来，访人见，若带金煞，亦能伤人，主幕然有灾。所幸传入空乡，又名遗镞，不能成事，祸从内起。况玄胎如婴儿隐伏之状，利上不利下，事主远而多伏，暗昧不通，触则成祸，惟君子守正修德则亨。夫天网者，即天网四张也，《经》曰“天网四张，万物被伤”，为阻滞，为疑难，为灾恼。上神生日，所为百事吉，运用如意，遇灾不凶，逢吉愈吉。日是人相助，夜是神相助。若冬占，主声名显达，岁生日者，尤为吉昌。占者遇之此课，凡占谋百事，主客相和，但畏夫阻滞之神为扰。占吉事者阻挠而后难成，占忧惊之事先凶后吉，难中有救，上门相助。占老人小儿病，得之大凶，有德可解。\n占出兵行师得此：宜先避其锋，然后方可动垒。昼占凶，夜占稍可，终见讲和，而不能成其凶咎也。大抵此课，凡占百事，有始无终之象也。\n春中夏吉。\n真一山人云：此课原来号折腰，吉凶半路总虚劳。求官须待巳年月，巳化为龙福自高。\n《无惑钤》云：申为矢箭，射中非善。马载虎鬼，患难脱免。\n《钤解》曰：蒿矢得金为有力，又为虎鬼乘马，凶甚速也。夜占可，昼占难免其患难也。又云：乐里生悲，先受生，后坐脱败宜守。又云：若四季占，亥水无气，却喜申鬼生亥，乃不幸中幸。又云：卯加午为闭口，占家宅上乘朱勾，主文书勾连，宜慎，吉。",
+  "summary": {
+    "pillars": "丙午己亥甲午庚午",
+    "jiang": "卯",
+    "xun": "甲午",
+    "xunkong": [
+      "辰",
+      "巳"
+    ],
+    "keti": [
+      "遥克",
+      "蒿矢",
+      "元胎"
+    ],
+    "gan": "甲",
+    "ganWx": "木",
+    "zhi": "午",
+    "zhiWx": "火",
+    "ganZhiRel": [
+      "干生支(我生他,付出/泄耗)"
+    ],
+    "ganShang": {
+      "dz": "亥",
+      "wuxing": "水",
+      "tianjiang": "太阴",
+      "liuqin": "父母"
+    },
+    "zhiShang": {
+      "dz": "卯",
+      "wuxing": "木",
+      "tianjiang": "朱雀",
+      "liuqin": "兄弟"
+    }
+  },
+  "keyShensha": [
+    {
+      "name": "丁马",
+      "at": "酉"
+    },
+    {
+      "name": "生气",
+      "at": "酉"
+    },
+    {
+      "name": "天赦",
+      "at": "子"
+    },
+    {
+      "name": "天马",
+      "at": "子"
+    },
+    {
+      "name": "贵人",
+      "at": "丑"
+    },
+    {
+      "name": "游都",
+      "at": "丑"
+    },
+    {
+      "name": "月德",
+      "at": "寅"
+    },
+    {
+      "name": "日德",
+      "at": "寅"
+    },
+    {
+      "name": "日禄",
+      "at": "寅"
+    },
+    {
+      "name": "闭口",
+      "at": "卯"
+    },
+    {
+      "name": "桃花",
+      "at": "卯"
+    },
+    {
+      "name": "天德",
+      "at": "辰"
+    },
+    {
+      "name": "破碎",
+      "at": "巳"
+    },
+    {
+      "name": "太岁",
+      "at": "午"
+    },
+    {
+      "name": "帘幕",
+      "at": "未"
+    },
+    {
+      "name": "天喜",
+      "at": "未"
+    },
+    {
+      "name": "驿马",
+      "at": "申"
+    }
+  ],
+  "liuqinSeq": "官鬼→子孙→兄弟",
+  "userinfo": [],
+  "nativeNobleman": {
+    "guiren_type": "甲戊庚牛羊",
+    "zhouye_type": "自动选择",
+    "hour_based_zhouye_label": "昼",
+    "guiren_shunni_label": "顺行",
+    "guiren": [
+      "丑"
+    ],
+    "lianmu": [
+      "未"
+    ],
+    "solar_terms_same_minute": []
+  },
+  "_direct": {
+    "schema": "liuren-direct-corrected-export-v1",
+    "adapter_version": "20261114-tool-reliability-55",
+    "generated_at": "2026-11-15T22:41:52.015Z",
+    "requested_mode": "datetime",
+    "input": {
+      "datetime": "2026-11-16T12:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "declared_life": [],
+      "mode": "datetime",
+      "time_basis": "civil",
+      "settings": {
+        "yuejiang": "中气换将",
+        "guiren": "甲戊庚牛羊",
+        "zhouye": "自动选择",
+        "shehai": "孟仲季"
+      },
+      "participants": []
+    },
+    "facts": {
+      "schema": "liuren-chart-facts-v1",
+      "pillars": [
+        "丙午",
+        "己亥",
+        "甲午",
+        "庚午"
+      ],
+      "year_pillar": "丙午",
+      "month_pillar": "己亥",
+      "day_pillar": "甲午",
+      "hour_pillar": "庚午",
+      "day_stem": "甲",
+      "day_branch": "午",
+      "month_branch": "亥",
+      "hour_branch": "午",
+      "month_general": "卯",
+      "void_branches": [
+        "辰",
+        "巳"
+      ],
+      "xun": "甲午",
+      "event_datetime": "2026-11-16T12:00:00+08:00",
+      "lunar": {
+        "y": "二〇二六",
+        "m": "十月",
+        "d": "初八"
+      },
+      "heaven_earth": [
+        {
+          "di": "子",
+          "tian": "酉",
+          "tianjiang": "太常",
+          "shensha": [
+            "返魂",
+            "金神",
+            "门煞",
+            "天破",
+            "圣心",
+            "天怪",
+            "日官",
+            "红沙",
+            "丁马",
+            "生气"
+          ],
+          "nayin": "山下火",
+          "xungan": "丁"
+        },
+        {
+          "di": "丑",
+          "tian": "戌",
+          "tianjiang": "玄武",
+          "shensha": [
+            "官符",
+            "天车",
+            "三丘",
+            "管神",
+            "游神",
+            "天财",
+            "忧神",
+            "小煞",
+            "阴奸",
+            "天坑",
+            "华盖",
+            "寡宿",
+            "血支",
+            "关神"
+          ],
+          "nayin": "平地木",
+          "xungan": "戊"
+        },
+        {
+          "di": "寅",
+          "tian": "亥",
+          "tianjiang": "太阴",
+          "shensha": [
+            "岁宅",
+            "劫煞",
+            "皇书",
+            "月刑",
+            "奸门",
+            "天刑",
+            "雷公",
+            "风伯",
+            "天解",
+            "岁小耗",
+            "支德",
+            "死符",
+            "文星",
+            "血忌"
+          ],
+          "nayin": "平地木",
+          "xungan": "己"
+        },
+        {
+          "di": "卯",
+          "tian": "子",
+          "tianjiang": "天后",
+          "shensha": [
+            "大耗",
+            "岁破",
+            "灾煞",
+            "天盗",
+            "时盗",
+            "丝麻煞",
+            "天赦",
+            "泰神",
+            "悬索",
+            "天鸡",
+            "五鬼",
+            "天龙",
+            "福星",
+            "日盗",
+            "支冲",
+            "晴朗煞",
+            "天马",
+            "旬奇",
+            "进神"
+          ],
+          "nayin": "壁上土",
+          "xungan": "庚"
+        },
+        {
+          "di": "辰",
+          "tian": "丑",
+          "tianjiang": "贵人",
+          "shensha": [
+            "岁煞",
+            "岁墓",
+            "五墓",
+            "天目",
+            "浴盆",
+            "枉屈",
+            "天贼",
+            "天恩",
+            "皇恩",
+            "月厌",
+            "天狗",
+            "贵人",
+            "游都",
+            "支害",
+            "天医",
+            "退神"
+          ],
+          "nayin": "壁上土",
+          "xungan": "辛"
+        },
+        {
+          "di": "巳",
+          "tian": "寅",
+          "tianjiang": "腾蛇",
+          "shensha": [
+            "岁虎",
+            "天解",
+            "阳煞",
+            "月合",
+            "火烛煞",
+            "月德",
+            "亡神",
+            "月亡神",
+            "日德",
+            "干德",
+            "日禄",
+            "死神",
+            "孤辰"
+          ],
+          "nayin": "金箔金",
+          "xungan": "壬"
+        },
+        {
+          "di": "午",
+          "tian": "卯",
+          "tianjiang": "朱雀",
+          "shensha": [
+            "将军",
+            "火鬼",
+            "大煞",
+            "雨师",
+            "月官符",
+            "日医",
+            "支破",
+            "闭口",
+            "月天鼠小耗",
+            "死气",
+            "桃花",
+            "咸池",
+            "阳刃",
+            "羊刃"
+          ],
+          "nayin": "金箔金",
+          "xungan": "癸"
+        },
+        {
+          "di": "未",
+          "tian": "辰",
+          "tianjiang": "六合",
+          "shensha": [
+            "迷惑煞",
+            "戏神",
+            "丧魄",
+            "天德",
+            "解神",
+            "天贼",
+            "吊客"
+          ],
+          "nayin": "无纳音",
+          "xungan": "空"
+        },
+        {
+          "di": "申",
+          "tian": "巳",
+          "tianjiang": "勾陈",
+          "shensha": [
+            "奸神",
+            "风煞",
+            "飞符",
+            "金神",
+            "支亡",
+            "日亡神",
+            "破碎",
+            "月破",
+            "病符"
+          ],
+          "nayin": "无纳音",
+          "xungan": "空"
+        },
+        {
+          "di": "酉",
+          "tian": "午",
+          "tianjiang": "青龙",
+          "shensha": [
+            "岁刑",
+            "四废",
+            "信煞",
+            "天咒",
+            "天鬼",
+            "长绳",
+            "天吏",
+            "仪神",
+            "支刑",
+            "太岁",
+            "丧车",
+            "旬仪",
+            "进神"
+          ],
+          "nayin": "沙中金",
+          "xungan": "甲"
+        },
+        {
+          "di": "戌",
+          "tian": "未",
+          "tianjiang": "天空",
+          "shensha": [
+            "天耳",
+            "相负",
+            "信神",
+            "天书",
+            "黄幡",
+            "鲁都",
+            "帘幕",
+            "天喜",
+            "地医",
+            "退神",
+            "血光"
+          ],
+          "nayin": "沙中金",
+          "xungan": "乙"
+        },
+        {
+          "di": "亥",
+          "tian": "申",
+          "tianjiang": "白虎",
+          "shensha": [
+            "返魂",
+            "天诏",
+            "游魂",
+            "月害",
+            "游祸",
+            "阴煞",
+            "女灾",
+            "墓门",
+            "雷煞",
+            "天狱",
+            "奸私",
+            "劫杀",
+            "日鬼",
+            "驿马",
+            "支马",
+            "成神",
+            "丧门"
+          ],
+          "nayin": "山下火",
+          "xungan": "丙"
+        }
+      ],
+      "lessons": [
+        {
+          "index": 1,
+          "name": "第一课",
+          "tianjiang": "太阴",
+          "tianpan": "亥",
+          "dizhi": "甲"
+        },
+        {
+          "index": 2,
+          "name": "第二课",
+          "tianjiang": "白虎",
+          "tianpan": "申",
+          "dizhi": "亥"
+        },
+        {
+          "index": 3,
+          "name": "第三课",
+          "tianjiang": "朱雀",
+          "tianpan": "卯",
+          "dizhi": "午"
+        },
+        {
+          "index": 4,
+          "name": "第四课",
+          "tianjiang": "天后",
+          "tianpan": "子",
+          "dizhi": "卯"
+        }
+      ],
+      "transmissions": [
+        {
+          "index": 1,
+          "name": "初传",
+          "liuqin": "官鬼",
+          "tianGan": "丙",
+          "diZhi": "申",
+          "tianjiang": "白虎",
+          "status": "",
+          "earth_position": "亥"
+        },
+        {
+          "index": 2,
+          "name": "中传",
+          "liuqin": "子孙",
+          "tianGan": "空",
+          "diZhi": "巳",
+          "tianjiang": "勾陈",
+          "status": "○",
+          "earth_position": "申"
+        },
+        {
+          "index": 3,
+          "name": "末传",
+          "liuqin": "兄弟",
+          "tianGan": "壬",
+          "diZhi": "寅",
+          "tianjiang": "腾蛇",
+          "status": "⨀",
+          "earth_position": "巳"
+        }
+      ],
+      "transmission_sequence": "申巳寅",
+      "chart_types": [
+        "遥克",
+        "蒿矢",
+        "元胎"
+      ],
+      "participants": [],
+      "year_life_verified": false,
+      "declared_life": [],
+      "nobleman": {
+        "rule": "甲戊庚牛羊",
+        "requested_zhouye": "自动选择",
+        "actual_zhouye": "昼贵",
+        "heaven_branch": "丑",
+        "earth_position": "辰",
+        "direction": "顺行",
+        "native_hour_label": "昼",
+        "native_direction_label": "顺行"
+      },
+      "growth": {
+        "day_stem": {
+          "长生": "亥",
+          "沐浴": "子",
+          "冠带": "丑",
+          "临官": "寅",
+          "帝旺": "卯",
+          "衰": "辰",
+          "病": "巳",
+          "死": "午",
+          "墓": "未",
+          "绝": "申",
+          "胎": "酉",
+          "养": "戌"
+        },
+        "branches": {
+          "子": {
+            "长生": "申",
+            "沐浴": "酉",
+            "冠带": "戌",
+            "临官": "亥",
+            "帝旺": "子",
+            "衰": "丑",
+            "病": "寅",
+            "死": "卯",
+            "墓": "辰",
+            "绝": "巳",
+            "胎": "午",
+            "养": "未"
+          },
+          "丑": {
+            "长生": "申",
+            "沐浴": "酉",
+            "冠带": "戌",
+            "临官": "亥",
+            "帝旺": "子",
+            "衰": "丑",
+            "病": "寅",
+            "死": "卯",
+            "墓": "辰",
+            "绝": "巳",
+            "胎": "午",
+            "养": "未"
+          },
+          "寅": {
+            "长生": "亥",
+            "沐浴": "子",
+            "冠带": "丑",
+            "临官": "寅",
+            "帝旺": "卯",
+            "衰": "辰",
+            "病": "巳",
+            "死": "午",
+            "墓": "未",
+            "绝": "申",
+            "胎": "酉",
+            "养": "戌"
+          },
+          "卯": {
+            "长生": "亥",
+            "沐浴": "子",
+            "冠带": "丑",
+            "临官": "寅",
+            "帝旺": "卯",
+            "衰": "辰",
+            "病": "巳",
+            "死": "午",
+            "墓": "未",
+            "绝": "申",
+            "胎": "酉",
+            "养": "戌"
+          },
+          "辰": {
+            "长生": "申",
+            "沐浴": "酉",
+            "冠带": "戌",
+            "临官": "亥",
+            "帝旺": "子",
+            "衰": "丑",
+            "病": "寅",
+            "死": "卯",
+            "墓": "辰",
+            "绝": "巳",
+            "胎": "午",
+            "养": "未"
+          },
+          "巳": {
+            "长生": "寅",
+            "沐浴": "卯",
+            "冠带": "辰",
+            "临官": "巳",
+            "帝旺": "午",
+            "衰": "未",
+            "病": "申",
+            "死": "酉",
+            "墓": "戌",
+            "绝": "亥",
+            "胎": "子",
+            "养": "丑"
+          },
+          "午": {
+            "长生": "寅",
+            "沐浴": "卯",
+            "冠带": "辰",
+            "临官": "巳",
+            "帝旺": "午",
+            "衰": "未",
+            "病": "申",
+            "死": "酉",
+            "墓": "戌",
+            "绝": "亥",
+            "胎": "子",
+            "养": "丑"
+          },
+          "未": {
+            "长生": "申",
+            "沐浴": "酉",
+            "冠带": "戌",
+            "临官": "亥",
+            "帝旺": "子",
+            "衰": "丑",
+            "病": "寅",
+            "死": "卯",
+            "墓": "辰",
+            "绝": "巳",
+            "胎": "午",
+            "养": "未"
+          },
+          "申": {
+            "长生": "巳",
+            "沐浴": "午",
+            "冠带": "未",
+            "临官": "申",
+            "帝旺": "酉",
+            "衰": "戌",
+            "病": "亥",
+            "死": "子",
+            "墓": "丑",
+            "绝": "寅",
+            "胎": "卯",
+            "养": "辰"
+          },
+          "酉": {
+            "长生": "巳",
+            "沐浴": "午",
+            "冠带": "未",
+            "临官": "申",
+            "帝旺": "酉",
+            "衰": "戌",
+            "病": "亥",
+            "死": "子",
+            "墓": "丑",
+            "绝": "寅",
+            "胎": "卯",
+            "养": "辰"
+          },
+          "戌": {
+            "长生": "申",
+            "沐浴": "酉",
+            "冠带": "戌",
+            "临官": "亥",
+            "帝旺": "子",
+            "衰": "丑",
+            "病": "寅",
+            "死": "卯",
+            "墓": "辰",
+            "绝": "巳",
+            "胎": "午",
+            "养": "未"
+          },
+          "亥": {
+            "长生": "申",
+            "沐浴": "酉",
+            "冠带": "戌",
+            "临官": "亥",
+            "帝旺": "子",
+            "衰": "丑",
+            "病": "寅",
+            "死": "卯",
+            "墓": "辰",
+            "绝": "巳",
+            "胎": "午",
+            "养": "未"
+          }
+        }
+      },
+      "seasonal_strength": [
+        "亥月冬占",
+        "休",
+        "相",
+        "旺",
+        "死",
+        "囚"
+      ]
+    },
+    "validation": {
+      "ok": true,
+      "status": "structure-and-request-verified",
+      "checks": [
+        {
+          "code": "schema",
+          "ok": true,
+          "severity": "error",
+          "detail": "原魔改工具JSON schema"
+        },
+        {
+          "code": "pillars",
+          "ok": true,
+          "severity": "error",
+          "detail": "四柱必须是4个有效六十甲子"
+        },
+        {
+          "code": "heaven_earth_count",
+          "ok": true,
+          "severity": "error",
+          "detail": "天地盘必须有12宫"
+        },
+        {
+          "code": "heaven_earth_permutation",
+          "ok": true,
+          "severity": "error",
+          "detail": "天地盘地支均为12地支的完整排列"
+        },
+        {
+          "code": "lessons_count",
+          "ok": true,
+          "severity": "error",
+          "detail": "四课须保留顺序，不去重"
+        },
+        {
+          "code": "transmissions_count",
+          "ok": true,
+          "severity": "error",
+          "detail": "三传须保留3个有序槽位，允许重复"
+        },
+        {
+          "code": "month_general",
+          "ok": true,
+          "severity": "error",
+          "detail": "月将须为单个地支"
+        },
+        {
+          "code": "void_branches",
+          "ok": true,
+          "severity": "error",
+          "detail": "旬空须为2个不同地支"
+        },
+        {
+          "code": "full_palace_fields",
+          "ok": true,
+          "severity": "error",
+          "detail": "保留全部12宫神煞、旬干和纳音，不以摘要代替"
+        },
+        {
+          "code": "datetime_request_match",
+          "ok": true,
+          "severity": "error",
+          "detail": "本次输入与原引擎导出的日期时间及正时模式一致"
+        },
+        {
+          "code": "settings_request_match",
+          "ok": true,
+          "severity": "error",
+          "detail": "原引擎实际使用本次指定设置"
+        },
+        {
+          "code": "rotation_consistency",
+          "ok": true,
+          "severity": "error",
+          "detail": "12宫天地盘必须为同一旋转量"
+        },
+        {
+          "code": "month_general_on_hour",
+          "ok": true,
+          "severity": "error",
+          "detail": "月将加占时对应"
+        },
+        {
+          "code": "generals_permutation",
+          "ok": true,
+          "severity": "error",
+          "detail": "十二天将完整且不重复"
+        },
+        {
+          "code": "generals_order",
+          "ok": true,
+          "severity": "error",
+          "detail": "十二天将顺序须连续顺排或逆排"
+        },
+        {
+          "code": "lesson_generals",
+          "ok": true,
+          "severity": "error",
+          "detail": "四课天将与天盘神对应"
+        },
+        {
+          "code": "transmission_generals",
+          "ok": true,
+          "severity": "error",
+          "detail": "三传天将与天盘神对应"
+        },
+        {
+          "code": "original_engine_executed",
+          "ok": true,
+          "severity": "error",
+          "detail": "原文件SHA-256一致，调用原LiuRenPaiPan与原页面JSON导出器，无算法替代"
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        {
+          "code": "ENGINE_NOT_EXHAUSTIVELY_PROVEN",
+          "message": "当前通过输入、形状及基本关系核验；未证明原引擎所有历法/涉害/三传规则均正确。"
+        }
+      ],
+      "prediction_accuracy_verified": false,
+      "whole_algorithm_exhaustively_verified": false
+    },
+    "conventions": {
+      "timezone": "Asia/Shanghai",
+      "input_precision": "minute",
+      "internal_seconds": 30,
+      "engine_day_boundary": "original lunar.js getBaZi default; do not recalculate in LLM",
+      "manual_date_is_placeholder": false,
+      "manual_reference_date": null,
+      "settings": {
+        "yuejiang": "中气换将",
+        "guiren": "甲戊庚牛羊",
+        "zhouye": "自动选择",
+        "shehai": "孟仲季"
+      },
+      "native_input_before": {
+        "yuejiang": "中气换将",
+        "guiren": "甲戊庚牛羊",
+        "zhouye": "自动选择",
+        "shehai": "孟仲季",
+        "user": [],
+        "cundang": {
+          "ws": "",
+          "dy": "",
+          "fk": "",
+          "tag": "workflow"
+        },
+        "zhenghuoshi": "正时",
+        "sizhu": {
+          "yg": "甲",
+          "yz": "子",
+          "mz": "子",
+          "dg": "甲",
+          "dz": "子",
+          "hz": "子",
+          "yuejiang": "丑"
+        },
+        "Date": "2026-11-16",
+        "Time": "12:00"
+      },
+      "native_input_after": {
+        "yuejiang": "中气换将",
+        "guiren": "甲戊庚牛羊",
+        "zhouye": "自动选择",
+        "shehai": "孟仲季",
+        "user": [],
+        "cundang": {
+          "ws": "",
+          "dy": "",
+          "fk": "",
+          "tag": "workflow"
+        },
+        "zhenghuoshi": "正时",
+        "sizhu": {
+          "yg": "甲",
+          "yz": "子",
+          "mz": "子",
+          "dg": "甲",
+          "dz": "子",
+          "hz": "子",
+          "yuejiang": "丑"
+        },
+        "Date": "2026-11-16",
+        "Time": "12:00"
+      },
+      "settings_mutated_by_engine": false
+    },
+    "provenance": {
+      "source": "local original modified chart tool",
+      "export_method": "execute original index.html JSON exporter in isolated VM",
+      "engine_hash_verified": true,
+      "timestamp_input_iso": "2026-11-16T12:00:00+08:00"
+    },
+    "engine": {
+      "id": "liuren-shensha-policy-engine-v1",
+      "manifest_hash": "5f768eef056b177d6f82bd39d9d1d9f762109a2ed1bbc3903438d3f5fc2d571c",
+      "files": [
+        {
+          "path": "index.html",
+          "sha256": "859a5ffc8c5a95ec999bd64dd12dff070fb706b6659098842fd14facf9c91017"
+        },
+        {
+          "path": "index.js",
+          "sha256": "40a4daecddd56b240d0696d55223b8d6021f63f156c2e4ac7aa90e8b8d4c12a8"
+        },
+        {
+          "path": "js/lunar.js",
+          "sha256": "de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3"
+        },
+        {
+          "path": "js/data.js",
+          "sha256": "5eeb7b3bba2c33b01da4e4c96e485d8be0d1b7eb46f440b41e622b8e4a0174de"
+        },
+        {
+          "path": "js/hexin.js",
+          "sha256": "ab18b1144104e11f2e48b76fc7eaff161ac718adfa59e16c863295bb3a11056f"
+        },
+        {
+          "path": "js/api.js",
+          "sha256": "f252860291c1698895123145735e646aae0680c8dd02dfa8c1a5d7ec88fd7227"
+        },
+        {
+          "path": "js/guize.js",
+          "sha256": "b8f74d71eb24af5a789139dbc89514cb1a2ed52727b3bb92cc5f563779a9ae91"
+        },
+        {
+          "path": "js/paipan.js",
+          "sha256": "983f9c342c35a6e0353975675050276df93d6d666ddea25aeb053bc9ff5d63a3"
+        }
+      ],
+      "execution": "isolated-node-vm; original algorithms and original page JSON exporter",
+      "network": false,
+      "fallback": false,
+      "algorithm_modified": true,
+      "modified_scope": "shensha calculation/export only",
+      "base_engine": "legacy-modified-liuren-json-2026-10-13",
+      "policy_sha256": "ed62b930fa6a9c64b4cf06e89ec68c61f26eeef9d3b206cf64ffa694dd35893d"
+    },
+    "raw_sha256": "d7197d733ff60a4ddc778cceab45b3671238e5a561c22ec602109c98d5c8a124",
+    "shensha_resolution": {
+      "schema": "liuren-shensha-resolution-v1",
+      "release": "20261114-tool-reliability-55",
+      "policy_sha256": "ed62b930fa6a9c64b4cf06e89ec68c61f26eeef9d3b206cf64ffa694dd35893d",
+      "coordinate_contract": "所有神煞只归属places.tian（天盘支）；places.di仅为所临地盘，无神煞归属。午加丑而煞属午，绝不记为煞在丑。",
+      "place_fields": {
+        "tian": "神煞所属天盘支",
+        "di": "该天盘支所临地盘",
+        "jiang": "该天盘支所乘天将"
+      },
+      "calendar": "月序按月建节月寅起、季随月建；年沿原盘年柱；项目约定",
+      "meaning": "resolved只允许进入取用，不代表与本问相关、有效或已有吉凶结论。未采用项禁止作背景风险。",
+      "items": [
+        {
+          "id": "S01",
+          "name": "太岁",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "午",
+              "di": "酉",
+              "jiang": "青龙"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S02",
+          "name": "帘幕贵人",
+          "basis": "未",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "未",
+              "di": "戌",
+              "jiang": "天空"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S03",
+          "name": "日驿马",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "申",
+              "di": "亥",
+              "jiang": "白虎"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S04",
+          "name": "天马",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "子",
+              "di": "卯",
+              "jiang": "天后"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S05",
+          "name": "旬丁",
+          "basis": "甲午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "酉",
+              "di": "子",
+              "jiang": "太常"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S06",
+          "name": "成神",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "申",
+              "di": "亥",
+              "jiang": "白虎"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S07",
+          "name": "旬癸闭口",
+          "basis": "甲午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "卯",
+              "di": "午",
+              "jiang": "朱雀"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S08",
+          "name": "岁小耗",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "亥",
+              "di": "寅",
+              "jiang": "太阴"
+            }
+          ],
+          "engine_check": "同名跨基准不自动归属"
+        },
+        {
+          "id": "S08M",
+          "name": "月天鼠小耗",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "卯",
+              "di": "午",
+              "jiang": "朱雀"
+            }
+          ],
+          "engine_check": "同名跨基准不自动归属"
+        },
+        {
+          "id": "S09",
+          "name": "日破碎",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "巳",
+              "di": "申",
+              "jiang": "勾陈"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S10",
+          "name": "月生气",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "酉",
+              "di": "子",
+              "jiang": "太常"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S11",
+          "name": "季天喜",
+          "basis": "冬",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "未",
+              "di": "戌",
+              "jiang": "天空"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S12",
+          "name": "日德",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "寅",
+              "di": "巳",
+              "jiang": "腾蛇"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S13",
+          "name": "日禄",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "寅",
+              "di": "巳",
+              "jiang": "腾蛇"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S14",
+          "name": "支德",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "亥",
+              "di": "寅",
+              "jiang": "太阴"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S15",
+          "name": "月破",
+          "basis": "亥",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "巳",
+              "di": "申",
+              "jiang": "勾陈"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S16",
+          "name": "季丧车",
+          "basis": "冬",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "午",
+              "di": "酉",
+              "jiang": "青龙"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S17",
+          "name": "天医",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "丑",
+              "di": "辰",
+              "jiang": "贵人"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S18",
+          "name": "地医",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "未",
+              "di": "戌",
+              "jiang": "天空"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S19",
+          "name": "岁病符",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "巳",
+              "di": "申",
+              "jiang": "勾陈"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S20",
+          "name": "岁干死符",
+          "basis": "丙",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "亥",
+              "di": "寅",
+              "jiang": "太阴"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S21",
+          "name": "月死气",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "卯",
+              "di": "午",
+              "jiang": "朱雀"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S21S",
+          "name": "月死神",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "寅",
+              "di": "巳",
+              "jiang": "腾蛇"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S22",
+          "name": "季孤辰",
+          "basis": "冬",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "寅",
+              "di": "巳",
+              "jiang": "腾蛇"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S23",
+          "name": "季寡宿",
+          "basis": "冬",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "戌",
+              "di": "丑",
+              "jiang": "玄武"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S24",
+          "name": "日桃花",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "卯",
+              "di": "午",
+              "jiang": "朱雀"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S25",
+          "name": "文星",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "亥",
+              "di": "寅",
+              "jiang": "太阴"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S26",
+          "name": "旬奇",
+          "basis": "甲午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "子",
+              "di": "卯",
+              "jiang": "天后"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S27",
+          "name": "旬仪",
+          "basis": "甲午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "午",
+              "di": "酉",
+              "jiang": "青龙"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S28",
+          "name": "日退神",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "丑",
+              "di": "辰",
+              "jiang": "贵人"
+            },
+            {
+              "tian": "未",
+              "di": "戌",
+              "jiang": "天空"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S29",
+          "name": "日进神",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "子",
+              "di": "卯",
+              "jiang": "天后"
+            },
+            {
+              "tian": "午",
+              "di": "酉",
+              "jiang": "青龙"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S30",
+          "name": "月血光",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "未",
+              "di": "戌",
+              "jiang": "天空"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S30Z",
+          "name": "月血支",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "戌",
+              "di": "丑",
+              "jiang": "玄武"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S30J",
+          "name": "月血忌",
+          "basis": 10,
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "亥",
+              "di": "寅",
+              "jiang": "太阴"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S31",
+          "name": "阳刃",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "卯",
+              "di": "午",
+              "jiang": "朱雀"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S31Y",
+          "name": "羊刃",
+          "basis": "甲",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "卯",
+              "di": "午",
+              "jiang": "朱雀"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S32",
+          "name": "丧门",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "申",
+              "di": "亥",
+              "jiang": "白虎"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S32D",
+          "name": "吊客",
+          "basis": "午",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "辰",
+              "di": "未",
+              "jiang": "六合"
+            }
+          ],
+          "engine_check": "一致"
+        },
+        {
+          "id": "S33",
+          "name": "季关神",
+          "basis": "冬",
+          "status": "resolved",
+          "places": [
+            {
+              "tian": "戌",
+              "di": "丑",
+              "jiang": "玄武"
+            }
+          ],
+          "engine_check": "一致"
+        }
+      ],
+      "disabled_names": [
+        "岁德",
+        "转煞",
+        "贼符",
+        "月符",
+        "天厕",
+        "瓦煞",
+        "直符",
+        "进爵",
+        "飞镰",
+        "天才",
+        "游煞",
+        "火恶",
+        "游娲",
+        "天史",
+        "伏殃",
+        "旬盗",
+        "稼穑",
+        "天罗",
+        "干胎神",
+        "时煞",
+        "马倒",
+        "支胎神"
+      ],
+      "disabled_observed_names": [],
+      "unregistered_names": [
+        "返魂",
+        "金神",
+        "门煞",
+        "天破",
+        "圣心",
+        "天怪",
+        "日官",
+        "红沙",
+        "官符",
+        "天车",
+        "三丘",
+        "管神",
+        "游神",
+        "天财",
+        "忧神",
+        "小煞",
+        "阴奸",
+        "天坑",
+        "华盖",
+        "岁宅",
+        "劫煞",
+        "皇书",
+        "月刑",
+        "奸门",
+        "天刑",
+        "雷公",
+        "风伯",
+        "天解",
+        "大耗",
+        "岁破",
+        "灾煞",
+        "天盗",
+        "时盗",
+        "丝麻煞",
+        "天赦",
+        "泰神",
+        "悬索",
+        "天鸡",
+        "五鬼",
+        "天龙",
+        "福星",
+        "日盗",
+        "支冲",
+        "晴朗煞",
+        "岁煞",
+        "岁墓",
+        "五墓",
+        "天目",
+        "浴盆",
+        "枉屈",
+        "天贼",
+        "天恩",
+        "皇恩",
+        "月厌",
+        "天狗",
+        "贵人",
+        "游都",
+        "支害",
+        "岁虎",
+        "阳煞",
+        "月合",
+        "火烛煞",
+        "月德",
+        "亡神",
+        "月亡神",
+        "将军",
+        "火鬼",
+        "大煞",
+        "雨师",
+        "月官符",
+        "日医",
+        "支破",
+        "迷惑煞",
+        "戏神",
+        "丧魄",
+        "天德",
+        "解神",
+        "奸神",
+        "风煞",
+        "飞符",
+        "支亡",
+        "日亡神",
+        "岁刑",
+        "四废",
+        "信煞",
+        "天咒",
+        "天鬼",
+        "长绳",
+        "天吏",
+        "仪神",
+        "支刑",
+        "天耳",
+        "相负",
+        "信神",
+        "天书",
+        "黄幡",
+        "鲁都",
+        "天诏",
+        "游魂",
+        "月害",
+        "游祸",
+        "阴煞",
+        "女灾",
+        "墓门",
+        "雷煞",
+        "天狱",
+        "奸私",
+        "劫杀",
+        "日鬼"
+      ],
+      "unregistered_policy": "原引擎这些名称不自动采用；关系状态回理气核，专项神煞补齐可复算来源与条件记录再用。",
+      "evidence_policy": "别名同项不计多证；同位异项也不自动构成独立验证；刃空不推定伤浅。"
+    },
+    "legacy_archive": {
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify\\排盘存档\\六壬\\六壬-20261116-064152-synthetic-architecture-audit-432f2e75-180b-4a21-82ee-f8c996b32641.json",
+      "sha256": "5ec0b26875b8c6d0e1ef33dd4d371d3f7b63e62ac47c75e9fc34c2bc5468824c",
+      "raw_sha256": "1ab500bc65c752ac40ee660548c18e173fd5a7975d07afd882e05a0549abaa11"
+    },
+    "engine_corrections": [
+      {
+        "id": "S08M",
+        "name": "月天鼠小耗",
+        "original_heaven_branches": [
+          "亥"
+        ],
+        "corrected_heaven_branches": [
+          "卯"
+        ]
+      },
+      {
+        "id": "S17",
+        "name": "天医",
+        "original_heaven_branches": [
+          "卯"
+        ],
+        "corrected_heaven_branches": [
+          "丑"
+        ]
+      },
+      {
+        "id": "S18",
+        "name": "地医",
+        "original_heaven_branches": [
+          "酉"
+        ],
+        "corrected_heaven_branches": [
+          "未"
+        ]
+      },
+      {
+        "id": "S19",
+        "name": "岁病符",
+        "original_heaven_branches": [
+          "未"
+        ],
+        "corrected_heaven_branches": [
+          "巳"
+        ]
+      },
+      {
+        "id": "S32D",
+        "name": "吊客",
+        "original_heaven_branches": [
+          "申"
+        ],
+        "corrected_heaven_branches": [
+          "辰"
+        ]
+      }
+    ]
+  }
+}

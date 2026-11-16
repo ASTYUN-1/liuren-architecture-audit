@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-01T13:34:26.480894+00:00",
+  "release": "20261101-runtime-notices-01",
+  "buildId": "YxmF70UdWqqgb_Tkn0J5W",
+  "concurrency": 2,
+  "maxMinutes": 30,
+  "idleMinutes": 6,
+  "retentionDays": 7,
+  "services": "TimeoutStopUSec=1min 30s\nMainPID=1858136\nWorkingDirectory=/opt/wenheng/current\n\nTimeoutStopUSec=31min 40s\nMainPID=1858135\nWorkingDirectory=/opt/wenheng/releases/20261101-runtime-notices-01\n",
+  "backup": "success",
+  "health": {
+    "aiEnabled": true,
+    "workerOnline": true,
+    "modelConfigured": true
+  }
+}

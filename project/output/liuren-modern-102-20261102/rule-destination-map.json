@@ -1,0 +1,1435 @@
+[
+  {
+    "source_rule_id": "LR26-M102A-002-ART",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-002-LOSS",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-002-SEAL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-002-TIME",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-002-VOID",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-003-DIV",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-003-ROLE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-003-WATER",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-004-FOOD",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-004-LING",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-004-MID",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-004-SANC",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-004-SEAL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-005-ACCIDENT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-005-CATCH",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-005-VIDEO",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-005-ZHANG",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-006-DEPART",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-006-SCHOOL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-007-ALT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-007-COMPETE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-007-RANK",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-008-CHILD",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-008-SEXT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-009-FLOW",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-009-PREG",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-011-DREAM",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-011-PHOTO",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-012-FOOD",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-012-VISIT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-013-DOOR",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-013-LEG",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-014-DEMOTE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-014-PEACH",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-014-SAVE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-015-EXAM",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-015-FILL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-015-LATER",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-017-CHILD",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-017-REL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-018-PROFIT",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-018-TIME",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-019-FIND",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-019-RAIN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-019-RETURN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-020-RELIEF",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-020-STRANGE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-021-KEEP",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-021-LATER",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-022-ARREST",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-022-JAIL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-023-DIV",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-023-FEE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-023-LONG",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-024-DEATH",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-024-LOC",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-025-ALT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-025-FIND",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-026-ALT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-026-MAIN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-027-ALT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-027-MAIN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-028-ALT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-028-OFFER",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-028-ROLE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-029-LATER",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-029-MOVE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-030-CHILD",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-030-HEALTH",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-030-HOME",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102A-030-WEALTH",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-032-CHAIN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-032-PAPER",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-033-LEAVE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-033-PARENT",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-033-TIMING",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-034-BIRTH",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102AT-034-SEX",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-035-PRISON",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-036-SPINE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-036-TREAT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-037-DROWN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-038-SHEEP",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-039-NOMING",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-040-RESCUE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-043-DELAY",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-043-FAIL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-045-REPEAT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-046-REAREND",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-048-DOG",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-049-ROLE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-050-PREG",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-051-RESCUE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-051-ROLE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-051-WATER",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-052-ACCIDENT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-053-STAY",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-054-TEACHER",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-055-RESCUE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-055-VOID",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-056-CONFLICT",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-056-MONEY",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-057-FIRE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-058-HOUSEFIRE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-059-PRISON",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-059-SENTENCE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-060-INTERROGATE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-062-DANGER",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-062-ROLE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-063-PROJECT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-064-GYN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-065-HEAL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-066-GRAVE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-067-RECONCILE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-067-TIMING",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102B-068-LOSTDEAD",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-069-PROFIT",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-070-ACCEPT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-071-MONEY",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-072-VISA",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-076-DIAG",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-076-RESCUE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-078-PREG",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-079-MOVE",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-080-PREG",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-081-PREG",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-083-VISA",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-084-DOG",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-085-DRAW",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-086-RETURN",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-088-CARD",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-089-TRAVEL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-090-SURGERY",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-091-TCM",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-092-WATCH",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-093-LAW",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-094-ACCIDENT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-095-DEATH",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-097-REPORT",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-098-PAIN",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-099-DOG",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-100-REFUND",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-101-ARRIVAL",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-102-REBUILD",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-102-RESCUE",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-103-MISSING",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-104-COMPENSATION",
+    "destinations": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "disposition": "规范入口成员，来源分支保留",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  },
+  {
+    "source_rule_id": "LR26-M102C-106-CAREER",
+    "destinations": [],
+    "disposition": "单卡来源分支保留；本轮未证明与规范入口共享足够具体条件",
+    "replacement_rule_id": null,
+    "source_deleted": false,
+    "predictive_equivalence_proved": false
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "release": "20261106-packet-diagnostics-17",
+  "parentRelease": "20261106-natural-positioning-16",
+  "fixes": [
+    "allow date and UUID request ids with published regex",
+    "exact field diagnostics instead of input identity",
+    "full manifest verified runtime method without explicit range",
+    "source errors identify id path bounds and supplied values",
+    "expanded payload 200000 characters and 700000 UTF-8 file bytes save/load consistently",
+    "do not remove evidence to probe failures"
+  ],
+  "eventPositioning": {
+    "enabled": true,
+    "schema": "liuren-event-positioning-v1",
+    "mode": "model-event-interpretation",
+    "semanticRoleChecks": false,
+    "actorReferenceRequired": false,
+    "domainReadRequired": true,
+    "fullDomainHandoff": true,
+    "source": "explicit-user-instruction"
+  },
+  "externalModelCalled": false,
+  "predictiveValidationCount": 0
+}

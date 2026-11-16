@@ -1,0 +1,793 @@
+{
+  "schema": "liuren-explicit-move-manifest-v1",
+  "root": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+  "authorization": "Root F2 explicit layout approval; no product/source/core moves.",
+  "operations": [
+    {
+      "source": "六壬体系包-20260805(2).zip",
+      "destination": "归档/原始安装包/六壬体系包-20260805(2).zip",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 12647762,
+          "sha256": "5ac8b1bc30394989a94c9280905beceda2e9a4f67ca4c9d7de55c900c541e4d9"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\六壬体系包-20260805(2).zip",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\原始安装包\\六壬体系包-20260805(2).zip",
+      "classification": "history"
+    },
+    {
+      "source": "六壬体系包-增量-20260806(4).zip",
+      "destination": "归档/原始安装包/六壬体系包-增量-20260806(4).zip",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 52794,
+          "sha256": "a6516d0bfac82896d349ab1aa7de607a0a9df6269048189bbfeee9d0f04a1f61"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\六壬体系包-增量-20260806(4).zip",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\原始安装包\\六壬体系包-增量-20260806(4).zip",
+      "classification": "history"
+    },
+    {
+      "source": "六壬八字体系包-20260916-全量整合版.zip",
+      "destination": "归档/原始安装包/六壬八字体系包-20260916-全量整合版.zip",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 14445384,
+          "sha256": "63ffb40f4fea82a45b80b48179a888f75803e6d8cdc8bdff9bd2b69f503d8bff"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\六壬八字体系包-20260916-全量整合版.zip",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\原始安装包\\六壬八字体系包-20260916-全量整合版.zip",
+      "classification": "history"
+    },
+    {
+      "source": "opencode.json.orig",
+      "destination": "归档/配置与旧说明/opencode.json.orig",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 1347,
+          "sha256": "52817d428db3b6db82fc5682671973bf8f1fc9f4dea7a730ae9fc952a885145d"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\opencode.json.orig",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\配置与旧说明\\opencode.json.orig",
+      "classification": "history"
+    },
+    {
+      "source": "verify-system.ps1.orig",
+      "destination": "归档/配置与旧说明/verify-system.ps1.orig",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 5197,
+          "sha256": "93a5ac214f529fe50b3d910d10870b5ed1f41fa1704c9a1257c57c8550c864ad"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\verify-system.ps1.orig",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\配置与旧说明\\verify-system.ps1.orig",
+      "classification": "history"
+    },
+    {
+      "source": "使用说明.txt.gbk.bak",
+      "destination": "归档/配置与旧说明/使用说明.txt.gbk.bak",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 947,
+          "sha256": "bf7072325fe448e14ad98a48059f0e23573accd6d3fe7892da86cf1a91b123bc"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\使用说明.txt.gbk.bak",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\配置与旧说明\\使用说明.txt.gbk.bak",
+      "classification": "history"
+    },
+    {
+      "source": "使用说明.txt",
+      "destination": "归档/配置与旧说明/使用说明.txt",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 2383,
+          "sha256": "aae8bb7348e1829a45c311dc763c92897d7ec9ca067c7b9b33234b6f6f6cdbdf"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\使用说明.txt",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\配置与旧说明\\使用说明.txt",
+      "classification": "history"
+    },
+    {
+      "source": "更新说明.txt",
+      "destination": "归档/配置与旧说明/更新说明.txt",
+      "kind": "file",
+      "files": [
+        {
+          "relative": "",
+          "bytes": 5330,
+          "sha256": "a4a7cee5ba72499008231444206d82ced8ea076caf7a0b73e07f49e164f2a6d5"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\更新说明.txt",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\配置与旧说明\\更新说明.txt",
+      "classification": "history"
+    },
+    {
+      "source": "output/公众号",
+      "destination": "运营资料/公众号/系列文章",
+      "kind": "directory",
+      "files": [
+        {
+          "relative": "入门01-认识大六壬课盘/01-一张课盘里究竟有什么.md",
+          "bytes": 14625,
+          "sha256": "e8b3ac1d39bbb9865aaf3454beecf656e9bb4a8b21b0035408c5f5cd8b4a0cc8"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/build_article.py",
+          "bytes": 18346,
+          "sha256": "b324cc1f3c6a480d1f77b85b49e18eb0365afda4fc20af4bb94950bdde16beeb"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/build_circular_reference.py",
+          "bytes": 4239,
+          "sha256": "ea53676525c40f98f76b68cbd286838082985a0c3e3441de4fd7e28d19714bfb"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/build_covers.py",
+          "bytes": 5347,
+          "sha256": "469664aa6805807c829b2364d2368f78100eafed77b2788b7a2f81a7219c631f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/build_docx.py",
+          "bytes": 9263,
+          "sha256": "71c37f9910e31bfb1a1ec7d84c826d12f08462356daf38ab002734832fd0d796"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/build_exploded_reference.py",
+          "bytes": 8145,
+          "sha256": "3a7a553890156bb0536635de7303a47a25812cb71a3b00fc5d0d9b57d429d2ab"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx核对.json",
+          "bytes": 357,
+          "sha256": "485ca9e744dad2775fe6c50c6412e73e3c3bf877d64dd4e0fd0e579ce06907d4"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/finish_circular_image.py",
+          "bytes": 1722,
+          "sha256": "1e53cec288739fea1a072ccd9df395b8162937801eaafa3e4ca838ef7295904e"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/finish_exploded_image.py",
+          "bytes": 5701,
+          "sha256": "28f0004e4217de23d30935c861770171be183e4ddaec9ff293916cf0bd11f3a4"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/发布说明.md",
+          "bytes": 4213,
+          "sha256": "91774155050bb3095a648df18e6d352dd22ed9e733b43b281f9ed216586ea0e3"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/大六壬入门01-一张课盘里究竟有什么.docx",
+          "bytes": 1134003,
+          "sha256": "8d9fcd5f4ed19cff80ae28272052b65dd324ef973eb5e5861fd2dc21af4ed42f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/排版预览.html",
+          "bytes": 1523245,
+          "sha256": "00d8346b07f562f6d728ef4fcc36c3efd5ffc7d9604ae73462b654e323a82fcc"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/构建核对.json",
+          "bytes": 1072,
+          "sha256": "7b0c69552d8dff1f1867ee84aaf453f5862f5a1e04de43a598206d5dd0a4fd1c"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/配图总览.png",
+          "bytes": 456848,
+          "sha256": "283f04ab364487ad82d7a8d716df6c0ed63d9bd2e61521042974e7a39e51203e"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/01-structure.png",
+          "bytes": 209913,
+          "sha256": "713fecffd2b417dc3f3ebc8cb73dddf2485e7107f9ec1e65c4968672800de689"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/01-structure.svg",
+          "bytes": 5372,
+          "sha256": "3ffa9e3b2b60a5123e08180d806e9346a36709e06a023664270faa351acd6cfd"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/02-names.png",
+          "bytes": 196457,
+          "sha256": "fa365e8b9f603985a95489e76486fda1f36170beff0181b9b5aabc6c27c31785"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/02-names.svg",
+          "bytes": 5288,
+          "sha256": "536eb94e7ea40608e01122baf94bea365c0b58daa7b9e401fee3a47643cecb3d"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/03-board.png",
+          "bytes": 173948,
+          "sha256": "77ffd09aaf1d91fae2ec0e471fa46bd62b3c8909018cf9b11cead4984ad76f56"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/03-board.svg",
+          "bytes": 6698,
+          "sha256": "6b915371850a9ad21bfddfd53959fb3255a189ccacdb876bfd7e5c42a65eba3b"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/04-lessons.png",
+          "bytes": 169341,
+          "sha256": "58cc86c48fa4976450825a09b0df0f84cf6a0f3b7313a1cfb8e243f059e9d289"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/04-lessons.svg",
+          "bytes": 5461,
+          "sha256": "77366633a1e7f650269082ca5255af3b6768830f8b03094e1c8c5d70ff0b5d75"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/05-transmissions.png",
+          "bytes": 171486,
+          "sha256": "893e35c9375e511c83c472857dc7ef3e414a1acfdd0f64436d59d9af9392f002"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/05-transmissions.svg",
+          "bytes": 4480,
+          "sha256": "01a8cee03cbffd44ea462dd206d03ea77c5a0e1a26dd0a77b75e7dd93e9dfec2"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/06-generals.png",
+          "bytes": 198586,
+          "sha256": "5a6ff0aad30b418b6a472a20ef2f7c7aec52ba84cac2c2dc9eeda1e5cfebedba"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/assets/06-generals.svg",
+          "bytes": 3730,
+          "sha256": "1665003d38c6df12c0c9c0f5dd3c1fe39a0012892511ef9f5a84df6866df88f3"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-1.png",
+          "bytes": 269784,
+          "sha256": "31b46cceb0e0fb1af49b96812ef343498a7682b4e99add2cb9470492e27cfb7f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-10.png",
+          "bytes": 450246,
+          "sha256": "b83dff3ce0bbad7d36c47e1424bf25669a085f0e0e9314e1f4711110518d9534"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-11.png",
+          "bytes": 338401,
+          "sha256": "2ac642611db192fa8f189732a8785cb20fbfdc13d369ccb1b882793242b19a4a"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-12.png",
+          "bytes": 360229,
+          "sha256": "6872ef2a342e750c32df690cdfab691ff26209f907e750622648237e7e9e5b8f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-13.png",
+          "bytes": 200665,
+          "sha256": "415c973607ddf4b662520710271fe97916f7972f471225615c2dea2fd413612f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-2.png",
+          "bytes": 445041,
+          "sha256": "d372e1ca4aa41befce411d2f9a3741f2c20e4029e721ca652e422f4bfba9bfba"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-3.png",
+          "bytes": 287703,
+          "sha256": "aa34e4d3f2ab4d7b0ecb09a5c77c413fdd07daf483d54a732df355cba2ef4e4e"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-4.png",
+          "bytes": 428812,
+          "sha256": "96bf7eb85436589aec3d86230205d111579c5f51ccf7f4698ebf8d363cb103e0"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-5.png",
+          "bytes": 459646,
+          "sha256": "7d04ba9313e25b5e8e7e5e075dd656c267bddd1ef58fa620a91da6e7d1db9e30"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-6.png",
+          "bytes": 286983,
+          "sha256": "0fdb4f5f414c0f645fa7137e23b9cd050623bccaf572da24b3c943c9b8966507"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-7.png",
+          "bytes": 497047,
+          "sha256": "56ebfe17f2b51f07c926ad5c5b3e323273c4e68c4445b8b4c24185e4e12d571a"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-8.png",
+          "bytes": 289487,
+          "sha256": "b295560c843b87f6f0cef86f1da7eda048ecb81df65755c77672399b9b8960b3"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/page-9.png",
+          "bytes": 449241,
+          "sha256": "a38be4304c81e72e0230ecdbbb1465bf642e4ada8ebcb7b8465153c8ff05e31a"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/pages-overview.png",
+          "bytes": 643258,
+          "sha256": "ffdc0e73d181a4ad5a8ed266ab8de2ae984178296cfb452a011408cb83101ba2"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/docx检查/大六壬入门01-一张课盘里究竟有什么.pdf",
+          "bytes": 1128259,
+          "sha256": "5a7d0dad1d9453216815e5c7f1133ad038d7cc444909309452bf21cc330d5385"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/__pycache__/build_article.cpython-312.pyc",
+          "bytes": 29470,
+          "sha256": "63a5964afdf3f85695d2d787868c678be7ec48221ddda4be61d73fe6acc46ccf"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/codex-clipboard-95ec2ebf-d63f-4018-b7c4-e32fd83c0bd4.png",
+          "bytes": 2543197,
+          "sha256": "9d590c978d493de56a2d85c2b6cca0ffdf0d161698793e8583a9d14b49c6a4db"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/准确参考图.png",
+          "bytes": 456241,
+          "sha256": "f41a1464341275612bf210eb407cac69bf9651f5ab5a92d34a9802801c1f92b7"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/制作说明.md",
+          "bytes": 3322,
+          "sha256": "8fdd2dd751f6eff278dc7a90ee7c4032769d1bb21a18b080b4671c9d65a707c5"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/圆盘-天盘核对.png",
+          "bytes": 737329,
+          "sha256": "ccdde90cf1d72c46f7724958d1530abf4a1afd83e9b73e71db77adedff6ef0ee"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/圆盘分层-准确参考图.png",
+          "bytes": 533318,
+          "sha256": "feb29aff2fbcb5b4c0399722bfb102ccebd15cf6951a9ff2a077d4c1a2ea3856"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/圆盘分层-定稿.png",
+          "bytes": 2036744,
+          "sha256": "9968edf55f19b0eed7413e65b8f3718391587acdb1167f03771f903ad4877cc9"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/圆盘分层-模型原图.png",
+          "bytes": 2160640,
+          "sha256": "3cc1efe150929f7cea90a8f1175f00c873b31a9b0269a7932a361344bb563289"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/圆盘分层-生图提示词.txt",
+          "bytes": 4869,
+          "sha256": "4a0cb3fc252db606b8c600a6d6be7d56b4091490da6a37fce87ec2e4f82b2e40"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/地盘遮挡修正提示词.txt",
+          "bytes": 1495,
+          "sha256": "afee6c7cc40c65da6670fe192029f4ce452ddd53ba12f906f740f1d9c3102b16"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/大六壬三维拆解-完整地盘.png",
+          "bytes": 1973687,
+          "sha256": "b9c0713c740a0c35ff27f2a955702194d998920176747369fd2834f77e17cc34"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/大六壬三维拆解-定稿.png",
+          "bytes": 1712828,
+          "sha256": "b01c27aa9dd67734858acb1687a8132624b920f12f01a575018a2e2acd2e8a39"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/大六壬三维拆解-模型修正版.png",
+          "bytes": 2013581,
+          "sha256": "2524eed2a46ab280129fda941e459e58ab831a3aa99b30f809a6f89de40c297d"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/大六壬三维拆解-模型原图.png",
+          "bytes": 2050644,
+          "sha256": "20277cb2f9cbe6fdaf09b3317411afdb9d22e10a9cf6302dd99e636f6b424c7e"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/局部修正提示词.txt",
+          "bytes": 2386,
+          "sha256": "e41139149e89f5031606b1ad651310242bec0cdc3afbf8e7ba364ea7620a3c0f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/核对-上两层.png",
+          "bytes": 1209163,
+          "sha256": "78dbba4c8e06de2999e60652a7134bb338d97a68c8ad9cec1e47782e2986fc4f"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/核对-地盘.png",
+          "bytes": 787288,
+          "sha256": "27160bfd85e5fe95df73154c3c6667db281925eb2f96296c60ae8382ce4e83bb"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/生图提示词.txt",
+          "bytes": 6144,
+          "sha256": "187a7d758740f2bace4d92845b39b45082cc2b0630b4249d09d133d114b865af"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/三维拆解图/盘面核对.json",
+          "bytes": 1515,
+          "sha256": "cdeb8a090e0bbd9b8865cc4e7e4de79693cf03f68d8d17e2cff2c7b6994699de"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/封面/公众号封面-方版-900x900.png",
+          "bytes": 119464,
+          "sha256": "5651caa3dcea003bc76ba1c845c9bfa593cc158028b2e1f6f3b9984adb6208fa"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/封面/公众号封面-横版-1880x800.png",
+          "bytes": 179188,
+          "sha256": "bd4ef95b075b5ea20ab8f4db40e303eb2b4d687154e7a7c33f43f2cef7870fe4"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/封面/公众号封面-横版-900x383.png",
+          "bytes": 88765,
+          "sha256": "ce53bf6acd2867bc3f38862f1e20c79972ec19928b1ed973946044d382a511a9"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/封面/封面-方版源图.svg",
+          "bytes": 6772,
+          "sha256": "d300dccd41ca6ac97a100df4874aa4d45f6c1de83d977025006bb4e79c4cf91c"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/封面/封面-横版源图.svg",
+          "bytes": 7085,
+          "sha256": "bcdfdfe84e64716191c0654d95edfd41ee939573e4708f4de61ac6aecd5ae927"
+        },
+        {
+          "relative": "入门01-认识大六壬课盘/封面/封面信息.json",
+          "bytes": 660,
+          "sha256": "2eb2a08f94e23db1380d6f1a6b0437633fdf954eebf1fe4bd63630ee2a8be7f3"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\公众号",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\运营资料\\公众号\\系列文章",
+      "classification": "operations"
+    },
+    {
+      "source": "output/公众号-竞赛省二复盘",
+      "destination": "运营资料/公众号/公众号-竞赛省二复盘",
+      "kind": "directory",
+      "files": [
+        {
+          "relative": "公众号文章.html",
+          "bytes": 1128999,
+          "sha256": "92e69baf3e0baa4900baa448036a5903ae082faef97454cca73fa0ef1be4b4c2"
+        },
+        {
+          "relative": "公众号正文-内联样式.html",
+          "bytes": 28608,
+          "sha256": "3c758a07ef8065b70c7c2573194b6069464c9bdec3852954d43a368175b55630"
+        },
+        {
+          "relative": "发布说明.md",
+          "bytes": 2407,
+          "sha256": "77d859a7655f0136ca7af72a2ae881adc185a0596c19827c4648db333df094cc"
+        },
+        {
+          "relative": "assets/公众号封面-2.35比1.png",
+          "bytes": 1292347,
+          "sha256": "e4eeb815185934ab4bcd3f2667b22fae1190ab195e88981379f9c5f79eff05eb"
+        },
+        {
+          "relative": "assets/公众号封面-900x383.jpg",
+          "bytes": 142671,
+          "sha256": "41da70981ef45b59275ed4a099c7b70d7a58882c43de31fe4739e83df84fc72c"
+        },
+        {
+          "relative": "assets/公众号封面-方图.png",
+          "bytes": 1147360,
+          "sha256": "fedfd03b3554af54ac3e538e1c9c8fcb51a8e0ab99c91dbeabc330bad3a81a3f"
+        },
+        {
+          "relative": "assets/图01-奖项门槛.png",
+          "bytes": 97869,
+          "sha256": "cbf9255d9f9d9f65d19f6f678be3aaf9e001cd2df64deba3a93a01ffe9c74ded"
+        },
+        {
+          "relative": "assets/图02-四课三传.png",
+          "bytes": 112450,
+          "sha256": "6538007856b30c330b36001aeed50f4bb0d160b0cfc7d6c3f9f4ea444b3c40aa"
+        },
+        {
+          "relative": "assets/图03-空亡与借格.png",
+          "bytes": 83560,
+          "sha256": "a2792fbff84ce0c0323b31c9ce704cd054ebe4c2304899887890df5cbe3a7c8c"
+        },
+        {
+          "relative": "assets/图04-判断层次.png",
+          "bytes": 141392,
+          "sha256": "16b1b45ee69a45171868db6d71fdb75e75f56dfdc343ed63ddea57f9faed8a84"
+        },
+        {
+          "relative": "assets/图05-两盘分界.png",
+          "bytes": 123547,
+          "sha256": "a8051e564fb6ec939393a69ce65504c3ae8efc7ca5c8efdfa5ea3b80ee98bcf1"
+        },
+        {
+          "relative": "assets/封面艺术底图.png",
+          "bytes": 2566535,
+          "sha256": "4053c02aeee54553e66ee8839635cf9b2df1a5579310f1677cd867da2770a333"
+        },
+        {
+          "relative": "assets/文内-书案意境.jpg",
+          "bytes": 264887,
+          "sha256": "d45eaa4e25962ec607b43201501b0493901710e01ba4869607dc7309758b5fe4"
+        },
+        {
+          "relative": "assets/朋友圈-大六壬.jpg",
+          "bytes": 426902,
+          "sha256": "73bc3e1a23db3da8d7b46e9f836e1279e0c253e843814ec452bc26063d5d8cdd"
+        },
+        {
+          "relative": "制作资料/主盘-中气换将.json",
+          "bytes": 16822,
+          "sha256": "439241d1221a88c30d6f7994ceda46769f8f02d837c559bb7e8aae22679afc9e"
+        },
+        {
+          "relative": "制作资料/制作文章.py",
+          "bytes": 14149,
+          "sha256": "6ccdf0b37b81aae8d4de38290c8a04d14ef1976a8e9ce0029e578e52d4c49796"
+        },
+        {
+          "relative": "制作资料/制作统计.json",
+          "bytes": 363,
+          "sha256": "e16884d847ef10148d15ca17a657a891d59aaea0f28c8129e53e8cf65f9399d9"
+        },
+        {
+          "relative": "制作资料/对照盘-日躔换将.json",
+          "bytes": 16822,
+          "sha256": "191cc9060a9643ac62abf536d573004d1f39f05db75955734b829bab2da46b37"
+        },
+        {
+          "relative": "制作资料/封面生成提示词.txt",
+          "bytes": 1641,
+          "sha256": "3a32e0780b242157cb8dfd0662fb80dc12ef6ccafca926328974e38110ab03bf"
+        },
+        {
+          "relative": "制作资料/来源与核对.md",
+          "bytes": 5763,
+          "sha256": "69c316937b2d9c9945b536152c7d99732080f42ac7cdc867536d25ab8b402eb2"
+        },
+        {
+          "relative": "制作资料/正文.md",
+          "bytes": 16186,
+          "sha256": "44da25e4277f6c212d1976879feee508ced5e0d22b96c8ab1bce187458628421"
+        },
+        {
+          "relative": "制作资料/酉将条件对照盘-非时间换将验证.json",
+          "bytes": 17381,
+          "sha256": "481e264cd658456b70b8df5c4465d976f1d83757d24a09014aaf2fcaed9cbf24"
+        },
+        {
+          "relative": "制作资料/配图校样.jpg",
+          "bytes": 184901,
+          "sha256": "4787fd4d507d00a547f0635bdfb454cf4673dd11ab4881ca2aee5077d381f478"
+        },
+        {
+          "relative": "制作资料/验收记录.json",
+          "bytes": 392,
+          "sha256": "dd0536de2215b0e9236cb87425ccc9c369524e38454fea0c2f5c11f056f1da83"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\公众号-竞赛省二复盘",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\运营资料\\公众号\\公众号-竞赛省二复盘",
+      "classification": "operations"
+    },
+    {
+      "source": "output/公众号-胎产课盘复盘-20261021",
+      "destination": "运营资料/公众号/公众号-胎产课盘复盘-20261021",
+      "kind": "directory",
+      "files": [
+        {
+          "relative": "公众号正文-内联样式.html",
+          "bytes": 1283791,
+          "sha256": "746f6ad2020340fcc57786acdabd73accc2bc06c70406bfbc2f8de1f586ae911"
+        },
+        {
+          "relative": "打开后复制.html",
+          "bytes": 1285191,
+          "sha256": "1c7b285ef1132be0f1a51f3768ddfe6009279f2d7fb2398b1736c60c904d4e3b"
+        },
+        {
+          "relative": "assets/chart.png",
+          "bytes": 85937,
+          "sha256": "1c514b35ccdbc2dce28eef9764fdb10f54efdadf460678c7dff5b966804e3944"
+        },
+        {
+          "relative": "assets/cover.jpg",
+          "bytes": 560661,
+          "sha256": "195e32840b57bfe94c719aac52b0893bdc983792414a56a441f3a10f701407fa"
+        },
+        {
+          "relative": "assets/methods.png",
+          "bytes": 93908,
+          "sha256": "df0123137f7e0bc550c95408ba8e061b91ceca5111c19e735312f65f3f16adbf"
+        },
+        {
+          "relative": "assets/term.png",
+          "bytes": 101240,
+          "sha256": "7535fa3a44530945eb7435e308dbd85bbd8dc158c84358ce0cc0eb1518142816"
+        },
+        {
+          "relative": "assets/timing.png",
+          "bytes": 97172,
+          "sha256": "d59d1f77249fc44a234a9ca3634b2fbec236dcabe84a28590a595a3e2a802227"
+        },
+        {
+          "relative": "assets/封面-900x383.jpg",
+          "bytes": 135513,
+          "sha256": "9a921f8f4272403b58d138dedee1e4de273a93a86bdff4437a85a7df340bf601"
+        },
+        {
+          "relative": "assets/封面底图.png",
+          "bytes": 2983243,
+          "sha256": "b3239188b5c7c9aad913b21f93c966b98c8e0db5469b7c3dd9061295f47da75c"
+        },
+        {
+          "relative": "制作资料/制作.py",
+          "bytes": 11579,
+          "sha256": "8229a3de2760e33dced9d40910730930d6279ebed550d7b834db5115ba8c80bc"
+        },
+        {
+          "relative": "制作资料/制作结果.json",
+          "bytes": 353,
+          "sha256": "ae8c8e589201b84d4773f2f4cb07aef14b43513b0630b567382e554bee18bddf"
+        },
+        {
+          "relative": "制作资料/封面提示词.txt",
+          "bytes": 1153,
+          "sha256": "5dbe06e4766475e384e828752cc38f8b76090efe97f0926d9b63162d2a90e3f0"
+        },
+        {
+          "relative": "制作资料/核对说明.md",
+          "bytes": 4164,
+          "sha256": "43506020b769cc70dd61aa6d4bec5871e0147b2e5d66316a3162c33dbd8ed792"
+        },
+        {
+          "relative": "制作资料/正文稿.html",
+          "bytes": 17514,
+          "sha256": "68469a194741c9e38c7f7e24f5bd0c72e0fb0448d0ca849afbb88ab5ceb50953"
+        },
+        {
+          "relative": "制作资料/配图总览.jpg",
+          "bytes": 224548,
+          "sha256": "6fb21e993034947915941913daac7c62f5b1980d0166f38a45248dfac4c40417"
+        },
+        {
+          "relative": "制作资料/静态校验.json",
+          "bytes": 496,
+          "sha256": "7add72a5dc3ba3721e14d0bae97e32a4a98336beb4f23d08c34130ebd9b071c5"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/公众号正文-内联样式.html",
+          "bytes": 1291998,
+          "sha256": "8ebdc946d84c17588cccf2ee9468f051b4c01f0e6c17ae03a7b3c863ccc33146"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/打开后复制.html",
+          "bytes": 1293398,
+          "sha256": "237d2071d4c7c43ba12a4a65107675664c8ff56fe8d3085cb344ba99cd8e613b"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/assets/cover.jpg",
+          "bytes": 559176,
+          "sha256": "100264556f99339e802e077f389c3af946a9b3b2b38a46e538ae6801cce0e112"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/assets/timing.png",
+          "bytes": 100886,
+          "sha256": "a9385e1e9b9e3d73ac36c7919bec1b77192846677f80d80e9f877a857a914d72"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/assets/封面-900x383.jpg",
+          "bytes": 135119,
+          "sha256": "837eed661f27f49ba6a785d7d0c9a34e62bc3e1c4ebc63054d492e28c1f6bc93"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/制作资料/制作.py",
+          "bytes": 11581,
+          "sha256": "891f3a348d5a728893bfc309eaf4c62fe6430fea742cfaf061b91e791a9a33a8"
+        },
+        {
+          "relative": "制作资料/修改前-20261021-212103/制作资料/正文稿.html",
+          "bytes": 19261,
+          "sha256": "894b801377d5e70f7d91512fca72230af7670c8a10502bc0393f21060013d6bf"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\公众号-胎产课盘复盘-20261021",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\运营资料\\公众号\\公众号-胎产课盘复盘-20261021",
+      "classification": "operations"
+    },
+    {
+      "source": "output/公众号介绍-20261020",
+      "destination": "运营资料/公众号/公众号介绍-20261020",
+      "kind": "directory",
+      "files": [
+        {
+          "relative": "build_article.py",
+          "bytes": 20538,
+          "sha256": "5076c69002f954b170c26ce3e26285899f153d5a5959ce42a1d3d3cf5f0bcd1c"
+        },
+        {
+          "relative": "image-prompt.txt",
+          "bytes": 1345,
+          "sha256": "e54cacef2a7b629d48daabc291bd1a88eedb4f8b3abfa7203bbf052dcb0ef018"
+        },
+        {
+          "relative": "使用说明.txt",
+          "bytes": 1649,
+          "sha256": "62f91fb91e3c972bc4261a0e1fa04c96e8bb72cb5b7faff7d88700628c38febc"
+        },
+        {
+          "relative": "公众号正文-内联样式.html",
+          "bytes": 12746,
+          "sha256": "33d7dc66f7fee8a5e2ef9a65d8206a020d794922fde327a376d025fa7387b2a7"
+        },
+        {
+          "relative": "发布信息.json",
+          "bytes": 888,
+          "sha256": "43a6b35818e2d1bfe117063dd95055516e9d8d08a53e086d0d3633210858b2af"
+        },
+        {
+          "relative": "问衡公众号-图文素材包.zip",
+          "bytes": 1464091,
+          "sha256": "0f7f3fcc34e8ecff30a140ab0c3255d302455dcb305a7cc60021cfe3afbc985b"
+        },
+        {
+          "relative": "问衡公众号-打开后复制.html",
+          "bytes": 911142,
+          "sha256": "bb2afe411519de234e975a8a49d2770e5207db416bc8da3f494b997e1f417389"
+        },
+        {
+          "relative": "assets/01-封面-1800x766.jpg",
+          "bytes": 378124,
+          "sha256": "07b94454c98ad4f98d0b2914276057c83598a9b661738816799fdf2ac935a86a"
+        },
+        {
+          "relative": "assets/02-方形分享封面-1080x1080.jpg",
+          "bytes": 211144,
+          "sha256": "02cc4399de40d78435f09b780bcf2f096d7b426675fea68de263c0fdc702ffa1"
+        },
+        {
+          "relative": "assets/03-使用流程.jpg",
+          "bytes": 146121,
+          "sha256": "3502c52466602db95c4a792723ca2bf9f98bbea780ba67e7f282b08ee418193e"
+        },
+        {
+          "relative": "assets/04-提问示例.jpg",
+          "bytes": 146881,
+          "sha256": "54cb98faddaa40dafee4c500df743a07b279ac321986665d8fa01ae2933b900d"
+        },
+        {
+          "relative": "assets/cover-art.png",
+          "bytes": 2042482,
+          "sha256": "aa7b194af8c99ec6a7e00b52d728706b3ed6c0b18f114345f64e569576eeb5d5"
+        }
+      ],
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\公众号介绍-20261020",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\运营资料\\公众号\\公众号介绍-20261020",
+      "classification": "operations"
+    }
+  ],
+  "preservation": "Move bytes unchanged; historical text old paths preserved. Resolve through separate route map. No overwrite; rollback reverses pairs after hash checks."
+}

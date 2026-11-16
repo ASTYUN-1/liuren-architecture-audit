@@ -1,0 +1,73 @@
+{
+  "skill": "shengzhi-jiaxin",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "占一下我在现在的公司今年能不能升职？",
+      "expected_behavior": "应激活 shengzhi-jiaxin, 先分判目标（升）, 再用进达之象（旺气×吉神×要位三维交集）扫描课传, 三维命中则升迁倾向、缺位则难升, 输出升/不升结论与时间线索",
+      "notes": "直接升职占问, 命中「升职/升不升」 trigger。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "领导口头说年底给我涨工资, 占占加薪能不能成？",
+      "expected_behavior": "应激活 shengzhi-jiaxin, 用增益之象（生气/父母爻现课传 + 申酉虎阴、贵常龙、天后、六合等金钱类象旺相不空）判断加薪必然性, 并查「空亡+衰气」双杀与财爻克父母爻的否定项, 输出加/不加结论",
+      "notes": "加薪/涨工资场景, 命中「加不加」 trigger。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我的转正申请和职称评定都递上去了, 占一下能不能通过？",
+      "expected_behavior": "应激活 shengzhi-jiaxin, 转正/评职称属职位向上变化, 按进达象扫描旺气吉神要位并做空亡变质校验（发用空亡+衰气=断不果, 干支乘墓=不升不迁工作繁剧）, 输出结果与风险修正",
+      "notes": "转正/职称场景, 命中触发清单中的「转正/职称」关键词。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "I'm up for a promotion this year. Will I get the raise and the new title?",
+      "expected_behavior": "应激活 shengzhi-jiaxin（英文 trigger: promotion/raise/title）, 升加双问先分判目标（升 or 加 or 双）再分别用进达象与增益象判据, 输出分层结论",
+      "notes": "英文关键词场景, 命中 promotion/raise/title。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下 2026 年立春和惊蛰分别是哪天？",
+      "expected_behavior": "不应激活本 skill, 因为这是纯节气历法计算查询, 无升迁加薪对象也无课传盘面, 属于无关场景",
+      "notes": "诱饵: 完全无关场景（历法节气计算）。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我准备投简历去一家新公司, 占一下能不能应聘成功？",
+      "expected_behavior": "不应激活本 skill, 应激活 yingpin-gongzuo（未入职求职「能否获得职位」用职位类神判据, 本 skill 只管已任职者的升加）",
+      "notes": "跨 skill 混淆诱饵（同书兄弟 skill yingpin-gongzuo）: 应聘求职 vs 在职升职, 以入职为分界。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "占一下我最近的财运怎么样, 投资理财能赚到钱吗？",
+      "expected_behavior": "不应激活本 skill, 应激活 cailu-panduan（收入总量/纯财/投资外快属财禄域, 本 skill 只管「加不加/升不升」的变化判断）",
+      "notes": "跨 skill 混淆诱饵（同书兄弟 skill cailu-panduan）: 财运总量 vs 升加变化, 主题错位。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占我什么时候能升职？具体能定在哪个月？",
+      "expected_behavior": "升职主判断归本 skill（进达象 + 月将/太岁级粗略时间线索）; 但「具体定在哪个月/哪天」是应期细节, 精确定日应转 yingqi-panduan（先定迟速、再定日期）。期望先给升迁结论, 再按需转应期模块",
+      "notes": "边界: 升职判断与应期模块交接处的粒度切分。"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "占一下今年年终奖能拿多少？",
+      "expected_behavior": "若问「有没有/涨不涨」（变化判断）→ 本 skill 增益象判据; 若问「数额/总量」（收入多少）→ cailu-panduan。期望先澄清用户问的是变化还是总量, 再定 skill",
+      "notes": "边界: 年终奖兼跨「加不加」与「拿多少」两域, 需澄清意图。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）。本文件诱饵构成: 1 条完全无关场景（历法节气计算）+ 2 条同书兄弟 skill 跨 skill 混淆诱饵（yingpin-gongzuo 应聘新公司、cailu-panduan 问财运）+ 2 条边界场景（升职与应期粒度切分、年终奖变化 vs 总量）。"
+}

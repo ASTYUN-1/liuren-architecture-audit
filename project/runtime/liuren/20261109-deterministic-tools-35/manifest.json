@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 4,
+  "release": "20261109-deterministic-tools-35",
+  "scope": "local-opencode",
+  "parentRelease": "20261109-palace-strength-34",
+  "modules": {
+    "risk": {
+      "file": "details/risk.md",
+      "required": false,
+      "requires": [],
+      "trigger": "四大凶象承担主判或最强反证"
+    },
+    "shensha-tradition": {
+      "file": "details/shensha-tradition.md",
+      "required": false,
+      "requires": [],
+      "trigger": "明确研究季煞历史推演；普通取用不触发"
+    },
+    "classical-conflict": {
+      "file": "domains/classical-conflict.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "exam": {
+      "file": "domains/exam.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "finance": {
+      "file": "domains/finance.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "illness": {
+      "file": "domains/illness.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "interpersonal": {
+      "file": "domains/interpersonal.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "long-period": {
+      "file": "domains/long-period.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "lost-person-object": {
+      "file": "domains/lost-person-object.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "period-outlook": {
+      "file": "domains/period-outlook.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "pregnancy": {
+      "file": "domains/pregnancy.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "promotion-salary": {
+      "file": "domains/promotion-salary.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "recruitment": {
+      "file": "domains/recruitment.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "relationship": {
+      "file": "domains/relationship.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "adjudication": {
+      "file": "methods/adjudication.md",
+      "required": true,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "evidence": {
+      "file": "methods/adjudication.md",
+      "required": false,
+      "requires": [],
+      "trigger": "旧ID兼容；当前流程使用adjudication，不重复读取",
+      "aliasOf": "adjudication"
+    },
+    "liqi": {
+      "file": "methods/liqi.md",
+      "required": false,
+      "requires": [],
+      "trigger": "共用规范不足以确认影响本问的有效作用条件或反证时定点查阅"
+    },
+    "movement": {
+      "file": "methods/movement.md",
+      "required": false,
+      "requires": [],
+      "trigger": "共用规范不足以确认影响本问的动态条件或反证时定点查阅"
+    },
+    "positioning": {
+      "file": "methods/positioning.md",
+      "required": false,
+      "requires": [],
+      "trigger": "共用规范不足以确认影响本问的取用条件或反证时定点查阅"
+    },
+    "relations": {
+      "file": "methods/liqi.md",
+      "required": false,
+      "requires": [],
+      "trigger": "旧ID兼容；当前流程使用liqi，不重复读取",
+      "aliasOf": "liqi"
+    },
+    "report": {
+      "file": "methods/report.md",
+      "required": true,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "structure": {
+      "file": "methods/structure.md",
+      "required": false,
+      "requires": [],
+      "trigger": "共用规范不足以确认影响本问的结构条件或反证时定点查阅"
+    },
+    "timing": {
+      "file": "methods/timing.md",
+      "required": false,
+      "requires": [],
+      "trigger": "有时间任务"
+    },
+    "void": {
+      "file": "methods/void.md",
+      "required": false,
+      "requires": [],
+      "trigger": "共用规范不足以确认影响本问的空亡条件或反证时定点查阅"
+    },
+    "bashajiubao": {
+      "file": "methods/liqi.md",
+      "required": false,
+      "requires": [],
+      "trigger": "旧ID兼容；当前流程使用liqi，不重复读取",
+      "aliasOf": "liqi"
+    },
+    "beihai-extend-sop": {
+      "file": "references/beihai-extend-sop.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "bifa": {
+      "file": "references/bifa.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "blade-methods": {
+      "file": "references/blade-methods.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "case-retrieval-v2": {
+      "file": "references/case-retrieval-v2.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "daliuren-paipan": {
+      "file": "references/daliuren-paipan.md",
+      "required": false,
+      "requires": [],
+      "trigger": "需要取得可靠程序课盘；不重核固定排盘算法"
+    },
+    "daliuren-shensha": {
+      "file": "references/daliuren-shensha.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "engine-shensha-output": {
+      "file": "references/shensha-use.md",
+      "required": false,
+      "requires": [],
+      "trigger": "旧ID兼容；当前流程使用shensha-use，不重复读取",
+      "aliasOf": "shensha-use"
+    },
+    "experience-retrieval-v2": {
+      "file": "references/experience-retrieval-v2.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "keti-quanbiao": {
+      "file": "references/keti-quanbiao.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "kundun": {
+      "file": "references/kundun.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "liqi-examples": {
+      "file": "references/liqi-examples.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "liqi-sources": {
+      "file": "references/liqi-sources.md",
+      "required": false,
+      "requires": [],
+      "trigger": "方法条件或作用解释存在会影响本问的真实分歧；不复议程序固定起法"
+    },
+    "nianming": {
+      "file": "references/nianming.md",
+      "required": false,
+      "requires": [],
+      "trigger": "本问实际采用已核本命或行年；计算直接用程序"
+    },
+    "rule-semantics": {
+      "file": "references/rule-semantics.md",
+      "required": false,
+      "requires": [],
+      "trigger": "否定范围、摘要条件或规则强度存疑"
+    },
+    "shensha-engine-index": {
+      "file": "references/shensha-engine-index.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "shensha-field-meanings": {
+      "file": "references/shensha-field-meanings.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "shensha-focus": {
+      "file": "references/shensha-use.md",
+      "required": false,
+      "requires": [],
+      "trigger": "旧ID兼容；当前流程使用shensha-use，不重复读取",
+      "aliasOf": "shensha-use"
+    },
+    "shensha-meaning-sources": {
+      "file": "references/shensha-meaning-sources.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "shensha-meanings": {
+      "file": "references/shensha-meanings.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "shensha-other-meanings": {
+      "file": "references/shensha-other-meanings.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "shensha-sources": {
+      "file": "references/shensha-sources.md",
+      "required": false,
+      "requires": [],
+      "trigger": "per-entry route; read full applicable conditions"
+    },
+    "shensha-use": {
+      "file": "references/shensha-use.md",
+      "required": false,
+      "requires": [],
+      "trigger": "共用规范不足以确认影响本问的神煞义项条件或反证时定点查阅"
+    },
+    "quantity": {
+      "file": "methods/quantity.md",
+      "required": false,
+      "requires": [],
+      "trigger": "原问要求金额、分数、数量、重量、距离等数值，或已选应期专法需要数理时长"
+    },
+    "quantity-sources": {
+      "file": "references/quantity-sources.md",
+      "required": false,
+      "requires": [
+        "quantity"
+      ],
+      "trigger": "需要核对取数数表、原法条件或精确数值案例；已取得对应原书可复用"
+    },
+    "workflow-contract": {
+      "file": "methods/workflow-contract.md",
+      "required": false,
+      "requires": [],
+      "trigger": "explicit structured audit only"
+    },
+    "class-mapping": {
+      "file": "methods/positioning.md",
+      "required": false,
+      "requires": [],
+      "trigger": "旧ID兼容；当前流程使用positioning，不重复读取",
+      "aliasOf": "positioning"
+    },
+    "shenjiang-use": {
+      "file": "methods/shenjiang-use.md",
+      "required": false,
+      "requires": [
+        "liqi"
+      ],
+      "trigger": "采用神将同用、互换，或需要核对具体神将类义的适用范围"
+    },
+    "shen-symbols": {
+      "file": "references/shen-symbols.md",
+      "required": false,
+      "requires": [
+        "shenjiang-use"
+      ],
+      "trigger": "需查十二天神的基础义、复合取义或与本家天将的差别"
+    },
+    "jiang-symbols": {
+      "file": "references/jiang-symbols.md",
+      "required": false,
+      "requires": [
+        "shenjiang-use"
+      ],
+      "trigger": "需查十二天将的职能、占类取义或与本家支神的差别"
+    },
+    "home": {
+      "file": "domains/home.md",
+      "required": false,
+      "requires": [],
+      "trigger": "按子问选入，本轮有限条件专项"
+    },
+    "travel": {
+      "file": "domains/travel.md",
+      "required": false,
+      "requires": [],
+      "trigger": "按子问选入，本轮有限条件专项"
+    },
+    "weather": {
+      "file": "domains/weather.md",
+      "required": false,
+      "requires": [],
+      "trigger": "按子问选入，本轮有限条件专项"
+    },
+    "agriculture": {
+      "file": "domains/agriculture.md",
+      "required": false,
+      "requires": [],
+      "trigger": "按子问选入，本轮有限条件专项"
+    },
+    "mapping-provenance": {
+      "file": "references/mapping-provenance.md",
+      "required": false,
+      "requires": [],
+      "trigger": "取类条件存在影响本问的真实缺口或D01—D04未决，只补相关原段"
+    },
+    "judgment-core": {
+      "file": "references/judgment-core.md",
+      "required": true,
+      "requires": [],
+      "trigger": "主智能体与裁决者共用的简明规范，原方法按具体缺口查"
+    },
+    "confirmed-policy": {
+      "file": "references/confirmed-judgment-policy.md",
+      "required": false,
+      "requires": [],
+      "trigger": "已确认U规则的出处或具体C边界需要定点查证时；不是每案附加清单"
+    },
+    "pending-conflicts": {
+      "file": "references/pending-conflicts.md",
+      "required": false,
+      "requires": [],
+      "trigger": "已确认U规则的出处或具体C边界需要定点查证时；不是每案附加清单"
+    },
+    "confirmed-policy-evidence": {
+      "file": "references/confirmed-policy-evidence.md",
+      "required": false,
+      "requires": [],
+      "trigger": "已确认U规则的出处或具体C边界需要定点查证时；不是每案附加清单"
+    },
+    "confirmed-policy-supplements": {
+      "file": "references/confirmed-policy-supplements.md",
+      "required": false,
+      "requires": [],
+      "trigger": "U规则具体出处需要核对时；非每案通读"
+    }
+  },
+  "required": [
+    "judgment-core",
+    "adjudication",
+    "report"
+  ],
+  "domains": [
+    "finance",
+    "recruitment",
+    "promotion-salary",
+    "relationship",
+    "interpersonal",
+    "period-outlook",
+    "long-period",
+    "pregnancy",
+    "exam",
+    "illness",
+    "lost-person-object",
+    "classical-conflict",
+    "home",
+    "travel",
+    "weather",
+    "agriculture"
+  ],
+  "conditional": {
+    "daliuren-paipan": "需要取得可靠程序课盘；不重核固定排盘算法",
+    "nianming": "本问实际采用已核本命或行年；计算直接用程序",
+    "rule-semantics": "否定范围、摘要条件或规则强度存疑",
+    "liqi-sources": "方法条件或作用解释存在会影响本问的真实分歧；不复议程序固定起法",
+    "risk": "四大凶象承担主判或最强反证",
+    "shensha-tradition": "明确研究季煞历史推演；普通取用不触发",
+    "quantity": "原问要求金额、分数、数量、重量、距离等数值，或已选应期专法需要数理时长",
+    "quantity-sources": "需要核对取数数表、原法条件或精确数值案例；已取得对应原书可复用",
+    "timing": "有时间任务",
+    "shenjiang-use": "采用神将同用、互换，或需要核对具体神将类义的适用范围",
+    "shen-symbols": "需查十二天神的基础义、复合取义或与本家天将的差别",
+    "jiang-symbols": "需查十二天将的职能、占类取义或与本家支神的差别",
+    "mapping-provenance": "取类条件存在影响本问的真实缺口或D01—D04未决，只补相关原段",
+    "positioning": "共用规范不足以确认影响本问的取用条件或反证时定点查阅",
+    "liqi": "共用规范不足以确认影响本问的有效作用条件或反证时定点查阅",
+    "structure": "共用规范不足以确认影响本问的结构条件或反证时定点查阅",
+    "void": "共用规范不足以确认影响本问的空亡条件或反证时定点查阅",
+    "shensha-use": "共用规范不足以确认影响本问的神煞义项条件或反证时定点查阅",
+    "movement": "共用规范不足以确认影响本问的动态条件或反证时定点查阅"
+  },
+  "sourcePolicy": "Current professional methods and original books; case/experience libraries disabled; history retained in baseline.",
+  "manifestProves": "Byte and routing identity only; not semantic correctness or predictive validation.",
+  "files": {
+    "adjudication-revision-map.json": "4728c2eece95eff534c692f445c90cb1ad5dad116d049ec9fdbd347c808455d7",
+    "candidate-evidence-notice.md": "37eb7709edfaf08cf844d86473352da7c78df41c49fca253078dbe1cd3543cf8",
+    "compute-interface-revision.json": "47a69c8c3c37c2eb699535aaf72ebd6d1291a83cba321f8c60254637d2d73efa",
+    "coverage.json": "a369af29dfe8cf80c10d4003e4eeb4b2f1c381bf00bab24eb3ae2e9a7039c3c2",
+    "deterministic-foundation-revision.json": "c5eff8ba6e18a8518e0e6397dd8b236b234d2daa7f74bece400108b82e1c45bc",
+    "entry.md": "6585fd9788487fa9c8a4c9b7f6a4901412383358fd7f6bbffff1032fd54bd1ae",
+    "event-positioning-revision.json": "4b2747d5505d163dc0ba92f414bae626064b75a914ccb98a99bb6985dd30abfe",
+    "experiment.json": "e5211aa550d6dbb446feeb6e5b36a379c84654c4a971b3e11405299c77aacf39",
+    "integration-map.json": "7711abfb9ad8a62124b8a93f527fa12df7df42fc08776cc733eb76401cca17a0",
+    "loader-contract.json": "0f731a03908ef564357d4413713bde60e028797c8bc54aea01be43370de3a832",
+    "mapping-preservation.json": "bcd3969e7f4232d9390e3f3bb273800dcd2cd79c40c3fdbe17b35ccaa9e9083f",
+    "mapping-source-map.json": "4f4598c7e82ed2a95e63efa21c4c3f5c69d3e2e4123a60c3e689cdaf79f05e63",
+    "migration.json": "b67327364eee93997f1266e04ac5005be63cd4c8704817a471deca17fa14566a",
+    "natural-positioning-revision.json": "b3a15013be08491533a85d457b428f4198c3cf45ca29c864020dbbcbcc03f9bb",
+    "no-retrieval-revision.json": "efdd2315ee0ae96cd3531054340270f75479f6d0f35b3689359ba341c8282992",
+    "packet-repair-revision.json": "01c746ba02d4b61debdaceb26edcb6936bc83e60d8bf3318a9d0a201931a1409",
+    "reading-route.json": "798243b57266492667d41f55915a47458f82a56aadee55126003b9d6692815ad",
+    "receipt-handoff-revision.json": "b2c21de25878337df9d6e9774e6c782f1746dd8b852cb8aa9fc6f6708321610e",
+    "schema-compat-revision.json": "f45fef7e209dfb60f80aea2de7714af4e9b8381da0155d5e943257c0c10926fc",
+    "seed-receipt.json": "142cebf455649e8af99bb1f778aba4b287f689dea612393edb5b2874fd3564da",
+    "source-read-map.json": "2a981f2baedce3a25e0d121cd4563f2e8c05f373f6ce37d78701db066b85c8e9",
+    "workflow-boundaries-revision.json": "a40e27db8afefc9fb8549383a4fbebfd2274d3466089fd6a456bcec04313f135",
+    "details/risk.md": "bc55f0489490f0011b66de00f074b1ea1eb71d6fe712e9cc8acd44baa8310858",
+    "details/shensha-tradition.md": "20b9a8cb392b32939fd609de9d907e5b0d8dea4b73c10cc21f3e2adfa376c3f2",
+    "domains/agriculture.md": "03971468a59b041fbc695ea3b750b4d3f0f3bfac3427c467a0938b9dc56d401f",
+    "domains/classical-conflict.md": "be84f080f23261fda1450760df60e09c3a7c22944645dd9ecba3a47c14f26bb4",
+    "domains/exam.md": "f3809c0411a7ae2ccb34943dbc197507d4c9169bff027af961f2361cf46901e4",
+    "domains/finance.md": "044d9747dc4564d980581d07693087c1f54077c06bfa5d1ded9d096f9bcfef2c",
+    "domains/home.md": "fbe99a410a25c124c30a3d81326b06a84dad92508802438ea2c70043340292d9",
+    "domains/illness.md": "6b573b38aa6446f08b32157c654ad977ba661db19d0d4d61c684cd73f60d3873",
+    "domains/interpersonal.md": "ebafcceee8b068acf9f6c42a5ef681d2ecf8444fee6610b48f454cbf293ad999",
+    "domains/long-period.md": "e9f5cfb4e48a369cdfb2b2f609c6c8b2b97e7e2c1d5d561142d752c350e6c5c7",
+    "domains/lost-person-object.md": "3c2cb854b497380883aed990124066c7e0d1e14af7f1ed0c2b2e3f7ab44735f3",
+    "domains/period-outlook.md": "0f6232c1177c87b20e74229e4284611ef2a762b05380c05dd4aa9cac6c291b6d",
+    "domains/pregnancy.md": "139d46e78563e81d037a04f80991ee0a2b181e67202b91c8f2c7da1de353bb24",
+    "domains/promotion-salary.md": "7fe999410949920c769cc07645f15b0ee527eeec758755ef136ed7705d11b926",
+    "domains/recruitment.md": "6775fa1265dc0c9b23dc23e10430c57a791dc36a5d233ea4b60c49da9f32e290",
+    "domains/relationship.md": "8f25e8dfdf313a372ac31950eb7930390fa6bbeefce7d273b04d4bb59ca23b1f",
+    "domains/travel.md": "fa0bd71f3cdd54615f1540382f1dbbc00ff617498948a3b1a7565aa295cd9463",
+    "domains/weather.md": "d286277e964da35d08c01fe15d30953f40cf795a24ebd39fccfb7707ebe8d2cb",
+    "methods/adjudication.md": "8147b04d85e86336db23faf3d2fb36cabbaf38153c1876f3e0d6690756591ecd",
+    "methods/class-mapping.md": "dab915353734661cbab47073b7e7cd3dafe4a595f95088c7a96fbfb243c2bb56",
+    "methods/evidence.md": "578704d5a1be39e4c1d15cbc3be8142cf5c9f55fccfe2e9f196336dfb6954821",
+    "methods/liqi.md": "ff79fe841f06f3ba7c069d79fc7dbf26ee6e140afe784375ec6f6ea301215fd2",
+    "methods/movement.md": "990fee5bcad9c9fcbc32e3d66420c07021ac6f811ef63907931f4d44b9f40f11",
+    "methods/positioning.md": "48ae6aca7b05a84b93672274cee8b2142342825ac9e1b39cfd7867e75cfd5919",
+    "methods/quantity.md": "22ed2dbbf36a6073d557359e81c1febf91c814042b9f97b9973db9db3b24d820",
+    "methods/relations.md": "81e977172203e63b1d2db5b2023b3fdd4379c8fd62025af2aef3ec46826867d2",
+    "methods/report.md": "2bb047f45bdb621e28b8bf401364b8450a83c84f31135335f1ea2d625f8b311f",
+    "methods/shenjiang-use.md": "1ae7123f805a240eb0d784926f947b7ecfbaab09de5a2de5bdb4490ef8476a7d",
+    "methods/structure.md": "31dff22533b63c8007a37c542256d520e1c4adc79a1bbd8f2bca091721ca7440",
+    "methods/timing.md": "9616f73be1c6bf9d35731b628ebca75a5cc75816e234b76484081a5b959259d6",
+    "methods/void.md": "0a99662637ad09db5a3ae62193d0e06937d0dcdfc3127b272c6c6dfb461ff5bc",
+    "methods/workflow-contract.md": "90752d0b2257843747c19393733e16793b701594e3d98866ed297cd6a5a03c37",
+    "procedures/common.md": "c8553994110279d0d7ee64d6f56dfbbfbd73240e89fbe00d72e272398b31bb61",
+    "procedures/liuren-cases.md": "c8d04fc0b0404cc1d3a11605c6c8b5630bd67ab24ddd1c631349713b13f9d6b2",
+    "procedures/liuren-extract.md": "b84de307df14746dc25e10a0d47128c5f4843dd49ea437d0792d37ea4fdc8c95",
+    "references/adjudication-method-conditions.md": "cbd8cc3cbaf92c43843b4fcb59c1b433fb916bb3f47412793f16db98448fedd0",
+    "references/adjudicator-book-basis.md": "629f50ba5b49a864f052839081240f0c9ea9fa5c8780e7cd723a79ddde9e2f8c",
+    "references/adjudicator-book-evidence.json": "bb56d110ecee98ee6f21e9d8dfa9ff59bf08139807e3c87744afb7391f1db60f",
+    "references/adjudicator-contract.md": "3bdcca3e6ee152629cd106d710ad6053b3f113f6acf045a64916907717c41b19",
+    "references/adjudicator-prompt.md": "84c85fb4ab7bc9ea6b6e76ad6c06c6e4c0fa4cf3153add0f56642dc1e7f35a93",
+    "references/bashajiubao.md": "a99fba4c307c13e51e726416b2d179d5072b28f8448652a627bc2922a0c1c067",
+    "references/beihai-extend-sop.md": "074f94facf492c38312dfc997842ccc2c04f27576ba1e57462c345a25d275528",
+    "references/bifa.md": "8fce87290118e72b3ee4330f1fb6d3893933141ea8f77e049fa33c2f7548e979",
+    "references/blade-methods.md": "ee706a9c2e87e02710263cb642ebd53bdece273de6434d07f95cbe5f8876694f",
+    "references/case-retrieval-v2.md": "981444d599730f160b86b520366741a11216b12fdfc2bd3b2e1e0c8e11543a84",
+    "references/core-revision-provenance.md": "fbb1f5e3fb3372eaca48c5713c5df0e30f42a001e44b9c26432d8c0f4a0ec846",
+    "references/daliuren-paipan.md": "6850ef52430d0ce619eeeddf68ce01362290749d1ec2a5407b6828187af20127",
+    "references/daliuren-shensha.md": "6c279ba67877c0a56f38123bdb211c0d9e678c4bfb7b004af3af3f0065d4c887",
+    "references/deterministic-policy.json": "210316d018f2eeb2ecb8912a490ffeecf3261fae70e2a4b596d8b47b857b7af4",
+    "references/deterministic-tools.md": "3dcd5ebae539275b384b5b252cc39072bbaa44be2d7fef9e2415655a1cf9eeb8",
+    "references/engine-shensha-output.md": "0005e7cd0e3d57a7fef0741ac6b246ce7653dcdfd3fb128f1657ce739170969e",
+    "references/event-positioning-policy.json": "f5fce70c17b7fa1920e040f1d12bde8a27c2cb4cccff9955bf4b4f78daf047d3",
+    "references/experience-retrieval-v2.md": "213fe063420d1a9c000d27ff1b02e6794b5d838f3ed4be4704fc42a6e6aedc78",
+    "references/expert-adjudication-cases.md": "12340e3c78b309c005ec36a74c0d074102ca5c9a7d17d542f22bb37016616458",
+    "references/expert-adjudication-excerpts.md": "ddccc95ba70ff3eeb7cedfac24aa9bd9c880865e315765c8be0e028c6089e20e",
+    "references/expert-adjudication-sources.json": "6ea08376c19fada04658a349be1563678c3c42be1c1b28028461efe70c73a7e3",
+    "references/expert-adjudication.md": "6b0a0d30528edb7dfc589dfee0f69b3c19cb481642ba46ba516f05d0859c71fd",
+    "references/jiang-symbols.md": "b78536a3c976e943cd7873a3397e3c2e46dd4213870703322c5008d82320446d",
+    "references/keti-quanbiao.md": "44a529a03dbb6d54adcd10cae6dfb724e7a65b99666b95246f7b1b7d61e6d5ad",
+    "references/kundun.md": "597c8ed04db78e89ed4c5f6e0689a2d56887d8251761f306601badbd0b1fcfc3",
+    "references/liqi-examples.md": "41506e95afb2b007d97b665749fde566d6c30476f7ad3a723b128d94ab6f455d",
+    "references/liqi-source-map.json": "6e5e56675eec7f10eb51fd4899e47b211edb61d3ea9d4600c40262f96c5310c1",
+    "references/liqi-sources.md": "b71ddaddd870a98513e95640eedb443080f1c080cbb990af4a0607bebf007a1c",
+    "references/mapping-provenance.md": "2cd5b4b101a6bdae14bfb257086a8c31a4ed785465a1d7c30e412ef8dbe40e89",
+    "references/nianming.md": "2a342db4dacdc6085fc1093d13c23ed8f684a587a8d63b922be033d27a7b8636",
+    "references/quantity-sources.md": "dc1c4fa6fed8611eb69a5ba6bdde672f990fba7c0bf274598670c0bfa1d72412",
+    "references/rule-semantics.md": "92ee0c7f12a2e2f8d54e4cd55b220a867daa411129faaec838cbced54026682e",
+    "references/shen-symbols.md": "6f9d565e437ce8455effad4ba3331656ee8716de22adb6928f06a5c4ad797469",
+    "references/shensha-authority-conflicts.md": "98fd11f2940abab8135a0fd4f10bc1ce5d118d09a40c60c99ad8e94939588974",
+    "references/shensha-authority-evidence.json": "d29fc5775078f80b9ecd2def43cf8e587b0d14df382a3263b3447964bf7cf636",
+    "references/shensha-authority-review.md": "6989f12684bf8e20c45b745be3201ea3aa00ce0183aa696dc9a9f1d1bfc961a5",
+    "references/shensha-engine-index.md": "8647f575fb0741327bb716086466bc4967f09e25eca56afdd65046154c5ad9bc",
+    "references/shensha-field-meanings.md": "9a1c26dc8f564a15d4d02f3e0ace3c13afd00cdb5436d1c0cefb76fab60660fe",
+    "references/shensha-focus.md": "4063f73c369fedbd88b81cc197d7e76c53cfd66dae7c19ec6c0d4b39b8bc5a8e",
+    "references/shensha-meaning-source-map.json": "93509df7a164072ccf76495a0ce6d95e03cc47bc8591f1bd778e199afe363452",
+    "references/shensha-meaning-sources.md": "127da4527d5404f5bbf8e0d12404053c01a36be37842aa88772da50279741630",
+    "references/shensha-meanings.md": "891833fcfaa6e4f7e1e3ff85ecfdba855663260292cdb3506dd7d189c017c0a8",
+    "references/shensha-other-meanings.md": "47edb8038bc16b5d96f6a44d74352cd583db286ff1480cc5d00f97cc495f3fa3",
+    "references/shensha-policy-evidence.json": "aa8b06df24f8ff781984b613f0b947c6c7915aeea13b7e64fe0b62ef281d3a07",
+    "references/shensha-policy.json": "255ced55092ed1d00082c75b084e75a1528866b8fea9a6dacffc1e65d1ee007f",
+    "references/shensha-source-map.json": "d86011d49d3e831c919e54781bdc0338256d718f98181a5535edd69dfe1c8a33",
+    "references/shensha-sources.md": "a70a9ba6f48c797955ef76c6a5b844b1b54ce6a7cfa124bc38f2a132e02c5a45",
+    "references/shensha-use.md": "7fcdca1eb1dbbfb47d843030acb211ccb25ca087c3234fb104df35ee88f0e901",
+    "references/void-method-conditions.md": "a7e15e7d611458e9e82e38d1b1774f9b75d7df3d6fadc2575fef7041eab0e001",
+    "references/judgment-core.md": "c641607fd274821d350804028470f1a6b62bebb6aca9e0d728538280d0315cae",
+    "references/confirmed-judgment-policy.md": "86e819c8fc7e42abeaf068c7fcdfc12809404cba773f1d98c05918208a63510e",
+    "references/pending-conflicts.md": "97f8c1a93107c4cde151deb3242b4b4754c14bb748dcbaef3ce7069f4a6f4ebd",
+    "references/confirmed-policy-evidence.md": "51ccd4d47726ccfd660ea35b5712901d96cb4d40c3c9ebd476956b873ccc78f7",
+    "references/confirmed-policy-evidence.json": "d2049fcea9d7971fb383bfa970a9d38f7a7602258b01ab4ddbcabfd4ee07b16c",
+    "references/confirmed-policy-supplements.md": "0f81706eb59fb73dbf50e53710b39bbdfbdc9b838410af6a2a3358b0a27fc73b",
+    "references/confirmed-policy-register.json": "e0af3f79ebf4c4b8bc0fa60efdbf3f3262513ef94eb2ea10234b799c7bf23cf6"
+  },
+  "version": "6355663b1bd85ea93a1fa2ab2719c40386580aca0bc3400bf8d3cc55d1488bc4",
+  "routingFile": "reading-route.json",
+  "status": "active",
+  "shenshaPolicyFile": "references/shensha-policy.json",
+  "procedureFiles": {
+    "liuren-cases": "procedures/liuren-cases.md",
+    "liuren-extract": "procedures/liuren-extract.md"
+  },
+  "authoringSource": "output/liuren-tool-upgrade-20261109",
+  "inheritedAcceptedCandidateMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "no case/experience retrieval; existing chart, methods, books and full report; adjudication now delegated",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  },
+  "variantOfMethodVersion": "fd1f3a520e3dcd88c653d4b7646fca3176d70552e35103dd41894c6deacc4ad5",
+  "adjudication": {
+    "agent": "liuren-adjudicator",
+    "model": "deepseek/deepseek-flash",
+    "variant": "high",
+    "reasoningEffort": "high",
+    "plugin": "oh-my-opencode-slim",
+    "installedPluginVersion": "2.2.18",
+    "tool": "task",
+    "freshSession": true,
+    "mainAgentAdjudicates": false,
+    "inputSchema": "liuren-adjudication-input-v2",
+    "outputSchema": "free-text-or-json-object",
+    "predictiveValidationCount": 0,
+    "inputTransport": "core-with-bound-reference-archive",
+    "packetTool": "liuren_adjudication_packet",
+    "readerTool": "liuren_adjudication_read",
+    "workflowBoundaries": {
+      "preparation": "verified chart, candidate mappings, observations, source conditions and neutral focus issues; no completed verdict",
+      "adjudicator": "whole-chart mapping and omission review, critical relations, focus issue resolutions and answers",
+      "delivery": "verify facts, references, coverage and consistency; reuse adjudicated reasons and verdict",
+      "changedEvidenceOnlyRetry": true
+    },
+    "submitTool": "liuren_adjudication_submit",
+    "resultTool": "liuren_adjudication_result",
+    "outputTransport": "opaque-report-submit-and-visible-receipt",
+    "professionalContentChecked": false,
+    "outputBudgetPolicy": "explicit-supported-maximum; avoid-provider-default-64K",
+    "maxOutputTokens": 393216,
+    "readerPolicy": "read complete core; scoped references on demand"
+  },
+  "deterministicFoundation": {
+    "enabled": true,
+    "schema": "liuren-deterministic-v1",
+    "tool": "liuren_compute",
+    "guide": "references/deterministic-tools.md",
+    "inputExtension": "program-generated deterministic + question.tasks",
+    "specialMethodsRequired": false,
+    "modelCallsAdded": 0,
+    "predictiveValidationCount": 0,
+    "professionalTimingQuantityRetained": true
+  },
+  "computeInterface": {
+    "schema": "liuren-compute-interface-v1",
+    "release": "20261109-deterministic-tools-35",
+    "calendarSchema": "explicit native object with required timezone and day_boundary enum",
+    "expressionSchema": "reference-free published nodes; strict recursive execution validation",
+    "samePacketSchema": true,
+    "modelCallsAdded": 0,
+    "externalModelValidation": false,
+    "publishedReferences": 0,
+    "transportValidation": "fresh native OpenCode outbound schema to loopback synthetic provider; upgraded native/Codex execution covered separately",
+    "transportEvidence": "output/liuren-tool-upgrade-20261109/current-wire.json",
+    "strengthAction": true,
+    "methodQuantity": true,
+    "conditionalImagery": true,
+    "timeEvaluation": true,
+    "calendarBoundaries": true
+  },
+  "flowControl": {
+    "enabled": true,
+    "schema": "liuren-flow-state-v1",
+    "durable": true,
+    "maxAdjudications": 2,
+    "resultTool": "liuren_adjudication_result",
+    "submitTool": "liuren_adjudication_submit",
+    "compactPacket": true,
+    "visibleResultTransport": "receipt-with-task-id",
+    "ownedResultDiscovery": true,
+    "submissionPolicy": "idempotent transport; no professional field gates",
+    "sameSessionReportRecovery": "once; only fully-read empty report after finish=length; no re-adjudication"
+  },
+  "eventPositioning": {
+    "enabled": true,
+    "schema": "liuren-event-positioning-v1",
+    "mode": "model-event-interpretation",
+    "semanticRoleChecks": false,
+    "actorReferenceRequired": false,
+    "domainReadRequired": true,
+    "fullDomainHandoff": true,
+    "source": "explicit-user-instruction"
+  },
+  "toolUsage": {
+    "helpTool": "liuren_tool_help",
+    "actualSchema": true,
+    "readiness": "query current method receipts by domains",
+    "packetPreflight": "execute parses native schema and aggregates duplicate IDs",
+    "continuation": "state-aware claim/read/report/deliver next_call",
+    "professionalRulesChanged": "prompt organization changed; predictive equivalence unverified",
+    "predictiveValidationCount": 0,
+    "archiveAccess": "compute chart or materials shensha; tools use current session directory",
+    "toolContract": "liuren-tools-31",
+    "fullPageBatch": 4,
+    "moduleAssembly": true,
+    "exactSourceAliases": true,
+    "calculationReceipts": true,
+    "archiveMetadataPassthrough": true
+  },
+  "slimming": {
+    "scope": "local-opencode prompt and reading route",
+    "deterministicAlgorithmsChanged": false,
+    "predictiveValidationCount": 0,
+    "aliases": {
+      "class-mapping": "positioning",
+      "relations": "liqi",
+      "evidence": "adjudication",
+      "bashajiubao": "liqi",
+      "engine-shensha-output": "shensha-use",
+      "shensha-focus": "shensha-use"
+    },
+    "retainedUnresolved": [
+      "空亡生扶与实现",
+      "财通专/类不现",
+      "旺鬼作用交叉边界"
+    ]
+  },
+  "inheritedEvidenceFiles": [
+    "integration-map.json",
+    "mapping-preservation.json",
+    "schema-compat-revision.json"
+  ],
+  "moduleAliases": {
+    "class-mapping": "positioning",
+    "relations": "liqi",
+    "evidence": "adjudication",
+    "bashajiubao": "liqi",
+    "engine-shensha-output": "shensha-use",
+    "shensha-focus": "shensha-use"
+  },
+  "originCandidate": {
+    "release": "20261107-slim-candidate-01",
+    "manifestSha256": "d7aebb5488314ff6fb3957b310a1a969ca56662554fd66b5a8262ded2ffd3335"
+  },
+  "localInterfaceRepair": {
+    "archiveOptionalMetadata": [
+      "raw_sha256"
+    ],
+    "rawHashVerifiedAgainstAuthenticatedFile": true,
+    "professionalLogicChanged": false
+  },
+  "outputRecovery": {
+    "scope": "local-opencode",
+    "noClientTokenCap": false,
+    "highRetained": true,
+    "sameChildOnly": true,
+    "maxContinuations": 1,
+    "privateReasoningUsedAsReport": false,
+    "validation": "core protocol regression and synthetic host validation; real long adjudication pending",
+    "evidence": "output/liuren-core-handoff-20261107/validation.json",
+    "explicitMaxOutputTokens": 393216
+  },
+  "stability": {
+    "loadedImplementationCheck": true,
+    "pendingTaskDiscovery": true,
+    "pinSlimVersion": "2.2.18",
+    "aociProjectEnabled": false,
+    "aociReason": "uninitialized auto-discovered parent root",
+    "guide": "docs/本机六壬稳定运行指南.md",
+    "preflight": "tools/liuren-preflight.py",
+    "validation": "verified native global/project autoload normal flow, length recovery, 8 MCP calls and separate minimal live model tool call"
+  },
+  "compactHandoff": {
+    "enabled": true,
+    "schema": "liuren-reading-core-v1",
+    "storage": "core file plus hash-bound full archive",
+    "mandatoryRead": "core only",
+    "referenceRead": "bound material_id/module on demand",
+    "fullChartRetained": true,
+    "sourceSelection": "model; program verifies bound provenance",
+    "predictiveValidationCount": 0
+  },
+  "confirmedJudgmentPolicy": {
+    "id": "liuren-palace-policy-34",
+    "rules": "U01-U11",
+    "mandatoryCore": true,
+    "pendingRegistry": "pending-conflicts",
+    "registryIsConfirmationQueue": false,
+    "sourceConsensus": false,
+    "predictiveValidationCount": 0,
+    "numericPolicy": "single-palace-and-selected-relations-v1"
+  }
+}

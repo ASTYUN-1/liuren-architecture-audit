@@ -1,0 +1,323 @@
+{
+  "release": "20261023-modular-02",
+  "inferenceRun": false,
+  "checks": {
+    "pagedModules": 15,
+    "pages": 23,
+    "fullTextRoundTrip": true,
+    "focusItems": 32,
+    "treasures": 9,
+    "sha": 8
+  },
+  "profile": {
+    "oldEntry": {
+      "files": 1,
+      "bytes": 5221,
+      "characters": 4027
+    },
+    "newEntry": {
+      "files": 1,
+      "bytes": 7561,
+      "characters": 4626
+    },
+    "oldInitialRequired": {
+      "files": 3,
+      "bytes": 176830,
+      "characters": 89999
+    },
+    "newRequired": {
+      "files": 13,
+      "bytes": 97267,
+      "characters": 37371
+    },
+    "oldIllnessWithTiming": {
+      "files": 7,
+      "bytes": 273434,
+      "characters": 137388
+    },
+    "newIllnessWithTiming": {
+      "files": 15,
+      "bytes": 118916,
+      "characters": 45482
+    }
+  },
+  "profileScope": "Static declared files only. Does not include charts, candidate retrieval, conditional lookups or repeated old nested reads. Not token billing or model accuracy.",
+  "pageReceipts": [
+    {
+      "release": "20261023-modular-02",
+      "module": "positioning",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\positioning.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "6ed7893ef32fcd48a5554d5df9e4161d6393f4f63d74c95c4aa5187a9145d0f5",
+      "pageSha256": "eda6d84ad0d0053a7f463492affa799c944e23759a1ffc7e65e3b7c9262ef5c3",
+      "chars": 2260,
+      "bytes": 6380,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "evidence",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\evidence.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "771ec2444870596ee09586573a448fec0271355f1691ba9160a64b98be235d88",
+      "pageSha256": "d8c003206281a698592026c61463aae176e0207b8f18f02cdabe57d6c12e5f4c",
+      "chars": 1466,
+      "bytes": 3546,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "illness",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\domains\\illness.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "34626e1e1ce542bd304bbd8cea6c7402371f4b9282566bdb7d6ca5e3cd412864",
+      "pageSha256": "8c6325f7e0060e88015ebdd5b4c5d13e691bf02b5a81874f4602b2f0129ec887",
+      "chars": 1103,
+      "bytes": 2993,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "relations",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\relations.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "25cbfafea2a791cbb325d41e880944942fea2716861c9246403cd3ff31bd20c6",
+      "pageSha256": "4e5d8b49648f330f275b6aa08573e3d9177e06edb11536951b28a00e15da6191",
+      "chars": 1268,
+      "bytes": 3520,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "liqi",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\liqi.md",
+      "page": 1,
+      "pages": 2,
+      "fileSha256": "80f218b6d7a191c96607e14aabbc7022d68166ec6000886279609c8063e7b83d",
+      "pageSha256": "b42d2081546af00eb4b724c654a9afbb94afcbad42530567e2d87db7d34c3b52",
+      "chars": 3024,
+      "bytes": 7600,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "liqi",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\liqi.md",
+      "page": 2,
+      "pages": 2,
+      "fileSha256": "80f218b6d7a191c96607e14aabbc7022d68166ec6000886279609c8063e7b83d",
+      "pageSha256": "09f5bcc6927c06cacf2b5f3dfc77218742475dbb04e6f1b3eab6841adaa586b3",
+      "chars": 662,
+      "bytes": 1882,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "void",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\void.md",
+      "page": 1,
+      "pages": 2,
+      "fileSha256": "84016734fdf3b97515911f95aa17a97c8b06a28a1074bb81b80f7e56c13e6b70",
+      "pageSha256": "bdb4bc8f7abaa2ee2da7ad224453c42ec820fbcecc7d56c63752cf5fd2149559",
+      "chars": 2793,
+      "bytes": 7599,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "void",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\void.md",
+      "page": 2,
+      "pages": 2,
+      "fileSha256": "84016734fdf3b97515911f95aa17a97c8b06a28a1074bb81b80f7e56c13e6b70",
+      "pageSha256": "55d143e13a93712ff2fbbf5a10247504bc76b501da1de4026eedea4b7859b2d3",
+      "chars": 2063,
+      "bytes": 5069,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "bashajiubao",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\references\\bashajiubao.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "ee0da7eab69cff67b5af5dca000409b0fe0a91ff303fe455f5678385aed60465",
+      "pageSha256": "57e8d01acf2d0efd00a06b74b956e3b75489b93f153135707331ac475a89f356",
+      "chars": 2385,
+      "bytes": 6299,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "engine-shensha-output",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\references\\engine-shensha-output.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "474463d5b17c7c250224e02e2238b160fa6081e650c1124675115fe49389ae7e",
+      "pageSha256": "c67f59347f30872fed605232e8d5de48fefe66a88e468422c2141ee7a6ef4b43",
+      "chars": 2003,
+      "bytes": 4907,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "shensha-focus",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\references\\shensha-focus.md",
+      "page": 1,
+      "pages": 3,
+      "fileSha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "pageSha256": "cb9f3e912f71f136b359eec23640ef0c1a1472a254901f4d730a83d0a7cde419",
+      "chars": 3101,
+      "bytes": 7599,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "shensha-focus",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\references\\shensha-focus.md",
+      "page": 2,
+      "pages": 3,
+      "fileSha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "pageSha256": "2e87c3e84ca7cfa343dfc9adf80da7a6fce4dc5ca3ae442d08b5ac0ce2e9933b",
+      "chars": 3020,
+      "bytes": 7598,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "shensha-focus",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\references\\shensha-focus.md",
+      "page": 3,
+      "pages": 3,
+      "fileSha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "pageSha256": "5fe04d2bfe02695702104881bd8389a45ac939bddf69f36b606ae7e35dff5c18",
+      "chars": 524,
+      "bytes": 1306,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "shensha-use",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\references\\shensha-use.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "f2f9fd7e3d12ea91eeb89c384bef3c74c1b9e32e904c6a435434429c7a9388cc",
+      "pageSha256": "28970220dd5d9e59a37fd8b8ca3f266abcf19c66aabff3851aaa29fa08ff9266",
+      "chars": 2129,
+      "bytes": 5479,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "movement",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\movement.md",
+      "page": 1,
+      "pages": 2,
+      "fileSha256": "9f800b94eb15e6ed75e1d61692d768014b12be94ec5d882e3d3c834d5806f950",
+      "pageSha256": "d394f5fd2969793c15b4ac546ade1fc510a4055515289ef864fd896a21287be0",
+      "chars": 2883,
+      "bytes": 7599,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "movement",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\movement.md",
+      "page": 2,
+      "pages": 2,
+      "fileSha256": "9f800b94eb15e6ed75e1d61692d768014b12be94ec5d882e3d3c834d5806f950",
+      "pageSha256": "367a96178e486e89d4a5da656ea670f02a600f30856dc6d43cc6bf34662beb7c",
+      "chars": 481,
+      "bytes": 835,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "structure",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\structure.md",
+      "page": 1,
+      "pages": 2,
+      "fileSha256": "6dc460a25d16b9dd093e985012aba5e6f358b1e165e8ac2df796cf7680b87fec",
+      "pageSha256": "3e9f76b7450639e6496619077749e62dd21233c62f4592675fa667febcbc4106",
+      "chars": 2897,
+      "bytes": 7599,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "structure",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\structure.md",
+      "page": 2,
+      "pages": 2,
+      "fileSha256": "6dc460a25d16b9dd093e985012aba5e6f358b1e165e8ac2df796cf7680b87fec",
+      "pageSha256": "b9d352579cacb7928536d86090fbf36ca3252d5182e2061e8a1f83fb4e2a779e",
+      "chars": 458,
+      "bytes": 1174,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "adjudication",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\adjudication.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "51bee7d115aef4514d5a734529b0b64ddc3623d398d6beedb81c7158b743561c",
+      "pageSha256": "8656da84e7c3caa6a7bf906c6d7e574c603a58f3f4fc09f52c69c7bc7d07507a",
+      "chars": 2306,
+      "bytes": 5955,
+      "completeModule": true
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "timing",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\timing.md",
+      "page": 1,
+      "pages": 3,
+      "fileSha256": "12d4de1f35890fd1b2c3c2441c063cd85c06ad132c95e9e7e9769a4c20d4d159",
+      "pageSha256": "f33e12c571baf75425f8b08661e48c18b9a9461da23fbc3da0ff00ccaefea224",
+      "chars": 2873,
+      "bytes": 7599,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "timing",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\timing.md",
+      "page": 2,
+      "pages": 3,
+      "fileSha256": "12d4de1f35890fd1b2c3c2441c063cd85c06ad132c95e9e7e9769a4c20d4d159",
+      "pageSha256": "258072d1632232a4d8454c114a1561e5548bf4c0736a7cd5e487b41062117230",
+      "chars": 2848,
+      "bytes": 7600,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "timing",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\timing.md",
+      "page": 3,
+      "pages": 3,
+      "fileSha256": "12d4de1f35890fd1b2c3c2441c063cd85c06ad132c95e9e7e9769a4c20d4d159",
+      "pageSha256": "e7755a9d31b5b5a8138057bcfd342c72d4865e497e787de26c602ce0612a3d08",
+      "chars": 1287,
+      "bytes": 3309,
+      "completeModule": false
+    },
+    {
+      "release": "20261023-modular-02",
+      "module": "report",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261023-modular-02\\methods\\report.md",
+      "page": 1,
+      "pages": 1,
+      "fileSha256": "a463195242c04ab6f6a2f47780da51bee57c9d9bc28e3ccb7cfe66ba2f3713d2",
+      "pageSha256": "350bb81bfd6e847d5248ee647d0f0381b08c26a543cccc88473b32da1f2c1fe3",
+      "chars": 1648,
+      "bytes": 4594,
+      "completeModule": true
+    }
+  ]
+}

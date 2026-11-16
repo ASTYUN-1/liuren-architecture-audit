@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的学习之路</title>
+    <meta name="keywords" content="六壬起课, 堪舆工具, 日晷模拟, 3D六壬盘式">
+    <meta name="description" content="展示学习成果的一个页面">
+    <meta name="sogou_site_verification" content="DPs4gxtbQM" />
+    <link rel="dns-prefetch" href="https://6ren.cn">
+    <link rel="preload" as="image" href="./index_data/28xx.svg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        /* 背景容器（支持渐变+图片+模糊） */
+        .page-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: opacity 0.3s ease;
+            will-change: opacity;
+            content-visibility: auto;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        /* 顶部网站名称 */
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 中部主容器 */
+        .main-container {
+            flex: 1;
+            max-width: 1400px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 25px;
+            width: 100%;
+        }
+
+        /* 左侧大块重要链接 */
+        .left-large {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* 右侧小块普通链接 */
+        .right-small {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        /* 链接方块 */
+        .link-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: #333;
+            display: block;
+            border-left: 4px solid transparent;
+        }
+
+        .link-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .box-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .box-desc {
+            font-size: 14px;
+            color: #7f8c8d;
+            line-height: 1.5;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+            }
+
+            .right-small {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                font-size: 20px;
+            }
+        }
+
+        /* 底部 */
+        .footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            margin-bottom: 10px;
+        }
+
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            color: white;
+        }
+
+        .footer-info {
+            font-size: 13px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 背景层 -->
+    <div class="page-background" id="pageBg"></div>
+
+    <!-- 顶部：网站名称 -->
+    <div class="header" id="siteName"></div>
+
+    <!-- 中部链接板块 -->
+    <div class="main-container">
+        <div class="left-large" id="leftLinks"></div>
+        <div class="right-small" id="rightLinks"></div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer-links" id="friendLinks"></div>
+        <div class="footer-info" id="footerInfo"></div>
+    </div>
+    
+
+    <script>
+        // ====================== 核心配置 ======================
+        const siteConfig = {
+            siteName: "我的学习之路",
+            // 🔥 背景配置：图片/颜色 + 双端独立 + 高斯模糊
+            background: {
+                pc: "./index_data/28xx.svg",         // PC端：可填 颜色 / 图片URL
+                mobile: "linear-gradient(135deg, #1730a36b 0%, #4c0f02 100%)",     // 移动端：可填 颜色 / 图片URL
+                pcBlur: 5,             // PC背景模糊值 0=不模糊 数字越大越模糊
+                mobileBlur: 5          // 移动端背景模糊值
+            },
+
+            // 左侧大块链接（自定义边框色）
+            leftImportantLinks: [
+                {
+                    title: "🔭六壬",
+                    desc: "自动化计算复杂算法，大大解放双手。",
+                    url: "https://6ren.cn/V2/",
+                    borderColor: "#3498db"
+                },
+                {
+                    title: "🌏地相",
+                    desc: "迅速查询信息，大大减少脑细胞耗费。",
+                    url: "https://6ren.cn/KanYu/",
+                    borderColor: "#e74c3c"
+                },
+                {
+                    title: "🤓下载",
+                    desc: "Android端应用下载。",
+                    url: "https://6ren.cn/app/",
+                    borderColor: "#9a9a9a"
+                }
+            ],
+
+
+
+            // 右侧小块链接
+            rightNormalLinks: [
+                { title: "🧭3D六壬盘式", desc: "1977年于安徽阜阳出土的六壬式盘是一件对研究古人的宇宙观意义重大的文物。", url: "https://6ren.cn/html/liuren3d/", borderColor: "#2ecc71" },
+                { title: "🌞3D日晷", desc: "古代利用日影位置的变化来测量时间的一种计时仪器。", url: "https://6ren.cn/html/rigui/", borderColor: "#4da9d6" },
+                { title: "🛞日躔换将公式", desc: "太阳在黄道运行所经历的星辰位次。", url: "https://6ren.cn/html/richan_code/", borderColor: "#7b134e" },
+                { title: "📖历史时间轴", desc: "一些简单的记录各个王朝更替横向轴", url: "https://6ren.cn/html/lishi", borderColor: "#b1b1b1" },
+                { title: "😍幻影坦克", desc: "给丝袜换颜色", url: "https://6ren.cn/html/huanying", borderColor: "#b1b1b1" },
+                { title: "太阳直射点", desc: "演示在不同时间，不同的地球的倾角，太阳直射维度", url: "https://6ren.cn/html/jieqi.html", borderColor: "#b1b1b1" },
+                { title: "图片混淆", desc: "把图片处理后发给好友不受审核管控", url: "https://6ren.cn/html/hunxiao.html", borderColor: "#b1b1b1" },
+                { title: "电费计算", desc: "输入电器的功率和运行时间计算电费支出", url: "https://6ren.cn/html/dianfei/", borderColor: "#b1b1b1" },
+                { title: "开店盈亏", desc: "输入投入资金和产出产品盈亏平衡点", url: "https://6ren.cn/html/kaidianjisuan.html", borderColor: "#b1b1b1" },
+                // { title: "", desc: "", url: "", borderColor: "#b1b1b1" },
+                // { title: "", desc: "", url: "", borderColor: "#b1b1b1" },
+
+            ],
+
+            // 底部友情链接 & 备案
+            friendLinks: [
+                { name: "ppt压缩工具", url: "https://pptsize.com/" },
+            ],
+            icpRecord: "桂ICP备2023010879号-4",
+            policeRecord: "粤公网安备44196502000109号"
+        };
+
+
+
+        // ====================== ✅ 优化后的终极背景设置 ======================
+        function setBackground() {
+            const bgDom = document.getElementById('pageBg');
+            const isMobile = window.innerWidth <= 768;
+
+            // 获取当前端配置
+            const bgValue = isMobile ? siteConfig.background.mobile : siteConfig.background.pc;
+            const blurValue = isMobile ? siteConfig.background.mobileBlur : siteConfig.background.pcBlur;
+
+            // 重置样式
+            bgDom.style.backgroundImage = 'none';
+            bgDom.style.backgroundColor = 'transparent';
+
+            // 1. 如果是图片URL
+            if (bgValue.startsWith('http://') || bgValue.startsWith('https://')) {
+                bgDom.style.backgroundImage = `url(${bgValue})`;
+            }
+            // 2. 如果是CSS渐变（linear-gradient / radial-gradient）
+            else if (bgValue.includes('gradient(')) {
+                // bgDom.style.backgroundImage = bgValue;
+                bgDom.style.color = 'red'
+                bgDom.style.background = bgValue
+                // background: linear-gradient(135deg, #1730a36b 0%, #4c0f02 100%);
+            }
+            // 3. 纯色背景
+            else {
+                bgDom.style.backgroundColor = bgValue;
+            }
+
+            // 设置高斯模糊
+            bgDom.style.filter = `blur(${blurValue}px)`;
+        }
+
+        // 监听加载与窗口变化
+        window.addEventListener('load', setBackground);
+        let resizeTimer;
+        window.addEventListener('resize', function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(setBackground, 150); });
+
+        // ====================== 渲染页面内容 ======================
+        // 渲染链接方块（一次性插入，避免多次重排）
+        function renderLinks(containerId, list) {
+            const box = document.getElementById(containerId);
+            const fragment = document.createDocumentFragment();
+            list.forEach(item => {
+                const el = document.createElement('a');
+                el.href = item.url;
+                el.className = 'link-box';
+                el.target = '_blank';
+                el.style.borderLeftColor = item.borderColor;
+                el.innerHTML = `<div class="box-title">${item.title}</div><div class="box-desc">${item.desc}</div>`;
+                fragment.appendChild(el);
+            });
+            box.appendChild(fragment);
+        }
+
+        // 渲染网站名称
+        document.getElementById('siteName').innerText = siteConfig.siteName;
+
+        // 渲染链接
+        renderLinks('leftLinks', siteConfig.leftImportantLinks);
+        renderLinks('rightLinks', siteConfig.rightNormalLinks);
+
+        // 渲染底部友情链接（一次性插入）
+        const friendDom = document.getElementById('friendLinks');
+        const fFragment = document.createDocumentFragment();
+        siteConfig.friendLinks.forEach(link => {
+            const el = document.createElement('a');
+            el.href = link.url;
+            el.target = '_blank';
+            el.textContent = link.name;
+            fFragment.appendChild(el);
+        });
+        friendDom.appendChild(fFragment);
+
+        // 渲染备案信息
+        document.getElementById('footerInfo').innerHTML = `<a href="https://beiancx.miit.gov.cn/"><img style="width: 16px;height: 16px;margin-right: 5px;" src="./beian_ico.png">${siteConfig.icpRecord}</a> | <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${siteConfig.policeRecord.slice(5, 19)}" style="color: #ffffff;">${siteConfig.policeRecord}</a>`;
+
+
+    </script>
+    <script src="./index_data/floating-music-player.js"></script>
+    <script>
+        // 初始化悬浮音乐播放器
+        // 以下为演示配置，请替换为实际的音频地址
+        FloatingMusicPlayer.init({
+            position: 'right',         // 悬浮位置：'top' | 'bottom' | 'left' | 'right'
+            width: '420px',             // 播放器宽度
+            height: '70px',             // 播放器高度
+            showLyrics: true,           // 是否显示歌词
+            lyricsColor: '#1db954',     // 歌词高亮颜色
+            primaryColor: '#1db954',    // 主题色
+            bgColor: '#181818',         // 背景色
+            textColor: '#ffffff',       // 文字颜色
+            autoPlay: false,            // 是否自动播放
+            volume: 0.7,                // 初始音量
+
+            playlist: [
+                {
+                    url: './index_data/media/大刀进行曲.mp3',
+                },
+                {
+                    url: './index_data/media/十送红军-中央乐团合唱团.flac',
+                },
+                {
+                    url: './index_data/media/东方红-华语群星.mp3',
+                },
+                {
+                    url: './index_data/media/黄河大合唱：保卫黄河_(齐唱、轮唱)-中央乐团_瞿弦和_严良堃.flac',
+                },
+                {
+                    url: './index_data/media/南泥湾-郭兰英.mp3',
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

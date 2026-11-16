@@ -1,0 +1,125 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-MODERN-025-ALT",
+  "case_id": "BK26-MODERN-025",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "甲辰",
+      "month_branch": "亥",
+      "day": "壬辰",
+      "hour_branch": "未"
+    },
+    "month_general": "卯"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 3622,
+      "line_end": 3622,
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "quote": "> 四柱：甲辰 乙亥 壬辰 丁未 寅将 正时起课 甲申旬 午未空",
+      "role": "原书断语"
+    },
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 3665,
+      "line_end": 3665,
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "quote": "骑牛打酱油：此课我用卯将，干上太阴未鬼空亡，玄武生我，主无贼自遗，且合局易得。又阴神朱雀制鬼，类神制凶则吉，卯为病符，故言有象未明。物在盗神处，今盗神辰亦墓干，是为迷失，玄武生身主饮食，青龙亦饮食，故当在饭店寻得。三传子申辰，申时最近，故曰申时。许是朱雀落未空，出空即见。",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "3622四柱甲辰。",
+    "pillars.month_branch": "3622乙亥月柱逐字取支亥。",
+    "pillars.day": "3622壬辰日。",
+    "pillars.hour_branch": "3622丁未时逐字取支未。",
+    "month_general": "3665骑牛明确我用卯将；与主盘寅将分开。"
+  },
+  "constraints": [
+    {
+      "field": "transmission_sequence",
+      "expected": "子申辰",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3665,
+          "line_end": 3665,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "骑牛打酱油：此课我用卯将，干上太阴未鬼空亡，玄武生我，主无贼自遗，且合局易得。又阴神朱雀制鬼，类神制凶则吉，卯为病符，故言有象未明。物在盗神处，今盗神辰亦墓干，是为迷失，玄武生身主饮食，青龙亦饮食，故当在饭店寻得。三传子申辰，申时最近，故曰申时。许是朱雀落未空，出空即见。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "lessons.0.tianpan",
+      "expected": "未",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3665,
+          "line_end": 3665,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "骑牛打酱油：此课我用卯将，干上太阴未鬼空亡，玄武生我，主无贼自遗，且合局易得。又阴神朱雀制鬼，类神制凶则吉，卯为病符，故言有象未明。物在盗神处，今盗神辰亦墓干，是为迷失，玄武生身主饮食，青龙亦饮食，故当在饭店寻得。三传子申辰，申时最近，故曰申时。许是朱雀落未空，出空即见。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "lessons.0.tianjiang",
+      "expected": "太阴",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3665,
+          "line_end": 3665,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "骑牛打酱油：此课我用卯将，干上太阴未鬼空亡，玄武生我，主无贼自遗，且合局易得。又阴神朱雀制鬼，类神制凶则吉，卯为病符，故言有象未明。物在盗神处，今盗神辰亦墓干，是为迷失，玄武生身主饮食，青龙亦饮食，故当在饭店寻得。三传子申辰，申时最近，故曰申时。许是朱雀落未空，出空即见。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "lessons.1.tianjiang",
+      "expected": "朱雀",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3665,
+          "line_end": 3665,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "骑牛打酱油：此课我用卯将，干上太阴未鬼空亡，玄武生我，主无贼自遗，且合局易得。又阴神朱雀制鬼，类神制凶则吉，卯为病符，故言有象未明。物在盗神处，今盗神辰亦墓干，是为迷失，玄武生身主饮食，青龙亦饮食，故当在饭店寻得。三传子申辰，申时最近，故曰申时。许是朱雀落未空，出空即见。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "heaven_earth.未.tianjiang",
+      "expected": "朱雀",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3665,
+          "line_end": 3665,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "骑牛打酱油：此课我用卯将，干上太阴未鬼空亡，玄武生我，主无贼自遗，且合局易得。又阴神朱雀制鬼，类神制凶则吉，卯为病符，故言有象未明。物在盗神处，今盗神辰亦墓干，是为迷失，玄武生身主饮食，青龙亦饮食，故当在饭店寻得。三传子申辰，申时最近，故曰申时。许是朱雀落未空，出空即见。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "按来源中一组输入/盘式独立复原；原图未载、异盘及正文冲突身份保留。",
+  "notes": [
+    "阴神按干阴神即第二课观察；朱雀落未按地盘未宫观察，均供人工复核。",
+    "十分钟后未时前台找回与原断申时桌上不同，反馈不参与设置或约束。",
+    "不按原载反馈择盘，不自动升级完整性；原书与生成登记均不修改。"
+  ]
+}

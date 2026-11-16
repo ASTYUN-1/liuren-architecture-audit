@@ -1,0 +1,142 @@
+{
+  "generatedAtUtc": "2026-11-02T02:27:42.956683+00:00",
+  "environment": "Linux Ubuntu old-server isolated candidate, final synced source plus capacity test instrumentation",
+  "stage": "/var/lib/wenheng/acceptance/workflow-optimization-20261102",
+  "resources": "resource-candidate-v2",
+  "paidApiRequests": 0,
+  "productionServicesChanged": false,
+  "productionDefaultConcurrencyChanged": false,
+  "productionWorkerLimitsObserved": {
+    "MemoryMax": "infinity",
+    "MemoryHigh": "infinity",
+    "CPUQuotaPerSecUSec": "infinity",
+    "CPUQuotaPeriodUSec": "infinity"
+  },
+  "entryObserved": "OpenCode launcher resolves to native ELF; wrapper-leak hypothesis not supported by live inspection",
+  "initialCombinedFailure": {
+    "unit": "wenheng-runtime-final-20261102101054.service",
+    "result": "oom-kill",
+    "memoryMaxMiB": 1600,
+    "memoryPeakBytes": 1677881344,
+    "cpuTimeSeconds": 51.331589,
+    "serviceRuntimeSeconds": 52.642,
+    "testsPassBeforeInterruption": 17,
+    "location": "runtime-optimization-concurrency.test.ts",
+    "laterV3TestsNotExecuted": true,
+    "evidence": "original tool output session 67500; isolated phases below locate 4-concurrency capacity threshold"
+  },
+  "phases": [
+    {
+      "label": "single-v3",
+      "memoryMaxMiB": 1600,
+      "cpuQuotaPercent": 100,
+      "result": "success",
+      "memoryPeakBytes": null,
+      "memoryPeakReportedHuman": "1.1G",
+      "serviceRuntime": "14.657s",
+      "cpuTime": "13.295s",
+      "pidSampleMaxRssKiB": {
+        "1992225": 51624,
+        "1992235": 497256,
+        "1992243": 14732,
+        "1992325": 618104
+      },
+      "rssSampling": "1 second, per-process sample maxima; shared RSS is not summed as cgroup memory",
+      "rawLog": "runtime-resource-probe\\single-v3.log",
+      "rssCsv": "runtime-resource-probe\\single-v3-rss.csv"
+    },
+    {
+      "label": "parallel-2",
+      "memoryMaxMiB": 1600,
+      "cpuQuotaPercent": 100,
+      "result": "success",
+      "memoryPeakBytes": null,
+      "memoryPeakReportedHuman": "1.5G",
+      "serviceRuntime": "18.546s",
+      "cpuTime": "17.766s",
+      "pidSampleMaxRssKiB": {
+        "1992526": 51904,
+        "1992536": 496380,
+        "1992544": 12864,
+        "1992610": 669784,
+        "1992612": 618128
+      },
+      "rssSampling": "1 second, per-process sample maxima; shared RSS is not summed as cgroup memory",
+      "rawLog": "runtime-resource-probe\\parallel-2.log",
+      "rssCsv": "runtime-resource-probe\\parallel-2-rss.csv",
+      "concurrencyEvidence": {
+        "concurrency": 2,
+        "durationMs": 17660,
+        "requests": 4,
+        "maxActive": 2,
+        "isolatedContexts": 2,
+        "nodeRssBytes": 507924480
+      }
+    },
+    {
+      "label": "parallel-4",
+      "memoryMaxMiB": 1600,
+      "cpuQuotaPercent": 100,
+      "result": "oom-kill",
+      "memoryPeakBytes": 1677721600,
+      "memoryPeakReportedHuman": "1.5G",
+      "serviceRuntime": "21.123s",
+      "cpuTime": "21.171s",
+      "pidSampleMaxRssKiB": {
+        "1992975": 51588,
+        "1992985": 543304,
+        "1993077": 369552,
+        "1993079": 371632,
+        "1993081": 375840,
+        "1993083": 330900
+      },
+      "rssSampling": "1 second, per-process sample maxima; shared RSS is not summed as cgroup memory",
+      "rawLog": "runtime-resource-probe\\parallel-4.log",
+      "rssCsv": "runtime-resource-probe\\parallel-4-rss.csv"
+    },
+    {
+      "label": "parallel-4",
+      "memoryMaxMiB": 2800,
+      "cpuQuotaPercent": 100,
+      "result": "success",
+      "memoryPeakBytes": 2753544192,
+      "memoryPeakReportedHuman": "2.5G",
+      "serviceRuntime": "31.447s",
+      "cpuTime": "31.419s",
+      "pidSampleMaxRssKiB": {
+        "1994832": 3436,
+        "1994834": 51680,
+        "1994848": 598680,
+        "1995010": 628656,
+        "1995012": 649024,
+        "1995014": 611532,
+        "1995016": 790472
+      },
+      "rssSampling": "1 second, per-process sample maxima; shared RSS is not summed as cgroup memory",
+      "rawLog": "runtime-resource-probe-2800\\parallel-4.log",
+      "rssCsv": "runtime-resource-probe-2800\\parallel-4-rss.csv",
+      "concurrencyEvidence": {
+        "concurrency": 4,
+        "durationMs": 30408,
+        "requests": 8,
+        "maxActive": 4,
+        "isolatedContexts": 4,
+        "nodeRssBytes": 499646464
+      }
+    }
+  ],
+  "capacity2800Preflight": {
+    "hostAvailableMiB": 4600,
+    "productionActiveTasks": 0
+  },
+  "hostAvailableMiBAfter2800": 4535,
+  "currentV3Delivery": "native OpenCode + mocked supplier + batch full-text + shared 11-stage workflow + per-question judgment + complete public output policy + accepted report passed",
+  "sourceTestHash": "df5ddaa2fdd341a7201e03c6e86043e53887c42e8b9db11ec5d4a2a247b5863d",
+  "limitations": [
+    "All supplier responses and costs are synthetic; no real paid API or model accuracy acceptance.",
+    "Concurrency probes verify isolated native runtimes with short mocked calls; not real provider throughput.",
+    "Single-v3 and parallel-2 cgroup peaks were reported by systemd only as rounded human values; exact bytes were not available after unit unloading.",
+    "1600MiB cannot support four runtimes in this probe; 2800MiB passed with a measured peak of 2753544192 bytes.",
+    "Default production concurrency remains 2 and production service resource limits were not changed."
+  ]
+}

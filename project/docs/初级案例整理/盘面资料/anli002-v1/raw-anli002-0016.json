@@ -1,0 +1,41 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-anli002-0016",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "error",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-anli002-0016.md",
+    "locator": "案例.txt 第238–249行（以本批 _来源快照.txt 第238–249行为准）",
+    "shared_original_group": null,
+    "case_file_sha256": "1e4b6a2c260ef6aa2c0319496f609f9b43849b121a74c25ea64a9e3aab708337",
+    "original_time": "2022年9月5日23:04",
+    "source_text_sha256": "5615bc44740d7d5ce9ca7a56f536be7f41f767bee25edb7766f9d406805dd9c8"
+  },
+  "time": {
+    "precision": "minute",
+    "date": "2022-09-05",
+    "datetime": "2022-09-05T23:04"
+  },
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "issues": [
+    "ENGINE_EXECUTION_FAILED"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null,
+  "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY"
+}

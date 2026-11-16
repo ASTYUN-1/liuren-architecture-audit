@@ -1,0 +1,156 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-MODERN-099-ALT-ZI",
+  "case_id": "BK26-MODERN-099",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "乙巳",
+      "month_branch": "寅",
+      "day": "己未",
+      "hour_branch": "酉"
+    },
+    "month_general": "子"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 9920,
+      "line_end": 9923,
+      "quote": "占问：找狗，下午五点多丢的时间：2025-02-19 18：10 夜\n\n\n> 四柱：乙巳 戊寅 己未 癸酉 亥将 正时起课 甲寅旬 子丑空",
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "role": "原书断语"
+    },
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 9972,
+      "line_end": 9972,
+      "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "9923乙巳年",
+    "pillars.month_branch": "9923戊寅月",
+    "pillars.day": "9923己未日",
+    "pillars.hour_branch": "9923明酉时",
+    "month_general": "9972骑牛另用子将明确，不沿用主亥将盘式"
+  },
+  "constraints": [
+    {
+      "field": "transmission_sequence",
+      "expected": "亥戌戌",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "chart_types",
+      "expected": "八专",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked",
+      "operator": "contains"
+    },
+    {
+      "field": "heaven_earth.亥.tian",
+      "expected": "寅",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "heaven_earth.亥.tianjiang",
+      "expected": "天空",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.1.tianjiang",
+      "expected": "太阴",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "heaven_earth.戌.tian",
+      "expected": "丑",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "heaven_earth.戌.tianjiang",
+      "expected": "白虎",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9972,
+          "line_end": 9972,
+          "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "主亥将盘保留，另子将未刊完整盘。标准候选仅衍生参照，不称原图复现。",
+  "notes": [
+    "未核设置全枚举，selected=null；不使用结石诊疗或找到狗的反馈择盘。",
+    "098同日申时与099酉时独立输入独立事件，不混别盘。",
+    "末明镜注另论八专取法，另保存争议，不为迎合亥戌戌改变原算法。"
+  ]
+}

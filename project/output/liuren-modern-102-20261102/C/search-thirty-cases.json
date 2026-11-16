@@ -1,0 +1,276 @@
+[
+  {
+    "case_id": "BK26-MODERN-069",
+    "query": "分包中标与利润",
+    "expected_rule_id": "LR26-M102C-069-PROFIT",
+    "result_ids": [
+      "LR26-M102C-069-PROFIT"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-070",
+    "query": "庙传承",
+    "expected_rule_id": "LR26-M102C-070-ACCEPT",
+    "result_ids": [
+      "LR26-M102C-070-ACCEPT"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-071",
+    "query": "欠薪",
+    "expected_rule_id": "LR26-M102C-071-MONEY",
+    "result_ids": [
+      "LR26-BOOK-BIFA-042",
+      "LR26-LEGACY-003",
+      "LR26-LEGACY-017",
+      "LR26-M102C-071-MONEY",
+      "LR26-BOOK-BIFA-041"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-072",
+    "query": "女签证",
+    "expected_rule_id": "LR26-M102C-072-VISA",
+    "result_ids": [
+      "LR26-M102C-072-VISA"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-076",
+    "query": "十二指肠出血",
+    "expected_rule_id": "LR26-M102C-076-DIAG",
+    "result_ids": [
+      "LR26-M102C-076-DIAG"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-078",
+    "query": "胎神两制与辰巳两将",
+    "expected_rule_id": "LR26-M102C-078-PREG",
+    "result_ids": [
+      "LR26-M102C-078-PREG"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-079",
+    "query": "水府祠逃难",
+    "expected_rule_id": "LR26-M102C-079-MOVE",
+    "result_ids": [
+      "LR26-M102C-079-MOVE"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-080",
+    "query": "二胎神孕后终止",
+    "expected_rule_id": "LR26-M102C-080-PREG",
+    "result_ids": [
+      "LR26-M102C-080-PREG"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-081",
+    "query": "经期迟而未孕",
+    "expected_rule_id": "LR26-M102C-081-PREG",
+    "result_ids": [
+      "LR26-M102C-081-PREG"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-083",
+    "query": "留学签证",
+    "expected_rule_id": "LR26-M102C-083-VISA",
+    "result_ids": [
+      "LR26-M102C-083-VISA"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-084",
+    "query": "黑狗走失死亡",
+    "expected_rule_id": "LR26-M102C-084-DOG",
+    "result_ids": [
+      "LR26-M102C-084-DOG"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-085",
+    "query": "抽中司机与出行暂停",
+    "expected_rule_id": "LR26-M102C-085-DRAW",
+    "result_ids": [
+      "LR26-M102C-085-DRAW"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-086",
+    "query": "退款学生自返",
+    "expected_rule_id": "LR26-M102C-086-RETURN",
+    "result_ids": [
+      "LR26-M102C-086-RETURN"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-088",
+    "query": "乘车卡",
+    "expected_rule_id": "LR26-M102C-088-CARD",
+    "result_ids": [
+      "LR26-M102C-088-CARD"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-089",
+    "query": "修电脑出行",
+    "expected_rule_id": "LR26-M102C-089-TRAVEL",
+    "result_ids": [
+      "LR26-M102C-089-TRAVEL"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-090",
+    "query": "脑出血手术",
+    "expected_rule_id": "LR26-M102C-090-SURGERY",
+    "result_ids": [
+      "LR26-M102C-090-SURGERY"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-091",
+    "query": "早醒干咳辨证",
+    "expected_rule_id": "LR26-M102C-091-TCM",
+    "result_ids": [
+      "LR26-M102C-091-TCM"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-092",
+    "query": "手表盗失追回",
+    "expected_rule_id": "LR26-M102C-092-WATCH",
+    "result_ids": [
+      "LR26-M102C-092-WATCH"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-093",
+    "query": "问婚误传实问刑",
+    "expected_rule_id": "LR26-M102C-093-LAW",
+    "result_ids": [
+      "LR26-M102C-093-LAW"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-094",
+    "query": "电动车撞杆",
+    "expected_rule_id": "LR26-M102C-094-ACCIDENT",
+    "result_ids": [
+      "LR26-M102C-094-ACCIDENT"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-095",
+    "query": "癌症转科",
+    "expected_rule_id": "LR26-M102C-095-DEATH",
+    "result_ids": [
+      "LR26-M102C-095-DEATH"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-097",
+    "query": "博士中期",
+    "expected_rule_id": "LR26-M102C-097-REPORT",
+    "result_ids": [
+      "LR26-M102C-097-REPORT"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-098",
+    "query": "右腹痛",
+    "expected_rule_id": "LR26-M102C-098-PAIN",
+    "result_ids": [
+      "LR26-M102C-098-PAIN"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-099",
+    "query": "未出门柴犬",
+    "expected_rule_id": "LR26-M102C-099-DOG",
+    "result_ids": [
+      "LR26-M102C-099-DOG"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-100",
+    "query": "驾校退费",
+    "expected_rule_id": "LR26-M102C-100-REFUND",
+    "result_ids": [
+      "LR26-M102C-100-REFUND"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-101",
+    "query": "坐诊老师来",
+    "expected_rule_id": "LR26-M102C-101-ARRIVAL",
+    "result_ids": [
+      "LR26-M102C-101-ARRIVAL"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-102",
+    "query": "前额叶栓塞出院",
+    "expected_rule_id": "LR26-M102C-102-RESCUE",
+    "result_ids": [
+      "LR26-M102C-102-RESCUE"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-103",
+    "query": "高三女生未归后遗体",
+    "expected_rule_id": "LR26-M102C-103-MISSING",
+    "result_ids": [
+      "LR26-M102C-103-MISSING"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-104",
+    "query": "工伤协商补偿",
+    "expected_rule_id": "LR26-M102C-104-COMPENSATION",
+    "result_ids": [
+      "LR26-M102C-104-COMPENSATION"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-106",
+    "query": "祖坟职业取象",
+    "expected_rule_id": "LR26-M102C-106-CAREER",
+    "result_ids": [
+      "LR26-M102C-106-CAREER"
+    ],
+    "passed": true
+  }
+]

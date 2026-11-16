@@ -1,0 +1,13 @@
+{
+  "release": "20261106-receipt-handoff-13",
+  "parentRelease": "20261106-flow-recovery-12",
+  "problem": "successful report replaced visible receipt and hid task_id in metadata",
+  "changes": [
+    "task and task_result return a small visible receipt with task_id and next_call",
+    "result locate searches only current parent; never guesses request_id or UUID",
+    "read and deliver preserve task_id and original adjudication",
+    "scope, models, professional rules and library exclusions retained"
+  ],
+  "realFailureSession": "ses_e50b30172ffezjWWKjx2zDLh4n",
+  "predictiveValidation": false
+}

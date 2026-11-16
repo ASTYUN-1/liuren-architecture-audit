@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "caseIndexCalls": 0,
+  "experienceIndexCalls": 0,
+  "caseRetrieveCalls": 0,
+  "experienceRetrieveCalls": 0,
+  "verifies": "guard before both indexes and searches",
+  "modelCalls": 0
+}

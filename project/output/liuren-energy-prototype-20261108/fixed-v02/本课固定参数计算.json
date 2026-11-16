@@ -1,0 +1,1586 @@
+{
+  "schema": "liuren-fixed-research-run-v0.2",
+  "profile_id": "liuren-energy-fixed-research-v0.2",
+  "profile_sha256": "c397ceee15bd650a0a5f48a406bd6863f6475a68613a2d503553d73616dfeac1",
+  "chart_archive": "排盘存档\\六壬\\六壬-20261108-180639-次日应聘结果及公司职位辨识-18cea112-d303-4c6f-a54f-d5a1d2e9da84.corrected-7d8f4da2258d400a.json",
+  "chart_file_sha256": "625ba54906e40e804668308785e3ed0562a6f83dc720ac23bebb30a87f76814b",
+  "facts_sha256": "cb9b02f02b56cd416173f997b2e478811670961859fe38230a0b6de06be7b3d3",
+  "usage": "Known-feedback development case, not blind evaluation; no calibration performed.",
+  "equation": "E_i = V_i * clip(5*M_i*R_i + incoming_i(E) - outgoing_cost_i(E),0,10)",
+  "nodes": [
+    {
+      "id": "T:子",
+      "kind": "天盘神",
+      "symbol": "子",
+      "element": "水",
+      "ground": "戌",
+      "general": "天后",
+      "season": "相",
+      "growth_at_ground": "冠带",
+      "direct_yin": "寅",
+      "growth_at_yin": "病",
+      "void_self": false,
+      "void_ground": false,
+      "cause_roots": [],
+      "lesson_slots": [
+        2
+      ],
+      "transmission_slots": [
+        3
+      ],
+      "base": 5.1975,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.1,
+        "growth_multiplier": 0.945,
+        "prevoid": 5.1975,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 5.1975
+      }
+    },
+    {
+      "id": "J:天后",
+      "kind": "天将",
+      "symbol": "天后",
+      "element": "水",
+      "season": "相",
+      "carried_by": "子",
+      "ground": "戌",
+      "growth_at_carrier": "帝旺",
+      "growth_at_ground": "冠带",
+      "void_inheritance": "not automatically copied from carrier; requires explicit source-conditioned factor",
+      "base": 6.545,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.1,
+        "growth_multiplier": 1.19,
+        "prevoid": 6.545,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 6.545
+      }
+    },
+    {
+      "id": "D:戌",
+      "kind": "地盘环境",
+      "symbol": "戌",
+      "element": "土",
+      "season": "休",
+      "role": "environment at a location, not a duplicate movable heaven branch",
+      "void_location": false,
+      "base": 4.25,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 0.85,
+        "growth_multiplier": 1,
+        "prevoid": 4.25,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 4.25
+      }
+    },
+    {
+      "id": "T:午",
+      "kind": "天盘神",
+      "symbol": "午",
+      "element": "火",
+      "ground": "辰",
+      "general": "青龙",
+      "season": "囚",
+      "growth_at_ground": "冠带",
+      "direct_yin": "申",
+      "growth_at_yin": "病",
+      "void_self": false,
+      "void_ground": false,
+      "cause_roots": [],
+      "lesson_slots": [
+        3
+      ],
+      "transmission_slots": [],
+      "base": 2.835,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 0.6,
+        "growth_multiplier": 0.945,
+        "prevoid": 2.835,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 2.835
+      }
+    },
+    {
+      "id": "J:青龙",
+      "kind": "天将",
+      "symbol": "青龙",
+      "element": "木",
+      "season": "死",
+      "carried_by": "午",
+      "ground": "辰",
+      "growth_at_carrier": "死",
+      "growth_at_ground": "衰",
+      "void_inheritance": "not automatically copied from carrier; requires explicit source-conditioned factor",
+      "base": 1.21,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 0.4,
+        "growth_multiplier": 0.605,
+        "prevoid": 1.21,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 1.21
+      }
+    },
+    {
+      "id": "D:辰",
+      "kind": "地盘环境",
+      "symbol": "辰",
+      "element": "土",
+      "season": "休",
+      "role": "environment at a location, not a duplicate movable heaven branch",
+      "void_location": false,
+      "base": 4.25,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 0.85,
+        "growth_multiplier": 1,
+        "prevoid": 4.25,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 4.25
+      }
+    },
+    {
+      "id": "T:申",
+      "kind": "天盘神",
+      "symbol": "申",
+      "element": "金",
+      "ground": "午",
+      "general": "白虎",
+      "season": "旺",
+      "growth_at_ground": "沐浴",
+      "direct_yin": "戌",
+      "growth_at_yin": "衰",
+      "void_self": true,
+      "void_ground": false,
+      "cause_roots": [
+        "xun:甲戌:申"
+      ],
+      "lesson_slots": [
+        4
+      ],
+      "transmission_slots": [
+        1
+      ],
+      "base": 4.696249999999999,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.3,
+        "growth_multiplier": 0.85,
+        "prevoid": 5.5249999999999995,
+        "self_retention": 0.85,
+        "ground_retention": 1,
+        "adopted_retention": 0.85,
+        "base": 4.696249999999999
+      }
+    },
+    {
+      "id": "J:白虎",
+      "kind": "天将",
+      "symbol": "白虎",
+      "element": "金",
+      "season": "旺",
+      "carried_by": "申",
+      "ground": "午",
+      "growth_at_carrier": "临官",
+      "growth_at_ground": "沐浴",
+      "void_inheritance": "not automatically copied from carrier; requires explicit source-conditioned factor",
+      "base": 6.890000000000001,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.3,
+        "growth_multiplier": 1.06,
+        "prevoid": 6.890000000000001,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 6.890000000000001
+      }
+    },
+    {
+      "id": "D:午",
+      "kind": "地盘环境",
+      "symbol": "午",
+      "element": "火",
+      "season": "囚",
+      "role": "environment at a location, not a duplicate movable heaven branch",
+      "void_location": false,
+      "base": 3,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 0.6,
+        "growth_multiplier": 1,
+        "prevoid": 3,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 3
+      }
+    },
+    {
+      "id": "T:戌",
+      "kind": "天盘神",
+      "symbol": "戌",
+      "element": "土",
+      "ground": "申",
+      "general": "玄武",
+      "season": "休",
+      "growth_at_ground": "长生",
+      "direct_yin": "子",
+      "growth_at_yin": "帝旺",
+      "void_self": false,
+      "void_ground": true,
+      "cause_roots": [
+        "xun:甲戌:申"
+      ],
+      "lesson_slots": [
+        1
+      ],
+      "transmission_slots": [
+        2
+      ],
+      "base": 4.071396854121446,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 0.85,
+        "growth_multiplier": 1.145,
+        "prevoid": 4.86625,
+        "self_retention": 1,
+        "ground_retention": 0.8366600265340756,
+        "adopted_retention": 0.8366600265340756,
+        "base": 4.071396854121446
+      }
+    },
+    {
+      "id": "J:玄武",
+      "kind": "天将",
+      "symbol": "玄武",
+      "element": "水",
+      "season": "相",
+      "carried_by": "戌",
+      "ground": "申",
+      "growth_at_carrier": "冠带",
+      "growth_at_ground": "长生",
+      "void_inheritance": "not automatically copied from carrier; requires explicit source-conditioned factor",
+      "base": 5.8575,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.1,
+        "growth_multiplier": 1.065,
+        "prevoid": 5.8575,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 5.8575
+      }
+    },
+    {
+      "id": "D:申",
+      "kind": "地盘环境",
+      "symbol": "申",
+      "element": "金",
+      "season": "旺",
+      "role": "environment at a location, not a duplicate movable heaven branch",
+      "void_location": true,
+      "base": 6.5,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.3,
+        "growth_multiplier": 1,
+        "prevoid": 6.5,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 6.5
+      }
+    },
+    {
+      "id": "G:庚",
+      "kind": "日干",
+      "symbol": "庚",
+      "element": "金",
+      "season": "旺",
+      "home": "申",
+      "upper": "戌",
+      "growth_at_home": "临官",
+      "growth_at_upper": "衰",
+      "growth_profile": "stem yang-forward/yin-reverse; home is not a substitute heaven node",
+      "base": 5.5249999999999995,
+      "base_ledger": {
+        "baseline": 5,
+        "month_multiplier": 1.3,
+        "growth_multiplier": 0.85,
+        "prevoid": 5.5249999999999995,
+        "self_retention": 1,
+        "ground_retention": 1,
+        "adopted_retention": 1,
+        "base": 5.5249999999999995
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "T:子>T:午",
+      "source": "T:子",
+      "target": "T:午",
+      "type": "克",
+      "raw_gate": 0.25,
+      "route": "同课传",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.25
+    },
+    {
+      "id": "T:申>T:子",
+      "source": "T:申",
+      "target": "T:子",
+      "type": "生",
+      "raw_gate": 0.25,
+      "route": "三传关系",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.25
+    },
+    {
+      "id": "T:戌>T:子",
+      "source": "T:戌",
+      "target": "T:子",
+      "type": "克",
+      "raw_gate": 0.75,
+      "route": "直接阴神",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.3125
+    },
+    {
+      "id": "T:午>T:申",
+      "source": "T:午",
+      "target": "T:申",
+      "type": "克",
+      "raw_gate": 0.75,
+      "route": "直接阴神",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.625
+    },
+    {
+      "id": "T:午>T:戌",
+      "source": "T:午",
+      "target": "T:戌",
+      "type": "生",
+      "raw_gate": 0.25,
+      "route": "同课传",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.20833333333333334
+    },
+    {
+      "id": "T:戌>T:申",
+      "source": "T:戌",
+      "target": "T:申",
+      "type": "生",
+      "raw_gate": 0.75,
+      "route": "直接阴神",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.3125
+    },
+    {
+      "id": "G:庚>T:子",
+      "source": "G:庚",
+      "target": "T:子",
+      "type": "生",
+      "raw_gate": 0.25,
+      "route": "干与课传",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.25
+    },
+    {
+      "id": "D:戌>T:子",
+      "source": "D:戌",
+      "target": "T:子",
+      "type": "克",
+      "raw_gate": 1,
+      "route": "天地直接",
+      "environment_target": false,
+      "fixed_source": true,
+      "gate": 1
+    },
+    {
+      "id": "J:天后>T:子",
+      "source": "J:天后",
+      "target": "T:子",
+      "type": "比和",
+      "raw_gate": 1,
+      "route": "神将直接",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 1
+    },
+    {
+      "id": "T:子>J:天后",
+      "source": "T:子",
+      "target": "J:天后",
+      "type": "比和",
+      "raw_gate": 1,
+      "route": "神将直接",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 1
+    },
+    {
+      "id": "T:子>J:青龙",
+      "source": "T:子",
+      "target": "J:青龙",
+      "type": "生",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "J:白虎>T:子",
+      "source": "J:白虎",
+      "target": "T:子",
+      "type": "生",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "J:玄武>T:子",
+      "source": "J:玄武",
+      "target": "T:子",
+      "type": "比和",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "T:子>J:玄武",
+      "source": "T:子",
+      "target": "J:玄武",
+      "type": "比和",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "T:午>G:庚",
+      "source": "T:午",
+      "target": "G:庚",
+      "type": "克",
+      "raw_gate": 0.25,
+      "route": "干与课传",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.20833333333333334
+    },
+    {
+      "id": "T:午>D:辰",
+      "source": "T:午",
+      "target": "D:辰",
+      "type": "生",
+      "raw_gate": 1,
+      "route": "天地直接",
+      "environment_target": true,
+      "fixed_source": false,
+      "gate": 0.8333333333333334
+    },
+    {
+      "id": "J:天后>T:午",
+      "source": "J:天后",
+      "target": "T:午",
+      "type": "克",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "J:青龙>T:午",
+      "source": "J:青龙",
+      "target": "T:午",
+      "type": "生",
+      "raw_gate": 1,
+      "route": "神将直接",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 1
+    },
+    {
+      "id": "T:午>J:白虎",
+      "source": "T:午",
+      "target": "J:白虎",
+      "type": "克",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.125
+    },
+    {
+      "id": "J:玄武>T:午",
+      "source": "J:玄武",
+      "target": "T:午",
+      "type": "克",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "G:庚>T:申",
+      "source": "G:庚",
+      "target": "T:申",
+      "type": "比和",
+      "raw_gate": 0.25,
+      "route": "干与课传",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.25
+    },
+    {
+      "id": "T:申>G:庚",
+      "source": "T:申",
+      "target": "G:庚",
+      "type": "比和",
+      "raw_gate": 0.25,
+      "route": "干与课传",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.25
+    },
+    {
+      "id": "D:午>T:申",
+      "source": "D:午",
+      "target": "T:申",
+      "type": "克",
+      "raw_gate": 1,
+      "route": "天地直接",
+      "environment_target": false,
+      "fixed_source": true,
+      "gate": 1
+    },
+    {
+      "id": "T:申>J:天后",
+      "source": "T:申",
+      "target": "J:天后",
+      "type": "生",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "T:申>J:青龙",
+      "source": "T:申",
+      "target": "J:青龙",
+      "type": "克",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "J:白虎>T:申",
+      "source": "J:白虎",
+      "target": "T:申",
+      "type": "比和",
+      "raw_gate": 1,
+      "route": "神将直接",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 1
+    },
+    {
+      "id": "T:申>J:白虎",
+      "source": "T:申",
+      "target": "J:白虎",
+      "type": "比和",
+      "raw_gate": 1,
+      "route": "神将直接",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 1
+    },
+    {
+      "id": "T:申>J:玄武",
+      "source": "T:申",
+      "target": "J:玄武",
+      "type": "生",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "T:戌>G:庚",
+      "source": "T:戌",
+      "target": "G:庚",
+      "type": "生",
+      "raw_gate": 1,
+      "route": "干上",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.4166666666666667
+    },
+    {
+      "id": "T:戌>D:申",
+      "source": "T:戌",
+      "target": "D:申",
+      "type": "生",
+      "raw_gate": 1,
+      "route": "天地直接",
+      "environment_target": true,
+      "fixed_source": false,
+      "gate": 0.4166666666666667
+    },
+    {
+      "id": "T:戌>J:天后",
+      "source": "T:戌",
+      "target": "J:天后",
+      "type": "克",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.0625
+    },
+    {
+      "id": "J:青龙>T:戌",
+      "source": "J:青龙",
+      "target": "T:戌",
+      "type": "克",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.15
+    },
+    {
+      "id": "T:戌>J:白虎",
+      "source": "T:戌",
+      "target": "J:白虎",
+      "type": "生",
+      "raw_gate": 0.15,
+      "route": "课传异宫神将",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.0625
+    },
+    {
+      "id": "T:戌>J:玄武",
+      "source": "T:戌",
+      "target": "J:玄武",
+      "type": "克",
+      "raw_gate": 1,
+      "route": "神将直接",
+      "environment_target": false,
+      "fixed_source": false,
+      "gate": 0.4166666666666667
+    }
+  ],
+  "solution": {
+    "values": {
+      "T:子": 5.774703052687741,
+      "J:天后": 6.9844456029400686,
+      "D:戌": 4.25,
+      "T:午": 2.3187093992921275,
+      "J:青龙": 1.1497001500366044,
+      "D:辰": 4.25,
+      "T:申": 4.698915338803468,
+      "J:白虎": 7.088074408505824,
+      "D:午": 3,
+      "T:戌": 3.715027640961327,
+      "J:玄武": 5.88410116413313,
+      "D:申": 6.5,
+      "G:庚": 5.717068348370501
+    },
+    "ledger": [
+      {
+        "id": "T:子>T:午",
+        "source": "T:子",
+        "target": "T:午",
+        "type": "克",
+        "raw_gate": 0.25,
+        "route": "同课传",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.25,
+        "source_strength": 5.774703052687741,
+        "target_strength": 2.3187093992921275,
+        "received": -0.19725824382528004,
+        "source_cost": 0.03945164876505601,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:申>T:子",
+        "source": "T:申",
+        "target": "T:子",
+        "type": "生",
+        "raw_gate": 0.25,
+        "route": "三传关系",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.25,
+        "source_strength": 4.698915338803468,
+        "target_strength": 5.774703052687741,
+        "received": 0.23494576694017344,
+        "source_cost": 0.11747288347008672,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:戌>T:子",
+        "source": "T:戌",
+        "target": "T:子",
+        "type": "克",
+        "raw_gate": 0.75,
+        "route": "直接阴神",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.3125,
+        "source_strength": 3.715027640961327,
+        "target_strength": 5.774703052687741,
+        "received": -0.10774739054277858,
+        "source_cost": 0.021549478108555717,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:午>T:申",
+        "source": "T:午",
+        "target": "T:申",
+        "type": "克",
+        "raw_gate": 0.75,
+        "route": "直接阴神",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.625,
+        "source_strength": 2.3187093992921275,
+        "target_strength": 4.698915338803468,
+        "received": -0.14941808686169675,
+        "source_cost": 0.02988361737233935,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:午>T:戌",
+        "source": "T:午",
+        "target": "T:戌",
+        "type": "生",
+        "raw_gate": 0.25,
+        "route": "同课传",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.20833333333333334,
+        "source_strength": 2.3187093992921275,
+        "target_strength": 3.715027640961327,
+        "received": 0.09661289163717199,
+        "source_cost": 0.048306445818585994,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:戌>T:申",
+        "source": "T:戌",
+        "target": "T:申",
+        "type": "生",
+        "raw_gate": 0.75,
+        "route": "直接阴神",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.3125,
+        "source_strength": 3.715027640961327,
+        "target_strength": 4.698915338803468,
+        "received": 0.23218922756008295,
+        "source_cost": 0.11609461378004148,
+        "environment_effect": 0
+      },
+      {
+        "id": "G:庚>T:子",
+        "source": "G:庚",
+        "target": "T:子",
+        "type": "生",
+        "raw_gate": 0.25,
+        "route": "干与课传",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.25,
+        "source_strength": 5.717068348370501,
+        "target_strength": 5.774703052687741,
+        "received": 0.28585341741852505,
+        "source_cost": 0.14292670870926252,
+        "environment_effect": 0
+      },
+      {
+        "id": "D:戌>T:子",
+        "source": "D:戌",
+        "target": "T:子",
+        "type": "克",
+        "raw_gate": 1,
+        "route": "天地直接",
+        "environment_target": false,
+        "fixed_source": true,
+        "gate": 1,
+        "source_strength": 4.25,
+        "target_strength": 5.774703052687741,
+        "received": -0.39444242492973774,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:天后>T:子",
+        "source": "J:天后",
+        "target": "T:子",
+        "type": "比和",
+        "raw_gate": 1,
+        "route": "神将直接",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 1,
+        "source_strength": 6.9844456029400686,
+        "target_strength": 5.774703052687741,
+        "received": 0.4190667361764041,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:子>J:天后",
+        "source": "T:子",
+        "target": "J:天后",
+        "type": "比和",
+        "raw_gate": 1,
+        "route": "神将直接",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 1,
+        "source_strength": 5.774703052687741,
+        "target_strength": 6.9844456029400686,
+        "received": 0.34648218316126445,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:子>J:青龙",
+        "source": "T:子",
+        "target": "J:青龙",
+        "type": "生",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 5.774703052687741,
+        "target_strength": 1.1497001500366044,
+        "received": 0.17324109158063222,
+        "source_cost": 0.08662054579031611,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:白虎>T:子",
+        "source": "J:白虎",
+        "target": "T:子",
+        "type": "生",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 7.088074408505824,
+        "target_strength": 5.774703052687741,
+        "received": 0.2126422322551747,
+        "source_cost": 0.10632111612758735,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:玄武>T:子",
+        "source": "J:玄武",
+        "target": "T:子",
+        "type": "比和",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 5.88410116413313,
+        "target_strength": 5.774703052687741,
+        "received": 0.05295691047719816,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:子>J:玄武",
+        "source": "T:子",
+        "target": "J:玄武",
+        "type": "比和",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 5.774703052687741,
+        "target_strength": 5.88410116413313,
+        "received": 0.051972327474189665,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:午>G:庚",
+        "source": "T:午",
+        "target": "G:庚",
+        "type": "克",
+        "raw_gate": 0.25,
+        "route": "干与课传",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.20833333333333334,
+        "source_strength": 2.3187093992921275,
+        "target_strength": 5.717068348370501,
+        "received": -0.04507430973502269,
+        "source_cost": 0.009014861947004538,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:午>D:辰",
+        "source": "T:午",
+        "target": "D:辰",
+        "type": "生",
+        "raw_gate": 1,
+        "route": "天地直接",
+        "environment_target": true,
+        "fixed_source": false,
+        "gate": 0.8333333333333334,
+        "source_strength": 2.3187093992921275,
+        "target_strength": 4.25,
+        "received": 0,
+        "source_cost": 0.19322578327434398,
+        "environment_effect": 0.38645156654868795
+      },
+      {
+        "id": "J:天后>T:午",
+        "source": "J:天后",
+        "target": "T:午",
+        "type": "克",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 6.9844456029400686,
+        "target_strength": 2.3187093992921275,
+        "received": -0.14314912415327513,
+        "source_cost": 0.02862982483065503,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:青龙>T:午",
+        "source": "J:青龙",
+        "target": "T:午",
+        "type": "生",
+        "raw_gate": 1,
+        "route": "神将直接",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 1,
+        "source_strength": 1.1497001500366044,
+        "target_strength": 2.3187093992921275,
+        "received": 0.22994003000732088,
+        "source_cost": 0.11497001500366044,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:午>J:白虎",
+        "source": "T:午",
+        "target": "J:白虎",
+        "type": "克",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.125,
+        "source_strength": 2.3187093992921275,
+        "target_strength": 7.088074408505824,
+        "received": -0.023977241131769484,
+        "source_cost": 0.004795448226353897,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:玄武>T:午",
+        "source": "J:玄武",
+        "target": "T:午",
+        "type": "克",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 5.88410116413313,
+        "target_strength": 2.3187093992921275,
+        "received": -0.12059710619270343,
+        "source_cost": 0.02411942123854069,
+        "environment_effect": 0
+      },
+      {
+        "id": "G:庚>T:申",
+        "source": "G:庚",
+        "target": "T:申",
+        "type": "比和",
+        "raw_gate": 0.25,
+        "route": "干与课传",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.25,
+        "source_strength": 5.717068348370501,
+        "target_strength": 4.698915338803468,
+        "received": 0.0857560252255575,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:申>G:庚",
+        "source": "T:申",
+        "target": "G:庚",
+        "type": "比和",
+        "raw_gate": 0.25,
+        "route": "干与课传",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.25,
+        "source_strength": 4.698915338803468,
+        "target_strength": 5.717068348370501,
+        "received": 0.07048373008205203,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "D:午>T:申",
+        "source": "D:午",
+        "target": "T:申",
+        "type": "克",
+        "raw_gate": 1,
+        "route": "天地直接",
+        "environment_target": false,
+        "fixed_source": true,
+        "gate": 1,
+        "source_strength": 3,
+        "target_strength": 4.698915338803468,
+        "received": -0.3093129381176868,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:申>J:天后",
+        "source": "T:申",
+        "target": "J:天后",
+        "type": "生",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 4.698915338803468,
+        "target_strength": 6.9844456029400686,
+        "received": 0.14096746016410405,
+        "source_cost": 0.07048373008205203,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:申>J:青龙",
+        "source": "T:申",
+        "target": "J:青龙",
+        "type": "克",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 4.698915338803468,
+        "target_strength": 1.1497001500366044,
+        "received": -0.11461327928587298,
+        "source_cost": 0.022922655857174595,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:白虎>T:申",
+        "source": "J:白虎",
+        "target": "T:申",
+        "type": "比和",
+        "raw_gate": 1,
+        "route": "神将直接",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 1,
+        "source_strength": 7.088074408505824,
+        "target_strength": 4.698915338803468,
+        "received": 0.4252844645103494,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:申>J:白虎",
+        "source": "T:申",
+        "target": "J:白虎",
+        "type": "比和",
+        "raw_gate": 1,
+        "route": "神将直接",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 1,
+        "source_strength": 4.698915338803468,
+        "target_strength": 7.088074408505824,
+        "received": 0.2819349203282081,
+        "source_cost": 0,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:申>J:玄武",
+        "source": "T:申",
+        "target": "J:玄武",
+        "type": "生",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 4.698915338803468,
+        "target_strength": 5.88410116413313,
+        "received": 0.14096746016410405,
+        "source_cost": 0.07048373008205203,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:戌>G:庚",
+        "source": "T:戌",
+        "target": "G:庚",
+        "type": "生",
+        "raw_gate": 1,
+        "route": "干上",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.4166666666666667,
+        "source_strength": 3.715027640961327,
+        "target_strength": 5.717068348370501,
+        "received": 0.3095856367467773,
+        "source_cost": 0.15479281837338865,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:戌>D:申",
+        "source": "T:戌",
+        "target": "D:申",
+        "type": "生",
+        "raw_gate": 1,
+        "route": "天地直接",
+        "environment_target": true,
+        "fixed_source": false,
+        "gate": 0.4166666666666667,
+        "source_strength": 3.715027640961327,
+        "target_strength": 6.5,
+        "received": 0,
+        "source_cost": 0.15479281837338865,
+        "environment_effect": 0.3095856367467773
+      },
+      {
+        "id": "T:戌>J:天后",
+        "source": "T:戌",
+        "target": "J:天后",
+        "type": "克",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.0625,
+        "source_strength": 3.715027640961327,
+        "target_strength": 6.9844456029400686,
+        "received": -0.019374215149603705,
+        "source_cost": 0.003874843029920741,
+        "environment_effect": 0
+      },
+      {
+        "id": "J:青龙>T:戌",
+        "source": "J:青龙",
+        "target": "T:戌",
+        "type": "克",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.15,
+        "source_strength": 1.1497001500366044,
+        "target_strength": 3.715027640961327,
+        "received": -0.019788235862263737,
+        "source_cost": 0.003957647172452747,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:戌>J:白虎",
+        "source": "T:戌",
+        "target": "J:白虎",
+        "type": "生",
+        "raw_gate": 0.15,
+        "route": "课传异宫神将",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.0625,
+        "source_strength": 3.715027640961327,
+        "target_strength": 7.088074408505824,
+        "received": 0.046437845512016594,
+        "source_cost": 0.023218922756008297,
+        "environment_effect": 0
+      },
+      {
+        "id": "T:戌>J:玄武",
+        "source": "T:戌",
+        "target": "J:玄武",
+        "type": "克",
+        "raw_gate": 1,
+        "route": "神将直接",
+        "environment_target": false,
+        "fixed_source": false,
+        "gate": 0.4166666666666667,
+        "source_strength": 3.715027640961327,
+        "target_strength": 5.88410116413313,
+        "received": -0.1422192021546845,
+        "source_cost": 0.028443840430936902,
+        "environment_effect": 0
+      }
+    ],
+    "delta": {
+      "T:子": 0.577203053239587,
+      "J:天后": 0.4394456033451098,
+      "D:戌": 0,
+      "T:午": -0.5162906008025655,
+      "J:青龙": -0.060299849881353944,
+      "D:辰": 0,
+      "T:申": 0.0031356928252410377,
+      "J:白虎": 0.19807440858086786,
+      "D:午": 0,
+      "T:戌": -0.4259426790773322,
+      "J:玄武": 0.02660116424506853,
+      "D:申": 0,
+      "G:庚": 0.19206834838454412
+    },
+    "iterations": 34,
+    "residual": 5.518456802633409e-10,
+    "validation": "Observed convergence for supplied graph only; no universal uniqueness proof or predictive validation."
+  },
+  "action": {
+    "rows": [
+      {
+        "id": "T:子",
+        "strength": 5.774703052687741,
+        "activation": 1,
+        "disruption_retention": 0.9856753290836864,
+        "binding_retention": 0.9775678511324182,
+        "greedy_retention": 1,
+        "cooperation": 1.05,
+        "virtue_reduction": 0,
+        "action_index": 5.842513883639537,
+        "lower_control_harmful_general": {
+          "triggered": false,
+          "risk_before_rescue": 0,
+          "risk_after_rescue": 0,
+          "scope": "下克乘凶将条件的研究风险指数；非灾害概率，不再扣本体分，也不独立裁败"
+        },
+        "action_scope": "日主或本问外部目标；非节点自身生存状态、非录用概率",
+        "factors": [
+          {
+            "kind": "六冲",
+            "source": "T:午",
+            "gate": 0.25,
+            "value": 0.0143246709163136
+          },
+          {
+            "kind": "半合",
+            "set": "申子辰",
+            "members": [
+              "申",
+              "子"
+            ],
+            "value": 0.022432148867581797,
+            "cooperation": 1.05,
+            "scope": "课传出现支；不自动合化，不吸收日支跨层补全"
+          }
+        ],
+        "shensha": [
+          {
+            "id": "S21",
+            "name": "月死气",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          }
+        ]
+      },
+      {
+        "id": "T:午",
+        "strength": 2.3187093992921275,
+        "activation": 0.9,
+        "disruption_retention": 0.9143246709163136,
+        "binding_retention": 0.9692145380534741,
+        "greedy_retention": 1,
+        "cooperation": 1.05,
+        "virtue_reduction": 0,
+        "action_index": 1.9417731395750735,
+        "lower_control_harmful_general": {
+          "triggered": false,
+          "risk_before_rescue": 0,
+          "risk_after_rescue": 0,
+          "scope": "下克乘凶将条件的研究风险指数；非灾害概率，不再扣本体分，也不独立裁败"
+        },
+        "action_scope": "日主或本问外部目标；非节点自身生存状态、非录用概率",
+        "factors": [
+          {
+            "kind": "六冲",
+            "source": "T:子",
+            "gate": 0.25,
+            "value": 0.03567532908368639
+          },
+          {
+            "kind": "自刑",
+            "source": "T:午",
+            "value": 0.05
+          },
+          {
+            "kind": "半合",
+            "set": "寅午戌",
+            "members": [
+              "午",
+              "戌"
+            ],
+            "value": 0.03078546194652587,
+            "cooperation": 1.05,
+            "scope": "课传出现支；不自动合化，不吸收日支跨层补全"
+          }
+        ],
+        "shensha": [
+          {
+            "id": "S01",
+            "name": "太岁",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          },
+          {
+            "id": "S04",
+            "name": "天马",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          },
+          {
+            "id": "S08M",
+            "name": "月天鼠小耗",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          },
+          {
+            "id": "S10",
+            "name": "月生气",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          }
+        ]
+      },
+      {
+        "id": "T:申",
+        "strength": 4.698915338803468,
+        "activation": 1.2,
+        "disruption_retention": 1,
+        "binding_retention": 0.9724321488675818,
+        "greedy_retention": 0.8344253854927548,
+        "cooperation": 1.05,
+        "virtue_reduction": 0.1174728834700867,
+        "action_index": 4.804132553869955,
+        "lower_control_harmful_general": {
+          "triggered": true,
+          "risk_before_rescue": 0.04639694071765302,
+          "risk_after_rescue": 0.040946558307359646,
+          "scope": "下克乘凶将条件的研究风险指数；非灾害概率，不再扣本体分，也不独立裁败"
+        },
+        "action_scope": "日主或本问外部目标；非节点自身生存状态、非录用概率",
+        "factors": [
+          {
+            "kind": "直接临生贪恋",
+            "source": "T:戌",
+            "value": 0.16557461450724514,
+            "scope": "对日主或其他外部目标的作用；对生合对象本身不沿用此折损"
+          },
+          {
+            "kind": "半合",
+            "set": "申子辰",
+            "members": [
+              "申",
+              "子"
+            ],
+            "value": 0.027567851132418206,
+            "cooperation": 1.05,
+            "scope": "课传出现支；不自动合化，不吸收日支跨层补全"
+          }
+        ],
+        "shensha": [
+          {
+            "id": "S12",
+            "name": "日德",
+            "energy_adjustment": 0,
+            "reason": "德的护解作用进入局部不利通路，不加本体力量"
+          },
+          {
+            "id": "S13",
+            "name": "日禄",
+            "energy_adjustment": 0,
+            "reason": "取用身份，不另制造五行能量"
+          },
+          {
+            "id": "S32",
+            "name": "丧门",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          }
+        ]
+      },
+      {
+        "id": "T:戌",
+        "strength": 3.715027640961327,
+        "activation": 1.1,
+        "disruption_retention": 1,
+        "binding_retention": 0.9807854619465258,
+        "greedy_retention": 1,
+        "cooperation": 1.05,
+        "virtue_reduction": 0,
+        "action_index": 4.208410091636945,
+        "lower_control_harmful_general": {
+          "triggered": false,
+          "risk_before_rescue": 0,
+          "risk_after_rescue": 0,
+          "scope": "下克乘凶将条件的研究风险指数；非灾害概率，不再扣本体分，也不独立裁败"
+        },
+        "action_scope": "日主或本问外部目标；非节点自身生存状态、非录用概率",
+        "factors": [
+          {
+            "kind": "半合",
+            "set": "寅午戌",
+            "members": [
+              "午",
+              "戌"
+            ],
+            "value": 0.01921453805347413,
+            "cooperation": 1.05,
+            "scope": "课传出现支；不自动合化，不吸收日支跨层补全"
+          }
+        ],
+        "shensha": [
+          {
+            "id": "S17",
+            "name": "天医",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          },
+          {
+            "id": "S27",
+            "name": "旬仪",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          },
+          {
+            "id": "S28",
+            "name": "日退神",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          },
+          {
+            "id": "S30",
+            "name": "月血光",
+            "energy_adjustment": 0,
+            "reason": "保留身份，尚未编成本问专项作用；不等于无影响"
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "type": "三合",
+        "set": "申子辰",
+        "members": [
+          "申",
+          "子"
+        ],
+        "adopted": "半合",
+        "no_transformation": true
+      },
+      {
+        "type": "三合",
+        "set": "寅午戌",
+        "members": [
+          "午",
+          "戌"
+        ],
+        "adopted": "半合",
+        "no_transformation": true
+      },
+      {
+        "type": "三会",
+        "set": "申酉戌",
+        "members": [
+          "申",
+          "戌"
+        ],
+        "adopted": "未成会",
+        "no_transformation": true
+      }
+    ],
+    "unresolved": [
+      "斩关、涉三渊的专项事件机制未编译，不据名称给固定加减分",
+      "本轮未完成全部神煞到招聘事件的专项映射；表列零能量调整不代表零事件影响",
+      "六合兼刑害、冲墓开闭和墓库取用需按已确认来源另给适配器；本案核心未触发墓态",
+      "年命及四建跨层组合未进入本轮核心作用指数，不据此判整盘成败",
+      "动作层参数是通用研究默认值；原文明示的特殊生刑、生克合条件优先，未编译时阻止给完整结论"
+    ]
+  },
+  "coverage": {
+    "strength_core": "four distinct lesson/transmission heaven branches, their generals and ground environments, and the day stem",
+    "complete_event_model": false,
+    "full_shensha_mapping": false,
+    "unsupported": [
+      "斩关、涉三渊的专项事件机制未编译，不据名称给固定加减分",
+      "本轮未完成全部神煞到招聘事件的专项映射；表列零能量调整不代表零事件影响",
+      "六合兼刑害、冲墓开闭和墓库取用需按已确认来源另给适配器；本案核心未触发墓态",
+      "年命及四建跨层组合未进入本轮核心作用指数，不据此判整盘成败",
+      "动作层参数是通用研究默认值；原文明示的特殊生刑、生克合条件优先，未编译时阻止给完整结论"
+    ]
+  },
+  "counterfactual_no_void": {
+    "purpose": "Only isolate this mathematical model's void operator; not a new chart or validation case.",
+    "shen": 5.558603574170576,
+    "difference": -0.8596882353671074
+  },
+  "predictive_validation": false,
+  "outcome": null,
+  "industry_option": null,
+  "live_pointer_unchanged": true,
+  "archive_unchanged": true
+}

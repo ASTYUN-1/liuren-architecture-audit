@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "moved_files_verified": 150,
+  "initial_move_files": 133,
+  "bazi_docs_move_files": 17,
+  "copied_files_verified": 1862,
+  "original_sources_rechecked": 1862,
+  "entry_links_checked": 353,
+  "issues": [],
+  "publisher_python_syntax_files": [
+    "运营资料/公众号/公众号介绍-20261020/build_article.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/build_article.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/build_circular_reference.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/build_covers.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/build_docx.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/build_exploded_reference.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/finish_circular_image.py",
+    "运营资料/公众号/系列文章/入门01-认识大六壬课盘/finish_exploded_image.py",
+    "运营资料/公众号/公众号-胎产课盘复盘-20261021/制作资料/制作.py",
+    "运营资料/公众号/公众号-胎产课盘复盘-20261021/制作资料/修改前-20261021-212103/制作资料/制作.py",
+    "运营资料/公众号/公众号-竞赛省二复盘/制作资料/制作文章.py"
+  ],
+  "pre_edit_entry_backups_verified": 4,
+  "publisher_static_image_references_checked": 15,
+  "publisher_static_image_reference_issues": [],
+  "resource_scope_note": "Static local img src and Markdown image references only; no generator executed. Historical backup references may be pre-existing, see issue list.",
+  "semantic_material_review_performed": false
+}

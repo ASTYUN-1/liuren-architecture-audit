@@ -1,0 +1,212 @@
+{
+  "release": "20261106-tool-continuation-23",
+  "status": "active",
+  "scope": "local-opencode",
+  "runtime": "runtime/liuren/20261106-tool-continuation-23",
+  "methodVersion": "ea0f6e095b71ab497518cf88127ca53ae81295fc1fbb29c72ba8aed8f89444b5",
+  "previousRelease": "20261106-workflow-22",
+  "backup": "output/liuren-zero-error-20261106/before",
+  "files": {
+    "liuren/daliuren/SKILL.md": "56044e8dd8d575f9099574177e587aa07adc504dfc7be6d0b90687ca19df50cf",
+    "liuren/liuren-cases/SKILL.md": "2d137ef14c82f91669a3a4e194d177908861509d7e19350da5b4537ff702463a",
+    "liuren/liuren-extract/SKILL.md": "f14ad4bcad6637bb9f417d83c3365385d8832bf1938ed106797342b374c68a38"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "groups": [
+    "liuren"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  },
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "workflowEntry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "defaultMode": "local-professional",
+  "optionalAuditEntry": "tools/liuren-workflow.py",
+  "websiteChanged": false,
+  "websiteOutputPolicy": false,
+  "methodHierarchy": "liqi-throughout-conditioned-symbols",
+  "authoringSource": "output/liuren-zero-error-20261106",
+  "boundedReview": {
+    "registeredModuleRevisions": 31,
+    "effectiveMethodBodyChanges": 30,
+    "sourceReferencePages": 3,
+    "migratedProcedures": 2,
+    "sharedPolicyCards": 83,
+    "sharedPolicyFields": 137,
+    "exhaustiveSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "workflowImplementation": {
+    "tools/load-liuren-methods.py": "99c0eb04080f272ea9bb9855e651bf566f3cbb159302cffa914cbbaccb97dee9",
+    "tools/load-liuren-procedure.py": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+    "tools/liuren_material_scope.py": "527b874ec58ef214c07314c11970b5d3db526aff6a5549fea85b63d84b694074",
+    "tools/liuren_research_overlay.py": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+    "tools/liuren-local-read.py": "d5aef7015d17bab0e8252b8cba7370dfb53d82db110a71ea27a8b6dd719494d9",
+    "tools/liuren-direct.mjs": "594d2172268dcae324b90dac3d8250e22545d544fac8d7ca80ae7b400bfed906",
+    "tools/liuren-shensha.mjs": "fb5ef143e3811d736690ae75dcf1fdd49f3a966098b596ed65c35c6407686d89",
+    "tools/liuren-adjudication-contract.mjs": "01e489180023fa7c52fc12f42df7952f09592b07b6a316007581cdf2751534ef",
+    ".opencode/plugins/liuren-adjudication.ts": "a60afb5c5d9846668ef617f27a9a9070356001c23fdb58b1bf0c605ebf87c8dc",
+    ".opencode/oh-my-opencode-slim.jsonc": "8007eca80b61a32ab7cefb84187e9f06e685decd950c4b125e03dd8dace11d90",
+    "tools/liuren-adjudication-files.mjs": "a7611b12826c2a60edaa60bc57a5a95dca97b2c32277effa83a641da71259dd9",
+    "tools/liuren_book_search.py": "ddb3bf1a87bb1a3b1b3af3af1adec726469d061ffde6970a3763313e43f4a472",
+    "tools/liuren-materials.py": "912fbd847b8160ae2829a1dd5983b2eda494af8fa57559eb042404b343cf8e7a",
+    ".opencode/tools/liuren_materials.ts": "f5fa226b6e58dd942388c31fbb45c19772287f640e0f2435185389c00caecdb4",
+    "tools/liuren-deterministic.mjs": "a719fac1b9f8f28b77686e73ede4e376856024610b46919f4bf4e55c3fad5b6f",
+    "tools/liuren-deterministic-io.mjs": "9defb0209d5a5302f86db367610a25787f8a63cfa15cbb0a1c903384a75b2447",
+    "tools/liuren-deterministic-calendar.mjs": "c03f77fd1b946639dcc4f4bae94376f42d393d681aa8dd886e6b5149a67a06b4",
+    ".opencode/tools/liuren_chart.ts": "db0a30c90f1d19132cc8ad12036665b1e37e456900a7021e2ff5617d2ba04b9a",
+    "tools/liuren-compute-schema.mjs": "00320bb46737cf701b4559b90143838a94707e609eb3cca80a8530cac8944730",
+    "tools/liuren-flow-control.mjs": "236d18744ac27ba9031291520387c734091b287d29f73582c9c1cbfd431ad7b0",
+    "tools/liuren-adjudication-output.mjs": "c668e0f260188380b0ac5a81ba86ce4a482012ba7b7db644535dbc71a21d2ec1",
+    "tools/liuren-event-positioning.mjs": "9b34bd75179eb06159568c3a6ff55ed41bbeaf25ae67d15af1125ca805e2028a",
+    "tools/liuren-adjudication-schema.mjs": "ae6117425a4d79468b689dca0b0a45bc3471260a62095a2923cf58f478e34fed"
+  },
+  "inheritedAcceptedCandidateMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "expertAdjudicationReview": {
+    "sourceFiles": 7,
+    "selectedPassages": 34,
+    "caseUnits": 23,
+    "revisionFile": "adjudication-revision-map.json",
+    "fullSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "no case/experience retrieval; existing chart, methods, books and full report; adjudication now delegated",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  },
+  "adjudication": {
+    "agent": "liuren-adjudicator",
+    "model": "deepseek/deepseek-flash",
+    "variant": "high",
+    "reasoningEffort": "high",
+    "maxOutputTokens": 65536,
+    "plugin": "oh-my-opencode-slim",
+    "installedPluginVersion": "2.2.18",
+    "tool": "task",
+    "freshSession": true,
+    "mainAgentAdjudicates": false,
+    "inputSchema": "liuren-adjudication-input-v2",
+    "outputSchema": "free-text-or-json-object",
+    "predictiveValidationCount": 0,
+    "inputTransport": "scoped-file",
+    "packetTool": "liuren_adjudication_packet",
+    "readerTool": "liuren_adjudication_read",
+    "workflowBoundaries": {
+      "preparation": "verified chart, candidate mappings, observations, source conditions and neutral focus issues; no completed verdict",
+      "adjudicator": "whole-chart mapping and omission review, critical relations, focus issue resolutions and answers",
+      "delivery": "verify facts, references, coverage and consistency; reuse adjudicated reasons and verdict",
+      "changedEvidenceOnlyRetry": true
+    },
+    "submitTool": "liuren_adjudication_submit",
+    "resultTool": "liuren_adjudication_result",
+    "outputTransport": "opaque-report-submit-and-visible-receipt",
+    "professionalContentChecked": false
+  },
+  "bookRetrieval": {
+    "release": "20261105-three-book-search-01",
+    "status": "active",
+    "scope": "local-opencode",
+    "actions": [
+      "book_search",
+      "book_outline"
+    ],
+    "books": [
+      "RG",
+      "LF",
+      "TY"
+    ],
+    "catalog": "knowledge/liuren-book-index/20261105/catalog.json",
+    "index": "knowledge/liuren-book-index/20261105/index.sqlite3",
+    "files": {
+      "tools/liuren_book_search.py": "ddb3bf1a87bb1a3b1b3af3af1adec726469d061ffde6970a3763313e43f4a472",
+      "tools/liuren_material_scope.py": "527b874ec58ef214c07314c11970b5d3db526aff6a5549fea85b63d84b694074",
+      "tools/liuren-materials.py": "912fbd847b8160ae2829a1dd5983b2eda494af8fa57559eb042404b343cf8e7a",
+      ".opencode/tools/liuren_materials.ts": "f5fa226b6e58dd942388c31fbb45c19772287f640e0f2435185389c00caecdb4",
+      "opencode.json": "1879051b1ff445f60925017ed3b8ea7451c672ec631fd23440d6f15e14668996",
+      "docs/本机六壬高效执行.md": "5b4aaa0d5504b6f152406f6741e19dc1f939cad8f97f7cd3136fbf37b5146924",
+      "docs/本机六壬资料检索范围.md": "0d87ac6d13c7b2b7bd4bad809d8e5cdb90e64b7fa3ac674af22ad3ddb7dfde57",
+      "knowledge/liuren-book-index/20261105/catalog.json": "53e2fa02ec06ac321a099aef4251270f3815d98ec7fa4b601181c3512ef975dd",
+      "knowledge/liuren-book-index/20261105/index.sqlite3": "0f70b3bb462cf6e4473501807535ff40ae0b65b322f26cbb7e83028cb39c7196"
+    },
+    "backup": "output/liuren-three-book-search-20261105/before",
+    "rollback": "output/liuren-three-book-search-20261105/rollback.py",
+    "semanticReadingComplete": false,
+    "predictiveValidationCount": 0,
+    "modelCallsAdded": 0,
+    "originMethodRelease": "20261105-subagent-adjudication-07",
+    "compatibleMethodRelease": "20261106-tool-continuation-23"
+  },
+  "deterministicFoundation": {
+    "enabled": true,
+    "schema": "liuren-deterministic-v1",
+    "tool": "liuren_compute",
+    "guide": "references/deterministic-tools.md",
+    "inputExtension": "program-generated deterministic + question.tasks",
+    "specialMethodsRequired": false,
+    "modelCallsAdded": 0,
+    "predictiveValidationCount": 0,
+    "professionalTimingQuantityRetained": true
+  },
+  "computeInterface": {
+    "schema": "liuren-compute-interface-v1",
+    "release": "20261106-tool-continuation-23",
+    "calendarSchema": "explicit native object with required timezone and day_boundary enum",
+    "expressionSchema": "reference-free published nodes; strict recursive execution validation",
+    "samePacketSchema": true,
+    "modelCallsAdded": 0,
+    "externalModelValidation": false,
+    "publishedReferences": 0,
+    "transportValidation": "real DeepSeek desktop run; inspect evidence before claiming success",
+    "transportEvidence": "output/liuren-zero-error-20261106/current-wire.json"
+  },
+  "flowControl": {
+    "enabled": true,
+    "schema": "liuren-flow-state-v1",
+    "durable": true,
+    "maxAdjudications": 2,
+    "resultTool": "liuren_adjudication_result",
+    "submitTool": "liuren_adjudication_submit",
+    "compactPacket": true,
+    "visibleResultTransport": "receipt-with-task-id",
+    "ownedResultDiscovery": true,
+    "submissionPolicy": "idempotent transport; no professional field gates"
+  },
+  "eventPositioning": {
+    "enabled": true,
+    "schema": "liuren-event-positioning-v1",
+    "mode": "model-event-interpretation",
+    "semanticRoleChecks": false,
+    "actorReferenceRequired": false,
+    "domainReadRequired": true,
+    "fullDomainHandoff": true,
+    "source": "explicit-user-instruction"
+  },
+  "toolHandoff": {
+    "sourcePaths": "workspace relative or scoped absolute, normalized by program",
+    "citationTransport": "method and complete book_search hits return reusable handoff",
+    "questionDomain": "required on every native packet question",
+    "modelCallsAdded": 0,
+    "guide": "docs/本机六壬高效执行.md"
+  },
+  "toolUsage": {
+    "helpTool": "liuren_tool_help",
+    "actualSchema": true,
+    "readiness": "query current method receipts by domains",
+    "packetPreflight": "execute parses native schema and aggregates duplicate IDs",
+    "continuation": "state-aware claim/read/report/deliver next_call",
+    "professionalRulesChanged": false,
+    "predictiveValidationCount": 0,
+    "archiveAccess": "compute chart or materials shensha; tools use current session directory"
+  }
+}

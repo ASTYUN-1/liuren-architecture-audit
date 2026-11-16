@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "release": "20261112-strength-quantity-51",
+  "parent_files_unchanged": 133,
+  "backup_files_verified": 57,
+  "runtime_files_verified": 133,
+  "modules_readable": 84,
+  "domains_planned": 17,
+  "new_source_spans_verified": 20,
+  "original_strength_coefficients_unchanged": true,
+  "models_and_budget_unchanged": true,
+  "source_void_default_narrowed": true,
+  "new_tasks_require_final_quantity_receipt": true,
+  "native_schema_check": "actual serialization and host reconstruction; no fresh HTTP capture",
+  "real_model_validation": false,
+  "predictive_validation_count": 0
+}

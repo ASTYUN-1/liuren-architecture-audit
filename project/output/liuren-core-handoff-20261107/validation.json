@@ -1,0 +1,83 @@
+{
+  "schema": "liuren-core-handoff-validation-v1",
+  "release": "20261107-slim-31",
+  "tool_contract": "liuren-tools-31",
+  "localOnly": true,
+  "websiteChanged": false,
+  "ready": true,
+  "preflightPassed": true,
+  "nodeTests": {
+    "total": 92,
+    "passed": 92,
+    "failed": 0,
+    "legacy": 84,
+    "core": 8
+  },
+  "nativeHost": {
+    "normalChainPassed": true,
+    "lengthSameSessionRecoveryPassed": true,
+    "scopedReferenceReads": [
+      "liqi",
+      "E01"
+    ],
+    "reportByteIdentity": true,
+    "requestedMaxOutputTokens": 393216,
+    "reasoningEffort": "high",
+    "externalModelCalls": 0
+  },
+  "sizeComparison": {
+    "scope": "Original historical packet projected into current core; no new adjudication and no historic file changed",
+    "beforeCharacters": 81865,
+    "afterCoreCharacters": 29317,
+    "beforePages": 9,
+    "afterCorePages": 3,
+    "reductionPercent": 64.2,
+    "fullChartIdentical": true,
+    "candidateMaterialsIdentical": true,
+    "referenceCount": 13,
+    "allHistoricalSourceBodiesRetained": true,
+    "tokenMeasurement": false
+  },
+  "preservation": {
+    "frozen30Intact": true,
+    "detailedMethodsUnchanged": {
+      "positioning": true,
+      "liqi": true,
+      "structure": true,
+      "void": true,
+      "shensha-use": true,
+      "movement": true
+    },
+    "domainsUnchanged": {
+      "agriculture": true,
+      "classical-conflict": true,
+      "exam": true,
+      "finance": true,
+      "home": true,
+      "illness": true,
+      "interpersonal": true,
+      "long-period": true,
+      "lost-person-object": true,
+      "period-outlook": true,
+      "pregnancy": true,
+      "promotion-salary": true,
+      "recruitment": true,
+      "relationship": true,
+      "travel": true,
+      "weather": true
+    }
+  },
+  "mcpScope": "Current host loading state only; no repeated auxiliary tool invocation",
+  "professionalEquivalenceValidated": false,
+  "realLongAdjudicationValidated": false,
+  "finalPointerSha256": "0c37919ee9a47a0b0cb1a1a4b80b5e5acfcad80f7218b656f5898d9f0a2ce165",
+  "manifestSha256": "8b9e0d43f98d688f43e9432827e96c9edec5c3f5dc285f64a7d21a7c08f39b0d",
+  "evidence": [
+    "node-tests.log",
+    "flow-result.json",
+    "length-result.json",
+    "preflight.json",
+    "size-comparison.json",
+    "activation.json"
+  ]
+}

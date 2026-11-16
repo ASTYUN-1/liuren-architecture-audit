@@ -1,0 +1,73 @@
+{
+  "skill": "renji-guanxi",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我看看我和这个同事能不能搞好关系？他对我是什么态度？",
+      "expected_behavior": "应激活 renji-guanxi, 取该同事的类神（六合/其年命）, 用损益矩阵（生合=益, 克脱刑穿=损）判断其类神对日干、干上神、年命上神三锚点的损益, 输出「可靠助力/实质有害/有条件合作」结论与人物类型提示",
+      "notes": "典型对象态度类问题: 命中「能不能搞好」「他对我什么态度」核心 trigger。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "最近老有人针对我, 占一下我的人缘和周围环境, 周围都是些什么人？",
+      "expected_behavior": "应激活 renji-guanxi, 按整体人际总则扫课传——列出「生合德=对我有利人事」与「刑克穿鬼=对我不利人事」两份清单, 以天将支神象定人物类型（蛇=小人、寅=老年人、六合=中介等）, 输出整体人际环境定性",
+      "notes": "整体人际环境扫描场景, 命中「人缘/针对/贵人/小人」 trigger。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "占一下我和我老婆的夫妻关系相处得怎么样？家里是谁贤惠、谁说了算？",
+      "expected_behavior": "应激活 renji-guanxi, 走 p26 夫妻占框架: 以支为妻位、天后/太阴/妻财为妻星, 看何者入课传, 干支上神生合则和、冲克则恶, 两财同现按古法「初夫末妻中传媒人」定位, 输出夫妻关系专项结论",
+      "notes": "夫妻相处质量类问题归属本 skill（区别于 lianai-panduan 的「能否成」）。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "Will this person help or harm me? How does he treat me? I want to know if my friend is reliable.",
+      "expected_behavior": "应激活 renji-guanxi（英文 trigger: help or harm / how does he treat me / reliable）, 确认目标对象后取类神做三锚点损益矩阵, 输出该人是助力还是损害的判断",
+      "notes": "英文关键词场景, 命中 relationship/attitude 类 trigger。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我看看明天上海会不会下雨, 出门要不要带伞？",
+      "expected_behavior": "不应激活本 skill, 因为这是纯天气信息查询, 无占课对象也无课传盘面, 属于无关场景",
+      "notes": "诱饵: 完全无关场景（天气查询）。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占我和她恋爱能不能成, 什么时候能结婚？",
+      "expected_behavior": "不应激活本 skill, 应激活 lianai-panduan（恋爱/婚姻「能否成」走常法/变法/琐象, 与「相处态度」不同域）",
+      "notes": "跨 skill 混淆诱饵（同书兄弟 skill lianai-panduan）: 恋爱成否归恋爱 skill, 本 skill 只管相处/态度, 防止抢调用。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我占一下最近的整体运势怎么样, 工作感情财运都看看。",
+      "expected_behavior": "不应激活本 skill, 应激活 sanbu-duanke（三步断课法总入口, 明占类后转 shiyun-zonghe 综合时运断法）",
+      "notes": "跨 skill 混淆诱饵（同书总入口 sanbu-duanke）: 泛问综合运势非人际专项, 人际只是时运五维之一。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占一下我和我对象最近感情怎么样, 会不会分手？",
+      "expected_behavior": "边界场景: 「对象」语义含糊——若是未婚恋人且问「能否成/会不会散」, 应走 lianai-panduan; 若为已成夫妻问相处质量, 走本 skill 夫妻框架。期望先向用户澄清关系状态与侧重, 再选 skill, 不直接断言",
+      "notes": "边界: 恋爱对象 vs 夫妻共用词, 「感情怎么样」（相处）与「会不会分手」（成散）两域交叉。"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "占一下我们领导会不会提拔我？他对我的态度是欣赏还是利用？",
+      "expected_behavior": "混合问题需拆分: 「会不会提拔」落点是升职（应走 shengzhi-jiaxin 进达象）; 「欣赏还是利用」落点是领导态度（走本 skill 损益矩阵）。期望先拆子问题或按用户侧重择一, 不整套套用",
+      "notes": "边界: 人际态度与升职主题混叠, 「上司」是两 skill 共用的类神（官星/贵人）。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）。本文件诱饵构成: 1 条完全无关场景（天气查询）+ 2 条同书兄弟 skill 跨 skill 混淆诱饵（lianai-panduan 恋爱成否、sanbu-duanke 泛问综合运势）+ 2 条边界场景（恋爱对象/夫妻语义混叠、人际态度与升职混叠）。"
+}

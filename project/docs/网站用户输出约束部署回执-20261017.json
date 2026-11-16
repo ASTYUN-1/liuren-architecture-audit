@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "at": "2026-10-16T17:48:54.414Z",
+  "release": "/opt/wenheng/releases/20261017-public-output-01",
+  "previous": "/opt/wenheng/releases/20261017-private-sharing-01",
+  "backup": "/var/backups/wenheng-public-output-20261017-eQ6DF8",
+  "policyPath": "/opt/wenheng/resources/website-skills/wenheng-public-output/SKILL.md",
+  "policyVersion": "1.0.0",
+  "policyHash": "eccff98e522865e55b8876ce38941c06c65c06dbb0aeb1bafef797732c6b3553",
+  "fullPolicyInMainPrompt": true,
+  "workerPid": 364733,
+  "workerCwd": "/opt/wenheng/releases/20261017-public-output-01",
+  "status": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true,
+    "aggregatePaymentsEnabled": false
+  },
+  "settingsUnchanged": true,
+  "professionalSkillFilesUnchanged": 77,
+  "professionalTierAndFeedbackBenefitsImplemented": false,
+  "paidModelAcceptanceExecuted": false
+}

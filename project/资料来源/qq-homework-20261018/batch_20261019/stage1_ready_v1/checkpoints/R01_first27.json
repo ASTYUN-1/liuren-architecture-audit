@@ -1,0 +1,10 @@
+{
+ "checkpoint": "R01_first27",
+ "at": "2026-10-19T08:20:10",
+ "scope": "seq 0-26（盘图字段已提取）",
+ "cases": 243,
+ "ready": 217,
+ "blocked": 26,
+ "chart_dir": "charts/v1",
+ "next": "补 seq 27+ 盘图字段 → charts/v2 → 重新打包"
+}

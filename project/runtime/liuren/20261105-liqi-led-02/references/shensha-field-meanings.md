@@ -1,0 +1,267 @@
+# 本地字段已核对应的释义（2026-10-23）
+
+执行按程序 `shensha_resolution` 及 [采用规则](<shensha-use.md>)：未采用项不进入主判、辅助或背景风险；本页文献异法保留研究身份，不授权临时择表。
+
+本表补充 [名称索引](<shensha-engine-index.md>)，把新增源码证据已经解决的缺口改为可用入口。依据是本地当前版本的完整赋值表/直接共表关系与所列六壬原文；不只凭单次样本同位，也不声称各传承名称都统一。起法相合只是说明当前可按哪一法参义，不证明来源中所有细断、课体或现实事件均成立。
+
+神将、旺衰坐处、生克制救和所问对象为主；神煞辅助。所有“风险/助益”等义均须结合有效作用，不能单项定结果，也不能从单项不足反向排除对应结果。同一作用、同表别称不重复计证。
+
+引擎只读文件：`排盘工具魔改/js/paipan.js`；SHA-256：`983f9c342c35a6e0353975675050276df93d6d666ddea25aeb053bc9ff5d63a3`。以下解码仅展开已有查表字符串，未改引擎、未调用起课或模型。
+
+| 本地原名 | 可参的基本象义 | 已核的表、方法和限制 | 原书出处/释义入口 |
+|---|---|---|---|
+| 将军 | 大将军：头目、领兵权者；行人占亦用。 | 按岁支子至亥为酉酉子子子卯卯卯午午午酉，与QZ亥子丑酉、寅卯辰子、巳午未卯、申酉戌午全表相合。 | ME-04；MF-01；[M015](<shensha-other-meanings.md>) |
+| 岁宅 | 财物破耗、家宅相关象。 | 按岁支子至亥为巳午未申酉戌亥子丑寅卯辰，和本地岁小耗全表一致；QZ该小耗兼称岁宅。家宅与耗损对象仍分别取。 | ME-04；MF-02；[S08](<shensha-meanings.md>) |
+| 岁虎 | 岁白虎的凶灾、血光等线索。 | 按岁支子至亥为申酉戌亥子丑寅卯辰巳午未，与LS太岁三合后辰相合；按该法参义，不能当天将白虎本身。 | MF-03；岁白虎 |
+| 天恩 | 按此本地字段参皇恩的庇护、诏命迁转等义。 | 程序皇恩直接赋为天恩，两字段共享未酉亥丑卯巳未酉亥丑卯巳月表；不证明所有文献天恩都等同皇恩，也不计两份助益。 | ME-12；[M021](<shensha-other-meanings.md>) |
+| 火烛煞 | 火烛之火患线索。 | 程序与死神共表，正月至十二月巳午未申酉戌亥子丑寅卯辰，与QZ该月火烛位置相合；须并蛇雀且克日/辰等条件，不从共表推成二者所有象义相同。 | ME-07；MF-04；[M077](<shensha-other-meanings.md>) |
+| 月亡神 | 亡失、防失。 | 程序月亡神与亡神均赋为月德；在当前实现全表同位。义参QZ月煞亡神；同表不把月德的助益义强加给亡神，也不把多个字段当独立风险。 | ME-11；[M008](<shensha-other-meanings.md>) |
+| 仪神 | 本地此表可参干奇消祸增吉之义。 | 按日干甲至癸为午巳辰卯寅丑未申酉戌，与QZ甲午逆、庚未顺的干奇全表相合。保留程序原称；不拿它证明旬仪或支仪成立。 | ME-16；MF-05；[M032](<shensha-other-meanings.md>) |
+| 日盗 | 盗失、盗贼相关线索。 | 按日干甲至癸为子亥卯申巳子亥卯申巳，与QZ“子亥卯申巳盗伍”、甲己同例的表相合；保留原字与本地原称，仍不据标签指认现实盗贼。 | MF-05；[M068](<shensha-other-meanings.md>) |
+| 支马 | 日支驿马的行动、迁动等象。 | 按日支子至亥为寅亥申巳寅亥申巳寅亥申巳；与本地日驿马四组三合映射全表一致。当前版本可归并，仍分动意/成行/到达。 | SF-14；[S03](<shensha-meanings.md>) |
+| 支亡 | 日支亡神的亡失线索。 | 程序以寅至丑的yue数组查日支，在巳寅亥申巳寅亥申巳寅亥申串取值；换回子至亥为亥申巳寅亥申巳寅亥申巳寅，与QZ支亡表相合。 | ME-19；MF-06；[M008](<shensha-other-meanings.md>) |
+| 日亡神 | 日支亡神的亡失线索。 | 本地与支亡采用同串及同一寅起索引；按日支子至亥为亥申巳寅亥申巳寅亥申巳寅，与LS日亡神法相合；不和月亡神混算。 | ME-19；MF-06；[M008](<shensha-other-meanings.md>) |
+| 晴朗煞 | 晴天之象。 | 程序以寅起数组查日支，串为申酉戌亥子丑寅卯辰巳午未；换回子至亥为午未申酉戌亥子丑寅卯辰巳，与LS晴朗全表相合。 | ME-18、ME-19；[M084](<shensha-other-meanings.md>) |
+| 咸池 | 桃花、情欲或口舌等来源象，按本问取义。 | 程序桃花直接赋为咸池，完整四组映射与S24所选日支法相合；当前程序可归并，不证明单项出轨、死亡方式等，也不重复计证。 | ME-10；SF-04、SF-14；[S24](<shensha-meanings.md>) |
+| 游魂 | 本地此月表可参飞魂的神魂不定、夜梦等来源象。 | 程序直接赋为天诏，正月亥起顺十二支，与QZ/LS飞魂表全同。这里是按同表参义并保留字段异称；不能泛称所有游魂就是飞魂，也不等同寅丑子连茹游魂。 | ME-08；SF-12；[M041](<shensha-other-meanings.md>) |
+
+## 补充逐字原文
+
+SF/ME另见 [原来源卡](<shensha-sources.md>) 及 [释义来源卡](<shensha-meaning-sources.md>)。MF为本文件摘录，LF行号口径相同，原书只读；原文强语不是当前无条件规则。
+
+### MF-01 岁大将军
+
+`书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt` LF 2217–2221：
+
+```text
+　　岁干禄后号天庭，死符申亥寅巳辰，岁刑太岁所刑者，亥子丑顺酉将军。
+--天庭主朝廷事。
+死符占病多凶。
+岁刑主官非刑责。
+大将军主头目领兵权，又占行人用之。
+```
+
+### MF-02 小耗兼名岁宅
+
+`书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt` LF 2193–2196：
+
+```text
+　　六合官符小耗宅。
+--六合主会合，凡事有成无破。
+官符主官非勾连。
+小耗主破耗财物，又为岁宅，占家宅用之，若并鬼主灾病讼。
+```
+
+### MF-03 岁白虎及岁煞范围
+
+`书籍库/神煞资料/六壬神煞.txt` LF 11–14：
+
+```text
+官符：太岁三合前辰也。比如巳年太岁，则前辰酉为官符，主官司词讼之事。
+白虎：太岁三合后辰也，主血光凶丧之事。
+小耗：病符所冲之辰也，主血光凶丧之事。
+岁墓：太岁后五辰也。主坟墓、病讼、宅灾等事。
+```
+
+### MF-04 月煞顺行上下文、死神与火烛
+
+`书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt` LF 2266–2287：
+
+```text
+　　
+　　正起顺行。
+　　寅　　月建小时龙虎木。
+--月建主月内休咎，应在一月。
+小时煞主阻滞忌行师，蛇加惊恐。
+龙加为青龙煞吉。
+天虎虎狼害。
+木煞主树木怪。
+　　卯　　天龙游煞草蛇伏。
+--天龙利求名禄。
+游神忌出行。入传年命主行动。蛇加为草煞。
+　　辰　　天医雌虎瘟天巫。
+--天医病用。
+雌虎虎狼害。
+瘟煞主疫。
+天巫宜作福。
+　　巳　　厄杖死神电乌烛。
+--厄煞家事损。
+孝杖忌见子孙传内。
+死神病凶，若并虎名白虎啮尸大凶。
+电煞有电。
+朱加为鸟煞。火烛并蛇雀克日身灾克辰宅毁。
+```
+
+### MF-05 干奇和日干盗神的完整分组
+
+`书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt` LF 2568–2579：
+
+```text
+　　干奇甲日午行逆，庚日还于未顺行。飞符甲日巳逆转，己日胜光复顺征。
+--干奇消祸增吉。
+飞符百事勿举，出行忌，走避出入不可抵向；如日德入传，凶中生吉，若并朱勾凶尤甚。
+　　游都牛鼠虎蛇猴，游都冲处鲁都求。亥申未丑酉日解，卯亥丑未日医流。
+--游都主逢盗贼，加大煞来速；占贼来路，出行忌之。
+鲁都不可漏税，占贼去路，出行忌之。
+日解解凶。
+日医病用。
+　　亥酉辰申巳奸言，子亥卯申巳盗伍。日贼辰午申亥寅，贤贵丑申寅寅午。
+--奸淫盗贼俱不吉。
+贤贵立天门其人可传道。
+二章以甲己同例起之。
+```
+
+### MF-06 支亡与日支列头
+
+`书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt` LF 2180–2185：
+
+```text
+　　灾煞　　　午卯子酉午卯子酉午卯子酉
+　　咸池　　　酉午卯子酉午卯子酉午卯子
+　　四煞　　　未辰丑戌未辰丑戌未辰丑戌
+　　支亡　　　亥申巳寅亥申巳寅亥申巳寅
+　　雷电　　　辰辰未未戌戌丑丑寅寅卯卯
+　　雨师　　　申酉戌亥子丑寅卯辰巳午未
+```
+
+## 解码后的关键赋值证据
+
+以下为只读源码字符串展开，变量名与表达式保留；特别注意有的日支项用寅起的yue数组索引，必须比较实际映射，不能只比较原串。
+
+`将军`：
+
+```javascript
+_0x29556c["shensha_list"]['sui']['将军']=['酉酉子子子卯卯卯午午午酉'["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["Zhi"]["indexOf"](_0x4d74fe['yz']>))]
+```
+
+`岁宅`：
+
+```javascript
+_0x29556c["shensha_list"]["sui"]['岁宅']=["巳午未申酉戌亥子丑寅卯辰"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["Zhi"]['indexOf'](_0x4d74fe['yz']>))]
+```
+
+`小耗`：
+
+```javascript
+_0x29556c['shensha_list']["sui"]['小耗']=["巳午未申酉戌亥子丑寅卯辰"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['Zhi']['indexOf'](_0x4d74fe['yz']>))]
+```
+
+`岁虎`：
+
+```javascript
+_0x29556c["shensha_list"]["sui"]['岁虎']=["申酉戌亥子丑寅卯辰巳午未"['charAt'](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['Zhi']["indexOf"](_0x4d74fe['yz']>))]
+```
+
+`天诏`：
+
+```javascript
+_0x29556c['shensha_list']["yue"]['天诏']=["亥子丑寅卯辰巳午未申酉戌"['charAt'](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["yue"]["indexOf"](_0x4d74fe['mz']>))]
+```
+
+`游魂`：
+
+```javascript
+_0x29556c["shensha_list"]["yue"]['游魂']=_0x29556c["shensha_list"]['yue']['天诏']
+```
+
+`天恩`：
+
+```javascript
+_0x29556c["shensha_list"]['yue']['天恩']=['未酉亥丑卯巳未酉亥丑卯巳'["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["yue"]['indexOf'](_0x4d74fe['mz']>))]
+```
+
+`皇恩`：
+
+```javascript
+_0x29556c["shensha_list"]["yue"]['皇恩']=_0x29556c['shensha_list']["yue"]['天恩']
+```
+
+`死神`：
+
+```javascript
+_0x29556c["shensha_list"]["yue"]['死神']=["巳午未申酉戌亥子丑寅卯辰"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['yue']["indexOf"](_0x4d74fe['mz']>))]
+```
+
+`火烛煞`：
+
+```javascript
+_0x29556c["shensha_list"]["yue"]['火烛煞']=_0x29556c["shensha_list"]["yue"]['死神']
+```
+
+`月德`：
+
+```javascript
+_0x29556c["shensha_list"]["yue"]['月德']=["巳寅亥申巳寅亥申巳寅亥申"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["yue"]['indexOf'](_0x4d74fe['mz']>))]
+```
+
+`亡神`：
+
+```javascript
+_0x29556c["shensha_list"]["yue"]['亡神']=_0x29556c['shensha_list']["yue"]['月德']
+```
+
+`月亡神`：
+
+```javascript
+_0x29556c['shensha_list']["yue"]["月亡神"]=_0x29556c["shensha_list"]['yue']['月德']
+```
+
+`仪神`：
+
+```javascript
+_0x29556c["shensha_list"]['dg']['仪神']=["午巳辰卯寅丑未申酉戌"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["gan"]["indexOf"](_0x4d74fe['dg']>))]
+```
+
+`日盗`：
+
+```javascript
+_0x29556c['shensha_list']['dg']['日盗']=["子亥卯申巳子亥卯申巳"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["gan"]['indexOf'](_0x4d74fe['dg']>))]
+```
+
+`支马`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']['支马']=['寅亥申巳寅亥申巳寅亥申巳'["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["Zhi"]["indexOf"](_0x4d74fe['dz']>))]
+```
+
+`支亡`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']['支亡']=["巳寅亥申巳寅亥申巳寅亥申"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["yue"]["indexOf"](_0x4d74fe['dz']>))]
+```
+
+`晴朗煞`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']["晴朗煞"]=['申酉戌亥子丑寅卯辰巳午未'["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['yue']["indexOf"](_0x4d74fe['dz']>))]
+```
+
+`日亡神`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']["日亡神"]=["巳寅亥申巳寅亥申巳寅亥申"["charAt"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe["yue"]['indexOf'](_0x4d74fe['dz']>))]
+```
+
+`咸池`：
+
+```javascript
+_0x29556c['shensha_list']['dz']['咸池']=_0x29556c["shensha_list"]['dz']['咸池']=[[["申子辰",'酉'],["寅午戌",'卯'],['亥卯未','子'],["巳酉丑",'午']]["find"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/([_0x1bb211]>)=>_0x1bb211["includes"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['dz']>))?.[0x1]]
+```
+
+`咸池`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']['咸池']=[[["申子辰",'酉'],["寅午戌",'卯'],['亥卯未','子'],["巳酉丑",'午']]["find"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/([_0x1bb211]>)=>_0x1bb211["includes"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['dz']>))?.[0x1]]
+```
+
+`桃花`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']['桃花']=_0x29556c["shensha_list"]['dz']['咸池']
+```
+
+`驿马`：
+
+```javascript
+_0x29556c["shensha_list"]['dz']['驿马']=[["申子辰",'寅'],['寅午戌','申'],["亥卯未",'巳'],["巳酉丑",'亥']]["find"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/([_0xb84b8f]>)=>_0xb84b8f["includes"](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/_0x4d74fe['dz']>))?.[0x1]['split'](<../archive/previous-package/.opencode/skills/daliuren/refs/runtime/sources/snapshots/.opencode/skills/daliuren/refs/''>)
+```

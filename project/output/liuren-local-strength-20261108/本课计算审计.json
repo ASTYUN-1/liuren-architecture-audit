@@ -1,0 +1,5397 @@
+{
+  "model": "liuren-local-strength-research-v1",
+  "outputs": {
+    "four-seasons": {
+      "graph": {
+        "profile": "four-seasons",
+        "nodes": [
+          {
+            "id": "T:子",
+            "symbol": "子",
+            "kind": "branch",
+            "prevoid": 4.125,
+            "retention": 1,
+            "base": 4.125
+          },
+          {
+            "id": "J:腾蛇",
+            "symbol": "腾蛇",
+            "kind": "general",
+            "base": 2.31,
+            "prevoid": 2.31,
+            "retention": 1
+          },
+          {
+            "id": "D:辰",
+            "symbol": "辰",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1
+          },
+          {
+            "id": "T:丑",
+            "symbol": "丑",
+            "kind": "branch",
+            "prevoid": 2.2737499999999997,
+            "retention": 1,
+            "base": 2.2737499999999997
+          },
+          {
+            "id": "J:贵人",
+            "symbol": "贵人",
+            "kind": "general",
+            "base": 3.03875,
+            "prevoid": 3.03875,
+            "retention": 1
+          },
+          {
+            "id": "D:巳",
+            "symbol": "巳",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1
+          },
+          {
+            "id": "T:寅",
+            "symbol": "寅",
+            "kind": "branch",
+            "prevoid": 1.18,
+            "retention": 0.7071067811865476,
+            "base": 0.8343860018001261
+          },
+          {
+            "id": "J:天后",
+            "symbol": "天后",
+            "kind": "general",
+            "base": 3.7674999999999996,
+            "prevoid": 3.7674999999999996,
+            "retention": 1
+          },
+          {
+            "id": "D:午",
+            "symbol": "午",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1
+          },
+          {
+            "id": "T:卯",
+            "symbol": "卯",
+            "kind": "branch",
+            "prevoid": 1.5,
+            "retention": 0.7071067811865476,
+            "base": 1.0606601717798214
+          },
+          {
+            "id": "J:太阴",
+            "symbol": "太阴",
+            "kind": "general",
+            "base": 5.005,
+            "prevoid": 5.005,
+            "retention": 1
+          },
+          {
+            "id": "D:未",
+            "symbol": "未",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1
+          },
+          {
+            "id": "T:辰",
+            "symbol": "辰",
+            "kind": "branch",
+            "prevoid": 4.86625,
+            "retention": 1,
+            "base": 4.86625
+          },
+          {
+            "id": "J:玄武",
+            "symbol": "玄武",
+            "kind": "general",
+            "base": 4.125,
+            "prevoid": 4.125,
+            "retention": 1
+          },
+          {
+            "id": "D:申",
+            "symbol": "申",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1
+          },
+          {
+            "id": "T:巳",
+            "symbol": "巳",
+            "kind": "branch",
+            "prevoid": 1.77,
+            "retention": 1,
+            "base": 1.77
+          },
+          {
+            "id": "J:太常",
+            "symbol": "太常",
+            "kind": "general",
+            "base": 2.2737499999999997,
+            "prevoid": 2.2737499999999997,
+            "retention": 1
+          },
+          {
+            "id": "D:酉",
+            "symbol": "酉",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1
+          },
+          {
+            "id": "T:午",
+            "symbol": "午",
+            "kind": "branch",
+            "prevoid": 2.25,
+            "retention": 0.6,
+            "base": 1.3499999999999999
+          },
+          {
+            "id": "J:白虎",
+            "symbol": "白虎",
+            "kind": "general",
+            "base": 5.5249999999999995,
+            "prevoid": 5.5249999999999995,
+            "retention": 1
+          },
+          {
+            "id": "D:戌",
+            "symbol": "戌",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1
+          },
+          {
+            "id": "T:未",
+            "symbol": "未",
+            "kind": "branch",
+            "prevoid": 4.05875,
+            "retention": 0.7,
+            "base": 2.841125
+          },
+          {
+            "id": "J:天空",
+            "symbol": "天空",
+            "kind": "general",
+            "base": 3.8462499999999995,
+            "prevoid": 3.8462499999999995,
+            "retention": 1
+          },
+          {
+            "id": "D:亥",
+            "symbol": "亥",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1
+          },
+          {
+            "id": "T:申",
+            "symbol": "申",
+            "kind": "branch",
+            "prevoid": 3.835,
+            "retention": 1,
+            "base": 3.835
+          },
+          {
+            "id": "J:青龙",
+            "symbol": "青龙",
+            "kind": "general",
+            "base": 1.0699999999999998,
+            "prevoid": 1.0699999999999998,
+            "retention": 1
+          },
+          {
+            "id": "D:子",
+            "symbol": "子",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1
+          },
+          {
+            "id": "T:酉",
+            "symbol": "酉",
+            "kind": "branch",
+            "prevoid": 4.875,
+            "retention": 1,
+            "base": 4.875
+          },
+          {
+            "id": "J:勾陈",
+            "symbol": "勾陈",
+            "kind": "general",
+            "base": 3.6125,
+            "prevoid": 3.6125,
+            "retention": 1
+          },
+          {
+            "id": "D:丑",
+            "symbol": "丑",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1
+          },
+          {
+            "id": "T:戌",
+            "symbol": "戌",
+            "kind": "branch",
+            "prevoid": 2.91125,
+            "retention": 1,
+            "base": 2.91125
+          },
+          {
+            "id": "J:六合",
+            "symbol": "六合",
+            "kind": "general",
+            "base": 1.8099999999999998,
+            "prevoid": 1.8099999999999998,
+            "retention": 1
+          },
+          {
+            "id": "D:寅",
+            "symbol": "寅",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1
+          },
+          {
+            "id": "T:亥",
+            "symbol": "亥",
+            "kind": "branch",
+            "prevoid": 3.2449999999999997,
+            "retention": 1,
+            "base": 3.2449999999999997
+          },
+          {
+            "id": "J:朱雀",
+            "symbol": "朱雀",
+            "kind": "general",
+            "base": 1.6049999999999998,
+            "prevoid": 1.6049999999999998,
+            "retention": 1
+          },
+          {
+            "id": "D:卯",
+            "symbol": "卯",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1
+          },
+          {
+            "id": "S:甲",
+            "symbol": "甲",
+            "kind": "day",
+            "base": 1.6,
+            "prevoid": 1.6,
+            "retention": 1
+          }
+        ],
+        "edges": [
+          {
+            "id": "D:辰>T:子",
+            "source": "D:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:申>T:子",
+            "source": "T:申",
+            "target": "T:子",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "T:子>J:腾蛇",
+            "source": "T:子",
+            "target": "J:腾蛇",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:腾蛇>D:辰",
+            "source": "J:腾蛇",
+            "target": "D:辰",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:巳>T:丑",
+            "source": "D:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:丑>T:酉",
+            "source": "T:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75
+          },
+          {
+            "id": "J:贵人>T:丑",
+            "source": "J:贵人",
+            "target": "T:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:丑>J:贵人",
+            "source": "T:丑",
+            "target": "J:贵人",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:巳>J:贵人",
+            "source": "D:巳",
+            "target": "J:贵人",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:寅>D:午",
+            "source": "T:寅",
+            "target": "D:午",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.8
+          },
+          {
+            "id": "T:寅>T:戌",
+            "source": "T:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6
+          },
+          {
+            "id": "J:天后>T:寅",
+            "source": "J:天后",
+            "target": "T:寅",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:天后>D:午",
+            "source": "J:天后",
+            "target": "D:午",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:卯>D:未",
+            "source": "T:卯",
+            "target": "D:未",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:亥>T:卯",
+            "source": "T:亥",
+            "target": "T:卯",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "J:太阴>T:卯",
+            "source": "J:太阴",
+            "target": "T:卯",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:未>J:太阴",
+            "source": "D:未",
+            "target": "J:太阴",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:辰>D:申",
+            "source": "T:辰",
+            "target": "D:申",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "T:辰>T:子",
+            "source": "T:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "T:辰>J:玄武",
+            "source": "T:辰",
+            "target": "J:玄武",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "D:申>J:玄武",
+            "source": "D:申",
+            "target": "J:玄武",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:巳>D:酉",
+            "source": "T:巳",
+            "target": "D:酉",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "T:巳>T:丑",
+            "source": "T:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "T:巳>J:太常",
+            "source": "T:巳",
+            "target": "J:太常",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "J:太常>D:酉",
+            "source": "J:太常",
+            "target": "D:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:午>D:戌",
+            "source": "T:午",
+            "target": "D:戌",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:寅>T:午",
+            "source": "T:寅",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6
+          },
+          {
+            "id": "T:午>J:白虎",
+            "source": "T:午",
+            "target": "J:白虎",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "D:戌>J:白虎",
+            "source": "D:戌",
+            "target": "J:白虎",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:未>D:亥",
+            "source": "T:未",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:卯>T:未",
+            "source": "T:卯",
+            "target": "T:未",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75
+          },
+          {
+            "id": "J:天空>T:未",
+            "source": "J:天空",
+            "target": "T:未",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:未>J:天空",
+            "source": "T:未",
+            "target": "J:天空",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "J:天空>D:亥",
+            "source": "J:天空",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:申>D:子",
+            "source": "T:申",
+            "target": "D:子",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:辰>T:申",
+            "source": "T:辰",
+            "target": "T:申",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "T:申>J:青龙",
+            "source": "T:申",
+            "target": "J:青龙",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "D:子>J:青龙",
+            "source": "D:子",
+            "target": "J:青龙",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:丑>T:酉",
+            "source": "D:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:巳>T:酉",
+            "source": "T:巳",
+            "target": "T:酉",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "J:勾陈>T:酉",
+            "source": "J:勾陈",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:勾陈>D:丑",
+            "source": "J:勾陈",
+            "target": "D:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:丑>J:勾陈",
+            "source": "D:丑",
+            "target": "J:勾陈",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:寅>T:戌",
+            "source": "D:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:午>T:戌",
+            "source": "T:午",
+            "target": "T:戌",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "J:六合>T:戌",
+            "source": "J:六合",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:六合>D:寅",
+            "source": "J:六合",
+            "target": "D:寅",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:寅>J:六合",
+            "source": "D:寅",
+            "target": "J:六合",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:亥>D:卯",
+            "source": "T:亥",
+            "target": "D:卯",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:未>T:亥",
+            "source": "T:未",
+            "target": "T:亥",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "T:亥>J:朱雀",
+            "source": "T:亥",
+            "target": "J:朱雀",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "D:卯>J:朱雀",
+            "source": "D:卯",
+            "target": "J:朱雀",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "S:甲>T:戌",
+            "source": "S:甲",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "日干—干上神"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "S:甲>T:午",
+            "source": "S:甲",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "日干—干阴神"
+            ],
+            "gate": 0.75
+          }
+        ],
+        "pairs": [
+          {
+            "a": "T:子",
+            "b": "D:辰",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:子",
+            "b": "T:申",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:腾蛇",
+            "b": "T:子",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:腾蛇",
+            "b": "D:辰",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:丑",
+            "b": "D:巳",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:丑",
+            "b": "T:酉",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:贵人",
+            "b": "T:丑",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:贵人",
+            "b": "D:巳",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:寅",
+            "b": "D:午",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:寅",
+            "b": "T:戌",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:天后",
+            "b": "T:寅",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:天后",
+            "b": "D:午",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:卯",
+            "b": "D:未",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:卯",
+            "b": "T:亥",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:太阴",
+            "b": "T:卯",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:太阴",
+            "b": "D:未",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:辰",
+            "b": "D:申",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:辰",
+            "b": "T:子",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:玄武",
+            "b": "T:辰",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:玄武",
+            "b": "D:申",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:巳",
+            "b": "D:酉",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:巳",
+            "b": "T:丑",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:太常",
+            "b": "T:巳",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:太常",
+            "b": "D:酉",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:午",
+            "b": "D:戌",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:午",
+            "b": "T:寅",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:白虎",
+            "b": "T:午",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:白虎",
+            "b": "D:戌",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:未",
+            "b": "D:亥",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:未",
+            "b": "T:卯",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:天空",
+            "b": "T:未",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:天空",
+            "b": "D:亥",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:申",
+            "b": "D:子",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:申",
+            "b": "T:辰",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:青龙",
+            "b": "T:申",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:青龙",
+            "b": "D:子",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:酉",
+            "b": "D:丑",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:酉",
+            "b": "T:巳",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:勾陈",
+            "b": "T:酉",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:勾陈",
+            "b": "D:丑",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:戌",
+            "b": "D:寅",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:戌",
+            "b": "T:午",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:六合",
+            "b": "T:戌",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:六合",
+            "b": "D:寅",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:亥",
+            "b": "D:卯",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:亥",
+            "b": "T:未",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:朱雀",
+            "b": "T:亥",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:朱雀",
+            "b": "D:卯",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "S:甲",
+            "b": "T:戌",
+            "gate": 1,
+            "routes": [
+              "日干—干上神"
+            ]
+          },
+          {
+            "a": "S:甲",
+            "b": "T:午",
+            "gate": 0.75,
+            "routes": [
+              "日干—干阴神"
+            ]
+          }
+        ]
+      },
+      "solution": {
+        "profile": "four-seasons",
+        "values": {
+          "T:子": 3.7103898856223836,
+          "J:腾蛇": 1.5879957678063388,
+          "D:辰": 4.25,
+          "T:丑": 3.01276381638474,
+          "J:贵人": 3.819515828905569,
+          "D:巳": 3,
+          "T:寅": 1.177601750003004,
+          "J:天后": 3.348888888889002,
+          "D:午": 3,
+          "T:卯": 0.5264936552881399,
+          "J:太阴": 5.650511866510394,
+          "D:未": 4.25,
+          "T:辰": 4.340736784987017,
+          "J:玄武": 5.18137665666865,
+          "D:申": 6.5,
+          "T:巳": 1.584335117433322,
+          "J:太常": 2.23165170051205,
+          "D:酉": 6.5,
+          "T:午": 1.4439474296417294,
+          "J:白虎": 6.281917991571127,
+          "D:戌": 4.25,
+          "T:未": 2.912611024860567,
+          "J:天空": 3.8990776087343826,
+          "D:亥": 5.5,
+          "T:申": 3.6623418883977354,
+          "J:青龙": 1.7769748785918205,
+          "D:子": 5.5,
+          "T:酉": 6.822664262652411,
+          "J:勾陈": 3.515909090909161,
+          "D:丑": 4.25,
+          "T:戌": 2.2344751383266517,
+          "J:六合": 1.8780797241765708,
+          "D:寅": 2,
+          "T:亥": 2.643479338668543,
+          "J:朱雀": 1.7188606483742577,
+          "D:卯": 2,
+          "S:甲": 1.451055789821139
+        },
+        "iterations": 35,
+        "residual": 6.131203322823353e-10,
+        "ledger": [
+          {
+            "id": "D:辰>T:子",
+            "source": "D:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 3.7103898856223836,
+            "received": -0.4879230500365053,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:申>T:子",
+            "source": "T:申",
+            "target": "T:子",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 3.6623418883977354,
+            "target_strength": 3.7103898856223836,
+            "received": 0.39952820600702565,
+            "source_cost": 0.19976410300351283,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:子>J:腾蛇",
+            "source": "T:子",
+            "target": "J:腾蛇",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 3.7103898856223836,
+            "target_strength": 1.5879957678063388,
+            "received": -0.5632046553147475,
+            "source_cost": 0.1126409310629495,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:腾蛇>D:辰",
+            "source": "J:腾蛇",
+            "target": "D:辰",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 1.5879957678063388,
+            "target_strength": 4.25,
+            "received": 0,
+            "source_cost": 0.1587995767806339,
+            "environment_effect": 0.3175991535612678
+          },
+          {
+            "id": "D:巳>T:丑",
+            "source": "D:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3,
+            "target_strength": 3.01276381638474,
+            "received": 0.6000000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:丑>T:酉",
+            "source": "T:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75,
+            "source_strength": 3.01276381638474,
+            "target_strength": 6.822664262652411,
+            "received": 0.45191457245771105,
+            "source_cost": 0.22595728622885553,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:贵人>T:丑",
+            "source": "J:贵人",
+            "target": "T:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 3.819515828905569,
+            "target_strength": 3.01276381638474,
+            "received": 0.22917094973433413,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:丑>J:贵人",
+            "source": "T:丑",
+            "target": "J:贵人",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 3.01276381638474,
+            "target_strength": 3.819515828905569,
+            "received": 0.18076582898308438,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:巳>J:贵人",
+            "source": "D:巳",
+            "target": "J:贵人",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3,
+            "target_strength": 3.819515828905569,
+            "received": 0.6000000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:寅>D:午",
+            "source": "T:寅",
+            "target": "D:午",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.8,
+            "source_strength": 1.177601750003004,
+            "target_strength": 3,
+            "received": 0,
+            "source_cost": 0.09420814000024035,
+            "environment_effect": 0.1884162800004807
+          },
+          {
+            "id": "T:寅>T:戌",
+            "source": "T:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6,
+            "source_strength": 1.177601750003004,
+            "target_strength": 2.2344751383266517,
+            "received": -0.0976658342854201,
+            "source_cost": 0.01953316685708402,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天后>T:寅",
+            "source": "J:天后",
+            "target": "T:寅",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 3.348888888889002,
+            "target_strength": 1.177601750003004,
+            "received": 0.6697777777778005,
+            "source_cost": 0.3348888888889002,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天后>D:午",
+            "source": "J:天后",
+            "target": "D:午",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3.348888888889002,
+            "target_strength": 3,
+            "received": 0,
+            "source_cost": 0.08372222222222506,
+            "environment_effect": -0.41861111111112526
+          },
+          {
+            "id": "T:卯>D:未",
+            "source": "T:卯",
+            "target": "D:未",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 0.5264936552881399,
+            "target_strength": 4.25,
+            "received": 0,
+            "source_cost": 0.011383646600824646,
+            "environment_effect": -0.05691823300412323
+          },
+          {
+            "id": "T:亥>T:卯",
+            "source": "T:亥",
+            "target": "T:卯",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 2.643479338668543,
+            "target_strength": 0.5264936552881399,
+            "received": 0.2883795642183865,
+            "source_cost": 0.14418978210919325,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:太阴>T:卯",
+            "source": "J:太阴",
+            "target": "T:卯",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 5.650511866510394,
+            "target_strength": 0.5264936552881399,
+            "received": -1.022440668343767,
+            "source_cost": 0.2044881336687534,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:未>J:太阴",
+            "source": "D:未",
+            "target": "J:太阴",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 5.650511866510394,
+            "received": 0.8500000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:辰>D:申",
+            "source": "T:辰",
+            "target": "D:申",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 4.340736784987017,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0.24804210199925814,
+            "environment_effect": 0.49608420399851627
+          },
+          {
+            "id": "T:辰>T:子",
+            "source": "T:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 4.340736784987017,
+            "target_strength": 3.7103898856223836,
+            "received": -0.213574339314607,
+            "source_cost": 0.042714867862921405,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:辰>J:玄武",
+            "source": "T:辰",
+            "target": "J:玄武",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 4.340736784987017,
+            "target_strength": 5.18137665666865,
+            "received": -0.24362334325073245,
+            "source_cost": 0.04872466865014649,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:申>J:玄武",
+            "source": "D:申",
+            "target": "J:玄武",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 6.5,
+            "target_strength": 5.18137665666865,
+            "received": 1.3,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:巳>D:酉",
+            "source": "T:巳",
+            "target": "D:酉",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 1.584335117433322,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0.015744945266418106,
+            "environment_effect": -0.07872472633209053
+          },
+          {
+            "id": "T:巳>T:丑",
+            "source": "T:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 1.584335117433322,
+            "target_strength": 3.01276381638474,
+            "received": 0.13580015292285616,
+            "source_cost": 0.06790007646142808,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:巳>J:太常",
+            "source": "T:巳",
+            "target": "J:太常",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 1.584335117433322,
+            "target_strength": 2.23165170051205,
+            "received": 0.1810668705638082,
+            "source_cost": 0.0905334352819041,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:太常>D:酉",
+            "source": "J:太常",
+            "target": "D:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2.23165170051205,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0.223165170051205,
+            "environment_effect": 0.44633034010241
+          },
+          {
+            "id": "T:午>D:戌",
+            "source": "T:午",
+            "target": "D:戌",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 1.4439474296417294,
+            "target_strength": 4.25,
+            "received": 0,
+            "source_cost": 0.10501435851939851,
+            "environment_effect": 0.21002871703879702
+          },
+          {
+            "id": "T:寅>T:午",
+            "source": "T:寅",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6,
+            "source_strength": 1.177601750003004,
+            "target_strength": 1.4439474296417294,
+            "received": 0.14131221000036048,
+            "source_cost": 0.07065610500018024,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:午>J:白虎",
+            "source": "T:午",
+            "target": "J:白虎",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 1.4439474296417294,
+            "target_strength": 6.281917991571127,
+            "received": -0.09308200839418986,
+            "source_cost": 0.018616401678837973,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:戌>J:白虎",
+            "source": "D:戌",
+            "target": "J:白虎",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 6.281917991571127,
+            "received": 0.8500000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:未>D:亥",
+            "source": "T:未",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 2.912611024860567,
+            "target_strength": 5.5,
+            "received": 0,
+            "source_cost": 0.04034785835304682,
+            "environment_effect": -0.20173929176523409
+          },
+          {
+            "id": "T:卯>T:未",
+            "source": "T:卯",
+            "target": "T:未",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75,
+            "source_strength": 0.5264936552881399,
+            "target_strength": 2.912611024860567,
+            "received": -0.04990391164502658,
+            "source_cost": 0.009980782329005317,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天空>T:未",
+            "source": "J:天空",
+            "target": "T:未",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 3.8990776087343826,
+            "target_strength": 2.912611024860567,
+            "received": 0.23394465652406293,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:未>J:天空",
+            "source": "T:未",
+            "target": "J:天空",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 2.912611024860567,
+            "target_strength": 3.8990776087343826,
+            "received": 0.12709575381209745,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天空>D:亥",
+            "source": "J:天空",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3.8990776087343826,
+            "target_strength": 5.5,
+            "received": 0,
+            "source_cost": 0.07426814492827395,
+            "environment_effect": -0.37134072464136975
+          },
+          {
+            "id": "T:申>D:子",
+            "source": "T:申",
+            "target": "D:子",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 3.6623418883977354,
+            "target_strength": 5.5,
+            "received": 0,
+            "source_cost": 0.26635213733801716,
+            "environment_effect": 0.5327042746760343
+          },
+          {
+            "id": "T:辰>T:申",
+            "source": "T:辰",
+            "target": "T:申",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 4.340736784987017,
+            "target_strength": 3.6623418883977354,
+            "received": 0.3720631529988872,
+            "source_cost": 0.1860315764994436,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:申>J:青龙",
+            "source": "T:申",
+            "target": "J:青龙",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 3.6623418883977354,
+            "target_strength": 1.7769748785918205,
+            "received": -0.39302512125197986,
+            "source_cost": 0.07860502425039598,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:子>J:青龙",
+            "source": "D:子",
+            "target": "J:青龙",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 5.5,
+            "target_strength": 1.7769748785918205,
+            "received": 1.1,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:丑>T:酉",
+            "source": "D:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 6.822664262652411,
+            "received": 0.8500000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:巳>T:酉",
+            "source": "T:巳",
+            "target": "T:酉",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 1.584335117433322,
+            "target_strength": 6.822664262652411,
+            "received": -0.05743212777844266,
+            "source_cost": 0.011486425555688531,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:勾陈>T:酉",
+            "source": "J:勾陈",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 3.515909090909161,
+            "target_strength": 6.822664262652411,
+            "received": 0.7031818181818322,
+            "source_cost": 0.3515909090909161,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:勾陈>D:丑",
+            "source": "J:勾陈",
+            "target": "D:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3.515909090909161,
+            "target_strength": 4.25,
+            "received": 0,
+            "source_cost": 0,
+            "environment_effect": 0.21095454545454964
+          },
+          {
+            "id": "D:丑>J:勾陈",
+            "source": "D:丑",
+            "target": "J:勾陈",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 3.515909090909161,
+            "received": 0.255,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:寅>T:戌",
+            "source": "D:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2,
+            "target_strength": 2.2344751383266517,
+            "received": -0.2764540566881544,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:午>T:戌",
+            "source": "T:午",
+            "target": "T:戌",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 1.4439474296417294,
+            "target_strength": 2.2344751383266517,
+            "received": 0.15752153777909775,
+            "source_cost": 0.07876076888954887,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:六合>T:戌",
+            "source": "J:六合",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 1.8780797241765708,
+            "target_strength": 2.2344751383266517,
+            "received": -0.2596013792661916,
+            "source_cost": 0.05192027585323832,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:六合>D:寅",
+            "source": "J:六合",
+            "target": "D:寅",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 1.8780797241765708,
+            "target_strength": 2,
+            "received": 0,
+            "source_cost": 0,
+            "environment_effect": 0.11268478345059424
+          },
+          {
+            "id": "D:寅>J:六合",
+            "source": "D:寅",
+            "target": "J:六合",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2,
+            "target_strength": 1.8780797241765708,
+            "received": 0.12,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:亥>D:卯",
+            "source": "T:亥",
+            "target": "D:卯",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 2.643479338668543,
+            "target_strength": 2,
+            "received": 0,
+            "source_cost": 0.19225304281225772,
+            "environment_effect": 0.38450608562451544
+          },
+          {
+            "id": "T:未>T:亥",
+            "source": "T:未",
+            "target": "T:亥",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 2.912611024860567,
+            "target_strength": 2.643479338668543,
+            "received": -0.20784996625999405,
+            "source_cost": 0.04156999325199881,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:亥>J:朱雀",
+            "source": "T:亥",
+            "target": "J:朱雀",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 2.643479338668543,
+            "target_strength": 1.7188606483742577,
+            "received": -0.28613935140740954,
+            "source_cost": 0.05722787028148191,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:卯>J:朱雀",
+            "source": "D:卯",
+            "target": "J:朱雀",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2,
+            "target_strength": 1.7188606483742577,
+            "received": 0.4,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "S:甲>T:戌",
+            "source": "S:甲",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "日干—干上神"
+            ],
+            "gate": 1,
+            "source_strength": 1.451055789821139,
+            "target_strength": 2.2344751383266517,
+            "received": -0.20057512978844394,
+            "source_cost": 0.04011502595768879,
+            "environment_effect": 0
+          },
+          {
+            "id": "S:甲>T:午",
+            "source": "S:甲",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "日干—干阴神"
+            ],
+            "gate": 0.75,
+            "source_strength": 1.451055789821139,
+            "target_strength": 1.4439474296417294,
+            "received": 0.21765836847317088,
+            "source_cost": 0.10882918423658544,
+            "environment_effect": 0
+          }
+        ],
+        "delta": {
+          "T:子": -0.4146101144070362,
+          "J:腾蛇": -0.7220042320953814,
+          "D:辰": 0,
+          "T:丑": 0.7390138164283349,
+          "J:贵人": 0.7807658289830844,
+          "D:巳": 0,
+          "T:寅": 0.4853803659202959,
+          "J:天后": -0.41861111111112526,
+          "D:午": 0,
+          "T:卯": -0.7554255330552105,
+          "J:太阴": 0.6455118663312467,
+          "D:未": 0,
+          "T:辰": -0.5255132150117696,
+          "J:玄武": 1.0563766567492676,
+          "D:申": 0,
+          "T:巳": -0.18566488256543884,
+          "J:太常": -0.042098299487396795,
+          "D:酉": 0,
+          "T:午": 0.15657904938574602,
+          "J:白虎": 0.7569179916058102,
+          "D:戌": 0,
+          "T:未": 0.10212289327399071,
+          "J:天空": 0.0528276088838235,
+          "D:亥": 0,
+          "T:申": -0.17265811159303876,
+          "J:青龙": 0.7069748787480202,
+          "D:子": 0,
+          "T:酉": 1.9476642628611005,
+          "J:勾陈": -0.09659090909091611,
+          "D:丑": 0,
+          "T:戌": -0.6767748622491123,
+          "J:六合": 0.06807972414676167,
+          "D:寅": 0,
+          "T:亥": -0.6015206614629269,
+          "J:朱雀": 0.11386064859259049,
+          "D:卯": 0,
+          "S:甲": -0.14894421019427423
+        },
+        "rows": [
+          {
+            "id": "T:子",
+            "symbol": "子",
+            "kind": "branch",
+            "prevoid": 4.125,
+            "retention": 1,
+            "base": 4.125,
+            "element": "水",
+            "value": 3.7103898856223836,
+            "change": -0.4146101143776164,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:腾蛇",
+            "symbol": "腾蛇",
+            "kind": "general",
+            "base": 2.31,
+            "prevoid": 2.31,
+            "retention": 1,
+            "element": "火",
+            "value": 1.5879957678063388,
+            "change": -0.7220042321936613,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:辰",
+            "symbol": "辰",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1,
+            "element": "土",
+            "value": 4.25,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:丑",
+            "symbol": "丑",
+            "kind": "branch",
+            "prevoid": 2.2737499999999997,
+            "retention": 1,
+            "base": 2.2737499999999997,
+            "element": "土",
+            "value": 3.01276381638474,
+            "change": 0.7390138163847402,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:贵人",
+            "symbol": "贵人",
+            "kind": "general",
+            "base": 3.03875,
+            "prevoid": 3.03875,
+            "retention": 1,
+            "element": "土",
+            "value": 3.819515828905569,
+            "change": 0.7807658289055692,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:巳",
+            "symbol": "巳",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1,
+            "element": "火",
+            "value": 3,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:寅",
+            "symbol": "寅",
+            "kind": "branch",
+            "prevoid": 1.18,
+            "retention": 0.7071067811865476,
+            "base": 0.8343860018001261,
+            "element": "木",
+            "value": 1.177601750003004,
+            "change": 0.3432157482028779,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:天后",
+            "symbol": "天后",
+            "kind": "general",
+            "base": 3.7674999999999996,
+            "prevoid": 3.7674999999999996,
+            "retention": 1,
+            "element": "水",
+            "value": 3.348888888889002,
+            "change": -0.4186111111109976,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:午",
+            "symbol": "午",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1,
+            "element": "火",
+            "value": 3,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:卯",
+            "symbol": "卯",
+            "kind": "branch",
+            "prevoid": 1.5,
+            "retention": 0.7071067811865476,
+            "base": 1.0606601717798214,
+            "element": "木",
+            "value": 0.5264936552881399,
+            "change": -0.5341665164916816,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:太阴",
+            "symbol": "太阴",
+            "kind": "general",
+            "base": 5.005,
+            "prevoid": 5.005,
+            "retention": 1,
+            "element": "金",
+            "value": 5.650511866510394,
+            "change": 0.645511866510394,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:未",
+            "symbol": "未",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1,
+            "element": "土",
+            "value": 4.25,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:辰",
+            "symbol": "辰",
+            "kind": "branch",
+            "prevoid": 4.86625,
+            "retention": 1,
+            "base": 4.86625,
+            "element": "土",
+            "value": 4.340736784987017,
+            "change": -0.5255132150129826,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:玄武",
+            "symbol": "玄武",
+            "kind": "general",
+            "base": 4.125,
+            "prevoid": 4.125,
+            "retention": 1,
+            "element": "水",
+            "value": 5.18137665666865,
+            "change": 1.0563766566686503,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:申",
+            "symbol": "申",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1,
+            "element": "金",
+            "value": 6.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:巳",
+            "symbol": "巳",
+            "kind": "branch",
+            "prevoid": 1.77,
+            "retention": 1,
+            "base": 1.77,
+            "element": "火",
+            "value": 1.584335117433322,
+            "change": -0.185664882566678,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:太常",
+            "symbol": "太常",
+            "kind": "general",
+            "base": 2.2737499999999997,
+            "prevoid": 2.2737499999999997,
+            "retention": 1,
+            "element": "土",
+            "value": 2.23165170051205,
+            "change": -0.04209829948794974,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:酉",
+            "symbol": "酉",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1,
+            "element": "金",
+            "value": 6.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:午",
+            "symbol": "午",
+            "kind": "branch",
+            "prevoid": 2.25,
+            "retention": 0.6,
+            "base": 1.3499999999999999,
+            "element": "火",
+            "value": 1.4439474296417294,
+            "change": 0.09394742964172953,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:白虎",
+            "symbol": "白虎",
+            "kind": "general",
+            "base": 5.5249999999999995,
+            "prevoid": 5.5249999999999995,
+            "retention": 1,
+            "element": "金",
+            "value": 6.281917991571127,
+            "change": 0.7569179915711279,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:戌",
+            "symbol": "戌",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1,
+            "element": "土",
+            "value": 4.25,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:未",
+            "symbol": "未",
+            "kind": "branch",
+            "prevoid": 4.05875,
+            "retention": 0.7,
+            "base": 2.841125,
+            "element": "土",
+            "value": 2.912611024860567,
+            "change": 0.0714860248605671,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:天空",
+            "symbol": "天空",
+            "kind": "general",
+            "base": 3.8462499999999995,
+            "prevoid": 3.8462499999999995,
+            "retention": 1,
+            "element": "土",
+            "value": 3.8990776087343826,
+            "change": 0.05282760873438308,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:亥",
+            "symbol": "亥",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1,
+            "element": "水",
+            "value": 5.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:申",
+            "symbol": "申",
+            "kind": "branch",
+            "prevoid": 3.835,
+            "retention": 1,
+            "base": 3.835,
+            "element": "金",
+            "value": 3.6623418883977354,
+            "change": -0.17265811160226452,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:青龙",
+            "symbol": "青龙",
+            "kind": "general",
+            "base": 1.0699999999999998,
+            "prevoid": 1.0699999999999998,
+            "retention": 1,
+            "element": "木",
+            "value": 1.7769748785918205,
+            "change": 0.7069748785918206,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:子",
+            "symbol": "子",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1,
+            "element": "水",
+            "value": 5.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:酉",
+            "symbol": "酉",
+            "kind": "branch",
+            "prevoid": 4.875,
+            "retention": 1,
+            "base": 4.875,
+            "element": "金",
+            "value": 6.822664262652411,
+            "change": 1.9476642626524114,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:勾陈",
+            "symbol": "勾陈",
+            "kind": "general",
+            "base": 3.6125,
+            "prevoid": 3.6125,
+            "retention": 1,
+            "element": "土",
+            "value": 3.515909090909161,
+            "change": -0.096590909090839,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:丑",
+            "symbol": "丑",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1,
+            "element": "土",
+            "value": 4.25,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:戌",
+            "symbol": "戌",
+            "kind": "branch",
+            "prevoid": 2.91125,
+            "retention": 1,
+            "base": 2.91125,
+            "element": "土",
+            "value": 2.2344751383266517,
+            "change": -0.6767748616733482,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:六合",
+            "symbol": "六合",
+            "kind": "general",
+            "base": 1.8099999999999998,
+            "prevoid": 1.8099999999999998,
+            "retention": 1,
+            "element": "木",
+            "value": 1.8780797241765708,
+            "change": 0.06807972417657093,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:寅",
+            "symbol": "寅",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1,
+            "element": "木",
+            "value": 2,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:亥",
+            "symbol": "亥",
+            "kind": "branch",
+            "prevoid": 3.2449999999999997,
+            "retention": 1,
+            "base": 3.2449999999999997,
+            "element": "水",
+            "value": 2.643479338668543,
+            "change": -0.6015206613314565,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:朱雀",
+            "symbol": "朱雀",
+            "kind": "general",
+            "base": 1.6049999999999998,
+            "prevoid": 1.6049999999999998,
+            "retention": 1,
+            "element": "火",
+            "value": 1.7188606483742577,
+            "change": 0.11386064837425791,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:卯",
+            "symbol": "卯",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1,
+            "element": "木",
+            "value": 2,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "S:甲",
+            "symbol": "甲",
+            "kind": "day",
+            "base": 1.6,
+            "prevoid": 1.6,
+            "retention": 1,
+            "element": "木",
+            "value": 1.451055789821139,
+            "change": -0.14894421017886117,
+            "cap_adjustment": 0
+          }
+        ]
+      }
+    },
+    "quarter-earth": {
+      "graph": {
+        "profile": "quarter-earth",
+        "nodes": [
+          {
+            "id": "T:子",
+            "symbol": "子",
+            "kind": "branch",
+            "prevoid": 1.5,
+            "retention": 1,
+            "base": 1.5
+          },
+          {
+            "id": "J:腾蛇",
+            "symbol": "腾蛇",
+            "kind": "general",
+            "base": 3.2725,
+            "prevoid": 3.2725,
+            "retention": 1
+          },
+          {
+            "id": "D:辰",
+            "symbol": "辰",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1
+          },
+          {
+            "id": "T:丑",
+            "symbol": "丑",
+            "kind": "branch",
+            "prevoid": 3.4774999999999996,
+            "retention": 1,
+            "base": 3.4774999999999996
+          },
+          {
+            "id": "J:贵人",
+            "symbol": "贵人",
+            "kind": "general",
+            "base": 4.6475,
+            "prevoid": 4.6475,
+            "retention": 1
+          },
+          {
+            "id": "D:巳",
+            "symbol": "巳",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1
+          },
+          {
+            "id": "T:寅",
+            "symbol": "寅",
+            "kind": "branch",
+            "prevoid": 1.77,
+            "retention": 0.7745966692414834,
+            "base": 1.3710361045574257
+          },
+          {
+            "id": "J:天后",
+            "symbol": "天后",
+            "kind": "general",
+            "base": 1.3699999999999999,
+            "prevoid": 1.3699999999999999,
+            "retention": 1
+          },
+          {
+            "id": "D:午",
+            "symbol": "午",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1
+          },
+          {
+            "id": "T:卯",
+            "symbol": "卯",
+            "kind": "branch",
+            "prevoid": 2.25,
+            "retention": 0.7745966692414834,
+            "base": 1.7428425057933377
+          },
+          {
+            "id": "J:太阴",
+            "symbol": "太阴",
+            "kind": "general",
+            "base": 4.235,
+            "prevoid": 4.235,
+            "retention": 1
+          },
+          {
+            "id": "D:未",
+            "symbol": "未",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1
+          },
+          {
+            "id": "T:辰",
+            "symbol": "辰",
+            "kind": "branch",
+            "prevoid": 7.4425,
+            "retention": 1,
+            "base": 7.4425
+          },
+          {
+            "id": "J:玄武",
+            "symbol": "玄武",
+            "kind": "general",
+            "base": 1.5,
+            "prevoid": 1.5,
+            "retention": 1
+          },
+          {
+            "id": "D:申",
+            "symbol": "申",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1
+          },
+          {
+            "id": "T:巳",
+            "symbol": "巳",
+            "kind": "branch",
+            "prevoid": 2.5075,
+            "retention": 1,
+            "base": 2.5075
+          },
+          {
+            "id": "J:太常",
+            "symbol": "太常",
+            "kind": "general",
+            "base": 3.4774999999999996,
+            "prevoid": 3.4774999999999996,
+            "retention": 1
+          },
+          {
+            "id": "D:酉",
+            "symbol": "酉",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1
+          },
+          {
+            "id": "T:午",
+            "symbol": "午",
+            "kind": "branch",
+            "prevoid": 3.1875,
+            "retention": 0.7,
+            "base": 2.2312499999999997
+          },
+          {
+            "id": "J:白虎",
+            "symbol": "白虎",
+            "kind": "general",
+            "base": 4.675,
+            "prevoid": 4.675,
+            "retention": 1
+          },
+          {
+            "id": "D:戌",
+            "symbol": "戌",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1
+          },
+          {
+            "id": "T:未",
+            "symbol": "未",
+            "kind": "branch",
+            "prevoid": 6.2075,
+            "retention": 0.85,
+            "base": 5.276375
+          },
+          {
+            "id": "J:天空",
+            "symbol": "天空",
+            "kind": "general",
+            "base": 5.882499999999999,
+            "prevoid": 5.882499999999999,
+            "retention": 1
+          },
+          {
+            "id": "D:亥",
+            "symbol": "亥",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1
+          },
+          {
+            "id": "T:申",
+            "symbol": "申",
+            "kind": "branch",
+            "prevoid": 3.2449999999999997,
+            "retention": 1,
+            "base": 3.2449999999999997
+          },
+          {
+            "id": "J:青龙",
+            "symbol": "青龙",
+            "kind": "general",
+            "base": 1.6049999999999998,
+            "prevoid": 1.6049999999999998,
+            "retention": 1
+          },
+          {
+            "id": "D:子",
+            "symbol": "子",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1
+          },
+          {
+            "id": "T:酉",
+            "symbol": "酉",
+            "kind": "branch",
+            "prevoid": 4.125,
+            "retention": 1,
+            "base": 4.125
+          },
+          {
+            "id": "J:勾陈",
+            "symbol": "勾陈",
+            "kind": "general",
+            "base": 5.5249999999999995,
+            "prevoid": 5.5249999999999995,
+            "retention": 1
+          },
+          {
+            "id": "D:丑",
+            "symbol": "丑",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1
+          },
+          {
+            "id": "T:戌",
+            "symbol": "戌",
+            "kind": "branch",
+            "prevoid": 4.4525,
+            "retention": 1,
+            "base": 4.4525
+          },
+          {
+            "id": "J:六合",
+            "symbol": "六合",
+            "kind": "general",
+            "base": 2.715,
+            "prevoid": 2.715,
+            "retention": 1
+          },
+          {
+            "id": "D:寅",
+            "symbol": "寅",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1
+          },
+          {
+            "id": "T:亥",
+            "symbol": "亥",
+            "kind": "branch",
+            "prevoid": 1.18,
+            "retention": 1,
+            "base": 1.18
+          },
+          {
+            "id": "J:朱雀",
+            "symbol": "朱雀",
+            "kind": "general",
+            "base": 2.2737499999999997,
+            "prevoid": 2.2737499999999997,
+            "retention": 1
+          },
+          {
+            "id": "D:卯",
+            "symbol": "卯",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1
+          },
+          {
+            "id": "S:甲",
+            "symbol": "甲",
+            "kind": "day",
+            "base": 2.4000000000000004,
+            "prevoid": 2.4000000000000004,
+            "retention": 1
+          }
+        ],
+        "edges": [
+          {
+            "id": "D:辰>T:子",
+            "source": "D:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:申>T:子",
+            "source": "T:申",
+            "target": "T:子",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "T:子>J:腾蛇",
+            "source": "T:子",
+            "target": "J:腾蛇",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:腾蛇>D:辰",
+            "source": "J:腾蛇",
+            "target": "D:辰",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:巳>T:丑",
+            "source": "D:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:丑>T:酉",
+            "source": "T:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75
+          },
+          {
+            "id": "J:贵人>T:丑",
+            "source": "J:贵人",
+            "target": "T:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:丑>J:贵人",
+            "source": "T:丑",
+            "target": "J:贵人",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:巳>J:贵人",
+            "source": "D:巳",
+            "target": "J:贵人",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:寅>D:午",
+            "source": "T:寅",
+            "target": "D:午",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.8
+          },
+          {
+            "id": "T:寅>T:戌",
+            "source": "T:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6
+          },
+          {
+            "id": "J:天后>T:寅",
+            "source": "J:天后",
+            "target": "T:寅",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:天后>D:午",
+            "source": "J:天后",
+            "target": "D:午",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:卯>D:未",
+            "source": "T:卯",
+            "target": "D:未",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:亥>T:卯",
+            "source": "T:亥",
+            "target": "T:卯",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "J:太阴>T:卯",
+            "source": "J:太阴",
+            "target": "T:卯",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:未>J:太阴",
+            "source": "D:未",
+            "target": "J:太阴",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:辰>D:申",
+            "source": "T:辰",
+            "target": "D:申",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "T:辰>T:子",
+            "source": "T:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "T:辰>J:玄武",
+            "source": "T:辰",
+            "target": "J:玄武",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "D:申>J:玄武",
+            "source": "D:申",
+            "target": "J:玄武",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:巳>D:酉",
+            "source": "T:巳",
+            "target": "D:酉",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "T:巳>T:丑",
+            "source": "T:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "T:巳>J:太常",
+            "source": "T:巳",
+            "target": "J:太常",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714
+          },
+          {
+            "id": "J:太常>D:酉",
+            "source": "J:太常",
+            "target": "D:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:午>D:戌",
+            "source": "T:午",
+            "target": "D:戌",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:寅>T:午",
+            "source": "T:寅",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6
+          },
+          {
+            "id": "T:午>J:白虎",
+            "source": "T:午",
+            "target": "J:白虎",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "D:戌>J:白虎",
+            "source": "D:戌",
+            "target": "J:白虎",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:未>D:亥",
+            "source": "T:未",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:卯>T:未",
+            "source": "T:卯",
+            "target": "T:未",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75
+          },
+          {
+            "id": "J:天空>T:未",
+            "source": "J:天空",
+            "target": "T:未",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:未>J:天空",
+            "source": "T:未",
+            "target": "J:天空",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "J:天空>D:亥",
+            "source": "J:天空",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:申>D:子",
+            "source": "T:申",
+            "target": "D:子",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:辰>T:申",
+            "source": "T:辰",
+            "target": "T:申",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "T:申>J:青龙",
+            "source": "T:申",
+            "target": "J:青龙",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "D:子>J:青龙",
+            "source": "D:子",
+            "target": "J:青龙",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:丑>T:酉",
+            "source": "D:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:巳>T:酉",
+            "source": "T:巳",
+            "target": "T:酉",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855
+          },
+          {
+            "id": "J:勾陈>T:酉",
+            "source": "J:勾陈",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:勾陈>D:丑",
+            "source": "J:勾陈",
+            "target": "D:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:丑>J:勾陈",
+            "source": "D:丑",
+            "target": "J:勾陈",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:寅>T:戌",
+            "source": "D:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:午>T:戌",
+            "source": "T:午",
+            "target": "T:戌",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "J:六合>T:戌",
+            "source": "J:六合",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "J:六合>D:寅",
+            "source": "J:六合",
+            "target": "D:寅",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "D:寅>J:六合",
+            "source": "D:寅",
+            "target": "J:六合",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "T:亥>D:卯",
+            "source": "T:亥",
+            "target": "D:卯",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "T:未>T:亥",
+            "source": "T:未",
+            "target": "T:亥",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454
+          },
+          {
+            "id": "T:亥>J:朱雀",
+            "source": "T:亥",
+            "target": "J:朱雀",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273
+          },
+          {
+            "id": "D:卯>J:朱雀",
+            "source": "D:卯",
+            "target": "J:朱雀",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "S:甲>T:戌",
+            "source": "S:甲",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "日干—干上神"
+            ],
+            "gate": 1
+          },
+          {
+            "id": "S:甲>T:午",
+            "source": "S:甲",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "日干—干阴神"
+            ],
+            "gate": 0.75
+          }
+        ],
+        "pairs": [
+          {
+            "a": "T:子",
+            "b": "D:辰",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:子",
+            "b": "T:申",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:腾蛇",
+            "b": "T:子",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:腾蛇",
+            "b": "D:辰",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:丑",
+            "b": "D:巳",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:丑",
+            "b": "T:酉",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:贵人",
+            "b": "T:丑",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:贵人",
+            "b": "D:巳",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:寅",
+            "b": "D:午",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:寅",
+            "b": "T:戌",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:天后",
+            "b": "T:寅",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:天后",
+            "b": "D:午",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:卯",
+            "b": "D:未",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:卯",
+            "b": "T:亥",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:太阴",
+            "b": "T:卯",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:太阴",
+            "b": "D:未",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:辰",
+            "b": "D:申",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:辰",
+            "b": "T:子",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:玄武",
+            "b": "T:辰",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:玄武",
+            "b": "D:申",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:巳",
+            "b": "D:酉",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:巳",
+            "b": "T:丑",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:太常",
+            "b": "T:巳",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:太常",
+            "b": "D:酉",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:午",
+            "b": "D:戌",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:午",
+            "b": "T:寅",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:白虎",
+            "b": "T:午",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:白虎",
+            "b": "D:戌",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:未",
+            "b": "D:亥",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:未",
+            "b": "T:卯",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:天空",
+            "b": "T:未",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:天空",
+            "b": "D:亥",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:申",
+            "b": "D:子",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:申",
+            "b": "T:辰",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:青龙",
+            "b": "T:申",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:青龙",
+            "b": "D:子",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:酉",
+            "b": "D:丑",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:酉",
+            "b": "T:巳",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:勾陈",
+            "b": "T:酉",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:勾陈",
+            "b": "D:丑",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:戌",
+            "b": "D:寅",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:戌",
+            "b": "T:午",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:六合",
+            "b": "T:戌",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:六合",
+            "b": "D:寅",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "T:亥",
+            "b": "D:卯",
+            "gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ]
+          },
+          {
+            "a": "T:亥",
+            "b": "T:未",
+            "gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ]
+          },
+          {
+            "a": "J:朱雀",
+            "b": "T:亥",
+            "gate": 1,
+            "routes": [
+              "天将—乘支"
+            ]
+          },
+          {
+            "a": "J:朱雀",
+            "b": "D:卯",
+            "gate": 1,
+            "routes": [
+              "天将—地盘"
+            ]
+          },
+          {
+            "a": "S:甲",
+            "b": "T:戌",
+            "gate": 1,
+            "routes": [
+              "日干—干上神"
+            ]
+          },
+          {
+            "a": "S:甲",
+            "b": "T:午",
+            "gate": 0.75,
+            "routes": [
+              "日干—干阴神"
+            ]
+          }
+        ]
+      },
+      "solution": {
+        "profile": "quarter-earth",
+        "values": {
+          "T:子": 5.357837235633628e-10,
+          "J:腾蛇": 2.97499999937102,
+          "D:辰": 6.5,
+          "T:丑": 4.526413358213323,
+          "J:贵人": 5.769084801435149,
+          "D:巳": 4.25,
+          "T:寅": 1.3941611291425846,
+          "J:天后": 1.2214457831325503,
+          "D:午": 4.25,
+          "T:卯": 1.0821828015170774,
+          "J:太阴": 5.3587873627190294,
+          "D:未": 6.5,
+          "T:辰": 6.5670489271418155,
+          "J:玄武": 2.0691590065229324,
+          "D:申": 5.5,
+          "T:巳": 2.242908173635331,
+          "J:太常": 3.3943930570003538,
+          "D:酉": 5.5,
+          "T:午": 2.346705761809157,
+          "J:白虎": 5.8172243033900495,
+          "D:戌": 6.5,
+          "T:未": 5.329997984096124,
+          "J:天空": 5.94521834873613,
+          "D:亥": 2,
+          "T:申": 3.313596340602742,
+          "J:青龙": 1.6421843792843775,
+          "D:子": 2,
+          "T:酉": 7.09997453388136,
+          "J:勾陈": 5.377272727272775,
+          "D:丑": 6.5,
+          "T:戌": 3.6898271946408574,
+          "J:六合": 2.8298693751703947,
+          "D:寅": 3,
+          "T:亥": 0.57465763112603,
+          "J:朱雀": 2.8203080098237576,
+          "D:卯": 3,
+          "S:甲": 2.1857616587012814
+        },
+        "iterations": 36,
+        "residual": 6.246949624255649e-10,
+        "ledger": [
+          {
+            "id": "D:辰>T:子",
+            "source": "D:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 6.5,
+            "target_strength": 5.357837235633628e-10,
+            "received": -1.2999999998606964,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:申>T:子",
+            "source": "T:申",
+            "target": "T:子",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 3.313596340602742,
+            "target_strength": 5.357837235633628e-10,
+            "received": 0.36148323715666275,
+            "source_cost": 0.18074161857833138,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:子>J:腾蛇",
+            "source": "T:子",
+            "target": "J:腾蛇",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 5.357837235633628e-10,
+            "target_strength": 2.97499999937102,
+            "received": -6.718291205086138e-11,
+            "source_cost": 1.3436582410172277e-11,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:腾蛇>D:辰",
+            "source": "J:腾蛇",
+            "target": "D:辰",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2.97499999937102,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0.297499999937102,
+            "environment_effect": 0.594999999874204
+          },
+          {
+            "id": "D:巳>T:丑",
+            "source": "D:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 4.526413358213323,
+            "received": 0.8500000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:丑>T:酉",
+            "source": "T:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75,
+            "source_strength": 4.526413358213323,
+            "target_strength": 7.09997453388136,
+            "received": 0.6789620037319986,
+            "source_cost": 0.3394810018659993,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:贵人>T:丑",
+            "source": "J:贵人",
+            "target": "T:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 5.769084801435149,
+            "target_strength": 4.526413358213323,
+            "received": 0.3461450880861089,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:丑>J:贵人",
+            "source": "T:丑",
+            "target": "J:贵人",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 4.526413358213323,
+            "target_strength": 5.769084801435149,
+            "received": 0.27158480149279934,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:巳>J:贵人",
+            "source": "D:巳",
+            "target": "J:贵人",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 4.25,
+            "target_strength": 5.769084801435149,
+            "received": 0.8500000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:寅>D:午",
+            "source": "T:寅",
+            "target": "D:午",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.8,
+            "source_strength": 1.3941611291425846,
+            "target_strength": 4.25,
+            "received": 0,
+            "source_cost": 0.11153289033140679,
+            "environment_effect": 0.22306578066281357
+          },
+          {
+            "id": "T:寅>T:戌",
+            "source": "T:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6,
+            "source_strength": 1.3941611291425846,
+            "target_strength": 3.6898271946408574,
+            "received": -0.09626160092129685,
+            "source_cost": 0.01925232018425937,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天后>T:寅",
+            "source": "J:天后",
+            "target": "T:寅",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 1.2214457831325503,
+            "target_strength": 1.3941611291425846,
+            "received": 0.24428915662651007,
+            "source_cost": 0.12214457831325504,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天后>D:午",
+            "source": "J:天后",
+            "target": "D:午",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 1.2214457831325503,
+            "target_strength": 4.25,
+            "received": 0,
+            "source_cost": 0.026409638554217303,
+            "environment_effect": -0.1320481927710865
+          },
+          {
+            "id": "T:卯>D:未",
+            "source": "T:卯",
+            "target": "D:未",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 1.0821828015170774,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0.01882057046116657,
+            "environment_effect": -0.09410285230583283
+          },
+          {
+            "id": "T:亥>T:卯",
+            "source": "T:亥",
+            "target": "T:卯",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 0.57465763112603,
+            "target_strength": 1.0821828015170774,
+            "received": 0.06268992339556691,
+            "source_cost": 0.031344961697783454,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:太阴>T:卯",
+            "source": "J:太阴",
+            "target": "T:卯",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 5.3587873627190294,
+            "target_strength": 1.0821828015170774,
+            "received": -0.8810631869503147,
+            "source_cost": 0.17621263739006296,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:未>J:太阴",
+            "source": "D:未",
+            "target": "J:太阴",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 6.5,
+            "target_strength": 5.3587873627190294,
+            "received": 1.3,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:辰>D:申",
+            "source": "T:辰",
+            "target": "D:申",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 6.5670489271418155,
+            "target_strength": 5.5,
+            "received": 0,
+            "source_cost": 0.375259938693818,
+            "environment_effect": 0.750519877387636
+          },
+          {
+            "id": "T:辰>T:子",
+            "source": "T:辰",
+            "target": "T:子",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 6.5670489271418155,
+            "target_strength": 5.357837235633628e-10,
+            "received": -0.5628899079804096,
+            "source_cost": 0.11257798159608193,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:辰>J:玄武",
+            "source": "T:辰",
+            "target": "J:玄武",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 6.5670489271418155,
+            "target_strength": 2.0691590065229324,
+            "received": -0.5308409930340426,
+            "source_cost": 0.10616819860680854,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:申>J:玄武",
+            "source": "D:申",
+            "target": "J:玄武",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 5.5,
+            "target_strength": 2.0691590065229324,
+            "received": 1.1,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:巳>D:酉",
+            "source": "T:巳",
+            "target": "D:酉",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 2.242908173635331,
+            "target_strength": 5.5,
+            "received": 0,
+            "source_cost": 0.024412605971541015,
+            "environment_effect": -0.12206302985770506
+          },
+          {
+            "id": "T:巳>T:丑",
+            "source": "T:巳",
+            "target": "T:丑",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 2.242908173635331,
+            "target_strength": 4.526413358213323,
+            "received": 0.19224927202588551,
+            "source_cost": 0.09612463601294276,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:巳>J:太常",
+            "source": "T:巳",
+            "target": "J:太常",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.5714285714285714,
+            "source_strength": 2.242908173635331,
+            "target_strength": 3.3943930570003538,
+            "received": 0.25633236270118065,
+            "source_cost": 0.12816618135059032,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:太常>D:酉",
+            "source": "J:太常",
+            "target": "D:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3.3943930570003538,
+            "target_strength": 5.5,
+            "received": 0,
+            "source_cost": 0.3394393057000354,
+            "environment_effect": 0.6788786114000708
+          },
+          {
+            "id": "T:午>D:戌",
+            "source": "T:午",
+            "target": "D:戌",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 2.346705761809157,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0.1706695099497569,
+            "environment_effect": 0.3413390198995138
+          },
+          {
+            "id": "T:寅>T:午",
+            "source": "T:寅",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.6,
+            "source_strength": 1.3941611291425846,
+            "target_strength": 2.346705761809157,
+            "received": 0.16729933549711015,
+            "source_cost": 0.08364966774855508,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:午>J:白虎",
+            "source": "T:午",
+            "target": "J:白虎",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 2.346705761809157,
+            "target_strength": 5.8172243033900495,
+            "received": -0.1577756965770509,
+            "source_cost": 0.03155513931541018,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:戌>J:白虎",
+            "source": "D:戌",
+            "target": "J:白虎",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 6.5,
+            "target_strength": 5.8172243033900495,
+            "received": 1.3,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:未>D:亥",
+            "source": "T:未",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 5.329997984096124,
+            "target_strength": 2,
+            "received": 0,
+            "source_cost": 0.11075320486433507,
+            "environment_effect": -0.5537660243216753
+          },
+          {
+            "id": "T:卯>T:未",
+            "source": "T:卯",
+            "target": "T:未",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.75,
+            "source_strength": 1.0821828015170774,
+            "target_strength": 5.329997984096124,
+            "received": -0.07857088669207775,
+            "source_cost": 0.015714177338415552,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天空>T:未",
+            "source": "J:天空",
+            "target": "T:未",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 5.94521834873613,
+            "target_strength": 5.329997984096124,
+            "received": 0.3567131009241678,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:未>J:天空",
+            "source": "T:未",
+            "target": "J:天空",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 5.329997984096124,
+            "target_strength": 5.94521834873613,
+            "received": 0.2325817302151036,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:天空>D:亥",
+            "source": "J:天空",
+            "target": "D:亥",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 5.94521834873613,
+            "target_strength": 2,
+            "received": 0,
+            "source_cost": 0.1698633813924609,
+            "environment_effect": -0.8493169069623044
+          },
+          {
+            "id": "T:申>D:子",
+            "source": "T:申",
+            "target": "D:子",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 3.313596340602742,
+            "target_strength": 2,
+            "received": 0,
+            "source_cost": 0.24098882477110856,
+            "environment_effect": 0.4819776495422171
+          },
+          {
+            "id": "T:辰>T:申",
+            "source": "T:辰",
+            "target": "T:申",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 6.5670489271418155,
+            "target_strength": 3.313596340602742,
+            "received": 0.562889908040727,
+            "source_cost": 0.2814449540203635,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:申>J:青龙",
+            "source": "T:申",
+            "target": "J:青龙",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 3.313596340602742,
+            "target_strength": 1.6421843792843775,
+            "received": -0.36281562060021055,
+            "source_cost": 0.07256312412004211,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:子>J:青龙",
+            "source": "D:子",
+            "target": "J:青龙",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2,
+            "target_strength": 1.6421843792843775,
+            "received": 0.4,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:丑>T:酉",
+            "source": "D:丑",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 6.5,
+            "target_strength": 7.09997453388136,
+            "received": 1.3,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:巳>T:酉",
+            "source": "T:巳",
+            "target": "T:酉",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.42857142857142855,
+            "source_strength": 2.242908173635331,
+            "target_strength": 7.09997453388136,
+            "received": -0.07944201514125704,
+            "source_cost": 0.015888403028251407,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:勾陈>T:酉",
+            "source": "J:勾陈",
+            "target": "T:酉",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 5.377272727272775,
+            "target_strength": 7.09997453388136,
+            "received": 1.075454545454555,
+            "source_cost": 0.5377272727272775,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:勾陈>D:丑",
+            "source": "J:勾陈",
+            "target": "D:丑",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 5.377272727272775,
+            "target_strength": 6.5,
+            "received": 0,
+            "source_cost": 0,
+            "environment_effect": 0.3226363636363665
+          },
+          {
+            "id": "D:丑>J:勾陈",
+            "source": "D:丑",
+            "target": "J:勾陈",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 6.5,
+            "target_strength": 5.377272727272775,
+            "received": 0.39,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:寅>T:戌",
+            "source": "D:寅",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3,
+            "target_strength": 3.6898271946408574,
+            "received": -0.3452312609680137,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:午>T:戌",
+            "source": "T:午",
+            "target": "T:戌",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 2.346705761809157,
+            "target_strength": 3.6898271946408574,
+            "received": 0.2560042649246353,
+            "source_cost": 0.12800213246231765,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:六合>T:戌",
+            "source": "J:六合",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 1,
+            "source_strength": 2.8298693751703947,
+            "target_strength": 3.6898271946408574,
+            "received": -0.32565312425494675,
+            "source_cost": 0.06513062485098935,
+            "environment_effect": 0
+          },
+          {
+            "id": "J:六合>D:寅",
+            "source": "J:六合",
+            "target": "D:寅",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 2.8298693751703947,
+            "target_strength": 3,
+            "received": 0,
+            "source_cost": 0,
+            "environment_effect": 0.16979216251022367
+          },
+          {
+            "id": "D:寅>J:六合",
+            "source": "D:寅",
+            "target": "J:六合",
+            "type": "比和",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3,
+            "target_strength": 2.8298693751703947,
+            "received": 0.18,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:亥>D:卯",
+            "source": "T:亥",
+            "target": "D:卯",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天盘—地盘"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 0.57465763112603,
+            "target_strength": 3,
+            "received": 0,
+            "source_cost": 0.041793282263711276,
+            "environment_effect": 0.08358656452742255
+          },
+          {
+            "id": "T:未>T:亥",
+            "source": "T:未",
+            "target": "T:亥",
+            "type": "克",
+            "raw_gate": 0.75,
+            "routes": [
+              "天盘—直接阴神"
+            ],
+            "gate": 0.5454545454545454,
+            "source_strength": 5.329997984096124,
+            "target_strength": 0.57465763112603,
+            "received": -0.5215157270746245,
+            "source_cost": 0.1043031454149249,
+            "environment_effect": 0
+          },
+          {
+            "id": "T:亥>J:朱雀",
+            "source": "T:亥",
+            "target": "J:朱雀",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "天将—乘支"
+            ],
+            "gate": 0.7272727272727273,
+            "source_strength": 0.57465763112603,
+            "target_strength": 2.8203080098237576,
+            "received": -0.053441990022913624,
+            "source_cost": 0.010688398004582725,
+            "environment_effect": 0
+          },
+          {
+            "id": "D:卯>J:朱雀",
+            "source": "D:卯",
+            "target": "J:朱雀",
+            "type": "生",
+            "raw_gate": 1,
+            "routes": [
+              "天将—地盘"
+            ],
+            "gate": 1,
+            "source_strength": 3,
+            "target_strength": 2.8203080098237576,
+            "received": 0.6000000000000001,
+            "source_cost": 0,
+            "environment_effect": 0
+          },
+          {
+            "id": "S:甲>T:戌",
+            "source": "S:甲",
+            "target": "T:戌",
+            "type": "克",
+            "raw_gate": 1,
+            "routes": [
+              "日干—干上神"
+            ],
+            "gate": 1,
+            "source_strength": 2.1857616587012814,
+            "target_strength": 3.6898271946408574,
+            "received": -0.25153108453632683,
+            "source_cost": 0.05030621690726537,
+            "environment_effect": 0
+          },
+          {
+            "id": "S:甲>T:午",
+            "source": "S:甲",
+            "target": "T:午",
+            "type": "生",
+            "raw_gate": 0.75,
+            "routes": [
+              "日干—干阴神"
+            ],
+            "gate": 0.75,
+            "source_strength": 2.1857616587012814,
+            "target_strength": 2.346705761809157,
+            "received": 0.32786424880519227,
+            "source_cost": 0.16393212440259614,
+            "environment_effect": 0
+          }
+        ],
+        "delta": {
+          "T:子": -1.5014066706978797,
+          "J:腾蛇": -0.29750000000428495,
+          "D:辰": 0,
+          "T:丑": 1.0489133582459953,
+          "J:贵人": 1.1215848014927994,
+          "D:巳": 0,
+          "T:寅": 0.029854278362288836,
+          "J:天后": -0.14855421686747233,
+          "D:午": 0,
+          "T:卯": -0.8529080113543299,
+          "J:太阴": 1.123787362609937,
+          "D:未": 0,
+          "T:辰": -0.875451072917072,
+          "J:玄武": 0.5691590069659574,
+          "D:申": 0,
+          "T:巳": -0.2645918263633255,
+          "J:太常": -0.08310694299885474,
+          "D:酉": 0,
+          "T:午": 0.1649368025748177,
+          "J:白虎": 1.1422243034229491,
+          "D:戌": 0,
+          "T:未": 0.06308586395283007,
+          "J:天空": 0.06271834882264268,
+          "D:亥": 0,
+          "T:申": 0.06859634057124499,
+          "J:青龙": 0.03718437939978947,
+          "D:子": 0,
+          "T:酉": 2.9749745340452964,
+          "J:勾陈": -0.14772727272727748,
+          "D:丑": 0,
+          "T:戌": -0.7626728057559489,
+          "J:六合": 0.11486937514901065,
+          "D:寅": 0,
+          "T:亥": -0.6053423690407019,
+          "J:朱雀": 0.5465580099770865,
+          "D:卯": 0,
+          "S:甲": -0.2142383413098615
+        },
+        "rows": [
+          {
+            "id": "T:子",
+            "symbol": "子",
+            "kind": "branch",
+            "prevoid": 1.5,
+            "retention": 1,
+            "base": 1.5,
+            "element": "水",
+            "value": 5.357837235633628e-10,
+            "change": -1.4999999994642164,
+            "cap_adjustment": 0.0014066706978796972
+          },
+          {
+            "id": "J:腾蛇",
+            "symbol": "腾蛇",
+            "kind": "general",
+            "base": 3.2725,
+            "prevoid": 3.2725,
+            "retention": 1,
+            "element": "火",
+            "value": 2.97499999937102,
+            "change": -0.29750000062897985,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:辰",
+            "symbol": "辰",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1,
+            "element": "土",
+            "value": 6.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:丑",
+            "symbol": "丑",
+            "kind": "branch",
+            "prevoid": 3.4774999999999996,
+            "retention": 1,
+            "base": 3.4774999999999996,
+            "element": "土",
+            "value": 4.526413358213323,
+            "change": 1.0489133582133232,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:贵人",
+            "symbol": "贵人",
+            "kind": "general",
+            "base": 4.6475,
+            "prevoid": 4.6475,
+            "retention": 1,
+            "element": "土",
+            "value": 5.769084801435149,
+            "change": 1.1215848014351488,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:巳",
+            "symbol": "巳",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1,
+            "element": "火",
+            "value": 4.25,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:寅",
+            "symbol": "寅",
+            "kind": "branch",
+            "prevoid": 1.77,
+            "retention": 0.7745966692414834,
+            "base": 1.3710361045574257,
+            "element": "木",
+            "value": 1.3941611291425846,
+            "change": 0.02312502458515886,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:天后",
+            "symbol": "天后",
+            "kind": "general",
+            "base": 1.3699999999999999,
+            "prevoid": 1.3699999999999999,
+            "retention": 1,
+            "element": "水",
+            "value": 1.2214457831325503,
+            "change": -0.14855421686744963,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:午",
+            "symbol": "午",
+            "kind": "ground",
+            "base": 4.25,
+            "prevoid": 4.25,
+            "retention": 1,
+            "element": "火",
+            "value": 4.25,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:卯",
+            "symbol": "卯",
+            "kind": "branch",
+            "prevoid": 2.25,
+            "retention": 0.7745966692414834,
+            "base": 1.7428425057933377,
+            "element": "木",
+            "value": 1.0821828015170774,
+            "change": -0.6606597042762603,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:太阴",
+            "symbol": "太阴",
+            "kind": "general",
+            "base": 4.235,
+            "prevoid": 4.235,
+            "retention": 1,
+            "element": "金",
+            "value": 5.3587873627190294,
+            "change": 1.1237873627190291,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:未",
+            "symbol": "未",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1,
+            "element": "土",
+            "value": 6.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:辰",
+            "symbol": "辰",
+            "kind": "branch",
+            "prevoid": 7.4425,
+            "retention": 1,
+            "base": 7.4425,
+            "element": "土",
+            "value": 6.5670489271418155,
+            "change": -0.8754510728581844,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:玄武",
+            "symbol": "玄武",
+            "kind": "general",
+            "base": 1.5,
+            "prevoid": 1.5,
+            "retention": 1,
+            "element": "水",
+            "value": 2.0691590065229324,
+            "change": 0.5691590065229324,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:申",
+            "symbol": "申",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1,
+            "element": "金",
+            "value": 5.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:巳",
+            "symbol": "巳",
+            "kind": "branch",
+            "prevoid": 2.5075,
+            "retention": 1,
+            "base": 2.5075,
+            "element": "火",
+            "value": 2.242908173635331,
+            "change": -0.26459182636466894,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:太常",
+            "symbol": "太常",
+            "kind": "general",
+            "base": 3.4774999999999996,
+            "prevoid": 3.4774999999999996,
+            "retention": 1,
+            "element": "土",
+            "value": 3.3943930570003538,
+            "change": -0.08310694299964583,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:酉",
+            "symbol": "酉",
+            "kind": "ground",
+            "base": 5.5,
+            "prevoid": 5.5,
+            "retention": 1,
+            "element": "金",
+            "value": 5.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:午",
+            "symbol": "午",
+            "kind": "branch",
+            "prevoid": 3.1875,
+            "retention": 0.7,
+            "base": 2.2312499999999997,
+            "element": "火",
+            "value": 2.346705761809157,
+            "change": 0.1154557618091574,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:白虎",
+            "symbol": "白虎",
+            "kind": "general",
+            "base": 4.675,
+            "prevoid": 4.675,
+            "retention": 1,
+            "element": "金",
+            "value": 5.8172243033900495,
+            "change": 1.1422243033900497,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:戌",
+            "symbol": "戌",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1,
+            "element": "土",
+            "value": 6.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:未",
+            "symbol": "未",
+            "kind": "branch",
+            "prevoid": 6.2075,
+            "retention": 0.85,
+            "base": 5.276375,
+            "element": "土",
+            "value": 5.329997984096124,
+            "change": 0.053622984096124426,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:天空",
+            "symbol": "天空",
+            "kind": "general",
+            "base": 5.882499999999999,
+            "prevoid": 5.882499999999999,
+            "retention": 1,
+            "element": "土",
+            "value": 5.94521834873613,
+            "change": 0.06271834873613091,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:亥",
+            "symbol": "亥",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1,
+            "element": "水",
+            "value": 2,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:申",
+            "symbol": "申",
+            "kind": "branch",
+            "prevoid": 3.2449999999999997,
+            "retention": 1,
+            "base": 3.2449999999999997,
+            "element": "金",
+            "value": 3.313596340602742,
+            "change": 0.06859634060274233,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:青龙",
+            "symbol": "青龙",
+            "kind": "general",
+            "base": 1.6049999999999998,
+            "prevoid": 1.6049999999999998,
+            "retention": 1,
+            "element": "木",
+            "value": 1.6421843792843775,
+            "change": 0.03718437928437779,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:子",
+            "symbol": "子",
+            "kind": "ground",
+            "base": 2,
+            "prevoid": 2,
+            "retention": 1,
+            "element": "水",
+            "value": 2,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:酉",
+            "symbol": "酉",
+            "kind": "branch",
+            "prevoid": 4.125,
+            "retention": 1,
+            "base": 4.125,
+            "element": "金",
+            "value": 7.09997453388136,
+            "change": 2.97497453388136,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:勾陈",
+            "symbol": "勾陈",
+            "kind": "general",
+            "base": 5.5249999999999995,
+            "prevoid": 5.5249999999999995,
+            "retention": 1,
+            "element": "土",
+            "value": 5.377272727272775,
+            "change": -0.14772727272722452,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:丑",
+            "symbol": "丑",
+            "kind": "ground",
+            "base": 6.5,
+            "prevoid": 6.5,
+            "retention": 1,
+            "element": "土",
+            "value": 6.5,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:戌",
+            "symbol": "戌",
+            "kind": "branch",
+            "prevoid": 4.4525,
+            "retention": 1,
+            "base": 4.4525,
+            "element": "土",
+            "value": 3.6898271946408574,
+            "change": -0.7626728053591423,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:六合",
+            "symbol": "六合",
+            "kind": "general",
+            "base": 2.715,
+            "prevoid": 2.715,
+            "retention": 1,
+            "element": "木",
+            "value": 2.8298693751703947,
+            "change": 0.11486937517039486,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:寅",
+            "symbol": "寅",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1,
+            "element": "木",
+            "value": 3,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "T:亥",
+            "symbol": "亥",
+            "kind": "branch",
+            "prevoid": 1.18,
+            "retention": 1,
+            "base": 1.18,
+            "element": "水",
+            "value": 0.57465763112603,
+            "change": -0.60534236887397,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "J:朱雀",
+            "symbol": "朱雀",
+            "kind": "general",
+            "base": 2.2737499999999997,
+            "prevoid": 2.2737499999999997,
+            "retention": 1,
+            "element": "火",
+            "value": 2.8203080098237576,
+            "change": 0.5465580098237579,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "D:卯",
+            "symbol": "卯",
+            "kind": "ground",
+            "base": 3,
+            "prevoid": 3,
+            "retention": 1,
+            "element": "木",
+            "value": 3,
+            "change": 0,
+            "cap_adjustment": 0
+          },
+          {
+            "id": "S:甲",
+            "symbol": "甲",
+            "kind": "day",
+            "base": 2.4000000000000004,
+            "prevoid": 2.4000000000000004,
+            "retention": 1,
+            "element": "木",
+            "value": 2.1857616587012814,
+            "change": -0.214238341298719,
+            "cap_adjustment": 0
+          }
+        ]
+      }
+    }
+  }
+}

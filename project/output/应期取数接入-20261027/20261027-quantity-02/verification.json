@@ -1,0 +1,169 @@
+{
+  "release": "20261027-quantity-02",
+  "active": false,
+  "filesVerified": 152,
+  "changedFiles": [
+    "domains/exam.md",
+    "domains/finance.md",
+    "domains/lost-person-object.md",
+    "entry.md",
+    "integration-map.json",
+    "manifest.json",
+    "methods/liqi.md",
+    "methods/quantity.md",
+    "methods/report.md",
+    "methods/timing.md",
+    "reading-route.json",
+    "references/quantity-sources.md"
+  ],
+  "baselineUnchanged": true,
+  "sourceAndEvidenceVerified": true,
+  "linksChecked": true,
+  "routeChecks": [
+    {
+      "domain": "finance",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "finance",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "recruitment",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "recruitment",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "promotion-salary",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "promotion-salary",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "relationship",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "relationship",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "interpersonal",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "interpersonal",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "period-outlook",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "period-outlook",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "long-period",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "long-period",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "pregnancy",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "pregnancy",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "exam",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "exam",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "illness",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "illness",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "lost-person-object",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "lost-person-object",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "classical-conflict",
+      "timing": false,
+      "unchangedWithoutQuantity": true
+    },
+    {
+      "domain": "classical-conflict",
+      "timing": true,
+      "unchangedWithoutQuantity": true
+    }
+  ],
+  "entryValidation": [
+    {
+      "path": "liuren/daliuren/SKILL.md",
+      "ok": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "path": "liuren/liuren-cases/SKILL.md",
+      "ok": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "path": "liuren/liuren-extract/SKILL.md",
+      "ok": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "path": "liuren/liuren-tuiming/SKILL.md",
+      "ok": true,
+      "message": "Skill is valid!"
+    }
+  ],
+  "modelCalls": 0,
+  "predictiveTrials": 0,
+  "accuracyConclusion": "not evaluated"
+}

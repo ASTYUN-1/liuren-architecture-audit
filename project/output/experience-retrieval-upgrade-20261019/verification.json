@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-19T01:21:37.674859",
+  "schema": "experience-retrieval-upgrade-verification-1",
+  "new_retrieval_tests_passed": 15,
+  "existing_batch_archive_tests_passed": 27,
+  "skill_validation_passed": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "source_hashes_checked": 357,
+  "all_original_hashes_unchanged": true,
+  "index_status": {
+    "source_files": 106,
+    "entries": 808,
+    "curated_entries": 808,
+    "unreviewed_fragments": 0,
+    "changed_or_new_sources": [],
+    "missing_sources": [],
+    "stale_annotations": [],
+    "independent_validation_increment": 0
+  },
+  "sample_queries": {
+    "铸印 救神": {
+      "matching_units": 30,
+      "source_groups": 29,
+      "displayed_ids": [
+        "H0076",
+        "H0077",
+        "H0079"
+      ]
+    },
+    "空亡 填实": {
+      "matching_units": 264,
+      "source_groups": 258,
+      "displayed_ids": [
+        "B0404",
+        "B0409",
+        "H0079"
+      ]
+    },
+    "蒿矢 考试": {
+      "matching_units": 60,
+      "source_groups": 60,
+      "displayed_ids": [
+        "H0044",
+        "B0099",
+        "B0100"
+      ]
+    }
+  },
+  "offline_batch_preview": {
+    "offline_only": true,
+    "model_invoked": false,
+    "task_alias": "case-0052",
+    "groups": 7,
+    "packet_characters": 8774,
+    "category_hints": [
+      "学业占"
+    ]
+  },
+  "rollback_check_passed": true,
+  "model_calls_started": 0,
+  "batch_resumed": false,
+  "scope": "验证程序、入口、引用与权限；没有验证预测正确率或全库召回率。"
+}

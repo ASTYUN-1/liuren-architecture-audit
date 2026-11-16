@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "BK26-MODERN-031",
+    "query": "艺术家走失链",
+    "expected_rule_id": "LR26-MP10-031-STEPS",
+    "result_ids": [
+      "LR26-MP10-031-STEPS"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-042",
+    "query": "已签工程担保单",
+    "expected_rule_id": "LR26-MP10-042-FAIL",
+    "result_ids": [
+      "LR26-MP10-042-FAIL"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-044",
+    "query": "交车合而多冲",
+    "expected_rule_id": "LR26-MP10-044-PROCESS",
+    "result_ids": [
+      "LR26-MP10-044-PROCESS"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-073",
+    "query": "禅外流云消化链",
+    "expected_rule_id": "LR26-MP10-073-DIGEST",
+    "result_ids": [
+      "LR26-MP10-073-DIGEST"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-074",
+    "query": "雨田升象并聚",
+    "expected_rule_id": "LR26-MP10-074-SIGNS",
+    "result_ids": [
+      "LR26-MP10-074-SIGNS"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-075",
+    "query": "青山相亲定位",
+    "expected_rule_id": "LR26-MP10-075-ROLE-A",
+    "result_ids": [
+      "LR26-MP10-075-ROLE-A"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-077",
+    "query": "误食救制分支",
+    "expected_rule_id": "LR26-MP10-077-RESCUE",
+    "result_ids": [
+      "LR26-MP10-077-RESCUE"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-082",
+    "query": "冤酒案填空说",
+    "expected_rule_id": "LR26-MP10-082-VOID-YES",
+    "result_ids": [
+      "LR26-MP10-082-VOID-YES"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-087",
+    "query": "中考取分",
+    "expected_rule_id": "LR26-MP10-087-NUMBER",
+    "result_ids": [
+      "LR26-MP10-087-NUMBER"
+    ],
+    "passed": true
+  },
+  {
+    "case_id": "BK26-MODERN-096",
+    "query": "银行资格原过关链",
+    "expected_rule_id": "LR26-MP10-096-PASS",
+    "result_ids": [
+      "LR26-MP10-096-PASS"
+    ],
+    "passed": true
+  }
+]

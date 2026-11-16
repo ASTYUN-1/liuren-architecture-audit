@@ -1,0 +1,888 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261018-0040",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "generated_under_recorded_assumptions",
+  "usable_for_batch_analysis": true,
+  "source": {
+    "file": "raw-qqwb20261018-0040.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\stage1_v2\\cases\\raw-qqwb20261018-0040.md",
+    "locator": "raw/records.jsonl 第 40 行（seq=39）detail 与 mofan 字段",
+    "shared_original_group": null,
+    "case_file_sha256": "0b0e6845b097b451e6fb727403575e39d77039bbe5bbc184e92260c526e58115",
+    "original_time": "2026-09-25(八月十五) 07:58",
+    "source_text_sha256": "3d7d1199d60c81bb573554da883dcb5edbc7dd3a253f919536ca5cbca73ed839",
+    "image_evidence": {
+      "file": "pan/039_1.jpg",
+      "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\039_1.jpg",
+      "sha256": "32f5b2e14e83d5fdba7e431b6d7e06c1ed046bc473346f9d8d3ab3ecfeb91c60",
+      "seq": 39,
+      "transcription": "existing_stage1_image_transcription",
+      "time_crosschecked_with_ledger": true,
+      "independently_visually_verified_this_run": false,
+      "declaration": "题干盘图提取（pan/039_1.jpg）"
+    }
+  },
+  "time": {
+    "precision": "minute",
+    "date": "2026-09-25",
+    "datetime": "2026-09-25T07:58"
+  },
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "issues": [],
+  "resolution": null,
+  "chart_input": {
+    "mode": "datetime",
+    "datetime": "2026-09-25T07:58:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "participants": []
+  },
+  "facts": {
+    "schema": "liuren-chart-facts-v1",
+    "pillars": [
+      "丙午",
+      "丁酉",
+      "壬寅",
+      "甲辰"
+    ],
+    "year_pillar": "丙午",
+    "month_pillar": "丁酉",
+    "day_pillar": "壬寅",
+    "hour_pillar": "甲辰",
+    "day_stem": "壬",
+    "day_branch": "寅",
+    "month_branch": "酉",
+    "hour_branch": "辰",
+    "month_general": "辰",
+    "void_branches": [
+      "辰",
+      "巳"
+    ],
+    "xun": "甲午",
+    "event_datetime": "2026-09-25T07:58:00+08:00",
+    "lunar": {
+      "y": "二〇二六",
+      "m": "八月",
+      "d": "十五"
+    },
+    "heaven_earth": [
+      {
+        "di": "子",
+        "tian": "子",
+        "tianjiang": "青龙",
+        "shensha": [
+          "大耗",
+          "岁破",
+          "灾煞",
+          "火鬼",
+          "阴奸",
+          "死神",
+          "火烛煞",
+          "天咒",
+          "天鬼",
+          "长绳",
+          "天史",
+          "天吏",
+          "伏殃",
+          "旬奇",
+          "羊刃",
+          "天罗",
+          "阳刃"
+        ],
+        "nayin": "壁上土",
+        "xungan": "庚"
+      },
+      {
+        "di": "丑",
+        "tian": "丑",
+        "tianjiang": "勾陈",
+        "shensha": [
+          "岁煞",
+          "岁墓",
+          "黄幡",
+          "风伯",
+          "死气",
+          "月官符",
+          "天医",
+          "天解",
+          "日官"
+        ],
+        "nayin": "壁上土",
+        "xungan": "辛"
+      },
+      {
+        "di": "寅",
+        "tian": "寅",
+        "tianjiang": "六合",
+        "shensha": [
+          "岁虎",
+          "天鸡",
+          "天德",
+          "解神",
+          "成神",
+          "女灾",
+          "墓门",
+          "雷煞",
+          "天狱",
+          "奸私",
+          "劫杀"
+        ],
+        "nayin": "金箔金",
+        "xungan": "壬"
+      },
+      {
+        "di": "卯",
+        "tian": "卯",
+        "tianjiang": "朱雀",
+        "shensha": [
+          "将军",
+          "天盗",
+          "四废",
+          "丧车",
+          "月破",
+          "门煞",
+          "天贼",
+          "天破",
+          "月厌",
+          "天狗",
+          "火恶",
+          "闭口",
+          "帘幕",
+          "进神",
+          "咸池",
+          "桃花"
+        ],
+        "nayin": "金箔金",
+        "xungan": "癸"
+      },
+      {
+        "di": "辰",
+        "tian": "辰",
+        "tianjiang": "腾蛇",
+        "shensha": [
+          "五墓",
+          "天耳",
+          "天喜",
+          "信煞",
+          "小煞",
+          "月合",
+          "退神",
+          "日鬼"
+        ],
+        "nayin": "无纳音",
+        "xungan": "空"
+      },
+      {
+        "di": "巳",
+        "tian": "巳",
+        "tianjiang": "贵人",
+        "shensha": [
+          "返魂",
+          "相负",
+          "天书",
+          "奸门",
+          "五鬼",
+          "雷公",
+          "贵人",
+          "福星",
+          "游都",
+          "支刑",
+          "支害",
+          "红沙",
+          "支亡",
+          "日亡神"
+        ],
+        "nayin": "无纳音",
+        "xungan": "空"
+      },
+      {
+        "di": "午",
+        "tian": "午",
+        "tianjiang": "天后",
+        "shensha": [
+          "太岁",
+          "岁刑",
+          "返魂",
+          "天财",
+          "瓦煞",
+          "悬索",
+          "天诏",
+          "游魂",
+          "旬仪",
+          "干胎神"
+        ],
+        "nayin": "沙中金",
+        "xungan": "甲"
+      },
+      {
+        "di": "未",
+        "tian": "未",
+        "tianjiang": "太阴",
+        "shensha": [
+          "病符",
+          "迷惑煞",
+          "天车",
+          "三丘",
+          "关神",
+          "管神",
+          "寡宿",
+          "忧神",
+          "信神",
+          "风煞",
+          "生气",
+          "地医",
+          "日医",
+          "日官",
+          "支德"
+        ],
+        "nayin": "沙中金",
+        "xungan": "乙"
+      },
+      {
+        "di": "申",
+        "tian": "申",
+        "tianjiang": "玄武",
+        "shensha": [
+          "吊客",
+          "丧门",
+          "时盗",
+          "奸神",
+          "贼符",
+          "丝麻煞",
+          "天赦",
+          "皇书",
+          "阳煞",
+          "天刑",
+          "圣心",
+          "天马",
+          "天坑",
+          "血支",
+          "月德",
+          "亡神",
+          "游娲",
+          "月亡神",
+          "天盗",
+          "文星",
+          "日盗",
+          "支马",
+          "支冲",
+          "晴朗煞",
+          "驿马"
+        ],
+        "nayin": "山下火",
+        "xungan": "丙"
+      },
+      {
+        "di": "酉",
+        "tian": "酉",
+        "tianjiang": "太常",
+        "shensha": [
+          "转煞",
+          "戏神",
+          "金神",
+          "月刑",
+          "直符",
+          "大煞",
+          "血光",
+          "雨师",
+          "天恩",
+          "皇恩",
+          "丁马",
+          "仪神",
+          "飞符",
+          "进神",
+          "破碎",
+          "支胎神"
+        ],
+        "nayin": "山下火",
+        "xungan": "丁"
+      },
+      {
+        "di": "戌",
+        "tian": "戌",
+        "tianjiang": "白虎",
+        "shensha": [
+          "官符",
+          "天目",
+          "月符",
+          "浴盆",
+          "丧魄",
+          "天解",
+          "血忌",
+          "游煞",
+          "天龙",
+          "月害",
+          "游祸",
+          "阴煞",
+          "稼穑",
+          "退神",
+          "日鬼",
+          "华盖"
+        ],
+        "nayin": "平地木",
+        "xungan": "戊"
+      },
+      {
+        "di": "亥",
+        "tian": "亥",
+        "tianjiang": "天空",
+        "shensha": [
+          "死符",
+          "岁宅",
+          "小耗",
+          "劫煞",
+          "游神",
+          "孤辰",
+          "天厕",
+          "枉屈",
+          "泰神",
+          "进爵",
+          "飞镰",
+          "天才",
+          "天怪",
+          "日德",
+          "日禄",
+          "天贼",
+          "干德",
+          "鲁都",
+          "支破",
+          "时煞",
+          "马倒"
+        ],
+        "nayin": "平地木",
+        "xungan": "己"
+      }
+    ],
+    "lessons": [
+      {
+        "index": 1,
+        "name": "第一课",
+        "tianjiang": "天空",
+        "tianpan": "亥",
+        "dizhi": "壬"
+      },
+      {
+        "index": 2,
+        "name": "第二课",
+        "tianjiang": "天空",
+        "tianpan": "亥",
+        "dizhi": "亥"
+      },
+      {
+        "index": 3,
+        "name": "第三课",
+        "tianjiang": "六合",
+        "tianpan": "寅",
+        "dizhi": "寅"
+      },
+      {
+        "index": 4,
+        "name": "第四课",
+        "tianjiang": "六合",
+        "tianpan": "寅",
+        "dizhi": "寅"
+      }
+    ],
+    "transmissions": [
+      {
+        "index": 1,
+        "name": "初传",
+        "liuqin": "兄弟",
+        "tianGan": "己",
+        "diZhi": "亥",
+        "tianjiang": "天空",
+        "status": "",
+        "earth_position": "亥"
+      },
+      {
+        "index": 2,
+        "name": "中传",
+        "liuqin": "子孙",
+        "tianGan": "壬",
+        "diZhi": "寅",
+        "tianjiang": "六合",
+        "status": "",
+        "earth_position": "寅"
+      },
+      {
+        "index": 3,
+        "name": "末传",
+        "liuqin": "妻财",
+        "tianGan": "空",
+        "diZhi": "巳",
+        "tianjiang": "贵人",
+        "status": "○",
+        "earth_position": "巳"
+      }
+    ],
+    "transmission_sequence": "亥寅巳",
+    "chart_types": [
+      "伏吟",
+      "元胎",
+      "励德"
+    ],
+    "participants": [],
+    "year_life_verified": false,
+    "declared_life": [],
+    "nobleman": {
+      "rule": "甲戊庚牛羊",
+      "requested_zhouye": "自动选择",
+      "actual_zhouye": "昼贵",
+      "heaven_branch": "巳",
+      "earth_position": "巳",
+      "direction": "逆行",
+      "native_hour_label": "昼",
+      "native_direction_label": "逆行"
+    },
+    "growth": {
+      "day_stem": {
+        "长生": "申",
+        "沐浴": "酉",
+        "冠带": "戌",
+        "临官": "亥",
+        "帝旺": "子",
+        "衰": "丑",
+        "病": "寅",
+        "死": "卯",
+        "墓": "辰",
+        "绝": "巳",
+        "胎": "午",
+        "养": "未"
+      },
+      "branches": {
+        "子": {
+          "长生": "申",
+          "沐浴": "酉",
+          "冠带": "戌",
+          "临官": "亥",
+          "帝旺": "子",
+          "衰": "丑",
+          "病": "寅",
+          "死": "卯",
+          "墓": "辰",
+          "绝": "巳",
+          "胎": "午",
+          "养": "未"
+        },
+        "丑": {
+          "长生": "申",
+          "沐浴": "酉",
+          "冠带": "戌",
+          "临官": "亥",
+          "帝旺": "子",
+          "衰": "丑",
+          "病": "寅",
+          "死": "卯",
+          "墓": "辰",
+          "绝": "巳",
+          "胎": "午",
+          "养": "未"
+        },
+        "寅": {
+          "长生": "亥",
+          "沐浴": "子",
+          "冠带": "丑",
+          "临官": "寅",
+          "帝旺": "卯",
+          "衰": "辰",
+          "病": "巳",
+          "死": "午",
+          "墓": "未",
+          "绝": "申",
+          "胎": "酉",
+          "养": "戌"
+        },
+        "卯": {
+          "长生": "亥",
+          "沐浴": "子",
+          "冠带": "丑",
+          "临官": "寅",
+          "帝旺": "卯",
+          "衰": "辰",
+          "病": "巳",
+          "死": "午",
+          "墓": "未",
+          "绝": "申",
+          "胎": "酉",
+          "养": "戌"
+        },
+        "辰": {
+          "长生": "申",
+          "沐浴": "酉",
+          "冠带": "戌",
+          "临官": "亥",
+          "帝旺": "子",
+          "衰": "丑",
+          "病": "寅",
+          "死": "卯",
+          "墓": "辰",
+          "绝": "巳",
+          "胎": "午",
+          "养": "未"
+        },
+        "巳": {
+          "长生": "寅",
+          "沐浴": "卯",
+          "冠带": "辰",
+          "临官": "巳",
+          "帝旺": "午",
+          "衰": "未",
+          "病": "申",
+          "死": "酉",
+          "墓": "戌",
+          "绝": "亥",
+          "胎": "子",
+          "养": "丑"
+        },
+        "午": {
+          "长生": "寅",
+          "沐浴": "卯",
+          "冠带": "辰",
+          "临官": "巳",
+          "帝旺": "午",
+          "衰": "未",
+          "病": "申",
+          "死": "酉",
+          "墓": "戌",
+          "绝": "亥",
+          "胎": "子",
+          "养": "丑"
+        },
+        "未": {
+          "长生": "申",
+          "沐浴": "酉",
+          "冠带": "戌",
+          "临官": "亥",
+          "帝旺": "子",
+          "衰": "丑",
+          "病": "寅",
+          "死": "卯",
+          "墓": "辰",
+          "绝": "巳",
+          "胎": "午",
+          "养": "未"
+        },
+        "申": {
+          "长生": "巳",
+          "沐浴": "午",
+          "冠带": "未",
+          "临官": "申",
+          "帝旺": "酉",
+          "衰": "戌",
+          "病": "亥",
+          "死": "子",
+          "墓": "丑",
+          "绝": "寅",
+          "胎": "卯",
+          "养": "辰"
+        },
+        "酉": {
+          "长生": "巳",
+          "沐浴": "午",
+          "冠带": "未",
+          "临官": "申",
+          "帝旺": "酉",
+          "衰": "戌",
+          "病": "亥",
+          "死": "子",
+          "墓": "丑",
+          "绝": "寅",
+          "胎": "卯",
+          "养": "辰"
+        },
+        "戌": {
+          "长生": "申",
+          "沐浴": "酉",
+          "冠带": "戌",
+          "临官": "亥",
+          "帝旺": "子",
+          "衰": "丑",
+          "病": "寅",
+          "死": "卯",
+          "墓": "辰",
+          "绝": "巳",
+          "胎": "午",
+          "养": "未"
+        },
+        "亥": {
+          "长生": "申",
+          "沐浴": "酉",
+          "冠带": "戌",
+          "临官": "亥",
+          "帝旺": "子",
+          "衰": "丑",
+          "病": "寅",
+          "死": "卯",
+          "墓": "辰",
+          "绝": "巳",
+          "胎": "午",
+          "养": "未"
+        }
+      }
+    },
+    "seasonal_strength": [
+      "酉月秋占",
+      "旺",
+      "死",
+      "相",
+      "囚",
+      "休"
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "status": "structure-and-request-verified",
+    "checks": [
+      {
+        "code": "schema",
+        "ok": true,
+        "severity": "error",
+        "detail": "原魔改工具JSON schema"
+      },
+      {
+        "code": "pillars",
+        "ok": true,
+        "severity": "error",
+        "detail": "四柱必须是4个有效六十甲子"
+      },
+      {
+        "code": "heaven_earth_count",
+        "ok": true,
+        "severity": "error",
+        "detail": "天地盘必须有12宫"
+      },
+      {
+        "code": "heaven_earth_permutation",
+        "ok": true,
+        "severity": "error",
+        "detail": "天地盘地支均为12地支的完整排列"
+      },
+      {
+        "code": "lessons_count",
+        "ok": true,
+        "severity": "error",
+        "detail": "四课须保留顺序，不去重"
+      },
+      {
+        "code": "transmissions_count",
+        "ok": true,
+        "severity": "error",
+        "detail": "三传须保留3个有序槽位，允许重复"
+      },
+      {
+        "code": "month_general",
+        "ok": true,
+        "severity": "error",
+        "detail": "月将须为单个地支"
+      },
+      {
+        "code": "void_branches",
+        "ok": true,
+        "severity": "error",
+        "detail": "旬空须为2个不同地支"
+      },
+      {
+        "code": "rotation_consistency",
+        "ok": true,
+        "severity": "error",
+        "detail": "12宫天地盘必须为同一旋转量"
+      },
+      {
+        "code": "month_general_on_hour",
+        "ok": true,
+        "severity": "error",
+        "detail": "月将加占时对应"
+      },
+      {
+        "code": "generals_permutation",
+        "ok": true,
+        "severity": "error",
+        "detail": "十二天将完整且不重复"
+      },
+      {
+        "code": "generals_order",
+        "ok": true,
+        "severity": "error",
+        "detail": "十二天将顺序须连续顺排或逆排"
+      },
+      {
+        "code": "lesson_generals",
+        "ok": true,
+        "severity": "error",
+        "detail": "四课天将与天盘神对应"
+      },
+      {
+        "code": "transmission_generals",
+        "ok": true,
+        "severity": "error",
+        "detail": "三传天将与天盘神对应"
+      },
+      {
+        "code": "original_engine_executed",
+        "ok": true,
+        "severity": "error",
+        "detail": "原文件SHA-256一致，调用原LiuRenPaiPan与原页面JSON导出器，无算法替代"
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      {
+        "code": "ENGINE_NOT_EXHAUSTIVELY_PROVEN",
+        "message": "当前通过输入、形状及基本关系核验；未证明原引擎所有历法/涉害/三传规则均正确。"
+      }
+    ],
+    "prediction_accuracy_verified": false,
+    "whole_algorithm_exhaustively_verified": false
+  },
+  "conventions": {
+    "timezone": "Asia/Shanghai",
+    "input_precision": "minute",
+    "internal_seconds": 30,
+    "engine_day_boundary": "original lunar.js getBaZi default; do not recalculate in LLM",
+    "manual_date_is_placeholder": false,
+    "manual_reference_date": null,
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "native_input_before": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季",
+      "user": [],
+      "cundang": {
+        "ws": "",
+        "dy": "",
+        "fk": "",
+        "tag": "workflow"
+      },
+      "zhenghuoshi": "正时",
+      "sizhu": {
+        "yg": "甲",
+        "yz": "子",
+        "mz": "子",
+        "dg": "甲",
+        "dz": "子",
+        "hz": "子",
+        "yuejiang": "丑"
+      },
+      "Date": "2026-09-25",
+      "Time": "07:58"
+    },
+    "native_input_after": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季",
+      "user": [],
+      "cundang": {
+        "ws": "",
+        "dy": "",
+        "fk": "",
+        "tag": "workflow"
+      },
+      "zhenghuoshi": "正时",
+      "sizhu": {
+        "yg": "甲",
+        "yz": "子",
+        "mz": "子",
+        "dg": "甲",
+        "dz": "子",
+        "hz": "子",
+        "yuejiang": "丑"
+      },
+      "Date": "2026-09-25",
+      "Time": "07:58"
+    },
+    "settings_mutated_by_engine": false
+  },
+  "engine": {
+    "id": "legacy-modified-liuren-json-2026-10-13",
+    "manifest_hash": "5f768eef056b177d6f82bd39d9d1d9f762109a2ed1bbc3903438d3f5fc2d571c",
+    "files": [
+      {
+        "path": "index.html",
+        "sha256": "859a5ffc8c5a95ec999bd64dd12dff070fb706b6659098842fd14facf9c91017"
+      },
+      {
+        "path": "index.js",
+        "sha256": "40a4daecddd56b240d0696d55223b8d6021f63f156c2e4ac7aa90e8b8d4c12a8"
+      },
+      {
+        "path": "js/lunar.js",
+        "sha256": "de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3"
+      },
+      {
+        "path": "js/data.js",
+        "sha256": "5eeb7b3bba2c33b01da4e4c96e485d8be0d1b7eb46f440b41e622b8e4a0174de"
+      },
+      {
+        "path": "js/hexin.js",
+        "sha256": "ab18b1144104e11f2e48b76fc7eaff161ac718adfa59e16c863295bb3a11056f"
+      },
+      {
+        "path": "js/api.js",
+        "sha256": "f252860291c1698895123145735e646aae0680c8dd02dfa8c1a5d7ec88fd7227"
+      },
+      {
+        "path": "js/guize.js",
+        "sha256": "b8f74d71eb24af5a789139dbc89514cb1a2ed52727b3bb92cc5f563779a9ae91"
+      },
+      {
+        "path": "js/paipan.js",
+        "sha256": "983f9c342c35a6e0353975675050276df93d6d666ddea25aeb053bc9ff5d63a3"
+      }
+    ],
+    "execution": "isolated-node-vm; original algorithms and original page JSON exporter",
+    "network": false,
+    "fallback": false,
+    "algorithm_modified": false
+  },
+  "provenance": {
+    "source": "copied legacy modified chart tool",
+    "export_method": "execute original index.html JSON exporter in isolated VM",
+    "engine_hash_verified": true,
+    "timestamp_input_iso": "2026-09-25T07:58:00+08:00"
+  },
+  "source_comparison": {
+    "pillars": [
+      "丙午",
+      "丁酉",
+      "壬寅",
+      "甲辰"
+    ],
+    "generated_pillars": [
+      "丙午",
+      "丁酉",
+      "壬寅",
+      "甲辰"
+    ],
+    "month_general": null,
+    "generated_month_general": "辰"
+  },
+  "historical_date_independently_verified": false
+}

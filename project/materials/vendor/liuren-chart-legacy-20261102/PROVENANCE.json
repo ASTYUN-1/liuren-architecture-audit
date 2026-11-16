@@ -1,0 +1,104 @@
+{
+  "schema": "liuren-local-dependency-copy-v1",
+  "created_at": "2026-11-02T19:11:47.040707+08:00",
+  "engine_id": "legacy-modified-liuren-json-2026-10-13",
+  "source_ownership": "Existing user workspaces; no new external download; original directories unchanged.",
+  "license_note": "No root LICENSE/COPYING file found in the sibling workflow. Local dependency preservation only; redistribution rights not newly established. Legacy engine attribution remains in copied source.",
+  "scope_note": "Only 11 chart closure files, image-ledger referenced originals, stage1_v2 cases, and historical package stage1_ready_v1 closure. No credentials/system runtime/node_modules/cache copied. Private answers byte-copied for source preservation only, not semantically read or analyzed in F2.",
+  "counts": {
+    "engine_files": 11,
+    "source_files": 1851,
+    "bytes": 137203797
+  },
+  "verification": "Every source/destination SHA256 equal; existing different destination would stop.",
+  "files": [
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\adapters\\chart.mjs",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/adapters/chart.mjs",
+      "bytes": 23700,
+      "sha256": "afcff01f96eebac45fcfe44cc328f15c1ead76b78aab5b4e0e8295af3bf77b81",
+      "kind": "legacy-adapter-code",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\adapters\\legacy-engine-worker.mjs",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/adapters/legacy-engine-worker.mjs",
+      "bytes": 6180,
+      "sha256": "ba460a41783337b02df8d99f355a63bca7b39d24087022bd037b18edfe346130",
+      "kind": "legacy-adapter-code",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\adapters\\legacy-engine-manifest.json",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/adapters/legacy-engine-manifest.json",
+      "bytes": 1042,
+      "sha256": "cfe78c737c4ffc54af22e92f7a8f3a0982c8700304d9fc461d7f6be9f73a1a44",
+      "kind": "legacy-adapter-code",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\index.html",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/index.html",
+      "bytes": 145237,
+      "sha256": "859a5ffc8c5a95ec999bd64dd12dff070fb706b6659098842fd14facf9c91017",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\index.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/index.js",
+      "bytes": 243059,
+      "sha256": "40a4daecddd56b240d0696d55223b8d6021f63f156c2e4ac7aa90e8b8d4c12a8",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\js\\lunar.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/js/lunar.js",
+      "bytes": 333253,
+      "sha256": "de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\js\\data.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/js/data.js",
+      "bytes": 18691086,
+      "sha256": "5eeb7b3bba2c33b01da4e4c96e485d8be0d1b7eb46f440b41e622b8e4a0174de",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\js\\hexin.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/js/hexin.js",
+      "bytes": 31101,
+      "sha256": "ab18b1144104e11f2e48b76fc7eaff161ac718adfa59e16c863295bb3a11056f",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\js\\api.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/js/api.js",
+      "bytes": 15493,
+      "sha256": "f252860291c1698895123145735e646aae0680c8dd02dfa8c1a5d7ec88fd7227",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\js\\guize.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/js/guize.js",
+      "bytes": 84231,
+      "sha256": "b8f74d71eb24af5a789139dbc89514cb1a2ed52727b3bb92cc5f563779a9ae91",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    },
+    {
+      "source": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流\\engine\\legacy\\js\\paipan.js",
+      "destination": "materials/vendor/liuren-chart-legacy-20261102/engine/legacy/js/paipan.js",
+      "bytes": 164981,
+      "sha256": "983f9c342c35a6e0353975675050276df93d6d666ddea25aeb053bc9ff5d63a3",
+      "kind": "legacy-engine-frozen-source",
+      "original_modified": false
+    }
+  ]
+}

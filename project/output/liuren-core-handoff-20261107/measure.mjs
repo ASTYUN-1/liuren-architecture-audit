@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+import {makeReadingCore} from '../../tools/liuren-core-handoff.mjs';
+import {digest,PAGE_SIZE} from '../../tools/liuren-adjudication-files.mjs';
+const out=fileURLToPath(new URL('./',import.meta.url)),root=path.resolve(out,'../..');
+const original=path.join(root,'output/liuren-adjudication-requests/20261107-liuren-bus-01-5fdfd0bf-e787-47f7-aaf2-503f58c3b7d9.json');
+const raw=await fs.readFile(original,'utf8');
+assert.equal(digest(raw),'46038e694c845eb60b7cddf6c2c7e9142825ad9a75647a299dfda0cc266d3835');
+const p=JSON.parse(raw).packet,{core}=await makeReadingCore(root,p),c=JSON.parse(core.content);
+assert.deepEqual(c.chart,p.chart.facts);
+for(const k of ['entities','facts','observations','focus_issues','unknowns'])assert.deepEqual(c.preparation[k],p[k]);
+const result={scope:'Original historical packet projected into current core; no new adjudication and no historic file changed',beforeCharacters:raw.length,afterCoreCharacters:core.content.length,beforePages:Math.ceil(raw.length/PAGE_SIZE),afterCorePages:Math.ceil(core.content.length/PAGE_SIZE),reductionPercent:Math.round((1-core.content.length/raw.length)*1000)/10,fullChartIdentical:true,candidateMaterialsIdentical:true,referenceCount:p.method_materials.length,allHistoricalSourceBodiesRetained:true,tokenMeasurement:false};
+await fs.writeFile(path.join(out,'bus-core-projection.json'),core.content);
+await fs.writeFile(path.join(out,'size-comparison.json'),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result));

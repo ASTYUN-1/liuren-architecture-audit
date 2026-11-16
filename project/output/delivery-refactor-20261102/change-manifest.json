@@ -1,0 +1,132 @@
+{
+  "baseline": "20261102-workflow-optimization-01",
+  "candidate": "delivery-refactor-20261102",
+  "changed": [
+    {
+      "path": "AGENTS.md",
+      "baseline": null,
+      "candidate": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "db/019_delivery_drafts.sql",
+      "baseline": null,
+      "candidate": "8c83a350a5d92bc49be1b8bfd614039b328afe77a4c747b0237b53ff64f20f21"
+    },
+    {
+      "path": "src/agent/delivery-stop.ts",
+      "baseline": null,
+      "candidate": "5974d8ad77bae5239306b77cb8984c9f19c7d93a445823b7455b275c8e4c0d12"
+    },
+    {
+      "path": "src/agent/delivery.ts",
+      "baseline": null,
+      "candidate": "ae0a288422e319e6ccf5ecd96e18bf54e01c3dc592f50bdc8cd8df01a304c431"
+    },
+    {
+      "path": "src/agent/public-output.ts",
+      "baseline": "4e588bd046954b9e2e0daea51d6a37bccc9b254d4aa3c9c2313403430575f0ca",
+      "candidate": "394357a524fb6901a818b480659f83abd635f3dd98772af4990158d845717f26"
+    },
+    {
+      "path": "src/agent/runtime-telemetry.ts",
+      "baseline": "884725f7116e74fb3c43a6f561a952a1fa51e431a246afe637c6717007c39841",
+      "candidate": "25a746cbee95c2b399d6663677c54bf1991e43665b9088c489674fff3bfd7f9e"
+    },
+    {
+      "path": "src/agent/runtime.ts",
+      "baseline": "cb0058d502aefc93545817adc7f7c6409ef5f5664eefa2b33cbb3efa1124cef0",
+      "candidate": "01486bb011db1531737bcb1176f3efe9d22999e45e9004eed006fdd319b5ffbc"
+    },
+    {
+      "path": "src/agent/tools.ts",
+      "baseline": "5810ebb98015b6dc0d94484cfe3c23b6a635dd24b0fba8db54711f3169f6b4a5",
+      "candidate": "f1c6bb8f29d529fb2b3698065e25ce81efc600abf682cabc7a3013fa509ea737"
+    },
+    {
+      "path": "src/components/admin-delivery-diagnostics.tsx",
+      "baseline": null,
+      "candidate": "2809b06a565e88493c9637db15aada60653bcc968e8b49162d7d7367cb089feb"
+    },
+    {
+      "path": "src/components/admin-records.tsx",
+      "baseline": "457cd96d8289381d0c37a21f73bc937b12617e7332be21bc498b73afafa31cb0",
+      "candidate": "f121a3fe916b39980d0d3bea0d0662648410a80b63166c2de50a9212797f9743"
+    },
+    {
+      "path": "src/components/admin-tasks.tsx",
+      "baseline": "c3bd964e2dd983193284b9392a40ee38262b28448baf0dcc01d2b14fc8a667f7",
+      "candidate": "b846a8a1d856114618d2b9da0308777b405e3a827f33d57e6a33c79b43c475fe"
+    },
+    {
+      "path": "src/components/beta-case-workspace.tsx",
+      "baseline": "8591fb8e2d1a5add4ede5b8acbbb5cab64adb21b5e20def4b0308fd8f390aac3",
+      "candidate": "af19fa3c44cef2ef2b6158bb0d489ee529aad2771abdaa568683516c77c305a6"
+    },
+    {
+      "path": "src/components/case-workspace.tsx",
+      "baseline": "5da73eb28ff0c222e568b9414c3e20e9fdb09f1068f16a1acbdf1431c796bcd7",
+      "candidate": "dfb08d0983754cdb14376edd87d05179b6b67d3f71340023c2d5c5a876f296cf"
+    },
+    {
+      "path": "src/components/delivery-notice.tsx",
+      "baseline": null,
+      "candidate": "9c4fe334d13dd1fe34c1cba07838796ae831dcbb3917a52c54bfba7f2f8af9da"
+    },
+    {
+      "path": "src/server/contracts.ts",
+      "baseline": "8ef76719368155c8c636bd209ce05974a5e65b02c8b124f5d8624f39a786719a",
+      "candidate": "7f1ecc1d29fee13ed5b8fae1c0c504a854cf9072b2c598965325025085c823ce"
+    },
+    {
+      "path": "src/server/delivery-diagnostics.ts",
+      "baseline": null,
+      "candidate": "8dba5537ecacaed2a3276c59a0102cfdacbb8af1d2c98071581b935eb15e71b2"
+    },
+    {
+      "path": "src/server/delivery-settlement.ts",
+      "baseline": null,
+      "candidate": "c6c55d5bebe949584437e95486036be3346a305c49ce5bb6737d4cf1858ebaae"
+    },
+    {
+      "path": "src/server/delivery-store.ts",
+      "baseline": null,
+      "candidate": "31756e9e8913a313a68f08a785014b0e46e71975c5bccc581bfa2615f28a0885"
+    },
+    {
+      "path": "src/server/operations.ts",
+      "baseline": "707522b30c1d539b412cc6a22b9d3aff7328e4fbe1b878b8c171b739cd3436de",
+      "candidate": "32a0d07912cb2fdf0fc39eff3a637c1c452a752725e27308adfbd929338b29e0"
+    },
+    {
+      "path": "src/server/service.ts",
+      "baseline": "2df61e239847c2739a4287cb3936ec40b2b08885ea0b82a06526e0f348c7367a",
+      "candidate": "c59d1cff889f22a5bb65a9dc4048a6f9bde8afccb99b9bbe1c07efb4dbcc65c9"
+    },
+    {
+      "path": "src/server/worker.ts",
+      "baseline": "31f2769c17d8da3eccfca1e26f16800287a0cf84c7c91181a36d6f110982fdfa",
+      "candidate": "c8395518fac892dc96e40ef297316385b72302f7b05487f978175eca8af54b9e"
+    },
+    {
+      "path": "tests/delivery-db.test.ts",
+      "baseline": null,
+      "candidate": "2262663f89393dc0dc0866de35392693e30cabaa8178ca4a9015ebdaea659b5e"
+    },
+    {
+      "path": "tests/delivery-native.test.ts",
+      "baseline": null,
+      "candidate": "422d6cdea6e6db5ebdc0a764cfd95550822f40bb6dcd02e02620669ed5ab3cb7"
+    },
+    {
+      "path": "tests/delivery.test.ts",
+      "baseline": null,
+      "candidate": "d49bb04b3b75b6fffca5eef27d01dab37d3ace45b462b6e6d370a846c513c4fd"
+    },
+    {
+      "path": "tests/runtime-optimization-incomplete.test.ts",
+      "baseline": "12c23daacba63d9910cdc8cb587c672c57f5e29979cd3e47680f10c3c0863927",
+      "candidate": "ed59d3321b0b5013bfe1c399865e8e7cc368865b70331fb81d960ee01f69abd4"
+    }
+  ],
+  "deleted": []
+}

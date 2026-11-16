@@ -1,0 +1,980 @@
+{
+  "schema": "analysis-manifest-v1",
+  "batch": "qqwb20261019-分流-20261019",
+  "counts": {
+    "cases": 31,
+    "ready_for_first_analysis": 0,
+    "已剔除无作答": null
+  },
+  "usage": "仅正常可用包允许调度。异常包原公开输入只供排错，禁止派发。",
+  "cases": [
+    {
+      "case_id": "raw-qqwb20261019-0003",
+      "task_alias": "case-18cfb749c5",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-18cfb749c5.json",
+      "case_file": "cases/raw-qqwb20261019-0003.md",
+      "case_sha256": "84b6df2e30b4484253ed74cf0848b7122bf9ebd042e273d8efc40f8947f15cd5",
+      "chart_file": "charts/v7/raw-qqwb20261019-0003.json",
+      "chart_sha256": "0af7f69c08d70a8e67af7f83aeb84e3d6f9a8041c72c5c459bb11c37ef23137e",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": true,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_MONTH_GENERAL_MISMATCH：程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0004",
+      "task_alias": "case-447eedbeb2",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-447eedbeb2.json",
+      "case_file": "cases/raw-qqwb20261019-0004.md",
+      "case_sha256": "e06f77feb8d1ce79b3685447855605717bed1d8514ea22729f22278f52fce0f4",
+      "chart_file": "charts/v7/raw-qqwb20261019-0004.json",
+      "chart_sha256": "c1a5ae818239fe1dadb22369883f992818064709320b1658fad03d5ce8ef4310",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": true,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=MISSING_CALENDAR_DATE",
+        "issue=EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0012",
+      "task_alias": "case-c8b9707635",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-c8b9707635.json",
+      "case_file": "cases/raw-qqwb20261019-0012.md",
+      "case_sha256": "2b1ea087967da23e67b09b77331061a265622bf7a897e681271fd59232d32390",
+      "chart_file": "charts/v7/raw-qqwb20261019-0012.json",
+      "chart_sha256": "2c98c142ca408c93512233b8df95ae208d5131cfb746cdb6091931b0b34f5b9c",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核",
+        "已确认年柱转录错误"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定",
+        "已目视核对 pan/011_1.jpg：年柱乙巳，案例转录为乙丑。"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0023",
+      "task_alias": "case-6a47f506ad",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-6a47f506ad.json",
+      "case_file": "cases/raw-qqwb20261019-0023.md",
+      "case_sha256": "734784adfdf44c009b79e60a56151a7bda3740340cd38498353311bf768e4a52",
+      "chart_file": "charts/v7/raw-qqwb20261019-0023.json",
+      "chart_sha256": "7c67620d43fd598ee68056a9d3c0ece337669ed45658e61e83ae3451806f38a5",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=UNSUPPORTED_TIME_ANNOTATION",
+        "issue=EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0028",
+      "task_alias": "case-68bf2c6cee",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-68bf2c6cee.json",
+      "case_file": "cases/raw-qqwb20261019-0028.md",
+      "case_sha256": "d93a836d608e8f532a39c7b251f6919aacbf063987c52065e9eedb874daad0cd",
+      "chart_file": "charts/v7/raw-qqwb20261019-0028.json",
+      "chart_sha256": "fcd159a695a16ed28c1c6bfe19c563c639d2a95cc045d88e9d3725cdd48e5910",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_MONTH_GENERAL_MISMATCH：程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0034",
+      "task_alias": "case-000edd8210",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-000edd8210.json",
+      "case_file": "cases/raw-qqwb20261019-0034.md",
+      "case_sha256": "ef6627fff5eaba21d62296de1a5f67128f72c3a6cee27c698321ec088ca6171d",
+      "chart_file": "charts/v7/raw-qqwb20261019-0034.json",
+      "chart_sha256": "5a3fb5a9bbf0ac2b8e6d3971a5bc45e6f5301ea1bf94fbd896d193dcc9d2090f",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=UNSUPPORTED_TIME_ANNOTATION",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0037",
+      "task_alias": "case-f68f716c05",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-f68f716c05.json",
+      "case_file": "cases/raw-qqwb20261019-0037.md",
+      "case_sha256": "165994b8b9a03e226fd1149c563380baf75c94c7a8bafd4c803ebe102a0fc459",
+      "chart_file": "charts/v7/raw-qqwb20261019-0037.json",
+      "chart_sha256": "9c9300b8512d7b5b436f818fdbadbd64cb55dc46d80d7eb8d27194a9f89e6fb5",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-f68f716c05.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "pan/036_1.jpg：月将申；空亡子丑；当前时间起课；同页另标真太阳时 21:36（同为亥时，未采用）；事项栏为空"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0044",
+      "task_alias": "case-209c49c9ec",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-209c49c9ec.json",
+      "case_file": "cases/raw-qqwb20261019-0044.md",
+      "case_sha256": "a232d19b58f427e0e5e5c26d15591e7b4765e8453c2e92a728a20b2744646ce1",
+      "chart_file": "charts/v7/raw-qqwb20261019-0044.json",
+      "chart_sha256": "1888f36ed2d965490623460c8a031e8447264bb5425e08225d48744adca60be1",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核",
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定",
+        "pan/043_1.jpg：月将午；空亡子丑；当前时间起课；同页另标真太阳时 23:04（同为子时，未采用）；事项栏「鼠鼠何处归」；课义「来往皆空，凡事无踪，喜不为喜，凶不为凶」"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0055",
+      "task_alias": "case-c95cbe4b9a",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-c95cbe4b9a.json",
+      "case_file": "cases/raw-qqwb20261019-0055.md",
+      "case_sha256": "9775884a0f160ac85588950a06c4c7ba17c1fb93792513dc491aa9878fa4d0e2",
+      "chart_file": "charts/v7/raw-qqwb20261019-0055.json",
+      "chart_sha256": "ba2a570f76d59b00d7401a905f6edf842d151ffa1afbb4461b5ca98961ad29d1",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-c95cbe4b9a.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "pan/054_1.jpg：月将申；空亡辰巳；节气小满至芒种（小满2026.05.21 08:36～芒种2026.06.05 23:48）；当前时间起课；事项栏「父亲身体状况」；同页另标真太阳时 22:52（同为亥时，未采用）；课义「生被虎攻，往就徒空，舍益就损，终身困穷」"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0058",
+      "task_alias": "case-6ae29cf6d8",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-6ae29cf6d8.json",
+      "case_file": "cases/raw-qqwb20261019-0058.md",
+      "case_sha256": "ed551307614a4fc7cd023b79939097afb433a5d5738755aa4b27d499a12c1365",
+      "chart_file": "charts/v7/raw-qqwb20261019-0058.json",
+      "chart_sha256": "204b2f1d3e9702e610aa394e29c65b4deafa923d11ff943d231f01b9ca456c96",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0064",
+      "task_alias": "case-ff044011ed",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-ff044011ed.json",
+      "case_file": "cases/raw-qqwb20261019-0064.md",
+      "case_sha256": "11ad4bf8624e9bd76962862b8fc54a901760617f32f50dc1d87b8e4020feed5e",
+      "chart_file": "charts/v7/raw-qqwb20261019-0064.json",
+      "chart_sha256": "f6784224ebd5f75946b91f37c0d5633a5c6d5677229f284812deb1d052a7eadb",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=MISSING_CALENDAR_DATE",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0072",
+      "task_alias": "case-14271a4eb9",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-14271a4eb9.json",
+      "case_file": "cases/raw-qqwb20261019-0072.md",
+      "case_sha256": "242c7e85335abbf1c263d51e7c8668fb4fb670d5f583fbb513c6a9fd04024425",
+      "chart_file": "charts/v7/raw-qqwb20261019-0072.json",
+      "chart_sha256": "2089c01bd53f0ba58a312f514c95510531c8bfbe59fc3484feea7b81869e2976",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0075",
+      "task_alias": "case-caac23dd98",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-caac23dd98.json",
+      "case_file": "cases/raw-qqwb20261019-0075.md",
+      "case_sha256": "49dda668e478ac966fbefe8905ef8ab7f535c4720bc751cc5b8ba4d789912337",
+      "chart_file": "charts/v7/raw-qqwb20261019-0075.json",
+      "chart_sha256": "c563520681a90da2947ec63f18ad86e020c43fe86be83a24125ac037f7af21c6",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=MISSING_CALENDAR_DATE",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0078",
+      "task_alias": "case-cda99797f8",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-cda99797f8.json",
+      "case_file": "cases/raw-qqwb20261019-0078.md",
+      "case_sha256": "294355d8073ca8eaf10a34b28c9ffa8823824632cb79a72e36f8f71369656bab",
+      "chart_file": "charts/v7/raw-qqwb20261019-0078.json",
+      "chart_sha256": "bad02e068a36747217b0662326d1b49c9ce389a14ec4ef112c62c8b80b1681ef",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-cda99797f8.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "活时起课约定未传递"
+      ],
+      "异常详情": [
+        "pan/077_1.jpg：月将酉；活时起课（申时）；农历四月初四；无年命栏；图上仅列驿马、桃花、日禄、日德等神煞明细"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0097",
+      "task_alias": "case-ba3701f263",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-ba3701f263.json",
+      "case_file": "cases/raw-qqwb20261019-0097.md",
+      "case_sha256": "6f453f9b12903d3adbbada49d750f96d339233abc50b8668d77c7acfc4ce8989",
+      "chart_file": "charts/v7/raw-qqwb20261019-0097.json",
+      "chart_sha256": "111dd07d67d35557113bb041e935bcc4d9e8584a8ba65f3fc35f3050abe5f279",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-ba3701f263.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "多盘与问题对应未处理"
+      ],
+      "异常详情": [
+        "pan/096_1.jpg：2026-07-20 03:30",
+        "pan/096_2.jpg：2026-07-20 08:34"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0100",
+      "task_alias": "case-8a38d8b305",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-8a38d8b305.json",
+      "case_file": "cases/raw-qqwb20261019-0100.md",
+      "case_sha256": "0146f78f0e70a278fb0ad1c7f0253196e0950392f536b1f7b14992a705a91c1d",
+      "chart_file": "charts/v7/raw-qqwb20261019-0100.json",
+      "chart_sha256": "4c5fffa6b37d274677241322c529fb55b3f911702853e3b7cba45242022eca12",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0122",
+      "task_alias": "case-eb9362d87b",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-eb9362d87b.json",
+      "case_file": "cases/raw-qqwb20261019-0122.md",
+      "case_sha256": "4cb3b7933af0ad93ffe18e77a04b4bc5df26d2f4918bf6e5749c8b1609428573",
+      "chart_file": "charts/v7/raw-qqwb20261019-0122.json",
+      "chart_sha256": "f94fa1a4920d9c1d69cedc55f9367ee19d945421b76c6891487c473e5ec16438",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核",
+        "活时起课约定未传递"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定",
+        "pan/121_1.jpeg：月将丑；活时起课（盘上标「活时:丑」，时柱丁丑）；盘上未标旬空；无占事栏；农历冬月廿三；盘面附五行旺衰色标（土旺/金相/火休/木囚/水死）"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0130",
+      "task_alias": "case-94c792f654",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-94c792f654.json",
+      "case_file": "cases/raw-qqwb20261019-0130.md",
+      "case_sha256": "c0a075da1f552abbf097538dea2b8fd4b0ae418e818cb70c255baebda220d241",
+      "chart_file": "charts/v7/raw-qqwb20261019-0130.json",
+      "chart_sha256": "a03a12538f0373abb7e59abba7bc9921953055cf5fe9bfa928ceb9d423184d57",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=UNSUPPORTED_TIME_FORMAT",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0154",
+      "task_alias": "case-34ca59a18d",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-34ca59a18d.json",
+      "case_file": "cases/raw-qqwb20261019-0154.md",
+      "case_sha256": "9f915c8e4cf9e7b11bc0703f6ad00fb185d7933d5b3b69bf8565b8c1fb3a5534",
+      "chart_file": "charts/v7/raw-qqwb20261019-0154.json",
+      "chart_sha256": "b10e9ee11ddc3aedb6be498913a6b019d4372848d5999063d8088f2af616c2d7",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核",
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定",
+        "pan/153_1.jpg：热卜大六壬；同页另标真太阳时2025年10月22日01时17分（time_raw取民用时）；农历九月初二；课式：当前时间起课；月将辰；空亡戌亥；节气寒露2025.10.08 08:40～霜降2025.10.23 11:50；事项栏为空"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0160",
+      "task_alias": "case-c4503172ae",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-c4503172ae.json",
+      "case_file": "cases/raw-qqwb20261019-0160.md",
+      "case_sha256": "8b28f1e8e6342e9d1e656b2636c22d183fb332e5a2f8c7855be8cba17fee2f0c",
+      "chart_file": "charts/v7/raw-qqwb20261019-0160.json",
+      "chart_sha256": "165c7e59f63c6e6a56230474a193923ab5ebe6244a6d5767ce80d155221f7859",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": true,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=MISSING_CALENDAR_DATE",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0181",
+      "task_alias": "case-7a2869cbb7",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-7a2869cbb7.json",
+      "case_file": "cases/raw-qqwb20261019-0181.md",
+      "case_sha256": "244e7973c356be73c0afd824f87ca4cb517a7b9d92f4551d96a4378e2371939a",
+      "chart_file": "charts/v7/raw-qqwb20261019-0181.json",
+      "chart_sha256": "4b927711c73a7b675837642b45df9e0e7d463fca2e50c1237e90e84e0758c6b6",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-7a2869cbb7.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "多盘与问题对应未处理",
+        "不同事件未拆分"
+      ],
+      "异常详情": [
+        "pan/180_1.jpg：2026-05-10 10:59",
+        "pan/180_2.jpg：2025-05-27 17:59",
+        "租房与面试是不同事件，当前一份公开包只带一张程序盘。"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0182",
+      "task_alias": "case-6fcdfa8a4e",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-6fcdfa8a4e.json",
+      "case_file": "cases/raw-qqwb20261019-0182.md",
+      "case_sha256": "a25b45757d08e0281f1fd3baf5df850d105a89b50d09428d5275d2c53cb9cfa3",
+      "chart_file": "charts/v7/raw-qqwb20261019-0182.json",
+      "chart_sha256": "a6db454b43c0affd76da921fb66ef3fb6fc2fd5407e6d5ce9cfc589eaae1a866",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0202",
+      "task_alias": "case-f49f6823eb",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-f49f6823eb.json",
+      "case_file": "cases/raw-qqwb20261019-0202.md",
+      "case_sha256": "cc2a9d0908bb6c4bbe52695ac2fdfba7aa474efd520048ad6cd96f07858dede1",
+      "chart_file": "charts/v7/raw-qqwb20261019-0202.json",
+      "chart_sha256": "e057ccf73e1648e5663615cb587fd244dddc93685c05eeaf685adb0ba97f73ad",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-f49f6823eb.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "活时起课约定未传递",
+        "已确认程序盘与原图不同"
+      ],
+      "异常详情": [
+        "pan/201_1.jpg：农历八月初六，已移入note；月将辰；活时起课（用寅时），与盘上时柱戊辰（辰时）不一致，属活时起课；驿马巳、旬丁酉、天马申；无年命栏；无占事栏",
+        "已目视核对 pan/201_1.jpg：活时寅时，原图三传丑卯巳；程序按正时辰时生成亥未丑。"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0204",
+      "task_alias": "case-63840ab7ef",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-63840ab7ef.json",
+      "case_file": "cases/raw-qqwb20261019-0204.md",
+      "case_sha256": "7fe44d47ac95190f203514dcc823ecde063ff427aa09ae1b6d5c4a64e3d2bf02",
+      "chart_file": "charts/v7/raw-qqwb20261019-0204.json",
+      "chart_sha256": "722af57a6413223799ae72ab806bbfa2fdb5015e977f5396420eebc03e97d0bc",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0206",
+      "task_alias": "case-fdbc027e35",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-fdbc027e35.json",
+      "case_file": "cases/raw-qqwb20261019-0206.md",
+      "case_sha256": "ee73ebb442cb76ebf2c95df3232feaf57a0b3ace0402fdb0580a2716ccc9087e",
+      "chart_file": "charts/v7/raw-qqwb20261019-0206.json",
+      "chart_sha256": "fdaa6b8d737b96017d92019f8f3546495fa99079fd9f29475cdfd4146f6d286f",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核",
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=MISSING_CALENDAR_DATE",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH",
+        "pan/205_1.jpg：同页另标真太阳时 2026-02-04 18:25:00（晚2分钟），time_raw取民用北京时间；月将子；三传官卯青/父丙午朱/子己酉后；附有六壬直指、毕法云断语，无独立占事栏"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0216",
+      "task_alias": "case-a7e37e960f",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-a7e37e960f.json",
+      "case_file": "cases/raw-qqwb20261019-0216.md",
+      "case_sha256": "817ce6c310758a115585c0f952c7c3efa1e2d6c367d9e009c73841d1a8c859d7",
+      "chart_file": "charts/v7/raw-qqwb20261019-0216.json",
+      "chart_sha256": "febbf6a3c0877de88d7b5159626a74fa800a32c7b74ca2d6f5dde999815fcc9d",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0219",
+      "task_alias": "case-722dd2f137",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-722dd2f137.json",
+      "case_file": "cases/raw-qqwb20261019-0219.md",
+      "case_sha256": "0aa3af762bba4b9e11729218f5fecee5b4be3a47874c3fe10cdf1293331df6a4",
+      "chart_file": "charts/v7/raw-qqwb20261019-0219.json",
+      "chart_sha256": "1c22981773789c9d9c0e3e8438b511254f14abc73f215c74a704235882ad1743",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-722dd2f137.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "pan/218_1.jpg：农历十二月十二；真太阳时2026-01-30 09:15（time_raw取民用时）；当前时间起课；月将子；空亡寅卯；占事栏为空；课义：去煞留官，仕宦欢欣，常人值此，灾祸多端；解曰：甲木以酉为官，以申为煞…"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0230",
+      "task_alias": "case-cc465ef174",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-cc465ef174.json",
+      "case_file": "cases/raw-qqwb20261019-0230.md",
+      "case_sha256": "0f46e907499c24c27f5d1f536185d098b6d12b80736fb34999d45f606d4e7ddc",
+      "chart_file": "charts/v7/raw-qqwb20261019-0230.json",
+      "chart_sha256": "a33704aec6ae0722f04ef1ff7ab62697399cdcc27df808dba46cf8294e1e0afe",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定",
+        "SOURCE_MONTH_GENERAL_MISMATCH：程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0236",
+      "task_alias": "case-00e113178c",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-00e113178c.json",
+      "case_file": "cases/raw-qqwb20261019-0236.md",
+      "case_sha256": "731552b12536229e7c3a8a83eadb85a67b98b69d9ea7840134eb3d92a4056167",
+      "chart_file": "charts/v7/raw-qqwb20261019-0236.json",
+      "chart_sha256": "e401da44f9ee453e83b417988d3a7ded6104810437c6d608e393da42c9c112ce",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "held_original_public_path": "analysis-ready/原公开包_禁止调度/case-00e113178c.json",
+      "original_ready_for_first_analysis": true,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "真太阳时约定待核"
+      ],
+      "异常详情": [
+        "pan/235_1.jpg：月将酉；农历三月初九；另标真太阳时「2026年04月25日 22时09分」；空亡戌亥；节气谷雨2026.04.20 09:38～立夏2026.05.05 19:48；课式栏原文「当前时间起课」；无占事栏"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0238",
+      "task_alias": "case-8c5a3ae3c6",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-8c5a3ae3c6.json",
+      "case_file": "cases/raw-qqwb20261019-0238.md",
+      "case_sha256": "01d2742db15c39d291e73f6bb5f38160f5da68c638ff8613cb15977b6b922e37",
+      "chart_file": "charts/v7/raw-qqwb20261019-0238.json",
+      "chart_sha256": "166cfbc270c37e8b77b6dd0ef93b79872ff36bd0923a26d858ad5819c8a51bb0",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=needs_resolution",
+        "issue=UNSUPPORTED_TIME_FORMAT",
+        "issue=IMAGE_LEDGER_TIME_MISMATCH",
+        "issue=TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0240",
+      "task_alias": "case-70f8da1ff1",
+      "来源组": "无",
+      "public_path": null,
+      "private_path": "analysis-ready/private/case-70f8da1ff1.json",
+      "case_file": "cases/raw-qqwb20261019-0240.md",
+      "case_sha256": "96a19f6b4cbf5488aaafb67e9b32024b33a71436b8b17ec7833d374f3c8d7ee9",
+      "chart_file": "charts/v7/raw-qqwb20261019-0240.json",
+      "chart_sha256": "10e562b6e36754b1006914f53eb6df77acacf1922f907959b4f00ab458f75371",
+      "ready_for_first_analysis": false,
+      "has_assignment_reference": true,
+      "has_explicit_feedback": false,
+      "blocking_reasons": [
+        "旧分流包已停用，请使用qqwb20261019-有效201例-修订版"
+      ],
+      "duplicate_of": null,
+      "library_status": "未入正式库",
+      "original_ready_for_first_analysis": false,
+      "分流状态": "异常待核",
+      "异常类别": [
+        "原清单盘面或时间待核"
+      ],
+      "异常详情": [
+        "盘面状态=chart_validation_blocked",
+        "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+      ],
+      "source_batch_root": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "reference_material_usable": false
+    }
+  ],
+  "superseded_by": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\初级案例资料\\qqwb20261019-有效201例-修订版"
+}

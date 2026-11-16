@@ -1,0 +1,82 @@
+from pathlib import Path
+import copy,hashlib,json,os,re
+OUT=Path(__file__).resolve().parent;ROOT=OUT.parents[1]
+load=lambda p:json.loads(p.read_text('utf-8-sig'))
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def dump(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='')
+host=load(OUT/'host-chain.json');audit=load(OUT/'host-results-audit.json');smoke=load(OUT/'autoload-smoke.json')
+assert host['finished'] and audit['passed'] and smoke['finished'] and not smoke['errors'] and not smoke['toolErrors']
+assert 'ℹ pass 210' in (OUT/'node-tests.log').read_text('utf-8')
+python=load(OUT/'python-workflow.json');assert python['passed']
+p=load(ROOT/'.opencode/liuren-active.json');runtime=ROOT/p['runtime'];m=load(runtime/'manifest.json')
+assert p['release']=='20261107-slim-27'
+# Finalize this repair's evidence metadata after its actual host run; no professional text changes.
+m['computeInterface']['transportValidation']='verified installed desktop host synthetic full chain and actual-project automatic discovery; no external model run'
+contract=load(runtime/'loader-contract.json');contract['computeInterface']=copy.deepcopy(m['computeInterface']);dump(runtime/'loader-contract.json',contract)
+m['files']={rel:sha(runtime/rel) for rel in m['files']}
+m['version']=hashlib.sha256(json.dumps(m['files'],sort_keys=True).encode()).hexdigest();dump(runtime/'manifest.json',m)
+p['methodVersion']=m['version'];p['computeInterface']=copy.deepcopy(m['computeInterface'])
+tmp=ROOT/'.opencode/liuren-active.validation.tmp';dump(tmp,p);os.replace(tmp,ROOT/'.opencode/liuren-active.json')
+record=load(OUT/'local-fix.json');record['after']={rel:sha(ROOT/rel) for rel in record['before']};dump(OUT/'local-fix.json',record)
+assert all(sha(runtime/rel)==h for rel,h in m['files'].items())
+assert all(sha(ROOT/rel)==h for rel,h in p['workflowImplementation'].items())
+assert all(sha(ROOT/rel)==h for rel,h in p['bookRetrieval']['files'].items())
+assert all(sha(ROOT/rel)==h for rel,h in contract['sourceHashes'].items())
+old=ROOT/'runtime/liuren/20261107-slim-26';before=load(old/'manifest.json')
+assert all(sha(old/rel)==h for rel,h in before['files'].items())
+baseline=load(ROOT/'output/liuren-slim-activation-20261107/protected-sha256.json')
+changes=[rel for rel,h in baseline.items() if sha(ROOT/rel)!=h]
+assert set(changes)=={'tools/liuren-compute-schema.mjs','tools/liuren-adjudication-files.mjs','.opencode/plugins/liuren-adjudication.ts'},changes
+doctor=load(OUT/'doctor.json')
+assert doctor['errors']==['research mechanical validation has gaps'],doctor['errors']
+result={'release':p['release'],'scope':'local-opencode-only','methodVersion':m['version'],'archiveCompatibilityFixed':True,'professionalLogicChanged':False,'frozen26Intact':True,'changedRuntimePrograms':changes,'routes':load(OUT/'routes-audit.json'),'actualHost':audit,'autoloadSmoke':smoke,'node':{'tests':210,'passed':210,'failures':0},'python':python,'doctorErrors':doctor['errors'],'externalModelCalls':0,'predictiveValidationCount':0,'websiteChanged':False,'rollback':'output/liuren-slim-flow-validation-20261107/rollback.py'}
+dump(OUT/'validation-summary.json',result)
+text=f'''# 本机精简版流程复验
+
+当前本机活动版本：**{p['release']}**。本次发现并修复一处真实工具接口问题，完整工具链和自动发现复验通过。仅本机生效，未部署网站、APK或服务器。
+
+## 发现和修复
+
+排盘返回的archive包含path、sha256、raw_sha256，而计算和裁决输入原来只接受前两项；模型原样复制整个对象会报Unrecognized key。现在两个入口共用同一归档引用schema，可直接接收完整返回对象，也兼容原path/sha256形式。
+
+文件sha256、路径范围、禁止链接、归档格式等校验保留。传入raw_sha256时，还须与经过文件hash认证的归档内原始哈希一致；不接受任意额外字段或错误哈希。排盘算法、神煞取法和专业判断正文没有改动。
+
+另一次原生read失败发生于隔离测试环境：宿主按Git工作树相对路径匹配权限，测试目录最初没有对应工作树根。已在独立测试仓库复验，并在原项目做自动发现与原生read测试；**没有放宽本机读取权限**。
+
+## 实际覆盖
+
+| 检查 | 结果 |
+|---|---|
+| 原项目自动发现 | 无组合测试包装；识别并调用原项目自动加载的工具，技能、workflow帮助、方法全文、日历计算和原生read成功 |
+| 已安装桌面宿主完整链路 | 20次本地合成模型响应；主会话21次实际工具调用，全部completed，无工具错误 |
+| 裁决子会话 | 2次批读完整8页；绑定盘日历计算、自由正文submit、可见回执、task_result领取、report门禁和deliver原文一致 |
+| 裁决模型配置 | deepseek/deepseek-flash、high经实际请求确认 |
+| 计算分支 | chart、lookup、life、source、quantity以及子会话calendar均实际执行；48、壬子、临官/子孙和来源全文逐项核对 |
+| 资料与方法 | 方法批读、完整神煞读取、三书搜索、书目、原生read执行成功，无宿主截断 |
+| 阅读路由 | 16占类的结果/应期/数量组合及13触发分支，共272组连通、顺序与唯一性检查通过 |
+| 模块全文 | 59个模块经84次真实CLI分页读取后原样重建，含兼容别名与维护规程可达性 |
+| Node回归 | 210/210通过，包括缺读、截断、错hash、越权、ID混淆、重复裁决和恢复等原有检查 |
+| Python本机工作流 | 48项执行，47通过、1项按既有条件跳过；无失败或错误 |
+| 发布完整性 | 活动指针、manifest、实现源hash及三书登记一致；冻结26版完整保留，专业正文和固定神煞取法未改 |
+
+实际宿主测试使用本机回环服务提供预定合成响应，工具和插件真实执行，没有调用外部付费模型。因此它证明本轮覆盖场景的注册、权限、参数和交接可运行，**不证明真实模型永远不会填错参数、所有现实输入均已覆盖，或占断准确率已验证**。
+
+## 使用与剩余限制
+
+**重启OpenCode，在原项目目录新建会话。**workflow回执应显示release={p['release']}，且features.archive_metadata_passthrough=true；这可以识别是否仍使用旧进程工具。工具契约名称沿用liuren-tools-25，不能仅凭该名称判断本次兼容修复是否已加载。
+
+doctor的运行包、神煞身份和固定盘检查通过；总结果仍因研究库机械校验缺口为false。此前全量Python中的旧两库检索测试和20261027专用候选校验不属于当前普通研判路线，旧问题及完整日志保留，不冒称全库全绿。本次没有改研究数据或关闭校验掩盖这些问题。
+
+## 证据与回滚
+
+主要证据：host-chain.json、host-results-audit.json、autoload-smoke.json、current-wire.json、routes-audit.json、node-tests.log、python-workflow.json、validation-summary.json。失败尝试保留在attempts/，与最终通过结果分开。
+
+切换前实际文件在before-fix/，local-fix.json记录前后hash。回退至26版前先预览；遇后续编辑会拒绝覆盖，不删除新旧运行包：
+
+```powershell
+python -X utf8 output/liuren-slim-flow-validation-20261107/rollback.py
+python -X utf8 output/liuren-slim-flow-validation-20261107/rollback.py --apply
+```
+'''
+(OUT/'流程复验报告.md').write_text(text,encoding='utf-8',newline='')
+print(json.dumps({'release':p['release'],'validated':True,'report':str(OUT/'流程复验报告.md')},ensure_ascii=False))

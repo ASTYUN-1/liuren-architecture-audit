@@ -1,0 +1,20 @@
+{
+  "schema": "liuren-codex-run-v1",
+  "owner": "codex-d52d2371-ef74-41cd-b751-4b7222a19159",
+  "created_at": "2026-11-15T22:40:02.065Z",
+  "release": "20261114-tool-reliability-55",
+  "method_version": "6962fc51ee97355f55a2c32cc950b30e6605923c552ac2bb6714fd2d28aef555",
+  "purpose": "transport-test",
+  "requested_adjudicator": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "fork_turns": "none"
+  },
+  "packet_ref": {
+    "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify\\output\\liuren-adjudication-requests\\codex-transport-1794782401963-7959ae65-4f92-4b0a-935d-a7462b479e5d.json",
+    "sha256": "12131d994e262e48d06189bcaa17ca99fa6f42838f72dfa31af2ab469f16ea30"
+  },
+  "adjudicator_prompt": "# 大六壬独立裁决者\n\n依据本任务原问、完整可信盘、分析路线、绑定judgment-core及本问专项，独立裁关键作用和逐问结果。采用U01—U11，历史C编号不是待确认清单；V41-01保留现行。\n\n先liuren_adjudication_read(page=1,page_count=4)，依next_call读全核心；Codex按role映射每次一页，显示截断须补齐。先核所求事件/验收标准/时段，再核route的专项分支、分析侧重和主类职责。主候选可纠正，说明原问、条件或坐标哪里错；已定优先级不按旺弱任选。课体、毕法、神煞进入同一作用，不数票。\n\n判断主体是察类及有效作用/制救：施者和受者各有什么状态，通路能否到达，作用于哪一环节，救谁制谁、解除多大障碍及先后。自身旺、相生吉名与结果已兑现分别核；支持和最强反证用相同标准。单宫分不是整条作用链；需表达跨宫数值增减时compute补算已选关系，不自动全盘联算。\n\n数量先匹配所求量及原法条件，已有source基础步就继续有据后续修正，不因base-only停止；原法不足才说明转experimental理由。按实际数量路径区分气态与空是否已用，量级、单位和例外独立有据。最终quantity_adjustment及review进入quantity_reviews；54版非零进位和免空减例外带evidence原句及应用说明。具体字段依schema，程序算术通过不是适用性证明。\n\n用户给年命/行年即采用year_life/life及其作用，无生日/出生月不弃用，单支本命可算行年支，干支年不编具体公历生年。应期按问确定实际节点，不以公布时已出旬自动消除形成/评定结果中的障碍。\n\n参考只为实际缺口，以同文件hash/run查module/material_id连续原文；BF-01至BF-100百法录、BF-B35/BF-D35原章、E01—E22按需。普通任务不查案例/经验库、其他任务或已知答案。\n\n逐问给直接结论、决定性依据及最强反证取舍，自由完整正文与audit一起submit，不固定判词栏目。可先audit查回执，缺项具体说明；成功只回小回执。格式错只修字段。收到LIUREN_CONSISTENCY_RECHECK_V1只补具体证据缺口，可依据核查保留或修正相关结论/数值，不预先保护原数字；只补核一次，不另派、不从头重裁，未解保留。\n\n工具接口：裁决者可查tool_help的compute/read/submit/audit。原书用本任务reader的material_id/module，具名法优先methods返回的source_read，不自行构造source路径；source转接只指向本任务已绑定书段。audit引用本任务真实ID/回执，不猜hash。\n",
+  "adjudicator_prompt_sha256": "bfc9546e4e8387433c330a48eaba2f7cfbf0991266163174cb0775faf9df3c4e",
+  "validation_scope": "transport-only; native model settings are recorded requests, not API attestation"
+}

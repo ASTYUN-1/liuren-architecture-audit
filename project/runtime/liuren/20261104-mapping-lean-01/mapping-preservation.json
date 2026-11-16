@@ -1,0 +1,765 @@
+{
+  "schema": "liuren-method-preservation-v1",
+  "baselineRelease": "20261103-class-mapping-02",
+  "release": "20261104-mapping-lean-01",
+  "rules": {
+    "knowledge/liuren-research/20261102/rules/classical-mapping-20261103.json": "e6b53c098512b5a58edbc1caf216a663d4d6dd4a2fd4c2d6a22d021717541689",
+    "knowledge/liuren-research/20261102/rules/shenjiang-mapping-20261103.json": "18fce22a3e963facf6c7672f78e7462c0b30abcbfa4cfe99da93be8936cd37b8"
+  },
+  "modules": [
+    {
+      "module_id": "risk",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/risk.md",
+      "original_sha256": "3771b446d12bcb0444f915f5fe7f729646563025a797a69a10d249037ca169aa",
+      "active_file": "details/risk.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-tradition",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-tradition.md",
+      "original_sha256": "b2e889358f624f9ed6aebfcc1f3125613e09a2de76e5f22ef46018eb4ac16f3a",
+      "active_file": "details/shensha-tradition.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "classical-conflict",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/classical-conflict.md",
+      "original_sha256": "63287a0a1b3fa3e9a259788ec38597e63fe5884d9030a0c7b8291455db768167",
+      "active_file": "domains/classical-conflict.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "exam",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/exam.md",
+      "original_sha256": "e6338a7aa636ee57b6bd6974f128eb032fec38e535f0403ba227dd6980c58abc",
+      "active_file": "domains/exam.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C14—C15",
+        "原有完整判断流程",
+        "分数/通过/排名分别论证",
+        "批评过程不代替资格",
+        "完整数法与单位/误差"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C14",
+        "LR26-TXY-C15"
+      ]
+    },
+    {
+      "module_id": "finance",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/finance.md",
+      "original_sha256": "8a11e47bfbc87d14d920f34eed734791e5ce5ee0049a2691ae2b7bbe1fca7c4e",
+      "active_file": "domains/finance.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C06/C08/C10—C13",
+        "收入六条件",
+        "财三忌与因财致祸完整组合",
+        "父母乘虎蛇勾",
+        "账目传递与空亡例外",
+        "贵人背景缩放",
+        "数值口径"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C06",
+        "LR26-TXY-C08",
+        "LR26-TXY-C10",
+        "LR26-TXY-C11",
+        "LR26-TXY-C12",
+        "LR26-TXY-C13"
+      ]
+    },
+    {
+      "module_id": "illness",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/illness.md",
+      "original_sha256": "6d86545bf23fdb3f0e6d7a6b934ff89dffdffdfc3e4d8c8a5edc389b3673a80e",
+      "active_file": "domains/illness.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C16—C18",
+        "原有完整判断流程（合并定位句）",
+        "暴久及空的对象",
+        "白虎乘神临地与制救力量",
+        "医救作用与病象受制区别",
+        "阶段/并发症/生死边界"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C16",
+        "LR26-TXY-C17",
+        "LR26-TXY-C18"
+      ]
+    },
+    {
+      "module_id": "interpersonal",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/interpersonal.md",
+      "original_sha256": "10aef64adaa50468757ee11d242742ac4b1c2ba362510b85be369bacb36177b4",
+      "active_file": "domains/interpersonal.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C05—C07",
+        "三锚点损益",
+        "年命本身与上神",
+        "变质与夫妻专项边界",
+        "态度/行为/后果分判"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C05",
+        "LR26-TXY-C06",
+        "LR26-TXY-C07",
+        "LR26-TXY-C25"
+      ]
+    },
+    {
+      "module_id": "long-period",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/long-period.md",
+      "original_sha256": "8c3c388b5319ce6de6717c980e6228a1c65ee6f3498ab39f40a1f1aa2e81d3ef",
+      "active_file": "domains/long-period.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "lost-person-object",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/lost-person-object.md",
+      "original_sha256": "0e08040c416d9f268404891e95720464d7c8a1b7d34272219073bf12a73b9463",
+      "active_file": "domains/lost-person-object.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C26—C27",
+        "原有完整判断流程",
+        "原因与寻回分别取证",
+        "空间锚点冲突",
+        "距离数制单位",
+        "人宠状态与信息缺口",
+        "盗逃借用范围"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C26",
+        "LR26-TXY-C27"
+      ]
+    },
+    {
+      "module_id": "period-outlook",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/period-outlook.md",
+      "original_sha256": "383642a37f8a920f8a5205142320190860c32fd0410e8a988a27346fea06028e",
+      "active_file": "domains/period-outlook.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "pregnancy",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/pregnancy.md",
+      "original_sha256": "dfba81000e2ac346b0152610bb3c965d4de40afb0778f66809f31ac91a3477bf",
+      "active_file": "domains/pregnancy.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C19—C20/D02",
+        "未明来意多象不设阈值",
+        "课体/比和/金口诀法分层",
+        "母儿与孕产阶段",
+        "不备及贵儿反证",
+        "前三辰产期与具体节点"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C19",
+        "LR26-TXY-C20"
+      ]
+    },
+    {
+      "module_id": "promotion-salary",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/promotion-salary.md",
+      "original_sha256": "bc941f4e50a641b81c0b917de96ce6ce31c84fb3a60e838038a8ecaed3fecf08",
+      "active_file": "domains/promotion-salary.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C07—C09/C15",
+        "进达三维",
+        "增益与进达分判",
+        "空衰墓否定与救应",
+        "轩盖乘轩落马分支",
+        "变质与现代职场身份"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C07",
+        "LR26-TXY-C08",
+        "LR26-TXY-C09",
+        "LR26-TXY-C15"
+      ]
+    },
+    {
+      "module_id": "recruitment",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/recruitment.md",
+      "original_sha256": "431548eb2cb7c5524d1e81118c0e0fd907c951c7eddefe80018c2f927d8fc3ff",
+      "active_file": "domains/recruitment.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C07—C09",
+        "职位职责与禄优先",
+        "禄发用合干进气分支",
+        "类不现与空亡救应",
+        "反吟过程",
+        "朱雀乘丁候选"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C07",
+        "LR26-TXY-C08",
+        "LR26-TXY-C09",
+        "LR26-TXY-C15"
+      ]
+    },
+    {
+      "module_id": "relationship",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/relationship.md",
+      "original_sha256": "3d48495980a54a2769207ad18993e04bcdaca938d3d0d0ad2807a7e801f7e9da",
+      "active_file": "domains/relationship.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "C01—C04",
+        "年命倒置变法",
+        "第三者组合的成合例外",
+        "铸印/婚喜/年命强成合",
+        "琐象候选及不得指认人格",
+        "阶段与反证"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C01",
+        "LR26-TXY-C02",
+        "LR26-TXY-C03",
+        "LR26-TXY-C04"
+      ]
+    },
+    {
+      "module_id": "adjudication",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/adjudication.md",
+      "original_sha256": "51bee7d115aef4514d5a734529b0b64ddc3623d398d6beedb81c7158b743561c",
+      "active_file": "methods/adjudication.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "evidence",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/evidence.md",
+      "original_sha256": "7689295f52c57a4ca7e0279aff89ef7b47f553c0857cc8aab4f5b1bdc8ea6791",
+      "active_file": "methods/evidence.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "liqi",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/liqi.md",
+      "original_sha256": "cc85c696e94b1d1b30df1932d4efc4b430e5e629c2a5096bddb9a4941ab33ade",
+      "active_file": "methods/liqi.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "movement",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/movement.md",
+      "original_sha256": "9f800b94eb15e6ed75e1d61692d768014b12be94ec5d882e3d3c834d5806f950",
+      "active_file": "methods/movement.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "positioning",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/positioning.md",
+      "original_sha256": "b149fb058a01b6ade60c59b38353557a04d5b9a2a59b08b37f767417f76edc74",
+      "active_file": "methods/positioning.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原问与成功标准",
+        "主体/代问者/六亲参照",
+        "定位未定暂停依赖判断",
+        "变更后重核关系与应期",
+        "司法边界与来意法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "relations",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/relations.md",
+      "original_sha256": "025fb58cc4203b9a3e1fd65545825468a180d7028f9ba243d29fbda1a3d3e9e6",
+      "active_file": "methods/relations.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "天地盘与乘将坐标",
+        "六亲参照",
+        "四课直接阴神",
+        "三传角色与时间区分",
+        "对象参与实际作用",
+        "停止无效深化"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "report",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/report.md",
+      "original_sha256": "07be93cf5357c0ed63d6fea81d68b191a57ee0481471e8d8e956d4e4bbba6aa1",
+      "active_file": "methods/report.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "structure",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/structure.md",
+      "original_sha256": "6dc460a25d16b9dd093e985012aba5e6f358b1e165e8ac2df796cf7680b87fec",
+      "active_file": "methods/structure.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "timing",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/timing.md",
+      "original_sha256": "8aa69ca3080ac60f431de990bf41b2b4cb5296252836849c97ed91f2b67558d7",
+      "active_file": "methods/timing.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "void",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/void.md",
+      "original_sha256": "84016734fdf3b97515911f95aa17a97c8b06a28a1074bb81b80f7e56c13e6b70",
+      "active_file": "methods/void.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "bashajiubao",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/bashajiubao.md",
+      "original_sha256": "ee0da7eab69cff67b5af5dca000409b0fe0a91ff303fe455f5678385aed60465",
+      "active_file": "references/bashajiubao.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "beihai-extend-sop",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/beihai-extend-sop.md",
+      "original_sha256": "074f94facf492c38312dfc997842ccc2c04f27576ba1e57462c345a25d275528",
+      "active_file": "references/beihai-extend-sop.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "bifa",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/bifa.md",
+      "original_sha256": "9a9363afa0cb0b539a2145251767665e16439879fdd8e22810f1625c87aef3ab",
+      "active_file": "references/bifa.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "blade-methods",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/blade-methods.md",
+      "original_sha256": "f3b914967901cf34d0801642e19d8ed8f6a22c5ed3c3cc1661f014ac0acaa437",
+      "active_file": "references/blade-methods.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "case-retrieval-v2",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/case-retrieval-v2.md",
+      "original_sha256": "981444d599730f160b86b520366741a11216b12fdfc2bd3b2e1e0c8e11543a84",
+      "active_file": "references/case-retrieval-v2.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "daliuren-paipan",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/daliuren-paipan.md",
+      "original_sha256": "12564d704d59216a921c91ca94f0bf72b449fbb53b83e82aeb02193d4162d5c8",
+      "active_file": "references/daliuren-paipan.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "daliuren-shensha",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/daliuren-shensha.md",
+      "original_sha256": "10a6a3703962209edddf3d08cda2bf25bcd792e5bd2b2f2b580954d2a41bd488",
+      "active_file": "references/daliuren-shensha.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "engine-shensha-output",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/engine-shensha-output.md",
+      "original_sha256": "474463d5b17c7c250224e02e2238b160fa6081e650c1124675115fe49389ae7e",
+      "active_file": "references/engine-shensha-output.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "experience-retrieval-v2",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/experience-retrieval-v2.md",
+      "original_sha256": "213fe063420d1a9c000d27ff1b02e6794b5d838f3ed4be4704fc42a6e6aedc78",
+      "active_file": "references/experience-retrieval-v2.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "keti-quanbiao",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/keti-quanbiao.md",
+      "original_sha256": "44a529a03dbb6d54adcd10cae6dfb724e7a65b99666b95246f7b1b7d61e6d5ad",
+      "active_file": "references/keti-quanbiao.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "kundun",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/kundun.md",
+      "original_sha256": "178e5e26232761b517985be3db6ddcbc6bae722a1f12ae154e53ec556fc66db2",
+      "active_file": "references/kundun.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "liqi-examples",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/liqi-examples.md",
+      "original_sha256": "41506e95afb2b007d97b665749fde566d6c30476f7ad3a723b128d94ab6f455d",
+      "active_file": "references/liqi-examples.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "liqi-sources",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/liqi-sources.md",
+      "original_sha256": "8f149dbf7e6919ecaffb7961a4dee7d64164fdae0d24ceb4d03ac57b588c219d",
+      "active_file": "references/liqi-sources.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "nianming",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/nianming.md",
+      "original_sha256": "71018589493f59c899a0ec47972b3af936e9cd7943e9d1639fbeeffa1d26b737",
+      "active_file": "references/nianming.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "rule-semantics",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/rule-semantics.md",
+      "original_sha256": "92ee0c7f12a2e2f8d54e4cd55b220a867daa411129faaec838cbced54026682e",
+      "active_file": "references/rule-semantics.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-engine-index",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-engine-index.md",
+      "original_sha256": "7b1b51495bc8116a8f342e9261fe34a8b7196ac0989350c0493016483ec93019",
+      "active_file": "references/shensha-engine-index.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-field-meanings",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-field-meanings.md",
+      "original_sha256": "fd9ecdeca0226cf97c0126ac1ca5f75d66858bdd6863453255749204d4b7515f",
+      "active_file": "references/shensha-field-meanings.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-focus",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-focus.md",
+      "original_sha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "active_file": "references/shensha-focus.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-meaning-sources",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-meaning-sources.md",
+      "original_sha256": "127da4527d5404f5bbf8e0d12404053c01a36be37842aa88772da50279741630",
+      "active_file": "references/shensha-meaning-sources.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-meanings",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-meanings.md",
+      "original_sha256": "af429bc83ff03990e4751b5dc9233a2e29d5e640242c11fceb2b6690d5f194e1",
+      "active_file": "references/shensha-meanings.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-other-meanings",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-other-meanings.md",
+      "original_sha256": "730417470f028e74a90f55bb9ae1cf8694ecec1e2e74264773243adb62be5cfc",
+      "active_file": "references/shensha-other-meanings.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-sources",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-sources.md",
+      "original_sha256": "2630d5e59510010d29af6044637116fa6b8825d6fa476dcd8c9e7b8b716ade39",
+      "active_file": "references/shensha-sources.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shensha-use",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shensha-use.md",
+      "original_sha256": "f2f9fd7e3d12ea91eeb89c384bef3c74c1b9e32e904c6a435434429c7a9388cc",
+      "active_file": "references/shensha-use.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "quantity",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/quantity.md",
+      "original_sha256": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0",
+      "active_file": "methods/quantity.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "quantity-sources",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/quantity-sources.md",
+      "original_sha256": "3e63faff33de2c75cfca6bc892fb2767762fd4d5d8dbc40f7f27a6a63af726fe",
+      "active_file": "references/quantity-sources.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "workflow-contract",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/workflow-contract.md",
+      "original_sha256": "8c0fbec8297cc84c68425824027e0da5d563c6f072968f3352afcc89b1b52351",
+      "active_file": "methods/workflow-contract.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "class-mapping",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/class-mapping.md",
+      "original_sha256": "e4af63185be8fc586aaa54c0a99ee6f332220ea48364059c9279de6cf1e6eae4",
+      "active_file": "methods/class-mapping.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "九系统分工",
+        "同目标择主与异职责兼看",
+        "不现按目标分支",
+        "其他课传显象",
+        "来源顺序及内部待辨"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shenjiang-use",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shenjiang-use.md",
+      "original_sha256": "a10fb45a54c0ab96d305a5f23ed9c05df78508ff6206c8a048de479adab792f9",
+      "active_file": "methods/shenjiang-use.md",
+      "handling": "正文不变",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "shen-symbols",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/shen-symbols.md",
+      "original_sha256": "4eb06a2f7d32f445ff0e91cddd1d650bba915bb5923326887c9c11f6d1d092d9",
+      "active_file": "references/shen-symbols.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "jiang-symbols",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/jiang-symbols.md",
+      "original_sha256": "950c5ad607219b39ea580df3e3b3ebb314064d3626e6559a2c3a6e79342f7e7a",
+      "active_file": "references/jiang-symbols.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": []
+    },
+    {
+      "module_id": "home",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/home.md",
+      "original_sha256": "505b91801265043d33f10d231415ebd638ffd534ca61555071d7ca62a84d8953",
+      "active_file": "domains/home.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C21",
+        "LR26-TXY-C22"
+      ]
+    },
+    {
+      "module_id": "travel",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/travel.md",
+      "original_sha256": "cc750a86d2a32242aad73ac1e941ad8cac5eecc55eab0ef0c0bd3c5019b64583",
+      "active_file": "domains/travel.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C23",
+        "LR26-TXY-C24",
+        "LR26-TXY-C25"
+      ]
+    },
+    {
+      "module_id": "weather",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/weather.md",
+      "original_sha256": "8773a35faba82a589af4f2be30e89d2c3a1ae3303c2da97e7138d900789ff874",
+      "active_file": "domains/weather.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C28",
+        "LR26-TXY-C29"
+      ]
+    },
+    {
+      "module_id": "agriculture",
+      "original_source": "knowledge/liuren-research/20261102/workflow/mapping-lean-20261104/source-text/agriculture.md",
+      "original_sha256": "ed91e3d4a61a5dd9fa3f38f6f7ffba5cc5bd13fd4d1dd23ef7788562f177fd55",
+      "active_file": "domains/agriculture.md",
+      "handling": "合并重复，专项独有规则仍参与执行；全文留来源",
+      "retained_aspects": [
+        "原完整正文或条件方法"
+      ],
+      "rule_ids": [
+        "LR26-TXY-C30",
+        "LR26-TXY-C31",
+        "LR26-TXY-C32",
+        "LR26-TXY-C33"
+      ]
+    }
+  ],
+  "semantic_review": "本轮逐项人工比较声明；字段/字符串测试不能代替语义判断",
+  "userPolicy": "保留独有方法；有据且更完整的新取用优先合并重复表述，不以年代判定正确率",
+  "independentValidation": 0
+}

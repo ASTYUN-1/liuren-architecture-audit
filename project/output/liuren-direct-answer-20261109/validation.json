@@ -1,0 +1,23 @@
+{
+  "release": "20261109-direct-answer-40",
+  "frozen39Unchanged": true,
+  "modelsUnchanged": true,
+  "toolsAndAlgorithmsUnchanged": true,
+  "mandatoryCoreStartsWithPolicy": true,
+  "adjudicatorPromptStartsWithPolicy": true,
+  "reportIncludesPolicy": true,
+  "actualCodexRunBindingsVerified": [
+    "codex-07edd7fe-30ff-4f31-ae0b-13a8f1c2fc28",
+    "codex-a911928f-f3f3-4993-9079-e3f212cf3ba1"
+  ],
+  "semanticCheckUsesExistingAnswerConstraints": true,
+  "regressionTests": 118,
+  "passed": 118,
+  "failed": 0,
+  "preflightReady": true,
+  "codexReady": true,
+  "paidModelCalls": 0,
+  "predictiveValidationCount": 0,
+  "websiteChanged": false,
+  "existingDesktopRestarted": false
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261018-0067",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-qqwb20261018-0067.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\stage1_v2\\cases\\raw-qqwb20261018-0067.md",
+    "locator": "raw/records.jsonl 第 67 行（seq=66）detail 与 mofan 字段",
+    "shared_original_group": null,
+    "case_file_sha256": "720eba579bece97d2664b8c381bffac246401b4cb430a83cf0ba1e50985712a9",
+    "original_time": "2025年5月14日(四月十七)16:09",
+    "source_text_sha256": "13f601343baca1be2fdc79af0af492aa9e2168ab2f0d581ab811470e6a6bb9f3",
+    "image_evidence": {
+      "file": "pan/066_1.jpg",
+      "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\066_1.jpg",
+      "sha256": "e9268781124a67c1af03734ab54f4183b938865a01b90771263d79ca1c7ee953",
+      "seq": 66,
+      "transcription": "existing_stage1_image_transcription",
+      "time_crosschecked_with_ledger": true,
+      "independently_visually_verified_this_run": false,
+      "declaration": "题干盘图提取（pan/066_1.jpg）"
+    }
+  },
+  "time": {
+    "precision": "minute",
+    "date": "2025-05-14",
+    "datetime": "2025-05-14T16:09"
+  },
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "issues": [
+    "SPECIAL_DIVINATION_METHOD"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

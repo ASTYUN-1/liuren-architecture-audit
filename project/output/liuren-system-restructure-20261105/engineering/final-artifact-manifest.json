@@ -1,0 +1,500 @@
+{
+  "candidate": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05",
+  "artifactFingerprint": "e4e9204f3710edfa43b64207ce3ae8a0744e4ecd32eb7e4726bd3c0672f643d2",
+  "files": {
+    "AGENTS.md": {
+      "sha256": "5dc819a181efe30ce7d8aa32290efe890524ffeed8bc8f4cb9b407af1f7f60eb",
+      "bytes": 1009
+    },
+    "build-receipt.json": {
+      "sha256": "fb3dfdc4d6935bf00e410de2fba81e430885b37e4857cf0fef211ba074668128",
+      "bytes": 57009
+    },
+    "integration-receipt.json": {
+      "sha256": "bb7afd02f59e8c6660421b6d7d0962b9c41e9f1488aee4b2d089e19785efeaa1",
+      "bytes": 27746
+    },
+    "opencode.json": {
+      "sha256": "1ef56e09be4c77069598bee935ea9f515e4429b832ab4ffdecf7412b36771d4e",
+      "bytes": 2204
+    },
+    "overlay-policy.json": {
+      "sha256": "4a183a3a4371cc4e29cc29c30c33bd159d580a72b016ecf8694e07b5e822c3c8",
+      "bytes": 1104
+    },
+    "policy-change-ledger.json": {
+      "sha256": "a8793f52f3468aeef582783af65462ba90939e9e1db4875341b92c3f95c8df71",
+      "bytes": 112973
+    },
+    "reference-map.json": {
+      "sha256": "d1ea32f3343d83cf9f775a89db73c3d53fe6294be82220c5ab05e26ad034c7a5",
+      "bytes": 9964
+    },
+    "source-context.json": {
+      "sha256": "361f03834fb54265a7c2c994313d05d374b77c868c0f4f37fbdea7f0621cbd44",
+      "bytes": 367196
+    },
+    "tool-changes.diff": {
+      "sha256": "32edbf2d854a3380b2e9bfae0d790c134d7235fb204b35f70c5feb8023b605ff",
+      "bytes": 8239
+    },
+    ".opencode/.gitignore": {
+      "sha256": "663a068e76d264d0bc6740f5450b6c4193c7b41ecf5e0dc222485b8a17404d95",
+      "bytes": 63
+    },
+    ".opencode/liuren-active.json": {
+      "sha256": "8a6781d4e52c090baba7635b40e55169e43141823d1a9fb5a0653b0fe0e359e9",
+      "bytes": 998
+    },
+    "docs/候选执行说明.md": {
+      "sha256": "2dcb18ab635de257b21fb6550169054655b956149e5b97e2309593f211497493",
+      "bytes": 563
+    },
+    "docs/本机OpenCode完整输出规则.md": {
+      "sha256": "8750117bc859e0e8393375d16dcd4f0e271bd438511880546099e8ef32af3fe8",
+      "bytes": 3578
+    },
+    "docs/本机六壬完整研判流程.md": {
+      "sha256": "ca52c149181f81dbc8a7e220eefc7645ad181bf926fa2e0144884822ada1b16c",
+      "bytes": 2734
+    },
+    "docs/本机六壬直接排盘.md": {
+      "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d",
+      "bytes": 7149
+    },
+    "tools/candidate_chart.mjs": {
+      "sha256": "4041e04b79d367a8e0db4f13a08e035ad20b9a35ad861ee9f45a71762c485385",
+      "bytes": 2009
+    },
+    "tools/candidate_context.py": {
+      "sha256": "a7bcd07c655b083b2b6f61f16f601cc4c9f04a7b0b76c98a124e47720d16b90f",
+      "bytes": 5079
+    },
+    "tools/candidate_materials.py": {
+      "sha256": "5bb696e6bc6380406e5a3219669d0e3ae904cce50caa24c7d5b508eb538d72bc",
+      "bytes": 11142
+    },
+    "tools/candidate_shensha.mjs": {
+      "sha256": "156d19ee9b7e7dc4a6572f4a4e900bbdd1730fa897bbb31c2038682244a0120a",
+      "bytes": 2685
+    },
+    "tools/liuren-direct.mjs": {
+      "sha256": "925bfa6675b1f20d5eb76df9e92fdf962ac143a541cf40de5dfb236f23183fcb",
+      "bytes": 127
+    },
+    "tools/liuren-local-read.py": {
+      "sha256": "477731fe0b1e5c7748ab95b8d02cf5ce4de6e575a407f7a4e8d63601307ae76b",
+      "bytes": 8227
+    },
+    "tools/liuren-materials.py": {
+      "sha256": "f052391cc16454b83e16dff8fbf8b017497e9a666e4d4bff2eb8f17d04d4ec2a",
+      "bytes": 4813
+    },
+    "tools/liuren-resolved-chart.mjs": {
+      "sha256": "a3f333f2e9ce4a48c15414f45483e75959984f8cf954c0abf88a350174775d48",
+      "bytes": 87
+    },
+    "tools/liuren-shensha.mjs": {
+      "sha256": "d0c3cb4792868821e355982ce6f5133c51712431f182a60d91cc470fa8ccc545",
+      "bytes": 107
+    },
+    "tools/liuren_knowledge_workbench.py": {
+      "sha256": "60d3115dd728fbeaf3d1061c910118adf99d37e812305bc4582a3a3f77a7d42c",
+      "bytes": 910
+    },
+    "tools/liuren_material_scope.py": {
+      "sha256": "cddcc285b697a7daf10623d45f2a85115006b343beab9f8ce965dbf4f111cfd2",
+      "bytes": 8854
+    },
+    "tools/load-liuren-methods.py": {
+      "sha256": "99c0eb04080f272ea9bb9855e651bf566f3cbb159302cffa914cbbaccb97dee9",
+      "bytes": 12508
+    },
+    "tools/load-liuren-procedure.py": {
+      "sha256": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+      "bytes": 4371
+    },
+    "tools/search-cases.py": {
+      "sha256": "3a4a80a9322942da12f17b5504d9deafed389483605683cbb87b3aa3b1dad0c2",
+      "bytes": 1110
+    },
+    "tools/search-experience.py": {
+      "sha256": "2cd03e272a56d3ed60dcbdb1a831072e6288e714fecdede789fc95a30b34f121",
+      "bytes": 1240
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/coverage.json": {
+      "sha256": "a369af29dfe8cf80c10d4003e4eeb4b2f1c381bf00bab24eb3ae2e9a7039c3c2",
+      "bytes": 381028
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/entry.md": {
+      "sha256": "e72320436f9ea45478cb1eae40f9ddad766ee31b816f709698f6f8a600c5c86d",
+      "bytes": 4745
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/integration-map.json": {
+      "sha256": "d03e86bf2dda8e11ad1a7ac211fc92c97e31d3cde97fa22de30ac8a1f034cdf4",
+      "bytes": 1080
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/loader-contract.json": {
+      "sha256": "58cac5030e584fd9db13b1d2a03ffb49789617e498c31767f2d452487d7c545f",
+      "bytes": 3707
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/manifest.json": {
+      "sha256": "f5294f5adc7fed60d4e8d4ac78a92aca893f68f6ec68cfbcb203a8848e27b598",
+      "bytes": 22060
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/mapping-preservation.json": {
+      "sha256": "2a172035e61f93d1cc2c2eb068316b33dfceb3f2d4dd139505f52233687d08d7",
+      "bytes": 39987
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/mapping-source-map.json": {
+      "sha256": "4f4598c7e82ed2a95e63efa21c4c3f5c69d3e2e4123a60c3e689cdaf79f05e63",
+      "bytes": 4240
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/reading-route.json": {
+      "sha256": "4db6fc42174345177ecb94ef7eee17883eaca5624bf8dd57cbac53b41a8bb853",
+      "bytes": 7189
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/seed-receipt.json": {
+      "sha256": "142cebf455649e8af99bb1f778aba4b287f689dea612393edb5b2874fd3564da",
+      "bytes": 4177
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/details/risk.md": {
+      "sha256": "cd5acaa779369de141eb8585f66c4407606777760479ecd2ba6e7c1ec89247d1",
+      "bytes": 5931
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/details/shensha-tradition.md": {
+      "sha256": "370562ff4e92905e8347c9f62ec710c72160416f430927fc2c0127afa301a6b4",
+      "bytes": 6540
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/agriculture.md": {
+      "sha256": "24cd5b367e354dfb4ac71148ff88618c58b36dcb478770122f080b605444470c",
+      "bytes": 3824
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/classical-conflict.md": {
+      "sha256": "63287a0a1b3fa3e9a259788ec38597e63fe5884d9030a0c7b8291455db768167",
+      "bytes": 5261
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/exam.md": {
+      "sha256": "4ca1c1980048b9d526bf99ea55d3a19d5733a1f1cb083216a9e9c9e90130b79c",
+      "bytes": 3586
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/finance.md": {
+      "sha256": "69f5d47be8c0a8e46588d6bcc85228329a34041087e41efd8394a68ba208e0aa",
+      "bytes": 9808
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/home.md": {
+      "sha256": "e0da99d988edad90f7b548553f90c3ac99dc1d53ad60fb62f11f9a417ab2c798",
+      "bytes": 1962
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/illness.md": {
+      "sha256": "aec7bec17dfde55b29924292e747b20b997b11f110d459dd46bb358104cc33e7",
+      "bytes": 5337
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/interpersonal.md": {
+      "sha256": "f3a1df48f39d4b35320f1cdbb2e2245b540374821b5f217240e3e49dbd960801",
+      "bytes": 4555
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/long-period.md": {
+      "sha256": "c3e5282f920e9b99a5fe86228ae25665592bb4f7b57618e5563537a8bc4bf550",
+      "bytes": 3572
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/lost-person-object.md": {
+      "sha256": "a371b1c0a72b67efa9e4117457b1172c37eafda43a844c82d01f19e182a50eb9",
+      "bytes": 3463
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/period-outlook.md": {
+      "sha256": "432ee14749c535193121f3937423e0d310c7bb061ca69e6ae8a4083f2354b973",
+      "bytes": 5587
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/pregnancy.md": {
+      "sha256": "fe303e73a303b0574d233ebe2cd274d5186cd03376fb502c745456d3e3c065dc",
+      "bytes": 5381
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/promotion-salary.md": {
+      "sha256": "9402b198f12c7e7a1d556d3de91d644797a14289c10e332c1e0b49e8eb32d782",
+      "bytes": 5021
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/recruitment.md": {
+      "sha256": "ac58cbd3796905757df6d134811154ea187ed523ef80de90488251803f701596",
+      "bytes": 5922
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/relationship.md": {
+      "sha256": "96bac4bea5e623f0a0a70446096c3aa5e4e552db626df0f07f78293ef16e7f6d",
+      "bytes": 6969
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/travel.md": {
+      "sha256": "9d31c5d570baba8c4802f71786ed11246162dda5eb6bf508e64eb43395d969b3",
+      "bytes": 2386
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/domains/weather.md": {
+      "sha256": "b1c67d25de3cc29c9c78100494cc7d0edeb3ea4c5cc684c3ced7614d20a035ad",
+      "bytes": 1538
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/adjudication.md": {
+      "sha256": "2105169d8b599956542d83c8194cee0b8f78114aa94a90e4eac434b688539b15",
+      "bytes": 3428
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/class-mapping.md": {
+      "sha256": "3e252c9ccba0f81306d6395a92a652ff549c46ac96a0989558cf909269ae1a48",
+      "bytes": 3607
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/evidence.md": {
+      "sha256": "7af053b456b2cb2bbd989b217cb929991e58672b9880c5b7d177f24d26e0bd8b",
+      "bytes": 4997
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/liqi.md": {
+      "sha256": "194afb178add0455b12c0a78dcf9cf3f281b5949c2ae285ef5efaf6f7bd01f4e",
+      "bytes": 15109
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/movement.md": {
+      "sha256": "e4f656afddceb758f7566f19dc350ce654322b24625ac050a34a66f3ce6f3399",
+      "bytes": 8837
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/positioning.md": {
+      "sha256": "3bbc97aa917b986045fc4288ea3af891b7284680620109677161be94431ce103",
+      "bytes": 2741
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/quantity.md": {
+      "sha256": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0",
+      "bytes": 3760
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/relations.md": {
+      "sha256": "db6f2bd2ebc70cf807da005a24ffae71652e7f1d0c2d19fec35e6545227e4e01",
+      "bytes": 4139
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/report.md": {
+      "sha256": "57d61fea007d2c6471f48673a660bf8beda3f570790147087aeffbdbd5758b06",
+      "bytes": 5595
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/shenjiang-use.md": {
+      "sha256": "8009b8f3d37b95cb80be136e8ee8bf6dde4d38876eabf2b8a32bcf94fb73bdae",
+      "bytes": 3704
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/structure.md": {
+      "sha256": "4eaaec7e19aa6db6b6fc408051ea4b3d4f15cbed966ce7d225c7afc808a7cbd7",
+      "bytes": 9448
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/timing.md": {
+      "sha256": "8a2787b79f1262cd90ad12eaa560a0dfcc177f60666614597ba5cfe077540784",
+      "bytes": 20829
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/void.md": {
+      "sha256": "09ef32d5f0b6f60bae44785ab8674bbd7313f6abf4399a54f480baa1c74b766e",
+      "bytes": 4368
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/methods/workflow-contract.md": {
+      "sha256": "8c0fbec8297cc84c68425824027e0da5d563c6f072968f3352afcc89b1b52351",
+      "bytes": 741
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/procedures/liuren-cases.md": {
+      "sha256": "c12208a67aa6ea515757280d44cdf8fad830678b9f82dab92c44540924ae85b3",
+      "bytes": 6467
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/procedures/liuren-extract.md": {
+      "sha256": "d1021046998c7a996cf6570477da9e1fe79582017ec88292cfdbc912d3b0b449",
+      "bytes": 6148
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/adjudication-method-conditions.md": {
+      "sha256": "d411fd035d35f6a5aa694437fb65dc1575c47d230df3c711391f8c95c13562ec",
+      "bytes": 1409
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/bashajiubao.md": {
+      "sha256": "bc98b9f898b6a78be1bad9946122611750802f3b77f50e8867bd40951eb59c79",
+      "bytes": 6262
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/beihai-extend-sop.md": {
+      "sha256": "074f94facf492c38312dfc997842ccc2c04f27576ba1e57462c345a25d275528",
+      "bytes": 1722
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/bifa.md": {
+      "sha256": "fd54b0c6025d3df8832c42c68513b5cc0b7d5a380b5c02cda1085fff02bba215",
+      "bytes": 12306
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/blade-methods.md": {
+      "sha256": "23687e614c7f5d275e3e332177d933ace8ee505d3e1feb8c0156fb0efd9e03d0",
+      "bytes": 5630
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/case-retrieval-v2.md": {
+      "sha256": "981444d599730f160b86b520366741a11216b12fdfc2bd3b2e1e0c8e11543a84",
+      "bytes": 6474
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/core-revision-provenance.md": {
+      "sha256": "ae8f56ee91a18c193379c4fcd3015c9040ac17b44eed2c7316adcf4a19349b89",
+      "bytes": 2986
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/daliuren-paipan.md": {
+      "sha256": "ce2ae6a4d4a0c7d03c0a423a5eb3c65121f16efd5521257d8bda85df19521b61",
+      "bytes": 1097
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/daliuren-shensha.md": {
+      "sha256": "10a6a3703962209edddf3d08cda2bf25bcd792e5bd2b2f2b580954d2a41bd488",
+      "bytes": 18573
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/engine-shensha-output.md": {
+      "sha256": "01b59ed508fb4b040786f440c1454617b310c25c4051f7fe81e2eab3c0e488f5",
+      "bytes": 5926
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/experience-retrieval-v2.md": {
+      "sha256": "213fe063420d1a9c000d27ff1b02e6794b5d838f3ed4be4704fc42a6e6aedc78",
+      "bytes": 3180
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/jiang-symbols.md": {
+      "sha256": "b4126fdc93e30604085b5d3018b79546e1d64fd69878d475b604e476b55e66a3",
+      "bytes": 8537
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/keti-quanbiao.md": {
+      "sha256": "44a529a03dbb6d54adcd10cae6dfb724e7a65b99666b95246f7b1b7d61e6d5ad",
+      "bytes": 9615
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/kundun.md": {
+      "sha256": "eb67b4146bac6f9ed161d0980b5955ca8925048630958a255b74db76ee15c871",
+      "bytes": 7328
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/liqi-examples.md": {
+      "sha256": "41506e95afb2b007d97b665749fde566d6c30476f7ad3a723b128d94ab6f455d",
+      "bytes": 2735
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/liqi-source-map.json": {
+      "sha256": "6e5e56675eec7f10eb51fd4899e47b211edb61d3ea9d4600c40262f96c5310c1",
+      "bytes": 42802
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/liqi-sources.md": {
+      "sha256": "1758249fa95438cac3185b7ff10789fd232ea6b4639dc0ce70ce466091e35c67",
+      "bytes": 14527
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/mapping-provenance.md": {
+      "sha256": "080bcde5fcb51c7c431c474bd2048e2fa1e753418a1cecb5446d4263865bc58f",
+      "bytes": 4928
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/nianming.md": {
+      "sha256": "e96b386ab31868b92a9b4aadd8f52315aea14faff6c7bcbf76171230c3c0bca5",
+      "bytes": 5725
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/quantity-sources.md": {
+      "sha256": "3e63faff33de2c75cfca6bc892fb2767762fd4d5d8dbc40f7f27a6a63af726fe",
+      "bytes": 4336
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/rule-semantics.md": {
+      "sha256": "92ee0c7f12a2e2f8d54e4cd55b220a867daa411129faaec838cbced54026682e",
+      "bytes": 6670
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shen-symbols.md": {
+      "sha256": "e89613e344bab6a437efb8ccaa9861701a3d271a230238ddd173c1e875b6fca8",
+      "bytes": 10413
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-authority-conflicts.md": {
+      "sha256": "13fe3d5ed6c14965eff00bdb73aa3f7a746c45498fb3b185ab32dbb80f81eaba",
+      "bytes": 7110
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-authority-evidence.json": {
+      "sha256": "d29fc5775078f80b9ecd2def43cf8e587b0d14df382a3263b3447964bf7cf636",
+      "bytes": 48276
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-authority-review.md": {
+      "sha256": "6989f12684bf8e20c45b745be3201ea3aa00ce0183aa696dc9a9f1d1bfc961a5",
+      "bytes": 8032
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-engine-index.md": {
+      "sha256": "ee1cf03c79c9ff49500aada31d4e8d3d88fc042a4659ea0a31cebd802d9a0a81",
+      "bytes": 28278
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-field-meanings.md": {
+      "sha256": "c821bc375b75012720c842e722006c7bc4db2cd63e7b19723ef72db3eae26c46",
+      "bytes": 15554
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-focus.md": {
+      "sha256": "0b8535489398dc006a9b240f67e4bc37c1af90d5fe39b27a3b894aa4ea67b6ba",
+      "bytes": 16139
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-meaning-source-map.json": {
+      "sha256": "93509df7a164072ccf76495a0ce6d95e03cc47bc8591f1bd778e199afe363452",
+      "bytes": 26395
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-meaning-sources.md": {
+      "sha256": "127da4527d5404f5bbf8e0d12404053c01a36be37842aa88772da50279741630",
+      "bytes": 26714
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-meanings.md": {
+      "sha256": "858a6f461ad05cdbddaac3448b4924ce78b01b5a9a457fc94355d97771a56f52",
+      "bytes": 13130
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-other-meanings.md": {
+      "sha256": "28b38a7e3f1b2d73247c4db1c54a9fb0a1b2af0870a88946d5c096cb9ad99552",
+      "bytes": 26156
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-policy-evidence.json": {
+      "sha256": "aa8b06df24f8ff781984b613f0b947c6c7915aeea13b7e64fe0b62ef281d3a07",
+      "bytes": 3900
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-policy.json": {
+      "sha256": "00f82cbe4caa6ce3e98b00ae4807f3eaf7301ea85c9702c80e0f7abe21d3f503",
+      "bytes": 26297
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-source-map.json": {
+      "sha256": "d86011d49d3e831c919e54781bdc0338256d718f98181a5535edd69dfe1c8a33",
+      "bytes": 42260
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-sources.md": {
+      "sha256": "bec4fd67533d0970e38fd9fb6de95d7774a5784a7384cb10ce73871f5eff52a7",
+      "bytes": 9382
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/shensha-use.md": {
+      "sha256": "5da3a21a6ca6eb9eda259967b9c7e2310a0daf17e10a2dd4450cbfdc64910df7",
+      "bytes": 7490
+    },
+    "runtime/liuren/20261105-restructure-E0-candidate/references/void-method-conditions.md": {
+      "sha256": "e5362d32e2867ac83a6c85d90cf468eb5966496f1e266f6dbf622743a0e88330",
+      "bytes": 3524
+    },
+    "overlay/rules/classical-mapping-20261103.json": {
+      "sha256": "c708e67ca8b766e3ffce081e1ff07cfd74301b144a2eaad8605353d6a0dcd036",
+      "bytes": 493467
+    },
+    "overlay/rules/shenjiang-mapping-20261103.json": {
+      "sha256": "eab62c9622cdcf26893ff2ee0f9cbcacd5e75e4a176d143da0ba5d545b038b7f",
+      "bytes": 251159
+    },
+    "docs/应期取数归纳-20261027/原文证据摘录.md": {
+      "sha256": "90dbb48ec8deac68fb3d1eea686b0c223f8828a71598c83b462ba0a24f8d203c",
+      "bytes": 83708
+    },
+    "docs/应期取数归纳-20261027/天一群笔记专项核查.md": {
+      "sha256": "db3c156778239b45602ea181ce9cf84bbcd2c79667032d226aec83e2155d32c4",
+      "bytes": 25258
+    },
+    "docs/应期取数归纳-20261027/天干参与及奇门参照-补充审阅稿.md": {
+      "sha256": "3f16bf74924c758057c0ee782191f07b734337e875a00bcf35531e689f821800",
+      "bytes": 14749
+    },
+    "docs/应期取数归纳-20261027/核心归纳-审阅稿.md": {
+      "sha256": "e878af037360495f394bf99da092add32d5ed5b43f1fc20680ea0640ff72c00f",
+      "bytes": 23006
+    },
+    ".opencode/tools/liuren_chart.ts": {
+      "sha256": "db0d73b9ec42a41116e2f1375e7b9b384ab2b10edfea6e897cb995e37899a247",
+      "bytes": 3444
+    },
+    ".opencode/tools/liuren_materials.ts": {
+      "sha256": "df5ac926d7fd1537b9ce5a74f11603c1d0f374039875f04e45b369e486b977fd",
+      "bytes": 1605
+    },
+    ".opencode/skills/liuren/daliuren/SKILL.md": {
+      "sha256": "e72320436f9ea45478cb1eae40f9ddad766ee31b816f709698f6f8a600c5c86d",
+      "bytes": 4745
+    },
+    ".opencode/skills/liuren/liuren-cases/SKILL.md": {
+      "sha256": "17188918526a556d1a59b01dded22e6cd8a127a514221c6e9076476f46220249",
+      "bytes": 859
+    },
+    ".opencode/skills/liuren/liuren-extract/SKILL.md": {
+      "sha256": "aca5f44befa1efa4097d31d9792efd249e0ecd5ced0e311cd9cf67a37a967694",
+      "bytes": 806
+    }
+  },
+  "excludes": [
+    "tmp derived caches",
+    "candidate generated chart/test archives",
+    ".git"
+  ],
+  "sourceUnchanged": true
+}

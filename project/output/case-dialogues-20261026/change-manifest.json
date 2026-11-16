@@ -1,0 +1,86 @@
+{
+  "localOnly": true,
+  "candidate": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\beta-release-20261026\\candidate",
+  "files": [
+    {
+      "path": "src/lib/case-showcase.ts",
+      "sha256": "4cf539fd7651966a3f97261936a3e38c41843da03160977eaba6d39dd6f56697"
+    },
+    {
+      "path": "src/lib/case-showcase-types.ts",
+      "sha256": "f4e8e63345e22f44f695293dcaa02b1ebc5e73bdb11e2ba1074db62273e9e436"
+    },
+    {
+      "path": "src/lib/case-showcase-data.json",
+      "sha256": "9facc865ef213b2e0187e06d85beffa800e7c84d60b899600c7d83f5822731f7"
+    },
+    {
+      "path": "src/lib/case-transcript.ts",
+      "sha256": "390fb1ad173dd8e0b35eeca4a0750c47b254a6ddddc56cbf987927955a8d6608"
+    },
+    {
+      "path": "src/lib/clarification-messages.ts",
+      "sha256": "d5ff09e0d6c32eeab7c768bc4c4d53816e2c37215570881f4edd74adc24b4387"
+    },
+    {
+      "path": "src/components/beta-showcase.tsx",
+      "sha256": "731d35ee9f615fa3cf50bcb7168ff3c7535e5e7c9724431f12e7f1e3d5b79b72"
+    },
+    {
+      "path": "src/components/beta-showcase.css",
+      "sha256": "054a03ecf0cd5631bf2e8a9c9592420172e39ecfab07d703ef9d5013be8f1cfa"
+    },
+    {
+      "path": "src/components/conversation-message.tsx",
+      "sha256": "ee0b5b8cc5b55121a392ac7424d2f5fed2396c8329a2016ed105b25927fa237f"
+    },
+    {
+      "path": "src/components/conversation-message.css",
+      "sha256": "3a38d04530d7d97892ba11ae9aed5a77a0ad094dab0f20b8d086b60a14baef8c"
+    },
+    {
+      "path": "src/components/task-dialogue-history.tsx",
+      "sha256": "90e6398b403d33e94075ec5629d18ccb1458808298d111d5e900f850561610f8"
+    },
+    {
+      "path": "src/components/beta-case-workspace.tsx",
+      "sha256": "1b335c722604128ef663a686e39649b88ee23a744c5fac32e52291733f6f6339"
+    },
+    {
+      "path": "src/components/case-workspace.tsx",
+      "sha256": "6b91915e9cc75055a23a29da41a0eec6c412d2d05cf87038b75fb53294e5e993"
+    },
+    {
+      "path": "src/components/beta-workspace.tsx",
+      "sha256": "f902f354692fbfb3b8b4b30aa526267edc72d5f919b4ac44925e35890da1f6ce"
+    },
+    {
+      "path": "src/components/beta-workspace.css",
+      "sha256": "e207ae6f9ea0dd6849bada7408141454fac717fd062795698028736b8b8333a5"
+    },
+    {
+      "path": "src/app/beta/[[...path]]/page.tsx",
+      "sha256": "d51004d1a92c4edf60a2eacb1a67fdb0452e8484b1bebe4519b3cad7eb108576"
+    },
+    {
+      "path": "src/server/service.ts",
+      "sha256": "f572865d7fc51500eb75b7c7c4441182af0491180425abca91648067215e4303"
+    },
+    {
+      "path": "src/server/contracts.ts",
+      "sha256": "6b737e860bb9db42a7e3297242d6ea07f8de6775a03f3832b49a7c9c0886ae94"
+    },
+    {
+      "path": "db/016_clarification_messages.sql",
+      "sha256": "2c4c2c29da4a7ced1e29e87f99f76419d02bc710fc1d84c0f7bcf991589c69ae"
+    },
+    {
+      "path": "tests/case-transcript.test.ts",
+      "sha256": "28372c5b40edf2c2c88dd60b8ee3f330680905d3dc741a03886515978e52ec6d"
+    },
+    {
+      "path": "tests/input-correction.test.ts",
+      "sha256": "d6830e26750268f7cdb2f782ce63143deb54d585cb80edf4ba3d18484f748045"
+    }
+  ]
+}

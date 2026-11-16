@@ -1,0 +1,30 @@
+{
+  "schema": "liuren-reconstruction-semantic-review-v1",
+  "case_id": "BK26-MODERN-027",
+  "result_id": "RC26-MODERN-027-ALT-SOURCE-CHECK",
+  "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-027-ALT-SOURCE-CHECK.json",
+  "result_sha256": "c9f3b70635977f7282aea010e7ac68af4068c6e95547e15199f99bbc8d7340d3",
+  "semantic_review_state": "source_checked",
+  "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-027-alt-source-check.json",
+  "request_sha256": "098e7d8c791d9f16dc76a52a808ac912f6a269f4a3709e63788424add18d7fac",
+  "excluded_setting_label_paths": [
+    "nobleman.rule",
+    "nobleman.requested_zhouye",
+    "nobleman.actual_zhouye"
+  ],
+  "equivalent_candidate_groups": [
+    {
+      "candidate_ids": [
+        "RC26-MODERN-027-ALT-SOURCE-CHECK-C03",
+        "RC26-MODERN-027-ALT-SOURCE-CHECK-C04",
+        "RC26-MODERN-027-ALT-SOURCE-CHECK-C07",
+        "RC26-MODERN-027-ALT-SOURCE-CHECK-C08"
+      ]
+    }
+  ],
+  "note": "原3779甲辰丙子癸酉壬戌，3823/25明示寅将；3817巳酉丑为合金局非传序、财在天空酉下为天酉天空加地巳。4组完整facts酉丑巳从革、干上巳朱与阴神酉空、酉天空临财巳全合，只有贵人规则标签异；作者设置未知。旧ALT约束错误为提取错误，不是原书冲突；未引入床下或亥时反馈筛选。",
+  "selected_candidate_id": null,
+  "outcome_feedback_used_for_selection": false,
+  "original_image_recovered": false,
+  "independent_prediction_validation_count": 0
+}

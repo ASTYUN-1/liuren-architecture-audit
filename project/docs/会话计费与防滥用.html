@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会话计费与防滥用 · 六壬八字服务化</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f5f0;--card:#fff;--line:#e9e3d6;--line-soft:#f0ebe0;
+  --ink:#14171e;--ink2:#3a4256;--muted:#7c7a72;
+  --primary:#2f6f5e;--p-soft:rgba(47,111,94,.08);
+  --amber:#c97b3f;--a-soft:rgba(201,123,63,.10);
+  --rose:#b06367;--r-soft:rgba(176,99,103,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Outfit',sans-serif;font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(ellipse 900px 500px at 8% -8%,rgba(47,111,94,.055),transparent 60%),radial-gradient(ellipse 800px 480px at 96% 4%,rgba(201,123,63,.05),transparent 60%);
+  background-attachment:fixed}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+section{padding:48px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:none}
+h1,h2{font-family:'DM Serif Display',serif;font-weight:400;letter-spacing:-.005em}
+h1{font-size:36px;line-height:1.18;margin-bottom:14px}
+h2{font-size:24px;line-height:1.3;margin-bottom:8px}
+h3{font-size:15.5px;font-weight:600;font-family:'Outfit';margin-bottom:9px}
+.lede{color:var(--ink2);font-size:15.5px;max-width:72ch}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:10px;display:flex;align-items:center;gap:9px}
+.eyebrow svg{width:15px;height:15px;stroke-width:2}
+.note{color:var(--muted);font-size:13px;margin-top:9px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:19px 21px;box-shadow:0 2px 8px rgba(0,0,0,.035)}
+.grid{display:grid;gap:13px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.tag{display:inline-flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.05em;padding:2.5px 8px;border-radius:20px;white-space:nowrap}
+.t-ok{background:var(--p-soft);color:var(--primary)}
+.t-no{background:var(--r-soft);color:var(--rose)}
+.t-warn{background:var(--a-soft);color:var(--amber)}
+.t-mid{background:#eceff3;color:#5a6478}
+code,.mono{font-family:'JetBrains Mono',monospace;font-size:12.5px}
+pre{background:#fbfaf7;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.75;color:var(--ink2)}
+pre .c{color:var(--muted)}
+pre .k{color:var(--primary);font-weight:500}
+pre .s{color:var(--amber)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.07em;text-transform:uppercase;padding:0 11px 8px 0;border-bottom:1px solid var(--line)}
+td{padding:10px 11px 10px 0;border-bottom:1px solid var(--line-soft);vertical-align:top}
+td:first-child{font-weight:600;white-space:nowrap}
+.bench{display:grid;grid-template-columns:130px 1fr 82px;gap:11px;align-items:center;padding:4.5px 0}
+.bench-track{height:15px;background:var(--line-soft);border-radius:6px;overflow:hidden}
+.bench-fill{height:100%;border-radius:6px}
+.bench-val{font-family:'JetBrains Mono',monospace;font-size:12.5px;text-align:right}
+.timeline{list-style:none;padding:0;margin:0;position:relative}
+.timeline::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:2px;background:var(--primary);opacity:.32}
+.timeline li{position:relative;padding:0 0 24px 32px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:2px;top:5px;width:14px;height:14px;border-radius:50%;background:#fff;border:2px solid var(--primary)}
+.timeline .n{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary);letter-spacing:.06em}
+.timeline h4{font-size:15.5px;font-weight:600;margin:2px 0 4px}
+.timeline p{color:var(--ink2);font-size:14px}
+.hit{background:linear-gradient(transparent 62%,rgba(47,111,94,.16) 0);font-weight:600}
+.warnbox{background:var(--a-soft);border:1px solid rgba(201,123,63,.28);border-radius:14px;padding:16px 19px}
+.riskbox{background:var(--r-soft);border:1px solid rgba(176,99,103,.28);border-radius:14px;padding:16px 19px}
+.okbox{background:var(--p-soft);border:1px solid rgba(47,111,94,.28);border-radius:14px;padding:16px 19px}
+ul.tick{list-style:none;font-size:14px;color:var(--ink2)}
+ul.tick li{padding-left:19px;position:relative;margin-bottom:6px}
+ul.tick li::before{content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;border-radius:50%;background:var(--primary);opacity:.55}
+.flowwrap{overflow-x:auto;padding:2px 0}
+@media(max-width:768px){
+  h1{font-size:28px}h2{font-size:20px}body{font-size:14.5px}
+  .g2,.g3{grid-template-columns:1fr}section{padding:36px 0}
+  .bench{grid-template-columns:92px 1fr 72px;gap:9px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section style="padding-top:60px">
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>计费与防滥用</div>
+  <h1>一次会话，<span class="hit">一次以上价值</span></h1>
+  <p class="lede">但要防的不是成本——一次会话的推理成本不到售价的 4%。真正要防的是<strong>轮数被刷</strong>和<strong>成本发散</strong>。另外这一轮查证出一个更紧急的问题：<strong>国内模型这条路可能走不通</strong>，理由在最后一节。</p>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18"/><path d="M7 9h10M7 15h6"/></svg>规格设计</div>
+  <h2>首诊不计次，追问才计数</h2>
+  <p class="lede" style="margin-bottom:20px">纯次数制有个隐患：首诊解读是价值峰值，把它折成"一次"反而拉低了感知。把它含在票价里，用户才觉得"这 20 块买到了一整套东西"。</p>
+
+  <table>
+    <thead><tr><th style="width:20%">方案</th><th style="width:32%">规格</th><th>问题</th><th style="width:10%">判断</th></tr></thead>
+    <tbody>
+      <tr><td>纯次数</td><td>$20 = 15 次对话</td><td>首诊价值被摊薄；用户数不清消耗了多少，体验反而变差</td><td><span class="tag t-mid">次优</span></td></tr>
+      <tr><td>时效窗口</td><td>$20 = 14 天内不限次</td><td>脚本一夜能刷几千轮，没有上限就没有护栏；成本不可预测</td><td><span class="tag t-no">别做</span></td></tr>
+      <tr><td><strong>首诊 + 追问</strong></td><td><strong>$19.99 = 完整首诊 + 14 天内 12 次追问</strong></td><td>追问单价 $1.67，剩余次数可见可加购</td><td><span class="tag t-ok">推荐</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="grid g3" style="margin-top:14px">
+    <div class="card"><h3>剩余次数要显式可见</h3><p style="font-size:13.5px;color:var(--ink2)">界面上常驻"剩余 8 / 12 次"。透明会显著提升续购——人会想把额度用完，而不是留着过期。</p></div>
+    <div class="card"><h3>剩 2 次时弹加购</h3><p style="font-size:13.5px;color:var(--ink2)">$4.9 换 5 次。比重买一份 $19.99 划算得多。复购率会明显高于重新结账。</p></div>
+    <div class="card"><h3>快捷追问按钮</h3><p style="font-size:13.5px;color:var(--ink2)">"详细说说财运""大运什么时候转折"——降低提问成本，把无意义的轮次转成有价值的对话。</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 7h16M4 12h10M4 17h6"/></svg>成本控制</div>
+  <h2>上下文压缩才是会话制的技术核心</h2>
+  <p class="lede" style="margin-bottom:20px">12 轮不压缩的话上下文能到 100K+。四条规则把它压到每轮 6K input + 1.5K output：</p>
+
+  <div class="grid" style="gap:8px">
+    <div class="card" style="padding:14px 19px;display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start">
+      <span class="mono" style="color:var(--primary);font-weight:500">01</span>
+      <div style="font-size:14px"><strong>排盘 JSON 只在第 1 轮注入</strong><div style="color:var(--muted);font-size:13px">之后每轮只传 <code>chart_id</code>，需要时从 session 存储现取。命盘 JSON 约 30KB，重复注入 12 次就是 360KB 纯浪费。</div></div>
+    </div>
+    <div class="card" style="padding:14px 19px;display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start">
+      <span class="mono" style="color:var(--primary);font-weight:500">02</span>
+      <div style="font-size:14px"><strong>RAG 每轮重新检索，不累积</strong><div style="color:var(--muted);font-size:13px">只注入当轮问题相关的 2–3 条。第 1 轮检索到的块在第 7 轮往往早已无关。</div></div>
+    </div>
+    <div class="card" style="padding:14px 19px;display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start">
+      <span class="mono" style="color:var(--primary);font-weight:500">03</span>
+      <div style="font-size:14px"><strong>每 3 轮做一次结构化摘要</strong><div style="color:var(--muted);font-size:13px">压成 <code>{已确认结论, 用户透露的个人信息, 已聊话题, 待答问题}</code>，只保留最近 2 轮原文。</div></div>
+    </div>
+    <div class="card" style="padding:14px 19px;display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start">
+      <span class="mono" style="color:var(--primary);font-weight:500">04</span>
+      <div style="font-size:14px"><strong>摘要走小模型</strong><div style="color:var(--muted);font-size:13px">压缩不需要旗舰模型，用便宜模型即可。这一项本身就省掉会话成本的 15%。</div></div>
+    </div>
+  </div>
+
+  <div class="grid g2" style="margin-top:14px;align-items:start">
+    <div class="card">
+      <h3>一次 $19.99 会话的成本拆解</h3>
+      <div class="bench"><span class="bench-label">首诊推理</span><div class="bench-track"><div class="bench-fill" style="width:26%;background:var(--primary)"></div></div><span class="bench-val">$0.26</span></div>
+      <div class="bench"><span class="bench-label">12 轮追问</span><div class="bench-track"><div class="bench-fill" style="width:49%;background:var(--primary)"></div></div><span class="bench-val">$0.49</span></div>
+      <div class="bench"><span class="bench-label">支付费率</span><div class="bench-track"><div class="bench-fill" style="width:100%;background:var(--amber)"></div></div><span class="bench-val">$1.50</span></div>
+      <div class="bench"><span class="bench-label">托管 / 邮件 / DB</span><div class="bench-track"><div class="bench-fill" style="width:4%;background:var(--primary)"></div></div><span class="bench-val">$0.05</span></div>
+      <div class="note" style="margin-top:10px">总成本 ≈ <strong>$2.30</strong>，占售价 11.5%，毛利率 ≈ 88.5%。<strong>支付费是推理费的 6 倍</strong>——MoR 的 5% 溢价买的其实是税务和拒付风险转移。</div>
+    </div>
+    <div class="card">
+      <h3>上下文增长曲线（不压缩 vs 压缩）</h3>
+      <div class="flowwrap">
+        <svg viewBox="0 0 420 190" style="width:100%;height:auto" role="img" aria-label="上下文 token 增长对比">
+          <line x1="42" y1="12" x2="42" y2="152" stroke="#e9e3d6" stroke-width="1.5"/>
+          <line x1="42" y1="152" x2="400" y2="152" stroke="#e9e3d6" stroke-width="1.5"/>
+          <text x="36" y="18" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="9.5" fill="#7c7a72">40K</text>
+          <text x="36" y="82" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="9.5" fill="#7c7a72">20K</text>
+          <text x="36" y="152" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="9.5" fill="#7c7a72">0</text>
+          <text x="221" y="172" text-anchor="middle" font-family="Outfit,sans-serif" font-size="10.5" fill="#7c7a72">对话轮次</text>
+          <text x="6" y="85" transform="rotate(-90 6 85)" text-anchor="middle" font-family="Outfit,sans-serif" font-size="10.5" fill="#7c7a72">累计 token</text>
+          <!-- 不压缩 -->
+          <polyline points="42,146 85,128 128,110 171,92 214,74 257,56 300,38 343,20" fill="none" stroke="#b06367" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="343" cy="20" r="3.2" fill="#b06367"/>
+          <text x="352" y="24" font-family="Outfit,sans-serif" font-size="10.5" font-weight="600" fill="#b06367">~38K</text>
+          <!-- 压缩后 -->
+          <polyline points="42,146 85,132 128,124 171,118 214,112 257,106 300,100 343,94" fill="none" stroke="#2f6f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="343" cy="94" r="3.2" fill="#2f6f5e"/>
+          <text x="352" y="98" font-family="Outfit,sans-serif" font-size="10.5" font-weight="600" fill="#2f6f5e">~7K</text>
+          <rect x="196" y="126" width="70" height="17" rx="8" fill="rgba(47,111,94,.10)"/>
+          <text x="231" y="138" text-anchor="middle" font-family="Outfit,sans-serif" font-size="9.5" fill="#2f6f5e">摘要压缩</text>
+          <rect x="266" y="126" width="70" height="17" rx="8" fill="rgba(47,111,94,.10)"/>
+          <text x="301" y="138" text-anchor="middle" font-family="Outfit,sans-serif" font-size="9.5" fill="#2f6f5e">摘要压缩</text>
+          <!-- legend -->
+          <rect x="42" y="12" width="9" height="9" rx="2" fill="#b06367"/>
+          <text x="57" y="20" font-family="Outfit,sans-serif" font-size="10.5" fill="#7c7a72">不压缩</text>
+          <rect x="112" y="12" width="9" height="9" rx="2" fill="#2f6f5e"/>
+          <text x="127" y="20" font-family="Outfit,sans-serif" font-size="10.5" fill="#7c7a72">每 3 轮压缩</text>
+        </svg>
+      </div>
+      <div class="note">12 轮时上下文差 5 倍多。这不是优化项，是能不能跑得下去的问题。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l8 4v6c0 5-3.4 9.4-8 10-4.6-.6-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg>防滥用</div>
+  <h2>七层防御，第 4 层最容易被漏</h2>
+  <p class="lede" style="margin-bottom:20px">前五层是常规操作。真正决定成败的是<strong>质量门槛</strong>和<strong>身份关联</strong>——前者防脚本刷轮数，后者防退款套利。</p>
+
+  <ol class="timeline">
+    <li><div class="n">LAYER 0</div><h4>入口过滤</h4>
+      <p>强制邮箱验证。<strong>支付完成前不生成任何内容</strong>——否则攻击者用假卡号白烧你的 token。同一支付卡哈希限制首次体验次数为 1。</p></li>
+    <li><div class="n">LAYER 1</div><h4>配额硬上限（服务端权威）</h4>
+      <p>必须在调用 LLM <strong>之前</strong>做原子递增。前端传来的计数一律不信——这是最容易被绕过的一环。</p></li>
+    <li><div class="n">LAYER 2</div><h4>单轮成本护栏</h4>
+      <p><code>max_tokens</code> 硬上限（in 12K / out 3K）+ 会话总 token 预算 180K。超预算触发压缩，仍超则降级到小模型并提示用户。</p></li>
+    <li><div class="n">LAYER 3</div><h4>速率限制</h4>
+      <p>令牌桶：每用户 6 轮/分钟、30 轮/小时；每 IP 20 轮/分钟（防注册机）。单会话 60 秒内 &gt;5 轮 → 直接挂起待人工查看。</p></li>
+    <li><div class="n">LAYER 4 · 关键</div><h4>质量门槛</h4>
+      <p>用户花 12 次问"再详细点"是真消费，但脚本发 12 次 "hi" 是白烧 token 且他毫无价值。做法：强制 LLM 输出 <code>grounding_ref</code>（这条回答引用了命盘哪一条），<strong>与命盘无关的问题不计入配额</strong>。同时设最小语义量门槛，&lt;10 字符且无实质内容的直接拒。</p></li>
+    <li><div class="n">LAYER 5 · 关键</div><h4>身份关联</h4>
+      <p>支付卡指纹 + 邮箱域名 + IP /24 段 + UA/时区组合成关联键。同一支付卡购买多个账号 → 只保留最早注册的配额，其余封禁。这是防退款套利的核心。</p></li>
+    <li><div class="n">LAYER 6</div><h4>退款套利防护</h4>
+      <p>报告一旦生成即锁定，用户拿不到完整报告就退不了款。同一支付方式累计退款 &gt;3 次转人工审核。<strong>credit 机制天然免疫</strong>——不退钱只抵扣，没有资金流出。</p></li>
+    <li><div class="n">LAYER 7</div><h4>运营熔断</h4>
+      <p>全站日 token 预算超限自动降级（切小模型 / 临时关闭追问功能）。单用户终身消费上限。异常行为实时告警看板。</p></li>
+  </ol>
+
+  <div class="card" style="margin-top:6px">
+    <h3>核心：配额原子递增</h3>
+    <pre><span class="c">-- 调用 LLM 之前执行。affected rows = 0 说明配额已耗尽或会话不存在</span>
+<span class="k">UPDATE</span> sessions
+   <span class="k">SET</span> turns_used = turns_used + <span class="s">1</span>
+ <span class="k">WHERE</span> id = <span class="s">$1</span>
+   <span class="k">AND</span> turns_used &lt; turns_quota
+   <span class="k">AND</span> status = <span class="s">'active'</span>
+ <span class="k">RETURNING</span> turns_used, turns_quota;</pre>
+    <div class="note">配 <code>message_id</code> 唯一索引做幂等——网络重试不能让用户白白少一次机会。这一段是整个防滥用体系的地基，写错了后面全漏。</div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg>模型选型</div>
+  <h2>国内模型这条路，我认为走不通</h2>
+  <p class="lede" style="margin-bottom:20px">这一轮查了各家服务条款，三个硬约束直接命中你的商业模式。<strong>技术上确实能跑通</strong>——澎湃、深潮都有 DeepSeek 算八字的实测报道，消费者产品可用；但 API 和消费者产品是两套风控。</p>
+
+  <div class="grid" style="gap:10px">
+    <div class="riskbox">
+      <div style="display:flex;gap:11px;align-items:flex-start">
+        <span class="tag t-no" style="margin-top:2px">条款 1</span>
+        <div style="font-size:14px;color:var(--ink2)"><strong style="color:var(--ink)">DeepSeek 用户协议第 3.3 条</strong>把"宣扬邪教和<strong>封建迷信</strong>"列为可输入/输出的违法不良信息，明确禁止。第 3.4 条保留内容审查权，并禁止「使用<strong>变体、乱码、字符、谐音等方式规避服务检测</strong>」——连改写措辞绕过过滤都是明确违约。</div>
+      </div>
+    </div>
+    <div class="riskbox">
+      <div style="display:flex;gap:11px;align-items:flex-start">
+        <span class="tag t-no" style="margin-top:2px">条款 2</span>
+        <div style="font-size:14px;color:var(--ink2)"><strong style="color:var(--ink)">火山方舟（豆包）</strong>：只允许将数据交互内容用于"您自身的产品或服务"，不得向第三方<strong>转售相同或类似的服务</strong>。你的整个商业模式就是转售类似服务。</div>
+      </div>
+    </div>
+    <div class="riskbox">
+      <div style="display:flex;gap:11px;align-items:flex-start">
+        <span class="tag t-no" style="margin-top:2px">条款 3</span>
+        <div style="font-size:14px;color:var(--ink2)"><strong style="color:var(--ink)">智谱 / 火山方舟</strong>的许可均限定"<strong>中国范围内</strong>"，且要求企业实名认证、人民币结算。面向海外用户直接落在限制之外。</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3>三条路的实际对比</h3>
+    <table>
+      <thead><tr><th style="width:16%">方案</th><th style="width:15%">推理成本/会话</th><th style="width:12%">占售价</th><th>风险与代价</th></tr></thead>
+      <tbody>
+        <tr><td>Claude Sonnet</td><td class="mono">≈ $0.75</td><td class="mono">3.8%</td><td>条款清晰，可商用可嵌入产品，输出质量最好</td></tr>
+        <tr><td>DeepSeek 等国内</td><td class="mono">≈ $0.12</td><td class="mono">0.6%</td><td>迷信禁令 + 转售禁令 + 地域限制；<strong>账号被封则前期投入全废</strong></td></tr>
+        <tr><td>自部署开源</td><td class="mono">≈ $0.04<br><span style="color:var(--muted)">(量大时)</span></td><td class="mono">0.2%</td><td>权重许可自由，但模型自带 RLHF 过滤；GPU 常驻 $700–1500/月，低量时反而更贵</td></tr>
+      </tbody>
+    </table>
+    <div class="warnbox" style="margin-top:12px">
+      <p style="font-size:14px;color:var(--ink2)"><strong>省下的 $0.63 是纯噪音，账号被封是灾难性的。</strong>在 $19.99 的定价下，用海外模型只多花 3.2% 的收入，换来的是条款清晰、全球可用、输出可控。没有任何理由为这 $0.63 承担风险。</p>
+    </div>
+  </div>
+
+  <div class="grid g2" style="margin-top:14px;align-items:start">
+    <div class="okbox">
+      <h3 style="margin-bottom:8px">国内模型仍然有用武之地</h3>
+      <ul class="tick" style="font-size:13.5px">
+        <li>翻译初稿（中→EN/ES/PT，再润色）</li>
+        <li>反馈分类、标签打标、摘要压缩</li>
+        <li>站内搜索、客服问答等非命理内容</li>
+        <li>代码辅助、内部运营工具</li>
+      </ul>
+      <div class="note" style="margin-top:8px">这些环节都不涉及"输出迷信内容"，条款上安全，成本也真的低。把它用在能用的地方，别用在唯一真正敏感的那个环节。</div>
+    </div>
+    <div class="riskbox">
+      <h3 style="margin-bottom:8px">还有一个产品层面的伤害</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">国内模型的输出更倾向巴纳姆式模糊话术——"一生都有贵人相助，不一定大富大贵但吃喝不愁"、"在不久的将来你可能会遇到一次重要的转折，但记住机会总是伴随着挑战"。这种句式套在任何人身上都成立。</p>
+      <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>你卖的恰恰是"说得准"。</strong>模型被过滤得越保守，输出越平庸，产品越不值 $19.99。这是产品伤害，不只是合规问题。</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding-bottom:60px">
+  <div class="card" style="background:linear-gradient(135deg,rgba(47,111,94,.05),rgba(201,123,63,.04));border-color:rgba(47,111,94,.22)">
+    <h2 style="margin-bottom:12px">修正后的规格</h2>
+    <div class="grid g2" style="gap:14px;margin-top:6px">
+      <div>
+        <div class="kv2" style="display:grid;grid-template-columns:110px 1fr;row-gap:7px;column-gap:14px;font-size:13.5px">
+          <span style="color:var(--muted)">商品</span><span><strong>$19.99 · 首诊 + 12 次追问</strong></span>
+          <span style="color:var(--muted)">有效期</span><span>14 天窗口</span>
+          <span style="color:var(--muted)">追问单价</span><span>$1.67（加购 $4.9 / 5 次）</span>
+          <span style="color:var(--muted)">首诊推理</span><span>旗舰模型，完整十步</span>
+          <span style="color:var(--muted)">追问推理</span><span>同模型，压缩后上下文</span>
+          <span style="color:var(--muted)">摘要压缩</span><span>每 3 轮，小模型</span>
+        </div>
+      </div>
+      <div>
+        <div class="kv2" style="display:grid;grid-template-columns:110px 1fr;row-gap:7px;column-gap:14px;font-size:13.5px">
+          <span style="color:var(--muted)">单轮上限</span><span class="mono" style="font-size:12px">in 12K / out 3K</span>
+          <span style="color:var(--muted)">会话预算</span><span class="mono" style="font-size:12px">180K tokens</span>
+          <span style="color:var(--muted)">速率</span><span>6 轮/分 · 30 轮/时</span>
+          <span style="color:var(--muted)">配额判定</span><span>SQL 原子递增，先于 LLM</span>
+          <span style="color:var(--muted)">无价值轮次</span><span>不计配额（grounding_ref 判定）</span>
+          <span style="color:var(--muted)">总成本</span><span><strong>$2.30 · 毛利率 88.5%</strong></span>
+        </div>
+      </div>
+    </div>
+    <div class="note" style="margin-top:16px">这些数字都是按公开价目估算的，实际接入后用真实账单校准一次即可。计费参数建议全部做成<strong>后台可配置</strong>，不要写死在代码里——定价和配额一定会调。</div>
+  </div>
+</section>
+
+</div>
+</body>
+</html>

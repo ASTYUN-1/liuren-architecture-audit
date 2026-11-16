@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "release": "20261112-consistency-52",
+  "method_version": "127fa469a8d16335cfa2be23774af1dee8fcfa188e67b804487b321318138b77",
+  "parent_files_unchanged": 134,
+  "backup_files_verified": 75,
+  "runtime_files_verified": 134,
+  "modules_readable": 83,
+  "domains_planned": 17,
+  "all_conditional_routes_checked": 25,
+  "source_spans_verified": 20,
+  "U01_U11_verbatim": true,
+  "installed_skill_synced": true,
+  "legacy_project_instructions_removed": true,
+  "coefficients_models_budget_unchanged": true,
+  "core_chars_before": 13370,
+  "core_chars_after": 6696,
+  "native_schema_tools": 7,
+  "network_request_captured": false,
+  "real_model_call_count": 0,
+  "predictive_validation_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "release": "20261106-natural-positioning-16",
+  "parentRelease": "20261106-event-positioning-15",
+  "eventPositioning": {
+    "enabled": true,
+    "schema": "liuren-event-positioning-v1",
+    "mode": "model-event-interpretation",
+    "semanticRoleChecks": false,
+    "actorReferenceRequired": false,
+    "domainReadRequired": true,
+    "fullDomainHandoff": true,
+    "source": "explicit-user-instruction"
+  },
+  "removed": [
+    "exam/illness actor ID requirement",
+    "actor-as-day-stem program gate",
+    "adjudication output role lock",
+    "kinship regex semantic rejection",
+    "mandatory role table and extra identity review instructions"
+  ],
+  "retained": [
+    "event-centered professional methods",
+    "16 domain methods",
+    "domain reading and full-rule transport",
+    "deterministic chart/date/arithmetic validation",
+    "scoped file and result receipt workflow",
+    "no case/experience retrieval"
+  ],
+  "externalModelCalled": false,
+  "predictiveValidationCount": 0
+}

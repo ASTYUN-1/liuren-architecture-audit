@@ -1,0 +1,61 @@
+{
+  "current": "/opt/wenheng/releases/20261110-opencode40-02",
+  "buildId": "Dmk3i7GUDN5KmVOntyC5F",
+  "services": {
+    "wenheng-web": {
+      "active": "active",
+      "pid": 3844328,
+      "cwd": "/opt/wenheng/releases/20261110-opencode40-02/.next/standalone"
+    },
+    "wenheng-worker": {
+      "active": "active",
+      "pid": 3844327,
+      "cwd": "/opt/wenheng/releases/20261110-opencode40-02",
+      "workflow": "40",
+      "resources": "/opt/wenheng/resource-releases/20261110-opencode40-01",
+      "sameInternalApiKey": true,
+      "sameInternalApiBase": true
+    },
+    "wenheng-codex-internal": {
+      "active": "active",
+      "pid": 3752767,
+      "cwd": "/opt/wenheng-codex-internal/releases/20261109-codex35-03"
+    }
+  },
+  "resourceFilesVerified": 273,
+  "frozenMethodFilesVerified": 115,
+  "noCaseExperienceDirectories": true,
+  "localStatus": {
+    "aggregatePaymentsEnabled": false,
+    "paymentsEnabled": true,
+    "aiEnabled": true,
+    "workerOnline": true,
+    "paymentQrUrl": "/uploads/payment/alipay-b912d4de45d8.jpg",
+    "paymentQrIsPlaceholder": false,
+    "overseasPaymentsEnabled": false,
+    "smtpConfigured": true,
+    "resultNotificationsEnabled": true,
+    "modelConfigured": true,
+    "paymentUnavailableReason": null,
+    "aiUnavailableReason": null
+  },
+  "localAssetHashVerified": true,
+  "publicStatus": {
+    "aggregatePaymentsEnabled": false,
+    "paymentsEnabled": true,
+    "aiEnabled": true,
+    "workerOnline": true,
+    "paymentQrUrl": "/uploads/payment/alipay-b912d4de45d8.jpg",
+    "paymentQrIsPlaceholder": false,
+    "overseasPaymentsEnabled": false,
+    "smtpConfigured": true,
+    "resultNotificationsEnabled": true,
+    "modelConfigured": true,
+    "paymentUnavailableReason": null,
+    "aiUnavailableReason": null
+  },
+  "publicAssetHashVerified": true,
+  "backupResult": "success",
+  "backupTimer": "active",
+  "queue": ""
+}

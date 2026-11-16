@@ -1,0 +1,28 @@
+{
+  "files": {
+    "tools/liuren-compute-schema.mjs": "ba2d3da261bd8ab5ee36650a3e1ba2497203535aa9ba2c0472cca51997480c15",
+    "tools/liuren-deterministic-io.mjs": "8ab4343966e438c2b1999b14edb16a80a5a387842e3968a7f7a483dff3a57d33",
+    "tools/liuren-deterministic-calendar.mjs": "506c3f0b4fb170609b5b599cc6ea824497dfad35d9c1db7588e0fe261612bbc1",
+    "tools/liuren-codex.mjs": "7322a890e87826a024d094ede76d8a3e7d08ff7a14d2f7c2bb0d1c870807aa07",
+    ".opencode/plugins/liuren-adjudication.ts": "6f3c9df108816ac99c122e3d33b487132d25ed81a75a7b50c8a2c7dc450b4cdd",
+    ".opencode/liuren-active.json": "b82e9f2812ebc5e6ea165c1347c655bfa4998b1c52221d1d568ed6df2c5f3b33",
+    ".opencode/oh-my-opencode-slim.jsonc": "c5fb468476a3b9a5b2aa8409ccaa01f787182112dbf188abc76bdcc1f74c9978",
+    "opencode.json": "69671ca6679e2d3b301226125e4989a2c8db391c543cfb48c92fa23bead669bc",
+    "AGENTS.md": "4e148870fca24da091068ea471b55d867f7ae120ef1fb68d8298a45fa60aeaad",
+    "README.md": "8b402eba1af6c294b9c4bf3adad3eb7d9f7b6955d2a4ecb1ff86d021fd7fb84f",
+    "目录总索引.md": "c8f259e6550258cb9c32baa2427602c670a7295011de3004e4a45929e68e0af0",
+    "docs/本机六壬高效执行.md": "314ec97d9f000687439f4a170304c201e4b4b1cadd9624e43066fa7b8cdecb7e",
+    "docs/本机六壬完整研判流程.md": "e2a390bbe33b033b546091ef869e23fcc79084dc77d75bb4bb47cc8510e1cfea",
+    "docs/Codex大六壬工作流.md": "2bef81b455c8901e44299add1bc7263c1816c21027a2a65299255b98e8e2ba98",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "ed105cdaf42229e1c3205d92523d93aaad3da7ff0af6bbd942d9ce12653ad7a2",
+    "integrations/codex/daliuren-codex/SKILL.md": "5a276bdb203f8041cd5e3430285c1361c61f489921b54ada930d5bdab4651207",
+    "integrations/codex/daliuren-codex/references/host.md": "629bf3542e44467481aae233823b5ecad3b8775fb08719d064e2252a8743e034",
+    "tools/liuren-palace-strength.mjs": "0ef72a508f51d3c5ac541864f040ebea2d538922f6cfcb5e96f8cb6dcccd1441"
+  },
+  "new_tools": {
+    "tools/liuren-calendar-v2.mjs": "4847a93de740158a3f9720ded4c1649f3adda52403fb82f89fd305466544691d",
+    "tools/liuren-method-tools.mjs": "5b536dffa42a0679ea673b4ab6e816dcbce08ac4f04b0722669d3b63d5047ec2",
+    "tools/liuren-method-registry.json": "aa24127fbd9433e5332a90fb1cad31115639677afa5a090e1fe85fef47ef5da3",
+    "tools/liuren-time-evaluation.mjs": "83586f5fd2ff737e2152b2d2e16bd88bc6666a333967234a066c8a823aa8deb1"
+  }
+}

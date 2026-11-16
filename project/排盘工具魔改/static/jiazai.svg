@@ -1,0 +1,15 @@
+<svg width="50" height="50" viewBox="0 0 50 50">
+    <!-- 背景灰色轨道（可选，让进度更明显） -->
+    <circle cx="25" cy="25" r="20" fill="none" stroke="#e0e0e0" stroke-width="4" />
+
+    <!-- 动态加载的进度条 -->
+    <circle cx="25" cy="25" r="20" fill="none" stroke="#0075ff" stroke-width="4" stroke-linecap="round"
+        stroke-dasharray="125.6" stroke-dashoffset="125.6">
+        <!-- 旋转动画 -->
+        <animateTransform attributeName="transform" type="rotate" from="0 25 25" to="360 25 25"
+            dur="1.5s" repeatCount="indefinite" />
+        <!-- 进度伸缩动画 -->
+        <animate attributeName="stroke-dashoffset" values="125.6;31.4;125.6" dur="1.5s"
+            repeatCount="indefinite" />
+    </circle>
+</svg>

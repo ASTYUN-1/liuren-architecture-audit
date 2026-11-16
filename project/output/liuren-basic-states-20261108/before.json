@@ -1,0 +1,26 @@
+[
+  {
+    "path": "tools/liuren-deterministic.mjs",
+    "sha256": "122bff3badcc45d51967df51d5cbc78d1f0786f0fd35bdb04da318b9d7cb19b6"
+  },
+  {
+    "path": "tools/liuren-resolved-chart.mjs",
+    "sha256": "f90349f91419f71ab3469e1c1543b19d68a04a5c507f1de7c3340908a4488887"
+  },
+  {
+    "path": "tools/liuren-core-handoff.mjs",
+    "sha256": "10ace02dd38a3be549491f5aa1eee807d1861bf540144908863afc66397ca8b1"
+  },
+  {
+    "path": ".opencode/tools/liuren_chart.ts",
+    "sha256": "db0a30c90f1d19132cc8ad12036665b1e37e456900a7021e2ff5617d2ba04b9a"
+  },
+  {
+    "path": ".opencode/liuren-active.json",
+    "sha256": "0942d630041b780e909e19ca95dba226254a63f08db9f68b0fe20164bff152e3"
+  },
+  {
+    "path": "tools/liuren-deterministic-io.mjs",
+    "sha256": "9b3559de5c1aca2b31a9f6fdcf103d183b49d2c36faa7c88ba75f9153f4cc253"
+  }
+]

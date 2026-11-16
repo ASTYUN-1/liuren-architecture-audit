@@ -1,0 +1,31 @@
+{
+  "files": 20330,
+  "bytes": 830576374,
+  "excluded_records": 630,
+  "by_root": {
+    "tools": 183,
+    "tests": 2,
+    "runtime": 10425,
+    "knowledge": 329,
+    "books": 77,
+    "书籍库": 104,
+    "案例项目库": 1061,
+    "经验日志": 126,
+    "materials": 12,
+    "排盘工具魔改": 18,
+    "integrations": 4,
+    ".opencode": 11,
+    "README.md": 1,
+    "AGENTS.md": 1,
+    "目录总索引.md": 1,
+    "opencode.json": 1,
+    "verify-system.ps1": 1,
+    "verify-system.bat": 1,
+    "start-server.bat": 1,
+    "资料来源": 1609,
+    "docs": 2371,
+    "output": 3986,
+    "排盘存档": 1,
+    "课程写作": 4
+  }
+}

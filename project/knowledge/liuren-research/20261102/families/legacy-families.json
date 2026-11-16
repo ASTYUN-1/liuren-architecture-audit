@@ -1,0 +1,95 @@
+[
+  {
+    "id": "LF26-LEGACY-CHOUWEI",
+    "title": "丑未考试与求职方法族：保留三卡条件分支",
+    "rule_ids": ["LR26-LEGACY-006", "LR26-LEGACY-007", "LR26-LEGACY-008"],
+    "legacy_entry_ids": ["H0027", "H0028", "H0034", "H0035", "H0036"],
+    "merge_type": "条件分支保持",
+    "common_method": "原作答在教资、面试、考研中采用丑未相加/魁象，并与空亡、朱雀或年命合看。归入同族供比较，不认定不同事件为同源或各条件等效。",
+    "preserved_branches": [
+      {"rule_id": "LR26-LEGACY-006", "legacy_entry_ids": ["H0027", "H0028"], "conditions": "教资通过：丁卯案兼行年朱雀与课传丑未；己巳案强调格不空而不拘朱雀。两案仍分开。"},
+      {"rule_id": "LR26-LEGACY-007", "legacy_entry_ids": ["H0034", "H0035"], "conditions": "求职offer案兼本命见禄，通知与入职分开；考试考得不行案为丑空兼朱雀不佳，非只改变空亡的控制比较。"},
+      {"rule_id": "LR26-LEGACY-008", "legacy_entry_ids": ["H0036"], "conditions": "考研录取案同时具丑未在课传与朱雀遁丁；不扩成稼穑即考研。"}
+    ],
+    "unresolved": ["丑未不空是否必要或充分条件尚无独立验证。", "求职案本命上神见禄与三传空的坐标尚待核。", "不同事件的反馈粒度不同，不互补成完整反馈。"],
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-LEGACY-WEIGHT",
+    "title": "课体、格局与类神裁决：不同对象并列",
+    "rule_ids": ["LR26-LEGACY-001", "LR26-LEGACY-002", "LR26-LEGACY-003", "LR26-LEGACY-006", "LR26-LEGACY-008"],
+    "legacy_entry_ids": ["H0001", "H0002", "H0195", "H0027", "H0028", "H0036"],
+    "merge_type": "比较族不合并裁决条件",
+    "common_method": "比较课体/格局与类神的有利、不利及救助信息，保留原作者显式取舍。不同子问及对象不从单案建立全局排序。",
+    "preserved_branches": [
+      {"rule_id": "LR26-LEGACY-001", "conditions": "在职处分去留：禄空天空、官方作用、贵人及和解不能救的组合，保留离职反馈。"},
+      {"rule_id": "LR26-LEGACY-002", "conditions": "教师编竞争：遥克官鬼风险与命上贵马险过象同存，最终主选/阶段未明。"},
+      {"rule_id": "LR26-LEGACY-003", "conditions": "已到期欠薪：财临干及旺衰与拖欠背景，不能搬成新求财结论；全额和应期分问。"},
+      {"rule_ids": ["LR26-LEGACY-006", "LR26-LEGACY-008"], "conditions": "教资与考研原作答采用丑未及朱雀组合；格压倒象的后续概括未获全局证成。"}
+    ],
+    "unresolved": ["课体一律优先与类神一律优先均无本批跨条件证明。", "未核定哪组救制在所有新盘可重复；本族不代替主流程理气分析。"],
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-LEGACY-LOST-EMPTY",
+    "title": "初空失物与类神：证件和活动动物分支",
+    "rule_ids": ["LR26-LEGACY-004", "LR26-LEGACY-005", "LR26-LEGACY-015"],
+    "legacy_entry_ids": ["H0170", "H0171", "H0185"],
+    "merge_type": "反例关联与条件分支保持",
+    "common_method": "先辨本支旬空、临空地、闭口取法和具体失物类神，再分能否找回及应期；初空单项不能保证不可寻。",
+    "preserved_branches": [
+      {"rule_ids": ["LR26-LEGACY-004", "LR26-LEGACY-005"], "conditions": "旅途中遗失身份证，原载未找回；午空与申酉旬空、酉亥闭口标签各有待核。暂停的是错位标签和其依赖链。"},
+      {"rule_id": "LR26-LEGACY-015", "conditions": "母鸡寅空发用、正类神酉临干并有近处条件，当日找回；初断应期晚，位置与能找回仍有参照价值。"}
+    ],
+    "unresolved": ["证件与活动动物不是同条件样本，不以其对照推算概率。", "母鸡案否定初空必失不等于所有初空均利找回，也不证明同位必速。", "身份证需回原始盘图确认空亡与闭口定义。"],
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-LEGACY-SUBQUESTION",
+    "title": "阶段、子问与初判/复盘的判验分层",
+    "rule_ids": ["LR26-LEGACY-002", "LR26-LEGACY-007", "LR26-LEGACY-009", "LR26-LEGACY-010", "LR26-LEGACY-014", "LR26-LEGACY-015", "LR26-LEGACY-017"],
+    "legacy_entry_ids": ["H0002", "H0034", "H0035", "H0175", "H0152", "H0160", "H0185", "H0194"],
+    "merge_type": "方法治理共用且事件不归并",
+    "common_method": "把原作答可取内容、原载现实反馈、反馈覆盖的子问、事后改写、独立效果验证分轴记录；部分命中和待反馈均不机械否决整案。",
+    "preserved_branches": [
+      {"rule_id": "LR26-LEGACY-002", "conditions": "教师编风险与险过象可能不同阶段，当前最终主选未明，保留方向张力。"},
+      {"rule_id": "LR26-LEGACY-007", "conditions": "offer通知与入职分属两个时间，考试考得不行不补成精确分数。"},
+      {"rule_id": "LR26-LEGACY-009", "conditions": "合格和A等级分别判；原日志部分验与现案例断语存在版本张力。"},
+      {"rule_id": "LR26-LEGACY-010", "conditions": "水杯与碗面仅容器方向局部相似；事后面饼映射不算物品事前命中。"},
+      {"rule_id": "LR26-LEGACY-014", "conditions": "卖头盔为待反馈的模范作答，仍可学卖方视角，不把猜价变真实成交价。"},
+      {"rule_id": "LR26-LEGACY-015", "conditions": "母鸡方位/环境与应期分别判；当日极速为后续修正。"},
+      {"rule_id": "LR26-LEGACY-017", "conditions": "欠薪全额及约300反馈保留，未确认出生年和数制的金额解释暂停。"}
+    ],
+    "unresolved": ["未取回断前版本时，不断言当前正确句子早已存在或必为后来添加。", "来源身份难辨时记未知而保留方法参照价值。", "同案例多个子问/多作者不增加独立事件或验证次数。"],
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-LEGACY-BIRTH-SAME-SOURCE",
+    "title": "2023-09-29胎产同源复写归并",
+    "rule_ids": ["LR26-LEGACY-016"],
+    "legacy_entry_ids": ["H0111", "H0115"],
+    "merge_type": "同源归并",
+    "common_method": "同占时2023-09-29 16:34、同庚寅日、同原载断语和卯日午时男生反馈，两份案例保留而计同一来源事件。",
+    "preserved_branches": [
+      {"source_path": "案例项目库/胎产占/case-001-生男生女何时生出（炎上课）.md", "conditions": "保留原载胎爻作答与该档AI解释，寅冲卯等加写不作原作者方法。"},
+      {"source_path": "案例项目库/胎产占/case-005-生男生女何时生出（炎上斩关狡童课）.md", "conditions": "保留第二份复写及差异，不能新增一次应验；施冲对象和炎上课名/戌午辰三传协调待核。"}
+    ],
+    "unresolved": ["原始盘图和取课名口径未核。", "原作者已冲卯的施冲者未明，不替作者补成寅冲卯。", "胎爻/男女法的效果没有独立验证。"],
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-LEGACY-SUMMARY-SEMANTICS",
+    "title": "书籍摘要的施受、加临与状态不得互换",
+    "rule_ids": ["LR26-LEGACY-011", "LR26-LEGACY-012", "LR26-LEGACY-013"],
+    "legacy_entry_ids": ["B0396", "B0429", "B0294"],
+    "merge_type": "摘要核对治理族不合并术理",
+    "common_method": "逐条回原书核定摘要是否保留施受方向、加临层级和空墓绝状态；此族共用校核动作，三项术理不互相等价。",
+    "preserved_branches": [
+      {"rule_id": "LR26-LEGACY-011", "conditions": "爱恶神取日，生占日/克占日，原文吉凶未定括注仍保留。"},
+      {"rule_id": "LR26-LEGACY-012", "conditions": "破墓应期，巳日经巳上辰冲戌；不是巳直接冲戌。"},
+      {"rule_id": "LR26-LEGACY-013", "conditions": "弟占兄行人，类神酉不动与末丑归墓艮止；不是末空或末绝例。"}
+    ],
+    "unresolved": ["source_method确认书中方法存在，不承诺预测有效。", "原书电子文本尚未逐页比对纸本/OCR；本批只覆盖已引区间。"],
+    "independent_validation_count": 0
+  }
+]

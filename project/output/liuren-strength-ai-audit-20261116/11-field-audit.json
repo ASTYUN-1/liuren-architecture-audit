@@ -1,0 +1,826 @@
+{
+  "schema": "liuren-strength-output-observation-v1",
+  "generated_at": "2026-11-15T21:31:18.157Z",
+  "purpose": "捕获当前实际公开接口输出；不改算法、提示词、活动指针或冻结runtime；不调用模型",
+  "chart_input": {
+    "mode": "datetime",
+    "datetime": "2026-11-06T14:43:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "label": "strength_AI接口演示"
+  },
+  "archive": {
+    "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261116-053114-strength_AI接口演示-ffe1a55c-860d-4ff8-8c6e-59c64f47d680.corrected-689b27f8f2d1e9e5.json",
+    "sha256": "a865f22a62cf5514d682b6c1c4010ffc49e0d825fc313ef4821be9bb0579b304",
+    "raw_sha256": "dfd2c6b9e1d3ea311e388505cd969c8ceae9e173abfa134c3dbb8ae98404e809"
+  },
+  "output_presence": {
+    "codex_single": {
+      "keys": [
+        "schema",
+        "model",
+        "base_model",
+        "profile_sha256",
+        "selected_policy",
+        "chart_sha256",
+        "scope",
+        "season_profile",
+        "season_basis",
+        "actors",
+        "applied_relations",
+        "already_local_or_blocked",
+        "interpretation",
+        "strength_interpretation",
+        "receipt_sha256",
+        "convergence",
+        "coverage",
+        "review",
+        "quantity_basis"
+      ],
+      "global_qi": false,
+      "review": true
+    },
+    "codex_selected": {
+      "keys": [
+        "schema",
+        "model",
+        "base_model",
+        "profile_sha256",
+        "selected_policy",
+        "chart_sha256",
+        "scope",
+        "season_profile",
+        "season_basis",
+        "actors",
+        "applied_relations",
+        "already_local_or_blocked",
+        "interpretation",
+        "strength_interpretation",
+        "receipt_sha256",
+        "convergence",
+        "coverage",
+        "review",
+        "quantity_basis"
+      ],
+      "global_qi": false,
+      "review": true
+    },
+    "opencode_single": {
+      "keys": [
+        "trial_judgment_basis",
+        "schema",
+        "model",
+        "base_model",
+        "profile_sha256",
+        "selected_policy",
+        "chart_sha256",
+        "scope",
+        "season_profile",
+        "season_basis",
+        "actors",
+        "applied_relations",
+        "already_local_or_blocked",
+        "interpretation",
+        "strength_interpretation",
+        "receipt_sha256",
+        "convergence",
+        "coverage",
+        "review",
+        "quantity_basis"
+      ],
+      "global_qi": false
+    },
+    "opencode_selected": {
+      "keys": [
+        "trial_judgment_basis",
+        "schema",
+        "model",
+        "base_model",
+        "profile_sha256",
+        "selected_policy",
+        "chart_sha256",
+        "scope",
+        "season_profile",
+        "season_basis",
+        "actors",
+        "applied_relations",
+        "already_local_or_blocked",
+        "interpretation",
+        "strength_interpretation",
+        "receipt_sha256",
+        "convergence",
+        "coverage",
+        "review",
+        "quantity_basis"
+      ],
+      "global_qi": false
+    },
+    "codex_chart": {
+      "global_qi": false,
+      "qi_summary": false
+    },
+    "opencode_chart": {
+      "global_qi": false,
+      "qi_summary": false
+    }
+  },
+  "actor_values": [
+    {
+      "id": "T:子",
+      "base": 2.06,
+      "tomb_access": 0.7281553398058253,
+      "void_retention": 1,
+      "environmental_seed": 1.5,
+      "with_void": 1.007031,
+      "without_void": 1.007031,
+      "single_palace": 1.007031,
+      "adjusted": 1.007031,
+      "level": "衰弱",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [
+        "adopted_shensha"
+      ],
+      "internal_pending_with_shensha": [
+        {
+          "id": "T:子",
+          "rule": "S17",
+          "scope": "神煞专项事件适配未完成:天医"
+        },
+        {
+          "id": "T:子",
+          "rule": "S26",
+          "scope": "神煞专项事件适配未完成:旬奇"
+        },
+        {
+          "id": "T:子",
+          "rule": "S29",
+          "scope": "神煞专项事件适配未完成:日进神"
+        }
+      ]
+    },
+    {
+      "id": "T:丑",
+      "base": 3.4774999999999996,
+      "tomb_access": 1,
+      "void_retention": 1,
+      "environmental_seed": 3.4774999999999996,
+      "with_void": 4.284977,
+      "without_void": 4.284977,
+      "single_palace": 4.284977,
+      "adjusted": 4.284977,
+      "level": "偏弱至中等",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [],
+      "internal_pending_with_shensha": []
+    },
+    {
+      "id": "T:寅",
+      "base": 1.77,
+      "tomb_access": 1,
+      "void_retention": 0.7745966692414834,
+      "environmental_seed": 1.3710361045574257,
+      "with_void": 1.433994,
+      "without_void": 1.807561,
+      "single_palace": 1.433994,
+      "adjusted": 1.433994,
+      "level": "衰弱",
+      "void_self": false,
+      "void_ground": true,
+      "public_pending": [
+        "adopted_shensha"
+      ],
+      "internal_pending_with_shensha": [
+        {
+          "id": "T:寅",
+          "rule": "S12",
+          "scope": "神煞专项事件适配未完成:日德"
+        },
+        {
+          "id": "T:寅",
+          "rule": "S21",
+          "scope": "神煞专项事件适配未完成:月死气"
+        }
+      ]
+    },
+    {
+      "id": "T:卯",
+      "base": 3.09,
+      "tomb_access": 0.7281553398058253,
+      "void_retention": 0.7745966692414834,
+      "environmental_seed": 1.7428425057933377,
+      "with_void": 1.458288,
+      "without_void": 1.906161,
+      "single_palace": 1.458288,
+      "adjusted": 1.458288,
+      "level": "衰弱",
+      "void_self": false,
+      "void_ground": true,
+      "public_pending": [],
+      "internal_pending_with_shensha": []
+    },
+    {
+      "id": "T:辰",
+      "base": 7.4425,
+      "tomb_access": 1,
+      "void_retention": 1,
+      "environmental_seed": 7.4425,
+      "with_void": 6.406201,
+      "without_void": 6.406201,
+      "single_palace": 6.406201,
+      "adjusted": 6.406201,
+      "level": "较旺",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [
+        "adopted_shensha",
+        "自刑|T:辰"
+      ],
+      "internal_pending_with_shensha": [
+        {
+          "id": "T:辰",
+          "rule": "自刑|T:辰",
+          "scope": "专项作用方向未适配"
+        },
+        {
+          "id": "T:辰",
+          "rule": "S08M",
+          "scope": "神煞专项事件适配未完成:月天鼠小耗"
+        },
+        {
+          "id": "T:辰",
+          "rule": "S11",
+          "scope": "神煞专项事件适配未完成:季天喜"
+        },
+        {
+          "id": "T:辰",
+          "rule": "S15",
+          "scope": "神煞专项事件适配未完成:月破"
+        },
+        {
+          "id": "T:辰",
+          "rule": "S32D",
+          "scope": "神煞专项事件适配未完成:吊客"
+        }
+      ]
+    },
+    {
+      "id": "T:巳",
+      "base": 2.5075,
+      "tomb_access": 1,
+      "void_retention": 1,
+      "environmental_seed": 2.5075,
+      "with_void": 2.1,
+      "without_void": 2.1,
+      "single_palace": 2.1,
+      "adjusted": 2.1,
+      "level": "衰弱",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [],
+      "internal_pending_with_shensha": []
+    },
+    {
+      "id": "T:午",
+      "base": 4.3775,
+      "tomb_access": 0.7281553398058253,
+      "void_retention": 0.7,
+      "environmental_seed": 2.23125,
+      "with_void": 2.205971,
+      "without_void": 3.112797,
+      "single_palace": 2.205971,
+      "adjusted": 2.205971,
+      "level": "衰弱",
+      "void_self": true,
+      "void_ground": false,
+      "public_pending": [
+        "adopted_shensha",
+        "自刑|T:午"
+      ],
+      "internal_pending_with_shensha": [
+        {
+          "id": "T:午",
+          "rule": "自刑|T:午",
+          "scope": "专项作用方向未适配"
+        },
+        {
+          "id": "T:午",
+          "rule": "S18",
+          "scope": "神煞专项事件适配未完成:地医"
+        },
+        {
+          "id": "T:午",
+          "rule": "S29",
+          "scope": "神煞专项事件适配未完成:日进神"
+        }
+      ]
+    },
+    {
+      "id": "T:未",
+      "base": 6.2075,
+      "tomb_access": 1,
+      "void_retention": 0.85,
+      "environmental_seed": 5.276375,
+      "with_void": 5.362142,
+      "without_void": 6.262588,
+      "single_palace": 5.362142,
+      "adjusted": 5.362142,
+      "level": "较旺",
+      "void_self": true,
+      "void_ground": false,
+      "public_pending": [],
+      "internal_pending_with_shensha": []
+    },
+    {
+      "id": "T:申",
+      "base": 3.2449999999999997,
+      "tomb_access": 1,
+      "void_retention": 1,
+      "environmental_seed": 3.2449999999999997,
+      "with_void": 3.730491,
+      "without_void": 3.730491,
+      "single_palace": 3.730491,
+      "adjusted": 3.730491,
+      "level": "偏弱至中等",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [
+        "adopted_shensha"
+      ],
+      "internal_pending_with_shensha": [
+        {
+          "id": "T:申",
+          "rule": "S10",
+          "scope": "神煞专项事件适配未完成:月生气"
+        },
+        {
+          "id": "T:申",
+          "rule": "S30",
+          "scope": "神煞专项事件适配未完成:月血光"
+        },
+        {
+          "id": "T:申",
+          "rule": "S32",
+          "scope": "神煞专项事件适配未完成:丧门"
+        }
+      ]
+    },
+    {
+      "id": "T:酉",
+      "base": 5.665,
+      "tomb_access": 0.7281553398058253,
+      "void_retention": 1,
+      "environmental_seed": 4.125,
+      "with_void": 5.68858,
+      "without_void": 5.68858,
+      "single_palace": 5.68858,
+      "adjusted": 5.68858,
+      "level": "较旺",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [],
+      "internal_pending_with_shensha": []
+    },
+    {
+      "id": "T:戌",
+      "base": 4.4525,
+      "tomb_access": 1,
+      "void_retention": 1,
+      "environmental_seed": 4.4525,
+      "with_void": 4.14944,
+      "without_void": 4.282284,
+      "single_palace": 4.14944,
+      "adjusted": 4.14944,
+      "level": "偏弱至中等",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [
+        "adopted_shensha"
+      ],
+      "internal_pending_with_shensha": []
+    },
+    {
+      "id": "T:亥",
+      "base": 1.18,
+      "tomb_access": 1,
+      "void_retention": 1,
+      "environmental_seed": 1.18,
+      "with_void": 0.372429,
+      "without_void": 0.236285,
+      "single_palace": 0.372429,
+      "adjusted": 0.372429,
+      "level": "极衰",
+      "void_self": false,
+      "void_ground": false,
+      "public_pending": [],
+      "internal_pending_with_shensha": []
+    }
+  ],
+  "selected_actors": [
+    {
+      "id": "T:酉",
+      "role": "假设施助方",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；指定酉金生子水",
+      "single_palace": 5.68858,
+      "single_palace_level": "较旺",
+      "adjusted": 5.469526,
+      "delta": -0.219054,
+      "level": "较旺"
+    },
+    {
+      "id": "T:子",
+      "role": "假设目标类神",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；指定子水为受助对象",
+      "single_palace": 1.007031,
+      "single_palace_level": "衰弱",
+      "adjusted": 1.445138,
+      "delta": 0.438107,
+      "level": "衰弱"
+    },
+    {
+      "id": "T:卯",
+      "role": "并列观察对象，未采用其与其他对象的跨宫作用",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；用于展示冲刑事实和未采用关系",
+      "single_palace": 1.458288,
+      "single_palace_level": "衰弱",
+      "adjusted": 1.458288,
+      "delta": 0,
+      "level": "衰弱"
+    }
+  ],
+  "selected_applied_relations": [
+    {
+      "source": "T:酉",
+      "target": "T:子",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；本次只检验已声明金生水的计算通路",
+      "type": "生",
+      "gate": 0.75,
+      "tau": 0.7333569550669803,
+      "received": 0.601667,
+      "source_cost": 0.300834
+    }
+  ],
+  "role_and_position_in_actual_output": {
+    "actor_keys": [
+      "id",
+      "role",
+      "basis",
+      "single_palace",
+      "single_palace_level",
+      "adjusted",
+      "delta",
+      "level"
+    ],
+    "state_basis_keys": [
+      "id",
+      "kind",
+      "ground",
+      "carrier",
+      "month",
+      "month_qi",
+      "references",
+      "original_void",
+      "evaluation_void",
+      "void_self",
+      "void_ground",
+      "void_carrier",
+      "void_upper",
+      "void_retention",
+      "tomb_access",
+      "base",
+      "local_net",
+      "outward_restriction",
+      "direct_relations",
+      "pending_action_conditions"
+    ],
+    "roles_returned_verbatim": true,
+    "roles_validated": false,
+    "native_positions_in_state_basis": true,
+    "lesson_and_transmission_slots_in_state_basis": false,
+    "global_qi_members": [
+      {
+        "element": "木",
+        "actors": [
+          "T:寅"
+        ],
+        "mean_strength": 1.4339938650384454,
+        "joined_position_facts": [
+          {
+            "id": "T:寅",
+            "天盘": "寅",
+            "地盘": "午",
+            "乘将": "天后",
+            "直接阴神": "戌",
+            "六亲": "兄弟",
+            "四课位置": [],
+            "三传位置": [
+              3
+            ],
+            "身份说明": "上述为程序盘事实；占题职责未由global_qi提供"
+          }
+        ],
+        "joined_position_facts_origin": "本审查脚本跨表拼接，并非实际global_qi返回字段"
+      },
+      {
+        "element": "火",
+        "actors": [
+          "T:午"
+        ],
+        "mean_strength": 2.205970825285008,
+        "joined_position_facts": [
+          {
+            "id": "T:午",
+            "天盘": "午",
+            "地盘": "戌",
+            "乘将": "白虎",
+            "直接阴神": "寅",
+            "六亲": "子孙",
+            "四课位置": [
+              2
+            ],
+            "三传位置": [
+              2
+            ],
+            "身份说明": "上述为程序盘事实；占题职责未由global_qi提供"
+          }
+        ],
+        "joined_position_facts_origin": "本审查脚本跨表拼接，并非实际global_qi返回字段"
+      },
+      {
+        "element": "土",
+        "actors": [
+          "T:辰",
+          "T:戌"
+        ],
+        "mean_strength": 5.277820651228571,
+        "joined_position_facts": [
+          {
+            "id": "T:辰",
+            "天盘": "辰",
+            "地盘": "申",
+            "乘将": "玄武",
+            "直接阴神": "子",
+            "六亲": "妻财",
+            "四课位置": [
+              3
+            ],
+            "三传位置": [],
+            "身份说明": "上述为程序盘事实；占题职责未由global_qi提供"
+          },
+          {
+            "id": "T:戌",
+            "天盘": "戌",
+            "地盘": "寅",
+            "乘将": "六合",
+            "直接阴神": "午",
+            "六亲": "妻财",
+            "四课位置": [
+              1
+            ],
+            "三传位置": [
+              1
+            ],
+            "身份说明": "上述为程序盘事实；占题职责未由global_qi提供"
+          }
+        ],
+        "joined_position_facts_origin": "本审查脚本跨表拼接，并非实际global_qi返回字段"
+      },
+      {
+        "element": "金",
+        "actors": [
+          "T:申"
+        ],
+        "mean_strength": 3.7304909826462174,
+        "joined_position_facts": [
+          {
+            "id": "T:申",
+            "天盘": "申",
+            "地盘": "子",
+            "乘将": "青龙",
+            "直接阴神": "辰",
+            "六亲": "官鬼",
+            "四课位置": [],
+            "三传位置": [],
+            "身份说明": "上述为程序盘事实；占题职责未由global_qi提供"
+          }
+        ],
+        "joined_position_facts_origin": "本审查脚本跨表拼接，并非实际global_qi返回字段"
+      },
+      {
+        "element": "水",
+        "actors": [
+          "T:子"
+        ],
+        "mean_strength": 1.0070307457087053,
+        "joined_position_facts": [
+          {
+            "id": "T:子",
+            "天盘": "子",
+            "地盘": "辰",
+            "乘将": "腾蛇",
+            "直接阴神": "申",
+            "六亲": "父母",
+            "四课位置": [
+              4
+            ],
+            "三传位置": [],
+            "身份说明": "上述为程序盘事实；占题职责未由global_qi提供"
+          }
+        ],
+        "joined_position_facts_origin": "本审查脚本跨表拼接，并非实际global_qi返回字段"
+      }
+    ]
+  },
+  "pending_observations": {
+    "public_conditions": [
+      {
+        "id": "T:子",
+        "pending_action_conditions": [
+          "adopted_shensha"
+        ]
+      },
+      {
+        "id": "T:寅",
+        "pending_action_conditions": [
+          "adopted_shensha"
+        ]
+      },
+      {
+        "id": "T:辰",
+        "pending_action_conditions": [
+          "adopted_shensha",
+          "自刑|T:辰"
+        ]
+      },
+      {
+        "id": "T:午",
+        "pending_action_conditions": [
+          "adopted_shensha",
+          "自刑|T:午"
+        ]
+      },
+      {
+        "id": "T:申",
+        "pending_action_conditions": [
+          "adopted_shensha"
+        ]
+      },
+      {
+        "id": "T:戌",
+        "pending_action_conditions": [
+          "adopted_shensha"
+        ]
+      }
+    ],
+    "internal_without_shensha": [
+      {
+        "id": "T:申",
+        "rule": "adopted_shensha",
+        "scope": "未提供当前采用神煞，不能宣称完整作用"
+      },
+      {
+        "id": "T:戌",
+        "rule": "adopted_shensha",
+        "scope": "未提供当前采用神煞，不能宣称完整作用"
+      },
+      {
+        "id": "T:午",
+        "rule": "adopted_shensha",
+        "scope": "未提供当前采用神煞，不能宣称完整作用"
+      },
+      {
+        "id": "T:辰",
+        "rule": "adopted_shensha",
+        "scope": "未提供当前采用神煞，不能宣称完整作用"
+      },
+      {
+        "id": "T:子",
+        "rule": "adopted_shensha",
+        "scope": "未提供当前采用神煞，不能宣称完整作用"
+      },
+      {
+        "id": "T:寅",
+        "rule": "adopted_shensha",
+        "scope": "未提供当前采用神煞，不能宣称完整作用"
+      },
+      {
+        "id": "T:辰",
+        "rule": "自刑|T:辰",
+        "scope": "专项作用方向未适配"
+      },
+      {
+        "id": "T:午",
+        "rule": "自刑|T:午",
+        "scope": "专项作用方向未适配"
+      }
+    ],
+    "internal_with_shensha": [
+      {
+        "id": "T:子",
+        "rule": "S17",
+        "scope": "神煞专项事件适配未完成:天医"
+      },
+      {
+        "id": "T:子",
+        "rule": "S26",
+        "scope": "神煞专项事件适配未完成:旬奇"
+      },
+      {
+        "id": "T:子",
+        "rule": "S29",
+        "scope": "神煞专项事件适配未完成:日进神"
+      },
+      {
+        "id": "T:寅",
+        "rule": "S12",
+        "scope": "神煞专项事件适配未完成:日德"
+      },
+      {
+        "id": "T:寅",
+        "rule": "S21",
+        "scope": "神煞专项事件适配未完成:月死气"
+      },
+      {
+        "id": "T:辰",
+        "rule": "自刑|T:辰",
+        "scope": "专项作用方向未适配"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S08M",
+        "scope": "神煞专项事件适配未完成:月天鼠小耗"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S11",
+        "scope": "神煞专项事件适配未完成:季天喜"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S15",
+        "scope": "神煞专项事件适配未完成:月破"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S32D",
+        "scope": "神煞专项事件适配未完成:吊客"
+      },
+      {
+        "id": "T:午",
+        "rule": "自刑|T:午",
+        "scope": "专项作用方向未适配"
+      },
+      {
+        "id": "T:午",
+        "rule": "S18",
+        "scope": "神煞专项事件适配未完成:地医"
+      },
+      {
+        "id": "T:午",
+        "rule": "S29",
+        "scope": "神煞专项事件适配未完成:日进神"
+      },
+      {
+        "id": "T:申",
+        "rule": "S10",
+        "scope": "神煞专项事件适配未完成:月生气"
+      },
+      {
+        "id": "T:申",
+        "rule": "S30",
+        "scope": "神煞专项事件适配未完成:月血光"
+      },
+      {
+        "id": "T:申",
+        "rule": "S32",
+        "scope": "神煞专项事件适配未完成:丧门"
+      }
+    ],
+    "public_actor_has_action_index": false,
+    "public_coverage_keys": [
+      "actors",
+      "submitted_relations",
+      "computed_relations",
+      "skipped_relations",
+      "unselected_palaces_updated",
+      "semantic_role_validated",
+      "relation_applicability_validated",
+      "event_verdict_supported",
+      "qualitative_conditions"
+    ],
+    "public_limitation": "仅核已声明对象；未声明对象与专项条件未穷尽。pending是计算适配提示，不是成败裁决或新待办清单"
+  },
+  "parity": {
+    "codex_and_opencode_single_actors": true,
+    "codex_and_opencode_selected_actors": true
+  },
+  "implementation_files": {
+    ".opencode/liuren-active.json": "4a000c9fd6b5757725364bd277b5487466a6573a73390848e87dd792d2fc0982",
+    "tools/liuren-palace-strength.mjs": "b6b717b0fdc15bb201d96212a834fc664cc9d2ea5c6f36eadaf4c1e61a642cbc",
+    "tools/liuren-strength-engine.mjs": "f2aaeeb796fc7b9d063b911deab1fcadb50fc042d3502affe61bb57ebe44bc8d",
+    "tools/liuren-strength-rules.mjs": "2b3a5fa5627db6bbf4d002e85b9fbeba24ddf330d0f7ee9b7af0ce5f61cbf8c4",
+    "tools/liuren-chart-view.mjs": "2c34013ac32f1af1e33d28c6951b508cc12b7bbeab388a4f2d92f9de35ec39d6",
+    "tools/liuren-compute-schema.mjs": "6383749d822469f75f917fb200393b2a9d90da2165cfb422f8dc9f494eb72cd2",
+    ".opencode/plugins/liuren-adjudication.ts": "12ee10d7b2fedf6ce5b84b232e86c30d6fd239d7cfbe99d55cc681ef9aa10794"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "liuren-reconstruction-semantic-review-v1",
+  "case_id": "BK26-MODERN-099",
+  "result_id": "RC26-MODERN-099-ALT-ZI",
+  "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-099-ALT-ZI.json",
+  "result_sha256": "ca6df06fdc7ad544a73edbf7f06bdb7d6569f281df4d58db24c990733b025f7b",
+  "semantic_review_state": "source_checked",
+  "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-099-alt-zi.json",
+  "request_sha256": "31bba018a437c3438b4884928762f219dd19dc3413dbdd5dc2cc9df96ded5972",
+  "request_file_sha256": "a326eace67c4385fcd5bc3f74caf2972f6bb36c102599f101488d319f675b32a",
+  "excluded_setting_label_paths": [
+    "nobleman.rule",
+    "nobleman.requested_zhouye",
+    "nobleman.actual_zhouye"
+  ],
+  "equivalent_candidate_groups": [
+    {
+      "candidate_ids": [
+        "RC26-MODERN-099-ALT-ZI-C03",
+        "RC26-MODERN-099-ALT-ZI-C04",
+        "RC26-MODERN-099-ALT-ZI-C07",
+        "RC26-MODERN-099-ALT-ZI-C08"
+      ]
+    }
+  ],
+  "archived_full_fact_groups": [
+    {
+      "candidate_ids": [
+        "RC26-MODERN-099-ALT-ZI-C01",
+        "RC26-MODERN-099-ALT-ZI-C02",
+        "RC26-MODERN-099-ALT-ZI-C05",
+        "RC26-MODERN-099-ALT-ZI-C06"
+      ],
+      "passes_source_observations": false
+    },
+    {
+      "candidate_ids": [
+        "RC26-MODERN-099-ALT-ZI-C03",
+        "RC26-MODERN-099-ALT-ZI-C04",
+        "RC26-MODERN-099-ALT-ZI-C07",
+        "RC26-MODERN-099-ALT-ZI-C08"
+      ],
+      "passes_source_observations": true
+    }
+  ],
+  "note": "逐读9920–9923、9949–9977：原明乙巳戊寅己未癸酉，另明子将。8组均八专亥戌戌，夜贵03/04/07/08初亥玄武、中末戌太阴、亥地寅天空、戌地丑白虎旬空，逐合9972原载关系。昼贵01/02/05/06初亥蛇中末戌雀，与原天将关系不合但完整并列；两组各完整facts实质等价。仅据原断关系记兼容组，不据戌时或北书房寻获选择唯一盘。主亥将三酉及明镜独足论身份保留。",
+  "selected_candidate_id": null,
+  "outcome_feedback_used_for_selection": false,
+  "original_image_recovered": false,
+  "independent_prediction_validation_count": 0
+}

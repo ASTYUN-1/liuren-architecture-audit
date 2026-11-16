@@ -1,0 +1,124 @@
+test_year_life_and_conditional_routes_obey_workflow_stages (tools.tests.test_liuren_method_loader.MethodLoaderTests.test_year_life_and_conditional_routes_obey_workflow_stages) ... FAIL
+test_docs_are_exact_file_exceptions_never_a_search_library (tools.tests.test_liuren_material_scope.ScopeTests.test_docs_are_exact_file_exceptions_never_a_search_library) ... ERROR
+test_hit_limit_is_disclosed_and_never_claims_full_coverage (tools.tests.test_liuren_material_scope.ScopeTests.test_hit_limit_is_disclosed_and_never_claims_full_coverage) ... ERROR
+test_read_retains_line_numbers_and_explicit_continuation (tools.tests.test_liuren_material_scope.ScopeTests.test_read_retains_line_numbers_and_explicit_continuation) ... ERROR
+test_scans_never_enter_development_old_runtime_or_nested_archive (tools.tests.test_liuren_material_scope.ScopeTests.test_scans_never_enter_development_old_runtime_or_nested_archive) ... ERROR
+test_symlink_cannot_expand_library_to_development_or_outside_project (tools.tests.test_liuren_material_scope.ScopeTests.test_symlink_cannot_expand_library_to_development_or_outside_project) ... ERROR
+test_traversal_outside_scope_is_rejected_before_read (tools.tests.test_liuren_material_scope.ScopeTests.test_traversal_outside_scope_is_rejected_before_read) ... ERROR
+test_parallel_search_keeps_both_original_results_and_unmodified_renderers (tools.tests.test_liuren_local_read.LocalReadTests.test_parallel_search_keeps_both_original_results_and_unmodified_renderers) ... ERROR
+
+======================================================================
+ERROR: test_docs_are_exact_file_exceptions_never_a_search_library (tools.tests.test_liuren_material_scope.ScopeTests.test_docs_are_exact_file_exceptions_never_a_search_library)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_material_scope.py", line 19, in setUp
+    self.scope = module.MaterialScope(self.root)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren_material_scope.py", line 58, in __init__
+    self.runtime, manifest = loader.active(self.root)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\load-liuren-methods.py", line 29, in active
+    if manifest['release'] != pointer['release'] or manifest['version'] != pointer['methodVersion']:
+       ~~~~~~~~^^^^^^^^^^^
+KeyError: 'release'
+
+======================================================================
+ERROR: test_hit_limit_is_disclosed_and_never_claims_full_coverage (tools.tests.test_liuren_material_scope.ScopeTests.test_hit_limit_is_disclosed_and_never_claims_full_coverage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_material_scope.py", line 19, in setUp
+    self.scope = module.MaterialScope(self.root)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren_material_scope.py", line 58, in __init__
+    self.runtime, manifest = loader.active(self.root)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\load-liuren-methods.py", line 29, in active
+    if manifest['release'] != pointer['release'] or manifest['version'] != pointer['methodVersion']:
+       ~~~~~~~~^^^^^^^^^^^
+KeyError: 'release'
+
+======================================================================
+ERROR: test_read_retains_line_numbers_and_explicit_continuation (tools.tests.test_liuren_material_scope.ScopeTests.test_read_retains_line_numbers_and_explicit_continuation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_material_scope.py", line 19, in setUp
+    self.scope = module.MaterialScope(self.root)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren_material_scope.py", line 58, in __init__
+    self.runtime, manifest = loader.active(self.root)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\load-liuren-methods.py", line 29, in active
+    if manifest['release'] != pointer['release'] or manifest['version'] != pointer['methodVersion']:
+       ~~~~~~~~^^^^^^^^^^^
+KeyError: 'release'
+
+======================================================================
+ERROR: test_scans_never_enter_development_old_runtime_or_nested_archive (tools.tests.test_liuren_material_scope.ScopeTests.test_scans_never_enter_development_old_runtime_or_nested_archive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_material_scope.py", line 19, in setUp
+    self.scope = module.MaterialScope(self.root)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren_material_scope.py", line 58, in __init__
+    self.runtime, manifest = loader.active(self.root)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\load-liuren-methods.py", line 29, in active
+    if manifest['release'] != pointer['release'] or manifest['version'] != pointer['methodVersion']:
+       ~~~~~~~~^^^^^^^^^^^
+KeyError: 'release'
+
+======================================================================
+ERROR: test_symlink_cannot_expand_library_to_development_or_outside_project (tools.tests.test_liuren_material_scope.ScopeTests.test_symlink_cannot_expand_library_to_development_or_outside_project)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_material_scope.py", line 19, in setUp
+    self.scope = module.MaterialScope(self.root)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren_material_scope.py", line 58, in __init__
+    self.runtime, manifest = loader.active(self.root)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\load-liuren-methods.py", line 29, in active
+    if manifest['release'] != pointer['release'] or manifest['version'] != pointer['methodVersion']:
+       ~~~~~~~~^^^^^^^^^^^
+KeyError: 'release'
+
+======================================================================
+ERROR: test_traversal_outside_scope_is_rejected_before_read (tools.tests.test_liuren_material_scope.ScopeTests.test_traversal_outside_scope_is_rejected_before_read)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_material_scope.py", line 19, in setUp
+    self.scope = module.MaterialScope(self.root)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren_material_scope.py", line 58, in __init__
+    self.runtime, manifest = loader.active(self.root)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\load-liuren-methods.py", line 29, in active
+    if manifest['release'] != pointer['release'] or manifest['version'] != pointer['methodVersion']:
+       ~~~~~~~~^^^^^^^^^^^
+KeyError: 'release'
+
+======================================================================
+ERROR: test_parallel_search_keeps_both_original_results_and_unmodified_renderers (tools.tests.test_liuren_local_read.LocalReadTests.test_parallel_search_keeps_both_original_results_and_unmodified_renderers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_local_read.py", line 52, in test_parallel_search_keeps_both_original_results_and_unmodified_renderers
+    result, text = reader.parallel_search('藏匿', '方位', '失物占', limit=8)
+                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\liuren-local-read.py", line 110, in parallel_search
+    case_policy = case_result['index_status']['research_overlay']['overlayFingerprint']
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'index_status'
+
+======================================================================
+FAIL: test_year_life_and_conditional_routes_obey_workflow_stages (tools.tests.test_liuren_method_loader.MethodLoaderTests.test_year_life_and_conditional_routes_obey_workflow_stages)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\QLMa_\Documents\六壬八字测算\tools\tests\test_liuren_method_loader.py", line 92, in test_year_life_and_conditional_routes_obey_workflow_stages
+    self.assertEqual(steps[keys.index('timing')]['stage'], 9)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3 != 9
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.032s
+
+FAILED (failures=1, errors=7)

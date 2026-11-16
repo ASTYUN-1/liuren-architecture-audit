@@ -1,0 +1,80 @@
+{
+  "skill": "jixiong-tiaozhi",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "你说这件事能成，那过程会不会很痛苦？会不会很难受？",
+      "expected_behavior": "应激活 jixiong-tiaozhi, 并执行：收集各线吉凶信号（类神/课体/凶煞）→ 定大背景缩放系数 → 对关键爻做四象限调制（吉爻×凶将＝吉中有忧）, 输出\"能成但过程痛苦\"的程度与体验终局结论并标注可检验指征",
+      "notes": "正面\"程度/痛苦/会不会很难受\"场景（A2 场景 1）, 基础吉凶已定、追问质感"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这个财运看着不错，但会不会吉中带凶、风险很大？",
+      "expected_behavior": "应激活 jixiong-tiaozhi, 并先定大背景（贵人差迭/二贵受克则\"凶大吉小\"）→ 对财爻做四象限调制（得财×凶将＝拿得极痛苦）, 输出\"有财但风险大\"的带程度结论+背景缩放说明",
+      "notes": "正面\"吉中带凶/风险\"场景（A2 场景 2+3）, 与书中案例 1 贵人差迭大背景同构, 但只借背景不重复 cailu-panduan 的规则"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "综合分析一下，这件事对我的影响有多大？整体到底好不好？",
+      "expected_behavior": "应激活 jixiong-tiaozhi, 并作终局综合器：汇总类神/课体/凶煞/空亡各线信号为清单, 定背景缩放（吉/中/凶+缩放方向）, 输出带程度与体验的终局结论, 避免\"断吉就一切皆好\"的粗放",
+      "notes": "正面\"综合分析/影响多大/整体\"场景（A2 场景 5, AI 分析框架）"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "能拿到这笔钱，但会不会是那种拿得特别痛苦的钱？",
+      "expected_behavior": "应激活 jixiong-tiaozhi, 并对财爻做四象限调制：吉爻×凶将（虎蛇等）＝吉中有忧, 直接对应书中\"拿到钱也是拿得极痛苦的\"原文, 输出象限坐标+背景缩放+可检验指征",
+      "notes": "正面调制场景, 逐字呼应书中文案（R 段\"拿得极痛苦\"）, 高置信触发"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "六壬里的空亡是什么意思？帮我解释一下。",
+      "expected_behavior": "不应激活本 skill, 因为这是纯术语信息查询, 无课传吉凶信号需要调制, 直接给出概念解释（或引用术语词典）即可",
+      "notes": "诱饵: 完全无关场景（纯信息查询）, 无任何\"程度/吉凶参半\"判断需求"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "你帮我看看我最近是不是有灾？命里有没有凶煞？",
+      "expected_behavior": "不应激活本 skill, 应激活 xiongsha-suduan；凶煞速断是\"否定式定性\"（旬丁/白虎/勾陈/天空命中即凶）, 本 skill 是\"调制定量\"——必须先定性后调制, 凶煞命中后才轮到本 skill 定程度, 顺序不可颠倒",
+      "notes": "跨 skill 混淆诱饵 (硬性要求至少 1 条): 防止同书 skill 互相抢调用——与 xiongsha-suduan 是 contrasts-with 关系, B 边界明言\"先否定、后调制\""
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "这个三传是不是空亡变质了？",
+      "expected_behavior": "不应激活本 skill, 应激活 kongwang-bianzhi；空亡与变质辨析（真假校验闸门）是信号输入层, 本 skill 是信号之后的程度调制层——先过空亡校验, 再看是否需要调制",
+      "notes": "跨 skill 混淆诱饵: \"空亡吗\"属 kongwang-bianzhi 的判定职责, 本 skill 不负责空亡判定"
+    },
+    {
+      "id": "should-not-trigger-04",
+      "type": "should_not_trigger",
+      "prompt": "你看我这次考试能不能过？",
+      "expected_behavior": "不应激活本 skill, 应激活 sanbu-duanke；简单成败/单点状态问题（能/不能、有/没有）不需要程度描述, 直接走三步断课法类神线（leishen-keti 双侧重）出结论, 本 skill 只在吉凶参半或大背景异常时介入",
+      "notes": "跨 skill 混淆诱饵: \"简单成败\"是 B 边界第一条明令禁用的场景——无吉凶参半、无大背景异常时调用属过度工程"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "那这个结果到底是吉还是凶？有多凶？",
+      "expected_behavior": "边界判定为本 skill 可激活但需前置定性：\"吉还是凶\"属基础判定应交 sanbu-duanke, \"有多凶\"属程度调制归本 skill; 若基础吉凶未定须先定性再调制, 且不得用程度词回避明确判断（ce14 可证伪性警告）",
+      "notes": "边界: 定性（sanbu-duanke）与定量（本 skill）双问混在一起, 激活条件依赖前置结论是否已存在"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "能成，但这个象好像空亡了，整体到底怎么算？",
+      "expected_behavior": "边界判定为本 skill 可激活但需先过校验闸门：空亡真假未辨（kongwang-bianzhi 判真变质则改判成败, 假空亡不影响）→ 再进入本 skill 四象限调制+大背景缩放输出整体结论, 两 skill 串联不合并",
+      "notes": "边界: 空亡校验（kongwang-bianzhi）与程度调制（本 skill）的串联场景, 校验未完成前不可直接调制"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0)。诱饵类型: 1 条完全无关场景（术语信息查询）+ 3 条同书兄弟 skill 混淆（xiongsha-suduan 灾煞定性 / kongwang-bianzhi 空亡校验 / sanbu-duanke 简单成败）。"
+}

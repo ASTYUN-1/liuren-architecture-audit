@@ -1,0 +1,97 @@
+# 本地大六壬工作区
+
+这里用于本机排盘、专业研判、知识整理和课程写作。为兼容既有工具，文件夹仍叫“六壬八字测算”。现有网站与手机产品源码保留在原路径，产品开发从独立入口接续。
+
+| 要做的事 | 入口 |
+| --- | --- |
+| 先了解目录与资料位置 | [目录总索引](目录总索引.md) |
+| 本机完整技术报告与输出边界 | [本机 OpenCode 完整输出规则](docs/本机OpenCode完整输出规则.md) |
+| 在 Codex 中以 Sol 高思考子智能体裁决 | [Codex大六壬工作流](docs/Codex大六壬工作流.md) |
+| 继续六壬知识整理、案例复审 | [知识整理入口](docs/六壬知识整理-20261102/README.md)、[数据约定](docs/六壬知识整理-20261102/数据约定.md) |
+| 查看专业规则、反证与已登记资料 | [knowledge](knowledge/)、[经验日志](经验日志/)、[案例项目库](案例项目库/) |
+| 排盘与已存课盘 | [排盘工具魔改](排盘工具魔改/)、[排盘存档](排盘存档/README.md) |
+| 课程写作 | [课程写作规则](课程写作/AGENTS.md)；先读该目录当前台账与专业底稿 |
+| 公众号文章与配图 | [运营资料/公众号](运营资料/公众号/README.md) |
+| 网站、APK、部署与运营维护 | [跨会话继续开发指南](docs/跨会话继续开发指南.md)，修改 web 时另读 [web/AGENTS.md](web/AGENTS.md) |
+| 找迁移前的文件 | [路径路由映射](docs/路径路由映射.json)、[归档说明](归档/README.md) |
+
+## 本机使用
+
+在本目录打开 OpenCode。技能和活动配置位于 `.opencode/` 与 `opencode.json`；工作流与资料版本以当前配置和本轮运行记录为准。默认交付完整技术报告，保留来源、条件、反证与缺口。
+
+本轮六壬活动指针为 [.opencode/liuren-active.json](.opencode/liuren-active.json)，指向 `20261111-reviewed-bifa-43`；八字 active 指针已迁出。旧 `runtime/liuren/` 冻结版本和历史备份可能仍有八字副本，按兼容、追溯和回滚用途原样保留，不进入新的活动读取计划。
+
+本机默认从`daliuren`按[完整研判流程](docs/本机六壬完整研判流程.md)执行原问与可信盘→依问取用→综合作用和最强反证→独立裁决→核对交付。共用judgment-core与本问专项为阅读主干，详细方法、原书及应期/数量/年命按需要触发；直接使用可信程序盘与固定神煞结果，同卦复用已核材料。三个入口为daliuren、liuren-cases、liuren-extract，普通研判与知识维护分开。精简不代表预测准确率等价已经验证。
+
+当前无两库对照只关闭本次案例库、经验库调用；方法模块、原书和原有书内例证保留。普通研判不执行search-cases、search-experience或retrieve，也不回读旧检索缓存。原基线保留，可按本轮发布记录回切比较。
+
+`tools/liuren-workflow.py` 保留为可选工程审计工具：
+
+```powershell
+python -X utf8 tools/liuren-workflow.py doctor
+python -X utf8 tools/liuren-workflow.py prepare --input INPUT.json --out RUN
+python -X utf8 tools/liuren-workflow.py read --run RUN --id ID --page 1
+python -X utf8 tools/liuren-workflow.py check --run RUN --record JUDGMENT.json
+```
+
+`INPUT.json`、`RUN`、`ID`、`JUDGMENT.json` 是可选审计中的占位符。历史输入结构见 [20261102 工作流说明](output/liuren-consolidation-20261102/workflow/使用说明.md)，其中“唯一主路线、必须重新 prepare”的要求不再适用于本机默认研判。程序页码仅表示内容被输出，check 不证明专业判断正确，也不约束最终判断原文。
+
+`doctor` 只读检查本机六壬运行包、知识数据和必要依赖；也可双击 `verify-system.bat` 或运行 `verify-system.ps1` 调用同一入口。旧验证脚本的原件在 [融合前备份](归档/配置与旧说明/融合前-20261102/)，不再按旧混合包启动八字服务。
+
+需要图形排盘时，运行 `node 排盘工具魔改/serve.js`（或双击 `start-server.bat`），再打开 http://localhost:3456 。服务只应按本次需要启动；端口占用时先检查已有进程。排盘字段和运行通过不代表术理或预测效果已经验收。
+
+## 资料与历史
+
+`书籍库/`、`books/`、`案例项目库/`、`经验日志/`、`knowledge/` 保持原路径；新复制的依赖有逐文件来源与 SHA256 清单，见 [目录维护说明](docs/目录维护说明-20261102.md)。原书、原始断语、旧 AI 解释、现实反馈与本轮归纳分开保留。历史材料中的旧路径按路由表解释，不改写原文来制造一致。
+
+`docs/` 与 `output/` 中引用密集的来源、发布记录和验收证据继续保留，分别见 [docs 分类索引](docs/目录分类索引.md) 和 [output 分类索引](output/目录分类索引.md)。原安装包和旧说明已进入 `归档/`。八字专项的打包、解压验证和迁出状态只认其最终验收记录，不再用本页旧版的八字启动命令作为活动入口。
+
+本次目录整理不发布网站、不运行付费模型、不验证真实占断效果。旧 README 与 AGENTS 的逐字节备份位于 [接续入口备份](归档/配置与旧说明/接续入口-20261102/)。
+
+本机OpenCode裁决者当前为DeepSeek V4.1 Flash/high，主智能体保留用户选择；Codex原生裁决仍用Sol/high。现行操作只见[高效执行](docs/本机六壬高效执行.md)，本轮[生效与回滚说明](output/liuren-slim-activation-20261107/生效说明.md)。本次只切本机入口，网站和服务器未发布。
+
+27版修复归档引用在排盘与计算/裁决工具之间的字段兼容，详见[流程复验报告](output/liuren-slim-flow-validation-20261107/流程复验报告.md)。仍仅本机生效。
+
+本机28版取消项目裁决输出额度，增加原子会话正文恢复；说明见[本次修复](output/liuren-stalled-child-repair-20261107/修复说明.md)。网站未发布。
+
+本机29版执行与排障以[稳定运行指南](docs/本机六壬稳定运行指南.md)为准。启动可用tools/liuren-preflight.py；workflow须execution_health.ready=true，旧进程不新派发。插件固定2.2.18；未初始化的AOCI仅在本项目暂停，其他MCP保留。
+
+本机30版显式申请裁决生成额度393,216 tokens，保持deepseek-flash/high，修正省略参数回落服务端64K默认值的问题。重启后新请求生效；实际长裁决仍待验证。说明见[额度修改说明](output/liuren-token-limit-audit-20261107/修改说明.md)。
+
+本机31版启用核心交接与按需查证，裁决者只强制读完整核心；原书/详细方法另存可查。使用见[高效执行](docs/本机六壬高效执行.md)，验收见[新版说明](output/liuren-core-handoff-20261107/修改说明.md)。
+
+
+32版历史记录（现行33版已修订待确认登记；20261108-unified-32，覆盖旧指令中相反的专业摘要）：活动judgment-core完整载入U01—U11，主智能体准备和独立裁决者共同执行。喜旺恶衰、直接临生合与外来扶助、日干天干十二长生/支将五行十二气、制救、天时地利、空亡综合效应、四建分工及时间变化统一。已定规则不再作两派争点；真实未定边界见pending-conflicts的C01—C11。主智能体返回核对包含U口径一致性；具体错误附原句、U编号及绑定证据，依宿主一次补核协议处理，不自行折中改判。工具契约仍liuren-tools-31，模型与额度不变。仅本机；OpenCode重启后新会话加载，新Codex任务读取新指针；历史任务沿原绑定版本。记录见output/liuren-unified-rules-20261108/更新与验收说明.md。
+
+
+33版解释与矛盾登记修订（20261108-clarified-33，覆盖32版相反的“待确认”措辞）：贪生停用指类神对日主的作用受限，财、父母、鬼分别释义；通类/分类分层，胎爻专项依北海（干支胎同重、土胎子午两处），应期视用/视末按原文明示阶段。主、子智能体共同按U11筛选真正同条件互斥；明确条文自行解释执行，不要求用户再确认。C01—C11已逐项关闭或重新分类，不再作为待确认清单；来源措辞、程序取法和文字校勘另记。工具契约、宿主模型与额度不变，仅本机；OpenCode重启新会话加载，Codex新任务读取活动指针，历史任务沿原绑定版本。记录见output/liuren-clarified-rules-20261108/矛盾复核与原文入口.md。
+
+
+34版单宫旺衰接入（20261109-palace-strength-34）：34版单宫旺衰：默认分数仅为单宫直接关系的旺衰，5/2.5均非失用阈值，弱仍可作用。明确取用和跨宫作用依据后，必须调用liuren_compute(action=strength)补算，不自行加减、不重复扣空、不全盘五行联算。先读共用judgment-core，接口见deterministic-tools；三合/半合/三会数值继续暂缓。 仅本机，新OpenCode进程/新Codex任务使用新绑定；历史包和原盘不改。详细计算及回滚见output/liuren-palace-integration-20261109/接入说明.md。
+
+
+35版本机工具升级（20261109-deterministic-tools-35）：35版确定性工具层：工具只查盘、查表、计算和枚举时间，AI依原法取用、选法与裁决。取数/取象先methods查方法，按quantity_method/imagery调用；evaluation接日历与旺衰，不裁应期。空亡系数沿用34版，三合等数值暂缓。主、子共读judgment-core；详见deterministic-tools。 使用说明见docs/确定性工具使用说明-35.md；回滚见output/liuren-tool-upgrade-20261109/rollback.py。
+
+
+36版关神接入（20261109-guanshen-36）：36版新增季关神S33：春丑夏辰秋未冬戌；采用规则共39条，原38条及22停用名不变。关墓阻隔、冲解及掌管仓库吉用按原段取用，寡宿同表不重复计证。仅本机，新任务绑定；原盘与旧冻结包不改。 原文复核与回滚见output/liuren-guanshen-20261109/。
+
+
+37版本机双Sol试用（20261109-sol-37）：OpenCode主智能体、独立裁决者及活动辅助智能体统一conpera/gpt-6.1-sol、high。取消DeepSeek专用393216输出额度，由当前提供方和宿主决定；workflow应显示explicit_output_budget=false、requested_max_output_tokens=null。专业规则沿用36版，历史包不改；重启OpenCode并新建会话加载。配置与回滚见output/opencode-sol-20261109/。
+
+
+38版本机OpenCode裁决模型对照（20261109-deepseek-child-38）：仅独立裁决者切换为deepseek/deepseek-flash（本机显示DeepSeek V4.1 Flash）、high，恢复该裁决者既有393216生成上限。主智能体保留用户所选模型，不要求与裁决者相同。专业方法沿用37版；Codex原生裁决仍为Sol/high，网页内测与正式服务不变。重启OpenCode后新建任务加载；历史任务不重派。配置、验收及回滚见output/opencode-deepseek-child-20261109/。
+
+
+39版一致性核对：新任务保留原问与input_review来源身份；子报告附简短audit，登记关键作用、最强反证与真实计算覆盖。局部补算不能冒充综合结果。主智能体read核对后用review登记事实身份、职责阶段、计算范围、反证、逐问约束五项；有具体原句和绑定证据才用原子会话recheck一次，保留前后报告，未解决缺口显式交付，不另派或自行改判。程序不选类神、不裁成败、不设分数阈值，正文仍自由表达。专业方法与模型选择沿用38版；网站未发布。接口见docs/本机六壬一致性核对-39.md。
+
+
+40版直接作答：子智能体开始裁决前采用direct-answer规则，先综合依据再选主判。是非给是/否或倾向，数值给有依据的最佳估计值和单位，位置结合方向与分野给主选地区，原因给主因；不以中间类象、候选堆积、反复免责声明代替答案，不把未问的高精度设成拒答门槛。不随机选边、不编数值或过度定位，敏感隐私不凭盘面臆断。提交前自查，主智能体在39版answer_constraints复核直接作答及前后未撤回，calculation_scope核估计依据。主准备保持中性，不能替子智能体选结果；保留一次原子会话补核与未决项。仅本机OpenCode及共用Codex，新任务加载；网站未发布。详见docs/本机六壬直接作答-40.md。
+
+
+41版书中批注接入（20261111-book-logic-41）：补类神阴阳、发用气势、施受能力、迟速/年命与非地理动。神将名目只作倾向；数值任务查quantity-strength，指数计空不等于数量已减数，新增LF3329独立分支及计算范围回执。空亡逐类与阶段见void-class-applications，V41-01按用户决定保留现行U08/U10待后研判。24处连续书证和接入说明见output/liuren-book-integration-20261111/。仅本机新任务，网站未发布；冻结旧版与模型选择不变。
+
+
+42版本机基本毕法（20261111-basic-bifa-42）：任意新盘自动独立核32种基本结构（涉及25法），按实际昼夜，成立条件、位置、空亡和连续书证随完整盘进入裁决核心bifa_conditions。第22依《大全》；标题不裁成败，未核偏僻旁格暂停。只限本机OpenCode/Codex新任务，重启OpenCode加载；旧盘/旧任务及模型不改，网站未发布。详见docs/基本毕法自动交接-42.md。
+
+
+43版本机毕法基本定义核查（20261111-reviewed-bifa-43）：100法逐法登记，134个基本条件分支和8项方法核查；非穷尽全部正变旁格。新盘按实际昼夜独立计算，matches只收明列条件全真，conditional_candidates保留缺项，method_checks为按问推理义务。第22依大全；书证按BF-B/D法号可查（含BF-B100）。详见docs/毕法百法基本适配-43.md。只限本机新任务，旧版冻结，网站未发布。

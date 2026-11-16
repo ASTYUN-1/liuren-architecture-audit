@@ -1,0 +1,48 @@
+{
+  "active": true,
+  "release": "20261023-local-active-01",
+  "methodVersion": "da713e002642e279bbf04ae8cc4fbcf5d86f4234c8c87396c1e19f6a2d325648",
+  "replacedSkillDirectories": 25,
+  "preserved": [
+    "bazi",
+    "bazi-extract",
+    "bazi-yingqi"
+  ],
+  "modules": 18,
+  "paragraphs": 2744,
+  "backup": "byte-identical",
+  "oldBodiesInReplacedDirectories": false,
+  "links": "passed",
+  "projectConfig": "unchanged",
+  "discoveryVerified": true,
+  "predictionTested": false,
+  "opencodeEntries": [
+    {
+      "name": "daliuren",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\daliuren\\SKILL.md",
+      "contentHash": "9a11b6ca262df40b8233afaec4081408cf4e60723c268abd546ed7388723de52"
+    },
+    {
+      "name": "liuren-cases",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren-cases\\SKILL.md",
+      "contentHash": "502aad1b985f8f3190181b5ad58a1ca5597f94ba33868b4144f452e3abe7271d"
+    },
+    {
+      "name": "liuren-extract",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren-extract\\SKILL.md",
+      "contentHash": "35d3551a14bdd7106e5592d6f88663fd1974b142ff85d997f1e1507cb90a75bc"
+    },
+    {
+      "name": "liuren-tuiming",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren-tuiming\\SKILL.md",
+      "contentHash": "07716925cd0b8aa580238aefbc157689c76e09b6a980fd91ad08de9830530f5e"
+    }
+  ],
+  "activeLiurenSkills": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract",
+    "liuren-tuiming"
+  ],
+  "retiredAliasesAbsent": true
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261019-0218",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-qqwb20261019-0218.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019\\stage1_ready_v1\\cases\\raw-qqwb20261019-0218.md",
+    "locator": "batch_20261019/raw/records.jsonl 中 seq=217 的 detail 与 mofan 字段",
+    "shared_original_group": null,
+    "case_file_sha256": "92f776932f6cd6c026c14e8bbf09d1bc8c0222dba4a78c7af24592a27d70ec5d",
+    "original_time": "未注明",
+    "source_text_sha256": "334b936428f11ed10f333c17b8d6edc51c20a5d11b08076ddc4927a197ee73b6",
+    "image_evidence": null
+  },
+  "time": {
+    "precision": "unknown",
+    "datetime": null,
+    "issue": "MISSING_CALENDAR_DATE"
+  },
+  "time_selection": null,
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "effective_settings": {
+    "yuejiang": "中气换将",
+    "guiren": "甲戊庚牛羊",
+    "zhouye": "自动选择",
+    "shehai": "孟仲季"
+  },
+  "issues": [
+    "MISSING_CALENDAR_DATE",
+    "TIME_FIELD_SOURCE_MISMATCH"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

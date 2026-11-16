@@ -1,0 +1,49 @@
+{
+  "identity": "isolated-server-verification-no-paid-api",
+  "database": "wenheng_test_workflow_20261102",
+  "migration": "018 replayed transactionally after strict database pathname verification",
+  "results": [
+    {
+      "suite": "server-server-optimization-db.log",
+      "pass": 6,
+      "fail": 0,
+      "skipped": 0,
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\workflow-optimization-20261102\\server-test-logs\\server-server-optimization-db.log"
+    },
+    {
+      "suite": "server-points.log",
+      "pass": 26,
+      "fail": 0,
+      "skipped": 0,
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\workflow-optimization-20261102\\server-test-logs\\server-points.log"
+    },
+    {
+      "suite": "server-deletion-billing-security.log",
+      "pass": 12,
+      "fail": 0,
+      "skipped": 0,
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\workflow-optimization-20261102\\server-test-logs\\server-deletion-billing-security.log"
+    },
+    {
+      "suite": "server-admin-notices-expiry.log",
+      "pass": 3,
+      "fail": 0,
+      "skipped": 0,
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\workflow-optimization-20261102\\server-test-logs\\server-admin-notices-expiry.log"
+    }
+  ],
+  "totalPass": 47,
+  "localTests": {
+    "server-optimization-http+input-intent+task-retry": {
+      "pass": 21,
+      "fail": 0,
+      "skipped": 0
+    },
+    "typecheck": "passed"
+  },
+  "scope": "synthetic fixtures only, no production writes or paid API calls",
+  "notes": [
+    "PowerShell piped shell added trailing CR after all test suites; every suite recorded zero failed, shell trailing CR fixed by explicit exit 0 in saved runner.",
+    "Worker initialization cleanup and safeFailure code additions were typechecked after DB run; no billing or SQL behavior change in these final edits."
+  ]
+}

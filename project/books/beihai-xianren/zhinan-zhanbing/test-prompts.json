@@ -1,0 +1,73 @@
+{
+  "skill": "zhinan-zhanbing",
+  "version": "0.1.0",
+  "source_book": "《大六壬指南》问答录 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我占一下，最近边境那边会不会起冲突、有没有可能打仗？",
+      "expected_behavior": "应激活 zhinan-zhanbing, 兵占先断有无兵事: 扫描贼符(子卯巳申)加干支/游都鲁都/天乙贵人/日鬼, 比较课传力大者定有无与时机; 再断攻守定位与胜负(干攻支守/干神生支守固/发用生末传则攻不破), 输出有无兵警+胜负倾向",
+      "notes": "A2 触发场景 1: 兵事/边境/军事动态, '会不会打仗/边境怎么样'语言信号"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我家昨晚进贼了，丢了不少东西，帮我占一下贼往哪个方向跑了、还能不能抓到？",
+      "expected_behavior": "应激活 zhinan-zhanbing, 以玄武为类神走贼占四步: ①方向(玄武所临地盘卦位, 地支临处知贼去) ②里数(盗神上下相乘) ③藏身/亲属(三合/长生, 三合支辰眷属亲) ④捕获(勾陈/官鬼克玄武、坐败地、坐月将任一即可获), 输出寻赃方向与可获结论",
+      "notes": "A2 触发场景 2: 失窃/被劫/报案, '丢东西了/能不能抓到贼'语言信号"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "家里老人昨天下午走失了，手机也关机，占一下人往哪个方向去了、什么时候能找到？",
+      "expected_behavior": "应激活 zhinan-zhanbing, 占逃亡/寻人: 以玄武为类神四步定位(方向→里数→投靠处→可获与见期), 马星状态仅作逃亡动势参考(youlu-lilun 前置线索), 方向/里数/捕获的定位逻辑在本 skill, 输出寻人方向与见期线索",
+      "notes": "A2 触发场景 3: 走失/失踪/寻人, '人走丢了/找不到了'语言信号"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "我们公司正被竞争对手恶意挖团队、盗商业机密，占一下这场商战会不会升级、我们守不守得住？",
+      "expected_behavior": "应激活 zhinan-zhanbing, 按现代类推处理: 先断有无'兵事'(商战是否成局), 再攻守定位(干为攻方支为守方类比为双方, 干神生支=守固), 查发用末传关系定胜负倾向; 并明确标注'古典攻守定位须类比转换', 不照搬军事情报式结论",
+      "notes": "A2 触发场景 4: 现代类推——商战竞争/纠纷攻防, 需类比转换后触发"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我算算今天适合出门办事吗？",
+      "expected_behavior": "不应激活 zhinan-zhanbing: 无兵事/贼盗/寻人语境, '出行'属动象或时运范畴(可路由 youlu-lilun/shiyun-zonghe 或 none); 仅当问句含军事/贼盗语境才触发本 skill",
+      "notes": "诱饵: 完全无关场景——无兵盗主题词的泛问出行"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占我这次出差顺不顺？路上会不会有波折？",
+      "expected_behavior": "不应激活本 skill(zhinan-zhanbing), 应激活 youlu-lilun: 问题聚焦行止'动不动、为何动'的动象机制(驿马/旬丁/干神归支), 属动象判读而非兵盗攻守/玄武四步定位",
+      "notes": "诱饵: 跨 skill 兄弟诱饵(硬性要求)——出差动象 vs 兵盗场景, 防止 zhinan-zhanbing 抢走 youlu-lilun 的调用"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "占一下我今年财运怎么样，投资能不能赚钱？",
+      "expected_behavior": "不应激活本 skill(zhinan-zhanbing), 应激活 cailu-panduan: 纯财运问题无兵盗语境, 属 description'不适用于纯财运'边界——财禄判断走 cailu-panduan, 不因含'占'字误触发",
+      "notes": "诱饵: 跨 skill 混淆——纯财运问题, 验证'不适用于纯财运(转 cailu-panduan)'边界"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我家是不是进过贼？总感觉家里不对劲。",
+      "expected_behavior": "边界场景: '是否有贼入室'在 zhinan-zhanbing(贼占: 玄武/人宅受脱/盗象四步)与 xiongsha-suduan(凶煞: 白虎临宅/凶象过滤)之间——先辨用户问'事态有无'(贼占路径)还是'吉凶担忧'(凶煞路径); 课中盗象强(玄武发用/人宅受脱俱招盗)走本 skill, 否则归凶煞侧",
+      "notes": "边界: 贼占 vs 凶煞的判定先后——同类玄武, 占贼作类神、占忧作凶将"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "占我最近身体总不大好，会不会有什么大问题？",
+      "expected_behavior": "越占边界: 默认非本 skill(纯健康归病占/xiongsha-suduan), 不强行断贼; 但若课盘见玄武发用、人宅受脱俱招盗、传归支上等强盗象, 按'非占现类勿言之'例外(z10 占病断贼模式)可越占提示'防贼'——需先取盘核触发条件, 无强据则不越占",
+      "notes": "A2 触发场景 5: 课盘盗象越占触发条件——规则+例外框架"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "should_trigger×4 + should_not_trigger×3(含 1 条跨 skill 兄弟诱饵 youlu-lilun + 1 条跨 skill 混淆 cailu-panduan + 1 条完全无关) + edge_case×2。诱饵类型: ①'算今天适合出门'泛问出行(无关, 无兵盗语境) ②'出差顺不顺'→youlu-lilun(动象, 兄弟 skill 混淆) ③'财运/投资'→cailu-panduan(纯财运, description 不适用边界)。所有 should_not_trigger 必须通过(诱饵容错为 0)。测试输入全部为现代用户场景(商战竞争/失窃寻赃/走失寻人), 未使用 z01/z10/z16 古典课例当测试输入。"
+}

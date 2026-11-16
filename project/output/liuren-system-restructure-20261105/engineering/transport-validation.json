@@ -1,0 +1,27 @@
+{
+  "candidate": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05",
+  "checks": [
+    {
+      "id": "TS-method",
+      "pass": true,
+      "bytes": 16343,
+      "sha256": "265705a55d9208df0799ca8a10e0e21aade6c98d5d40b7045f8fb740dd2b9f01"
+    },
+    {
+      "id": "TS-read-relative-windows",
+      "pass": true,
+      "sha256": "816af7a20793387c39b52b94c700281e4bef13bf8802adc5de3e0a538397354c"
+    },
+    {
+      "id": "TS-chart-candidate-archive",
+      "pass": true,
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05\\排盘存档\\六壬\\六壬-20261105-120714-候选TS传输核验-0b5be5d4-8c17-41dc-a3ac-f488f36a3984.corrected-00f82cbe4caa6ce3.json"
+    },
+    {
+      "id": "TS-shensha-existing-archive",
+      "pass": true,
+      "items": 38
+    }
+  ],
+  "modelRequests": 0
+}

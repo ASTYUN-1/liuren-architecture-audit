@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 2,
+  "domainStage": 1,
+  "domains": [
+    "finance",
+    "recruitment",
+    "promotion-salary",
+    "relationship",
+    "interpersonal",
+    "period-outlook",
+    "long-period",
+    "pregnancy",
+    "exam",
+    "illness",
+    "lost-person-object",
+    "classical-conflict",
+    "home",
+    "travel",
+    "weather",
+    "agriculture",
+    "litigation"
+  ],
+  "labels": {
+    "positioning": "原问、分类与取用",
+    "evidence": "材料核证与争点交接（无两库对照）",
+    "relations": "课位与关系",
+    "liqi": "课传、类神及有效作用",
+    "void": "空亡与变质",
+    "bashajiubao": "八煞九宝",
+    "engine-shensha-output": "引擎神煞字段",
+    "shensha-focus": "32项",
+    "shensha-use": "程序神煞位置与取用",
+    "movement": "动态与阴神",
+    "structure": "课体结构",
+    "adjudication": "核心交接与独立裁决",
+    "report": "报告与交付检查",
+    "daliuren-paipan": "排盘操作",
+    "nianming": "年命",
+    "timing": "应期",
+    "risk": "风险细则",
+    "shensha-tradition": "神煞方法",
+    "rule-semantics": "规则语义",
+    "liqi-sources": "来源卡",
+    "quantity": "数量与精度",
+    "quantity-sources": "数法来源与条件",
+    "workflow-contract": "可选结构化审计（非本机默认）",
+    "class-mapping": "分类与九系统取用",
+    "shenjiang-use": "神将同用与互换",
+    "shen-symbols": "十二天神候选义",
+    "jiang-symbols": "十二天将职能",
+    "mapping-provenance": "取用合并与原文回查",
+    "judgment-core": "共用判断规范",
+    "confirmed-policy": "已确认判断规则",
+    "pending-conflicts": "历史争点分类与真实矛盾登记",
+    "confirmed-policy-evidence": "本轮已核连续书据",
+    "book-logic": "阴阳表里、发用气势、类神/课传、施受、迟速及动的推广需要细则",
+    "quantity-strength": "数值任务的旺衰/空亡数量修正；与quantity共同读取",
+    "void-class-applications": "空亡对象、环节或跨占类条件将影响判断且摘要不足",
+    "book-annotation-evidence": "24处原连续段及本轮身份需要核对",
+    "bifa-basic": "自动基本毕法条件、采用范围、层级和例外需解释",
+    "bifa-basic-evidence": "毕法基本结构决定性使用需查连续原文或源身份",
+    "quantity-rank": "名次、等第与变化量专法",
+    "quantity-rank-evidence": "序位专法连续原文",
+    "litigation": "官讼是非"
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "原问、完整盘与本问专项",
+      "required": [
+        "judgment-core"
+      ],
+      "action": "先读共用规范和本问domain，详细方法按具体缺口查"
+    },
+    {
+      "id": 2,
+      "title": "必要补核与核心交接",
+      "required": [],
+      "action": "条件不清、反证冲突或摘要不足才定点查方法/原书，不整库通读"
+    },
+    {
+      "id": 3,
+      "title": "独立裁决与交付",
+      "required": [
+        "adjudication",
+        "report"
+      ],
+      "action": "核心必读、来源按需，返回核对后忠实交付；report在交付前读"
+    }
+  ],
+  "conditional": {
+    "daliuren-paipan": {
+      "stage": 1,
+      "trigger": "需要取得可靠程序课盘；不重核固定排盘算法",
+      "selectWith": "--condition daliuren-paipan",
+      "beforeRequired": "judgment-core"
+    },
+    "nianming": {
+      "stage": 1,
+      "trigger": "用户提供出生年、本命或行年：直接采用及工具计算，缺生日不阻断；详细算法或坐标按需核对",
+      "selectWith": "--nianming",
+      "beforeRequired": "judgment-core"
+    },
+    "rule-semantics": {
+      "stage": 1,
+      "trigger": "否定范围、摘要条件或规则强度存疑",
+      "selectWith": "--condition rule-semantics",
+      "beforeRequired": "judgment-core"
+    },
+    "liqi-sources": {
+      "stage": 1,
+      "trigger": "方法条件或作用解释存在会影响本问的真实分歧；不复议程序固定起法",
+      "selectWith": "--condition liqi-sources",
+      "beforeRequired": "judgment-core"
+    },
+    "risk": {
+      "stage": 2,
+      "trigger": "四大凶象承担主判或最强反证",
+      "selectWith": "--condition risk"
+    },
+    "shensha-tradition": {
+      "stage": 2,
+      "trigger": "明确研究季煞历史推演；普通取用不触发",
+      "selectWith": "--condition shensha-tradition"
+    },
+    "quantity": {
+      "stage": 3,
+      "trigger": "原问要求金额、分数、数量、重量、距离等数值，或已选应期专法需要数理时长；同时读取quantity-strength，区分状态计空与数量修正",
+      "selectWith": "--condition quantity",
+      "beforeRequired": "adjudication"
+    },
+    "quantity-sources": {
+      "stage": 3,
+      "trigger": "需要核对取数数表、原法条件或精确数值案例；已取得对应原书可复用",
+      "selectWith": "--condition quantity-sources",
+      "beforeRequired": "adjudication"
+    },
+    "timing": {
+      "stage": 3,
+      "trigger": "有时间任务",
+      "selectWith": "--timing",
+      "beforeRequired": "adjudication"
+    },
+    "shenjiang-use": {
+      "stage": 1,
+      "trigger": "采用神将同用、互换，或需要核对具体神将类义的适用范围",
+      "selectWith": "--condition shenjiang-use",
+      "beforeRequired": "judgment-core"
+    },
+    "shen-symbols": {
+      "stage": 1,
+      "trigger": "需查十二天神的基础义、复合取义或与本家天将的差别",
+      "selectWith": "--condition shen-symbols",
+      "beforeRequired": "judgment-core"
+    },
+    "jiang-symbols": {
+      "stage": 1,
+      "trigger": "需查十二天将的职能、占类取义或与本家支神的差别",
+      "selectWith": "--condition jiang-symbols",
+      "beforeRequired": "judgment-core"
+    },
+    "mapping-provenance": {
+      "stage": 1,
+      "trigger": "取类条件存在影响本问的真实缺口或D01—D04未决，只补相关原段",
+      "selectWith": "--condition mapping-provenance",
+      "beforeRequired": "judgment-core"
+    },
+    "positioning": {
+      "stage": 2,
+      "trigger": "共用规范不足以确认影响本问的取用条件或反证时定点查阅",
+      "selectWith": "--condition positioning"
+    },
+    "liqi": {
+      "stage": 2,
+      "trigger": "共用规范不足以确认影响本问的有效作用条件或反证时定点查阅",
+      "selectWith": "--condition liqi"
+    },
+    "structure": {
+      "stage": 2,
+      "trigger": "共用规范不足以确认影响本问的结构条件或反证时定点查阅",
+      "selectWith": "--condition structure"
+    },
+    "void": {
+      "stage": 2,
+      "trigger": "共用规范不足以确认影响本问的空亡条件或反证时定点查阅",
+      "selectWith": "--condition void"
+    },
+    "shensha-use": {
+      "stage": 2,
+      "trigger": "共用规范不足以确认影响本问的神煞义项条件或反证时定点查阅",
+      "selectWith": "--condition shensha-use"
+    },
+    "movement": {
+      "stage": 2,
+      "trigger": "共用规范不足以确认影响本问的动态条件或反证时定点查阅",
+      "selectWith": "--condition movement"
+    },
+    "book-logic": {
+      "stage": 2,
+      "trigger": "阴阳表里、发用气势、类神/课传、施受、迟速及动的推广需要细则",
+      "selectWith": "--condition book-logic"
+    },
+    "quantity-strength": {
+      "stage": 2,
+      "trigger": "数值任务的旺衰/空亡数量修正；与quantity共同读取",
+      "selectWith": "--condition quantity-strength"
+    },
+    "void-class-applications": {
+      "stage": 2,
+      "trigger": "空亡对象、环节或跨占类条件将影响判断且摘要不足",
+      "selectWith": "--condition void-class-applications"
+    },
+    "book-annotation-evidence": {
+      "stage": 2,
+      "trigger": "24处原连续段及本轮身份需要核对",
+      "selectWith": "--condition book-annotation-evidence"
+    },
+    "bifa-basic": {
+      "stage": 2,
+      "trigger": "自动基本毕法条件、采用范围、层级和例外需解释",
+      "selectWith": "--condition bifa-basic"
+    },
+    "bifa-basic-evidence": {
+      "stage": 2,
+      "trigger": "毕法基本结构决定性使用需查连续原文或源身份",
+      "selectWith": "--condition bifa-basic-evidence"
+    },
+    "deterministic-tools": {
+      "stage": 1,
+      "trigger": "确定性工具参数或回执使用有真实缺口时按需查，不增加常规通读"
+    }
+  },
+  "domainAfter": "judgment-core",
+  "extrasBefore": "adjudication",
+  "professionalMainline": "原问与可信盘→依问取用→综合作用与反证→独立裁决→核对并交付",
+  "adjudicationAgent": "liuren-adjudicator",
+  "domainReadRequired": true,
+  "eventRolePolicy": "references/event-positioning-policy.json",
+  "mergedModules": {
+    "class-mapping": "positioning",
+    "relations": "liqi",
+    "evidence": "adjudication",
+    "bashajiubao": "liqi",
+    "engine-shensha-output": "shensha-use",
+    "shensha-focus": "shensha-use"
+  },
+  "release": "20261115-trial-decision-59"
+}

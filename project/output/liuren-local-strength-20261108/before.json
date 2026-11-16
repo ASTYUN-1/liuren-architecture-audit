@@ -1,0 +1,26 @@
+[
+  {
+    "path": ".opencode/liuren-active.json",
+    "sha256": "9f46b872a583c8e9df9546cc49e381fcfbee7f157ff1ef7c60b00583e5db3cbc"
+  },
+  {
+    "path": "docs/排盘基础状态导出.md",
+    "sha256": "98168c3b9cddf84f6abe732d0b374deb830a278db050e4c13669ead200aeaedb"
+  },
+  {
+    "path": "docs/本机六壬直接排盘.md",
+    "sha256": "b314441bb086547e8ec74d59daa10c5976a7803aa601f97cd967f2a3432d0dab"
+  },
+  {
+    "path": "tools/liuren-chart-view.mjs",
+    "sha256": "977bd0fa4e86346234390246f880a60741e81973298365f9b28789cf1bdd1b42"
+  },
+  {
+    "path": "tools/tests/liuren-chart-view.test.mjs",
+    "sha256": "9d96dfb837728c7d3fd142fc310a51b869e3481fcdb24db09d099676489f6c1f"
+  },
+  {
+    "path": ".opencode/tools/liuren_chart.ts",
+    "sha256": "894fa803c71d64d0a710f0dbaf5ebb147bb296df12112cb4696c0eb16d9bdde3"
+  }
+]

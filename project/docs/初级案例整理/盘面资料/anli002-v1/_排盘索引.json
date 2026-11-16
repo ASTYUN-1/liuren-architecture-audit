@@ -1,0 +1,152 @@
+{
+  "schema": "staged-chart-batch-v1",
+  "run_input_sha256": "b94a65d8e17151804e34969fd3601baefcaeeade36d299c7cb3c9c63c478cf0c",
+  "source_directory": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\初级案例资料\\anli002",
+  "engine_root": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流",
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    }
+  },
+  "total": 21,
+  "analysis_usable": 0,
+  "counts": {
+    "error": 20,
+    "needs_resolution": 1
+  },
+  "files": [
+    {
+      "case_id": "raw-anli002-0001",
+      "file": "raw-anli002-0001.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0002",
+      "file": "raw-anli002-0002.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0003",
+      "file": "raw-anli002-0003.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0004",
+      "file": "raw-anli002-0004.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0005",
+      "file": "raw-anli002-0005.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0006",
+      "file": "raw-anli002-0006.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0007",
+      "file": "raw-anli002-0007.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0008",
+      "file": "raw-anli002-0008.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0009",
+      "file": "raw-anli002-0009.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0010",
+      "file": "raw-anli002-0010.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0011",
+      "file": "raw-anli002-0011.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0012",
+      "file": "raw-anli002-0012.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0013",
+      "file": "raw-anli002-0013.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0014",
+      "file": "raw-anli002-0014.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0015",
+      "file": "raw-anli002-0015.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0016",
+      "file": "raw-anli002-0016.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0017",
+      "file": "raw-anli002-0017.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0018",
+      "file": "raw-anli002-0018.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0019",
+      "file": "raw-anli002-0019.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0020",
+      "file": "raw-anli002-0020.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli002-0021",
+      "file": "raw-anli002-0021.json",
+      "status": "error",
+      "usable_for_batch_analysis": false
+    }
+  ]
+}

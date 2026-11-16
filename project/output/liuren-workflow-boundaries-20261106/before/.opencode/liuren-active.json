@@ -1,0 +1,130 @@
+{
+  "release": "20261105-subagent-adjudication-07",
+  "status": "active",
+  "scope": "local-opencode",
+  "runtime": "runtime/liuren/20261105-subagent-adjudication-07",
+  "methodVersion": "f78bf987fc9f17752adba6448994f05814d22f683d6da4fa0266e3d6844b6796",
+  "previousRelease": "20261105-subagent-adjudication-06",
+  "backup": "output/opencode-tool-investigation-20261105/before-07",
+  "files": {
+    "liuren/daliuren/SKILL.md": "7e8194abc34cdd45801272fd1fdd370faa0b985f0c890027fed9c49813147dec",
+    "liuren/liuren-cases/SKILL.md": "0c5c867ce570e21be58a9c31f747e14056a9f65a5d1b73f979a5e825a4afed67",
+    "liuren/liuren-extract/SKILL.md": "2c70f84b2c12065bf92628da263a0d8c51dad7fdfdf61cb86d714ee15f7947fe"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "groups": [
+    "liuren"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  },
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "workflowEntry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "defaultMode": "local-professional",
+  "optionalAuditEntry": "tools/liuren-workflow.py",
+  "websiteChanged": false,
+  "websiteOutputPolicy": false,
+  "methodHierarchy": "liqi-throughout-conditioned-symbols",
+  "authoringSource": "output/opencode-tool-investigation-20261105",
+  "boundedReview": {
+    "registeredModuleRevisions": 31,
+    "effectiveMethodBodyChanges": 30,
+    "sourceReferencePages": 3,
+    "migratedProcedures": 2,
+    "sharedPolicyCards": 83,
+    "sharedPolicyFields": 137,
+    "exhaustiveSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "workflowImplementation": {
+    "tools/load-liuren-methods.py": "99c0eb04080f272ea9bb9855e651bf566f3cbb159302cffa914cbbaccb97dee9",
+    "tools/load-liuren-procedure.py": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+    "tools/liuren_material_scope.py": "527b874ec58ef214c07314c11970b5d3db526aff6a5549fea85b63d84b694074",
+    "tools/liuren_research_overlay.py": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+    "tools/liuren-local-read.py": "d146c8215edb2846c8be5677c3c6d44547daa06a1bb70507506809687169970c",
+    "tools/liuren-direct.mjs": "594d2172268dcae324b90dac3d8250e22545d544fac8d7ca80ae7b400bfed906",
+    "tools/liuren-shensha.mjs": "fb5ef143e3811d736690ae75dcf1fdd49f3a966098b596ed65c35c6407686d89",
+    "tools/liuren-adjudication-contract.mjs": "999651efb7184e550d9de413da3461cb11fe5f41db8526da72967deabadffe54",
+    ".opencode/plugins/liuren-adjudication.ts": "03af44f3b9539e49bea4b653129e4d621191b798639ff949c4a437b684c2aa9e",
+    ".opencode/oh-my-opencode-slim.jsonc": "9ae7ba6bad5a16bdd943f33c9a3fd0cfb23781a8a5bac8bf4af0fe44edacca4d",
+    "tools/liuren-adjudication-files.mjs": "97b8764d0a3b0c4f5794903b010832b221c6689af7cc16641584e7563afca5c4",
+    "tools/liuren_book_search.py": "e325b8d30b44fda01fd786366472273de449124ffa05b4743958bdfb44b7d86f",
+    "tools/liuren-materials.py": "912fbd847b8160ae2829a1dd5983b2eda494af8fa57559eb042404b343cf8e7a",
+    ".opencode/tools/liuren_materials.ts": "25e365cf1d00cedb6c7ad444dad1b04308820fe112088ecb034346bbd2709425"
+  },
+  "inheritedAcceptedCandidateMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "expertAdjudicationReview": {
+    "sourceFiles": 7,
+    "selectedPassages": 34,
+    "caseUnits": 23,
+    "revisionFile": "adjudication-revision-map.json",
+    "fullSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "no case/experience retrieval; existing chart, methods, books and full report; adjudication now delegated",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  },
+  "adjudication": {
+    "agent": "liuren-adjudicator",
+    "model": "deepseek/deepseek-flash",
+    "variant": "high",
+    "reasoningEffort": "high",
+    "maxOutputTokens": 65536,
+    "plugin": "oh-my-opencode-slim",
+    "installedPluginVersion": "2.2.18",
+    "tool": "task",
+    "freshSession": true,
+    "mainAgentAdjudicates": false,
+    "inputSchema": "liuren-adjudication-input-v1",
+    "outputSchema": "liuren-adjudication-output-v1",
+    "predictiveValidationCount": 0,
+    "inputTransport": "scoped-file",
+    "packetTool": "liuren_adjudication_packet",
+    "readerTool": "liuren_adjudication_read"
+  },
+  "bookRetrieval": {
+    "release": "20261105-three-book-search-01",
+    "status": "active",
+    "scope": "local-opencode",
+    "methodsReleaseUnchanged": "20261105-subagent-adjudication-07",
+    "actions": [
+      "book_search",
+      "book_outline"
+    ],
+    "books": [
+      "RG",
+      "LF",
+      "TY"
+    ],
+    "catalog": "knowledge/liuren-book-index/20261105/catalog.json",
+    "index": "knowledge/liuren-book-index/20261105/index.sqlite3",
+    "files": {
+      "tools/liuren_book_search.py": "e325b8d30b44fda01fd786366472273de449124ffa05b4743958bdfb44b7d86f",
+      "tools/liuren_material_scope.py": "527b874ec58ef214c07314c11970b5d3db526aff6a5549fea85b63d84b694074",
+      "tools/liuren-materials.py": "912fbd847b8160ae2829a1dd5983b2eda494af8fa57559eb042404b343cf8e7a",
+      ".opencode/tools/liuren_materials.ts": "25e365cf1d00cedb6c7ad444dad1b04308820fe112088ecb034346bbd2709425",
+      "opencode.json": "54d419a3b5323ade24584b46973605a7b3ed491f1ef6b1c3435505603fb9bfcc",
+      "docs/本机六壬高效执行.md": "c9970584cf449dfcae875df6f7b739e14cf7ac22153e9ee085aa0afc2df10ca5",
+      "docs/本机六壬资料检索范围.md": "175c6069d8223ea0bdd2e9b7aeee01c662152af35cc28c660b251d380e64dbc9",
+      "knowledge/liuren-book-index/20261105/catalog.json": "53e2fa02ec06ac321a099aef4251270f3815d98ec7fa4b601181c3512ef975dd",
+      "knowledge/liuren-book-index/20261105/index.sqlite3": "0f70b3bb462cf6e4473501807535ff40ae0b65b322f26cbb7e83028cb39c7196"
+    },
+    "backup": "output/liuren-three-book-search-20261105/before",
+    "rollback": "output/liuren-three-book-search-20261105/rollback.py",
+    "semanticReadingComplete": false,
+    "predictiveValidationCount": 0,
+    "modelCallsAdded": 0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "skill": "youlu-lilun",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "占一下，接下来这件事会有什么变化？是什么在推动它？",
+      "expected_behavior": "应激活 youlu-lilun, 执行有路扫描(合刑冲破害+天盘落宫关系), 再读阴神与年命, 输出'被引动象→显明之事→动因'动态事件链",
+      "notes": "A2 触发场景 1: 动态与动因类问题"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "占我明年会不会调动工作？家宅会不会有变动？",
+      "expected_behavior": "应激活 youlu-lilun, 检查旬丁/驿马等动摇标记, 判断'动'的性质与方向, 并提示求稳场景下动=凶的风险",
+      "notes": "A2 触发场景 5: 旬丁与移易检测"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "这课里日禄乘白虎，会不会被行年引动真的出事？",
+      "expected_behavior": "应激活 youlu-lilun, 检查年命/行年是否冲合刑破该类象(如书案例 c08: 行年冲日禄白虎把惊危引成破坏), 判定事件主动/被动",
+      "notes": "A2 触发场景 3: 年命引动"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "帮我看今年运势，哪件事会先冒出来、应验？",
+      "expected_behavior": "应激活 youlu-lilun, 对有路命中的动象排序, 输出哪些象会被显明、优先级如何, 供年运/应期推导作预处理",
+      "notes": "A2 触发场景 4+5: 动象显明与应验线索"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我算一下今年冬至是几月几号？",
+      "expected_behavior": "不应激活 youlu-lilun, 因为这是纯历法计算, 无课传与动象可推演, 直接查节气表即可",
+      "notes": "诱饵: 完全无关场景(纯历法计算)"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占一下我的终身运势怎么样？",
+      "expected_behavior": "不应激活本 skill(youlu-lilun), 应激活 zhongshen-nianyun: 终身课的结构(年命入课传/不入看其上神、三传三限)归 zhongshen-nianyun, youlu 的年命引动只是其中一种机制而非主体",
+      "notes": "诱饵: 跨 skill 混淆诱饵(硬性要求), 防止动象机制抢走终身年运课的调用"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "这个课体整体结构怎么看？气势是进是退？",
+      "expected_behavior": "不应激活本 skill(youlu-lilun), 应激活 keti-qishi: 静态课体结构的气势阅读(九宗门→毕法→位次)归 keti-qishi, youlu 管'动'与'动因'而非静态结构",
+      "notes": "诱饵: 跨 skill 混淆(contrasts-with), 动象引动 vs 静态课体结构, 互补不可互相替代"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占这件事会不会变卦、会不会被动摇？",
+      "expected_behavior": "先辨用户意图: 若关注'哪个象被引动导致变故'→激活 youlu-lilun(旬丁/移易); 若关注'吉象结果是否成真/是不是假象'→属 kongwang-bianzhi 的真伪校验。同一句话两种读法, 需结合上下文选线",
+      "notes": "边界: '动象机制'与'结果真伪校验'的语义重叠"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "占我今年会不会调动？会调到哪个方向？",
+      "expected_behavior": "激活 youlu-lilun 判断'会不会动'(旬丁/驿马/行年冲合), 而'调到哪个方向'的空间走向需辅以课体大势(keti-qishi)——以动象为主、课体为辅, 两条线结合输出",
+      "notes": "边界: 主问题'动'与子问题'方向'分属 youlu 与 keti-qishi"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "should_trigger×4 + should_not_trigger×3(含 1 条跨 skill 兄弟诱饵 + 1 条完全无关) + edge_case×2。诱饵类型: ①冬至节气计算(无关) ②'终身运势'→zhongshen-nianyun(兄弟 skill 混淆) ③'课体结构怎么看'→keti-qishi(静态结构 vs 动态引动)。所有 should_not_trigger 必须通过(诱饵容错为 0)。"
+}

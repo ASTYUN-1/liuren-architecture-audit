@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>产品与服务设计 · 六壬八字海外站</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f5f0;--card:#fff;--line:#e9e3d6;--line-soft:#f0ebe0;
+  --ink:#14171e;--ink2:#3a4256;--muted:#7c7a72;
+  --primary:#2f6f5e;--p-soft:rgba(47,111,94,.08);
+  --amber:#c97b3f;--a-soft:rgba(201,123,63,.10);
+  --rose:#b06367;--r-soft:rgba(176,99,103,.10);
+  --ind:#3d4a5c;--i-soft:rgba(61,74,92,.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Outfit',sans-serif;font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(ellipse 900px 520px at 6% -8%,rgba(47,111,94,.05),transparent 60%),radial-gradient(ellipse 820px 500px at 97% 3%,rgba(61,74,92,.045),transparent 60%);
+  background-attachment:fixed}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+section{padding:50px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:none}
+h1,h2{font-family:'DM Serif Display',serif;font-weight:400;letter-spacing:-.005em}
+h1{font-size:37px;line-height:1.17;margin-bottom:14px}
+h2{font-size:24px;line-height:1.3;margin-bottom:8px}
+h3{font-size:15.5px;font-weight:600;font-family:'Outfit';margin-bottom:8px}
+.lede{color:var(--ink2);font-size:15.5px;max-width:73ch}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:10px;display:flex;align-items:center;gap:9px}
+.eyebrow svg{width:15px;height:15px;stroke-width:2}
+.note{color:var(--muted);font-size:13px;margin-top:9px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:19px 21px;box-shadow:0 2px 8px rgba(0,0,0,.035)}
+.grid{display:grid;gap:13px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.tag{display:inline-flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.05em;padding:2.5px 8px;border-radius:20px;white-space:nowrap}
+.t-p0{background:var(--r-soft);color:var(--rose)}
+.t-p1{background:var(--a-soft);color:var(--amber)}
+.t-p2{background:var(--p-soft);color:var(--primary)}
+.t-p3{background:var(--i-soft);color:var(--ind)}
+.t-ok{background:var(--p-soft);color:var(--primary)}
+.t-no{background:var(--r-soft);color:var(--rose)}
+code,.mono{font-family:'JetBrains Mono',monospace;font-size:12.5px}
+pre{background:#fbfaf7;border:1px solid var(--line);border-radius:10px;padding:13px 16px;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.75;color:var(--ink2)}
+pre .c{color:var(--muted)}
+pre .k{color:var(--primary);font-weight:500}
+pre .s{color:var(--amber)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.07em;text-transform:uppercase;padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+td{padding:10px 10px 10px 0;border-bottom:1px solid var(--line-soft);vertical-align:top}
+td:first-child{font-weight:600}
+.hit{background:linear-gradient(transparent 62%,rgba(47,111,94,.16) 0);font-weight:600}
+.warnbox{background:var(--a-soft);border:1px solid rgba(201,123,63,.28);border-radius:14px;padding:15px 19px}
+.okbox{background:var(--p-soft);border:1px solid rgba(47,111,94,.28);border-radius:14px;padding:15px 19px}
+.riskbox{background:var(--r-soft);border:1px solid rgba(176,99,103,.26);border-radius:14px;padding:15px 19px}
+ul.tick{list-style:none;font-size:14px;color:var(--ink2)}
+ul.tick li{padding-left:19px;position:relative;margin-bottom:6px}
+ul.tick li::before{content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;border-radius:50%;background:var(--primary);opacity:.55}
+.nolist{list-style:none}
+.flowwrap{overflow-x:auto;padding:2px 0}
+/* 风格板 */
+.mood{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:6px}
+.sw{border-radius:11px;padding:15px 13px;min-height:96px;display:flex;flex-direction:column;justify-content:flex-end}
+.sw span{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;opacity:.85}
+.swatch-row{display:flex;gap:7px;margin-top:9px}
+.swatch{flex:1;height:34px;border-radius:7px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:4px}
+.swatch span{font-family:'JetBrains Mono',monospace;font-size:8.5px;letter-spacing:.04em}
+.type-demo{border:1px solid var(--line);border-radius:11px;padding:17px 19px;background:#fff}
+.type-demo .big{font-family:'DM Serif Display',serif;font-size:27px;line-height:1.16;color:var(--ink)}
+.type-demo .small{font-size:13.5px;color:var(--ink2);margin-top:7px}
+.no-list{display:grid;grid-template-columns:repeat(2,1fr);gap:6px 14px;margin-top:4px}
+.no-item{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--ink2)}
+.no-item svg{width:14px;height:14px;flex-shrink:0;margin-top:3px;stroke:var(--rose);stroke-width:2.4;fill:none}
+.yes-item svg{stroke:var(--primary)}
+@media(max-width:768px){
+  h1{font-size:28px}h2{font-size:20px}body{font-size:14.5px}
+  .g2,.g3,.g4,.mood,.no-list{grid-template-columns:1fr}section{padding:36px 0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section style="padding-top:60px">
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 17.8 5.8 21.1 7 14.2 2 9.4l7-.9z"/></svg>产品与服务设计</div>
+  <h1>把约束变成<span class="hit">产品结构</span>，<br>而不是一个需要检测的规则</h1>
+  <p class="lede">「一次会话只测算一件事」这个约束，如果靠技术去检测和拒绝，会让用户觉得被防备。正确做法是：<strong>在入口就让用户选主题</strong>——用户本来就想问具体的事，选完之后约束自然成立，报告质量还更高。</p>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>约束的产品化</div>
+  <h2>第一步不是填生辰，是选主题</h2>
+  <p class="lede" style="margin-bottom:20px">这条路你已经写好了——<code>bazi/SKILL.md</code> 十步框架的<strong>第 0 步就是「明来意：定问事类别 + 定侧重」</strong>。产品入口只是在执行你自己定的规矩。</p>
+
+  <div class="card" style="padding:20px">
+    <h3>8 个主题，每个都写清「你会得到什么」</h3>
+    <div class="note" style="margin:0 0 12px">写法要具体，不要玄乎。「2027 年有升迁机会」是废话；「2027 年的巳年是你辛金最需要的年份——重点看 Q2 和 Q4」才是承诺。</div>
+    <div class="grid g4" style="gap:9px">
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Career Path</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">适合 / 禁忌 / 转折年</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Love &amp; Marriage</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">配偶画像 / 婚期窗口</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Wealth</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">财源结构 / 破财位</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">2026–2030 Outlook</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">五年流年节奏</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Personality</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">性情 / 天赋 / 盲点</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Health Tendencies</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">仅倾向，不含医嘱</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Life Theme</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">一生主线 / 核心课题</div></div>
+      <div style="padding:11px 13px;background:var(--bg);border-radius:10px"><strong style="font-size:13.5px">Full Chart</strong><div style="font-size:12px;color:var(--muted);margin-top:3px">全量十步，性价比款</div></div>
+    </div>
+  </div>
+
+  <div class="grid g2" style="margin-top:13px;align-items:start">
+    <div class="okbox">
+      <h3>这个设计同时解决了四件事</h3>
+      <ul class="tick" style="font-size:13.5px;margin-top:6px">
+        <li><strong>约束自动成立</strong>——topic 在入口锁定，不需要运行时检测</li>
+        <li><strong>用户预期对齐</strong>——他本来就想问"我的事业"，不会拿到一份通用报告后失望</li>
+        <li><strong>报告质量更高</strong>——十步推理的"侧重"有了明确输入</li>
+        <li><strong>复购有了抓手</strong>——同一命盘买第二个主题是自然的</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>追问漂移时的话术（关键）</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">用户一定会试："顺便帮我看看我明年的财运？"<strong>不要生硬拒绝</strong>，三段式：</p>
+      <pre style="margin-top:9px"><span class="c">// 1. 承接（不显得死板）</span>
+<span class="s">"从你的盘看，财运和事业其实是同一组气"</span>在
+<span class="s">职"</span>场上的起伏会直接影响你的财路——
+<span class="s">这正是我们下面要展开的部分。"</span>
+
+<span class="c">// 2. 划界（明确但不说教）</span>
+<span class="s">"不过完整的财运推演需要独立起盘，</span>
+<span class="s">因为它有自己的用神和流年节奏。"</span>
+
+<span class="c">// 3. 给出路（顺手完成 upsell）</span>
+<span class="s">"本次会话还剩 </span><span class="k">7</span><span class="s"> 次追问，可以继续深挖事业；</span>
+<span class="s">也可以现在加购一份独立的财富解读。"</span></pre>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4.5 8-11a5 5 0 0 0-8-3 5 5 0 0 0-8 3c0 6.5 8 11 8 11z"/></svg>真实摩擦点</div>
+  <h2>用户会在什么地方卡住或跑掉</h2>
+  <p class="lede" style="margin-bottom:20px">按真实测算会遇到的问题逐环节拆。标红的是会直接造成流失或退款的地方。</p>
+
+  <table>
+    <thead><tr><th style="width:15%">环节</th><th style="width:30%">用户的真实困惑</th><th style="width:30%">应对</th><th>严重度</th></tr></thead>
+    <tbody>
+      <tr><td>Landing</td><td>陌生网站、$20、凭什么信你</td><td>公开脱敏样例报告 + 方法论页 + 明示退款政策</td><td><span class="tag t-p1">高</span></td></tr>
+      <tr><td>选主题</td><td>不知道八字能算什么、选哪个</td><td>每个主题写 3 条具体承诺 + 标价格</td><td><span class="tag t-p2">中</span></td></tr>
+      <tr><td><strong>填生辰</strong></td><td><strong>不知道时辰</strong>（约 1/3 的人只知道自己 born around then）</td><td>「我不确定」选项 → 给"时辰未定"模式：侧重排序 + 十二时辰倾向对比，<strong>不是</strong>假装能算准</td><td><span class="tag t-p0">最高</span></td></tr>
+      <tr><td>填生辰</td><td>出生地填什么？海外用户填 "China"？填 "Toronto"？</td><td>城市搜索框（不是城市码）+ 显示解析出的经纬度和时区让用户确认</td><td><span class="tag t-p0">最高</span></td></tr>
+      <tr><td>填生辰</td><td>农历还是公历？闰月怎么办</td><td>公历/农历切换 + 闰月开关，引擎原生支持 <code>--calendar lunar</code></td><td><span class="tag t-p1">高</span></td></tr>
+      <tr><td>填生辰</td><td>我在别的网站算的不一样</td><td><strong>报告里写明校正全过程</strong>：14:30 local → 14:18 apparent → Wei hour。预防性解释比事后客服有效得多</td><td><span class="tag t-p0">最高</span></td></tr>
+      <tr><td>支付</td><td>信用卡被拒、不知道怎么退</td><td>支持多卡种 + 结账页明示 refund policy + 加密标识</td><td><span class="tag t-p1">高</span></td></tr>
+      <tr><td><strong>生成中</strong></td><td>白屏等 60 秒，以为卡死了</td><td>SSE 流式 + <strong>展示十步推演进度</strong>（"Step 3/10 · 辨旺衰"）。等待时间变成信任建立</td><td><span class="tag t-p0">最高</span></td></tr>
+      <tr><td>报告</td><td>看不懂四柱图、术语不懂</td><td>排盘图每个符号可 hover 解释 + 结论卡片前置 + 术语表 tooltip</td><td><span class="tag t-p1">高</span></td></tr>
+      <tr><td>报告</td><td>"这是不是 AI 编的？"</td><td><strong>展示古籍引文</strong>——见下节。这是最大的差异化</td><td><span class="tag t-p0">最高</span></td></tr>
+      <tr><td>追问</td><td>不知道问什么、打字慢</td><td>6–8 个快捷追问按钮，绑定当前主题</td><td><span class="tag t-p2">中</span></td></tr>
+      <tr><td>反馈</td><td>说不清"准不准"</td><td>从报告里<strong>勾选具体预测项</strong>→ 填实际结果 → 日期。结构化，不给自由发挥空间</td><td><span class="tag t-p1">高</span></td></tr>
+      <tr><td>离开</td><td>一次性消费，无复购</td><td>同一命盘换主题推荐 + 伴侣报告 + 分享卡</td><td><span class="tag t-p2">中</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="warnbox" style="margin-top:13px">
+    <p style="font-size:14px;color:var(--ink2)"><strong>「时辰不确定」这个选项不是妥协，是产品亮点。</strong>大部分竞品要么逼你瞎填一个时辰（结果不准还怪你），要么直接说算不了。做成"时辰未定"模式——给十二时辰的倾向排序和最可能的三个候选，反而显得更专业，而且这些用户本来就是最信任、最愿意付费的那批。</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>差异化</div>
+  <h2>把古籍引文做成产品信任状</h2>
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <p style="font-size:14px;color:var(--ink2)">你的系统每次分析都在产出带 source tag 的引文——<code>来源=子平真诠</code>、<code>来源=穷通宝鉴·甲木十一月</code>。这些数据已经在结构化中间层里了，<strong>只是从来没被展示给用户</strong>。</p>
+      <p style="font-size:14px;color:var(--ink2);margin-top:9px">把它们直接印在结论旁边：</p>
+      <div style="border-left:2px solid var(--primary);padding:11px 0 11px 15px;margin:13px 0;background:#fbfaf7;border-radius:0 9px 9px 0">
+        <div style="font-size:13px;color:var(--ink2)">你日主辛金生于午月，火旺克金，然壬水透干、通根申子——<strong>身虽弱而有救</strong>，故非从格。</div>
+        <div style="font-size:12.5px;color:var(--muted);margin-top:9px;padding-top:9px;border-top:1px dashed var(--line)">依据《子平真诠评注·论用神》(1736) — 英文对照版附于报告末页</div>
+      </div>
+      <p style="font-size:14px;color:var(--ink2)">全世界做八字/算命的英文站，<strong>几乎没有一家敢标注出处</strong>。你标了，就自动把"这是 AI 编的"这个默认质疑挡在外面——变成"这是 1736 年的书 + 一套有验证记录的推演系统"。</p>
+    </div>
+    <div class="okbox">
+      <h3>这一条同时解决三个问题</h3>
+      <ul class="tick" style="font-size:13.5px;margin-top:6px">
+        <li><strong>信任</strong>——最有价值的怀疑是"凭什么信你"，引文是最便宜的答案</li>
+        <li><strong>专业感</strong>——不懂命理的人看到书名会本能地觉得"这有分量"</li>
+        <li><strong>内容长度焦虑</strong>——用引文 + 短结论卡片组织，比写 3000 字散文更专业、更像出版物</li>
+      </ul>
+      <div class="note" style="margin-top:10px">而且这直接复用了你已有的架构优势——RAG 层的 source tag 是免费送给你的护城河，零额外工程量。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3h18v18H3z"/><path d="M3 9h18M9 21V9"/></svg>信息架构</div>
+  <h2>11 个页面，各司其职</h2>
+  <p class="lede" style="margin-bottom:18px">转化路径只有 4 步。其余页面要么建立信任，要么承接复购，要么是运营工具。</p>
+
+  <div class="card" style="padding:20px;margin-bottom:13px">
+    <div class="flowwrap">
+      <svg viewBox="0 0 980 168" style="width:100%;min-width:800px;height:auto" role="img" aria-label="主转化路径">
+        <defs><marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto"><path d="M0,0 L0,6.4 L7,3.2 z" fill="#2f6f5e"/></marker></defs>
+        <g font-family="Outfit,sans-serif" font-size="11.5">
+          <rect x="4" y="26" width="152" height="52" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="80" y="48" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">Landing</text>
+          <text x="80" y="65" text-anchor="middle" font-size="10" fill="#7c7a72">样例 + 方法论 + 信任</text>
+          <rect x="200" y="26" width="152" height="52" rx="10" fill="#eef5f2" stroke="rgba(47,111,94,.4)"/>
+          <text x="276" y="48" text-anchor="middle" font-size="12" font-weight="600" fill="#2f6f5e">选主题</text>
+          <text x="276" y="65" text-anchor="middle" font-size="10" fill="#2f6f5e">锁定 topic_id</text>
+          <rect x="396" y="26" width="152" height="52" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="472" y="48" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">填生辰</text>
+          <text x="472" y="65" text-anchor="middle" font-size="10" fill="#7c7a72">城市 / 历法 / 时辰</text>
+          <rect x="592" y="26" width="152" height="52" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="668" y="48" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">支付</text>
+          <text x="668" y="65" text-anchor="middle" font-size="10" fill="#7c7a72">MoR 托管结账</text>
+          <rect x="788" y="26" width="188" height="52" rx="10" fill="#fdf6ef" stroke="rgba(201,123,63,.45)"/>
+          <text x="882" y="48" text-anchor="middle" font-size="12" font-weight="600" fill="#a5642d">生成中</text>
+          <text x="882" y="65" text-anchor="middle" font-size="10" fill="#a5642d">十步进度 + SSE</text>
+        </g>
+        <g stroke="#2f6f5e" stroke-width="1.6" fill="none" marker-end="url(#a2)">
+          <path d="M160,52 L195,52"/><path d="M356,52 L391,52"/><path d="M552,52 L587,52"/><path d="M748,52 L783,52"/>
+        </g>
+        <g font-family="Outfit,sans-serif" font-size="11.5">
+          <rect x="4" y="108" width="152" height="46" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="80" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">报告</text>
+          <text x="80" y="143" text-anchor="middle" font-size="10" fill="#7c7a72">排盘图 + 引文 + 追问</text>
+          <rect x="200" y="108" width="152" height="46" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="276" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">反馈</text>
+          <text x="276" y="143" text-anchor="middle" font-size="10" fill="#7c7a72">勾选预测 + 实际结果</text>
+          <rect x="396" y="108" width="152" height="46" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="472" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">我的报告</text>
+          <text x="472" y="143" text-anchor="middle" font-size="10" fill="#7c7a72">历史 + 永久链接</text>
+          <rect x="592" y="108" width="152" height="46" rx="10" fill="#fff" stroke="#e9e3d6"/>
+          <text x="668" y="127" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">加购 / 换主题</text>
+          <text x="668" y="143" text-anchor="middle" font-size="10" fill="#7c7a72">复购主战场</text>
+        </g>
+        <g stroke="#2f6f5e" stroke-width="1.6" fill="none" marker-end="url(#a2)">
+          <path d="M882,82 L882,98 L80,98 L80,104"/><path d="M160,131 L195,131"/><path d="M356,131 L391,131"/><path d="M552,131 L587,131"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3>信任与增长页（SEO 资产）</h3>
+      <ul class="tick nolist" style="font-size:13.5px">
+        <li><code>/method</code> <strong>方法论页</strong>——十步框架 + 知识库规模 + 古籍来源。SEO 价值最高的一页</li>
+        <li><code>/sample</code> <strong>样例报告</strong>——完整脱敏报告，让人不花钱也能判断准不准</li>
+        <li><code>/pricing</code> <strong>定价页</strong>——首诊 / 追问包 / 六壬按次</li>
+        <li><code>/about</code> <strong>关于</strong>——谁在算、古籍怎么来的、AI 的角色是什么</li>
+        <li><code>/legal/privacy</code> <span style="color:var(--rose)">必须</span>——出生数据是敏感 PII，欧盟用户的 GDPR 依据</li>
+        <li><code>/legal/terms</code> <span style="color:var(--rose)">必须</span>——含三处免责声明原文</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>账户与运营页</h3>
+      <ul class="tick nolist" style="font-size:13.5px">
+        <li><code>/library</code> <strong>我的报告</strong>——历史、永久链接、PDF 导出、再次购买</li>
+        <li><code>/admin/reviews</code> <strong>审核台</strong>——反馈蒸馏的批准/退回队列（内部）</li>
+        <li><code>/admin/knowledge</code> <strong>知识库台</strong>——查看 L3 从疑条目、验证次数、转正操作（内部）</li>
+        <li><code>/admin/costs</code> <strong>成本看板</strong>——按模型/按会话的真实 token 账单 + 熔断开关（内部）</li>
+      </ul>
+      <div class="note" style="margin-top:10px">三个 admin 页是反馈飞轮的操作系统。它们不属于产品体验，但<strong>没有它们，反馈就只能靠你手动处理</strong>——闭环转不起来。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2a10 10 0 1 0 0 20 2 2 0 0 0 2-2v-2.2a2 2 0 0 1 1-1.7l.1-.1a2 2 0 0 1 1.4-3.4H20a2 2 0 0 0 2-2A10 10 0 0 0 12 2z"/></svg>视觉风格</div>
+  <h2>「安静的文献感」，不是玄学感</h2>
+  <p class="lede" style="margin-bottom:20px">红金配色、太极八卦、符咒、"大师"人设——这套在中文世界有效，在英文市场会让用户在结账页前犹豫。而纯 SaaS 蓝紫渐变又显得像 AI 套壳。要走的是第三条路：<strong>高端学术出版物的排版 + 单一克制的东方色</strong>。</p>
+
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3>调色板</h3>
+      <div class="swatch-row">
+        <div class="swatch" style="background:#f7f5f0;border:1px solid var(--line)"><span style="color:#7c7a72">#F7F5F0</span></div>
+        <div class="swatch" style="background:#14171e"><span style="color:#f7f5f0">#14171E</span></div>
+        <div class="swatch" style="background:#2f6f5e"><span style="color:#fff">#2F6F5E</span></div>
+        <div class="swatch" style="background:#a8322d"><span style="color:#fff">#A8322D</span></div>
+      </div>
+      <div class="note">主强调色建议<strong>朱砂 #A8322D</strong> 或 <strong>墨绿 #2F6F5E</strong> 二选一，全站不混用。背景米白，正文近黑，辅助灰。</div>
+      <h3 style="margin-top:16px">字体</h3>
+      <div class="type-demo">
+        <div class="big">Your Chart, Read Slowly</div>
+        <div class="small">衬线大标题承担情绪，无衬线正文承担信息。中文正文用 <code>Noto Serif SC</code> 处理古籍引文段落，正文用无衬线。</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>明确不要 / 明确要</h3>
+      <div class="no-list" style="margin-top:6px">
+        <div class="no-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg><span>红金配色 / 烫金 / 祥云</span></div>
+        <div class="no-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg><span>太极图 / 八卦 / 罗盘</span></div>
+        <div class="no-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg><span>「大师」「道袍」人设</span></div>
+        <div class="no-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg><span>紫粉 AI 渐变 / 发光</span></div>
+        <div class="no-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg><span>Stock photo「冥想的人」</span></div>
+        <div class="no-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg><span>紫水晶 / 塔罗牌图像</span></div>
+        <div class="no-item yes-item"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>大量留白 / 克制排版</span></div>
+        <div class="no-item yes-item"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>古籍引文 / 来源标注</span></div>
+        <div class="no-item yes-item"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>杂志式内容层级</span></div>
+        <div class="no-item yes-item"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>排盘图做成精密几何</span></div>
+        <div class="no-item yes-item"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>英式 / 学术出版感</span></div>
+        <div class="no-item yes-item"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>明确说"这是 AI 辅助"</span></div>
+      </div>
+      <div class="note" style="margin-top:11px">参考系不是东方玄学，是 <em>The Gentlewoman</em> / <em>Kinfolk</em> / <em>Apartamento</em> 的排版纪律，套上东方内容。反过来做基本都会翻车。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v20M2 12h20"/></svg>功能拆解</div>
+  <h2>四个优先级，一句话判据</h2>
+  <div class="grid" style="gap:10px">
+
+    <div class="card" style="border-left:3px solid var(--rose);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-p0">P0</span><strong style="font-size:16px">能收钱</strong>
+        <span style="color:var(--muted);font-size:13px">少了这些，一分钱收不到</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        主题选择器（锁 topic_id） · 出生信息分步表单（城市搜索 / 历法切换 / 时辰三态） · 排盘服务（真太阳时 + 地理编码） · 十步推理状态机 · SSE 流式报告 + 进度条 · 报告页（排盘图 / 结论卡 / 古籍引文 / 术语 tooltip） · MoR 结账 · 邮件送达 + 永久链接 · 追问配额 + 话题漂移检测
+      </div>
+    </div>
+
+    <div class="card" style="border-left:3px solid var(--amber);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-p1">P1</span><strong style="font-size:16px">收得住钱</strong>
+        <span style="color:var(--muted);font-size:13px">少了这些，付了钱的人会后悔</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        公开样例报告页 · 方法论页 · 报告 PDF 导出 · 分享卡片 · 加购追问次数 · 结构化反馈表单 · 快捷追问按钮 · 移动端完整体验 · 隐私政策 / 服务条款
+      </div>
+    </div>
+
+    <div class="card" style="border-left:3px solid var(--primary);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-p2">P2</span><strong style="font-size:16px">增长</strong>
+        <span style="color:var(--muted);font-size:13px">数据飞轮 + 复购</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        免费试读片段（只给格局 + 用神） · 同一命盘换主题推荐 · 伴侣合盘报告 · 六壬随时起课（按次） · 推荐返 credit · 第二语言（ES / PT / 中文） · SEO 内容集群
+      </div>
+    </div>
+
+    <div class="card" style="border-left:3px solid var(--ind);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-p3">P3</span><strong style="font-size:16px">护栏与运营</strong>
+        <span style="color:var(--muted);font-size:13px">不做就等着出事故</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        输出内容过滤（禁医疗 / 财务断言，schema 层拦截） · 审核台 · 知识库台 · 成本看板 · 全站熔断开关 · 单用户消费上限 · 支付关联封禁
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l2.4 6.6H21l-5.3 4 2 6.6-5.7-4.1-5.7 4.1 2-6.6-5.3-4h6.6z"/></svg>技术条件</div>
+  <h2>前后端各自需要什么</h2>
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3 style="margin-bottom:11px">前端</h3>
+      <table>
+        <tbody>
+          <tr><td style="width:38%">多语言框架</td><td><code>next-intl</code> + 术语表与报告内容联动，不能各翻各的</td></tr>
+          <tr><td>流式渲染</td><td>SSE + 十步进度状态机 + 骨架屏</td></tr>
+          <tr><td>排盘图</td><td>从现有 <code>index.html</code>(145KB) + <code>paipan.js</code> 提取重写为 React 组件</td></tr>
+          <tr><td>术语系统</td><td>符号 / 十神 / 神煞 全部可 hover 解释，术语表本地化</td></tr>
+          <tr><td>支付</td><td>MoR 托管结账表单，退款政策前置</td></tr>
+          <tr><td>导出</td><td>报告 PDF（引文 + 排盘图 + 英文对照）</td></tr>
+          <tr><td>SEO</td><td>Landing / 方法论 / 样例三页可索引</td></tr>
+          <tr><td>移动优先</td><td>海外流量大头是手机，排盘图要能缩放</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3 style="margin-bottom:11px">后端</h3>
+      <table>
+        <tbody>
+          <tr><td style="width:38%">排盘服务</td><td><code>computeChart</code> + <code>solarTime</code> + <code>geo</code> + 已知八字回归对拍</td></tr>
+          <tr><td>编排</td><td>十步状态机，JSON schema 断言，可单步重跑</td></tr>
+          <tr><td>检索</td><td>pgvector 混合检索 + 验证次数加权 + 来源必填</td></tr>
+          <tr><td>主题约束</td><td><code>topic_id</code> 落库 + 追问漂移分类器</td></tr>
+          <tr><td>计费</td><td>配额原子递增、限流、成本记账、熔断</td></tr>
+          <tr><td>支付</td><td>webhook 幂等 + 部分退款 + credit 账本</td></tr>
+          <tr><td>反馈管线</td><td>结构化表单 → 蒸馏 job → 审核台 → L3 入库</td></tr>
+          <tr><td>模型层</td><td><strong>统一 provider 接口</strong>：国内直连 / Bedrock / 官方三路可切</td></tr>
+        </tbody>
+      </table>
+      <div class="note" style="margin-top:10px">最后一行是这一轮新增的工程要求。DeepSeek 高峰期 500 错误是常态，<strong>单一 provider 没有任何容错</strong>。这一层的抽象成本很低，但缺了它就是单点故障。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>任务拆解</div>
+  <h2>按依赖顺序，不是按功能顺序</h2>
+  <p class="lede" style="margin-bottom:18px">下面每一块都是独立可交付、可验收的。依赖关系已标出，前置没做完的不要开工。</p>
+  <table>
+    <thead><tr><th style="width:5%">#</th><th style="width:26%">任务</th><th style="width:10%">依赖</th><th style="width:22%">验收标准</th><th>为什么是这个顺序</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><code>computeChart</code> TS 模块</td><td>—</td><td>直接 import，不走 CLI；已知八字对拍全过</td><td>所有东西的地基</td></tr>
+      <tr><td>2</td><td><code>solarTime</code> 真太阳时 + IANA 历史时区/DST</td><td>1</td><td>北京 / 纽约 / 伦敦 / 乌市 四个已知用例正确</td><td>算错了后面全白做</td></tr>
+      <tr><td>3</td><td><code>city_geo</code> 地理编码 + 缓存表</td><td>2</td><td>2 万城市冷启动灌入，之后零外部调用</td><td>依赖 2 的经纬度需求</td></tr>
+      <tr><td>4</td><td>统一 provider 接口 + 三路可切</td><td>—</td><td>改配置即切换，接口不变</td><td>独立，早做早安心</td></tr>
+      <tr><td>5</td><td>语料入库 + pgvector + META 结构化检索</td><td>—</td><td>混合检索跑通，来源字段强制非空</td><td>独立，和引擎并行</td></tr>
+      <tr><td>6</td><td>十步推理状态机（先做 4 步精简版）</td><td>1,2,5</td><td>schema 断言不过即中止；单步可重跑</td><td>先跑通链路，不追求完整</td></tr>
+      <tr><td>7</td><td>生辰录入表单（分步 + 城市搜索 + 历法切换 + 时辰三态）</td><td>2,3</td><td>校验错误有可读提示，不静默兜底</td><td>最大摩擦点，值得多花时间</td></tr>
+      <tr><td>8</td><td>报告页 + 排盘图组件 + 古籍引文 + 术语 tooltip</td><td>6,7</td><td>移动端可用；引文可点击溯源</td><td>产品价值的主战场</td></tr>
+      <tr><td>9</td><td>SSE 流式 + 十步进度</td><td>6</td><td>等待期不空屏，进度可感知</td><td>防流失</td></tr>
+      <tr><td>10</td><td>MoR 结账 + webhook 幂等 + 配额计数</td><td>4</td><td>并发下单不超发配额；webhook 重放幂等</td><td>收钱的前提</td></tr>
+      <tr><td>11</td><td>追问 + 话题漂移检测 + 三段式话术</td><td>6,8,10</td><td>漂移时既不硬拒也不放行；顺手触发 upsell</td><td>你的核心约束在这里落地</td></tr>
+      <tr><td>12</td><td>样例报告页 + 方法论页</td><td>8</td><td>不花钱能判断准不准；可被搜索引擎索引</td><td>转化率提升最直接</td></tr>
+      <tr><td>13</td><td>结构化反馈表单 + 蒸馏 job + 审核台</td><td>6,11</td><td>反馈不经过审核绝不入库</td><td>数据飞轮</td></tr>
+      <tr><td>14</td><td>成本看板 + 熔断 + 输出内容过滤</td><td>4,10</td><td>能按会话看到真实账单；预算超限自动降级</td><td>护栏，最后但不能少</td></tr>
+    </tbody>
+  </table>
+  <div class="note" style="margin-top:12px">1–3 是上一轮说的"第一阶段"，无论后面怎么选都得做。4 和 5 可以并行插队。真正能开始收钱是第 10 项完成后。</div>
+</section>
+
+<section style="padding-bottom:60px">
+  <div class="card" style="background:linear-gradient(135deg,rgba(47,111,94,.05),rgba(201,123,63,.04));border-color:rgba(47,111,94,.22)">
+    <h2 style="margin-bottom:12px">三个要你现在定的决策</h2>
+    <div class="grid g3" style="margin-top:6px">
+      <div>
+        <span class="tag t-p2">决定定位</span>
+        <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>主题限定 vs 全量报告？</strong>主题限定让约束天然成立、质量更高、复购更顺；全量报告单价高但用户不知道自己买了啥。我强烈建议主题限定。</p>
+      </div>
+      <div>
+        <span class="tag t-p2">决定定价</span>
+        <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>$19.99 还是 $29.99？</strong>用 MiniMax 走 Bedrock 成本 $1.62，$29.99 定价能到 94.6% 毛利。建议先上 $19.99 跑通转化，数据出来再提价——提价比降价容易得多。</p>
+      </div>
+      <div>
+        <span class="tag t-p2">决定主体</span>
+        <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>收款主体和服务器放哪？</strong>如果用 DeepSeek 走 Bedrock，服务器放美区最省事；如果走国内直连+大陆主体，要处理跨境支付。两个方案的合规路径完全不同。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+</body>
+</html>

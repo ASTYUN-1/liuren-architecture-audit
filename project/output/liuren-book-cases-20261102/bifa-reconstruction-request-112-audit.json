@@ -1,0 +1,142 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-BIFA-112-AUDIT",
+  "case_id": "BK26-BIFA-112",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "乙酉",
+      "month_branch": "子",
+      "day": "戊辰",
+      "hour_branch": "申"
+    },
+    "month_general": "寅"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "line_start": 503,
+      "line_end": 505,
+      "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "role": "原书断语"
+    },
+    {
+      "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+      "line_start": 579,
+      "line_end": 583,
+      "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n〔课盘原文OCR错乱，从略。可读三传：巳、亥、巳；父巳常、财亥朱、父巳常；玄六常朱；辰戌巳亥；戌辰亥戊。〕\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+      "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "主源题干明载乙酉年。",
+    "pillars.month_branch": "原载月序或月支映射为子；正月寅、六月未、九月戌、十二月丑，不转古公历日。",
+    "pillars.day": "题干或同案正文明确戊辰日；056正文戊辰干支，未由结果猜日。",
+    "pillars.hour_branch": "原载申时。",
+    "month_general": "原载寅将。"
+  },
+  "constraints": [
+    {
+      "field": "transmission_sequence",
+      "expected": "巳亥巳",
+      "evidence_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 503,
+          "line_end": 505,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 579,
+          "line_end": 583,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n〔课盘原文OCR错乱，从略。可读三传：巳、亥、巳；父巳常、财亥朱、父巳常；玄六常朱；辰戌巳亥；戌辰亥戊。〕\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.0.tianjiang",
+      "expected": "太常",
+      "evidence_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 503,
+          "line_end": 505,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 579,
+          "line_end": 583,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n〔课盘原文OCR错乱，从略。可读三传：巳、亥、巳；父巳常、财亥朱、父巳常；玄六常朱；辰戌巳亥；戌辰亥戊。〕\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.1.tianjiang",
+      "expected": "朱雀",
+      "evidence_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 503,
+          "line_end": 505,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 579,
+          "line_end": 583,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n〔课盘原文OCR错乱，从略。可读三传：巳、亥、巳；父巳常、财亥朱、父巳常；玄六常朱；辰戌巳亥；戌辰亥戊。〕\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.2.tianjiang",
+      "expected": "太常",
+      "evidence_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 503,
+          "line_end": 505,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 579,
+          "line_end": 583,
+          "quote": "再如，公历2005年12月10日，乙酉年子月，寅将申时戊辰日，占考公务员。丁巳年生男，行年午。\n\n〔课盘原文OCR错乱，从略。可读三传：巳、亥、巳；父巳常、财亥朱、父巳常；玄六常朱；辰戌巳亥；戌辰亥戊。〕\n\n结果考中，德入天门果然不虚，虽空亦不妨。",
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "原转录残损身份不变；冲突列只核其所列，不据反馈改源或选设置。",
+  "notes": [
+    "B3执行真实引擎；原始题干、残盘与后注分层，selected保持null。",
+    "039/119有主传与六亲序冲突，本请求保留主列，不删除反例。",
+    "缺失原始设置和年命不补；完整性待全facts与语义审查。"
+  ]
+}

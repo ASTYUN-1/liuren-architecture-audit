@@ -1,0 +1,223 @@
+{
+  "scope": "可见工具调用、传输回执、提交正文与交付正文；不导出私有推理内容",
+  "parent": "ses_e35a635feffevcTPlthTXjHohk",
+  "child": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+  "request_id": "20261111-youzhike-01",
+  "bound_release": "20261111-bifa-use-45-final",
+  "matched_bifa": [
+    {
+      "条目": "毕法赋38：闭口卦体两般推（旬尾加旬首）",
+      "成格": "旬尾加旬首（旬首申，旬尾巳，旬尾所临地盘申）；天盘巳临地盘申乘青龙。",
+      "意象": "堵塞、隐匿、不言、不泄；财禄作旬尾可取不肯交付之象。"
+    }
+  ],
+  "tools": [
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca59cad2001Dq12kRWxwsGa9G",
+      "tool": "skill",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca59e469001yRPrDXMDMi8HA6",
+      "tool": "liuren_tool_help",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca59f54c001hiH5ZUcYs6uL6V",
+      "tool": "liuren_chart",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca59f54c001hiH5ZUcYs6uL6V",
+      "tool": "liuren_materials",
+      "status": "completed",
+      "request": {
+        "action": "method",
+        "module": "judgment-core"
+      }
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca59f54c001hiH5ZUcYs6uL6V",
+      "tool": "liuren_materials",
+      "status": "completed",
+      "request": {
+        "action": "method",
+        "module": "adjudication"
+      }
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca59f54c001hiH5ZUcYs6uL6V",
+      "tool": "liuren_materials",
+      "status": "completed",
+      "request": {
+        "action": "method",
+        "module": "exam"
+      }
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5a124e001XF8vMzdd1i9qnM",
+      "tool": "liuren_adjudication_packet",
+      "status": "error"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5aea23001DZXF6npLaQgtqD",
+      "tool": "liuren_adjudication_packet",
+      "status": "error"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5b1d4e001sFi7Rpem9CGT0G",
+      "tool": "liuren_adjudication_packet",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5b5654001uK3eQmhACIVHEB",
+      "tool": "task",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5f5b7b001X6ps9i4sDx3cR9",
+      "tool": "liuren_adjudication_result",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5f6d5d0012sGuATZ2TualkJ",
+      "tool": "liuren_materials",
+      "status": "completed",
+      "request": {
+        "action": "method",
+        "module": "report"
+      }
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5f89a3001w4bPcz2OUex0XI",
+      "tool": "liuren_adjudication_result",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a635feffevcTPlthTXjHohk",
+      "message_id": "msg_1ca5fd3f8001GotN1bxoJ8RSFe",
+      "tool": "liuren_adjudication_result",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5b6141001modg5O7Wjay6OJ",
+      "tool": "liuren_adjudication_read",
+      "status": "completed",
+      "request": {
+        "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261111-youzhike-01-31f85613-5c4c-4301-b52c-cc52cfe808ed.json",
+        "sha256": "955f4be46864f56f7d155eb41fdac4ff4f4f50927d7ba7d4ca87945023d67134",
+        "page": 1,
+        "page_count": 4
+      },
+      "returned": {
+        "view": "core",
+        "id": null,
+        "page": 1,
+        "page_end": 4,
+        "pages": 4,
+        "chars": 32360,
+        "matched_bifa_present": true
+      }
+    },
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5b73f0001eIMClF772Kb3zf",
+      "tool": "liuren_compute",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5cd689001sCVfwTzkoq96W3",
+      "tool": "liuren_adjudication_audit",
+      "status": "completed"
+    },
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5cef390014UIKaVpiEApimp",
+      "tool": "liuren_adjudication_submit",
+      "status": "completed",
+      "report_sha256": "43be3d4be33b08bca8cb2bcc98b87d76c8d475f6fa4c623898dc1f67ffac59c3"
+    },
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5e31290011HT28a3Iokj41G",
+      "tool": "liuren_adjudication_submit",
+      "status": "completed",
+      "report_sha256": "358f74f62cda702b076f50878bca2ce4c9494be10cb76dff329f799fb2689c99"
+    },
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5e95a9001RACCemFU6AKvDV",
+      "tool": "liuren_adjudication_submit",
+      "status": "completed",
+      "report_sha256": "20b713fcf5eef159d48764a723a2f5b0311fc65dc1a1bc2a4345c03f801423fa"
+    }
+  ],
+  "child_reads": [
+    {
+      "session": "ses_e35a49edfffeth6B8X1aQ7fmyy",
+      "message_id": "msg_1ca5b6141001modg5O7Wjay6OJ",
+      "tool": "liuren_adjudication_read",
+      "status": "completed",
+      "request": {
+        "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261111-youzhike-01-31f85613-5c4c-4301-b52c-cc52cfe808ed.json",
+        "sha256": "955f4be46864f56f7d155eb41fdac4ff4f4f50927d7ba7d4ca87945023d67134",
+        "page": 1,
+        "page_count": 4
+      },
+      "returned": {
+        "view": "core",
+        "id": null,
+        "page": 1,
+        "page_end": 4,
+        "pages": 4,
+        "chars": 32360,
+        "matched_bifa_present": true
+      }
+    }
+  ],
+  "original_artifact": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-flow-state\\ses_e35a635feffevcTPlthTXjHohk--ses_e35a49edfffeth6B8X1aQ7fmyy--563ae6e1-0dc1-4bcf-b035-5deea467a243.json",
+  "source_packet": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261111-youzhike-01-31f85613-5c4c-4301-b52c-cc52cfe808ed.json",
+  "submission_report_hashes": [
+    "43be3d4be33b08bca8cb2bcc98b87d76c8d475f6fa4c623898dc1f67ffac59c3",
+    "358f74f62cda702b076f50878bca2ce4c9494be10cb76dff329f799fb2689c99",
+    "20b713fcf5eef159d48764a723a2f5b0311fc65dc1a1bc2a4345c03f801423fa"
+  ],
+  "report_mentions_bifa": 1,
+  "final_message_mentions_bifa": 0,
+  "bifa_detailed_lookup_calls": 0,
+  "submission_detail": [
+    {
+      "attempt": 1,
+      "submitted_report_sha256": "43be3d4be33b08bca8cb2bcc98b87d76c8d475f6fa4c623898dc1f67ffac59c3",
+      "returned_stored_report_sha256": "43be3d4be33b08bca8cb2bcc98b87d76c8d475f6fa4c623898dc1f67ffac59c3",
+      "bifa_paragraph": "- 毕法仅一条「闭口卦体（旬尾加旬首）」成格，程序确认为巳（旬尾）临申（旬首）乘青龙，意象为堵塞、隐匿、不泄，与昴星掩目同向；仅作描述性辅助，不另加权、不作判据。"
+    },
+    {
+      "attempt": 2,
+      "submitted_report_sha256": "358f74f62cda702b076f50878bca2ce4c9494be10cb76dff329f799fb2689c99",
+      "returned_stored_report_sha256": "43be3d4be33b08bca8cb2bcc98b87d76c8d475f6fa4c623898dc1f67ffac59c3",
+      "bifa_paragraph": "- 毕法仅一条「闭口卦体（旬尾加旬首）」成格，程序确认为巳（旬尾）临申（旬首）乘青龙，意象为堵塞、隐匿、不泄，与昴星掩目同向；仅作描述性辅助，不另加权、不作判据。"
+    },
+    {
+      "attempt": 3,
+      "submitted_report_sha256": "20b713fcf5eef159d48764a723a2f5b0311fc65dc1a1bc2a4345c03f801423fa",
+      "returned_stored_report_sha256": "43be3d4be33b08bca8cb2bcc98b87d76c8d475f6fa4c623898dc1f67ffac59c3",
+      "bifa_paragraph": "- 毕法仅一条「闭口卦体（旬尾加旬首）」成格，程序确认为巳（旬尾）临申（旬首）乘青龙，意象为堵塞、隐匿、不泄，与昴星掩目同向；仅作描述性辅助，不另加权、不作判据。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "global": {
+    "registered": 898,
+    "mechanical_pass": 898,
+    "eligible_complete": 798,
+    "fragment": 100,
+    "pending": 0,
+    "valid": true,
+    "semantic_identity": "负责人声明整案边界；机械核对不证明语义完整",
+    "independent_validation_count": 0,
+    "complete": false
+  },
+  "b2_checked": 544,
+  "b2_errors": [],
+  "method_reviews": {
+    "records": 15,
+    "subjudgments": 39,
+    "complete": 12,
+    "partial": 3,
+    "evidence_refs_verified": 39,
+    "errors": []
+  },
+  "files": [
+    {
+      "path": "output/liuren-book-cases-20261102/build_b2_huixuan.py",
+      "sha256": "76af9c18d9ec68e8c0aa5a3c617cbbb4d8470f2ca36a9ce35cc4ff4cbcec5c06"
+    },
+    {
+      "path": "knowledge/liuren-research/20261102/book-cases/modern.json",
+      "sha256": "52b649b464684dcbe38541102db88e48d0f8042428f938f434abaf8a5f539a5f"
+    },
+    {
+      "path": "knowledge/liuren-research/20261102/book-cases/ancient.json",
+      "sha256": "c2da9da4bb44ddc9d6225be1ae398e4d01bce118f1b711d173c11573ad3faac6"
+    },
+    {
+      "path": "knowledge/liuren-research/20261102/rules/book-modern.json",
+      "sha256": "e60708bff9213e5f8aee35a4b32dc4dc85260df587e463bd9c7675b342773a5d"
+    },
+    {
+      "path": "knowledge/liuren-research/20261102/rules/book-ancient.json",
+      "sha256": "3028ff7b4ee2bea18ee1185f9cc1c6ac7a5bef958796f5d5ae5ac2587b9717af"
+    },
+    {
+      "path": "knowledge/liuren-research/20261102/method-reviews/modern.json",
+      "sha256": "be313d75d74f3cf43eddfaa409b53933e5d75c71173687634e1b1c70e293e310"
+    },
+    {
+      "path": "knowledge/liuren-research/20261102/method-reviews/ancient.json",
+      "sha256": "356b25f3749c4dad3d2691b45594fc9ed7e4239762f7d518968debc0dffed2ce"
+    },
+    {
+      "path": "output/liuren-book-cases-20261102/b2-experience-organization.json",
+      "sha256": "07382b1a838143b972b3a868eeec88e1f32fe84b6260fdfa909b468f9b56e210"
+    },
+    {
+      "path": "output/liuren-book-cases-20261102/b2-experience-organization.md",
+      "sha256": "0cec627d80933eeacd3bfa37f7d6ed3749d7e5ec3f122b662405594af0cb9d33"
+    },
+    {
+      "path": "output/liuren-book-cases-20261102/b2-stopping-checkpoint.json",
+      "sha256": "218b6d91d501f2afb256a7e59ced258d6006255b5350d5dce0cb6d7619fbfe1f"
+    },
+    {
+      "path": "output/liuren-book-cases-20261102/b2-method-followup-queue.json",
+      "sha256": "d4bd005df57857c9ded852e94f47fd2d3484ff57a4cee1777e99f946befdb73b"
+    },
+    {
+      "path": "docs/六壬知识整理-20261102/汇选拆案记录.md",
+      "sha256": "482d604140b2739918b9c55a0a8785f623a922a1fae3b3ed1ebb9c99ef23ccad"
+    }
+  ]
+}

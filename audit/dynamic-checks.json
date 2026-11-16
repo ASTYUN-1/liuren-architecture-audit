@@ -1,0 +1,48 @@
+[
+  {
+    "name": "node-contract-tests",
+    "argv": [
+      "C:/Users/QLMa_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "--test",
+      "tools/tests/liuren-adjudication-contract.test.mjs"
+    ],
+    "exit_code": 0,
+    "log": "node-contract-tests.log"
+  },
+  {
+    "name": "codex-complete-transport-tests",
+    "argv": [
+      "C:/Users/QLMa_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "--test",
+      "--test-name-pattern=health|packet preserves|main and bound|material wrapper|submit refuses|Codex reader|core paging|full Unicode|39 Codex|create an unread",
+      "tools/tests/liuren-codex.test.mjs"
+    ],
+    "exit_code": 0,
+    "log": "codex-complete-transport-tests.log"
+  },
+  {
+    "name": "python-retrieval-tests",
+    "argv": [
+      "C:\\Program Files\\Python313\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "tools.tests.test_case_retrieval",
+      "tools.tests.test_experience_retrieval",
+      "tools.tests.test_liuren_book_search"
+    ],
+    "exit_code": 0,
+    "log": "python-retrieval-tests.log"
+  },
+  {
+    "name": "full55-status",
+    "argv": [
+      "C:/Users/QLMa_/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "tools/liuren-codex.mjs",
+      "status"
+    ],
+    "exit_code": 0,
+    "log": "full55-status.log"
+  }
+]

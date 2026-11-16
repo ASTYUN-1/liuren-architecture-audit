@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-02T03:04:52.448899+00:00",
+  "release": "20261102-workflow-optimization-01",
+  "buildId": "Uy6oVPMn1TPPjzz8wnFQ2",
+  "resources": "20261102-workflow-optimization-01",
+  "concurrency": 2,
+  "maxMinutes": 30,
+  "queueExcluded": true,
+  "retentionDays": 7,
+  "paidApiTests": 0,
+  "backup": "success",
+  "health": {
+    "aiEnabled": true,
+    "workerOnline": true,
+    "modelConfigured": true
+  },
+  "services": {
+    "wenheng-web": {
+      "MainPID": "2004358",
+      "NRestarts": "0",
+      "ActiveState": "active",
+      "cwd": "/opt/wenheng/releases/20261102-workflow-optimization-01/.next/standalone",
+      "resources": {
+        "WENHENG_PROJECT_ROOT": "/opt/wenheng/resource-releases/20261102-workflow-optimization-01",
+        "WENHENG_LIUREN_RUNTIME_ROOT": "/opt/wenheng/resource-releases/20261102-workflow-optimization-01",
+        "WENHENG_LIUREN_PROTOCOL": "liuren-v3",
+        "WENHENG_WORKER_CONCURRENCY": "2"
+      }
+    },
+    "wenheng-worker": {
+      "MainPID": "2004357",
+      "NRestarts": "0",
+      "ActiveState": "active",
+      "cwd": "/opt/wenheng/releases/20261102-workflow-optimization-01",
+      "resources": {
+        "WENHENG_WORKER_CONCURRENCY": "2",
+        "WENHENG_PROJECT_ROOT": "/opt/wenheng/resource-releases/20261102-workflow-optimization-01",
+        "WENHENG_LIUREN_PROTOCOL": "liuren-v3",
+        "WENHENG_LIUREN_RUNTIME_ROOT": "/opt/wenheng/resource-releases/20261102-workflow-optimization-01"
+      }
+    }
+  },
+  "heartbeatAfterSwitch": true,
+  "workerHeartbeatEpoch": 1793588687.175,
+  "switchEpoch": 1793588684.857704,
+  "activeTasks": 0,
+  "heldPoints": 0
+}

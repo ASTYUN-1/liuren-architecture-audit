@@ -1,0 +1,265 @@
+{
+  "schema": "liuren-modern-102-independent-peer-review-v1",
+  "reviewer": "/root/legacy_audit",
+  "created_at_utc": "2026-11-02T10:18:42.618346+00:00",
+  "scope": {
+    "groups": [
+      "A",
+      "B"
+    ],
+    "fixed_card_count": 4,
+    "sampling": "每组一张反证/事后解释、一张原载反馈支持且术理链长的非本人产出卡；目的抽样，非随机总体证明。",
+    "semantic_questions": [
+      "作者和阶段",
+      "条件链是否超出原话",
+      "反馈对象及时间",
+      "局部支持是否误作全局支持",
+      "反证是否保留并可呈现"
+    ],
+    "source_line_counting": "UTF-8-sig splitlines, one-based inclusive",
+    "independent_validation_count": 0,
+    "not_performed": [
+      "未重跑全量机械验证",
+      "未验证现实病情或因果",
+      "未补原始发言时间戳",
+      "未扩全书语义抽查",
+      "未调用外部模型或API",
+      "未修改A/B卡、C冻结规则/生成器/报告、共享reviews/E1/总索引"
+    ]
+  },
+  "reviews": [
+    {
+      "rule_id": "LR26-M102A-004-SANC",
+      "selection_reason": "支持且术理链较长",
+      "card_path": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "card_file_sha256": "e08b70f4dacdab1c76b1870b8e3dae506806017183ab2ee9a8976c6ccba38956",
+      "card_object_sha256": "db0964d8d3aa5c6d605579b043b1f4c82ac88e44df55a5469e521cbecf5716d0",
+      "card_object_hash_format": "UTF-8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(comma,colon)), no trailing newline",
+      "source_path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "source_sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "source_ranges_read": [
+        [
+          1630,
+          1767
+        ]
+      ],
+      "line_convention": "UTF-8-sig splitlines(), one-based inclusive; A004 continuous read completed before context continuation, other missing ranges supplemented during continuation",
+      "subjudgment_path": "output/liuren-modern-102-20261102/A/subjudgments.json",
+      "subjudgment_file_sha256": "c0e9edab813f939f334cbffac844e62dac01eaa43c55fb8f3752d0c2b0cfff96",
+      "subjudgment_ids": [
+        "BK26-MODERN-004-A-Q005",
+        "BK26-MODERN-004-A-Q006",
+        "BK26-MODERN-004-A-Q007",
+        "BK26-MODERN-004-A-Q008",
+        "BK26-MODERN-004-A-Q009"
+      ],
+      "checks": {
+        "author_and_stage": "姜玄衣L1677为反馈段内混合自述，卡保留反馈段身份；L1742只有便秘的自纠已保留。",
+        "condition_chain": "干首课水入火/甲木休丁到眼伤；命虎辰塞天门水入土到便秘；辰酉寅先菜后酒及丑逼申克卯宅，均能回到原话，没有补成疗效事实。",
+        "feedback_scope": "球打眼、便秘及左右环境仅原载/作者称述局部支持；无寄生虫未化验、饮酒未执行或疗效、宅景致病因果未证均明确。",
+        "counterexample_visibility": "原背景腹痛更正与方法分歧列在条件/limitations；不以部分支持抵消未覆盖项。",
+        "disposition": "在本次选定语义范围未发现实质偏差。"
+      },
+      "finding_ids": [],
+      "independent_validation_count": 0
+    },
+    {
+      "rule_id": "LR26-M102A-028-OFFER",
+      "selection_reason": "反证及事后解释",
+      "card_path": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+      "card_file_sha256": "e08b70f4dacdab1c76b1870b8e3dae506806017183ab2ee9a8976c6ccba38956",
+      "card_object_sha256": "787adb83178a32b5f58053471b7085b15924abec92074546443b2a548b73f239",
+      "card_object_hash_format": "UTF-8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(comma,colon)), no trailing newline",
+      "source_path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "source_sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "source_ranges_read": [
+        [
+          3845,
+          3969
+        ]
+      ],
+      "line_convention": "UTF-8-sig splitlines(), one-based inclusive; A004 continuous read completed before context continuation, other missing ranges supplemented during continuation",
+      "subjudgment_path": "output/liuren-modern-102-20261102/A/subjudgments.json",
+      "subjudgment_file_sha256": "c0e9edab813f939f334cbffac844e62dac01eaa43c55fb8f3752d0c2b0cfff96",
+      "subjudgment_ids": [
+        "BK26-MODERN-028-A-Q001",
+        "BK26-MODERN-028-A-Q006",
+        "BK26-MODERN-028-A-Q010",
+        "BK26-MODERN-028-A-Q017",
+        "BK26-MODERN-028-A-Q018",
+        "BK26-MODERN-028-A-Q020"
+      ],
+      "checks": {
+        "author_and_stage": "青山群断、拓然及雷复盘、沈好谦/艺术家/雨田后注分别保存；未将后注当事前预测。",
+        "condition_chain": "否反吟主不成、全空阴极阳生、类神与空马禄绝、申长生龙季气、克处递克及雀常父两阶段链与对应原文一致。",
+        "feedback_scope": "L3890现场通过和L3953试岗未过分开；行政派遣原载，季节导致落败/水工程未验证；雷两个候选未锁定有明示。",
+        "counterexample_visibility": "conclusion首分支明确青山反证；counterexample_case_ids含BK26-MODERN-028；后试岗败不能回填原现场不成。",
+        "disposition": "在本次选定语义范围未发现实质偏差。"
+      },
+      "finding_ids": [],
+      "independent_validation_count": 0
+    },
+    {
+      "rule_id": "LR26-M102B-051-WATER",
+      "selection_reason": "反证及事后解释",
+      "card_path": "knowledge/liuren-research/20261102/rules/modern-102-b.json",
+      "card_file_sha256": "9891e2e5772c593c5b7b0e8eaf2cc1363075a052231c1c8e71bebb754c024434",
+      "card_object_sha256": "b19926d86700fd99489c425492d7083301d1f7abbafa6f95e7e6d1f073001d17",
+      "card_object_hash_format": "UTF-8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(comma,colon)), no trailing newline",
+      "source_path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "source_sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "source_ranges_read": [
+        [
+          5659,
+          5795
+        ]
+      ],
+      "line_convention": "UTF-8-sig splitlines(), one-based inclusive; A004 continuous read completed before context continuation, other missing ranges supplemented during continuation",
+      "subjudgment_path": "output/liuren-modern-102-20261102/B/subjudgments.json",
+      "subjudgment_file_sha256": "f4dabb2481dd471f50a72f1e9f25c0fa1dbb24c2a18a0d11aa724b0d25519981",
+      "subjudgment_ids": [
+        "BK26-MODERN-051-E3B-Q004",
+        "BK26-MODERN-051-E3B-Q007",
+        "BK26-MODERN-051-E3B-Q016",
+        "BK26-MODERN-051-E3B-Q023",
+        "BK26-MODERN-051-E3B-Q025"
+      ],
+      "checks": {
+        "author_and_stage": "小秦和青山群断、熊猫/凌诚等反馈后复盘身份准确；L5672安眠药和自杀日记为背景先有线索，不能算后注独立发现。",
+        "condition_chain": "小秦自刑脱败墓到死亡、太阳照武到可寻；青山水局河流/遁甲绝死气/回环可寻；熊猫自承仍断不出与凌诚未来次数无后访均有保留。",
+        "feedback_scope": "L5704证据覆盖被找到且无生命威胁、原载服药割腕，不证明正北距离、公园和漂流路径；L5779青山事后改释水局非跳河。",
+        "counterexample_visibility": "标题/conclusion与counterexample_case_ids继续显示反证；修复后alternatives和Q007分开存活反证、作者反馈后改释、地点方距及漂流路径未获直接反馈。",
+        "disposition": "原局部措辞问题IPR-C-001已定向复核关闭；未扩展抽查范围，独立效果验证仍0。"
+      },
+      "finding_ids": [
+        "IPR-C-001"
+      ],
+      "independent_validation_count": 0,
+      "pre_fix_bindings": {
+        "card_file_sha256": "9891e2e5772c593c5b7b0e8eaf2cc1363075a052231c1c8e71bebb754c024434",
+        "card_object_sha256": "b19926d86700fd99489c425492d7083301d1f7abbafa6f95e7e6d1f073001d17",
+        "subjudgment_file_sha256": "f4dabb2481dd471f50a72f1e9f25c0fa1dbb24c2a18a0d11aa724b0d25519981"
+      }
+    },
+    {
+      "rule_id": "LR26-M102B-055-RESCUE",
+      "selection_reason": "支持且术理链较长",
+      "card_path": "knowledge/liuren-research/20261102/rules/modern-102-b.json",
+      "card_file_sha256": "9891e2e5772c593c5b7b0e8eaf2cc1363075a052231c1c8e71bebb754c024434",
+      "card_object_sha256": "53a6da463e17a4d04aed16325a1b611c131b4a6b83ec8425d2c67fd8030dadd0",
+      "card_object_hash_format": "UTF-8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(comma,colon)), no trailing newline",
+      "source_path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "source_sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "source_ranges_read": [
+        [
+          6043,
+          6140
+        ]
+      ],
+      "line_convention": "UTF-8-sig splitlines(), one-based inclusive; A004 continuous read completed before context continuation, other missing ranges supplemented during continuation",
+      "subjudgment_path": "output/liuren-modern-102-20261102/B/subjudgments.json",
+      "subjudgment_file_sha256": "f4dabb2481dd471f50a72f1e9f25c0fa1dbb24c2a18a0d11aa724b0d25519981",
+      "subjudgment_ids": [
+        "BK26-MODERN-055-E3B-Q001",
+        "BK26-MODERN-055-E3B-Q002",
+        "BK26-MODERN-055-E3B-Q003",
+        "BK26-MODERN-055-E3B-Q006",
+        "BK26-MODERN-055-E3B-Q007",
+        "BK26-MODERN-055-E3B-Q008",
+        "BK26-MODERN-055-E3B-Q011"
+      ],
+      "checks": {
+        "author_and_stage": "木琰林同一反馈前段L6090已改成年轻可救/老年病危，卡合为部分支持有时序依据；其余复盘和后注未升级事前。",
+        "condition_chain": "空命/空地/月破与申酉泄的凶链、中末救/初鬼末印、甲申建庚真父母、逐生与墓死病递减均按原作者保留；未把不同作者合成唯一优先级。",
+        "feedback_scope": "L6097出来后休养一周不证住院七天；年龄、实际手术、短暂昏迷、丑月未日均未实报；标题申命/盘未命和作者子孙/盘父母冲突明确保留。",
+        "counterexample_visibility": "alternatives与Q001明确最初要凉和实际好转相反；因同一反馈前段已改条件，counterexample_case_ids为空不单独判错。conclusion仍显示病危后改年龄，不构成完全隐藏。",
+        "disposition": "在本次选定语义范围未发现实质偏差；不将出院结果认证为年龄/手术或七日断验。"
+      },
+      "finding_ids": [],
+      "independent_validation_count": 0
+    }
+  ],
+  "retrieval_visibility_check": {
+    "method": "只读检查实际search函数的完整record返回行为及4张当前card字段；未以模拟eligibility冒充真实全库查询。",
+    "tool_source": "tools/liuren_knowledge_workbench.py",
+    "tool_source_lines": [
+      877,
+      907
+    ],
+    "return_behavior": "L893 item=dict(record,...) 返回完整卡；反证、alternatives、exclusions、conclusion和limitations未被该函数截成短摘要。",
+    "selected_card_ids_in_saved_validation": [],
+    "saved_validation_path": "output/liuren-knowledge-20261102/validation.json",
+    "saved_validation_sha256": "5e6997443d827404677461398d2d8fcdec5f90e1787c3ae508a1526471016133",
+    "production_query_status": "本轮保存的旧validation尚无4卡，最终整库收录/实际查询待整合者核验，不因静态返回设计而宣称已实际检索通过。",
+    "notified_integrator": true
+  },
+  "findings": [
+    {
+      "id": "IPR-C-001",
+      "severity": "low",
+      "kind": "feedback_scope_overstatement",
+      "rule_id": "LR26-M102B-051-WATER",
+      "subjudgment_id": "BK26-MODERN-051-E3B-Q007",
+      "locations": [
+        {
+          "path": "knowledge/liuren-research/20261102/rules/modern-102-b.json",
+          "json_pointer": "/id=LR26-M102B-051-WATER/alternatives/1"
+        },
+        {
+          "path": "output/liuren-modern-102-20261102/B/subjudgments.json",
+          "json_pointer": "/id=BK26-MODERN-051-E3B-Q007/feedback_note and method_note"
+        }
+      ],
+      "current_phrase": "生命获救反死/漂流；方距未反馈，不能当对应",
+      "source_lines": [
+        5693,
+        5704,
+        5779
+      ],
+      "source_comparison": "L5693确有青山顺河漂流及死亡倾向；L5704直接支持生存、服药割腕和被找到，但未直接核漂流路径；L5779是作者反馈后改释非跳河，不是新的路线事实反馈。",
+      "recommended_text": "存活反死亡倾向；跳河说后由作者自改；地点、方距及漂流路径未获直接反馈，不能当对应。",
+      "required_action": "由B组或整合者同步收紧源子判断及生成后的卡片字段；本抽查不改他组文件。",
+      "reported_to": [
+        "/root",
+        "/root/knowledge_tools"
+      ],
+      "resolution_state": "resolved_targeted_recheck_passed",
+      "resolution": {
+        "checked_at_utc": "2026-11-02T10:19:42.172825+00:00",
+        "scope": "仅核051 Q007及来源卡已将存活反死亡倾向、作者事后自改跳河、路径未获反馈分开；未扩大抽查及重跑B全量引用验证。",
+        "corrected_text": "存活反死亡倾向；跳河说后由作者自改；地点、方距及漂流路径未获直接反馈",
+        "checked_fields": [
+          "rule.alternatives[1]",
+          "subjudgment.feedback_note",
+          "subjudgment.method_note"
+        ],
+        "post_fix_bindings": {
+          "card_file_sha256": "9891e2e5772c593c5b7b0e8eaf2cc1363075a052231c1c8e71bebb754c024434",
+          "card_object_sha256": "b19926d86700fd99489c425492d7083301d1f7abbafa6f95e7e6d1f073001d17",
+          "subjudgment_file_sha256": "f4dabb2481dd471f50a72f1e9f25c0fa1dbb24c2a18a0d11aa724b0d25519981",
+          "method_reviews_path": "output/liuren-modern-102-20261102/B/method-reviews.json",
+          "method_reviews_sha256": "3a91984f4f296d749a8452f1aaf67273e23f9e54b7701fa6214dd76e1ca77f51"
+        },
+        "builder_rebuild": "整合者报告已修改builder并重建；本复核直接确认重建后的对应措辞，不独立重复执行builder。"
+      }
+    }
+  ],
+  "summary": {
+    "reviewed_cards": 4,
+    "subjudgments_read": 23,
+    "cards_without_material_semantic_findings_within_scope": 3,
+    "localized_feedback_scope_findings": 1,
+    "unverified_generalization": "抽样语义核查不认证其他卡/全库，不验证术理实际效力。",
+    "independent_validation_count": 0,
+    "resolved_findings": 1,
+    "unresolved_findings": 0,
+    "resolution_note": "原发现1处低级局部措辞问题，B整合者修订后仅对该处复核通过；其余卡维持原抽查时点绑定。"
+  },
+  "write_boundary": {
+    "only_new_file": "output/liuren-modern-102-20261102/C/independent-peer-review.json",
+    "other_group_files_modified_by_reviewer": false,
+    "shared_integration_files_modified_by_reviewer": false,
+    "C_frozen_artifacts_modified_by_reviewer": false
+  },
+  "updated_at_utc": "2026-11-02T10:19:42.172844+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "chart": {
+    "datetime": "2026-08-04T14:32",
+    "label": "offline"
+  },
+  "source_id": "BK26-MODERN-067",
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "求财何时能收到多少款",
+      "target": "收款",
+      "stage": "到账",
+      "success_criterion": "到账金额与日期",
+      "requires": [
+        "conclusion",
+        "timing",
+        "quantity"
+      ]
+    }
+  ],
+  "domains": [
+    "finance"
+  ]
+}

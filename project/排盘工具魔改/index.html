@@ -1,0 +1,2269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <meta http-equiv="content-language" content="zh-CN">
+    <title>大六壬在线排盘 - 六壬起个课 | 免费六壬神课起课算命工具</title>
+    <meta name="description"
+        content="六壬起个课是一款免费在线大六壬神课排盘工具，支持正时、活时、自定义时间三种起课方式，提供四课三传、天将神煞、课经毕法、纳音长生等完整排盘功能，内置古代与现代案例库，无需下载即可在线起课占卜。">
+    <meta name="keywords" content="六壬,大六壬,六壬排盘,六壬起课,六壬神课,六壬在线排盘,六壬算命,在线排盘,六壬案例,毕法赋,课经,大六壬金口诀,小六壬,四课三传,神煞,天将,贵人">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#8B4513">
+    <link rel="canonical" href="https://6ren.cn/">
+
+    <!-- DNS & Preconnect -->
+    <link rel="dns-prefetch" href="https://6ren.cn">
+    <link rel="preconnect" href="https://6ren.cn" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
+    <link rel="shortcut icon" href="./static/favicon.ico">
+    <link rel="apple-touch-icon" href="./static/basicprofile.gif">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="大六壬在线排盘 - 六壬起个课 | 免费六壬神课起课工具">
+    <meta property="og:description" content="六壬起个课是一款免费在线大六壬神课排盘工具，支持四课三传、天将神煞、课经毕法等完整排盘功能，内置案例库供参考学习。">
+    <meta property="og:image" content="https://6ren.cn/static/basicprofile.gif">
+    <meta property="og:image:alt" content="六壬起个课 - 大六壬在线排盘工具截图">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:url" content="https://6ren.cn/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="六壬起个课">
+    <meta property="og:locale" content="zh_CN">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="大六壬在线排盘 - 六壬起个课">
+    <meta name="twitter:description" content="免费在线大六壬神课排盘工具，支持四课三传、神煞天将、课经毕法，无需下载。">
+    <meta name="twitter:image" content="https://6ren.cn/static/basicprofile.gif">
+    <meta name="twitter:image:alt" content="六壬起个课 - 大六壬在线排盘工具截图">
+
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./js/vue.global.prod.js"></script>
+    <script>!/\/$/.test(location.pathname) && location.replace(location.pathname + '/')</script>
+</head>
+
+<body>
+    <!-- SEO: visually hidden main heading for search engines -->
+    <h1 class="sr-only">大六壬在线排盘 - 六壬起个课 | 免费六壬神课起课算命</h1>
+
+    <!-- Noscript fallback -->
+    <noscript>
+        <div class="noscript-warning">
+            <strong>JavaScript 已禁用</strong> — 六壬起个课需要 JavaScript 才能正常运行。请启用 JavaScript 后刷新页面，或使用支持 JavaScript 的现代浏览器访问。
+        </div>
+    </noscript>
+
+    <div class="loading">
+        加载中
+    </div>
+    <div id="home" v-cloak>
+        <!-- 首页加载进度条 -->
+        <div v-if="!loading_info.isAllLoaded" class="A1">
+            <div>
+                <svg style="transform: rotateY(180deg);" width="5rem" height="5rem" viewBox="0 0 200 200"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100"
+                            dur=".5s" repeatCount="indefinite" />
+
+                        <!-- 1. 黑色半圆（底层） -->
+                        <path d="M100,0 A100,100 0 0,1 100,200 Z" fill="#000" />
+
+                        <!-- 2. 白色半圆（底层） -->
+                        <path d="M100,0 A100,100 0 0,0 100,200 Z" fill="#fff" />
+
+                        <!-- 3. 黑色小圆（上半部分，形成S型曲线的左侧） -->
+                        <circle cx="100" cy="50" r="50" fill="#000" />
+
+                        <!-- 4. 白色小圆（下半部分，形成S型曲线的右侧） -->
+                        <circle cx="100" cy="150" r="50" fill="#fff" />
+
+                        <!-- 5. 白色鱼眼（在黑色区域中） -->
+                        <circle cx="100" cy="50" r="15" fill="#fff" />
+
+                        <!-- 6. 黑色鱼眼（在白色区域中） -->
+                        <circle cx="100" cy="150" r="15" fill="#000" />
+                    </g>
+                </svg>
+
+                <p style="font-size: 3rem;">
+                    加载中...
+                </p>
+
+
+
+            </div>
+            <div>
+                <div v-for="(item,idx) in loading_info.list" :key="item.fileName+idx">
+                    <div>
+                        {{item.fileName}}
+                    </div>
+                    <div class="A2">
+                        <progress :value="item.progress" max="100"></progress>
+                        <div v-if="item.progress!=-1">
+                            {{item.speed!=0?item.speed+' ':''}}{{item.progress!=100?(item.progress+'%'):'加载完毕'}}
+                        </div>
+                        <div v-else>
+                            加载失败
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav aria-label="主导航" class="A3" id="pagea_tab">
+            <div :class="USER_ALL_DATA.pages_config.pages_index==key?'A3_on':'A3_off'"
+                :class="{ 'page-dragging': pageTabDrag.fromIndex===$index }" @click="pagea_tab(pages_list[key], key)"
+                @mousedown.prevent="onPageTabPointerDown($event, $index)"
+                @touchstart="onPageTabPointerDown($event, $index)" v-for="(key, $index) in sortedPageKeys" :key="key"
+                v-show="pagesEnabled[key] !== false">
+                {{ pages_list[key] }}
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 主内容区域 -->
+    <main id="main-content" aria-label="主要内容">
+        <h2 class="sr-only">大六壬在线排盘功能</h2>
+        <div class="pages">
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- 起课参数选择 -->
+            <div id="index" v-cloak class="index">
+                <div class="B1">
+                    <div class="sljz">
+                        六壬起课
+                    </div>
+
+
+
+                    <div class="B3">
+                        <div class="B2">
+                            起课方式
+                        </div>
+                        <div class="hz">
+                            <div class="B3" v-for="item in qike_list.zhenghuoshi_type" :key="item.name"
+                                @click="qike_sw_fun('zhenghuoshi',item.name)" :class=" item.xz?'B2_no':'B2_off'">
+                                {{item.name}}</div>
+                        </div>
+                    </div>
+                    <div class="B3">
+                        <div class="B2" @click="tishi('guirentype')">
+                            贵人方式
+                        </div>
+                        <div class="hz">
+                            <div class="B3" v-for="item in qike_list.guiren_type" :key="item.name"
+                                @click="qike_sw_fun('guiren',item.name)" :class=" item.xz?'B2_no':'B2_off'">
+                                {{item.name}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="B3">
+                        <div class="B2" @click="tishi('zhouye')">
+                            昼夜贵人
+                        </div>
+                        <div class="hz">
+                            <div class="B3" v-for="item in qike_list.zhouye_type" :key="item.name"
+                                @click="qike_sw_fun('zhouye',item.name)" :class=" item.xz?'B2_no':'B2_off'">
+                                {{item.name}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="B3">
+                        <div class="B2" @click="tishi('shehai')">
+                            涉害方式
+                        </div>
+                        <div class="hz">
+                            <div class="B3" v-for="item in qike_list.shehai_type" :key="item.name"
+                                @click="qike_sw_fun('shehai',item.name)" :class=" item.xz?'B2_no':'B2_off'">
+                                {{item.name}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="B3" v-if="!qike_list.zhenghuoshi_type[2].xz">
+                        <div class="B2">
+                            <div @click="tishi('yuejiangquyong')">月将取用</div>
+                            <div @click="SW.yuejian_sw=!SW.yuejian_sw">{{SW.yuejian_sw?'收起':'展开'}}</div>
+
+                        </div>
+                        <div class="B4">
+                            <div class="B3"
+                                v-for="item in qike_list.yuejiang_type.slice(0, !SW.yuejian_sw ? 3 : qike_list.yuejiang_type.length)"
+                                :key="item.name" @click="qike_sw_fun('yuejiang',item.name)"
+                                :class=" item.xz?'B2_no':'B2_off'">
+                                {{item.name}}
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div v-if="!qike_list.zhenghuoshi_type[2].xz">
+                        <div class="B5">
+                            <div class="B2">
+                                年命信息
+                            </div>
+                            <div class="B6" @click="SW.add_userinfo++">
+                                +
+                            </div>
+                        </div>
+                        <div v-if="SW.add_userinfo!=0" class="B8">
+                            <div class="B7" v-for="(item,index) in qike_json.user" :key="'user'+index">
+                                <div>
+                                    <div>名字:</div>
+                                    <input maxlength="8" :style="'width:'+(item.name.length*0.9)+'rem'" type="text"
+                                        v-model="item.name">
+
+                                </div>
+                                <div>
+                                    <div>性别:</div>
+                                    <div :class="item.sex=='男'?'B2_no':'B2_off'" @click="item.sex='男'">
+                                        男
+                                    </div>
+                                    <div :class="item.sex=='女'?'B2_no':'B2_off'" @click="item.sex='女'">
+                                        女
+                                    </div>
+                                </div>
+                                <div>
+                                    <div @click="tishi('nl')">年龄or出生年?:</div>
+                                    <input min="0" type="number" v-model="item.age">
+                                </div>
+                                <button @click="qike_json.user.splice(index, 1)">删除</button>
+                                <!-- <input type="range" name="" id=""> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="B3 B12" v-if="!qike_list.zhenghuoshi_type[2].xz">
+                        <div class="B2">
+                            时间选择
+                        </div>
+
+                        <div class="B3 B11">
+                            <div @click="SW.is_nongli=!SW.is_nongli">
+                                <input class="B9" type="checkbox" :checked="SW.is_nongli"></input>
+                                <div>农历</div>
+                            </div>
+                            <input class="B9" type="date" v-model="qike_json.Date" min="1900-01-01" max="2100-12-31"
+                                :disabled="SW.is_nongli">
+                            <input class="B9" type="time" v-model="qike_json.Time" value="05:06"
+                                :disabled="qike_list.zhenghuoshi_type[1].xz">
+                            <div @click="update()" class="B10">
+                                <svg t="1685354282813" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" p-id="1479" width="16" height="16">
+                                    <path d="M181.731 569.606l63.275-8.713A331.732 331.732 0 0
+                            1 242.255 501l-63.809-2.835a395.86 395.86 0 0 0
+                            3.285 71.441z" fill="var(--zhuti_bute_clor)" p-id="1480"></path>
+                                    <path d="M569.205 906.945c52.791 0 104.019-10.346
+                            152.263-30.752 46.581-19.703 88.409-47.902
+                            124.321-83.814 35.912-35.912 64.111-77.74
+                            83.814-124.322 20.405-48.244 30.752-99.471
+                            30.752-152.263
+                            0-52.791-10.346-104.019-30.752-152.263-19.703-46.581-47.902-88.409-83.814-124.321-35.912-35.912-77.74-64.111-124.321-83.814-48.244-20.405-99.472-30.752-152.263-30.752-101.406
+                            0-197.547 38.644-270.712 108.813-72.938
+                            69.952-115.572 163.96-120.047 264.706L242.255
+                            501c7.783-175.224 151.397-312.483 326.95-312.483
+                            180.462 0 327.278 146.817 327.278 327.278S749.667
+                            843.074 569.205 843.074c-69.625
+                            0-136.091-21.563-192.21-62.357L339.44 832.38c67.106
+                            48.781 146.558 74.565 229.765 74.565z" fill="var(--zhuti_bute_clor)" p-id="1481"></path>
+                                    <path d="M222.367 629.329c8.173 0 16.346-3.118
+                            22.581-9.354l117.233-117.232c12.472-12.471
+                            12.472-32.692
+                            0-45.164-12.471-12.472-32.692-12.472-45.163
+                            0L199.786 574.811c-12.472 12.472-12.472 32.693 0
+                            45.164 6.236 6.236 14.409 9.354 22.581 9.354z" fill="var(--zhuti_bute_clor)" p-id="1482">
+                                    </path>
+                                    <path d="M215.632 631.398c8.174 0 16.345-3.117
+                            22.581-9.354 12.472-12.471 12.472-32.692
+                            0-45.164L120.981
+                            459.648c-12.47-12.471-32.691-12.471-45.163 0-12.472
+                            12.472-12.472 32.692 0 45.164l117.233 117.232c6.234
+                            6.235 14.409 9.354 22.581 9.354z" fill="var(--zhuti_bute_clor)" p-id="1483"></path>
+                                </svg>
+                                <div>重置时间</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="B3" v-if="qike_list.zhenghuoshi_type[1].xz">
+                        <div class="B2" @click="tishi('huoshi')">
+                            活时报数
+                        </div>
+                        <div class="hz">
+                            报数:<input maxlength="3" style="width: 3.5em;text-align:
+                            center;" v-model.number="SW.baoshuhuoshi" type="number">选用{{SW.baoshuhuoshi_zhi}}时
+                        </div>
+                    </div>
+
+                    <div class="B3" v-if="qike_list.zhenghuoshi_type[2].xz">
+                        <div class="B2" @click="tishi('sizhu')">
+                            四柱起课
+                        </div>
+                        <div class="B13">
+                            <div @clicK="SW.sizhu_sel=0" :class="SW.sizhu_sel==0?'B2_no':'B2_off'">
+                                <div>{{qike_json.sizhu.yg}}</div>
+                                <div>{{qike_json.sizhu.yz}}</div>
+                                <div class="B14">年</div>
+                            </div>
+                            <div @clicK="SW.sizhu_sel=1" :class="SW.sizhu_sel==1?'B2_no':'B2_off'">
+                                <div>{{qike_json.sizhu.mz}}</div>
+                                <div class="B14">月</div>
+                            </div>
+                            <div @clicK="SW.sizhu_sel=2" :class="SW.sizhu_sel==2?'B2_no':'B2_off'">
+                                <div>{{qike_json.sizhu.dg}}</div>
+                                <div>{{qike_json.sizhu.dz}}</div>
+                                <div class="B14">日</div>
+                            </div>
+                            <div @clicK="SW.sizhu_sel=3" :class="SW.sizhu_sel==3?'B2_no':'B2_off'">
+                                <div>{{qike_json.sizhu.hz}}</div>
+                                <div class="B14">时</div>
+                            </div>
+                            <div @clicK="SW.sizhu_sel=4" :class="SW.sizhu_sel==4?'B2_no':'B2_off'">
+                                <div>{{qike_json.sizhu.yuejiang}}</div>
+                                <div class="B14">将</div>
+                            </div>
+                        </div>
+                        <div class="B14">
+                            <div v-if="SW.sizhu_sel==0||SW.sizhu_sel==2">
+                                <div :class="SW.Gan_sel==index?'B2_no':'B2_off'"
+                                    v-for="(item,index) in sizhu_sel_obj.Gan" :key="'gan'+index"
+                                    @click="sizhu_sel_fun(item,index,'gan'),SW.Gan_sel=index">
+                                    {{item}}
+                                </div>
+                            </div>
+                            <div>
+                                <div :class="SW.Zhi_sel==index?'B2_no':'B2_off'"
+                                    v-for="(item,index) in sizhu_sel_obj.set_zhi" :key="'zhi'+index"
+                                    @click="sizhu_sel_fun(item,index,'zhi'),SW.Zhi_sel=index">
+                                    {{item}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="B3" v-if="qike_list.zhenghuoshi_type[3].xz">
+                        <div class="B16">
+                            <div @click="tishi('taiyangshi')">经纬度:</div>
+                            <input type="number" v-model="SW.jingweidu_number">
+                            <div @click="SW.cn_jingweidu_sw=!SW.cn_jingweidu_sw">经纬度选择</div>
+                        </div>
+                        <div>
+                            <div>
+                                真太阳时:
+                            </div>
+                            <div>
+                                {{qike_json.tys.y}}年{{qike_json.tys.m}}月{{qike_json.tys.d}}日{{qike_json.tys.h}}时{{qike_json.tys.i}}分
+                            </div>
+                        </div>
+
+                        <div v-if="SW.cn_jingweidu_sw" class="B15">
+                            <div v-for="(item1,index1) in SW.cn_jingweidu_data" :key="index1">
+                                <div class="B17" @click="SW.jingweidu_list_sw[index1]=!SW.jingweidu_list_sw[index1]">
+                                    {{index1}}
+                                </div>
+                                <div class="B18" v-if="SW.jingweidu_list_sw[index1]"
+                                    @click="SW.jingweidu_number=item2.dj" v-for="(item2,index2) in item1" :key="index2">
+                                    <div>{{index2}}</div>
+                                    <div>
+                                        东经:{{item2.dj}}° 北纬{{item2.bw}}°
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="B19" @click="lrqk()">
+                        起课
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- 排盘页面 -->
+            <div id="paipan" v-cloak class="paipan C2">
+                <div class="C1">
+                    <div v-if="ppdata.length!=0">
+                        <select v-model="SW.pp_index">
+                            <option v-for="(item,index) in ppdata" :key="item.id" :value="item.id">
+                                {{A1(item)}}
+                            </option>
+                        </select>
+                        <div @click="ppdata.splice(ppdata.findIndex(item => item.id === SW.pp_index), 1),A9_fun()">关闭
+                        </div>
+                    </div>
+                    <div v-else class="C5">占位</div>
+                    <div>六壬起个课</div>
+                    <div @click="SW.quanping=!SW.quanping">
+                        {{SW.quanping?'收起':'全屏'}}
+                    </div>
+                </div>
+                <div class="C83" v-if="pages_config.yindao.paipan_fdsxsw&&ppdata.length!=0&&SW.paipan_fdsxsw">
+                    <div class="C84">
+                        <svg v-if="SW.isMobile" t="1782479210952" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" p-id="8602" width="20vw" height="20vw">
+                            <path
+                                d="M901.12702 782.036179c-19.404955-25.358551-36.057217-61.248969-44.693922-85.949534-39.980573-114.352421-41.336454-121.884978-61.334927-174.961824-5.28026-14.024411-6.901177-69.472258-33.313733-77.42437-3.275603-34.82618-11.390421-68.165496-42.716894-68.188009-5.483898-22.873963-12.340049-43.174312-22.382776-56.465013-22.73684-30.144554-69.041446 4.91187-69.041446 4.91187s5.613858-9.437953-4.189416-40.942481c-5.846148-18.781762-18.134009-46.518476-28.948309-71.709205 22.11467-55.93801 54.153364-139.296533 51.205219-145.509025-4.455475-9.406231-226.080062 29.308513-226.080062 29.308513l52.008514 55.020104c0 0-33.930787 29.999245-63.992453 69.64929-44.975331 59.312874-92.221378 136.414903-92.221378 136.414903s65.747423-61.885466 126.657678-101.972463c28.350698-18.663058 56.893778-29.867238 73.840752-35.531238 2.554172 29.241998 6.709819 62.184271 6.547113 93.452415-0.12382 24.49488 4.852518 61.792345 5.951549 75.007321 2.418073 29.147854-15.189957 47.111994-18.085914 79.480192-2.162246 24.227798-10.82351 156.573011-88.502683 177.10258-44.549635 11.780301-86.887906-12.745279-130.85528-25.064862-10.258645-2.879584-26.872021-4.839215-44.964074-4.252861 1.226944-6.785543 10.751878-58.741869 23.86657-110.50479 17.324574-68.448952 39.466873-139.385561 39.466873-139.385561s-43.541679 55.091736-82.513272 113.554242c-32.063253 48.075949-60.936861 101.591793-60.936861 101.591793l-59.608609-15.491833c0 0 26.686802 206.460212 37.040614 207.584825 4.810562 0.523933 40.092114-27.903513 76.465532-58.4666 44.48312 15.423271 100.613512 27.233248 123.769908 45.069475 13.792121 10.620895 55.915497 32.670074 95.67606 59.190077 26.969235 17.97028 47.15395 39.263236 78.607312 55.596226 42.009789 21.805632 76.525907 29.126364 104.832603 39.317471 14.20656 5.110391 44.587498 20.663622 64.85203 40.388872C729.935056 994.137879 942.99457 836.720639 901.12702 782.036179zM192.258257 719.111035c-28.528754 0-51.66366-23.13593-51.66366-51.66059 0-28.532847 23.134907-51.658544 51.66366-51.658544 6.446829 0 12.612249 1.191128 18.301831 3.346211-23.26896 5.869684-43.777039 17.756409-50.974975 39.191604-8.340969 24.831548 20.269649 40.882106 57.945737 54.174853C210.059692 716.702172 201.443453 719.111035 192.258257 719.111035zM579.948043 175.707814c-11.789511-32.019251-13.747095-60.557214-30.992875-61.651129-13.124925-0.828878-25.746384 14.047947-32.274054 40.739866-2.501984 10.250458-3.01773 22.976294-2.51017 37.287231-12.483312-9.43079-20.555152-24.394596-20.555152-41.247426 0-28.528754 23.127743-51.664683 51.655474-51.664683 28.53694 0 51.655474 23.13593 51.655474 51.664683 0 13.284561-5.016247 25.396413-13.252839 34.549887C582.316997 181.984774 581.0614 178.737824 579.948043 175.707814z"
+                                p-id="8603" fill="var(--zhuti_bord_clor)"></path>
+                        </svg>
+                        <svg v-if="SW.isMobile" t="1782479765546" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" p-id="9504" width="20vw" height="20vw">
+                            <path
+                                d="M880.144126 772.414031c-70.76981-88.271416-57.665351-305.32694-94.467535-366.459253-10.900258-18.098193-40.444131-42.75271-58.032718-67.399039-49.072649-68.715011-92.123141-141.757584-127.451764-128.829134-19.862373 7.267521-69.312622 34.853809-69.312622 34.853809s-16.027022-12.955056-34.729989-11.497868c-12.735046 1.000793-30.41266 12.402471-47.387263 15.139815-24.360827 3.923356-51.132564 8.303106-75.661214 13.597693 2.227738-17.750269 6.718005-48.312332 14.555507-82.058924 13.603833-58.622142 32.720216-114.504894 32.720216-114.504894s-41.567721 53.057403-81.784678 106.324584c-33.088606 43.797505-49.080835 73.595158-49.080835 73.595158l-57.243749-16.35141 57.243749 147.208736 65.215304-34.518165c28.720112-0.00921 57.20691-5.321192 57.20691-5.321192l41.637306 2.229784 3.527336 24.286126c0 0-7.601118 31.298843-1.035586 49.738821 7.355525 20.713764 16.72901 22.24156 30.097482 23.496134 16.96437 1.605567 39.942711-16.404622 39.942711-16.404622s5.724375 6.573719 6.389524 15.315824c0.931209 12.349259-3.149736 28.429493-3.651157 31.369452-11.31265 66.582441-54.003961 75.728752-54.003961 75.728752s-30.834262-6.960529-49.616024-31.273261c-25.980721-33.634028-34.230616-56.647161-92.316545-94.151333-7.889691-5.095042-18.36323-9.677407-29.667693-12.186554l-13.218046-28.311813-155.897629 73.613578 73.604368 16.360619c0 0-9.829879 71.646783-13.964036 118.752638-6.187933 70.417793-5.231141 156.311045-5.231141 156.311045s21.599947-83.004459 50.336432-146.023748c13.9405-30.578436 35.357276-63.092967 48.13837-81.443917 8.341992 12.396331 16.562211 26.089192 23.604604 35.637662 14.991436 20.317745 32.721239 35.406394 50.02944 58.674331 11.795651 15.842827 20.151969 44.482097 33.492812 61.439304 37.582967 47.676859 64.045665 93.369527 95.027284 134.754077 28.420283 37.933961 65.311495 55.822376 92.808756 77.659731 30.833239 24.487717 52.819996 49.072649 57.954947 57.709353 25.656333 43.060725 123.941823 7.064906 182.852538-40.514739C855.990007 872.155686 912.67196 812.971749 880.144126 772.414031zM289.633005 302.30614c-2.001587 17.879206 13.30605 33.396621 40.198537 37.539988 6.906294 1.067308 14.372336 1.554402 21.890566 1.651616-8.230452 6.242168-18.486026 9.951653-29.613458 9.951653-27.103288 0-49.080835-21.977547-49.080835-49.072649 0-27.112498 21.978571-49.072649 49.080835-49.072649 12.682857 0 24.238031 4.809539 32.94432 12.703323C319.075571 275.019681 291.394115 286.536992 289.633005 302.30614zM245.642095 418.742013c-17.308201 18.739806-6.073322 48.290843 20.310581 69.27783 1.801019 1.428535 3.645017 3.178389 5.516644 5.179976-17.139356 1.944282-34.788318-5.214768-45.521776-20.250206-15.745612-22.057365-10.619872-52.697199 11.44568-68.452022 16.511046-11.776208 37.818327-11.867282 54.096059-1.923816C275.058055 401.295666 258.153036 405.201625 245.642095 418.742013z"
+                                fill="var(--zhuti_bord_clor)" p-id="9505"></path>
+                        </svg>
+                        <div v-if="!SW.isMobile" class="C87">
+                            <div>
+                                CTRL +
+                            </div>
+                            <svg t="1782480947858" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="10554" width="20vw" height="20vw">
+                                <path
+                                    d="M683.33568 214.46656A316.86656 316.86656 0 0 0 615.2192 113.4592 316.33408 316.33408 0 0 0 390.63552 20.48H346.23488A316.2112 316.2112 0 0 0 121.6512 113.4592a314.49088 314.49088 0 0 0-67.9936 101.00736A315.06432 315.06432 0 0 0 28.672 338.04288v347.70944c0 42.84416 8.3968 84.50048 24.9856 123.6992a316.6208 316.6208 0 0 0 67.9936 100.9664A316.33408 316.33408 0 0 0 346.35776 1003.52h44.35968a316.86656 316.86656 0 0 0 224.6656-93.10208 315.8016 315.8016 0 0 0 68.11648-101.00736c16.62976-39.15776 24.9856-80.73216 24.9856-123.6992V338.08384a318.70976 318.70976 0 0 0-25.14944-123.57632zM337.26464 83.5584V239.616h61.76768V83.47648a274.432 274.432 0 0 1 247.52128 273.12128v155.60704H399.03232v-39.28064H337.26464v39.28064H90.3168v-155.648a274.432 274.432 0 0 1 246.9888-272.9984z m34.93888 858.112h-7.41376a274.30912 274.30912 0 0 1-274.39104-274.35008v-93.3888h556.15488v93.3888c0 151.552-122.79808 274.35008-274.35008 274.35008z"
+                                    fill="var(--zhuti_bord_clor)" p-id="10555"></path>
+                                <path
+                                    d="M368.14848 203.5712a92.89728 92.89728 0 0 0-92.81536 92.81536v122.63424a92.89728 92.89728 0 0 0 92.81536 92.7744 92.9792 92.9792 0 0 0 92.81536-92.7744V296.46848A92.93824 92.93824 0 0 0 368.14848 203.5712z m379.12576-0.49152c4.54656 4.54656 11.96032 4.54656 16.50688 0l67.25632-67.21536v314.1632h61.72672v-314.1632l67.25632 67.21536c4.5056 4.54656 11.96032 4.54656 16.46592 0l27.11552-27.07456a11.71456 11.71456 0 0 0 0-16.50688L870.1952 25.88672a11.71456 11.71456 0 0 0-16.50688 0l-133.5296 133.5296a11.71456 11.71456 0 0 0 0 16.46592l27.11552 27.19744z m229.13024 617.14432a11.71456 11.71456 0 0 0-16.50688 0l-67.21536 67.25632v-72.17152L892.76416 573.44h-61.72672l-0.12288 241.8688v72.17152l-67.21536-67.25632a11.71456 11.71456 0 0 0-16.50688 0l-27.19744 27.11552a11.71456 11.71456 0 0 0 0 16.50688l133.5296 133.5296c4.5056 4.5056 11.91936 4.5056 16.46592 0l133.5296-133.5296a11.71456 11.71456 0 0 0 0-16.50688l-27.11552-27.11552z"
+                                    fill="var(--zhuti_bord_clor)" p-id="10556"></path>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="C84 C85">
+                        <div>
+                            可以通过{{SW.isMobile?'手势':'组合'}}调节布局
+                        </div>
+                        <div class="C86">
+                            <div @click="pages_config.yindao.paipan_fdsxsw=false">关闭且不再提示</div>
+                            <div @click="SW.paipan_fdsxsw=false">关闭</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div v-if="currentPpdata.length!=0" v-for="P in currentPpdata" :key="P.id">
+                    <div class="C4"
+                        :style="Object.keys(P.userinfo).length!=0?'grid-template-columns: 1fr 2fr 1fr;':'grid-template-columns: 1fr 2fr;'">
+                        <div class="C3">
+                            <div v-for="(sizhu,index) in P.sizhu" :key="index">
+                                <div>
+                                    {{SW.sizhu_index[index]}}
+                                </div>
+                                <div>
+                                    {{sizhu.charAt(0)}}
+                                </div>
+                                <div>
+                                    {{sizhu.charAt(1)}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="C6">
+                            <text v-if="P._D.zhenghuoshi!='四柱'">{{P.Date+P.Time}}</text>
+                            <div v-if="P.jieqi.the_jieqi?.name">
+                                {{P.nongli.y+'年'+P.nongli.m+P.nongli.d+'日'}} {{P.jieqi.the_jieqi?.name}} </div>
+                            <div>
+                                {{P._D.guiren}}、{{P._D.zhenghuoshi}}、{{P._D.shehai}}、{{P._D.yuejiang}}、{{P._D.zhouye=="自动选择"?'卯昼酉夜':P._D.zhouye}}、{{P.xunshou}}旬{{P.xunkong.join("")}}空
+                            </div>
+
+
+                        </div>
+                        <div v-if="Object.keys(P.userinfo).length!=0" class="C6 C8">
+                            <div v-for="(nm,nmIdx) in P.userinfo" :key="nmIdx" class="C7"
+                                @click.stop="editUserName(P, nmIdx)">
+                                <div>称呼:{{nm.name}}</div>
+                                <div>性别:{{nm.sex}}</div>
+                                <div>生年:{{nm.csn}}</div>
+                                <div>行年:{{nm.xn}}</div>
+                                <div>本命:{{nm.bm}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="C15">
+                        <div :class="SW.quanping?'C10':'C9'">
+                            <div class="C12"
+                                :style="isNarrowLayout?'justify-content: center':'justify-content: space-between'">
+                                <div class="C13"
+                                    :style="pan_config.tongdaoxian_sw?'background:url('+P.tongdaoxian+') 0% 0% / 100% 100%':''">
+                                    <!-- 巳午未申 -->
+                                    <!-- 上排：巳午未申（v-for循环） -->
+                                    <div class="C11 C18">
+                                        <template v-for="(dz, idx) in gongWeiConfig.top" :key="dz">
+                                            <div :class="['C21', {'C17': idx < gongWeiConfig.top.length - 1}, idx === 0 ? 'C27' : '', { C48: P.xunkong?.some(item => dztpy(item) === dz)&&pan_config.kongwang_gong_sw }]"
+                                                @click="A3_fun(dz)"
+                                                :style="pan_config.SanChuan_gong_sw==true&&P.SanChuan_gong[dz]">
+                                                <div
+                                                    :class="['C16', { 'shensha-vertical': pan_config.shensha_vertical_sw }]">
+                                                    <div v-for="A1 in P[G[0]][dz]" :key="'top_'+A1">{{A1}}</div>
+                                                </div>
+                                                <div class="C20">
+                                                    <div class="C19" :style="A2_fun(P[G[1]][dz])" :class="g_css[G[1]]">
+                                                        {{P[G[1]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[2]][dz])" :class="g_css[G[2]]">
+                                                        {{P[G[2]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[3]][dz])" :class="g_css[G[3]]">
+                                                        {{P[G[3]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[4]][dz])" :class="g_css[G[4]]">
+                                                        {{fmt_tianguan(P[G[4]][dz])}}</div>
+                                                </div>
+                                                <div class="C20">
+                                                    <div class="C19" :style="A2_fun(P[G[5]][dz])" :class="g_css[G[5]]">
+                                                        {{P[G[5]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[6]][dz])" :class="g_css[G[6]]">
+                                                        {{P[G[6]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[7]][dz])" :class="g_css[G[7]]">
+                                                        {{P[G[7]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[8]][dz])" :class="g_css[G[8]]">
+                                                        {{fmt_tianpan(P[G[8]][dz])}}</div>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                    <!-- 辰中中酉 -->
+                                    <!-- 卯中中戌 -->
+                                    <div class="C33 C27">
+                                        <!--左列：辰卯（v-for循环）-->
+                                        <div class="C31">
+                                            <template v-for="(dz, idx) in gongWeiConfig.midLeft" :key="dz">
+                                                <div :class="['C34', {'C18': idx === 0}, { C48: P.xunkong?.some(item => dztpy(item) === dz)&&pan_config.kongwang_gong_sw }]"
+                                                    @click="A3_fun(dz)"
+                                                    :style="pan_config.SanChuan_gong_sw==true&&P.SanChuan_gong[dz]">
+                                                    <div
+                                                        :class="['C16', { 'shensha-vertical': pan_config.shensha_vertical_sw }]">
+                                                        <div v-for="A1 in P[G[0]][dz]" :key="'ml_'+A1">{{A1}}</div>
+                                                    </div>
+                                                    <div class="C20">
+                                                        <div class="C19" :style="A2_fun(P[G[1]][dz])"
+                                                            :class="g_css[G[1]]">
+                                                            {{P[G[1]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[2]][dz])"
+                                                            :class="g_css[G[2]]">
+                                                            {{P[G[2]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[3]][dz])"
+                                                            :class="g_css[G[3]]">
+                                                            {{P[G[3]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[4]][dz])"
+                                                            :class="g_css[G[4]]">
+                                                            {{fmt_tianguan(P[G[4]][dz])}}</div>
+                                                    </div>
+                                                    <div class="C20">
+                                                        <div class="C19" :style="A2_fun(P[G[5]][dz])"
+                                                            :class="g_css[G[5]]">
+                                                            {{P[G[5]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[6]][dz])"
+                                                            :class="g_css[G[6]]">
+                                                            {{P[G[6]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[7]][dz])"
+                                                            :class="g_css[G[7]]">
+                                                            {{P[G[7]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[8]][dz])"
+                                                            :class="g_css[G[8]]">
+                                                            {{fmt_tianpan(P[G[8]][dz])}}</div>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </div>
+
+                                        <!--中-->
+                                        <div class="C32">
+                                            <div class="C38">
+                                                <div v-for="A2 in ['0','1','2']" :key="'sc_'+A2">
+                                                    <div :style="A2_fun(A1)" :class="sc_css[I1]"
+                                                        v-for="(A1,I1) in P.sanchuan[A2]" :key="'sc_'+A2+'_'+I1"
+                                                        @click="A30_fun(A1)">
+                                                        {{fmt_sanchuan(A2,I1,A1)}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="C37">
+                                                <div v-for="(A2,I2) in ['3','2','1','0']" :key="'sk_'+A2">
+                                                    <div :style="A2_fun(A1)" :class="sk_css[I2][I1]"
+                                                        v-for="(A1,I1) in P.sike[A2]" :key="'sk_'+A2+'_'+I1"
+                                                        @click="A30_fun(A1)">
+                                                        {{fmt_sike(0,I1,A1)}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--右列：酉戌（v-for循环）-->
+                                        <div class="C31 C35">
+                                            <template v-for="(dz, idx) in gongWeiConfig.midRight" :key="dz">
+                                                <div :class="['C34', {'C18': idx === 0}, { C48: P.xunkong?.some(item => dztpy(item) === dz)&&pan_config.kongwang_gong_sw }]"
+                                                    @click="A3_fun(dz)"
+                                                    :style="pan_config.SanChuan_gong_sw==true&&P.SanChuan_gong[dz]">
+                                                    <div
+                                                        :class="['C16', { 'shensha-vertical': pan_config.shensha_vertical_sw }]">
+                                                        <div v-for="A1 in P[G[0]][dz]" :key="'mr_'+A1">{{A1}}</div>
+                                                    </div>
+                                                    <div class="C20">
+                                                        <div class="C19" :style="A2_fun(P[G[1]][dz])"
+                                                            :class="g_css[G[1]]">
+                                                            {{P[G[1]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[2]][dz])"
+                                                            :class="g_css[G[2]]">
+                                                            {{P[G[2]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[3]][dz])"
+                                                            :class="g_css[G[3]]">
+                                                            {{P[G[3]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[4]][dz])"
+                                                            :class="g_css[G[4]]">
+                                                            {{fmt_tianguan(P[G[4]][dz])}}</div>
+                                                    </div>
+                                                    <div class="C20">
+                                                        <div class="C19" :style="A2_fun(P[G[5]][dz])"
+                                                            :class="g_css[G[5]]">
+                                                            {{P[G[5]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[6]][dz])"
+                                                            :class="g_css[G[6]]">
+                                                            {{P[G[6]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[7]][dz])"
+                                                            :class="g_css[G[7]]">
+                                                            {{P[G[7]][dz]}}</div>
+                                                        <div class="C19" :style="A2_fun(P[G[8]][dz])"
+                                                            :class="g_css[G[8]]">
+                                                            {{fmt_tianpan(P[G[8]][dz])}}</div>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- 寅丑子亥 -->
+                                    <!-- 下排：寅丑子亥（v-for循环） -->
+                                    <div class="C11 C36">
+                                        <template v-for="(dz, idx) in gongWeiConfig.bottom" :key="dz">
+                                            <div :class="['C21', {'C17': idx < gongWeiConfig.bottom.length - 1}, { C48: P.xunkong?.some(item => dztpy(item) === dz)&&pan_config.kongwang_gong_sw }]"
+                                                @click="A3_fun(dz)"
+                                                :style="pan_config.SanChuan_gong_sw==true&&P.SanChuan_gong[dz]">
+                                                <div
+                                                    :class="['C16', { 'shensha-vertical': pan_config.shensha_vertical_sw }]">
+                                                    <div v-for="A1 in P[G[0]][dz]" :key="'bt_'+A1">{{A1}}</div>
+                                                </div>
+                                                <div class="C20">
+                                                    <div class="C19" :style="A2_fun(P[G[1]][dz])" :class="g_css[G[1]]">
+                                                        {{P[G[1]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[2]][dz])" :class="g_css[G[2]]">
+                                                        {{P[G[2]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[3]][dz])" :class="g_css[G[3]]">
+                                                        {{P[G[3]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[4]][dz])" :class="g_css[G[4]]">
+                                                        {{fmt_tianguan(P[G[4]][dz])}}</div>
+                                                </div>
+                                                <div class="C20">
+                                                    <div class="C19" :style="A2_fun(P[G[5]][dz])" :class="g_css[G[5]]">
+                                                        {{P[G[5]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[6]][dz])" :class="g_css[G[6]]">
+                                                        {{P[G[6]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[7]][dz])" :class="g_css[G[7]]">
+                                                        {{P[G[7]][dz]}}</div>
+                                                    <div class="C19" :style="A2_fun(P[G[8]][dz])" :class="g_css[G[8]]">
+                                                        {{fmt_tianpan(P[G[8]][dz])}}</div>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div class="C26" v-if="isNarrowLayout">
+                                    <div v-for="(tab, tabIdx) in sortedTabList" :key="'ft_'+tab.originalIndex"
+                                        :class="[fuzhu_tab_index==tab.originalIndex?'C26_on':'C26_off', c26_drag.fromIndex==tabIdx?'C26-dragging':'']"
+                                        @click="!c26_drag.longPressTriggered && (fuzhu_tab_index=tab.originalIndex)"
+                                        @mousedown.prevent="onC26PointerDown($event, tabIdx)"
+                                        @touchstart="onC26PointerDown($event, tabIdx)">
+                                        {{ tab.label }}
+                                    </div>
+                                </div>
+                                <div v-if="fuzhu_tab_index==0||!isNarrowLayout" class="C14"
+                                    :style="getTabOrderStyle(0)">
+                                    <div class="C63">
+                                        <div v-for="(item, diIdx) in sortedDianjiList" :key="'dj_'+item.originalIndex"
+                                            :class="[dianji_index==item.label?'C63_on':'C63_off', c63_drag.fromIndex==diIdx?'C26-dragging':'']"
+                                            @click="!c63_drag.longPressTriggered && (dianji_index=item.label)"
+                                            @mousedown.prevent="onC63PointerDown($event, diIdx)"
+                                            @touchstart="onC63PointerDown($event, diIdx)">
+                                            {{ item.label }}
+                                        </div>
+                                    </div>
+
+                                    <div v-if="dianji_index=='直指'" class="C66">
+                                        <div v-for="item in P.ZhiZhi.split('\n')" :key="'zz_'+item">
+                                            {{item}}
+                                        </div>
+                                    </div>
+                                    <div v-if="dianji_index=='集应钤'" class="C66">
+                                        <div v-for="item in P.JiYingQian.split('\n')" :key="'jyq_'+item">
+                                            {{item}}
+                                        </div>
+                                    </div>
+                                    <div v-if="dianji_index=='毕法'" class="C66">
+                                        <div v-for="item in P.BiFa.split('\n')" :key="'bf_'+item">
+                                            {{item}}
+                                        </div>
+                                    </div>
+                                    <div v-if="dianji_index=='课经'">
+                                        <div v-for="(item,idx) in P.KeJing" :key="'kj_'+idx">
+                                            <div v-for="(item2,index2) in item" :key="'kj_'+idx+'_'+index2" class="C67">
+                                                {{item2.key}}{{item2?.key?.length>0?':'+item2.value:''}}
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div v-if="dianji_index=='立成'" class="C64">
+                                        <div v-html="licheng" class="markdown-body">
+
+                                        </div>
+                                    </div>
+                                    <div v-if="dianji_index=='分类占'" class="C69">
+                                        <div class="C70 C72">
+                                            <div @click="SW.flz_index=item"
+                                                :class="SW.flz_index==item?'C69_on':'C69_off'"
+                                                v-for="item in SW.flz_list" :key="'flz_'+item">
+                                                {{item}}
+                                            </div>
+                                        </div>
+                                        <div class="C72">
+                                            <div v-for="(item, flzIdx) in flz_filtered_data" :key="'flzl_'+flzIdx"
+                                                class="C71">
+                                                <div class="C74" @click="flz_toggle_collapsed(flzIdx)">
+                                                    <span class="cundang-group-arrow"
+                                                        :class="{ 'cundang-group-collapsed': flz_collapsed[flzIdx] }">&#9654;</span>
+                                                    {{item.name}}
+                                                </div>
+                                                <div class="C73" v-show="!flz_collapsed[flzIdx]">
+                                                    {{item.zdff}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-if="dianji_index=='宫内详情'" class="C64">
+
+                                        <div v-html="gongneixaingqing" class="markdown-body">
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div v-if="fuzhu_tab_index==1||!isNarrowLayout" class="C14"
+                                    :style="getTabOrderStyle(1)">
+                                    <div>
+                                        <div class="C59" v-for="(item,index) in SW.shensha_tab" :key="'ss_'+index">
+                                            <div>{{index}}</div>
+                                            <div class="C60">
+                                                <div v-for="(item2,ssIdx) in item" :key="'ssi_'+ssIdx">
+                                                    {{A7_fun(item2)}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div v-if="fuzhu_tab_index==2 ||!isNarrowLayout" class="C14"
+                                    :style="getTabOrderStyle(2)">
+                                    <div class="C62">
+                                        <div class="G21 C55">问事</div>
+                                        <textarea class="C54" v-model="P._D.cundang.ws" @input="autoResize"></textarea>
+                                        <div class="G21 C55">断语</div>
+                                        <textarea class="C54" v-model="P._D.cundang.dy" @input="autoResize"></textarea>
+                                        <div class="G21 C55">反馈</div>
+                                        <textarea class="C54" v-model="P._D.cundang.fk" @input="autoResize"></textarea>
+                                        <div class="G21 C55">标签</div>
+                                    </div>
+                                    <div class="C57">
+                                        <div :class="P._D.cundang.tag==item?'C57_on':'C57_off'"
+                                            v-for="item in SW.cundang_tag" :key="'ct_'+item"
+                                            @click="P._D.cundang.tag=item">
+                                            {{item}}</div>
+                                        <input type="text" maxlength="10" v-model="P._D.cundang.tag">
+                                    </div>
+
+                                    <div class="C58">
+                                        <div @click="A6_fun()">保存</div>
+                                    </div>
+                                </div>
+                                <div v-if="fuzhu_tab_index==3 ||!isNarrowLayout" class="C14"
+                                    :style="getTabOrderStyle(3)">
+                                    <div class="C56">
+                                        <!-- 模型信息栏 -->
+                                        <div class="C49 ai-model-bar">
+                                            <span class="ai-model-label">当前模型</span>
+                                            <span class="ai-model-value">{{pan_config.openai_models_index[1]}}</span>
+                                        </div>
+
+                                        <!-- 对话消息列表 -->
+                                        <div class="C51 ai-messages" ref="aiMessages" @scroll="AI_onScroll">
+                                            <div v-for="(item,index) in P.AI_list" :key="'ai_'+index"
+                                                :class="'C50_'+item.role">
+                                                <!-- 系统提示词 -->
+                                                <div v-if="item.role=='system'" class="ai-system-hint"
+                                                    @click="tishi('提示词',item.content)">
+                                                    查看提示词
+                                                </div>
+
+                                                <!-- 用户消息：显示模式 -->
+                                                <div v-if="item.role=='user' && SW.AI_editing_index !== index"
+                                                    class="ai-user-row">
+                                                    <div class="C50_content ai-user-bubble" @click="AI_startEdit(index)"
+                                                        title="点击编辑消息">
+                                                        {{ item.content }}
+                                                    </div>
+                                                </div>
+
+                                                <!-- 用户消息：编辑模式 -->
+                                                <div v-if="item.role=='user' && SW.AI_editing_index === index"
+                                                    class="ai-edit-area">
+                                                    <textarea class="ai-edit-input" v-model="SW.AI_edit_text"
+                                                        rows="3"></textarea>
+                                                    <div class="ai-edit-actions">
+                                                        <button class="ai-edit-btn ai-edit-save"
+                                                            @click="AI_saveEdit(index)">重新发送</button>
+                                                        <button class="ai-edit-btn ai-edit-cancel"
+                                                            @click="AI_cancelEdit()">取消</button>
+                                                    </div>
+                                                </div>
+
+                                                <!-- AI 回复 -->
+                                                <div v-if="item.role=='assistant'" class="ai-assistant-row">
+                                                    <div class="C50_content ai-assistant-bubble"
+                                                        v-html="A5_fun(item.content)"></div>
+                                                    <div v-if="SW.AI_is_streaming && index === P.AI_list.length - 1"
+                                                        class="ai-typing-dot">
+                                                        <span></span><span></span><span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 空状态 -->
+                                            <div v-if="!P.AI_list || P.AI_list.length === 0" class="ai-empty">
+                                                输入问题开始对话
+                                            </div>
+                                        </div>
+
+                                        <!-- 跳转底部按钮 -->
+                                        <div v-if="SW.AI_show_jump_btn" class="ai-jump-btn" @click="AI_jumpToBottom()">
+                                            ↓
+                                        </div>
+
+                                        <!-- 输入区域 -->
+                                        <div class="C53 ai-input-area">
+                                            <textarea class="C52 ai-input" v-model="SW.AI_send_text"
+                                                placeholder="输入你的问题..." @keydown.ctrl.enter="AI_handleSendStop()"
+                                                @keydown.enter.exact.prevent="AI_handleSendStop()"
+                                                :disabled="SW.AI_is_streaming && SW.AI_editing_index < 0"></textarea>
+                                            <button class="C28 ai-send-btn"
+                                                :class="{ 'ai-stop-btn': SW.AI_is_streaming }"
+                                                :disabled="!SW.AI_is_streaming && !SW.AI_send_text.trim()"
+                                                @click="AI_handleSendStop()">
+                                                {{ SW.AI_is_streaming ? '停止' : '发送' }}
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div v-if="fuzhu_tab_index==4||!isNarrowLayout&&P.liuxun_list.length>0" class="C14"
+                                    :style="getTabOrderStyle(4)">
+                                    <div id="scrollContainer" class="C77">
+                                        <div :id="item.tags.includes('当日')?'targetId':randomString()"
+                                            v-for="item in P.liuxun_list" :key="'lx_'+item.ganzhi" class="C75"
+                                            :class="item.tags.includes('当日')&&'C79','C81_'+item.xun">
+                                            <div :style="item.tags.includes('当日')&&'color: var(--zhuti_text_clor)'">
+
+                                                {{item.ganzhi}}
+                                            </div>
+                                            <div class="C76" v-if="!item.tags.includes('当日')">
+                                                <div>
+                                                    {{A12_fun(item.dayOffset)}}
+                                                </div>
+                                                <div>
+                                                    {{item.dayOffset>0?'天后':'天前'}}
+                                                </div>
+                                            </div>
+                                            <div class="C80">
+                                                <div class="C78" v-for="(item2,tIdx) in item.tags" :key="'tag_'+tIdx">
+                                                    {{item2}}
+                                                </div>
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div v-if="fuzhu_tab_index==5 ||!isNarrowLayout" class="C14"
+                                    :style="getTabOrderStyle(5)">
+                                    <div v-if="guize_active_tags.length > 1" class="C63 guize-tag-filter">
+                                        <div :class="guize_tag_filter===null?'C63_on':'C63_off'"
+                                            @click="guize_set_tag_filter(null)">全部</div>
+                                        <div v-for="tag in guize_active_tags" :key="tag"
+                                            :class="guize_tag_filter===tag?'C63_on':'C63_off'"
+                                            @click="guize_set_tag_filter(tag)">{{ tag }}</div>
+                                    </div>
+                                    <div class="guize-results">
+                                        <div v-if="guize_filtered_results.length === 0" class="guize-empty">当前课局未匹配任何规则
+                                        </div>
+                                        <div v-for="(rule, rIdx) in guize_filtered_results" :key="'gr_'+rIdx"
+                                            class="guize-result-item" @click="guize_show_rule_detail(rule)">
+                                            <div class="guize-result-name">{{ rule.name }}</div>
+                                            <div class="guize-result-desc">{{ rule.description }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div v-if="fuzhu_tab_index==6||!isNarrowLayout" class="C14"
+                                    :style="getTabOrderStyle(6)">
+                                    <div class="C88">
+                                        <div @click="copyVerticalText()">复制竖盘信息</div>
+                                        <div @click="copyHorizontalText()">复制横盘信息</div>
+                                        <div @click="copyVerticalTable()">复制表格信息</div>
+                                        <div @click="copyVerticalDoc()">复制文档信息</div>
+                                        <div @click="copyMarkdown()">复制MD语法信息</div>
+                                        <div @click="A14_fun()">复制AI信息</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="C65" v-if="ppdata.length==0">
+                    未起课
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- 资料界面 -->
+            <div id="ziliao" v-cloak class="ziliao">
+                <div class="D1">
+                    <div @click="SW.ziliao_mulu_swg=!SW.ziliao_mulu_swg" class="D2">
+                        {{SW.ziliao_mulu_swg?'收起书籍':'展开书籍'}}
+                    </div>
+
+                    <div @click="SW.quanping=!SW.quanping">
+                        {{SW.quanping?'取消全屏':'全屏'}}
+                    </div>
+                </div>
+                <div class="D3">
+                    <div class="D4" :class="SW.ziliao_mulu_swg?'D5':'D6'" :style="'height:'+(pages_height-60)+'px;'">
+                        <!-- 搜索栏（固定顶部，不随列表滚动） -->
+                        <div class="ziliao_search_bar">
+                            <span class="ziliao_regex_toggle" :class="{ 'ziliao_regex_active': search_regex }"
+                                @click="search_regex = !search_regex; doSearch()" title="正则表达式搜索">.*</span>
+                            <input type="search" v-model="search_keyword" @input="doSearch()" @search="onSearchKey"
+                                @keydown.enter="onSearchEnter($event)" @compositionstart="isComposing=true"
+                                @compositionend="isComposing=false" :placeholder="search_regex ? '正则搜索...' : '搜索资料...'"
+                                class="ziliao_search_input">
+                        </div>
+                        <!-- 可滚动区域 -->
+                        <div class="ziliao_sidebar_list">
+                            <!-- 搜索结果 -->
+                            <template v-if="search_keyword && search_results.length > 0">
+                                <div v-for="r in search_results" :key="r.title" class="ziliao_search_item"
+                                    @click="goToSearchResult(r)">
+                                    <div class="ziliao_search_title">{{r.title}}</div>
+                                    <div class="ziliao_search_preview" v-html="r.preview"></div>
+                                </div>
+                            </template>
+                            <div v-if="search_keyword && search_results.length === 0" class="ziliao_search_empty">
+                                未找到相关内容
+                            </div>
+                            <!-- 正常书籍列表 -->
+                            <div v-show="!search_keyword"
+                                @click="ziliao_cont=ziliao_list.filter(data=>data.title==item),ziliao_index=item"
+                                v-for="item in ziliao_title" :key="'zl_'+item"
+                                :class="ziliao_index==item?'D3_on':'D3_off'">
+                                {{item}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="D10" @click="onParagraphClick($event)" id="zlpage_cont" :style="{ 
+    height: (pages_height - 60) + 'px', 
+    fontSize: ziliao_font_size + 'px' 
+  }" v-if="ziliao_cont.length>0" v-html="ziliao_cont[0].zhengwen"></div>
+
+                </div>
+                <!-- 底部控制栏 -->
+                <div class="ziliao_bottom_bar">
+                    <div class="ziliao_bottom_group">
+                        <span class="ziliao_bottom_btn" @click="ziliao_font_size=ziliao_font_size-0.5">-</span>
+                        <span class="ziliao_bottom_label">{{ziliao_font_size.toFixed(1)}}</span>
+                        <span class="ziliao_bottom_btn" @click="ziliao_font_size=ziliao_font_size+0.5">+</span>
+                    </div>
+                    <div class="ziliao_bottom_group">
+                        <span v-for="m in click_modes" :key="m.value" class="ziliao_bottom_btn"
+                            :class="{'ziliao_bottom_btn_active': click_mode === m.value}" @click="click_mode = m.value">
+                            {{m.label}}
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- 案例界面 -->
+            <div id="anli" v-cloak class="anli">
+                <div class="E6">
+                    <div class="E5" style="grid-template-columns: 1fr 1fr 5fr 1.5fr;">
+                        <div @click="page_code!=2?page_code=2:page_code=0">
+                            标签
+                        </div>
+                        <span class="ziliao_regex_toggle" :class="{ 'ziliao_regex_active': search_regex }"
+                            @click="search_regex = !search_regex" title="正则表达式搜索">.*</span>
+                        <input type="search" v-model="search_text" @search="onSearchKey"
+                            @keydown.enter="onSearchEnter($event)" @compositionstart="isComposing=true"
+                            @compositionend="isComposing=false">
+                        <div @click="A2_fun()">搜索</div>
+                    </div>
+                    <!-- 案例分类切换 -->
+                    <div class="E5 case-cat-bar">
+                        <div :class="caseCategory==='ancient'?'case-cat-on':'case-cat-off'"
+                            @click="switchCategory('ancient')">古代案例</div>
+                        <div :class="caseCategory==='modern'?'case-cat-on':'case-cat-off'"
+                            @click="switchCategory('modern')">现代案例</div>
+                    </div>
+                    <div class="E7" v-if="page_code==2">
+                        <div class="E8">
+                            <div>当前标签:{{tag}}</div>
+                            <div @click="page_code=0,tag='未选择',search_text=''">关闭筛选</div>
+                        </div>
+                        <div class="E9">
+                            <div :class="tag==item?'E9_no':'E9_off'" @click="search_text=item,tag=item,A2_fun()"
+                                v-for="item in tag_list" :key="'atl_'+item">
+                                {{item}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="E1">
+                    <div v-for="(item,index) in cundang_list.slice(0, show_count)" :key="'ac_'+index"
+                        @click="A1_fun(item)">
+                        <div class="E3">
+                            <div>
+                                <div class="E2">
+                                    <div>日期 <span v-if="page_code==1 && item.source" class="case-source-tag"
+                                            :class="item.source==='ancient'?'case-source-ancient':'case-source-modern'">{{
+                                            item.source==='ancient' ? '古' : '今' }}</span></div>
+                                    <div v-if="item.zhenghuoshi!='四柱'">{{item.Date}} {{item.Time}}</div>
+                                    <div v-if="item.zhenghuoshi=='四柱'">{{A6_fun(item.sizhu)}}</div>
+
+                                </div>
+                                <div class="E2" v-if="item.cundang.ws.length>0">
+                                    <div>问事</div>
+                                    <div v-if="page_code==1" v-html="highlightSearch(item.cundang.ws)"></div>
+                                    <div v-else>{{A7_fun(item.cundang.ws)}}</div>
+                                </div>
+                                <div class="E2" v-if="item.cundang.dy.length>0">
+                                    <div>断语</div>
+                                    <div v-if="page_code==1" v-html="highlightSearch(item.cundang.dy)"></div>
+                                    <div v-else>{{A7_fun(item.cundang.dy)}}</div>
+                                </div>
+                                <div class="E2" v-if="item.cundang.fk.length>0">
+                                    <div>反馈</div>
+                                    <div v-if="page_code==1" v-html="highlightSearch(item.cundang.fk)"></div>
+                                    <div v-else>{{A7_fun(item.cundang.fk)}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="E10" v-if="cundang_list.length==0">
+                        啥也没有
+                    </div>
+                    <div v-if="show_count < cundang_list.length" class="load-more-btn" @click="loadMore()">
+                        加载更多 ({{show_count}}/{{cundang_list.length}})
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- 存档界面 -->
+            <div id="cundang" v-cloak class="cundang">
+                <div class="F6">
+                    <div class="F5">
+                        <input type="search" v-model="search_text" placeholder="搜索存档..." @search="onSearchKey"
+                            @keydown.enter="onSearchEnter($event)" @compositionstart="isComposing=true"
+                            @compositionend="isComposing=false">
+                        <div class="cundang-manage-btn" @click="toggle_manage()" :class="{'active': manage_mode}">
+                            {{manage_mode ? '取消' : '管理'}}</div>
+                    </div>
+                </div>
+                <!-- 批量管理工具栏 -->
+                <div v-if="manage_mode" class="manage-toolbar">
+                    <span @click="select_all()">全选</span>
+                    <span @click="deselect_all()">取消全选</span>
+                    <span @click="batch_delete()" style="color:#c00;">删除({{selected_ids.length}})</span>
+                    <select @change="batch_change_tag($event.target.value); $event.target.value=''"
+                        class="manage-tag-select">
+                        <option value="">改标签...</option>
+                        <option v-for="t in tag_list" :value="t">{{t}}</option>
+                    </select>
+                </div>
+                <div class="F1">
+                    <div v-for="group in cundang_grouped" :key="'grp_'+group.tag" class="cundang-group">
+                        <div class="cundang-group-header" @click="toggle_group(group.tag)">
+                            <span class="cundang-group-arrow"
+                                :class="{ 'cundang-group-collapsed': group.collapsed }">▶</span>
+                            <span class="cundang-group-name">{{group.tag}}</span>
+                            <span class="cundang-group-count">({{group.items.length}})</span>
+                        </div>
+                        <div v-show="!group.collapsed" class="cundang-group-body">
+                            <div v-for="(item,index) in group.items" :key="item.id||index"
+                                @click="manage_mode ? toggle_select(item.id) : A1_fun(item)"
+                                :class="{'cundang-selected': selected_ids.indexOf(item.id)!==-1}">
+                                <div class="F3">
+                                    <div style="display:flex;align-items:center;gap:6px;">
+                                        <input v-if="manage_mode" type="checkbox"
+                                            :checked="selected_ids.indexOf(item.id)!==-1"
+                                            @click.stop="toggle_select(item.id)" class="cundang-checkbox">
+                                        <div>
+                                            <div class="F2">
+                                                <div>日期</div>
+                                                <div v-if="item.zhenghuoshi!='四柱'">{{item.Date}} {{item.Time}}</div>
+                                                <div v-if="item.zhenghuoshi=='四柱'">{{A6_fun(item.sizhu)}}</div>
+                                            </div>
+                                            <div class="F2" v-if="item.cundang.ws.length>0">
+                                                <div>问事</div>
+                                                <div v-if="search_text" v-html="highlightSearch(item.cundang.ws)"></div>
+                                                <div v-else>{{A7_fun(item.cundang.ws)}}</div>
+                                            </div>
+                                            <div class="F2" v-if="item.cundang.dy.length>0">
+                                                <div>断语</div>
+                                                <div v-if="search_text" v-html="highlightSearch(item.cundang.dy)"></div>
+                                                <div v-else>{{A7_fun(item.cundang.dy)}}</div>
+                                            </div>
+                                            <div class="F2" v-if="item.cundang.fk.length>0">
+                                                <div>反馈</div>
+                                                <div v-if="search_text" v-html="highlightSearch(item.cundang.fk)"></div>
+                                                <div v-else>{{A7_fun(item.cundang.fk)}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-if="!manage_mode" class="F4" @click.stop="A3_fun(item.id)">删除</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="F10" v-if="cundang_list.length==0">
+                        啥也没有
+                    </div>
+                    <!-- 回收站 -->
+                    <div class="cundang-group recycle-bin-section">
+                        <div class="cundang-group-header recycle-bin-header"
+                            @click="recycle_bin_expanded=!recycle_bin_expanded">
+                            <span class="cundang-group-arrow"
+                                :class="{'cundang-group-collapsed':!recycle_bin_expanded}">▶</span>
+                            <span>🗑 回收站</span>
+                            <span class="cundang-group-count">({{(DOC_DATA.recycle_bin||[]).length}})</span>
+                            <span v-if="(DOC_DATA.recycle_bin||[]).length>0" class="recycle-clear-btn"
+                                @click.stop="clear_recycle_bin()">清空</span>
+                        </div>
+                        <div v-show="recycle_bin_expanded" class="cundang-group-body">
+                            <div v-for="(item, rIdx) in (DOC_DATA.recycle_bin||[])" :key="'rb_'+rIdx"
+                                class="F3 recycle-item">
+                                <div>
+                                    <div class="F2">
+                                        <div>日期</div>
+                                        <div>{{item.Date}} {{item.Time}}</div>
+                                    </div>
+                                    <div class="F2" v-if="item.cundang && item.cundang.ws">
+                                        <div>问事</div>
+                                        <div>{{A7_fun(item.cundang.ws)}}</div>
+                                    </div>
+                                    <div class="recycle-time">{{format_deleted_time(item._deleted_at)}}</div>
+                                </div>
+                                <div style="display:flex;gap:6px;">
+                                    <div class="F4 recycle-restore" @click.stop="restore_item(rIdx)">恢复</div>
+                                    <div class="F4 recycle-delete" @click.stop="permanent_delete(rIdx)">删除</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- 设置界面 -->
+            <div id="config" v-cloak class="config">
+                <div class="G1">
+                    <div v-for="(item,index) in table_list" :key="'tl_'+index" @click="SW.table_index=index"
+                        :class="SW.table_index==index?'G1_no':'G1_off'">{{item}}</div>
+                </div>
+                <div v-if="SW.table_index==0" class="G2">
+                    <div>
+                        <div>字体大小</div>
+                        <input class="G27" type="range" :value="SW.pages_config_font_size" @change="A4_fun" step="0.1"
+                            min="8" max="30">
+                    </div>
+                    <div>
+                        <div>移动端导航栏高度</div>
+                        <input type="range" class="G27" v-model.number="SW.pages_config_tab_height" step="0.1" min="5"
+                            max="10">
+                    </div>
+                    <div>
+                        <div>页面背景颜色</div>
+                        <input type="color" v-model="pages_config.zhuti_config.zhuti_back_clor">
+                    </div>
+                    <div>
+                        <div>主要文字颜色</div>
+                        <input type="color" v-model="pages_config.zhuti_config.zhuti_text_clor">
+                    </div>
+                    <div>
+
+                        <div>元素边框颜色</div>
+                        <input type="color" v-model="pages_config.zhuti_config.zhuti_bord_clor">
+                    </div>
+                    <div>
+                        <div>按钮背景颜色</div>
+                        <input type="color" v-model="pages_config.zhuti_config.zhuti_butn_clor">
+                    </div>
+                    <div>
+                        <div>按钮文字颜色</div>
+                        <input type="color" v-model="pages_config.zhuti_config.zhuti_bute_clor">
+                    </div>
+
+                    <div>
+                        <div>当前字体</div>
+                        <div>
+                            <select v-model="pages_config.zhuti_config.fontfamily">
+                                <option :style="'font-family:'+item.value" :value="item.value"
+                                    v-for="item in fontfamily_list" :key="item.value||item.name">
+                                    {{ item.name }}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- 窗口显示面板 -->
+                    <div class="page-toggle-panel">
+                        <div class="page-toggle-title">窗口显示</div>
+                        <div class="page-toggle-list">
+                            <label class="page-toggle-item" v-for="(item, pgIdx) in getSortedPageList()" :key="item.key"
+                                :class="{ 'page-dragging': pageDrag.fromIndex==pgIdx }"
+                                @mousedown.prevent="onPageDragPointerDown($event, pgIdx)"
+                                @touchstart="onPageDragPointerDown($event, pgIdx)">
+                                <input type="checkbox" :checked="pagesEnabled[item.key]" :disabled="item.key==='config'"
+                                    @change="e => { if(!pageDrag.longPressTriggered) { pagesEnabled[item.key] = e.target.checked; onPageToggle(item.key); } }">
+                                {{ item.label }}
+                            </label>
+                        </div>
+                    </div>
+                    <!-- 小屏面板设置 -->
+                    <div class="page-toggle-panel">
+                        <div class="page-toggle-title">小屏面板</div>
+                        <label class="page-toggle-item">
+                            <input type="checkbox" v-model="pages_config.minfold_auto_enter">
+                            自动进入小屏面板
+                        </label>
+                    </div>
+                    <div>
+                        <button class="G26" @click="config_sava()">保存并刷新</button>
+                    </div>
+
+
+
+
+                </div>
+                <div v-if="SW.table_index==1">
+                    <div class="G14">
+                        <div class="G10">
+                            设置宫内符号排布
+                        </div>
+                        <div class="G3">
+                            <select class="G4" v-model="gongnei_config[0]">
+                                <option v-for="item in gongge_arr2" :key="'g2_'+item" :value="item">
+                                    {{item}}
+                                </option>
+                            </select>
+                            <div class="G5">
+                                <div class="G6">
+                                    <select v-model="gongnei_config[1]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+                                    <select v-model="gongnei_config[2]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+                                    <select v-model="gongnei_config[3]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+                                    <select v-model="gongnei_config[4]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="G6">
+
+                                    <select v-model="gongnei_config[5]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+
+                                    <select v-model="gongnei_config[6]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+
+                                    <select v-model="gongnei_config[7]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+
+                                    <select v-model="gongnei_config[8]">
+                                        <option v-for="item in gongge_arr1" :key="'g1_'+item" :value="item">
+                                            {{item}}
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="G14 G15">
+                        <div class="G10">通道线</div>
+                        <div class="G12" @click="pan_config.tongdaoxian_sw=!pan_config.tongdaoxian_sw">
+                            <input type="checkbox" v-model="pan_config.tongdaoxian_sw">
+                            <div>
+                                {{pan_config.tongdaoxian_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">宫内三传文字</div>
+                        <div class="G12" @click="pan_config.SanChuan_gong_sw=!pan_config.SanChuan_gong_sw">
+                            <input type="checkbox" v-model="pan_config.SanChuan_gong_sw">
+                            <div>
+                                {{pan_config.SanChuan_gong_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">宫内空亡凹陷</div>
+                        <div class="G12" @click="pan_config.kongwang_gong_sw=!pan_config.kongwang_gong_sw">
+                            <input type="checkbox" v-model="pan_config.kongwang_gong_sw">
+                            <div>
+                                {{pan_config.kongwang_gong_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">天官简写</div>
+                        <div class="G12" @click="pan_config.tianguan_abbr_sw=!pan_config.tianguan_abbr_sw">
+                            <input type="checkbox" v-model="pan_config.tianguan_abbr_sw">
+                            <div>
+                                {{pan_config.tianguan_abbr_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">天盘全称</div>
+                        <div class="G12" @click="pan_config.tianpan_style_sw=!pan_config.tianpan_style_sw">
+                            <input type="checkbox" v-model="pan_config.tianpan_style_sw">
+                            <div>
+                                {{pan_config.tianpan_style_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">六亲简写</div>
+                        <div class="G12" @click="pan_config.liuqin_abbr_sw=!pan_config.liuqin_abbr_sw">
+                            <input type="checkbox" v-model="pan_config.liuqin_abbr_sw">
+                            <div>
+                                {{pan_config.liuqin_abbr_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">神煞竖排</div>
+                        <div class="G12" @click="pan_config.shensha_vertical_sw=!pan_config.shensha_vertical_sw">
+                            <input type="checkbox" v-model="pan_config.shensha_vertical_sw">
+                            <div>
+                                {{pan_config.shensha_vertical_sw?"已开启":"已关闭"}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="G14 G15">
+                        <div class="G10">盘面方格宽度</div>
+                        <input type="range" @change="A3_fun()" class="G27" v-model.number="pan_config.fangge_width"
+                            step="0.1" min="300" max="1000">
+                    </div>
+                    <div class="G14">
+                        <div class="G15">
+                            <div class="G10">宫内文字颜色选择</div>
+                            <select v-model="pan_config.fh_color_type">
+                                <option v-for="(item,index) in pan_config.fh_color_list" :key="'fcl_'+index"
+                                    :value="index">
+                                    {{item}}
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <div class="G8" v-if="pan_config.fh_color_type!=0">
+                                <div class="G9" v-if="pan_config.fh_color_type==1">
+                                    <div class="G11" v-for="(item,index) in pan_config.fh_color_wx" :key="'wx_'+index">
+                                        <div :style="{color:pan_config.fh_color_wx[index]}">{{tpy(index)}}</div>
+                                        <input type="color" v-model="pan_config.fh_color_wx[index]" />
+                                    </div>
+
+                                </div>
+
+                                <div class="G9" v-if="pan_config.fh_color_type==2">
+                                    <div class="G11" v-for="(item,index) in pan_config.fh_color_wq" :key="'wq_'+index">
+                                        <div> {{tpy(index)}}</div>
+                                        <input type="color" v-model="pan_config.fh_color_wq[index]" />
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div v-if="SW.table_index==2" class="G18">
+                    <div class="G19">
+                        <div class="G20">
+                            <div class="G21">
+                                厂商:
+                            </div>
+                            <select v-model="pan_config.openai_models_index[0]">
+                                <option v-for="(item,index) in pan_config.openai_models_list" :key="'oml_'+index"
+                                    :value="index">
+                                    {{item.apiSelect}}
+                                </option>
+                            </select>
+                        </div>
+                        <div class="G20">
+                            <div class="G21">
+                                API Base URL:
+                            </div>
+                            </select>
+                            <input placeholder="API Base URL" type="text"
+                                v-model="pan_config.openai_models_list[pan_config.openai_models_index[0]].url">
+                        </div>
+                        <div class="G20">
+                            <div class="G21">
+                                <div>
+                                    apiKey:
+                                </div>
+                                <div class="G24"
+                                    @click="A2_fun(pan_config.openai_models_list[pan_config.openai_models_index[0]].getkeyurl)">
+                                    申请
+                                </div>
+
+                            </div>
+                            <input placeholder="apiKey" type="text"
+                                v-model="pan_config.openai_models_list[pan_config.openai_models_index[0]].apiKey">
+                        </div>
+                        <div class="G20">
+                            <div class="G21">
+                                模型:
+                            </div>
+                            <select v-model="pan_config.openai_models_index[1]">
+                                <option
+                                    v-for="(item,index) in pan_config.openai_models_list[pan_config.openai_models_index[0]].models"
+                                    :key="'mdl_'+index" :value="item">
+                                    {{item}}
+                                </option>
+                            </select>
+
+                        </div>
+                        <div class="G20">
+                            <div class="G21">最大回复字符限制</div>
+                            <input type="number" min="100" max="16384" step="100"
+                                v-model.number="pan_config.openai_max_tokens" placeholder="8192">
+                        </div>
+                        <div class="G23">
+                            <div v-if="pan_config.openai_models_list[pan_config.openai_models_index[0]].apiKey.length>5&&SW.get_models_code==0"
+                                class="G22" @click="A1_fun()">
+                                连通测试
+                            </div>
+                            <svg v-if="SW.get_models_code==1" width="20" height="20" viewBox="0 0 50 50">
+                                <!-- 背景灰色轨道（可选，让进度更明显） -->
+                                <circle cx="25" cy="25" r="20" fill="none" stroke="#e0e0e0" stroke-width="4" />
+
+                                <!-- 动态加载的进度条 -->
+                                <circle cx="25" cy="25" r="20" fill="none" stroke="#0075ff" stroke-width="4"
+                                    stroke-linecap="round" stroke-dasharray="125.6" stroke-dashoffset="125.6">
+                                    <!-- 旋转动画 -->
+                                    <animateTransform attributeName="transform" type="rotate" from="0 25 25"
+                                        to="360 25 25" dur="1.5s" repeatCount="indefinite" />
+                                    <!-- 进度伸缩动画 -->
+                                    <animate attributeName="stroke-dashoffset" values="125.6;31.4;125.6" dur="1.5s"
+                                        repeatCount="indefinite" />
+                                </circle>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="G21">AI提示词</div>
+                        <textarea class="G25" placeholder="AI提示词" type="text"
+                            v-model="pan_config.openai_models_tishici"></textarea>
+                    </div>
+
+                </div>
+
+
+
+                <div v-if="SW.table_index==3" class="G18">
+                    <div class="G17" @click="SW.vconsole_sw=!SW.vconsole_sw">{{SW.vconsole_sw?'关闭调试':'开启调试'}}
+                    </div>
+                    <div class="G17" v-if="SW.NativeAppBridge">
+                        <div>设置状态栏颜色</div>
+                        <input type="color" v-model="pages_config.zhuti_config.zhuti_ztl_clor">
+                    </div>
+                    <div class="G17" @click="outputdata">
+                        导出全部数据
+                    </div>
+                    <div class="G17" @click="outputdata_rules">
+                        导出规则数据
+                    </div>
+                    <div class="G17" @click="outputdata_archive">
+                        导出存档数据
+                    </div>
+                    <label class="G16 G17">
+                        <input type="file" accept=".json" @change="inputdata">
+                        导入数据
+                    </label>
+                </div>
+
+                <!-- 规则管理 SW.table_index==4 -->
+                <div v-if="SW.table_index==4" class="guize-mgmt">
+                    <!-- 规则列表 -->
+                    <div v-if="!guize_data.editing_rule" class="guize-list">
+                        <div class="guize-list-header">
+                            <span>规则列表</span>
+                            <div class="guize-list-actions">
+                                <span class="G17" @click="guize_fetch_cloud"
+                                    :style="guize_cloud_loading ? 'pointer-events:none;opacity:0.6;' : ''">
+                                    <img v-if="guize_cloud_loading" src="./static/jiazai.svg" alt="加载中"
+                                        style="width:14px;height:14px;vertical-align:middle;margin-right:3px;">
+                                    {{ guize_cloud_loading ? '获取中...' : '获取云端规则' }}
+                                </span>
+                                <span class="G17" @click="guize_new_rule">新建规则</span>
+                            </div>
+                        </div>
+                        <div class="guize-search-box">
+                            <input type="search" v-model="guize_search_text" placeholder="搜索规则名称或描述..."
+                                @search="onGuizeSearchKey" @keydown.enter="onGuizeSearchEnter($event)"
+                                @compositionstart="isComposing=true" @compositionend="isComposing=false">
+                        </div>
+                        <div v-if="guize_data.list.length === 0" class="guize-empty">暂无规则，请点击“新建规则”</div>
+                        <div v-if="guize_grouped_rules.length === 0 && guize_data.list.length > 0" class="guize-empty">
+                            未找到匹配的规则</div>
+                        <!-- 分组列表 -->
+                        <div v-for="group in guize_grouped_rules" :key="'grp_'+group.tag" class="guize-group">
+                            <div class="guize-group-header" @click="guize_toggle_group(group.tag)">
+                                <span class="guize-group-arrow"
+                                    :class="{ 'guize-group-collapsed': group.collapsed }">▶</span>
+                                <span class="guize-group-name">{{group.tag}}</span>
+                                <span class="guize-group-count">({{group.rules.length}})</span>
+                            </div>
+                            <div v-show="!group.collapsed" class="guize-group-body">
+                                <div v-for="rule in group.rules" :key="'rl_'+rule.id" class="guize-list-item">
+                                    <span class="guize-toggle"
+                                        @click="guize_toggle_rule(guize_get_rule_index(rule.id))">{{
+                                        rule.enabled !==
+                                        false ? '✓' : '✗' }}</span>
+                                    <div class="guize-item-info">
+                                        <span class="guize-item-name">{{ rule.name }}<span v-if="rule.locked"
+                                                class="guize-lock-icon">🔒</span></span>
+                                        <span class="guize-item-desc" v-if="rule.description">{{ rule.description
+                                            }}</span>
+                                    </div>
+                                    <span class="guize-item-actions">
+                                        <span @click="guize_copy_rule(rule.id)">复制</span>
+                                        <span @click="guize_edit_rule(guize_get_rule_index(rule.id))">编辑</span>
+                                        <span @click="guize_toggle_lock(rule.id)">{{ rule.locked ? '解锁' : '锁定' }}</span>
+                                        <span @click="guize_delete_rule(guize_get_rule_index(rule.id))">删除</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 规则编辑面板 -->
+                    <div v-if="guize_data.editing_rule" class="guize-editor">
+                        <div class="guize-editor-header">
+                            <span>{{ guize_data.editing_index >= 0 ? '编辑规则' : '新建规则' }}</span>
+                            <div>
+                                <span class="G17" @click="guize_save_rule">保存</span>
+                                <span class="G17" @click="guize_cancel_edit">取消</span>
+                            </div>
+                        </div>
+                        <div class="guize-editor-field">
+                            <label>名称</label>
+                            <input style="width: 100%;" v-model="guize_data.editing_rule.name" placeholder="规则名称">
+                        </div>
+                        <div class="guize-editor-field">
+                            <label>描述</label>
+                            <textarea style="width: 100%;" v-model="guize_data.editing_rule.description"
+                                placeholder="规则描述" rows="3"></textarea>
+                        </div>
+                        <div class="guize-editor-field">
+                            <label>标签分组</label>
+                            <div class="guize-tag-editor">
+                                <div class="guize-tag-list" v-if="(guize_data.editing_rule.tags || []).length">
+                                    <span v-for="tag in (guize_data.editing_rule.tags || [])" :key="'et_'+tag"
+                                        class="guize-tag-chip">
+                                        {{tag}}
+                                        <span @click.stop="guize_remove_tag_from_editing(tag)"
+                                            class="guize-tag-remove">×</span>
+                                    </span>
+                                </div>
+                                <div class="guize-tag-select" v-if="guize_all_tags.length">
+                                    <span
+                                        v-for="tag in guize_all_tags.filter(t => !(guize_data.editing_rule.tags||[]).includes(t))"
+                                        :key="'at_'+tag" class="guize-tag-option"
+                                        @click="guize_add_tag_to_editing(tag)">
+                                        +{{tag}}
+                                    </span>
+                                </div>
+                                <div class="guize-tag-input-row">
+                                    <input type="text" v-model="guize_tag_input" placeholder="输入新标签"
+                                        @keyup.enter="guize_add_custom_tag">
+                                    <span class="G17" @click="guize_add_custom_tag">添加</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="guize-editor-field">
+                            <label>依赖规则</label>
+                            <input type="text" v-model="guize_depends_search" placeholder="搜索规则名称..."
+                                class="guize-depends-search">
+                            <div class="guize-depends" style="max-height:200px;overflow-y:auto;">
+                                <label v-for="dep in guize_depends_options()" :key="'dep_'+dep.id"
+                                    :class="{'guize-depends-selected': dep.selected}">
+                                    <input type="checkbox" :value="dep.id" :checked="dep.selected"
+                                        @change="guize_data.editing_rule.depends_on = ($event.target.checked ? [...(guize_data.editing_rule.depends_on||[]), dep.id] : (guize_data.editing_rule.depends_on||[]).filter(x=>x!==dep.id))">
+                                    当"{{ dep.name }}"匹配时触发
+                                </label>
+                            </div>
+                        </div>
+                        <div class="guize-editor-field">
+                            <label>条件</label>
+                            <div class="guize-tree">
+                                <template
+                                    v-for="(item, tIdx) in guize_flatten_tree(guize_data.editing_rule.condition_tree)"
+                                    :key="'t_'+tIdx">
+                                    <!-- AND/OR 连接词 -->
+                                    <div v-if="item.type === 'logic'" class="guize-tree-logic"
+                                        :style="{ marginLeft: item.depth * 24 + 'px' }">
+                                        <span class="guize-logic-badge"
+                                            :class="item.logic === 'AND' ? 'guize-and' : 'guize-or'"
+                                            @click="item.child.logic = item.child.logic === 'AND' ? 'OR' : 'AND'">
+                                            {{ item.logic === 'AND' ? '并且' : '或者' }}
+                                        </span>
+                                    </div>
+                                    <!-- 组头 -->
+                                    <div v-if="item.type === 'group'" class="guize-tree-group"
+                                        :style="{ marginLeft: item.depth * 24 + 'px' }">
+                                        <span class="guize-group-label">条件组</span>
+                                        <span class="guize-tree-btn" @click="guize_add_leaf(item.node)">加条件</span>
+                                        <span class="guize-tree-btn" @click="guize_add_group(item.node)">加组</span>
+                                        <span v-if="item.depth > 0" class="guize-tree-btn guize-del"
+                                            @click="guize_remove_child(item.parent, item.childIndex)">删除组</span>
+                                    </div>
+                                    <!-- 叶子条件 -->
+                                    <div v-if="item.type === 'leaf'" class="guize-tree-leaf"
+                                        :style="{ marginLeft: item.depth * 24 + 'px' }">
+                                        <label class="guize-negate-label"
+                                            :title="item.leaf.negated ? '条件取反：不满足时才算命中' : '条件成立：满足时才算命中（默认）'">
+                                            <input type="checkbox" :checked="!item.leaf.negated"
+                                                @change="item.leaf.negated = !$event.target.checked">
+                                            <span>成立</span>
+                                        </label>
+                                        <select v-model="item.leaf._cat"
+                                            @change="item.leaf.paramPath=''; item.leaf._subCatParam=''; item.leaf._subName=''; item.leaf.operator='等于'; item.leaf.value=''">
+                                            <option value="">选分类</option>
+                                            <option v-for="cat in guize_categories" :key="cat" :value="cat">{{ cat }}
+                                            </option>
+                                        </select>
+                                        <select :value="item.leaf._subCatParam || item.leaf.paramPath"
+                                            @change="item.leaf.paramPath=$event.target.value; item.leaf._subCatParam=''; item.leaf._subName=''; item.leaf.operator='等于'; item.leaf.value=''">
+                                            <option value="">选参数</option>
+                                            <option v-for="p in guize_get_param_options(item.leaf._cat || '')"
+                                                :key="p.value" :value="p.value">{{ p.label }}</option>
+                                        </select>
+                                        <!-- 神煞子选项（岁煞/季煞/月煞等 → 具体神煞名） -->
+                                        <select
+                                            v-if="item.leaf._cat === '神煞' && guize_get_sub_options(item.leaf._subCatParam || item.leaf.paramPath)"
+                                            v-model="item.leaf._subName"
+                                            @change="guize_set_sub_param(item.leaf, item.leaf._subCatParam || item.leaf.paramPath, $event.target.value)">
+                                            <option value="">选神煞</option>
+                                            <option
+                                                v-for="s in guize_get_sub_options(item.leaf._subCatParam || item.leaf.paramPath).subOptions"
+                                                :key="s" :value="s">{{ s }}</option>
+                                        </select>
+                                        <select v-model="item.leaf.operator" @change="item.leaf.value=''">
+                                            <option v-for="op in guize_get_operator_options(item.leaf.paramPath)"
+                                                :key="op.value" :value="op.value">{{ op.label }}</option>
+                                        </select>
+                                        <template v-if="!guize_is_no_value_op(item.leaf.paramPath, item.leaf.operator)">
+                                            <!-- 多选标签模式（包含/不包含 + 固定选项 + 非引用模式） -->
+                                            <template
+                                                v-if="guize_is_multi_op(item.leaf.operator) && guize_has_fixed_options(item.leaf.paramPath, item.leaf.operator, item.leaf._useRef) && !item.leaf._useRef">
+                                                <div class="guize-multi-select">
+                                                    <span
+                                                        v-for="v in guize_get_value_options(item.leaf.paramPath, item.leaf.operator)"
+                                                        :key="v" class="guize-multi-tag"
+                                                        :class="{ 'guize-multi-on': Array.isArray(item.leaf.value) && item.leaf.value.includes(v) }"
+                                                        @click="guize_toggle_multi(item.leaf, v)">{{ v }}</span>
+                                                </div>
+                                                <span
+                                                    v-if="guize_is_ref_value_op(item.leaf.operator, item.leaf.paramPath)"
+                                                    class="guize-tree-btn" style="font-size:0.7em"
+                                                    @click="guize_toggle_ref_mode(item.leaf)">+引用其他参数</span>
+                                            </template>
+                                            <!-- 单选模式（等于/不等于/地支关系的固定选项，非引用模式） -->
+                                            <template
+                                                v-else-if="guize_has_fixed_options(item.leaf.paramPath, item.leaf.operator, item.leaf._useRef) && !(item.leaf._useRef && guize_is_ref_op(item.leaf.operator))">
+                                                <select v-model="item.leaf.value">
+                                                    <option value="">选值</option>
+                                                    <option
+                                                        v-for="v in guize_get_value_options(item.leaf.paramPath, item.leaf.operator)"
+                                                        :key="v" :value="v">{{ v }}</option>
+                                                </select>
+                                                <span v-if="guize_is_ref_op(item.leaf.operator) && !item.leaf._useRef"
+                                                    class="guize-tree-btn" style="font-size:0.7em"
+                                                    @click="guize_toggle_ref_mode(item.leaf)">+引用其他参数</span>
+                                            </template>
+                                            <!-- 多参数引用模式（包含/不包含 + _useRef） -->
+                                            <template
+                                                v-else-if="guize_is_ref_value_op(item.leaf.operator, item.leaf.paramPath) && item.leaf._useRef">
+                                                <span class="guize-tree-btn" style="font-size:0.7em"
+                                                    @click="guize_toggle_ref_mode(item.leaf)">→返回选标签</span>
+                                                <div v-if="Array.isArray(item.leaf._refPaths) && item.leaf._refPaths.length"
+                                                    class="guize-multi-select" style="margin-bottom:2px">
+                                                    <span v-for="(rp, rIdx) in item.leaf._refPaths" :key="'rp_'+rIdx"
+                                                        class="guize-multi-tag guize-multi-on">
+                                                        {{ guize_resolve_ref_path(rp.path) }}
+                                                        <span @click.stop="guize_remove_ref_param(item.leaf, rIdx)"
+                                                            style="margin-left:4px">×</span>
+                                                    </span>
+                                                </div>
+                                                <select v-model="item.leaf._refCat"
+                                                    @change="item.leaf._refPath=''; item.leaf._refSubCatParam=''; item.leaf._refSubName=''"
+                                                    style="font-size:0.8em">
+                                                    <option value="">选分类</option>
+                                                    <option v-for="c in guize_ref_categories()" :key="c" :value="c">{{ c
+                                                        }}</option>
+                                                </select>
+                                                <select v-model="item.leaf._refPath"
+                                                    @change="item.leaf._refSubCatParam=''; item.leaf._refSubName=''"
+                                                    style="font-size:0.8em">
+                                                    <option value="">选参数</option>
+                                                    <option
+                                                        v-for="p in guize_ref_param_options_all(item.leaf._refCat||'')"
+                                                        :key="p.value" :value="p.value">{{ p.label }}</option>
+                                                </select>
+                                                <!-- 引用参数的神煞子选项（第三级） -->
+                                                <select
+                                                    v-if="item.leaf._refCat === '神煞' && guize_ref_get_sub_options(item.leaf._refPath)"
+                                                    v-model="item.leaf._refSubName"
+                                                    @change="guize_ref_set_sub_param(item.leaf, item.leaf._refPath, $event.target.value)"
+                                                    style="font-size:0.8em">
+                                                    <option value="">选神煞</option>
+                                                    <option
+                                                        v-for="s in guize_ref_get_sub_options(item.leaf._refPath).subOptions"
+                                                        :key="s" :value="s">{{ s }}</option>
+                                                </select>
+                                                <span v-if="item.leaf._refCat && item.leaf._refPath"
+                                                    class="guize-tree-btn" style="font-size:0.7em"
+                                                    @click="guize_add_ref_param(item.leaf)">+添加</span>
+                                            </template>
+                                            <!-- 单参数引用模式（克/生/等于/不等于/地支关系） -->
+                                            <template
+                                                v-else-if="guize_is_ref_op(item.leaf.operator) && (item.leaf.operator === '克' || item.leaf.operator === '生' || item.leaf._useRef)">
+                                                <select v-model="item.leaf._refCat"
+                                                    @change="item.leaf._refPath=''; item.leaf._refSubCatParam=''; item.leaf._refSubName=''">
+                                                    <option value="">选分类</option>
+                                                    <option v-for="c in guize_ref_categories()" :key="c" :value="c">{{ c
+                                                        }}</option>
+                                                </select>
+                                                <select v-model="item.leaf._refPath"
+                                                    @change="item.leaf._refSubCatParam=''; item.leaf._refSubName=''">
+                                                    <option value="">选参数</option>
+                                                    <option
+                                                        v-for="p in guize_ref_param_options_all(item.leaf._refCat||'')"
+                                                        :key="p.value" :value="p.value">{{ p.label }}</option>
+                                                </select>
+                                                <!-- 引用参数的神煞子选项（第三级） -->
+                                                <select
+                                                    v-if="item.leaf._refCat === '神煞' && guize_ref_get_sub_options(item.leaf._refPath)"
+                                                    v-model="item.leaf._refSubName"
+                                                    @change="guize_ref_set_sub_param(item.leaf, item.leaf._refPath, $event.target.value)"
+                                                    style="font-size:0.8em">
+                                                    <option value="">选神煞</option>
+                                                    <option
+                                                        v-for="s in guize_ref_get_sub_options(item.leaf._refPath).subOptions"
+                                                        :key="s" :value="s">{{ s }}</option>
+                                                </select>
+                                            </template>
+                                            <input v-else v-model="item.leaf.value" placeholder="输入值">
+                                        </template>
+                                        <span class="guize-tree-btn guize-del"
+                                            @click="guize_remove_child(item.parent, item.childIndex)">×</span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 
+
+            <button v-if="SW.NativeAppBridge" @click="btnSetColor">设置状态栏颜色</button>
+            <button v-if="SW.NativeAppBridge" @click="btnGetColor">获取状态栏颜色</button>
+            <button v-if="SW.NativeAppBridge" @click="btnHideBar">隐藏状态栏</button>
+            <button v-if="SW.NativeAppBridge" @click="btnShowBar">显示状态栏</button> -->
+
+            </div>
+
+
+        </div>
+    </main>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- 小折叠屏幕 -->
+    <div id="min_fold" v-cloak class="minfold">
+        <div class="minfold-grid">
+            <!-- 公历 -->
+            <div class="mf-row mf-gongli" id="A123">
+                <div :id="'A'+index" v-for="(item,index) in data_obj.DateTime" :key="'dt_'+index">
+                    {{item+dt_kdy[index]}}
+                </div>
+            </div>
+            <!-- 农历 -->
+            <div class="mf-row mf-nongli" id="A124">
+                <div v-for="(item,index) in data_obj.nongli" :key="'nl_'+index">
+                    {{item}}{{dt_kdy[index]}}
+                </div>
+            </div>
+            <!-- 当前节气 -->
+            <div class="mf-row mf-jieqi"
+                v-if="data_obj.jieqi && data_obj.jieqi.the_jieqi && data_obj.jieqi.the_jieqi.name">
+                <span class="mf-jq-name">{{data_obj.jieqi.the_jieqi.name}}</span>
+                <span class="mf-jq-date">{{data_obj.jieqi.the_jieqi.m}}/{{data_obj.jieqi.the_jieqi.d}}</span>
+            </div>
+            <!-- 距下节气倒计时 -->
+            <div class="mf-row mf-countdown" v-if="data_obj.jieqi && data_obj.jieqi.next_jieqi">
+                <span class="mf-cd-name">{{data_obj.jieqi.next_jieqi.name}}</span>
+                <span class="mf-cd-time">{{data_obj.jieqi.next_jieqi.m}}/{{data_obj.jieqi.next_jieqi.d}} ·
+                    {{data_obj.jieqi.next_jieqi.days}}天{{data_obj.jieqi.next_jieqi.hours}}时</span>
+            </div>
+            <!-- 四柱干支 -->
+            <div class="mf-row mf-sizhu" id="A125">
+                <div class="mf-pillar" v-for="(item,key) in data_obj.sizhu" :key="'sz_'+key">
+                    <div class="mf-pillar-label">{{ {year:'年',month:'月',day:'日',hour:'时'}[key] || '' }}</div>
+                    <div :style="{color:A2_fun(item.charAt(0))}">{{item.charAt(0)}}</div>
+                    <div :style="{color:A2_fun(item.charAt(1))}">{{item.charAt(1)}}</div>
+                </div>
+            </div>
+            <!-- 纳音五行 -->
+            <div class="mf-row mf-nayin">
+                <div class="mf-ny-item" v-for="(item,key) in data_obj.sizhu_nayin" :key="'ny_'+key">
+                    <span :style="{color:get_nayin_color(item.name)}">{{item.name}}</span>
+                </div>
+            </div>
+            <!-- 本次退出按钮 -->
+            <div class="mf-exit-wrap">
+                <button class="mf-exit-btn" @click="minfold_exit()">本次退出</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- 结构化数据：组织信息 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "六壬起个课",
+      "url": "https://6ren.cn/",
+      "logo": "https://6ren.cn/static/basicprofile.gif",
+      "description": "免费在线大六壬神课排盘工具"
+    }
+    </script>
+
+    <!-- 结构化数据：软件应用 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "六壬起个课",
+      "description": "大六壬在线排盘工具，支持正时、活时及自定义时间三种起课方式，提供四课三传、天将神煞、课经毕法等完整排盘功能。",
+      "url": "https://6ren.cn/",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "browserRequirements": "Requires JavaScript",
+      "inLanguage": "zh-CN"
+    }
+    </script>
+
+    <!-- 结构化数据：面包屑导航 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "六壬起个课",
+          "item": "https://6ren.cn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "大六壬在线排盘",
+          "item": "https://6ren.cn/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- 结构化数据：常见问题 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "大六壬是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大六壬是中国古代三大式占（太乙、奇门、六壬）之一，以占卜人事著称。它通过月将加时、四课三传等步骤排盘，结合神煞、天将、课经毕法等综合解读，推断吉凶祸福。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如何在大六壬在线排盘？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "打开六壬起个课网站，选择起课方式（正时/活时/自定义时间），设置贵人方式、昼夜贵人、涉害方式等参数，点击起课即可获得完整的大六壬排盘结果，包括天地盘、四课、三传、神煞、天将等信息。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "六壬起个课是免费的吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，六壬起个课完全免费，无需注册登录，打开网页即可使用。所有功能包括排盘、案例查询、资料阅读、规则自定义、AI解读等均可免费使用。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "大六壬排盘需要哪些信息？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大六壬排盘主要需要时间和空间信息：具体日期和时间（年、月、日、时）、占卜事项相关人员的年命（出生年份）和性别。在六壬起个课中，您只需选择起课方式和时间即可快速排盘。"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- 页脚 -->
+    <footer class="site-footer" aria-label="页脚信息">
+        <p>&copy; 2024-2026 六壬起个课 | 大六壬在线排盘工具 | 八字命理仅供参考</p>
+    </footer>
+
+    <!-- AI 结构化排盘数据输出（隐藏） -->
+    <pre id="paipan-json-ai" style="display:none" aria-hidden="true"></pre>
+    <script>
+    (function() {
+      // 等待 Vue 排盘组件加载完毕
+      var waitTimer = setInterval(function() {
+        if (typeof vm_paipan === 'undefined') return;
+        clearInterval(waitTimer);
+        console.log('[AI-JSON] vm_paipan ready, polling started.');
+
+        // 天将缩写转全称
+        function fmtTG(tg) {
+          if (!tg || tg.length === 0) return '';
+          var m = {贵:'贵人',蛇:'螣蛇',雀:'朱雀',合:'六合',勾:'勾陈',龙:'青龙',空:'天空',
+            虎:'白虎',常:'太常',玄:'玄武',阴:'太阴',后:'天后',青:'青龙',朱:'朱雀',
+            白:'白虎',天:'天空',太:'太常',元:'玄武',六:'六合',螣:'螣蛇',勾:'勾陈',
+            后:'天后',龙:'青龙',朱:'朱雀',白:'白虎',空:'天空',常:'太常',玄:'玄武',
+            阴:'太阴',后:'天后'};
+          return m[tg] || tg;
+        }
+
+        // 在 G 数组中查找指定 key 的索引
+        function gIdx(G, name) {
+          for (var i = 0; i < G.length; i++) {
+            if (G[i] === name) return i;
+          }
+          return -1;
+        }
+
+        // 主轮询：检测排盘数据变化，更新 JSON
+        setInterval(function() {
+          var el = document.getElementById('paipan-json-ai');
+          if (!el) return;
+
+          var pp = vm_paipan.currentPpdata;
+          if (!pp || pp.length === 0) {
+            if (el.textContent !== '') el.textContent = '';
+            return;
+          }
+          var P = pp[0];
+          if (!P || !P.id) return;
+          if (el._cached === P.id) return;
+          el._cached = P.id;
+
+          // 调试：列出 P 的所有顶层 key
+          var P_keys = [];
+          try { for (var k in P) P_keys.push(k); } catch(e) {}
+
+          // 地支 中文→英文 映射（P 上的宫位数据用英文 key）
+          var dzMap = {子:'zi',丑:'chou',寅:'yin',卯:'mao',辰:'chen',巳:'si',午:'wu',未:'wei',申:'shen',酉:'you',戌:'xu',亥:'hai'};
+          var gongWeiCN = ['子','丑','寅','卯','辰','巳','午','未','申','酉','戌','亥'];
+
+          // 取 P 属性，自动转英文 key
+          function pVal(key, dzCN) {
+            try {
+              var dzEN = dzMap[dzCN] || dzCN;
+              var o = P[key];
+              if (o && o[dzEN] !== undefined) return o[dzEN];
+              if (o && dzCN && o[dzCN] !== undefined) return o[dzCN]; // fallback
+            } catch(e) {}
+            return undefined;
+          }
+
+          // pillars
+          var pillars = [];
+          try {
+            if (P.sizhu) {
+              for (var i = 0; i < 4; i++) { var v = P.sizhu[i]; if (v != null) pillars.push(String(v)); }
+              if (pillars.length === 0) {
+                var vals = Object.values(P.sizhu);
+                for (var vi = 0; vi < vals.length; vi++) { if (typeof vals[vi] === 'string' && vals[vi].length === 2) pillars.push(vals[vi]); }
+              }
+            }
+          } catch(e) {}
+
+          // tiandipan
+          var tiandipan = gongWeiCN.map(function(dz) {
+            var tian = pVal('tianpan', dz) || '';
+            var tianjiang = pVal('shenpan', dz) || pVal('tianpanzs', dz) || '';
+            var shensha_list = [];
+            try { var ss = pVal('shensha_py_to_name', dz); if (ss && Array.isArray(ss)) shensha_list = ss; } catch(e) {}
+            var nayin = pVal('nayinpan', dz) || '';
+            var xungan = pVal('xungan', dz) || '';
+            return { di: dz, tian: tian, tianjiang: tianjiang, shensha: shensha_list, nayin: nayin, xungan: xungan };
+          });
+
+          // sike
+          var sike = [];
+          try {
+            var skRaw = P.sike || [];
+            for (var si = 0; si < skRaw.length; si++) {
+              var sk = skRaw[si];
+              sike.push({ name: ['第一课','第二课','第三课','第四课'][si] || '',
+                tianjiang: sk && sk[0] ? sk[0] : '', tianpan: sk && sk[1] ? sk[1] : '', dizhi: sk && sk[2] ? sk[2] : '' });
+            }
+          } catch(e) {}
+
+          // sanchuan
+          var sanchuan = [];
+          try {
+            var scRawObj = P.sanchuan || {};
+            var scKeys = Object.keys(scRawObj).sort();
+            for (var sci = 0; sci < scKeys.length; sci++) {
+              var sc = scRawObj[scKeys[sci]];
+              sanchuan.push({ name: ['初传','中传','末传'][sci] || '',
+                liuqin: sc && sc[1] ? sc[1] : '', tianGan: sc && sc[2] ? sc[2] : '', diZhi: sc && sc[3] ? sc[3] : '',
+                tianjiang: sc && sc[4] ? sc[4] : '', status: sc && sc[5] ? String(sc[5]).trim() : '' });
+            }
+          } catch(e) {}
+
+          // keti: 先从 P.keti 取，失败则从 zhiZhi 文本解析
+          var keti = [];
+          try { if (Array.isArray(P.keti)) keti = P.keti; } catch(e) {}
+          if (keti.length === 0 && P.ZhiZhi) {
+            var m = String(P.ZhiZhi).match(/课体[：:]\s*([^\n]+)/);
+            if (m) keti = m[1].split(/[,，、\s]+/).map(function(s){return s.replace(/[。——。、，\s]/g,'').trim();}).filter(function(s){return s;});
+          }
+
+          // keJing + keyi
+          var keJing = null;
+          var keyi = '';
+          try { keJing = JSON.parse(JSON.stringify(P.KeJing)); } catch(e) {}
+          if (keJing && keJing[0]) {
+            for (var ki = 0; ki < keJing[0].length; ki++) {
+              if (keJing[0][ki] && !keJing[0][ki].key && keJing[0][ki].value) keyi = keJing[0][ki].value;
+            }
+          }
+
+          var data = {
+            schema: 'liuren-paipan-v1',
+            basic: {
+              pillars: pillars,
+              datetime: (P.Date || '') + ' ' + (P.Time || ''),
+              lunar: P.nongli || null,
+              jieqi: (P.jieqi && P.jieqi.the_jieqi) ? P.jieqi.the_jieqi : null,
+              jiang: P.yuejiang || '',
+              xunkong: P.xunkong || [],
+              xun: P.xunshou || '',
+              settings: P._D || {}
+            },
+            tiandipan: tiandipan,
+            sike: sike,
+            sanchuan: sanchuan,
+            keti: keti,
+            keyi: keyi,
+            keJing: keJing,
+            bifa: P.BiFa || '',
+            zhiZhi: P.ZhiZhi || '',
+            jiYingQian: P.JiYingQian || '',
+
+          };
+
+          // ===== AI 可读性增强字段（schema 向后兼容，仅追加） =====
+          try {
+            // 五行表
+            var WX_GAN = {甲:'木',乙:'木',丙:'火',丁:'火',戊:'土',己:'土',庚:'金',辛:'金',壬:'水',癸:'水'};
+            var WX_ZHI = {子:'水',丑:'土',寅:'木',卯:'木',辰:'土',巳:'火',午:'火',未:'土',申:'金',酉:'金',戌:'土',亥:'水'};
+            var SHENG = {木:'火',火:'土',土:'金',金:'水',水:'木'};
+            var KE = {木:'土',土:'水',水:'火',火:'金',金:'木'};
+            function calcLiuQin(ganWx, otherWx) {
+              if (ganWx === otherWx) return '兄弟';
+              if (SHENG[ganWx] === otherWx) return '子孙';  // 我生
+              if (SHENG[otherWx] === ganWx) return '父母';  // 生我
+              if (KE[ganWx] === otherWx) return '妻财';    // 我克
+              if (KE[otherWx] === ganWx) return '官鬼';    // 克我
+              return '';
+            }
+            var gan = pillars.length >= 3 ? String(pillars[2])[0] : '';
+            var zhi = pillars.length >= 3 ? String(pillars[2])[1] : '';
+            var ganWx = WX_GAN[gan] || '';
+            var zhiWx = WX_ZHI[zhi] || '';
+            var ganShangDz = (sike[0] && sike[0].tianpan) || '';
+            var zhiShangDz = (sike[2] && sike[2].tianpan) || '';
+            // 干支生克关系
+            var ganZhiRel = [];
+            if (ganWx && zhiWx) {
+              if (ganWx === zhiWx) ganZhiRel.push('干支同气(' + ganWx + ')');
+              if (SHENG[ganWx] === zhiWx) ganZhiRel.push('干生支(我生他,付出/泄耗)');
+              if (SHENG[zhiWx] === ganWx) ganZhiRel.push('支生干(他生我,得助)');
+              if (KE[ganWx] === zhiWx) ganZhiRel.push('干克支(我克他,能掌控)');
+              if (KE[zhiWx] === ganWx) ganZhiRel.push('支克干(他克我,受制)');
+            }
+            data.summary = {
+              pillars: pillars.join(''),
+              jiang: data.basic.jiang,
+              xun: data.basic.xun,
+              xunkong: data.basic.xunkong,
+              keti: keti,
+              gan: gan, ganWx: ganWx,
+              zhi: zhi, zhiWx: zhiWx,
+              ganZhiRel: ganZhiRel,
+              ganShang: ganShangDz ? { dz: ganShangDz, wuxing: WX_ZHI[ganShangDz] || '', tianjiang: (sike[0] && sike[0].tianjiang) || '', liuqin: ganShangDz ? calcLiuQin(ganWx, WX_ZHI[ganShangDz]) : '' } : null,
+              zhiShang: zhiShangDz ? { dz: zhiShangDz, wuxing: WX_ZHI[zhiShangDz] || '', tianjiang: (sike[2] && sike[2].tianjiang) || '', liuqin: zhiShangDz ? calcLiuQin(ganWx, WX_ZHI[zhiShangDz]) : '' } : null
+            };
+            // 关键神煞定位（一级+高频）
+            var KEY_SS = ['驿马','天马','丁马','日禄','贵人','帘幕','闭口','破碎','天喜','月德','天德','日德','生气','天赦','游都','桃花','太岁','月将'];
+            data.keyShensha = [];
+            for (var ssg = 0; ssg < tiandipan.length; ssg++) {
+              var g = tiandipan[ssg];
+              if (!g.shensha) continue;
+              for (var ssi = 0; ssi < g.shensha.length; ssi++) {
+                if (KEY_SS.indexOf(g.shensha[ssi]) >= 0) {
+                  data.keyShensha.push({ name: g.shensha[ssi], at: g.tian }); // FIX: 神煞输出天盘神值(原 g.di 为地盘位，丢失神煞值)
+                }
+              }
+            }
+            // 三传六亲序列（便于 AI 直接读格局）
+            data.liuqinSeq = sanchuan.map(function(sc){ return sc.liuqin; }).join('→');
+          } catch(e) {
+            console.log('[AI-JSON] enhance error: ' + e);
+          }
+
+          el.textContent = JSON.stringify(data, null, 2);
+          console.log('[AI-JSON] updated for 排盘 ' + P.id);
+        }, 500);
+      }, 100);
+    })();
+    </script>
+</body>
+
+<script defer src="./index.js">
+
+</script>
+
+</html>

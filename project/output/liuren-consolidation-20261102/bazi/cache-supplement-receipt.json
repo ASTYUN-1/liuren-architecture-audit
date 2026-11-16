@@ -1,0 +1,11 @@
+{
+  "schema": "bazi-cache-supplement-retirement-v1",
+  "passed": true,
+  "windows_actual_extraction_files": 8,
+  "material_files_verified_and_removed": 6,
+  "material_bytes": 108724,
+  "zip_sha256": "a77ccbbf86b35159b27a4d399d421c51fef58f19426e30e67ad51b8325aa5c2f",
+  "source_paths_absent": true,
+  "test_copy_removed": true,
+  "main_archive_unchanged": true
+}

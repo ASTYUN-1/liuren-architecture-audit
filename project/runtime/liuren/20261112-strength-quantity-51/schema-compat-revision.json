@@ -1,0 +1,12 @@
+{
+  "release": "20261106-schema-compat-11",
+  "parent": "20261106-compute-interface-10",
+  "scope": "local-opencode",
+  "cause": "recursive schema refs survived while root $defs was lost in OpenCode outbound tool conversion",
+  "fix": "reference-free wire contract; recursive runtime validation retained",
+  "realCliTransportVerified": true,
+  "realModelCalled": false,
+  "engineAlgorithmModified": false,
+  "methodBodiesChanged": false,
+  "independentPredictiveValidationCount": 0
+}

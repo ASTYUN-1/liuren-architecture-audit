@@ -1,0 +1,4314 @@
+[
+  {
+    "id": "LF26-SHAO-WEATHER",
+    "title": "天时季节与分阶段",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-001",
+      "LR26-BOOK-SHAO-002",
+      "LR26-BOOK-SHAO-C001"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "比较族/条件分支保留，不删除原卡",
+    "common_method": "铸印分季节雨雪、润下分季节水涨/雪；两种结构作为季节取象比较分支，分别保留各自条件；风雨雪阶段与数量缺依据分开。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-001",
+        "conditions": [
+          "本案冬月己卯日祈雪，课传巳戌卯，原断同时给风、雨、雪与厚度。"
+        ],
+        "source_method": "祈雪：分开风、雨、雪的阶段，并保留原断与析理的时间差"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-002",
+        "conditions": [
+          "原例十二月戊申日子将申时，辰申子润下，原文连述玄武、青龙。"
+        ],
+        "source_method": "冬月润下占晴雨：季节改变同一水局的事件解释"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C001",
+        "conditions": [
+          "冬占铸印；巳火临子玄、申子水加临日辰、三传顺行。"
+        ],
+        "source_method": "祈雪复合雨象：火伏水腾、季节和铸印的原条件"
+      }
+    ],
+    "unresolved": [
+      "本族仅首批01–15已审范围，后续新增卡/旧法须逐条归入；不代表全书方法覆盖完成。",
+      "所有原卡ID与证据链保留，规则族不增加支持样本或独立验证计数。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "铸印分季节雨雪、润下分季节水涨/雪；两种结构作为季节取象比较分支，分别保留各自条件；风雨雪阶段与数量缺依据分开。",
+      "identity": "规范比较原则；下列原文条件分支不被删并",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-001",
+          "canonical_family_id": "LF26-SHAO-WEATHER",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-002",
+          "canonical_family_id": "LF26-SHAO-WEATHER",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C001",
+          "canonical_family_id": "LF26-SHAO-WEATHER",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-HUMAN-HOUSE",
+    "title": "人宅生脱和逼克链",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-004",
+      "LR26-BOOK-SHAO-005",
+      "LR26-BOOK-SHAO-C004",
+      "LR26-BOOK-SHAO-C005",
+      "LR26-BOOK-SHAO-C007",
+      "LR26-BOOK-SHAO-C008",
+      "LR26-BOOK-SHAO-C010",
+      "LR26-BOOK-SHAO-C012",
+      "LR26-BOOK-SHAO-C013",
+      "LR26-BOOK-SHAO-C015",
+      "LR26-BOOK-SHAO-C153",
+      "LR26-BOOK-SHAO-C016",
+      "LR26-BOOK-SHAO-C017",
+      "LR26-BOOK-SHAO-C019",
+      "LR26-BOOK-SHAO-C020",
+      "LR26-BOOK-SHAO-C021",
+      "LR26-BOOK-SHAO-C022",
+      "LR26-BOOK-SHAO-C023",
+      "LR26-BOOK-SHAO-C024",
+      "LR26-BOOK-SHAO-C025",
+      "LR26-BOOK-SHAO-C028",
+      "LR26-BOOK-SHAO-C030",
+      "LR26-BOOK-SHAO-017",
+      "LR26-BOOK-SHAO-019",
+      "LR26-BOOK-SHAO-C031",
+      "LR26-BOOK-SHAO-C032",
+      "LR26-BOOK-SHAO-C033",
+      "LR26-BOOK-SHAO-C034",
+      "LR26-BOOK-SHAO-C035",
+      "LR26-BOOK-SHAO-C036",
+      "LR26-BOOK-SHAO-C038",
+      "LR26-BOOK-SHAO-C041",
+      "LR26-BOOK-SHAO-C042",
+      "LR26-BOOK-SHAO-C043",
+      "LR26-BOOK-SHAO-C044",
+      "LR26-BOOK-SHAO-C045",
+      "LR26-BOOK-SHAO-034",
+      "LR26-BOOK-SHAO-035",
+      "LR26-BOOK-SHAO-041",
+      "LR26-BOOK-SHAO-045",
+      "LR26-BOOK-SHAO-C047",
+      "LR26-BOOK-SHAO-C048",
+      "LR26-BOOK-SHAO-C050",
+      "LR26-BOOK-SHAO-C059",
+      "LR26-BOOK-SHAO-046",
+      "LR26-BOOK-SHAO-C061",
+      "LR26-BOOK-SHAO-C062",
+      "LR26-BOOK-SHAO-C064",
+      "LR26-BOOK-SHAO-C065",
+      "LR26-BOOK-SHAO-C066",
+      "LR26-BOOK-SHAO-C068",
+      "LR26-BOOK-SHAO-C069",
+      "LR26-BOOK-SHAO-C070",
+      "LR26-BOOK-SHAO-C073",
+      "LR26-BOOK-SHAO-C074",
+      "LR26-BOOK-SHAO-C075",
+      "LR26-BOOK-SHAO-064",
+      "LR26-BOOK-SHAO-068",
+      "LR26-BOOK-SHAO-073",
+      "LR26-BOOK-SHAO-C077",
+      "LR26-BOOK-SHAO-C078",
+      "LR26-BOOK-SHAO-C079",
+      "LR26-BOOK-SHAO-C080",
+      "LR26-BOOK-SHAO-C082",
+      "LR26-BOOK-SHAO-C083",
+      "LR26-BOOK-SHAO-C084",
+      "LR26-BOOK-SHAO-C087",
+      "LR26-BOOK-SHAO-C088",
+      "LR26-BOOK-SHAO-C089",
+      "LR26-BOOK-SHAO-C090",
+      "LR26-BOOK-SHAO-079",
+      "LR26-BOOK-SHAO-082",
+      "LR26-BOOK-SHAO-089",
+      "LR26-BOOK-SHAO-C092",
+      "LR26-BOOK-SHAO-C093",
+      "LR26-BOOK-SHAO-C094",
+      "LR26-BOOK-SHAO-C095",
+      "LR26-BOOK-SHAO-C100",
+      "LR26-BOOK-SHAO-C101",
+      "LR26-BOOK-SHAO-C104",
+      "LR26-BOOK-SHAO-094",
+      "LR26-BOOK-SHAO-100",
+      "LR26-BOOK-SHAO-C106",
+      "LR26-BOOK-SHAO-C109",
+      "LR26-BOOK-SHAO-C110",
+      "LR26-BOOK-SHAO-C111",
+      "LR26-BOOK-SHAO-C113",
+      "LR26-BOOK-SHAO-C114",
+      "LR26-BOOK-SHAO-C115",
+      "LR26-BOOK-SHAO-C116",
+      "LR26-BOOK-SHAO-C117",
+      "LR26-BOOK-SHAO-C120",
+      "LR26-BOOK-SHAO-109",
+      "LR26-BOOK-SHAO-120",
+      "LR26-BOOK-SHAO-118",
+      "LR26-BOOK-SHAO-C122",
+      "LR26-BOOK-SHAO-C123",
+      "LR26-BOOK-SHAO-C124",
+      "LR26-BOOK-SHAO-C125",
+      "LR26-BOOK-SHAO-C127",
+      "LR26-BOOK-SHAO-C128",
+      "LR26-BOOK-SHAO-C129",
+      "LR26-BOOK-SHAO-C130",
+      "LR26-BOOK-SHAO-C131",
+      "LR26-BOOK-SHAO-C132",
+      "LR26-BOOK-SHAO-C133",
+      "LR26-BOOK-SHAO-C135",
+      "LR26-BOOK-SHAO-127",
+      "LR26-BOOK-SHAO-132",
+      "LR26-BOOK-SHAO-126",
+      "LR26-BOOK-SHAO-C138",
+      "LR26-BOOK-SHAO-C142",
+      "LR26-BOOK-SHAO-C143",
+      "LR26-BOOK-SHAO-C144",
+      "LR26-BOOK-SHAO-C146",
+      "LR26-BOOK-SHAO-C147",
+      "LR26-BOOK-SHAO-C148",
+      "LR26-BOOK-SHAO-147"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "比较族/条件分支保留，不删除原卡",
+    "common_method": "固定日人支宅与生脱的施受关系；俱生互脱与墓岁宅人链是不同分支。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-004",
+        "conditions": [
+          "张九翁占宅例庚寅日，巳寅亥三传，原文论庚生巳、寅生亥及两者受脱。"
+        ],
+        "source_method": "占宅：生宅与脱人可以并存，需固定施受双方"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-005",
+        "conditions": [
+          "叶助教辛卯日占宅，原文同时论太岁入宅、支来就干及末丑墓。"
+        ],
+        "source_method": "赘婿占宅：太岁、宅、人、墓的作用链须逐层保存"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C004",
+        "conditions": [
+          "庚寅巳寅亥；亥既庚脱又寅长生，亥太阴、寅蛇绝财。"
+        ],
+        "source_method": "生宅脱人后分费用、阴人吏讼与十一年数"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C005",
+        "conditions": [
+          "辛卯赘婿、末丑墓临申太岁、申返宅又被辛克。"
+        ],
+        "source_method": "宅人墓岁链的六年与归葬、还俗僧子项"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C007",
+        "conditions": [
+          "乙巳干卯禄、寅同类，宅发辰后归卯；59/60行年亥子。"
+        ],
+        "source_method": "支干回传的宅产兄弟与行年见父母分问"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C008",
+        "conditions": [
+          "庚辰润下，日申7辰5，子9临申7。"
+        ],
+        "source_method": "宅怪十二年加数与63寿乘数的不同位置"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C010",
+        "conditions": [
+          "庚寅求宅支空，中巳长生加子太阴，未戌土生庚。"
+        ],
+        "source_method": "求新宅转长生后，店、妇、亲族干仆分条件"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C012",
+        "conditions": [
+          "癸丑八月巳酉丑金局，金旺生癸而脱丑宅；丑死气覆酉婢。"
+        ],
+        "source_method": "人盛宅狭、酒厨婢亡与双巳八年分链"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C013",
+        "conditions": [
+          "壬子十月亥子旺，亥禄子旺；卯朱末、子边亥字像孙。"
+        ],
+        "source_method": "旺禄财利可与水病、户役和行动后宁并存"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C015",
+        "conditions": [
+          "癸亥极日转亥酉未巳卯，酉6破碎入宅；命寅合在卯侧。"
+        ],
+        "source_method": "迎阳宅案：六分侧门、贵妾子息与无推据寿数"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C153",
+        "conditions": [
+          "甲日炎上、支午耗我，后合原解释酒色，四课不足。"
+        ],
+        "conclusion": "正邪四句原注明讹而不作规范条文；可保存的原链是甲火局耗、午支蚀、后合酒色与四课不足费散，先得赠并不等于净得财。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C016",
+        "conditions": [
+          "戊申润下，辰比劫玄库发、酉勾临日与行年，子蛇临申。"
+        ],
+        "conclusion": "财盛还须看库中比劫玄盗，妾与子息不同对象；后丁巳巳酉破碎、庚申子蛇、辛酉酉毒临巳月分原期，不拿水局皆财直接论富。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C017",
+        "conditions": [
+          "戊子日人来宅、巳店用；太阴卯鬼末、巳4子9。"
+        ],
+        "conclusion": "分因人多自行出宅与宅克人被迫出，后太阴鬼讼13年仍检查壬戌卯制、癸亥罡压不动，甲子相逼才发，不把相加13脱离制约条件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C019",
+        "conditions": [
+          "癸巳辰墓后、申仪长生合用、寅玄末、亥丁空。"
+        ],
+        "conclusion": "墓旺也可迟滞，与宅长生救制并存；动缸、田水患、胎堕救、子湿风与道士解讼按各子链，不以保全统算全吉。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C020",
+        "conditions": [
+          "癸巳戌将酉时，宅传南方、未眷空、寅后脱巳午、酉破加申。"
+        ],
+        "conclusion": "与19异时异命，不能共用胎救全结论；南方营运财旺并有空眷和妾盗，产期与外服另以脱气破碎和月建合论。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C021",
+        "conditions": [
+          "辛卯干子脱空、支巳破、初宅出，中末空；原若初不从宅日另审。"
+        ],
+        "conclusion": "旧021保不行传条件；还须分别保留子始阳巳终阳的人宅阶段、子息耗财与另爨可延的行动分支，末禄空只限前程子问。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C022",
+        "conditions": [
+          "乙酉支犯日上门乱首、用囚死、罡系日本；酉五月火鬼、贵害行年。"
+        ],
+        "conclusion": "先横扰再凶丧与失火，不能只摘乱首全凶；婢害主、贵害拘、子母受未克害、末巳虎母宫分别为原链。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C023",
+        "conditions": [
+          "戊辰极阴丑亥酉，中末空；东方旺气真三奇，后退西北。"
+        ],
+        "conclusion": "旧023保存空解及填实转凶；还要列土门木板、子孙婚费与老妇酒病为不同取象，不能因有三奇一概全吉。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C024",
+        "conditions": [
+          "乙未四土，原明宅左青龙取支阴，坟墓才天盘；龙丑破不备。"
+        ],
+        "conclusion": "20年数理由旧024保存；宅基形势须分家宅四课/坟墓天盘坐标，左破不备填土、寡说与西北/东北界异文各守条件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C025",
+        "conditions": [
+          "甲子未墓空、罡加日、巳常破碎；行年丑命申未交生日。"
+        ],
+        "conclusion": "旧025保停讼月份差，现补亲归分灶的天狱刑动链和子水制破碎止的原制约，不从刑一定所有吉凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C028",
+        "conditions": [
+          "壬午伏吟亥禄自刑、午妻财合、末子玄。"
+        ],
+        "conclusion": "自然禄和妻能起家不覆盖子息玄耗与自刑，原分先猪发后猪败、先兴后耗；午9痨数有明源，12子与死人数无明全部算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C030",
+        "conditions": [
+          "丙戌支加干墓蛇夹，卯天地转杀、太岁命墓连逼；末午空旺刃。"
+        ],
+        "conclusion": "末午虽空但帝旺先防妻母，与子年本人终分阶段；不同作者对年月亡、刃自刑与冲动解释并存，母原6月/叙5月不能抹。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-017",
+        "conditions": [
+          "何丞务原文日往加辰、人多宅狭，明确说非宅克人是人多欲自出。"
+        ],
+        "conclusion": "区分空间拥挤主动迁出与住宅克人，并保留以后争讼与人财仍旺两种可共存结果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-019",
+        "conditions": [
+          "王解元案胎几堕而得全、子感风后无事与田遭水患并列；何宣义案妾盗财有叙事而终死妾手未有对应结局。"
+        ],
+        "conclusion": "按子问保存风险、救制及最终结果；部分结果得到原载支持时，不顺带认证全案其他强断。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C031",
+        "conditions": [
+          "甲寅六月人宅卯旺、辰卯害合锁、巳辰勾网，巳午火子息。"
+        ],
+        "conclusion": "原人宅帝旺是守本方而非六月当季旺，故安分与运用分支不同；巳午子孙既脱身宅旺气又有网锁害，不能用末子生初财单项改成大发。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C032",
+        "conditions": [
+          "癸丑亥将午时，末辰截亥、亥克午、午逃身宅。"
+        ],
+        "conclusion": "作者先按辰壅亥水和水火逃制解释宅害人，再附脏腑眼血心病象；这些古因果保留但不当现代诊断。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C033",
+        "conditions": [
+          "戊申未眷酉少女、支戌玄阴子用、中寅末辰空。"
+        ],
+        "conclusion": "原以玄阴子息发用、财库空和老阴阳自败解释家运；三子次序/寅日德/行年破败仍保留原未知，不把所有子孙字眼当已算准人数。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C034",
+        "conditions": [
+          "壬午火局生未克日；戌虎八月雷杀加寅、寅午高处。"
+        ],
+        "conclusion": "旧034财化鬼不覆盖雷木与讼死时段：原栋木来源蛇居/雷木/庙木三候选保持，八月雷杀虎和高处解释雷栋；己酉至戊午十年原叙不另造十倍。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C035",
+        "conditions": [
+          "丙午子鬼丑合寅长生，甲辰旬末癸丑转寅空。"
+        ],
+        "conclusion": "旧035保存生链被寅空否决，补其旬末年分：退子克、进寅空的判断依原旬位，子丑多事与甲寅灾分阶段；原几死与析死亡不并成已死。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C036",
+        "conditions": [
+          "丁卯正月子蛇加卯初、午虎加酉末，子卯刑。"
+        ],
+        "conclusion": "原重丧取蛇虎道路神加卯酉二八门，末囚虎死气等组合；子/孙两死仅原叙，不将门刑单项扩为必重丧。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C038",
+        "conditions": [
+          "癸酉午后酉死败用、子龙加卯无礼刑、戌加日。"
+        ],
+        "conclusion": "原以四正相加死败通论加具体午酉后死败、子卯刑解释家中不明性关系；只按历史作者推断保存，不能单四正现实指认某人淫乱。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C041",
+        "conditions": [
+          "癸卯辰空用、戌墓酉空、卯贵子；正文巳作贵与盘朱不一。"
+        ],
+        "conclusion": "旧041重卯子贵非脱，补买葬现实障碍与形势细象：空穴不是地坏，可付钱去虚穴；巳双峰、贵双子等以原文字照存，盘式冲突不自选设置。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C042",
+        "conditions": [
+          "戊申干卯勾空克、宅午蛇刃、初丑空临卯。"
+        ],
+        "conclusion": "原人旧事牵、宅家争、门土塞和妇病各有作用坐标；乙卯拆分是后叙，不从全部凶语认每项生理子断都验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C043",
+        "conditions": [
+          "甲寅未命墓身、命上子空初中空，子息见子息；末戌妻财。"
+        ],
+        "conclusion": "旧043保存8全8半及料想免灾边界；补命墓自网、子息双层空和仕无寸进，末财再娶与未年萌芽不能由空一概否定。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C044",
+        "conditions": [
+          "丁丑甲戌旬，戌六仪加干、亥子丑奇拱、午禄、行年虎催官。"
+        ],
+        "conclusion": "作者明不以魁杜/退连茹单断阻，合六仪三奇禄贵和行年虎催官取用；蛇吉有贵在三奇前后拱的条件，非蛇一概吉。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C045",
+        "conditions": [
+          "庚辰弹射，亥脱干子息、亥4申7；亥勾水道、未命贵闭口。"
+        ],
+        "conclusion": "旧045保父子异问及妻虎限定；补28的亥4申7乘、父病亥勾与后本人未命贵闭口，两代取官不能互换。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-034",
+        "conditions": [
+          "汪四六公案水日、炎上火局，日上未土承火局之生并克水日。"
+        ],
+        "conclusion": "按原文先识财局，再追踪财的下游作用；本案财生鬼，原作者将其落实为眷属婚嫁攀亲耗费，不能只因火是财便判得财。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-035",
+        "conditions": [
+          "伊伯廷丙午日宅占，原文先以子丑合、末寅长生拟先凶后吉，继而指出寅空亡不能引进。"
+        ],
+        "conclusion": "保存原作者先提出救解链、再核空亡否决该救解的判断过程；有合或长生名称不足单独判吉。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-041",
+        "conditions": [
+          "徐承务问坟地，原文癸见卯并明确以卯为子孙贵人；同时有空穴与交易障碍。"
+        ],
+        "conclusion": "本案作者明确不把卯统一读作脱气，而取子孙贵人；应将当前能否买葬与后代目标分开，不因空穴或脱气一词全盘定凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-045",
+        "conditions": [
+          "何秀才占应试，原作者按日上亥子孙夺庚气区分父与子，又另以财虎等论妻。"
+        ],
+        "conclusion": "父的受脱与子的得第是不同对象；原文对丧妻另明说非白虎乘之不可此断，爱圅丧吊与行年墓解释须单列而非拼成邵氏原链。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C047",
+        "conditions": [
+          "戊辰申戌子三渊传入空、西北不回；戊辰身宅东南、辛卯命东方。"
+        ],
+        "source_method": "申息临午刃、中同类加息、末妻后空分别为子/继子/产危，不由三渊一概推出。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C048",
+        "conditions": [
+          "丙寅亥将申时，申妻合临巳、亥4；申马四维、寅玄功曹天门。"
+        ],
+        "source_method": "申妻六合棺临巳、亥4妻数与申马四维4任分对象；寅功曹玄天门另为曹荐刑职。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C050",
+        "conditions": [
+          "己卯巳玄子、卯虎戌走范破模；父巳妻子宫、子倚身、申空贵、妻夹克。"
+        ],
+        "source_method": "父临妻宫与马破碎、子受身克、申空贵像、妻夹克为四不足；与原050走范破模的科名取舍互补。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C059",
+        "conditions": [
+          "甲子申龙鬼临干、行年子生、宅午制申；寅后初末恩官、甲尊寅卑。"
+        ],
+        "source_method": "行年子生甲与宅午制申先催官而后申绝；寅后恩官的父子尊卑是另一对象链。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-046",
+        "conditions": [
+          "应秀才案日上亥及初传均被作者论脱气，初妻财寅引中巳长生，再引末申本身禄。"
+        ],
+        "source_method": "初妻财寅引中巳长生、末申身禄，妻家起业不等同科名；逐问复用原046。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C061",
+        "conditions": [
+          "辛巳日亥玄临辛、亥子二水；午官临厨幕贵，寅贵加丑；末申空天空。"
+        ],
+        "source_method": "原以一金生二水取虚泄病象，以官临厨/幕贵论监试与寅贵加丑论癸丑及第；末空限享用。申7未8与减半的原式不能直接得35，不补算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C062",
+        "conditions": [
+          "辛巳同61课，亥临辛、午勾鬼入宅、支干自刑、末同类申空；孙丁亥命为爱圅补议。"
+        ],
+        "source_method": "原从面前脱气、宅午贵鬼和六阴论前程与病损，另述女占吉/未娶男克；爱圅以亥本命脱干解释较甚，只是后注不能当独立验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C064",
+        "conditions": [
+          "甲申日干支墓，未旬空；初贵六害、偏堂太阴；行年申为医而作蛇鬼，本命木与墓叙存疑。"
+        ],
+        "source_method": "旧064保墓空局部解阻；补存初贵六害不利考试、太阴与妻宫加子、行年医蛇鬼的医误风险，不以墓空免除所有凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C065",
+        "conditions": [
+          "丙申支申加干受丙克，宅上亥又得申生；寅末虎，亥生寅再生丙。"
+        ],
+        "source_method": "不只用赘婿课名：宅加日受克且宅去生亥为无正居；寅申迁转被蛇虎挠使官程止知录，寅曹职与亥寅生链另取水边州府。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C066",
+        "conditions": [
+          "壬寅日午临日、丑午害，申父临墓虎；亥克午、酉宅败破碎。"
+        ],
+        "source_method": "原把父墓白虎、午妻目亥绝、丑田园午屋及水土克制分为不同子链；病眼、屋转田园、酒败与启坟后叙分范围，不认证坟致病的现实因果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C068",
+        "conditions": [
+          "戊午日寅鬼生中末及宅午刃天鬼；未合午，亥月建合寅，天空空屋。"
+        ],
+        "source_method": "原官问迁改与宅眷死亡分开，以寅鬼生三午刃、月建合寅来生宅、未午合论宅患，未藏丁非旬丁仍复用旧卡；三人后叙不变固定人数算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C069",
+        "conditions": [
+          "丙子日巳戌卯；败卯克戌墓，戌墓丙，丙巳奔宅子受克；巳4戌5合9。"
+        ],
+        "source_method": "原按败墓逼身与去住不容论阻服回避，再以宅巳4与日戌5相加九年；母卯先墓、己身后及属不同时间对象，不把九年称成功出头已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C070",
+        "conditions": [
+          "乙卯未卯亥曲直，从墓到旺到长生；贵生身、亥子生乙卯；未财虎与末亥后禄。"
+        ],
+        "source_method": "原把墓传旺生用于由微至显和寿，天门木局持台用于侍从；未财虎前妻与亥后长生禄后妻、父子同类合继兄子分对象，寿近90与87后叙分精度。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C073",
+        "conditions": [
+          "丁巳伏吟巳申寅；末寅学堂受行年卯扶，巳临官空；申妻玄光怪，丁巳俱生寅。"
+        ],
+        "source_method": "旧073专保不见子息的临终范围；补存学堂与行年扶的解举、初临官空的声誉、申玄的原猿迷象、丁巳俱生寅归妻家。怪异和治疗叙不当现实病因证明。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C074",
+        "conditions": [
+          "庚辰午辰寅退传顾祖，命寅财末入宅；午龙加申退鳞，寅生午克庚；行年夜贵昼天空闭口。"
+        ],
+        "source_method": "原在升迁问事里以日传降支、顾祖命入宅判断差出经乡争产；寅既财又命生午鬼，自己参与争财为作者归因，贵闭口不宜告是原建议，实际再次上诉被罢下狱分开。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C075",
+        "conditions": [
+          "壬辰日亥加辰自取乱首，午财后临壬、丑鬼加午；申父玄入丑墓，午亥自刑。"
+        ],
+        "source_method": "原以财上鬼及下犯上解释受财被仆挟、妻仆与本人遇害；父墓玄武不垂头的地形叙和迁墓建议独立保留，未实施迁墓的效果不称验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-064",
+        "conditions": [
+          "陈学谕案干支皆墓，原作者先喜本身墓未空，再另论初传六害、太阴、年命及妻宫。"
+        ],
+        "source_method": "墓空只解本身墓滞而非整案皆吉"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-068",
+        "conditions": [
+          "江司户案正文明确未中有丁，非旬丁，并在鬼生午刃与支合关系中解释。"
+        ],
+        "source_method": "未支藏丁非旬丁的原作者口径"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-073",
+        "conditions": [
+          "童七秀才案原断终于奴婢之手不见子息，后载二子归秋试、奴婢办后事，子后归扶丧。"
+        ],
+        "source_method": "传无子爻只在临终不在场语境，非一生无子"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C077",
+        "conditions": [
+          "辛巳丑墓天后滞，旬丁动、末寅贵天门引墓；申医药面、巳厨灶、空仆、亥玄水池。"
+        ],
+        "source_method": "迁动条件复用旧077，补存申加巳的药院和面灶取象，以及天空仆、亥玄池/堕水、辛子亥的童儿。后发生两前兆只为历史叙，不是任职原因已证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C078",
+        "conditions": [
+          "己亥巳戌卯，初末夹日墓；己绝巳墓辰死卯，日上子水亦死墓绝；虎玄夹墓。"
+        ],
+        "source_method": "作者不因引从与铸印贵人便全吉，而看其引出死墓绝及虎玄；壬子脱墓后及第、连服、庚申绝地终任是不同阶段。坟蚁原说不作现实致病依据。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C079",
+        "conditions": [
+          "己卯木局，卯支克己；年上马破碎玄武受本命刑，白虎斗争与后合三合。"
+        ],
+        "source_method": "旧079保年马引外的限制，补存己受木局聚克、虎斗/后合聚众及中鬼第二场污涂；后争闹罢试只证原载该支结果，不使犯讳与污涂也已发生。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C080",
+        "conditions": [
+          "壬戌日寅玄加亥真闭口，寅亥合；辰未戌三传加宅四土，破碎太常鬼入宅。"
+        ],
+        "source_method": "原把重闭口、寅玄风与土塞解释瘫样风险，把空破碎取外服及初墓妇疾；原疏坤申水通艮寅风是建议，不能用后患病说建议已有效。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C082",
+        "conditions": [
+          "乙未日酉合临乙，巳子虎空加子水；戌妻雀临巳空子墓；卯玄末酉冲，卯6戌5。"
+        ],
+        "source_method": "原82保卯禄凶须玄/酉冲；补存酉血六合莲、巳虎水厄、戌妻雀巳火足厄与6×5=30。正妻无子不等一生无子，后子险与偏生原断分开。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C083",
+        "conditions": [
+          "壬子身初午玄、丑雀中害午，末申父虎入丑墓；宅未常六害。"
+        ],
+        "source_method": "原四绝不通连身初中末与宅害共同检查，妻不足/死和亲戚入宅死分别保存；父坟损毁为原因说，不以开坟原叙当现实因果验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C084",
+        "conditions": [
+          "戊寅反吟寅申寅，戊德巳临亥绝受克，宅寅申相克；亥天门勾追。"
+        ],
+        "source_method": "原以德受绝克、寅申寺观与空申相克论神道风险，劝祷修身；原死入冥放还属神怪叙事身份，不记为独立真实死亡复生或改过疗效。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C087",
+        "conditions": [
+          "丁亥日酉朱妻文书破碎，亥官加破碎、丑阴末加官，极阴遍贵；年上巳会酉丑。"
+        ],
+        "source_method": "原遍贵用于差使权摄而非必显，妻恩财来与破碎财去分时段；乙卯年上巳补巳酉丑并冲亥绝、死绝会为作者终局解释。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C088",
+        "conditions": [
+          "甲寅亥本命生干支，旬末亥加旬首甲寅闭口；父亥常阴申后害，初丑空天空。"
+        ],
+        "source_method": "原先喜亥生本人却以父母爻真闭口论双亲亡，空丑土限守土而非所有仕途，亥天门学堂太常论学馆；74/78两候选原数保留，不统一成位置拼数通则。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C089",
+        "conditions": [
+          "辛巳日午官贵炎上火局、行年引动；巳父蛇加酉酒，巳午相连。"
+        ],
+        "source_method": "官鬼平人/赴任区别复用旧089，另存巳父蛇酉酒的尊长酒险，以及巳先应午继应的相连节点；16个月以原任期叙保留不造通用数法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C090",
+        "conditions": [
+          "乙未亥生乙乘蛇，宅寅阴合亥；午子心天空加父母，丑妻产神加害，末申鬼七墓。"
+        ],
+        "source_method": "亥生身本可吉却受蛇挠且寅阴曹吏暗谗；午空子心、丑产妻害各论家事，申7曹权/鬼墓难脱与子漕巳炉谐卢解纷分阶段，不因最终解任抹去中间危难。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-079",
+        "conditions": [
+          "欧阳秋试案上门乱首、己日木局，年上马见破碎玄武且本命刑年上巳。"
+        ],
+        "source_method": "乱首外事须年马引出，否则内乱"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-082",
+        "conditions": [
+          "童七案末卯为日禄且乘玄，后载骑马折足；爱圅另指卯受酉冲。"
+        ],
+        "source_method": "卯禄须玄凶及后议酉冲才骑伤，阳左阴右"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-089",
+        "conditions": [
+          "赵监务问赴任，日上官星作贵会火局，行年引动；原析直辨平人与官人赴任。"
+        ],
+        "source_method": "平人官鬼与有官赴任官星旺分目标"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C092",
+        "conditions": [
+          "癸亥极日酉空临干、干支败酉，木局脱阴；巳丁太阴灶临行年，子太阳。"
+        ],
+        "source_method": "原酒吐与欲色由酉败天空、六阴木脱解释，子加太阳另取子清贵；灶神奏减寿、七夜谢罪及梦神增一纪保叙事身份，爱圅巳德延年另署。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C093",
+        "conditions": [
+          "丁未反吟丑未重勾，一火生四土；行年木不得地，初马动。"
+        ],
+        "source_method": "作者以重土勾脱和丑旧事论旧任牵绊，初马仍可先起程；60或120里为两候选无明乘法，后100余里只属宽粒度对应，不写唯一精确距离。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C094",
+        "conditions": [
+          "丁未日申酉财重，妻财起家；末戌火库非金库，蛇非横及末段婢仆耗。"
+        ],
+        "source_method": "前中财旺营运与末火库坏金财复用旧094；补保存原蛇非横、婢仆事耗财的晚段风险，真实叙事中责仆自缢和官费破产按行动链保留，不说财多必富终身。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C095",
+        "conditions": [
+          "己酉太阴日上暗，初卯死空中午落空，末酉在干寄未之后地午，子财常进败。"
+        ],
+        "source_method": "作者按初中空后仅末日后败、太阴与财常败论身难显，爱圅分别释进退现在三败和壬子宅引本宫；子先亡及父悲伤继亡保叙，三年半未明取数。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C100",
+        "conditions": [
+          "癸丑午亥辰三传，午妇心屋受癸亥克；亥同类勾争屋，末辰后墓，分9/4/5。"
+        ],
+        "source_method": "将时贵人校语复用旧100；补存午受日与亥双克、亥勾同族争产、末辰后墓及9年/4年/5年的分传管段；末段迁坟后安是行动结果，不把原未迁必死写已发生。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C101",
+        "conditions": [
+          "甲午反吟寅申寅，干支伤，德绝禄丧、病符临身；子水蛇入宅为生男。"
+        ],
+        "source_method": "原以德禄干支伤与病符论病，生气蛇入宅取生男；得子贺饮后病是原叙时序，不认证子致父病。宅18年水冲改沟无明数法，题年OCR怪字保留。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C104",
+        "conditions": [
+          "丙寅干支墓，第四课子鬼发后传归日上；戌六月死神蛇，巳中生气受克。"
+        ],
+        "source_method": "原以四课内鬼传日上逐侵人、戌死神蛇伏尸旧墓及生气受克化鬼论凶；8年病/5死和戌年戌月是不同预测，后7年5丧与庚戌9月卒不强合精确期。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-094",
+        "conditions": [
+          "应汝言丁日金为财，初中多财，末戌为火库；作者明说非财库。"
+        ],
+        "source_method": "财多问财经营妻资与功名分断、戌火库非金库"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-100",
+        "conditions": [
+          "姜伯达未将寅时与叶宅案亥将午时盘式同，爱圅用亥乘勾陈/天空对照。"
+        ],
+        "source_method": "同天地盘将时与昼夜贵改变亥勾/亥空，爱圅校语边界"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C106",
+        "conditions": [
+          "丁亥酉贵天门夜贵、未阴加酉，身宅传年阴；巳马常家、卯空门户。"
+        ],
+        "source_method": "原托用事贵却被阴蔽与家人乘服争分按各位置解释，末回身破灶、巳家卯空分门户；戊申阳年不举己酉阴年发是原时态条件，70岁死无后验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C109",
+        "conditions": [
+          "辛卯初丑母墓发用，寅妻贵艮方金绝；子亥退脱阴武，亥4子9。"
+        ],
+        "source_method": "旧109保沈注墓父母类须发用；补存寅妻贵起家后金绝丧妻、子亥退脱男女耗与疝象。原4×9=36紧接13年亡未明衔接，不改原式为4+9。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C110",
+        "conditions": [
+          "甲午亥生身太阴，宅卯刃雀；初申虎鬼，中巳子空，末寅加巳。"
+        ],
+        "source_method": "原承认亥生阴佑而宅刃雀使本家生事，虎鬼与子巳连接亲族告子后本人受配；4年/4月备选及太岁子上酉、8月助酉原链保留，不与同盘何子重并事件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C111",
+        "conditions": [
+          "甲申酉雀阴官破碎克日，戌财卯合六合日之前；巳阴闭口子弟，末子龙。"
+        ],
+        "source_method": "原因财陷罗网取责谪，酉泽暗财与戌财双合解释暗受财；母怏怏不言以巳阴闭口子弟而非本人笼统无言，己酉责与庚戌行年墓闭口分年。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C113",
+        "conditions": [
+          "己酉支酉后来干败，己生酉再亥水；行年未并禄巳入绝；酉血后秽、亥玄丑虎。"
+        ],
+        "source_method": "原六阴还辨夜出日/日入夜，己酉亥生脱与年禄投绝加重；酉后血秽吐红、玄亥受丑克反胃、丑虎肠痛为原病象，改水戒色方案无执行证据。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C114",
+        "conditions": [
+          "己未初未刃蛇眷酒浆，中末申长生贵；己禄午就上而初未。"
+        ],
+        "source_method": "初蛇刃眷酒浆取非横杖责，后中末长生贵仍可扶身得名目；财赋走失与亲戚妇酒为两次责，不能因末贵抹去初祸或将贪贿叙认证成合法可取路径。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C115",
+        "conditions": [
+          "丁巳亥贵鬼临干绝，酉财破碎阴贵，丑空阴中、巳宅末落空；25行年寅午禄、30未见亥。"
+        ],
+        "source_method": "不见贵就亲近：原亥贵鬼绝身与阴贵财破碎限交财，25行年禄旺暂无恙而30身年亥绝；立春壬寅岁、丁丑命校议保存原层次，未另现代历法核验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C116",
+        "conditions": [
+          "丙戌戌蛇墓干、巳蛇夹墓；卯合夹申肺，风卯奔戌常丧家；行年亥子巳叙。"
+        ],
+        "source_method": "原夹墓块积、风食肺脾胃的移位链逐存，34岁当场自述块只证已有症状；35官耗与八九月尽的年序未明，不以原病因推导当现实医学确认。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C117",
+        "conditions": [
+          "壬午申合宅发用，戌龙加申，子虎加戌，日丑常田类。"
+        ],
+        "source_method": "原迁宅、儿得解、小口灾与争田胜各据不同课位；日上田类可得田是原明确类神条件。六年、二娶、明年二小口和三年争田未给完整数法，不硬复原。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C120",
+        "conditions": [
+          "庚辰寅辰午，午鬼火星春归午，辰宅生午；寅财初、午蛇末。"
+        ],
+        "source_method": "旧120保分月反馈粒度；补存午仓火鬼归宅又受宅生、当值人/妻病分支。源后释称末传寅而盘末午的文字差异保留，具体分月未逐项推法不补。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-109",
+        "conditions": [
+          "叶七秀才案丑父母墓、艮山解释，沈注又明确然不发用不可乱断。"
+        ],
+        "source_method": "丑母墓发用与沈注不发用不可乱断"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-120",
+        "conditions": [
+          "刘监仓案列十二月分事，后只逐述仓火、仆死、妻病与九月财得而失，另称余悉应。"
+        ],
+        "source_method": "分月多断的悉应与明确后叙粒度分开"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-118",
+        "conditions": [
+          "徐成局支加干克干上门乱首，曲直木鬼，原析分春旺、夏休、秋囚与冬生。"
+        ],
+        "source_method": "旧118已保下犯上、服侍官长处境及曲直木克己。；旧118逐季节明确贪旺未发/休将发/囚乖张/冬存心，原六月责遣只覆盖其一节点。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C122",
+        "conditions": [
+          "己卯反吟卯酉，后合玄与私门；女命男年相乘，己土生二金；血支卯月议。"
+        ],
+        "source_method": "原年命相乘与配偶神互见取婚成，卯酉私门及婢酉合玄解释私通，血支退子另依月令；爱圅质疑男克干为嗣/女生干子是禄命家语，不能抹成统一六壬生子规则。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C123",
+        "conditions": [
+          "癸巳辰干墓出初申长生，申金学堂；巳申合寅亥合，亥丁常临长生，末寅后子。"
+        ],
+        "source_method": "原以出墓长生及两组合婚，以金清白学堂取知书理家，末寅后临木长生亥论子，亥丁常临长生另主母服；婚成和生子不免尊堂服。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C124",
+        "conditions": [
+          "庚子卯妻日上，妻宫罗网兜牢；末子蛇落空，酉勾妻阴神。"
+        ],
+        "source_method": "妻宫罗网兜牢取婚成，归后口舌与子蛇退子、酉勾妻血风为另问题；原没有后叙，不把强断当现实已发生。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C125",
+        "conditions": [
+          "庚申八专，庚为子申母，酉阴刃面前阳刃与母破碎；夫妻行年并，亥上子虎泄。"
+        ],
+        "source_method": "原先承认干支不分难辨，再给庚子申母定位与双刃破碎自刑，女年子虎泄为产险；分居后免的叙事是干预后结果，不认证前子作祟或戒欲因果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C127",
+        "conditions": [
+          "己未独足五酉六合，年丑上卯震长男受酉冲；酉肠血脱色，酉6未8。"
+        ],
+        "source_method": "五酉独足女数复用旧127，另存年卯长男震被酉冲及玄耗为男胎难成，酉肠血合女脱气为原痔欲象，6×8=48仅带成名后不过48条件且无后验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C128",
+        "conditions": [
+          "辛酉午未合天网，卯妻临午鬼；末子空天空加卯妻，子阴酉玄。"
+        ],
+        "source_method": "原天网合起与妻子空否亲子、过房有事，另子阴酉玄推妾私孕；实际买妾是建议后的行动，但原叙不作现代父系鉴定结论，乙居年怪字保留。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C129",
+        "conditions": [
+          "丁酉酉贵丁主动，宅亥中丁绝、丑末常老阴；贵遍地，酉妻子亥。"
+        ],
+        "source_method": "原多贵不抬养子为显贵，酉丁动宅亥绝、丑老阴权住分去留；32行年酉妻有子解释养子被忽视；神像猪圈与迁圈供圣有子是原因果建议，无后验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C130",
+        "conditions": [
+          "丙辰伏吟巳申寅，丙德巳、秋辰天喜龙庙，中申水土长生。"
+        ],
+        "source_method": "原以德神、天喜青龙入庙和日辰长生论子母安；厚德载物遂生女是原语，未给一个独立女胎判据，不以此扩成德生一律女。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C131",
+        "conditions": [
+          "乙丑亥后母发被丑克、传玄虎内酉门，虎未墓；乙干儿寅少阳雀旺木相火。"
+        ],
+        "source_method": "原支母干儿明确定位，母后受克传入玄虎墓门为母凶，儿干寅雀得旺相为儿存；两对象同盘异判，不能见虎墓便子母俱死。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C132",
+        "conditions": [
+          "乙未稼穑丑戌未，丑妻田破碎青龙，末未后还彼，辰众财克宅；辰墓日为前。"
+        ],
+        "source_method": "原132季节全财化鬼取舍复用；补存丑田龙破碎不费价、末未后返产、辰众克彼宅赔财及日尊长前位新墓，各属于不同财源人事阶段。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C133",
+        "conditions": [
+          "癸巳午财妻空，日寅子生午；中申长生龙尊长财类，末酉空婢阴戌鬼。"
+        ],
+        "source_method": "原当前妻财未得与转借岳父可得分目标，以寅生财和申长生龙尊长释借；末酉婢空阴鬼取婢费受责，后奴斗吊打刺杀行动叙不反配三百千。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C135",
+        "conditions": [
+          "庚寅干支盗气，申禄蛇加巳蛇，中亥脱庚克巳店，末寅财加亥脱再虎。"
+        ],
+        "source_method": "原沿初禄扰欠、中亥重脱、末财受脱虎克看经营耗尽；亥年两店歇与寅年争债另据亥克巳和寅财为店受脱，48年半/7年尽未给完整数法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-127",
+        "conditions": [
+          "何解元子嗣案干支三传俱酉，酉兑少女且六合；原文明说独足若传飞散便不应。"
+        ],
+        "source_method": "独足不飞散下五位酉兑少女合女取五女"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-132",
+        "conditions": [
+          "章/童监税乙未日春占、三传土财，先得妻家分产众财，后因坟地争讼。"
+        ],
+        "source_method": "春乙旺才可得全财，后财化鬼仍有时段"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-126",
+        "conditions": [
+          "翁秀才案日为夫支为妻，干辰子空、支未子生于申，末丑又冲支未。"
+        ],
+        "source_method": "旧126已完整分夫宫辰龙空和妻宫未雀临申生，不能一空否夫妻全无子。；原卡已有初中父母克子、末丑冲未与坟墓；迁坟一子方案仅建议无实施后叙，不称存子已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C138",
+        "conditions": [
+          "庚子卯酉互网，支受干制、宅天空害、太阴宅母，末子蛇落空。"
+        ],
+        "source_method": "同124婚盘另问进屋，原以互罗网年凑、宅害和末蛇绝生不利居住；不能挪婚成结论给房产，末不断绝生原留未硬编事件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C142",
+        "conditions": [
+          "丙戌未勾空日、子宅后翳，中寅玄财物偷耗，末辰虎动众。"
+        ],
+        "source_method": "原按空勾虚扰、后宅翳、寅玄偷财和辰虎动众解释店不兴终止；向三阳向高终不可止句与前后店止文字张力保留，不以课名改写实际歇店。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C143",
+        "conditions": [
+          "甲申巳常双女生日脱，申官龙加双女；亥雀官长、寅后临亥学堂天门。"
+        ],
+        "source_method": "原巳常双女和官临双女取兼职劳费，亥后生甲寅与申官龙转为劳中加俸升迁；寅长生学堂天门后恩对应内绛帐，不以脱气便只损。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C144",
+        "conditions": [
+          "甲申巳常衣帛红紫，行年丙添巳双脱；寅后改色虎斑，中亥丁水十月皂色。"
+        ],
+        "source_method": "旧144保存官商年命异用；补存常衣帛火红紫、双巳蚀甲、寅后改色虎斑与亥十月变动皂色的行业细象。旁店仿染无效与汪十月不折本是不同结果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C146",
+        "conditions": [
+          "与145癸未稼穑同课，丙辰命自来墓身；54年未上戌闭口九月。"
+        ],
+        "source_method": "原己未命中传引生/末旬首化财与丙辰命添墓对比解释财旺或短久，行年未上戌闭口取54九月；未载实际死亡叙，不以原问对答当卒期验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C147",
+        "conditions": [
+          "丁酉亥命官贵发、曲直生丁；丙辰年辰上申生亥官，卯6；末未勾临卯死败。"
+        ],
+        "source_method": "旧147已保存先官次克与木局救病，补存30丙辰申生亥官、卯6任及末未勾守土拘死败不能赴；六任是职次不是六种不同独立验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C148",
+        "conditions": [
+          "丁酉同147课，49年过官，亥4未8=32；未受克不能制水，卯截路空，申命上子。"
+        ],
+        "source_method": "原以年龄官星过数、未不能制水与命添子水把官转鬼绝，32由4×8但40外 cutoff未给独立算法；墓前左老阴据丑墓太阴方位，现实断龙致破家只是原因果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-147",
+        "conditions": [
+          "何秀才本命官贵，原析先论官次论克，病得不死再用木局生火。"
+        ],
+        "source_method": "先官次克再木局救病，后守土虚另限"
+      }
+    ],
+    "unresolved": [
+      "本族仅首批01–15已审范围，后续新增卡/旧法须逐条归入；不代表全书方法覆盖完成。",
+      "所有原卡ID与证据链保留，规则族不增加支持样本或独立验证计数。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "固定日人支宅与生脱的施受关系；俱生互脱与墓岁宅人链是不同分支。",
+      "identity": "规范比较原则；下列原文条件分支不被删并",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-004",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-005",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C004",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C005",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C007",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C008",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C010",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C012",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C013",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C015",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C153",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "财得后费散的阶段分支，正邪四句保持未校讹文"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C016",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C017",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C019",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C020",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C021",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C022",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C023",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C024",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C025",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C028",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C030",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "人宅多问作用链的明确不同分支，逐项保留条件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-017",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已审原卡条件明确，保留与补充卡互补分支，不重复计事件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-019",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已审原卡条件明确，保留与补充卡互补分支，不重复计事件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C031",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C032",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C033",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C034",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C035",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C036",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C038",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C041",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C042",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C043",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C044",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C045",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-034",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-035",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-041",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-045",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C047",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "申息临午刃、中同类加息、末妻后空分别为子/继子/产危，不由三渊一概推出。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C048",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "申妻六合棺临巳、亥4妻数与申马四维4任分对象；寅功曹玄天门另为曹荐刑职。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C050",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "父临妻宫与马破碎、子受身克、申空贵像、妻夹克为四不足；与原050走范破模的科名取舍互补。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C059",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "行年子生甲与宅午制申先催官而后申绝；寅后恩官的父子尊卑是另一对象链。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-046",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "初妻财寅引中巳长生、末申身禄，妻家起业不等同科名；逐问复用原046。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C061",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以一金生二水取虚泄病象，以官临厨/幕贵论监试与寅贵加丑论癸丑及第；末空限享用。申7未8与减半的原式不能直接得35，不补算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C062",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原从面前脱气、宅午贵鬼和六阴论前程与病损，另述女占吉/未娶男克；爱圅以亥本命脱干解释较甚，只是后注不能当独立验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C064",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧064保墓空局部解阻；补存初贵六害不利考试、太阴与妻宫加子、行年医蛇鬼的医误风险，不以墓空免除所有凶。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C065",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "不只用赘婿课名：宅加日受克且宅去生亥为无正居；寅申迁转被蛇虎挠使官程止知录，寅曹职与亥寅生链另取水边州府。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C066",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原把父墓白虎、午妻目亥绝、丑田园午屋及水土克制分为不同子链；病眼、屋转田园、酒败与启坟后叙分范围，不认证坟致病的现实因果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C068",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原官问迁改与宅眷死亡分开，以寅鬼生三午刃、月建合寅来生宅、未午合论宅患，未藏丁非旬丁仍复用旧卡；三人后叙不变固定人数算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C069",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原按败墓逼身与去住不容论阻服回避，再以宅巳4与日戌5相加九年；母卯先墓、己身后及属不同时间对象，不把九年称成功出头已验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C070",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原把墓传旺生用于由微至显和寿，天门木局持台用于侍从；未财虎前妻与亥后长生禄后妻、父子同类合继兄子分对象，寿近90与87后叙分精度。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C073",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧073专保不见子息的临终范围；补存学堂与行年扶的解举、初临官空的声誉、申玄的原猿迷象、丁巳俱生寅归妻家。怪异和治疗叙不当现实病因证明。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C074",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原在升迁问事里以日传降支、顾祖命入宅判断差出经乡争产；寅既财又命生午鬼，自己参与争财为作者归因，贵闭口不宜告是原建议，实际再次上诉被罢下狱分开。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C075",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以财上鬼及下犯上解释受财被仆挟、妻仆与本人遇害；父墓玄武不垂头的地形叙和迁墓建议独立保留，未实施迁墓的效果不称验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-064",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "墓空只解本身墓滞而非整案皆吉"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-068",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "未支藏丁非旬丁的原作者口径"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-073",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "传无子爻只在临终不在场语境，非一生无子"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C077",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "迁动条件复用旧077，补存申加巳的药院和面灶取象，以及天空仆、亥玄池/堕水、辛子亥的童儿。后发生两前兆只为历史叙，不是任职原因已证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C078",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "作者不因引从与铸印贵人便全吉，而看其引出死墓绝及虎玄；壬子脱墓后及第、连服、庚申绝地终任是不同阶段。坟蚁原说不作现实致病依据。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C079",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧079保年马引外的限制，补存己受木局聚克、虎斗/后合聚众及中鬼第二场污涂；后争闹罢试只证原载该支结果，不使犯讳与污涂也已发生。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C080",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原把重闭口、寅玄风与土塞解释瘫样风险，把空破碎取外服及初墓妇疾；原疏坤申水通艮寅风是建议，不能用后患病说建议已有效。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C082",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原82保卯禄凶须玄/酉冲；补存酉血六合莲、巳虎水厄、戌妻雀巳火足厄与6×5=30。正妻无子不等一生无子，后子险与偏生原断分开。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C083",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原四绝不通连身初中末与宅害共同检查，妻不足/死和亲戚入宅死分别保存；父坟损毁为原因说，不以开坟原叙当现实因果验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C084",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以德受绝克、寅申寺观与空申相克论神道风险，劝祷修身；原死入冥放还属神怪叙事身份，不记为独立真实死亡复生或改过疗效。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C087",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原遍贵用于差使权摄而非必显，妻恩财来与破碎财去分时段；乙卯年上巳补巳酉丑并冲亥绝、死绝会为作者终局解释。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C088",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原先喜亥生本人却以父母爻真闭口论双亲亡，空丑土限守土而非所有仕途，亥天门学堂太常论学馆；74/78两候选原数保留，不统一成位置拼数通则。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C089",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "官鬼平人/赴任区别复用旧089，另存巳父蛇酉酒的尊长酒险，以及巳先应午继应的相连节点；16个月以原任期叙保留不造通用数法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C090",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "亥生身本可吉却受蛇挠且寅阴曹吏暗谗；午空子心、丑产妻害各论家事，申7曹权/鬼墓难脱与子漕巳炉谐卢解纷分阶段，不因最终解任抹去中间危难。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-079",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "乱首外事须年马引出，否则内乱"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-082",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "卯禄须玄凶及后议酉冲才骑伤，阳左阴右"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-089",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "平人官鬼与有官赴任官星旺分目标"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C092",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原酒吐与欲色由酉败天空、六阴木脱解释，子加太阳另取子清贵；灶神奏减寿、七夜谢罪及梦神增一纪保叙事身份，爱圅巳德延年另署。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C093",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "作者以重土勾脱和丑旧事论旧任牵绊，初马仍可先起程；60或120里为两候选无明乘法，后100余里只属宽粒度对应，不写唯一精确距离。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C094",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "前中财旺营运与末火库坏金财复用旧094；补保存原蛇非横、婢仆事耗财的晚段风险，真实叙事中责仆自缢和官费破产按行动链保留，不说财多必富终身。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C095",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "作者按初中空后仅末日后败、太阴与财常败论身难显，爱圅分别释进退现在三败和壬子宅引本宫；子先亡及父悲伤继亡保叙，三年半未明取数。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C100",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "将时贵人校语复用旧100；补存午受日与亥双克、亥勾同族争产、末辰后墓及9年/4年/5年的分传管段；末段迁坟后安是行动结果，不把原未迁必死写已发生。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C101",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以德禄干支伤与病符论病，生气蛇入宅取生男；得子贺饮后病是原叙时序，不认证子致父病。宅18年水冲改沟无明数法，题年OCR怪字保留。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C104",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以四课内鬼传日上逐侵人、戌死神蛇伏尸旧墓及生气受克化鬼论凶；8年病/5死和戌年戌月是不同预测，后7年5丧与庚戌9月卒不强合精确期。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-094",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "财多问财经营妻资与功名分断、戌火库非金库"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-100",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "同天地盘将时与昼夜贵改变亥勾/亥空，爱圅校语边界"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C106",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原托用事贵却被阴蔽与家人乘服争分按各位置解释，末回身破灶、巳家卯空分门户；戊申阳年不举己酉阴年发是原时态条件，70岁死无后验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C109",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧109保沈注墓父母类须发用；补存寅妻贵起家后金绝丧妻、子亥退脱男女耗与疝象。原4×9=36紧接13年亡未明衔接，不改原式为4+9。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C110",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原承认亥生阴佑而宅刃雀使本家生事，虎鬼与子巳连接亲族告子后本人受配；4年/4月备选及太岁子上酉、8月助酉原链保留，不与同盘何子重并事件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C111",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原因财陷罗网取责谪，酉泽暗财与戌财双合解释暗受财；母怏怏不言以巳阴闭口子弟而非本人笼统无言，己酉责与庚戌行年墓闭口分年。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C113",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原六阴还辨夜出日/日入夜，己酉亥生脱与年禄投绝加重；酉后血秽吐红、玄亥受丑克反胃、丑虎肠痛为原病象，改水戒色方案无执行证据。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C114",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "初蛇刃眷酒浆取非横杖责，后中末长生贵仍可扶身得名目；财赋走失与亲戚妇酒为两次责，不能因末贵抹去初祸或将贪贿叙认证成合法可取路径。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C115",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "不见贵就亲近：原亥贵鬼绝身与阴贵财破碎限交财，25行年禄旺暂无恙而30身年亥绝；立春壬寅岁、丁丑命校议保存原层次，未另现代历法核验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C116",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原夹墓块积、风食肺脾胃的移位链逐存，34岁当场自述块只证已有症状；35官耗与八九月尽的年序未明，不以原病因推导当现实医学确认。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C117",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原迁宅、儿得解、小口灾与争田胜各据不同课位；日上田类可得田是原明确类神条件。六年、二娶、明年二小口和三年争田未给完整数法，不硬复原。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C120",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧120保分月反馈粒度；补存午仓火鬼归宅又受宅生、当值人/妻病分支。源后释称末传寅而盘末午的文字差异保留，具体分月未逐项推法不补。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-109",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "丑母墓发用与沈注不发用不可乱断"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-120",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "分月多断的悉应与明确后叙粒度分开"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-118",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧118已保下犯上、服侍官长处境及曲直木克己。；旧118逐季节明确贪旺未发/休将发/囚乖张/冬存心，原六月责遣只覆盖其一节点。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C122",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原年命相乘与配偶神互见取婚成，卯酉私门及婢酉合玄解释私通，血支退子另依月令；爱圅质疑男克干为嗣/女生干子是禄命家语，不能抹成统一六壬生子规则。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C123",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以出墓长生及两组合婚，以金清白学堂取知书理家，末寅后临木长生亥论子，亥丁常临长生另主母服；婚成和生子不免尊堂服。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C124",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "妻宫罗网兜牢取婚成，归后口舌与子蛇退子、酉勾妻血风为另问题；原没有后叙，不把强断当现实已发生。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C125",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原先承认干支不分难辨，再给庚子申母定位与双刃破碎自刑，女年子虎泄为产险；分居后免的叙事是干预后结果，不认证前子作祟或戒欲因果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C127",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "五酉独足女数复用旧127，另存年卯长男震被酉冲及玄耗为男胎难成，酉肠血合女脱气为原痔欲象，6×8=48仅带成名后不过48条件且无后验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C128",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原天网合起与妻子空否亲子、过房有事，另子阴酉玄推妾私孕；实际买妾是建议后的行动，但原叙不作现代父系鉴定结论，乙居年怪字保留。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C129",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原多贵不抬养子为显贵，酉丁动宅亥绝、丑老阴权住分去留；32行年酉妻有子解释养子被忽视；神像猪圈与迁圈供圣有子是原因果建议，无后验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C130",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以德神、天喜青龙入庙和日辰长生论子母安；厚德载物遂生女是原语，未给一个独立女胎判据，不以此扩成德生一律女。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C131",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原支母干儿明确定位，母后受克传入玄虎墓门为母凶，儿干寅雀得旺相为儿存；两对象同盘异判，不能见虎墓便子母俱死。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C132",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原132季节全财化鬼取舍复用；补存丑田龙破碎不费价、末未后返产、辰众克彼宅赔财及日尊长前位新墓，各属于不同财源人事阶段。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C133",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原当前妻财未得与转借岳父可得分目标，以寅生财和申长生龙尊长释借；末酉婢空阴鬼取婢费受责，后奴斗吊打刺杀行动叙不反配三百千。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C135",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原沿初禄扰欠、中亥重脱、末财受脱虎克看经营耗尽；亥年两店歇与寅年争债另据亥克巳和寅财为店受脱，48年半/7年尽未给完整数法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-127",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "独足不飞散下五位酉兑少女合女取五女"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-132",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "春乙旺才可得全财，后财化鬼仍有时段"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-126",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧126已完整分夫宫辰龙空和妻宫未雀临申生，不能一空否夫妻全无子。；原卡已有初中父母克子、末丑冲未与坟墓；迁坟一子方案仅建议无实施后叙，不称存子已验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C138",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "同124婚盘另问进屋，原以互罗网年凑、宅害和末蛇绝生不利居住；不能挪婚成结论给房产，末不断绝生原留未硬编事件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C142",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原按空勾虚扰、后宅翳、寅玄偷财和辰虎动众解释店不兴终止；向三阳向高终不可止句与前后店止文字张力保留，不以课名改写实际歇店。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C143",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原巳常双女和官临双女取兼职劳费，亥后生甲寅与申官龙转为劳中加俸升迁；寅长生学堂天门后恩对应内绛帐，不以脱气便只损。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C144",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧144保存官商年命异用；补存常衣帛火红紫、双巳蚀甲、寅后改色虎斑与亥十月变动皂色的行业细象。旁店仿染无效与汪十月不折本是不同结果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C146",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原己未命中传引生/末旬首化财与丙辰命添墓对比解释财旺或短久，行年未上戌闭口取54九月；未载实际死亡叙，不以原问对答当卒期验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C147",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "旧147已保存先官次克与木局救病，补存30丙辰申生亥官、卯6任及末未勾守土拘死败不能赴；六任是职次不是六种不同独立验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C148",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "原以年龄官星过数、未不能制水与命添子水把官转鬼绝，32由4×8但40外 cutoff未给独立算法；墓前左老阴据丑墓太阴方位，现实断龙致破家只是原因果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-147",
+          "canonical_family_id": "LF26-SHAO-HUMAN-HOUSE",
+          "disposition": "先官次克再木局救病，后守土虚另限"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-VOID-EXCEPTIONS",
+    "title": "空亡、所归及救应取舍",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-006",
+      "LR26-BOOK-SHAO-009",
+      "LR26-BOOK-SHAO-010",
+      "LR26-BOOK-SHAO-011",
+      "LR26-BOOK-SHAO-C006",
+      "LR26-BOOK-SHAO-C009",
+      "LR26-BOOK-SHAO-C011",
+      "LR26-BOOK-SHAO-021",
+      "LR26-BOOK-SHAO-023",
+      "LR26-BOOK-SHAO-025",
+      "LR26-BOOK-SHAO-C053",
+      "LR26-BOOK-SHAO-C060",
+      "LR26-BOOK-SHAO-048",
+      "LR26-BOOK-SHAO-C071",
+      "LR26-BOOK-SHAO-C078",
+      "LR26-BOOK-SHAO-086",
+      "LR26-BOOK-SHAO-C103",
+      "LR26-BOOK-SHAO-C108",
+      "LR26-BOOK-SHAO-C115",
+      "LR26-BOOK-SHAO-C119",
+      "LR26-BOOK-SHAO-C138",
+      "LR26-BOOK-SHAO-C141"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "比较族/条件分支保留，不删除原卡",
+    "common_method": "亡兄妻身份要空、末空绝止扰、支空转察长生、六阴迎阳为不同对象/环节，不互认等价。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-006",
+        "conditions": [
+          "邵三翁辛巳日占宅，卯取妻，申加卯乘天空，原载旬空申酉。"
+        ],
+        "source_method": "兄妻身份：原作者明确以申空为限定，不将妻上同类单项定身份"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-009",
+        "conditions": [
+          "任三翁壬寅日占宅，原文把婢妾纷争、遣出后再归及纷扰收束分开。"
+        ],
+        "source_method": "家宅婢去复归：取宅阴神、合及牙人之象时保留完整关系"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-010",
+        "conditions": [
+          "邵伯达庚寅日求迁外居，原书支上空且初传青龙脱气落空，中传巳为日长生。"
+        ],
+        "source_method": "求新宅基：支上空后另察长生，不把现无宅基等同永远求不得"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-011",
+        "conditions": [
+          "童保仪原文六阴相继并传归阴方绝地；徐八公原文同称极日极阴，但解释转向东南为迎阳。"
+        ],
+        "source_method": "极阴与迎阳须看所归位置，不能把阴性标签写成统一败局"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C006",
+        "conditions": [
+          "辛巳日辰将亥时，末丑墓加同类申蛇；戌加巳。"
+        ],
+        "source_method": "申空兄妻案：八年墓与九年两支合数分问"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C009",
+        "conditions": [
+          "壬寅退茹回环、发用与宅害，末戌空绝；巳绝日甲辰乙巳。"
+        ],
+        "source_method": "家宅扰乱终止：末空绝与回环宅害的条件"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C011",
+        "conditions": [
+          "丁巳六月六阴，宅卯末酉归计门，两处巳亥。"
+        ],
+        "source_method": "极阴宅败的宅上归计取数与婢树猪阁子象"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-021",
+        "conditions": [
+          "林丞务案中末皆空，初传原在宅上；原文据此只就干支二处分断。"
+        ],
+        "conclusion": "保留原作者对不行/无传的适用条件：初传不是从日宅上起时，仍须细审，不可泛化中末空便不看三传。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-023",
+        "conditions": [
+          "叶油饼店案丑亥酉，甲子旬中末空；后载辛亥太岁填实亥。"
+        ],
+        "conclusion": "原作者把眼前空亡解灾、家计仍耗与后来填实再论凶分开；可取其阶段与条件变化，不将空亡压成永久吉凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-025",
+        "conditions": [
+          "何七秀才甲子日占宅，原文有关眷属归家、分灶争产及之后宁贴。"
+        ],
+        "conclusion": "入局的刑害与收束的制破碎分阶段保存；原载十一月解释和十二月结案差异不抹平。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C053",
+        "conditions": [
+          "丁丑日贵多，身初中空、丁支日投亥绝，岁雀日上贵鬼。"
+        ],
+        "source_method": "贵多但身初中空与日支投绝，限制官程；上书雀岁贵鬼另为风险。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C060",
+        "conditions": [
+          "甲子辰巳午生去，亥学堂临戌空、日贵空；背后行年亥。"
+        ],
+        "source_method": "学堂亥临戌空、日贵空取虚名，行年亥在后只暂延；不能用暂延抹去空脱。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-048",
+        "conditions": [
+          "徐教授案中传亥为月将乘贵，原作者说不论空亡但时少迟；巳虽天空而在寅受生。"
+        ],
+        "source_method": "中亥月将官程不论空而少迟、巳寅受生不为空炉；不能扩到免妻凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C071",
+        "conditions": [
+          "乙卯退茹丑子亥；卯禄向亥长生，亥卯生旺相连；朱雀仪神、子紫微亥远穹。"
+        ],
+        "source_method": "不以退茹一律衰：原先取禄归长生、近天门及宫象论在朝八座，后以退入空亡限晚年谪降；中末不空五府为原反事实，未达五府不等于无朝官。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C078",
+        "conditions": [
+          "己亥巳戌卯，初末夹日墓；己绝巳墓辰死卯，日上子水亦死墓绝；虎玄夹墓。"
+        ],
+        "source_method": "作者不因引从与铸印贵人便全吉，而看其引出死墓绝及虎玄；壬子脱墓后及第、连服、庚申绝地终任是不同阶段。坟蚁原说不作现实致病依据。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-086",
+        "conditions": [
+          "仪上舍辛巳日巳亥巳，原析明确对比壬日、丙戊日和辛日。"
+        ],
+        "source_method": "巳亥巳须辨壬财来绝、丙戊我克处绝、辛长生末绝，旧卡已涵三种明确比较条件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C103",
+        "conditions": [
+          "戊申卯官空、申学堂落空，末丑天空昼贵刑日上戌。"
+        ],
+        "source_method": "原先核官星与长生学堂皆空，再存末贵却刑日上且天空的贵无位；晚孤只与奴婢属原后称果然，不能由笼统果然补细妻子事件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C108",
+        "conditions": [
+          "丁亥炎上午戌寅，戌随身库；父寅鬼乡白虎，初午禄临卯又空。"
+        ],
+        "source_method": "原将随身库限为读书书会生计，见父在鬼乡虎及禄空拒其他求财生涯；不从一个库字直接断通用财库可取。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C115",
+        "conditions": [
+          "丁巳亥贵鬼临干绝，酉财破碎阴贵，丑空阴中、巳宅末落空；25行年寅午禄、30未见亥。"
+        ],
+        "source_method": "不见贵就亲近：原亥贵鬼绝身与阴贵财破碎限交财，25行年禄旺暂无恙而30身年亥绝；立春壬寅岁、丁丑命校议保存原层次，未另现代历法核验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C119",
+        "conditions": [
+          "壬戌子寅辰向三阳但初中空，支刑日上丑常破碎；子息落空与虎犬地叙存疑。"
+        ],
+        "source_method": "可提取初中空限制向三阳、四课间隔阻事及支刑干上服象；其余棺尸子息蓄水链原已被爱圅判多失误有讹，不拼成确定完整算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C138",
+        "conditions": [
+          "庚子卯酉互网，支受干制、宅天空害、太阴宅母，末子蛇落空。"
+        ],
+        "source_method": "同124婚盘另问进屋，原以互罗网年凑、宅害和末蛇绝生不利居住；不能挪婚成结论给房产，末不断绝生原留未硬编事件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C141",
+        "conditions": [
+          "丁酉申财六合日上，酉宅戌蛇六害，亥子丑进；申命财、命年俱课。"
+        ],
+        "source_method": "原称三传皆鬼却仍以日财、神将合的间接合、末财库和命财限为少阻可得；末丑子爻与三鬼原称不默改，不能变成见鬼一律拒财。"
+      }
+    ],
+    "unresolved": [
+      "本族仅首批01–15已审范围，后续新增卡/旧法须逐条归入；不代表全书方法覆盖完成。",
+      "所有原卡ID与证据链保留，规则族不增加支持样本或独立验证计数。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "亡兄妻身份要空、末空绝止扰、支空转察长生、六阴迎阳为不同对象/环节，不互认等价。",
+      "identity": "规范比较原则；下列原文条件分支不被删并",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-006",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-009",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-010",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-011",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C006",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C009",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C011",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-021",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "已审原卡条件明确，保留与补充卡互补分支，不重复计事件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-023",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "已审原卡条件明确，保留与补充卡互补分支，不重复计事件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-025",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "已审原卡条件明确，保留与补充卡互补分支，不重复计事件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C053",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "贵多但身初中空与日支投绝，限制官程；上书雀岁贵鬼另为风险。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C060",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "学堂亥临戌空、日贵空取虚名，行年亥在后只暂延；不能用暂延抹去空脱。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-048",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "中亥月将官程不论空而少迟、巳寅受生不为空炉；不能扩到免妻凶。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C071",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "不以退茹一律衰：原先取禄归长生、近天门及宫象论在朝八座，后以退入空亡限晚年谪降；中末不空五府为原反事实，未达五府不等于无朝官。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C078",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "作者不因引从与铸印贵人便全吉，而看其引出死墓绝及虎玄；壬子脱墓后及第、连服、庚申绝地终任是不同阶段。坟蚁原说不作现实致病依据。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-086",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "巳亥巳须辨壬财来绝、丙戊我克处绝、辛长生末绝，旧卡已涵三种明确比较条件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C103",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "原先核官星与长生学堂皆空，再存末贵却刑日上且天空的贵无位；晚孤只与奴婢属原后称果然，不能由笼统果然补细妻子事件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C108",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "原将随身库限为读书书会生计，见父在鬼乡虎及禄空拒其他求财生涯；不从一个库字直接断通用财库可取。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C115",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "不见贵就亲近：原亥贵鬼绝身与阴贵财破碎限交财，25行年禄旺暂无恙而30身年亥绝；立春壬寅岁、丁丑命校议保存原层次，未另现代历法核验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C119",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "可提取初中空限制向三阳、四课间隔阻事及支刑干上服象；其余棺尸子息蓄水链原已被爱圅判多失误有讹，不拼成确定完整算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C138",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "同124婚盘另问进屋，原以互罗网年凑、宅害和末蛇绝生不利居住；不能挪婚成结论给房产，末不断绝生原留未硬编事件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C141",
+          "canonical_family_id": "LF26-SHAO-VOID-EXCEPTIONS",
+          "disposition": "原称三传皆鬼却仍以日财、神将合的间接合、末财库和命财限为少阻可得；末丑子爻与三鬼原称不默改，不能变成见鬼一律拒财。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-TEXTUAL",
+    "title": "取用争点、来源异说与量数反馈",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-007",
+      "LR26-BOOK-SHAO-012",
+      "LR26-BOOK-SHAO-013",
+      "LR26-BOOK-SHAO-024",
+      "LR26-BOOK-SHAO-C053",
+      "LR26-BOOK-SHAO-C062",
+      "LR26-BOOK-SHAO-C064",
+      "LR26-BOOK-SHAO-C069",
+      "LR26-BOOK-SHAO-062",
+      "LR26-BOOK-SHAO-C081",
+      "LR26-BOOK-SHAO-C085",
+      "LR26-BOOK-SHAO-C095",
+      "LR26-BOOK-SHAO-C098",
+      "LR26-BOOK-SHAO-C099",
+      "LR26-BOOK-SHAO-C102",
+      "LR26-BOOK-SHAO-C109",
+      "LR26-BOOK-SHAO-C112",
+      "LR26-BOOK-SHAO-C115",
+      "LR26-BOOK-SHAO-C116",
+      "LR26-BOOK-SHAO-C119",
+      "LR26-BOOK-SHAO-C120",
+      "LR26-BOOK-SHAO-C122",
+      "LR26-BOOK-SHAO-C131",
+      "LR26-BOOK-SHAO-C134",
+      "LR26-BOOK-SHAO-C140",
+      "LR26-BOOK-SHAO-C141",
+      "LR26-BOOK-SHAO-C1411",
+      "LR26-BOOK-SHAO-C142",
+      "LR26-BOOK-SHAO-C146"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "比较族/条件分支保留，不删除原卡",
+    "common_method": "取用、同支位置异解及数理驳论保持作者层次，未形成统一排盘或取数算法。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-007",
+        "conditions": [
+          "原例乙巳日戌将亥时，原作者认为干支同见之位不能重复据以取用。"
+        ],
+        "source_method": "邵秀才案：保留原作者不备取用争点，不从单案扩为通用排盘改写"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-012",
+        "conditions": [
+          "郑宣义案日上、支上、末传皆巳，原载两店兴一店败。"
+        ],
+        "source_method": "同支多位置：三店财绝解释分歧须逐作者并列"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-013",
+        "conditions": [
+          "王德卿案原断二十六年，原载结果十六年，析理随后批评四亥乘四说。"
+        ],
+        "source_method": "寿数相矛盾时保留原断与结果，后人推测不可回填成初判"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-024",
+        "conditions": [
+          "童秀才求新宅，原书未八戌五相乘四十，再以春木旺土死折半为二十年。"
+        ],
+        "conclusion": "本案折半有明确季节和取数位置，不能简化成所有极阴数取半；青龙宅左与方位异文也应保留原作者各自的参照层级。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C053",
+        "conditions": [
+          "丁丑日贵多，身初中空、丁支日投亥绝，岁雀日上贵鬼。"
+        ],
+        "source_method": "申妻/辛妻、丁日/丙日绝保留作者层次和异文；不拼成统一妻符。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C062",
+        "conditions": [
+          "辛巳同61课，亥临辛、午勾鬼入宅、支干自刑、末同类申空；孙丁亥命为爱圅补议。"
+        ],
+        "source_method": "原从面前脱气、宅午贵鬼和六阴论前程与病损，另述女占吉/未娶男克；爱圅以亥本命脱干解释较甚，只是后注不能当独立验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C064",
+        "conditions": [
+          "甲申日干支墓，未旬空；初贵六害、偏堂太阴；行年申为医而作蛇鬼，本命木与墓叙存疑。"
+        ],
+        "source_method": "旧064保墓空局部解阻；补存初贵六害不利考试、太阴与妻宫加子、行年医蛇鬼的医误风险，不以墓空免除所有凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C069",
+        "conditions": [
+          "丙子日巳戌卯；败卯克戌墓，戌墓丙，丙巳奔宅子受克；巳4戌5合9。"
+        ],
+        "source_method": "原按败墓逼身与去住不容论阻服回避，再以宅巳4与日戌5相加九年；母卯先墓、己身后及属不同时间对象，不把九年称成功出头已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-062",
+        "conditions": [
+          "邵二十一公孙案与前一赵子案同课；爱圅按年龄推戊申占、丁亥命，另以亥命脱干解释凶较甚。"
+        ],
+        "source_method": "同课异人及爱圅丁亥命校议边界"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C081",
+        "conditions": [
+          "丙戌午龙刃空、亥子丑官贵相连；亥加戌土制水临西；丑命太阴加子。"
+        ],
+        "source_method": "旧081保一任空庆与后官贵及异说，补存江西水土西位、刑法拆字水去、寅生地京西、丑守土太阴不显；拆字和地方取象只守本案。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C085",
+        "conditions": [
+          "戊寅昴星虎视，丑贵加酉、丑季；辰青龙大理为古本后叙析。"
+        ],
+        "source_method": "旧085已保存8位、6×9=54和8+6=14的不同数法；补存丑贵季三取第三子受恩、虎视贵丑酉取边郡兼武，古本青龙辰大理另署。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C095",
+        "conditions": [
+          "己酉太阴日上暗，初卯死空中午落空，末酉在干寄未之后地午，子财常进败。"
+        ],
+        "source_method": "作者按初中空后仅末日后败、太阴与财常败论身难显，爱圅分别释进退现在三败和壬子宅引本宫；子先亡及父悲伤继亡保叙，三年半未明取数。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C098",
+        "conditions": [
+          "壬辰寅蛇加酉、未鬼宿加寅鬼门、子合加未害，辰后加壬刑胜德。"
+        ],
+        "source_method": "原先逐列蛇鸡穴、鬼宿鬼门、末六合势害与刑胜德三不吉，再承认天后喜恩却过多难起官；爱圅质疑98/99署名，方法保存为本书原载未知作者。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C099",
+        "conditions": [
+          "甲子日辰午申登三天，中午蛇、末申后；寅龙入宅，岁上发用。"
+        ],
+        "source_method": "原登三天仍有中蛇挠，五月末替、六月赦、明年三月转官各有位置与太阳交午的原解释；98/99署名受爱圅质疑，不把先后人事当多个独立验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C102",
+        "conditions": [
+          "戊申润下子申辰，昼贵天空帘幕；宅辰玄，末归甲辰旬首宅；辰鱼盐。"
+        ],
+        "source_method": "旧102保存生囚辨墓库；补存水财漕局须费己财、昼贵空帘幕名声、末辰旬首魁与鱼盐职。易卷关节原叙明说不知，不因考中认定真实作弊。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C109",
+        "conditions": [
+          "辛卯初丑母墓发用，寅妻贵艮方金绝；子亥退脱阴武，亥4子9。"
+        ],
+        "source_method": "旧109保沈注墓父母类须发用；补存寅妻贵起家后金绝丧妻、子亥退脱男女耗与疝象。原4×9=36紧接13年亡未明衔接，不改原式为4+9。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C112",
+        "conditions": [
+          "甲午申巳寅，何辛酉命行年寅；源原11年数后校为申7亥4。"
+        ],
+        "source_method": "11年数理纠正复用旧112，保同盘何与傅不同人生过程；水边僧亡得银、再溪伤人、炉匠与陈人坏原断有结果叙，但未提供每项明取链，不补师承秘密算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C115",
+        "conditions": [
+          "丁巳亥贵鬼临干绝，酉财破碎阴贵，丑空阴中、巳宅末落空；25行年寅午禄、30未见亥。"
+        ],
+        "source_method": "不见贵就亲近：原亥贵鬼绝身与阴贵财破碎限交财，25行年禄旺暂无恙而30身年亥绝；立春壬寅岁、丁丑命校议保存原层次，未另现代历法核验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C116",
+        "conditions": [
+          "丙戌戌蛇墓干、巳蛇夹墓；卯合夹申肺，风卯奔戌常丧家；行年亥子巳叙。"
+        ],
+        "source_method": "原夹墓块积、风食肺脾胃的移位链逐存，34岁当场自述块只证已有症状；35官耗与八九月尽的年序未明，不以原病因推导当现实医学确认。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C119",
+        "conditions": [
+          "壬戌子寅辰向三阳但初中空，支刑日上丑常破碎；子息落空与虎犬地叙存疑。"
+        ],
+        "source_method": "可提取初中空限制向三阳、四课间隔阻事及支刑干上服象；其余棺尸子息蓄水链原已被爱圅判多失误有讹，不拼成确定完整算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C120",
+        "conditions": [
+          "庚辰寅辰午，午鬼火星春归午，辰宅生午；寅财初、午蛇末。"
+        ],
+        "source_method": "旧120保分月反馈粒度；补存午仓火鬼归宅又受宅生、当值人/妻病分支。源后释称末传寅而盘末午的文字差异保留，具体分月未逐项推法不补。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C122",
+        "conditions": [
+          "己卯反吟卯酉，后合玄与私门；女命男年相乘，己土生二金；血支卯月议。"
+        ],
+        "source_method": "原年命相乘与配偶神互见取婚成，卯酉私门及婢酉合玄解释私通，血支退子另依月令；爱圅质疑男克干为嗣/女生干子是禄命家语，不能抹成统一六壬生子规则。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C131",
+        "conditions": [
+          "乙丑亥后母发被丑克、传玄虎内酉门，虎未墓；乙干儿寅少阳雀旺木相火。"
+        ],
+        "source_method": "原支母干儿明确定位，母后受克传入玄虎墓门为母凶，儿干寅雀得旺相为儿存；两对象同盘异判，不能见虎墓便子母俱死。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C134",
+        "conditions": [
+          "乙亥曲直未亥卯，申空鬼日上；初未卯受克、中亥未受克，末卯亥禄旺受生；初26/27末50/56双法。"
+        ],
+        "source_method": "行业取舍复用旧134；补存初48半24加卯地3=27与另一未8龙7卯6土5=26，中申7辰5得35空半称17，末卯6亥4半12加4=16且交末50/56两说。保持原坐标和四舍不明，不整合唯一算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C140",
+        "conditions": [
+          "戊寅辰巳午三传被日辰夹定；亥卯未生人可成，日辰抛离再赎。"
+        ],
+        "source_method": "原日辰夹定取终得店、抛离再赎并官事风险，生年亥卯未是明限定；三年主赎及丙年四五六年句疑，不凑唯一应期。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C141",
+        "conditions": [
+          "丁酉申财六合日上，酉宅戌蛇六害，亥子丑进；申命财、命年俱课。"
+        ],
+        "source_method": "原称三传皆鬼却仍以日财、神将合的间接合、末财库和命财限为少阻可得；末丑子爻与三鬼原称不默改，不能变成见鬼一律拒财。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C1411",
+        "conditions": [
+          "甲寅反吟寅申寅无明财，己巳命，寅德蛇制申、甲己化土；戊寅/甲戌得日。"
+        ],
+        "source_method": "原无财仍从生年己与甲化土、命德及蛇制申论薄财，行年财临得日；首戊寅与后甲戌日期并列不择一，不改成已有实际得款反馈。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C142",
+        "conditions": [
+          "丙戌未勾空日、子宅后翳，中寅玄财物偷耗，末辰虎动众。"
+        ],
+        "source_method": "原按空勾虚扰、后宅翳、寅玄偷财和辰虎动众解释店不兴终止；向三阳向高终不可止句与前后店止文字张力保留，不以课名改写实际歇店。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C146",
+        "conditions": [
+          "与145癸未稼穑同课，丙辰命自来墓身；54年未上戌闭口九月。"
+        ],
+        "source_method": "原己未命中传引生/末旬首化财与丙辰命添墓对比解释财旺或短久，行年未上戌闭口取54九月；未载实际死亡叙，不以原问对答当卒期验证。"
+      }
+    ],
+    "unresolved": [
+      "本族仅首批01–15已审范围，后续新增卡/旧法须逐条归入；不代表全书方法覆盖完成。",
+      "所有原卡ID与证据链保留，规则族不增加支持样本或独立验证计数。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "取用、同支位置异解及数理驳论保持作者层次，未形成统一排盘或取数算法。",
+      "identity": "规范比较原则；下列原文条件分支不被删并",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-007",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-012",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-013",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-024",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "已审原卡条件明确，保留与补充卡互补分支，不重复计事件"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C053",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "申妻/辛妻、丁日/丙日绝保留作者层次和异文；不拼成统一妻符。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C062",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原从面前脱气、宅午贵鬼和六阴论前程与病损，另述女占吉/未娶男克；爱圅以亥本命脱干解释较甚，只是后注不能当独立验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C064",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "旧064保墓空局部解阻；补存初贵六害不利考试、太阴与妻宫加子、行年医蛇鬼的医误风险，不以墓空免除所有凶。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C069",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原按败墓逼身与去住不容论阻服回避，再以宅巳4与日戌5相加九年；母卯先墓、己身后及属不同时间对象，不把九年称成功出头已验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-062",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "同课异人及爱圅丁亥命校议边界"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C081",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "旧081保一任空庆与后官贵及异说，补存江西水土西位、刑法拆字水去、寅生地京西、丑守土太阴不显；拆字和地方取象只守本案。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C085",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "旧085已保存8位、6×9=54和8+6=14的不同数法；补存丑贵季三取第三子受恩、虎视贵丑酉取边郡兼武，古本青龙辰大理另署。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C095",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "作者按初中空后仅末日后败、太阴与财常败论身难显，爱圅分别释进退现在三败和壬子宅引本宫；子先亡及父悲伤继亡保叙，三年半未明取数。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C098",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原先逐列蛇鸡穴、鬼宿鬼门、末六合势害与刑胜德三不吉，再承认天后喜恩却过多难起官；爱圅质疑98/99署名，方法保存为本书原载未知作者。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C099",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原登三天仍有中蛇挠，五月末替、六月赦、明年三月转官各有位置与太阳交午的原解释；98/99署名受爱圅质疑，不把先后人事当多个独立验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C102",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "旧102保存生囚辨墓库；补存水财漕局须费己财、昼贵空帘幕名声、末辰旬首魁与鱼盐职。易卷关节原叙明说不知，不因考中认定真实作弊。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C109",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "旧109保沈注墓父母类须发用；补存寅妻贵起家后金绝丧妻、子亥退脱男女耗与疝象。原4×9=36紧接13年亡未明衔接，不改原式为4+9。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C112",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "11年数理纠正复用旧112，保同盘何与傅不同人生过程；水边僧亡得银、再溪伤人、炉匠与陈人坏原断有结果叙，但未提供每项明取链，不补师承秘密算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C115",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "不见贵就亲近：原亥贵鬼绝身与阴贵财破碎限交财，25行年禄旺暂无恙而30身年亥绝；立春壬寅岁、丁丑命校议保存原层次，未另现代历法核验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C116",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原夹墓块积、风食肺脾胃的移位链逐存，34岁当场自述块只证已有症状；35官耗与八九月尽的年序未明，不以原病因推导当现实医学确认。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C119",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "可提取初中空限制向三阳、四课间隔阻事及支刑干上服象；其余棺尸子息蓄水链原已被爱圅判多失误有讹，不拼成确定完整算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C120",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "旧120保分月反馈粒度；补存午仓火鬼归宅又受宅生、当值人/妻病分支。源后释称末传寅而盘末午的文字差异保留，具体分月未逐项推法不补。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C122",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原年命相乘与配偶神互见取婚成，卯酉私门及婢酉合玄解释私通，血支退子另依月令；爱圅质疑男克干为嗣/女生干子是禄命家语，不能抹成统一六壬生子规则。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C131",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原支母干儿明确定位，母后受克传入玄虎墓门为母凶，儿干寅雀得旺相为儿存；两对象同盘异判，不能见虎墓便子母俱死。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C134",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "行业取舍复用旧134；补存初48半24加卯地3=27与另一未8龙7卯6土5=26，中申7辰5得35空半称17，末卯6亥4半12加4=16且交末50/56两说。保持原坐标和四舍不明，不整合唯一算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C140",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原日辰夹定取终得店、抛离再赎并官事风险，生年亥卯未是明限定；三年主赎及丙年四五六年句疑，不凑唯一应期。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C141",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原称三传皆鬼却仍以日财、神将合的间接合、末财库和命财限为少阻可得；末丑子爻与三鬼原称不默改，不能变成见鬼一律拒财。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C1411",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原无财仍从生年己与甲化土、命德及蛇制申论薄财，行年财临得日；首戊寅与后甲戌日期并列不择一，不改成已有实际得款反馈。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C142",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原按空勾虚扰、后宅翳、寅玄偷财和辰虎动众解释店不兴终止；向三阳向高终不可止句与前后店止文字张力保留，不以课名改写实际歇店。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C146",
+          "canonical_family_id": "LF26-SHAO-TEXTUAL",
+          "disposition": "原己未命中传引生/末旬首化财与丙辰命添墓对比解释财旺或短久，行年未上戌闭口取54九月；未载实际死亡叙，不以原问对答当卒期验证。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-SUBQUESTION",
+    "title": "多目标及条件行动的反馈分层",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-008",
+      "LR26-BOOK-SHAO-014",
+      "LR26-BOOK-SHAO-C014",
+      "LR26-BOOK-SHAO-C057",
+      "LR26-BOOK-SHAO-055",
+      "LR26-BOOK-SHAO-058",
+      "LR26-BOOK-SHAO-C068",
+      "LR26-BOOK-SHAO-C072",
+      "LR26-BOOK-SHAO-C075",
+      "LR26-BOOK-SHAO-072",
+      "LR26-BOOK-SHAO-C076",
+      "LR26-BOOK-SHAO-C080",
+      "LR26-BOOK-SHAO-C084",
+      "LR26-BOOK-SHAO-C087",
+      "LR26-BOOK-SHAO-C091",
+      "LR26-BOOK-SHAO-C092",
+      "LR26-BOOK-SHAO-C094",
+      "LR26-BOOK-SHAO-C098",
+      "LR26-BOOK-SHAO-C101",
+      "LR26-BOOK-SHAO-C103",
+      "LR26-BOOK-SHAO-C104",
+      "LR26-BOOK-SHAO-C108",
+      "LR26-BOOK-SHAO-C112",
+      "LR26-BOOK-SHAO-C113",
+      "LR26-BOOK-SHAO-C114",
+      "LR26-BOOK-SHAO-112",
+      "LR26-BOOK-SHAO-107",
+      "LR26-BOOK-SHAO-C124",
+      "LR26-BOOK-SHAO-C125",
+      "LR26-BOOK-SHAO-C128",
+      "LR26-BOOK-SHAO-C129",
+      "LR26-BOOK-SHAO-C130",
+      "LR26-BOOK-SHAO-C133",
+      "LR26-BOOK-SHAO-C140",
+      "LR26-BOOK-SHAO-139",
+      "LR26-BOOK-SHAO-145",
+      "LR26-BOOK-SHAO-149"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "比较族/条件分支保留，不删除原卡",
+    "common_method": "宅任子息与迁后安的证据层次分别保存，不把共同叙事当多个独立验证。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-008",
+        "conditions": [
+          "邵巡检庚辰日占宅，原载同时含子息、迁居、前后任与寿数。"
+        ],
+        "source_method": "占宅兼问任职：子息耗身、住宅迁移与官任应分开提取"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-014",
+        "conditions": [
+          "童得松案先有德丧神消等凶断，末载迁店居住后户宁祸解。"
+        ],
+        "source_method": "迁居后转安：干预后的结果与原情景凶断分别记"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C014",
+        "conditions": [
+          "壬戌反吟巳亥，亥德闭口/临绝异说；火命临亥、辰墓破宅。"
+        ],
+        "source_method": "德丧、神消、人亡、家破分别取法并存校议"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C057",
+        "conditions": [
+          "壬午伏吟亥禄常重并，日宅自刑；子医玄、午偏财妾、月前神外监司。"
+        ],
+        "source_method": "亥禄常重并可兼任增俸，升转、寻医恋色与监司解任分子问分时段，不能一律判贵或凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-055",
+        "conditions": [
+          "赵将仕问武试，申禄空、太常不入传；末巳乘朱雀又是长生学堂官星。"
+        ],
+        "source_method": "申禄空否武，末巳雀长生学堂取文，岳庙邀友读书为行动转向；原卡已逐问覆盖。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-058",
+        "conditions": [
+          "郭巡辖案寅官龙空、巳禄临支与申合，原文区分正任与权摄。"
+        ],
+        "source_method": "寅官空否正任，巳禄支合仍食禄，陈姓退才到任；官、禄、障碍和阶段旧卡已覆盖。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C068",
+        "conditions": [
+          "戊午日寅鬼生中末及宅午刃天鬼；未合午，亥月建合寅，天空空屋。"
+        ],
+        "source_method": "原官问迁改与宅眷死亡分开，以寅鬼生三午刃、月建合寅来生宅、未午合论宅患，未藏丁非旬丁仍复用旧卡；三人后叙不变固定人数算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C072",
+        "conditions": [
+          "辛酉从革巳丑酉；午官临日巳官初应，旬丁蛇巳为辛德；午9酉6。"
+        ],
+        "source_method": "官日相应为催官，辛藏戌取庚戌及第；三传金局另论兄弟争，无子爻为子不得力；午9乘酉6得54，原五十三卒不能改成54已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C075",
+        "conditions": [
+          "壬辰日亥加辰自取乱首，午财后临壬、丑鬼加午；申父玄入丑墓，午亥自刑。"
+        ],
+        "source_method": "原以财上鬼及下犯上解释受财被仆挟、妻仆与本人遇害；父墓玄武不垂头的地形叙和迁墓建议独立保留，未实施迁墓的效果不称验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-072",
+        "conditions": [
+          "何上舍案巳旬丁作蛇，原作者指出辛以巳为德神，故不云怪。"
+        ],
+        "source_method": "巳旬丁蛇因辛德而不作怪"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C076",
+        "conditions": [
+          "庚辰日末申为禄身空且墓丑；身上卯藏乙，乙禄卯绝申；题注另存古本生日。"
+        ],
+        "source_method": "无禄课限食禄，原乙丑年终的解释追踪卯乙、申身和丑墓空；父母先后原断与后叙顺序相反，不能标整案俱验。荫子差二日是结果，不反补日数算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C080",
+        "conditions": [
+          "壬戌日寅玄加亥真闭口，寅亥合；辰未戌三传加宅四土，破碎太常鬼入宅。"
+        ],
+        "source_method": "原把重闭口、寅玄风与土塞解释瘫样风险，把空破碎取外服及初墓妇疾；原疏坤申水通艮寅风是建议，不能用后患病说建议已有效。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C084",
+        "conditions": [
+          "戊寅反吟寅申寅，戊德巳临亥绝受克，宅寅申相克；亥天门勾追。"
+        ],
+        "source_method": "原以德受绝克、寅申寺观与空申相克论神道风险，劝祷修身；原死入冥放还属神怪叙事身份，不记为独立真实死亡复生或改过疗效。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C087",
+        "conditions": [
+          "丁亥日酉朱妻文书破碎，亥官加破碎、丑阴末加官，极阴遍贵；年上巳会酉丑。"
+        ],
+        "source_method": "原遍贵用于差使权摄而非必显，妻恩财来与破碎财去分时段；乙卯年上巳补巳酉丑并冲亥绝、死绝会为作者终局解释。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C091",
+        "conditions": [
+          "庚辰三四课初俱鬼，日辰夹传午未申；末申禄空天后，子加亥受虎。"
+        ],
+        "source_method": "原有官赴任才作催官，夹定使事紧不免末禄空的服病；子虎无刑伤只病不死。四月赴任与记言不去同句张力保留，不以单句称实际准时就职。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C092",
+        "conditions": [
+          "癸亥极日酉空临干、干支败酉，木局脱阴；巳丁太阴灶临行年，子太阳。"
+        ],
+        "source_method": "原酒吐与欲色由酉败天空、六阴木脱解释，子加太阳另取子清贵；灶神奏减寿、七夜谢罪及梦神增一纪保叙事身份，爱圅巳德延年另署。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C094",
+        "conditions": [
+          "丁未日申酉财重，妻财起家；末戌火库非金库，蛇非横及末段婢仆耗。"
+        ],
+        "source_method": "前中财旺营运与末火库坏金财复用旧094；补保存原蛇非横、婢仆事耗财的晚段风险，真实叙事中责仆自缢和官费破产按行动链保留，不说财多必富终身。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C098",
+        "conditions": [
+          "壬辰寅蛇加酉、未鬼宿加寅鬼门、子合加未害，辰后加壬刑胜德。"
+        ],
+        "source_method": "原先逐列蛇鸡穴、鬼宿鬼门、末六合势害与刑胜德三不吉，再承认天后喜恩却过多难起官；爱圅质疑98/99署名，方法保存为本书原载未知作者。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C101",
+        "conditions": [
+          "甲午反吟寅申寅，干支伤，德绝禄丧、病符临身；子水蛇入宅为生男。"
+        ],
+        "source_method": "原以德禄干支伤与病符论病，生气蛇入宅取生男；得子贺饮后病是原叙时序，不认证子致父病。宅18年水冲改沟无明数法，题年OCR怪字保留。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C103",
+        "conditions": [
+          "戊申卯官空、申学堂落空，末丑天空昼贵刑日上戌。"
+        ],
+        "source_method": "原先核官星与长生学堂皆空，再存末贵却刑日上且天空的贵无位；晚孤只与奴婢属原后称果然，不能由笼统果然补细妻子事件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C104",
+        "conditions": [
+          "丙寅干支墓，第四课子鬼发后传归日上；戌六月死神蛇，巳中生气受克。"
+        ],
+        "source_method": "原以四课内鬼传日上逐侵人、戌死神蛇伏尸旧墓及生气受克化鬼论凶；8年病/5死和戌年戌月是不同预测，后7年5丧与庚戌9月卒不强合精确期。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C108",
+        "conditions": [
+          "丁亥炎上午戌寅，戌随身库；父寅鬼乡白虎，初午禄临卯又空。"
+        ],
+        "source_method": "原将随身库限为读书书会生计，见父在鬼乡虎及禄空拒其他求财生涯；不从一个库字直接断通用财库可取。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C112",
+        "conditions": [
+          "甲午申巳寅，何辛酉命行年寅；源原11年数后校为申7亥4。"
+        ],
+        "source_method": "11年数理纠正复用旧112，保同盘何与傅不同人生过程；水边僧亡得银、再溪伤人、炉匠与陈人坏原断有结果叙，但未提供每项明取链，不补师承秘密算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C113",
+        "conditions": [
+          "己酉支酉后来干败，己生酉再亥水；行年未并禄巳入绝；酉血后秽、亥玄丑虎。"
+        ],
+        "source_method": "原六阴还辨夜出日/日入夜，己酉亥生脱与年禄投绝加重；酉后血秽吐红、玄亥受丑克反胃、丑虎肠痛为原病象，改水戒色方案无执行证据。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C114",
+        "conditions": [
+          "己未初未刃蛇眷酒浆，中末申长生贵；己禄午就上而初未。"
+        ],
+        "source_method": "初蛇刃眷酒浆取非横杖责，后中末长生贵仍可扶身得名目；财赋走失与亲戚妇酒为两次责，不能因末贵抹去初祸或将贪贿叙认证成合法可取路径。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-112",
+        "conditions": [
+          "何子重十一年，原文巳四加亥七后被原析指出有误、当申七加亥四。"
+        ],
+        "source_method": "巳4亥7原误应申7亥4，不能只看和仍11"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-107",
+        "conditions": [
+          "邵木匠当时窘、与人工作，原作者说登三天本高危但细微出入人却显富。"
+        ],
+        "source_method": "旧107已把西北幽阴转东南旺方与贫匠工作处境相连，不能见登三天便一律危。；原卡已保中午财末申生、宅寅子息空受辰鬼、午孙分对象，非子孙一起俱凶。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C124",
+        "conditions": [
+          "庚子卯妻日上，妻宫罗网兜牢；末子蛇落空，酉勾妻阴神。"
+        ],
+        "source_method": "妻宫罗网兜牢取婚成，归后口舌与子蛇退子、酉勾妻血风为另问题；原没有后叙，不把强断当现实已发生。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C125",
+        "conditions": [
+          "庚申八专，庚为子申母，酉阴刃面前阳刃与母破碎；夫妻行年并，亥上子虎泄。"
+        ],
+        "source_method": "原先承认干支不分难辨，再给庚子申母定位与双刃破碎自刑，女年子虎泄为产险；分居后免的叙事是干预后结果，不认证前子作祟或戒欲因果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C128",
+        "conditions": [
+          "辛酉午未合天网，卯妻临午鬼；末子空天空加卯妻，子阴酉玄。"
+        ],
+        "source_method": "原天网合起与妻子空否亲子、过房有事，另子阴酉玄推妾私孕；实际买妾是建议后的行动，但原叙不作现代父系鉴定结论，乙居年怪字保留。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C129",
+        "conditions": [
+          "丁酉酉贵丁主动，宅亥中丁绝、丑末常老阴；贵遍地，酉妻子亥。"
+        ],
+        "source_method": "原多贵不抬养子为显贵，酉丁动宅亥绝、丑老阴权住分去留；32行年酉妻有子解释养子被忽视；神像猪圈与迁圈供圣有子是原因果建议，无后验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C130",
+        "conditions": [
+          "丙辰伏吟巳申寅，丙德巳、秋辰天喜龙庙，中申水土长生。"
+        ],
+        "source_method": "原以德神、天喜青龙入庙和日辰长生论子母安；厚德载物遂生女是原语，未给一个独立女胎判据，不以此扩成德生一律女。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C133",
+        "conditions": [
+          "癸巳午财妻空，日寅子生午；中申长生龙尊长财类，末酉空婢阴戌鬼。"
+        ],
+        "source_method": "原当前妻财未得与转借岳父可得分目标，以寅生财和申长生龙尊长释借；末酉婢空阴鬼取婢费受责，后奴斗吊打刺杀行动叙不反配三百千。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C140",
+        "conditions": [
+          "戊寅辰巳午三传被日辰夹定；亥卯未生人可成，日辰抛离再赎。"
+        ],
+        "source_method": "原日辰夹定取终得店、抛离再赎并官事风险，生年亥卯未是明限定；三年主赎及丙年四五六年句疑，不凑唯一应期。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-139",
+        "conditions": [
+          "水四哥承认已讨还本而再索利，原析用巳财绝、又见申长生解释。"
+        ],
+        "source_method": "原139已保财绝与长生对应两阶段、当场然只证已知背景。；丑上朱雀鬼惹动为原癸丑期解释，四年相隔保原，原卡已有后诉风险与索息分问。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-145",
+        "conditions": [
+          "刘判官己未命、中未本命、末旬首，原断做官方始便归家而治生可发。"
+        ],
+        "source_method": "旧145已完整保本命中未、旬末末首及化财原条件；没有这些不能迁同盘146。；归家治生为采纳建议后的结果，3千本金/12年/35万均后数字无明盘算法，不作未经干预对照。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-149",
+        "conditions": [
+          "周罗交易反吟凶将，原句先说必难成，接日上财雀争后成。"
+        ],
+        "source_method": "旧149已保初难后成组合，不截单句必难。；旧卡已分三人争/丁丑成/两家丧，乙巳子与巳中丙戌二姓原句不清；无唯一丁丑择日算法。"
+      }
+    ],
+    "unresolved": [
+      "本族仅首批01–15已审范围，后续新增卡/旧法须逐条归入；不代表全书方法覆盖完成。",
+      "所有原卡ID与证据链保留，规则族不增加支持样本或独立验证计数。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "宅任子息与迁后安的证据层次分别保存，不把共同叙事当多个独立验证。",
+      "identity": "规范比较原则；下列原文条件分支不被删并",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-008",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-014",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C014",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "保留具体条件为分支，现未证明与其他分支完全同义"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C057",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "亥禄常重并可兼任增俸，升转、寻医恋色与监司解任分子问分时段，不能一律判贵或凶。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-055",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "申禄空否武，末巳雀长生学堂取文，岳庙邀友读书为行动转向；原卡已逐问覆盖。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-058",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "寅官空否正任，巳禄支合仍食禄，陈姓退才到任；官、禄、障碍和阶段旧卡已覆盖。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C068",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原官问迁改与宅眷死亡分开，以寅鬼生三午刃、月建合寅来生宅、未午合论宅患，未藏丁非旬丁仍复用旧卡；三人后叙不变固定人数算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C072",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "官日相应为催官，辛藏戌取庚戌及第；三传金局另论兄弟争，无子爻为子不得力；午9乘酉6得54，原五十三卒不能改成54已验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C075",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原以财上鬼及下犯上解释受财被仆挟、妻仆与本人遇害；父墓玄武不垂头的地形叙和迁墓建议独立保留，未实施迁墓的效果不称验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-072",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "巳旬丁蛇因辛德而不作怪"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C076",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "无禄课限食禄，原乙丑年终的解释追踪卯乙、申身和丑墓空；父母先后原断与后叙顺序相反，不能标整案俱验。荫子差二日是结果，不反补日数算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C080",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原把重闭口、寅玄风与土塞解释瘫样风险，把空破碎取外服及初墓妇疾；原疏坤申水通艮寅风是建议，不能用后患病说建议已有效。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C084",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原以德受绝克、寅申寺观与空申相克论神道风险，劝祷修身；原死入冥放还属神怪叙事身份，不记为独立真实死亡复生或改过疗效。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C087",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原遍贵用于差使权摄而非必显，妻恩财来与破碎财去分时段；乙卯年上巳补巳酉丑并冲亥绝、死绝会为作者终局解释。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C091",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原有官赴任才作催官，夹定使事紧不免末禄空的服病；子虎无刑伤只病不死。四月赴任与记言不去同句张力保留，不以单句称实际准时就职。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C092",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原酒吐与欲色由酉败天空、六阴木脱解释，子加太阳另取子清贵；灶神奏减寿、七夜谢罪及梦神增一纪保叙事身份，爱圅巳德延年另署。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C094",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "前中财旺营运与末火库坏金财复用旧094；补保存原蛇非横、婢仆事耗财的晚段风险，真实叙事中责仆自缢和官费破产按行动链保留，不说财多必富终身。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C098",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原先逐列蛇鸡穴、鬼宿鬼门、末六合势害与刑胜德三不吉，再承认天后喜恩却过多难起官；爱圅质疑98/99署名，方法保存为本书原载未知作者。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C101",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原以德禄干支伤与病符论病，生气蛇入宅取生男；得子贺饮后病是原叙时序，不认证子致父病。宅18年水冲改沟无明数法，题年OCR怪字保留。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C103",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原先核官星与长生学堂皆空，再存末贵却刑日上且天空的贵无位；晚孤只与奴婢属原后称果然，不能由笼统果然补细妻子事件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C104",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原以四课内鬼传日上逐侵人、戌死神蛇伏尸旧墓及生气受克化鬼论凶；8年病/5死和戌年戌月是不同预测，后7年5丧与庚戌9月卒不强合精确期。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C108",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原将随身库限为读书书会生计，见父在鬼乡虎及禄空拒其他求财生涯；不从一个库字直接断通用财库可取。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C112",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "11年数理纠正复用旧112，保同盘何与傅不同人生过程；水边僧亡得银、再溪伤人、炉匠与陈人坏原断有结果叙，但未提供每项明取链，不补师承秘密算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C113",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原六阴还辨夜出日/日入夜，己酉亥生脱与年禄投绝加重；酉后血秽吐红、玄亥受丑克反胃、丑虎肠痛为原病象，改水戒色方案无执行证据。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C114",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "初蛇刃眷酒浆取非横杖责，后中末长生贵仍可扶身得名目；财赋走失与亲戚妇酒为两次责，不能因末贵抹去初祸或将贪贿叙认证成合法可取路径。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-112",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "巳4亥7原误应申7亥4，不能只看和仍11"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-107",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "旧107已把西北幽阴转东南旺方与贫匠工作处境相连，不能见登三天便一律危。；原卡已保中午财末申生、宅寅子息空受辰鬼、午孙分对象，非子孙一起俱凶。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C124",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "妻宫罗网兜牢取婚成，归后口舌与子蛇退子、酉勾妻血风为另问题；原没有后叙，不把强断当现实已发生。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C125",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原先承认干支不分难辨，再给庚子申母定位与双刃破碎自刑，女年子虎泄为产险；分居后免的叙事是干预后结果，不认证前子作祟或戒欲因果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C128",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原天网合起与妻子空否亲子、过房有事，另子阴酉玄推妾私孕；实际买妾是建议后的行动，但原叙不作现代父系鉴定结论，乙居年怪字保留。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C129",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原多贵不抬养子为显贵，酉丁动宅亥绝、丑老阴权住分去留；32行年酉妻有子解释养子被忽视；神像猪圈与迁圈供圣有子是原因果建议，无后验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C130",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原以德神、天喜青龙入庙和日辰长生论子母安；厚德载物遂生女是原语，未给一个独立女胎判据，不以此扩成德生一律女。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C133",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原当前妻财未得与转借岳父可得分目标，以寅生财和申长生龙尊长释借；末酉婢空阴鬼取婢费受责，后奴斗吊打刺杀行动叙不反配三百千。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C140",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原日辰夹定取终得店、抛离再赎并官事风险，生年亥卯未是明限定；三年主赎及丙年四五六年句疑，不凑唯一应期。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-139",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "原139已保财绝与长生对应两阶段、当场然只证已知背景。；丑上朱雀鬼惹动为原癸丑期解释，四年相隔保原，原卡已有后诉风险与索息分问。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-145",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "旧145已完整保本命中未、旬末末首及化财原条件；没有这些不能迁同盘146。；归家治生为采纳建议后的结果，3千本金/12年/35万均后数字无明盘算法，不作未经干预对照。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-149",
+          "canonical_family_id": "LF26-SHAO-SUBQUESTION",
+          "disposition": "旧149已保初难后成组合，不截单句必难。；旧卡已分三人争/丁丑成/两家丧，乙巳子与巳中丙戌二姓原句不清；无唯一丁丑择日算法。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-DYNAMIC",
+    "title": "动静、远近与合冲马的条件分支",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-C150",
+      "LR26-BOOK-SHAO-C155",
+      "LR26-BOOK-SHAO-C156",
+      "LR26-BOOK-SHAO-C047",
+      "LR26-BOOK-SHAO-C054",
+      "LR26-BOOK-SHAO-C071",
+      "LR26-BOOK-SHAO-C074",
+      "LR26-BOOK-SHAO-C093",
+      "LR26-BOOK-SHAO-C096",
+      "LR26-BOOK-SHAO-096",
+      "LR26-BOOK-SHAO-C1271",
+      "LR26-BOOK-SHAO-C137"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "不同目标/条件的比较分支保留",
+    "common_method": "谋干全阴丑勾用旧、动静合生恋家后冲马才动、远行马驰天门地足分别保留；先判断目标和时段，再论动止与距离，三分支不是同一条件。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-C150",
+        "conditions": [
+          "丑勾在支上、三传四课皆阴，原引心镜阴阳分别新旧。"
+        ],
+        "conclusion": "原作者据丑勾和全阴主用旧静守，另引阳动生新德/阴静杀旧刑为理论条件；不能把仅一段阴阳论当实际谋事已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C155",
+        "conditions": [
+          "丙申财合巳、申合与未勾在本家；辛亥年亥月冲巳、寅马加亥。"
+        ],
+        "conclusion": "前期生合和宅勾恋家，后期亥冲巳寅申冲及马动才断远行；动与止分时，不用同一静象否定后来发动。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C156",
+        "conditions": [
+          "甲午反吟、日上马交驰，寅申各7；行年亥加巳天门地足。"
+        ],
+        "conclusion": "作者据马驰及天门地足论远动，寅申7只明说七年推测，原七年八年双候选必须保存；反馈八年不能反写唯一八。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C047",
+        "conditions": [
+          "戊辰申戌子三渊传入空、西北不回；戊辰身宅东南、辛卯命东方。"
+        ],
+        "source_method": "三渊远陷空且不回为官程劳与外州终；不等同155动静合生分支。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C054",
+        "conditions": [
+          "丙子辰命初自子升、午撞巳止，末申空；父虎宅。"
+        ],
+        "source_method": "登三天初有升象，子关、午撞巳止与末申空使升象不落实；不借其他同名课体补升。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C071",
+        "conditions": [
+          "乙卯退茹丑子亥；卯禄向亥长生，亥卯生旺相连；朱雀仪神、子紫微亥远穹。"
+        ],
+        "source_method": "不以退茹一律衰：原先取禄归长生、近天门及宫象论在朝八座，后以退入空亡限晚年谪降；中末不空五府为原反事实，未达五府不等于无朝官。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C074",
+        "conditions": [
+          "庚辰午辰寅退传顾祖，命寅财末入宅；午龙加申退鳞，寅生午克庚；行年夜贵昼天空闭口。"
+        ],
+        "source_method": "原在升迁问事里以日传降支、顾祖命入宅判断差出经乡争产；寅既财又命生午鬼，自己参与争财为作者归因，贵闭口不宜告是原建议，实际再次上诉被罢下狱分开。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C093",
+        "conditions": [
+          "丁未反吟丑未重勾，一火生四土；行年木不得地，初马动。"
+        ],
+        "source_method": "作者以重土勾脱和丑旧事论旧任牵绊，初马仍可先起程；60或120里为两候选无明乘法，后100余里只属宽粒度对应，不写唯一精确距离。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C096",
+        "conditions": [
+          "己卯申贵长生空、宅辰勾六害；行年丑虎旬丁合中巳马，末午禄雀临马。"
+        ],
+        "source_method": "贵空与长生分作用复用旧096；补存丑虎丁道路合马解除宅勾久滞，以及巳午炉冶、六合模范和禄雀文事的职务条件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-096",
+        "conditions": [
+          "童知丞贵人长生空亡，因亲属提刑将来而回避，又因其周旋改职改官。"
+        ],
+        "source_method": "贵长生周旋和贵空回避/前妻父/罢去分作用"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C1271",
+        "conditions": [
+          "张姓同日得独足酉课另问远行；酉兑泽、六合船、独足无足。"
+        ],
+        "source_method": "张姓附案的十倍获利仅为原预测，未给取倍算法或后叙。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能用主何案五女数代替十倍财利。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C137",
+        "conditions": [
+          "商人己未独足酉六合，酉兑泽、独足无足；酉将亥时原题。"
+        ],
+        "source_method": "商人远行原载加倍得利、果应，未记路线、账目或实际倍数。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能同十倍分支并为一个收益数。"
+      }
+    ],
+    "unresolved": [
+      "当前各原卡条件不完全相同，不据相似结论删除证据；后续新案须逐条件比对。",
+      "精确数量、时日或无法取证处另标，独立验证数不增加。"
+    ],
+    "canonical_rule": {
+      "statement": "谋干全阴丑勾用旧、动静合生恋家后冲马才动、远行马驰天门地足分别保留；先判断目标和时段，再论动止与距离，三分支不是同一条件。",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C150",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C155",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C156",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C047",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "三渊远陷空且不回为官程劳与外州终；不等同155动静合生分支。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C054",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "登三天初有升象，子关、午撞巳止与末申空使升象不落实；不借其他同名课体补升。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C071",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "不以退茹一律衰：原先取禄归长生、近天门及宫象论在朝八座，后以退入空亡限晚年谪降；中末不空五府为原反事实，未达五府不等于无朝官。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C074",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "原在升迁问事里以日传降支、顾祖命入宅判断差出经乡争产；寅既财又命生午鬼，自己参与争财为作者归因，贵闭口不宜告是原建议，实际再次上诉被罢下狱分开。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C093",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "作者以重土勾脱和丑旧事论旧任牵绊，初马仍可先起程；60或120里为两候选无明乘法，后100余里只属宽粒度对应，不写唯一精确距离。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C096",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "贵空与长生分作用复用旧096；补存丑虎丁道路合马解除宅勾久滞，以及巳午炉冶、六合模范和禄雀文事的职务条件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-096",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "贵长生周旋和贵空回避/前妻父/罢去分作用"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C1271",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "张姓附案的十倍获利仅为原预测，未给取倍算法或后叙。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能用主何案五女数代替十倍财利。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C137",
+          "canonical_family_id": "LF26-SHAO-DYNAMIC",
+          "disposition": "商人远行原载加倍得利、果应，未记路线、账目或实际倍数。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能同十倍分支并为一个收益数。"
+        }
+      ]
+    },
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-SHAO-VISIT-OBJECT",
+    "title": "访人与来客身份的对象分支",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-C152",
+      "LR26-BOOK-SHAO-C157"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "不同目标/条件的比较分支保留",
+    "common_method": "不在/不出见/事务未毕与来客孤身是不同判断；课不足畏罡、在内及六害空亡各守原对象条件，不能互相代替。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-C152",
+        "conditions": [
+          "庚辰润下，子蛇发用，庚空不能生子、子畏辰；罡加孟在内。"
+        ],
+        "conclusion": "先分在家与出见，再分事务未毕与具体生计；原以课不足和畏罡说不见，以子北黑水合辰土解释造墨，而非直接认不在。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C157",
+        "conditions": [
+          "戊辰亥加申发用、六害兼空亡，原作者称真正孤辰寡宿。"
+        ],
+        "conclusion": "此原断以用神六害空亡组合判断来客单独一人，不能只由某一空亡即推全家孤绝；原无后续核实。"
+      }
+    ],
+    "unresolved": [
+      "当前各原卡条件不完全相同，不据相似结论删除证据；后续新案须逐条件比对。",
+      "精确数量、时日或无法取证处另标，独立验证数不增加。"
+    ],
+    "canonical_rule": {
+      "statement": "不在/不出见/事务未毕与来客孤身是不同判断；课不足畏罡、在内及六害空亡各守原对象条件，不能互相代替。",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C152",
+          "canonical_family_id": "LF26-SHAO-VISIT-OBJECT",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C157",
+          "canonical_family_id": "LF26-SHAO-VISIT-OBJECT",
+          "disposition": "保留明确对象/作用/条件分支"
+        }
+      ]
+    },
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-SHAO-DOCUMENT-TIMING",
+    "title": "文书、榜信与到任的到达层次",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-C159",
+      "LR26-BOOK-SHAO-C160",
+      "LR26-BOOK-SHAO-C161",
+      "LR26-BOOK-SHAO-C162",
+      "LR26-BOOK-SHAO-C163",
+      "LR26-BOOK-SHAO-C051",
+      "LR26-BOOK-SHAO-C052",
+      "LR26-BOOK-SHAO-C061",
+      "LR26-BOOK-SHAO-C063",
+      "LR26-BOOK-SHAO-C073",
+      "LR26-BOOK-SHAO-C074",
+      "LR26-BOOK-SHAO-C076",
+      "LR26-BOOK-SHAO-C087",
+      "LR26-BOOK-SHAO-C089",
+      "LR26-BOOK-SHAO-C091",
+      "LR26-BOOK-SHAO-C095",
+      "LR26-BOOK-SHAO-C099",
+      "LR26-BOOK-SHAO-C106",
+      "LR26-BOOK-SHAO-C110",
+      "LR26-BOOK-SHAO-C111",
+      "LR26-BOOK-SHAO-C135",
+      "LR26-BOOK-SHAO-C1411"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "不同目标/条件的比较分支保留",
+    "common_method": "区分目前位置、收到消息、正式到任、考试及第与得职后灾；水浅土克、岁马官文、罡支速、时用、雀门刑速分别保留，时间反馈按原粒度。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-C159",
+        "conditions": [
+          "冬润下，辰土玄加子江、子加申；原以子十二月太阴。"
+        ],
+        "conclusion": "当下在润州水浅与未来12月至任是两个判断，辰土克子江用于浅水，子十二月太阴是原取月口径。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C160",
+        "conditions": [
+          "乙亥年戊戌六月，申岁马勾鬼为用，雀太岁、末贵及月建前一辰。"
+        ],
+        "conclusion": "作者以勾鬼岁马与雀太岁末贵解释官文和意外替动，月建前申取7月；单申道路不能推广所有申皆官文。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C161",
+        "conditions": [
+          "甲戌反吟，课传马乘龙作官、禄后；天罡加支。"
+        ],
+        "conclusion": "原以马龙官禄论得官，以罡加支用事严紧论榜速到；49名有原断结果却无明取数，不另造名次算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C162",
+        "conditions": [
+          "辛亥初巳马后，月建文字，巳时发用；虎墓加身。"
+        ],
+        "conclusion": "原以日马后恩泽、月建文字取文到，巳时发用断不出时；得后虎墓加身另判灾，后来手伤是另一阶段。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C163",
+        "conditions": [
+          "辛卯昴星，子加卯朱雀临门、子卯刑，传俱日辰上。"
+        ],
+        "conclusion": "原以雀门识文字、刑取来紧、传在日辰取日下，将文字对象和速度条件分开，不能任一刑都主官文即到。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C051",
+        "conditions": [
+          "戊寅罗刃回日，行年子冲午父；卯6辰5巳4合15，另8合23。"
+        ],
+        "source_method": "罗刃回日现在赴与行年子冲午父明年丧分别判断。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C052",
+        "conditions": [
+          "癸亥出户、卯阴幕贵临干、末巳日贵，午年申长生学堂。"
+        ],
+        "source_method": "癸亥极日初晦、幕贵向日贵转明，行年长生学堂拱为及第支撑；五甲为等第未明数法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C061",
+        "conditions": [
+          "辛巳日亥玄临辛、亥子二水；午官临厨幕贵，寅贵加丑；末申空天空。"
+        ],
+        "source_method": "原以一金生二水取虚泄病象，以官临厨/幕贵论监试与寅贵加丑论癸丑及第；末空限享用。申7未8与减半的原式不能直接得35，不补算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C063",
+        "conditions": [
+          "癸丑日未丑未反吟，戊申占年未为旧政；十二月建丑又加旧上，满盘鬼。"
+        ],
+        "source_method": "作者以旧政重见及月建加旧解释迟赴；已三年到第六年赴的叙述不等于原文明示乘二算法。八年终任另据未8、丑墓田及常未。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C073",
+        "conditions": [
+          "丁巳伏吟巳申寅；末寅学堂受行年卯扶，巳临官空；申妻玄光怪，丁巳俱生寅。"
+        ],
+        "source_method": "旧073专保不见子息的临终范围；补存学堂与行年扶的解举、初临官空的声誉、申玄的原猿迷象、丁巳俱生寅归妻家。怪异和治疗叙不当现实病因证明。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C074",
+        "conditions": [
+          "庚辰午辰寅退传顾祖，命寅财末入宅；午龙加申退鳞，寅生午克庚；行年夜贵昼天空闭口。"
+        ],
+        "source_method": "原在升迁问事里以日传降支、顾祖命入宅判断差出经乡争产；寅既财又命生午鬼，自己参与争财为作者归因，贵闭口不宜告是原建议，实际再次上诉被罢下狱分开。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C076",
+        "conditions": [
+          "庚辰日末申为禄身空且墓丑；身上卯藏乙，乙禄卯绝申；题注另存古本生日。"
+        ],
+        "source_method": "无禄课限食禄，原乙丑年终的解释追踪卯乙、申身和丑墓空；父母先后原断与后叙顺序相反，不能标整案俱验。荫子差二日是结果，不反补日数算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C087",
+        "conditions": [
+          "丁亥日酉朱妻文书破碎，亥官加破碎、丑阴末加官，极阴遍贵；年上巳会酉丑。"
+        ],
+        "source_method": "原遍贵用于差使权摄而非必显，妻恩财来与破碎财去分时段；乙卯年上巳补巳酉丑并冲亥绝、死绝会为作者终局解释。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C089",
+        "conditions": [
+          "辛巳日午官贵炎上火局、行年引动；巳父蛇加酉酒，巳午相连。"
+        ],
+        "source_method": "官鬼平人/赴任区别复用旧089，另存巳父蛇酉酒的尊长酒险，以及巳先应午继应的相连节点；16个月以原任期叙保留不造通用数法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C091",
+        "conditions": [
+          "庚辰三四课初俱鬼，日辰夹传午未申；末申禄空天后，子加亥受虎。"
+        ],
+        "source_method": "原有官赴任才作催官，夹定使事紧不免末禄空的服病；子虎无刑伤只病不死。四月赴任与记言不去同句张力保留，不以单句称实际准时就职。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C095",
+        "conditions": [
+          "己酉太阴日上暗，初卯死空中午落空，末酉在干寄未之后地午，子财常进败。"
+        ],
+        "source_method": "作者按初中空后仅末日后败、太阴与财常败论身难显，爱圅分别释进退现在三败和壬子宅引本宫；子先亡及父悲伤继亡保叙，三年半未明取数。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C099",
+        "conditions": [
+          "甲子日辰午申登三天，中午蛇、末申后；寅龙入宅，岁上发用。"
+        ],
+        "source_method": "原登三天仍有中蛇挠，五月末替、六月赦、明年三月转官各有位置与太阳交午的原解释；98/99署名受爱圅质疑，不把先后人事当多个独立验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C106",
+        "conditions": [
+          "丁亥酉贵天门夜贵、未阴加酉，身宅传年阴；巳马常家、卯空门户。"
+        ],
+        "source_method": "原托用事贵却被阴蔽与家人乘服争分按各位置解释，末回身破灶、巳家卯空分门户；戊申阳年不举己酉阴年发是原时态条件，70岁死无后验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C110",
+        "conditions": [
+          "甲午亥生身太阴，宅卯刃雀；初申虎鬼，中巳子空，末寅加巳。"
+        ],
+        "source_method": "原承认亥生阴佑而宅刃雀使本家生事，虎鬼与子巳连接亲族告子后本人受配；4年/4月备选及太岁子上酉、8月助酉原链保留，不与同盘何子重并事件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C111",
+        "conditions": [
+          "甲申酉雀阴官破碎克日，戌财卯合六合日之前；巳阴闭口子弟，末子龙。"
+        ],
+        "source_method": "原因财陷罗网取责谪，酉泽暗财与戌财双合解释暗受财；母怏怏不言以巳阴闭口子弟而非本人笼统无言，己酉责与庚戌行年墓闭口分年。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C135",
+        "conditions": [
+          "庚寅干支盗气，申禄蛇加巳蛇，中亥脱庚克巳店，末寅财加亥脱再虎。"
+        ],
+        "source_method": "原沿初禄扰欠、中亥重脱、末财受脱虎克看经营耗尽；亥年两店歇与寅年争债另据亥克巳和寅财为店受脱，48年半/7年尽未给完整数法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C1411",
+        "conditions": [
+          "甲寅反吟寅申寅无明财，己巳命，寅德蛇制申、甲己化土；戊寅/甲戌得日。"
+        ],
+        "source_method": "原无财仍从生年己与甲化土、命德及蛇制申论薄财，行年财临得日；首戊寅与后甲戌日期并列不择一，不改成已有实际得款反馈。"
+      }
+    ],
+    "unresolved": [
+      "当前各原卡条件不完全相同，不据相似结论删除证据；后续新案须逐条件比对。",
+      "精确数量、时日或无法取证处另标，独立验证数不增加。"
+    ],
+    "canonical_rule": {
+      "statement": "区分目前位置、收到消息、正式到任、考试及第与得职后灾；水浅土克、岁马官文、罡支速、时用、雀门刑速分别保留，时间反馈按原粒度。",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C159",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C160",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C161",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C162",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C163",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "保留明确对象/作用/条件分支"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C051",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "罗刃回日现在赴与行年子冲午父明年丧分别判断。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C052",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "癸亥极日初晦、幕贵向日贵转明，行年长生学堂拱为及第支撑；五甲为等第未明数法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C061",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原以一金生二水取虚泄病象，以官临厨/幕贵论监试与寅贵加丑论癸丑及第；末空限享用。申7未8与减半的原式不能直接得35，不补算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C063",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "作者以旧政重见及月建加旧解释迟赴；已三年到第六年赴的叙述不等于原文明示乘二算法。八年终任另据未8、丑墓田及常未。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C073",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "旧073专保不见子息的临终范围；补存学堂与行年扶的解举、初临官空的声誉、申玄的原猿迷象、丁巳俱生寅归妻家。怪异和治疗叙不当现实病因证明。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C074",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原在升迁问事里以日传降支、顾祖命入宅判断差出经乡争产；寅既财又命生午鬼，自己参与争财为作者归因，贵闭口不宜告是原建议，实际再次上诉被罢下狱分开。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C076",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "无禄课限食禄，原乙丑年终的解释追踪卯乙、申身和丑墓空；父母先后原断与后叙顺序相反，不能标整案俱验。荫子差二日是结果，不反补日数算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C087",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原遍贵用于差使权摄而非必显，妻恩财来与破碎财去分时段；乙卯年上巳补巳酉丑并冲亥绝、死绝会为作者终局解释。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C089",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "官鬼平人/赴任区别复用旧089，另存巳父蛇酉酒的尊长酒险，以及巳先应午继应的相连节点；16个月以原任期叙保留不造通用数法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C091",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原有官赴任才作催官，夹定使事紧不免末禄空的服病；子虎无刑伤只病不死。四月赴任与记言不去同句张力保留，不以单句称实际准时就职。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C095",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "作者按初中空后仅末日后败、太阴与财常败论身难显，爱圅分别释进退现在三败和壬子宅引本宫；子先亡及父悲伤继亡保叙，三年半未明取数。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C099",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原登三天仍有中蛇挠，五月末替、六月赦、明年三月转官各有位置与太阳交午的原解释；98/99署名受爱圅质疑，不把先后人事当多个独立验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C106",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原托用事贵却被阴蔽与家人乘服争分按各位置解释，末回身破灶、巳家卯空分门户；戊申阳年不举己酉阴年发是原时态条件，70岁死无后验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C110",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原承认亥生阴佑而宅刃雀使本家生事，虎鬼与子巳连接亲族告子后本人受配；4年/4月备选及太岁子上酉、8月助酉原链保留，不与同盘何子重并事件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C111",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原因财陷罗网取责谪，酉泽暗财与戌财双合解释暗受财；母怏怏不言以巳阴闭口子弟而非本人笼统无言，己酉责与庚戌行年墓闭口分年。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C135",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原沿初禄扰欠、中亥重脱、末财受脱虎克看经营耗尽；亥年两店歇与寅年争债另据亥克巳和寅财为店受脱，48年半/7年尽未给完整数法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C1411",
+          "canonical_family_id": "LF26-SHAO-DOCUMENT-TIMING",
+          "disposition": "原无财仍从生年己与甲化土、命德及蛇制申论薄财，行年财临得日；首戊寅与后甲戌日期并列不择一，不改成已有实际得款反馈。"
+        }
+      ]
+    },
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LF26-SHAO-CLASS-SYMBOL",
+    "title": "类象取舍随季节、位置、问事与原据变化",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-018",
+      "LR26-BOOK-SHAO-C018",
+      "LR26-BOOK-SHAO-C026",
+      "LR26-BOOK-SHAO-C029",
+      "LR26-BOOK-SHAO-C037",
+      "LR26-BOOK-SHAO-039",
+      "LR26-BOOK-SHAO-C056",
+      "LR26-BOOK-SHAO-049",
+      "LR26-BOOK-SHAO-050",
+      "LR26-BOOK-SHAO-C065",
+      "LR26-BOOK-SHAO-C066",
+      "LR26-BOOK-SHAO-C067",
+      "LR26-BOOK-SHAO-C070",
+      "LR26-BOOK-SHAO-C071",
+      "LR26-BOOK-SHAO-C073",
+      "LR26-BOOK-SHAO-067",
+      "LR26-BOOK-SHAO-C077",
+      "LR26-BOOK-SHAO-C079",
+      "LR26-BOOK-SHAO-C081",
+      "LR26-BOOK-SHAO-C085",
+      "LR26-BOOK-SHAO-C088",
+      "LR26-BOOK-SHAO-C090",
+      "LR26-BOOK-SHAO-077",
+      "LR26-BOOK-SHAO-081",
+      "LR26-BOOK-SHAO-085",
+      "LR26-BOOK-SHAO-C096",
+      "LR26-BOOK-SHAO-C102",
+      "LR26-BOOK-SHAO-102",
+      "LR26-BOOK-SHAO-097",
+      "LR26-BOOK-SHAO-C117",
+      "LR26-BOOK-SHAO-C122",
+      "LR26-BOOK-SHAO-C123",
+      "LR26-BOOK-SHAO-C1271",
+      "LR26-BOOK-SHAO-C132",
+      "LR26-BOOK-SHAO-C137",
+      "LR26-BOOK-SHAO-C143",
+      "LR26-BOOK-SHAO-C144",
+      "LR26-BOOK-SHAO-144"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "规范取象核查条件，保留具体原符号分支",
+    "common_method": "抽类象先核问事、所在位置、季节旺衰和明确推据；18牛田/马屋及末山，26丑老人，29酉丁字像各有具体原条件，不互换为一条词典规则。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-018",
+        "conditions": [
+          "任太公春季丙戌占宅，原文主动问何以言牛不言田、言马不言屋。"
+        ],
+        "conclusion": "保存原作者用生息、空亡、天马和所处阶段选择具体物象的条件；同一丑、午不能脱离场景直接等同固定物品。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C018",
+        "conditions": [
+          "丙戌春占，午妇离目墓、巳酉宠婢与空奴、酉阴老妇；末丑朱季节转。"
+        ],
+        "conclusion": "牛田马屋的原取舍之外，女目、奴僭、老妇血疾与末山地争各有不同条件，不能把18仅记一张取象卡当五项全提；末传季节由春转秋冬改变牛/山。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C026",
+        "conditions": [
+          "甲申辰将亥时，丑为裹帽老人是原明说。"
+        ],
+        "conclusion": "只可从现存文字提取丑裹帽老人这一明确原取象；空坟、灶声、第三间和五尺60岁虽有原断笼统果然，但未明各数与位置算法，不补造。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C029",
+        "conditions": [
+          "丁酉午将，酉五通丁一足雀午、七月尚午将；酉丑会巳。"
+        ],
+        "conclusion": "原怪神故事中，神像一足、酱蛇少女及独足儿分别是不同来源范围；只神像一足有后叙，不能把丁独足反复使用当多次命中。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C037",
+        "conditions": [
+          "庚日戌宅来申、子后宅上、寅直去，四阳东南无关格。"
+        ],
+        "conclusion": "宅基后山前水及水直去解释先形后败，子吏孙卒仆另由巳蛇风路/辰合职业象；未给四女数量法不补。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-039",
+        "conditions": [
+          "正月己巳日宅占，申乘勾加巳，原作者同时给出损齿与新修灶两项断语。"
+        ],
+        "conclusion": "同一巳的口与炉灶象分属不同子问：损齿用申骨牙、勾损折、传破，修灶用巳炉灶及旺相；不要把一字多象混成无条件枚举。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C056",
+        "conditions": [
+          "戊申干酉支午四胜、巳弓不现、申箭行年失地、午马刃龙。"
+        ],
+        "source_method": "弓巳、箭申、马午须问弓马试且核现隐得地；官照只得虚衔，原风险建议未见发生反馈。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-049",
+        "conditions": [
+          "杨秀才案作者以卯空朽木、戌落空无模范否定仕进用途，保留轮磨之象用于生计。"
+        ],
+        "source_method": "卯空朽木、戌空无模使斫轮科名失败，轮磨余象改落水碓生计；不涵盖寿数。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-050",
+        "conditions": [
+          "应秀才己卯日，巳玄武加子被作者称走范，卯虎加戌称破模坠轩。"
+        ],
+        "source_method": "巳玄加子走范、卯虎加戌破模坠轩，死亡强断另须己卯；不与四不足混为一条。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C065",
+        "conditions": [
+          "丙申支申加干受丙克，宅上亥又得申生；寅末虎，亥生寅再生丙。"
+        ],
+        "source_method": "不只用赘婿课名：宅加日受克且宅去生亥为无正居；寅申迁转被蛇虎挠使官程止知录，寅曹职与亥寅生链另取水边州府。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C066",
+        "conditions": [
+          "壬寅日午临日、丑午害，申父临墓虎；亥克午、酉宅败破碎。"
+        ],
+        "source_method": "原把父墓白虎、午妻目亥绝、丑田园午屋及水土克制分为不同子链；病眼、屋转田园、酒败与启坟后叙分范围，不认证坟致病的现实因果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C067",
+        "conditions": [
+          "壬寅日申生壬学堂，初巳贵德空而玄滞；三传巳寅亥。"
+        ],
+        "source_method": "复用旧067生扶与贵空的科名分层，补存申金铜铁、巳加申坑冶、亥江湖临寅为未成船之修造场；不将未成寅木与卯成船混为词典同义。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C070",
+        "conditions": [
+          "乙卯未卯亥曲直，从墓到旺到长生；贵生身、亥子生乙卯；未财虎与末亥后禄。"
+        ],
+        "source_method": "原把墓传旺生用于由微至显和寿，天门木局持台用于侍从；未财虎前妻与亥后长生禄后妻、父子同类合继兄子分对象，寿近90与87后叙分精度。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C071",
+        "conditions": [
+          "乙卯退茹丑子亥；卯禄向亥长生，亥卯生旺相连；朱雀仪神、子紫微亥远穹。"
+        ],
+        "source_method": "不以退茹一律衰：原先取禄归长生、近天门及宫象论在朝八座，后以退入空亡限晚年谪降；中末不空五府为原反事实，未达五府不等于无朝官。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C073",
+        "conditions": [
+          "丁巳伏吟巳申寅；末寅学堂受行年卯扶，巳临官空；申妻玄光怪，丁巳俱生寅。"
+        ],
+        "source_method": "旧073专保不见子息的临终范围；补存学堂与行年扶的解举、初临官空的声誉、申玄的原猿迷象、丁巳俱生寅归妻家。怪异和治疗叙不当现实病因证明。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-067",
+        "conditions": [
+          "邓省干案日上申长生学堂，初巳贵德空，寅生巳生贵德；原作者断可发解但不能及第。"
+        ],
+        "source_method": "长生扶身与贵空玄滞区分发解/及第/得职"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C077",
+        "conditions": [
+          "辛巳丑墓天后滞，旬丁动、末寅贵天门引墓；申医药面、巳厨灶、空仆、亥玄水池。"
+        ],
+        "source_method": "迁动条件复用旧077，补存申加巳的药院和面灶取象，以及天空仆、亥玄池/堕水、辛子亥的童儿。后发生两前兆只为历史叙，不是任职原因已证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C079",
+        "conditions": [
+          "己卯木局，卯支克己；年上马破碎玄武受本命刑，白虎斗争与后合三合。"
+        ],
+        "source_method": "旧079保年马引外的限制，补存己受木局聚克、虎斗/后合聚众及中鬼第二场污涂；后争闹罢试只证原载该支结果，不使犯讳与污涂也已发生。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C081",
+        "conditions": [
+          "丙戌午龙刃空、亥子丑官贵相连；亥加戌土制水临西；丑命太阴加子。"
+        ],
+        "source_method": "旧081保一任空庆与后官贵及异说，补存江西水土西位、刑法拆字水去、寅生地京西、丑守土太阴不显；拆字和地方取象只守本案。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C085",
+        "conditions": [
+          "戊寅昴星虎视，丑贵加酉、丑季；辰青龙大理为古本后叙析。"
+        ],
+        "source_method": "旧085已保存8位、6×9=54和8+6=14的不同数法；补存丑贵季三取第三子受恩、虎视贵丑酉取边郡兼武，古本青龙辰大理另署。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C088",
+        "conditions": [
+          "甲寅亥本命生干支，旬末亥加旬首甲寅闭口；父亥常阴申后害，初丑空天空。"
+        ],
+        "source_method": "原先喜亥生本人却以父母爻真闭口论双亲亡，空丑土限守土而非所有仕途，亥天门学堂太常论学馆；74/78两候选原数保留，不统一成位置拼数通则。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C090",
+        "conditions": [
+          "乙未亥生乙乘蛇，宅寅阴合亥；午子心天空加父母，丑妻产神加害，末申鬼七墓。"
+        ],
+        "source_method": "亥生身本可吉却受蛇挠且寅阴曹吏暗谗；午空子心、丑产妻害各论家事，申7曹权/鬼墓难脱与子漕巳炉谐卢解纷分阶段，不因最终解任抹去中间危难。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-077",
+        "conditions": [
+          "时监院辛日丑墓加干作后滞神，原析丑中旬丁为动，末寅贵在前引墓。"
+        ],
+        "source_method": "墓滞见旬丁与末贵引动的迁转限制"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-081",
+        "conditions": [
+          "何知录案午龙官品空，支上官贵仍发用，作者又分列多任职务及末段不显。"
+        ],
+        "source_method": "午龙空首任虚庆后可就支官贵、死期异作者"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-085",
+        "conditions": [
+          "方县尉案从酉年位数至辰八位；酉六与午九取五十四；丑八酉六取十四。"
+        ],
+        "source_method": "8位8年、6×9=54、8+6=14分数法"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C096",
+        "conditions": [
+          "己卯申贵长生空、宅辰勾六害；行年丑虎旬丁合中巳马，末午禄雀临马。"
+        ],
+        "source_method": "贵空与长生分作用复用旧096；补存丑虎丁道路合马解除宅勾久滞，以及巳午炉冶、六合模范和禄雀文事的职务条件。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C102",
+        "conditions": [
+          "戊申润下子申辰，昼贵天空帘幕；宅辰玄，末归甲辰旬首宅；辰鱼盐。"
+        ],
+        "source_method": "旧102保存生囚辨墓库；补存水财漕局须费己财、昼贵空帘幕名声、末辰旬首魁与鱼盐职。易卷关节原叙明说不知，不因考中认定真实作弊。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-102",
+        "conditions": [
+          "邓漕试案戊日水财局，末归辰宅，原析明问墓库如何分别并说生处为库、囚为墓。"
+        ],
+        "source_method": "辰墓库须辨生囚，辰生于辰原疑句不改"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-097",
+        "conditions": [
+          "赵主簿案原析初日贵、传归夜贵，申太阴、寅庙及顾祖相连。"
+        ],
+        "source_method": "旧097已保日贵到夜贵、申阴寅庙艮岳顾祖及东南方位，不再增同条件卡。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C117",
+        "conditions": [
+          "壬午申合宅发用，戌龙加申，子虎加戌，日丑常田类。"
+        ],
+        "source_method": "原迁宅、儿得解、小口灾与争田胜各据不同课位；日上田类可得田是原明确类神条件。六年、二娶、明年二小口和三年争田未给完整数法，不硬复原。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C122",
+        "conditions": [
+          "己卯反吟卯酉，后合玄与私门；女命男年相乘，己土生二金；血支卯月议。"
+        ],
+        "source_method": "原年命相乘与配偶神互见取婚成，卯酉私门及婢酉合玄解释私通，血支退子另依月令；爱圅质疑男克干为嗣/女生干子是禄命家语，不能抹成统一六壬生子规则。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C123",
+        "conditions": [
+          "癸巳辰干墓出初申长生，申金学堂；巳申合寅亥合，亥丁常临长生，末寅后子。"
+        ],
+        "source_method": "原以出墓长生及两组合婚，以金清白学堂取知书理家，末寅后临木长生亥论子，亥丁常临长生另主母服；婚成和生子不免尊堂服。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C1271",
+        "conditions": [
+          "张姓同日得独足酉课另问远行；酉兑泽、六合船、独足无足。"
+        ],
+        "source_method": "张姓附案的十倍获利仅为原预测，未给取倍算法或后叙。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能用主何案五女数代替十倍财利。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C132",
+        "conditions": [
+          "乙未稼穑丑戌未，丑妻田破碎青龙，末未后还彼，辰众财克宅；辰墓日为前。"
+        ],
+        "source_method": "原132季节全财化鬼取舍复用；补存丑田龙破碎不费价、末未后返产、辰众克彼宅赔财及日尊长前位新墓，各属于不同财源人事阶段。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C137",
+        "conditions": [
+          "商人己未独足酉六合，酉兑泽、独足无足；酉将亥时原题。"
+        ],
+        "source_method": "商人远行原载加倍得利、果应，未记路线、账目或实际倍数。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能同十倍分支并为一个收益数。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C143",
+        "conditions": [
+          "甲申巳常双女生日脱，申官龙加双女；亥雀官长、寅后临亥学堂天门。"
+        ],
+        "source_method": "原巳常双女和官临双女取兼职劳费，亥后生甲寅与申官龙转为劳中加俸升迁；寅长生学堂天门后恩对应内绛帐，不以脱气便只损。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C144",
+        "conditions": [
+          "甲申巳常衣帛红紫，行年丙添巳双脱；寅后改色虎斑，中亥丁水十月皂色。"
+        ],
+        "source_method": "旧144保存官商年命异用；补存常衣帛火红紫、双巳蚀甲、寅后改色虎斑与亥十月变动皂色的行业细象。旁店仿染无效与汪十月不折本是不同结果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-144",
+        "conditions": [
+          "汪商与王县丞同课，原对问明确列官人在任、经纪者和本命行年差别。"
+        ],
+        "source_method": "官/商年命职业不同使同课异断，生扶只保本"
+      }
+    ],
+    "unresolved": [
+      "26数量细节没有明推法、29未反馈子断不补；三事件不增加相同条件验证数。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "抽类象先核问事、所在位置、季节旺衰和明确推据；18牛田/马屋及末山，26丑老人，29酉丁字像各有具体原条件，不互换为一条词典规则。",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-018",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原问事与原条件不同，具体分支保持"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C018",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原问事与原条件不同，具体分支保持"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C026",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原问事与原条件不同，具体分支保持"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C029",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原问事与原条件不同，具体分支保持"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C037",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-039",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "已比对问事与作用环节，原卡主项和新增子链互补保留"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C056",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "弓巳、箭申、马午须问弓马试且核现隐得地；官照只得虚衔，原风险建议未见发生反馈。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-049",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "卯空朽木、戌空无模使斫轮科名失败，轮磨余象改落水碓生计；不涵盖寿数。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-050",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "巳玄加子走范、卯虎加戌破模坠轩，死亡强断另须己卯；不与四不足混为一条。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C065",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "不只用赘婿课名：宅加日受克且宅去生亥为无正居；寅申迁转被蛇虎挠使官程止知录，寅曹职与亥寅生链另取水边州府。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C066",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原把父墓白虎、午妻目亥绝、丑田园午屋及水土克制分为不同子链；病眼、屋转田园、酒败与启坟后叙分范围，不认证坟致病的现实因果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C067",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "复用旧067生扶与贵空的科名分层，补存申金铜铁、巳加申坑冶、亥江湖临寅为未成船之修造场；不将未成寅木与卯成船混为词典同义。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C070",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原把墓传旺生用于由微至显和寿，天门木局持台用于侍从；未财虎前妻与亥后长生禄后妻、父子同类合继兄子分对象，寿近90与87后叙分精度。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C071",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "不以退茹一律衰：原先取禄归长生、近天门及宫象论在朝八座，后以退入空亡限晚年谪降；中末不空五府为原反事实，未达五府不等于无朝官。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C073",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧073专保不见子息的临终范围；补存学堂与行年扶的解举、初临官空的声誉、申玄的原猿迷象、丁巳俱生寅归妻家。怪异和治疗叙不当现实病因证明。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-067",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "长生扶身与贵空玄滞区分发解/及第/得职"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C077",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "迁动条件复用旧077，补存申加巳的药院和面灶取象，以及天空仆、亥玄池/堕水、辛子亥的童儿。后发生两前兆只为历史叙，不是任职原因已证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C079",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧079保年马引外的限制，补存己受木局聚克、虎斗/后合聚众及中鬼第二场污涂；后争闹罢试只证原载该支结果，不使犯讳与污涂也已发生。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C081",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧081保一任空庆与后官贵及异说，补存江西水土西位、刑法拆字水去、寅生地京西、丑守土太阴不显；拆字和地方取象只守本案。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C085",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧085已保存8位、6×9=54和8+6=14的不同数法；补存丑贵季三取第三子受恩、虎视贵丑酉取边郡兼武，古本青龙辰大理另署。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C088",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原先喜亥生本人却以父母爻真闭口论双亲亡，空丑土限守土而非所有仕途，亥天门学堂太常论学馆；74/78两候选原数保留，不统一成位置拼数通则。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C090",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "亥生身本可吉却受蛇挠且寅阴曹吏暗谗；午空子心、丑产妻害各论家事，申7曹权/鬼墓难脱与子漕巳炉谐卢解纷分阶段，不因最终解任抹去中间危难。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-077",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "墓滞见旬丁与末贵引动的迁转限制"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-081",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "午龙空首任虚庆后可就支官贵、死期异作者"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-085",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "8位8年、6×9=54、8+6=14分数法"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C096",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "贵空与长生分作用复用旧096；补存丑虎丁道路合马解除宅勾久滞，以及巳午炉冶、六合模范和禄雀文事的职务条件。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C102",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧102保存生囚辨墓库；补存水财漕局须费己财、昼贵空帘幕名声、末辰旬首魁与鱼盐职。易卷关节原叙明说不知，不因考中认定真实作弊。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-102",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "辰墓库须辨生囚，辰生于辰原疑句不改"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-097",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧097已保日贵到夜贵、申阴寅庙艮岳顾祖及东南方位，不再增同条件卡。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C117",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原迁宅、儿得解、小口灾与争田胜各据不同课位；日上田类可得田是原明确类神条件。六年、二娶、明年二小口和三年争田未给完整数法，不硬复原。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C122",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原年命相乘与配偶神互见取婚成，卯酉私门及婢酉合玄解释私通，血支退子另依月令；爱圅质疑男克干为嗣/女生干子是禄命家语，不能抹成统一六壬生子规则。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C123",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原以出墓长生及两组合婚，以金清白学堂取知书理家，末寅后临木长生亥论子，亥丁常临长生另主母服；婚成和生子不免尊堂服。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C1271",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "张姓附案的十倍获利仅为原预测，未给取倍算法或后叙。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能用主何案五女数代替十倍财利。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C132",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原132季节全财化鬼取舍复用；补存丑田龙破碎不费价、末未后返产、辰众克彼宅赔财及日尊长前位新墓，各属于不同财源人事阶段。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C137",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "商人远行原载加倍得利、果应，未记路线、账目或实际倍数。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能同十倍分支并为一个收益数。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C143",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "原巳常双女和官临双女取兼职劳费，亥后生甲寅与申官龙转为劳中加俸升迁；寅长生学堂天门后恩对应内绛帐，不以脱气便只损。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C144",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "旧144保存官商年命异用；补存常衣帛火红紫、双巳蚀甲、寅后改色虎斑与亥十月变动皂色的行业细象。旁店仿染无效与汪十月不折本是不同结果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-144",
+          "canonical_family_id": "LF26-SHAO-CLASS-SYMBOL",
+          "disposition": "官/商年命职业不同使同课异断，生扶只保本"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-QUANTITY-OPERATIONS",
+    "title": "取数操作规范：位置、对象和折半理由分开",
+    "rule_ids": [
+      "LR26-BOOK-SHAO-024",
+      "LR26-BOOK-SHAO-043",
+      "LR26-BOOK-SHAO-C040",
+      "LR26-BOOK-SHAO-C008",
+      "LR26-BOOK-SHAO-C006",
+      "LR26-BOOK-SHAO-C048",
+      "LR26-BOOK-SHAO-C049",
+      "LR26-BOOK-SHAO-C051",
+      "LR26-BOOK-SHAO-C061",
+      "LR26-BOOK-SHAO-C063",
+      "LR26-BOOK-SHAO-C069",
+      "LR26-BOOK-SHAO-C072",
+      "LR26-BOOK-SHAO-C082",
+      "LR26-BOOK-SHAO-C088",
+      "LR26-BOOK-SHAO-C090",
+      "LR26-BOOK-SHAO-C093",
+      "LR26-BOOK-SHAO-C100",
+      "LR26-BOOK-SHAO-105",
+      "LR26-BOOK-SHAO-C109",
+      "LR26-BOOK-SHAO-C127",
+      "LR26-BOOK-SHAO-C134",
+      "LR26-BOOK-SHAO-134",
+      "LR26-BOOK-SHAO-C136",
+      "LR26-BOOK-SHAO-C147",
+      "LR26-BOOK-SHAO-C148",
+      "LR26-BOOK-SHAO-136"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "规范信息合同，原加乘折半条件保留",
+    "common_method": "每次数法记录取哪个位置/对象、基础数、加乘或减半及原明理由；24未8戌5乘40且春木土死折20、43八全八半无通用理由、40酉6再半3、8十二加法与63乘法分别保留，不统编阴数减半。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-024",
+        "conditions": [
+          "童秀才求新宅，原书未八戌五相乘四十，再以春木旺土死折半为二十年。"
+        ],
+        "reasoning_steps": [
+          "原文区分家宅四课定位与坟墓天盘定位，但该括述作者未明确，不全部归邵氏。",
+          "末段列未八戌五与春木旺土死的折半条件。",
+          "西北/东北的编者校议并存，未以一种代替原文。"
+        ]
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-043",
+        "conditions": [
+          "郭仲起案原文未八数、两个八年，先八全用后八半用，得十二年；次年已迁居。"
+        ],
+        "reasoning_steps": [
+          "定位未为本命墓身及宅井的作者关系。",
+          "忠实保留八加四的原式。",
+          "按原文把实际迁居和料想免凶分层。"
+        ]
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C040",
+        "conditions": [
+          "壬寅酉空干、申虎午临申又虎，子午玄合；酉6。"
+        ],
+        "reasoning_steps": [
+          "传不行解释左无、申虎及午虎解释右两重案山。",
+          "子午玄合、酉空解释酒色与佣仆原类象。",
+          "酉6取酒败，加其半3取终期，保存原操作而不推广。"
+        ]
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C008",
+        "conditions": [
+          "庚辰润下，日申7辰5，子9临申7。"
+        ],
+        "reasoning_steps": [
+          "辰临日蛇取宅怪，再合申7辰5为12。",
+          "子加申取9×7=63寿。",
+          "子息耗身、迁居和水陆官任依原不同子问保存。"
+        ]
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C006",
+        "conditions": [
+          "辛巳日辰将亥时，末丑墓加同类申蛇；戌加巳。"
+        ],
+        "reasoning_steps": [
+          "末丑辛墓加同类并蛇，土生申解释生地、丑8定年。",
+          "戌加巳上下5+4=9，原文字九年死与九年相守并列。",
+          "申磨与卯东门用于磨压，不能仅凭空亡补造丧妻事实。"
+        ]
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C048",
+        "conditions": [
+          "丙寅亥将申时，申妻合临巳、亥4；申马四维、寅玄功曹天门。"
+        ],
+        "source_method": "亥4妻、四维4任、4年后显的对象和位置分开，不因数字同为4归成一次数法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C049",
+        "conditions": [
+          "庚戌案原另断四年后得店屋；寿数段明确巳长生4、两巳8、巳上子9。"
+        ],
+        "source_method": "巳长生4，两巳加成8，再乘子9得寿72；未载寿验，与店业四年分开。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C051",
+        "conditions": [
+          "戊寅罗刃回日，行年子冲午父；卯6辰5巳4合15，另8合23。"
+        ],
+        "source_method": "卯6辰5巳4相加15为监司年；后加8共23为寿段，16/17降期原存不补算。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C061",
+        "conditions": [
+          "辛巳日亥玄临辛、亥子二水；午官临厨幕贵，寅贵加丑；末申空天空。"
+        ],
+        "source_method": "原以一金生二水取虚泄病象，以官临厨/幕贵论监试与寅贵加丑论癸丑及第；末空限享用。申7未8与减半的原式不能直接得35，不补算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C063",
+        "conditions": [
+          "癸丑日未丑未反吟，戊申占年未为旧政；十二月建丑又加旧上，满盘鬼。"
+        ],
+        "source_method": "作者以旧政重见及月建加旧解释迟赴；已三年到第六年赴的叙述不等于原文明示乘二算法。八年终任另据未8、丑墓田及常未。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C069",
+        "conditions": [
+          "丙子日巳戌卯；败卯克戌墓，戌墓丙，丙巳奔宅子受克；巳4戌5合9。"
+        ],
+        "source_method": "原按败墓逼身与去住不容论阻服回避，再以宅巳4与日戌5相加九年；母卯先墓、己身后及属不同时间对象，不把九年称成功出头已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C072",
+        "conditions": [
+          "辛酉从革巳丑酉；午官临日巳官初应，旬丁蛇巳为辛德；午9酉6。"
+        ],
+        "source_method": "官日相应为催官，辛藏戌取庚戌及第；三传金局另论兄弟争，无子爻为子不得力；午9乘酉6得54，原五十三卒不能改成54已验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C082",
+        "conditions": [
+          "乙未日酉合临乙，巳子虎空加子水；戌妻雀临巳空子墓；卯玄末酉冲，卯6戌5。"
+        ],
+        "source_method": "原82保卯禄凶须玄/酉冲；补存酉血六合莲、巳虎水厄、戌妻雀巳火足厄与6×5=30。正妻无子不等一生无子，后子险与偏生原断分开。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C088",
+        "conditions": [
+          "甲寅亥本命生干支，旬末亥加旬首甲寅闭口；父亥常阴申后害，初丑空天空。"
+        ],
+        "source_method": "原先喜亥生本人却以父母爻真闭口论双亲亡，空丑土限守土而非所有仕途，亥天门学堂太常论学馆；74/78两候选原数保留，不统一成位置拼数通则。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C090",
+        "conditions": [
+          "乙未亥生乙乘蛇，宅寅阴合亥；午子心天空加父母，丑妻产神加害，末申鬼七墓。"
+        ],
+        "source_method": "亥生身本可吉却受蛇挠且寅阴曹吏暗谗；午空子心、丑产妻害各论家事，申7曹权/鬼墓难脱与子漕巳炉谐卢解纷分阶段，不因最终解任抹去中间危难。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C093",
+        "conditions": [
+          "丁未反吟丑未重勾，一火生四土；行年木不得地，初马动。"
+        ],
+        "source_method": "作者以重土勾脱和丑旧事论旧任牵绊，初马仍可先起程；60或120里为两候选无明乘法，后100余里只属宽粒度对应，不写唯一精确距离。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C100",
+        "conditions": [
+          "癸丑午亥辰三传，午妇心屋受癸亥克；亥同类勾争屋，末辰后墓，分9/4/5。"
+        ],
+        "source_method": "将时贵人校语复用旧100；补存午受日与亥双克、亥勾同族争产、末辰后墓及9年/4年/5年的分传管段；末段迁坟后安是行动结果，不把原未迁必死写已发生。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-105",
+        "conditions": [
+          "袁知镇案末亥四酉六断四十六；原析限占身命及医病、丑将卯时以本命上下断死数。"
+        ],
+        "source_method": "旧105已有初贵父福、中临官加丑父财；宅申戊生地为有服尊长原解释，保留父母类神口径。；旧卡已有初中与末命败分对象；中亥水末酉色阴常，酒色致病是原解释，不当现实因果认证。；旧105完整保亥4酉6取46及占身命医病丑将卯时本命上下限制；原后俱应笼统，不视精确独立寿验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C109",
+        "conditions": [
+          "辛卯初丑母墓发用，寅妻贵艮方金绝；子亥退脱阴武，亥4子9。"
+        ],
+        "source_method": "旧109保沈注墓父母类须发用；补存寅妻贵起家后金绝丧妻、子亥退脱男女耗与疝象。原4×9=36紧接13年亡未明衔接，不改原式为4+9。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C127",
+        "conditions": [
+          "己未独足五酉六合，年丑上卯震长男受酉冲；酉肠血脱色，酉6未8。"
+        ],
+        "source_method": "五酉独足女数复用旧127，另存年卯长男震被酉冲及玄耗为男胎难成，酉肠血合女脱气为原痔欲象，6×8=48仅带成名后不过48条件且无后验。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C134",
+        "conditions": [
+          "乙亥曲直未亥卯，申空鬼日上；初未卯受克、中亥未受克，末卯亥禄旺受生；初26/27末50/56双法。"
+        ],
+        "source_method": "行业取舍复用旧134；补存初48半24加卯地3=27与另一未8龙7卯6土5=26，中申7辰5得35空半称17，末卯6亥4半12加4=16且交末50/56两说。保持原坐标和四舍不明，不整合唯一算法。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-134",
+        "conditions": [
+          "林子成木局乙禄卯旺、亥生；问者追问为何不选未羊酒、亥猪。"
+        ],
+        "source_method": "末卯全旺受亥生，前未/亥受下克故舍两象只营卯类"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C136",
+        "conditions": [
+          "己亥子财临干、辰库宅，巳玄店修费，末卯鬼虎破戌库。"
+        ],
+        "source_method": "旧136已保先财利后争与改买不消争；原朴析补4+5=9年，与第七年分赎不相同，不能因为果如先生言就消除期差。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C147",
+        "conditions": [
+          "丁酉亥命官贵发、曲直生丁；丙辰年辰上申生亥官，卯6；末未勾临卯死败。"
+        ],
+        "source_method": "旧147已保存先官次克与木局救病，补存30丙辰申生亥官、卯6任及末未勾守土拘死败不能赴；六任是职次不是六种不同独立验证。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C148",
+        "conditions": [
+          "丁酉同147课，49年过官，亥4未8=32；未受克不能制水，卯截路空，申命上子。"
+        ],
+        "source_method": "原以年龄官星过数、未不能制水与命添子水把官转鬼绝，32由4×8但40外 cutoff未给独立算法；墓前左老阴据丑墓太阴方位，现实断龙致破家只是原因果。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-136",
+        "conditions": [
+          "曹八店案先财入财库、修费后兴，末卯鬼破库；当事人问改买是否避争，原答买亦争。"
+        ],
+        "source_method": "财库先利后末鬼破、租改买仍争"
+      }
+    ],
+    "unresolved": [
+      "43与40为何取半没有共同原条件，不能用24春旺土死去回填。",
+      "数字匹配及重复符号不增加独立样本，未明如七寸/49名直接留无依据。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "每次数法记录取哪个位置/对象、基础数、加乘或减半及原明理由；24未8戌5乘40且春木土死折20、43八全八半无通用理由、40酉6再半3、8十二加法与63乘法分别保留，不统编阴数减半。",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-024",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原操作均可复核但适用条件不同；保留精确分支，不删源卡"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-043",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原操作均可复核但适用条件不同；保留精确分支，不删源卡"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C040",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原操作均可复核但适用条件不同；保留精确分支，不删源卡"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C008",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原操作均可复核但适用条件不同；保留精确分支，不删源卡"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C006",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原操作均可复核但适用条件不同；保留精确分支，不删源卡"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C048",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "亥4妻、四维4任、4年后显的对象和位置分开，不因数字同为4归成一次数法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C049",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "巳长生4，两巳加成8，再乘子9得寿72；未载寿验，与店业四年分开。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C051",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "卯6辰5巳4相加15为监司年；后加8共23为寿段，16/17降期原存不补算。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C061",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原以一金生二水取虚泄病象，以官临厨/幕贵论监试与寅贵加丑论癸丑及第；末空限享用。申7未8与减半的原式不能直接得35，不补算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C063",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "作者以旧政重见及月建加旧解释迟赴；已三年到第六年赴的叙述不等于原文明示乘二算法。八年终任另据未8、丑墓田及常未。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C069",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原按败墓逼身与去住不容论阻服回避，再以宅巳4与日戌5相加九年；母卯先墓、己身后及属不同时间对象，不把九年称成功出头已验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C072",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "官日相应为催官，辛藏戌取庚戌及第；三传金局另论兄弟争，无子爻为子不得力；午9乘酉6得54，原五十三卒不能改成54已验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C082",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原82保卯禄凶须玄/酉冲；补存酉血六合莲、巳虎水厄、戌妻雀巳火足厄与6×5=30。正妻无子不等一生无子，后子险与偏生原断分开。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C088",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原先喜亥生本人却以父母爻真闭口论双亲亡，空丑土限守土而非所有仕途，亥天门学堂太常论学馆；74/78两候选原数保留，不统一成位置拼数通则。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C090",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "亥生身本可吉却受蛇挠且寅阴曹吏暗谗；午空子心、丑产妻害各论家事，申7曹权/鬼墓难脱与子漕巳炉谐卢解纷分阶段，不因最终解任抹去中间危难。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C093",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "作者以重土勾脱和丑旧事论旧任牵绊，初马仍可先起程；60或120里为两候选无明乘法，后100余里只属宽粒度对应，不写唯一精确距离。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C100",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "将时贵人校语复用旧100；补存午受日与亥双克、亥勾同族争产、末辰后墓及9年/4年/5年的分传管段；末段迁坟后安是行动结果，不把原未迁必死写已发生。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-105",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "旧105已有初贵父福、中临官加丑父财；宅申戊生地为有服尊长原解释，保留父母类神口径。；旧卡已有初中与末命败分对象；中亥水末酉色阴常，酒色致病是原解释，不当现实因果认证。；旧105完整保亥4酉6取46及占身命医病丑将卯时本命上下限制；原后俱应笼统，不视精确独立寿验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C109",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "旧109保沈注墓父母类须发用；补存寅妻贵起家后金绝丧妻、子亥退脱男女耗与疝象。原4×9=36紧接13年亡未明衔接，不改原式为4+9。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C127",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "五酉独足女数复用旧127，另存年卯长男震被酉冲及玄耗为男胎难成，酉肠血合女脱气为原痔欲象，6×8=48仅带成名后不过48条件且无后验。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C134",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "行业取舍复用旧134；补存初48半24加卯地3=27与另一未8龙7卯6土5=26，中申7辰5得35空半称17，末卯6亥4半12加4=16且交末50/56两说。保持原坐标和四舍不明，不整合唯一算法。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-134",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "末卯全旺受亥生，前未/亥受下克故舍两象只营卯类"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C136",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "旧136已保先财利后争与改买不消争；原朴析补4+5=9年，与第七年分赎不相同，不能因为果如先生言就消除期差。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C147",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "旧147已保存先官次克与木局救病，补存30丙辰申生亥官、卯6任及末未勾守土拘死败不能赴；六任是职次不是六种不同独立验证。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C148",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "原以年龄官星过数、未不能制水与命添子水把官转鬼绝，32由4×8但40外 cutoff未给独立算法；墓前左老阴据丑墓太阴方位，现实断龙致破家只是原因果。"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-136",
+          "canonical_family_id": "LF26-SHAO-QUANTITY-OPERATIONS",
+          "disposition": "财库先利后末鬼破、租改买仍争"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LF26-SHAO-INDEPENDENT-FOOT-WATERLAND",
+    "title": "独足酉合远行的水陆共同核心",
+    "rule_ids": [
+      "LR26-SHAO-CANON-WATER-LAND",
+      "LR26-BOOK-SHAO-C1271",
+      "LR26-BOOK-SHAO-C137"
+    ],
+    "legacy_entry_ids": [],
+    "merge_type": "同条件同主张规范归并，来源收益分支保留",
+    "common_method": "在这两个原载条件分支中，共同水陆方法只保留一条规范入口：酉兑泽、六合船可取水行，独足无足不利陆行。收益幅度另见各来源分支。",
+    "preserved_branches": [
+      {
+        "rule_id": "LR26-BOOK-SHAO-C1271",
+        "conditions": [
+          "张姓同日得独足酉课另问远行；酉兑泽、六合船、独足无足。"
+        ],
+        "source_method": "张姓附案的十倍获利仅为原预测，未给取倍算法或后叙。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能用主何案五女数代替十倍财利。"
+      },
+      {
+        "rule_id": "LR26-BOOK-SHAO-C137",
+        "conditions": [
+          "商人己未独足酉六合，酉兑泽、独足无足；酉将亥时原题。"
+        ],
+        "source_method": "商人远行原载加倍得利、果应，未记路线、账目或实际倍数。共同水陆方法见规范入口LR26-SHAO-CANON-WATER-LAND，不能同十倍分支并为一个收益数。"
+      },
+      {
+        "rule_id": "LR26-SHAO-CANON-WATER-LAND",
+        "conditions": [
+          "问远行或远方买卖，原载课式为独足、三传酉乘六合。",
+          "两个原段都明确以酉兑泽、六合船解释水路，以独足无足解释陆路。"
+        ],
+        "source_method": "在这两个原载条件分支中，共同水陆方法只保留一条规范入口：酉兑泽、六合船可取水行，独足无足不利陆行。收益幅度另见各来源分支。"
+      }
+    ],
+    "unresolved": [
+      "两案未合事件，原将时与收益幅度保留，不称全书同条件去重完成。"
+    ],
+    "independent_validation_count": 0,
+    "canonical_rule": {
+      "statement": "在这两个原载条件分支中，共同水陆方法只保留一条规范入口：酉兑泽、六合船可取水行，独足无足不利陆行。收益幅度另见各来源分支。",
+      "identity": "LR26-SHAO-CANON-WATER-LAND",
+      "source_rule_map": [
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C1271",
+          "canonical_rule_id": "LR26-SHAO-CANON-WATER-LAND",
+          "scope": "仅共同水陆方法；不含收益倍数和事件身份"
+        },
+        {
+          "source_rule_id": "LR26-BOOK-SHAO-C137",
+          "canonical_rule_id": "LR26-SHAO-CANON-WATER-LAND",
+          "scope": "仅共同水陆方法；不含收益倍数和事件身份"
+        },
+        {
+          "source_rule_id": "LR26-SHAO-CANON-WATER-LAND",
+          "canonical_family_id": "LF26-SHAO-INDEPENDENT-FOOT-WATERLAND",
+          "disposition": "共同水陆方法规范检索入口"
+        }
+      ]
+    }
+  }
+]

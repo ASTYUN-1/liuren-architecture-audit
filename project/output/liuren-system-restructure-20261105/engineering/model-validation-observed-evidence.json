@@ -1,0 +1,174 @@
+{
+  "runnerExecuted": 1,
+  "runnerResult": {
+    "status": "timeout",
+    "exitCode": 1,
+    "elapsedSeconds": 65.13,
+    "outputCapturedBytes": 25539,
+    "maxOutputBytes": 1048576,
+    "maxSeconds": 65,
+    "credentialFilesCopied": false,
+    "redactedFields": 0,
+    "payloadManifestSha256": "86738e80c4d8c53573078065c03f8185cf1cc935903dac175f25fa54a883aed0",
+    "provider": "conpera/gpt-6.1-sol",
+    "endpoint": "https://code.conpera.ai/v1",
+    "verdict": "requires actual trace review; not automatically passed"
+  },
+  "observedEvents": 16,
+  "eventTypes": {
+    "step_start": 5,
+    "text": 1,
+    "tool_use": 5,
+    "step_finish": 5
+  },
+  "toolSteps": [
+    {
+      "tool": "skill",
+      "status": "completed",
+      "input": {
+        "name": "daliuren"
+      },
+      "outputBytes": 4988,
+      "outputSha256": "61108207e4360c736ef9d38bade886aad832cdb8bfa1220865e4276d20219904",
+      "expectedPayloadFile": null,
+      "exactPayloadHashMatch": null,
+      "completeSkillBodyIncluded": true
+    },
+    {
+      "tool": "skill",
+      "status": "completed",
+      "input": {
+        "name": "liuren-cases"
+      },
+      "outputBytes": 1159,
+      "outputSha256": "0cff144a061014bd9806ddbe6ced7371a09630ed26f26af95856472ae3c591d6",
+      "expectedPayloadFile": null,
+      "exactPayloadHashMatch": null,
+      "completeSkillBodyIncluded": true
+    },
+    {
+      "tool": "skill",
+      "status": "completed",
+      "input": {
+        "name": "liuren-extract"
+      },
+      "outputBytes": 1119,
+      "outputSha256": "f80a36db9d8c1a19f7fbcf2e420ed305d2ed1726fd901aa9817d4be960ecccac",
+      "expectedPayloadFile": null,
+      "exactPayloadHashMatch": null,
+      "completeSkillBodyIncluded": true
+    },
+    {
+      "tool": "liuren_materials",
+      "status": "completed",
+      "input": {
+        "action": "method",
+        "module": "void"
+      },
+      "outputBytes": 5601,
+      "outputSha256": "87428ef17bb355847997d482d8c57919849eb6447e947738848099888a34dc1a",
+      "expectedPayloadFile": "void-method-output.txt",
+      "exactPayloadHashMatch": true,
+      "completeSkillBodyIncluded": null
+    },
+    {
+      "tool": "liuren_materials",
+      "status": "completed",
+      "input": {
+        "action": "read",
+        "path": "runtime/liuren/20261105-restructure-E0-candidate/references/void-method-conditions.md",
+        "start": 1,
+        "count": 100
+      },
+      "outputBytes": 4818,
+      "outputSha256": "816af7a20793387c39b52b94c700281e4bef13bf8802adc5de3e0a538397354c",
+      "expectedPayloadFile": "void-condition-output.json",
+      "exactPayloadHashMatch": true,
+      "completeSkillBodyIncluded": null
+    }
+  ],
+  "completedProviderResponseStepsObserved": 5,
+  "usageSteps": [
+    {
+      "reason": "tool-calls",
+      "tokens": {
+        "total": 5805,
+        "input": 5746,
+        "output": 59,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 0
+        }
+      },
+      "openCodeReportedCost": 0
+    },
+    {
+      "reason": "tool-calls",
+      "tokens": {
+        "total": 7241,
+        "input": 1589,
+        "output": 20,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 5632
+        }
+      },
+      "openCodeReportedCost": 0
+    },
+    {
+      "reason": "tool-calls",
+      "tokens": {
+        "total": 7581,
+        "input": 521,
+        "output": 20,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 7040
+        }
+      },
+      "openCodeReportedCost": 0
+    },
+    {
+      "reason": "tool-calls",
+      "tokens": {
+        "total": 7906,
+        "input": 458,
+        "output": 24,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 7424
+        }
+      },
+      "openCodeReportedCost": 0
+    },
+    {
+      "reason": "tool-calls",
+      "tokens": {
+        "total": 9806,
+        "input": 1946,
+        "output": 52,
+        "reasoning": 0,
+        "cache": {
+          "write": 0,
+          "read": 7808
+        }
+      },
+      "openCodeReportedCost": 0
+    }
+  ],
+  "llmLogMessageCounts": {},
+  "textEvents": [
+    {
+      "chars": 74,
+      "sha256": "dfaf91f611dc497342c55a282c2f44fe804e4c3cebb983a55e2e22cc2338d4ff"
+    }
+  ],
+  "actualProviderHTTPRequests": "not yet determined from log markers; completed responses prove provider contact",
+  "actualProviderBilledCost": "unknown; OpenCode-reported cost is not billing evidence",
+  "finalAcknowledgmentObserved": false,
+  "verdict": "partial-loading-evidence; task timed out before final acknowledgment, awaiting coordinator acceptance; no retry"
+}

@@ -1,0 +1,73 @@
+{
+  "skill": "xiongsha-suduan",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我看一下这事能不能成？会不会有麻烦、灾祸？我有点担心。",
+      "expected_behavior": "应激活 xiongsha-suduan, 并先跑否定式过滤：依次扫描旬丁/白虎/勾陈/天空四凶煞（是否发用/临干临支/乘类神/作日鬼），输出命中表；命中则给出凶的性质（动变/死丧/迟滞/落空）、涉及人还是事与程度分级，未命中则把吉凶判断让给 jixiong-tiaozhi 或对应领域 skill。",
+      "notes": "正面场景：用户占事吉凶不明，恰是凶煞速断的第一触发情境（A2-1）。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我考公务员的成绩快公布了，会不会出现变数、结果被人改掉？",
+      "expected_behavior": "应激活 xiongsha-suduan, 并重点检查旬丁『移易』信号：待定结果公布前是否见朱雀乘丁（主结果被篡改），同时扫白虎/勾陈/天空，输出是否会被改的定性结论。",
+      "notes": "正面场景：占待定结果是否生变，旬丁移易信号（A2-2）。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "这段时间怎么老没进展，像被捆住手脚一样，是不是运势有问题？",
+      "expected_behavior": "应激活 xiongsha-suduan, 并检查勾陈『迟滞』义：勾陈临干或作大运主题（而非只断官司打斗），同时核对是否被地盘所害加重；输出运势极度低迷、麻烦不断的定性。",
+      "notes": "正面场景：长时间无进展/低迷拖沓，勾陈迟滞信号（A2-3）。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "帮我占一下远行会不会被劫、破财，路上有没有血光之灾？",
+      "expected_behavior": "应激活 xiongsha-suduan, 并按旬丁+劫煞、白虎病伤、天空平地风波逐项扫描（如中传见旬丁又为劫煞则按『飞祸横来』级大凶定性），输出凶的性质与程度。",
+      "notes": "正面场景：远行/被劫/破财的凶煞速断信号（A2 语言信号『远行/被劫/破财』）。"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "divination: I want to know if there will be any trouble or misfortune for this deal, is it good or bad?",
+      "expected_behavior": "应激活 xiongsha-suduan, 并对英文关键词（divination/trouble/misfortune/good-or-bad）命中凶煞速断：扫描四凶煞后输出该交易的吉凶定性结论。",
+      "notes": "正面场景：英文触发词（trouble/disaster/good-or-bad）与占断意图。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下明天上海会不会下雨，顺便看看空气质量指数。",
+      "expected_behavior": "不应激活本 skill, 因为这是纯天气信息查询，无占课意图、无吉凶定性需求，不涉任何凶煞判断。",
+      "notes": "诱饵: 完全无关场景（纯信息查询）——天气查询不属占断域。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "如果真有灾祸，那大概什么时候应验？会应在哪一天？",
+      "expected_behavior": "不应激活本 skill, 应激活 yingqi-panduan：本 skill 只管吉凶定性（是否凶），不管『何时』；应期判断（先定迟速再定日期）是 yingqi-panduan 专属。",
+      "notes": "跨 skill 混淆诱饵 (硬性要求至少 1 条): 凶神『没则吉事来』的应期信号易被误归凶煞速断，实际应交 yingqi-panduan。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "课里吉象看起来不少，但如果吉中带凶，这凶到底有多严重、影响大不大？",
+      "expected_behavior": "不应激活本 skill, 应激活 jixiong-tiaozhi：用户问的是凶的程度（定量），而本 skill 只给凶的定性；吉象并聚已成局时也不可因单一凶煞全盘否定，须交 jixiong-tiaozhi 四象限调制加大背景缩放综合裁定。",
+      "notes": "跨 skill 混淆诱饵: 凶煞命中后『凶到什么程度』的问题应走吉凶调制，属 contrasts-with 关系的边界测试。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我最近老觉得身体要出毛病，占一卦看会不会有灾病，如果真有大病大概多久能好？",
+      "expected_behavior": "应激活 xiongsha-suduan 先做定性（白虎病伤须查『位』：阴神只显象、发用才主吉凶，受制则病可愈），输出是否真有灾病的结论；『多久能好』的期限部分应转交 yingqi-panduan，不可在本 skill 内硬断日期。",
+      "notes": "边界: 用户将吉凶定性（有无灾病）与应期（多久能好）混在同一问句，合理的做法是定性为主、期限移交应期 skill，不能二选一漏掉任一半。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "5 should_trigger + 3 should_not_trigger + 1 edge_case。诱饵类型：1 条完全无关（天气信息查询）、2 条同书兄弟 skill 混淆（yingqi-panduan 应期、jixiong-tiaozhi 程度调制）。全部 should_not_trigger 必须通过（诱饵容错为 0），且含 1 条以上同书兄弟 skill 场景（跨 skill 混淆测试）。"
+}

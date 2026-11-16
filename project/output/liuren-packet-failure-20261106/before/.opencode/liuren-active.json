@@ -1,0 +1,192 @@
+{
+  "release": "20261106-natural-positioning-16",
+  "status": "active",
+  "scope": "local-opencode",
+  "runtime": "runtime/liuren/20261106-natural-positioning-16",
+  "methodVersion": "0c271e8b7bf1828578951411ce09d3b3e346737d08fb7a112ff207cb73c7c2a0",
+  "previousRelease": "20261106-event-positioning-15",
+  "backup": "output/liuren-natural-positioning-20261106/before",
+  "files": {
+    "liuren/daliuren/SKILL.md": "1b2a6b16a35aece26c1fabe910336baaf39ea72683c5a398cb2df0ef9b065b2e",
+    "liuren/liuren-cases/SKILL.md": "45952ed27115d085f6542c8a148fdce41e0e210699dac924c6a1edeca63f14c0",
+    "liuren/liuren-extract/SKILL.md": "62e7352a25cd92e5c0a99b73b560eeed25ebb59fad69b9f9baf07188986af473"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "groups": [
+    "liuren"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  },
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "workflowEntry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "defaultMode": "local-professional",
+  "optionalAuditEntry": "tools/liuren-workflow.py",
+  "websiteChanged": false,
+  "websiteOutputPolicy": false,
+  "methodHierarchy": "liqi-throughout-conditioned-symbols",
+  "authoringSource": "output/liuren-natural-positioning-20261106",
+  "boundedReview": {
+    "registeredModuleRevisions": 31,
+    "effectiveMethodBodyChanges": 30,
+    "sourceReferencePages": 3,
+    "migratedProcedures": 2,
+    "sharedPolicyCards": 83,
+    "sharedPolicyFields": 137,
+    "exhaustiveSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "workflowImplementation": {
+    "tools/load-liuren-methods.py": "99c0eb04080f272ea9bb9855e651bf566f3cbb159302cffa914cbbaccb97dee9",
+    "tools/load-liuren-procedure.py": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+    "tools/liuren_material_scope.py": "527b874ec58ef214c07314c11970b5d3db526aff6a5549fea85b63d84b694074",
+    "tools/liuren_research_overlay.py": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+    "tools/liuren-local-read.py": "ad773b69eb66ce0f6433ef907fd1ed808f763d2e8e073047b579121237ab2922",
+    "tools/liuren-direct.mjs": "594d2172268dcae324b90dac3d8250e22545d544fac8d7ca80ae7b400bfed906",
+    "tools/liuren-shensha.mjs": "fb5ef143e3811d736690ae75dcf1fdd49f3a966098b596ed65c35c6407686d89",
+    "tools/liuren-adjudication-contract.mjs": "0af2068dbecea41e93df391e361152724aa6a4a1da08628f4fd2eec9399900a1",
+    ".opencode/plugins/liuren-adjudication.ts": "5617824ec1ef5d51a02f491d33ae8071993ea2aff965b8c767db36c77139910f",
+    ".opencode/oh-my-opencode-slim.jsonc": "7dc242a8afa86e89510dcc1902be0ba5e3b6a3d3706cfaf54aed9cc1e4dd36b6",
+    "tools/liuren-adjudication-files.mjs": "e547e2808a6737961d8874c19f61f59e6b65a7f429a2ce473225a64630011f34",
+    "tools/liuren_book_search.py": "e325b8d30b44fda01fd786366472273de449124ffa05b4743958bdfb44b7d86f",
+    "tools/liuren-materials.py": "912fbd847b8160ae2829a1dd5983b2eda494af8fa57559eb042404b343cf8e7a",
+    ".opencode/tools/liuren_materials.ts": "25e365cf1d00cedb6c7ad444dad1b04308820fe112088ecb034346bbd2709425",
+    "tools/liuren-deterministic.mjs": "a719fac1b9f8f28b77686e73ede4e376856024610b46919f4bf4e55c3fad5b6f",
+    "tools/liuren-deterministic-io.mjs": "344946923fa85e6d021ad3650a9a3a7417defc01d5f4b6727ce36c200b6b6e7f",
+    "tools/liuren-deterministic-calendar.mjs": "c03f77fd1b946639dcc4f4bae94376f42d393d681aa8dd886e6b5149a67a06b4",
+    ".opencode/tools/liuren_chart.ts": "db0a30c90f1d19132cc8ad12036665b1e37e456900a7021e2ff5617d2ba04b9a",
+    "tools/liuren-compute-schema.mjs": "fa7d63e39456daf3805cac2f2e05be5fc645c35e84029adb9f9e0b686dbe8802",
+    "tools/liuren-flow-control.mjs": "b56e45d41e1ce17d6614d0a507aa0be414a4d7e38995b232f91466d4c672778a",
+    "tools/liuren-adjudication-output.mjs": "c3973a674f3040edd68218196e61631c96dab3085a43208e3d60229806d060bf",
+    "tools/liuren-event-positioning.mjs": "9b34bd75179eb06159568c3a6ff55ed41bbeaf25ae67d15af1125ca805e2028a"
+  },
+  "inheritedAcceptedCandidateMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "expertAdjudicationReview": {
+    "sourceFiles": 7,
+    "selectedPassages": 34,
+    "caseUnits": 23,
+    "revisionFile": "adjudication-revision-map.json",
+    "fullSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "no case/experience retrieval; existing chart, methods, books and full report; adjudication now delegated",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  },
+  "adjudication": {
+    "agent": "liuren-adjudicator",
+    "model": "deepseek/deepseek-flash",
+    "variant": "high",
+    "reasoningEffort": "high",
+    "maxOutputTokens": 65536,
+    "plugin": "oh-my-opencode-slim",
+    "installedPluginVersion": "2.2.18",
+    "tool": "task",
+    "freshSession": true,
+    "mainAgentAdjudicates": false,
+    "inputSchema": "liuren-adjudication-input-v2",
+    "outputSchema": "liuren-adjudication-output-v2",
+    "predictiveValidationCount": 0,
+    "inputTransport": "scoped-file",
+    "packetTool": "liuren_adjudication_packet",
+    "readerTool": "liuren_adjudication_read",
+    "workflowBoundaries": {
+      "preparation": "verified chart, candidate mappings, observations, source conditions and neutral focus issues; no completed verdict",
+      "adjudicator": "whole-chart mapping and omission review, critical relations, focus issue resolutions and answers",
+      "delivery": "verify facts, references, coverage and consistency; reuse adjudicated reasons and verdict",
+      "changedEvidenceOnlyRetry": true
+    },
+    "submitTool": "liuren_adjudication_submit",
+    "resultTool": "liuren_adjudication_result",
+    "outputTransport": "structured-submit-and-visible-receipt"
+  },
+  "bookRetrieval": {
+    "release": "20261105-three-book-search-01",
+    "status": "active",
+    "scope": "local-opencode",
+    "actions": [
+      "book_search",
+      "book_outline"
+    ],
+    "books": [
+      "RG",
+      "LF",
+      "TY"
+    ],
+    "catalog": "knowledge/liuren-book-index/20261105/catalog.json",
+    "index": "knowledge/liuren-book-index/20261105/index.sqlite3",
+    "files": {
+      "tools/liuren_book_search.py": "e325b8d30b44fda01fd786366472273de449124ffa05b4743958bdfb44b7d86f",
+      "tools/liuren_material_scope.py": "527b874ec58ef214c07314c11970b5d3db526aff6a5549fea85b63d84b694074",
+      "tools/liuren-materials.py": "912fbd847b8160ae2829a1dd5983b2eda494af8fa57559eb042404b343cf8e7a",
+      ".opencode/tools/liuren_materials.ts": "25e365cf1d00cedb6c7ad444dad1b04308820fe112088ecb034346bbd2709425",
+      "opencode.json": "9ac28071aa1ea6926c13d20ef574125f8a7a753989464288e711b9ed59de1871",
+      "docs/本机六壬高效执行.md": "38bd66fa5619dca818acccc9c2bc3e3d40ce873766136524f40f6257b45dd09f",
+      "docs/本机六壬资料检索范围.md": "4db6e3f16327ab10211f10cc72063d71b7909a72552ac09144eec71733269738",
+      "knowledge/liuren-book-index/20261105/catalog.json": "53e2fa02ec06ac321a099aef4251270f3815d98ec7fa4b601181c3512ef975dd",
+      "knowledge/liuren-book-index/20261105/index.sqlite3": "0f70b3bb462cf6e4473501807535ff40ae0b65b322f26cbb7e83028cb39c7196"
+    },
+    "backup": "output/liuren-three-book-search-20261105/before",
+    "rollback": "output/liuren-three-book-search-20261105/rollback.py",
+    "semanticReadingComplete": false,
+    "predictiveValidationCount": 0,
+    "modelCallsAdded": 0,
+    "originMethodRelease": "20261105-subagent-adjudication-07",
+    "compatibleMethodRelease": "20261106-natural-positioning-16"
+  },
+  "deterministicFoundation": {
+    "enabled": true,
+    "schema": "liuren-deterministic-v1",
+    "tool": "liuren_compute",
+    "guide": "references/deterministic-tools.md",
+    "inputExtension": "program-generated deterministic + question.tasks",
+    "specialMethodsRequired": true,
+    "modelCallsAdded": 0,
+    "predictiveValidationCount": 0
+  },
+  "computeInterface": {
+    "schema": "liuren-compute-interface-v1",
+    "release": "20261106-natural-positioning-16",
+    "calendarSchema": "explicit native object with required timezone and day_boundary enum",
+    "expressionSchema": "reference-free published nodes; strict recursive execution validation",
+    "samePacketSchema": true,
+    "modelCallsAdded": 0,
+    "externalModelValidation": false,
+    "publishedReferences": 0,
+    "transportValidation": "OpenCode 1.18.29 to loopback-only mock API; no real model",
+    "transportEvidence": "output/liuren-natural-positioning-20261106/current-wire.json"
+  },
+  "flowControl": {
+    "enabled": true,
+    "schema": "liuren-flow-state-v1",
+    "durable": true,
+    "maxAdjudications": 2,
+    "maxSubmissions": 3,
+    "resultTool": "liuren_adjudication_result",
+    "submitTool": "liuren_adjudication_submit",
+    "compactPacket": true,
+    "visibleResultTransport": "receipt-with-task-id",
+    "ownedResultDiscovery": true
+  },
+  "eventPositioning": {
+    "enabled": true,
+    "schema": "liuren-event-positioning-v1",
+    "mode": "model-event-interpretation",
+    "semanticRoleChecks": false,
+    "actorReferenceRequired": false,
+    "domainReadRequired": true,
+    "fullDomainHandoff": true,
+    "source": "explicit-user-instruction"
+  }
+}

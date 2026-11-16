@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "release": "20261105-no-retrieval-01",
+  "checks": [
+    {
+      "check": "resolved-config",
+      "promptMatches": true,
+      "defaultAgent": "liuren"
+    },
+    {
+      "check": "resolved-three-skills",
+      "skills": [
+        {
+          "name": "liuren-extract",
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-extract\\SKILL.md",
+          "sha256": "c3be7065ba3003bb8cfddc5eef0bbcfb4b893a4b7f73712029c4df37def4da2c"
+        },
+        {
+          "name": "liuren-cases",
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-cases\\SKILL.md",
+          "sha256": "39a0b88e4195a8c0f7a612c23382182ca7d178aca9ca46bdd868053ac75ba918"
+        },
+        {
+          "name": "daliuren",
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\daliuren\\SKILL.md",
+          "sha256": "0dd28112bb04b892732ebaa977f7fab86cb63a6f0c52a5db2a19e1f84cdf6edc"
+        }
+      ]
+    }
+  ],
+  "modelCalls": 0,
+  "normalLocalAndGlobalDiscovery": true,
+  "defaultPluginsDisabledForProbe": true,
+  "rawConfigRetained": false,
+  "actualModelCompliance": "unverified"
+}

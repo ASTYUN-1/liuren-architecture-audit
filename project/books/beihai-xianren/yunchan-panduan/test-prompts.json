@@ -1,0 +1,73 @@
+{
+  "skill": "yunchan-panduan",
+  "version": "0.1.0",
+  "source_book": "《大六壬指南》问答录 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我占一下，我老婆这胎怀的是男孩还是女孩？",
+      "expected_behavior": "应激活 yunchan-panduan, 多法并观定生男生女: 课体法(元首男/重审女/纯阳反阴女/纯阴反阳男等)+干上神比和法(与日干比则男/卯震男酉兑女)+金口诀法(需女方属相), ≥2 法同向方可定断, 互斥则输出存疑并列出各法依据与强弱",
+      "notes": "A2 触发场景 1: 生男生女/胎儿性别, '怀的男孩女孩'语言信号"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "占一下我预产期前后会不会顺利生产？大概什么时候生？",
+      "expected_behavior": "应激活 yunchan-panduan, 定产之难易(支=产母、干=胎儿, 干支互临生合=难产, 支加干上=已见孩面=顺利)与产期(岁/月/日/时发用定量级+前三辰法则定具体月份), 细化到日时再转 yingqi-panduan",
+      "notes": "A2 触发场景 1: 顺产/难产+产期, '顺不顺利/什么时候生'语言信号"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我怀孕七个月了，占一下会不会早产、能不能足月？",
+      "expected_behavior": "应激活 yunchan-panduan, 断足月/早产: 查课体是否'不备'(不备课=气数弱=占产不足月早产), 与顺/难产分属不同维度不可互相抵消(可生必顺利且未足月并存), 输出足月与否判定并带课盘依据",
+      "notes": "A2 触发场景 1: 早产/足月判断, '会不会早产/足月'语言信号"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "占我女儿今年能不能生个男孩？",
+      "expected_behavior": "应激活 yunchan-panduan: 虽为'能不能生男'措辞, 实为六甲/生男生女占——先断来意六甲(占时胎神/干上子孙爻/支上巳太乙/干支乘子孙四象共振), 再多法并观断性别, 输出生男生女倾向结论",
+      "notes": "A2 触发场景 1+2: 隔代问六甲/生男生女, '能不能生个男孩'语言信号"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下今年端午节具体是哪天放假？",
+      "expected_behavior": "不应激活 yunchan-panduan: 纯历法/假日信息查询, 无孕产占问目标, 直接查日历数据回答即可",
+      "notes": "诱饵: 完全无关场景——纯信息查询, 无任何孕产信号"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占我和她这段感情能不能成？什么时候能结婚？",
+      "expected_behavior": "不应激活本 skill(yunchan-panduan), 应激活 lianai-panduan: 恋爱关系成否/婚期归 lianai-panduan(常法干支上神+婚期线索), 本 skill 只管'已孕之后的生男女/产期/难易'; 未言孕产, 不得按孕产展开",
+      "notes": "诱饵: 跨 skill 兄弟诱饵(硬性要求)——恋爱成否/婚期 vs 孕产详情, 防止本 skill 抢走 lianai-panduan 的调用"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "占一下我明年财运旺不旺，投资能不能赚到钱？",
+      "expected_behavior": "不应激活本 skill(yunchan-panduan), 应激活 cailu-panduan: 纯财运问题与孕产主题零重叠, 不以任何孕产类神或'占'字误触发",
+      "notes": "诱饵: 完全无关/跨 skill 混淆——纯财运问题, 主题零重叠"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占我这辈子能不能有孩子、子女缘怎么样？",
+      "expected_behavior": "边界场景: 问'一生子女缘/生育格局'应归 zhongshen-nianyun(终身运势中的生育维度), 而非本 skill; 本 skill 管单次孕产占(生男女/产期/难易)。期望先澄清时间尺度——终身格局走 zhongshen, 已孕问详情走本 skill",
+      "notes": "边界: 终身子女缘(zhongshen-nianyun) vs 单次孕产占(yunchan-panduan), 时间尺度区分"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "占我肚子里这个宝宝是男是女？",
+      "expected_behavior": "数据缺失边界: 用户未提供女方本命/行年属相, 金口诀法(巳火加本命顺布)无法起算——应如实声明数据缺失、用课体法+干上神比和法两法合断, 不补造属相数据强行起算; 需应期细化或行年较量时再向用户索要本命信息",
+      "notes": "A2 触发场景 3: 本命/行年数据缺失时的降级处理, 遵守'勿补造数据'纪律"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "should_trigger×4 + should_not_trigger×3(含 1 条跨 skill 兄弟诱饵 lianai-panduan + 1 条完全无关纯信息查询 + 1 条完全无关/跨 skill 纯财运) + edge_case×2。诱饵类型: ①'端午节放假'纯信息查询(无关) ②'感情能不能成/婚期'→lianai-panduan(兄弟 skill 混淆, 硬性要求) ③'财运投资'→cailu-panduan(纯财运, 主题零重叠)。所有 should_not_trigger 必须通过(诱饵容错为 0)。测试输入全部为现代用户场景(怀孕/生男生女/产期/早产), 未使用 z03 古典课例当测试输入。"
+}

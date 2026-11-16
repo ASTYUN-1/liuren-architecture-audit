@@ -1,0 +1,124 @@
+{
+  "schema": "liuren-local-preflight-v1",
+  "ready": true,
+  "required": [
+    {
+      "name": "active release",
+      "ok": true,
+      "detail": "20261115-trial-decision-61"
+    },
+    {
+      "name": "manifest identity",
+      "ok": true
+    },
+    {
+      "name": "runtime files",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "loaded implementation sources",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "active tool sources",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "skill entries",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "local operation overrides",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "active book retrieval files",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "default liuren agent",
+      "ok": true
+    },
+    {
+      "name": "main tool permissions",
+      "ok": true
+    },
+    {
+      "name": "trial adjudication disabled",
+      "ok": true
+    },
+    {
+      "name": "active runtime read permissions",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "primary model independently configured",
+      "ok": true
+    },
+    {
+      "name": "adjudicator model and tools",
+      "ok": true
+    },
+    {
+      "name": "compact handoff enabled",
+      "ok": true
+    },
+    {
+      "name": "durable flow enabled",
+      "ok": true
+    },
+    {
+      "name": "consistency audit child permission",
+      "ok": true
+    },
+    {
+      "name": "consistency audit implementation and bounded review",
+      "ok": true
+    },
+    {
+      "name": "explicit DeepSeek adjudicator output budget",
+      "ok": true,
+      "detail": 393216
+    },
+    {
+      "name": "pinned slim plugin",
+      "ok": true,
+      "detail": {
+        "expected": "2.2.18",
+        "installed": "2.2.18"
+      }
+    },
+    {
+      "name": "project SDK dependency",
+      "ok": true
+    },
+    {
+      "name": "python executable",
+      "ok": true
+    },
+    {
+      "name": "node executable",
+      "ok": true
+    },
+    {
+      "name": "adopted shensha release",
+      "ok": true
+    },
+    {
+      "name": "book index",
+      "ok": true
+    }
+  ],
+  "auxiliary": [],
+  "modelCalls": 0,
+  "servicesStarted": 0,
+  "scope": "本机执行与加载；辅助MCP/研究库单列，不证明专业或预测效果",
+  "next": "重启并新建会话，workflow确认execution_health.ready、mode=class-selection-trial及adjudication_enabled=false；主直接短答，不触发裁决。"
+}

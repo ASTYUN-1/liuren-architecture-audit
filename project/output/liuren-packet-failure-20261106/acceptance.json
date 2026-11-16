@@ -1,0 +1,65 @@
+{
+  "release": "20261106-packet-diagnostics-17",
+  "runtime": "runtime/liuren/20261106-packet-diagnostics-17",
+  "checks": {
+    "live": {
+      "count": 18,
+      "mismatches": []
+    },
+    "candidateLive": {
+      "count": 17,
+      "mismatches": []
+    },
+    "runtime": {
+      "count": 104,
+      "mismatches": []
+    },
+    "candidateRuntime": {
+      "count": 104,
+      "mismatches": []
+    },
+    "parentRuntimeUnchanged": {
+      "count": 103,
+      "mismatches": []
+    },
+    "backups": {
+      "count": 18,
+      "mismatches": []
+    },
+    "activeImplementations": {
+      "count": 22,
+      "mismatches": []
+    },
+    "entryMatchesSkill": true,
+    "adjudicatorPromptMatches": true,
+    "doctorBaselineErrorUnchanged": true,
+    "observedOriginalNativeReplaysPassed": 8
+  },
+  "nodeTests": {
+    "passed": 137,
+    "failed": 0
+  },
+  "singleMethodTests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "semanticRoleChecks": false,
+  "extraModelCallsAdded": 0,
+  "externalModelCalled": false,
+  "predictiveValidationCount": 0,
+  "globalDoctorOk": false,
+  "skillQuickValidate": "not-rerun-missing-PyYAML",
+  "restartOpenCodeRequired": true,
+  "evidenceSha256": {
+    "activation-receipt.json": "bdd480d77d3c06fbb9d2d08a1a2ccd5f7e0228b031ea6482ab41fd5b6b05f280",
+    "candidate-manifest.json": "1705e18e0fcd42a3e72ed712dc049752eea29a897620027e1eb004397f94b2ba",
+    "preflight-tests.log": "93ebb85e9509b1fd966a24f27999e01102286a5cb3e685720c2ef919d44c0e55",
+    "acceptance-tests.log": "8823701420c30d374f58c9176cc141306c9e2e1af840ae854fefe70e6dae662c",
+    "single-method-tests.log": "836f8a5a4a17f2681657196c778ec4bedaf391d8ceca8afcb1804757f01de284",
+    "doctor.json": "56319362f091587f200d1935df8d6a64f45e3adb7342e52a144574b8ca0319ec",
+    "current-wire.json": "bea4ef71a5d9f0278545aa9b3ebe14fc8d230145c5a8d302f62b208a67e52823",
+    "revision.json": "01c746ba02d4b61debdaceb26edcb6936bc83e60d8bf3318a9d0a201931a1409",
+    "故障核查与修复说明.md": "c8b4bae5dd44322ec5766415a48ab96decbf5fb1f835efa21b6c060bb2b0dd27",
+    "observed-replay.json": "18f47cfc10953b953f5ca75f1b60adb0b810cb546574ecf5558ff97c0ceda478"
+  }
+}

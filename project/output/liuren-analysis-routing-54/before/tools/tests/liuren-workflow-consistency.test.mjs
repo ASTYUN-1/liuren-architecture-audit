@@ -1,0 +1,50 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {status} from '../liuren-codex.mjs';
+import {boundMethodToolsEnabled} from '../liuren-core-handoff.mjs';
+
+test('bound computation capability survives heading cleanup and supports frozen cores',()=>{
+ const loaded=core=>({raw:JSON.stringify(core)});
+ assert.equal(boundMethodToolsEnabled(loaded({capabilities:{deterministic_methods:true},shared_method:'精简后的正文'})),true);
+ assert.equal(boundMethodToolsEnabled(loaded({shared_method:'历史核心：35版确定性工具层'})),true);
+ assert.equal(boundMethodToolsEnabled(loaded({shared_method:'不支持该工具的旧核心'})),false);
+});
+
+test('Codex readiness rejects a stale pointer or edited skill even when runtime bytes match',async t=>{
+ const root=await fs.mkdtemp(path.join(os.tmpdir(),'liuren-consistency-'));
+ t.after(async()=>{assert.equal(path.dirname(root),os.tmpdir());assert.ok(path.basename(root).startsWith('liuren-consistency-'));await fs.rm(root,{recursive:true,force:true});});
+ const runtime='runtime/liuren/test';
+ await fs.mkdir(path.join(root,runtime),{recursive:true});
+ await fs.mkdir(path.join(root,'.opencode/skills/liuren/test'),{recursive:true});
+ const sha=s=>createHash('sha256').update(s).digest('hex');
+ const file='entry.md',body='test runtime',skill='test skill';
+ const files={[file]:sha(body)};
+ const version=sha('{"entry.md": "'+files[file]+'"}');
+ await fs.writeFile(path.join(root,runtime,file),body);
+ await fs.writeFile(path.join(root,runtime,'manifest.json'),JSON.stringify({release:'test',version,files,modules:{}}));
+ await fs.writeFile(path.join(root,'.opencode/skills/liuren/test/SKILL.md'),skill);
+ const pointer={release:'test',runtime,methodVersion:version,files:{'liuren/test/SKILL.md':sha(skill)}};
+ const save=()=>fs.writeFile(path.join(root,'.opencode/liuren-active.json'),JSON.stringify(pointer));
+ await save();assert.equal((await status(root)).ready,true);
+ pointer.methodVersion='stale';await save();assert.equal((await status(root)).ready,false);
+ pointer.methodVersion=version;await save();
+ await fs.writeFile(path.join(root,'.opencode/skills/liuren/test/SKILL.md'),'obsolete instructions');
+ assert.ok((await status(root)).mismatches.includes('skill:liuren/test/SKILL.md'));
+ await fs.writeFile(path.join(root,'.opencode/skills/liuren/test/SKILL.md'),skill);
+ const manifestFile=path.join(root,runtime,'manifest.json');
+ const manifest=JSON.parse(await fs.readFile(manifestFile,'utf8'));
+ manifest.modules['daliuren-paipan']={file:'entry.md'};
+ await fs.writeFile(manifestFile,JSON.stringify(manifest));
+ pointer.localModuleOverrides={'daliuren-paipan':{file:runtime+'/entry.md',sha256:sha(body)}};
+ pointer.bookRetrieval={files:{[runtime+'/entry.md']:sha(body)}};
+ await save();assert.equal((await status(root)).ready,true);
+ pointer.localModuleOverrides['daliuren-paipan'].sha256='stale';await save();
+ assert.ok((await status(root)).mismatches.includes('operation:daliuren-paipan'));
+ pointer.localModuleOverrides['daliuren-paipan'].sha256=sha(body);
+ pointer.bookRetrieval.files[runtime+'/entry.md']='stale';await save();
+ assert.ok((await status(root)).mismatches.includes('book:'+runtime+'/entry.md'));
+});

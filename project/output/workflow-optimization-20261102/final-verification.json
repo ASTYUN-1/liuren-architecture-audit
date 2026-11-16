@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-02T03:12:49.273572+00:00",
+  "current": "/opt/wenheng/releases/20261102-workflow-optimization-01",
+  "sourceHashesVerified": 364,
+  "maintenanceHashes": {
+    "backup.mjs": "3410698bb9d03c4015e0020ebd4360093eae0b7c97655d1907f77d55e17c1900",
+    "backup-support.mjs": "a8b65721239a3bf1cdd6a7b4ed249f3f28a5715f09936c04d51138d661e5c102"
+  },
+  "resourceManifestHashes": {
+    "knowledge-manifest.json": "06cee413b456a9f2c00c5690380cd3576527beac72f2c85ce4e2cc2bbdfa9e0a",
+    "liuren-runtime.json": "2ffdf02cd9037157cd0adf7d4aa859c78a698a2da009e96604f5bd32516356e1"
+  },
+  "migration018": 1,
+  "activeTasks": 0,
+  "heldPoints": 0,
+  "restoreDatabaseCleanup": [
+    {
+      "label": "before",
+      "removed": true
+    },
+    {
+      "label": "after",
+      "removed": true
+    }
+  ],
+  "serviceLogErrorCounts": {
+    "uncaught": 0,
+    "queueFailure": 0,
+    "serviceFailure": 0,
+    "fatal": 0
+  },
+  "backup": "Result=success\nExecMainExitTimestamp=Mon 2026-11-02 11:09:22 CST\nExecMainStatus=0\n",
+  "backupTimer": "NextElapseUSecRealtime=Mon 2026-11-02 11:15:06 CST\nActiveState=active\n",
+  "services": "MainPID=2004358\nNRestarts=0\nWorkingDirectory=/opt/wenheng/current\nActiveState=active\n\nMainPID=2004357\nNRestarts=0\nWorkingDirectory=/opt/wenheng/releases/20261102-workflow-optimization-01\nActiveState=active\n",
+  "paidApiTests": 0
+}

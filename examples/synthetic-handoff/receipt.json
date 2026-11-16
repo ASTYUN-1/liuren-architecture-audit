@@ -1,0 +1,48 @@
+{
+  "schema": "liuren-codex-receipt-v1",
+  "run": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify\\output\\codex-liuren\\codex-d52d2371-ef74-41cd-b751-4b7222a19159",
+  "status": "completed",
+  "report_file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify\\output\\codex-liuren\\codex-d52d2371-ef74-41cd-b751-4b7222a19159\\report.md",
+  "report_sha256": "2803af849421cbf7ff5867a0d1ea5d6105a822eee0ed5bdf80606cdbeaab520b",
+  "audit": {
+    "schema": "liuren-consistency-audit-v1",
+    "questions": [
+      {
+        "question_id": "Q_transport",
+        "request_quote": "合成工程验收材料：只核对完整盘、绑定方法和报告传输，不预测天气或任何现实结果。",
+        "stage_origin": "user_explicit",
+        "stage_basis": "合成工程验收材料：只核对完整盘、绑定方法和报告传输，不预测天气或任何现实结果。",
+        "success_review": "工程传输验收",
+        "answer_quote": "# 工程传输验收\n\n只验证宿主、完整核心、绑定参考与报告保存。\n不作天气或录用预测。\n",
+        "candidates": [],
+        "counterevidence": {
+          "present": false,
+          "relation_ids": [],
+          "report_quote": "",
+          "resolution": "仅工程验收，无专业反证",
+          "basis_refs": []
+        }
+      }
+    ],
+    "relations": [],
+    "calculations": [],
+    "omission_review": "无专业占断，仅工程验收"
+  },
+  "consistency_check": {
+    "schema": "liuren-consistency-audit-v1",
+    "ok": true,
+    "issues": [],
+    "warnings": [],
+    "report_sha256": "2803af849421cbf7ff5867a0d1ea5d6105a822eee0ed5bdf80606cdbeaab520b",
+    "validationScope": "declared-evidence-and-receipt-consistency",
+    "professionalContentChecked": false
+  },
+  "review_required": true,
+  "packet_ref": {
+    "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify\\output\\liuren-adjudication-requests\\codex-transport-1794782401963-7959ae65-4f92-4b0a-935d-a7462b479e5d.json",
+    "sha256": "12131d994e262e48d06189bcaa17ca99fa6f42838f72dfa31af2ab469f16ea30"
+  },
+  "core_pages_emitted": 3,
+  "validationScope": "transport-only",
+  "professionalContentChecked": false
+}

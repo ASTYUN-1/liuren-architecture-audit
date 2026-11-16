@@ -1,0 +1,70 @@
+{
+  "release": "20261105-no-retrieval-01",
+  "status": "active",
+  "scope": "local-opencode",
+  "runtime": "runtime/liuren/20261105-no-retrieval-01",
+  "methodVersion": "fd1f3a520e3dcd88c653d4b7646fca3176d70552e35103dd41894c6deacc4ad5",
+  "previousRelease": "20261105-adjudication-01",
+  "backup": "output/liuren-no-retrieval-20261105/before",
+  "files": {
+    "liuren/daliuren/SKILL.md": "0dd28112bb04b892732ebaa977f7fab86cb63a6f0c52a5db2a19e1f84cdf6edc",
+    "liuren/liuren-cases/SKILL.md": "39a0b88e4195a8c0f7a612c23382182ca7d178aca9ca46bdd868053ac75ba918",
+    "liuren/liuren-extract/SKILL.md": "c3be7065ba3003bb8cfddc5eef0bbcfb4b893a4b7f73712029c4df37def4da2c"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "groups": [
+    "liuren"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  },
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "workflowEntry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "defaultMode": "local-professional",
+  "optionalAuditEntry": "tools/liuren-workflow.py",
+  "websiteChanged": false,
+  "websiteOutputPolicy": false,
+  "methodHierarchy": "liqi-throughout-conditioned-symbols",
+  "authoringSource": "output/liuren-no-retrieval-20261105",
+  "boundedReview": {
+    "registeredModuleRevisions": 31,
+    "effectiveMethodBodyChanges": 30,
+    "sourceReferencePages": 3,
+    "migratedProcedures": 2,
+    "sharedPolicyCards": 83,
+    "sharedPolicyFields": 137,
+    "exhaustiveSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "workflowImplementation": {
+    "tools/load-liuren-methods.py": "99c0eb04080f272ea9bb9855e651bf566f3cbb159302cffa914cbbaccb97dee9",
+    "tools/load-liuren-procedure.py": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+    "tools/liuren_material_scope.py": "35f308e7d7c8bdec59e1f4e514d56351bbc230263d0811aefdbe3422e1b1bc92",
+    "tools/liuren_research_overlay.py": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+    "tools/liuren-local-read.py": "d146c8215edb2846c8be5677c3c6d44547daa06a1bb70507506809687169970c"
+  },
+  "inheritedAcceptedCandidateMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "expertAdjudicationReview": {
+    "sourceFiles": 7,
+    "selectedPassages": 34,
+    "caseUnits": 23,
+    "revisionFile": "adjudication-revision-map.json",
+    "fullSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "method modules, books including book examples, chart, shensha, adjudication, report",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  }
+}

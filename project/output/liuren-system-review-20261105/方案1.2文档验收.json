@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-05T10:59:05.237685+08:00",
+  "scope": "仅文档结构/引用与指定受保护文件检查，不证明专业规则正确或预测有效",
+  "checks": {
+    "version_1_2": true,
+    "backup_version_1_1": true,
+    "backup_original_length": true,
+    "module_count_59": true,
+    "module_ids_unique": true,
+    "matches_current_manifest": true,
+    "module_order_preserved": true,
+    "report_findings_12": true,
+    "no_broken_links": true,
+    "balanced_fences": true,
+    "protected_files_unchanged": true
+  },
+  "passed": true,
+  "module_count": 59,
+  "local_link_occurrences": 28,
+  "broken_links": [],
+  "protected_file_count": 275,
+  "changed_protected_files": [],
+  "additional_known_void_copies_unchanged": true,
+  "documents": [
+    {
+      "file": "大六壬Skill体系整体梳理与重构完整方案.md",
+      "bytes": 69763,
+      "sha256": "a03046295baea5e8dd97c3a3d02b29e60682146a027a954805abebc60bd334fa"
+    },
+    {
+      "file": "大六壬Skill体系整体梳理与重构完整方案-1.1留档.md",
+      "bytes": 49859,
+      "sha256": "f1f27358794c41675a0a8768f15755f665e0d3e44f7ebd124a6d033ae533a691"
+    },
+    {
+      "file": "方案审查报告-20261105.md",
+      "bytes": 13053,
+      "sha256": "613b0eeb2c889bfa6d7eac389e9dbd4fd553c3fc10e0be13a67a90da122e267a"
+    }
+  ],
+  "runtime_tests_run": false,
+  "real_opencode_session_tested": false,
+  "independent_prediction_validation_added": 0
+}

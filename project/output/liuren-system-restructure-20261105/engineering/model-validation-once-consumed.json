@@ -1,0 +1,10 @@
+{
+  "authorizationStatus": "consumed",
+  "runnerAttempts": 1,
+  "runDirectory": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\engineering\\approved-model-validation-once",
+  "runDirectoryExists": true,
+  "repeatPrevention": "environment() uses mkdir(exist_ok=False), so normal repeat fails before OpenCode launch; no directory removal or second launch authorized",
+  "resultSha256": "059272e1193180a19ea71df21c7dd342ea50739cd7d8ac4db64e552036b66a23",
+  "observedEvidenceSha256": "ec6195c416a767ab02a2df76ebf6a70a32ada275d175839eae02c0a056ccc7e6",
+  "finalStatus": "five loading subchecks accepted; entire limited session incomplete at timeout; no retry"
+}

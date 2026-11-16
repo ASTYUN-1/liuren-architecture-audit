@@ -1,0 +1,376 @@
+{
+  "schema": "liuren-shao-c-batch-acceptance-v1",
+  "reviewed_cases": 163,
+  "subjudgments": 442,
+  "supplemental_cards": 145,
+  "canonical_retrieval_rules": 1,
+  "total_shao_rules": 240,
+  "reviewed_ids": [
+    "BK26-SHAO-001",
+    "BK26-SHAO-002",
+    "BK26-SHAO-003",
+    "BK26-SHAO-004",
+    "BK26-SHAO-005",
+    "BK26-SHAO-006",
+    "BK26-SHAO-007",
+    "BK26-SHAO-008",
+    "BK26-SHAO-009",
+    "BK26-SHAO-010",
+    "BK26-SHAO-011",
+    "BK26-SHAO-012",
+    "BK26-SHAO-013",
+    "BK26-SHAO-014",
+    "BK26-SHAO-015",
+    "BK26-SHAO-150",
+    "BK26-SHAO-152",
+    "BK26-SHAO-153",
+    "BK26-SHAO-155",
+    "BK26-SHAO-156",
+    "BK26-SHAO-157",
+    "BK26-SHAO-159",
+    "BK26-SHAO-160",
+    "BK26-SHAO-161",
+    "BK26-SHAO-162",
+    "BK26-SHAO-163",
+    "BK26-SHAO-016",
+    "BK26-SHAO-017",
+    "BK26-SHAO-018",
+    "BK26-SHAO-019",
+    "BK26-SHAO-020",
+    "BK26-SHAO-021",
+    "BK26-SHAO-022",
+    "BK26-SHAO-023",
+    "BK26-SHAO-024",
+    "BK26-SHAO-025",
+    "BK26-SHAO-026",
+    "BK26-SHAO-027",
+    "BK26-SHAO-028",
+    "BK26-SHAO-029",
+    "BK26-SHAO-030",
+    "BK26-SHAO-031",
+    "BK26-SHAO-032",
+    "BK26-SHAO-033",
+    "BK26-SHAO-034",
+    "BK26-SHAO-035",
+    "BK26-SHAO-036",
+    "BK26-SHAO-037",
+    "BK26-SHAO-038",
+    "BK26-SHAO-039",
+    "BK26-SHAO-040",
+    "BK26-SHAO-041",
+    "BK26-SHAO-042",
+    "BK26-SHAO-043",
+    "BK26-SHAO-044",
+    "BK26-SHAO-045",
+    "BK26-SHAO-046",
+    "BK26-SHAO-047",
+    "BK26-SHAO-048",
+    "BK26-SHAO-049",
+    "BK26-SHAO-050",
+    "BK26-SHAO-051",
+    "BK26-SHAO-052",
+    "BK26-SHAO-053",
+    "BK26-SHAO-054",
+    "BK26-SHAO-055",
+    "BK26-SHAO-056",
+    "BK26-SHAO-057",
+    "BK26-SHAO-058",
+    "BK26-SHAO-059",
+    "BK26-SHAO-060",
+    "BK26-SHAO-061",
+    "BK26-SHAO-062",
+    "BK26-SHAO-063",
+    "BK26-SHAO-064",
+    "BK26-SHAO-065",
+    "BK26-SHAO-066",
+    "BK26-SHAO-067",
+    "BK26-SHAO-068",
+    "BK26-SHAO-069",
+    "BK26-SHAO-070",
+    "BK26-SHAO-071",
+    "BK26-SHAO-072",
+    "BK26-SHAO-073",
+    "BK26-SHAO-074",
+    "BK26-SHAO-075",
+    "BK26-SHAO-076",
+    "BK26-SHAO-077",
+    "BK26-SHAO-078",
+    "BK26-SHAO-079",
+    "BK26-SHAO-080",
+    "BK26-SHAO-081",
+    "BK26-SHAO-082",
+    "BK26-SHAO-083",
+    "BK26-SHAO-084",
+    "BK26-SHAO-085",
+    "BK26-SHAO-087",
+    "BK26-SHAO-088",
+    "BK26-SHAO-089",
+    "BK26-SHAO-090",
+    "BK26-SHAO-086",
+    "BK26-SHAO-091",
+    "BK26-SHAO-092",
+    "BK26-SHAO-093",
+    "BK26-SHAO-094",
+    "BK26-SHAO-095",
+    "BK26-SHAO-096",
+    "BK26-SHAO-098",
+    "BK26-SHAO-099",
+    "BK26-SHAO-100",
+    "BK26-SHAO-101",
+    "BK26-SHAO-102",
+    "BK26-SHAO-103",
+    "BK26-SHAO-104",
+    "BK26-SHAO-097",
+    "BK26-SHAO-105",
+    "BK26-SHAO-106",
+    "BK26-SHAO-108",
+    "BK26-SHAO-109",
+    "BK26-SHAO-110",
+    "BK26-SHAO-111",
+    "BK26-SHAO-112",
+    "BK26-SHAO-113",
+    "BK26-SHAO-114",
+    "BK26-SHAO-115",
+    "BK26-SHAO-116",
+    "BK26-SHAO-117",
+    "BK26-SHAO-119",
+    "BK26-SHAO-120",
+    "BK26-SHAO-107",
+    "BK26-SHAO-118",
+    "BK26-SHAO-1181",
+    "BK26-SHAO-122",
+    "BK26-SHAO-123",
+    "BK26-SHAO-124",
+    "BK26-SHAO-125",
+    "BK26-SHAO-127",
+    "BK26-SHAO-1271",
+    "BK26-SHAO-128",
+    "BK26-SHAO-129",
+    "BK26-SHAO-130",
+    "BK26-SHAO-131",
+    "BK26-SHAO-132",
+    "BK26-SHAO-133",
+    "BK26-SHAO-134",
+    "BK26-SHAO-135",
+    "BK26-SHAO-121",
+    "BK26-SHAO-126",
+    "BK26-SHAO-136",
+    "BK26-SHAO-137",
+    "BK26-SHAO-138",
+    "BK26-SHAO-140",
+    "BK26-SHAO-141",
+    "BK26-SHAO-1411",
+    "BK26-SHAO-142",
+    "BK26-SHAO-143",
+    "BK26-SHAO-144",
+    "BK26-SHAO-146",
+    "BK26-SHAO-147",
+    "BK26-SHAO-148",
+    "BK26-SHAO-139",
+    "BK26-SHAO-145",
+    "BK26-SHAO-149"
+  ],
+  "current_source_extraction_complete_cases": 134,
+  "source_gap_cases": [
+    {
+      "case_id": "BK26-SHAO-003",
+      "remaining": [
+        "待外源补断语；当前无法提取，不以排盘恢复"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-153",
+      "remaining": [
+        "外源校核正邪四句"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-155",
+      "remaining": [
+        "外源校核旦贵及终局异说"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-027",
+      "remaining": [
+        "未明原法，待其他版本/转引补依据"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-033",
+      "remaining": [
+        "原行年/日德疑句待外源校证"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-041",
+      "remaining": [
+        "原盘/析理贵人冲突待外源校证"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-048",
+      "remaining": [
+        "原正月/十月死气口径待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-053",
+      "remaining": [
+        "末附申/辛妻、丙日绝等异文待校"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-061",
+      "remaining": [
+        "申7未8减半与35寿数未闭合，出生年及卒年年龄校议待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-064",
+      "remaining": [
+        "九年而卒/庚申亡的衔接、本命是木与题干辛未的解释待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-069",
+      "remaining": [
+        "十一月与将时校议未获外源定本，原盘与后议并存"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-082",
+      "remaining": [
+        "更30寿段与62卒及古本26岁之间起算不明，待外源校年"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-091",
+      "remaining": [
+        "四月赴任/记言不去的叙事张力待外源，不称实际按期赴任已核"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-101",
+      "remaining": [
+        "题民政局酉年疑OCR，占年及18年起算待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-102",
+      "remaining": [
+        "辰生于申/今辰生于辰的原句待校，原易卷事实未核"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-109",
+      "remaining": [
+        "亥4子9称36与13年卒的关系未明，待外源校数句"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-116",
+      "remaining": [
+        "行年亥/子/此年遇巳与八月随丧尽的衔接未明，待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-119",
+      "remaining": [
+        "原注多失误/句讹待善本，子息时态与棺尸水灾作用链未恢复"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-120",
+      "remaining": [
+        "后释末传寅与原三传末午不符，待外源校文字"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-1181",
+      "remaining": [
+        "附行者案未明独立各问推法；待外源，不用借盘补造"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-122",
+      "remaining": [
+        "二月题与血支卯推三月占的校议未获定本，退子取月仍有分支"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-131",
+      "remaining": [
+        "七月题与乙木旺火相的季节口径未明，待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-134",
+      "remaining": [
+        "初26/27、末50/56、35半称17及年龄起算仍原双说，待外源校限数"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-121",
+      "remaining": [
+        "原全文完整但未载各子断明推法，待同源解释补核，不由盘标签硬造"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-140",
+      "remaining": [
+        "原却发目不至丙年四五六年句待善本校读"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-141",
+      "remaining": [
+        "原三传皆鬼与末丑子爻的口径未释，保原待核"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-1411",
+      "remaining": [
+        "戊寅/甲戌得财日两说待外源，不作唯一应期"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-142",
+      "remaining": [
+        "源终不可止句与先后歇店叙的语义待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-149",
+      "remaining": [
+        "巳中丙戌二姓过房子的原句待校；不强释或改藏干"
+      ]
+    }
+  ],
+  "all_223_reviewed": false,
+  "all_book_method_cards_deduplicated": false,
+  "evidence_tag_link_errors": [],
+  "mechanical_source_link_pass": true,
+  "book_registry_summary": {
+    "registered": 898,
+    "mechanical_pass": 898,
+    "eligible_complete": 798,
+    "fragment": 100,
+    "pending": 0,
+    "valid": true,
+    "semantic_identity": "负责人声明整案边界；机械核对不证明语义完整",
+    "independent_validation_count": 0,
+    "complete": false
+  },
+  "method_registry_summary": {
+    "record_count": 461,
+    "eligible_count": 461,
+    "mechanical_valid": true,
+    "explicit_rule_family_count": 37,
+    "semantic_validation": "external_review_declaration_only",
+    "independent_validation_count": 0,
+    "complete": false
+  },
+  "method_registry_issues": [],
+  "independent_validation_count": 0
+}

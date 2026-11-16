@@ -1,0 +1,25 @@
+{
+  "schema": "staged-chart-resolutions-v1",
+  "warning": "AI只能填proposed；人工核对后改confirmed，另以--accept-confirmed明确启用。确认标记不等于外部真实性证明。",
+  "resolutions": {
+    "raw-anli002-0006": {
+      "status": "proposed",
+      "case_file_sha256": "73eadd33e652df08d81603658803376ddc4f5a2f2c77326606d6ab7a3652a26b",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "constraints": {
+        "day_pillar": "甲子",
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "甲辰年丙寅月甲子日己巳时（题干原载，未核验）",
+        "other_input": "未注明"
+      }
+    }
+  }
+}

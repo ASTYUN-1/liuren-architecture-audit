@@ -1,0 +1,53 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261018-0065",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-qqwb20261018-0065.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\stage1_v2\\cases\\raw-qqwb20261018-0065.md",
+    "locator": "raw/records.jsonl 第 65 行（seq=64）detail 与 mofan 字段",
+    "shared_original_group": null,
+    "case_file_sha256": "6baab806e2128624518763af8b8ff95c65201e6bceb55ad643f486fe0c53ec26",
+    "original_time": "未注明（盘图仅有日期，原文为「公历：2026年9月5日　阴历：七月廿四」，无时刻）",
+    "source_text_sha256": "d2ec1e0089d80017dc654e658e2eb3484c53296bdc5b366a4853d193130806e6",
+    "image_evidence": null
+  },
+  "time": {
+    "precision": "unknown",
+    "datetime": null,
+    "issue": "MISSING_CALENDAR_DATE"
+  },
+  "time_selection": null,
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "effective_settings": {
+    "yuejiang": "中气换将",
+    "guiren": "甲戊庚牛羊",
+    "zhouye": "自动选择",
+    "shehai": "孟仲季"
+  },
+  "issues": [
+    "MISSING_CALENDAR_DATE",
+    "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+    "IMAGE_LEDGER_TIME_MISMATCH",
+    "TIME_FIELD_SOURCE_MISMATCH"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

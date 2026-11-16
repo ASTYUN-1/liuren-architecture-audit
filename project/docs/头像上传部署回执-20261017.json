@@ -1,0 +1,41 @@
+{
+  "completed": true,
+  "at": "2026-10-17T02:58:51.829Z",
+  "release": "/opt/wenheng/releases/20261017-avatar-01",
+  "previous": "/opt/wenheng/releases/20261017-guide-dismiss-01",
+  "changedFiles": [
+    "package.json",
+    "pnpm-lock.yaml",
+    "src/server/service.ts",
+    "src/server/contracts.ts",
+    "src/server/operations.ts",
+    "src/components/shell.tsx",
+    "src/app/account/settings/page.tsx",
+    "src/app/globals.css",
+    "src/app/privacy/page.tsx",
+    "src/server/auth.ts",
+    "src/lib/avatar.ts",
+    "src/server/avatars.ts",
+    "src/components/user-avatar.tsx",
+    "src/components/avatar-settings.tsx",
+    "src/app/api/account/avatar/route.ts",
+    "src/app/avatars/[name]/route.ts",
+    "tests/avatars.test.ts"
+  ],
+  "testsPassed": 26,
+  "maxUploadBytes": 2097152,
+  "output": "256x256 WebP, <=100KB",
+  "storage": "/var/lib/wenheng/avatars",
+  "webRestarted": true,
+  "workerUnchanged": true,
+  "worker": "MainPID=41257\nExecMainStartTimestamp=Sat 2026-10-17 10:17:34 CST",
+  "skillFilesUnchanged": 78,
+  "settingsUnchanged": true,
+  "databaseMigration": false,
+  "proxyChanged": false,
+  "status": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true
+  }
+}

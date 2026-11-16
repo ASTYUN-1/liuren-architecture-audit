@@ -1,0 +1,2352 @@
+{
+  "schema": "liuren-shao-condition-dedup-review-v1",
+  "reviewed_case_ids": [
+    "BK26-SHAO-001",
+    "BK26-SHAO-002",
+    "BK26-SHAO-003",
+    "BK26-SHAO-004",
+    "BK26-SHAO-005",
+    "BK26-SHAO-006",
+    "BK26-SHAO-007",
+    "BK26-SHAO-008",
+    "BK26-SHAO-009",
+    "BK26-SHAO-010",
+    "BK26-SHAO-011",
+    "BK26-SHAO-012",
+    "BK26-SHAO-013",
+    "BK26-SHAO-014",
+    "BK26-SHAO-015",
+    "BK26-SHAO-150",
+    "BK26-SHAO-152",
+    "BK26-SHAO-153",
+    "BK26-SHAO-155",
+    "BK26-SHAO-156",
+    "BK26-SHAO-157",
+    "BK26-SHAO-159",
+    "BK26-SHAO-160",
+    "BK26-SHAO-161",
+    "BK26-SHAO-162",
+    "BK26-SHAO-163",
+    "BK26-SHAO-016",
+    "BK26-SHAO-017",
+    "BK26-SHAO-018",
+    "BK26-SHAO-019",
+    "BK26-SHAO-020",
+    "BK26-SHAO-021",
+    "BK26-SHAO-022",
+    "BK26-SHAO-023",
+    "BK26-SHAO-024",
+    "BK26-SHAO-025",
+    "BK26-SHAO-026",
+    "BK26-SHAO-027",
+    "BK26-SHAO-028",
+    "BK26-SHAO-029",
+    "BK26-SHAO-030",
+    "BK26-SHAO-031",
+    "BK26-SHAO-032",
+    "BK26-SHAO-033",
+    "BK26-SHAO-034",
+    "BK26-SHAO-035",
+    "BK26-SHAO-036",
+    "BK26-SHAO-037",
+    "BK26-SHAO-038",
+    "BK26-SHAO-039",
+    "BK26-SHAO-040",
+    "BK26-SHAO-041",
+    "BK26-SHAO-042",
+    "BK26-SHAO-043",
+    "BK26-SHAO-044",
+    "BK26-SHAO-045",
+    "BK26-SHAO-046",
+    "BK26-SHAO-047",
+    "BK26-SHAO-048",
+    "BK26-SHAO-049",
+    "BK26-SHAO-050",
+    "BK26-SHAO-051",
+    "BK26-SHAO-052",
+    "BK26-SHAO-053",
+    "BK26-SHAO-054",
+    "BK26-SHAO-055",
+    "BK26-SHAO-056",
+    "BK26-SHAO-057",
+    "BK26-SHAO-058",
+    "BK26-SHAO-059",
+    "BK26-SHAO-060",
+    "BK26-SHAO-061",
+    "BK26-SHAO-062",
+    "BK26-SHAO-063",
+    "BK26-SHAO-064",
+    "BK26-SHAO-065",
+    "BK26-SHAO-066",
+    "BK26-SHAO-067",
+    "BK26-SHAO-068",
+    "BK26-SHAO-069",
+    "BK26-SHAO-070",
+    "BK26-SHAO-071",
+    "BK26-SHAO-072",
+    "BK26-SHAO-073",
+    "BK26-SHAO-074",
+    "BK26-SHAO-075",
+    "BK26-SHAO-076",
+    "BK26-SHAO-077",
+    "BK26-SHAO-078",
+    "BK26-SHAO-079",
+    "BK26-SHAO-080",
+    "BK26-SHAO-081",
+    "BK26-SHAO-082",
+    "BK26-SHAO-083",
+    "BK26-SHAO-084",
+    "BK26-SHAO-085",
+    "BK26-SHAO-087",
+    "BK26-SHAO-088",
+    "BK26-SHAO-089",
+    "BK26-SHAO-090",
+    "BK26-SHAO-086",
+    "BK26-SHAO-091",
+    "BK26-SHAO-092",
+    "BK26-SHAO-093",
+    "BK26-SHAO-094",
+    "BK26-SHAO-095",
+    "BK26-SHAO-096",
+    "BK26-SHAO-098",
+    "BK26-SHAO-099",
+    "BK26-SHAO-100",
+    "BK26-SHAO-101",
+    "BK26-SHAO-102",
+    "BK26-SHAO-103",
+    "BK26-SHAO-104",
+    "BK26-SHAO-097",
+    "BK26-SHAO-105",
+    "BK26-SHAO-106",
+    "BK26-SHAO-108",
+    "BK26-SHAO-109",
+    "BK26-SHAO-110",
+    "BK26-SHAO-111",
+    "BK26-SHAO-112",
+    "BK26-SHAO-113",
+    "BK26-SHAO-114",
+    "BK26-SHAO-115",
+    "BK26-SHAO-116",
+    "BK26-SHAO-117",
+    "BK26-SHAO-119",
+    "BK26-SHAO-120",
+    "BK26-SHAO-107",
+    "BK26-SHAO-118",
+    "BK26-SHAO-1181",
+    "BK26-SHAO-122",
+    "BK26-SHAO-123",
+    "BK26-SHAO-124",
+    "BK26-SHAO-125",
+    "BK26-SHAO-127",
+    "BK26-SHAO-1271",
+    "BK26-SHAO-128",
+    "BK26-SHAO-129",
+    "BK26-SHAO-130",
+    "BK26-SHAO-131",
+    "BK26-SHAO-132",
+    "BK26-SHAO-133",
+    "BK26-SHAO-134",
+    "BK26-SHAO-135",
+    "BK26-SHAO-121",
+    "BK26-SHAO-126",
+    "BK26-SHAO-136",
+    "BK26-SHAO-137",
+    "BK26-SHAO-138",
+    "BK26-SHAO-140",
+    "BK26-SHAO-141",
+    "BK26-SHAO-1411",
+    "BK26-SHAO-142",
+    "BK26-SHAO-143",
+    "BK26-SHAO-144",
+    "BK26-SHAO-146",
+    "BK26-SHAO-147",
+    "BK26-SHAO-148",
+    "BK26-SHAO-139",
+    "BK26-SHAO-145",
+    "BK26-SHAO-149"
+  ],
+  "pair_comparisons": [
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-001",
+        "LR26-BOOK-SHAO-C001"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-001": "阶段时刻和文字差",
+        "LR26-BOOK-SHAO-C001": "火伏水腾/水临/顺传与季节铸印雨雪"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-WEATHER"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-004",
+        "LR26-BOOK-SHAO-C004"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-004": "生宅脱人的施受关系",
+        "LR26-BOOK-SHAO-C004": "细分妇吏争讼和亥寅合11"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-005",
+        "LR26-BOOK-SHAO-C005"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-005": "墓岁宅人逼克链",
+        "LR26-BOOK-SHAO-C005": "六年取数、归葬、还俗僧类象"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-006",
+        "LR26-BOOK-SHAO-C006"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-006": "申空是亡兄妻身份必要限定",
+        "LR26-BOOK-SHAO-C006": "丑8生地、戌巳合9、磨压卯门"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-007",
+        "LR26-BOOK-SHAO-C007"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-007": "不备取用原争点",
+        "LR26-BOOK-SHAO-C007": "宅禄同类去归与行年父母服"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-008",
+        "LR26-BOOK-SHAO-C008"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-008": "宅/任/子息多问分层",
+        "LR26-BOOK-SHAO-C008": "12年加数与63寿乘数不同位置"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-009",
+        "LR26-BOOK-SHAO-C009"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-009": "婢归的阴神合勾链",
+        "LR26-BOOK-SHAO-C009": "末空绝止扰与回环宅害阻"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-010",
+        "LR26-BOOK-SHAO-C010"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-010": "支空转长生的路径取舍",
+        "LR26-BOOK-SHAO-C010": "店屋/妇/方位/亲族干仆细链"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-011",
+        "LR26-BOOK-SHAO-C011"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-011": "极阴与迎阳以所归比较",
+        "LR26-BOOK-SHAO-C011": "宅上归计6、巳亥4和婢树猪阁细链"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-012",
+        "LR26-BOOK-SHAO-C012"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-012": "三巳位置的多作者异解",
+        "LR26-BOOK-SHAO-C012": "人宅生脱、酒厨婢亡和双巳8"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-013",
+        "LR26-BOOK-SHAO-C013"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-013": "寿数原断结果与驳算法的证据层",
+        "LR26-BOOK-SHAO-C013": "旺禄财病、户役子孙与行动后安"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-014",
+        "LR26-BOOK-SHAO-C014"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-014": "迁后安与原情景凶断分层",
+        "LR26-BOOK-SHAO-C014": "四凶作用链和德丧二解"
+      },
+      "disposition": "互补子判断，不同义删除；按族保留分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-011",
+        "LR26-BOOK-SHAO-C015"
+      ],
+      "shared_scope": "15借011作极阴迎阳对读",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-011": "所归方向改变极阴结论",
+        "LR26-BOOK-SHAO-C015": "15的六分/侧门与贵妾子息角色细链"
+      },
+      "disposition": "互补且跨事件，保留两案不同年命/条件，不将同卡支持计独立验证"
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-017",
+        "LR26-BOOK-SHAO-C017"
+      ],
+      "shared_scope": "宅狭出居",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-017": "宅不纳人与宅克人区别：迁出原因、争讼与后兴分层",
+        "LR26-BOOK-SHAO-C017": "13年加数与年制压力、讼后禄旺"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-018",
+        "LR26-BOOK-SHAO-C018"
+      ],
+      "shared_scope": "按条件选类象",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-018": "牛田、马屋同象取舍：原作者结合生息、空亡、天马与阶段",
+        "LR26-BOOK-SHAO-C018": "其余四判断与末传季节换山"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-019",
+        "LR26-BOOK-SHAO-C019"
+      ],
+      "shared_scope": "长生救胎子问",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-019": "家宅多子问逐项判验：险中得全与未反馈的强断各归其位",
+        "LR26-BOOK-SHAO-C019": "缸方位、田水、湿风与道士讼"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-019",
+        "LR26-BOOK-SHAO-C020"
+      ],
+      "shared_scope": "与19都是分子问看反馈",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-019": "家宅多子问逐项判验：险中得全与未反馈的强断各归其位",
+        "LR26-BOOK-SHAO-C020": "20不同日时命的南方财与产服期，不能搬19救胎"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-021",
+        "LR26-BOOK-SHAO-C021"
+      ],
+      "shared_scope": "初宅出中末空不行传",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-021": "中末空不等于所有课都无传：原作者限定初传从干支起",
+        "LR26-BOOK-SHAO-C021": "子始阳巳终阳及另爨分支、假设病占边界"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-023",
+        "LR26-BOOK-SHAO-C023"
+      ],
+      "shared_scope": "空解后填实转凶",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-023": "极阴得空与后来填实分阶段：解急灾不等于无长期耗损",
+        "LR26-BOOK-SHAO-C023": "门土板木、老母酒病与婚费"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-024",
+        "LR26-BOOK-SHAO-C024"
+      ],
+      "shared_scope": "该案原取数",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-024": "家宅取数与方位：位置、季节折半及异文须同时保留",
+        "LR26-BOOK-SHAO-C024": "家宅支阴/坟墓天盘坐标与多种寡界异解"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-025",
+        "LR26-BOOK-SHAO-C025"
+      ],
+      "shared_scope": "月份差不能抹",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-025": "争产的进入与停止：不同作用链及结果月份分别留证",
+        "LR26-BOOK-SHAO-C025": "亲归天狱刑动、合口分灶与制破碎全链"
+      },
+      "disposition": "非同义复写；原卡核心与补充子链互补，不删除证据或增加独立样本",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-034",
+        "LR26-BOOK-SHAO-C034"
+      ],
+      "shared_scope": "同一源案，不增加独立事件",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-034": "按原文先识财局，再追踪财的下游作用；本案财生鬼，原作者将其落实为眷属婚嫁攀亲耗费，不能只因火是财便判得财。",
+        "LR26-BOOK-SHAO-C034": "旧034财化鬼不覆盖雷木与讼死时段：原栋木来源蛇居/雷木/庙木三候选保持，八月雷杀虎和高处解释雷栋；己酉至戊午十年原叙不另造十倍。"
+      },
+      "disposition": "逐结论和条件比对后为互补子链；主项留旧卡，新增判断留补卡，不同义删除"
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-035",
+        "LR26-BOOK-SHAO-C035"
+      ],
+      "shared_scope": "同一源案，不增加独立事件",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-035": "保存原作者先提出救解链、再核空亡否决该救解的判断过程；有合或长生名称不足单独判吉。",
+        "LR26-BOOK-SHAO-C035": "旧035保存生链被寅空否决，补其旬末年分：退子克、进寅空的判断依原旬位，子丑多事与甲寅灾分阶段；原几死与析死亡不并成已死。"
+      },
+      "disposition": "逐结论和条件比对后为互补子链；主项留旧卡，新增判断留补卡，不同义删除"
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-041",
+        "LR26-BOOK-SHAO-C041"
+      ],
+      "shared_scope": "同一源案，不增加独立事件",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-041": "本案作者明确不把卯统一读作脱气，而取子孙贵人；应将当前能否买葬与后代目标分开，不因空穴或脱气一词全盘定凶。",
+        "LR26-BOOK-SHAO-C041": "旧041重卯子贵非脱，补买葬现实障碍与形势细象：空穴不是地坏，可付钱去虚穴；巳双峰、贵双子等以原文字照存，盘式冲突不自选设置。"
+      },
+      "disposition": "逐结论和条件比对后为互补子链；主项留旧卡，新增判断留补卡，不同义删除"
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-043",
+        "LR26-BOOK-SHAO-C043"
+      ],
+      "shared_scope": "同一源案，不增加独立事件",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-043": "保存十二年的原式供数法比较，同时标明作者未给为何后八减半的通用条件；迁居后的免灾仅被写作料想，不能当十二年凶期命中或免灾已验。",
+        "LR26-BOOK-SHAO-C043": "旧043保存8全8半及料想免灾边界；补命墓自网、子息双层空和仕无寸进，末财再娶与未年萌芽不能由空一概否定。"
+      },
+      "disposition": "逐结论和条件比对后为互补子链；主项留旧卡，新增判断留补卡，不同义删除"
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-045",
+        "LR26-BOOK-SHAO-C045"
+      ],
+      "shared_scope": "同一源案，不增加独立事件",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-045": "父的受脱与子的得第是不同对象；原文对丧妻另明说非白虎乘之不可此断，爱圅丧吊与行年墓解释须单列而非拼成邵氏原链。",
+        "LR26-BOOK-SHAO-C045": "旧045保父子异问及妻虎限定；补28的亥4申7乘、父病亥勾与后本人未命贵闭口，两代取官不能互换。"
+      },
+      "disposition": "逐结论和条件比对后为互补子链；主项留旧卡，新增判断留补卡，不同义删除"
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-048",
+        "LR26-BOOK-SHAO-C048"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-048": "月将官程不空少迟、巳受生不为空炉",
+        "LR26-BOOK-SHAO-C048": "申妻合棺及4妻、四维4任、功曹曹姓刑职；和空取舍属于不同问事目标"
+      },
+      "disposition": "同案亥不空仅用于官程，不能移到妻危子克；保留互补分支",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-049",
+        "LR26-BOOK-SHAO-C049"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-049": "朽木无模使斫轮科名失败，轮磨转店业水碓",
+        "LR26-BOOK-SHAO-C049": "巳4两巳8再乘子9为72寿；寿未反馈，与转业结果分轴"
+      },
+      "disposition": "科名/生计取舍与寿数计算不等价；保留补充数法",
+      "canonical_family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-050",
+        "LR26-BOOK-SHAO-C050"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "推理环节",
+        "必要条件",
+        "结论/反馈身份"
+      ],
+      "shared_scope": "同一原事件与原文，支持数不增加",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-050": "巳玄走范卯虎破模，死亡另限己卯",
+        "LR26-BOOK-SHAO-C050": "七杀元辰及父子贵妻四不足；四分项未获同等结果证实"
+      },
+      "disposition": "课体条件否决与家庭四不足互补；不删除原日支死亡限定",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-062",
+        "LR26-BOOK-SHAO-C062"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-062": "同课异人及爱圅丁亥命校议边界",
+        "LR26-BOOK-SHAO-C062": "亥脱干/宅鬼六阴的病损链及女占男克/末同类空分问"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-064",
+        "LR26-BOOK-SHAO-C064"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-064": "墓空只解本身墓滞而非整案皆吉",
+        "LR26-BOOK-SHAO-C064": "初贵六害、太阴、妻宫及行年申医蛇鬼的具体子链；病卒异文待校"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-067",
+        "LR26-BOOK-SHAO-C067"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-067": "长生扶身与贵空玄滞区分发解/及第/得职",
+        "LR26-BOOK-SHAO-C067": "申铜铁、巳加申坑冶、亥临寅未成船场按传位业务取象"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-068",
+        "LR26-BOOK-SHAO-C068"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-068": "未支藏丁非旬丁的原作者口径",
+        "LR26-BOOK-SHAO-C068": "寅鬼生重午刃、亥月合寅及未午合连宅眷，米仓具体象未明"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-072",
+        "LR26-BOOK-SHAO-C072"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-072": "巳旬丁蛇因辛德而不作怪",
+        "LR26-BOOK-SHAO-C072": "午巳催官/辛藏戌、金局争分、无子爻不得力及9×6=54寿差"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-SUBQUESTION",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-073",
+        "LR26-BOOK-SHAO-C073"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-073": "传无子爻只在临终不在场语境，非一生无子",
+        "LR26-BOOK-SHAO-C073": "学堂卯扶发解、申玄猿迷原象、丁巳生寅入妻家另链"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-077",
+        "LR26-BOOK-SHAO-C077"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-077": "墓滞见旬丁与末贵引动的迁转限制",
+        "LR26-BOOK-SHAO-C077": "申医药/面与巳厨、天空仆、亥玄水池童的对象取象"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-079",
+        "LR26-BOOK-SHAO-C079"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-079": "乱首外事须年马引出，否则内乱",
+        "LR26-BOOK-SHAO-C079": "木局聚克、虎斗后合聚众与第二场中鬼风险，反馈只覆盖争闹"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-081",
+        "LR26-BOOK-SHAO-C081"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-081": "午龙空首任虚庆后可就支官贵、死期异作者",
+        "LR26-BOOK-SHAO-C081": "江西水土方位、法字水去、寅京西和丑阴守土不显细象"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-082",
+        "LR26-BOOK-SHAO-C082"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-082": "卯禄须玄凶及后议酉冲才骑伤，阳左阴右",
+        "LR26-BOOK-SHAO-C082": "酉合莲痔、子水险、正妻无子与火足伤、6×5=30寿段疑年"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-085",
+        "LR26-BOOK-SHAO-C085"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-085": "8位8年、6×9=54、8+6=14分数法",
+        "LR26-BOOK-SHAO-C085": "丑贵季第三子、虎视边郡兼武、古本辰龙大理"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-089",
+        "LR26-BOOK-SHAO-C089"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-089": "平人官鬼与有官赴任官星旺分目标",
+        "LR26-BOOK-SHAO-C089": "巳父蛇酉酒与巳午相连，交代阻及16月不补数法"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-094",
+        "LR26-BOOK-SHAO-C094"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-094": "财多问财经营妻资与功名分断、戌火库非金库",
+        "LR26-BOOK-SHAO-C094": "蛇非横/末婢仆耗与后责仆告首官费行动链、年龄无明式"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-096",
+        "LR26-BOOK-SHAO-C096"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-096": "贵长生周旋和贵空回避/前妻父/罢去分作用",
+        "LR26-BOOK-SHAO-C096": "宅辰勾六害久滞、年丑虎丁合马与巳午炉模禄雀职"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-100",
+        "LR26-BOOK-SHAO-C100"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-100": "同天地盘将时与昼夜贵改变亥勾/亥空，爱圅校语边界",
+        "LR26-BOOK-SHAO-C100": "午双克与亥争产辰后墓、9/4/5管段及迁墓后安"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-102",
+        "LR26-BOOK-SHAO-C102"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-102": "辰墓库须辨生囚，辰生于辰原疑句不改",
+        "LR26-BOOK-SHAO-C102": "财局费财、帘幕魁首、易卷闻说不知及鱼盐税务层次"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-109",
+        "LR26-BOOK-SHAO-C109"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-109": "丑母墓发用与沈注不发用不可乱断",
+        "LR26-BOOK-SHAO-C109": "寅妻贵起家绝、子亥退脱子女田耗及4×9=36/13年疑句"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-112",
+        "LR26-BOOK-SHAO-C112"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-112": "巳4亥7原误应申7亥4，不能只看和仍11",
+        "LR26-BOOK-SHAO-C112": "水边得银、再溪受刑、炉匠陈人后叙未给全部独立推链"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-120",
+        "LR26-BOOK-SHAO-C120"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-120": "分月多断的悉应与明确后叙粒度分开",
+        "LR26-BOOK-SHAO-C120": "日鬼归宅受生、午仓火鬼春归午及末寅/末午文本差"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-127",
+        "LR26-BOOK-SHAO-C127"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-127": "独足不飞散下五位酉兑少女合女取五女",
+        "LR26-BOOK-SHAO-C127": "行年卯震男胎被冲玄耗、酉肠血脱及6×8=48成名条件"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-132",
+        "LR26-BOOK-SHAO-C132"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-132": "春乙旺才可得全财，后财化鬼仍有时段",
+        "LR26-BOOK-SHAO-C132": "田龙破碎无价、末后返产众财、门前新墓方位与6/9月差"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-134",
+        "LR26-BOOK-SHAO-C134"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-134": "末卯全旺受亥生，前未/亥受下克故舍两象只营卯类",
+        "LR26-BOOK-SHAO-C134": "初26/27、中35半17与末16交50/56两套限数不同定位、舍余不明"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-136",
+        "LR26-BOOK-SHAO-C136"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-136": "财库先利后末鬼破、租改买仍争",
+        "LR26-BOOK-SHAO-C136": "巳4戌5合9与第7年取赎期差，保朴析作者层次"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-144",
+        "LR26-BOOK-SHAO-C144"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-144": "官/商年命职业不同使同课异断，生扶只保本",
+        "LR26-BOOK-SHAO-C144": "衣帛常赤双巳脱、后改色虎斑、亥丁十月皂色及旁仿无效"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-147",
+        "LR26-BOOK-SHAO-C147"
+      ],
+      "comparison_dimensions": [
+        "问事对象",
+        "必要位置与作用",
+        "推理环节",
+        "反馈范围"
+      ],
+      "shared_scope": "同一原事件原文，不增加支持样本",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-147": "先官次克再木局救病，后守土虚另限",
+        "LR26-BOOK-SHAO-C147": "30丙辰申生亥官、卯6职次与末未勾死败细坐标"
+      },
+      "disposition": "旧卡已覆盖限定原则，补卡保存未载具体子链；重叠核心复用旧卡，不当完全同义删除",
+      "canonical_family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-C1271",
+        "LR26-BOOK-SHAO-C137"
+      ],
+      "comparison_dimensions": [
+        "问事远行",
+        "酉独足六合",
+        "水陆结论",
+        "收益幅度/反馈"
+      ],
+      "shared_scope": "两例有相同水陆取象核心，未核同一事件",
+      "distinct_source_methods": {
+        "LR26-BOOK-SHAO-C1271": "原十倍预测无后叙、巳将卯时",
+        "LR26-BOOK-SHAO-C137": "原加倍及笼统果应、酉将亥时"
+      },
+      "disposition": "规范合并水陆比较核心，收益数与证据身份保留分支，不删除源卡、不并事件",
+      "canonical_family_ids": [
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    }
+  ],
+  "all_book_cards_reviewed": false,
+  "new_rule_family_maps": [
+    {
+      "rule_id": "LR26-BOOK-SHAO-C001",
+      "family_ids": [
+        "LF26-SHAO-WEATHER"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C004",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C005",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C006",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C007",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C008",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C009",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C010",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C011",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C012",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C013",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C014",
+      "family_ids": [
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C015",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C150",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C152",
+      "family_ids": [
+        "LF26-SHAO-VISIT-OBJECT"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C153",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C155",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C156",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C157",
+      "family_ids": [
+        "LF26-SHAO-VISIT-OBJECT"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C159",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C160",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C161",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C162",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C163",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C016",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C017",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C018",
+      "family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C019",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C020",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C021",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C022",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C023",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C024",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C025",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C026",
+      "family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C028",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C029",
+      "family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C030",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C031",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C032",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C033",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C034",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C035",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C036",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C037",
+      "family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C038",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C040",
+      "family_ids": [
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C041",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C042",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C043",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C044",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C045",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C047",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DYNAMIC"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C048",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C049",
+      "family_ids": [
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C050",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C051",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C052",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C053",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C054",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C056",
+      "family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C057",
+      "family_ids": [
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C059",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C060",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C061",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C062",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C063",
+      "family_ids": [
+        "LF26-SHAO-DOCUMENT-TIMING",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C064",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C065",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C066",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C067",
+      "family_ids": [
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C068",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C069",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C070",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C071",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C072",
+      "family_ids": [
+        "LF26-SHAO-SUBQUESTION",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C073",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C074",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C075",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C076",
+      "family_ids": [
+        "LF26-SHAO-SUBQUESTION",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C077",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C078",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C079",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C080",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C081",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C082",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C083",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C084",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C085",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C087",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C088",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C089",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C090",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C091",
+      "family_ids": [
+        "LF26-SHAO-SUBQUESTION",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C092",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C093",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C094",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C095",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C096",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C098",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C099",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C100",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C101",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C102",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C103",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C104",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C106",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C108",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C109",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C110",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C111",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C112",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C113",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C114",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C115",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C116",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C117",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C119",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C120",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C122",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C123",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C124",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C125",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C127",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C1271",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-CLASS-SYMBOL",
+        "LF26-SHAO-INDEPENDENT-FOOT-WATERLAND"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C128",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C129",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C130",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C131",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C132",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C133",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C134",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C135",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C136",
+      "family_ids": [
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C137",
+      "family_ids": [
+        "LF26-SHAO-DYNAMIC",
+        "LF26-SHAO-CLASS-SYMBOL",
+        "LF26-SHAO-INDEPENDENT-FOOT-WATERLAND"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C138",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-VOID-EXCEPTIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C140",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-SUBQUESTION"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C141",
+      "family_ids": [
+        "LF26-SHAO-VOID-EXCEPTIONS",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C1411",
+      "family_ids": [
+        "LF26-SHAO-TEXTUAL",
+        "LF26-SHAO-DOCUMENT-TIMING"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C142",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C143",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C144",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-CLASS-SYMBOL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C146",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-TEXTUAL"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C147",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C148",
+      "family_ids": [
+        "LF26-SHAO-HUMAN-HOUSE",
+        "LF26-SHAO-QUANTITY-OPERATIONS"
+      ]
+    }
+  ],
+  "remaining": "已审01–149（含118/127附及重复141）和11个优先案；未全书审完或同条件去重完成。",
+  "independent_validation_count": 0,
+  "existing_card_reuse_decisions": [
+    {
+      "case_id": "BK26-SHAO-046",
+      "rule_id": "LR26-BOOK-SHAO-046",
+      "reason": "功名否与妻家起业、晚段财禄及后注重禄，原卡已载初中末引生链，逐问复用无新增。"
+    },
+    {
+      "case_id": "BK26-SHAO-055",
+      "rule_id": "LR26-BOOK-SHAO-055",
+      "reason": "虚武禄、另择文象岳庙、读书行动与己酉/庚戌结果，旧卡已保转向条件；原名次无数法不强增。"
+    },
+    {
+      "case_id": "BK26-SHAO-058",
+      "rule_id": "LR26-BOOK-SHAO-058",
+      "reason": "官空正任不可得、禄合仍食禄、阻碍人物退后到任均在旧卡；无额外填冲空月法可增。"
+    },
+    {
+      "case_id": "BK26-SHAO-086",
+      "rule_id": "LR26-BOOK-SHAO-086",
+      "reason": "巳亥巳须辨壬财来绝、丙戊我克处绝、辛长生末绝，旧卡已涵三种明确比较条件。其他具体数断无明取法，已逐问处置不硬造。"
+    },
+    {
+      "case_id": "BK26-SHAO-097",
+      "rule_id": "LR26-BOOK-SHAO-097",
+      "reason": "旧097已保日贵到夜贵、申阴寅庙艮岳顾祖及东南方位，不再增同条件卡。"
+    },
+    {
+      "case_id": "BK26-SHAO-105",
+      "rule_id": "LR26-BOOK-SHAO-105",
+      "reason": "旧105已有初贵父福、中临官加丑父财；宅申戊生地为有服尊长原解释，保留父母类神口径。；旧卡已有初中与末命败分对象；中亥水末酉色阴常，酒色致病是原解释，不当现实因果认证。；旧105完整保亥4酉6取46及占身命医病丑将卯时本命上下限制；原后俱应笼统，不视精确独立寿验。"
+    },
+    {
+      "case_id": "BK26-SHAO-107",
+      "rule_id": "LR26-BOOK-SHAO-107",
+      "reason": "旧107已把西北幽阴转东南旺方与贫匠工作处境相连，不能见登三天便一律危。；原卡已保中午财末申生、宅寅子息空受辰鬼、午孙分对象，非子孙一起俱凶。"
+    },
+    {
+      "case_id": "BK26-SHAO-118",
+      "rule_id": "LR26-BOOK-SHAO-118",
+      "reason": "旧118已保下犯上、服侍官长处境及曲直木克己。；旧118逐季节明确贪旺未发/休将发/囚乖张/冬存心，原六月责遣只覆盖其一节点。"
+    },
+    {
+      "case_id": "BK26-SHAO-126",
+      "rule_id": "LR26-BOOK-SHAO-126",
+      "reason": "旧126已完整分夫宫辰龙空和妻宫未雀临申生，不能一空否夫妻全无子。；原卡已有初中父母克子、末丑冲未与坟墓；迁坟一子方案仅建议无实施后叙，不称存子已验。"
+    },
+    {
+      "case_id": "BK26-SHAO-139",
+      "rule_id": "LR26-BOOK-SHAO-139",
+      "reason": "原139已保财绝与长生对应两阶段、当场然只证已知背景。；丑上朱雀鬼惹动为原癸丑期解释，四年相隔保原，原卡已有后诉风险与索息分问。"
+    },
+    {
+      "case_id": "BK26-SHAO-145",
+      "rule_id": "LR26-BOOK-SHAO-145",
+      "reason": "旧145已完整保本命中未、旬末末首及化财原条件；没有这些不能迁同盘146。；归家治生为采纳建议后的结果，3千本金/12年/35万均后数字无明盘算法，不作未经干预对照。"
+    },
+    {
+      "case_id": "BK26-SHAO-149",
+      "rule_id": "LR26-BOOK-SHAO-149",
+      "reason": "旧149已保初难后成组合，不截单句必难。；旧卡已分三人争/丁丑成/两家丧，乙巳子与巳中丙戌二姓原句不清；无唯一丁丑择日算法。"
+    }
+  ],
+  "canonical_rules": [
+    {
+      "id": "LR26-SHAO-CANON-WATER-LAND",
+      "source_rule_ids": [
+        "LR26-BOOK-SHAO-C1271",
+        "LR26-BOOK-SHAO-C137"
+      ],
+      "merged_scope": "同条件水陆共同方法",
+      "preserved_differences": [
+        "十倍/加倍",
+        "无后叙/笼统果应",
+        "将时与事件身份"
+      ],
+      "source_cards_deleted": false
+    }
+  ],
+  "specific_corrections": [
+    "C049撤销四年店屋等于巳4取数的无据连接；寿72的明算法保持。",
+    "C032不补午生宅受害因果。"
+  ],
+  "supplement_core_trims": [
+    {
+      "rule_id": "LR26-BOOK-SHAO-C050",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C067",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C072",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C094",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C096",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C127",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C134",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C136",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    },
+    {
+      "rule_id": "LR26-BOOK-SHAO-C147",
+      "note": "删去与旧卡重复核心陈述，原子问仍直接链接旧卡，新子链保留"
+    }
+  ]
+}

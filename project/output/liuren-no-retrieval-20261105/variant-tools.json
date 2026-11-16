@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "release": "20261105-no-retrieval-01",
+  "checks": [
+    "scope-excludes-two-libraries-retains-books",
+    "denied-retrieve-dual-search",
+    "denied-scan-cases",
+    "denied-scan-experience",
+    "denied-read-案例项目库/probe.md",
+    "denied-read-经验日志/probe.md",
+    "historical-experience-alias-denied",
+    "historical-experience-alias-denied",
+    "original-book-read-retained",
+    "book-search-retained",
+    "old-retrieval-cache-read-denied"
+  ],
+  "modelCalls": 0
+}

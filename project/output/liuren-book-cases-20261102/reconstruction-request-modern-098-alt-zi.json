@@ -1,0 +1,81 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-MODERN-098-ALT-ZI",
+  "case_id": "BK26-MODERN-098",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "乙巳",
+      "month_branch": "寅",
+      "day": "己未",
+      "hour_branch": "申"
+    },
+    "month_general": "子"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 9831,
+      "line_end": 9834,
+      "quote": "占问：下午 3 点多突然右腹巨痛。没有基础病，身体健康。时间：2025-02-19 15：33 昼\n\n\n> 四柱：乙巳 戊寅 己未 壬申 亥将 正时起课 甲寅旬 子丑空卯年 辰命 男",
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "role": "原书断语"
+    },
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 9912,
+      "line_end": 9912,
+      "quote": "用子将，三传亥卯未，木曰曲直，干上木克土，木伸展受阻，己为肚，故说痉挛性疼痛。癸亥发用，传为乙卯，大海化作细流，故泌尿系统受阻。其他论断，见前。",
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "9834乙巳年",
+    "pillars.month_branch": "9834戊寅月",
+    "pillars.day": "9834己未日",
+    "pillars.hour_branch": "9834明申时",
+    "month_general": "9912骑牛另用子将明确，不沿用主亥将盘式"
+  },
+  "constraints": [
+    {
+      "field": "transmission_sequence",
+      "expected": "亥卯未",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9912,
+          "line_end": 9912,
+          "quote": "用子将，三传亥卯未，木曰曲直，干上木克土，木伸展受阻，己为肚，故说痉挛性疼痛。癸亥发用，传为乙卯，大海化作细流，故泌尿系统受阻。其他论断，见前。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "chart_types",
+      "expected": "曲直",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 9912,
+          "line_end": 9912,
+          "quote": "用子将，三传亥卯未，木曰曲直，干上木克土，木伸展受阻，己为肚，故说痉挛性疼痛。癸亥发用，传为乙卯，大海化作细流，故泌尿系统受阻。其他论断，见前。",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked",
+      "operator": "contains"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "主亥将盘保留，另子将未刊完整盘。标准候选仅衍生参照，不称原图复现。",
+  "notes": [
+    "未核设置全枚举，selected=null；不使用结石诊疗或找到狗的反馈择盘。",
+    "098同日申时与099酉时独立输入独立事件，不混别盘。",
+    "原干上木克土与明四柱/另子将须另核，不把五行推断猜成唯一干上支。"
+  ]
+}

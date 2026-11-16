@@ -1,0 +1,27 @@
+{
+  "release": "20261106-workflow-boundaries-08",
+  "parent": "20261105-subagent-adjudication-07",
+  "scope": "local-opencode",
+  "goals": [
+    "prepare to adjudicate without completing all conflicts twice",
+    "adjudicate focus issues and independently check mapping omissions against the full chart",
+    "verify facts/references/coverage/consistency and reuse the adjudicated reasons"
+  ],
+  "inputSchema": "liuren-adjudication-input-v2",
+  "outputSchema": "liuren-adjudication-output-v2",
+  "fileProtocolUnchanged": "liuren-adjudication-file-v1",
+  "retained": [
+    "14 required modules",
+    "16 domains",
+    "11 legacy coverage mappings",
+    "professional source rules",
+    "fixed E01-E22 basis",
+    "no-case-experience experiment",
+    "full report",
+    "model and high reasoning",
+    "three-book search"
+  ],
+  "registrationCorrection": "tools/liuren-local-read.py source unchanged; register current bytes instead of stale pointer receipt",
+  "predictiveValidationCount": 0,
+  "liveTimingTokenBenchmark": false
+}

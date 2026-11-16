@@ -1,0 +1,55 @@
+{
+  "schema": "staged-chart-resolutions-v1",
+  "warning": "AI只能填proposed；人工核对后改confirmed，另以--accept-confirmed明确启用。确认标记不等于外部真实性证明。",
+  "resolutions": {
+    "raw-qqwb20261019-0003": {
+      "status": "proposed",
+      "case_file_sha256": "84b6df2e30b4484253ed74cf0848b7122bf9ebd042e273d8efc40f8947f15cd5",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "癸巳",
+          "丙申",
+          "己亥"
+        ],
+        "source_month_general": "酉",
+        "source_chart_description": "盘图标注四柱：丙午 癸巳 丙申 己亥；月将：酉；课体：重审 逆间 极阴",
+        "other_input": "未注明"
+      }
+    },
+    "raw-qqwb20261019-0004": {
+      "status": "proposed",
+      "case_file_sha256": "e06f77feb8d1ce79b3685447855605717bed1d8514ea22729f22278f52fce0f4",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE",
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+        "IMAGE_LEDGER_TIME_MISMATCH",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "庚申",
+          "丙戌"
+        ],
+        "source_month_general": "午",
+        "source_chart_description": "盘图标注四柱：丙午 丙申 庚申 丙戌；月将：午；课体：重审 润下 斩关",
+        "other_input": "未注明"
+      }
+    }
+  }
+}

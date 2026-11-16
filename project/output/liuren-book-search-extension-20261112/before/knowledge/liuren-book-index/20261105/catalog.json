@@ -1,0 +1,2457 @@
+{
+  "schema": "liuren-three-books-v1",
+  "version": "20261105-three-book-search-01",
+  "books": [
+    {
+      "id": "RG",
+      "title": "壬归",
+      "aliases": [
+        "壬归",
+        "任规"
+      ],
+      "path": "书籍库/经典古籍/佚名/壬归.txt",
+      "encoding": "utf-8-sig",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "line_count": 971,
+      "source_identity": "《壬归》本地文本；作者身份以原载为准；原书论法、书例分别识别。",
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "title": "卷之一 提纲例约",
+          "anchor": "卷之一 提纲例约",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 6,
+          "level": 2,
+          "title": "观四课之加临第一",
+          "anchor": "观四课之加临第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 90,
+          "level": 2,
+          "title": "察用神之生克第二",
+          "anchor": "察用神之生克第二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 156,
+          "level": 2,
+          "title": "明三传始终第三",
+          "anchor": "明三传始终第三",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 244,
+          "level": 2,
+          "title": "定贵神吉凶第四",
+          "anchor": "定贵神吉凶第四",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 254,
+          "level": 2,
+          "title": "判八杀吉凶第五",
+          "anchor": "判八杀吉凶第五",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 272,
+          "level": 1,
+          "title": "卷之二 壬占易简例约",
+          "anchor": "卷之二 壬占易简例约",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 275,
+          "level": 2,
+          "title": "理气象类说第一",
+          "anchor": "理气象类说第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 279,
+          "level": 2,
+          "title": "占例第二",
+          "anchor": "占例第二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 281,
+          "level": 3,
+          "title": "占例一：求财",
+          "anchor": "占例一：求财",
+          "kind": "original-treatise-with-examples"
+        },
+        {
+          "line": 365,
+          "level": 3,
+          "title": "占例二：琐占约云",
+          "anchor": "占例二：琐占约云",
+          "kind": "original-treatise-with-examples"
+        },
+        {
+          "line": 391,
+          "level": 3,
+          "title": "占例三：扣门占",
+          "anchor": "占例三：扣门占",
+          "kind": "original-treatise-with-examples"
+        },
+        {
+          "line": 400,
+          "level": 1,
+          "title": "卷之三 谋望门",
+          "anchor": "卷之三 谋望门",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 402,
+          "level": 2,
+          "title": "干贵求财第一",
+          "anchor": "干贵求财第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 407,
+          "level": 2,
+          "title": "成象第二",
+          "anchor": "成象第二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 417,
+          "level": 2,
+          "title": "通象第三",
+          "anchor": "通象第三",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 441,
+          "level": 2,
+          "title": "推类第四",
+          "anchor": "推类第四",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 449,
+          "level": 2,
+          "title": "引伸第五",
+          "anchor": "引伸第五",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 470,
+          "level": 1,
+          "title": "卷之四 婚姻门",
+          "anchor": "卷之四 婚姻门",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 472,
+          "level": 2,
+          "title": "例约第一",
+          "anchor": "例约第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 475,
+          "level": 2,
+          "title": "干支正象第二",
+          "anchor": "干支正象第二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 493,
+          "level": 2,
+          "title": "用传变象第三",
+          "anchor": "用传变象第三",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 503,
+          "level": 2,
+          "title": "类神定象第四",
+          "anchor": "类神定象第四",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 535,
+          "level": 2,
+          "title": "品貌根源第五",
+          "anchor": "品貌根源第五",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 545,
+          "level": 2,
+          "title": "命年关系第六",
+          "anchor": "命年关系第六",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 551,
+          "level": 2,
+          "title": "成改迟速始终琐象第七",
+          "anchor": "成改迟速始终琐象第七",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 573,
+          "level": 2,
+          "title": "古今占验第八",
+          "anchor": "古今占验第八",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 577,
+          "level": 3,
+          "title": "占验一、",
+          "anchor": "占验一、",
+          "kind": "book-example"
+        },
+        {
+          "line": 595,
+          "level": 3,
+          "title": "占验二、",
+          "anchor": "占验二、",
+          "kind": "book-example"
+        },
+        {
+          "line": 611,
+          "level": 3,
+          "title": "占验三、",
+          "anchor": "占验三、",
+          "kind": "book-example"
+        },
+        {
+          "line": 625,
+          "level": 3,
+          "title": "占验四、",
+          "anchor": "占验四、",
+          "kind": "book-example"
+        },
+        {
+          "line": 639,
+          "level": 3,
+          "title": "占验五、",
+          "anchor": "占验五、",
+          "kind": "book-example"
+        },
+        {
+          "line": 655,
+          "level": 1,
+          "title": "卷之五 农事门",
+          "anchor": "卷之五 农事门",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 657,
+          "level": 2,
+          "title": "农桑例约第一",
+          "anchor": "农桑例约第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 660,
+          "level": 2,
+          "title": "农桑定象第二",
+          "anchor": "农桑定象第二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 668,
+          "level": 2,
+          "title": "类神定象第三",
+          "anchor": "类神定象第三",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 686,
+          "level": 2,
+          "title": "象类约略第四",
+          "anchor": "象类约略第四",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 700,
+          "level": 2,
+          "title": "蚕桑象类第五",
+          "anchor": "蚕桑象类第五",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 728,
+          "level": 2,
+          "title": "加临定象第六",
+          "anchor": "加临定象第六",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 736,
+          "level": 2,
+          "title": "吉凶琐象第七",
+          "anchor": "吉凶琐象第七",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 752,
+          "level": 1,
+          "title": "卷之六 出行门",
+          "anchor": "卷之六 出行门",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 754,
+          "level": 2,
+          "title": "十三占例约第一",
+          "anchor": "十三占例约第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 757,
+          "level": 2,
+          "title": "类象第二",
+          "anchor": "类象第二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 775,
+          "level": 2,
+          "title": "占法动静第三",
+          "anchor": "占法动静第三",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 789,
+          "level": 2,
+          "title": "迟速占法第四",
+          "anchor": "迟速占法第四",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 799,
+          "level": 2,
+          "title": "吉凶占法第五",
+          "anchor": "吉凶占法第五",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 811,
+          "level": 2,
+          "title": "水陆占法第六",
+          "anchor": "水陆占法第六",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 827,
+          "level": 2,
+          "title": "阴晴风雨占法第七",
+          "anchor": "阴晴风雨占法第七",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 837,
+          "level": 2,
+          "title": "伴侣占法第八",
+          "anchor": "伴侣占法第八",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 845,
+          "level": 2,
+          "title": "赀本行李占法第九",
+          "anchor": "赀本行李占法第九",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 855,
+          "level": 2,
+          "title": "投宿占法第十",
+          "anchor": "投宿占法第十",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 865,
+          "level": 2,
+          "title": "启行占法第十一",
+          "anchor": "启行占法第十一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 885,
+          "level": 2,
+          "title": "见闻有疑占法第十二",
+          "anchor": "见闻有疑占法第十二",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 905,
+          "level": 2,
+          "title": "期会良法第十三",
+          "anchor": "期会良法第十三",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 915,
+          "level": 2,
+          "title": "家内吉凶占法第十四",
+          "anchor": "家内吉凶占法第十四",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 925,
+          "level": 1,
+          "title": "卷之七 三才门",
+          "anchor": "卷之七 三才门",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 927,
+          "level": 2,
+          "title": "三才易简例约第一",
+          "anchor": "三才易简例约第一",
+          "kind": "original-treatise"
+        },
+        {
+          "line": 939,
+          "level": 2,
+          "title": "类神三传变通法引证第二",
+          "anchor": "类神三传变通法引证第二",
+          "kind": "original-treatise"
+        }
+      ],
+      "checked_locators": [
+        {
+          "id": "E08",
+          "start": 106,
+          "end": 128,
+          "topic": "作用对象、五气、所临之地与鬼受制",
+          "source_identity": "《壬归》本地文本，作者依目录为佚名",
+          "quote_sha256": "989b716b0965a4babae23da370a5eef9758946a9d936caa521ef02308e42e7e0",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E09",
+          "start": 138,
+          "end": 146,
+          "topic": "神将关系、夹克夹生与末制凶用",
+          "source_identity": "《壬归》本地文本",
+          "quote_sha256": "7f1fef7624105a4dd6b8e24c8afa60aea72c351a947cd97f89bcf1318876ec12",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E10",
+          "start": 218,
+          "end": 230,
+          "topic": "墓冲、三传始终与制救",
+          "source_identity": "《壬归》本地文本",
+          "quote_sha256": "817070603cec8f36c7ce58c99a59a54ff7af5d531fb0e8550f10c873662c785c",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E11",
+          "start": 277,
+          "end": 277,
+          "topic": "天五气、地十二气及身类参照",
+          "source_identity": "《壬归》本地文本",
+          "quote_sha256": "3c8425534d6b9e6735f118ec4b12ef22ebe03906c60a8ff22554e739963a14e3",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E12",
+          "start": 285,
+          "end": 295,
+          "topic": "类将类神、内外战、十二气、阴神",
+          "source_identity": "《壬归》求财章",
+          "quote_sha256": "23deda46e297dc81c37e08ecc53cf81ad93987780e695c8863106b7a2e387c2a",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E13",
+          "start": 299,
+          "end": 323,
+          "topic": "身财比较、身强定义、取与受伤",
+          "source_identity": "《壬归》求财章",
+          "quote_sha256": "38211ddc7e1c4ef01d5b4aec274ddbd3e42baea0063e77a00edddf6bb8e27acf",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E14",
+          "start": 405,
+          "end": 413,
+          "topic": "彼我、生助者自身受制",
+          "source_identity": "《壬归》干人章",
+          "quote_sha256": "605b3410334b2df4a64c903eea38a6e5b1331cc3223adb212ea5f8e2f17f82a7",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E15",
+          "start": 759,
+          "end": 765,
+          "topic": "制鬼须有力、旺鬼禁日及仕宦例外",
+          "source_identity": "《壬归》出行章",
+          "quote_sha256": "c2c4bec278a80299d86a8f155cea6c1365194acf332438700ac1c9de8a5da58c",
+          "review_scope": "existing-selected-passage-only"
+        }
+      ],
+      "limitations": [
+        "标题锚点及连续覆盖经过机械校验，不能代替逐条语义审读。",
+        "原书中的出生推命或运限引文不作为活动占事规则；不能删改原文来制造一致。"
+      ]
+    },
+    {
+      "id": "LF",
+      "title": "大六壬理法易简（文件名：理法简易）",
+      "aliases": [
+        "理法简易",
+        "理法易简",
+        "北海闲人",
+        "北海仙人"
+      ],
+      "path": "书籍库/北海闲人/理法简易.txt",
+      "encoding": "utf-8-sig",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "line_count": 6931,
+      "source_identity": "北海闲人《大六壬理法易简》本地文本；原书引文与北海解说交错，需逐段辨别。",
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "title": "大六壬理法易简",
+          "anchor": "大六壬理法易简",
+          "kind": "frontmatter"
+        },
+        {
+          "line": 5,
+          "level": 2,
+          "title": "自\t序",
+          "anchor": "自\t序",
+          "kind": "frontmatter"
+        },
+        {
+          "line": 21,
+          "level": 1,
+          "title": "卷之一\t六壬学法概述",
+          "anchor": "卷之一\t六壬学法概述",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "title": "大六壬的学习步骤第一",
+          "anchor": "大六壬的学习步骤第一",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "title": "迅捷起课的方法第二",
+          "anchor": "迅捷起课的方法第二",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 357,
+          "level": 2,
+          "title": "“己知因” 简释第三",
+          "anchor": "“己知因” 简释第三",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 381,
+          "level": 2,
+          "title": "壬书的选读第四",
+          "anchor": "壬书的选读第四",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 475,
+          "level": 1,
+          "title": "卷之二\t大六壬判断总纲",
+          "anchor": "卷之二\t大六壬判断总纲",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 477,
+          "level": 2,
+          "title": "一 六壬判断理法概论",
+          "anchor": "一 六壬判断理法概论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 537,
+          "level": 2,
+          "title": "二 大六壬一揽登堂赋",
+          "anchor": "二 大六壬一揽登堂赋",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1045,
+          "level": 1,
+          "title": "卷之三 类象的择取",
+          "anchor": "卷之三 类象的择取",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1047,
+          "level": 2,
+          "title": "一 类象总论",
+          "anchor": "一 类象总论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1261,
+          "level": 2,
+          "title": "二 干支的类象定位",
+          "anchor": "二 干支的类象定位",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1381,
+          "level": 2,
+          "title": "三 天将类象",
+          "anchor": "三 天将类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1439,
+          "level": 2,
+          "title": "四 月将类象",
+          "anchor": "四 月将类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1763,
+          "level": 2,
+          "title": "五 课体类象。",
+          "anchor": "五 课体类象。",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1847,
+          "level": 2,
+          "title": "六 其他类象",
+          "anchor": "六 其他类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 1923,
+          "level": 2,
+          "title": "七 《大六壬说约》中的类象",
+          "anchor": "七 《大六壬说约》中的类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2125,
+          "level": 1,
+          "title": "卷之四 类象的分析",
+          "anchor": "卷之四 类象的分析",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2127,
+          "level": 2,
+          "title": "一 类象分析的方法",
+          "anchor": "一 类象分析的方法",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2583,
+          "level": 1,
+          "title": "卷之五 理气",
+          "anchor": "卷之五 理气",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2585,
+          "level": 2,
+          "title": "一 六壬理气概论",
+          "anchor": "一 六壬理气概论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2627,
+          "level": 2,
+          "title": "二 课体与占类的类象化",
+          "anchor": "二 课体与占类的类象化",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2703,
+          "level": 2,
+          "title": "三 通类与分类",
+          "anchor": "三 通类与分类",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2759,
+          "level": 2,
+          "title": "四 天官象意的生活化",
+          "anchor": "四 天官象意的生活化",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2801,
+          "level": 2,
+          "title": "五 六亲象意的生活化",
+          "anchor": "五 六亲象意的生活化",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2887,
+          "level": 2,
+          "title": "六 关于 “不知道取什么类神？” 的问题",
+          "anchor": "六 关于 “不知道取什么类神？” 的问题",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 2955,
+          "level": 2,
+          "title": "七 气势与课体",
+          "anchor": "七 气势与课体",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3033,
+          "level": 2,
+          "title": "八 气势与天将",
+          "anchor": "八 气势与天将",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3093,
+          "level": 2,
+          "title": "九 气势与三传",
+          "anchor": "九 气势与三传三传的气势，是壬占中“气”的重要内容。",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3143,
+          "level": 1,
+          "title": "卷之六 《壬归》“占例” 解证",
+          "anchor": "卷之六 《壬归》“占例” 解证",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3161,
+          "level": 2,
+          "title": "求财占第一",
+          "anchor": "求财占第一",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3579,
+          "level": 2,
+          "title": "扣门占第二",
+          "anchor": "扣门占第二",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3601,
+          "level": 2,
+          "title": "干谒占第三",
+          "anchor": "干谒占第三",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3649,
+          "level": 3,
+          "title": "第一节 谋望总论",
+          "anchor": "第一节 谋望总论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3671,
+          "level": 3,
+          "title": "第二节 干贵求财中的干支定位",
+          "anchor": "第二节 干贵求财中的干支定位",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3707,
+          "level": 3,
+          "title": "第三节 干贵求财中的三传类象",
+          "anchor": "第三节 干贵求财中的三传类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3783,
+          "level": 3,
+          "title": "第四节 干贵求财中的年命类象",
+          "anchor": "第四节 干贵求财中的年命类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3807,
+          "level": 3,
+          "title": "第五节 干贵求财中得失判断",
+          "anchor": "第五节 干贵求财中得失判断",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3979,
+          "level": 2,
+          "title": "婚姻占第四",
+          "anchor": "婚姻占第四",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 3981,
+          "level": 3,
+          "title": "第一节婚姻占的要素分析",
+          "anchor": "第一节婚姻占的要素分析",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4003,
+          "level": 3,
+          "title": "第二节 婚姻占干支定位",
+          "anchor": "第二节 婚姻占干支定位",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4053,
+          "level": 3,
+          "title": "第三节 婚姻占三传的类象",
+          "anchor": "第三节 婚姻占三传的类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4111,
+          "level": 3,
+          "title": "第四节 婚姻占类神定象",
+          "anchor": "第四节 婚姻占类神定象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4189,
+          "level": 3,
+          "title": "第五节 婚姻占占相貌的方法",
+          "anchor": "第五节 婚姻占占相貌的方法",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4255,
+          "level": 3,
+          "title": "第六节 婚姻占命年的类象",
+          "anchor": "第六节 婚姻占命年的类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4271,
+          "level": 3,
+          "title": "第七节 婚姻占成否、迟速及其他琐象",
+          "anchor": "第七节 婚姻占成否、迟速及其他琐象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4329,
+          "level": 3,
+          "title": "第八节 古今婚姻占验举例",
+          "anchor": "第八节 古今婚姻占验举例",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4537,
+          "level": 2,
+          "title": "农桑占第五",
+          "anchor": "农桑占第五",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4539,
+          "level": 3,
+          "title": "农桑例约",
+          "anchor": "农桑例约",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4677,
+          "level": 3,
+          "title": "蚕桑象类",
+          "anchor": "蚕桑象类",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4723,
+          "level": 3,
+          "title": "加临定象",
+          "anchor": "加临定象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4739,
+          "level": 3,
+          "title": "吉凶琐象",
+          "anchor": "吉凶琐象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4773,
+          "level": 2,
+          "title": "出行占第六",
+          "anchor": "出行占第六",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4873,
+          "level": 3,
+          "title": "十三占例约第一",
+          "anchor": "十三占例约第一",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4889,
+          "level": 3,
+          "title": "类象第二",
+          "anchor": "类象第二",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4961,
+          "level": 3,
+          "title": "动静占法第三",
+          "anchor": "动静占法第三",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 4997,
+          "level": 3,
+          "title": "迟速占法第四",
+          "anchor": "迟速占法第四",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5019,
+          "level": 3,
+          "title": "吉凶占法第五",
+          "anchor": "吉凶占法第五",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5041,
+          "level": 3,
+          "title": "水陆占法第六",
+          "anchor": "水陆占法第六",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5075,
+          "level": 3,
+          "title": "阴晴风雨占法第七",
+          "anchor": "这一小节以卯辰相害来寻舟车坏在哪个部位。阴晴风雨占法第七",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5087,
+          "level": 3,
+          "title": "伴侣占法第八",
+          "anchor": "伴侣占法第八",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5101,
+          "level": 3,
+          "title": "赀本行李占法第九",
+          "anchor": "赀本行李占法第九",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5121,
+          "level": 3,
+          "title": "投宿占法第十",
+          "anchor": "出行没钱不可能舒服。投宿占法第十",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5139,
+          "level": 3,
+          "title": "启行占法第十一",
+          "anchor": "启行占法第十一",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5227,
+          "level": 3,
+          "title": "期会良法第十三",
+          "anchor": "期会良法第十三",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5265,
+          "level": 1,
+          "title": "卷之八 学壬杂记",
+          "anchor": "卷之八 学壬杂记",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5269,
+          "level": 2,
+          "title": "一 术数共同基础",
+          "anchor": "一 术数共同基础",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5313,
+          "level": 2,
+          "title": "二 铸印课",
+          "anchor": "二 铸印课",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5467,
+          "level": 2,
+          "title": "三 空亡详释",
+          "anchor": "三 空亡详释",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5611,
+          "level": 2,
+          "title": "四 干之寄宫空亡仍以空论",
+          "anchor": "四 干之寄宫空亡仍以空论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5695,
+          "level": 2,
+          "title": "五 发用杂论",
+          "anchor": "五 发用杂论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5713,
+          "level": 2,
+          "title": "六 脱空、脱盗",
+          "anchor": "六 脱空、脱盗",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5721,
+          "level": 2,
+          "title": "七 破败",
+          "anchor": "七 破败",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5775,
+          "level": 2,
+          "title": "八 以 “理” 观课余论",
+          "anchor": "八 以 “理” 观课余论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 5801,
+          "level": 2,
+          "title": "九 《大六壬指南·指掌赋》中的类象",
+          "anchor": "九 《大六壬指南·指掌赋》中的类象",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6167,
+          "level": 2,
+          "title": "十 神煞综论",
+          "anchor": "十 神煞综论",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6287,
+          "level": 2,
+          "title": "十一 《大六壬会篡指南》出行章简释",
+          "anchor": "十一 《大六壬会篡指南》出行章简释",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6395,
+          "level": 2,
+          "title": "十二  《大六壬指南》中 “趋谒”  歌诀简释",
+          "anchor": "十二  《大六壬指南》中 “趋谒”  歌诀简释",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6447,
+          "level": 2,
+          "title": "十三《大六壬会篡指南》贼盗章简释",
+          "anchor": "十三《大六壬会篡指南》贼盗章简释",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6599,
+          "level": 2,
+          "title": "十四 关于旺禄临身",
+          "anchor": "十四 关于旺禄临身",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6685,
+          "level": 2,
+          "title": "十五 “四课看现状，三传看发展” ？",
+          "anchor": "十五 “四课看现状，三传看发展” ？",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6755,
+          "level": 2,
+          "title": "十六 六壬源起·用软件起课·练手",
+          "anchor": "十六 六壬源起·用软件起课·练手",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6789,
+          "level": 2,
+          "title": "十七《指掌赋》对顺逆三合的论述",
+          "anchor": "十七《指掌赋》对顺逆三合的论述",
+          "kind": "commentary-with-quotations"
+        },
+        {
+          "line": 6893,
+          "level": 2,
+          "title": "十八 年命的用法",
+          "anchor": "十八 年命的用法",
+          "kind": "commentary-with-quotations"
+        }
+      ],
+      "checked_locators": [
+        {
+          "id": "E01",
+          "start": 2125,
+          "end": 2150,
+          "topic": "察天、察地、看人",
+          "source_identity": "北海《理法简易》正文，内引《壬归》另辨",
+          "quote_sha256": "52316d7792f425c96e9a1b1a0d7ca05d96d4c6360336cb2fc59e76ac658e95eb",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E02",
+          "start": 705,
+          "end": 718,
+          "topic": "关系、十二长生及参照对象",
+          "source_identity": "北海《理法简易》正文",
+          "quote_sha256": "e2bcec07983a250c0d3c8bf19584abc2a5604b75aafcc9385da4916b3ac5d9ca",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E03",
+          "start": 779,
+          "end": 820,
+          "topic": "空、墓、合、生扶与贪生贪合",
+          "source_identity": "北海《理法简易》正文",
+          "quote_sha256": "c4db2b07717551a870a6ddc09e2dc94d911b8d49a75d5a6cf40f0ce3a0754dea",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E04",
+          "start": 821,
+          "end": 850,
+          "topic": "衰旺、生克并存、刑冲与令星",
+          "source_identity": "北海《理法简易》正文",
+          "quote_sha256": "7ad1655ad44ad4b768616535be83219a2cb5db8644b872480362571fd0b9f72d",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E05",
+          "start": 865,
+          "end": 898,
+          "topic": "制鬼位置、受制与生鬼",
+          "source_identity": "北海《理法简易》正文，内引《毕法》",
+          "quote_sha256": "affb78ccd85f070d501f8cfed6c655d86fd13f254b05154090768e3b7def3c4d",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E06",
+          "start": 905,
+          "end": 918,
+          "topic": "递生、扶鬼与财旺身弱",
+          "source_identity": "北海《理法简易》正文",
+          "quote_sha256": "92f0f3f86fe937fa78a64d1750d65e0d45c2e207a12e2fd85410c921e1894c76",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E07",
+          "start": 4901,
+          "end": 4926,
+          "topic": "出行占：鬼禁日、凶类并聚与仕庶",
+          "source_identity": "北海正文与所引《壬归》交错，须逐段辨别",
+          "quote_sha256": "ba7f4d39ac5c2edcc9b4cc60e8b8c8f6668fd713e5f36a4ae01513628a6821c5",
+          "review_scope": "existing-selected-passage-only"
+        }
+      ],
+      "limitations": [
+        "标题锚点及连续覆盖经过机械校验，不能代替逐条语义审读。",
+        "原书中的出生推命或运限引文不作为活动占事规则；不能删改原文来制造一致。",
+        "原文从卷之六跳到卷之八；不补造卷之七。"
+      ]
+    },
+    {
+      "id": "TY",
+      "title": "献给六壬天一群的六壬笔记-2023年",
+      "aliases": [
+        "天一群笔记",
+        "六壬笔记",
+        "献给六壬天一群的六壬笔记"
+      ],
+      "path": "书籍库/现代著作/献给六壬天一群的六壬笔记-2023年.txt",
+      "encoding": "utf-8-sig",
+      "sha256": "ad936a9da5bd32a803e911b341c1c350ead8ac7f0be2eaa28a3f45722541dc4d",
+      "line_count": 5423,
+      "source_identity": "喜爱六壬的水《六壬笔记》；作者论法、书例断语／反馈及附录《一字诀玉连环》引文、水论分别识别。",
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "title": "六壬笔记",
+          "anchor": "六壬笔记",
+          "kind": "frontmatter"
+        },
+        {
+          "line": 3,
+          "level": 2,
+          "title": "写在前面",
+          "anchor": "写在前面",
+          "kind": "frontmatter"
+        },
+        {
+          "line": 33,
+          "level": 1,
+          "title": "六壬的基础结构",
+          "anchor": "六壬的基础结构",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "title": "一.地支信息",
+          "anchor": "一.地支信息",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "title": "二.四课",
+          "anchor": "二.四课",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 113,
+          "level": 2,
+          "title": "三.三传",
+          "anchor": "三.三传",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 129,
+          "level": 2,
+          "title": "四.四纲",
+          "anchor": "四.四纲",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 165,
+          "level": 2,
+          "title": "五.几种常用的格局",
+          "anchor": "五.几种常用的格局",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 189,
+          "level": 2,
+          "title": "六.五气旺衰",
+          "anchor": "六.五气旺衰",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 211,
+          "level": 2,
+          "title": "七.天干",
+          "anchor": "七.天干",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 249,
+          "level": 2,
+          "title": "八.神煞",
+          "anchor": "八.神煞",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 325,
+          "level": 2,
+          "title": "九.天罡",
+          "anchor": "九.天罡",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 347,
+          "level": 2,
+          "title": "十.支神",
+          "anchor": "十.支神",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 381,
+          "level": 2,
+          "title": "十一.十二长生气",
+          "anchor": "十一.十二长生气",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 419,
+          "level": 2,
+          "title": "十二.六亲关系",
+          "anchor": "十二.六亲关系",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 455,
+          "level": 2,
+          "title": "十三.刑冲破害",
+          "anchor": "十三.刑冲破害",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 467,
+          "level": 2,
+          "title": "十四.八门，翻宫，神将互换，合宫",
+          "anchor": "十四.八门，翻宫，神将互换，合宫",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 505,
+          "level": 2,
+          "title": "十五.课体",
+          "anchor": "十五.课体",
+          "kind": "modern-author-method"
+        },
+        {
+          "line": 707,
+          "level": 1,
+          "title": "来意占",
+          "anchor": "来意占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 709,
+          "level": 2,
+          "title": "1.背景：来意（壬通天提供案例）",
+          "anchor": "1.背景：来意（壬通天提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 727,
+          "level": 2,
+          "title": "2.背景：来意（水提供的案例）",
+          "anchor": "2.背景：来意（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 753,
+          "level": 2,
+          "title": "3.背景：来意（水提供的案例）",
+          "anchor": "3.背景：来意（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 777,
+          "level": 2,
+          "title": "4.背景：来意（预言渣提供的案例）",
+          "anchor": "4.背景：来意（预言渣提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 807,
+          "level": 2,
+          "title": "5.背景：问户主为何卖房。我今天看房，然后都是新的本来要作婚房，突然卖了（东雪提供的",
+          "anchor": "5.背景：问户主为何卖房。我今天看房，然后都是新的本来要作婚房，突然卖了（东雪提供的",
+          "kind": "book-example"
+        },
+        {
+          "line": 831,
+          "level": 2,
+          "title": "6.  背景：同事女命辛酉，此课占问何事？（子白提供）",
+          "anchor": "6.  背景：同事女命辛酉，此课占问何事？（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 869,
+          "level": 2,
+          "title": "7.  背景：己酉女问今天上午有客来访，请问何人何事？",
+          "anchor": "7.  背景：己酉女问今天上午有客来访，请问何人何事？",
+          "kind": "book-example"
+        },
+        {
+          "line": 905,
+          "level": 2,
+          "title": "8.  背景：来意占。（水提供案例）",
+          "anchor": "8.  背景：来意占。（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1047,
+          "level": 1,
+          "title": "考试占",
+          "anchor": "考试占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 1049,
+          "level": 2,
+          "title": "1.背景：一女来问考试可得多少分，满分七百五十分（胜晏理提供）",
+          "anchor": "1.背景：一女来问考试可得多少分，满分七百五十分（胜晏理提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1073,
+          "level": 2,
+          "title": "2.背景：01 年女问考军队文职能考上吗（飞星提供）",
+          "anchor": "2.背景：01 年女问考军队文职能考上吗（飞星提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1095,
+          "level": 2,
+          "title": "3.背景：06 年女问这次月考能进步吗？（飞星提供）",
+          "anchor": "3.背景：06 年女问这次月考能进步吗？（飞星提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1117,
+          "level": 2,
+          "title": "4.背景：占保研能上吗，不知年命（飞星提供）",
+          "anchor": "4.背景：占保研能上吗，不知年命（飞星提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1139,
+          "level": 2,
+          "title": "5.背景：事前预测面试华夏航空  问是否能面试成功？女命庚辰（子白提供）",
+          "anchor": "5.背景：事前预测面试华夏航空  问是否能面试成功？女命庚辰（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1171,
+          "level": 2,
+          "title": "6.背景：在 boos 直聘上找工作，正在跟一个公司谈。    问能不能收到录取？（子白提供）",
+          "anchor": "6.背景：在 boos 直聘上找工作，正在跟一个公司谈。    问能不能收到录取？（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1195,
+          "level": 2,
+          "title": "7.背景：这人考的如何？（水提供案例）",
+          "anchor": "7.背景：这人考的如何？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1217,
+          "level": 2,
+          "title": "8.背景：问教资考试。（煦风行云提供案例）",
+          "anchor": "8.背景：问教资考试。（煦风行云提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1241,
+          "level": 2,
+          "title": "9.背景：问教资考试。（煦风行云提供案例）",
+          "anchor": "9.背景：问教资考试。（煦风行云提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1263,
+          "level": 2,
+          "title": "10.背景：考研是否能考上？（煦风行云提供案例）",
+          "anchor": "10.背景：考研是否能考上？（煦风行云提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1285,
+          "level": 2,
+          "title": "11. 背景:明日女儿中考，能否考上理想高中。（子白提供）",
+          "anchor": "11. 背景:明日女儿中考，能否考上理想高中。（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1309,
+          "level": 2,
+          "title": "12.背景：测试联考的分数。（子白提供）",
+          "anchor": "12.背景：测试联考的分数。（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1333,
+          "level": 2,
+          "title": "13. 背景：面试班主任                  （立惟提供案例）",
+          "anchor": "13. 背景：面试班主任                  （立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1397,
+          "level": 2,
+          "title": "16.背景：2001 女问今年职业医师资格证能否考下来？（水提供案例）",
+          "anchor": "16.背景：2001 女问今年职业医师资格证能否考下来？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1423,
+          "level": 2,
+          "title": "17.背景：考后预测英语 4 级能不能过？",
+          "anchor": "17.背景：考后预测英语 4 级能不能过？",
+          "kind": "book-example"
+        },
+        {
+          "line": 1447,
+          "level": 2,
+          "title": "18.背景：考后预测英语 6 级能不能过？",
+          "anchor": "18.背景：考后预测英语 6 级能不能过？",
+          "kind": "book-example"
+        },
+        {
+          "line": 1471,
+          "level": 2,
+          "title": "19.背景：电工考试能不能过？学院考试，非证书考试。",
+          "anchor": "19.背景：电工考试能不能过？学院考试，非证书考试。",
+          "kind": "book-example"
+        },
+        {
+          "line": 1493,
+          "level": 2,
+          "title": "20. 背景：主：男本命乙酉，行年甲申背景：问今年高考能否考上本科（二本以上）分数上线",
+          "anchor": "20. 背景：主：男本命乙酉，行年甲申背景：问今年高考能否考上本科（二本以上）分数上线",
+          "kind": "book-example"
+        },
+        {
+          "line": 1533,
+          "level": 1,
+          "title": "交易占",
+          "anchor": "交易占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 1535,
+          "level": 2,
+          "title": "1.背景:一人问工资何时发（子白提供）",
+          "anchor": "1.背景:一人问工资何时发（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1555,
+          "level": 2,
+          "title": "2.背景：何时进财？进财多少？谁给的？（子白提供案例）",
+          "anchor": "2.背景：何时进财？进财多少？谁给的？（子白提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1579,
+          "level": 2,
+          "title": "3.  背景：来投资一个项目，有没有财运？(立惟提供案例）",
+          "anchor": "3.  背景：来投资一个项目，有没有财运？(立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1601,
+          "level": 2,
+          "title": "4.  背景：能借到钱吗？（子白提供案例）",
+          "anchor": "4.  背景：能借到钱吗？（子白提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1625,
+          "level": 2,
+          "title": "5.  背景：商业保险理赔能不能办下来？求测人寅命        （立惟提供案例）",
+          "anchor": "5.  背景：商业保险理赔能不能办下来？求测人寅命        （立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1649,
+          "level": 2,
+          "title": "6.  背景：我是学生，一人借我钱，看此人借我多少，我是否借给他了。（子白提供案例）",
+          "anchor": "6.  背景：我是学生，一人借我钱，看此人借我多少，我是否借给他了。（子白提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1669,
+          "level": 2,
+          "title": "7.  背景：我想问我叔借点生活费，看他借不借。        （子白提供案例）",
+          "anchor": "7.  背景：我想问我叔借点生活费，看他借不借。        （子白提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 1694,
+          "level": 2,
+          "title": "8.背景：正在投标，第一轮第一。现在进行第二轮。  能不能拿下？  风电设备换油项目 200 万",
+          "anchor": "8.背景：正在投标，第一轮第一。现在进行第二轮。  能不能拿下？  风电设备换油项目 200 万",
+          "kind": "book-example"
+        },
+        {
+          "line": 1724,
+          "level": 2,
+          "title": "9.背景：客户遇到个手机售后投诉，现在处理方案是客户扣钱，店长降级。最终结果还没下",
+          "anchor": "9.背景：客户遇到个手机售后投诉，现在处理方案是客户扣钱，店长降级。最终结果还没下",
+          "kind": "book-example"
+        },
+        {
+          "line": 1752,
+          "level": 2,
+          "title": "10.背景：与美容店谈业务合作能合作成功吗？与一美容店推销产品，每套价值 1 万元左右，",
+          "anchor": "10.背景：与美容店谈业务合作能合作成功吗？与一美容店推销产品，每套价值 1 万元左右，",
+          "kind": "book-example"
+        },
+        {
+          "line": 1784,
+          "level": 2,
+          "title": "11.背景：求测者想知道这周（周天之前）能不能把房子出租出去，之前在各大平台挂了大半个",
+          "anchor": "11.背景：求测者想知道这周（周天之前）能不能把房子出租出去，之前在各大平台挂了大半个",
+          "kind": "book-example"
+        },
+        {
+          "line": 1808,
+          "level": 2,
+          "title": "12.背景：我去闲鱼买游戏充值服务，结果第二天就被封号了，联系商家，商家一下午装死不",
+          "anchor": "12.背景：我去闲鱼买游戏充值服务，结果第二天就被封号了，联系商家，商家一下午装死不",
+          "kind": "book-example"
+        },
+        {
+          "line": 1832,
+          "level": 2,
+          "title": "13.背景：问明天集团准备再次从荆门市申报 10 千瓦的光伏项目。能不能通过？（水提供案",
+          "anchor": "13.背景：问明天集团准备再次从荆门市申报 10 千瓦的光伏项目。能不能通过？（水提供案",
+          "kind": "book-example"
+        },
+        {
+          "line": 1912,
+          "level": 1,
+          "title": "出行占",
+          "anchor": "出行占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 1976,
+          "level": 1,
+          "title": "灾厄占",
+          "anchor": "灾厄占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 1978,
+          "level": 2,
+          "title": "1.背景：同事出车祸，看吉凶祸福。（叶课问提供案例）",
+          "anchor": "1.背景：同事出车祸，看吉凶祸福。（叶课问提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2000,
+          "level": 2,
+          "title": "2.背景：女问妈妈车祸，现在正在抢救，会好吗？（水提供案例）",
+          "anchor": "2.背景：女问妈妈车祸，现在正在抢救，会好吗？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2028,
+          "level": 2,
+          "title": "3.背景：19 年摔断过骨头，脚踝打过钢钉，最近之前动手术的地方特别疼，内侧踝骨头肉眼看",
+          "anchor": "3.背景：19 年摔断过骨头，脚踝打过钢钉，最近之前动手术的地方特别疼，内侧踝骨头肉眼看",
+          "kind": "book-example"
+        },
+        {
+          "line": 2054,
+          "level": 2,
+          "title": "4.背景：老人问卦的那会 进医院了，吃不下饭。（申提供案例）",
+          "anchor": "4.背景：老人问卦的那会 进医院了，吃不下饭。（申提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2078,
+          "level": 2,
+          "title": "5.背景：小女孩丢失问吉凶（水提供案例）",
+          "anchor": "5.背景：小女孩丢失问吉凶（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2098,
+          "level": 2,
+          "title": "6.背景：外面下超大暴雨，其母在外失踪，问吉凶。",
+          "anchor": "6.背景：外面下超大暴雨，其母在外失踪，问吉凶。",
+          "kind": "book-example"
+        },
+        {
+          "line": 2120,
+          "level": 2,
+          "title": "7.背景：听闻一小辈重病送进 ICU，占吉凶及应期。(立惟提供案例）",
+          "anchor": "7.背景：听闻一小辈重病送进 ICU，占吉凶及应期。(立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2148,
+          "level": 2,
+          "title": "8.背景：外侄女测舅舅未命 44 岁，己丑日因为摔倒颅骨破裂昏迷不醒，问吉凶。(立惟提供案",
+          "anchor": "8.背景：外侄女测舅舅未命 44 岁，己丑日因为摔倒颅骨破裂昏迷不醒，问吉凶。(立惟提供案",
+          "kind": "book-example"
+        },
+        {
+          "line": 2178,
+          "level": 2,
+          "title": "9.背景：亥命女问父亲车祸病情？(立惟提供案例）",
+          "anchor": "9.背景：亥命女问父亲车祸病情？(立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2200,
+          "level": 2,
+          "title": "10.背景：己丑年小女孩丢失断吉凶（水提供案例）",
+          "anchor": "10.背景：己丑年小女孩丢失断吉凶（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2224,
+          "level": 2,
+          "title": "11.背景：患有老年痴呆的老人（1958），当日早晨走失。当天下雨了，问能否安全回来？（水",
+          "anchor": "11.背景：患有老年痴呆的老人（1958），当日早晨走失。当天下雨了，问能否安全回来？（水",
+          "kind": "book-example"
+        },
+        {
+          "line": 2246,
+          "level": 2,
+          "title": "12.背景：昨天一朋友（1997 男）卖电子烟被抓，通知书写因涉嫌贩卖毒品，家人问吉凶？",
+          "anchor": "12.背景：昨天一朋友（1997 男）卖电子烟被抓，通知书写因涉嫌贩卖毒品，家人问吉凶？",
+          "kind": "book-example"
+        },
+        {
+          "line": 2282,
+          "level": 2,
+          "title": "13. 老太太走失，问吉凶。",
+          "anchor": "13. 老太太走失，问吉凶。",
+          "kind": "book-example"
+        },
+        {
+          "line": 2308,
+          "level": 1,
+          "title": "感情占",
+          "anchor": "感情占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 2310,
+          "level": 2,
+          "title": "1.背景：我妈给我推了个中医，看看实力。（闭关提供案例）",
+          "anchor": "1.背景：我妈给我推了个中医，看看实力。（闭关提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2334,
+          "level": 2,
+          "title": "2.  背景:一个星期内，她会来找我吗？（子白提供）",
+          "anchor": "2.  背景:一个星期内，她会来找我吗？（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2354,
+          "level": 2,
+          "title": "3.  背景：占能否复合",
+          "anchor": "3.  背景：占能否复合",
+          "kind": "book-example"
+        },
+        {
+          "line": 2378,
+          "level": 2,
+          "title": "4.  背景：午命男占能否复合（壬通天提供）",
+          "anchor": "4.  背景：午命男占能否复合（壬通天提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2402,
+          "level": 2,
+          "title": "5.  背景：问两个人的感情走向，会不会在一起（壬通天提供）",
+          "anchor": "5.  背景：问两个人的感情走向，会不会在一起（壬通天提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2424,
+          "level": 1,
+          "title": "胎产占",
+          "anchor": "胎产占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 2426,
+          "level": 2,
+          "title": "1.背景：男问对象怀孕否？（水提供案例）",
+          "anchor": "1.背景：男问对象怀孕否？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2450,
+          "level": 2,
+          "title": "2.背景：问当年能不能怀孕？（水提供案例）",
+          "anchor": "2.背景：问当年能不能怀孕？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2472,
+          "level": 2,
+          "title": "3.背景：试管婴儿能成功吗？明天去医院。（水提供案例）",
+          "anchor": "3.背景：试管婴儿能成功吗？明天去医院。（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2494,
+          "level": 2,
+          "title": "4.背景：生男生女？何时生出？（水提供案例）",
+          "anchor": "4.背景：生男生女？何时生出？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2516,
+          "level": 2,
+          "title": "5.背景：生男生女？何时生出？（水提供案例）",
+          "anchor": "5.背景：生男生女？何时生出？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2538,
+          "level": 2,
+          "title": "6.背景：生男生女？何时生出？顺产否？（水提供案例）",
+          "anchor": "6.背景：生男生女？何时生出？顺产否？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2562,
+          "level": 2,
+          "title": "7.背景：此女怀孕否？（水提供案例）",
+          "anchor": "7.背景：此女怀孕否？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2584,
+          "level": 2,
+          "title": "8.背景：女友问是否怀孕，我也想知道。（水提供案例）",
+          "anchor": "8.背景：女友问是否怀孕，我也想知道。（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2602,
+          "level": 1,
+          "title": "官讼占",
+          "anchor": "官讼占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 2604,
+          "level": 2,
+          "title": "1.  背景:妹问哥，离婚财产官司可以打赢吗？（子白提供）",
+          "anchor": "1.  背景:妹问哥，离婚财产官司可以打赢吗？（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2622,
+          "level": 1,
+          "title": "疾病占",
+          "anchor": "疾病占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 2624,
+          "level": 2,
+          "title": "1.背景：月事长久不来，何时能来？（专业白嫖 20 年提供案例）",
+          "anchor": "1.背景：月事长久不来，何时能来？（专业白嫖 20 年提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2650,
+          "level": 2,
+          "title": "2.  背景：一男子求测，姑夫 1964 年甲辰命  生什么病了？什么时候住院？（  立惟  提供案",
+          "anchor": "2.  背景：一男子求测，姑夫 1964 年甲辰命  生什么病了？什么时候住院？（  立惟  提供案",
+          "kind": "book-example"
+        },
+        {
+          "line": 2680,
+          "level": 2,
+          "title": "3.  背景：问病人情况如何此人是我父亲 1964 年出生。    （立惟提供案例）",
+          "anchor": "3.  背景：问病人情况如何此人是我父亲 1964 年出生。    （立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2702,
+          "level": 2,
+          "title": "4.背景：占病",
+          "anchor": "4.背景：占病",
+          "kind": "book-example"
+        },
+        {
+          "line": 2726,
+          "level": 2,
+          "title": "5.  背景：一人问父亲的疾病",
+          "anchor": "5.  背景：一人问父亲的疾病",
+          "kind": "book-example"
+        },
+        {
+          "line": 2746,
+          "level": 1,
+          "title": "比赛占",
+          "anchor": "比赛占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 2748,
+          "level": 2,
+          "title": "1.背景：一人问周六辩论赛能赢否。（叶课问提供案例）",
+          "anchor": "1.背景：一人问周六辩论赛能赢否。（叶课问提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2768,
+          "level": 2,
+          "title": "2.背景:2024 年 1 月 4 日 19:46 分测足球比赛（胜晏理提供）",
+          "anchor": "2.背景:2024 年 1 月 4 日 19:46 分测足球比赛（胜晏理提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2792,
+          "level": 1,
+          "title": "失物占",
+          "anchor": "失物占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 2794,
+          "level": 2,
+          "title": "1.背景：社交平台某发帖寻身份证，各路大师出手寻之许久未果，路过围观，故取发帖时间占",
+          "anchor": "1.背景：社交平台某发帖寻身份证，各路大师出手寻之许久未果，路过围观，故取发帖时间占",
+          "kind": "book-example"
+        },
+        {
+          "line": 2818,
+          "level": 2,
+          "title": "2.背景：钩针工艺品丢了，在何处？（水提供案例）",
+          "anchor": "2.背景：钩针工艺品丢了，在何处？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2840,
+          "level": 2,
+          "title": "3.背景：在公司，充电器找不到了。（水提供的案例）",
+          "anchor": "3.背景：在公司，充电器找不到了。（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2862,
+          "level": 2,
+          "title": "4.背景：书包丢食堂了，丢没丢？（水提供的案例）",
+          "anchor": "4.背景：书包丢食堂了，丢没丢？（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2882,
+          "level": 2,
+          "title": "5.背景：钥匙丢在了机场安检那里，能否找回？（水提供的案例）",
+          "anchor": "5.背景：钥匙丢在了机场安检那里，能否找回？（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2904,
+          "level": 2,
+          "title": "6.背景：某社交平台公贴留言处，一人占问自家猫找不到遂以问时作占时起课（预言渣提供案",
+          "anchor": "6.背景：某社交平台公贴留言处，一人占问自家猫找不到遂以问时作占时起课（预言渣提供案",
+          "kind": "book-example"
+        },
+        {
+          "line": 2928,
+          "level": 2,
+          "title": "7.背景：钥匙丢了。（水提供的案例）",
+          "anchor": "7.背景：钥匙丢了。（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2950,
+          "level": 2,
+          "title": "8.  背景:一人问 U 盘在哪里（子白提供）",
+          "anchor": "8.  背景:一人问 U 盘在哪里（子白提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 2972,
+          "level": 2,
+          "title": "9.  背景：遗失好久的戒指，不知道何时丢失，现在想起来起一课看看可不可以找到。（子白提",
+          "anchor": "9.  背景：遗失好久的戒指，不知道何时丢失，现在想起来起一课看看可不可以找到。（子白提",
+          "kind": "book-example"
+        },
+        {
+          "line": 2996,
+          "level": 2,
+          "title": "10.背景：猫丢了，看看能找到吗？(立惟提供案例）",
+          "anchor": "10.背景：猫丢了，看看能找到吗？(立惟提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3018,
+          "level": 2,
+          "title": "11.背景：测无人机是否能找到。",
+          "anchor": "11.背景：测无人机是否能找到。",
+          "kind": "book-example"
+        },
+        {
+          "line": 3038,
+          "level": 2,
+          "title": "12. 背景：巳命人价值几千元的手表丢失了，问能否找到？背景是吃完早餐发现手表不见了，",
+          "anchor": "12. 背景：巳命人价值几千元的手表丢失了，问能否找到？背景是吃完早餐发现手表不见了，",
+          "kind": "book-example"
+        },
+        {
+          "line": 3064,
+          "level": 2,
+          "title": "13. 背景：伞丢了，问何人拿走了",
+          "anchor": "13. 背景：伞丢了，问何人拿走了",
+          "kind": "book-example"
+        },
+        {
+          "line": 3080,
+          "level": 2,
+          "title": "14. 背景：手机丢哪里了",
+          "anchor": "14. 背景：手机丢哪里了",
+          "kind": "book-example"
+        },
+        {
+          "line": 3102,
+          "level": 2,
+          "title": "15. 背景：耳机在哪里？（飞星提供）",
+          "anchor": "15. 背景：耳机在哪里？（飞星提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3126,
+          "level": 2,
+          "title": "16. 一尊神像在何处？",
+          "anchor": "16. 一尊神像在何处？",
+          "kind": "book-example"
+        },
+        {
+          "line": 3166,
+          "level": 1,
+          "title": "事业占",
+          "anchor": "事业占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 3168,
+          "level": 2,
+          "title": "1.背景:一女教师因与学生发生肢体冲突，问是否会被开除（胜晏理提供）",
+          "anchor": "1.背景:一女教师因与学生发生肢体冲突，问是否会被开除（胜晏理提供）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3240,
+          "level": 2,
+          "title": "2.背景：事前预测参加宝安区教师编能否上岸？（水提供的案例）",
+          "anchor": "2.背景：事前预测参加宝安区教师编能否上岸？（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3298,
+          "level": 2,
+          "title": "3.  背景：明年研究生毕业，问参加今年企业秋招，能否受到企业的录取 offer？（水提供的案",
+          "anchor": "3.  背景：明年研究生毕业，问参加今年企业秋招，能否受到企业的录取 offer？（水提供的案",
+          "kind": "book-example"
+        },
+        {
+          "line": 3350,
+          "level": 2,
+          "title": "4.背景：为医院外包人员  现有机会通过找关系拿到医院正式编制  。问此事能成否？正式编制",
+          "anchor": "4.背景：为医院外包人员  现有机会通过找关系拿到医院正式编制  。问此事能成否？正式编制",
+          "kind": "book-example"
+        },
+        {
+          "line": 3394,
+          "level": 2,
+          "title": "5.背景：面试前问网络编辑岗位能否面试上？（水提供案例）",
+          "anchor": "5.背景：面试前问网络编辑岗位能否面试上？（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3440,
+          "level": 2,
+          "title": "6.背景：女测在银行上班的老公（1988）工作动或是不动？  （水提供案例）",
+          "anchor": "6.背景：女测在银行上班的老公（1988）工作动或是不动？  （水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3476,
+          "level": 1,
+          "title": "天时占",
+          "anchor": "天时占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 3478,
+          "level": 2,
+          "title": "1.背景：天时占如何？（胜晏理提供案例）",
+          "anchor": "1.背景：天时占如何？（胜晏理提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3500,
+          "level": 2,
+          "title": "2.背景：北京天气预报说明天下雪，如何？（水提供案例)",
+          "anchor": "2.背景：北京天气预报说明天下雪，如何？（水提供案例)",
+          "kind": "book-example"
+        },
+        {
+          "line": 3522,
+          "level": 2,
+          "title": "3.背景：今天回家，会不会下雨。（水提供案例）",
+          "anchor": "3.背景：今天回家，会不会下雨。（水提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3546,
+          "level": 2,
+          "title": "4.背景：问明天天气如何？（煦风行云提供案例）",
+          "anchor": "4.背景：问明天天气如何？（煦风行云提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3572,
+          "level": 2,
+          "title": "5.背景：今天有雨吗？我觉得必雨。（闭关提供案例）",
+          "anchor": "5.背景：今天有雨吗？我觉得必雨。（闭关提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3596,
+          "level": 2,
+          "title": "6.背景：当时是大雾弥漫，想看看天气变化。（飞星）",
+          "anchor": "6.背景：当时是大雾弥漫，想看看天气变化。（飞星）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3624,
+          "level": 2,
+          "title": "7.背景：今天天气如何？（水的案例)",
+          "anchor": "7.背景：今天天气如何？（水的案例)",
+          "kind": "book-example"
+        },
+        {
+          "line": 3646,
+          "level": 1,
+          "title": "杂事占",
+          "anchor": "杂事占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 3648,
+          "level": 2,
+          "title": "1.背景：手机被没收了，老师说周一给，周一能不能拿到手机？周一为 16 日。",
+          "anchor": "1.背景：手机被没收了，老师说周一给，周一能不能拿到手机？周一为 16 日。",
+          "kind": "book-example"
+        },
+        {
+          "line": 3762,
+          "level": 1,
+          "title": "宅门占",
+          "anchor": "宅门占",
+          "kind": "book-examples-with-commentary"
+        },
+        {
+          "line": 3764,
+          "level": 2,
+          "title": "1.背景：最近家里发生一些事情，占宅。（水提供的案例）",
+          "anchor": "1.背景：最近家里发生一些事情，占宅。（水提供的案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3790,
+          "level": 2,
+          "title": "2.背景：搬家了，能不能找到新工作呢？（子白提供案例）",
+          "anchor": "2.背景：搬家了，能不能找到新工作呢？（子白提供案例）",
+          "kind": "book-example"
+        },
+        {
+          "line": 3818,
+          "level": 2,
+          "title": "3.  背景：欲购买一处住宅，目前已经通过电话与售楼人员沟通，得知大概情况，也在网站上",
+          "anchor": "3.  背景：欲购买一处住宅，目前已经通过电话与售楼人员沟通，得知大概情况，也在网站上",
+          "kind": "book-example"
+        },
+        {
+          "line": 3912,
+          "level": 1,
+          "title": "一字诀玉连环（书内附录）",
+          "anchor": "一  字  诀  玉  连  环",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 3914,
+          "level": 2,
+          "title": "课式体要",
+          "anchor": "课式体要",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 3956,
+          "level": 2,
+          "title": "时为日干财章第一 主求财",
+          "anchor": "时为日干财章第一 主求财",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4074,
+          "level": 2,
+          "title": "时为日干马章第二 主出入之事",
+          "anchor": "时为日干马章第二 主出入之事",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4188,
+          "level": 2,
+          "title": "时为日贵日禄日德章第三 主动官事",
+          "anchor": "时为日贵日禄日德章第三 主动官事",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4319,
+          "level": 2,
+          "title": "时为日干三合六合章第四",
+          "anchor": "时为日干三合六合章第四",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4450,
+          "level": 2,
+          "title": "时为日三合六合章第五 主内和合事",
+          "anchor": "时为日三合六合章第五 主内和合事",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4534,
+          "level": 2,
+          "title": "时为日干六害章第六 主外忧",
+          "anchor": "时为日干六害章第六 主外忧",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4599,
+          "level": 2,
+          "title": "时为日支六害章第七 主内忧",
+          "anchor": "时为日支六害章第七 主内忧",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4648,
+          "level": 2,
+          "title": "时为日空亡章第八 主望空用事，或无用也",
+          "anchor": "时为日空亡章第八 主望空用事，或无用也",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4711,
+          "level": 2,
+          "title": "时为日墓章第九 主干田土或他人茔坟事",
+          "anchor": "时为日墓章第九 主干田土或他人茔坟事",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4761,
+          "level": 2,
+          "title": "时为日干冲章第十 主外动",
+          "anchor": "时为日干冲章第十 主外动",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4820,
+          "level": 2,
+          "title": "时为日支冲章第十一 主内动",
+          "anchor": "时为日支冲章第十一 主内动",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 4868,
+          "level": 2,
+          "title": "白日得夜时章第十二 主事不明，占病重",
+          "anchor": "白日得夜时章第十二 主事不明，占病重",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 5003,
+          "level": 2,
+          "title": "时为日刑章第十三",
+          "anchor": "时为日刑章第十三",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 5060,
+          "level": 2,
+          "title": "时为日干劫煞章第十四 主紧速事",
+          "anchor": "时为日干劫煞章第十四 主紧速事",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 5094,
+          "level": 2,
+          "title": "时为日破章第十五 主走失",
+          "anchor": "时为日破章第十五 主走失",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 5204,
+          "level": 2,
+          "title": "变体门",
+          "anchor": "变体门",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 5373,
+          "level": 2,
+          "title": "六庚日伏吟辨",
+          "anchor": "六庚日伏吟辨",
+          "kind": "quoted-classic-with-modern-commentary"
+        },
+        {
+          "line": 5402,
+          "level": 2,
+          "title": "姓字",
+          "anchor": "姓字",
+          "kind": "quoted-classic-with-modern-commentary"
+        }
+      ],
+      "checked_locators": [
+        {
+          "id": "E16",
+          "start": 139,
+          "end": 163,
+          "topic": "月令五气与权柄，四纲为本书方法",
+          "source_identity": "《献给六壬天一群的六壬笔记》正文",
+          "quote_sha256": "30f2c66dac0885c55468686d6445cdd65372af7e9af23ca2d239cfc2cc313baa",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E17",
+          "start": 191,
+          "end": 209,
+          "topic": "五气、死火克不动旺金",
+          "source_identity": "《献给六壬天一群的六壬笔记》正文",
+          "quote_sha256": "969dad7309280571d1c32e51da18910014bbe3b7afb4384275f410d72b30da41",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E18",
+          "start": 381,
+          "end": 389,
+          "topic": "十二长生以日干为准的口径",
+          "source_identity": "《献给六壬天一群的六壬笔记》正文",
+          "quote_sha256": "cef9b673e78a738bcbb64a52b901a719f99659b1dde4fc8caaebd16bfd57f129",
+          "review_scope": "existing-selected-passage-only"
+        },
+        {
+          "id": "E19",
+          "start": 455,
+          "end": 465,
+          "topic": "刑冲破害、四纲强语、弱者受冲",
+          "source_identity": "《献给六壬天一群的六壬笔记》正文",
+          "quote_sha256": "ebe3ee2737a3b5903a6e40c4f0880f3fa01b62b61703702f2310bbab7b8842c5",
+          "review_scope": "existing-selected-passage-only"
+        }
+      ],
+      "limitations": [
+        "标题锚点及连续覆盖经过机械校验，不能代替逐条语义审读。",
+        "原书中的出生推命或运限引文不作为活动占事规则；不能删改原文来制造一致。"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "five-qi",
+      "aliases": [
+        "旺相休囚死",
+        "五气旺衰",
+        "四时五气",
+        "五气之殊"
+      ]
+    },
+    {
+      "id": "twelve-states",
+      "aliases": [
+        "十二长生",
+        "十二长生气",
+        "十二气"
+      ],
+      "related_locators": [
+        "E02",
+        "E11",
+        "E18"
+      ]
+    },
+    {
+      "id": "ghost-strength",
+      "aliases": [
+        "旺鬼",
+        "鬼旺",
+        "鬼禁日",
+        "鬼缠身"
+      ],
+      "related_locators": [
+        "E07",
+        "E15"
+      ]
+    },
+    {
+      "id": "weak-controls-strong",
+      "aliases": [
+        "死火",
+        "旺金",
+        "弱克旺"
+      ],
+      "related_locators": [
+        "E04",
+        "E17"
+      ]
+    },
+    {
+      "id": "class-selection",
+      "aliases": [
+        "取用",
+        "取类",
+        "类神",
+        "类象"
+      ]
+    },
+    {
+      "id": "void",
+      "aliases": [
+        "空亡",
+        "旬空",
+        "落空"
+      ]
+    },
+    {
+      "id": "hidden-spirit",
+      "aliases": [
+        "阴神",
+        "翻宫"
+      ]
+    },
+    {
+      "id": "rescue",
+      "aliases": [
+        "制救",
+        "制鬼",
+        "救应"
+      ]
+    },
+    {
+      "id": "timing",
+      "aliases": [
+        "应期",
+        "迟速"
+      ]
+    },
+    {
+      "id": "shenjiang",
+      "aliases": [
+        "神将互换",
+        "神将同用"
+      ]
+    }
+  ],
+  "topic_policy": "仅为检索扩展和相关原文提示，不表示术理同义、等价或冲突已解决。",
+  "line_mapping": "decoded original bytes splitlines; one-based; no reflow",
+  "semantic_reading_complete": false,
+  "predictive_validation_count": 0
+}

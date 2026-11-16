@@ -1,0 +1,243 @@
+{
+  "schema": "liuren-adopted-policy-register-v1",
+  "release": "20261115-class-selection-62",
+  "rules": [
+    {
+      "id": "U01",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U02",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SP03",
+        "SP04",
+        "E20",
+        "E21"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U03",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SP01",
+        "SP05",
+        "E03",
+        "CL01",
+        "CL02"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U04",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SP06",
+        "E02",
+        "E11",
+        "CL07"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U05",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SP02",
+        "E04"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U06",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "E05",
+        "E09",
+        "E10",
+        "E14",
+        "E15"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U07",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SG03",
+        "SG10",
+        "SG17",
+        "E11"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U08",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SG13",
+        "SG14",
+        "SG15"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U09",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SG01",
+        "SG02",
+        "SG03",
+        "SG05",
+        "SG06",
+        "SG09",
+        "SG17",
+        "SG18"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U10",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "SG10",
+        "SG11",
+        "SP04",
+        "CL08"
+      ],
+      "independent_predictive_validation_count": 0
+    },
+    {
+      "id": "U11",
+      "status": "adopted-local-policy",
+      "authority": "用户本轮确认的体系与执行约定；所列书据仅在其实际段落范围支持",
+      "evidence": [
+        "CL03",
+        "CL04",
+        "CL05",
+        "CL06"
+      ],
+      "independent_predictive_validation_count": 0
+    }
+  ],
+  "excluded": {
+    "E18-total-reference": "不采用日干总参照",
+    "SG07-total-order": "不采用年最小时最大总排序"
+  },
+  "pending": {
+    "confirmed_same_condition_contradictions": [],
+    "registry": "pending-conflicts",
+    "historicalIDs": "C01-C11",
+    "notAUserConfirmationQueue": true
+  },
+  "clarifications": {
+    "C01": "closed-layered-general-specific",
+    "C02": "closed-effect-on-subject-not-own-energy",
+    "C08": "closed-Beihai-special-fetal-class",
+    "C09": "closed-explicit-stage-distinction"
+  },
+  "bookAnnotationIntegration": {
+    "id": "book-annotation-41",
+    "selections": 24,
+    "continuousSourceSpans": 13,
+    "evidence": "references/book-annotation-evidence.json",
+    "modules": [
+      "book-logic",
+      "quantity-strength",
+      "void-class-applications"
+    ],
+    "userDecision": "V41-01 preserve U08/U10; deferred user review",
+    "predictiveValidationCount": 0,
+    "fullBookCoverage": false,
+    "scope": "local-opencode-and-codex"
+  },
+  "basicBifaIntegration": {
+    "id": "compact-bifa-44",
+    "structures": 134,
+    "methodChecks": 8,
+    "representedLaws": 100,
+    "sourceSpans": 200,
+    "evidence": "references/bifa-basic-evidence.json",
+    "actualModeOnly": true,
+    "nativeLabelsTrusted": false,
+    "all100LawsBasicReviewed": true,
+    "all100LawsComplete": false,
+    "scope": "local-opencode-and-codex",
+    "predictiveValidationCount": 0,
+    "display": "matched-laws-three-fields",
+    "statementLaws": 100,
+    "statementBranches": 142,
+    "statements": "references/bifa-statements.json",
+    "templatesDeterministic": true
+  },
+  "bifaApplication": {
+    "id": "bifa-descriptive-aid-45",
+    "guide": "references/bifa-guide.json",
+    "cards": 100,
+    "readerAlias": "BF-01..BF-100",
+    "source": "北海闲人《毕法赋全解》",
+    "descriptiveOnly": true,
+    "relevanceByQuestion": true,
+    "irrelevantMayBeUnused": true,
+    "existingWorkflowRetained": true,
+    "mandatoryReadingAdded": false,
+    "chartAlgorithmChanged": false,
+    "predictiveValidationCount": 0
+  },
+  "integratedAnalysis": {
+    "id": "liuren-integrated-analysis-49",
+    "scope": "local-opencode-and-codex",
+    "bifaCoreMode": "conditions-only",
+    "mainline": "question-domain-focus-role-state-effective-action-counterevidence",
+    "newDomain": "litigation",
+    "strengthReview": true,
+    "existingCoefficientsChanged": false,
+    "groupNumericsAdded": false,
+    "extraAdjudications": 0,
+    "sources": "references/analysis-workflow-evidence.json",
+    "classificationSources": "references/classification-evidence.json",
+    "predictiveValidationCount": 0,
+    "realModelStabilityVerified": false
+  },
+  "quantityCorrection": {
+    "id": "liuren-strength-quantity-51",
+    "scope": "local-opencode-and-codex",
+    "receiptReviewRequired": true,
+    "couplingRequired": true,
+    "stateVoidIsQuantityVoid": false,
+    "defaultActualQuantityVoidFactor": null,
+    "experimentalActualQuantityVoidFactor": 0.5,
+    "sourceVoidPolicy": "explicit-source-or-declared-research-exception",
+    "fixedStrengthThresholds": "experimental-path-only",
+    "automaticIndexRatio": false,
+    "experimentalProfile": "quantity-band-experiment-51",
+    "calibrated": false,
+    "sources": "references/strength-quantity-evidence.json",
+    "predictiveValidationCount": 0,
+    "extraAdjudications": 0
+  },
+  "strengthInterpretation": {
+    "id": "liuren-strength-meaning-58",
+    "unified_wang_good_shuai_bad": true,
+    "score_is_usability": false,
+    "low_score_means_harmless": false,
+    "high_ghost_score_means_more_harm": false,
+    "numerical_algorithms_changed": false,
+    "professional_interpretation_changed": true,
+    "source": "user-confirmed",
+    "audit": "output/liuren-strength-meaning-58/试验与回切说明.md"
+  }
+}

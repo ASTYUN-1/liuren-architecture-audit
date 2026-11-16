@@ -1,0 +1,13 @@
+{
+  "status": "approved",
+  "provider": "conpera/gpt-6.1-sol",
+  "endpoint": "https://code.conpera.ai/v1",
+  "payloadManifestSha256": "86738e80c4d8c53573078065c03f8185cf1cc935903dac175f25fa54a883aed0",
+  "boundaryManifestSha256": "0bd5f5e2a35decd991a33b28830816a348a763f173fec723158104c56fb6f950",
+  "humanApprovalEvidence": "Parent /root reports the human directly answered the dedicated input tool in this chat: 允许这一次 Conpera 验证. The question explicitly named the endpoint/model, one 65-second attempt, eight prepared files (~18.9KB), OpenCode native system/tool information, no customer cases/keys, no other files, and no active switch. This is a direct human response, not agent self-authorization.",
+  "maxAttempts": 1,
+  "maxSeconds": 65,
+  "maxOutputBytes": 1048576,
+  "noActiveSwitch": true,
+  "noAutomaticRetry": true
+}

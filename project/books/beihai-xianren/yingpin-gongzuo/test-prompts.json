@@ -1,0 +1,73 @@
+{
+  "skill": "yingpin-gongzuo",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "占应聘, 我投了一家公司的简历, 能不能进去？",
+      "expected_behavior": "应激活 yingpin-gongzuo, 取职位类神（禄神/父母爻/长生爻）扫课传, 判类神现课传+旺相+不空陷则「职位必得」, 类神不现则查「吉象并聚」补救线, 输出必得/可成/不成/不确定四级结论与依据链",
+      "notes": "直接求职占问, 命中「应聘/能不能进去」 trigger。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "下周有一场面试, 帮我占占能不能通过拿到 offer？",
+      "expected_behavior": "应激活 yingpin-gongzuo, 按求职判据（职位类神现课传或「吉象并聚」补救路线）判断录用与否, 附过程特征（返吟=反复进退）与渠道性质（乘玄武=取巧/走关系）",
+      "notes": "面试/offer 场景, 命中中文「面试」与英文 trigger offer。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我想跳槽另谋高就, 占一下工作好找吗？什么时候能定下来？",
+      "expected_behavior": "应激活 yingpin-gongzuo, 扫职位类神并做空亡变质校验（旺不为空、得生得助不为空; 天空之空不论旺衰皆凶）, 输出求职成败结论与月将/太岁级时间线索; 精确定日再转 yingqi-panduan",
+      "notes": "跳槽另谋高就场景, 命中核心 trigger; 「什么时候能定」属本 skill 的粗略时间线索层。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "I'm waiting for a job offer after the interview. Will I get the job?",
+      "expected_behavior": "应激活 yingpin-gongzuo（英文 trigger: job offer / get the job / interview）, 按职位类神判据判断录用成败, 输出结论并提示等待期风险（如朱雀乘丁=录取结果被篡改）",
+      "notes": "英文关键词场景, 命中 offer/get the job。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下今天是农历几月几号？",
+      "expected_behavior": "不应激活本 skill, 因为这是纯历法信息查询, 无求职对象也无课传盘面, 属于无关场景",
+      "notes": "诱饵: 完全无关场景（历法信息查询）。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我在现在的公司干了五年了, 占一下今年能不能升职加薪？",
+      "expected_behavior": "不应激活本 skill, 应激活 shengzhi-jiaxin（已任职者的晋升加薪用进达象/增益象, 本 skill 只管入局/换工作的「能否获得职位」）",
+      "notes": "跨 skill 混淆诱饵（同书兄弟 skill shengzhi-jiaxin）: 在职升职 vs 应聘求职, 以入职为分界。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "占一下我现在这份工作的工资收入怎么样？每月能挣多少？",
+      "expected_behavior": "不应激活本 skill, 应激活 cailu-panduan（禄神虽兼管薪水, 但本 skill 判「职位能否到手」, 财禄判「收入多少/总量」）",
+      "notes": "跨 skill 混淆诱饵（同书兄弟 skill cailu-panduan）: 职位 vs 收入, 主题错位。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占一下我这次考试能不能考上？",
+      "expected_behavior": "需澄清「考试」性质: 若是投考单位/应聘（求职类, 如书例 c26「占投考一公司」）→ 本 skill; 若是升学、考证等纯学业考试 → 不属于求职占类, 应按课体气势等其它框架判读, 不强行套职位类神",
+      "notes": "边界: 「投考」（求职）与「考试」（学业）一词之差的域归属。"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "我现在还在职, 但想跳槽去新公司, 占占新工作能不能成？顺便看看现在这份还能不能干下去。",
+      "expected_behavior": "混合课需拆分: 「新工作能不能成」（跳槽求职）→ 本 skill 职位类神判据; 「现职还能不能干下去」（在职状态/去留）→ 应转时运/人际对应专项或按墓象、空亡衰气判据另行判断, 不合并进求职结论",
+      "notes": "边界: 求职与在职状态双问混叠, 期望 agent 先拆占类。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）。本文件诱饵构成: 1 条完全无关场景（历法信息查询）+ 2 条同书兄弟 skill 跨 skill 混淆诱饵（shengzhi-jiaxin 在职升职、cailu-panduan 问工资收入）+ 2 条边界场景（投考 vs 学业考试、求职与在职状态混叠）。"
+}

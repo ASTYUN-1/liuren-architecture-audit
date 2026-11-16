@@ -1,0 +1,102 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-BIFA-019-MAIN",
+  "case_id": "BK26-BIFA-019",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "己酉",
+      "month_branch": "寅",
+      "day": "甲午",
+      "hour_branch": "卯"
+    },
+    "month_general": "子"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "line_start": 1886,
+      "line_end": 1886,
+      "quote": "傅大禄己巳生四十岁，占平生。己酉年正月十五甲午日子将卯时。",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "原文1886–1886明载己酉年。",
+    "pillars.month_branch": "正月按建寅月序映射寅，同SHAO110不增独立事件。",
+    "pillars.day": "原文1886–1886明载甲午日。",
+    "pillars.hour_branch": "原文1886–1886明载卯时。",
+    "month_general": "原文1886–1886明载子将。"
+  },
+  "constraints": [
+    {
+      "field": "transmission_sequence",
+      "expected": "申巳寅",
+      "evidence_refs": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1115,
+          "line_end": 1117,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "quote": "贵丑    午龙\t\t后\t朱\t虎\t阴\t\t鬼 丙申\t虎 初\n后子    未空\t\t子\t卯\t申\t亥\t\t子 空巳\t陈 中（空亡）\n阴亥戌酉申虎\t\t卯\t午\t亥\t甲\t\t兄 壬寅\t蛇 末（落空）",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.0.tianjiang",
+      "expected": "白虎",
+      "evidence_refs": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1115,
+          "line_end": 1117,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "quote": "贵丑    午龙\t\t后\t朱\t虎\t阴\t\t鬼 丙申\t虎 初\n后子    未空\t\t子\t卯\t申\t亥\t\t子 空巳\t陈 中（空亡）\n阴亥戌酉申虎\t\t卯\t午\t亥\t甲\t\t兄 壬寅\t蛇 末（落空）",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.1.tianjiang",
+      "expected": "勾陈",
+      "evidence_refs": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1115,
+          "line_end": 1117,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "quote": "贵丑    午龙\t\t后\t朱\t虎\t阴\t\t鬼 丙申\t虎 初\n后子    未空\t\t子\t卯\t申\t亥\t\t子 空巳\t陈 中（空亡）\n阴亥戌酉申虎\t\t卯\t午\t亥\t甲\t\t兄 壬寅\t蛇 末（落空）",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    },
+    {
+      "field": "transmissions.2.tianjiang",
+      "expected": "腾蛇",
+      "evidence_refs": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1115,
+          "line_end": 1117,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "quote": "贵丑    午龙\t\t后\t朱\t虎\t阴\t\t鬼 丙申\t虎 初\n后子    未空\t\t子\t卯\t申\t亥\t\t子 空巳\t陈 中（空亡）\n阴亥戌酉申虎\t\t卯\t午\t亥\t甲\t\t兄 壬寅\t蛇 末（落空）",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "OCR残盘/另盘缺图身份保留，标准排盘仅为衍生候选而非原图复现。",
+  "notes": [
+    "正月按建寅月序映射寅，同SHAO110不增独立事件。",
+    "原载结果不参与输入、约束和择盘；未核贵人/昼夜/涉害全枚举，不自动完整。",
+    "SHAO同事件完整盘作跨书对读约束，原BIFA残图身份保留。"
+  ]
+}

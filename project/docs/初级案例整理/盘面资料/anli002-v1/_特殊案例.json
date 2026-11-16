@@ -1,0 +1,554 @@
+{
+  "schema": "staged-chart-unresolved-v1",
+  "count": 21,
+  "cases": [
+    {
+      "id": "raw-anli002-0001",
+      "filename": "raw-anli002-0001.md",
+      "shared_original_group": null,
+      "original_time": "2024年9月20日22:36",
+      "normalized_time_field": "2024-09-20 22:36",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-09-20",
+        "datetime": "2024-09-20T22:36"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第1–10行（以本批 _来源快照.txt 第1–10行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "15537bb9022f1f43c17f950bcdebb95d4837e76ee90a388b8bf838d1fcd2195c",
+      "case_file_sha256": "951e9760684b21ebb7c36240f857d8ca5c6ec9575ff083b42133f8e95177eec0",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0002",
+      "filename": "raw-anli002-0002.md",
+      "shared_original_group": null,
+      "original_time": "2024年7月4日23:00",
+      "normalized_time_field": "2024-07-04 23:00",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-07-04",
+        "datetime": "2024-07-04T23:00"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第12–21行（以本批 _来源快照.txt 第12–21行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "e4c9ef776eda1f9f2cdd82f54fca17266ce10efcac352a5cfcd5b612db336d42",
+      "case_file_sha256": "c8d5dfc4af9e08060e9995fbeec1560ccb4c985f2cdc89cab8fbcb36beb610f5",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0003",
+      "filename": "raw-anli002-0003.md",
+      "shared_original_group": null,
+      "original_time": "2024年8月8日21:59",
+      "normalized_time_field": "2024-08-08 21:59",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-08-08",
+        "datetime": "2024-08-08T21:59"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第23–34行（以本批 _来源快照.txt 第23–34行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "2e2aa548c0bea3997ffb2a04f8404937dd790bdb142cf3688802ec8851027be1",
+      "case_file_sha256": "2a4f95590d97022891c1bf72799d42942133f3c9fdd0994ecae15d7c5076e892",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0004",
+      "filename": "raw-anli002-0004.md",
+      "shared_original_group": null,
+      "original_time": "2024年2月25日16:52",
+      "normalized_time_field": "2024-02-25 16:52",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-02-25",
+        "datetime": "2024-02-25T16:52"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第37–47行（以本批 _来源快照.txt 第37–47行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "561afa38bf9be4167449985a83a12cb4d5c8d1f8df04b6552594c2b4d8ab8e7f",
+      "case_file_sha256": "2bb580f991d6174eb8f3cd81a814804bc0ad3e24f9389a56a36c83119ef538aa",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0005",
+      "filename": "raw-anli002-0005.md",
+      "shared_original_group": null,
+      "original_time": "2022年5月26日21:37",
+      "normalized_time_field": "2022-05-26 21:37",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2022-05-26",
+        "datetime": "2022-05-26T21:37"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第50–77行（以本批 _来源快照.txt 第50–77行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "504a76d89d1c696eb96f0e9df265762a3bcc4980dccca3bb504507c8805cc18a",
+      "case_file_sha256": "fd51806aa171f70ea7e84fc3776c01296ecf2a2128e37f3b5e914277b3d7f972",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0006",
+      "filename": "raw-anli002-0006.md",
+      "shared_original_group": null,
+      "original_time": "时间：甲辰年丙寅月甲子日己巳时",
+      "normalized_time_field": "不转换（原文只有四柱干支，未给公历年月日与钟点）",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "source_locator": "案例.txt 第80–87行（以本批 _来源快照.txt 第80–87行为准）",
+      "constraints": {
+        "day_pillar": "甲子",
+        "source_chart_description": "甲辰年丙寅月甲子日己巳时（题干原载，未核验）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "93dc1ee19b8b5f004087a7c46a762cd53a9662d085de9da8c0beab5091f80448",
+      "case_file_sha256": "73eadd33e652df08d81603658803376ddc4f5a2f2c77326606d6ab7a3652a26b",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0007",
+      "filename": "raw-anli002-0007.md",
+      "shared_original_group": "group-anli002-0007",
+      "original_time": "2019年8月29日23:39",
+      "normalized_time_field": "2019-08-29 23:39",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2019-08-29",
+        "datetime": "2019-08-29T23:39"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第89–107行（以本批 _来源快照.txt 第89–107行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "c259486fd6a181803b0d2124f369e97b8c3cdff757d5389eae66b4cb4be1e804",
+      "case_file_sha256": "56c8da7a0ceb48f89c03faba895c768948bd262a87fe6e37687486db13f84b04",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0008",
+      "filename": "raw-anli002-0008.md",
+      "shared_original_group": "group-anli002-0007",
+      "original_time": "2019年9月29日21:45",
+      "normalized_time_field": "2019-09-29 21:45",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2019-09-29",
+        "datetime": "2019-09-29T21:45"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第89–107行（以本批 _来源快照.txt 第89–107行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "c259486fd6a181803b0d2124f369e97b8c3cdff757d5389eae66b4cb4be1e804",
+      "case_file_sha256": "374a45566925d5325c2e59c8bd93ebf0e08ff4b24970b12b0e6138f8d3af35df",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0009",
+      "filename": "raw-anli002-0009.md",
+      "shared_original_group": null,
+      "original_time": "2002年5月8日10:32",
+      "normalized_time_field": "2002-05-08 10:32",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2002-05-08",
+        "datetime": "2002-05-08T10:32"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第111–130行（以本批 _来源快照.txt 第111–130行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "be40a9560360d03a2ec8365a9ddc6f1547ed65a2451c2c9732ea0d9ccb420e11",
+      "case_file_sha256": "b19ce14d88e1c952b0ec70a64dac138e25506d4edf3511fff0a62ff5bf494bc9",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0010",
+      "filename": "raw-anli002-0010.md",
+      "shared_original_group": null,
+      "original_time": "2024年1月20日17:53",
+      "normalized_time_field": "2024-01-20 17:53",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-01-20",
+        "datetime": "2024-01-20T17:53"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第133–142行（以本批 _来源快照.txt 第133–142行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "cea4c7804a49b2c61c350010038500d99a344a3763e830037cccda21fb4aedf7",
+      "case_file_sha256": "47ebdf81563d215218b7c9affe193ef46c6f3a5a34d8720710da8a1e4afa2c35",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0011",
+      "filename": "raw-anli002-0011.md",
+      "shared_original_group": null,
+      "original_time": "2023年1月31日21:08",
+      "normalized_time_field": "2023-01-31 21:08",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2023-01-31",
+        "datetime": "2023-01-31T21:08"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第146–165行（以本批 _来源快照.txt 第146–165行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "6966e4859b562da1b1f25a8fe13654fb36408d4ad9c3d7a5bf17f6e5c99f7edb",
+      "case_file_sha256": "8461c0e93fa3dfc7543a31c211eed3fafc53c1e3cc66386802b7486a4f2a52a1",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0012",
+      "filename": "raw-anli002-0012.md",
+      "shared_original_group": null,
+      "original_time": "2024年9月18日10:19",
+      "normalized_time_field": "2024-09-18 10:19",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-09-18",
+        "datetime": "2024-09-18T10:19"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第168–177行（以本批 _来源快照.txt 第168–177行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "388556c9e9fc67445075d2762aedd837414dae8904bddae5a8479a66e7afa1a1",
+      "case_file_sha256": "e3d4845de74a2bc22a9847b706bc83ada00b01c013b27783cd4327fbe5171030",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0013",
+      "filename": "raw-anli002-0013.md",
+      "shared_original_group": null,
+      "original_time": "2024年8月2日23:14",
+      "normalized_time_field": "2024-08-02 23:14",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-08-02",
+        "datetime": "2024-08-02T23:14"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第180–196行（以本批 _来源快照.txt 第180–196行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "7794c55c9f4f13428177f2afddd6303a9c11ec33622933febcd153ed3a8bb238",
+      "case_file_sha256": "852f8c92e5fa940f03815119653c052072a6ef91c17e38a9b2b37347f8e9b366",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0014",
+      "filename": "raw-anli002-0014.md",
+      "shared_original_group": null,
+      "original_time": "2024年6月24日11:10",
+      "normalized_time_field": "2024-06-24 11:10",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-06-24",
+        "datetime": "2024-06-24T11:10"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第199–216行（以本批 _来源快照.txt 第199–216行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "6bc6c45b622fb713ce2327d7030409c4b11a95af6d9e087a854b1e79c976c1d7",
+      "case_file_sha256": "306c1129bdd120f2ef7b3ab0b1a6841a5fab64df3284d6ae1ef65c7314e6d028",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0015",
+      "filename": "raw-anli002-0015.md",
+      "shared_original_group": null,
+      "original_time": "2022年6月28日16:03",
+      "normalized_time_field": "2022-06-28 16:03",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2022-06-28",
+        "datetime": "2022-06-28T16:03"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第219–235行（以本批 _来源快照.txt 第219–235行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "de37d116465c5dc174e6acfc5a2e0961a3868132d0efe48c8458134fa06722f2",
+      "case_file_sha256": "e957ec60fc6a7034ce196661f8753f6d80dee5810bf7d0dd30d60483e067464e",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0016",
+      "filename": "raw-anli002-0016.md",
+      "shared_original_group": null,
+      "original_time": "2022年9月5日23:04",
+      "normalized_time_field": "2022-09-05 23:04",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2022-09-05",
+        "datetime": "2022-09-05T23:04"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第238–249行（以本批 _来源快照.txt 第238–249行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "5615bc44740d7d5ce9ca7a56f536be7f41f767bee25edb7766f9d406805dd9c8",
+      "case_file_sha256": "1e4b6a2c260ef6aa2c0319496f609f9b43849b121a74c25ea64a9e3aab708337",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0017",
+      "filename": "raw-anli002-0017.md",
+      "shared_original_group": null,
+      "original_time": "2005年3月13日10:24",
+      "normalized_time_field": "2005-03-13 10:24",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2005-03-13",
+        "datetime": "2005-03-13T10:24"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第252–277行（以本批 _来源快照.txt 第252–277行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "593c961aeb5ec94c30278f182aa60eb8723c57bd1feaf5b43dd57ddf64fad4bf",
+      "case_file_sha256": "961deb963099cd38542a4cc2b5f08cf45756ee546193c4f63c5abf9ae3d5c728",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0018",
+      "filename": "raw-anli002-0018.md",
+      "shared_original_group": null,
+      "original_time": "2024年8月21日20:11",
+      "normalized_time_field": "2024-08-21 20:11",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-08-21",
+        "datetime": "2024-08-21T20:11"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第280–302行（以本批 _来源快照.txt 第280–302行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "2acae409b58031df0c54161bf2a417afd4fc22b9b41c3c0c560e01fe2a05fbbe",
+      "case_file_sha256": "5fbcd9c7197ebabab96ac5c93af135464e692f8f6e9f6b1f0da03692425b6a99",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0019",
+      "filename": "raw-anli002-0019.md",
+      "shared_original_group": null,
+      "original_time": "2024年7月14日19:49",
+      "normalized_time_field": "2024-07-14 19:49",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-07-14",
+        "datetime": "2024-07-14T19:49"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第306–310行（以本批 _来源快照.txt 第306–310行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "9aef15f18c00b4a98d58f406ec041a4df6e35947302eca875187e088de3cc9d3",
+      "case_file_sha256": "6c93a97c6106421de05a315bbda2a7087914b7823d74d49793d8a032a59b5b74",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0020",
+      "filename": "raw-anli002-0020.md",
+      "shared_original_group": null,
+      "original_time": "2024年2月24日21:03",
+      "normalized_time_field": "2024-02-24 21:03",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-02-24",
+        "datetime": "2024-02-24T21:03"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第314–324行（以本批 _来源快照.txt 第314–324行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "0ea1b182b0f8f068c21e46edb6a0eb12fe68c739ce2ac4c0821b00e1527d2a6c",
+      "case_file_sha256": "64c7b9f7afb76ae54fa28cb96b75c044a0e823c8dfcef684350c358202cd181d",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli002-0021",
+      "filename": "raw-anli002-0021.md",
+      "shared_original_group": null,
+      "original_time": "。2022年9月22日 11:52，",
+      "normalized_time_field": "2022-09-22 11:52（仅清理首尾标点与空格，未补时间）",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2022-09-22",
+        "datetime": "2022-09-22T11:52"
+      },
+      "issues": [],
+      "source_locator": "案例.txt 第327–348行（以本批 _来源快照.txt 第327–348行为准）",
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "1c2a883236ff100932aadc9d013e633fa8cd4c91f7c60df0223f6b14ef568f26",
+      "case_file_sha256": "a0b879a28748a872354f384d72f10f72265b756ce98184077c49742a413eb81a",
+      "staging_only": true,
+      "chart_status": "error",
+      "error": "spawnSync C:\\Users\\QLMa_\\.workbuddy\\binaries\\node\\versions\\22.22.2-6\\node.exe EBUSY",
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    }
+  ]
+}

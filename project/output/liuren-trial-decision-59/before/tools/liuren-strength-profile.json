@@ -1,0 +1,181 @@
+{
+  "id": "liuren-strength-research-v05-direct",
+  "status": "implemented-research-opt-in",
+  "baseline": 5,
+  "score_range": [
+    0,
+    10
+  ],
+  "inherited": {
+    "season": {
+      "旺": 1.3,
+      "相": 1.1,
+      "休": 0.85,
+      "囚": 0.6,
+      "死": 0.4
+    },
+    "growth": {
+      "长生": 1.1,
+      "沐浴": 0.85,
+      "冠带": 1.05,
+      "临官": 1.15,
+      "帝旺": 1.25,
+      "衰": 0.85,
+      "病": 0.7,
+      "死": 0.5,
+      "墓": 0.6,
+      "绝": 0.4,
+      "胎": 0.65,
+      "养": 0.8
+    },
+    "growth_weights": {
+      "branch": {
+        "ground": 0.7,
+        "direct_yin": 0.3
+      },
+      "general": {
+        "carrier": 0.7,
+        "ground": 0.3
+      },
+      "day": {
+        "upper": 1.0
+      }
+    },
+    "void": {
+      "self_retention": {
+        "旺": 0.85,
+        "相": 0.8,
+        "休": 0.7,
+        "囚": 0.6,
+        "死": 0.5
+      },
+      "ground_exponent": 0.5,
+      "coincidence": "minimum-retention-once",
+      "repeat_on_action": false
+    },
+    "relations": {
+      "support": 0.2,
+      "source_leak": 0.1,
+      "control": 0.2,
+      "control_cost_ratio": 0.2,
+      "peer": 0.06,
+      "resistance_reference": 5,
+      "source_gate_budget": 2
+    },
+    "routes": {
+      "direct_ground": 1,
+      "direct_general": 1,
+      "general_ground": 1,
+      "day_upper": 1,
+      "direct_yin": 0.75,
+      "transmission_adjacent": 0.5,
+      "transmission_remote": 0.25,
+      "same_relevant_core": 0.25,
+      "cross_general": 0.15
+    },
+    "constraints": {
+      "刑": 0.12,
+      "冲": 0.2,
+      "破": 0.08,
+      "害": 0.1,
+      "自刑": 0.05,
+      "cap_disruption": 0.35,
+      "六合": 0.2,
+      "半合": 0.1,
+      "三合": 0.15,
+      "三会": 0.1,
+      "cap_binding": 0.3,
+      "direct_greedy": 0.5,
+      "cap_greedy": 0.5
+    },
+    "virtue_max_reduction": 0.25,
+    "harm_tendency": {
+      "旺": 0.15,
+      "相": 0.25,
+      "休": 0.45,
+      "囚": 0.7,
+      "死": 0.9
+    },
+    "favorable_tendency": {
+      "旺": 1,
+      "相": 0.9,
+      "休": 0.65,
+      "囚": 0.4,
+      "死": 0.2
+    },
+    "independent_strength_line": 2.5
+  },
+  "proposed_changes": {
+    "peer_source_limit": "min(current_strength, own_environmental_seed); amplified contribution is not re-exported as fresh peer aid",
+    "yin_active_route_depth": 1,
+    "yin_depth_solver": "E(0) excludes active yin edges; E(1) takes yin inputs from E(0); explicit rule grants further depth; states are alternative references, never summed as separate actors",
+    "constraint_same_cause": "max-after-path-identity-resolution",
+    "constraint_distinct_causes": "1-product(1-loss); apply category cap once",
+    "group_gain_upper_bounds": {
+      "半合": 0.05,
+      "三合": 0.1,
+      "三会": 0.12
+    },
+    "group_gain_placement": "eligible_cooperative_route_gate_before_source_budget_only",
+    "group_integrity": "coverage * sqrt(min_member_strength * mean_member_strength) / 10",
+    "group_coverage": {
+      "full": 1,
+      "half": 0.5
+    },
+    "stage_activation": {
+      "current_phase_actor": 1.2,
+      "relevant_other_phase_actor": 1,
+      "lesson_only_actor": 0.9,
+      "other_relevant_actor": 0.75,
+      "day_subject": 1
+    },
+    "tomb_body_reference": 1,
+    "tomb_access_retention": 0.6,
+    "tomb_release_strength_ratio": 0.6,
+    "gold_fire_branch_bias_range": [
+      -0.5,
+      0.5
+    ],
+    "four_buildings_flat_multiplier": null,
+    "event_success_threshold": null,
+    "numeric_display_decimals": 1
+  },
+  "notes": [
+    "候选参数的研究实现；按显式条件接入；未验证预测效果",
+    "空亡沿用原设置；未知必要机制阻止完整作用结论",
+    "本文件为独立研究配置，不替换现行默认导出参数"
+  ],
+  "proposal_sha256": "1950b42375f4426b1010d509bfd2b01a49677cac5cf5ce574e9e46594ec2422c",
+  "iteration": {
+    "damping": 0.5,
+    "tolerance": 1e-09,
+    "max_iterations": 2000,
+    "initial_values": [
+      0,
+      5,
+      10
+    ],
+    "agreement_tolerance": 1e-06
+  },
+  "group_effects": {
+    "enabled": false,
+    "reason": "2026-11-09用户指示：合局可以先不做；仅保留成员事实"
+  },
+  "relation_scope": {
+    "mode": "direct-placement-only",
+    "allowed": [
+      "heaven-ground-bidirectional",
+      "general-carrier-bidirectional",
+      "own-direct-yin-view-bidirectional",
+      "day-own-upper-and-yin-view"
+    ],
+    "excluded": [
+      "general-ground-active-five-relations",
+      "same-core",
+      "transmission-distance",
+      "cross-general",
+      "arbitrary-four-building-links"
+    ],
+    "yin_booking": "仅结算所看节点自己与其阴神的作用，不反向扩展为阴神对其他节点的新攻击"
+  }
+}

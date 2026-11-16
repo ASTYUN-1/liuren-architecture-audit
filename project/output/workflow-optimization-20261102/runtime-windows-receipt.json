@@ -1,0 +1,138 @@
+{
+  "generatedAtUtc": "2026-11-02T02:11:42.425421+00:00",
+  "environment": "Windows isolated candidate; OpenCode Scoop manifest 1.18.29",
+  "paidApiRequests": 0,
+  "productionChanged": false,
+  "scope": "mock responses only; successful mocks do not establish real API speed or paid-service acceptance",
+  "configuration": {
+    "taskMaxMs": 1800000,
+    "queueTimeExcluded": true,
+    "modelRequestTimeoutMs": null,
+    "idleCancellationEnabled": false,
+    "fixedModelRequestLimit": null,
+    "fixedToolCallLimit": null,
+    "mcpTimeoutMs": 1800000,
+    "modelOutputMaxTokens": 32768,
+    "modelBodyMaxBytes": 16777216,
+    "mcpBodyMaxBytes": 2000000,
+    "toolFrameBufferMaxBytes": 2000000,
+    "connectionTimeoutMs": 20000
+  },
+  "checks": [
+    {
+      "name": "gateway/control/session/body endpoint checks",
+      "files": [
+        "tests/gateway-stream-body-limits.test.ts",
+        "tests/gateway-stream-optimization.test.ts",
+        "tests/gateway.test.ts",
+        "tests/execution-control.test.ts",
+        "tests/session-completion.test.ts"
+      ],
+      "pass": 20,
+      "fail": 0,
+      "command": "node --import \"data:text/javascript,process.geteuid=()=>0\" --import tsx --test tests/gateway-stream-body-limits.test.ts tests/gateway-stream-optimization.test.ts tests/gateway.test.ts tests/execution-control.test.ts tests/session-completion.test.ts"
+    },
+    {
+      "name": "native OpenCode >200 requests and >200 tool calls",
+      "file": "tests/runtime-optimization-native.test.ts",
+      "pass": 2,
+      "observations": [
+        {
+          "requests": 206,
+          "toolCalls": 205,
+          "durationMs": 13289.5496
+        },
+        {
+          "requests": 19,
+          "toolCalls": 216,
+          "durationMs": 5355.0129
+        }
+      ],
+      "delivery": "expected report_not_submitted; final gate retained"
+    },
+    {
+      "name": "native OpenCode complete tool arguments on incomplete upstream stream",
+      "file": "tests/runtime-optimization-incomplete.test.ts",
+      "pass": 3,
+      "tools": [
+        "read_case",
+        "submit_clarification",
+        "submit_report"
+      ],
+      "toolCallsEach": 0,
+      "supplierRequestsEach": 1,
+      "discoveredBeforeFix": "SDK invoked each complete tool argument before terminal finish; gateway now buffers tool frames until validated completion"
+    },
+    {
+      "name": "actual localhost long waits through native OpenCode and real dedicated Undici transport",
+      "file": "tests/runtime-optimization-longwait.test.ts",
+      "pass": 1,
+      "scenarios": [
+        "response headers delayed 310000 ms",
+        "headers sent; body silent 310000 ms"
+      ],
+      "observedFirstDeltaMs": [
+        310010,
+        310011
+      ],
+      "observedTaskDurationMs": [
+        315137,
+        314071
+      ],
+      "supplierRequestsTotal": 2,
+      "toolCallsTotal": 0,
+      "realWait": true
+    },
+    {
+      "name": "native concurrency/context isolation and child exit reaping",
+      "file": "tests/runtime-optimization-concurrency.test.ts",
+      "pass": 2,
+      "observations": [
+        {
+          "concurrency": 2,
+          "durationMs": 5169,
+          "requests": 4,
+          "maxActive": 2,
+          "isolatedContexts": 2
+        },
+        {
+          "concurrency": 4,
+          "durationMs": 6899,
+          "requests": 8,
+          "maxActive": 4,
+          "isolatedContexts": 4
+        }
+      ]
+    },
+    {
+      "name": "same-session single length continuation",
+      "execution": "temporary stdin script; no source file change",
+      "pass": 1,
+      "requests": 3,
+      "toolCalls": 1,
+      "sameSessionContextPreserved": true
+    },
+    {
+      "name": "typecheck",
+      "command": "pnpm exec tsc --noEmit",
+      "exitCode": 0
+    }
+  ],
+  "sourceSha256AtReceipt": {
+    "src/agent/runtime.ts": "cb0058d502aefc93545817adc7f7c6409ef5f5664eefa2b33cbb3efa1124cef0",
+    "src/agent/gateway.ts": "76950ddd01b9ff7a0e0edfed1b322415c1802eb4eff5ea9406d3df8e673cce9b",
+    "src/agent/execution-control.ts": "03fc69d133ce24e143bd9547c632fa7ce4e3a51058f211bcd47018e31b9e46d2",
+    "src/agent/runtime-telemetry.ts": "884725f7116e74fb3c43a6f561a952a1fa51e431a246afe637c6717007c39841",
+    "src/agent/model-transport.ts": "6f6d0d5a68f081fa899bdef1dde55c3a54cec43c1811e4fa835d42ca3aef900d",
+    "src/agent/runtime-lifecycle.ts": "9d9899f5c0a7cadff52a165212d9cd33cb6c18c324f4127bcc34fad82d2f6e59",
+    "src/agent/session-completion.ts": "7e88b0be6c5bb12a54a42d7980b132baf9916b3c0f7f19633f3a22bfe1687cd2",
+    "src/agent/limits.ts": "999cc7c09a5d37f57e52169c650360c40c887ace76f8be64727651c6827065eb",
+    "package.json": "971b750a73938ec771157685e7a35b546cf518e3e866007f679a8307d8efa481",
+    "pnpm-lock.yaml": "5345dd62f171029cfb4227bf5aef6a21b230effaa989e67df79f33a5c3befead"
+  },
+  "limitations": [
+    "Checks ran in batches while candidate evolved; Linux final unified snapshot verification is separate.",
+    "Legacy tests lack historical knowledge resources and are not claimed fully passing.",
+    "No real paid API speed, model judgment accuracy, supplier 4-concurrency capacity or production release acceptance."
+  ]
+}

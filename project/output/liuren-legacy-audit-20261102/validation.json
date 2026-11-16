@@ -1,0 +1,16 @@
+{
+  "audits": 17,
+  "rules": 17,
+  "legacy_entries": 20,
+  "case_files": 15,
+  "evidence_refs": 136,
+  "unique_evidence_ranges": 66,
+  "evidence_files": 27,
+  "dispositions": {
+    "narrow": 7,
+    "revise": 7,
+    "suspend": 3
+  },
+  "independent_validation_count": 0,
+  "quote_hash_path_checks": "PASS"
+}

@@ -1,0 +1,1408 @@
+{
+  "schema": "liuren-shensha-policy-v1",
+  "release": "20261107-slim-26",
+  "calendar": {
+    "month": "固定项目约定：以可靠盘月建节月为月序，寅为正月；不用农历月或月将反推",
+    "season": "寅卯辰春、巳午未夏、申酉戌秋、亥子丑冬",
+    "year": "沿用可靠盘年柱；不混公历1月1日或另行换年",
+    "identity": "以上历法统一是项目操作约定，不声称所有原典原已统一月界"
+  },
+  "indices": {
+    "day_stem": [
+      "甲",
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "year_stem": [
+      "甲",
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "day_branch": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ],
+    "year_branch": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ],
+    "month_branch": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ],
+    "month_index": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "season": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "xun": [
+      "甲子",
+      "甲戌",
+      "甲申",
+      "甲午",
+      "甲辰",
+      "甲寅"
+    ]
+  },
+  "nobleman_tables": {
+    "甲戊庚牛羊": {
+      "昼贵": [
+        "丑",
+        "子",
+        "亥",
+        "亥",
+        "丑",
+        "子",
+        "丑",
+        "午",
+        "巳",
+        "巳"
+      ],
+      "夜贵": [
+        "未",
+        "申",
+        "酉",
+        "酉",
+        "未",
+        "申",
+        "未",
+        "寅",
+        "卯",
+        "卯"
+      ]
+    },
+    "甲羊戊庚牛": {
+      "昼贵": [
+        "未",
+        "申",
+        "酉",
+        "亥",
+        "丑",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "巳"
+      ],
+      "夜贵": [
+        "丑",
+        "子",
+        "亥",
+        "酉",
+        "未",
+        "申",
+        "未",
+        "午",
+        "巳",
+        "卯"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "S01",
+      "name": "太岁",
+      "basis": "year_branch",
+      "table": [
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥"
+      ],
+      "sources": [
+        "A01"
+      ],
+      "formula": "当年年支",
+      "aliases": [
+        "太岁"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-02"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S02",
+      "name": "帘幕贵人",
+      "basis": "opposite_nobleman",
+      "table": [],
+      "sources": [
+        "A02"
+      ],
+      "formula": "沿用已核本盘贵人起例，昼取夜贵、夜取昼贵",
+      "aliases": [
+        "帘幕",
+        "帘幕贵人"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-18"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S03",
+      "name": "日驿马",
+      "basis": "day_branch",
+      "table": [
+        "寅",
+        "亥",
+        "申",
+        "巳",
+        "寅",
+        "亥",
+        "申",
+        "巳",
+        "寅",
+        "亥",
+        "申",
+        "巳"
+      ],
+      "sources": [
+        "A03"
+      ],
+      "formula": "按日支三合局取驿马",
+      "aliases": [
+        "驿马",
+        "支马"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-14"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S04",
+      "name": "天马",
+      "basis": "month_index",
+      "table": [
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰"
+      ],
+      "sources": [
+        "A04"
+      ],
+      "formula": "正月午，顺六阳支",
+      "aliases": [
+        "天马"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-12"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S05",
+      "name": "旬丁",
+      "basis": "xun",
+      "table": [
+        "卯",
+        "丑",
+        "亥",
+        "酉",
+        "未",
+        "巳"
+      ],
+      "sources": [
+        "A05"
+      ],
+      "formula": "六甲旬甲子戌申午辰寅，旬内丁所遁支",
+      "aliases": [
+        "丁马",
+        "旬丁"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-03",
+        "SF-13"
+      ],
+      "authority_review": "derived_from_cycle"
+    },
+    {
+      "id": "S06",
+      "name": "成神",
+      "basis": "month_index",
+      "table": [
+        "巳",
+        "申",
+        "亥",
+        "寅",
+        "巳",
+        "申",
+        "亥",
+        "寅",
+        "巳",
+        "申",
+        "亥",
+        "寅"
+      ],
+      "sources": [
+        "A06"
+      ],
+      "formula": "正月巳，顺四孟",
+      "aliases": [
+        "成神"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-12"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S07",
+      "name": "旬癸闭口",
+      "basis": "xun",
+      "table": [
+        "酉",
+        "未",
+        "巳",
+        "卯",
+        "丑",
+        "亥"
+      ],
+      "sources": [
+        "A05"
+      ],
+      "formula": "六甲旬内癸所遁支；不等于闭口课",
+      "aliases": [
+        "闭口",
+        "旬癸"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-03",
+        "SF-13"
+      ],
+      "authority_review": "derived_from_cycle"
+    },
+    {
+      "id": "S08",
+      "name": "岁小耗",
+      "basis": "year_branch",
+      "table": [
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "sources": [
+        "A01"
+      ],
+      "formula": "太岁顺五支",
+      "aliases": [
+        "小耗",
+        "岁小耗"
+      ],
+      "priority": "primary",
+      "engine_comparison": "ambiguous_same_name",
+      "previous_sources": [
+        "SF-15"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S08M",
+      "name": "月天鼠小耗",
+      "basis": "month_index",
+      "table": [
+        "子",
+        "亥",
+        "戌",
+        "酉",
+        "申",
+        "未",
+        "午",
+        "巳",
+        "辰",
+        "卯",
+        "寅",
+        "丑"
+      ],
+      "sources": [
+        "A07",
+        "A15"
+      ],
+      "formula": "正月子，逆十二支",
+      "aliases": [
+        "小耗",
+        "天鼠",
+        "月天鼠小耗"
+      ],
+      "priority": "supplementary",
+      "engine_comparison": "ambiguous_same_name",
+      "previous_sources": [
+        "SF-20"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S09",
+      "name": "日破碎",
+      "basis": "day_branch",
+      "table": [
+        "巳",
+        "丑",
+        "酉",
+        "巳",
+        "丑",
+        "酉",
+        "巳",
+        "丑",
+        "酉",
+        "巳",
+        "丑",
+        "酉"
+      ],
+      "sources": [
+        "A03"
+      ],
+      "formula": "四孟酉、四仲巳、四季丑",
+      "aliases": [
+        "破碎"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-14"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S10",
+      "name": "月生气",
+      "basis": "month_index",
+      "table": [
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥"
+      ],
+      "sources": [
+        "A10"
+      ],
+      "formula": "正月子，顺十二支",
+      "aliases": [
+        "生气"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-03",
+        "SF-12"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S11",
+      "name": "季天喜",
+      "basis": "season",
+      "table": [
+        "戌",
+        "丑",
+        "辰",
+        "未"
+      ],
+      "sources": [
+        "A08"
+      ],
+      "formula": "春戌夏丑秋辰冬未",
+      "aliases": [
+        "天喜"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-11"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S12",
+      "name": "日德",
+      "basis": "day_stem",
+      "table": [
+        "寅",
+        "申",
+        "巳",
+        "亥",
+        "巳",
+        "寅",
+        "申",
+        "巳",
+        "亥",
+        "巳"
+      ],
+      "sources": [
+        "A09"
+      ],
+      "formula": "日干十干表",
+      "aliases": [
+        "日德",
+        "干德"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-13",
+        "SF-16"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S13",
+      "name": "日禄",
+      "basis": "day_stem",
+      "table": [
+        "寅",
+        "卯",
+        "巳",
+        "午",
+        "巳",
+        "午",
+        "申",
+        "酉",
+        "亥",
+        "子"
+      ],
+      "sources": [
+        "A09"
+      ],
+      "formula": "日干十干表",
+      "aliases": [
+        "日禄",
+        "禄神"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-09",
+        "SF-16"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S14",
+      "name": "支德",
+      "basis": "day_branch",
+      "table": [
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "sources": [
+        "A03"
+      ],
+      "formula": "日支子至亥表",
+      "aliases": [
+        "支德"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-17"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S15",
+      "name": "月破",
+      "basis": "month_branch",
+      "table": [
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳"
+      ],
+      "sources": [
+        "A10"
+      ],
+      "formula": "月建对冲",
+      "aliases": [
+        "月破"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-12"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S16",
+      "name": "季丧车",
+      "basis": "season",
+      "table": [
+        "酉",
+        "子",
+        "卯",
+        "午"
+      ],
+      "sources": [
+        "A08"
+      ],
+      "formula": "春酉夏子秋卯冬午",
+      "aliases": [
+        "丧车"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-11",
+        "SP-01"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S17",
+      "name": "天医",
+      "basis": "month_index",
+      "table": [
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯"
+      ],
+      "sources": [
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "formula": "正月辰，顺十二支",
+      "aliases": [
+        "天医"
+      ],
+      "priority": "primary",
+      "alternatives": [
+        "LS正月戌起法仅存研究，不进入本次采用"
+      ],
+      "previous_sources": [
+        "SF-03",
+        "SP-01"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S18",
+      "name": "地医",
+      "basis": "month_index",
+      "table": [
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉"
+      ],
+      "sources": [
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "formula": "所选天医对冲；不与引擎另一套天医拼配",
+      "aliases": [
+        "地医"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-03"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S19",
+      "name": "岁病符",
+      "basis": "year_branch",
+      "table": [
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌"
+      ],
+      "sources": [
+        "A18",
+        "A01"
+      ],
+      "formula": "上一年太岁支",
+      "aliases": [
+        "病符"
+      ],
+      "priority": "primary",
+      "alternatives": [
+        "日支病符为另一方法；原引擎岁支顺一不采用"
+      ],
+      "previous_sources": [
+        "SF-02",
+        "SF-15"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S20",
+      "name": "岁干死符",
+      "basis": "year_stem",
+      "table": [
+        "申",
+        "申",
+        "亥",
+        "亥",
+        "寅",
+        "寅",
+        "巳",
+        "巳",
+        "辰",
+        "辰"
+      ],
+      "sources": [
+        "A13"
+      ],
+      "formula": "固定采用指南岁干表",
+      "aliases": [
+        "死符"
+      ],
+      "priority": "primary",
+      "alternatives": [
+        "DQ岁支顺五支留研究；本轮择指南作固定默认，不与另一死符并用"
+      ],
+      "previous_sources": [
+        "SF-16"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S21",
+      "name": "月死气",
+      "basis": "month_index",
+      "table": [
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳"
+      ],
+      "sources": [
+        "A10"
+      ],
+      "formula": "正月午，顺十二支；月生气对冲",
+      "aliases": [
+        "死气"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-03",
+        "SP-01"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S21S",
+      "name": "月死神",
+      "basis": "month_index",
+      "table": [
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "sources": [
+        "A10"
+      ],
+      "formula": "正月巳，顺十二支；以指南明确顺行解决“前一位”方向",
+      "aliases": [
+        "死神"
+      ],
+      "priority": "supplementary",
+      "previous_sources": [
+        "SF-03",
+        "SP-01"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S22",
+      "name": "季孤辰",
+      "basis": "season",
+      "table": [
+        "巳",
+        "申",
+        "亥",
+        "寅"
+      ],
+      "sources": [
+        "A08"
+      ],
+      "formula": "春巳夏申秋亥冬寅",
+      "aliases": [
+        "孤辰"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-02"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S23",
+      "name": "季寡宿",
+      "basis": "season",
+      "table": [
+        "丑",
+        "辰",
+        "未",
+        "戌"
+      ],
+      "sources": [
+        "A08"
+      ],
+      "formula": "春丑夏辰秋未冬戌",
+      "aliases": [
+        "寡宿"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-02"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S24",
+      "name": "日桃花",
+      "basis": "day_branch",
+      "table": [
+        "酉",
+        "午",
+        "卯",
+        "子",
+        "酉",
+        "午",
+        "卯",
+        "子",
+        "酉",
+        "午",
+        "卯",
+        "子"
+      ],
+      "sources": [
+        "A03"
+      ],
+      "formula": "以日支三合局取桃花",
+      "aliases": [
+        "桃花",
+        "咸池"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-04",
+        "SF-14"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S25",
+      "name": "文星",
+      "basis": "day_stem",
+      "table": [
+        "亥",
+        "亥",
+        "寅",
+        "寅",
+        "午",
+        "午",
+        "巳",
+        "巳",
+        "申",
+        "申"
+      ],
+      "sources": [
+        "A09"
+      ],
+      "formula": "指南日干表；不冒作文昌",
+      "aliases": [
+        "文星"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-16"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S26",
+      "name": "旬奇",
+      "basis": "xun",
+      "table": [
+        "丑",
+        "丑",
+        "子",
+        "子",
+        "亥",
+        "亥"
+      ],
+      "sources": [
+        "A14"
+      ],
+      "formula": "甲子戌丑、甲申午子、甲辰寅亥",
+      "aliases": [
+        "旬奇"
+      ],
+      "priority": "primary",
+      "alternatives": [
+        "LS反序亥子丑保留研究，不换表"
+      ],
+      "previous_sources": [
+        "SF-24",
+        "SF-13"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S27",
+      "name": "旬仪",
+      "basis": "xun",
+      "table": [
+        "子",
+        "戌",
+        "申",
+        "午",
+        "辰",
+        "寅"
+      ],
+      "sources": [
+        "A14"
+      ],
+      "formula": "六甲旬首支",
+      "aliases": [
+        "旬仪"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-03",
+        "SF-13"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S28",
+      "name": "日退神",
+      "basis": "day_stem",
+      "table": [
+        [
+          "丑",
+          "未"
+        ],
+        [
+          "丑",
+          "未"
+        ],
+        [
+          "丑",
+          "未"
+        ],
+        [
+          "丑",
+          "未"
+        ],
+        [
+          "丑",
+          "未"
+        ],
+        [
+          "辰",
+          "戌"
+        ],
+        [
+          "辰",
+          "戌"
+        ],
+        [
+          "辰",
+          "戌"
+        ],
+        [
+          "辰",
+          "戌"
+        ],
+        [
+          "辰",
+          "戌"
+        ]
+      ],
+      "sources": [
+        "A09"
+      ],
+      "formula": "前五干丑未，后五干辰戌",
+      "aliases": [
+        "退神"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-16"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S29",
+      "name": "日进神",
+      "basis": "day_stem",
+      "table": [
+        [
+          "子",
+          "午"
+        ],
+        [
+          "子",
+          "午"
+        ],
+        [
+          "子",
+          "午"
+        ],
+        [
+          "子",
+          "午"
+        ],
+        [
+          "子",
+          "午"
+        ],
+        [
+          "卯",
+          "酉"
+        ],
+        [
+          "卯",
+          "酉"
+        ],
+        [
+          "卯",
+          "酉"
+        ],
+        [
+          "卯",
+          "酉"
+        ],
+        [
+          "卯",
+          "酉"
+        ]
+      ],
+      "sources": [
+        "A09"
+      ],
+      "formula": "前五干子午，后五干卯酉",
+      "aliases": [
+        "进神"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-16"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S30",
+      "name": "月血光",
+      "basis": "month_index",
+      "table": [
+        "辰",
+        "卯",
+        "寅",
+        "丑",
+        "子",
+        "亥",
+        "戌",
+        "酉",
+        "申",
+        "未",
+        "午",
+        "巳"
+      ],
+      "sources": [
+        "A15"
+      ],
+      "formula": "正月辰，逆十二支",
+      "aliases": [
+        "血光"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-17"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S30Z",
+      "name": "月血支",
+      "basis": "month_index",
+      "table": [
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子"
+      ],
+      "sources": [
+        "A10"
+      ],
+      "formula": "正月丑，顺十二支",
+      "aliases": [
+        "血支"
+      ],
+      "priority": "supplementary",
+      "previous_sources": [
+        "SF-12"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S30J",
+      "name": "月血忌",
+      "basis": "month_index",
+      "table": [
+        "丑",
+        "未",
+        "寅",
+        "申",
+        "卯",
+        "酉",
+        "辰",
+        "戌",
+        "巳",
+        "亥",
+        "午",
+        "子"
+      ],
+      "sources": [
+        "A16"
+      ],
+      "formula": "固定月表",
+      "aliases": [
+        "血忌"
+      ],
+      "priority": "supplementary",
+      "previous_sources": [
+        "SF-12"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S31",
+      "name": "阳刃",
+      "basis": "day_stem",
+      "table": [
+        "卯",
+        "寅",
+        "午",
+        "巳",
+        "午",
+        "巳",
+        "酉",
+        "申",
+        "子",
+        "亥"
+      ],
+      "sources": [
+        "A17",
+        "A09"
+      ],
+      "formula": "仅采用阳干甲卯、丙戊午、庚酉、壬子；阴干逆取停用，原十干表保留研究",
+      "aliases": [
+        "阳刃"
+      ],
+      "priority": "primary",
+      "authority": "用户既定本地约定；完整十干古籍证据未齐，不冒称已考证",
+      "previous_sources": [
+        "LOCAL-BLADE"
+      ],
+      "authority_review": "partial_source_checked",
+      "unsupported_basis": [
+        "乙",
+        "丁",
+        "己",
+        "辛",
+        "癸"
+      ],
+      "unsupported_reason": "阴干阳刃逆取缺直接六壬文献证据，当前停用该分支；旧表仅保留研究，不据此推定无伤。"
+    },
+    {
+      "id": "S31Y",
+      "name": "羊刃",
+      "basis": "day_stem",
+      "table": [
+        "卯",
+        "辰",
+        "午",
+        "未",
+        "午",
+        "未",
+        "酉",
+        "戌",
+        "子",
+        "丑"
+      ],
+      "sources": [
+        "A09"
+      ],
+      "formula": "指南羊刃完整十干表：卯辰午未午未酉戌子丑；次要参照，非阴干阳刃的替代命中",
+      "aliases": [
+        "羊刃"
+      ],
+      "priority": "secondary",
+      "authority": "既有两刃分表约定；与阳刃不同，不以近名互代",
+      "previous_sources": [
+        "LOCAL-BLADE"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S32",
+      "name": "丧门",
+      "basis": "year_branch",
+      "table": [
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥",
+        "子",
+        "丑"
+      ],
+      "sources": [
+        "A18",
+        "A01"
+      ],
+      "formula": "太岁顺二支",
+      "aliases": [
+        "丧门"
+      ],
+      "priority": "primary",
+      "previous_sources": [
+        "SF-02"
+      ],
+      "authority_review": "source_checked"
+    },
+    {
+      "id": "S32D",
+      "name": "吊客",
+      "basis": "year_branch",
+      "table": [
+        "戌",
+        "亥",
+        "子",
+        "丑",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉"
+      ],
+      "sources": [
+        "A18",
+        "A01"
+      ],
+      "formula": "太岁逆二支",
+      "aliases": [
+        "吊客"
+      ],
+      "priority": "supplementary",
+      "previous_sources": [
+        "SF-02"
+      ],
+      "authority_review": "source_checked"
+    }
+  ],
+  "disabled": [
+    "岁德",
+    "转煞",
+    "贼符",
+    "月符",
+    "天厕",
+    "瓦煞",
+    "直符",
+    "进爵",
+    "飞镰",
+    "天才",
+    "游煞",
+    "火恶",
+    "游娲",
+    "天史",
+    "伏殃",
+    "旬盗",
+    "稼穑",
+    "天罗",
+    "干胎神",
+    "时煞",
+    "马倒",
+    "支胎神"
+  ],
+  "admission": {
+    "resolved": "起法与位置可采用；是否切题及实际作用仍由专业判断裁定",
+    "missing_input": "本盘缺参，不采用；不得换称背景风险",
+    "invalid_input": "本盘参数或坐标冲突，不采用受影响项目",
+    "disabled": "当前定义不足，停用；资料保留研究",
+    "unregistered": "不自动采用原引擎标签。专项补充需另有可复算起法、基准、来源、对象和条件记录；下次维护可入表"
+  },
+  "source_map": "references/shensha-source-map.json",
+  "supplemental_sources": "references/shensha-policy-evidence.json",
+  "prediction_validation": "未做独立预测效果验证；本表只固定计算及采用口径",
+  "coordinate_contract": "所有神煞归属天盘支；所临地盘无神煞。午加丑，午的神煞仍在午，丑仅为所临地。",
+  "authority_sources": "references/shensha-authority-evidence.json",
+  "authority_priority": "神煞起法以对应基准的六壬古籍直接表文为先，北海闲人等可靠解释互证；群笔记、杂抄及旧引擎不充作最终权威。先辨岁/月/季/日/旬、起法与断法、通则与专例；同层异法明确择定版本，不逐盘择吉换表。"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "schema": "liuren-rule-card-v1",
+    "id": "LR26-SHAO-CANON-WATER-LAND",
+    "title": "独足酉六合问远行：兑泽合船利水路，无足不利陆路",
+    "categories": [
+      "出行占",
+      "财运占"
+    ],
+    "claim_origin": "本轮归纳",
+    "review_state": "source_checked",
+    "status": "candidate",
+    "conditions": [
+      "问远行或远方买卖，原载课式为独足、三传酉乘六合。",
+      "两个原段都明确以酉兑泽、六合船解释水路，以独足无足解释陆路。"
+    ],
+    "exclusions": [
+      "不迁移到同课问子嗣的五女数；不从本核心推导利润倍数。",
+      "127附将时巳将卯时、137酉将亥时分别保存，尚不据同象断同一事件或唯一正确排盘。"
+    ],
+    "conclusion": "在这两个原载条件分支中，共同水陆方法只保留一条规范入口：酉兑泽、六合船可取水行，独足无足不利陆行。收益幅度另见各来源分支。",
+    "reasoning_steps": [
+      "比较两段相同问事、独足酉六合、泽船和水陆结论，合并其完全重叠的表达。",
+      "十倍无后叙与加倍笼统果应为不同收益证据，不并数法、不增加独立验证。"
+    ],
+    "alternatives": [
+      "相同课象不足以证明两案为同一次占问；输入将时差异仍待原书/善本核定。"
+    ],
+    "evidence_refs": [
+      {
+        "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+        "line_start": 1302,
+        "line_end": 1303,
+        "quote": "同日张姓占远行，亦得此课。以酉为兑泽，六合为船只，利舟行，无足不利陆行，若行船获利十倍。\n",
+        "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+        "role": "原书断语"
+      },
+      {
+        "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+        "line_start": 1392,
+        "line_end": 1400,
+        "quote": "137）张克用商人占远方买卖，己未日酉将亥时。（子丑空亡，寅卯落空），八专，独足。\n\t\t陈六\n龙未申酉戌朱\n空午    亥蛇\t\t蛇\t六\t蛇\t六\t\t子 辛酉\t六 初\n虎巳    子贵\t\t亥\t酉\t亥\t酉\t\t子 辛酉\t六 中\n常辰卯寅丑后\t\t酉\t未\t酉\t己\t\t子 辛酉\t六 末\n\t\t玄阴\n邵先生曰：酉为兑，兑为泽，六合为舡，只利舡行，独足无足，不利陆行，若舡行加倍得利，果应。\n",
+        "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+        "role": "原书断语"
+      }
+    ],
+    "source_case_refs": [
+      {
+        "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+        "line_start": 1302,
+        "line_end": 1303,
+        "quote": "同日张姓占远行，亦得此课。以酉为兑泽，六合为船只，利舟行，无足不利陆行，若行船获利十倍。\n",
+        "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+        "role": "原书断语",
+        "case_id": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1302-L1303"
+      },
+      {
+        "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+        "line_start": 1392,
+        "line_end": 1400,
+        "quote": "137）张克用商人占远方买卖，己未日酉将亥时。（子丑空亡，寅卯落空），八专，独足。\n\t\t陈六\n龙未申酉戌朱\n空午    亥蛇\t\t蛇\t六\t蛇\t六\t\t子 辛酉\t六 初\n虎巳    子贵\t\t亥\t酉\t亥\t酉\t\t子 辛酉\t六 中\n常辰卯寅丑后\t\t酉\t未\t酉\t己\t\t子 辛酉\t六 末\n\t\t玄阴\n邵先生曰：酉为兑，兑为泽，六合为舡，只利舡行，独足无足，不利陆行，若舡行加倍得利，果应。\n",
+        "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+        "role": "原书断语",
+        "case_id": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1392-L1400"
+      }
+    ],
+    "source_case_ids": [
+      "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1302-L1303",
+      "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1392-L1400"
+    ],
+    "support_case_ids": [
+      "BK26-SHAO-1271",
+      "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1302-L1303",
+      "BK26-SHAO-137",
+      "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1392-L1400"
+    ],
+    "counterexample_case_ids": [],
+    "legacy_entry_ids": [],
+    "relations": [
+      {
+        "type": "条件分支",
+        "target_id": "LR26-BOOK-SHAO-C1271",
+        "reason": "共享水陆核心统一到本规范入口；本来源独有收益幅度/反馈保留。"
+      },
+      {
+        "type": "条件分支",
+        "target_id": "LR26-BOOK-SHAO-C137",
+        "reason": "共享水陆核心统一到本规范入口；本来源独有收益幅度/反馈保留。"
+      }
+    ],
+    "limitations": [
+      "规范表达由本轮归并，保留两个来源原文、将时和收益分支；不是水陆预测效力已验证。"
+    ],
+    "independent_validation_count": 0,
+    "logic_stages": [
+      "问事目标",
+      "类神",
+      "条件归并",
+      "水陆取舍"
+    ],
+    "source_rule_map": [
+      {
+        "source_rule_id": "LR26-BOOK-SHAO-C1271",
+        "canonical_rule_id": "LR26-SHAO-CANON-WATER-LAND",
+        "scope": "仅共同水陆方法；不含收益倍数和事件身份"
+      },
+      {
+        "source_rule_id": "LR26-BOOK-SHAO-C137",
+        "canonical_rule_id": "LR26-SHAO-CANON-WATER-LAND",
+        "scope": "仅共同水陆方法；不含收益倍数和事件身份"
+      }
+    ]
+  }
+]

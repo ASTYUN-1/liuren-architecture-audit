@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "at": "2026-10-17T02:17:37.684Z",
+  "release": "/opt/wenheng/releases/20261017-experience-01",
+  "previous": "/opt/wenheng/releases/20261017-point-debts-01",
+  "backup": "/var/backups/wenheng-experience-20261017-hAMCa1",
+  "workerPid": 41257,
+  "workerCwd": "/opt/wenheng/releases/20261017-experience-01",
+  "status": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true,
+    "resultNotificationsEnabled": true,
+    "aggregatePaymentsEnabled": false
+  },
+  "settingsUnchanged": true,
+  "skillFilesUnchanged": 78,
+  "testsPassed": 44,
+  "databaseMigration": false,
+  "externalEmailOrPaidModelTests": false,
+  "followupEmails": "suppressed-before-provider-send"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "staged-chart-unresolved-v1",
+  "count": 1,
+  "cases": [
+    {
+      "id": "raw-anli002-0006",
+      "filename": "raw-anli002-0006.md",
+      "shared_original_group": null,
+      "original_time": "时间：甲辰年丙寅月甲子日己巳时",
+      "normalized_time_field": "不转换（原文只有四柱干支，未给公历年月日与钟点）",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "time_selection": null,
+      "source_locator": "案例.txt 第80–87行（以本批 _来源快照.txt 第80–87行为准）",
+      "constraints": {
+        "day_pillar": "甲子",
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "甲辰年丙寅月甲子日己巳时（题干原载，未核验）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "93dc1ee19b8b5f004087a7c46a762cd53a9662d085de9da8c0beab5091f80448",
+      "case_file_sha256": "73eadd33e652df08d81603658803376ddc4f5a2f2c77326606d6ab7a3652a26b",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    }
+  ]
+}

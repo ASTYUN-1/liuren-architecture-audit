@@ -1,0 +1,14 @@
+{
+  "schema": "liuren-analysis-route-v1",
+  "enabled": true,
+  "questionRoutingRequired": true,
+  "domainCount": 17,
+  "programSelectsClassGod": false,
+  "quantityChangeEvidenceRequired": true,
+  "reviewEvidenceRequired": true,
+  "fixedReportTemplate": false,
+  "maxRechecks": 1,
+  "realModelCallCount": 0,
+  "predictiveValidationCount": 0,
+  "audit": "output/liuren-analysis-routing-54/改造与验收说明.md"
+}

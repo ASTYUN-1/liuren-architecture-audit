@@ -1,0 +1,51 @@
+{
+  "schema": "liuren-local-professional-loader-v1",
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "defaultMode": "local-professional",
+  "optionalAuditEntry": "tools/liuren-workflow.py",
+  "sourceHashes": {
+    "tools/liuren-workflow.py": "a586083837d82aecfb819c4009eca4b3527c2890e3673e9f495f9af7c5ddd387",
+    "tools/liuren_workflow.py": "9bd19e44e9e6a64c1bfea0fc93c5efef0a00f8914c07bff590fa0a09a53657ff",
+    "tools/experience_retrieval.py": "99e0f0460d88635dc8d994c5e6baf362710dd2a2f7c181ec4064d9d82a0420d6",
+    "tools/case_retrieval.py": "96bbaf309ee3b1db2e091c93fd5a11d958fab9c812003b1f7f31db953792cab5",
+    "tools/liuren_research_overlay.py": "4c53b682870eb43ee7d5e57665860d11cc4d10e2513e7dd826349c8a7e8221c9",
+    "tools/liuren_knowledge_workbench.py": "bf15545597ab432ce8e9a1a8d9c1d081ec7fe01889c6241f5ba51bf163d3b34e",
+    "tools/liuren_book_cases.py": "7e6dfc12b2e29a4e3d197da7c6c19435e33e004c09bc685bb966a25cb7cb1c95",
+    "tools/liuren_book_reconstruction_verify.mjs": "23ed60ae2557ce9810735141043dd5a64e3b77fd8f00cb08891297e887a73139",
+    "tools/liuren_book_reconstruction.mjs": "baa426386d0bb87eedb372ebbed658dc74853304a1de4179cfc3f81dceafd149",
+    "tools/load-liuren-methods.py": "d745f4f8c0eaa4402f45f19f406ed987fc6ae379fd4f0d0088b8985c0ac5ba21",
+    "tools/load-liuren-procedure.py": "b9a582b9bc75207a199565006b86e7d215b0bec7efbcc5e325a1fc593306b924",
+    "tools/restore-liuren-local-20261103.py": "5da5575c73042dc9ed82e984916a148efc05dfd3177cf3d61a6a7a3fda0db0bf",
+    "tools/liuren-direct.mjs": "4aafc84c9bba63b2e35bf3509b7f2eaf1b9023076a7ab6b7269a2f74231b9aa5",
+    "tools/liuren-shensha.mjs": "d5e9c5edba85c3106e157689e6e0d6e89c6d8fcee215e9e06c5c75e4f1467a9e",
+    "tools/liuren-materials.py": "f052391cc16454b83e16dff8fbf8b017497e9a666e4d4bff2eb8f17d04d4ec2a",
+    ".opencode/tools/liuren_materials.ts": "a1536412d5610f22bcc270b39345ea5efa40a269e4eedf0c0726e91e21c9a987",
+    "tools/liuren-resolved-chart.mjs": "f90349f91419f71ab3469e1c1543b19d68a04a5c507f1de7c3340908a4488887",
+    ".opencode/tools/liuren_chart.ts": "821173867f94a1a102646ce9f8bf8c97e298fe7d3a5d5798123cfad50de5b8b6",
+    "tools/liuren-engine-shensha.mjs": "4d6473697e0684c56bd469c991e4f424b45bf259fd63262ab64108f2855bf9dd",
+    "tools/liuren-local-read.py": "477731fe0b1e5c7748ab95b8d02cf5ce4de6e575a407f7a4e8d63601307ae76b",
+    "tools/stage-liuren-liqi-20261105.py": "29aca19a2ac26794d6cded1140e75c0fc5c9da6349432205b0ecfee7750d35e4",
+    "output/20261105-liqi-led-01/finalize.py": "b63b147bf7c7a882ad1abf753a977b82a23bb702a5eadd4635df6f35865095bb"
+  },
+  "websiteOutputPolicy": false,
+  "semanticCorrectness": "unverified",
+  "independentValidation": 0,
+  "release": "20261104-chart-first-02",
+  "methodPlanTransport": {
+    "protocol": "liuren-plan-reference-v1",
+    "context": "OpenCode ToolContext.sessionID; CLI explicit context-key",
+    "omission": "full plan only; all selected page text is always transmitted",
+    "fullPlan": "explicit full_plan or missing/mismatched context/identity",
+    "readState": "none; token is not proof of reading or context retention",
+    "role": "legacy audit only; all route parameters must be repeated"
+  },
+  "defaultMethodTransport": {
+    "action": "method",
+    "selector": "module",
+    "body": "one complete module; no batch plan",
+    "execution": "read current step, apply to chart, then continue; retrieval after initial judgment"
+  },
+  "chartPreflight": "Strict active policy identity/hash before engine invocation; one loaded policy snapshot per request",
+  "methodHierarchy": "liqi-led-symbols-describe",
+  "authoringSource": "knowledge/liuren-v3/revisions/20261105-liqi-led-02"
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-MODERN-027-ALT-SOURCE-CHECK",
+  "case_id": "BK26-MODERN-027",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "甲辰",
+      "month_branch": "子",
+      "day": "癸酉",
+      "hour_branch": "戌"
+    },
+    "month_general": "寅"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 3779,
+      "line_end": 3825,
+      "quote": "> 四柱：甲辰 丙子 癸酉 壬戌 丑将 正时起课 甲子旬 戌亥空申年 辰命 女\n\n\n<details>\n<summary>盘局信息</summary>\n\n- **天将：** 龙 空 虎 常\n- **遁干：** 壬 癸\n- **天盘：** 申 酉 戌 亥\n- **地盘：** 巳 辰 卯 寅\n- **地盘遁干：** 己 戊 丁 丙\n- **地盘天将：** 雀 蛇 贵 后\n- **四课天将：** 贵 玄 勾 蛇\n- **四课三传：** 官戊辰蛇勾辛未子甲玄卯子未辰官辛未勾合庚午丑乙阴子酉辰癸官戌虎⌾\n\n</details>\n\n**癸酉日第十局干上辰**\n\n课体：元首，稼穑，斩关。\n\n毕法云：权摄不正禄临支，干墓并关人宅废。\n\n\n### 群断\n\n骑牛打酱油：丢不了，理论上当日找到。只是位置没类出来，是不是灯下面？\n\n\n### 反馈\n\n晚上亥时找到的，在床下，靠西墙。\n\n\n### 复盘\n\n骑牛打酱油：如果天空可以是墙，西墙就极其明显。只不过我不常用天空这样象。乐无穹问骑牛打酱油：怎么看当晚就能找到啊？\n\n骑牛打酱油答：巳酉丑么，今天的局，在今天。财在天空酉下面，西墙下。以下为骑牛打酱油对此课的排盘：\n\n[]\n\n乐无穹问骑牛打酱油：您这盘咋和我排得不一样？我排错了么，大帝？骑牛打酱油答：没有，就是用将不同，所以我说我们课不一样。\n\n叶云生问骑牛打酱油：有个疑问哦，为啥用寅做用将咧？\n\n骑牛打酱油答：真太阳过宫还没到。用二十八宿划分十二次分宫，看太阳所在位置，现在还在寅宫最后两度，明后天我们就同样丑将啦。大体合局物易得，玄武不克，又无明显之鬼，类神现课，基本上就能寻得。其它论断，见上。",
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "原文3779–3825明载甲辰年。",
+    "pillars.month_branch": "月日时取3779四柱，另将寅在3823/3825明确，不按钱包找回的时间位置选设置。",
+    "pillars.day": "原文3779–3825明载癸酉日。",
+    "pillars.hour_branch": "原文3779–3825明载戌时。",
+    "month_general": "原文3779–3825明载寅将。"
+  },
+  "constraints": [
+    {
+      "field": "chart_types",
+      "expected": "从革",
+      "operator": "contains",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3817,
+          "line_end": 3817,
+          "quote": "骑牛打酱油答：巳酉丑么，今天的局，在今天。财在天空酉下面，西墙下。以下为骑牛打酱油对此课的排盘：",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked",
+      "source_conflict_note": "原巳酉丑指三合金局，未明三传先后；仅按从革局名比较，不将它强作传序。"
+    },
+    {
+      "field": "heaven_earth.巳.tian",
+      "expected": "酉",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3817,
+          "line_end": 3817,
+          "quote": "骑牛打酱油答：巳酉丑么，今天的局，在今天。财在天空酉下面，西墙下。以下为骑牛打酱油对此课的排盘：",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked",
+      "source_conflict_note": "癸日火为财；财在天空酉下面表示天盘酉天空临财巳，非地盘酉乘天空。"
+    },
+    {
+      "field": "heaven_earth.巳.tianjiang",
+      "expected": "天空",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 3817,
+          "line_end": 3817,
+          "quote": "骑牛打酱油答：巳酉丑么，今天的局，在今天。财在天空酉下面，西墙下。以下为骑牛打酱油对此课的排盘：",
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "OCR残盘/另盘缺图身份保留，标准排盘仅为衍生候选而非原图复现。",
+  "notes": [
+    "月日时取3779四柱，另将寅在3823/3825明确，不按钱包找回的时间位置选设置。",
+    "原载结果不参与输入、约束和择盘；未核贵人/昼夜/涉害全枚举，不自动完整。",
+    "前ALT请求误把局名当传序、酉天空当落地酉，约束提取有误，前结果不得当原文冲突证据；本请求更正语义且保留旧归档。"
+  ]
+}

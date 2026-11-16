@@ -1,0 +1,46 @@
+{
+  "release": "/opt/wenheng/releases/20261110-conpera-metering-01",
+  "previous": "/opt/wenheng/releases/20261110-opencode40-02",
+  "buildId": "HU4lrlwzNAj8RYN5t3s-0",
+  "rates": {
+    "SOL_PRICING_CHANNEL": "self-operated-standard",
+    "SOL_INPUT_NANO_CNY": "560",
+    "SOL_CACHE_NANO_CNY": "56",
+    "SOL_CACHE_WRITE_NANO_CNY": "700",
+    "SOL_OUTPUT_NANO_CNY": "2800"
+  },
+  "health": {
+    "data": {
+      "aggregatePaymentsEnabled": false,
+      "paymentsEnabled": true,
+      "aiEnabled": true,
+      "workerOnline": true,
+      "paymentQrUrl": "/uploads/payment/alipay-b912d4de45d8.jpg",
+      "paymentQrIsPlaceholder": false,
+      "overseasPaymentsEnabled": false,
+      "smtpConfigured": true,
+      "resultNotificationsEnabled": true,
+      "modelConfigured": true,
+      "paymentUnavailableReason": null,
+      "aiUnavailableReason": null
+    }
+  },
+  "internalServiceUnchanged": true,
+  "sourceHashes": {
+    "src/agent/gateway.ts": "9ec688cb6cf8724fdbf3f82735134c418c49c403921bbc1ddc395b6e26a92653",
+    "src/agent/native-gateway.ts": "87af0f762a678557ff600ff071b9a74210025f9e4036362a09c7983e069d7305",
+    "src/components/admin-records.tsx": "b0afe5c7e18f136e770acf5bfddb8ed8b879688efe4cb9d546375d9d5ad8c021",
+    "src/components/admin-tasks.tsx": "23ed3ec8812b9206dd131fa2376afcc33c106b152e1691b977dcb1a919a03802",
+    "src/components/admin-usage-review.tsx": "c2c357dbc5a887e1a9411367de44353e0a083962c40c940db94dab22db3fbfea",
+    "src/server/admin-notices.ts": "1d425264f2fce2efe67cdb70d44e2cd0649fdc58ceb45128dce254fd4d41a224",
+    "src/server/contracts.ts": "77836d1f11cfde6ad2948273c2fa6dac7061ffaddd1e2aa65a8fd84b745e39e5",
+    "src/server/points-ai.ts": "7e0a366d50a4696ed12c72a9358df2c68d7ccdd2105aa4e408daf4c21474df3e",
+    "src/server/service.ts": "d9f7ed64e43699aa1042ff0c0faa51b5bbe2ab3ae305a6b8fe3e3b9fefec5485"
+  },
+  "financialBeforeReconciliation": {
+    "point_lots": "19|4d3d906f05eb45342be92c3da7e59720",
+    "point_ledger": "168|92ed143fe8a2aea65b5172752345eebf",
+    "point_debts": "0|a2e4822a98337283e39f7b60acf85ec9",
+    "point_holds": "68|b3578ef59c272419a77f819c0dc24e03"
+  }
+}

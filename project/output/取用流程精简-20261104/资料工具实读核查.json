@@ -1,0 +1,245 @@
+{
+  "release": "20261104-mapping-lean-01",
+  "batches": 9,
+  "pages": 26,
+  "modules": 18,
+  "allPageHashesMatch": true,
+  "allModulesReconstructed": true,
+  "oldSourceReadable": true,
+  "records": [
+    {
+      "module": "mapping-provenance",
+      "stage": 2,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\mapping-provenance.md",
+      "fileSha256": "080bcde5fcb51c7c431c474bd2048e2fa1e753418a1cecb5446d4263865bc58f",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "080bcde5fcb51c7c431c474bd2048e2fa1e753418a1cecb5446d4263865bc58f"
+    },
+    {
+      "module": "class-mapping",
+      "stage": 2,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\class-mapping.md",
+      "fileSha256": "95b85902e2b903ffeca804845b7a9614a95facdea707a3f99297ef998efac73a",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "95b85902e2b903ffeca804845b7a9614a95facdea707a3f99297ef998efac73a"
+    },
+    {
+      "module": "positioning",
+      "stage": 2,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\positioning.md",
+      "fileSha256": "4de254565e3973f2b089db278d96d5e00684940be2e98230411b0a5c369ba9a4",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "4de254565e3973f2b089db278d96d5e00684940be2e98230411b0a5c369ba9a4"
+    },
+    {
+      "module": "evidence",
+      "stage": 2,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\evidence.md",
+      "fileSha256": "7689295f52c57a4ca7e0279aff89ef7b47f553c0857cc8aab4f5b1bdc8ea6791",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "7689295f52c57a4ca7e0279aff89ef7b47f553c0857cc8aab4f5b1bdc8ea6791"
+    },
+    {
+      "module": "lost-person-object",
+      "stage": 2,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\domains\\lost-person-object.md",
+      "fileSha256": "a371b1c0a72b67efa9e4117457b1172c37eafda43a844c82d01f19e182a50eb9",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "a371b1c0a72b67efa9e4117457b1172c37eafda43a844c82d01f19e182a50eb9"
+    },
+    {
+      "module": "relations",
+      "stage": 3,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\relations.md",
+      "fileSha256": "4e5d8b49648f330f275b6aa08573e3d9177e06edb11536951b28a00e15da6191",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "4e5d8b49648f330f275b6aa08573e3d9177e06edb11536951b28a00e15da6191"
+    },
+    {
+      "module": "liqi",
+      "stage": 4,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\liqi.md",
+      "fileSha256": "cc85c696e94b1d1b30df1932d4efc4b430e5e629c2a5096bddb9a4941ab33ade",
+      "page": 1,
+      "pages": 2,
+      "pageSha256": "8dfd632797ccdd13c07e1916618b39dd4407d81d9315c583b248ca70d6db9429"
+    },
+    {
+      "module": "liqi",
+      "stage": 4,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\liqi.md",
+      "fileSha256": "cc85c696e94b1d1b30df1932d4efc4b430e5e629c2a5096bddb9a4941ab33ade",
+      "page": 2,
+      "pages": 2,
+      "pageSha256": "5c82b4c6800562861b4a2d90e8905cd769861b2ac4545f2935f9d7c00a3c542f"
+    },
+    {
+      "module": "void",
+      "stage": 4,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\void.md",
+      "fileSha256": "84016734fdf3b97515911f95aa17a97c8b06a28a1074bb81b80f7e56c13e6b70",
+      "page": 1,
+      "pages": 2,
+      "pageSha256": "bdb4bc8f7abaa2ee2da7ad224453c42ec820fbcecc7d56c63752cf5fd2149559"
+    },
+    {
+      "module": "void",
+      "stage": 4,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\void.md",
+      "fileSha256": "84016734fdf3b97515911f95aa17a97c8b06a28a1074bb81b80f7e56c13e6b70",
+      "page": 2,
+      "pages": 2,
+      "pageSha256": "55d143e13a93712ff2fbbf5a10247504bc76b501da1de4026eedea4b7859b2d3"
+    },
+    {
+      "module": "bashajiubao",
+      "stage": 5,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\bashajiubao.md",
+      "fileSha256": "ee0da7eab69cff67b5af5dca000409b0fe0a91ff303fe455f5678385aed60465",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "57e8d01acf2d0efd00a06b74b956e3b75489b93f153135707331ac475a89f356"
+    },
+    {
+      "module": "engine-shensha-output",
+      "stage": 5,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\engine-shensha-output.md",
+      "fileSha256": "474463d5b17c7c250224e02e2238b160fa6081e650c1124675115fe49389ae7e",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "c67f59347f30872fed605232e8d5de48fefe66a88e468422c2141ee7a6ef4b43"
+    },
+    {
+      "module": "shensha-focus",
+      "stage": 5,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\shensha-focus.md",
+      "fileSha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "page": 1,
+      "pages": 3,
+      "pageSha256": "cb9f3e912f71f136b359eec23640ef0c1a1472a254901f4d730a83d0a7cde419"
+    },
+    {
+      "module": "shensha-focus",
+      "stage": 5,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\shensha-focus.md",
+      "fileSha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "page": 2,
+      "pages": 3,
+      "pageSha256": "2e87c3e84ca7cfa343dfc9adf80da7a6fce4dc5ca3ae442d08b5ac0ce2e9933b"
+    },
+    {
+      "module": "shensha-focus",
+      "stage": 5,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\shensha-focus.md",
+      "fileSha256": "1d8b7cc2d6384679921a0ad2aa0d8bfe721b0f9fd68f18aab86c669b58515c51",
+      "page": 3,
+      "pages": 3,
+      "pageSha256": "5fe04d2bfe02695702104881bd8389a45ac939bddf69f36b606ae7e35dff5c18"
+    },
+    {
+      "module": "shensha-use",
+      "stage": 5,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\references\\shensha-use.md",
+      "fileSha256": "f2f9fd7e3d12ea91eeb89c384bef3c74c1b9e32e904c6a435434429c7a9388cc",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "28970220dd5d9e59a37fd8b8ca3f266abcf19c66aabff3851aaa29fa08ff9266"
+    },
+    {
+      "module": "movement",
+      "stage": 6,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\movement.md",
+      "fileSha256": "9f800b94eb15e6ed75e1d61692d768014b12be94ec5d882e3d3c834d5806f950",
+      "page": 1,
+      "pages": 2,
+      "pageSha256": "d394f5fd2969793c15b4ac546ade1fc510a4055515289ef864fd896a21287be0"
+    },
+    {
+      "module": "movement",
+      "stage": 6,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\movement.md",
+      "fileSha256": "9f800b94eb15e6ed75e1d61692d768014b12be94ec5d882e3d3c834d5806f950",
+      "page": 2,
+      "pages": 2,
+      "pageSha256": "367a96178e486e89d4a5da656ea670f02a600f30856dc6d43cc6bf34662beb7c"
+    },
+    {
+      "module": "structure",
+      "stage": 7,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\structure.md",
+      "fileSha256": "6dc460a25d16b9dd093e985012aba5e6f358b1e165e8ac2df796cf7680b87fec",
+      "page": 1,
+      "pages": 2,
+      "pageSha256": "3e9f76b7450639e6496619077749e62dd21233c62f4592675fa667febcbc4106"
+    },
+    {
+      "module": "structure",
+      "stage": 7,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\structure.md",
+      "fileSha256": "6dc460a25d16b9dd093e985012aba5e6f358b1e165e8ac2df796cf7680b87fec",
+      "page": 2,
+      "pages": 2,
+      "pageSha256": "b9d352579cacb7928536d86090fbf36ca3252d5182e2061e8a1f83fb4e2a779e"
+    },
+    {
+      "module": "adjudication",
+      "stage": 8,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\adjudication.md",
+      "fileSha256": "51bee7d115aef4514d5a734529b0b64ddc3623d398d6beedb81c7158b743561c",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "8656da84e7c3caa6a7bf906c6d7e574c603a58f3f4fc09f52c69c7bc7d07507a"
+    },
+    {
+      "module": "quantity",
+      "stage": 9,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\quantity.md",
+      "fileSha256": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0"
+    },
+    {
+      "module": "timing",
+      "stage": 9,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\timing.md",
+      "fileSha256": "8aa69ca3080ac60f431de990bf41b2b4cb5296252836849c97ed91f2b67558d7",
+      "page": 1,
+      "pages": 3,
+      "pageSha256": "31a3028a93ca64128dc50efe854907cf01dcdf69b3b3380ff6db4d2d6e1ecd3b"
+    },
+    {
+      "module": "timing",
+      "stage": 9,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\timing.md",
+      "fileSha256": "8aa69ca3080ac60f431de990bf41b2b4cb5296252836849c97ed91f2b67558d7",
+      "page": 2,
+      "pages": 3,
+      "pageSha256": "f3820d19514163e07dafb8f271061abecb4e954d064f64bd2cd940c7ba5e382f"
+    },
+    {
+      "module": "timing",
+      "stage": 9,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\timing.md",
+      "fileSha256": "8aa69ca3080ac60f431de990bf41b2b4cb5296252836849c97ed91f2b67558d7",
+      "page": 3,
+      "pages": 3,
+      "pageSha256": "2384f5b23b9a159f984024969e3840134465e7f40a4e5b232a0885a10f19c16e"
+    },
+    {
+      "module": "report",
+      "stage": 11,
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\runtime\\liuren\\20261104-mapping-lean-01\\methods\\report.md",
+      "fileSha256": "07be93cf5357c0ed63d6fea81d68b191a57ee0481471e8d8e956d4e4bbba6aa1",
+      "page": 1,
+      "pages": 1,
+      "pageSha256": "07be93cf5357c0ed63d6fea81d68b191a57ee0481471e8d8e956d4e4bbba6aa1"
+    }
+  ]
+}

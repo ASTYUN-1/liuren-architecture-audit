@@ -1,0 +1,59 @@
+{
+  "schema": "liuren-reconstruction-semantic-review-v1",
+  "case_id": "BK26-MODERN-098",
+  "result_id": "RC26-MODERN-098-ALT-ZI",
+  "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-098-ALT-ZI.json",
+  "result_sha256": "6e027fb3b43a99d1c165b8e17cfb11e19aa6b2744d4ba28195391fba90c61497",
+  "semantic_review_state": "source_checked",
+  "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-098-alt-zi.json",
+  "request_sha256": "8971605073fba8f969c7dab94b07c2c81f945b1840eb77672f03d8350ea206c3",
+  "request_file_sha256": "7ce5e6726f8199f06473d11f75a06d16bc89bc5193b4e2cc80d7badbfd08c4bc",
+  "excluded_setting_label_paths": [
+    "nobleman.rule",
+    "nobleman.requested_zhouye",
+    "nobleman.actual_zhouye"
+  ],
+  "equivalent_candidate_groups": [
+    {
+      "candidate_ids": [
+        "RC26-MODERN-098-ALT-ZI-C01",
+        "RC26-MODERN-098-ALT-ZI-C02",
+        "RC26-MODERN-098-ALT-ZI-C05",
+        "RC26-MODERN-098-ALT-ZI-C06"
+      ]
+    },
+    {
+      "candidate_ids": [
+        "RC26-MODERN-098-ALT-ZI-C03",
+        "RC26-MODERN-098-ALT-ZI-C04",
+        "RC26-MODERN-098-ALT-ZI-C07",
+        "RC26-MODERN-098-ALT-ZI-C08"
+      ]
+    }
+  ],
+  "archived_full_fact_groups": [
+    {
+      "candidate_ids": [
+        "RC26-MODERN-098-ALT-ZI-C01",
+        "RC26-MODERN-098-ALT-ZI-C02",
+        "RC26-MODERN-098-ALT-ZI-C05",
+        "RC26-MODERN-098-ALT-ZI-C06"
+      ],
+      "passes_source_observations": true
+    },
+    {
+      "candidate_ids": [
+        "RC26-MODERN-098-ALT-ZI-C03",
+        "RC26-MODERN-098-ALT-ZI-C04",
+        "RC26-MODERN-098-ALT-ZI-C07",
+        "RC26-MODERN-098-ALT-ZI-C08"
+      ],
+      "passes_source_observations": true
+    }
+  ],
+  "note": "逐读9831–9834、9859–9912：原明乙巳戊寅己未壬申，另明子将。8候选均亥卯未曲直，初癸亥大海水、中乙卯大溪水，与原纳音细流关系合。昼贵01/02/05/06为蛇玄龙，夜贵03/04/07/08为合虎后，二组各完整facts实质等价。原9912干上木克土与全候选第一课亥临己不符，干上为亥水非木，保留来源冲突，不重写原句或据医生结石/拉伤筛选；完整不等术理一致。",
+  "selected_candidate_id": null,
+  "outcome_feedback_used_for_selection": false,
+  "original_image_recovered": false,
+  "independent_prediction_validation_count": 0
+}

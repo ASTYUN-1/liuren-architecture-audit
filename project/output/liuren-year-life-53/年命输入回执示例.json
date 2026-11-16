@@ -1,0 +1,370 @@
+{
+  "scope": "合成输入演示，仅核输入采用、循环计算与盘面坐标，非预测验收",
+  "pillars": [
+    "丙午",
+    "乙未",
+    "庚戌",
+    "癸未"
+  ],
+  "examples": [
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_year": "05",
+        "sex": "男"
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "birth_year": 2005,
+      "birth_year_rule": "以占课公历年展开为最近不晚于占年的同尾数年份",
+      "sex": "男",
+      "birth": {
+        "branch": "酉",
+        "pillar": "乙酉",
+        "source": "工具按出生年换算（整年默认）",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "酉",
+          "upper_branch": "申",
+          "upper_general": "白虎",
+          "direct_yin_branch": "未",
+          "direct_yin_general": "天空"
+        }
+      },
+      "xingnian": {
+        "branch": "亥",
+        "pillar": "丁亥",
+        "source": "工具按本命及占课年柱计算",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "亥",
+          "upper_branch": "戌",
+          "upper_general": "玄武",
+          "direct_yin_branch": "酉",
+          "direct_yin_general": "太常"
+        },
+        "sex": "男",
+        "calculation": {
+          "cycle": 60,
+          "offset": 21,
+          "rule": "一岁丙寅顺行"
+        }
+      },
+      "adopted": true,
+      "missing": [],
+      "conflicts": [],
+      "notes": [
+        "以占课公历年展开为最近不晚于占年的同尾数年份；出生年按该公历编号常用干支整年映射，无需出生月日；明确本命优先。"
+      ],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    },
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_year": "99",
+        "sex": "女"
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "birth_year": 1999,
+      "birth_year_rule": "以占课公历年展开为最近不晚于占年的同尾数年份",
+      "sex": "女",
+      "birth": {
+        "branch": "卯",
+        "pillar": "己卯",
+        "source": "工具按出生年换算（整年默认）",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "卯",
+          "upper_branch": "寅",
+          "upper_general": "腾蛇",
+          "direct_yin_branch": "丑",
+          "direct_yin_general": "贵人"
+        }
+      },
+      "xingnian": {
+        "branch": "巳",
+        "pillar": "乙巳",
+        "source": "工具按本命及占课年柱计算",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "巳",
+          "upper_branch": "辰",
+          "upper_general": "六合",
+          "direct_yin_branch": "卯",
+          "direct_yin_general": "朱雀"
+        },
+        "sex": "女",
+        "calculation": {
+          "cycle": 60,
+          "offset": 27,
+          "rule": "一岁壬申逆行"
+        }
+      },
+      "adopted": true,
+      "missing": [],
+      "conflicts": [],
+      "notes": [
+        "以占课公历年展开为最近不晚于占年的同尾数年份；出生年按该公历编号常用干支整年映射，无需出生月日；明确本命优先。"
+      ],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    },
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_pillar": "甲子",
+        "sex": "男"
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "sex": "男",
+      "birth": {
+        "branch": "子",
+        "pillar": "甲子",
+        "source": "用户明确提供",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "子",
+          "upper_branch": "亥",
+          "upper_general": "太阴",
+          "direct_yin_branch": "戌",
+          "direct_yin_general": "玄武"
+        }
+      },
+      "xingnian": {
+        "branch": "申",
+        "pillar": "戊申",
+        "source": "工具按本命及占课年柱计算",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "申",
+          "upper_branch": "未",
+          "upper_general": "天空",
+          "direct_yin_branch": "午",
+          "direct_yin_general": "青龙"
+        },
+        "sex": "男",
+        "calculation": {
+          "cycle": 60,
+          "offset": 42,
+          "rule": "一岁丙寅顺行"
+        }
+      },
+      "adopted": true,
+      "missing": [],
+      "conflicts": [],
+      "notes": [],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    },
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_pillar": "申",
+        "sex": "男"
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "sex": "男",
+      "birth": {
+        "branch": "申",
+        "source": "用户明确提供",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "申",
+          "upper_branch": "未",
+          "upper_general": "天空",
+          "direct_yin_branch": "午",
+          "direct_yin_general": "青龙"
+        }
+      },
+      "xingnian": {
+        "branch": "子",
+        "source": "工具按本命及占课年柱计算",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "子",
+          "upper_branch": "亥",
+          "upper_general": "太阴",
+          "direct_yin_branch": "戌",
+          "direct_yin_general": "玄武"
+        },
+        "sex": "男",
+        "calculation": {
+          "cycle": 12,
+          "offset": 10,
+          "rule": "一岁丙寅顺行"
+        }
+      },
+      "adopted": true,
+      "missing": [],
+      "conflicts": [],
+      "notes": [],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    },
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_pillar": "申",
+        "sex": "女"
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "sex": "女",
+      "birth": {
+        "branch": "申",
+        "source": "用户明确提供",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "申",
+          "upper_branch": "未",
+          "upper_general": "天空",
+          "direct_yin_branch": "午",
+          "direct_yin_general": "青龙"
+        }
+      },
+      "xingnian": {
+        "branch": "戌",
+        "source": "工具按本命及占课年柱计算",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "戌",
+          "upper_branch": "酉",
+          "upper_general": "太常",
+          "direct_yin_branch": "申",
+          "direct_yin_general": "白虎"
+        },
+        "sex": "女",
+        "calculation": {
+          "cycle": 12,
+          "offset": 10,
+          "rule": "一岁壬申逆行"
+        }
+      },
+      "adopted": true,
+      "missing": [],
+      "conflicts": [],
+      "notes": [],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    },
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_year": 2005
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "birth_year": 2005,
+      "birth_year_rule": "用户四位出生年",
+      "birth": {
+        "branch": "酉",
+        "pillar": "乙酉",
+        "source": "工具按出生年换算（整年默认）",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "酉",
+          "upper_branch": "申",
+          "upper_general": "白虎",
+          "direct_yin_branch": "未",
+          "direct_yin_general": "天空"
+        }
+      },
+      "xingnian": null,
+      "xingnian_candidates": [
+        {
+          "branch": "亥",
+          "pillar": "丁亥",
+          "source": "工具按本命及占课年柱计算",
+          "eligible_as_input": true,
+          "position": {
+            "earth_branch": "亥",
+            "upper_branch": "戌",
+            "upper_general": "玄武",
+            "direct_yin_branch": "酉",
+            "direct_yin_general": "太常"
+          },
+          "sex": "男",
+          "calculation": {
+            "cycle": 60,
+            "offset": 21,
+            "rule": "一岁丙寅顺行"
+          }
+        },
+        {
+          "branch": "亥",
+          "pillar": "辛亥",
+          "source": "工具按本命及占课年柱计算",
+          "eligible_as_input": true,
+          "position": {
+            "earth_branch": "亥",
+            "upper_branch": "戌",
+            "upper_general": "玄武",
+            "direct_yin_branch": "酉",
+            "direct_yin_general": "太常"
+          },
+          "sex": "女",
+          "calculation": {
+            "cycle": 60,
+            "offset": 21,
+            "rule": "一岁壬申逆行"
+          }
+        }
+      ],
+      "adopted": true,
+      "missing": [
+        "sex"
+      ],
+      "conflicts": [],
+      "notes": [
+        "用户四位出生年；出生年按该公历编号常用干支整年映射，无需出生月日；明确本命优先。"
+      ],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    },
+    {
+      "schema": "liuren-year-life-v1",
+      "input": {
+        "birth_pillar": "申",
+        "xingnian": "戌",
+        "sex": "男"
+      },
+      "year_pillar": "丙午",
+      "year_source": "chart.pillars[0]",
+      "sex": "男",
+      "birth": {
+        "branch": "申",
+        "source": "用户明确提供",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "申",
+          "upper_branch": "未",
+          "upper_general": "天空",
+          "direct_yin_branch": "午",
+          "direct_yin_general": "青龙"
+        }
+      },
+      "xingnian": {
+        "branch": "戌",
+        "source": "用户明确提供",
+        "eligible_as_input": true,
+        "position": {
+          "earth_branch": "戌",
+          "upper_branch": "酉",
+          "upper_general": "太常",
+          "direct_yin_branch": "申",
+          "direct_yin_general": "白虎"
+        }
+      },
+      "adopted": true,
+      "missing": [],
+      "conflicts": [
+        {
+          "field": "xingnian",
+          "adopted": "戌",
+          "calculated": "子",
+          "note": "明确行年直接采用；保留差异供针对性核对，不覆盖或停用年命。"
+        }
+      ],
+      "notes": [],
+      "method": "本命取生年支；男一岁丙寅顺、女一岁壬申逆。只知本命支按12支循环；知本命干支按60甲子循环，不倒造唯一出生年或年龄。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "prepared": true,
+  "apkSha256": "09d586eca219d95c6071511f41036570dcb2d80f35afdfc9882310b8b4000a7a",
+  "bytes": 8914519,
+  "versionCode": 8,
+  "versionName": "0.3.4",
+  "package": "com.qiluhub.wenheng.preview",
+  "debuggable": false,
+  "sameSignerAsPublished033": true,
+  "signerSha256": "a6475d9bb52f827315b1762b9d5df924f84c248edb05e2fee029b140807174d6",
+  "published033Sha256": "4cff24858577305fa7619c285d7aa149e0c8be8be9b13b126664a29741b81da6",
+  "physicalDeviceInstalled": false,
+  "sourceVerification": {
+    "passed": true,
+    "apkSha256": "09d586eca219d95c6071511f41036570dcb2d80f35afdfc9882310b8b4000a7a",
+    "sameSignerAsPreviousApk": true,
+    "previousVersionName": "0.3.3",
+    "signerSha256": "a6475d9bb52f827315b1762b9d5df924f84c248edb05e2fee029b140807174d6",
+    "versionCode": 8,
+    "versionName": "0.3.4",
+    "debuggable": false,
+    "allPackagedAssetsMatchTestedAssets": true,
+    "assetCount": 13,
+    "plaintextEngineBundled": false,
+    "packedEngineRoundTripAndTamperChecksPassed": true,
+    "physicalDeviceInstalled": false,
+    "physicalDeviceTestPlan": "User chose to test in-app update on their own phone after publication."
+  }
+}

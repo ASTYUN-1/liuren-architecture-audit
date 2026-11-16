@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "mapping_count": 1574,
+  "legacy_id_coverage": "958/958",
+  "historical_catalog_id_coverage": "808/808",
+  "fragment_id_coverage": "150/150",
+  "rule_id_coverage": "616/616",
+  "missing_ids": [],
+  "duplicate_ids": [],
+  "legacy_current_source_checks": 958,
+  "theme_exact_refs_checked": 8,
+  "owning_overlay_validation": {
+    "record_count": 647,
+    "eligible_count": 647,
+    "mechanical_valid": true,
+    "explicit_rule_family_count": 65,
+    "semantic_validation": "external_review_declaration_only",
+    "independent_validation_count": 0,
+    "complete": false
+  },
+  "new_family_retrievable": true,
+  "new_predictive_rules": 0,
+  "independent_validation_count": 0
+}

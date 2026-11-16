@@ -1,0 +1,548 @@
+{
+  "schema": "liuren-shao-stage-handoff-v1",
+  "stopped_at": "C136–149含原重复141，实际15案；后续未开批",
+  "reviewed_cases": 163,
+  "subjudgments": 442,
+  "original_cards": 94,
+  "supplemental_source_cards": 145,
+  "canonical_retrieval_rules": 1,
+  "unfinished_case_count": 60,
+  "unfinished_cases": [
+    {
+      "case_id": "BK26-SHAO-151",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1541-L1550",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-151"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-154",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1572-L1581",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-154"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-158",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1611-L1622",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-158"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-164",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1670-L1680",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-164"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-165",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1681-L1692",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-165"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-166",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1693-L1702",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-167",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1703-L1713",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-167"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-168",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1714-L1722",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-168"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-169",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1724-L1735",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-170",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1736-L1746",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-171",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1747-L1756",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-172",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1757-L1766",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-172"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-173",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1767-L1776",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-173"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-174",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1777-L1786",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-175",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1787-L1796",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-175"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-176",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1797-L1807",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-176"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-178",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1808-L1816",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-179",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1817-L1825",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-180",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1826-L1834",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-181",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1835-L1842",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-182",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1844-L1853",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-183",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1854-L1862",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-184",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1863-L1873",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-185",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1874-L1882",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-186",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1883-L1891",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-187",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1892-L1900",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-187"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-188",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1901-L1910",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-188"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-189",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1911-L1919",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-189"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-190",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1920-L1928",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-191",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1930-L1938",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-192",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1939-L1948",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-192"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-193",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1949-L1958",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-193"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-194",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1959-L1968",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-195",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1969-L1977",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-196",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1978-L1989",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-196"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-197",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L1990-L2002",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-198",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2003-L2015",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-198"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-199",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2016-L2027",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-200",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2028-L2040",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-201",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2041-L2053",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-202",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2054-L2066",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-203",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2067-L2078",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-203"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-204",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2079-L2091",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-205",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2093-L2106",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-206",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2107-L2122",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-206"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-207",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2123-L2136",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-208",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2137-L2151",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-208"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-209",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2152-L2168",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-210",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2169-L2185",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-210"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-211",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2186-L2198",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-211"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-212",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2199-L2211",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-212"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-213",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2212-L2224",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-213"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-214",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2225-L2236",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-215",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2237-L2249",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-216",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2251-L2260",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-216"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-217",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2261-L2276",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-219",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2277-L2291",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-219"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-220",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2292-L2305",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-221",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2306-L2318",
+      "method_rule_ids": []
+    },
+    {
+      "case_id": "BK26-SHAO-222",
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L2319-L2328",
+      "method_rule_ids": [
+        "LR26-BOOK-SHAO-222"
+      ]
+    }
+  ],
+  "reviewed_with_method_gaps": [
+    {
+      "case_id": "BK26-SHAO-003",
+      "remaining_actions": [
+        "待外源补断语；当前无法提取，不以排盘恢复"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-153",
+      "remaining_actions": [
+        "外源校核正邪四句"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-155",
+      "remaining_actions": [
+        "外源校核旦贵及终局异说"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-027",
+      "remaining_actions": [
+        "未明原法，待其他版本/转引补依据"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-033",
+      "remaining_actions": [
+        "原行年/日德疑句待外源校证"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-041",
+      "remaining_actions": [
+        "原盘/析理贵人冲突待外源校证"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-048",
+      "remaining_actions": [
+        "原正月/十月死气口径待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-053",
+      "remaining_actions": [
+        "末附申/辛妻、丙日绝等异文待校"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-061",
+      "remaining_actions": [
+        "申7未8减半与35寿数未闭合，出生年及卒年年龄校议待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-064",
+      "remaining_actions": [
+        "九年而卒/庚申亡的衔接、本命是木与题干辛未的解释待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-069",
+      "remaining_actions": [
+        "十一月与将时校议未获外源定本，原盘与后议并存"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-082",
+      "remaining_actions": [
+        "更30寿段与62卒及古本26岁之间起算不明，待外源校年"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-091",
+      "remaining_actions": [
+        "四月赴任/记言不去的叙事张力待外源，不称实际按期赴任已核"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-101",
+      "remaining_actions": [
+        "题民政局酉年疑OCR，占年及18年起算待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-102",
+      "remaining_actions": [
+        "辰生于申/今辰生于辰的原句待校，原易卷事实未核"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-109",
+      "remaining_actions": [
+        "亥4子9称36与13年卒的关系未明，待外源校数句"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-116",
+      "remaining_actions": [
+        "行年亥/子/此年遇巳与八月随丧尽的衔接未明，待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-119",
+      "remaining_actions": [
+        "原注多失误/句讹待善本，子息时态与棺尸水灾作用链未恢复"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-120",
+      "remaining_actions": [
+        "后释末传寅与原三传末午不符，待外源校文字"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-1181",
+      "remaining_actions": [
+        "附行者案未明独立各问推法；待外源，不用借盘补造"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-122",
+      "remaining_actions": [
+        "二月题与血支卯推三月占的校议未获定本，退子取月仍有分支"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-131",
+      "remaining_actions": [
+        "七月题与乙木旺火相的季节口径未明，待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-134",
+      "remaining_actions": [
+        "初26/27、末50/56、35半称17及年龄起算仍原双说，待外源校限数"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-121",
+      "remaining_actions": [
+        "原全文完整但未载各子断明推法，待同源解释补核，不由盘标签硬造"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-140",
+      "remaining_actions": [
+        "原却发目不至丙年四五六年句待善本校读"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-141",
+      "remaining_actions": [
+        "原三传皆鬼与末丑子爻的口径未释，保原待核"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-1411",
+      "remaining_actions": [
+        "戊寅/甲戌得财日两说待外源，不作唯一应期"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-142",
+      "remaining_actions": [
+        "源终不可止句与先后歇店叙的语义待外源"
+      ]
+    },
+    {
+      "case_id": "BK26-SHAO-149",
+      "remaining_actions": [
+        "巳中丙戌二姓过房子的原句待校；不强释或改藏干"
+      ]
+    }
+  ],
+  "all_book_method_cards_deduplicated": false,
+  "all_book_review_complete": false,
+  "independent_validation_count": 0,
+  "resume_note": "下一批从151/154/158及164起按未审清单接续；150/152/153/155/156/157/159–163已审勿重复。本阶段停止，须新授权再推进。"
+}

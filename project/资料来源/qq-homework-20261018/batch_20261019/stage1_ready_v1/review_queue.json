@@ -1,0 +1,212 @@
+{
+ "schema": "review-queue-v1",
+ "items": [
+  {
+   "case_id": "raw-qqwb20261019-0003",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_MONTH_GENERAL_MISMATCH：程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0004",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0012",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0023",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=UNSUPPORTED_TIME_ANNOTATION",
+    "issue=EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0028",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_MONTH_GENERAL_MISMATCH：程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0034",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=UNSUPPORTED_TIME_ANNOTATION",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0044",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0058",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0064",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0072",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0075",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0100",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0122",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0123",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0130",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=UNSUPPORTED_TIME_FORMAT",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0154",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0159",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=SPECIAL_DIVINATION_METHOD",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0160",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0182",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0204",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0206",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0211",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=MISSING_CALENDAR_DATE",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0216",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0230",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定",
+    "SOURCE_MONTH_GENERAL_MISMATCH：程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0238",
+   "reasons": [
+    "盘面状态=needs_resolution",
+    "issue=UNSUPPORTED_TIME_FORMAT",
+    "issue=IMAGE_LEDGER_TIME_MISMATCH",
+    "issue=TIME_FIELD_SOURCE_MISMATCH"
+   ]
+  },
+  {
+   "case_id": "raw-qqwb20261019-0240",
+   "reasons": [
+    "盘面状态=chart_validation_blocked",
+    "SOURCE_PILLARS_MISMATCH：程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+   ]
+  }
+ ]
+}

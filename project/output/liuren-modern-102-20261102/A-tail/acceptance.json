@@ -1,0 +1,26 @@
+{
+  "schema": "liuren-modern-A-tail-acceptance-v1",
+  "cases": 3,
+  "subjudgments": 46,
+  "author_phase_segments": 20,
+  "source_cards": 7,
+  "conditional_comparison_groups": 3,
+  "comparison_records": 3,
+  "references_checked": 144,
+  "reference_errors": [],
+  "owning_workbench_issues": [],
+  "eligible_cards": 7,
+  "disposition_coverage_complete": true,
+  "source_derivation_gap_cases": [
+    "BK26-MODERN-032",
+    "BK26-MODERN-033",
+    "BK26-MODERN-034"
+  ],
+  "independent_validation_count": 0,
+  "hashes": {
+    "output/liuren-modern-102-20261102/A-tail/method-reviews.json": "30134b9448fc967f46eb5c77536bc552c4626daf9ee5d2575ed6478a2e40057b",
+    "output/liuren-modern-102-20261102/A-tail/subjudgments.json": "e3590e3376490d26c44b3f491c24096d751fe8ac1b0a61bf8e84bce27da32245",
+    "knowledge/liuren-research/20261102/rules/modern-102-a-tail.json": "580184029f2bf33fc1f7506cb9f584d8f570ff44fe96f95d9f99724b4cf3cee6",
+    "knowledge/liuren-research/20261102/families/modern-102-a-tail.json": "4348fa2a5b4aabcdf30149375998b93e2a844ddba583b05e1086fa64de8f4f03"
+  }
+}

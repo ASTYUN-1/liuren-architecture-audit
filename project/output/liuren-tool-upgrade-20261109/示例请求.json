@@ -1,0 +1,70 @@
+{
+  "methods": {
+    "action": "methods",
+    "methods": {
+      "kind": "quantity"
+    }
+  },
+  "quantity": {
+    "action": "quantity",
+    "quantity_method": {
+      "id": "CY501-use-ground",
+      "target": "T:戌",
+      "season_profile": "quarter-earth",
+      "basis": "固定工程算例：原盘戌初传临寅，戌月采用季土表；不作现实取数预测"
+    }
+  },
+  "base_quantity": {
+    "action": "quantity",
+    "quantity_method": {
+      "id": "WY67-shenjiang-base",
+      "target": "T:戌",
+      "basis": "固定工程算例，只核本段神将相乘基础数"
+    }
+  },
+  "calendar": {
+    "action": "calendar",
+    "calendar": {
+      "start": "2026-11-06",
+      "end": "2026-11-20",
+      "timezone": "Asia/Shanghai",
+      "day_boundary": "civil-midnight",
+      "mode": "boundaries",
+      "origin": "2026-11-06T14:43"
+    }
+  },
+  "imagery": {
+    "action": "imagery",
+    "imagery": {
+      "id": "DF449-growth",
+      "target": "T:寅",
+      "reference": "ground",
+      "basis": "固定工程算例，仅显示原段十二气物态候选"
+    }
+  },
+  "evaluation": {
+    "action": "evaluation",
+    "evaluation": {
+      "calendar": {
+        "start": "2026-11-06",
+        "end": "2026-11-08",
+        "timezone": "Asia/Shanghai",
+        "day_boundary": "civil-midnight",
+        "origin": "2026-11-06T14:43"
+      },
+      "strength": {
+        "mode": "single_palace",
+        "season_profile": "quarter-earth",
+        "season_basis": "工程算例固定季土表，不据分数择表",
+        "actors": [
+          {
+            "id": "T:寅",
+            "role": "测试对象",
+            "basis": "只核接口，非实际取用结论"
+          }
+        ]
+      },
+      "void_policy": "original"
+    }
+  }
+}

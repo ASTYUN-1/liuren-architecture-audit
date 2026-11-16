@@ -1,0 +1,26 @@
+{
+  "verified": true,
+  "versionCode": 8,
+  "versionName": "0.3.4",
+  "sha256": "09d586eca219d95c6071511f41036570dcb2d80f35afdfc9882310b8b4000a7a",
+  "bytes": 8914519,
+  "manifestNoStore": true,
+  "oldApksStillAvailable": [
+    {
+      "version": "0.3.1",
+      "status": 200,
+      "bytes": 8881750
+    },
+    {
+      "version": "0.3.2",
+      "status": 200,
+      "bytes": 8877654
+    },
+    {
+      "version": "0.3.3",
+      "status": 200,
+      "bytes": 8910423
+    }
+  ],
+  "physicalDeviceInstalled": false
+}

@@ -1,0 +1,288 @@
+{
+  "schema": "liuren-book-case-acceptance-v2",
+  "checked_at": "2026-11-02T08:19:55.867643+00:00",
+  "book_summary": {
+    "registered": 898,
+    "mechanical_pass": 898,
+    "eligible_complete": 798,
+    "fragment": 100,
+    "pending": 0,
+    "valid": true,
+    "semantic_identity": "负责人声明整案边界；机械核对不证明语义完整",
+    "independent_validation_count": 0,
+    "complete": false
+  },
+  "case_errors": [],
+  "import_actions": {
+    "unchanged": 704,
+    "not_imported": 100,
+    "created": 32,
+    "updated_managed": 62
+  },
+  "active_imports": 798,
+  "blocked_imports": 0,
+  "case_index_cases": 1054,
+  "book_index": {
+    "active": 798,
+    "issues": [],
+    "validation_identity": "按当前登记、原源与产物全文核对；失效整案不参与检索"
+  },
+  "query_case_ids": {},
+  "methods_summary": {
+    "record_count": 461,
+    "eligible_count": 461,
+    "mechanical_valid": true,
+    "explicit_rule_family_count": 37,
+    "semantic_validation": "external_review_declaration_only",
+    "independent_validation_count": 0,
+    "complete": false
+  },
+  "method_issues": [],
+  "BIFA_seven_reconstruction_import_checks": [
+    {
+      "id": "BK26-BIFA-001",
+      "eligible": true
+    },
+    {
+      "id": "BK26-BIFA-002",
+      "eligible": true
+    },
+    {
+      "id": "BK26-BIFA-005",
+      "eligible": true
+    },
+    {
+      "id": "BK26-BIFA-010",
+      "eligible": true
+    },
+    {
+      "id": "BK26-BIFA-011",
+      "eligible": true
+    },
+    {
+      "id": "BK26-BIFA-015",
+      "eligible": true
+    },
+    {
+      "id": "BK26-BIFA-020",
+      "eligible": true
+    }
+  ],
+  "ancient033_formal_fields": {
+    "chart_consistency": true,
+    "completeness_review": true
+  },
+  "shao": {
+    "cases": 223,
+    "completeness": {
+      "complete": 222,
+      "fragment": 1
+    },
+    "method_cards": 240,
+    "original_source_cards": 94,
+    "supplemental_source_cards": 145,
+    "canonical_retrieval_rules": 1,
+    "source_coverage_audit": "output/liuren-book-cases-20261102/shao-full-source-coverage-audit.json",
+    "method_review_complete": false,
+    "c_reviewed_cases": 163,
+    "c_subjudgments": 442,
+    "c_supplemental_cards": 145,
+    "c_unreviewed_cases": 60,
+    "reviewed_with_method_gaps": 29
+  },
+  "validation_note": "阶段停止快照；机械通过、登记完整、可检索、方法审查和独立验证分别统计。全部书、旧库、逐案方法审查及同条件去重尚未完成；独立验证为0。",
+  "current_experience_queries": {
+    "独足 泽 船 陆行": [
+      "LR26-SHAO-CANON-WATER-LAND",
+      "B0132",
+      "B0255",
+      "LR26-BOOK-SHAO-127",
+      "LR26-BOOK-SHAO-203",
+      "LR26-BOOK-SHAO-210",
+      "LR26-BOOK-SHAO-C067",
+      "LR26-BOOK-BIFA-020"
+    ],
+    "两巳 四八 七十二": [
+      "LR26-BOOK-SHAO-C049",
+      "LR26-BOOK-BIFA-087",
+      "B0057",
+      "B0121",
+      "B0311",
+      "LR26-BOOK-BIFA-016",
+      "LR26-BOOK-BIFA-086",
+      "LR26-BOOK-SHAO-049"
+    ],
+    "丑勾 用旧": [
+      "LR26-BOOK-SHAO-C150",
+      "LR26-BOOK-SHAO-C067",
+      "LR26-BOOK-SHAO-C068",
+      "LR26-BOOK-SHAO-C077",
+      "LR26-BOOK-SHAO-C089",
+      "LR26-BOOK-SHAO-C094",
+      "LR26-BOOK-SHAO-C096",
+      "LR26-BOOK-SHAO-C100"
+    ],
+    "申医药 巳厨灶 汤伤": [
+      "LR26-BOOK-BIFA-123",
+      "LR26-BOOK-SHAO-077",
+      "LR26-BOOK-SHAO-082",
+      "LR26-BOOK-SHAO-C077",
+      "LR26-BOOK-SHAO-C082"
+    ],
+    "干神归支": [
+      "B0082",
+      "B0290",
+      "LR26-LEGACY-BIFA-008",
+      "B0199",
+      "B0303",
+      "B0304",
+      "B0335",
+      "LR26-BOOK-BIFA-014"
+    ],
+    "制鬼良医": [
+      "LR26-LEGACY-BIFA-010",
+      "LR26-BOOK-BIFA-082"
+    ],
+    "三传递克": [
+      "B0088",
+      "B0198",
+      "B0256",
+      "LR26-LEGACY-BIFA-006",
+      "B0006",
+      "B0168",
+      "B0183",
+      "B0235"
+    ],
+    "年命填空": [
+      "LR26-LEGACY-BIFA-009",
+      "B0303",
+      "B0305",
+      "B0308"
+    ]
+  },
+  "book_breakdown": {
+    "ancient": {
+      "cases": 437,
+      "completeness": {
+        "complete": 426,
+        "fragment": 11
+      }
+    },
+    "bifa": {
+      "cases": 131,
+      "completeness": {
+        "complete": 48,
+        "fragment": 83
+      }
+    },
+    "modern": {
+      "cases": 107,
+      "completeness": {
+        "fragment": 5,
+        "complete": 102
+      }
+    },
+    "shao": {
+      "cases": 223,
+      "completeness": {
+        "complete": 222,
+        "fragment": 1
+      }
+    }
+  },
+  "experience_index_status": {
+    "source_files": 120,
+    "entries": 1388,
+    "curated_entries": 808,
+    "unreviewed_fragments": 150,
+    "changed_or_new_sources": [
+      "经验日志/2026-04-24-事业占-反吟空亡启事.md",
+      "经验日志/2026-10-18-感情占-raw-anli001-0027-待验证记录.md",
+      "经验日志/2026-10-19-健康占-肺癌病位金气集群与课经断语主次.md",
+      "经验日志/2026-10-19-官讼占-公职被举报-知一退茹三奇.md",
+      "经验日志/2026-10-19-感情占-前女友国庆回来见面-反推待验证记录.md",
+      "经验日志/2026-10-19-感情占-双合课酉月丑日分手.md",
+      "经验日志/2026-10-19-感情占-桃花日禄天后情侣直断与恋爱脑.md",
+      "经验日志/2026-10-19-感情占-胎产末传应期与白虎入墓断剖.md",
+      "经验日志/2026-10-19-感情占-财局须过墓劫脱三查.md",
+      "经验日志/2026-10-19-疾病占-幼儿流感住院蒿矢课复盘.md",
+      "经验日志/2026-10-19-疾病占-暴病逢空与白虎受制.md",
+      "经验日志/2026-10-21-出行占-寻人戌时归与信号断复盘.md",
+      "经验日志/2026-10-23-官讼占-儿子被公安传唤涉诈-元首斩关退茹.md",
+      "经验日志/2026-10-23-家宅占-水患不入传与不加软化层-元首退茹.md",
+      "经验日志/2026-10-24-感情占-旧情回流中传空亡与交车相合.md"
+    ],
+    "missing_sources": [],
+    "stale_annotations": [],
+    "independent_validation_increment": 0,
+    "research_overlay": {
+      "record_count": 461,
+      "eligible_count": 461,
+      "mechanical_valid": true,
+      "explicit_rule_family_count": 37,
+      "semantic_validation": "external_review_declaration_only",
+      "independent_validation_count": 0,
+      "complete": false,
+      "present": true
+    },
+    "research_issues": [],
+    "research_rule_entries": 430,
+    "research_audits": 31
+  },
+  "specific_rule_probes": {
+    "LR26-SHAO-CANON-WATER-LAND": {
+      "present": true,
+      "conclusion": "在这两个原载条件分支中，共同水陆方法只保留一条规范入口：酉兑泽、六合船可取水行，独足无足不利陆行。收益幅度另见各来源分支。",
+      "reasoning_steps": [
+        "比较两段相同问事、独足酉六合、泽船和水陆结论，合并其完全重叠的表达。",
+        "十倍无后叙与加倍笼统果应为不同收益证据，不并数法、不增加独立验证。"
+      ]
+    },
+    "LR26-BOOK-SHAO-C049": {
+      "present": true,
+      "conclusion": "四年店屋只有原时断，未明以巳4推得；72寿数明确取两巳4相加8再乘子9，寿未见后叙。斫轮转水碓核心复用原049。",
+      "reasoning_steps": [
+        "四年店屋与巳4寿数在原文属不同判断，不把相同数字强连。",
+        "两巳各4合8，再乘巳上子9得72为原明确数法。",
+        "原39岁与后42得店的年龄叙照存，不擅补虚实岁起算。"
+      ]
+    },
+    "LR26-BOOK-SHAO-C150": {
+      "present": true,
+      "conclusion": "原作者据丑勾和全阴主用旧静守，另引阳动生新德/阴静杀旧刑为理论条件；不能把仅一段阴阳论当实际谋事已验。",
+      "reasoning_steps": [
+        "丑勾先主旧。",
+        "全课传阴作为不进干的补条件。",
+        "心镜引句和作者理论与本案无实际反馈分开。"
+      ]
+    }
+  },
+  "source_registry_sha256": {
+    "knowledge/liuren-research/20261102/book-cases/ancient.json": "c2da9da4bb44ddc9d6225be1ae398e4d01bce118f1b711d173c11573ad3faac6",
+    "knowledge/liuren-research/20261102/book-cases/bifa.json": "7d17f5edb1ec3c324b8fec072dc3016aacdb8eccb0714b4f39e75501bdf2957b",
+    "knowledge/liuren-research/20261102/book-cases/modern.json": "52b649b464684dcbe38541102db88e48d0f8042428f938f434abaf8a5f539a5f",
+    "knowledge/liuren-research/20261102/book-cases/shao.json": "cf2f4eaf16e5d77854eddbbb0c6f19cd42c6140633269f012d1b4dea5a1026a3",
+    "knowledge/liuren-research/20261102/rules/book-ancient.json": "3028ff7b4ee2bea18ee1185f9cc1c6ac7a5bef958796f5d5ae5ac2587b9717af",
+    "knowledge/liuren-research/20261102/rules/book-bifa.json": "f080621a2e79367b8c2ddd779a4fc6de68e8f4141bf05702aadf7a2e8b5731db",
+    "knowledge/liuren-research/20261102/rules/book-modern.json": "e60708bff9213e5f8aee35a4b32dc4dc85260df587e463bd9c7675b342773a5d",
+    "knowledge/liuren-research/20261102/rules/book-shao-c-review.json": "258a6a45425d3615e0464ab7d89207debe69688de7b0967c5c9cf58ed0c3e5c6",
+    "knowledge/liuren-research/20261102/rules/book-shao-canonical.json": "45019ac629efdfc417f9b1e47ce869cfbbb7775cbe57842ae15f80d9022d900e",
+    "knowledge/liuren-research/20261102/rules/book-shao.json": "d086f96a6b4716566c27952ac8c8a915f61a41b0b4e8f3f8549c47648226cffb",
+    "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json": "b1204d64a5a11f990e908d50ab337f37922992e9f6c53a806d97366012efb872",
+    "knowledge/liuren-research/20261102/rules/legacy-revisions.json": "bf74046d3d01034d7c00c2501f671f7fecdf7d3c6b2140b6727da9b854e50d78",
+    "knowledge/liuren-research/20261102/rules/new-extraction.json": "3e838ed73dd3b8ddc2852dba79f46398f9bc648e863cb8ce580d9fda0b5f2f93",
+    "knowledge/liuren-research/20261102/audits/book-review.json": "c7bd64d8c5fd583733e6acd4a43c0552a30250a77be28e8c127d0e3294f17816",
+    "knowledge/liuren-research/20261102/audits/book-shao-review.json": "c20860278573f0b8ab66e314f728f8e4148806413468932620b387858465f7f3",
+    "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json": "1d18d73a2145248397f23a83ace2ded875180614bf0975cf10798330b77d700b",
+    "knowledge/liuren-research/20261102/audits/legacy-review.json": "77c7a2f58703022e88664ba27b2c6efd3efae99908cf5f3eba8cb70e37bda052",
+    "knowledge/liuren-research/20261102/families/book-shao.json": "e33abd0e200dde25d8000beb125e2735d9593ba500326e6a1def257975e7544c",
+    "knowledge/liuren-research/20261102/families/legacy-bifa-continuation.json": "aa726fd2c52b4dd419e58c14fb4adb74eda96cf3753a0d46d00fd74eaae6c71d",
+    "knowledge/liuren-research/20261102/families/legacy-families.json": "f86b8916d64939b9df46f92a773adf4ae7c2014a53b7fff25a75ace3180863dc",
+    "knowledge/liuren-research/20261102/method-reviews/ancient.json": "356b25f3749c4dad3d2691b45594fc9ed7e4239762f7d518968debc0dffed2ce",
+    "knowledge/liuren-research/20261102/method-reviews/modern.json": "be313d75d74f3cf43eddfaa409b53933e5d75c71173687634e1b1c70e293e310",
+    "knowledge/liuren-research/20261102/method-reviews/shao.json": "323814364c8862d48d0718e0f7089461fd8e6105f2a1e3fd439cfa89fa1512b4"
+  },
+  "source_registry_stable_during_build": true,
+  "independent_validation_count": 0,
+  "complete": false
+}

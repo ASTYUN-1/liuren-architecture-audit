@@ -1,0 +1,73 @@
+{
+  "skill": "zhongshen-nianyun",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "大师，帮我占个终身，看看我这一生的运势和格局怎么样？",
+      "expected_behavior": "应激活 zhongshen-nianyun, 并执行固定管线：建立年命基线（本命品性+行年相貌）→ 三传三限逐限分析（天将读运势特征+支神六亲合刑冲破害读吉凶事件）→ 叠加 f18 四象限调制 → 输出结构化终身档案",
+      "notes": "正面\"占终身/一生/格局\"场景, 直接命中 description 核心, 与书中案例 c10/c34 同构"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这是我的八字，帮我看看我的命理性格和一生的命运走向。",
+      "expected_behavior": "应激活 zhongshen-nianyun, 并先判本命是否入课传（入则看年命本身, 不入则看年命之上神）, 输出本命品性档案（天将为主、支神修正）+ 三传三限走向 + 当前状态（f17 双时层）, 逐项标注置信度",
+      "notes": "正面\"命理/性格/命运\"场景, 用户提供年命八字要求逐段推演（A2 场景 2）"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "帮我看看我 35 到 45 岁这段年龄的大运运势怎么样？",
+      "expected_behavior": "应激活 zhongshen-nianyun, 并定位对应大限（三传之中传/末传）, 逐限读天将（如勾陈主迟滞则标 ce06 低迷）与支神六亲事件, 输出该年龄段的运势特征与吉凶事件, 附依据链",
+      "notes": "正面\"某年龄段运势/大运\"场景, 大限断法属本 skill 核心（c13 勾陈大限例）"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "Can you tell my lifetime fortune and overall destiny based on this chart?",
+      "expected_behavior": "应激活 zhongshen-nianyun, 并按年命管线+三传三限输出 lifetime fortune 档案（品性+三限+逐年要点）, 英语关键词 lifetime/destiny/fortune 直接命中",
+      "notes": "正面英文关键词场景, 验证英文 trigger 兼容性（lifetime/destiny/fortune/overall chart）"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "明天天气怎么样？会不会下雨？",
+      "expected_behavior": "不应激活本 skill, 因为这是纯天气信息查询, 与终身/年运占课完全无关, 直接给出天气预报即可",
+      "notes": "诱饵: 完全无关场景（天气查询）, 不含任何\"终身/命/大运\"意图"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我看看明年的运势怎么样，顺不顺利？",
+      "expected_behavior": "不应激活本 skill, 应激活 shiyun-zonghe；单问未来一年综合运势用一课五维综合断法（安全/收入/婚姻/官运/家运）, 本 skill 只覆盖终身/多限结构——问一年用 s07, 问一生/多限才用本 skill",
+      "notes": "跨 skill 混淆诱饵 (硬性要求至少 1 条): 防止同书 skill 互相抢调用——单年 vs 终身正是与 shiyun-zonghe 的 contrasts-with 分界（B 边界第一条）"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "我最近认识了一个人，你帮我看看我们俩的感情能不能成？",
+      "expected_behavior": "不应激活本 skill, 应激活 lianai-panduan；单问一段感情成败走恋爱判断常法/变法/琐象, 本 skill 只在终身课限运事件（如 c34 三角恋）中借其判据, 不负责单段感情的专项判断",
+      "notes": "跨 skill 混淆诱饵: 姻缘专项归 lianai-panduan, 且 A2 明确\"单问恋爱专项用对应专项 skill\""
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我看看我一生的姻缘怎么样，会不会晚婚？",
+      "expected_behavior": "边界判定为可激活本 skill 但需混合判据：\"一生姻缘\"是终身课的一部分（c34 女占终身性格姻缘课）, 走三传三限中姻缘相关限位+借 lianai-panduan 判据输出；若用户改问\"现在这段能不能成\"则应切换 lianai-panduan",
+      "notes": "边界: 终身视角姻缘（本 skill 覆盖）vs 专项恋爱成败（lianai-panduan）的分界模糊处"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "看看我今年的运势和以后几十年的发展。",
+      "expected_behavior": "边界判定为拆解处理：\"今年运势\"部分交 shiyun-zonghe（单年五维）, \"以后几十年\"部分用本 skill 三传三限多限管线; 若用户侧重一生走向则激活本 skill 并提示单年部分另走时运课",
+      "notes": "边界: 单年（shiyun-zonghe）与多限/终身（本 skill）混问, 一课双时层的对应场景"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0)。诱饵类型: 1 条完全无关场景（天气查询）+ 2 条同书兄弟 skill 混淆（shiyun-zonghe 单年运势 / lianai-panduan 姻缘专项）。"
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "liuren-integrated-verification-v1",
+  "ok": true,
+  "release": "20261102-integrated-01",
+  "method_version": "09ee3b9b5f3c580539abb9ce323d542ae7cd4e5d80310794efc0c83cf9d0ae4a",
+  "checks": {
+    "runtime_inventory_exact": true,
+    "workflow_hashes_current": true,
+    "pointer_implementation_current": true,
+    "liuren_only_groups": true,
+    "old_release_unchanged": true,
+    "bazi_live_routes_removed": true,
+    "doctor": true,
+    "offline_chain": true,
+    "live_links": true,
+    "external_routes": true
+  },
+  "tests": [
+    {
+      "name": "test_liuren_workflow.py",
+      "tests": 11,
+      "passed": 11,
+      "scope": "synthetic adopt/reference, unknown/unmet/history/current-fact gates, source+session tamper, same-case+suspended, bounded packets, strict batch failures"
+    },
+    {
+      "name": "test_experience_retrieval.py",
+      "tests": 15,
+      "passed": 15
+    },
+    {
+      "name": "test_case_retrieval.py",
+      "tests": 18,
+      "passed": 18,
+      "seconds": 15.634,
+      "prior_timeout_repaired": true
+    },
+    {
+      "name": "test_liuren_research_overlay.py",
+      "tests": 11,
+      "passed": 11
+    },
+    {
+      "name": "test_liuren_knowledge_workbench.py",
+      "tests": 26,
+      "passed": 25,
+      "skipped": 1
+    },
+    {
+      "name": "test_liuren_method_loader.py",
+      "tests": 6,
+      "passed": 6
+    },
+    {
+      "name": "test_opencode_case_workflow.py",
+      "tests": 4,
+      "passed": 4
+    },
+    {
+      "name": "liuren-direct.test.mjs",
+      "tests": 10,
+      "passed": 10
+    }
+  ],
+  "total_tests": 101,
+  "passed": 100,
+  "skipped": 1,
+  "performance": {
+    "cprofile_before_seconds": 31.838,
+    "node_processes_before": 210,
+    "subprocess_seconds_before": 23.591,
+    "case_tests_after_seconds": 15.634,
+    "repair": "same-call decoded-source/hash reuse, equivalent identity closure, batch strict artifact verifier; no cross-call validity cache"
+  },
+  "limitations": [
+    "Fixed program chain retains unknown judgments and uses a real source as reference; adopt success is isolated synthetic fixture gate verification, not a professional adoption claim.",
+    "No real case outcome or predictive accuracy evaluated; independent validation stays 0.",
+    "Unknown same-case links may be absent from identity registry; facts-to-condition semantics require expert review.",
+    "Node/Python system runtimes and credentials are external machine dependencies, not copied."
+  ],
+  "model_calls": 0,
+  "website_changed": false,
+  "services_started": 0
+}

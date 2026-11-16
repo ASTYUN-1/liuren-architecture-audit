@@ -1,0 +1,4762 @@
+[
+  {
+    "id": "LR26-BOOK-ANCIENT-003",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-BIFA-005",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "通用"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-BIFA-009",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "事业占",
+      "财运占",
+      "官讼占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-BIFA-026",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-BIFA-027",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-BIFA-029",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-BIFA-098",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "事业占",
+      "出行占",
+      "家宅占",
+      "胎产占",
+      "财运占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-BOOK-SHAO-C134",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-LEGACY-003",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-LEGACY-BIFA-008",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "通用"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-002-ART",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "来意",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-002"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-002-A-Q017",
+      "BK26-MODERN-002-A-Q018"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-002-LOSS",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "财官",
+      "数量",
+      "资金过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-002"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-002-A-Q009",
+      "BK26-MODERN-002-A-Q010",
+      "BK26-MODERN-002-A-Q020",
+      "BK26-MODERN-002-A-Q024"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-002-SEAL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "牢狱",
+      "过程",
+      "人物",
+      "墓法",
+      "牢狱性质",
+      "性质"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-002"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-002-A-Q004",
+      "BK26-MODERN-002-A-Q007",
+      "BK26-MODERN-002-A-Q008",
+      "BK26-MODERN-002-A-Q014",
+      "BK26-MODERN-002-A-Q015",
+      "BK26-MODERN-002-A-Q019",
+      "BK26-MODERN-002-A-Q021"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-002-TIME",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "时间",
+      "数量时间",
+      "人物时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-002"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-002-A-Q001",
+      "BK26-MODERN-002-A-Q022",
+      "BK26-MODERN-002-A-Q023"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-002-VOID",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "牢狱",
+      "过程人物"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-002"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-002-A-Q005",
+      "BK26-MODERN-002-A-Q006",
+      "BK26-MODERN-002-A-Q016",
+      "BK26-MODERN-002-A-Q025"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-003-DIV",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "成败",
+      "人物",
+      "成败人物",
+      "手续财",
+      "人物成败"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-003"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-003-A-Q001",
+      "BK26-MODERN-003-A-Q002",
+      "BK26-MODERN-003-A-Q006",
+      "BK26-MODERN-003-A-Q012",
+      "BK26-MODERN-003-A-Q013",
+      "BK26-MODERN-003-A-Q014"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-003-ROLE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "人物",
+      "来意",
+      "财产人物"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-003"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-003-A-Q007",
+      "BK26-MODERN-003-A-Q010",
+      "BK26-MODERN-003-A-Q011"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-003-WATER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "成败人物",
+      "成败财产",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-003"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-003-A-Q003",
+      "BK26-MODERN-003-A-Q005",
+      "BK26-MODERN-003-A-Q008",
+      "BK26-MODERN-003-A-Q015"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-004-FOOD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病因",
+      "病象",
+      "病象人物"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-004"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-004-A-Q004",
+      "BK26-MODERN-004-A-Q011",
+      "BK26-MODERN-004-A-Q012",
+      "BK26-MODERN-004-A-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-004-LING",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病理",
+      "治疗"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-004"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-004-A-Q022",
+      "BK26-MODERN-004-A-Q023"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-004-MID",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "虫体",
+      "病因解法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-004"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-004-A-Q018",
+      "BK26-MODERN-004-A-Q019"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-004-SANC",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位",
+      "虫体",
+      "解法",
+      "宅景",
+      "方法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-004"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-004-A-Q005",
+      "BK26-MODERN-004-A-Q006",
+      "BK26-MODERN-004-A-Q007",
+      "BK26-MODERN-004-A-Q008",
+      "BK26-MODERN-004-A-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-004-SEAL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "取用冲突",
+      "虫病分问",
+      "空效力",
+      "铸印流程",
+      "取用",
+      "应期"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-004"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-004-A-Q010",
+      "BK26-MODERN-004-A-Q014",
+      "BK26-MODERN-004-A-Q015",
+      "BK26-MODERN-004-A-Q016",
+      "BK26-MODERN-004-A-Q020",
+      "BK26-MODERN-004-A-Q021"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-005-ACCIDENT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "过程事故"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-005"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-005-A-Q005"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-005-CATCH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "追捕",
+      "事故追捕",
+      "取用追捕",
+      "追捕关系",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-005"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-005-A-Q001",
+      "BK26-MODERN-005-A-Q002",
+      "BK26-MODERN-005-A-Q008",
+      "BK26-MODERN-005-A-Q009",
+      "BK26-MODERN-005-A-Q010",
+      "BK26-MODERN-005-A-Q015"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-005-VIDEO",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "证据财损",
+      "监控车灯",
+      "证据主体",
+      "追捕监控"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-005"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-005-A-Q007",
+      "BK26-MODERN-005-A-Q011",
+      "BK26-MODERN-005-A-Q013",
+      "BK26-MODERN-005-A-Q014"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-005-ZHANG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "斩关"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-005"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-005-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-006-DEPART",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "外出学校",
+      "方位学业",
+      "录取外出",
+      "家庭取用",
+      "家庭外出"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-006"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-006-A-Q006",
+      "BK26-MODERN-006-A-Q007",
+      "BK26-MODERN-006-A-Q008",
+      "BK26-MODERN-006-A-Q009",
+      "BK26-MODERN-006-A-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-006-SCHOOL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "录取",
+      "录取远近",
+      "学校",
+      "志愿"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-006"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-006-A-Q001",
+      "BK26-MODERN-006-A-Q003",
+      "BK26-MODERN-006-A-Q005",
+      "BK26-MODERN-006-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-007-ALT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "替代盘录取",
+      "录取后路",
+      "替代盘",
+      "两盘录取"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-007"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-007-A-Q002",
+      "BK26-MODERN-007-A-Q009",
+      "BK26-MODERN-007-A-Q011",
+      "BK26-MODERN-007-A-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-007-COMPETE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "录取",
+      "录取取舍",
+      "发挥录取",
+      "录取发挥",
+      "发挥消息"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-007"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-007-A-Q001",
+      "BK26-MODERN-007-A-Q003",
+      "BK26-MODERN-007-A-Q004",
+      "BK26-MODERN-007-A-Q005",
+      "BK26-MODERN-007-A-Q007",
+      "BK26-MODERN-007-A-Q008",
+      "BK26-MODERN-007-A-Q012",
+      "BK26-MODERN-007-A-Q014"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-007-RANK",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "数量",
+      "录取人数"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-007"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-007-A-Q006",
+      "BK26-MODERN-007-A-Q010"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-008-CHILD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "成胎过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-008"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-008-A-Q010"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-008-SEXT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "成胎时间性别",
+      "病情时间",
+      "生产性别",
+      "时间性别",
+      "年月份生产",
+      "喜信",
+      "孕产性别"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-008"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-008-A-Q002",
+      "BK26-MODERN-008-A-Q003",
+      "BK26-MODERN-008-A-Q004",
+      "BK26-MODERN-008-A-Q007",
+      "BK26-MODERN-008-A-Q008",
+      "BK26-MODERN-008-A-Q009",
+      "BK26-MODERN-008-A-Q011",
+      "BK26-MODERN-008-A-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-009-FLOW",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "来意孕情",
+      "孕情经期",
+      "孕情修订",
+      "未来时间",
+      "经期",
+      "孕情时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-009"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-009-A-Q007",
+      "BK26-MODERN-009-A-Q008",
+      "BK26-MODERN-009-A-Q009",
+      "BK26-MODERN-009-A-Q010",
+      "BK26-MODERN-009-A-Q011",
+      "BK26-MODERN-009-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-009-PREG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "孕情病因",
+      "孕情",
+      "孕情过程",
+      "生理象"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-009"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-009-A-Q001",
+      "BK26-MODERN-009-A-Q002",
+      "BK26-MODERN-009-A-Q003",
+      "BK26-MODERN-009-A-Q004",
+      "BK26-MODERN-009-A-Q005"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-011-DREAM",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "家宅占"
+    ],
+    "source_judgment_axes": [
+      "梦财长辈",
+      "环境",
+      "婚礼时间",
+      "梦象环境",
+      "自断财忧"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-011"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-011-A-Q002",
+      "BK26-MODERN-011-A-Q004",
+      "BK26-MODERN-011-A-Q008",
+      "BK26-MODERN-011-A-Q010",
+      "BK26-MODERN-011-A-Q015"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-011-PHOTO",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "家宅占"
+    ],
+    "source_judgment_axes": [
+      "原因照片",
+      "原因方位",
+      "照片剑法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-011"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-011-A-Q013",
+      "BK26-MODERN-011-A-Q014",
+      "BK26-MODERN-011-A-Q016"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-012-FOOD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "吃饭时间",
+      "脚部"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-012"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-012-A-Q006",
+      "BK26-MODERN-012-A-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-012-VISIT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "约见",
+      "约见过程",
+      "自纠",
+      "通信约见",
+      "人物过程",
+      "未来"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-012"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-012-A-Q004",
+      "BK26-MODERN-012-A-Q005",
+      "BK26-MODERN-012-A-Q008",
+      "BK26-MODERN-012-A-Q010",
+      "BK26-MODERN-012-A-Q011",
+      "BK26-MODERN-012-A-Q012",
+      "BK26-MODERN-012-A-Q013",
+      "BK26-MODERN-012-A-Q014"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-013-DOOR",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "开门户甘苦",
+      "下行着地"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-013"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-013-A-Q004",
+      "BK26-MODERN-013-A-Q006"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-013-LEG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "劈叉成败",
+      "左右腿粘连",
+      "劈叉成败伤"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-013"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-013-A-Q002",
+      "BK26-MODERN-013-A-Q003",
+      "BK26-MODERN-013-A-Q005"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-014-DEMOTE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "处分过程数量",
+      "托关系花钱",
+      "降级保工",
+      "保工降职",
+      "保职受罚两端"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-014"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-014-A-Q004",
+      "BK26-MODERN-014-A-Q007",
+      "BK26-MODERN-014-A-Q009",
+      "BK26-MODERN-014-A-Q010",
+      "BK26-MODERN-014-A-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-014-PEACH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "举报人物"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-014"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-014-A-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-014-SAVE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "保工作",
+      "调查处分",
+      "调查保职降岗",
+      "保职重罪停职",
+      "化险"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-014"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-014-A-Q001",
+      "BK26-MODERN-014-A-Q002",
+      "BK26-MODERN-014-A-Q003",
+      "BK26-MODERN-014-A-Q005",
+      "BK26-MODERN-014-A-Q006"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-015-EXAM",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "录取",
+      "录取赴任",
+      "笔试旧交印象",
+      "录取改释",
+      "教职外地"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-015"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-015-A-Q001",
+      "BK26-MODERN-015-A-Q002",
+      "BK26-MODERN-015-A-Q004",
+      "BK26-MODERN-015-A-Q006",
+      "BK26-MODERN-015-A-Q007",
+      "BK26-MODERN-015-A-Q008",
+      "BK26-MODERN-015-A-Q009",
+      "BK26-MODERN-015-A-Q012",
+      "BK26-MODERN-015-A-Q014"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-015-FILL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "录取考试日"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-015"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-015-A-Q013",
+      "BK26-MODERN-015-A-Q015"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-015-LATER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "后续辞职",
+      "岗位性质"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-015"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-015-A-Q010",
+      "BK26-MODERN-015-A-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-017-CHILD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "孩子牵绊"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-017"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-017-A-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-017-REL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "感情牵扯",
+      "挽回后续健康",
+      "复合",
+      "复合交流",
+      "复合阶段",
+      "复合联系",
+      "原好状态",
+      "牵扯离分",
+      "相处",
+      "桃花与未断"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-017"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-017-A-Q001",
+      "BK26-MODERN-017-A-Q002",
+      "BK26-MODERN-017-A-Q003",
+      "BK26-MODERN-017-A-Q004",
+      "BK26-MODERN-017-A-Q005",
+      "BK26-MODERN-017-A-Q006",
+      "BK26-MODERN-017-A-Q007",
+      "BK26-MODERN-017-A-Q010",
+      "BK26-MODERN-017-A-Q011",
+      "BK26-MODERN-017-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-018-PROFIT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [
+      "合作成与利",
+      "主导实力",
+      "贪利入局",
+      "项目利润人脉",
+      "资源垫资",
+      "成败",
+      "人情与利润",
+      "利润风险",
+      "主导归因",
+      "合作主体"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-018"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-018-A-Q001",
+      "BK26-MODERN-018-A-Q004",
+      "BK26-MODERN-018-A-Q005",
+      "BK26-MODERN-018-A-Q006",
+      "BK26-MODERN-018-A-Q009",
+      "BK26-MODERN-018-A-Q010",
+      "BK26-MODERN-018-A-Q011",
+      "BK26-MODERN-018-A-Q013",
+      "BK26-MODERN-018-A-Q014",
+      "BK26-MODERN-018-A-Q015"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-018-TIME",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [
+      "项目层级时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-018"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-018-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-019-FIND",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "安危失联",
+      "安危凶象",
+      "寻人定位媒介",
+      "取用会友自回",
+      "安危归宿"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-019"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-019-A-Q001",
+      "BK26-MODERN-019-A-Q003",
+      "BK26-MODERN-019-A-Q004",
+      "BK26-MODERN-019-A-Q009",
+      "BK26-MODERN-019-A-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-019-RAIN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "安危天气",
+      "安危地点天气",
+      "天气"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-019"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-019-A-Q005",
+      "BK26-MODERN-019-A-Q008",
+      "BK26-MODERN-019-A-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-019-RETURN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "回家与时间",
+      "日期动象假说",
+      "自回时间",
+      "位置安危",
+      "时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-019"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-019-A-Q002",
+      "BK26-MODERN-019-A-Q006",
+      "BK26-MODERN-019-A-Q007",
+      "BK26-MODERN-019-A-Q011",
+      "BK26-MODERN-019-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-020-RELIEF",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "救应反推鬼因",
+      "后续天赋"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-020"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-020-A-Q006",
+      "BK26-MODERN-020-A-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-020-STRANGE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "杂怪长辈解法",
+      "哭闹神鬼地类",
+      "怪异取类"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-020"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-020-A-Q002",
+      "BK26-MODERN-020-A-Q004",
+      "BK26-MODERN-020-A-Q005"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-021-KEEP",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "本次保胎",
+      "落胎神不动",
+      "营养与保胎"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-021"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-021-A-Q001",
+      "BK26-MODERN-021-A-Q002",
+      "BK26-MODERN-021-A-Q003",
+      "BK26-MODERN-021-A-Q005",
+      "BK26-MODERN-021-A-Q006",
+      "BK26-MODERN-021-A-Q008"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-021-LATER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "本次与后续",
+      "生产",
+      "剖产过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-021"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-021-A-Q004",
+      "BK26-MODERN-021-A-Q007",
+      "BK26-MODERN-021-A-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-022-ARREST",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "逮捕",
+      "入狱快"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-022"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-022-A-Q001",
+      "BK26-MODERN-022-A-Q002",
+      "BK26-MODERN-022-A-Q003",
+      "BK26-MODERN-022-A-Q004",
+      "BK26-MODERN-022-A-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-022-JAIL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "天狱定位",
+      "将爻辞",
+      "抓捕发展",
+      "命干与抵抗"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-022"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-022-A-Q005",
+      "BK26-MODERN-022-A-Q006",
+      "BK26-MODERN-022-A-Q008",
+      "BK26-MODERN-022-A-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-023-DIV",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "离婚成败",
+      "原卦师思路",
+      "撞干与交车界定",
+      "问法离心结果",
+      "发展离合",
+      "实质不离",
+      "成败原因"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-023"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-023-A-Q001",
+      "BK26-MODERN-023-A-Q003",
+      "BK26-MODERN-023-A-Q005",
+      "BK26-MODERN-023-A-Q006",
+      "BK26-MODERN-023-A-Q007",
+      "BK26-MODERN-023-A-Q009",
+      "BK26-MODERN-023-A-Q010",
+      "BK26-MODERN-023-A-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-023-FEE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "争执原因",
+      "原因自纠"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-023"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-023-A-Q002",
+      "BK26-MODERN-023-A-Q004",
+      "BK26-MODERN-023-A-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-023-LONG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "长期过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-023"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-023-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-024-DEATH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "安危",
+      "安危海漂",
+      "发展死因方位",
+      "水杀凶"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-024"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-024-A-Q004",
+      "BK26-MODERN-024-A-Q010",
+      "BK26-MODERN-024-A-Q011",
+      "BK26-MODERN-024-A-Q013",
+      "BK26-MODERN-024-A-Q014"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-024-LOC",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "地点方向",
+      "寻人安危方期",
+      "范围尸方",
+      "日期方位"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-024"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-024-A-Q006",
+      "BK26-MODERN-024-A-Q008",
+      "BK26-MODERN-024-A-Q009",
+      "BK26-MODERN-024-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-025-ALT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "替代盘得物地点",
+      "时辰自纠"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-025"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-025-A-Q004",
+      "BK26-MODERN-025-A-Q005"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-025-FIND",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "得物发展与未时",
+      "内外得物"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-025"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-025-A-Q003",
+      "BK26-MODERN-025-A-Q006"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-026-ALT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "类神自限",
+      "替代盘得物类神",
+      "替代盘方衣"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-026"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-026-A-Q003",
+      "BK26-MODERN-026-A-Q006",
+      "BK26-MODERN-026-A-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-026-MAIN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "得物位置",
+      "主盘可得",
+      "得物与伴侣",
+      "红旧衣"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-026"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-026-A-Q004",
+      "BK26-MODERN-026-A-Q005",
+      "BK26-MODERN-026-A-Q008",
+      "BK26-MODERN-026-A-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-027-ALT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "替代盘地点当天"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-027"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-027-A-Q002"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-027-MAIN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "时地",
+      "发展寻回",
+      "室内物料",
+      "位置不失"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-027"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-027-A-Q004",
+      "BK26-MODERN-027-A-Q005",
+      "BK26-MODERN-027-A-Q006",
+      "BK26-MODERN-027-A-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-028-ALT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "反吟与另一盘",
+      "动象"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-028"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-028-A-Q007",
+      "BK26-MODERN-028-A-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-028-OFFER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "现场面试",
+      "改释面试",
+      "录取与后续",
+      "阶段与性质",
+      "两段发展",
+      "现场与终局"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-028"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-028-A-Q001",
+      "BK26-MODERN-028-A-Q006",
+      "BK26-MODERN-028-A-Q010",
+      "BK26-MODERN-028-A-Q017",
+      "BK26-MODERN-028-A-Q018",
+      "BK26-MODERN-028-A-Q020"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-028-ROLE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "职位雇佣性质",
+      "正式与外包",
+      "可得工资",
+      "薪资来源",
+      "工程外包",
+      "正式与得薪",
+      "岗位职责"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-028"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-028-A-Q002",
+      "BK26-MODERN-028-A-Q004",
+      "BK26-MODERN-028-A-Q013",
+      "BK26-MODERN-028-A-Q016",
+      "BK26-MODERN-028-A-Q019",
+      "BK26-MODERN-028-A-Q021",
+      "BK26-MODERN-028-A-Q022"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-029-LATER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "长期升迁"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-029"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-029-A-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-029-MOVE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "转岗职级工资",
+      "合同动机",
+      "仪神自纠",
+      "命别讨论",
+      "新岗不利仍转",
+      "新工作杂耗",
+      "动静管理被迫",
+      "发展困局人事",
+      "原断自纠与新实况",
+      "职变受限"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-029"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-029-A-Q001",
+      "BK26-MODERN-029-A-Q002",
+      "BK26-MODERN-029-A-Q005",
+      "BK26-MODERN-029-A-Q006",
+      "BK26-MODERN-029-A-Q007",
+      "BK26-MODERN-029-A-Q008",
+      "BK26-MODERN-029-A-Q009",
+      "BK26-MODERN-029-A-Q010",
+      "BK26-MODERN-029-A-Q011",
+      "BK26-MODERN-029-A-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-030-CHILD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "杂事占"
+    ],
+    "source_judgment_axes": [
+      "儿子竞选自纠",
+      "孩子名分",
+      "多目标直读"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-030"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-030-A-Q022",
+      "BK26-MODERN-030-A-Q023",
+      "BK26-MODERN-030-A-Q024"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-030-HEALTH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "杂事占"
+    ],
+    "source_judgment_axes": [
+      "健康",
+      "健康算法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-030"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-030-A-Q004",
+      "BK26-MODERN-030-A-Q021"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-030-HOME",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "杂事占"
+    ],
+    "source_judgment_axes": [
+      "家宅丧事算法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-030"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-030-A-Q020"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102A-030-WEALTH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "杂事占"
+    ],
+    "source_judgment_axes": [
+      "财时段算法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-030"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-030-A-Q019"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-032-CHAIN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "对象",
+      "官司",
+      "耗财原因",
+      "成败"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-032"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-032-E3B-Q008",
+      "BK26-MODERN-032-E3B-Q009",
+      "BK26-MODERN-032-E3B-Q010",
+      "BK26-MODERN-032-E3B-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-032-PAPER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "对象",
+      "原因",
+      "回款",
+      "分问",
+      "耗财"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-032"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-032-E3B-Q001",
+      "BK26-MODERN-032-E3B-Q002",
+      "BK26-MODERN-032-E3B-Q003",
+      "BK26-MODERN-032-E3B-Q005",
+      "BK26-MODERN-032-E3B-Q006",
+      "BK26-MODERN-032-E3B-Q007"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-033-LEAVE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "意愿",
+      "贵助",
+      "既往调岗",
+      "意愿结果",
+      "离职结款",
+      "行政机会",
+      "环境询问",
+      "裁员"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-033"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-033-E3B-Q001",
+      "BK26-MODERN-033-E3B-Q002",
+      "BK26-MODERN-033-E3B-Q003",
+      "BK26-MODERN-033-E3B-Q005",
+      "BK26-MODERN-033-E3B-Q006",
+      "BK26-MODERN-033-E3B-Q007",
+      "BK26-MODERN-033-E3B-Q008",
+      "BK26-MODERN-033-E3B-Q009",
+      "BK26-MODERN-033-E3B-Q012",
+      "BK26-MODERN-033-E3B-Q013",
+      "BK26-MODERN-033-E3B-Q018",
+      "BK26-MODERN-033-E3B-Q019",
+      "BK26-MODERN-033-E3B-Q021"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-033-PARENT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "裁员",
+      "求留",
+      "父母作用",
+      "赔偿"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-033"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-033-E3B-Q014",
+      "BK26-MODERN-033-E3B-Q015",
+      "BK26-MODERN-033-E3B-Q016",
+      "BK26-MODERN-033-E3B-Q017"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-033-TIMING",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-033"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-033-E3B-Q010",
+      "BK26-MODERN-033-E3B-Q020",
+      "BK26-MODERN-033-E3B-Q022"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-034-BIRTH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "胎安"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-034"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-034-E3B-Q002"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102AT-034-SEX",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "性别",
+      "取象",
+      "性别顺序",
+      "分法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-034"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-034-E3B-Q001",
+      "BK26-MODERN-034-E3B-Q005",
+      "BK26-MODERN-034-E3B-Q007",
+      "BK26-MODERN-034-E3B-Q008",
+      "BK26-MODERN-034-E3B-Q009",
+      "BK26-MODERN-034-E3B-Q010",
+      "BK26-MODERN-034-E3B-Q011",
+      "BK26-MODERN-034-E3B-Q012",
+      "BK26-MODERN-034-E3B-Q013"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-035-PRISON",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "拘束",
+      "动因",
+      "凶象",
+      "祸源"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-035"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-035-E3B-Q002",
+      "BK26-MODERN-035-E3B-Q004",
+      "BK26-MODERN-035-E3B-Q005",
+      "BK26-MODERN-035-E3B-Q009",
+      "BK26-MODERN-035-E3B-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-036-SPINE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位",
+      "病位修订"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-036"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-036-E3B-Q004",
+      "BK26-MODERN-036-E3B-Q007",
+      "BK26-MODERN-036-E3B-Q008",
+      "BK26-MODERN-036-E3B-Q014",
+      "BK26-MODERN-036-E3B-Q015"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-036-TREAT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "促成",
+      "题目边界",
+      "治疗过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-036"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-036-E3B-Q006",
+      "BK26-MODERN-036-E3B-Q011",
+      "BK26-MODERN-036-E3B-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-037-DROWN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "生死",
+      "落水",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-037"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-037-E3B-Q006",
+      "BK26-MODERN-037-E3B-Q007",
+      "BK26-MODERN-037-E3B-Q008",
+      "BK26-MODERN-037-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-038-SHEEP",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "失因方向",
+      "环境",
+      "得否方向"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-038"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-038-E3B-Q004",
+      "BK26-MODERN-038-E3B-Q005",
+      "BK26-MODERN-038-E3B-Q006"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-039-NOMING",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "方向",
+      "引路",
+      "生死",
+      "方法限制",
+      "角色距离",
+      "另类生死"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-039"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-039-E3B-Q001",
+      "BK26-MODERN-039-E3B-Q002",
+      "BK26-MODERN-039-E3B-Q003",
+      "BK26-MODERN-039-E3B-Q005",
+      "BK26-MODERN-039-E3B-Q006",
+      "BK26-MODERN-039-E3B-Q007",
+      "BK26-MODERN-039-E3B-Q008",
+      "BK26-MODERN-039-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-040-RESCUE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-040"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-040-E3B-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-043-DELAY",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "过程",
+      "原纠结",
+      "格定义"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-043"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-043-E3B-Q002",
+      "BK26-MODERN-043-E3B-Q003",
+      "BK26-MODERN-043-E3B-Q004"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-043-FAIL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "原因",
+      "消息成败",
+      "成败取舍",
+      "过程",
+      "成败消息",
+      "未来时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-043"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-043-E3B-Q001",
+      "BK26-MODERN-043-E3B-Q005",
+      "BK26-MODERN-043-E3B-Q006",
+      "BK26-MODERN-043-E3B-Q007",
+      "BK26-MODERN-043-E3B-Q008",
+      "BK26-MODERN-043-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-045-REPEAT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "过程",
+      "安全",
+      "过程安全"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-045"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-045-E3B-Q001",
+      "BK26-MODERN-045-E3B-Q002",
+      "BK26-MODERN-045-E3B-Q003",
+      "BK26-MODERN-045-E3B-Q004"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-046-REAREND",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "追尾",
+      "主客事故",
+      "损害解决"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-046"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-046-E3B-Q006",
+      "BK26-MODERN-046-E3B-Q007",
+      "BK26-MODERN-046-E3B-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-048-DOG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "黄狗过程",
+      "性别",
+      "误背景白狗",
+      "取用修订",
+      "事故方向",
+      "偷盗",
+      "凶象",
+      "盗亡"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-048"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-048-E3B-Q002",
+      "BK26-MODERN-048-E3B-Q003",
+      "BK26-MODERN-048-E3B-Q004",
+      "BK26-MODERN-048-E3B-Q005",
+      "BK26-MODERN-048-E3B-Q006",
+      "BK26-MODERN-048-E3B-Q007",
+      "BK26-MODERN-048-E3B-Q010",
+      "BK26-MODERN-048-E3B-Q011"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-049-ROLE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "攻方新情",
+      "受方关系",
+      "过程",
+      "复合角色",
+      "新欢拉黑",
+      "成败主体"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-049"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-049-E3B-Q002",
+      "BK26-MODERN-049-E3B-Q003",
+      "BK26-MODERN-049-E3B-Q005",
+      "BK26-MODERN-049-E3B-Q006",
+      "BK26-MODERN-049-E3B-Q007",
+      "BK26-MODERN-049-E3B-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-050-PREG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "有无孕",
+      "生产",
+      "胎损",
+      "确孕",
+      "损胎"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-050"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-050-E3B-Q002",
+      "BK26-MODERN-050-E3B-Q004",
+      "BK26-MODERN-050-E3B-Q006",
+      "BK26-MODERN-050-E3B-Q007",
+      "BK26-MODERN-050-E3B-Q008",
+      "BK26-MODERN-050-E3B-Q009"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-051-RESCUE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "回返时间",
+      "安全状态",
+      "救制",
+      "工具救制",
+      "得否反事实",
+      "救与工具",
+      "凶转吉与寻回"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-051"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-051-E3B-Q003",
+      "BK26-MODERN-051-E3B-Q005",
+      "BK26-MODERN-051-E3B-Q010",
+      "BK26-MODERN-051-E3B-Q012",
+      "BK26-MODERN-051-E3B-Q014",
+      "BK26-MODERN-051-E3B-Q021",
+      "BK26-MODERN-051-E3B-Q024",
+      "BK26-MODERN-051-E3B-Q026",
+      "BK26-MODERN-051-E3B-Q027"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-051-ROLE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "状态时间",
+      "性情未来",
+      "角色救制",
+      "救者"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-051"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-051-E3B-Q009",
+      "BK26-MODERN-051-E3B-Q011",
+      "BK26-MODERN-051-E3B-Q017",
+      "BK26-MODERN-051-E3B-Q022"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-051-WATER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "生死得否",
+      "地点数量",
+      "自伤链修订",
+      "将来次数",
+      "水象修订"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-051"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-051-E3B-Q004",
+      "BK26-MODERN-051-E3B-Q007",
+      "BK26-MODERN-051-E3B-Q016",
+      "BK26-MODERN-051-E3B-Q023",
+      "BK26-MODERN-051-E3B-Q025"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-052-ACCIDENT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "角色事件",
+      "事件修订",
+      "车速年龄",
+      "诱因"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-052"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-052-E3B-Q005",
+      "BK26-MODERN-052-E3B-Q007",
+      "BK26-MODERN-052-E3B-Q009",
+      "BK26-MODERN-052-E3B-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-053-STAY",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "成败",
+      "目的与障碍",
+      "年命"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-053"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-053-E3B-Q002",
+      "BK26-MODERN-053-E3B-Q004",
+      "BK26-MODERN-053-E3B-Q007",
+      "BK26-MODERN-053-E3B-Q008",
+      "BK26-MODERN-053-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-054-TEACHER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "杂事占"
+    ],
+    "source_judgment_axes": [
+      "处分",
+      "免罚",
+      "免罚与曝光",
+      "主体",
+      "整顿",
+      "时间修订",
+      "另一女性"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-054"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-054-E3B-Q001",
+      "BK26-MODERN-054-E3B-Q003",
+      "BK26-MODERN-054-E3B-Q004",
+      "BK26-MODERN-054-E3B-Q005",
+      "BK26-MODERN-054-E3B-Q006",
+      "BK26-MODERN-054-E3B-Q007",
+      "BK26-MODERN-054-E3B-Q008"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-055-RESCUE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "生死",
+      "救制",
+      "过程救制",
+      "症状救制",
+      "权重",
+      "数量时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-055"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-055-E3B-Q001",
+      "BK26-MODERN-055-E3B-Q002",
+      "BK26-MODERN-055-E3B-Q003",
+      "BK26-MODERN-055-E3B-Q006",
+      "BK26-MODERN-055-E3B-Q007",
+      "BK26-MODERN-055-E3B-Q008",
+      "BK26-MODERN-055-E3B-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-055-VOID",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "空实",
+      "救与症状"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-055"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-055-E3B-Q009",
+      "BK26-MODERN-055-E3B-Q010"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-056-CONFLICT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "人事",
+      "公司",
+      "赔偿人员",
+      "结果时",
+      "数量时间",
+      "时间",
+      "得款",
+      "修订询问",
+      "应期修订"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-056"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-056-E3B-Q001",
+      "BK26-MODERN-056-E3B-Q002",
+      "BK26-MODERN-056-E3B-Q003",
+      "BK26-MODERN-056-E3B-Q004",
+      "BK26-MODERN-056-E3B-Q005",
+      "BK26-MODERN-056-E3B-Q006",
+      "BK26-MODERN-056-E3B-Q007",
+      "BK26-MODERN-056-E3B-Q009",
+      "BK26-MODERN-056-E3B-Q010"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-056-MONEY",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "得款时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-056"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-056-E3B-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-057-FIRE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "天时占"
+    ],
+    "source_judgment_axes": [
+      "角色",
+      "灾情措施",
+      "安全火势",
+      "条件推测",
+      "灾势安全",
+      "雨灭",
+      "角色措施",
+      "火势措施安全",
+      "过程角色"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-057"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-057-E3B-Q001",
+      "BK26-MODERN-057-E3B-Q002",
+      "BK26-MODERN-057-E3B-Q003",
+      "BK26-MODERN-057-E3B-Q004",
+      "BK26-MODERN-057-E3B-Q005",
+      "BK26-MODERN-057-E3B-Q006",
+      "BK26-MODERN-057-E3B-Q007",
+      "BK26-MODERN-057-E3B-Q008",
+      "BK26-MODERN-057-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-058-HOUSEFIRE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "天时占"
+    ],
+    "source_judgment_axes": [
+      "原因",
+      "火因伤害",
+      "火点",
+      "原因人伤",
+      "复盘反省"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-058"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-058-E3B-Q001",
+      "BK26-MODERN-058-E3B-Q003",
+      "BK26-MODERN-058-E3B-Q004",
+      "BK26-MODERN-058-E3B-Q005",
+      "BK26-MODERN-058-E3B-Q006",
+      "BK26-MODERN-058-E3B-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-059-PRISON",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "疏通",
+      "拘束过程",
+      "拘束"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-059"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-059-E3B-Q002",
+      "BK26-MODERN-059-E3B-Q007",
+      "BK26-MODERN-059-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-059-SENTENCE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "刑期",
+      "生死量刑",
+      "数量修订",
+      "时间",
+      "数量"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-059"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-059-E3B-Q001",
+      "BK26-MODERN-059-E3B-Q003",
+      "BK26-MODERN-059-E3B-Q004",
+      "BK26-MODERN-059-E3B-Q008",
+      "BK26-MODERN-059-E3B-Q010"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-060-INTERROGATE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "成败人物",
+      "突破口",
+      "方法",
+      "成败",
+      "突破主体",
+      "方法修订",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-060"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-060-E3B-Q001",
+      "BK26-MODERN-060-E3B-Q002",
+      "BK26-MODERN-060-E3B-Q005",
+      "BK26-MODERN-060-E3B-Q006",
+      "BK26-MODERN-060-E3B-Q007",
+      "BK26-MODERN-060-E3B-Q008",
+      "BK26-MODERN-060-E3B-Q009"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-062-DANGER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "生死病程",
+      "症状",
+      "时间生死",
+      "迟速原因",
+      "生死诊断"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-062"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-062-E3B-Q001",
+      "BK26-MODERN-062-E3B-Q002",
+      "BK26-MODERN-062-E3B-Q005",
+      "BK26-MODERN-062-E3B-Q008",
+      "BK26-MODERN-062-E3B-Q009"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-062-ROLE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "危亡",
+      "角色与病程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-062"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-062-E3B-Q003",
+      "BK26-MODERN-062-E3B-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-063-PROJECT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "杂事占"
+    ],
+    "source_judgment_axes": [
+      "角色运行",
+      "运行意图",
+      "过程资金",
+      "时间数量",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-063"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-063-E3B-Q001",
+      "BK26-MODERN-063-E3B-Q002",
+      "BK26-MODERN-063-E3B-Q003",
+      "BK26-MODERN-063-E3B-Q004",
+      "BK26-MODERN-063-E3B-Q005"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-064-GYN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "诊断回述",
+      "病象方法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-064"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-064-E3B-Q006",
+      "BK26-MODERN-064-E3B-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-065-HEAL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病因",
+      "治法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-065"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-065-E3B-Q005",
+      "BK26-MODERN-065-E3B-Q006"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-066-GRAVE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "家宅占"
+    ],
+    "source_judgment_axes": [
+      "实景",
+      "后代"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-066"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-066-E3B-Q001",
+      "BK26-MODERN-066-E3B-Q002"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-067-RECONCILE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "过程",
+      "成败主体",
+      "改释询问",
+      "反馈重释",
+      "维持与主体"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-067"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-067-E3B-Q001",
+      "BK26-MODERN-067-E3B-Q002",
+      "BK26-MODERN-067-E3B-Q003",
+      "BK26-MODERN-067-E3B-Q007",
+      "BK26-MODERN-067-E3B-Q008"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-067-TIMING",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "感情占"
+    ],
+    "source_judgment_axes": [
+      "过程日期",
+      "未来",
+      "时令"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-067"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-067-E3B-Q005",
+      "BK26-MODERN-067-E3B-Q006",
+      "BK26-MODERN-067-E3B-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102B-068-LOSTDEAD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "寻得病症",
+      "生死",
+      "安全",
+      "死因方位询问",
+      "水地得否",
+      "水厄凶",
+      "受困水地",
+      "得否生死"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-068"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-068-E3B-Q002",
+      "BK26-MODERN-068-E3B-Q003",
+      "BK26-MODERN-068-E3B-Q004",
+      "BK26-MODERN-068-E3B-Q005",
+      "BK26-MODERN-068-E3B-Q006",
+      "BK26-MODERN-068-E3B-Q007",
+      "BK26-MODERN-068-E3B-Q008",
+      "BK26-MODERN-068-E3B-Q009",
+      "BK26-MODERN-068-E3B-Q010"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-069-PROFIT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [
+      "成败",
+      "中标",
+      "利润",
+      "事故",
+      "亏因"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-069"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-069-E3C-Q001",
+      "BK26-MODERN-069-E3C-Q006",
+      "BK26-MODERN-069-E3C-Q009",
+      "BK26-MODERN-069-E3C-Q010",
+      "BK26-MODERN-069-E3C-Q011",
+      "BK26-MODERN-069-E3C-Q013",
+      "BK26-MODERN-069-E3C-Q014"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-070-ACCEPT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "长期",
+      "接成",
+      "身份",
+      "未来",
+      "费用",
+      "门户与拒绝",
+      "救制",
+      "接成与修行"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-070"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-070-E3C-Q002",
+      "BK26-MODERN-070-E3C-Q003",
+      "BK26-MODERN-070-E3C-Q004",
+      "BK26-MODERN-070-E3C-Q006",
+      "BK26-MODERN-070-E3C-Q007",
+      "BK26-MODERN-070-E3C-Q008",
+      "BK26-MODERN-070-E3C-Q010",
+      "BK26-MODERN-070-E3C-Q012",
+      "BK26-MODERN-070-E3C-Q013",
+      "BK26-MODERN-070-E3C-Q014",
+      "BK26-MODERN-070-E3C-Q015",
+      "BK26-MODERN-070-E3C-Q016",
+      "BK26-MODERN-070-E3C-Q017",
+      "BK26-MODERN-070-E3C-Q018"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-071-MONEY",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [
+      "成败日期",
+      "时间",
+      "成败",
+      "成败应期",
+      "成败过程",
+      "填实",
+      "原失败与改释",
+      "速度",
+      "填实时间"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-071"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-071-E3C-Q003",
+      "BK26-MODERN-071-E3C-Q004",
+      "BK26-MODERN-071-E3C-Q005",
+      "BK26-MODERN-071-E3C-Q009",
+      "BK26-MODERN-071-E3C-Q011",
+      "BK26-MODERN-071-E3C-Q012",
+      "BK26-MODERN-071-E3C-Q015",
+      "BK26-MODERN-071-E3C-Q017",
+      "BK26-MODERN-071-E3C-Q018"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-TARGET-STAGE",
+        "family_id": "LF26-M102N-TARGET-STAGE",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-072-VISA",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "成败",
+      "阻与放行",
+      "成证",
+      "过程",
+      "分层"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-072"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-072-E3C-Q002",
+      "BK26-MODERN-072-E3C-Q007",
+      "BK26-MODERN-072-E3C-Q008",
+      "BK26-MODERN-072-E3C-Q009",
+      "BK26-MODERN-072-E3C-Q010",
+      "BK26-MODERN-072-E3C-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-076-DIAG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位生死",
+      "病位应期",
+      "病位",
+      "病象",
+      "凶象",
+      "解释与提示",
+      "病位与误诊类比",
+      "病与消息",
+      "纠错",
+      "病位原因"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-076"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-076-E3C-Q001",
+      "BK26-MODERN-076-E3C-Q003",
+      "BK26-MODERN-076-E3C-Q005",
+      "BK26-MODERN-076-E3C-Q006",
+      "BK26-MODERN-076-E3C-Q007",
+      "BK26-MODERN-076-E3C-Q010",
+      "BK26-MODERN-076-E3C-Q014",
+      "BK26-MODERN-076-E3C-Q016",
+      "BK26-MODERN-076-E3C-Q019",
+      "BK26-MODERN-076-E3C-Q020",
+      "BK26-MODERN-076-E3C-Q026",
+      "BK26-MODERN-076-E3C-Q029",
+      "BK26-MODERN-076-E3C-Q030"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-076-RESCUE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "救制",
+      "救制手术",
+      "取用救制",
+      "代占",
+      "病位医药",
+      "病位与运筹",
+      "救制与理论",
+      "转院",
+      "代占取用",
+      "误诊取用",
+      "生死",
+      "生死医药"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-076"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-076-E3C-Q002",
+      "BK26-MODERN-076-E3C-Q008",
+      "BK26-MODERN-076-E3C-Q011",
+      "BK26-MODERN-076-E3C-Q012",
+      "BK26-MODERN-076-E3C-Q015",
+      "BK26-MODERN-076-E3C-Q018",
+      "BK26-MODERN-076-E3C-Q021",
+      "BK26-MODERN-076-E3C-Q022",
+      "BK26-MODERN-076-E3C-Q023",
+      "BK26-MODERN-076-E3C-Q024",
+      "BK26-MODERN-076-E3C-Q025",
+      "BK26-MODERN-076-E3C-Q027",
+      "BK26-MODERN-076-E3C-Q028"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-078-PREG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "胎孕",
+      "胎位",
+      "胎孕与流史",
+      "原断",
+      "引法",
+      "关系",
+      "两胎神",
+      "月信",
+      "取舍"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-078"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-078-E3C-Q001",
+      "BK26-MODERN-078-E3C-Q002",
+      "BK26-MODERN-078-E3C-Q003",
+      "BK26-MODERN-078-E3C-Q004",
+      "BK26-MODERN-078-E3C-Q005",
+      "BK26-MODERN-078-E3C-Q006",
+      "BK26-MODERN-078-E3C-Q007",
+      "BK26-MODERN-078-E3C-Q008",
+      "BK26-MODERN-078-E3C-Q009",
+      "BK26-MODERN-078-E3C-Q012",
+      "BK26-MODERN-078-E3C-Q014",
+      "BK26-MODERN-078-E3C-Q015",
+      "BK26-MODERN-078-E3C-Q016"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-079-MOVE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "家宅占"
+    ],
+    "source_judgment_axes": [
+      "住地与亲属",
+      "迁移",
+      "凶",
+      "迁移得财",
+      "远近身份",
+      "远近"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-079"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-079-E3C-Q001",
+      "BK26-MODERN-079-E3C-Q002",
+      "BK26-MODERN-079-E3C-Q003",
+      "BK26-MODERN-079-E3C-Q004",
+      "BK26-MODERN-079-E3C-Q005",
+      "BK26-MODERN-079-E3C-Q006",
+      "BK26-MODERN-079-E3C-Q007"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-080-PREG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "胎孕",
+      "改释",
+      "两胎神"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-080"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-080-E3C-Q001",
+      "BK26-MODERN-080-E3C-Q002",
+      "BK26-MODERN-080-E3C-Q003",
+      "BK26-MODERN-080-E3C-Q004",
+      "BK26-MODERN-080-E3C-Q006",
+      "BK26-MODERN-080-E3C-Q007",
+      "BK26-MODERN-080-E3C-Q009"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-PREGNANCY-QUESTION",
+        "family_id": "LF26-M102N-PREGNANCY-QUESTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-081-PREG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [
+      "胎孕",
+      "病象",
+      "胎孕建议",
+      "胎孕经期",
+      "疑惑",
+      "空实",
+      "月信"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-081"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-081-E3C-Q001",
+      "BK26-MODERN-081-E3C-Q002",
+      "BK26-MODERN-081-E3C-Q003",
+      "BK26-MODERN-081-E3C-Q004",
+      "BK26-MODERN-081-E3C-Q007",
+      "BK26-MODERN-081-E3C-Q009",
+      "BK26-MODERN-081-E3C-Q010",
+      "BK26-MODERN-081-E3C-Q011",
+      "BK26-MODERN-081-E3C-Q012",
+      "BK26-MODERN-081-E3C-Q014",
+      "BK26-MODERN-081-E3C-Q015",
+      "BK26-MODERN-081-E3C-Q016"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-083-VISA",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "审核",
+      "成败",
+      "改释",
+      "语言审核与马"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-083"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-083-E3C-Q001",
+      "BK26-MODERN-083-E3C-Q002",
+      "BK26-MODERN-083-E3C-Q005",
+      "BK26-MODERN-083-E3C-Q006"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-084-DOG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "近速与道路",
+      "另盘拟病死刘姓",
+      "凶象",
+      "死撞"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-084"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-084-E3C-Q006",
+      "BK26-MODERN-084-E3C-Q008",
+      "BK26-MODERN-084-E3C-Q010",
+      "BK26-MODERN-084-E3C-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-085-DRAW",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "事业占"
+    ],
+    "source_judgment_axes": [
+      "抽中与消息",
+      "意愿与钱",
+      "出行",
+      "条件",
+      "过程",
+      "改释",
+      "意愿",
+      "意愿与公司",
+      "人际",
+      "出行与抽中"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-085"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-085-E3C-Q002",
+      "BK26-MODERN-085-E3C-Q003",
+      "BK26-MODERN-085-E3C-Q004",
+      "BK26-MODERN-085-E3C-Q005",
+      "BK26-MODERN-085-E3C-Q006",
+      "BK26-MODERN-085-E3C-Q007",
+      "BK26-MODERN-085-E3C-Q009",
+      "BK26-MODERN-085-E3C-Q011",
+      "BK26-MODERN-085-E3C-Q013",
+      "BK26-MODERN-085-E3C-Q014",
+      "BK26-MODERN-085-E3C-Q015"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-086-RETURN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [
+      "回归",
+      "回归原因",
+      "应期",
+      "欺蒙与阻",
+      "回归应期",
+      "回归主体",
+      "卯日",
+      "追问",
+      "年命",
+      "退的方向与方法观",
+      "异议",
+      "未来",
+      "纠错"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-086"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-086-E3C-Q001",
+      "BK26-MODERN-086-E3C-Q002",
+      "BK26-MODERN-086-E3C-Q003",
+      "BK26-MODERN-086-E3C-Q004",
+      "BK26-MODERN-086-E3C-Q005",
+      "BK26-MODERN-086-E3C-Q006",
+      "BK26-MODERN-086-E3C-Q007",
+      "BK26-MODERN-086-E3C-Q008",
+      "BK26-MODERN-086-E3C-Q009",
+      "BK26-MODERN-086-E3C-Q010",
+      "BK26-MODERN-086-E3C-Q011",
+      "BK26-MODERN-086-E3C-Q012",
+      "BK26-MODERN-086-E3C-Q013",
+      "BK26-MODERN-086-E3C-Q014",
+      "BK26-MODERN-086-E3C-Q015",
+      "BK26-MODERN-086-E3C-Q017",
+      "BK26-MODERN-086-E3C-Q018",
+      "BK26-MODERN-086-E3C-Q019"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-088-CARD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "类神与地点",
+      "地点",
+      "类神",
+      "寻获",
+      "方法",
+      "包类"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-088"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-088-E3C-Q002",
+      "BK26-MODERN-088-E3C-Q003",
+      "BK26-MODERN-088-E3C-Q004",
+      "BK26-MODERN-088-E3C-Q005",
+      "BK26-MODERN-088-E3C-Q007",
+      "BK26-MODERN-088-E3C-Q008",
+      "BK26-MODERN-088-E3C-Q009",
+      "BK26-MODERN-088-E3C-Q010",
+      "BK26-MODERN-088-E3C-Q011"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-089-TRAVEL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "出行",
+      "平安维修",
+      "平安",
+      "电脑"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-089"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-089-E3C-Q001",
+      "BK26-MODERN-089-E3C-Q002",
+      "BK26-MODERN-089-E3C-Q003",
+      "BK26-MODERN-089-E3C-Q004",
+      "BK26-MODERN-089-E3C-Q008",
+      "BK26-MODERN-089-E3C-Q009",
+      "BK26-MODERN-089-E3C-Q011",
+      "BK26-MODERN-089-E3C-Q012"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-090-SURGERY",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位",
+      "手术与未来",
+      "治疗",
+      "医院",
+      "取用",
+      "救命与未取清醒",
+      "未来"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-090"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-090-E3C-Q002",
+      "BK26-MODERN-090-E3C-Q003",
+      "BK26-MODERN-090-E3C-Q004",
+      "BK26-MODERN-090-E3C-Q007",
+      "BK26-MODERN-090-E3C-Q009",
+      "BK26-MODERN-090-E3C-Q010",
+      "BK26-MODERN-090-E3C-Q012",
+      "BK26-MODERN-090-E3C-Q013",
+      "BK26-MODERN-090-E3C-Q014"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-091-TCM",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位",
+      "病因",
+      "辨证",
+      "药物",
+      "通关与肿物手术"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-091"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-091-E3C-Q001",
+      "BK26-MODERN-091-E3C-Q002",
+      "BK26-MODERN-091-E3C-Q003",
+      "BK26-MODERN-091-E3C-Q004",
+      "BK26-MODERN-091-E3C-Q007",
+      "BK26-MODERN-091-E3C-Q008",
+      "BK26-MODERN-091-E3C-Q009",
+      "BK26-MODERN-091-E3C-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-092-WATCH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "盗与回",
+      "盗回时间",
+      "报警追回与盗者",
+      "盗者",
+      "取类",
+      "取类与男友",
+      "过程"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-092"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-092-E3C-Q001",
+      "BK26-MODERN-092-E3C-Q003",
+      "BK26-MODERN-092-E3C-Q004",
+      "BK26-MODERN-092-E3C-Q005",
+      "BK26-MODERN-092-E3C-Q006",
+      "BK26-MODERN-092-E3C-Q007",
+      "BK26-MODERN-092-E3C-Q008"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-093-LAW",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "婚姻与刑",
+      "婚姻",
+      "刑"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-093"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-093-E3C-Q001",
+      "BK26-MODERN-093-E3C-Q003",
+      "BK26-MODERN-093-E3C-Q004",
+      "BK26-MODERN-093-E3C-Q006",
+      "BK26-MODERN-093-E3C-Q007",
+      "BK26-MODERN-093-E3C-Q009",
+      "BK26-MODERN-093-E3C-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-094-ACCIDENT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "出行损财",
+      "出行",
+      "危险与钱",
+      "分出马人与出行",
+      "凶",
+      "过程",
+      "细因",
+      "轻重"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-094"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-094-E3C-Q001",
+      "BK26-MODERN-094-E3C-Q002",
+      "BK26-MODERN-094-E3C-Q003",
+      "BK26-MODERN-094-E3C-Q004",
+      "BK26-MODERN-094-E3C-Q005",
+      "BK26-MODERN-094-E3C-Q006",
+      "BK26-MODERN-094-E3C-Q007",
+      "BK26-MODERN-094-E3C-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-095-DEATH",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "生死应期",
+      "生死",
+      "地点生死",
+      "生死与应期"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-095"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-095-E3C-Q001",
+      "BK26-MODERN-095-E3C-Q002",
+      "BK26-MODERN-095-E3C-Q003",
+      "BK26-MODERN-095-E3C-Q004",
+      "BK26-MODERN-095-E3C-Q005",
+      "BK26-MODERN-095-E3C-Q006",
+      "BK26-MODERN-095-E3C-Q007"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-097-REPORT",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "学业占"
+    ],
+    "source_judgment_axes": [
+      "考核",
+      "内容过程",
+      "自述原判过",
+      "起用提议",
+      "方法主张",
+      "汇报定位"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-097"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-097-E3C-Q001",
+      "BK26-MODERN-097-E3C-Q002",
+      "BK26-MODERN-097-E3C-Q005",
+      "BK26-MODERN-097-E3C-Q007",
+      "BK26-MODERN-097-E3C-Q009",
+      "BK26-MODERN-097-E3C-Q010",
+      "BK26-MODERN-097-E3C-Q011"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-098-PAIN",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位病因",
+      "病象",
+      "病因",
+      "病位",
+      "饮药与尿路拓展",
+      "后取肾痛",
+      "另盘"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-098"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-098-E3C-Q001",
+      "BK26-MODERN-098-E3C-Q002",
+      "BK26-MODERN-098-E3C-Q006",
+      "BK26-MODERN-098-E3C-Q007",
+      "BK26-MODERN-098-E3C-Q010",
+      "BK26-MODERN-098-E3C-Q012",
+      "BK26-MODERN-098-E3C-Q013"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-099-DOG",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "地点人物",
+      "书房",
+      "子将返回应期颜色",
+      "亥将不失"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-099"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-099-E3C-Q001",
+      "BK26-MODERN-099-E3C-Q007",
+      "BK26-MODERN-099-E3C-Q008",
+      "BK26-MODERN-099-E3C-Q009"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-100-REFUND",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "财运占"
+    ],
+    "source_judgment_axes": [
+      "退款",
+      "返还"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-100"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-100-E3C-Q003",
+      "BK26-MODERN-100-E3C-Q004",
+      "BK26-MODERN-100-E3C-Q008",
+      "BK26-MODERN-100-E3C-Q009",
+      "BK26-MODERN-100-E3C-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-101-ARRIVAL",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "出行占"
+    ],
+    "source_judgment_axes": [
+      "到来与停留",
+      "到来",
+      "迟到",
+      "纠错",
+      "必来"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-101"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-101-E3C-Q001",
+      "BK26-MODERN-101-E3C-Q002",
+      "BK26-MODERN-101-E3C-Q003",
+      "BK26-MODERN-101-E3C-Q004",
+      "BK26-MODERN-101-E3C-Q005"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-102-REBUILD",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "急病主体复建",
+      "传外与旬内",
+      "命干线",
+      "住院出院时间",
+      "后遗症"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-102"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-102-E3C-Q006",
+      "BK26-MODERN-102-E3C-Q007",
+      "BK26-MODERN-102-E3C-Q008",
+      "BK26-MODERN-102-E3C-Q009",
+      "BK26-MODERN-102-E3C-Q010"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-102-RESCUE",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "健康占"
+    ],
+    "source_judgment_axes": [
+      "病位凶吉",
+      "病位",
+      "病位原因",
+      "病症救制",
+      "轻重与病机",
+      "原大凶失准",
+      "后析救应与旧亲属"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-102"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-102-E3C-Q001",
+      "BK26-MODERN-102-E3C-Q002",
+      "BK26-MODERN-102-E3C-Q003",
+      "BK26-MODERN-102-E3C-Q004",
+      "BK26-MODERN-102-E3C-Q005",
+      "BK26-MODERN-102-E3C-Q011",
+      "BK26-MODERN-102-E3C-Q012"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-103-MISSING",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "失物占"
+    ],
+    "source_judgment_axes": [
+      "生死地点",
+      "生死原因",
+      "考试",
+      "生死",
+      "死亡",
+      "死因",
+      "辨死法"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-103"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-103-E3C-Q001",
+      "BK26-MODERN-103-E3C-Q002",
+      "BK26-MODERN-103-E3C-Q003",
+      "BK26-MODERN-103-E3C-Q004",
+      "BK26-MODERN-103-E3C-Q005",
+      "BK26-MODERN-103-E3C-Q006",
+      "BK26-MODERN-103-E3C-Q007",
+      "BK26-MODERN-103-E3C-Q008"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-104-COMPENSATION",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "官讼占"
+    ],
+    "source_judgment_axes": [
+      "途径病位",
+      "金额",
+      "协商数额"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-104"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-104-E3C-Q003",
+      "BK26-MODERN-104-E3C-Q004",
+      "BK26-MODERN-104-E3C-Q005"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-QUANTITY-UNIT",
+        "family_id": "LF26-M102N-QUANTITY-UNIT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102C-106-CAREER",
+    "review_scope": "E3逐作者源卡",
+    "categories": [
+      "家宅占"
+    ],
+    "source_judgment_axes": [
+      "职业",
+      "取墓与教师"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-106"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-106-E3C-Q008",
+      "BK26-MODERN-106-E3C-Q009"
+    ],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": true,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-LOST-COORDINATE",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "失物占",
+      "走失占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-PREGNANCY-QUESTION",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "胎产占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-QUANTITY-UNIT",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "学业占",
+      "官讼占",
+      "财运占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-RESCUE-ENDPOINT",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "事业占",
+      "健康占",
+      "通用",
+      "工作占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-ROLE-ACTION",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "感情占",
+      "失物占",
+      "杂事占",
+      "官讼占",
+      "健康占",
+      "财运占",
+      "走失占",
+      "通用",
+      "事业占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-TARGET-STAGE",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "财运占",
+      "事业占",
+      "杂事占",
+      "失物占",
+      "感情占",
+      "胎产占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-M102N-VOID-OBJECT",
+    "review_scope": "本轮共同操作规范入口",
+    "categories": [
+      "胎产占",
+      "健康占",
+      "财运占",
+      "工作占",
+      "事业占",
+      "出行占",
+      "家宅占"
+    ],
+    "source_judgment_axes": [],
+    "source_case_ids": [],
+    "subjudgment_ids": [],
+    "canonical_routes": [],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-MP10-031-ROLE",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "走失占"
+    ],
+    "source_judgment_axes": [
+      "人物地点",
+      "动因",
+      "动因成败",
+      "人物取用",
+      "人物动因"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-031"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-031-E2-Q011",
+      "BK26-MODERN-031-E2-Q013",
+      "BK26-MODERN-031-E2-Q015",
+      "BK26-MODERN-031-E2-Q016",
+      "BK26-MODERN-031-E2-Q020",
+      "BK26-MODERN-031-E2-Q021",
+      "BK26-MODERN-031-E2-Q023"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-ROLE-ACTION",
+        "family_id": "LF26-M102N-ROLE-ACTION",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-LOST-COORDINATE",
+        "family_id": "LF26-M102N-LOST-COORDINATE",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-MP10-082-VOID-NO",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "工作占"
+    ],
+    "source_judgment_axes": [
+      "填实疑点",
+      "填实主张",
+      "过程成败"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-082"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-082-E2-Q002",
+      "BK26-MODERN-082-E2-Q005",
+      "BK26-MODERN-082-E2-Q007"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  },
+  {
+    "id": "LR26-MP10-082-VOID-YES",
+    "review_scope": "仅规范比较涉及的现有卡条件与结论；不是整条旧经验重审",
+    "categories": [
+      "工作占"
+    ],
+    "source_judgment_axes": [
+      "填实象意",
+      "救制人物"
+    ],
+    "source_case_ids": [
+      "BK26-MODERN-082"
+    ],
+    "subjudgment_ids": [
+      "BK26-MODERN-082-E2-Q013",
+      "BK26-MODERN-082-E2-Q014",
+      "BK26-MODERN-082-E2-Q015"
+    ],
+    "canonical_routes": [
+      {
+        "canonical_rule_id": "LR26-M102N-VOID-OBJECT",
+        "family_id": "LF26-M102N-VOID-OBJECT",
+        "scope": "上述共同操作；具体分支原样保留"
+      },
+      {
+        "canonical_rule_id": "LR26-M102N-RESCUE-ENDPOINT",
+        "family_id": "LF26-M102N-RESCUE-ENDPOINT",
+        "scope": "上述共同操作；具体分支原样保留"
+      }
+    ],
+    "semantic_basis": "逐作者人工拆分和逐卡条件比较；非关键词标签",
+    "covers_all_claims": false,
+    "independent_validation_count": 0
+  }
+]

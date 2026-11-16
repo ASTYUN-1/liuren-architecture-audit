@@ -1,0 +1,48 @@
+{
+  "engine": "actual-local-OpenCode",
+  "scope": "professional-output-local-review",
+  "jobs": [
+    {
+      "alias": "exam",
+      "title": "英语四级通过与分数",
+      "caseId": "raw-qqwb20261019-0037",
+      "source": "docs\\初级案例整理\\初级案例资料\\qqwb20261019-有效201例-修订版\\analysis-ready\\public\\case-f68f716c05.json",
+      "sourceSha256": "c52d63a62f127627df01a2e89b816028b800b3b173073d7a83d750a8c31b3fcb",
+      "input": "inputs/exam.json",
+      "libraryStatus": "未入正式库",
+      "sourceCoreVisuallyVerified": true,
+      "feedbackDisclosed": false,
+      "sourceCaseSha256": "d311832f10ef5ab5eb2dc963d2ca1c57125a769368347588954a02b7187f731f",
+      "sourceChartSha256": "708118f0d1b9d8e00da69c863d51bb84cf4d9bd2402fb98bcf847ceb8449e503"
+    },
+    {
+      "alias": "recruitment",
+      "title": "KTV前台面试能否通过",
+      "caseId": "raw-qqwb20261019-0072",
+      "source": "docs\\初级案例整理\\初级案例资料\\qqwb20261019-有效201例-修订版\\analysis-ready\\public\\case-14271a4eb9.json",
+      "sourceSha256": "3a6c6275d17cb02c62d0a8bc5ac065601b4d8c0e3f501d18856cc639ba4b5d54",
+      "input": "inputs/recruitment.json",
+      "libraryStatus": "未入正式库",
+      "sourceCoreVisuallyVerified": true,
+      "feedbackDisclosed": false,
+      "sourceCaseSha256": "92a318234c4ee0cad439fa836f6fa58191b2de7b9e45278c2553ac408d7ead64",
+      "sourceChartSha256": "51990e0debb3e32a3650f65929767b0af18d83f88331a24103af72d17313be26"
+    },
+    {
+      "alias": "finance",
+      "title": "房产谈判能否成交及价格",
+      "caseId": "raw-qqwb20261019-0160",
+      "source": "docs\\初级案例整理\\初级案例资料\\qqwb20261019-有效201例-修订版\\analysis-ready\\public\\case-c4503172ae.json",
+      "sourceSha256": "c30f9f03cc031d0b0aab157feef35ac2daff0206e6da9b984524126bc1a0f94c",
+      "input": "inputs/finance.json",
+      "libraryStatus": "未入正式库",
+      "sourceCoreVisuallyVerified": true,
+      "feedbackDisclosed": false,
+      "sourceCaseSha256": "5fe10fc0ae1218a9c471d43e1cacd7c619433704ac5f393fb671f8a565fdc404",
+      "sourceChartSha256": "bbb10f03ac1f0b5069443fe7d8e155dd836f616374de1831e8e1dde8a751a881"
+    }
+  ],
+  "noProductionWrites": true,
+  "noLibraryWrites": true,
+  "feedbackDisclosed": false
+}

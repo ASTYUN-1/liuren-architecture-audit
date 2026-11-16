@@ -1,0 +1,44 @@
+{
+  "schema": "liuren-deterministic-policy-v1",
+  "release": "20261108-unified-32",
+  "implementation": "tools/liuren-deterministic.mjs",
+  "growth": {
+    "profile": "object-dependent-U04",
+    "start": {
+      "木": "亥",
+      "火": "寅",
+      "土": "申",
+      "金": "巳",
+      "水": "申"
+    },
+    "basis": [
+      "E02",
+      "E05"
+    ],
+    "notEquivalent": "stem and element cycles serve different objects; never interchange",
+    "stemProfile": "stem-yang-forward-yin-reverse",
+    "stemStart": {
+      "甲": "亥",
+      "乙": "午",
+      "丙": "寅",
+      "丁": "酉",
+      "戊": "寅",
+      "己": "酉",
+      "庚": "巳",
+      "辛": "子",
+      "壬": "申",
+      "癸": "卯"
+    },
+    "branchGeneralProfile": "element-forward-water-earth"
+  },
+  "seasonalProfiles": [
+    "four-seasons",
+    "quarter-earth"
+  ],
+  "seasonalSelection": "explicit source-conditioned; not automatically adjudicated",
+  "kinReference": "day stem by default; arbitrary reference explicit",
+  "relations": "existence and direction only; no efficacy or transformation",
+  "lifeRule": "references/nianming.md; verified nominal age required",
+  "numberSource": "references/quantity-sources.md; branch/stem/sheng/cheng only; no guessed general table",
+  "independentPredictiveValidationCount": 0
+}

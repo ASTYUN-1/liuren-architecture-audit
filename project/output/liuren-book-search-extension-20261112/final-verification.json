@@ -1,0 +1,16 @@
+{
+  "backups_verified": 17,
+  "old_runtime_files_unchanged": 126,
+  "active_files_match_after": true,
+  "new_files_match_after": true,
+  "models_unchanged": true,
+  "rollback_executed": false,
+  "test_results": {
+    "python_book_search_pass": 18,
+    "python_scope_pass": 5,
+    "python_scope_skip": 1,
+    "node_pass": 44
+  },
+  "preflight_pass": true,
+  "codex_ready": true
+}

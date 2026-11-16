@@ -1,0 +1,1585 @@
+{
+  "schema": "liuren-reading-core-v1",
+  "request_id": "bifa42-proof-1794383697167",
+  "reading_policy": "核心内容须读完；references只为索引，不要求逐项打开。决定性条件不清、摘要不足或新争点影响结论时，按material_id或module查连续原文；读了多少参考页不作为提交门槛。",
+  "original_question": "合成工程验收：核对基本毕法是否从正式盘进入裁决AI核心；不作现实预测。",
+  "questions": [
+    {
+      "id": "Q_transport",
+      "domain": "finance",
+      "text": "合成工程验收：核对基本毕法是否从正式盘进入裁决AI核心；不作现实预测。",
+      "subject": "基本毕法交接",
+      "stage": "工程验收",
+      "deadline": "本轮",
+      "success_criteria": "完整核心能读取与正式盘相同的已核结构及其连续书证",
+      "alternatives": [
+        "传输通过",
+        "传输失败"
+      ],
+      "tasks": [
+        "outcome"
+      ],
+      "task_basis": [
+        {
+          "task": "outcome",
+          "origin": "user_requested",
+          "request_quote": "合成工程验收：核对基本毕法是否从正式盘进入裁决AI核心；不作现实预测。",
+          "reason": "工程传输测试"
+        }
+      ]
+    }
+  ],
+  "input_review": {
+    "questions": [
+      {
+        "question_id": "Q_transport",
+        "request_quote": "合成工程验收：核对基本毕法是否从正式盘进入裁决AI核心；不作现实预测。",
+        "success_basis": "工程测试",
+        "stage_origin": "user_explicit",
+        "stage_basis": "合成工程验收：核对基本毕法是否从正式盘进入裁决AI核心；不作现实预测。"
+      }
+    ],
+    "facts": [
+      {
+        "fact_id": "F_test",
+        "origin": "inferred",
+        "basis": "测试构造"
+      }
+    ],
+    "neutrality_review": "无占断结果"
+  },
+  "consistency_policy": {
+    "schema": "liuren-consistency-audit-v1",
+    "enabled": true,
+    "maxRechecks": 1
+  },
+  "consistency_guide": "39版一致性附件：正文仍自由Markdown，不提交私下推理。submit另给audit，schema=liuren-consistency-audit-v1。questions每问一项：question_id、request_quote(原问逐字片段)、stage_origin(user_explicit/inferred/unknown)、stage_basis(明确阶段附原问引句，推断/未知如实标记)、success_review、answer_quote(正文逐字片段)、candidates(有数量限制时列边界清楚的职能候选；否则[])、counterevidence:{present,relation_ids,report_quote,resolution,basis_refs}。relations仅登记决定性作用与最强反证：id、source/target(程序对象如T:寅、S:丙)、question_ids、role(support/obstruction/rescue/context)、basis_refs、basis、effect_scope、disposition(used/limited/excluded/unresolved)、reason、report_quote、numeric(supported/qualitative_only)。完整盘查漏，候选可纠正；未采用的反证须解释，救应须核到达和解除范围，不因不克日干排除所求受阻。basis_refs可用program/core/domain:本问domain/已绑定材料ID。calculations每个被正文引用的strength回执一项：receipt_sha256(计算返回calculation_receipt.sha256)、scope(local/combined)、relation_ids、report_quote、score_claims:[{actor,path,value,report_quote}]；path是该回执result中的JSON Pointer，可用liuren_adjudication_audit(action=receipts)查真实回执。local只代表局部情景；combined须覆盖已登记、同问且涉及本次对象的有效数值作用，不能把分开的局部扶助冒充综合结果；定性刑冲不强行量化。不引用分数则calculations=[]。最后omission_review简述查漏结果，不穷举全盘。程序核结构、原句、引用和回执，不判专业效力。",
+  "chart": {
+    "schema": "liuren-ai-chart-v1",
+    "datetime": "2026-11-11T14:42:00+08:00",
+    "lunar": {
+      "y": "二〇二六",
+      "m": "十月",
+      "d": "初三"
+    },
+    "pillars": [
+      "丙午",
+      "己亥",
+      "己丑",
+      "辛未"
+    ],
+    "month_general": "卯",
+    "xun": "甲申",
+    "void_branches": [
+      "午",
+      "未"
+    ],
+    "chart_types": [
+      "涉害",
+      "从革",
+      "蓦越"
+    ],
+    "nobleman": {
+      "rule": "甲戊庚牛羊",
+      "zhouye": "昼贵",
+      "heaven_branch": "子",
+      "direction": "顺行"
+    },
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "growth_basis": {
+      "stems": "天干十二长生，阳顺阴逆",
+      "branches_and_generals": "五行十二气顺行，木亥火寅金巳水土申"
+    },
+    "strength_model": {
+      "id": "liuren-palace-strength-v1",
+      "base_model": "liuren-strength-research-v05-direct",
+      "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+      "kind": "研究单宫旺衰",
+      "range": [
+        0,
+        10
+      ],
+      "reference": 5,
+      "scope": "已计天地、自己的直接阴神、同宫神将及日干自身直接生扶泄耗克制；未计刑冲合化、神煞及取用后跨宫作用",
+      "bands": [
+        {
+          "range": "0",
+          "label": "本计算无有效力量"
+        },
+        {
+          "range": "0<E<1",
+          "label": "极弱，通常难以独立显著作用"
+        },
+        {
+          "range": "1≤E<2.5",
+          "label": "弱，仍有作用"
+        },
+        {
+          "range": "2.5≤E<5",
+          "label": "偏弱至中等，可发挥作用"
+        },
+        {
+          "range": "5≤E<7.5",
+          "label": "较强"
+        },
+        {
+          "range": "7.5≤E≤10",
+          "label": "强"
+        }
+      ],
+      "selected_relations": "取用并明确双方作用依据后，调用liuren_compute(action=strength)补算；不得自行加减或再扣空亡",
+      "seasonal_keys": {
+        "四季": "春木夏火秋金冬水",
+        "季土": "辰未戌丑土旺条件表"
+      },
+      "general_void": "乘支空通过实际生克通路影响将，未另扣将分"
+    },
+    "lessons": [
+      {
+        "index": 1,
+        "name": "第一课",
+        "tianjiang": "六合",
+        "tianpan": "卯",
+        "dizhi": "己",
+        "day_stem_home": "未",
+        "status": "坐空"
+      },
+      {
+        "index": 2,
+        "name": "第二课",
+        "tianjiang": "天后",
+        "tianpan": "亥",
+        "dizhi": "卯",
+        "status": ""
+      },
+      {
+        "index": 3,
+        "name": "第三课",
+        "tianjiang": "玄武",
+        "tianpan": "酉",
+        "dizhi": "丑",
+        "status": ""
+      },
+      {
+        "index": 4,
+        "name": "第四课",
+        "tianjiang": "青龙",
+        "tianpan": "巳",
+        "dizhi": "酉",
+        "status": ""
+      }
+    ],
+    "transmissions": [
+      {
+        "index": 1,
+        "name": "初传",
+        "liuqin": "父母",
+        "tianGan": "癸",
+        "diZhi": "巳",
+        "tianjiang": "青龙",
+        "status": "",
+        "earth_position": "酉"
+      },
+      {
+        "index": 2,
+        "name": "中传",
+        "liuqin": "兄弟",
+        "tianGan": "己",
+        "diZhi": "丑",
+        "tianjiang": "腾蛇",
+        "status": "",
+        "earth_position": "巳"
+      },
+      {
+        "index": 3,
+        "name": "末传",
+        "liuqin": "子孙",
+        "tianGan": "乙",
+        "diZhi": "酉",
+        "tianjiang": "玄武",
+        "status": "",
+        "earth_position": "丑"
+      }
+    ],
+    "heaven_earth": [
+      {
+        "id": "D_B0",
+        "di": "辰",
+        "tian": "子",
+        "tianjiang": "贵人",
+        "element": "水",
+        "direct_yin": "申",
+        "liuqin": "妻财",
+        "xungan": "戊",
+        "nayin": "霹雷火",
+        "status": "",
+        "yin_status": "",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "旺",
+          "growth_ground": "墓",
+          "growth_yin": "长生",
+          "strength_index": 4.729,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "local": [
+            "地克神",
+            "将克神",
+            "阴神生神",
+            "将与地比和"
+          ],
+          "formations": [
+            "夹克"
+          ]
+        },
+        "general_state": {
+          "element": "土",
+          "month_qi": "囚",
+          "growth_carrier": "帝旺",
+          "growth_ground": "墓",
+          "strength_index": 3.108,
+          "strength_level": "偏弱至中等，可发挥作用"
+        },
+        "shensha": [
+          [
+            "S04",
+            "天马"
+          ],
+          [
+            "S26",
+            "旬奇"
+          ]
+        ]
+      },
+      {
+        "id": "D_B1",
+        "di": "巳",
+        "tian": "丑",
+        "tianjiang": "腾蛇",
+        "element": "土",
+        "direct_yin": "酉",
+        "liuqin": "兄弟",
+        "xungan": "己",
+        "nayin": "霹雷火",
+        "status": "",
+        "yin_status": "",
+        "lesson_slots": [],
+        "transmission_slots": [
+          2
+        ],
+        "state": {
+          "month_qi": "囚",
+          "growth_ground": "绝",
+          "growth_yin": "沐浴",
+          "strength_index": 2.171,
+          "strength_level": "弱，仍有作用",
+          "local": [
+            "地生神",
+            "将生神",
+            "神生阴神",
+            "将与地比和"
+          ],
+          "formations": [
+            "夹生"
+          ],
+          "coexistence": [
+            "地盘巳:临绝并见受生"
+          ]
+        },
+        "general_state": {
+          "element": "火",
+          "month_qi": "死",
+          "growth_carrier": "养",
+          "growth_ground": "临官",
+          "strength_index": 1.645,
+          "strength_level": "弱，仍有作用"
+        },
+        "shensha": [
+          [
+            "S09",
+            "日破碎"
+          ],
+          [
+            "S17",
+            "天医"
+          ]
+        ]
+      },
+      {
+        "id": "D_B2",
+        "di": "午",
+        "tian": "寅",
+        "tianjiang": "朱雀",
+        "element": "木",
+        "direct_yin": "戌",
+        "liuqin": "官鬼",
+        "xungan": "庚",
+        "nayin": "松柏木",
+        "status": "坐空",
+        "yin_status": "",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "相",
+          "growth_ground": "死",
+          "growth_yin": "养",
+          "strength_index": 2.416,
+          "strength_level": "弱，仍有作用",
+          "local": [
+            "神生地",
+            "神生将",
+            "神克阴神",
+            "将与地比和"
+          ]
+        },
+        "general_state": {
+          "element": "火",
+          "month_qi": "死",
+          "growth_carrier": "长生",
+          "growth_ground": "帝旺",
+          "strength_index": 2.773,
+          "strength_level": "偏弱至中等，可发挥作用"
+        },
+        "shensha": [
+          [
+            "S12",
+            "日德"
+          ],
+          [
+            "S21S",
+            "月死神"
+          ],
+          [
+            "S22",
+            "季孤辰"
+          ]
+        ]
+      },
+      {
+        "id": "D_B3",
+        "di": "未",
+        "tian": "卯",
+        "tianjiang": "六合",
+        "element": "木",
+        "direct_yin": "亥",
+        "liuqin": "官鬼",
+        "xungan": "辛",
+        "nayin": "松柏木",
+        "status": "坐空",
+        "yin_status": "",
+        "lesson_slots": [
+          1
+        ],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "相",
+          "growth_ground": "墓",
+          "growth_yin": "长生",
+          "strength_index": 4.221,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "local": [
+            "神克地",
+            "将与神比和",
+            "阴神生神",
+            "将克地"
+          ]
+        },
+        "general_state": {
+          "element": "木",
+          "month_qi": "相",
+          "growth_carrier": "帝旺",
+          "growth_ground": "墓",
+          "strength_index": 6.001,
+          "strength_level": "较强"
+        },
+        "shensha": [
+          [
+            "S08M",
+            "月天鼠小耗"
+          ],
+          [
+            "S21",
+            "月死气"
+          ],
+          [
+            "S29",
+            "日进神"
+          ]
+        ]
+      },
+      {
+        "id": "D_B4",
+        "di": "申",
+        "tian": "辰",
+        "tianjiang": "勾陈",
+        "element": "土",
+        "direct_yin": "子",
+        "liuqin": "兄弟",
+        "xungan": "壬",
+        "nayin": "长流水",
+        "status": "",
+        "yin_status": "",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "囚",
+          "growth_ground": "长生",
+          "growth_yin": "帝旺",
+          "strength_index": 3.199,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "local": [
+            "神生地",
+            "将与神比和",
+            "神克阴神",
+            "将生地"
+          ],
+          "coexistence": [
+            "地盘申:长生兼泄"
+          ]
+        },
+        "general_state": {
+          "element": "土",
+          "month_qi": "囚",
+          "growth_carrier": "墓",
+          "growth_ground": "长生",
+          "strength_index": 2.39,
+          "strength_level": "弱，仍有作用",
+          "coexistence": [
+            "地盘申:长生兼泄"
+          ]
+        },
+        "shensha": [
+          [
+            "S28",
+            "日退神"
+          ],
+          [
+            "S32D",
+            "吊客"
+          ]
+        ]
+      },
+      {
+        "id": "D_B5",
+        "di": "酉",
+        "tian": "巳",
+        "tianjiang": "青龙",
+        "element": "火",
+        "direct_yin": "丑",
+        "liuqin": "父母",
+        "xungan": "癸",
+        "nayin": "长流水",
+        "status": "",
+        "yin_status": "",
+        "lesson_slots": [
+          4
+        ],
+        "transmission_slots": [
+          1
+        ],
+        "state": {
+          "month_qi": "死",
+          "growth_ground": "死",
+          "growth_yin": "养",
+          "strength_index": 1.701,
+          "strength_level": "弱，仍有作用",
+          "local": [
+            "神克地",
+            "将生神",
+            "神生阴神",
+            "地克将"
+          ]
+        },
+        "general_state": {
+          "element": "木",
+          "month_qi": "相",
+          "growth_carrier": "病",
+          "growth_ground": "胎",
+          "strength_index": 3.425,
+          "strength_level": "偏弱至中等，可发挥作用"
+        },
+        "shensha": [
+          [
+            "S07",
+            "旬癸闭口"
+          ],
+          [
+            "S15",
+            "月破"
+          ],
+          [
+            "S19",
+            "岁病符"
+          ]
+        ]
+      },
+      {
+        "id": "D_B6",
+        "di": "戌",
+        "tian": "午",
+        "tianjiang": "天空",
+        "element": "火",
+        "direct_yin": "寅",
+        "liuqin": "父母",
+        "xungan": "空",
+        "nayin": "无纳音",
+        "status": "旬空",
+        "yin_status": "坐空",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "死",
+          "growth_ground": "墓",
+          "growth_yin": "长生",
+          "strength_index": 0.824,
+          "strength_level": "极弱，通常难以独立显著作用",
+          "local": [
+            "神生地",
+            "神生将",
+            "阴神生神",
+            "将与地比和"
+          ]
+        },
+        "general_state": {
+          "element": "土",
+          "month_qi": "囚",
+          "growth_carrier": "胎",
+          "growth_ground": "冠带",
+          "strength_index": 2.475,
+          "strength_level": "弱，仍有作用"
+        },
+        "shensha": [
+          [
+            "S01",
+            "太岁"
+          ],
+          [
+            "S13",
+            "日禄"
+          ],
+          [
+            "S14",
+            "支德"
+          ],
+          [
+            "S16",
+            "季丧车"
+          ],
+          [
+            "S24",
+            "日桃花"
+          ],
+          [
+            "S25",
+            "文星"
+          ]
+        ]
+      },
+      {
+        "id": "D_B7",
+        "di": "亥",
+        "tian": "未",
+        "tianjiang": "白虎",
+        "element": "土",
+        "direct_yin": "卯",
+        "liuqin": "兄弟",
+        "xungan": "空",
+        "nayin": "无纳音",
+        "status": "旬空",
+        "yin_status": "坐空",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "囚",
+          "growth_ground": "临官",
+          "growth_yin": "死",
+          "strength_index": 1.351,
+          "strength_level": "弱，仍有作用",
+          "local": [
+            "神克地",
+            "神生将",
+            "阴神克神",
+            "将生地"
+          ]
+        },
+        "general_state": {
+          "element": "金",
+          "month_qi": "休",
+          "growth_carrier": "冠带",
+          "growth_ground": "病",
+          "strength_index": 4.286,
+          "strength_level": "偏弱至中等，可发挥作用"
+        },
+        "shensha": [
+          [
+            "S11",
+            "季天喜"
+          ],
+          [
+            "S18",
+            "地医"
+          ],
+          [
+            "S30",
+            "月血光"
+          ],
+          [
+            "S31Y",
+            "羊刃"
+          ]
+        ]
+      },
+      {
+        "id": "D_B8",
+        "di": "子",
+        "tian": "申",
+        "tianjiang": "太常",
+        "element": "金",
+        "direct_yin": "辰",
+        "liuqin": "子孙",
+        "xungan": "甲",
+        "nayin": "泉中水",
+        "status": "",
+        "yin_status": "",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "休",
+          "growth_ground": "死",
+          "growth_yin": "养",
+          "strength_index": 3.29,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "local": [
+            "神生地",
+            "将生神",
+            "阴神生神",
+            "将克地"
+          ]
+        },
+        "general_state": {
+          "element": "土",
+          "month_qi": "囚",
+          "growth_carrier": "长生",
+          "growth_ground": "帝旺",
+          "strength_index": 3.123,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "coexistence": [
+            "乘神申:长生兼泄"
+          ]
+        },
+        "shensha": [
+          [
+            "S02",
+            "帘幕贵人"
+          ],
+          [
+            "S06",
+            "成神"
+          ],
+          [
+            "S27",
+            "旬仪"
+          ],
+          [
+            "S32",
+            "丧门"
+          ]
+        ]
+      },
+      {
+        "id": "D_B9",
+        "di": "丑",
+        "tian": "酉",
+        "tianjiang": "玄武",
+        "element": "金",
+        "direct_yin": "巳",
+        "liuqin": "子孙",
+        "xungan": "乙",
+        "nayin": "泉中水",
+        "status": "",
+        "yin_status": "",
+        "lesson_slots": [
+          3
+        ],
+        "transmission_slots": [
+          3
+        ],
+        "state": {
+          "month_qi": "休",
+          "growth_ground": "墓",
+          "growth_yin": "长生",
+          "strength_index": 3.266,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "local": [
+            "地生神",
+            "神生将",
+            "阴神克神",
+            "地克将"
+          ],
+          "coexistence": [
+            "地盘丑:临墓并见受生",
+            "阴神巳:长生兼受克"
+          ]
+        },
+        "general_state": {
+          "element": "水",
+          "month_qi": "旺",
+          "growth_carrier": "沐浴",
+          "growth_ground": "衰",
+          "strength_index": 6.178,
+          "strength_level": "较强"
+        },
+        "shensha": [
+          [
+            "S10",
+            "月生气"
+          ],
+          [
+            "S29",
+            "日进神"
+          ]
+        ]
+      },
+      {
+        "id": "D_B10",
+        "di": "寅",
+        "tian": "戌",
+        "tianjiang": "太阴",
+        "element": "土",
+        "direct_yin": "午",
+        "liuqin": "兄弟",
+        "xungan": "丙",
+        "nayin": "屋上土",
+        "status": "",
+        "yin_status": "旬空",
+        "lesson_slots": [],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "囚",
+          "growth_ground": "病",
+          "growth_yin": "胎",
+          "strength_index": 1.151,
+          "strength_level": "弱，仍有作用",
+          "local": [
+            "地克神",
+            "神生将",
+            "阴神生神",
+            "将克地"
+          ]
+        },
+        "general_state": {
+          "element": "金",
+          "month_qi": "休",
+          "growth_carrier": "衰",
+          "growth_ground": "绝",
+          "strength_index": 3.269,
+          "strength_level": "偏弱至中等，可发挥作用"
+        },
+        "shensha": [
+          [
+            "S23",
+            "季寡宿"
+          ],
+          [
+            "S28",
+            "日退神"
+          ],
+          [
+            "S30Z",
+            "月血支"
+          ],
+          [
+            "S33",
+            "季关神"
+          ]
+        ]
+      },
+      {
+        "id": "D_B11",
+        "di": "卯",
+        "tian": "亥",
+        "tianjiang": "天后",
+        "element": "水",
+        "direct_yin": "未",
+        "liuqin": "妻财",
+        "xungan": "丁",
+        "nayin": "屋上土",
+        "status": "",
+        "yin_status": "旬空",
+        "lesson_slots": [
+          2
+        ],
+        "transmission_slots": [],
+        "state": {
+          "month_qi": "旺",
+          "growth_ground": "死",
+          "growth_yin": "养",
+          "strength_index": 3.699,
+          "strength_level": "偏弱至中等，可发挥作用",
+          "local": [
+            "神生地",
+            "将与神比和",
+            "阴神克神",
+            "将生地"
+          ]
+        },
+        "general_state": {
+          "element": "水",
+          "month_qi": "旺",
+          "growth_carrier": "临官",
+          "growth_ground": "死",
+          "strength_index": 6.429,
+          "strength_level": "较强"
+        },
+        "shensha": [
+          [
+            "S03",
+            "日驿马"
+          ],
+          [
+            "S05",
+            "旬丁"
+          ],
+          [
+            "S08",
+            "岁小耗"
+          ],
+          [
+            "S20",
+            "岁干死符"
+          ],
+          [
+            "S30J",
+            "月血忌"
+          ]
+        ]
+      }
+    ],
+    "day": {
+      "id": "D_S5",
+      "symbol": "己",
+      "element": "土",
+      "home": "未",
+      "upper": "卯",
+      "direct_yin": "亥",
+      "month_qi": "囚",
+      "growth": {
+        "home": "冠带",
+        "upper": "病",
+        "yin": "胎",
+        "day_branch": "墓"
+      },
+      "local": [
+        "上神克本干",
+        "本干克干阴神"
+      ],
+      "void_positions": [
+        "寄宫旬空"
+      ],
+      "strength_index": 1.542,
+      "strength_level": "弱，仍有作用"
+    },
+    "anchors": {
+      "day_upper": "卯",
+      "day_yin": "亥",
+      "branch_upper": "酉",
+      "branch_yin": "巳"
+    },
+    "active_relations": [
+      {
+        "a": "己",
+        "b": "丑",
+        "state": [
+          "己与丑比和"
+        ]
+      },
+      {
+        "a": "己",
+        "b": "卯",
+        "state": [
+          "卯克己"
+        ]
+      },
+      {
+        "a": "己",
+        "b": "亥",
+        "state": [
+          "己克亥"
+        ]
+      },
+      {
+        "a": "己",
+        "b": "酉",
+        "state": [
+          "己生酉"
+        ]
+      },
+      {
+        "a": "己",
+        "b": "巳",
+        "state": [
+          "巳生己"
+        ]
+      },
+      {
+        "a": "丑",
+        "b": "卯",
+        "state": [
+          "卯克丑"
+        ]
+      },
+      {
+        "a": "丑",
+        "b": "亥",
+        "state": [
+          "丑克亥"
+        ]
+      },
+      {
+        "a": "丑",
+        "b": "酉",
+        "state": [
+          "丑生酉"
+        ]
+      },
+      {
+        "a": "丑",
+        "b": "巳",
+        "state": [
+          "巳生丑"
+        ]
+      },
+      {
+        "a": "卯",
+        "b": "亥",
+        "state": [
+          "亥生卯"
+        ]
+      },
+      {
+        "a": "卯",
+        "b": "酉",
+        "state": [
+          "酉克卯",
+          "卯与酉六冲"
+        ]
+      },
+      {
+        "a": "卯",
+        "b": "巳",
+        "state": [
+          "卯生巳"
+        ]
+      },
+      {
+        "a": "亥",
+        "b": "酉",
+        "state": [
+          "酉生亥"
+        ]
+      },
+      {
+        "a": "亥",
+        "b": "巳",
+        "state": [
+          "亥克巳",
+          "亥与巳六冲"
+        ]
+      },
+      {
+        "a": "酉",
+        "b": "巳",
+        "state": [
+          "巳克酉"
+        ]
+      }
+    ],
+    "structure": {
+      "transmission_same_element": false,
+      "plate_is_identity": false,
+      "plate_is_opposition": false,
+      "triple_members": [
+        "巳酉丑"
+      ]
+    },
+    "bifa_conditions": {
+      "schema": "liuren-basic-bifa-v1",
+      "release": "20261111-basic-bifa-42",
+      "actual_mode": "昼贵",
+      "binding": {
+        "geometry_sha256": "eae17eeb5680bef2afa933a46a9f166a5e86fda876317d75fc7d8dcdb72dc8d5",
+        "rules_sha256": "116a6c6e5cd3feea46399d4850e3db89a8295a550f5f3c7d4b5a944b87ca5f8b",
+        "implementation_sha256": "53d84151ce6cce371035d71bd46835f074688730b05136c656488f64a16bf2c6"
+      },
+      "coverage": {
+        "registered_structures": 32,
+        "represented_laws": 25,
+        "all_registered_checked": true,
+        "all_100_laws_complete": false,
+        "year_life_branches_checked": false
+      },
+      "instruction": "仅为已核基本结构，按本问类神、位置、旺衰空实、制救和阶段选用。成立关系不等于有效成格或标题断语兑现；相关条目不得重复计证。未列出不代表其他毕法不存在，偏僻/未核旁格暂不自动采用。",
+      "matches": [
+        {
+          "id": "BF06-yin",
+          "law_number": 6,
+          "name": "课传全阴",
+          "evidence_ids": [
+            "BF-B06"
+          ],
+          "definition": "四课上神、三传皆阴支",
+          "checks": [
+            {
+              "condition": "四课上神与三传均为阴支",
+              "met": true,
+              "actual": {
+                "四课": [
+                  "卯",
+                  "亥",
+                  "酉",
+                  "巳"
+                ],
+                "三传": [
+                  "巳",
+                  "丑",
+                  "酉"
+                ]
+              }
+            }
+          ],
+          "points": [
+            {
+              "di": "未",
+              "tian": "卯",
+              "tianjiang": "六合",
+              "xungan": "辛",
+              "positions": [
+                "第1课上神"
+              ],
+              "void_self": false,
+              "void_ground": true
+            },
+            {
+              "di": "卯",
+              "tian": "亥",
+              "tianjiang": "天后",
+              "xungan": "丁",
+              "positions": [
+                "第2课上神"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "丑",
+              "tian": "酉",
+              "tianjiang": "玄武",
+              "xungan": "乙",
+              "positions": [
+                "第3课上神",
+                "末传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "酉",
+              "tian": "巳",
+              "tianjiang": "青龙",
+              "xungan": "癸",
+              "positions": [
+                "第4课上神",
+                "初传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "巳",
+              "tian": "丑",
+              "tianjiang": "腾蛇",
+              "xungan": "己",
+              "positions": [
+                "中传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          ]
+        },
+        {
+          "id": "BF26-ding",
+          "law_number": 26,
+          "name": "财乘旬丁",
+          "evidence_ids": [
+            "BF-D26"
+          ],
+          "definition": "日财旬遁丁，且见四课上神或三传",
+          "checks": [
+            {
+              "condition": "日财旬遁丁且见课传",
+              "met": true,
+              "actual": [
+                "亥"
+              ]
+            }
+          ],
+          "points": [
+            {
+              "di": "卯",
+              "tian": "亥",
+              "tianjiang": "天后",
+              "xungan": "丁",
+              "positions": [
+                "第2课上神"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          ],
+          "restriction": "只报告财与丁/日驿马同支；不直接断得财、远行或水日财动正格全部成立"
+        },
+        {
+          "id": "BF26-horse",
+          "law_number": 26,
+          "name": "财乘日驿马",
+          "evidence_ids": [
+            "BF-D26"
+          ],
+          "definition": "日财兼日支驿马，且见四课上神或三传",
+          "checks": [
+            {
+              "condition": "日财兼日驿马且见课传",
+              "met": true,
+              "actual": [
+                "亥"
+              ]
+            }
+          ],
+          "points": [
+            {
+              "di": "卯",
+              "tian": "亥",
+              "tianjiang": "天后",
+              "xungan": "丁",
+              "positions": [
+                "第2课上神"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          ],
+          "restriction": "只报告财与丁/日驿马同支；不直接断得财、远行或水日财动正格全部成立"
+        },
+        {
+          "id": "BF27-drain",
+          "law_number": 27,
+          "name": "三传合局脱干",
+          "evidence_ids": [
+            "BF-D27"
+          ],
+          "definition": "三传三合局且日干生该局；只是传脱分支",
+          "checks": [
+            {
+              "condition": "三传三合成局",
+              "met": true,
+              "actual": "巳酉丑"
+            },
+            {
+              "condition": "日干生合局",
+              "met": true,
+              "actual": "金"
+            }
+          ],
+          "points": [
+            {
+              "di": "酉",
+              "tian": "巳",
+              "tianjiang": "青龙",
+              "xungan": "癸",
+              "positions": [
+                "第4课上神",
+                "初传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "巳",
+              "tian": "丑",
+              "tianjiang": "腾蛇",
+              "xungan": "己",
+              "positions": [
+                "中传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "丑",
+              "tian": "酉",
+              "tianjiang": "玄武",
+              "xungan": "乙",
+              "positions": [
+                "第3课上神",
+                "末传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          ],
+          "restriction": "只是传脱分支，不是传财化鬼正格；三合成象不代表已数值合化"
+        },
+        {
+          "id": "BF31-chain",
+          "law_number": 31,
+          "name": "三传递生",
+          "evidence_ids": [
+            "BF-B31",
+            "BF-D31"
+          ],
+          "definition": "初生中生末或末生中生初；另核终点是否生日干",
+          "checks": [
+            {
+              "condition": "初生中生末或末生中生初",
+              "met": true,
+              "actual": [
+                "巳",
+                "丑",
+                "酉"
+              ]
+            }
+          ],
+          "points": [
+            {
+              "di": "酉",
+              "tian": "巳",
+              "tianjiang": "青龙",
+              "xungan": "癸",
+              "positions": [
+                "第4课上神",
+                "初传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "巳",
+              "tian": "丑",
+              "tianjiang": "腾蛇",
+              "xungan": "己",
+              "positions": [
+                "中传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            },
+            {
+              "di": "丑",
+              "tian": "酉",
+              "tianjiang": "玄武",
+              "xungan": "乙",
+              "positions": [
+                "第3课上神",
+                "末传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          ],
+          "direction": "初→中→末",
+          "endpoint": "酉",
+          "endpoint_to_day": "被生",
+          "endpoint_kin": "子孙",
+          "daquan_complete_chain": false,
+          "restriction": "北海递生/递克结构与《大全》终点到干条件分层；不由标题断举荐、欺凌或成败"
+        },
+        {
+          "id": "BF47-prison",
+          "law_number": 47,
+          "name": "贵临辰戌",
+          "evidence_ids": [
+            "BF-D47"
+          ],
+          "definition": "实际昼夜贵人临地盘辰戌；临身、入宅与普通入狱分列",
+          "checks": [
+            {
+              "condition": "实际贵人临地盘辰戌",
+              "met": true,
+              "actual": {
+                "di": "辰",
+                "tian": "子",
+                "tianjiang": "贵人",
+                "xungan": "戊"
+              }
+            }
+          ],
+          "points": [
+            {
+              "di": "辰",
+              "tian": "子",
+              "tianjiang": "贵人",
+              "xungan": "戊",
+              "positions": [],
+              "void_self": false,
+              "void_ground": false
+            }
+          ],
+          "branch": "贵人入狱",
+          "exception_body": false,
+          "exception_house": false,
+          "restriction": "临身/入宅与普通入狱分开；不由标题补出宜投贵结论"
+        },
+        {
+          "id": "BF69-plain-hidden",
+          "law_number": 69,
+          "name": "干明支暗二鬼",
+          "evidence_ids": [
+            "BF-D69"
+          ],
+          "definition": "干上神克日干、支上旬遁干克日干",
+          "checks": [
+            {
+              "condition": "明鬼支克日干",
+              "met": true,
+              "actual": {
+                "支": "卯",
+                "日干": "己"
+              }
+            },
+            {
+              "condition": "暗鬼旬遁干克日干",
+              "met": true,
+              "actual": {
+                "支": "酉",
+                "旬干": "乙",
+                "日干": "己"
+              }
+            }
+          ],
+          "points": [
+            {
+              "di": "未",
+              "tian": "卯",
+              "tianjiang": "六合",
+              "xungan": "辛",
+              "positions": [
+                "第1课上神"
+              ],
+              "void_self": false,
+              "void_ground": true
+            },
+            {
+              "di": "丑",
+              "tian": "酉",
+              "tianjiang": "玄武",
+              "xungan": "乙",
+              "positions": [
+                "第3课上神",
+                "末传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          ],
+          "restriction": "明暗二鬼分支不等于白虎乘遁鬼正格成立"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "BF-D26",
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "source_sha256": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 13311,
+          "line_end": 13319
+        },
+        {
+          "id": "BF-D27",
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "source_sha256": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 13321,
+          "line_end": 13329
+        },
+        {
+          "id": "BF-D31",
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "source_sha256": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 13363,
+          "line_end": 13365
+        },
+        {
+          "id": "BF-D47",
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "source_sha256": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 13521,
+          "line_end": 13523
+        },
+        {
+          "id": "BF-D69",
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "source_sha256": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 13713,
+          "line_end": 13717
+        },
+        {
+          "id": "BF-B06",
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "source_sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 676,
+          "line_end": 680
+        },
+        {
+          "id": "BF-B31",
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "source_sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "line_mode": "universal-newlines; CRLF and remaining CR each become LF",
+          "line_start": 2125,
+          "line_end": 2139
+        }
+      ],
+      "reference_module": "bifa-basic-evidence"
+    }
+  },
+  "program": {
+    "calculations": [],
+    "special_requirements": []
+  },
+  "preparation": {
+    "note": "以下是主智能体候选材料，不是程序事实或既定结论；可纠正并从完整盘补漏。已确认U01—U11须执行；focus_issues不重新开放既定口径，真实缺口见C编号。",
+    "entities": [
+      {
+        "id": "S_test",
+        "question_ids": [
+          "Q_transport"
+        ],
+        "referent": "测试坐标",
+        "branch": "己",
+        "mapping_basis": "仅为程序坐标验证",
+        "position": "己:寄宫未;寄宫上神卯"
+      }
+    ],
+    "facts": [
+      {
+        "id": "F_test",
+        "text": "仅为工程验收，无现实预测。",
+        "source": "测试构造"
+      }
+    ],
+    "observations": [],
+    "focus_issues": [],
+    "unknowns": []
+  },
+  "shared_method": "# 本机占事共用判断规范\r\n\r\n## 第42版：基本毕法自动交接\r\n\r\n完整盘中的 **bifa_conditions** 已按本盘实际昼夜扫描32种已核基本结构（涉及25法），独立于原引擎标签。主、子智能体均可直接读取matches中的成立条件、实际坐标、空亡及书证索引；无需手抄原引擎毕法。它们是结构关系，**不是吉凶判辞已成立**。依本问类神、气态、作用、制救和阶段选用；包含、重叠结构不重复计票。不自动采用未核旁格；未列出不等于其余百法不存在。决定性使用而条件不清时查bifa-basic或按BF-D/B编号查本任务连续书证。\r\n\r\n第22法依用户指定《大全》，上下俱合为各自纵向六合。递生/递克另核终点到日干，daquan_complete_chain=false不能叫《大全》完整正格。第47普通贵入狱不补成临身例外；第51须戌加亥发用；第83须局中神与干/支上六合。旬空、坐空仍保留关系，效力另依U08/U10；不得以标题或匹配数量决定成败。本版不求收齐偏僻类格，不声称百法语义或预测已全面验收。\r\n\r\n\r\n## 第41版书中批注：共同执行的增补\r\n\r\n本轮用户指定采用《理法简易》24处批注及连续上下文，详见book-logic、quantity-strength、void-class-applications和book-annotation-evidence。仍依U01—U11与本问domain，以下是明确补充，不要求每案读全部新页。\r\n\r\n- **表里与阴神**：阳显阴藏可用于人、物和项目的表面/内部条件。沿真实类神—直接阴神，分察扶类、益我、制伤、原因及承接；人的心理只是合题候选，不能把所有阴神固定作心事。阴神扶类不等于事情必为我得；不得无限递推。\r\n- **发用与气势**：发用的月令五气、所临地盘、乘将和已采用神煞共同察发动、快慢、规模、虚实及持续；单宫指数不是整体气势。虎急烈、蛇迟缠是表现趋势，速度不等于吉凶。发用可以制干上鬼等四课节点，但须有对象、通路、施受状态和时序依据，采用跨宫作用后调用strength补算。\r\n- **神将与类聚**：神克将是减权减力，不一概归零。传统神将吉凶名目只作倾向，重要判断以旺衰、结构、实际作用与制救为主；不凭青龙吉、勾陈凶定结果。类聚按共同实际作用，不数同名多票、不把“加倍”变成无据数值倍数。\r\n- **类神、施受与结构**：类神不入课传仍按占类到完整盘、已核年命等有据位置寻类，通常降低显明性/直接参与程度，不单凭不现断败；失盗等专项保留类神优先。施者资源与意愿、受者能力、通路分开，能制不保证有益。课体名只作起机/结构，不作成败开关。\r\n- **迟速与属性**：关键类神的初中末位置及临身/承接位置可辅助迟速，须结合事件阶段、气态和阻碍；财临门等保留原入课传条件，跨占类说明迁移理由。四建分工仍按U09，不设普遍固定快慢顺序。新旧、难易、数量分别推理，不都改写成吉凶。\r\n- **年命与动**：命偏固有、年偏当前，当前可超一年；一般当前事行年较切题，专项不一律年胜命。动包括有据的调动、转岗、晋升等状态转换；关墓空及入庙核具体限制、有效冲解和无绊条件，启动与到达/受益分别答。季关神沿S33，不与罗网混同。\r\n- **取数和旺衰分层**：数值任务在基数后主动核综合旺衰及空亡数量修正。strength计空不代表quantity已减数；“不重复扣空”只禁止同一计算层重复扣减。具体数量比例须原法或用户明确约定，禁止指数/5等自创换算。LF3329-class-ground保留本段相乘不倍、休加、囚死加后折半、旺倍进幅度未定，不与CY501混用。工具calculation_scope明确本次是否执行数量修正；最终核基数、修正及真实回执。\r\n- **空亡逐类推**：分对象、坐标、所求/所忧、影响环节、气地通路和时间，按U08/U10综合；病空与身空、占产与占孕、龙将空与财爻空不可混。关键空亡影响结果而摘要不足时读void-class-applications。神生其将且神自空“出旬可望/出旬亦无望”为V41-01真冲突，用户已决定先保留现行、以后自行研判；本版不改口径，也不反复要求用户确认。\r\n\r\n决定性采用上述推广而条件不足时，定点读相应连续方法/原段。原书、北海解释、用户本轮修订及整理者推广分别保留，不把“反馈贴近”作为独立效果证明。\r\n\r\n\r\n# 第40版：按原问题型直接作答\r\n\r\n本规则用于本机OpenCode和共用Codex适配器的新任务。它约束裁决者如何完成回答，不预设具体占题的答案。主智能体仍准备中性材料，不能为满足输出形式提前选择结果。\r\n\r\n## 裁决开始前的任务约定\r\n\r\n本任务是依专业方法综合盘面，给出最有依据的判断。判断有不确定性，不等于必须放弃判断；不要求先取得现实验证才表达判断。先审支持、反证、制救与成功条件，再选择主结论，不能只列分析角度、可能性和方法限制。不能为了明确而随机选边、造出数值或扩大精度。\r\n\r\n报告开头先列逐问结论，各问正文按“直接答案→决定性依据→最强反证及取舍”展开。用户要求先核盘时，可以先简述盘源和关键校核结果，再列结论；校核确有阻断错误时先说明，不能用不可靠盘硬答。\r\n\r\n## 答案形式随题型\r\n\r\n- 是非题：先选“是／否”或“倾向是／倾向否”。允许弱判断，但不能只用“两者皆有可能”“不能据此认定”代替答案。结论成立但细节未定时保留主判，不把未能确认更高精度当成本问无法作答。例如问是否异地，不强加必须确定跨省或具体城市的门槛。不得从盘面臆断第三方性经历、避孕情况等敏感隐私；此类问题需要当事人可靠信息，明确该项无法判断即可。\r\n- 数值题：先给有依据的最佳估计值与单位，如“推测约N厘米”，必要时再附合理小范围及误差理由，不能只说偏高、偏矮、多、少。先依方法取数并调用配套工具，再解释量级、单位、取舍和修正。工具算出的基础数不自动等于现实数量；不能将72无据拼接为172厘米，也不能为了收窄区间编造精度。无可辩护数值时具体说明缺少的换算或量级依据，不用重复免责声明填充。\r\n- 所在地题：先核人物与所取位置，再结合方向、分野及相互支持的条件，输出一个主选地区；只有确有竞争候选时给一个次选并排序。能支持到省域就给省域，有区分依据再缩至片区或城市。方向、分野是判断材料，不能停在“偏东北”等中间描述；也不能遍列大片省份扩大命中率。双方取用分别说明，不因反馈匹配而调换人物。不得编造精确住址或把推测当定位事实。\r\n- 原因题：先给主要原因，必要时再给有依据的次因并排序，不能只堆类象或泛泛列出各种矛盾。\r\n- 条件子问：严格服从原题依赖。上问否定且用户要求跳过时，后问写“不适用”即可；不为填满各项强答。\r\n\r\n“异性多默认暧昧”等用户约定按题设标签执行时，要保留它是题设定义的身份，不能据此把第三者、性关系等额外事实一并认定。能回答的子问分别完成，不让单项缺口取消其他主判。\r\n\r\n## 简洁与限制\r\n\r\n用“倾向”“约”“主选”等词一次标明推测身份即可；无需每段重新声明无法证实。共同限制集中简述一次，局部只保留会改变主结论、精度或条件的关键限制。既给主判又用后文全部撤回，仍属于未完成回答。不得伪造统计概率。\r\n\r\n后台audit、计算回执与完整技术依据继续保留。减少重复措辞，不删关键依据、反证、条件或真实工程缺口；不能把“审计有未决项”无据写成“不影响结论”。完整技术报告不设统一字数上限。\r\n\r\n## 提交前与交付前检查\r\n\r\n裁决者提交前逐问检查：答案是否匹配原问题型、是否有明确主选、是否只给中间分析、是否把用户未问的高精度设成拒答门槛、后文是否将主判完全撤回、是否重复免责声明。\r\n\r\n主智能体沿39版现有五项review，把上述检查记入answer_constraints的basis，不新增强制长表或额外裁决者。quote定位逐问结论的实际正文；数值与地理估计的依据同时归入calculation_scope和role_stage_consistency。必要输出未完成时标unresolved并指出具体句子和问题。只有具体专业/事实/依据缺口才依原子会话一次recheck补核；纯排版和语序问题不重裁，不扩大一次补核额度。\r\n\r\n主智能体不得把裁决者的“无法判断”自行改写为“是”或“否”，不得改变已有数值、地区、精度和条件。程序继续只核回执与声明一致性；是否切题、是否有足够判断依据仍须模型语义核查，不用关键词正则自动判吉凶。\r\n\r\n本版不宣称预测准确率提升；验收检查绑定资料、双宿主接入、旧版完整性和回归兼容。实际模型能否稳定遵守，须后续新题验证。网站与服务器另行部署，本版只在本机生效。\r\n\r\n\r\n\r\n本页是有来源的执行提纲，详细方法仍完整保留；并不宣称古籍一致或精简前后预测效果等价。主智能体与裁决者共用本页及本问domain，不重复通读全部通用细则。对将决定结论的条件、例外或相反依据存在真实疑点时，定点读相应模块或连续原书段；参考索引不是待办清单。\r\n\r\n1. **原问与取用。**先分实际事件、对象、阶段、期限、成功标准和条件分支。代问者不自动成为当事人；考试取实际考生、疾病取实际患者，婚配、攻守、胎产等仍依专项对待轴。现实事实、用户猜测、盘推及未知分开。干支、神将、六亲、长生运、课体、神煞、年命、遁干按职责取用，不按人数分四课。候选可纠正，新定位须重核受影响作用；不用孤立名象编人事。取用/类不现/互换条件不明查positioning、mapping-provenance或shenjiang-use。\r\n2. **完整盘与坐标。**直接使用程序全盘、课传、固定神煞及坐标，不重起排盘。日干与寄宫、干上与干阴，天盘支与所临地盘、同名地盘上神、乘将及直接阴神分别用；天空天将不等于旬空。日干、类神和天将各有状态参照。程序只提供事实，不判吉凶；主智能体材料是候选，不是已定结论。\r\n3. **力量与有效作用。**关键节点及最强反证合看月令五气、临地十二气、空墓、生扶泄耗、神将内外战、直接阴神、刑冲破害合与制救。明确对象位置、施受方向、双方状态、通路和影响的结果环节。六亲不替代五气；类神自身十二气与日干十二气分列，季土细分仅依C05保留敏感性，不混票、不为结果换法。不穷举无关两两关系；同节点本轮已核可复用。具体边界查liqi。\r\n4. **结果与救制。**生的直接临处与别处扶助按U03区分，可能扶身也可能扶既有病鬼作用，克可能伤人也可能制病；合不自动化，冲可动、散、启墓或破合。身旺难伤、鬼旺贪荣、鬼受制、鬼贪生合分别论，不设旺鬼一律无害。救应须核救谁、自身状态、能否到达、受何制及解除哪个障碍；局部缓解不扩为成功，关键阻碍确被解除可改变原判。所求有力还须核与者能给、取者能取。出现影响本问的未解原法交叉，定点核原文，仍未解则保留具体条件或精度缺口。\r\n5. **空亡与结构。**分清身、病鬼、财禄、救神等谁空；原局空亡不因解释而删除。采用U08综合判断空的效应；具体中间组合及特殊空义见C04，需要时查void及void-method-conditions，不能把得到生扶一概写成得到结果。初中末空、课体与结构按对象和阶段看；不备、互传、坐墓等须具备完整构成，课名不永久压过类神。涉及特殊结构查structure或keti-quanbiao。\r\n6. **神煞、动态与年命。**浏览程序全部采用状态和落点，只有resolved可进入取用；未采用、缺参或未登记项不作风险依据。神煞归天盘支，地盘是坐处。德禄贵医不保证救助，马与动象不保证到达，血光刃死名不直接给出手术或死亡；也不凭不足独断反向排除。按对象、占类、位置、气态、组合和制救定作用，同位多名不数票。具体义项查shensha-use/meanings。动象需核合绊、恋生、坐墓、空亡及目的，旺火空动与马墓空无终始分条件查movement。直接阴神先看一层，新增层须解决具体疑点，重复或无新增信息即止。年命只用已核资料，本支、所临与上神分列；采用年命查nianming，未知不猜补。\r\n7. **切题裁决与精度。**从全盘查漏，主智能体争点不是封闭范围。正反用同样标准，说明最强反证为何成立或不足；不数吉凶标签，不自动取中间/低档，不反复用同一批材料循环自辩。分清成行、到达、办成，录用、报到，承诺、到账等；期限内完成与最终完成有别。结果、过程、程度、取得通路、代价、时间及数量分别答，但仍核相互影响。共同趋势不能无据区分相邻选项。\r\n8. **任务与查证。**只有原问或必要推导确需应期/数值才展开；给占时不等于问应期，迟速比较不自动加载全部定期/取数法。时间任务读timing，数值任务读quantity，数表缺口查quantity-sources；日期/算式交程序。涉及具体规则的决定性使用且条件不清、反证冲突或摘要不足时，读对应连续原段再用，不能把摘要当原书已经查证。无关异说不统一。引用保留材料身份、范围和缺口；原案反馈不作本案事实，不检索案例/经验库。\r\n\r\n依据索引：positioning、liqi、structure、void、shensha-use、movement及各占类完整方法；来源RG/TY/B/LR26/SF/ME与固定E01—E22随对应模块可查。原书、归纳与工程校验身份分开；程序成功不证明专业理解或预测效果。\r\n\r\n## 已确认判断口径 U01—U11（主智能体与裁决者共同执行）\r\n\r\n身份：这是用户本轮确认采用的本地体系及工作约定，不声称诸书完全一致或预测效果已经验证。原书保留原字；下列口径控制本版本的执行。旧摘录中的相反说法只作来源，不是可以逐盘任选的另一条指令。pending-conflicts保留历史条目的分类复核；已明文解释者直接执行，只有经同条件检验仍互斥者才列真正矛盾。\r\n\r\n- **U01 原文与执行。**“凡、必、百无一成”等强语保留原貌，执行时解释其对象、条件、机制及范围，不做无条件成败开关；也不能借“夸张”随意否定切题的反证。区分原书、讲解、本轮归纳、用户体系选择和现实反馈。\r\n- **U02 喜旺恶衰。**采用北海“壬学喜旺恶衰，无论喜忌”的核心趋势；吉神旺吉力足，衰则吉力减；凶神旺时可表现为威权、秩序或贪荣，衰败时凶态可加重。官鬼旺偏权威权势、衰偏凶恶侵扰是趋势形容，不是固定人物职业，也不是所有具体组合自动吉凶。禁止把“鬼旺”直接当作“攻击伤害更大”，禁止把凶将死墓绝直接当作无害。有效作用能力、表现性质、受者承受及制救分开，再看本问结果。旺鬼贪荣有当令时限，后来衰败可能转患；当前结果与后患分别论。刑虎等组合按原文明示条件分析，不因组合复杂便另列未解矛盾。\r\n- **U03 直接临生合、类神状态与对我作用。**“类神临生临合，自贪其荣，不能为我所用”按原文执行，不限官鬼：所减弱或难发挥的是该类神对日主、本问本应承担的作用，不是断其自身能量消失。财贪生合则财难为我得，父母/生气贪生合则难以生我，鬼煞贪生合则难来刑冲克害于我；所求为何决定这种停用是利是弊。须定位上下直接临处，不能把别处生扶等同贪恋所在之处。自身得养、旺相有权与对我实际发挥作用分层看；日干、吉神得旺禄照喜旺恶衰论，不因一切生合便自动判失用。此为已定解释，C02关闭，不再要求用户确认非官鬼范围。\r\n- **U04 十二气跟随所看对象。**日干状态采用天干十二长生：阳顺阴逆，甲亥乙午丙寅丁酉戊寅己酉庚巳辛子壬申癸卯起长生。支神、天将等按自身五行采用木亥火寅金巳水土申顺行。明确“谁在何处”：丁见未为冠带；白虎（金）乘申为临官，申（金）坐午为沐浴；天将对乘支、支对地盘、天将对地盘分列。不采用天一群笔记“十二长生永远以日干为准”，也不以五行顺行表覆盖阴干。日干寄宫不是日干五行替身。 胎爻专项依北海《毕法》1463—1467另按其明示取类：甲乙寅卯胎酉，丙丁巳午胎子，庚辛申酉胎卯，壬癸亥子胎午，戊己辰戌丑未胎子或午；干支胎同等重要，土胎两处都登记。该专项取类不改通用日干状态表，不以事后结果选有利胎位；不等同采用引擎未登记的同名神煞。C08关闭。\r\n- **U05 生克刑合并见。**生克、刑合可能并行，不因有两种关系便列两套结论。依相应连续原文的双方旺衰、乘将、上下位置及时间确定主作用；如庚辛与巳兼长生和火克、寅巳兼生刑、未亥兼克合，须保留各自条件。半合、刑、合化的存在与效力分开；不凭“大势”循环证明大势，也不自行合化。\r\n- **U06 制救。**同时看受者、施者：身、鬼和救神各自的气态、位置、通路、神将及吉煞条件。鬼衰而凶态显、旺子孙能实际制之，可减害；救神气弱，不能因有子孙或吉名保证救成。德等可增强化煞吉力，仍核落点、受制及作用；既不一德包治，也不忽略有效德解。只缓解局部就只判局部；关键阻碍确被解除，可改变结果。发用之鬼末传可制、末传之鬼发用不能制等时序条件按对应专法保留，不作全盘无时序相抵。\r\n- **U07 天时、地利与综合旺衰。**月令主管天时及五气，坐处主管地利；月令得气是重要源条件，不把它与坐处看成可任意互换的二说。失令得地不自动大成，得令失地亦须看受限处；一个“衰”字不抹去天时，一个“旺”字不保证实现。狭义月令旺相休囚死和广义综合旺衰分名记录；广义旺衰描述对象的总体状态，空亡亦为其条件之一。生处、坐处、制处和承接条件共同分析；现采用34版固定研究算法描述单宫旺衰，并由工具依明确取用关系补算，模型不得自创系数或胜负阈值。该指数不是已验证的自然能量单位，不替代原法裁决。季土条件表差异属C05程序取法记录，不据此宣称已发现同条件理论矛盾。\r\n- **U08 空亡事实与效应。**程序旬空身份保留；综合月令、生处、坐处、制处、空的是谁、所求环节及制救判其实际影响。不得“空必败”“旺必不空”“有生便兑现”或“月必压空”；也不把岁月有权等同于旬空字段取消。“日可搏月”的讨论兼指能力强弱、权柄与持续性，不能缩成仅时间长短。用户举出的两个极端是方向示意，不是已定阈值。此处综合分析方法已定，由模型按具体条件判断；原书强语差别见C04来源复核记录，不要求用户逐一确认中间组合，也不重开整个空亡争论。\r\n- **U09 四建分工与效力。**采用《壬归》及北海：岁月重权柄及重大影响，日辰定相关人事，正时为先锋显端倪、近速；月令定五气不以月建入传为前提。力量由所论对象的气地、实际关系和承接决定，权柄大、发动快、作用久是不同维度。入课传是重要作用位置，非固定倍数；闲地仍可能由岁月上神等切题关系起作用，不能直接忽略。长短问题调整观察时段，不倒置总排序。不采用“年最小、时最大”，也不建立“年必胜月必胜日必胜时”；发用重要不等于压倒一切。时支、时干、时上神各署身份。“月克日、时生日”不能无据推出先凶后吉，失令也不能一律虚不受补。\r\n- **U10 时间推进。**旺衰、空亡和有效制救须随所判时段更新；推应期检查出旬、逢值、冲填、季节变化改变了哪项条件，原占盘不擅自更换。出旬只解除该旬的空条件，不自动保证成功；旺鬼当时无患不推成永久无患。未发生的转折保留为待验条件。期限内完成、最终完成与后患分别答。 应期视用/视末依《理法简易》985明文分阶段：一般视用；吉事已动、凶事已萌而问后续成散时宜视末，不以结果倒选方法，C09关闭。\r\n- **U11 两级裁决与矛盾处理。**只有同一对象、同一位置关系、同一时段气态、同一占类及判断目标下，完整上下文仍给出互不相容的结论，才登记真正矛盾；须附双方原句、条件和直接跳转。对象、层次、阶段或条件不同而原书已有明确解释的，模型自行理解并执行，不留作用户确认。资料覆盖不足、OCR校勘、程序取法差异分别登记，不冒充理论矛盾。 通类定大方向、分类/专类定具体对象，二者分层兼看，不列作互斥方法。实际财物得失以财爻为主线；财源、办证等具体事项依对应专类细断，不能拿通类吉替代专类所示的具体阻碍。 主智能体准备中性材料，候选可纠正；focus_issues只列本问真实未知条件或通过上述检验的冲突，无则[]，不因历史C编号尚存便自动重开。裁决者从完整盘独立查漏，依同版U规则及连续原文裁关键作用和结果，不能任选旧句反向执行。C01—C11是分类复核历史，不是待确认清单，也不限制发现真正的新矛盾。决定性处说明采用规则、实际条件及最强反证；主智能体核事实、引用、覆盖、内部及U口径一致性，不另行折中改判。具体违规逐字定位报告、U编号和绑定证据，依宿主一次补核协议处理，Codex复用原子智能体；格式差异或单纯不同意结果不重裁。已知反馈不混入新盲断材料。\r\n\r\n\r\n## 单宫旺衰与取用后补算（34版，主、子共同执行）\r\n\r\n默认`strength_index`只表示该对象的单宫旺衰：计月令、对象自身十二气、旬空/坐空以及本宫天地、自己的直接阴神、同宫神将的直接生扶泄耗克制。它不是全局旺衰、取用后的最终作用、成败概率，也不是吉凶分。天将对地盘只有十二气参照，不新增将地生克边；不凭同在课传就互相加减。原局空亡字段保留，已计入本次旺衰指数的空亡不在同一指数重复扣；这不表示另行取出的数量已经做了空亡数量修正，数量层见quantity-strength。\r\n\r\n固定分档：E=0表示本计算没有有效力量（缺失/null不能记0）；0<E<1极弱，通常难独立显著作用；1≤E<2.5弱但仍有作用；2.5≤E<5偏弱至中等可作用；5≤E<7.5较强；7.5≤E≤10强。5是基准，2.5是弱力参考，均非可用/不可用开关。极弱也不删除节点，仍看结构、触发、应期与具体任务；不能以低分直接断事情不成。不得把这些研究分档冒充已验证的自然能量单位或准确率。\r\n\r\n实际取用后，其他宫位可能生扶、泄耗或克制类神。先依原法明确双方类神身份、实际影响通路和依据，再调用`liuren_compute(action=\"strength\", strength=...)`补算；不能因五行相生克便自动全盘联算，不能自行估算、手加分或另乘空亡倍率。工具推导生克类型及固定系数，返回单宫分、补算分、差额与分档；主、子均直接采信程序数值，不复核排盘算术。工具不能验证取用理由的专业真伪：模型仍须解释取用、能否兑现及最强反证。取用纠正时，用完整的新关系清单重算，不在上次补算结果上层叠加。原有直接关系工具自动跳过，未提交关系不扩散。\r\n\r\n补算沿用原盘月令条件表，季月有双表时说明原法依据并沿同表比较，不按得分高低择表；需敏感性比较则两表各算且分别解释，不平均、不计两票。时间改变另按U10查应期，当前补算不自动更新时柱或旬空。三合/半合/三会数值继续暂缓。\r\n\r\n单宫E与对某对象的实际作用分层：官鬼、财、父母的直接贪生合及制救仍依U03/U06；自身旺不保证能为我用，弱也不等于不能用。补算已适配的直接贪生/合绊降低对外传递，尚未量化的刑冲、神煞、事件条件仍由原法分析，不拿研究分数覆盖。完整定向作用A若为null代表适配不足，不是没有作用。\r\n\r\n仅在需要给出取用后的数值增减时强制调用补算，不把所有盘面关系变成新待办。主智能体准备保持中性，裁决者可改候选类神并调用同工具；主智能体核对分数含义、关系依据和口径一致性，不重新折中改判。详细参数及调用例见`deterministic-tools`，工程接口不限制自由裁决报告。\r\n\r\n\r\n## 35版确定性工具层（主、子共同执行）\r\n\r\nAI依原书取用、选法和裁决，工具提供确定性计算，不自动选择应期或裁成败。月令五气、十二气、空亡位置与综合旺衰分数分别保留，不能用分数重写原始状态。\r\n\r\n取数先用liuren_compute(action=\"methods\",methods={kind:\"quantity\"})查具名方法和必填条件，再用action=\"quantity\"及quantity_method调用；expression仍兼容但不与具名方法混用、不无据叠加倍率。工具读取盘面和本法数表，不能凭量级候选或base-only基础数冒充最终数量。方法适用性、单位及量级依据由AI确定；程序数值直接采信，不重复手算。首批CY501-use-ground、WY244-month为明确分支，WY67-shenjiang-base、WY242-generated-base仅基础步。\r\n\r\ncalendar复用排盘引擎历法，支持节气/节月/旬界/日界准确时刻、值冲合筛选及日内采样；日柱与时干共用所选00:00/23:00日界。出原旬与旬名重复分开，关系事实不等同已经填实或冲开。evaluation将指定日历时间交给单宫/明确取用关系的旺衰计算，原盘坐标及原日干不变，不自动选择最高分日期为应期。\r\n\r\n空亡系数和现行直接作用范围保持34版；evaluation默认original保留原空亡，仅按评价节月更新五气；evaluation-xun-research是新旬替换的明确研究情景，不是已经定案的出旬/冲实算法，不能按结果切换政策。三合、半合、三会数值继续暂缓。\r\n\r\n需要辨物态时先methods(kind=\"imagery\")查适用原段，再以imagery返回材质、新旧、阶段、空实等条件候选；没有匹配不等于无物或失败，射覆专法不直接推广成人事成败。专业报告仍自由撰写，不增固定裁决字段。详细参数见deterministic-tools；默认盘不附整套数法、判辞和审计。\r\n\r\n\r\n## 36版新增采用：季关神 S33\r\n\r\n用户明确加入关神。可信盘按月建节月定季，寅卯辰春、巳午未夏、申酉戌秋、亥子丑冬；季关神春丑、夏辰、秋未、冬戌，直接使用程序S33，不自行重算。神煞属于天盘支，所临地盘不是其归属支。当前39条规则，原38条起法不变，22个停用名称不变。\r\n\r\n关神主阻隔不通。出行关墓临干有难动之象，须结合原段的冲关破墓、用传年命及斩关等条件，不能见关便断不能动。关与墓的组合须分别核定；关神不自动等于入墓、罗网或管神。北海讲解还保留掌管仓库时关神入课的吉用，仓库大小、业务旺等须另核墓旺为库条件；不将它写成一律凶煞。具体原段与版本身份见shensha-authority-evidence的A24—A26及shensha-meanings。S23寡宿与S33同季表而身份、义项有别，不合并，也不把同一落点的两个名称自动算作两份独立证据。是否切题及实际作用仍依现行专业方法裁定。\r\n\r\n\r\n## 第39版执行核对\r\n\r\n39版一致性核对：新任务保留原问与input_review来源身份；子报告附简短audit，登记关键作用、最强反证与真实计算覆盖。局部补算不能冒充综合结果。主智能体read核对后用review登记事实身份、职责阶段、计算范围、反证、逐问约束五项；有具体原句和绑定证据才用原子会话recheck一次，保留前后报告，未解决缺口显式交付，不另派或自行改判。程序不选类神、不裁成败、不设分数阈值，正文仍自由表达。专业方法与模型选择沿用38版；网站未发布。接口见docs/本机六壬一致性核对-39.md。\r\n",
+  "specialty_methods": [
+    {
+      "id": "finance",
+      "content": "# 财务经营：取用与专项判断\r\n\r\n本机事件定位：先定哪一笔钱、哪个经营/交易事件及实际收付双方，代问者不自动成为求财者。下文“我、本人、讨者”指事件中的相应角色；动静改位须来自事件阶段，不来自谁转述。钱、货、经营体与所得分开取类。\r\n\r\n### LR26-TXY-C06 人际：去求人与等待答复阶段可改变干支\r\n\r\n适用：所问确为主动求办或已求后等待答复，实际阶段已知。\r\n\r\n北海分别取：尚未去而打算求人，我动为干；已去、现待对方消息，我静为支，对方为干。此法不可因结果不利而临时倒换。\r\n\r\n边界：不是所有代问或人际都按谁动谁为干；先核具体专法。\r\n\r\n出处：理法 LF182—186；理法 LF636—638；完整引文见同 ID 卡。\r\n\r\n### LR26-TXY-C08 事业：求职、经营、生计与升迁的类神不相同\r\n\r\n适用：明确问应聘、在职发展、生意经营、钱款还是迁调。\r\n\r\n北海应聘以禄为第一类神并参河魁、天空、从魁、太阴；经营侧重长生，打工取禄及相关职员类；迁调另察马星、催官及行业地位的专类。\r\n\r\n边界：“有工作”“有钱到账”“能调动”“有权位”分别判断，不以单一官鬼统包。；现代面试流程与合同签署的更细专法本批未齐。\r\n\r\n出处：理法 LF705—713；理法 LF1344—1349；理法 LF558—561；完整引文见同 ID 卡。\r\n\r\n### LR26-TXY-C10 财务：得财、财源性质、与财之人和迟速分别看\r\n\r\n适用：原问是实际财物或款项得失，明确对象、财源与是否已达成交易。\r\n\r\n北海以财爻为首要候选，分开察其得失、所乘天官所示财源、支上所示与财之人及出现位置与旺衰所示迟速。壬归财将察类仍可作有身份的对照，不混抄为同一规则。\r\n\r\n边界：求财不等于经营事业，收入、利润、资金周转、债款到账须分目标。；通类与专类按D01分层，财不现依原书所列年命、遁财、生合气地等条件分析，不从单句推出全盘无财可得。\r\n\r\n出处：理法 LF1711—1728；壬归 LF285—301；完整引文见同 ID 卡。\r\n\r\n### LR26-TXY-C11 财务：讨债定位随主动追讨与等待变化\r\n\r\n适用：实际已确认债权债务关系，分别问能否还、是否有钱或何时到账。\r\n\r\n去讨者动，可为干，对方为支；已要求还款而静待答复者为支，对方为干。关系上有无还意或压力，与财爻旺衰所示有无可还之财须分别核。\r\n\r\n边界：朋友、亲属、同事只是债款关系的条件，不自动把主问题改成人际。；顺从或口头答应不能替代实际还款。\r\n\r\n出处：理法 LF636—638；完整引文见同 ID 卡。\r\n\r\n### LR26-TXY-C12 财务：店业、行商外销与交易的钱物分配\r\n\r\n适用：区分开门面、外销行商及具体买卖。\r\n\r\n开店干可为客商支为店业，宜店业得生合；外销干为行者支为他乡，重彼地对人的作用。金针交易例又以干为买家支为店家，财可分别取钱与物，须有该题交易背景。\r\n\r\n边界：这些是不同子问的关系轴，不可不说明就叠成同一永久分配。；交易个案的钱物读法不能推成所有干财必为钱、支财必为货。\r\n\r\n出处：理法 LF1357—1358；金针 LF1178—1178；完整引文见同 ID 卡。\r\n\r\n### LR26-TXY-C13 财务：财的真实性、阴神、地盘和暗鬼须核实际作用\r\n\r\n适用：已定位财物与求取者，再看财阴、所临和遁干。\r\n\r\n财现不等于能取；财阴与所临的生克、空墓、破碎、闭口、玄夺等可改变可得性或带来后患。遁财与财遁鬼是不同明暗组合，不能只计为多一财。\r\n\r\n边界：“因财致祸”须核具体组合与本题财所指，不直接断违法。\r\n\r\n出处：金针 LF1237—1240；理法 LF1723—1728；理法 LF1743—1746；壬归 LF293—301；完整引文见同 ID 卡。\r\n\r\n### LR26-TXY-D01 已明确：通类与分类分层，得财与财源分职责\r\n\r\n适用：先明确问的是实际钱物能否取得，还是某项财源、办证、经营等具体事件。\r\n\r\n通类定大方向、分类/专类定具体对象，二者分层兼看，不列作互斥方法。实际财物得失以财爻为主线；财源、办证等具体事项依对应专类细断，不能拿通类吉替代专类所示的具体阻碍。\r\n\r\n执行：通类提供一般方向，专类提供精确条件。问贵人办证，不能以贵人实替代朱雀所指文书的状态；问实际得财，以财爻的气态、阴神、与财者及取者通路判断得失，同时由天乙、勾陈等说明对应财源及条件。原文“财现以财为主”落实到财物得失主线，“俱入以专类为断”落实到具体所问，不当作两个模型可以任选的全局优先表。\r\n\r\n财不现亦须读完整条件：课传、年命、遁财、生合有路、旺相不空伤及类阴益日等按各自原条使用；不能把课传不现和与我完全无涉混同。\r\n\r\n身份：用户本轮确认的执行解释及连续原文分层；不是更改原书字句。C01关闭，不再列候选未裁定。\r\n\r\n出处（Python splitlines）：《理法简易》1393—1395、2709—2715、3437—3447、3479—3487；《壬归》355—359。原书措辞保持，当前解释不能冒称原书逐字一致。\r\n\r\n## 原有方法的独有检查\r\n\r\n旧法独有候选（原来源 cailu-panduan）：\r\n- 先分薪水/固定收入、利润、额外财与实际款项；收入路径可察禄或父母的旺相、不空陷、不乘蛇虎玄空、不闭口、不乘丁、不落墓六条件，哪一条件不利就说明所限维度。纯财旧候选含财爻、龙虎阴，取金银金融义时核现实财源；不与新增 C08、C10 的取用职责混成一套。\r\n- 财空、破碎、三传全财克伤生气；财局生干支/年命上之鬼；玄武乘财或乘鬼；脱气乘玄/空的脱耗/脱空；父母乘虎蛇勾的见生不生等，均核完整组合、作用对象和救应，不能据名称保证亏损、伤病或现实违法。\r\n- 传递象分支：干支互传或相加为传递，原取欲得者得、欲出者出；申卯相加及申作六合可取账目划拨。旧法对账目有“空亦不忌”的解释，须核确为账目、同一笔钱和转入/转出，不能抹去现金实际到账条件。\r\n- 贵人差迭、二贵受克的“凶大吉小”原论来自《特训班讲义》LF395–405近几年财运例；保留该例强度及可维生、得财并存的细节。本题须说明其作用对象、通路、时段和所影响维度，不设单事或全部维度统一打折；其他财务问题适用范围待核。早期金融案例、现代转账映射仍须另核，不由原载“果应”估算命中率。\r\n\r\n## 专项执行与收束\r\n\r\n1. **先按原问拆成立与收益**：先问合作/买卖成否时，双方、标的/交付与收益分职责，明确本问何种事实才算谈成；财务子问再分工资/利润、营业额、应收、回收比例与净到手额。见人、意向、承诺、履行、到账不混替，也不把签约定为所有交易唯一标准。未成分支的利润题记不适用；计划金额不是实得。\r\n2. **按钱的性质取用**：保留本节收入六条件、纯财与传递象等方法，标明本问采用何者、位置和状态。仅凭财多或财现不足以保证盈利，也不能据此排除盈利；还须检查承受、财源、流出与持续经营，再判本问净利；别把开户/开店当利润。\r\n3. **反证与例外**：遇空亡、脱耗、三传全财先记不利倾向，再核对有出处的传递象、救应及是否针对同一笔钱，不提前停止找反证。将收入与支出相抵仅在题目给足数据时计算，同一风险不重复扣减。\r\n4. **金额独立推导**：仅题目要数值时接 [数量与精度](<../methods/quantity.md>)（`--condition quantity`），执行共用数源、运算、修正、量级和单位检查。本占类负责总额、净额、分笔及实得口径；总额未知不能把“要回5万”换成比例。优秀作业数值不同保留分歧，不取平均迎合答案。\r\n5. **收束**：逐问给成否/盈亏、金额或边界、过程和需用的应期；表面财旺与财源受损怎样取舍必须说明。\r\n\r\n方法设计参照 B02、M02、M14。M02 的具体行业和数值推法未采纳为通则。共用 [判断方法规则](<../methods/positioning.md>)。\r\n\r\n## 分工与来源覆盖记录（覆盖不足不等于理论矛盾）\r\n\r\n| 子问 | 本页已核来源主线 | 须单列的参照与缺口 |\r\n| --- | --- | --- |\r\n| 经营是否维持、项目/买卖是否成立 | 先按对象与双方实际关系定位，再分经营与交易；北海理法LF713、1348、1358 | 长生的经营角色不等于财爻的净利润；履行与到账分开 |\r\n| 工资、固定收入、职位 | 禄的薪水与工作职责、父母的来源、长生的生计分别说明 | 讲义应聘LF460并列三者，理法LF709另有禄第一类神；属于出处和题目条件不同，不能删成一份永久等价表 |\r\n| 实际财物能否取得 | 北海财爻主线，核本体、阴神、与人关系及迟速 | 《壬归》LF285–301青龙类将、神将、气地、类阴与身财对待保留完整路径，不从其中抽一条替代全体系 |\r\n| 通类、专类俱现或类不现 | 通类定方向，专类定具体目标；财爻主实际钱物，专类察财源/专事，兼看作用通路 | D01已按层次解释，不列待确认；不现依相应原条的年命、遁财、生合等条件，不换法凑结果 |\r\n| 资金转移、账目与实际到账 | 分清同一笔资金、转入/转出及现金是否收到 | 账目“空亦不忌”属旧路径，本批未重新核完整课例，不能拿它消除财空或证明实得 |\r\n\r\n本批全文读本模块，重核C10、D01完整规则对象及所列证据，并直接回读理法原字节LF697–713、1344–1358、1711–1746、壬归LF273–301、355–363。未逐条验收全部C06/C08/C11–C13、收入六条件、传递象、数法和现代案例；它们保留原有条件与待审身份。本批未证明一种财法效果优于另一种。\r\n\r\n\r\n41版：本问关键财类、类阴、与财者及其阴神依book-logic分看。财不现不单凭该项断败；施者愿给但资源弱与受者无力取分别论。问金额读quantity-strength，基数之后核实际气态和有据数量修正。\r\n"
+    }
+  ],
+  "references": {
+    "materials": [
+      {
+        "id": "M_EVENT_POSITIONING",
+        "title": "程序装入完整专法 methods/positioning.md",
+        "source_path": "runtime/liuren/20261111-basic-bifa-42/methods/positioning.md",
+        "line_start": 1,
+        "line_end": 30
+      },
+      {
+        "id": "M_DOMAIN_finance",
+        "title": "程序装入完整专法 domains/finance.md",
+        "source_path": "runtime/liuren/20261111-basic-bifa-42/domains/finance.md",
+        "line_start": 1,
+        "line_end": 110
+      }
+    ],
+    "aliases": [],
+    "available_modules": [
+      "risk",
+      "shensha-tradition",
+      "classical-conflict",
+      "exam",
+      "finance",
+      "illness",
+      "interpersonal",
+      "long-period",
+      "lost-person-object",
+      "period-outlook",
+      "pregnancy",
+      "promotion-salary",
+      "recruitment",
+      "relationship",
+      "adjudication",
+      "evidence",
+      "liqi",
+      "movement",
+      "positioning",
+      "relations",
+      "report",
+      "structure",
+      "timing",
+      "void",
+      "bashajiubao",
+      "beihai-extend-sop",
+      "bifa",
+      "blade-methods",
+      "case-retrieval-v2",
+      "daliuren-paipan",
+      "daliuren-shensha",
+      "engine-shensha-output",
+      "experience-retrieval-v2",
+      "keti-quanbiao",
+      "kundun",
+      "liqi-examples",
+      "liqi-sources",
+      "nianming",
+      "rule-semantics",
+      "shensha-engine-index",
+      "shensha-field-meanings",
+      "shensha-focus",
+      "shensha-meaning-sources",
+      "shensha-meanings",
+      "shensha-other-meanings",
+      "shensha-sources",
+      "shensha-use",
+      "quantity",
+      "quantity-sources",
+      "workflow-contract",
+      "class-mapping",
+      "shenjiang-use",
+      "shen-symbols",
+      "jiang-symbols",
+      "home",
+      "travel",
+      "weather",
+      "agriculture",
+      "mapping-provenance",
+      "judgment-core",
+      "confirmed-policy",
+      "pending-conflicts",
+      "confirmed-policy-evidence",
+      "confirmed-policy-supplements",
+      "consistency-audit",
+      "direct-answer",
+      "book-logic",
+      "quantity-strength",
+      "void-class-applications",
+      "book-annotation-evidence",
+      "bifa-basic",
+      "bifa-basic-evidence"
+    ],
+    "fixed_evidence": "E01—E22；按具体条目查，不逐条通读",
+    "access": "liuren_adjudication_read({file_path,sha256,material_id:来源ID,page:1,page_count:4})；详细方法改用module:模块ID；始终沿用本任务file_path/sha256。"
+  }
+}

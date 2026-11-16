@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>六壬八字 · 海外服务化技术方案</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f5f0; --card:#ffffff; --line:#e9e3d6; --line-soft:#f0ebe0;
+  --ink:#14171e; --ink2:#3a4256; --muted:#7c7a72;
+  --primary:#2f6f5e; --primary-soft:rgba(47,111,94,.08);
+  --amber:#c97b3f; --amber-soft:rgba(201,123,63,.10);
+  --rose:#b06367; --rose-soft:rgba(176,99,103,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:'Outfit',sans-serif; font-size:15px; line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(ellipse 900px 500px at 8% -8%, rgba(47,111,94,.055), transparent 60%),
+    radial-gradient(ellipse 800px 480px at 96% 4%, rgba(201,123,63,.05), transparent 60%);
+  background-attachment:fixed;
+}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+section{padding:52px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:none}
+h1,h2{font-family:'DM Serif Display',serif;font-weight:400;letter-spacing:-.005em}
+h1{font-size:38px;line-height:1.18;margin-bottom:14px}
+h2{font-size:25px;line-height:1.3;margin-bottom:8px}
+.lede{color:var(--ink2);font-size:16px;max-width:70ch}
+.eyebrow{
+  font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--primary);margin-bottom:10px;
+  display:flex;align-items:center;gap:9px;
+}
+.eyebrow svg{width:15px;height:15px;stroke-width:2}
+.note{color:var(--muted);font-size:13.5px;margin-top:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;box-shadow:0 2px 8px rgba(0,0,0,.035)}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.tag{display:inline-flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.06em;padding:2.5px 8px;border-radius:20px;white-space:nowrap}
+.t-have{background:var(--primary-soft);color:var(--primary)}
+.t-new{background:var(--amber-soft);color:var(--amber)}
+.t-fix{background:var(--rose-soft);color:var(--rose)}
+.t-mid{background:#eceff3;color:#5a6478}
+code,.mono{font-family:'JetBrains Mono',monospace;font-size:12.5px}
+.kv{display:grid;grid-template-columns:118px 1fr;row-gap:9px;column-gap:16px;margin:0}
+.kv dt{color:var(--muted);border-bottom:1px dashed var(--line);padding-bottom:7px;font-size:13.5px}
+.kv dd{margin:0;border-bottom:1px dashed var(--line);padding-bottom:7px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;padding:0 12px 9px 0;border-bottom:1px solid var(--line)}
+td{padding:11px 12px 11px 0;border-bottom:1px solid var(--line-soft);vertical-align:top}
+td:first-child{font-weight:600;white-space:nowrap}
+.bench{display:grid;grid-template-columns:132px 1fr 66px;gap:12px;align-items:center;padding:5px 0}
+.bench-label{font-size:13.5px;color:var(--ink2)}
+.bench-track{height:15px;background:var(--line-soft);border-radius:6px;overflow:hidden}
+.bench-fill{height:100%;border-radius:6px}
+.bench-val{font-family:'JetBrains Mono',monospace;font-size:12.5px;text-align:right;color:var(--ink2)}
+.timeline{list-style:none;padding:0;margin:0;position:relative}
+.timeline::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:2px;background:var(--primary);opacity:.32}
+.timeline li{position:relative;padding:0 0 26px 32px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:2px;top:6px;width:14px;height:14px;border-radius:50%;background:#fff;border:2px solid var(--primary)}
+.timeline .wk{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--amber);letter-spacing:.05em}
+.timeline h4{font-size:16px;font-weight:600;margin:2px 0 5px}
+.timeline p{color:var(--ink2);font-size:14px}
+.hit{background:linear-gradient(transparent 62%, rgba(47,111,94,.16) 0);font-weight:600}
+.warnbox{background:var(--amber-soft);border:1px solid rgba(201,123,63,.25);border-radius:14px;padding:17px 20px}
+.warnbox strong{color:var(--amber)}
+.flowwrap{overflow-x:auto;padding:4px 0 2px}
+ul.tick{list-style:none;font-size:14px;color:var(--ink2)}
+ul.tick li{padding-left:20px;position:relative;margin-bottom:7px}
+ul.tick li::before{content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;border-radius:50%;background:var(--primary);opacity:.55}
+@media(max-width:768px){
+  h1{font-size:29px} h2{font-size:21px} body{font-size:14.5px}
+  .g2,.g3{grid-template-columns:1fr}
+  section{padding:38px 0}
+  .kv{grid-template-columns:1fr;row-gap:2px}
+  .kv dt{border:none;padding-bottom:0;margin-top:8px}
+  .bench{grid-template-columns:96px 1fr 58px;gap:9px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ============ HERO ============ -->
+<section style="padding-top:64px">
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2v4M12 18v4M4.9 4.9l2.9 2.9M16.2 16.2l2.9 2.9M2 12h4M18 12h4M4.9 19.1l2.9-2.9M16.2 7.8l2.9-2.9"/></svg>
+    技术方案 · 2026-10
+  </div>
+  <h1>把一套 <span class="hit">算得很准</span>的体系<br>变成一个 <span class="hit">能收钱</span>的服务</h1>
+  <p class="lede">核心判断：<strong>算法层已经完工，缺的是服务化外壳。</strong>你手上最值钱的资产不是那 25 个 SKILL.md，而是那个已被交叉验证、<strong>不允许 LLM 自行推算</strong>的确定性排盘引擎——它是护城河。剩下的 80% 工作量在工程化和商业化，不在命理本身。</p>
+
+  <div class="grid g3" style="margin-top:30px">
+    <div class="card">
+      <div class="tag t-have">可直接复用</div>
+      <h3 style="font-size:16px;margin:11px 0 7px;font-weight:600;font-family:'Outfit'">排盘引擎 + 排盘 UI</h3>
+      <p style="font-size:13.5px;color:var(--ink2)"><code>paipan</code> 已对过问真八字，数学上验证过。零依赖 Node ESM，直接 <code>import</code> 即可当 API 用。<code>index.html</code>(145KB) + <code>paipan.js</code>(165KB) 是现成排盘渲染层。</p>
+    </div>
+    <div class="card">
+      <div class="tag t-fix">需重写编排层</div>
+      <h3 style="font-size:16px;margin:11px 0 7px;font-weight:600;font-family:'Outfit'">25 个 Skill 推理框架</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">它们依赖 opencode 的 agent 循环（read / grep / bash）。搬到 API 上必须换成<strong>确定性状态机</strong>，否则 prompt 塞不下、结果不可复现、成本失控。</p>
+    </div>
+    <div class="card">
+      <div class="tag t-fix">需补的空洞</div>
+      <h3 style="font-size:16px;margin:11px 0 7px;font-weight:600;font-family:'Outfit'">海外时区 + 真太阳时</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">引擎只认 <code>--city cn-shanghai</code>。海外用户没有中国城市码，且八字对真太阳时极度敏感——<strong>这是整个项目最硬的技术风险</strong>。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 架构 ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+    目标架构
+  </div>
+  <h2>七层：把「Skill 驱动」换成「状态机驱动」</h2>
+  <p class="lede" style="margin-bottom:22px">关键设计决策：你的 SKILL.md 里已经写了「<strong>必调铁律</strong>」「<strong>输出前强制自检 7 项</strong>」——这在 agent 里靠自觉，在状态机里就是<strong>节点依赖和断言</strong>。同一份业务规则，换个执行外壳，可靠性反而更高。</p>
+
+  <div class="grid" style="gap:8px">
+
+    <div class="card" style="padding:15px 20px;display:grid;grid-template-columns:118px 1fr 96px;gap:16px;align-items:center">
+      <div><div style="font-weight:600;font-size:14.5px">渠道层</div><div style="font-size:12px;color:var(--muted)">L0</div></div>
+      <div style="font-size:13.5px;color:var(--ink2)">Web（主）· Email 复现链接 · REST API（开放给合作方）· 后续 Discord/Telegram bot</div>
+      <div><span class="tag t-new">新建</span></div>
+    </div>
+
+    <div class="card" style="padding:15px 20px;display:grid;grid-template-columns:118px 1fr 96px;gap:16px;align-items:center">
+      <div><div style="font-weight:600;font-size:14.5px">前端</div><div style="font-size:12px;color:var(--muted)">L1</div></div>
+      <div style="font-size:13.5px;color:var(--ink2)">Next.js 15 App Router + Tailwind + shadcn/ui · <code>next-intl</code> 多语言 · Stripe/Lemon 结账 · <strong>SSE 流式出报告</strong></div>
+      <div><span class="tag t-new">新建</span></div>
+    </div>
+
+    <div class="card" style="padding:15px 20px;display:grid;grid-template-columns:118px 1fr 96px;gap:16px;align-items:center">
+      <div><div style="font-weight:600;font-size:14.5px">API 网关</div><div style="font-size:12px;color:var(--muted)">L2</div></div>
+      <div style="font-size:13.5px;color:var(--ink2)">鉴权（Supabase Auth）· 限流 · <strong>计费闸门</strong>（余额不足直接 402，不烧 token）· 幂等键 · 审计日志</div>
+      <div><span class="tag t-new">新建</span></div>
+    </div>
+
+    <div class="card" style="border-color:rgba(47,111,94,.4);box-shadow:0 4px 16px -2px rgba(47,111,94,.10);padding:15px 20px;display:grid;grid-template-columns:118px 1fr 96px;gap:16px;align-items:center">
+      <div><div style="font-weight:600;font-size:14.5px">编排层</div><div style="font-size:12px;color:var(--primary)">L3 · 核心</div></div>
+      <div style="font-size:13.5px;color:var(--ink2)">十步/十一步推理写成<strong>显式状态机</strong>，每步一个节点：输入 JSON → 输出 JSON schema → schema 断言 → 失败即中止。<strong>替代自由 agent 循环。</strong>每步落 trace，可单步重跑</div>
+      <div><span class="tag t-fix">重写</span></div>
+    </div>
+
+    <div class="grid g3" style="gap:8px;padding-left:16px;border-left:2px solid var(--line)">
+      <div class="card" style="padding:15px 18px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <strong style="font-size:14px">4a · 确定性引擎</strong><span class="tag t-have">已有</span>
+        </div>
+        <div style="font-size:13px;color:var(--ink2)"><code>computeChart()</code> 直接 import paipan<br><code>solarTime.ts</code> 真太阳时校正 <span class="tag t-new" style="margin-left:2px">新</span><br><code>geo.ts</code> 经纬度+历史时区 <span class="tag t-new" style="margin-left:2px">新</span></div>
+      </div>
+      <div class="card" style="padding:15px 18px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <strong style="font-size:14px">4b · 检索层</strong><span class="tag t-fix">改造</span>
+        </div>
+        <div style="font-size:13px;color:var(--ink2)">pgvector 混合检索<br>结构化字段硬过滤 + 向量软召回 + 验证次数加权<br>改写 <code>search-cases.ps1</code> 为 TS 模块</div>
+      </div>
+      <div class="card" style="padding:15px 18px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <strong style="font-size:14px">4c · LLM</strong><span class="tag t-new">新建</span>
+        </div>
+        <div style="font-size:13px;color:var(--ink2)">中文内部推理<br>逐条标注引用来源<br><strong>只在最后一跳翻译</strong>成 EN/ES/PT</div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:15px 20px;display:grid;grid-template-columns:118px 1fr 96px;gap:16px;align-items:center">
+      <div><div style="font-weight:600;font-size:14.5px">数据层</div><div style="font-size:12px;color:var(--muted)">L5</div></div>
+      <div style="font-size:13.5px;color:var(--ink2)">Supabase（Postgres + pgvector + Auth + RLS）· 对象存储存排盘 JSON 归档 · 队列跑蒸馏/复盘 job</div>
+      <div><span class="tag t-fix">数据已在</span></div>
+    </div>
+
+    <div class="card" style="padding:15px 20px;display:grid;grid-template-columns:118px 1fr 96px;gap:16px;align-items:center">
+      <div><div style="font-weight:600;font-size:14.5px">商业层</div><div style="font-size:12px;color:var(--muted)">L6</div></div>
+      <div style="font-size:13.5px;color:var(--ink2)">MoR 支付（自动代扣 VAT/GST，<strong>自带部分退款 API</strong>，正好匹配返现）· Resend 发报告 · PostHog 漏斗 + Sentry</div>
+      <div><span class="tag t-new">新建</span></div>
+    </div>
+  </div>
+
+  <div class="note" style="margin-top:14px">整个 L4a–L4c 可以是<strong>同一个 Node 进程内的三个纯函数</strong>，不需要拆微服务。报告生成 30–90 秒，走 SSE 流式推给前端即可，不必上异步队列（除非做六壬「随时起课」）。</div>
+</section>
+
+<!-- ============ 时区硬骨头 ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+    风险 01 · 最硬的一块
+  </div>
+  <h2>八字算的是「真太阳时」，不是钟表时间</h2>
+  <p class="lede" style="margin-bottom:22px">这不是小修小补。用钟表时排盘，同一个人在北京出生和在乌市出生，时辰可能差两小时——四柱全变。海外更极端：15 个美国时区 + 历史夏令时 + 国际日期变更线。引擎现在只认中文城市码，这一层不做，后面全是错的。</p>
+
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:12px">校正公式</h3>
+      <div class="mono" style="background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:13px 15px;font-size:12.5px;line-height:1.85;color:var(--ink2)">
+        真太阳时 = 钟表时<br>
+        <span style="color:var(--primary)">+</span> (当地经度 − 时区中央经线) × 4 分钟/度<br>
+        <span style="color:var(--primary)">−</span> 均时差 <span style="color:var(--muted)">(全年 −14.2 ~ +16.4 分)</span>
+      </div>
+      <div class="note">中央经线：UTC+8 → 120°E · UTC+0 → 0° · UTC−5 → 75°W</div>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:6px">同一钟表时刻，校正量能差多远</h3>
+      <div style="margin-top:12px">
+        <div class="bench"><span class="bench-label">伦敦 · 0.1°W</span><div class="bench-track"><div class="bench-fill" style="width:3%;background:var(--primary)"></div></div><span class="bench-val">≈ 0 分</span></div>
+        <div class="bench"><span class="bench-label">纽约 · 74°W</span><div class="bench-track"><div class="bench-fill" style="width:6%;background:var(--primary)"></div></div><span class="bench-val">≈ −12 分</span></div>
+        <div class="bench"><span class="bench-label">北京 · 116.4°E</span><div class="bench-track"><div class="bench-fill" style="width:6%;background:var(--primary)"></div></div><span class="bench-val">≈ −14 分</span></div>
+        <div class="bench"><span class="bench-label">乌鲁木齐 · 87.6°E</span><div class="bench-track"><div class="bench-fill" style="width:100%;background:var(--amber)"></div></div><span class="bench-val" style="color:var(--amber)">−2h10m</span></div>
+      </div>
+      <div class="note">乌鲁木齐那一条不是极端个例，是国内同一制度下的真实断层。海外用户横跨十几个时区，量级只会更大。</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:12px">要做的四件事</h3>
+    <ul class="tick">
+      <li><strong>地理编码</strong>：用户输入城市名 / 邮编 → 经纬度。建 <code>city_geo</code> 缓存表，别每次调 geocode API。</li>
+      <li><strong>历史时区 + 夏令时</strong>：必须用 IANA tz database 查<strong>出生那一刻</strong>的 UTC offset，不能用今天 的。1985 年前美国还有 DST 变化，规则改过多次。</li>
+      <li><strong>月份归属</strong>：月柱按节气分月，年柱按立春分年，不是公历 1 月 1 日。跨年出生（1 月 1–5 日）极易算错年柱。</li>
+      <li><strong>时辰边界必须提示</strong>：校正后若距时辰分界 &lt; 10 分钟，给出<strong>两盘并列</strong>（前一刻/后一刻）让用户选，不要假装确定。这是专业度的体现，也是防投诉。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ Skill 到 API ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/></svg>
+    风险 02 · 核心重构
+  </div>
+  <h2>把 40 万字 SKILL.md 变成可编排的服务</h2>
+  <p class="lede" style="margin-bottom:22px">三种走法，差别很大。直觉上最容易想到的「一个大 prompt 塞进去」恰好是最差的一种。</p>
+
+  <table style="margin-bottom:16px">
+    <thead><tr><th style="width:15%">方案</th><th style="width:29%">做法</th><th>问题 / 代价</th><th style="width:11%">判断</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Mega-prompt</td>
+        <td>把 bazi + daliuren + refs 全部拼成一个 system prompt</td>
+        <td>八字全流程约 40–60K input token，每次都重付；注意力被稀释，十步推理会跳步——这正是你 SKILL.md 里「防跳步铁律」要防的事；无法单步重跑</td>
+        <td><span class="tag t-fix">不要</span></td>
+      </tr>
+      <tr>
+        <td>Agent 循环</td>
+        <td>给 LLM 工具（grep / 读文件 / 排盘），让它自己决定调哪个</td>
+        <td>和你现在 opencode 里做的事一样。可行但不可复现：同一八字两次结果可能不同，成本浮动大，「必调 7 项」只能靠 prompt 自觉</td>
+        <td><span class="tag t-mid">兜底</span></td>
+      </tr>
+      <tr>
+        <td><strong>确定性状态机</strong></td>
+        <td>每步固定输入输出 JSON schema，schema 断言不过就中止；检索命中与调用次序写死在图里</td>
+        <td>需要把 SKILL.md 拆成机器可读步骤（一次性工程量最大）；换来可复现、可单步重跑、成本可预测、可审计</td>
+        <td><span class="tag t-have">推荐</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="card">
+    <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:10px">你其实已经写好了状态机的规格书</h3>
+    <p style="font-size:13.5px;color:var(--ink2);margin-bottom:12px">SKILL.md 里的这些内容，翻译成代码是直接映射的：</p>
+    <div class="kv">
+      <dt>「步骤 1…11」</dt><dd>图节点 + 边</dd>
+      <dt>「必调铁律：6 个必调子 skill」</dt><dd>节点依赖 + 启动前断言</dd>
+      <dt>「输出前强制自检 7 项」</dt><dd>输出 schema 校验，缺项抛错不出报告</dd>
+      <dt>「降序终审制」</dt><dd>冲突裁决函数（调候 &gt; 格局 &gt; 旺衰 &gt; 通论）</dd>
+      <dt>「禁止质疑 paipan 结果」</dt><dd>引擎输出设为 immutable，只读</dd>
+      <dt>「验证次数 ≥2 才加权采信」</dt><dd>检索层打分函数里的权重项</dd>
+    </div>
+    <div class="note">最后两条尤其值钱——它们是你的<strong>反投毒和反幻觉护栏</strong>，已经写在业务规则里了，不用重新发明。</div>
+  </div>
+</section>
+
+<!-- ============ RAG ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><ellipse cx="12" cy="6" rx="8.5" ry="3.5"/><path d="M3.5 6v12c0 1.9 3.8 3.5 8.5 3.5s8.5-1.6 8.5-3.5V6M3.5 12c0 1.9 3.8 3.5 8.5 3.5s8.5-1.6 8.5-3.5"/></svg>
+    知识库
+  </div>
+  <h2>你的语料已经结构化过了，别退回纯向量</h2>
+  <p class="lede" style="margin-bottom:22px"><code>_metadata_schema.md</code> 里每个规则小节上方都挂着 <code>&lt;!-- META: 主题=调候 | 日主=辛 | 喜忌=水 --&gt;</code>。<strong>日主=辛</strong> 这种条件，向量相似度基本无能为力，但 SQL 等值过滤一秒钟搞定。纯向量检索会把这个优势扔掉。</p>
+
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:12px">四层语料，按可信度分层</h3>
+      <table>
+        <tbody>
+          <tr><td style="width:34px;color:var(--primary)">L0</td><td>规则层<div style="font-weight:400;font-size:12.5px;color:var(--muted)">古籍蒸馏、穷通宝鉴调候表、格局表、神煞表</div></td><td style="width:58px"><span class="tag t-have">硬引用</span></td></tr>
+          <tr><td style="color:var(--primary)">L1</td><td>技法层<div style="font-weight:400;font-size:12.5px;color:var(--muted)">经验库规则、喜忌/用神结论</div></td><td><span class="tag t-have">加权</span></td></tr>
+          <tr><td style="color:var(--primary)">L2</td><td>命例层<div style="font-weight:400;font-size:12.5px;color:var(--muted)">实战反馈、已验证案例</div></td><td><span class="tag t-mid">按次数</span></td></tr>
+          <tr><td style="color:var(--amber)">L3</td><td>用户反馈层<div style="font-weight:400;font-size:12.5px;color:var(--muted)">海外用户回传的实战记录</div></td><td><span class="tag t-fix">从疑</span></td></tr>
+        </tbody>
+      </table>
+      <div class="note">L3 是新加的一层。默认<strong>不参与</strong>常规推理，只在「同类命例」提示时以弱证据出现。</div>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:12px">四段式混合检索</h3>
+      <div style="display:flex;flex-direction:column;gap:7px">
+        <div style="display:flex;gap:11px;align-items:flex-start;padding:9px 12px;background:var(--bg);border-radius:9px">
+          <span class="mono" style="color:var(--primary);font-weight:500">01</span>
+          <div style="font-size:13.5px"><strong>结构化硬过滤</strong><div style="color:var(--muted);font-size:12.5px">META 字段等值/IN：日主=辛、月令=午、格局=正官格、技法含墓库冲</div></div>
+        </div>
+        <div style="display:flex;gap:11px;align-items:flex-start;padding:9px 12px;background:var(--bg);border-radius:9px">
+          <span class="mono" style="color:var(--primary);font-weight:500">02</span>
+          <div style="font-size:13.5px"><strong>向量软召回</strong><div style="color:var(--muted);font-size:12.5px">把命盘特征转成描述文本 embedding，top-50</div></div>
+        </div>
+        <div style="display:flex;gap:11px;align-items:flex-start;padding:9px 12px;background:var(--bg);border-radius:9px">
+          <span class="mono" style="color:var(--primary);font-weight:500">03</span>
+          <div style="font-size:13.5px"><strong>重排 + 置信度加权</strong><div style="color:var(--muted);font-size:12.5px">见下方打分函数</div></div>
+        </div>
+        <div style="display:flex;gap:11px;align-items:flex-start;padding:9px 12px;background:var(--bg);border-radius:9px">
+          <span class="mono" style="color:var(--primary);font-weight:500">04</span>
+          <div style="font-size:13.5px"><strong>组装引用块</strong><div style="color:var(--muted);font-size:12.5px">每条带 source tag 进 prompt，<strong>强制 LLM 逐条标注引用来源</strong></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:10px">打分函数</h3>
+    <div class="mono" style="background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:13px 15px;font-size:12.5px;line-height:1.9;color:var(--ink2)">
+      score = <span style="color:var(--primary)">0.40</span>·vector_sim<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;+ <span style="color:var(--primary)">0.25</span>·exact_field_match <span style="color:var(--muted)">// 日主/月令/格局 全中</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;+ <span style="color:var(--primary)">0.20</span>·min(log₁₀(1+验证次数), 1.5) <span style="color:var(--muted)">// 已验证次数</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;+ <span style="color:var(--amber)">0.15</span>·source_authority <span style="color:var(--muted)">// L0 古籍 &gt; L1 技法 &gt; L2 命例</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;− <span style="color:var(--rose)">0.50</span>·no_source_penalty <span style="color:var(--muted)">// 无 来源 字段直接出局</span>
+    </div>
+    <div class="note">最后两项就是「反推纪律」第 1、3 条的数学表达：没有出处的条目不得进入推理；验证次数是单调递增的加分项，不能靠「写得像真的」上位。</div>
+  </div>
+</section>
+
+<!-- ============ 反馈闭环 ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12a9 9 0 1 1-3.2-6.9"/><path d="M21 3v5h-5"/><path d="M12 8v4l3 1.5"/></svg>
+    反馈闭环
+  </div>
+  <h2>反馈不只是补偿金，是知识库的供给管道</h2>
+  <p class="lede" style="margin-bottom:20px">你项目里的 <code>命例-实战反馈.md</code> 已经是这个闭环的原型：预测 → 反馈 → ✅/❌ → 技法提炼 → 验证次数 → 反例边界 → 来源。产品化要做的，是把这条人工链路变成自动流水线，<strong>并加上付费激励和防投毒闸门</strong>。</p>
+
+  <div class="card" style="padding:22px 20px">
+    <div class="flowwrap">
+      <svg viewBox="0 0 1000 300" style="width:100%;min-width:820px;height:auto" role="img" aria-label="反馈闭环流程图">
+        <defs>
+          <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+            <path d="M0,0 L0,6.4 L7,3.2 z" fill="#2f6f5e"/>
+          </marker>
+          <marker id="ar2" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+            <path d="M0,0 L0,6.4 L7,3.2 z" fill="#c97b3f"/>
+          </marker>
+        </defs>
+
+        <!-- row 1 -->
+        <g font-family="Outfit, sans-serif" font-size="12.5">
+          <!-- 1 -->
+          <rect x="8" y="18" width="132" height="58" rx="11" fill="#fff" stroke="#e9e3d6"/>
+          <text x="74" y="40" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">① 结构化反馈</text>
+          <text x="74" y="58" text-anchor="middle" font-size="10.5" fill="#7c7a72">哪条预测 + 实际结果</text>
+          <!-- 2 -->
+          <rect x="176" y="18" width="132" height="58" rx="11" fill="#fff" stroke="#e9e3d6"/>
+          <text x="242" y="40" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">② 复盘蒸馏 job</text>
+          <text x="242" y="58" text-anchor="middle" font-size="10.5" fill="#7c7a72">强制引经据典约束</text>
+          <!-- 3 -->
+          <rect x="344" y="18" width="140" height="58" rx="11" fill="#fdf6ef" stroke="rgba(201,123,63,.45)"/>
+          <text x="414" y="36" text-anchor="middle" font-size="12" font-weight="600" fill="#a5642d">③ 审核闸门</text>
+          <text x="414" y="53" text-anchor="middle" font-size="10.5" fill="#a5642d">规则 → LLM → 人工</text>
+          <text x="414" y="68" text-anchor="middle" font-size="10.5" fill="#a5642d">★ 防投毒关键</text>
+          <!-- 4 -->
+          <rect x="520" y="18" width="136" height="58" rx="11" fill="#fdf6ef" stroke="rgba(201,123,63,.45)"/>
+          <text x="588" y="40" text-anchor="middle" font-size="12" font-weight="600" fill="#a5642d">④ 入库「未验证从疑」</text>
+          <text x="588" y="58" text-anchor="middle" font-size="10.5" fill="#a5642d">append-only，带来源</text>
+          <!-- 5 -->
+          <rect x="692" y="18" width="132" height="58" rx="11" fill="#fff" stroke="#e9e3d6"/>
+          <text x="758" y="40" text-anchor="middle" font-size="12" font-weight="600" fill="#14171e">⑤ 独立案例验证</text>
+          <text x="758" y="58" text-anchor="middle" font-size="10.5" fill="#7c7a72">来自其他用户</text>
+          <!-- 6 -->
+          <rect x="860" y="18" width="132" height="58" rx="11" fill="#eef5f2" stroke="rgba(47,111,94,.4)"/>
+          <text x="926" y="40" text-anchor="middle" font-size="12" font-weight="600" fill="#2f6f5e">⑥ 转正 L2</text>
+          <text x="926" y="58" text-anchor="middle" font-size="12" fill="#2f6f5e">验证次数 ≥ 2</text>
+        </g>
+        <!-- arrows row1 -->
+        <g stroke="#2f6f5e" stroke-width="1.6" fill="none" marker-end="url(#ar)">
+          <path d="M144,47 L171,47"/><path d="M312,47 L339,47"/>
+          <path d="M488,47 L515,47"/><path d="M660,47 L687,47"/><path d="M828,47 L855,47"/>
+        </g>
+
+        <!-- reward branch -->
+        <path d="M414,76 L414,120" stroke="#c97b3f" stroke-width="1.6" fill="none" marker-end="url(#ar2)"/>
+        <rect x="300" y="124" width="228" height="56" rx="11" fill="#fffaf4" stroke="rgba(201,123,63,.4)"/>
+        <text x="414" y="146" text-anchor="middle" font-family="Outfit, sans-serif" font-size="12" font-weight="600" fill="#a5642d">发放 credit / 部分退款</text>
+        <text x="414" y="165" text-anchor="middle" font-family="Outfit, sans-serif" font-size="10.5" fill="#a5642d">默认抵扣，现金退款可选</text>
+
+        <!-- loop back -->
+        <path d="M926,76 L926,232 L74,232 L74,80" stroke="#2f6f5e" stroke-width="1.6" fill="none" marker-end="url(#ar)" stroke-dasharray="5 4"/>
+        <rect x="366" y="220" width="268" height="24" rx="12" fill="#f7f5f0"/>
+        <text x="500" y="236" text-anchor="middle" font-family="Outfit, sans-serif" font-size="11" fill="#2f6f5e">已转正条目参与后续所有分析（⑥ → ① 回到检索层）</text>
+
+        <!-- rejection -->
+        <path d="M588,76 L588,120" stroke="#b06367" stroke-width="1.6" fill="none" marker-end="url(#ar)" opacity="0"/>
+        <text x="600" y="112" font-family="Outfit, sans-serif" font-size="10.5" fill="#b06367">未过闸门 → 退回并告知用户，不扣分不封号</text>
+      </svg>
+    </div>
+    <div class="note" style="margin-top:6px">④ 到 ⑥ 之间可能相隔数周甚至数月——这是对的。「未验证从疑」的条目在等待期里<strong>不参与</strong>主力推理，只在同类命例提示里以弱证据露脸。急不得，这一步走快了整套体系就被污染了。</div>
+  </div>
+
+  <div class="grid g2" style="margin-top:14px;align-items:start">
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:11px">七道防投毒闸门</h3>
+      <ul class="tick" style="font-size:13.5px">
+        <li><strong>表单结构化</strong>：强制填「哪条预测（从报告里勾选）+ 实际发生什么 + 时间」，不给自由文本空间。投毒需要自由度，结构化本身就是收敛。</li>
+        <li><strong>可证伪性检查</strong>：「我 2027 年会发财」这种不可证伪的，直接判退。</li>
+        <li><strong>与已有条目冲突</strong>检测：新反馈若与 L0/L1 已验证结论矛盾，不覆盖、只并存标记。</li>
+        <li><strong>「未验证从疑」标签</strong>：反推纪律第 3 条，你已经写好了。</li>
+        <li><strong>验证次数 ≥2 且信源独立</strong>：同一支付卡 / 同一 IP 的多条反馈计为 1 次。</li>
+        <li><strong>append-only + 来源可追溯</strong>：条目永不删除、永不覆盖，只能追加修订记录。</li>
+        <li><strong>奖励预算月度上限</strong>：运营层兜底，防止被刷出真实资金损失。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:11px">返现 / 优惠：发 credit 而不是退钱</h3>
+      <div class="kv" style="margin-bottom:12px">
+        <dt>状态机</dt><dd class="mono" style="font-size:11.5px">submitted → auto_reviewed → approved / rejected → reward_issued</dd>
+        <dt>默认奖励</dt><dd>下次消费抵扣 <strong>50% credit</strong>（有效 90 天）</dd>
+        <dt>可选升级</dt><dd>用户可主动选现金退款（走支付方部分退款 API）</dd>
+        <dt>奖励基数</dt><dd>按订单额计算，设上限（如 ≤ 40% 订单额）</dd>
+        <dt>幂等</dt><dd>一条 <code>report_id</code> 只能发一次，DB 唯一索引兜住</dd>
+      </div>
+      <div class="warnbox" style="margin-top:4px">
+        <p style="font-size:13.5px;color:var(--ink2)"><strong>为什么默认给 credit：</strong>现金退款会触发支付争议/拒付，长期亏损率通常高于奖励金额；而且现金退出会把用户送走，credit 会把人留下来复购。给「退钱选项」但做成<strong>用户主动升级</strong>，既满足「我们给你返一部分服务费」的说法，又把默认路径留在你这边。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ i18n ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+    风险 03 · 容易被忽略
+  </div>
+  <h2>国际化：推理层留中文，翻译放在最后一跳</h2>
+  <p class="lede" style="margin-bottom:20px">八字术语直译会毁掉专业感——「七杀」不是 "Seven Killings" 式的直译，海外用户买的是「这东西说得好准」，不是「翻译得对」。</p>
+
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:10px">流水线</h3>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.9">
+        命盘 JSON <span style="color:var(--primary)">→</span> 结构化中间层 <span style="color:var(--primary)">→</span> 中文推理 <span style="color:var(--primary)">→</span> 术语映射 <span style="color:var(--primary)">→</span> 目标语言成文
+      </div>
+      <ul class="tick" style="font-size:13.5px;margin-top:12px">
+        <li>中间层把 十神/用神/神煞 映射到<strong>受控英文术语表</strong>，不靠模型自由发挥</li>
+        <li><code>books/beihai-xianren/GLOSSARY.md</code>（47KB）已经是现成术语表，扩成 i18n glossary 即可</li>
+        <li>用英文圈通行译法：Four Pillars / BaZi、Direct Officer、Indirect Officer、Useful God… 不要拼音直译</li>
+        <li>把「排盘图 + 结论卡片」做成<strong>语言无关的图表</strong>，减少对文字翻译质量的依赖</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="font-size:16px;font-family:'Outfit';font-weight:600;margin-bottom:10px">出生地输入必须重做</h3>
+      <div class="kv">
+        <dt>现在</dt><dd class="mono" style="font-size:11.5px">--city cn-shanghai</dd>
+        <dt>改成</dt><dd>「City or ZIP」输入框</dd>
+        <dt>链路</dt><dd>地理编码 → lat/lon + IANA tz → 历史 offset + DST → 真太阳时 → 排盘</dd>
+        <dt>缓存</dt><dd><code>city_geo</code> 表，冷启动灌 2 万城市，之后零外部调用</dd>
+        <dt>兜底</dt><dd>查不到 → 让用户手填经纬度，别静默用北京时间</dd>
+      </div>
+      <div class="note">「静默换路径」是你项目里已经明确禁止的行为（数据根缺失必须显式上报），这个原则同样适用于时区。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 成本 ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18"/><path d="M7 15l4-5 3.5 3L21 6"/></svg>
+    单位经济
+  </div>
+  <h2>推理成本几乎可以忽略，定价不是技术问题</h2>
+  <p class="lede" style="margin-bottom:20px">一次完整八字分析约 40–60K input token + 4–8K output。按公开价目估算，单次推理成本在<strong>几毛钱以内</strong>，八字的毛利率可以做到 90%+。真正的成本在获客和信任，不在 token。</p>
+
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:10px">单次八字报告成本拆解（估算）</h3>
+      <div class="bench"><span class="bench-label">LLM 推理</span><div class="bench-track"><div class="bench-fill" style="width:22%;background:var(--primary)"></div></div><span class="bench-val">$0.20–0.30</span></div>
+      <div class="bench"><span class="bench-label">支付费率</span><div class="bench-track"><div class="bench-fill" style="width:62%;background:var(--primary)"></div></div><span class="bench-val">5% + $0.50</span></div>
+      <div class="bench"><span class="bench-label">向量检索</span><div class="bench-track"><div class="bench-fill" style="width:2%;background:var(--primary)"></div></div><span class="bench-val">&lt;$0.01</span></div>
+      <div class="bench"><span class="bench-label">托管 + 邮件</span><div class="bench-track"><div class="bench-fill" style="width:6%;background:var(--primary)"></div></div><span class="bench-val">≈$0.03</span></div>
+      <div class="note" style="margin-top:10px">按 $19.99 售价：总成本 ≈ $1.4，毛利率 ≈ <strong>93%</strong>。六壬断课因 11 步 + 7 次必调子流程，token 约为八字 4–8 倍，定价应分层（八字 $19.99 / 六壬 $39.99+）。</div>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:10px">支付通道：优先 MoR</h3>
+      <p style="font-size:13.5px;color:var(--ink2);margin-bottom:10px">MoR（Merchant of Record）模式：平台作为法律上的卖方替你收款、计税、承担退款责任。</p>
+      <table>
+        <thead><tr><th>维度</th><th>MoR</th><th>Stripe</th></tr></thead>
+        <tbody>
+          <tr><td>VAT/GST</td><td>自动代缴</td><td style="color:var(--muted)">自己算自己报</td></tr>
+          <tr><td>部分退款</td><td>有现成 API</td><td style="color:var(--muted)">有，但税要自己冲回</td></tr>
+          <tr><td>争议/拒付</td><td>平台扛</td><td style="color:var(--muted)">你扛</td></tr>
+          <tr><td>费率</td><td>约 5% + $0.5</td><td style="color:var(--muted)">约 2.9% + $0.3</td></tr>
+          <tr><td>分成</td><td>多 2.5%</td><td style="color:var(--muted)">多 2.5% 换来税务和拒付风险自担</td></tr>
+        </tbody>
+      </table>
+      <div class="warnbox" style="margin-top:12px">
+        <p style="font-size:13px;color:var(--ink2)"><strong>⚠️ 上线前必须核实：</strong>Lemon Squeezy / Paddle 对 <em>fortune telling / divination</em> 类目是否放行、是否需要额外审核。这两家都曾调整过 ToS 的「services」条款。先过这关再写支付代码，否则做到一半被封号。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 合规 ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l8 4v6c0 5-3.4 9.4-8 10-4.6-.6-8-5-8-10V6z"/><path d="M12 8v5M12 16h.01"/></svg>
+    合规红线
+  </div>
+  <h2>四条不能碰的线</h2>
+  <div class="grid g2" style="margin-top:6px;align-items:start">
+    <div class="card">
+      <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:7px">1 · 免责声明要够、要在付费前</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">结账页 + 报告页 + 报告 PDF 三处都要有。<strong>不构成医疗、法律、财务建议</strong>。这句话不是形式主义——它是海外消费者保护诉讼里最有效的抗辩点。</p>
+    </div>
+    <div class="card">
+      <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:7px">2 · 禁止输出「绝对断言」</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">在 LLM 的输出约束里加死规则：不许说「你一定会」「你 100% 会」。用「倾向 / 容易 / 在 X 条件下」。<strong>既是合规，也是防止用户事后扯皮退款。</strong>你已有的「从疑」体系天然支持这种表述。</p>
+    </div>
+    <div class="card">
+      <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:7px">3 · 健康与财务要降级</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">「你 3 年后可能有一次健康波动」可以；「你该去做 CT」不行。所有「建议就医/投资/离婚」的输出直接过滤掉。这条做在状态机输出 schema 层，不靠 prompt。</p>
+    </div>
+    <div class="card">
+      <h3 style="font-size:15px;font-family:'Outfit';font-weight:600;margin-bottom:7px">4 · PII 与 GDPR</h3>
+      <p style="font-size:13.5px;color:var(--ink2)">出生日期时间地点是<strong>高度敏感的个人数据</strong>。Supabase 选 EU region，报告默认 90 天自动删除，导入口径 + 隐私政策要齐。面向欧盟用户时不这么做会直接吃 GDPR 罚单。</p>
+    </div>
+  </div>
+  <div class="note" style="margin-top:12px">另：Google Ads / Meta 对占卜类广告有限制，投放计划要预留。获客建议先走 SEO + 内容（八字/五行英文长尾内容竞争度低），跑通再投广告。</div>
+</section>
+
+<!-- ============ 路线图 ============ -->
+<section>
+  <div class="eyebrow">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4v16h16"/><path d="M8 16l3.5-4 3 2.5L20 8"/></svg>
+    落地顺序
+  </div>
+  <h2>四个阶段，前两个阶段就能开始收钱</h2>
+  <ol class="timeline" style="margin-top:20px">
+    <li>
+      <div class="wk">WEEK 1–2</div>
+      <h4>地基：引擎服务化 + 时区</h4>
+      <p>把 <code>bazi-paipan</code> 包成 TS 模块 <code>computeChart()</code>；实现真太阳时校正 + 历史时区 + <code>city_geo</code> 缓存表；写单测（已知八字回归用例对拍）。<strong>这一步做完，引擎就是一个可对外调用的 API 了</strong>，后面所有事情都建立在它上面。</p>
+    </li>
+    <li>
+      <div class="wk">WEEK 3–4</div>
+      <h4>可卖 MVP：单报告付费</h4>
+      <p>英文站 + 出生信息表单 + 结账 + SSE 流式报告 + 邮件送达。LLM 先用状态机里的<strong>固定 3–4 步精简版</strong>（格局/调候/旺衰/十神），别一上来就上完整十步——先跑通付费链路。同步上线排盘图展示（复用 <code>index.html</code> 那套渲染层）。</p>
+    </li>
+    <li>
+      <div class="wk">WEEK 5–6</div>
+      <h4>反馈闭环：知识飞轮转起来</h4>
+      <p>结构化反馈表单 + 复盘蒸馏 job + 审核台（内部工具）+ credit 发放 + <code>pgvector</code> 入库。这是<strong>竞争壁垒真正开始积累</strong>的地方：别人有同样的古籍，但没有你这份「海外用户验证过的实战记录」。</p>
+    </li>
+    <li>
+      <div class="wk">WEEK 7–8</div>
+      <h4>增长：六壬上线 + 免费钩子</h4>
+      <p>六壬「随时起课」按次付费（天然高频）；免费简化版报告做引流（只给格局+用神，全文付费）；分享卡 + 推荐返 credit。同时把十步完整推理和更多语言补上。</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ 收尾 ============ -->
+<section style="padding-bottom:64px">
+  <div class="card" style="background:linear-gradient(135deg,rgba(47,111,94,.05),rgba(201,123,63,.04));border-color:rgba(47,111,94,.22)">
+    <h2 style="margin-bottom:12px">三件需要你先拍板的事</h2>
+    <div class="grid g3" style="margin-top:6px">
+      <div>
+        <div class="tag t-new">决定架构</div>
+        <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>收款主体在哪？</strong>大陆主体走 Stripe 很麻烦，MoR 平台反而更顺。这决定支付层选型，也决定要不要 MoR。</p>
+      </div>
+      <div>
+        <div class="tag t-new">决定范围</div>
+        <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>先做八字还是六壬？</strong>八字一次性付费、链路短、好验证；六壬高频但推理重 4–8 倍、还要处理「用户随时起课」的实时性。建议先八字。</p>
+      </div>
+      <div>
+        <div class="tag t-new">决定形态</div>
+        <p style="font-size:13.5px;color:var(--ink2);margin-top:8px"><strong>先做英文单语还是 EN+ES+PT？</strong>建议首版纯英文跑通验证，翻译层架构留好口子，第二语言后面加就是配置工作。</p>
+      </div>
+    </div>
+    <div class="note" style="margin-top:16px">这三个答案不影响第一阶段（WEEK 1–2 的引擎服务化 + 时区校正）怎么做——那部分无论怎么选都要做。可以边做边定。</div>
+  </div>
+</section>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "entryNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract",
+    "liuren-tuiming"
+  ],
+  "removedAliases": [
+    "cailu-panduan",
+    "jibing-panduan",
+    "jixiong-tiaozhi",
+    "kaoshi-panduan",
+    "keti-qishi",
+    "kongwang-bianzhi",
+    "leishen-keti",
+    "lianai-panduan",
+    "renji-guanxi",
+    "sanbu-duanke",
+    "shengzhi-jiaxin",
+    "shensha-panduan",
+    "shiwu-xunren",
+    "shiyun-zonghe",
+    "xiongsha-suduan",
+    "yingpin-gongzuo",
+    "yingqi-panduan",
+    "youlu-lilun",
+    "yunchan-panduan",
+    "zhinan-zhanbing",
+    "zhongshen-nianyun"
+  ],
+  "files": {
+    "bazi/refs/bazi-paipan.md": "661bd1e25f33adebf50643c6620ae0784fcee4c48186ae4f8608297da79ae034",
+    "bazi/SKILL.md": "e760ac8829df2d108dd4f5c2e7d17e605f378324a17ab2155e4105f05ab2edc1",
+    "bazi-extract/SKILL.md": "93552cd7817a8deb6852cdd4f22dc7403bc96f9c973a5295d0702181fb105ea1",
+    "bazi-yingqi/SKILL.md": "93871682e19474b45a61400af7a33a68d876b544ac381e9f04a08cc7948ecd68",
+    "daliuren/refs/daliuren-paipan.md": "2244d970d467e52051d393e620491ddbcfd8a46b31f979d57c0d39a79b1f64f7",
+    "daliuren/refs/judgment-workflow.md": "b5ad8fd0d7192dd278b257cb137b2a3f3d56dd8f3552206b1dd1db93181a2783",
+    "daliuren/refs/liqi-analysis.md": "2d388f20105ed3be6d5bb230eabd8b4d4930329546a8c2fb6cd533d6fa09416b",
+    "daliuren/refs/liqi-sources.md": "7647ec1991d0cbb3cdd597f59914baea5796dc4c0b7e1bd70515b0800ac41af5",
+    "daliuren/refs/rule-semantics.md": "ff238b4a19d58ed492f7be3ac5d5ad5671c9aa4d30b6467c6d39a7885a086a6b",
+    "daliuren/refs/shensha-use.md": "46fbb7043df48566b171c9966b07c8b77fd1cb0e05b0773531de5cea64944861",
+    "daliuren/SKILL.md": "582466a412954fccbb60ea17fc811d3790617c9914e3af305db201befd6cc2b0",
+    "liuren-cases/refs/case-retrieval-v2.md": "170b3b039a30fe6e16d6679b9fc8b5e073603cac295b2b4a47e6707ca1eb5812",
+    "liuren-cases/refs/experience-retrieval-v2.md": "a0a315b95b697ad8635c2c68299cb941c02ea0ffaa5db2f9652b6aea7543c10b",
+    "liuren-cases/SKILL.md": "710e0ae54a271ac46332c96f8b5f8df9c53526093434b6bb794dadd97299ca34",
+    "liuren-extract/SKILL.md": "a5289c09403dc1e3a9620fe9557daf0e96854fa6b751887661af753bf49f07f0",
+    "liuren-tuiming/SKILL.md": "b6673810f87a3afe81a31e26c74626818543a2c67e082d1a6d646a063236a743"
+  }
+}

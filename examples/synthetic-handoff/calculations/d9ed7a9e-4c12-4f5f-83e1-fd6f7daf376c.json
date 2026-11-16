@@ -1,0 +1,263 @@
+{
+  "request": {
+    "action": "strength",
+    "strength": {
+      "mode": "single_palace",
+      "season_profile": "quarter-earth",
+      "season_basis": "合成宿主测试",
+      "review": true,
+      "actors": [
+        {
+          "id": "T:子",
+          "role": "测试类神",
+          "basis": "传输验证指定"
+        }
+      ]
+    }
+  },
+  "result": {
+    "schema": "liuren-selected-strength-v1",
+    "model": "liuren-palace-strength-v1",
+    "base_model": "liuren-strength-research-v05-direct",
+    "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+    "selected_policy": {
+      "id": "liuren-selected-relations-v1",
+      "route_gate": 0.75,
+      "local_balance": "frozen",
+      "source_loss": "baseline-direct-greedy-and-binding",
+      "groups": false
+    },
+    "chart_sha256": "b0d2dfcb0c4b0d8d350ccc241e6a452153cd684d9a96d6b902f4c38e47bf03ec",
+    "scope": "single_palace",
+    "season_profile": "quarter-earth",
+    "season_basis": "合成宿主测试",
+    "actors": [
+      {
+        "id": "T:子",
+        "role": "测试类神",
+        "basis": "传输验证指定",
+        "single_palace": 0.395724,
+        "single_palace_level": "极弱，通常难以独立显著作用",
+        "adjusted": 0.395724,
+        "delta": 0,
+        "level": "极弱，通常难以独立显著作用"
+      }
+    ],
+    "applied_relations": [],
+    "already_local_or_blocked": [],
+    "interpretation": "分数描述力量；弱仍可作用，0不等于整件事绝对不成。取用与关系适用性由AI依原法判断；未选关系及合局数值未补入。",
+    "receipt_sha256": "42af062510084b7e6ea3166c636fba80530e067679b6ecd26b722447c02e47bb",
+    "convergence": {
+      "residual": 5.360082933059118e-10,
+      "spread": 1.2961354767249134e-9
+    },
+    "coverage": {
+      "actors": [
+        "T:子"
+      ],
+      "submitted_relations": 0,
+      "computed_relations": 0,
+      "skipped_relations": 0,
+      "unselected_palaces_updated": false,
+      "semantic_role_validated": false,
+      "relation_applicability_validated": false,
+      "event_verdict_supported": false,
+      "qualitative_conditions": "刑冲合害、神煞专项、制救通达与兑现仍依原法；合局数值暂缓"
+    },
+    "review": {
+      "schema": "liuren-strength-review-v1",
+      "state_basis": [
+        {
+          "id": "T:子",
+          "kind": "branch",
+          "ground": "卯",
+          "carrier": null,
+          "month": "戌",
+          "month_qi": "死",
+          "references": [
+            {
+              "place": "卯",
+              "state": "死",
+              "weight": 0.7,
+              "body_ratio": 0.5,
+              "access": 1
+            },
+            {
+              "place": "酉",
+              "state": "沐浴",
+              "weight": 0.3,
+              "body_ratio": 0.85,
+              "access": 1
+            }
+          ],
+          "original_void": [
+            "戌",
+            "亥"
+          ],
+          "evaluation_void": [
+            "戌",
+            "亥"
+          ],
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": null,
+          "void_upper": null,
+          "void_retention": 1,
+          "tomb_access": 1,
+          "base": 1.21,
+          "local_net": -0.8142762056960049,
+          "outward_restriction": 0.32519040681726674,
+          "direct_relations": [
+            {
+              "id": "T:子>D:卯",
+              "source": "T:子",
+              "target": "D:卯",
+              "type": "生",
+              "routes": [
+                {
+                  "kind": "ground",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "ground",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 0.39572379511014677,
+              "target_strength": 3,
+              "tau": 1,
+              "received": 0,
+              "source_cost": 0.03957237951101468,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": 0.07914475902202936,
+              "observed_source_cost": 0.03957237951101468
+            },
+            {
+              "id": "T:酉>T:子|view:T:子",
+              "source": "T:酉",
+              "target": "T:子",
+              "type": "生",
+              "routes": [
+                {
+                  "kind": "yin",
+                  "gate": 0.75
+                }
+              ],
+              "owner": "T:子",
+              "blocked": null,
+              "route": "yin",
+              "raw_gate": 0.75,
+              "gate": 0.75,
+              "source_strength": 2.7729166666668306,
+              "target_strength": 0.39572379511014677,
+              "tau": 1,
+              "received": 0.41593750000002466,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": "T:子",
+              "observed_received": 0.41593750000002466,
+              "observed_source_cost": 0.20796875000001233
+            },
+            {
+              "id": "J:贵人>T:子",
+              "source": "J:贵人",
+              "target": "T:子",
+              "type": "克",
+              "routes": [
+                {
+                  "kind": "carrier",
+                  "gate": 1
+                }
+              ],
+              "owner": null,
+              "blocked": null,
+              "route": "carrier",
+              "raw_gate": 1,
+              "gate": 1,
+              "source_strength": 6.424371735137986,
+              "target_strength": 0.39572379511014677,
+              "tau": 1,
+              "received": -1.1906413261850148,
+              "source_cost": 0.23812826523700298,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": null,
+              "observed_received": -1.1906413261850148,
+              "observed_source_cost": 0.23812826523700298
+            },
+            {
+              "id": "T:子>T:卯|view:T:卯",
+              "source": "T:子",
+              "target": "T:卯",
+              "type": "生",
+              "routes": [
+                {
+                  "kind": "yin",
+                  "gate": 0.75
+                }
+              ],
+              "owner": "T:卯",
+              "blocked": null,
+              "route": "yin",
+              "raw_gate": 0.75,
+              "gate": 0.75,
+              "source_strength": 7.372385590087144e-10,
+              "target_strength": 1.8177272728288485,
+              "tau": 1,
+              "received": 1.1058578385130718e-10,
+              "source_cost": 0,
+              "reference_reallocation": 0,
+              "special": null,
+              "local_observation": "T:卯",
+              "observed_received": 1.1058578385130718e-10,
+              "observed_source_cost": 5.529289192565359e-11
+            }
+          ],
+          "pending_action_conditions": []
+        }
+      ],
+      "relation_candidates": [],
+      "season_comparison": {
+        "selected_profile": "quarter-earth",
+        "comparison_profile": "four-seasons",
+        "rows": [
+          {
+            "id": "T:子",
+            "selected": 0.395724,
+            "comparison": 2.988226,
+            "delta": 2.592502
+          }
+        ],
+        "interpretation": "同一对象与关系快照分别核算；差异不决定采用表，不平均、不计两票"
+      },
+      "limitation": "仅核已声明对象；未声明对象与专项条件未穷尽。pending是计算适配提示，不是成败裁决或新待办清单"
+    },
+    "quantity_basis": {
+      "schema": "liuren-quantity-strength-basis-v1",
+      "void_excluded_by_recomputation": true,
+      "scope": "single_palace",
+      "baseline_reference": 5,
+      "calibration": "research-unvalidated",
+      "rows": [
+        {
+          "id": "T:子",
+          "seasonal": "死",
+          "with_void": 0.395724,
+          "without_void": 0.395724,
+          "void_self": false,
+          "void_ground": false,
+          "void_carrier": false,
+          "body_base": 1.21,
+          "tomb_access": 1,
+          "local_net": -0.8142762056960049,
+          "outward_restriction": 0.32519040681726674
+        }
+      ],
+      "limitations": "不含空亡视图将本次图中各源与目标的数值空减一起移除，重算原关系；保留事实空位、墓与生克。5是模型基准，非已校准的数量中气；不裁成败，不映射量级。"
+    }
+  }
+}

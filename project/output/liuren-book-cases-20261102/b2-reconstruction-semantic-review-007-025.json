@@ -1,0 +1,94 @@
+{
+  "schema": "liuren-reconstruction-semantic-review-v1",
+  "reviews": [
+    {
+      "case_id": "BK26-MODERN-025",
+      "result_id": "RC26-MODERN-025-ALT",
+      "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-025-ALT.json",
+      "result_sha256": "344c251fe11cf9e270047bce3defaf05fb771716afc23e81e866a32dbe00adff",
+      "semantic_review_state": "source_checked",
+      "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-025-alt.json",
+      "request_sha256": "c197e8de434e1e08a7fdfc1b8e277cea388cc045f5eb603806633f2502332aee",
+      "excluded_setting_label_paths": [
+        "nobleman.rule",
+        "nobleman.requested_zhouye",
+        "nobleman.actual_zhouye"
+      ],
+      "equivalent_candidate_groups": [
+        {
+          "candidate_ids": [
+            "RC26-MODERN-025-ALT-C01",
+            "RC26-MODERN-025-ALT-C02",
+            "RC26-MODERN-025-ALT-C07",
+            "RC26-MODERN-025-ALT-C08"
+          ]
+        }
+      ],
+      "review_scope": "输入摘取、原载结构关系与完整facts及派生身份；不是预测准确性/原作者设置认定",
+      "note": "原3622甲辰乙亥壬辰丁未，3665明示另用卯将；全facts核子申辰、干上未太阴且午未空、阴神卯朱雀制未土及朱雀落地未。玄武申生壬水、辰为壬墓符合原关系。四组仅贵人规则/昼夜标签不同，不能确认作者设置。找回时刻/位置未参与筛选。",
+      "selected_candidate_id": null,
+      "outcome_feedback_used_for_selection": false,
+      "original_image_recovered": false,
+      "independent_prediction_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-007",
+      "result_id": "RC26-MODERN-007-CLOCK",
+      "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-007-CLOCK.json",
+      "result_sha256": "cd7a5d2034afde76522f84bd0e153dc317efd0a42906ef5f0b1b5a759a6554fb",
+      "semantic_review_state": "source_checked",
+      "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-007-clock.json",
+      "request_sha256": "76806bbcce387716a8300761d1d8c2468e30ee4a2156f382740f270ba5bf21cb",
+      "excluded_setting_label_paths": [
+        "nobleman.rule",
+        "nobleman.requested_zhouye",
+        "nobleman.actual_zhouye"
+      ],
+      "equivalent_candidate_groups": [],
+      "review_scope": "输入摘取、原载结构关系与完整facts及派生身份；不是预测准确性/原作者设置认定",
+      "note": "原2037钟表16:16按申时，2039乙酉时柱与之冲突。8组均子寅辰，干上戌非酉，课体不含八专，未满足原2045八专/羊刃结构约束。仅确认该输入候选完整归档与冲突，不选其为作者盘。",
+      "selected_candidate_id": null,
+      "outcome_feedback_used_for_selection": false,
+      "original_image_recovered": false,
+      "independent_prediction_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-007",
+      "result_id": "RC26-MODERN-007-PILLARS",
+      "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-007-PILLARS.json",
+      "result_sha256": "49137f6963bccc75c0fabf6fd277970207e9fac37fdee2039380c2440ffe38dd",
+      "semantic_review_state": "source_checked",
+      "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-007-pillars.json",
+      "request_sha256": "fb1323506872368d6291ccb6003d0e3dbb15f6d7491dc34fd9fbebb2636a0314",
+      "excluded_setting_label_paths": [
+        "nobleman.rule",
+        "nobleman.requested_zhouye",
+        "nobleman.actual_zhouye"
+      ],
+      "equivalent_candidate_groups": [
+        {
+          "candidate_ids": [
+            "RC26-MODERN-007-PILLARS-C01",
+            "RC26-MODERN-007-PILLARS-C02",
+            "RC26-MODERN-007-PILLARS-C05",
+            "RC26-MODERN-007-PILLARS-C06"
+          ]
+        },
+        {
+          "candidate_ids": [
+            "RC26-MODERN-007-PILLARS-C03",
+            "RC26-MODERN-007-PILLARS-C04",
+            "RC26-MODERN-007-PILLARS-C07",
+            "RC26-MODERN-007-PILLARS-C08"
+          ]
+        }
+      ],
+      "review_scope": "输入摘取、原载结构关系与完整facts及派生身份；不是预测准确性/原作者设置认定",
+      "note": "原2039乙酉时柱取酉，戌将；8组亥酉酉、干上酉八专符合2045。两组天将结构不同，昼贵第一组初亥太阴中末酉太常，夜贵第二组初亥太常中末酉太阴。后注太常闭口发用与旬尾戌/初亥的关系仍有张力，未依结果选择贵人/昼夜，也未用该句暗改三传。",
+      "selected_candidate_id": null,
+      "outcome_feedback_used_for_selection": false,
+      "original_image_recovered": false,
+      "independent_prediction_validation_count": 0
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema": "staged-chart-batch-v1",
+  "run_input_sha256": "b1baff55655501cde8b96775934be3590a48bc3e24b44672d4174feff5fb0366",
+  "source_directory": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\初级案例资料\\anli001",
+  "engine_root": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流",
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    }
+  },
+  "total": 32,
+  "analysis_usable": 28,
+  "counts": {
+    "generated_under_recorded_assumptions": 28,
+    "needs_resolution": 4
+  },
+  "files": [
+    {
+      "case_id": "raw-anli001-0001",
+      "file": "raw-anli001-0001.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0002",
+      "file": "raw-anli001-0002.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0003",
+      "file": "raw-anli001-0003.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0004",
+      "file": "raw-anli001-0004.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0005",
+      "file": "raw-anli001-0005.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli001-0006",
+      "file": "raw-anli001-0006.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0007",
+      "file": "raw-anli001-0007.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0008",
+      "file": "raw-anli001-0008.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0009",
+      "file": "raw-anli001-0009.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0010",
+      "file": "raw-anli001-0010.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0011",
+      "file": "raw-anli001-0011.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli001-0012",
+      "file": "raw-anli001-0012.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0013",
+      "file": "raw-anli001-0013.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0014",
+      "file": "raw-anli001-0014.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0015",
+      "file": "raw-anli001-0015.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0016",
+      "file": "raw-anli001-0016.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0017",
+      "file": "raw-anli001-0017.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0018",
+      "file": "raw-anli001-0018.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0019",
+      "file": "raw-anli001-0019.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0020",
+      "file": "raw-anli001-0020.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0021",
+      "file": "raw-anli001-0021.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli001-0022",
+      "file": "raw-anli001-0022.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0023",
+      "file": "raw-anli001-0023.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0024",
+      "file": "raw-anli001-0024.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0025",
+      "file": "raw-anli001-0025.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0026",
+      "file": "raw-anli001-0026.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0027",
+      "file": "raw-anli001-0027.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0028",
+      "file": "raw-anli001-0028.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0029",
+      "file": "raw-anli001-0029.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0030",
+      "file": "raw-anli001-0030.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-anli001-0031",
+      "file": "raw-anli001-0031.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-anli001-0032",
+      "file": "raw-anli001-0032.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    }
+  ]
+}

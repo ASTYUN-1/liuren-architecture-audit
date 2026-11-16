@@ -1,0 +1,50 @@
+{
+  "active": true,
+  "release": "20261023-modular-03",
+  "package": "hash-verified",
+  "previousRelease": "unchanged",
+  "substantiveModules": "byte-identical",
+  "archivedSources": "byte-identical",
+  "bazi": "byte-identical",
+  "routingConsistent": true,
+  "discoveryVerified": true,
+  "predictionTested": false,
+  "entries": [
+    {
+      "name": "daliuren",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\daliuren\\SKILL.md",
+      "contentHash": "e4bfc7110c4bf4851e574012a949535867f1b0fca537c9c4f89614982a1b364d"
+    },
+    {
+      "name": "liuren-cases",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-cases\\SKILL.md",
+      "contentHash": "32d72ece8a9a53477b3dd7423a123114e418c56a8896a2fefece6c6f45b6bf0e"
+    },
+    {
+      "name": "liuren-extract",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-extract\\SKILL.md",
+      "contentHash": "e5d1d42e635b0a7728b9c0f2bffb33f78158d978d8cbfc0a9aa7ddc18d0444ab"
+    },
+    {
+      "name": "liuren-tuiming",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-tuiming\\SKILL.md",
+      "contentHash": "4afbc8b1d29cb3179aafa7427a10432c7ca44a1932e1c7adf893eea03a880757"
+    },
+    {
+      "name": "bazi",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\bazi\\bazi\\SKILL.md",
+      "contentHash": "c389732798642ed10516a508304a884fee6b9d3bc4a15dcd442aff7f4be8eb5e"
+    },
+    {
+      "name": "bazi-extract",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\bazi\\bazi-extract\\SKILL.md",
+      "contentHash": "268f9ce517bb6c81f4ccd37c020ad6ba76e780043663893d1f6eb0359ddc96c6"
+    },
+    {
+      "name": "bazi-yingqi",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\bazi\\bazi-yingqi\\SKILL.md",
+      "contentHash": "13b72752029b166e050d8f481d3f598c0076259223a32cc9aae83209d348fb17"
+    }
+  ],
+  "retiredAliasesAbsent": true
+}

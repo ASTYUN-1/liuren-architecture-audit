@@ -1,0 +1,49 @@
+{
+  "release": "20261027-quantity-02",
+  "status": "active",
+  "scope": "local-opencode",
+  "methodVersion": "c92f8987e41b01824c2b64e73eeb7c5dc8afb26cfded19c7818d2ab5f750c24e",
+  "runtime": "runtime/liuren/20261027-quantity-02",
+  "backup": "output/本机应期取数激活-20261029/backup",
+  "previousRelease": "20261023-modular-03",
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "files": {
+    "bazi/bazi/refs/bazi-paipan.md": "661bd1e25f33adebf50643c6620ae0784fcee4c48186ae4f8608297da79ae034",
+    "bazi/bazi/SKILL.md": "d90cfd3736452efb37f49c1bcdd0c77f7101a17b2596d986af10a002b4420497",
+    "bazi/bazi-extract/SKILL.md": "dc14b1f339a33324c71fdab5e09f3ab8d23ea3255b08fbdcb208ff371bd2fd3f",
+    "bazi/bazi-yingqi/SKILL.md": "6dbff68dd8bfeb53a319967213b038715768a32933fab3abe2c0d4fb415d940b",
+    "liuren/daliuren/refs/daliuren-paipan.md": "e61eb4a57fcd681873b532149e6a3154f7c16060dd8fc37a86a78a81b3db29fb",
+    "liuren/daliuren/refs/judgment-workflow.md": "35b1d5491c7233551051c64de40f3a7b08511968a3fb16edeb8088547f338546",
+    "liuren/daliuren/refs/liqi-analysis.md": "fa5105016ac0d4f81d9069b213327e11c8007e88c6e5543fafd93f58c355f115",
+    "liuren/daliuren/refs/liqi-sources.md": "dd5071e985cf10b385ec43e04f1fb6ebe51d9110bc7be9450df6172f44869b84",
+    "liuren/daliuren/refs/rule-semantics.md": "555e0ad261a61a0c75a50b4966676c6f37f516c02c2373f4f2bcf6d70ebcce5d",
+    "liuren/daliuren/refs/shensha-use.md": "5d21a716f811d2bda423c6dde05bdcee365b031cbbbf66e5f35390850ff592c3",
+    "liuren/daliuren/SKILL.md": "0ce9cf0556bd6eff202231bccd4dad5b968daed1cf5ef922ef8780adf8e77adb",
+    "liuren/liuren-cases/refs/case-retrieval-v2.md": "a7757c72d4bc021f8f41e1abac724f7f28bd4ea2beb148d2487ae8be8293f79c",
+    "liuren/liuren-cases/refs/experience-retrieval-v2.md": "e2d2883720fe70e0028436d7ecbc40576775c182abee01667027b6c96110f445",
+    "liuren/liuren-cases/SKILL.md": "12d83d7b72bb95994e4fb41d98e110ffd2c2f3923104a63b584c3e733396931c",
+    "liuren/liuren-extract/SKILL.md": "aaf4370544ee4bcfca4f6287bce45e336359ebc5b88fb1bf31500c228784e89f",
+    "liuren/liuren-tuiming/SKILL.md": "34613181265a28ba143c8bec44fbcc050a9cf095fe42ba4815c940745776026e"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract",
+    "liuren-tuiming",
+    "bazi",
+    "bazi-extract",
+    "bazi-yingqi"
+  ],
+  "groups": [
+    "liuren",
+    "bazi"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "ec9dfea449e16ffb474442f01b06c243b7132962de012974f1a148f25a888449",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  }
+}

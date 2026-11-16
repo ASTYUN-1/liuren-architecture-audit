@@ -1,0 +1,128 @@
+{
+  "release": "liuren-deterministic-methods-35",
+  "quantity": [
+    {
+      "id": "CY501-use-ground",
+      "title": "粹言501：发用与地盘、五气分支",
+      "scope": "实际初传；月令五气按明确条件表。相乘2，休相加，死囚相加折半，旺列上下相乘后10倍及100倍候选。不同段落不混用。",
+      "requires": [
+        "target",
+        "season_profile",
+        "basis"
+      ],
+      "precision": "旺为离散量级候选；其余为算式值，现实量级另定",
+      "source": {
+        "path": "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt",
+        "line_start": 500,
+        "line_end": 501,
+        "line_mode": "lf",
+        "sha256": "af0b11cc713bf323d7534cce8fdde912d3f93ddb78531b47b1bcb7b136c063f1"
+      }
+    },
+    {
+      "id": "WY67-shenjiang-base",
+      "title": "五要67：神将相乘基础数",
+      "scope": "AI选定天盘类神，支数乘本段天将数；不强制入传。仅基础数，本段后续倍率条件不完整，不自动实施。",
+      "requires": [
+        "target",
+        "basis"
+      ],
+      "precision": "base-only",
+      "source": {
+        "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+        "line_start": 66,
+        "line_end": 67,
+        "line_mode": "lf",
+        "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+      }
+    },
+    {
+      "id": "WY244-month",
+      "title": "五要244：月建倍、月破半分支",
+      "scope": "实际初传。AI按原法选branch/sheng/cheng表；月建倍，月破半，其他不增减；不并入地盘天将。",
+      "requires": [
+        "target",
+        "number_table",
+        "basis"
+      ],
+      "precision": "本分支算式值，量级另定",
+      "source": {
+        "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+        "line_start": 243,
+        "line_end": 244,
+        "line_mode": "lf",
+        "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+      }
+    },
+    {
+      "id": "WY242-generated-base",
+      "title": "五要242：旺相成数、休囚生数基础步",
+      "scope": "选定传用神；旺相取五行成数，其余取生数。仅基础步；连地盘的具体运算、胎产日期推演未编译。",
+      "requires": [
+        "target",
+        "season_profile",
+        "basis"
+      ],
+      "precision": "base-only",
+      "source": {
+        "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+        "line_start": 241,
+        "line_end": 242,
+        "line_mode": "lf",
+        "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+      }
+    }
+  ],
+  "imagery": [
+    {
+      "id": "MG104-material",
+      "title": "鬼撮脚103—104：五气材质取象",
+      "scope": "射覆本法实际发用；按月令五气匹配明确物态，不据此确定实际物品。",
+      "requires": [
+        "target",
+        "season_profile",
+        "basis"
+      ],
+      "source": {
+        "path": "书籍库/经典古籍/佚名/六壬苗公射覆鬼撮脚-utf8.txt",
+        "line_start": 102,
+        "line_end": 104,
+        "line_mode": "lf",
+        "sha256": "fae8c3c2cfaed5c4b934441cddf94f99cc3a38e160f34b0db79da86e900948e7"
+      }
+    },
+    {
+      "id": "DF449-growth",
+      "title": "东方朔449：十二气阶段物态",
+      "scope": "由AI明确本段专项适用及所看临处ground/yin；仅匹配状态象，不调用综合分数替换十二气。",
+      "requires": [
+        "target",
+        "reference",
+        "basis"
+      ],
+      "source": {
+        "path": "书籍库/排盘引擎内置资料/六壬东方朔射覆.txt",
+        "line_start": 449,
+        "line_end": 450,
+        "line_mode": "lf",
+        "sha256": "ab01d081a1794d702e705f1dabe01608603f26f3270162d48de37494b6f5ac23"
+      }
+    },
+    {
+      "id": "DF75-void",
+      "title": "东方朔75：传中空虚取象",
+      "scope": "仅本支旬空并入传时匹配空虚候选；坐空事实另列，不自动等同。无力量折损或出行裁决。",
+      "requires": [
+        "target",
+        "basis"
+      ],
+      "source": {
+        "path": "书籍库/排盘引擎内置资料/六壬东方朔射覆.txt",
+        "line_start": 74,
+        "line_end": 76,
+        "line_mode": "lf",
+        "sha256": "ab01d081a1794d702e705f1dabe01608603f26f3270162d48de37494b6f5ac23"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-02T02:45:48.953419+00:00",
+  "url": "http://127.0.0.1:3212/admin#tasks",
+  "environment": "isolated database and synthetic operator; no paid model",
+  "browser": "Codex IAB / cua_repl",
+  "viewports": [
+    {
+      "width": 903,
+      "height": 706
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": {
+    "pageIdentity": true,
+    "meaningfulContent": true,
+    "noFrameworkOverlay": true,
+    "consoleErrorsOrWarnings": [],
+    "separateUnreadModuleBadges": true,
+    "readingTasksLeavesCertificationUnread": true,
+    "usageFilter": true,
+    "modalDesktopAndMobile": true,
+    "saveResolvesPendingReview": true,
+    "historicalMissingTimingExplicit": true,
+    "timingDetails": true,
+    "checkboxInlineLabel": true
+  },
+  "screenshotsRoot": "C:/Users/QLMa_/AppData/Local/Temp/wenheng-workflow-qa-20261102",
+  "screenshots": [
+    "module-badges.png",
+    "usage-review-desktop.png",
+    "usage-review-mobile.png",
+    "usage-review-saved.png",
+    "usage-filter-final.png"
+  ],
+  "paidApiTests": 0
+}

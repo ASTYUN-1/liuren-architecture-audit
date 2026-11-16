@@ -1,0 +1,39 @@
+✔ v2 accepts a focused packet and result (2.1769ms)
+✔ no conflict is legitimate and does not require fabricated opposition (0.3984ms)
+✔ packet rejects tendency/answer field initial_verdict (0.3655ms)
+✔ packet rejects tendency/answer field preferred (0.1004ms)
+✔ packet rejects tendency/answer field ranking (0.0872ms)
+✔ packet rejects tendency/answer field weights (0.0808ms)
+✔ packet rejects tendency/answer field known_result (0.0637ms)
+✔ packet rejects tendency/answer field previous_judgment (0.0766ms)
+✔ missing focus_issues cannot silently use the v1 interface (0.1132ms)
+✔ old schemas identify the exact schema field instead of a generic identity error (0.2049ms)
+✔ date-prefixed and UUID request IDs survive input, output and normalization unchanged (1.2977ms)
+✔ unsafe request IDs name the single field to repair without dropping analysis material (0.3457ms)
+✔ expanded materials above the old 100k limit are retained and oversize errors include exact counts (1.8246ms)
+✔ focus issue rejects unknown question_ids (0.7131ms)
+✔ focus issue rejects unknown entity_ids (0.1322ms)
+✔ focus issue rejects unknown observation_ids (0.1115ms)
+✔ focus issue needs a question and globally unique ID (0.2291ms)
+✔ reserved book E identifiers are renamed in every structured focus reference (0.707ms)
+✔ adjudicator may add a chart entity outside the main focus issues (0.2579ms)
+✔ new entities must be declared and use J IDs (0.2368ms)
+✔ mapping change branch must be declared (0.221ms)
+✔ mapping change referent must be declared (0.2033ms)
+✔ mapping change position must be declared (0.1832ms)
+✔ completed result cannot omit an original entity (0.126ms)
+✔ scope review must cover all questions exactly once (0.1222ms)
+✔ every focus issue must have exactly one response (0.3179ms)
+✔ resolved issue needs an existing checked relation (0.2455ms)
+✔ unresolved issue needs a concrete limit but does not force a lower verdict (0.2205ms)
+✔ needs_input must specify missing material and cannot be completed with missing inputs (0.7571ms)
+✔ decisive and source references are checked (0.2683ms)
+✔ native task wrapper is accepted without changing the verdict (0.282ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 107.7432

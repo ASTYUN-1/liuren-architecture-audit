@@ -1,0 +1,32 @@
+[
+  {
+    "path": "runtime/liuren/20261111-bifa-use-45-r2/loader-contract.json",
+    "export_matches_original": true,
+    "original_sha256": "3afbcbaa7a0fc18350b7bf5cb036549eb08d2990dd266c5efbb11c9645d5a587",
+    "classification": "pre-existing historical manifest mismatch; preserved unchanged"
+  },
+  {
+    "path": "runtime/liuren/20261111-bifa-use-45-r2/reading-route.json",
+    "export_matches_original": true,
+    "original_sha256": "42f1ce6f0d05c5ab78c2ceb4c5d8924e917c151967b9cf82459b402296c22452",
+    "classification": "pre-existing historical manifest mismatch; preserved unchanged"
+  },
+  {
+    "path": "runtime/liuren/20261111-bifa-use-45-r2/references/shensha-authority-evidence.json",
+    "export_matches_original": true,
+    "original_sha256": "898dd6c1caa7dbaea7a898b805c09a9a9c1f658f8ddca1370eafaf1fab259996",
+    "classification": "pre-existing historical manifest mismatch; preserved unchanged"
+  },
+  {
+    "path": "runtime/liuren/20261111-bifa-use-45-r2/references/shensha-policy.json",
+    "export_matches_original": true,
+    "original_sha256": "0e7705b3b39bec4039c17dd7f63e2f95070302fe9f4b4804d981500c8d05e8df",
+    "classification": "pre-existing historical manifest mismatch; preserved unchanged"
+  },
+  {
+    "path": "runtime/liuren/20261111-bifa-use-45-r2/references/confirmed-policy-register.json",
+    "export_matches_original": true,
+    "original_sha256": "c7e20147ddc4645a6f084de5d42c88e786368091f70191eb6cedcdb05a788017",
+    "classification": "pre-existing historical manifest mismatch; preserved unchanged"
+  }
+]

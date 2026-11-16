@@ -1,0 +1,771 @@
+{
+  "schema": "bazi-final-coverage-after-retirement-v1",
+  "counts": {
+    "source_material_files": 10402,
+    "project_source_files": 9909,
+    "external_source_files": 493,
+    "planned_pure_source_retirements": 9751,
+    "project_copy_retain": 158,
+    "zip_bytes": 203990432,
+    "uncompressed_bytes": 795979715
+  },
+  "primary_groups": {
+    ".opencode/skills/bazi": {
+      "files": 4,
+      "bytes": 16729,
+      "actions": {
+        "move_after_validation": 4
+      }
+    },
+    "bazi-workflow": {
+      "files": 7177,
+      "bytes": 279792224,
+      "actions": {
+        "move_after_validation": 7177
+      }
+    },
+    "knowledge/bazi-v2": {
+      "files": 121,
+      "bytes": 27166073,
+      "actions": {
+        "move_after_validation": 121
+      }
+    },
+    "runtime/bazi": {
+      "files": 775,
+      "bytes": 185283822,
+      "actions": {
+        "move_after_validation": 775
+      }
+    },
+    "书籍库/八字书籍": {
+      "files": 146,
+      "bytes": 37147646,
+      "actions": {
+        "move_after_validation": 146
+      }
+    },
+    "八字经验库": {
+      "files": 23,
+      "bytes": 370876,
+      "actions": {
+        "move_after_validation": 23
+      }
+    },
+    "排盘存档/八字": {
+      "files": 98,
+      "bytes": 5242182,
+      "actions": {
+        "move_after_validation": 98
+      }
+    },
+    "排盘工具魔改/bazi-paipan": {
+      "files": 98,
+      "bytes": 2081605,
+      "actions": {
+        "move_after_validation": 98
+      }
+    }
+  },
+  "external_groups": {
+    "external/仓颉蒸馏/八字体系重整-20261024": {
+      "files": 486,
+      "bytes": 52932151,
+      "actions": {
+        "copy_retain_external": 486
+      }
+    },
+    "external/仓颉蒸馏/八字蒸馏输出": {
+      "files": 7,
+      "bytes": 101659,
+      "actions": {
+        "copy_retain_external": 7
+      }
+    }
+  },
+  "shared_and_mixed_policy": "158 copies included and originals retained; mixed product source paths web/mobile/ui-rebuild/website-skills not moved or edited; frozen Liuren history Bazi members copy only; historical mixed original ZIP retained unchanged after F2 relocation. Docs 17 original files handed to F2 after archive validation.",
+  "mixed_zip_detail": {
+    "mixed_original_zip": "归档/原始安装包/六壬八字体系包-20260916-全量整合版.zip",
+    "total_entries": 710,
+    "bazi_path_marker_entries": 159,
+    "bazi_path_marker_uncompressed_bytes": 5748642,
+    "handling": "entire original mixed ZIP copied byte-for-byte inside Bazi archive; retained original mixed ZIP unchanged under historical folder; no partial rewrite, no claiming keyword scan exhaustive semantic partition",
+    "sample_paths": [
+      ".opencode/skills/bazi/refs/bazi-paipan.md",
+      ".opencode/skills/bazi/SKILL.md",
+      ".opencode/skills/bazi-extract/SKILL.md",
+      ".opencode/skills/bazi-yingqi/SKILL.md",
+      "八字经验库/_metadata_schema.md",
+      "八字经验库/古籍-滴天髓-断语六亲.md",
+      "八字经验库/古籍-滴天髓-格局用神.md",
+      "八字经验库/古籍-滴天髓-十干地支.md",
+      "八字经验库/古籍-命理探源-袁按精华.md",
+      "八字经验库/古籍-三命通会-格论补充.md",
+      "八字经验库/古籍-三命通会-口诀.md",
+      "八字经验库/古籍-三命通会-六亲女命.md"
+    ]
+  },
+  "restricted_dependency_detail": {
+    "previous_sandbox_denials": 6,
+    "subsequently_read_with_narrow_approval": true,
+    "original_files_archived": 92,
+    "original_bytes_archived": 753625,
+    "remaining_read_gaps": 0,
+    "acl_modified": false
+  },
+  "hardlink_original_zip": {
+    "project_path": "八字系列-核心包-20260806(1).zip",
+    "is_reparse": false,
+    "is_ntfs_hardlink": true,
+    "source_bytes": 1724150,
+    "sha256": "90cb83c439b00aa4ab09aa43fc211f12647b331d3406e09ed125d4766bdf270e",
+    "source_zip_entries": 131,
+    "other_hardlink_name": "External WeChat message file directory retained; not modified",
+    "archive_contains_actual_bytes": true
+  },
+  "windows_validation_path": "归档/八字专项/校验结果.json",
+  "windows_test_extraction_cleanup": "Both generated Windows extraction trees and restricted dependency staging ZIP removed after hash proof; no unpacked Bazi data copy retained by F3.",
+  "retirement_status": "complete",
+  "notes": [
+    "No runtime freeze contents edited; archived original bytes are recoverable through manifest original_path.",
+    "Original absolute external script paths intentionally preserved, restore README instructs mapping to packaged external data.",
+    "Twenty dedicated-tree pycache files additionally included so no original file need be deleted outside archive proof."
+  ],
+  "final_retirement_receipt": "output/liuren-consolidation-20261102/bazi/final-retirement-receipt.json",
+  "retirement_results": {
+    "main_manifest_files_removed": 9751,
+    "main_manifest_bytes_removed": 717985736,
+    "cache_supplement_files_removed": 6,
+    "remaining_main_manifest_pure_paths": 0,
+    "retained_project_files_reverified": 158,
+    "retained_external_files_reverified": 493,
+    "docs_relocated_by_F2": 17,
+    "acl_modified": false,
+    "all_generated_extraction_trees_removed": true,
+    "restricted_staging_zip_removed": true
+  },
+  "supplement": {
+    "schema": "bazi-cache-supplement-retirement-v1",
+    "passed": true,
+    "windows_actual_extraction_files": 8,
+    "material_files_verified_and_removed": 6,
+    "material_bytes": 108724,
+    "zip_sha256": "a77ccbbf86b35159b27a4d399d421c51fef58f19426e30e67ad51b8325aa5c2f",
+    "source_paths_absent": true,
+    "test_copy_removed": true,
+    "main_archive_unchanged": true
+  },
+  "filename_residual_scan": {
+    "excluded_top_level": [
+      ".git",
+      "mobile",
+      "node_modules",
+      "ui-rebuild",
+      "web",
+      "website-skills",
+      "归档"
+    ],
+    "excluded_audit_output": "output/liuren-consolidation-20261102",
+    "residuals": [
+      {
+        "path": "docs/海外大六壬八字网站_AI后端与收款方案调研.md",
+        "category": "development_operations_or_shared_liuren_reference"
+      },
+      {
+        "path": "docs/经验库梳理/20261019/sources/六壬推命增补方案-八字紫微框架嫁接-d40cf5d4.md",
+        "category": "development_operations_or_shared_liuren_reference"
+      },
+      {
+        "path": "output/imagegen/20261025-pengyouquan/bazi-prompt.txt",
+        "category": "development_operations_or_shared_liuren_reference"
+      },
+      {
+        "path": "output/imagegen/20261025-pengyouquan/bazi.png",
+        "category": "development_operations_or_shared_liuren_reference"
+      },
+      {
+        "path": "output/judgment-workflow-upgrade-20261019/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/judgment-workflow-upgrade-20261019/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/judgment-workflow-upgrade-20261019/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/judgment-workflow-upgrade-20261019/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v2/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v2/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v2/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v2/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v3/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v3/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v3/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v3/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v4/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v4/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v4/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-release-20261017/resources-v4/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-upgrade-20261019/resources/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-upgrade-20261019/resources/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-upgrade-20261019/resources/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-upgrade-20261019/resources/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/knowledge-upgrade-20261019/resources/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/liqi-skill-upgrade-20261022/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/liqi-skill-upgrade-20261022/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/liqi-skill-upgrade-20261022/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/liqi-skill-upgrade-20261022/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/《命理探源》.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/三命通会.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/原注滴天髓.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/原注滴天髓.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/古籍-三命通会-精简版.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/古籍-命理探源-精简版.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/子平真诠评注(1).txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/子平真诠评注.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/渊海子平.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/渊海子平.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/神峰通考.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/神峰通考.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/穷通宝鉴.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/书籍库/八字书籍/穷通宝鉴.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018/workspace/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/《命理探源》.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/三命通会.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/原注滴天髓.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/原注滴天髓.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/古籍-三命通会-精简版.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/古籍-命理探源-精简版.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/子平真诠评注(1).txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/子平真诠评注.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/渊海子平.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/渊海子平.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/神峰通考.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/神峰通考.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/穷通宝鉴.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/书籍库/八字书籍/穷通宝鉴.txt",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/opencode-case-batch-20261018-v1/workspace/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/rule-scope-upgrade-20261022/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/rule-scope-upgrade-20261022/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/rule-scope-upgrade-20261022/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/rule-scope-upgrade-20261022/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-focus-upgrade-20261022/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-focus-upgrade-20261022/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-focus-upgrade-20261022/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-focus-upgrade-20261022/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-field-mapping-20261023/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-field-mapping-20261023/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-field-mapping-20261023/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-field-mapping-20261023/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-priority-20261023/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-priority-20261023/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-priority-20261023/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-meaning-priority-20261023/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-names-engine-audit-20261023/backup/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-names-engine-audit-20261023/backup/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-names-engine-audit-20261023/backup/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/shensha-names-engine-audit-20261023/backup/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-original-restore-20261018-182013/previous-skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-original-restore-20261018-182013/previous-skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-original-restore-20261018-182013/previous-skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-original-restore-20261018-182013/previous-skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-rollback-20261018-191759/staged-skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-rollback-20261018-191759/staged-skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-rollback-20261018-191759/staged-skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/skill-rollback-20261018-191759/staged-skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/workflow-optimization-20261102/resource-baseline/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/workflow-optimization-20261102/resource-candidate/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/workflow-optimization-20261102/resource-candidate-v2/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/backup/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/backup/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/backup/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/backup/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/retired/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/retired/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/retired/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/retired/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/staged/skills/bazi/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/staged/skills/bazi/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/staged/skills/bazi/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-02/staged/skills/bazi/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/backup/.opencode/skills/bazi/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/backup/.opencode/skills/bazi/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/backup/.opencode/skills/bazi/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/backup/.opencode/skills/bazi/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/staged/skills/bazi/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/staged/skills/bazi/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/staged/skills/bazi/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/六壬技能结构重整-20261023/20261023-modular-03/staged/skills/bazi/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-enhanced/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-enhanced/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-enhanced/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-enhanced/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-enhanced/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-legacy/.opencode/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-legacy/.opencode/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-legacy/.opencode/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-legacy/.opencode/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-01/website-legacy/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-active-01/backup/skills/bazi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-active-01/backup/skills/bazi/refs/bazi-paipan.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-active-01/backup/skills/bazi-extract/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/壬归融合实施-20261023/20261023-local-active-01/backup/skills/bazi-yingqi/SKILL.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "output/网站六壬新版上线-20261023/resources/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "historical_frozen_or_research_text"
+      },
+      {
+        "path": "tmp/website-output-verify/resources/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "development_operations_or_shared_liuren_reference"
+      },
+      {
+        "path": "经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+        "category": "development_operations_or_shared_liuren_reference"
+      }
+    ],
+    "enumeration_denied_paths": [],
+    "scope_limit": "Only names, sizes, types and path attributes were inspected. No private or package file body was inspected. Three pnpm project-link paths resolve to the retained project web/test-results; the shared ancestor link targets project web, not outside. The result establishes bounded filename coverage and scope exceptions; it does not claim a semantic audit of every project file.",
+    "initially_denied_paths": [
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.pnpm-store\\v11\\projects\\e613f695dcb10680aed6bcf18394d30d\\test-results\\edge-transfer",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.pnpm-store\\v11\\projects\\e613f695dcb10680aed6bcf18394d30d\\test-results\\owner-private",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.pnpm-store\\v11\\projects\\e613f695dcb10680aed6bcf18394d30d\\test-results\\recovery",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\resource-monitor-20261025\\.private",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\bin",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\colorama",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\colorama-0.4.6.dist-info",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\qrcode",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\qrcode-8.2.dist-info",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\zxingcpp",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\site-qr-20261024\\runtime\\zxing_cpp-3.1.1.dist-info",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\壬归融合实施-20261023\\20261023-local-01\\validation-deps\\pyyaml-6.0.3.dist-info",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\壬归融合实施-20261023\\20261023-local-01\\validation-deps\\yaml",
+      "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\壬归融合实施-20261023\\20261023-local-01\\validation-deps\\_yaml"
+    ],
+    "bounded_metadata_followup": {
+      "report": "output/liuren-consolidation-20261102/bazi/bounded-metadata-audit.json",
+      "sha256": "70c2fc195459d54dca5b52a718b823be2d5bec820ff4a70f3d416f0ea9e9fad0",
+      "directories": 14,
+      "all_resolved_inside_project": true,
+      "directory_or_child_reparse_count": 0,
+      "ancestor_reparse_count": 1,
+      "directories_reached_via_project_internal_ancestor_link": 3,
+      "ancestor_link_target": "web",
+      "enumeration_errors": 0,
+      "bounded_scan_truncated": false,
+      "metadata_entries": 194,
+      "files": 174,
+      "bazi_filename_candidates": 0,
+      "classification_counts": {
+        "out_of_scope_mixed_web_private_test_outputs": 3,
+        "out_of_scope_private_operations": 1,
+        "reproducible_non_bazi_dependencies": 10
+      },
+      "new_pure_bazi_candidates_requiring_archive": 0,
+      "content_read": false,
+      "acl_modified": false,
+      "scope_limit": "Only names, sizes, types and path attributes were inspected. No private or package file body was inspected. Three pnpm project-link paths resolve to the retained project web/test-results; the shared ancestor link targets project web, not outside. The result establishes bounded filename coverage and scope exceptions; it does not claim a semantic audit of every project file."
+    }
+  },
+  "acceptance_scope": "9751 identified main-manifest source files plus 6 cache-supplement files retired after byte verification; retained originals reverified; fourteen prior enumeration denials resolved by bounded metadata-only audit. No claim of project-wide semantic content audit."
+}

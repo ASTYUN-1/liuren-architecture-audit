@@ -1,0 +1,1375 @@
+{
+  "exitCode": 0,
+  "requests": [
+    {
+      "path": "/v1/chat/completions",
+      "tools": [
+        {
+          "name": "liuren_adjudication_packet",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "packet": {
+                "type": "object",
+                "properties": {
+                  "schema": {
+                    "type": "string",
+                    "const": "liuren-adjudication-input-v2"
+                  },
+                  "request_id": {
+                    "description": "1..128 ASCII字母数字/_/-，首位字母或数字；日期开头和UUID均可，如20261106-liuren-01；不含路径分隔符",
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
+                  },
+                  "questions": {
+                    "minItems": 1,
+                    "maxItems": 12,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "subject": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "domain": {
+                          "description": "每个子问必填：本子问对应的分类占ID，疾病用illness，考试用exam；必须已读当前专项全文。四个疾病子问各填illness，不只填一次总分类。程序不推断人物角色",
+                          "type": "string",
+                          "enum": [
+                            "finance",
+                            "recruitment",
+                            "promotion-salary",
+                            "relationship",
+                            "interpersonal",
+                            "period-outlook",
+                            "long-period",
+                            "pregnancy",
+                            "exam",
+                            "illness",
+                            "lost-person-object",
+                            "classical-conflict",
+                            "home",
+                            "travel",
+                            "weather",
+                            "agriculture"
+                          ]
+                        },
+                        "actor_entity_id": {
+                          "description": "仅兼容旧交接，可省略；事件当事对象和干支取用由模型依原问及分类专法判断，程序不绑定",
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "stage": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "deadline": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "success_criteria": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "alternatives": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "tasks": {
+                          "description": "必填，只声明原问要求或判断该问必需的任务；给了占时不等于问应期",
+                          "minItems": 1,
+                          "maxItems": 3,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "outcome",
+                              "timing",
+                              "quantity"
+                            ]
+                          }
+                        },
+                        "task_basis": {
+                          "description": "每个task一条依据：原问明确要求填user_requested和逐字request_quote；必要附属任务填necessary及具体理由，不为完整性默认加应期/取数",
+                          "minItems": 1,
+                          "maxItems": 3,
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "task": {
+                                "type": "string",
+                                "enum": [
+                                  "outcome",
+                                  "timing",
+                                  "quantity"
+                                ]
+                              },
+                              "origin": {
+                                "type": "string",
+                                "enum": [
+                                  "user_requested",
+                                  "necessary"
+                                ]
+                              },
+                              "request_quote": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 16000,
+                                "pattern": "\\S"
+                              },
+                              "reason": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "required": [
+                              "task",
+                              "origin",
+                              "reason"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "text",
+                        "subject",
+                        "domain",
+                        "stage",
+                        "deadline",
+                        "success_criteria",
+                        "alternatives",
+                        "tasks",
+                        "task_basis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "chart": {
+                    "description": "优先用archive：原样填liuren_chart返回的archive.path和archive.sha256，程序直接读可靠盘，不手抄盘。无归档时才原样复制完整facts；不要重组或混入旺衰解释。两种形式只能选一种。",
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "archive": {
+                            "type": "object",
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "raw_sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "source",
+                          "archive"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "facts": {
+                            "type": "object",
+                            "properties": {
+                              "schema": {
+                                "description": "内层课盘schema，必须连同完整facts原样复制，不能只给外层schema",
+                                "type": "string",
+                                "const": "liuren-chart-facts-v1"
+                              },
+                              "pillars": {
+                                "minItems": 4,
+                                "maxItems": 4,
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "day_stem": {
+                                "type": "string"
+                              },
+                              "day_branch": {
+                                "type": "string"
+                              },
+                              "month_branch": {
+                                "type": "string"
+                              },
+                              "hour_branch": {
+                                "type": "string"
+                              },
+                              "month_general": {
+                                "type": "string"
+                              },
+                              "void_branches": {
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "heaven_earth": {
+                                "minItems": 12,
+                                "maxItems": 12,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "di": {
+                                      "type": "string"
+                                    },
+                                    "tian": {
+                                      "type": "string"
+                                    },
+                                    "tianjiang": {
+                                      "type": "string"
+                                    },
+                                    "shensha": {},
+                                    "nayin": {},
+                                    "xungan": {}
+                                  },
+                                  "required": [
+                                    "di",
+                                    "tian",
+                                    "tianjiang"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              },
+                              "lessons": {
+                                "minItems": 4,
+                                "maxItems": 4,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "index": {
+                                      "type": "integer",
+                                      "minimum": -9007199254740991,
+                                      "maximum": 9007199254740991
+                                    },
+                                    "tianpan": {
+                                      "type": "string"
+                                    },
+                                    "dizhi": {
+                                      "type": "string"
+                                    },
+                                    "tianjiang": {
+                                      "type": "string"
+                                    },
+                                    "name": {}
+                                  },
+                                  "required": [
+                                    "index",
+                                    "tianpan",
+                                    "dizhi",
+                                    "tianjiang"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              },
+                              "transmissions": {
+                                "minItems": 3,
+                                "maxItems": 3,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "index": {
+                                      "type": "integer",
+                                      "minimum": -9007199254740991,
+                                      "maximum": 9007199254740991
+                                    },
+                                    "diZhi": {
+                                      "type": "string"
+                                    },
+                                    "tianjiang": {
+                                      "type": "string"
+                                    },
+                                    "liuqin": {
+                                      "type": "string"
+                                    },
+                                    "name": {},
+                                    "tianGan": {},
+                                    "status": {},
+                                    "earth_position": {}
+                                  },
+                                  "required": [
+                                    "index",
+                                    "diZhi",
+                                    "tianjiang",
+                                    "liuqin"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              },
+                              "year_pillar": {},
+                              "month_pillar": {},
+                              "day_pillar": {},
+                              "hour_pillar": {},
+                              "xun": {},
+                              "event_datetime": {},
+                              "lunar": {},
+                              "transmission_sequence": {},
+                              "chart_types": {},
+                              "participants": {},
+                              "year_life_verified": {},
+                              "declared_life": {},
+                              "nobleman": {},
+                              "growth": {},
+                              "seasonal_strength": {}
+                            },
+                            "required": [
+                              "schema",
+                              "pillars",
+                              "day_stem",
+                              "day_branch",
+                              "month_branch",
+                              "hour_branch",
+                              "month_general",
+                              "void_branches",
+                              "heaven_earth",
+                              "lessons",
+                              "transmissions"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "source",
+                          "facts"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  },
+                  "facts": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "source": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1200,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "text",
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "entities": {
+                    "minItems": 1,
+                    "maxItems": 40,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "question_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "referent": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "branch": {
+                          "description": "仅单干支、纯支组合如未卯亥，或辛（寄宫戌）；其他说明放mapping_basis，日干不能改成寄宫支",
+                          "type": "string",
+                          "pattern": "^(?:[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678]|[\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]{1,12}|[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\uFF08(]\\u5BC4\\u5BAB[\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5][\\uFF09)])$"
+                        },
+                        "position": {
+                          "description": "省略或@program；由程序生成坐标",
+                          "type": "string"
+                        },
+                        "mapping_basis": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "question_ids",
+                        "referent",
+                        "branch",
+                        "mapping_basis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "observations": {
+                    "maxItems": 80,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "entity_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "five_qi",
+                            "twelve_states",
+                            "relation",
+                            "void",
+                            "shenjiang",
+                            "shensha",
+                            "structure",
+                            "movement",
+                            "special_method"
+                          ]
+                        },
+                        "statement": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "reference": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "source": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1200,
+                          "pattern": "\\S"
+                        },
+                        "verification": {
+                          "type": "string",
+                          "enum": [
+                            "method_interpretation",
+                            "unverified"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "entity_ids",
+                        "kind",
+                        "statement",
+                        "reference",
+                        "source",
+                        "verification"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "method_materials": {
+                    "description": "优先原样复制liuren_materials返回的handoff对象；也可复制liuren_compute(action=\"source\")返回的引用字段。source_path接受工作区相对路径或同一工作区内的绝对路径，程序统一为相对路径；仅允许当前runtime、书籍库/、books/和已登记应期资料，不接受旧runtime、案例/经验库或任意output。当前runtime方法给id/title/source_path和已知sha256，省略quote及行界可装完整原文；书籍必须给准确line_start/line_end/line_mode及已知sha256。缺引用时从已返回元数据取值，不猜路径/hash/行号。 可将每次method/book_search返回的handoff原样加入数组，同一id仅留一条；书段未完整返回时先补齐原段。应期取数由tasks选入参考索引，不强制裁决者读完整章。报错只改具体字段，不删其他材料。",
+                    "maxItems": 40,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "source_path": {
+                          "description": "优先原样复制liuren_materials返回的handoff对象；也可复制liuren_compute(action=\"source\")返回的引用字段。source_path接受工作区相对路径或同一工作区内的绝对路径，程序统一为相对路径；仅允许当前runtime、书籍库/、books/和已登记应期资料，不接受旧runtime、案例/经验库或任意output。当前runtime方法给id/title/source_path和已知sha256，省略quote及行界可装完整原文；书籍必须给准确line_start/line_end/line_mode及已知sha256。缺引用时从已返回元数据取值，不猜路径/hash/行号。",
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "quote": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 16000,
+                          "pattern": "\\S"
+                        },
+                        "line_start": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "line_end": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "line_mode": {
+                          "type": "string",
+                          "enum": [
+                            "lf",
+                            "universal"
+                          ]
+                        },
+                        "sha256": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "source_path"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "method_modules": {
+                    "description": "确需备查的当前方法模块ID，如liqi、void、promotion-salary；程序归档全文/hash，核心只列索引，不要求全读。原书仍用method_materials的原始handoff；不抄quote",
+                    "maxItems": 40,
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "focus_issues": {
+                    "description": "只列可能改变本问答案、精度或关键取用的中性争点，引用现有观察ID；不传初判或排序；无争点填[]，不凑正反。",
+                    "maxItems": 12,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "question_ids": {
+                          "minItems": 1,
+                          "maxItems": 12,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "entity_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "observation_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "question": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 2000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "question_ids",
+                        "entity_ids",
+                        "observation_ids",
+                        "question"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "unknowns": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 6000,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "computation_requests": {
+                    "description": "保存已有程序计算请求；calendar及expression字段与liuren_compute完全相同",
+                    "maxItems": 30,
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^C_[A-Za-z0-9_-]+$"
+                            },
+                            "action": {
+                              "type": "string",
+                              "const": "calendar"
+                            },
+                            "calendar": {
+                              "description": "calendar须含start、end（YYYY-MM-DD）、timezone=\"Asia/Shanghai\"、day_boundary=\"civil-midnight\"（00:00换日）或\"zi-hour\"（23:00换日）。day_boundary是枚举字符串，不是\"midnight\"、\"00:00\"或对象。最小调用：{\"action\":\"calendar\",\"calendar\":{\"start\":\"2024-01-15\",\"end\":\"2024-02-05\",\"timezone\":\"Asia/Shanghai\",\"day_boundary\":\"civil-midnight\"}}。示例日期只示范结构，实际范围按本问确定。按字段错误更正，不猜参数、不手算公历代替程序。",
+                              "type": "object",
+                              "properties": {
+                                "start": {
+                                  "description": "枚举起点，含当天。字段名start",
+                                  "type": "string",
+                                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                },
+                                "end": {
+                                  "description": "枚举终点，含当天。单次最多732天",
+                                  "type": "string",
+                                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                },
+                                "timezone": {
+                                  "description": "必须显式填写Asia/Shanghai；不使用系统本地时区",
+                                  "type": "string",
+                                  "const": "Asia/Shanghai"
+                                },
+                                "day_boundary": {
+                                  "description": "必填字符串：civil-midnight=00:00换日；zi-hour=23:00换日。禁止midnight、00:00或对象",
+                                  "type": "string",
+                                  "enum": [
+                                    "civil-midnight",
+                                    "zi-hour"
+                                  ]
+                                },
+                                "branches": {
+                                  "description": "可选，按日支筛选；不指定则列全部日期",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string",
+                                    "enum": [
+                                      "子",
+                                      "丑",
+                                      "寅",
+                                      "卯",
+                                      "辰",
+                                      "巳",
+                                      "午",
+                                      "未",
+                                      "申",
+                                      "酉",
+                                      "戌",
+                                      "亥"
+                                    ]
+                                  }
+                                },
+                                "pillars": {
+                                  "description": "可选，按完整日柱筛选，例如辛巳；程序再核六十甲子有效性",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string",
+                                    "pattern": "^[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]$"
+                                  }
+                                },
+                                "hour": {
+                                  "description": "每日取样小时，默认12；23点结果须按显式换日口径解释",
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 23
+                                },
+                                "minute": {
+                                  "description": "取样分钟，默认0",
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 59
+                                }
+                              },
+                              "required": [
+                                "start",
+                                "end",
+                                "timezone",
+                                "day_boundary"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "action",
+                            "calendar"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^C_[A-Za-z0-9_-]+$"
+                            },
+                            "action": {
+                              "type": "string",
+                              "const": "quantity"
+                            },
+                            "expression": {
+                              "description": "算式节点三选一：{value:6}；{table:\"branch\",symbol:\"丑\"}；{op:\"multiply\",args:[{table:\"branch\",symbol:\"丑\"},{value:6}]}。args每项仍按这三种节点格式，可继续嵌套；程序逐层严格校验，限制深度12/节点100。无统一天将数表，不猜腾蛇数。",
+                              "anyOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "value": {
+                                      "type": "number",
+                                      "minimum": -1000000000000,
+                                      "maximum": 1000000000000
+                                    }
+                                  },
+                                  "required": [
+                                    "value"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "table": {
+                                      "type": "string",
+                                      "enum": [
+                                        "branch",
+                                        "stem",
+                                        "sheng",
+                                        "cheng"
+                                      ]
+                                    },
+                                    "symbol": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 4
+                                    }
+                                  },
+                                  "required": [
+                                    "table",
+                                    "symbol"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "op": {
+                                      "type": "string",
+                                      "enum": [
+                                        "add",
+                                        "subtract",
+                                        "multiply",
+                                        "divide"
+                                      ]
+                                    },
+                                    "args": {
+                                      "minItems": 2,
+                                      "maxItems": 20,
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "propertyNames": {
+                                          "type": "string"
+                                        },
+                                        "additionalProperties": {}
+                                      }
+                                    }
+                                  },
+                                  "required": [
+                                    "op",
+                                    "args"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "action",
+                            "expression"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "retry_context": {
+                    "description": "仅needs_input或具体事实/引用/已确认U口径错误且新增材料时一次补核；error_path定位原报告：自由正文用$，reason逐字引用具体错误并解释；自由JSON用真实字段JSON Pointer如/answers/0/verdict。格式或不同意结论不能重派",
+                    "type": "object",
+                    "properties": {
+                      "previous_task_id": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                      },
+                      "reason": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 6000,
+                        "pattern": "\\S"
+                      },
+                      "error_path": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 6000,
+                        "pattern": "\\S"
+                      }
+                    },
+                    "required": [
+                      "previous_task_id",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "schema",
+                  "request_id",
+                  "questions",
+                  "chart",
+                  "facts",
+                  "entities",
+                  "observations",
+                  "method_materials",
+                  "focus_issues",
+                  "unknowns"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "packet"
+            ]
+          }
+        },
+        {
+          "name": "liuren_adjudication_read",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "file_path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string"
+              },
+              "page": {
+                "default": 1,
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "page_count": {
+                "description": "核心首次推荐4，后按next_call；参考仅按需读，不要求遍历",
+                "default": 1,
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 4
+              },
+              "material_id": {
+                "description": "可选：本任务references中的原书材料ID或E01—E22；省略则读核心",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 80
+              },
+              "module": {
+                "description": "可选：references.available_modules中的详细方法ID；与material_id互斥，不接受路径",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 80
+              }
+            },
+            "required": [
+              "file_path",
+              "sha256"
+            ]
+          }
+        },
+        {
+          "name": "liuren_compute",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "action": {
+                "description": "strength给strength对象；calendar给calendar；quantity给expression；source给source；lookup给lookup；life给life",
+                "type": "string",
+                "enum": [
+                  "chart",
+                  "lookup",
+                  "calendar",
+                  "quantity",
+                  "life",
+                  "source",
+                  "strength"
+                ]
+              },
+              "archive": {
+                "description": "主智能体action=chart/lookup/life/strength条件必填：可原样复用liuren_chart.archive（含可选raw_sha256），也可只给path/sha256。文件及可选原始hash均核对。life需要课盘给行年上神/阴神；裁决者自动用绑定盘，不传archive。calendar/quantity/source不传此字段",
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  },
+                  "raw_sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "additionalProperties": false
+              },
+              "symbols": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "strength": {
+                "description": "单宫旺衰或取用后补算。actors明确类神身份与取用依据；links只提交经原法确定适用的跨宫作用，source为施生/施克/比和方，类型由程序计算。原有直接关系不重复计分，不接受手填分数/倍率。季月按原法说明采用表，禁止结果导向换表。",
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "type": "string",
+                    "enum": [
+                      "single_palace",
+                      "selected_relations"
+                    ]
+                  },
+                  "season_profile": {
+                    "type": "string",
+                    "enum": [
+                      "four-seasons",
+                      "quarter-earth"
+                    ]
+                  },
+                  "season_basis": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 1500
+                  },
+                  "actors": {
+                    "minItems": 1,
+                    "maxItems": 25,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "description": "本盘T:支、J:天将或S:本日日干",
+                          "type": "string"
+                        },
+                        "role": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1500
+                        },
+                        "basis": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1500
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "role",
+                        "basis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "links": {
+                    "maxItems": 30,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "target": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1500
+                        }
+                      },
+                      "required": [
+                        "source",
+                        "target",
+                        "basis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "mode",
+                  "season_profile",
+                  "season_basis",
+                  "actors"
+                ],
+                "additionalProperties": false
+              },
+              "lookup": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string"
+                  },
+                  "place": {
+                    "type": "string"
+                  },
+                  "reference": {
+                    "type": "string"
+                  },
+                  "profile": {
+                    "type": "string",
+                    "enum": [
+                      "four-seasons",
+                      "quarter-earth"
+                    ]
+                  }
+                },
+                "required": [
+                  "subject"
+                ],
+                "additionalProperties": false
+              },
+              "calendar": {
+                "description": "calendar须含start、end（YYYY-MM-DD）、timezone=\"Asia/Shanghai\"、day_boundary=\"civil-midnight\"（00:00换日）或\"zi-hour\"（23:00换日）。day_boundary是枚举字符串，不是\"midnight\"、\"00:00\"或对象。最小调用：{\"action\":\"calendar\",\"calendar\":{\"start\":\"2024-01-15\",\"end\":\"2024-02-05\",\"timezone\":\"Asia/Shanghai\",\"day_boundary\":\"civil-midnight\"}}。示例日期只示范结构，实际范围按本问确定。按字段错误更正，不猜参数、不手算公历代替程序。",
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "description": "枚举起点，含当天。字段名start",
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "end": {
+                    "description": "枚举终点，含当天。单次最多732天",
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "timezone": {
+                    "description": "必须显式填写Asia/Shanghai；不使用系统本地时区",
+                    "type": "string",
+                    "const": "Asia/Shanghai"
+                  },
+                  "day_boundary": {
+                    "description": "必填字符串：civil-midnight=00:00换日；zi-hour=23:00换日。禁止midnight、00:00或对象",
+                    "type": "string",
+                    "enum": [
+                      "civil-midnight",
+                      "zi-hour"
+                    ]
+                  },
+                  "branches": {
+                    "description": "可选，按日支筛选；不指定则列全部日期",
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "子",
+                        "丑",
+                        "寅",
+                        "卯",
+                        "辰",
+                        "巳",
+                        "午",
+                        "未",
+                        "申",
+                        "酉",
+                        "戌",
+                        "亥"
+                      ]
+                    }
+                  },
+                  "pillars": {
+                    "description": "可选，按完整日柱筛选，例如辛巳；程序再核六十甲子有效性",
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]$"
+                    }
+                  },
+                  "hour": {
+                    "description": "每日取样小时，默认12；23点结果须按显式换日口径解释",
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 23
+                  },
+                  "minute": {
+                    "description": "取样分钟，默认0",
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 59
+                  }
+                },
+                "required": [
+                  "start",
+                  "end",
+                  "timezone",
+                  "day_boundary"
+                ],
+                "additionalProperties": false
+              },
+              "expression": {
+                "description": "算式节点三选一：{value:6}；{table:\"branch\",symbol:\"丑\"}；{op:\"multiply\",args:[{table:\"branch\",symbol:\"丑\"},{value:6}]}。args每项仍按这三种节点格式，可继续嵌套；程序逐层严格校验，限制深度12/节点100。无统一天将数表，不猜腾蛇数。",
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "number",
+                        "minimum": -1000000000000,
+                        "maximum": 1000000000000
+                      }
+                    },
+                    "required": [
+                      "value"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "table": {
+                        "type": "string",
+                        "enum": [
+                          "branch",
+                          "stem",
+                          "sheng",
+                          "cheng"
+                        ]
+                      },
+                      "symbol": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 4
+                      }
+                    },
+                    "required": [
+                      "table",
+                      "symbol"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "enum": [
+                          "add",
+                          "subtract",
+                          "multiply",
+                          "divide"
+                        ]
+                      },
+                      "args": {
+                        "minItems": 2,
+                        "maxItems": 20,
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "propertyNames": {
+                            "type": "string"
+                          },
+                          "additionalProperties": {}
+                        }
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "args"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "life": {
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "sex": {
+                    "type": "string",
+                    "enum": [
+                      "男",
+                      "女"
+                    ]
+                  },
+                  "age_basis": {
+                    "type": "string",
+                    "const": "虚岁-已核"
+                  },
+                  "birth_pillar": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "age",
+                  "sex",
+                  "age_basis"
+                ],
+                "additionalProperties": false
+              },
+              "source": {
+                "description": "优先原样复制liuren_materials返回的handoff对象；也可复制liuren_compute(action=\"source\")返回的引用字段。source_path接受工作区相对路径或同一工作区内的绝对路径，程序统一为相对路径；仅允许当前runtime、书籍库/、books/和已登记应期资料，不接受旧runtime、案例/经验库或任意output。当前runtime方法给id/title/source_path和已知sha256，省略quote及行界可装完整原文；书籍必须给准确line_start/line_end/line_mode及已知sha256。缺引用时从已返回元数据取值，不猜路径/hash/行号。",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "source_path": {
+                    "description": "优先原样复制liuren_materials返回的handoff对象；也可复制liuren_compute(action=\"source\")返回的引用字段。source_path接受工作区相对路径或同一工作区内的绝对路径，程序统一为相对路径；仅允许当前runtime、书籍库/、books/和已登记应期资料，不接受旧runtime、案例/经验库或任意output。当前runtime方法给id/title/source_path和已知sha256，省略quote及行界可装完整原文；书籍必须给准确line_start/line_end/line_mode及已知sha256。缺引用时从已返回元数据取值，不猜路径/hash/行号。",
+                    "type": "string"
+                  },
+                  "line_start": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 9007199254740991
+                  },
+                  "line_end": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 9007199254740991
+                  },
+                  "line_mode": {
+                    "type": "string",
+                    "enum": [
+                      "lf",
+                      "universal"
+                    ]
+                  },
+                  "sha256": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "source_path"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "action"
+            ]
+          }
+        }
+      ],
+      "referenceErrors": []
+    }
+  ],
+  "loopbackOnlyProvider": true,
+  "realModelCalled": false,
+  "implementationSha256": {
+    "tools/liuren-compute-schema.mjs": "d9e0f5a1436e408643dee12a6ebc79717fc9d45ca89818dc3a9492d5aeaa0b1b",
+    ".opencode/plugins/liuren-adjudication.ts": "87682056ee3fe1391ae3c8dcb21eeac4a615a4852fea223be3f99e95bd438f42"
+  }
+}

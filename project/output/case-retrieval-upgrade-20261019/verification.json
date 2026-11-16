@@ -1,0 +1,378 @@
+{
+  "status": "passed",
+  "model_calls": 0,
+  "raw_files_unchanged": 357,
+  "source_coverage": {
+    "source_files": 242,
+    "case_files": 224,
+    "book_files": 18,
+    "question_units": 263,
+    "explicit_question_units": 130,
+    "title_fallback_units": 103,
+    "source_groups": 242,
+    "missing_fields": {
+      "课体": 1,
+      "发用": 12,
+      "三传": 13,
+      "日干": 20,
+      "类神": 168
+    }
+  },
+  "source_quote_checks": 263,
+  "known_source_exclusion_checks": 51,
+  "all_unit_ids_unique": true,
+  "legacy_audit": {
+    "legacy_rows": 242,
+    "mapped_rows": 242,
+    "unmapped_rows": [],
+    "ambiguous_rows": [],
+    "files_without_unique_legacy_row": [],
+    "conflicting_files": [
+      {
+        "source": "案例项目库/事业占/case-014-raw-anli001-0007-分析复盘.md",
+        "fields": {
+          "编号": {
+            "source": "raw-anli001-0007",
+            "legacy": "case-014"
+          }
+        }
+      },
+      {
+        "source": "案例项目库/事业占/case-018-raw-anli002-0007-分析复盘.md",
+        "fields": {
+          "编号": {
+            "source": "case-0035",
+            "legacy": "case-018"
+          }
+        }
+      },
+      {
+        "source": "案例项目库/交易占/case-023-raw-anli001-0031-分析复盘.md",
+        "fields": {
+          "编号": {
+            "source": "case-0028(task_alias暂编号)",
+            "legacy": "case-023"
+          }
+        }
+      },
+      {
+        "source": "案例项目库/失物占/case-023-金手链环卫妇人捡走.md",
+        "fields": {
+          "技法": {
+            "source": "玄武太阴所临地盘定方位, 乾宫戌亥方位, 反吟卯酉为门户道路不取东西, 天后乘财发用=拾者女性, 类神不空物在, 反吟初末相同主速应, 喜事人家应天喜临戌",
+            "legacy": "玄武太阴所临地盘定方位(乾宫戌亥), 反吟卯酉为门户道路不取东西, 天后乘财发用=拾者女性, 类神不空物在, 反吟初末相同主速应, 喜事人家应天喜临戌"
+          }
+        }
+      },
+      {
+        "source": "案例项目库/官讼占/case-004-raw-qqwb20261018-0002a-分析复盘.md",
+        "fields": {
+          "编号": {
+            "source": "case-0050",
+            "legacy": "case-004"
+          }
+        }
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "mode": "仅问题与占类",
+      "question": "换到的新工作会满意吗",
+      "expected_source": "案例项目库/事业占/case-008-甲戌女HR总监换工作（元首·斩关·退茹·不备）.md",
+      "legacy_key": "事业占/case-008",
+      "query_fields": {
+        "占类": "事业占"
+      },
+      "old_rank": 14,
+      "new_rank": 1,
+      "old_process_ms": 501.93,
+      "new_in_process_ms": 27.21,
+      "new_first_question": "问题2：能换到满意的工作吗？"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "换到的新工作会满意吗",
+      "expected_source": "案例项目库/事业占/case-008-甲戌女HR总监换工作（元首·斩关·退茹·不备）.md",
+      "legacy_key": "事业占/case-008",
+      "query_fields": {
+        "占类": "事业占",
+        "课体": "元首,斩关,退茹,不备",
+        "发用": "戌(太常)",
+        "三传": "戌酉申",
+        "日干": "辛",
+        "类神": ""
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 691.18,
+      "new_in_process_ms": 31.04,
+      "new_first_question": "问题2：能换到满意的工作吗？"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "秋季招聘企业会发录用通知吗",
+      "expected_source": "案例项目库/事业占/case-003-研究生秋招能否收到offer（知一·四绝）.md",
+      "legacy_key": "事业占/case-003",
+      "query_fields": {
+        "占类": "事业占"
+      },
+      "old_rank": 9,
+      "new_rank": 1,
+      "old_process_ms": 507.02,
+      "new_in_process_ms": 27.0,
+      "new_first_question": "研究生秋招能否收到offer"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "秋季招聘企业会发录用通知吗",
+      "expected_source": "案例项目库/事业占/case-003-研究生秋招能否收到offer（知一·四绝）.md",
+      "legacy_key": "事业占/case-003",
+      "query_fields": {
+        "占类": "事业占",
+        "课体": "知一,四绝",
+        "发用": "午(白虎)",
+        "三传": "午丑申",
+        "日干": "丙",
+        "类神": ""
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 604.15,
+      "new_in_process_ms": 28.45,
+      "new_first_question": "研究生秋招能否收到offer"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "工作调动会在什么时候发生",
+      "expected_source": "案例项目库/事业占/case-010-工作调动应期复盘.md",
+      "legacy_key": "事业占/case-010",
+      "query_fields": {
+        "占类": "事业占"
+      },
+      "old_rank": 21,
+      "new_rank": 1,
+      "old_process_ms": 500.73,
+      "new_in_process_ms": 29.13,
+      "new_first_question": "raw-anli001-0006 工作调动应期复盘（事业占）"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "工作调动会在什么时候发生",
+      "expected_source": "案例项目库/事业占/case-010-工作调动应期复盘.md",
+      "legacy_key": "事业占/case-010",
+      "query_fields": {
+        "占类": "事业占",
+        "课体": "重审,元胎,六仪,斩关",
+        "发用": "申(青龙)",
+        "三传": "申亥寅",
+        "日干": "癸",
+        "类神": "父母申/驿马亥/官星辰"
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 694.23,
+      "new_in_process_ms": 29.49,
+      "new_first_question": "raw-anli001-0006 工作调动应期复盘（事业占）"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "父亲饮酒身亡，向同饮者索赔，需要走法律程序吗",
+      "expected_source": "案例项目库/官讼占/case-003-raw-anli002-0013-分析复盘.md",
+      "legacy_key": "官讼占/case-003",
+      "query_fields": {
+        "占类": "官讼占"
+      },
+      "old_rank": 5,
+      "new_rank": 1,
+      "old_process_ms": 498.9,
+      "new_in_process_ms": 28.4,
+      "new_first_question": "Q2是否走法律程序；"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "父亲饮酒身亡，向同饮者索赔，需要走法律程序吗",
+      "expected_source": "案例项目库/官讼占/case-003-raw-anli002-0013-分析复盘.md",
+      "legacy_key": "官讼占/case-003",
+      "query_fields": {
+        "占类": "官讼占",
+        "课体": "反吟,元胎,无依,斩关,寡宿",
+        "发用": "亥(勾陈)",
+        "三传": "亥巳亥",
+        "日干": "戊",
+        "类神": "财亥/勾陈/父母巳"
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 664.83,
+      "new_in_process_ms": 34.71,
+      "new_first_question": "Q2是否走法律程序；"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "物业赔偿镯子的费用有多少",
+      "expected_source": "案例项目库/官讼占/case-002-raw-anli002-0005-分析复盘.md",
+      "legacy_key": "官讼占/case-002",
+      "query_fields": {
+        "占类": "官讼占"
+      },
+      "old_rank": 4,
+      "new_rank": 1,
+      "old_process_ms": 461.79,
+      "new_in_process_ms": 27.84,
+      "new_first_question": "3.要求的总赔偿费用大概多少（镯子以万计，医药费可不计）？"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "物业赔偿镯子的费用有多少",
+      "expected_source": "案例项目库/官讼占/case-002-raw-anli002-0005-分析复盘.md",
+      "legacy_key": "官讼占/case-002",
+      "query_fields": {
+        "占类": "官讼占",
+        "课体": "弹射,三交,励德,二烦",
+        "发用": "子(勾陈)",
+        "三传": "子酉午",
+        "日干": "己",
+        "类神": "财子/酉金饰/午父母"
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 612.85,
+      "new_in_process_ms": 26.28,
+      "new_first_question": "3.要求的总赔偿费用大概多少（镯子以万计，医药费可不计）？"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "国庆前去要工程款，能拿回几成",
+      "expected_source": "案例项目库/交易占/case-024-raw-anli001-0032-分析复盘.md",
+      "legacy_key": "财运占/case-024",
+      "query_fields": {
+        "占类": "财运占"
+      },
+      "old_rank": 29,
+      "new_rank": 1,
+      "old_process_ms": 478.95,
+      "new_in_process_ms": 27.04,
+      "new_first_question": "命主巳命。2024年国庆节之前的9月30日要工程款。问能要回多少：1 90%以上；2 70%以上；3 50-70%；4 30-50%；5 10-30%；6 10%以下；7 一分钱都没要回。"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "国庆前去要工程款，能拿回几成",
+      "expected_source": "案例项目库/交易占/case-024-raw-anli001-0032-分析复盘.md",
+      "legacy_key": "财运占/case-024",
+      "query_fields": {
+        "占类": "财运占",
+        "课体": "从革,元首",
+        "发用": "巳(天空)",
+        "三传": "巳丑酉",
+        "日干": "丁",
+        "类神": "财酉(太阴)"
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 623.84,
+      "new_in_process_ms": 29.81,
+      "new_first_question": "命主巳命。2024年国庆节之前的9月30日要工程款。问能要回多少：1 90%以上；2 70%以上；3 50-70%；4 30-50%；5 10-30%；6 10%以下；7 一分钱都没要回。"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "酉命女友是否怀孕，什么时候来月经",
+      "expected_source": "案例项目库/胎产占/case-012-酉女问怀孕否何时来姨妈（重审斩关斫轮乱首课）.md",
+      "legacy_key": "胎产占/case-012",
+      "query_fields": {
+        "占类": "感情占"
+      },
+      "old_rank": 4,
+      "new_rank": 3,
+      "old_process_ms": 510.96,
+      "new_in_process_ms": 28.41,
+      "new_first_question": "女友问是否怀孕（斩关斫轮芜淫课）"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "酉命女友是否怀孕，什么时候来月经",
+      "expected_source": "案例项目库/胎产占/case-012-酉女问怀孕否何时来姨妈（重审斩关斫轮乱首课）.md",
+      "legacy_key": "胎产占/case-012",
+      "query_fields": {
+        "占类": "感情占",
+        "课体": "重审,斩关,励德,不备,斫轮,乱首",
+        "发用": "卯(玄武)",
+        "三传": "卯申丑",
+        "日干": "辛",
+        "类神": ""
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 731.43,
+      "new_in_process_ms": 32.55,
+      "new_first_question": "酉女问怀孕否+姨妈应期（重审斩关斫轮乱首课）"
+    },
+    {
+      "mode": "仅问题与占类",
+      "question": "英语四级考试能过吗",
+      "expected_source": "案例项目库/考试占/case-017-壬子日英语四级压线过.md",
+      "legacy_key": "考试占/case-017",
+      "query_fields": {
+        "占类": "学业占"
+      },
+      "old_rank": 6,
+      "new_rank": 4,
+      "old_process_ms": 491.0,
+      "new_in_process_ms": 28.44,
+      "new_first_question": "背景：电工考试能不能过？学院考试，非证书考试。"
+    },
+    {
+      "mode": "问题与完整已载盘面特征",
+      "question": "英语四级考试能过吗",
+      "expected_source": "案例项目库/考试占/case-017-壬子日英语四级压线过.md",
+      "legacy_key": "考试占/case-017",
+      "query_fields": {
+        "占类": "学业占",
+        "课体": "伏吟,励德,三奇,杜传",
+        "发用": "亥(太常)",
+        "三传": "亥子卯",
+        "日干": "壬",
+        "类神": ""
+      },
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_process_ms": 661.95,
+      "new_in_process_ms": 32.17,
+      "new_first_question": "背景：考后预测英语4级能不能过？"
+    }
+  ],
+  "sample_packet_chars": 11663,
+  "limitations": [
+    "8个有预先指定目标的定位检查，不是盲测、全库召回率或术理正确率评估。",
+    "完整特征来自目标原档，仅测试资料定位；不能代表未知新案的泛化表现。",
+    "旧耗时含PowerShell进程启动，新耗时为内存检索，不能直接据此声称总体提速倍数。",
+    "标题入口、原档历史反馈及程序抽取均未升级为语义核验或独立实证。"
+  ],
+  "regression_tests": {
+    "passed": 60,
+    "failed": 0,
+    "suites": {
+      "case_retrieval": 18,
+      "experience_retrieval": 15,
+      "opencode_case_workflow": 27
+    }
+  },
+  "skill_structure_validation": {
+    "liuren-cases": "passed",
+    "daliuren": "passed",
+    "liuren-extract": "passed"
+  },
+  "rollback_checks": [
+    "真实入口预检",
+    "隔离预览不修改",
+    "拒绝覆盖后续修改",
+    "隔离恢复原字节",
+    "重复恢复可执行"
+  ],
+  "rollback_preview": {
+    "mode": "preview",
+    "verified_entrypoints": 9,
+    "new_tools_and_evidence_retained": true
+  },
+  "windows_compatibility_omitted_question": "passed"
+}

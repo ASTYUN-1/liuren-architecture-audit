@@ -1,0 +1,7909 @@
+{
+  "scans": 17280,
+  "geometries": 1440,
+  "calendar_scenarios_per_geometry": 12,
+  "scope": "synthetic independent calendar probes; not all real dates or all year/month combinations",
+  "stats": {
+    "BF02-boundary": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干支上分见本旬旬首与旬尾",
+            "met": true,
+            "actual": {
+              "干上": "子",
+              "支上": "酉",
+              "旬首": "子",
+              "旬尾": "酉"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF02-return": {
+      "matches": 3240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初传见四课上神",
+            "met": true,
+            "actual": "子"
+          },
+          {
+            "condition": "中传见四课上神",
+            "met": true,
+            "actual": "亥"
+          },
+          {
+            "condition": "末传见四课上神",
+            "met": true,
+            "actual": "戌"
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF05-yang": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "四课上神与三传均为阳支",
+            "met": true,
+            "actual": {
+              "四课": [
+                "子",
+                "戌",
+                "戌",
+                "申"
+              ],
+              "三传": [
+                "戌",
+                "申",
+                "午"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF06-yin": {
+      "matches": 2256,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁卯",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "四课上神与三传均为阴支",
+            "met": true,
+            "actual": {
+              "四课": [
+                "丑",
+                "未",
+                "酉",
+                "卯"
+              ],
+              "三传": [
+                "卯",
+                "酉",
+                "卯"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "丑",
+            "tianjiang": "太阴",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "未",
+            "tianjiang": "勾陈",
+            "xungan": "辛",
+            "positions": [
+              "第2课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "卯",
+            "tian": "酉",
+            "tianjiang": "朱雀",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "卯",
+            "tianjiang": "太常",
+            "xungan": "丁",
+            "positions": [
+              "第4课上神",
+              "初传",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF16-empty": {
+      "matches": 996,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "壬申",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "天空乘旬空",
+            "met": true,
+            "actual": "亥"
+          },
+          {
+            "condition": "见四课或三传",
+            "met": true,
+            "actual": [
+              "第3课上神",
+              "末传"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "亥",
+            "tianjiang": "天空",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF21-cross": {
+      "matches": 1320,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干支分宫",
+            "met": true,
+            "actual": {
+              "寄宫": "寅",
+              "支": "子"
+            }
+          },
+          {
+            "condition": "干上与支六合",
+            "met": true,
+            "actual": [
+              "丑",
+              "子"
+            ]
+          },
+          {
+            "condition": "支上与干寄宫六合",
+            "met": true,
+            "actual": [
+              "亥",
+              "寅"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "丑",
+            "tianjiang": "贵人",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF22-main": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙酉",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干支上神六合",
+            "met": true,
+            "actual": [
+              "辰",
+              "酉"
+            ]
+          },
+          {
+            "condition": "干寄宫与日支六合",
+            "met": true,
+            "actual": [
+              "辰",
+              "酉"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "辰",
+            "tianjiang": "勾陈",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "xungan": "乙",
+            "positions": [
+              "第3课上神",
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF22-vertical": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁丑",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干寄宫与干上六合",
+            "met": true,
+            "actual": [
+              "未",
+              "午"
+            ]
+          },
+          {
+            "condition": "日支与支上六合",
+            "met": true,
+            "actual": [
+              "丑",
+              "子"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF22-upper": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "仅干支上神六合",
+            "met": true,
+            "actual": [
+              "寅",
+              "亥"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "寅",
+            "tianjiang": "朱雀",
+            "xungan": "丙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "亥",
+            "tianjiang": "天后",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF23-to-stem": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "戌",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "两上不同，可区分方向",
+            "met": true,
+            "actual": {
+              "干上": "戌",
+              "支上": "未"
+            }
+          },
+          {
+            "condition": "初传在支上",
+            "met": true,
+            "actual": "未"
+          },
+          {
+            "condition": "末传在干上",
+            "met": true,
+            "actual": "戌"
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "未",
+            "tianjiang": "天后",
+            "xungan": "辛",
+            "positions": [
+              "第3课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "戌",
+            "tianjiang": "太常",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF24-to-branch": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "两上不同，可区分方向",
+            "met": true,
+            "actual": {
+              "干上": "巳",
+              "支上": "寅"
+            }
+          },
+          {
+            "condition": "初传在干上",
+            "met": true,
+            "actual": "巳"
+          },
+          {
+            "condition": "末传在支上",
+            "met": true,
+            "actual": "寅"
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "巳",
+            "tianjiang": "天空",
+            "xungan": "己",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "寅",
+            "tianjiang": "六合",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神",
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF26-ding": {
+      "matches": 1392,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "庚午",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "日财旬遁丁且见课传",
+            "met": true,
+            "actual": [
+              "卯"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "卯",
+            "tianjiang": "太阴",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF26-horse": {
+      "matches": 1848,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "日财兼日驿马且见课传",
+            "met": true,
+            "actual": [
+              "申"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "亥",
+            "tian": "申",
+            "tianjiang": "玄武",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF27-drain": {
+      "matches": 768,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "戌",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传三合成局",
+            "met": true,
+            "actual": "寅午戌"
+          },
+          {
+            "condition": "日干生合局",
+            "met": true,
+            "actual": "火"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "戌",
+            "tianjiang": "六合",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第2课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "午",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "丙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF31-chain": {
+      "matches": 4224,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初生中生末或末生中生初",
+            "met": true,
+            "actual": [
+              "申",
+              "亥",
+              "寅"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "亥",
+            "tianjiang": "朱雀",
+            "xungan": "空",
+            "positions": [
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "丙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF32-chain": {
+      "matches": 1224,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "酉",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初克中克末或末克中克初",
+            "met": true,
+            "actual": [
+              "寅",
+              "未",
+              "子"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "酉",
+            "tian": "寅",
+            "tianjiang": "太阴",
+            "xungan": "丙",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "未",
+            "tianjiang": "青龙",
+            "xungan": "辛",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF37-assist": {
+      "matches": 2856,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "末传生初传",
+            "met": true,
+            "actual": [
+              "午",
+              "戌"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF41-luma": {
+      "matches": 144,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上为支驿马",
+            "met": true,
+            "actual": {
+              "干上": "申",
+              "支马": "申"
+            }
+          },
+          {
+            "condition": "支上为干禄",
+            "met": true,
+            "actual": {
+              "支上": "巳",
+              "干禄": "巳"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "申",
+            "tianjiang": "六合",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "巳",
+            "tianjiang": "天空",
+            "xungan": "己",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF47-prison": {
+      "matches": 2880,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "实际贵人临地盘辰戌",
+            "met": true,
+            "actual": {
+              "di": "戌",
+              "tian": "丑",
+              "tianjiang": "贵人",
+              "xungan": "乙"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "丑",
+            "tianjiang": "贵人",
+            "xungan": "乙",
+            "positions": [],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF51-gate": {
+      "matches": 360,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "壬申",
+        "upper": "戌",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "戌加亥",
+            "met": true,
+            "actual": "亥"
+          },
+          {
+            "condition": "戌发用",
+            "met": true,
+            "actual": "戌"
+          }
+        ],
+        "points": [
+          {
+            "di": "亥",
+            "tian": "戌",
+            "tianjiang": "白虎",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF52-gate": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "辰加寅",
+            "met": true,
+            "actual": "寅"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "辰",
+            "tianjiang": "六合",
+            "xungan": "戊",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF61-tomb": {
+      "matches": 72,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "白虎乘日五行墓",
+            "met": true,
+            "actual": {
+              "白虎": "丑",
+              "五行墓": "丑"
+            }
+          },
+          {
+            "condition": "墓虎临干寄宫",
+            "met": true,
+            "actual": {
+              "地盘": "戌",
+              "寄宫": "戌"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "丑",
+            "tianjiang": "白虎",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "中传",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF69-hidden": {
+      "matches": 1284,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "白虎乘支旬遁干克日",
+            "met": true,
+            "actual": {
+              "乘支": "午",
+              "旬干": "庚",
+              "日干": "甲"
+            }
+          },
+          {
+            "condition": "见课传",
+            "met": true,
+            "actual": [
+              "第4课上神"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "卯",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第4课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF69-plain-hidden": {
+      "matches": 1872,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "明鬼支克日干",
+            "met": true,
+            "actual": {
+              "支": "申",
+              "日干": "甲"
+            }
+          },
+          {
+            "condition": "暗鬼旬遁干克日干",
+            "met": true,
+            "actual": {
+              "支": "午",
+              "旬干": "庚",
+              "日干": "甲"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF69-hidden-plain": {
+      "matches": 576,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "壬申",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "明鬼支克日干",
+            "met": true,
+            "actual": {
+              "支": "丑",
+              "日干": "壬"
+            }
+          },
+          {
+            "condition": "暗鬼旬遁干克日干",
+            "met": true,
+            "actual": {
+              "支": "辰",
+              "旬干": "戊",
+              "日干": "壬"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "丑",
+            "tianjiang": "太常",
+            "xungan": "乙",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "辰",
+            "tianjiang": "天后",
+            "xungan": "戊",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF70-two": {
+      "matches": 768,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "第三课上神为日鬼",
+            "met": true,
+            "actual": "卯"
+          },
+          {
+            "condition": "第四课上神为日鬼",
+            "met": true,
+            "actual": "寅"
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "卯",
+            "tianjiang": "朱雀",
+            "xungan": "丁",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "卯",
+            "tian": "寅",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF77-cross": {
+      "matches": 600,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上生日支",
+            "met": true,
+            "actual": [
+              "午",
+              "辰"
+            ]
+          },
+          {
+            "condition": "支上生日干",
+            "met": true,
+            "actual": [
+              "巳",
+              "戊"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "中传",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "辰",
+            "tian": "巳",
+            "tianjiang": "勾陈",
+            "xungan": "己",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF77-each": {
+      "matches": 840,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "亥",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上生日干",
+            "met": true,
+            "actual": [
+              "亥",
+              "甲"
+            ]
+          },
+          {
+            "condition": "支上生日支",
+            "met": true,
+            "actual": [
+              "酉",
+              "子"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "酉",
+            "tianjiang": "太常",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF83-call": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传三合局",
+            "met": true,
+            "actual": "申子辰"
+          },
+          {
+            "condition": "合局中神与干上或支上六合",
+            "met": true,
+            "actual": {
+              "中神": "子",
+              "呼应上神": [
+                "丑"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "甲",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "辰",
+            "tianjiang": "玄武",
+            "xungan": "戊",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "巳",
+            "tian": "丑",
+            "tianjiang": "贵人",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF85-clamp": {
+      "matches": 2484,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "地盘克初传",
+            "met": true,
+            "actual": [
+              "卯",
+              "辰"
+            ]
+          },
+          {
+            "condition": "所乘天将克初传",
+            "met": true,
+            "actual": [
+              "六合",
+              "辰"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "卯",
+            "tian": "辰",
+            "tianjiang": "六合",
+            "xungan": "戊",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF86-internal": {
+      "matches": 2700,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "课传支上地克神且神克将",
+            "met": true,
+            "actual": [
+              [
+                "巳",
+                "申",
+                "青龙"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF91-tiger": {
+      "matches": 1740,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "白虎乘神克日干",
+            "met": true,
+            "actual": {
+              "乘支": "申",
+              "日干": "甲"
+            }
+          },
+          {
+            "condition": "见课传",
+            "met": true,
+            "actual": [
+              "第4课上神",
+              "中传"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF01-stem": {
+      "matches": 216,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "癸酉",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初末分见所引神前后相邻支",
+            "met": true,
+            "actual": {
+              "center": "午",
+              "initial": "未",
+              "final": "巳"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "午",
+            "tianjiang": "腾蛇",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "未",
+            "tianjiang": "朱雀",
+            "xungan": "辛",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "巳",
+            "tianjiang": "贵人",
+            "xungan": "己",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF01-branch": {
+      "matches": 288,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初末分见所引神前后相邻支",
+            "met": true,
+            "actual": {
+              "center": "亥",
+              "initial": "子",
+              "final": "戌"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF03-curtain": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "未",
+              "nobles": {
+                "day": "丑",
+                "night": "未"
+              }
+            }
+          },
+          {
+            "condition": "另一贵人支临干",
+            "met": true,
+            "actual": {
+              "upper": "丑",
+              "curtain": "丑"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "丑",
+            "tianjiang": "天空",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF04-usher": {
+      "matches": 288,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "己巳",
+        "upper": "卯",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "日鬼乘实际白虎",
+            "met": true,
+            "actual": {
+              "di": "未",
+              "tian": "卯",
+              "tianjiang": "白虎",
+              "xungan": "丁"
+            }
+          },
+          {
+            "condition": "白虎临干",
+            "met": true,
+            "actual": {
+              "di": "未",
+              "home": "未"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "卯",
+            "tianjiang": "白虎",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF04-warrant": {
+      "matches": 168,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上日鬼",
+            "met": true,
+            "actual": "午"
+          },
+          {
+            "condition": "三传合财局生鬼",
+            "met": true,
+            "actual": {
+              "members": "亥卯未",
+              "element": "木",
+              "middle": "卯"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "午",
+            "tianjiang": "贵人",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "未",
+            "tian": "卯",
+            "tianjiang": "六合",
+            "xungan": "丁",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "卯",
+            "tian": "亥",
+            "tianjiang": "白虎",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "未",
+            "tianjiang": "天后",
+            "xungan": "辛",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF07-lu": {
+      "matches": 720,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法特准阴干旺禄/己土禄临干",
+            "met": true,
+            "actual": {
+              "stem": "乙",
+              "upper": "卯",
+              "lu": "卯"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "卯",
+            "tianjiang": "六合",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF08-lu": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "支上为日禄",
+            "met": true,
+            "actual": {
+              "upper": "寅",
+              "lu": "寅"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "寅",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF09-routes": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "比较干上、支上、干寄宫所坐地与三传的生财禄、克墓脱空；需依本问选择可走路径"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF10-wheel": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "亥",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "卯加申且发用",
+            "met": true,
+            "actual": {
+              "di": "申",
+              "initial": "卯"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "卯",
+            "tianjiang": "玄武",
+            "xungan": "丁",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF10-rotten": {
+      "matches": 24,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "癸丑",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "卯加申且发用",
+            "met": true,
+            "actual": {
+              "di": "申",
+              "initial": "卯"
+            }
+          },
+          {
+            "condition": "卯自空",
+            "met": true,
+            "actual": [
+              "寅",
+              "卯"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "卯",
+            "tianjiang": "朱雀",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF11-rescue": {
+      "matches": 7728,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "相关位置见日鬼",
+            "met": true,
+            "actual": [
+              "申"
+            ]
+          },
+          {
+            "condition": "相关位置子孙能克已见鬼",
+            "met": true,
+            "actual": [
+              "午"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF11-ghost-parent": {
+      "matches": 168,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传合鬼局",
+            "met": true,
+            "actual": {
+              "members": "巳酉丑",
+              "element": "金",
+              "middle": "酉"
+            }
+          },
+          {
+            "condition": "干支上父母承接鬼局之生",
+            "met": true,
+            "actual": [
+              "子"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "巳",
+            "tianjiang": "青龙",
+            "xungan": "己",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "巳",
+            "tian": "丑",
+            "tianjiang": "腾蛇",
+            "xungan": "乙",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF12-fox": {
+      "matches": 864,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁卯",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上为日鬼或脱气",
+            "met": true,
+            "actual": {
+              "upper": "子",
+              "kin": "官鬼"
+            }
+          },
+          {
+            "condition": "干寄宫克制干上神",
+            "met": true,
+            "actual": {
+              "home": "未",
+              "upper": "子"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF13-season": {
+      "matches": 120,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "申",
+        "checks": [
+          {
+            "condition": "三传合鬼局",
+            "met": true,
+            "actual": {
+              "members": "巳酉丑",
+              "element": "金",
+              "middle": "酉"
+            }
+          },
+          {
+            "condition": "鬼局当四时旺",
+            "met": true,
+            "actual": {
+              "month": "申",
+              "season_element": "金"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "酉",
+            "tian": "巳",
+            "tianjiang": "青龙",
+            "xungan": "己",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "巳",
+            "tian": "丑",
+            "tianjiang": "腾蛇",
+            "xungan": "乙",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF14-wealth-season": {
+      "matches": 222,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "酉",
+        "mode": "昼贵",
+        "month": "申",
+        "checks": [
+          {
+            "condition": "三传合财局",
+            "met": true,
+            "actual": {
+              "members": "巳酉丑",
+              "element": "金",
+              "middle": "酉"
+            }
+          },
+          {
+            "condition": "财局当四时旺或相",
+            "met": true,
+            "actual": {
+              "month": "申",
+              "season_element": "金"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "酉",
+            "tianjiang": "朱雀",
+            "xungan": "癸",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "丑",
+            "tianjiang": "太阴",
+            "xungan": "乙",
+            "positions": [
+              "第2课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "巳",
+            "tianjiang": "天空",
+            "xungan": "己",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF15-double": {
+      "matches": 432,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干生干上",
+            "met": true,
+            "actual": [
+              "甲",
+              "巳"
+            ]
+          },
+          {
+            "condition": "干上生乘将",
+            "met": true,
+            "actual": [
+              "巳",
+              "太常"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "巳",
+            "tianjiang": "太常",
+            "xungan": "己",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF15-thief": {
+      "matches": 216,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "亥",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上脱气乘玄武",
+            "met": true,
+            "actual": {
+              "di": "戌",
+              "tian": "亥",
+              "tianjiang": "玄武",
+              "xungan": "空",
+              "positions": [
+                "第1课上神",
+                "中传"
+              ],
+              "void_self": true,
+              "void_ground": true
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "亥",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF17-advance": {
+      "matches": 504,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "癸酉",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传逐支进",
+            "met": true,
+            "actual": [
+              "亥",
+              "子",
+              "丑"
+            ]
+          },
+          {
+            "condition": "至少一传空陷",
+            "met": true,
+            "actual": [
+              "亥",
+              "子"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "亥",
+            "tianjiang": "天空",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          },
+          {
+            "di": "亥",
+            "tian": "子",
+            "tianjiang": "白虎",
+            "xungan": "甲",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "子",
+            "tian": "丑",
+            "tianjiang": "太常",
+            "xungan": "乙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF18-retreat": {
+      "matches": 456,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传逐支退",
+            "met": true,
+            "actual": [
+              "子",
+              "亥",
+              "戌"
+            ]
+          },
+          {
+            "condition": "至少一传空陷",
+            "met": true,
+            "actual": [
+              "亥",
+              "戌"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF19-stem-fetus": {
+      "matches": 242,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "寅",
+        "checks": [
+          {
+            "condition": "相关位置见指定胎神且作日财",
+            "met": true,
+            "actual": [
+              "子"
+            ]
+          },
+          {
+            "condition": "胎兼月生气",
+            "met": true,
+            "actual": {
+              "month": "寅",
+              "target": "子",
+              "fetus": [
+                "子",
+                "午"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF19-branch-fetus": {
+      "matches": 542,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "申",
+        "checks": [
+          {
+            "condition": "相关位置见指定胎神",
+            "met": true,
+            "actual": [
+              "午"
+            ]
+          },
+          {
+            "condition": "胎兼月生气",
+            "met": true,
+            "actual": {
+              "month": "申",
+              "target": "午",
+              "fetus": [
+                "午"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF20-fetus-dead": {
+      "matches": 242,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "申",
+        "checks": [
+          {
+            "condition": "相关位置见指定胎神且作日财",
+            "met": true,
+            "actual": [
+              "子"
+            ]
+          },
+          {
+            "condition": "胎兼月死气",
+            "met": true,
+            "actual": {
+              "month": "申",
+              "target": "子",
+              "fetus": [
+                "子",
+                "午"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF25-ding": {
+      "matches": 1104,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "庚午",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "庚辛日",
+            "met": true,
+            "actual": "庚"
+          },
+          {
+            "condition": "旬丁见干支上或三传",
+            "met": true,
+            "actual": [
+              "卯"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "卯",
+            "tianjiang": "太阴",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF28-real-wealth": {
+      "matches": 72,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "庚午",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传合鬼局",
+            "met": true,
+            "actual": {
+              "members": "寅午戌",
+              "element": "火",
+              "middle": "午"
+            }
+          },
+          {
+            "condition": "两空陷一实财",
+            "met": true,
+            "actual": {
+              "empty": [
+                "戌",
+                "午"
+              ],
+              "real": [
+                "寅"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "戌",
+            "tianjiang": "六合",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "午",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF29-main": {
+      "matches": 216,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊寅",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传合局",
+            "met": true,
+            "actual": {
+              "members": "寅午戌",
+              "element": "火",
+              "middle": "午"
+            }
+          },
+          {
+            "condition": "局生一方并泄另一方",
+            "met": true,
+            "actual": {
+              "group": {
+                "members": "寅午戌",
+                "element": "火",
+                "middle": "午"
+              },
+              "stem": "戊",
+              "branch": "寅"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "戌",
+            "tianjiang": "六合",
+            "xungan": "甲",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "午",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "戊",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF30-main": {
+      "matches": 120,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲戌",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传合局",
+            "met": true,
+            "actual": {
+              "members": "寅午戌",
+              "element": "火",
+              "middle": "午"
+            }
+          },
+          {
+            "condition": "局生一方并泄另一方",
+            "met": true,
+            "actual": {
+              "group": {
+                "members": "寅午戌",
+                "element": "火",
+                "middle": "午"
+              },
+              "stem": "甲",
+              "branch": "戌"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "戊",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "午",
+            "tian": "戌",
+            "tianjiang": "六合",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF33-birth-tomb": {
+      "matches": 72,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初末分别为日五行生、墓",
+            "met": true,
+            "actual": {
+              "initial": "亥",
+              "final": "未",
+              "birth": "亥",
+              "tomb": "未"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "亥",
+            "tianjiang": "天后",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "未",
+            "tianjiang": "白虎",
+            "xungan": "辛",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF33-tomb-birth": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初末分别为日五行墓、生",
+            "met": true,
+            "actual": {
+              "initial": "戌",
+              "final": "寅",
+              "birth": "寅",
+              "tomb": "戌"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "戌",
+            "tianjiang": "天后",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "午",
+            "tian": "寅",
+            "tianjiang": "六合",
+            "xungan": "丙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF34-ghost-child": {
+      "matches": 1464,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初传日鬼",
+            "met": true,
+            "actual": "官鬼"
+          },
+          {
+            "condition": "末传子孙克初鬼",
+            "met": true,
+            "actual": "子孙"
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "酉",
+            "tianjiang": "六合",
+            "xungan": "癸",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "巳",
+            "tianjiang": "白虎",
+            "xungan": "己",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF34-two-edged": {
+      "matches": 144,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "戊日伏吟且巳申寅",
+            "met": true,
+            "actual": {
+              "day": "戊辰",
+              "t": [
+                "巳",
+                "申",
+                "寅"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "巳",
+            "tianjiang": "勾陈",
+            "xungan": "己",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "寅",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF35-each": {
+      "matches": 1296,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各脱",
+            "met": true,
+            "actual": {
+              "upper": "巳",
+              "reference": "甲",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各脱",
+            "met": true,
+            "actual": {
+              "upper": "卯",
+              "reference": "子",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "巳",
+            "tianjiang": "太常",
+            "xungan": "己",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "卯",
+            "tianjiang": "太阴",
+            "xungan": "丁",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF35-cross": {
+      "matches": 960,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日支为互脱",
+            "met": true,
+            "actual": {
+              "upper": "申",
+              "reference": "丑",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日干为互脱",
+            "met": true,
+            "actual": {
+              "upper": "巳",
+              "reference": "乙",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "申",
+            "tianjiang": "勾陈",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "巳",
+            "tianjiang": "白虎",
+            "xungan": "己",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF36-each": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各败",
+            "met": true,
+            "actual": {
+              "upper": "子",
+              "reference": "乙",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各败",
+            "met": true,
+            "actual": {
+              "upper": "酉",
+              "reference": "丑",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF36-cross": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "酉",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日支为互败",
+            "met": true,
+            "actual": {
+              "upper": "酉",
+              "reference": "未",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日干为互败",
+            "met": true,
+            "actual": {
+              "upper": "午",
+              "reference": "辛",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "xungan": "癸",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "未",
+            "tian": "午",
+            "tianjiang": "贵人",
+            "xungan": "庚",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF63-each": {
+      "matches": 864,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "酉",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各伤",
+            "met": true,
+            "actual": {
+              "upper": "酉",
+              "reference": "甲",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各伤",
+            "met": true,
+            "actual": {
+              "upper": "未",
+              "reference": "子",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "酉",
+            "tianjiang": "勾陈",
+            "xungan": "癸",
+            "positions": [
+              "第1课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "未",
+            "tianjiang": "天空",
+            "xungan": "辛",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF78-each": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各旺",
+            "met": true,
+            "actual": {
+              "upper": "卯",
+              "reference": "乙",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各旺",
+            "met": true,
+            "actual": {
+              "upper": "子",
+              "reference": "丑",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "卯",
+            "tianjiang": "六合",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF78-cross": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日支为互旺",
+            "met": true,
+            "actual": {
+              "upper": "子",
+              "reference": "未",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日干为互旺",
+            "met": true,
+            "actual": {
+              "upper": "酉",
+              "reference": "辛",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "子",
+            "tianjiang": "天空",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "未",
+            "tian": "酉",
+            "tianjiang": "六合",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF79-each": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各绝",
+            "met": true,
+            "actual": {
+              "upper": "申",
+              "reference": "乙",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各绝",
+            "met": true,
+            "actual": {
+              "upper": "巳",
+              "reference": "丑",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "申",
+            "tianjiang": "勾陈",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "巳",
+            "tianjiang": "白虎",
+            "xungan": "己",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF79-cross": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日支为互绝",
+            "met": true,
+            "actual": {
+              "upper": "巳",
+              "reference": "未",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日干为互绝",
+            "met": true,
+            "actual": {
+              "upper": "寅",
+              "reference": "辛",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "巳",
+            "tianjiang": "天后",
+            "xungan": "己",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "未",
+            "tian": "寅",
+            "tianjiang": "太常",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF80-each": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各死",
+            "met": true,
+            "actual": {
+              "upper": "午",
+              "reference": "乙",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各死",
+            "met": true,
+            "actual": {
+              "upper": "卯",
+              "reference": "丑",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "午",
+            "tianjiang": "天空",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "卯",
+            "tianjiang": "玄武",
+            "xungan": "丁",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF80-cross": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日支为互死",
+            "met": true,
+            "actual": {
+              "upper": "卯",
+              "reference": "未",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日干为互死",
+            "met": true,
+            "actual": {
+              "upper": "子",
+              "reference": "辛",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "卯",
+            "tianjiang": "玄武",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "天空",
+            "xungan": "甲",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF88-each": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "未",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日干为各墓",
+            "met": true,
+            "actual": {
+              "upper": "未",
+              "reference": "乙",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日支为各墓",
+            "met": true,
+            "actual": {
+              "upper": "辰",
+              "reference": "丑",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "未",
+            "tianjiang": "青龙",
+            "xungan": "辛",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "辰",
+            "tianjiang": "太常",
+            "xungan": "戊",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF88-cross": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对日支为互墓",
+            "met": true,
+            "actual": {
+              "upper": "辰",
+              "reference": "未",
+              "basis": "本法五行十二气"
+            }
+          },
+          {
+            "condition": "支上对日干为互墓",
+            "met": true,
+            "actual": {
+              "upper": "丑",
+              "reference": "辛",
+              "basis": "本法五行十二气"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "辰",
+            "tianjiang": "太阴",
+            "xungan": "戊",
+            "positions": [
+              "第1课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "未",
+            "tian": "丑",
+            "tianjiang": "白虎",
+            "xungan": "乙",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF38-tail-head": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "亥",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "旬尾加旬首",
+            "met": true,
+            "actual": {
+              "head": "子",
+              "tail": "酉",
+              "tail_ground": "子"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "酉",
+            "tianjiang": "太常",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF38-head-thief": {
+      "matches": 2016,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "辰",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "天盘旬首乘玄武",
+            "met": true,
+            "actual": {
+              "di": "丑",
+              "tian": "子",
+              "tianjiang": "玄武",
+              "xungan": "甲",
+              "positions": [
+                "第4课上神",
+                "初传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "玄武",
+            "xungan": "甲",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF38-ground-head-thief": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "地盘旬首上神乘玄武",
+            "met": true,
+            "actual": {
+              "head": "子",
+              "thief": {
+                "di": "子",
+                "tian": "戌",
+                "tianjiang": "玄武",
+                "xungan": "空"
+              }
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF38-closed-lu": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "日禄为旬尾",
+            "met": true,
+            "actual": {
+              "lu": "酉",
+              "tail": "酉"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "酉",
+            "tianjiang": "六合",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF38-closed-wealth": {
+      "matches": 1248,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "旬尾为日财并见干支上或三传",
+            "met": true,
+            "actual": {
+              "tail": "酉",
+              "kin": "妻财",
+              "relevant": [
+                "子",
+                "酉",
+                "未",
+                "寅"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "酉",
+            "tianjiang": "太阴",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF39-sun-thief": {
+      "matches": 0,
+      "candidates": 3960,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "月将已知",
+            "met": true,
+            "actual": "子"
+          },
+          {
+            "condition": "玄武乘、临、阴神中见月将",
+            "met": true,
+            "actual": {
+              "carrier": "戌",
+              "ground": "子",
+              "yin": "申"
+            }
+          },
+          {
+            "condition": "实际太阳日照条件核实",
+            "met": null,
+            "actual": "需当时当地真实日出日入；贵人昼夜设置不能替代此条件"
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF40-queen-match": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁卯",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "两上分乘后合",
+            "met": true,
+            "actual": [
+              "天后",
+              "六合"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "卯",
+            "tian": "申",
+            "tianjiang": "六合",
+            "xungan": "壬",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF40-queen-trans": {
+      "matches": 1260,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "辰",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传同见天后六合",
+            "met": true,
+            "actual": [
+              "六合",
+              "腾蛇",
+              "天后"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "辰",
+            "tianjiang": "六合",
+            "xungan": "戊",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "辰",
+            "tian": "午",
+            "tianjiang": "腾蛇",
+            "xungan": "庚",
+            "positions": [
+              "第2课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "午",
+            "tian": "申",
+            "tianjiang": "天后",
+            "xungan": "壬",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF42-xun": {
+      "matches": 96,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "单一遁法集齐三奇",
+            "met": true,
+            "actual": {
+              "mode": "xun",
+              "stems": [
+                "丁",
+                "丙",
+                "乙"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "卯",
+            "tianjiang": "朱雀",
+            "xungan": "丁",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "卯",
+            "tian": "寅",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "丑",
+            "tianjiang": "贵人",
+            "xungan": "乙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF42-five-zi": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "单一遁法集齐三奇",
+            "met": true,
+            "actual": {
+              "mode": "five-zi",
+              "stems": [
+                "戊",
+                "甲",
+                "庚"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "戌",
+            "tianjiang": "天后",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "午",
+            "tian": "寅",
+            "tianjiang": "六合",
+            "xungan": "丙",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF43-harm": {
+      "matches": 180,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "未",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "实际贵临干",
+            "met": true,
+            "actual": {
+              "di": "寅",
+              "tian": "未",
+              "tianjiang": "贵人",
+              "xungan": "辛"
+            }
+          },
+          {
+            "condition": "初传害干上贵",
+            "met": true,
+            "actual": [
+              "子",
+              "未"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "青龙",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "未",
+            "tianjiang": "贵人",
+            "xungan": "辛",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF44-crowd": {
+      "matches": 24,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁酉",
+        "upper": "酉",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "亥",
+              "nobles": {
+                "day": "亥",
+                "night": "酉"
+              }
+            }
+          },
+          {
+            "condition": "干支上分两贵",
+            "met": true,
+            "actual": {
+              "uppers": [
+                "酉",
+                "亥"
+              ],
+              "nobles": {
+                "day": "亥",
+                "night": "酉"
+              }
+            }
+          },
+          {
+            "condition": "初中又分两贵",
+            "met": true,
+            "actual": [
+              "酉",
+              "亥"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "酉",
+            "tianjiang": "朱雀",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "亥",
+            "tianjiang": "贵人",
+            "xungan": "己",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF45-stack": {
+      "matches": 672,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "亥",
+              "nobles": {
+                "day": "亥",
+                "night": "酉"
+              }
+            }
+          },
+          {
+            "condition": "两贵天地相加且上贵见相关位置",
+            "met": true,
+            "actual": [
+              "酉"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "亥",
+            "tian": "酉",
+            "tianjiang": "太阴",
+            "xungan": "癸",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF45-cover": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "己卯",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "子",
+              "nobles": {
+                "day": "子",
+                "night": "申"
+              }
+            }
+          },
+          {
+            "condition": "干支上分两贵",
+            "met": true,
+            "actual": {
+              "uppers": [
+                "子",
+                "申"
+              ],
+              "nobles": {
+                "day": "子",
+                "night": "申"
+              }
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "丙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "卯",
+            "tian": "申",
+            "tianjiang": "勾陈",
+            "xungan": "空",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "巳",
+            "tianjiang": "白虎",
+            "xungan": "辛",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "巳",
+            "tian": "戌",
+            "tianjiang": "朱雀",
+            "xungan": "甲",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF46-mismatch": {
+      "matches": 5472,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "丑",
+              "nobles": {
+                "day": "丑",
+                "night": "未"
+              }
+            }
+          },
+          {
+            "condition": "昼贵临夜方",
+            "met": true,
+            "actual": "寅"
+          },
+          {
+            "condition": "夜贵临昼方",
+            "met": true,
+            "actual": "申"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "丑",
+            "tianjiang": "贵人",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "未",
+            "tianjiang": "天空",
+            "xungan": "辛",
+            "positions": [],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF48-ghost": {
+      "matches": 1320,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "午",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "实际贵所乘为日鬼且见相关位置",
+            "met": true,
+            "actual": {
+              "di": "午",
+              "tian": "申",
+              "tianjiang": "贵人",
+              "xungan": "壬"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "午",
+            "tian": "申",
+            "tianjiang": "贵人",
+            "xungan": "壬",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF49-restrained": {
+      "matches": 1008,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "子",
+              "nobles": {
+                "day": "子",
+                "night": "申"
+              }
+            }
+          },
+          {
+            "condition": "day贵受地盘克",
+            "met": true,
+            "actual": {
+              "di": "戌",
+              "tian": "子",
+              "tianjiang": "贵人",
+              "xungan": "甲",
+              "positions": [
+                "末传"
+              ],
+              "void_self": false,
+              "void_ground": true
+            }
+          },
+          {
+            "condition": "night贵受地盘克",
+            "met": true,
+            "actual": {
+              "di": "午",
+              "tian": "申",
+              "tianjiang": "勾陈",
+              "xungan": "壬",
+              "positions": [
+                "第2课上神",
+                "初传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "午",
+            "tian": "申",
+            "tianjiang": "勾陈",
+            "xungan": "壬",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF50-empty": {
+      "matches": 960,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "贵人取法已登记且与实际天乙坐标一致",
+            "met": true,
+            "actual": {
+              "rule": "甲戊庚牛羊",
+              "actual": "亥",
+              "nobles": {
+                "day": "亥",
+                "night": "酉"
+              }
+            }
+          },
+          {
+            "condition": "day贵自空或坐空",
+            "met": true,
+            "actual": {
+              "di": "丑",
+              "tian": "亥",
+              "tianjiang": "贵人",
+              "xungan": "空",
+              "positions": [
+                "中传"
+              ],
+              "void_self": true,
+              "void_ground": false
+            }
+          },
+          {
+            "condition": "night贵自空或坐空",
+            "met": true,
+            "actual": {
+              "di": "亥",
+              "tian": "酉",
+              "tianjiang": "太阴",
+              "xungan": "癸",
+              "positions": [
+                "末传"
+              ],
+              "void_self": false,
+              "void_ground": true
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "亥",
+            "tianjiang": "贵人",
+            "xungan": "空",
+            "positions": [
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "酉",
+            "tianjiang": "太阴",
+            "xungan": "癸",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF53-snake": {
+      "matches": 720,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "午",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "日五行墓加巳乘蛇",
+            "met": true,
+            "actual": {
+              "di": "巳",
+              "tian": "未",
+              "tianjiang": "腾蛇",
+              "xungan": "辛",
+              "positions": [],
+              "void_self": false,
+              "void_ground": false
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "未",
+            "tianjiang": "腾蛇",
+            "xungan": "辛",
+            "positions": [],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF54-tiger": {
+      "matches": 0,
+      "candidates": 3072,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "柔日",
+            "met": true,
+            "actual": "乙"
+          },
+          {
+            "condition": "本盘昴星（北海虎视）",
+            "met": null,
+            "actual": null
+          },
+          {
+            "condition": "实际白虎见课传",
+            "met": true,
+            "actual": {
+              "di": "戌",
+              "tian": "未",
+              "tianjiang": "白虎",
+              "xungan": "辛"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "未",
+            "tianjiang": "白虎",
+            "xungan": "辛",
+            "positions": [
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "辰",
+            "tian": "丑",
+            "tianjiang": "腾蛇",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "戌",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF55-each": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对应罗网",
+            "met": true,
+            "actual": {
+              "upper": "卯",
+              "target": "卯"
+            }
+          },
+          {
+            "condition": "支上对应罗网",
+            "met": true,
+            "actual": {
+              "upper": "丑",
+              "target": "丑"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "卯",
+            "tianjiang": "朱雀",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "丑",
+            "tianjiang": "贵人",
+            "xungan": "乙",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF55-cross": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁丑",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上对应罗网",
+            "met": true,
+            "actual": {
+              "upper": "寅",
+              "target": "寅"
+            }
+          },
+          {
+            "condition": "支上对应罗网",
+            "met": true,
+            "actual": {
+              "upper": "申",
+              "target": "申"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "寅",
+            "tianjiang": "六合",
+            "xungan": "戊",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "申",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF56-life": {
+      "matches": 0,
+      "candidates": 1440,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "未",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "日五行墓临干",
+            "met": true,
+            "actual": {
+              "upper": "未",
+              "tomb": "未"
+            }
+          },
+          {
+            "condition": "本人已核本命与墓同支",
+            "met": null,
+            "actual": "需占人本人已核本命及身份绑定；当前盘字段不证明这一对应"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "未",
+            "tianjiang": "天空",
+            "xungan": "辛",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF57-cost": {
+      "matches": 1368,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "亥",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干支上生我者空陷",
+            "met": true,
+            "actual": [
+              "亥"
+            ]
+          },
+          {
+            "condition": "四课三传见鬼或脱",
+            "met": true,
+            "actual": [
+              "申",
+              "酉",
+              "午"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第2课上神"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "子",
+            "tian": "酉",
+            "tianjiang": "太常",
+            "xungan": "癸",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF58-broken": {
+      "matches": 1788,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初财禄生气空陷或夹克",
+            "met": true,
+            "actual": {
+              "di": "子",
+              "tian": "戌",
+              "tianjiang": "玄武",
+              "xungan": "空",
+              "positions": [
+                "第2课上神",
+                "第3课上神",
+                "初传"
+              ],
+              "void_self": true,
+              "void_ground": false
+            }
+          },
+          {
+            "condition": "中末各为鬼脱或空陷",
+            "met": true,
+            "actual": [
+              {
+                "s": "申",
+                "kin": "官鬼",
+                "empty": true
+              },
+              {
+                "s": "午",
+                "kin": "子孙",
+                "empty": false
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF59-canopy": {
+      "matches": 72,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "壬申",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "华盖兼日五行墓",
+            "met": true,
+            "actual": {
+              "canopy": "辰",
+              "tomb": "辰"
+            }
+          },
+          {
+            "condition": "华盖临干且发用",
+            "met": true,
+            "actual": {
+              "upper": "辰",
+              "initial": "辰"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "亥",
+            "tian": "辰",
+            "tianjiang": "天后",
+            "xungan": "戊",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF60-sun-house": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "戌",
+        "checks": [
+          {
+            "condition": "月将临支",
+            "met": true,
+            "actual": {
+              "sun": "戌",
+              "upper": "戌"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF62-house": {
+      "matches": 180,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "白虎临支",
+            "met": true,
+            "actual": {
+              "di": "未",
+              "tian": "丑",
+              "tianjiang": "白虎",
+              "xungan": "乙"
+            }
+          },
+          {
+            "condition": "虎乘干墓或支墓",
+            "met": true,
+            "actual": {
+              "carrier": "丑",
+              "stem_tomb": "丑",
+              "branch_tomb": "辰"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "丑",
+            "tianjiang": "白虎",
+            "xungan": "乙",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF64-mutual-attack": {
+      "matches": 672,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "戌",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上克支",
+            "met": true,
+            "actual": [
+              "戌",
+              "子"
+            ]
+          },
+          {
+            "condition": "支上克干",
+            "met": true,
+            "actual": [
+              "申",
+              "甲"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "戌",
+            "tianjiang": "六合",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF64-separation": {
+      "matches": 768,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干克支上",
+            "met": true,
+            "actual": [
+              "甲",
+              "辰"
+            ]
+          },
+          {
+            "condition": "支克干上",
+            "met": true,
+            "actual": [
+              "子",
+              "午"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "辰",
+            "tianjiang": "玄武",
+            "xungan": "戊",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF65-gate": {
+      "matches": 270,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "未",
+        "mode": "昼贵",
+        "month": "申",
+        "checks": [
+          {
+            "condition": "日墓发用",
+            "met": true,
+            "actual": {
+              "initial": "未",
+              "tomb": "未"
+            }
+          },
+          {
+            "condition": "发用兼本季关神",
+            "met": true,
+            "actual": {
+              "month": "申",
+              "gate": "未"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "未",
+            "tianjiang": "青龙",
+            "xungan": "辛",
+            "positions": [
+              "第1课上神",
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF66-wealth-tomb": {
+      "matches": 360,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初传为支墓且日财",
+            "met": true,
+            "actual": {
+              "initial": "辰",
+              "branch_tomb": "辰",
+              "kin": "妻财"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "卯",
+            "tian": "辰",
+            "tianjiang": "六合",
+            "xungan": "戊",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF67-carrier": {
+      "matches": 6432,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "实际白虎见相关位置",
+            "met": true,
+            "actual": {
+              "di": "戌",
+              "tian": "申",
+              "tianjiang": "白虎",
+              "xungan": "壬"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF68-rescue": {
+      "matches": 7728,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "相关位置见日鬼",
+            "met": true,
+            "actual": [
+              "申"
+            ]
+          },
+          {
+            "condition": "相关位置子孙能克已见鬼",
+            "met": true,
+            "actual": [
+              "午"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF71-illness": {
+      "matches": 280,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "亥",
+        "checks": [
+          {
+            "condition": "岁支已知",
+            "met": true,
+            "actual": "亥"
+          },
+          {
+            "condition": "岁病符临支且克支",
+            "met": true,
+            "actual": {
+              "year": "亥",
+              "illness": "戌",
+              "upper": "戌"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF72-mourning": {
+      "matches": 1736,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "申",
+        "checks": [
+          {
+            "condition": "岁支已知",
+            "met": true,
+            "actual": "申"
+          },
+          {
+            "condition": "丧吊全见干支上或三传",
+            "met": true,
+            "actual": {
+              "year": "申",
+              "mourning": [
+                "戌",
+                "午"
+              ]
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF73-return-clamp": {
+      "matches": 1560,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初传受所临下位克（临干用日干）",
+            "met": true,
+            "actual": {
+              "lower": "申",
+              "initial": "寅",
+              "ground": "申"
+            }
+          },
+          {
+            "condition": "初回本宫又受上神克",
+            "met": true,
+            "actual": {
+              "home": "寅",
+              "upper": "申"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "丙",
+            "positions": [
+              "第2课上神",
+              "初传",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF74-all-void": {
+      "matches": 648,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "戌",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传各空陷",
+            "met": true,
+            "actual": [
+              {
+                "di": "辰",
+                "tian": "戌",
+                "tianjiang": "朱雀",
+                "xungan": "空",
+                "positions": [
+                  "第1课上神",
+                  "初传",
+                  "末传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              },
+              {
+                "di": "戌",
+                "tian": "辰",
+                "tianjiang": "太常",
+                "xungan": "戊",
+                "positions": [
+                  "第2课上神",
+                  "中传"
+                ],
+                "void_self": false,
+                "void_ground": true
+              },
+              {
+                "di": "辰",
+                "tian": "戌",
+                "tianjiang": "朱雀",
+                "xungan": "空",
+                "positions": [
+                  "第1课上神",
+                  "初传",
+                  "末传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "戌",
+            "tianjiang": "朱雀",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "初传",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "辰",
+            "tianjiang": "太常",
+            "xungan": "戊",
+            "positions": [
+              "第2课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF74-sky-void": {
+      "matches": 216,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传两空陷余一乘天空",
+            "met": true,
+            "actual": [
+              {
+                "di": "寅",
+                "tian": "亥",
+                "tianjiang": "贵人",
+                "xungan": "空",
+                "positions": [
+                  "第2课上神",
+                  "第3课上神",
+                  "初传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              },
+              {
+                "di": "亥",
+                "tian": "申",
+                "tianjiang": "玄武",
+                "xungan": "壬",
+                "positions": [
+                  "第4课上神",
+                  "中传"
+                ],
+                "void_self": false,
+                "void_ground": true
+              },
+              {
+                "di": "申",
+                "tian": "巳",
+                "tianjiang": "天空",
+                "xungan": "己",
+                "positions": [
+                  "末传"
+                ],
+                "void_self": false,
+                "void_ground": false
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "亥",
+            "tianjiang": "贵人",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "申",
+            "tianjiang": "玄武",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "巳",
+            "tianjiang": "天空",
+            "xungan": "己",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF74-lessons-void": {
+      "matches": 528,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "戊辰",
+        "upper": "亥",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "四课各空陷",
+            "met": true,
+            "actual": [
+              {
+                "di": "巳",
+                "tian": "亥",
+                "tianjiang": "朱雀",
+                "xungan": "空",
+                "positions": [
+                  "第1课上神",
+                  "初传",
+                  "末传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              },
+              {
+                "di": "亥",
+                "tian": "巳",
+                "tianjiang": "太常",
+                "xungan": "己",
+                "positions": [
+                  "第2课上神",
+                  "中传"
+                ],
+                "void_self": false,
+                "void_ground": true
+              },
+              {
+                "di": "辰",
+                "tian": "戌",
+                "tianjiang": "六合",
+                "xungan": "空",
+                "positions": [
+                  "第3课上神"
+                ],
+                "void_self": true,
+                "void_ground": false
+              },
+              {
+                "di": "戌",
+                "tian": "辰",
+                "tianjiang": "玄武",
+                "xungan": "戊",
+                "positions": [
+                  "第4课上神"
+                ],
+                "void_self": false,
+                "void_ground": true
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "亥",
+            "tianjiang": "朱雀",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "初传",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "巳",
+            "tianjiang": "太常",
+            "xungan": "己",
+            "positions": [
+              "第2课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "辰",
+            "tian": "戌",
+            "tianjiang": "六合",
+            "xungan": "空",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "辰",
+            "tianjiang": "玄武",
+            "xungan": "戊",
+            "positions": [
+              "第4课上神"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF75-two-punish": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "卯",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "两上分见子卯",
+            "met": true,
+            "actual": [
+              "卯",
+              "子"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "卯",
+            "tianjiang": "六合",
+            "xungan": "丁",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "甲",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF75-three-punish": {
+      "matches": 1368,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传集齐三刑",
+            "met": true,
+            "actual": [
+              "寅",
+              "巳",
+              "申"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "寅",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "巳",
+            "tian": "巳",
+            "tianjiang": "勾陈",
+            "xungan": "己",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF75-self-punish": {
+      "matches": 360,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙亥",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "四课上皆逢自刑支",
+            "met": true,
+            "actual": [
+              "辰",
+              "辰",
+              "亥",
+              "亥"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "辰",
+            "tianjiang": "勾陈",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "亥",
+            "tianjiang": "天后",
+            "xungan": "乙",
+            "positions": [
+              "第3课上神",
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF76-harm-each": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丁丑",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "第1对六害",
+            "met": true,
+            "actual": [
+              "未",
+              "子"
+            ]
+          },
+          {
+            "condition": "第2对六害",
+            "met": true,
+            "actual": [
+              "丑",
+              "午"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "未",
+            "tianjiang": "勾陈",
+            "xungan": "癸",
+            "positions": [],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "丙",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "丑",
+            "tianjiang": "太阴",
+            "xungan": "丁",
+            "positions": [],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "丑",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第3课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF76-harm-upper": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "第1对六害",
+            "met": true,
+            "actual": [
+              "巳",
+              "寅"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "巳",
+            "tianjiang": "青龙",
+            "xungan": "己",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "寅",
+            "tianjiang": "朱雀",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF76-harm-base-upper": {
+      "matches": 240,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "丙寅",
+        "upper": "巳",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "第1对六害",
+            "met": true,
+            "actual": [
+              "巳",
+              "寅"
+            ]
+          },
+          {
+            "condition": "第2对六害",
+            "met": true,
+            "actual": [
+              "巳",
+              "寅"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "巳",
+            "tianjiang": "天空",
+            "xungan": "己",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "寅",
+            "tianjiang": "六合",
+            "xungan": "丙",
+            "positions": [
+              "第3课上神",
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF76-harm-trans": {
+      "matches": 48,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "亥",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "第1对六害",
+            "met": true,
+            "actual": [
+              "申",
+              "亥"
+            ]
+          },
+          {
+            "condition": "第2对六害",
+            "met": true,
+            "actual": [
+              "亥",
+              "申"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "申",
+            "tianjiang": "太阴",
+            "xungan": "壬",
+            "positions": [
+              "第3课上神",
+              "初传",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "亥",
+            "tianjiang": "白虎",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF76-harm-cross": {
+      "matches": 1440,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "未",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "第1对六害",
+            "met": true,
+            "actual": [
+              "未",
+              "子"
+            ]
+          },
+          {
+            "condition": "第2对六害",
+            "met": true,
+            "actual": [
+              "巳",
+              "寅"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "未",
+            "tianjiang": "天空",
+            "xungan": "辛",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "未",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "巳",
+            "tianjiang": "太常",
+            "xungan": "己",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "寅",
+            "tianjiang": "天后",
+            "xungan": "丙",
+            "positions": [],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF81-tomb-chain": {
+      "matches": 1248,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "中为初墓",
+            "met": true,
+            "actual": {
+              "initial": "酉",
+              "middle": "丑",
+              "initial_tomb": "丑"
+            }
+          },
+          {
+            "condition": "末坐中墓地",
+            "met": true,
+            "actual": {
+              "final": "巳",
+              "ground": "丑",
+              "middle": "丑"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "巳",
+            "tian": "酉",
+            "tianjiang": "六合",
+            "xungan": "癸",
+            "positions": [
+              "第4课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "酉",
+            "tian": "丑",
+            "tianjiang": "天后",
+            "xungan": "乙",
+            "positions": [
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "巳",
+            "tianjiang": "白虎",
+            "xungan": "己",
+            "positions": [
+              "第3课上神",
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF82-stop": {
+      "matches": 2160,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "初传自支坐地皆实",
+            "met": true,
+            "actual": {
+              "di": "丑",
+              "tian": "子",
+              "tianjiang": "天后",
+              "xungan": "甲",
+              "positions": [
+                "第2课上神",
+                "初传"
+              ],
+              "void_self": false,
+              "void_ground": false
+            }
+          },
+          {
+            "condition": "中末皆空陷",
+            "met": true,
+            "actual": [
+              {
+                "di": "子",
+                "tian": "亥",
+                "tianjiang": "太阴",
+                "xungan": "空",
+                "positions": [
+                  "第3课上神",
+                  "中传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              },
+              {
+                "di": "亥",
+                "tian": "戌",
+                "tianjiang": "玄武",
+                "xungan": "空",
+                "positions": [
+                  "第4课上神",
+                  "末传"
+                ],
+                "void_self": true,
+                "void_ground": true
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [
+              "第3课上神",
+              "中传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "亥",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第4课上神",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF84-break-union": {
+      "matches": 1128,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传三合局",
+            "met": true,
+            "actual": {
+              "members": "申子辰",
+              "element": "水",
+              "middle": "子"
+            }
+          },
+          {
+            "condition": "局中神与干支上刑冲害",
+            "met": true,
+            "actual": [
+              {
+                "upper": "午",
+                "middle": "子",
+                "relation": "冲"
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "辰",
+            "tianjiang": "玄武",
+            "xungan": "戊",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "辰",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "甲",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF87-each-seat": {
+      "matches": 312,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "天盘干寄宫坐指定墓",
+            "met": true,
+            "actual": {
+              "tian": "辰",
+              "ground": "未",
+              "reference": "乙",
+              "tomb": "未"
+            }
+          },
+          {
+            "condition": "天盘日支坐指定墓",
+            "met": true,
+            "actual": {
+              "tian": "丑",
+              "ground": "辰",
+              "reference": "丑",
+              "tomb": "辰"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "未",
+            "tian": "辰",
+            "tianjiang": "勾陈",
+            "xungan": "戊",
+            "positions": [],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "辰",
+            "tian": "丑",
+            "tianjiang": "腾蛇",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF87-cross-seat": {
+      "matches": 264,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "辛未",
+        "upper": "辰",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "天盘干寄宫坐指定墓",
+            "met": true,
+            "actual": {
+              "tian": "戌",
+              "ground": "辰",
+              "reference": "未",
+              "tomb": "辰"
+            }
+          },
+          {
+            "condition": "天盘日支坐指定墓",
+            "met": true,
+            "actual": {
+              "tian": "未",
+              "ground": "丑",
+              "reference": "辛",
+              "tomb": "丑"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "戌",
+            "tianjiang": "勾陈",
+            "xungan": "空",
+            "positions": [
+              "第2课上神"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "未",
+            "tianjiang": "腾蛇",
+            "xungan": "辛",
+            "positions": [
+              "第4课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF89-moving": {
+      "matches": 888,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "寅",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "天地盘伏吟",
+            "met": true,
+            "actual": {
+              "di": "子",
+              "tian": "子",
+              "tianjiang": "天后",
+              "xungan": "甲"
+            }
+          },
+          {
+            "condition": "相关位置见旬丁或日马",
+            "met": true,
+            "actual": [
+              "寅"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "寅",
+            "tianjiang": "腾蛇",
+            "xungan": "丙",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF90-empty-return": {
+      "matches": 384,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "乙丑",
+        "upper": "戌",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "天地盘返吟",
+            "met": true,
+            "actual": {
+              "di": "子",
+              "tian": "午",
+              "tianjiang": "天空",
+              "xungan": "庚"
+            }
+          },
+          {
+            "condition": "三传全空陷",
+            "met": true,
+            "actual": [
+              {
+                "di": "辰",
+                "tian": "戌",
+                "tianjiang": "朱雀",
+                "xungan": "空",
+                "positions": [
+                  "第1课上神",
+                  "初传",
+                  "末传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              },
+              {
+                "di": "戌",
+                "tian": "辰",
+                "tianjiang": "太常",
+                "xungan": "戊",
+                "positions": [
+                  "第2课上神",
+                  "中传"
+                ],
+                "void_self": false,
+                "void_ground": true
+              },
+              {
+                "di": "辰",
+                "tian": "戌",
+                "tianjiang": "朱雀",
+                "xungan": "空",
+                "positions": [
+                  "第1课上神",
+                  "初传",
+                  "末传"
+                ],
+                "void_self": true,
+                "void_ground": false
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "辰",
+            "tian": "戌",
+            "tianjiang": "朱雀",
+            "xungan": "空",
+            "positions": [
+              "第1课上神",
+              "初传",
+              "末传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "辰",
+            "tianjiang": "太常",
+            "xungan": "戊",
+            "positions": [
+              "第2课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          }
+        ]
+      }
+    },
+    "BF92-dragon": {
+      "matches": 1224,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "午",
+        "mode": "夜贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "青龙乘神生干且见相关位置",
+            "met": true,
+            "actual": {
+              "di": "申",
+              "tian": "子",
+              "tianjiang": "青龙",
+              "xungan": "甲"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "子",
+            "tianjiang": "青龙",
+            "xungan": "甲",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF92-dragon-month": {
+      "matches": 102,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "午",
+        "mode": "夜贵",
+        "month": "寅",
+        "checks": [
+          {
+            "condition": "青龙乘神生干且见相关位置",
+            "met": true,
+            "actual": {
+              "di": "申",
+              "tian": "子",
+              "tianjiang": "青龙",
+              "xungan": "甲"
+            }
+          },
+          {
+            "condition": "兼月生气",
+            "met": true,
+            "actual": {
+              "month": "寅",
+              "live": "子"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "申",
+            "tian": "子",
+            "tianjiang": "青龙",
+            "xungan": "甲",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF93-origin": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "核三传来源和采用起法；不按趋避需要改三传，保留北海对古例另起法的批评"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF94-void-action": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "分别看见生/克/财/救/盗的真实作用条件；空亡、受克、恋生及直接临身分层，沿用U08"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF95-kin-group": {
+      "matches": 2832,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "午",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "三传三合局",
+            "met": true,
+            "actual": {
+              "members": "申子辰",
+              "element": "水",
+              "middle": "子"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "辰",
+            "tianjiang": "玄武",
+            "xungan": "戊",
+            "positions": [
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "辰",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "申",
+            "tian": "子",
+            "tianjiang": "腾蛇",
+            "xungan": "甲",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "寅",
+            "tian": "午",
+            "tianjiang": "白虎",
+            "xungan": "庚",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF96-void-kins": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "本旬两空分别映射六亲、将、禄及所在位置；不将“空”固定翻译成没有"
+          }
+        ],
+        "points": [
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "丑",
+            "tian": "亥",
+            "tianjiang": "太阴",
+            "xungan": "空",
+            "positions": [],
+            "void_self": true,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF97-absent-kind": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "主类神取准后检查干支上、三传、已核年命；不现时按占类补天地盘，不一律否决"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF98-scope": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "仅解释与原问和主线相关之象；不凭无关格名扩写疾病、外遇、死亡等事实"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF99-context": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "结合真实职业角色、目标、进退阶段取义；不把古代身份贵贱判辞直接套今人"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF100-stage": {
+      "matches": 0,
+      "candidates": 0,
+      "methods": 17280,
+      "example": {
+        "day": "甲子",
+        "upper": "子",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "本法属于按问推理核查，程序不宣布完成",
+            "met": null,
+            "actual": "灾已发不能保证后续无灾；北海明确反驳大全概括，暂不采用灾已发即免灾自动规则"
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "子",
+            "tianjiang": "天后",
+            "xungan": "甲",
+            "positions": [
+              "第1课上神"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "子",
+            "tian": "戌",
+            "tianjiang": "玄武",
+            "xungan": "空",
+            "positions": [
+              "第2课上神",
+              "第3课上神",
+              "初传"
+            ],
+            "void_self": true,
+            "void_ground": false
+          },
+          {
+            "di": "戌",
+            "tian": "申",
+            "tianjiang": "白虎",
+            "xungan": "壬",
+            "positions": [
+              "第4课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": true
+          },
+          {
+            "di": "申",
+            "tian": "午",
+            "tianjiang": "青龙",
+            "xungan": "庚",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF100-finish": {
+      "matches": 1152,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "甲子",
+        "upper": "申",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "干上五行绝且鬼或财",
+            "met": true,
+            "actual": {
+              "upper": "申",
+              "end": "申",
+              "kin": "官鬼"
+            }
+          }
+        ],
+        "points": [
+          {
+            "di": "寅",
+            "tian": "申",
+            "tianjiang": "青龙",
+            "xungan": "壬",
+            "positions": [
+              "第1课上神",
+              "中传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    },
+    "BF100-earth-conflict": {
+      "matches": 384,
+      "candidates": 0,
+      "methods": 0,
+      "example": {
+        "day": "癸酉",
+        "upper": "丑",
+        "mode": "昼贵",
+        "month": "子",
+        "checks": [
+          {
+            "condition": "壬癸日",
+            "met": true,
+            "actual": "癸"
+          },
+          {
+            "condition": "初末土鬼互冲",
+            "met": true,
+            "actual": [
+              "丑",
+              "未"
+            ]
+          }
+        ],
+        "points": [
+          {
+            "di": "丑",
+            "tian": "丑",
+            "tianjiang": "勾陈",
+            "xungan": "乙",
+            "positions": [
+              "第1课上神",
+              "第2课上神",
+              "初传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          },
+          {
+            "di": "未",
+            "tian": "未",
+            "tianjiang": "太阴",
+            "xungan": "辛",
+            "positions": [
+              "末传"
+            ],
+            "void_self": false,
+            "void_ground": false
+          }
+        ]
+      }
+    }
+  },
+  "unreached": []
+}

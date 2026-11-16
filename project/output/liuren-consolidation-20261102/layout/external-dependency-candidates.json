@@ -1,0 +1,111 @@
+{
+  "scope": "1813 active text files; explicit paths are leads, not proof of active use; no raw lines/secrets stored",
+  "regex_hits": 20,
+  "references": [
+    {
+      "file": ".opencode/tools/liuren_chart.ts",
+      "line": 13,
+      "path_token": "C:/Program Files",
+      "credential_path": false
+    },
+    {
+      "file": "tools/audit-bazi-distillation.py",
+      "line": 9,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏\\八字体系重整-20261024",
+      "credential_path": false
+    },
+    {
+      "file": "tools/batch-case-charts.mjs",
+      "line": 249,
+      "kind": "sibling_workflow",
+      "path_token": "大六壬研判工作流",
+      "credential_path": false
+    },
+    {
+      "file": "tools/generate-current-case-charts.mjs",
+      "line": 10,
+      "path_token": "C:/Users/QLMa_/WorkBuddy/2026-10-18-12-01-33/qq_homework",
+      "credential_path": false
+    },
+    {
+      "file": "tools/generate-current-case-charts.mjs",
+      "line": 11,
+      "kind": "sibling_workflow",
+      "path_token": "大六壬研判工作流",
+      "credential_path": false
+    },
+    {
+      "file": "tools/package-qqwb20261019-repaired.py",
+      "line": 11,
+      "path_token": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "credential_path": false
+    },
+    {
+      "file": "tools/prepare-bazi-distillation.py",
+      "line": 27,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏\\八字蒸馏输出",
+      "credential_path": false
+    },
+    {
+      "file": "tools/qqwb20261019-reviewed-images.py",
+      "line": 7,
+      "path_token": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "credential_path": false
+    },
+    {
+      "file": "tools/record-bazi-rejections.py",
+      "line": 4,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏\\八字体系重整-20261024",
+      "credential_path": false
+    },
+    {
+      "file": "tools/repair-qqwb20261019-charts.mjs",
+      "line": 6,
+      "path_token": "C:/Users/QLMa_/WorkBuddy/2026-10-18-12-01-33/qq_homework/batch_20261019",
+      "credential_path": false
+    },
+    {
+      "file": "tools/repair-qqwb20261019-charts.mjs",
+      "line": 7,
+      "kind": "sibling_workflow",
+      "path_token": "大六壬研判工作流",
+      "credential_path": false
+    },
+    {
+      "file": "tools/run-bazi-distill.py",
+      "line": 11,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏",
+      "credential_path": false
+    },
+    {
+      "file": "tools/separate-qqwb20261019.py",
+      "line": 9,
+      "path_token": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "credential_path": false
+    },
+    {
+      "file": "tools/sync-bazi-delivery.py",
+      "line": 4,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏\\八字体系重整-20261024",
+      "credential_path": false
+    },
+    {
+      "file": "tools/verify-bazi-model-sessions.py",
+      "line": 4,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏\\八字体系重整-20261024",
+      "credential_path": false
+    },
+    {
+      "file": "tools/verify-qqwb20261019-repaired.py",
+      "line": 10,
+      "path_token": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019",
+      "credential_path": false
+    },
+    {
+      "file": "tools/write-bazi-delivery.py",
+      "line": 4,
+      "path_token": "C:\\Users\\QLMa_\\Documents\\仓颉蒸馏\\八字体系重整-20261024",
+      "credential_path": false
+    }
+  ]
+}

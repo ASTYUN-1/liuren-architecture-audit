@@ -1,0 +1,14 @@
+{
+  "replayed": true,
+  "modelCalled": false,
+  "metadata": {
+    "agent": "liuren-adjudicator",
+    "model": "deepseek/deepseek-flash",
+    "variant": "high",
+    "request_id": "smoke-20261105",
+    "status": "completed",
+    "contractChecked": true,
+    "fileReadVerified": true,
+    "pagesRead": 2
+  }
+}

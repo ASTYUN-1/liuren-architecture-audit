@@ -1,0 +1,53 @@
+{
+  "documentStatus": "proposal_not_runtime_config",
+  "version": "20261016-draft-1",
+  "currency": "CNY",
+  "pointsPerCny": 10,
+  "unitsPerPoint": 10,
+  "billingMode": "points",
+  "aiPricingMode": "metered_capped",
+  "features": {
+    "pointsTopupEnabled": false,
+    "pointsAiEnabled": false,
+    "humanAssistEnabled": false,
+    "legacyNewOrdersEnabled": false,
+    "legacyFulfillmentEnabled": true
+  },
+  "pricing": {
+    "costMarkup": 3,
+    "initial": { "baseUnits": 200, "capUnits": 800 },
+    "followup": { "baseUnits": 50, "capUnits": 300 },
+    "humanAssist": { "fixedUnits": 990, "minutes": 10, "includedExplanationRounds": 1 },
+    "optionalFixedMode": { "initialUnits": 500, "followupUnits": 200, "enabled": false },
+    "rounding": "ceil_once_to_one_unit_after_coupon",
+    "unknownUsagePolicy": "exclude_unknown_cost_charge_base_and_verified_usage_only",
+    "failedAttemptPolicy": "operator_cost_only",
+    "legacyCouponPolicy": "one_initial_at_80_percent_no_topup_human_or_followup_discount"
+  },
+  "topup": {
+    "suggestedCnyCents": [1000, 2000, 5000],
+    "manualReviewAboveCnyCents": 20000,
+    "wechatId": "",
+    "wechatQrPath": "",
+    "friendRequestRemark": "问衡咨询",
+    "matchAccountBy": "topup_code",
+    "autoBonusEnabled": false,
+    "cashRefundForPurchasedUnusedOnly": true
+  },
+  "timing": {
+    "aiQueuedCancelAfterMinutes": 30,
+    "humanAcceptWithinHours": 24,
+    "humanDeliverAfterAcceptWithinHours": 24,
+    "humanConfirmationHours": 48,
+    "humanDisputeRefundAfterDays": 7
+  },
+  "advisors": [
+    { "id": "congkui", "name": "从魁", "avatarDraftPath": "assets/credits-advisors-20261016/congkui.jpg", "wechatId": "", "wechatQrPath": "", "accepting": false, "drawWeight": 1 },
+    { "id": "liurenshi", "name": "六壬师", "avatarDraftPath": "assets/credits-advisors-20261016/liurenshi.jpg", "wechatId": "", "wechatQrPath": "", "accepting": false, "drawWeight": 1 },
+    { "id": "qing", "name": "清", "avatarDraftPath": "assets/credits-advisors-20261016/qing.jpg", "wechatId": "", "wechatQrPath": "", "accepting": false, "drawWeight": 1 },
+    { "id": "wenwen", "name": "温温", "avatarDraftPath": "assets/credits-advisors-20261016/wenwen.jpg", "wechatId": "", "wechatQrPath": "", "accepting": false, "drawWeight": 1 },
+    { "id": "ming", "name": "明", "avatarDraftPath": "assets/credits-advisors-20261016/ming.jpg", "wechatId": "", "wechatQrPath": "", "accepting": false, "drawWeight": 1 }
+  ],
+  "advisorDisclosure": "五个咨询接待身份，由同一位运营者提供服务。",
+  "draw": { "free": true, "allowRedraw": true, "requireContactToCreatePaidRequest": true }
+}

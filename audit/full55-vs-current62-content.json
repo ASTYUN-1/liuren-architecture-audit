@@ -1,0 +1,128 @@
+[
+  {
+    "path": "entry.md",
+    "full55_sha256": "5b075a392de4d6a2b3eabdd5d4f767944c4841f9e483918163a0fc441d85bac2",
+    "current62_sha256": "7867630ab97c303b3c5bbba874915ac10bf6477ffd9b0ec973197ecef7a435a3",
+    "same_bytes": false
+  },
+  {
+    "path": "references/judgment-core.md",
+    "full55_sha256": "588366809c301bdde24ca5969e09bfbf4ae93550bf85d1dec1139226e7686a19",
+    "current62_sha256": "e90d836c9a895e1653fecda985457d2f27bf54ca6051fa6c263b5a432531356d",
+    "same_bytes": false
+  },
+  {
+    "path": "methods/adjudication.md",
+    "full55_sha256": "35303b220d38510dd8c5d478acda4fcc3e7ac8f3865056638bc30bd2c26f6030",
+    "current62_sha256": "35303b220d38510dd8c5d478acda4fcc3e7ac8f3865056638bc30bd2c26f6030",
+    "same_bytes": true
+  },
+  {
+    "path": "methods/report.md",
+    "full55_sha256": "25d42797a242e3416d68483b3af2456ef97d77270db57bb1d3d0c7f0eeebe1bf",
+    "current62_sha256": "25d42797a242e3416d68483b3af2456ef97d77270db57bb1d3d0c7f0eeebe1bf",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/finance.md",
+    "full55_sha256": "70e2fac40d86f8b6616ec8323c095219675e91bba54487d4dd94d8ededd8e106",
+    "current62_sha256": "70e2fac40d86f8b6616ec8323c095219675e91bba54487d4dd94d8ededd8e106",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/recruitment.md",
+    "full55_sha256": "a830bc7c4a80dd92a1703521851dc5d244da8db99e2b8dcdbaacae002c3ed4cf",
+    "current62_sha256": "a830bc7c4a80dd92a1703521851dc5d244da8db99e2b8dcdbaacae002c3ed4cf",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/promotion-salary.md",
+    "full55_sha256": "6559bd640b84aa0d282141bbd5333a7ef03c81ee9ec545e980092d3b3b6c2237",
+    "current62_sha256": "6559bd640b84aa0d282141bbd5333a7ef03c81ee9ec545e980092d3b3b6c2237",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/relationship.md",
+    "full55_sha256": "c1d557bf557a69a1be6eabfa7c077cd3de788b144d04d7c4e1a2b41d347c54f6",
+    "current62_sha256": "c1d557bf557a69a1be6eabfa7c077cd3de788b144d04d7c4e1a2b41d347c54f6",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/interpersonal.md",
+    "full55_sha256": "d2923c3fff9c22612628f8da4750ccf6d957a2606a12015f5c018347ee4e9910",
+    "current62_sha256": "d2923c3fff9c22612628f8da4750ccf6d957a2606a12015f5c018347ee4e9910",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/period-outlook.md",
+    "full55_sha256": "a5612f103695f9366e48c8cc3c006c11c84f106cd4ca5ad64c2ccefc1693436f",
+    "current62_sha256": "a5612f103695f9366e48c8cc3c006c11c84f106cd4ca5ad64c2ccefc1693436f",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/long-period.md",
+    "full55_sha256": "178c6d9df8819fca967f41714ea91c82bad7d6df4a8ce105d50c692aa9e7c3ff",
+    "current62_sha256": "178c6d9df8819fca967f41714ea91c82bad7d6df4a8ce105d50c692aa9e7c3ff",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/pregnancy.md",
+    "full55_sha256": "036d81dbb9364bef319838986b2b4e49ec99c16380f8a4e4b2b05b794d3911c0",
+    "current62_sha256": "036d81dbb9364bef319838986b2b4e49ec99c16380f8a4e4b2b05b794d3911c0",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/exam.md",
+    "full55_sha256": "86e0d25e4b8138eebd9bd2e667ead10778b93ff60f5ae6a537813926c8e3e4ea",
+    "current62_sha256": "86e0d25e4b8138eebd9bd2e667ead10778b93ff60f5ae6a537813926c8e3e4ea",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/illness.md",
+    "full55_sha256": "f3aedb44e08723074e15aa861e39e809f221d8b473f5b87285d09c8815678c6f",
+    "current62_sha256": "f3aedb44e08723074e15aa861e39e809f221d8b473f5b87285d09c8815678c6f",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/lost-person-object.md",
+    "full55_sha256": "f566f9e343da13e49f002c08e80f00ed585a73c7971d5e4785ba152e1c219470",
+    "current62_sha256": "f566f9e343da13e49f002c08e80f00ed585a73c7971d5e4785ba152e1c219470",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/classical-conflict.md",
+    "full55_sha256": "54b3bd6e5eb850523ab13030a5e7ed6c2110a7639e8a2e5390d87ebde6574afb",
+    "current62_sha256": "54b3bd6e5eb850523ab13030a5e7ed6c2110a7639e8a2e5390d87ebde6574afb",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/home.md",
+    "full55_sha256": "ec9cb16fff5bea92561d1222a00fb9a9039caab1f2c169a7650be5fed9a51b25",
+    "current62_sha256": "ec9cb16fff5bea92561d1222a00fb9a9039caab1f2c169a7650be5fed9a51b25",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/travel.md",
+    "full55_sha256": "331aed9f8fcc5eb345350ad97f9d087b12376a392449c19b0b82ee2adeb14a6a",
+    "current62_sha256": "331aed9f8fcc5eb345350ad97f9d087b12376a392449c19b0b82ee2adeb14a6a",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/weather.md",
+    "full55_sha256": "fdc63862c562e440c3c008bb3ce1489a871e477680b87e4fb423e6d16ad736c9",
+    "current62_sha256": "fdc63862c562e440c3c008bb3ce1489a871e477680b87e4fb423e6d16ad736c9",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/agriculture.md",
+    "full55_sha256": "eddfe7787e2b363d654ddfed0a0457cc8c1374e5fdb4c52b7a0702025fbe28e2",
+    "current62_sha256": "eddfe7787e2b363d654ddfed0a0457cc8c1374e5fdb4c52b7a0702025fbe28e2",
+    "same_bytes": true
+  },
+  {
+    "path": "domains/litigation.md",
+    "full55_sha256": "f3b319e78932d88277840c44422e50f9b762ff5254ebc0371e72ed6b9428f744",
+    "current62_sha256": "f3b319e78932d88277840c44422e50f9b762ff5254ebc0371e72ed6b9428f744",
+    "same_bytes": true
+  }
+]

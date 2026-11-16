@@ -1,0 +1,45 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import tool from '../../.opencode/tools/liuren_materials.ts';
+
+const context = sessionID => ({ sessionID, abort: new AbortController().signal });
+const firstLine = text => {
+  const line=text.split('\n',1)[0], space=line.indexOf(' ');
+  return [line.slice(0,space),JSON.parse(line.slice(space+1))];
+};
+const bodies = text => text.split('LIUREN_TEXT_BEGIN ').slice(1).map(chunk => {
+  const start=chunk.indexOf('\n'),end=chunk.indexOf('\nLIUREN_TEXT_END ');
+  return [JSON.parse(chunk.slice(0,start)),chunk.slice(start+1,end)];
+});
+
+test('native tool reads a complete current method by ID without a batch plan',async()=>{
+  assert.ok(tool.args.module);
+  const text=await tool.execute({action:'method',module:'movement'},context('single-method-session'));
+  const [label,meta]=firstLine(text);
+  assert.equal(label,'LIUREN_METHOD_BEGIN');
+  assert.equal(meta.module,'movement');
+  assert.equal(meta.completeModule,true);
+  assert.ok(text.includes('有路扫描'));
+  assert.ok(text.includes('LIUREN_METHOD_END '));
+  assert.ok(!text.includes('LIUREN_READING_PLAN'));
+  await assert.rejects(()=>tool.execute({action:'method',module:'../../opencode.json'},context('single-method-session')));
+});
+
+test('native tool binds identity to trusted session, keeps old calls and full-plan escape',async()=>{
+  assert.ok(tool.args.plan_id);
+  assert.ok(tool.args.full_plan);
+  assert.equal(tool.args._context_key,undefined);
+  const args={action:'methods',domains:['illness'],batch:1};
+  const first=await tool.execute(args,context('transport-session-A'));
+  const [label,plan]=firstLine(first);
+  assert.equal(label,'LIUREN_READING_PLAN');
+  const next=await tool.execute({...args,plan_id:plan.plan_id},context('transport-session-A'));
+  assert.equal(firstLine(next)[0],'LIUREN_READING_PLAN_REF');
+  assert.deepEqual(bodies(next),bodies(first));
+  const full=await tool.execute({...args,plan_id:plan.plan_id,full_plan:true},context('transport-session-A'));
+  assert.equal(firstLine(full)[0],'LIUREN_READING_PLAN');
+  const other=await tool.execute({...args,plan_id:plan.plan_id},context('transport-session-B'));
+  assert.equal(firstLine(other)[0],'LIUREN_READING_PLAN');
+  assert.notEqual(firstLine(other)[1].plan_id,plan.plan_id);
+  assert.deepEqual(bodies(other),bodies(first));
+});

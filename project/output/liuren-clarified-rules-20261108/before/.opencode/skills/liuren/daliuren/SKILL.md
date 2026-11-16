@@ -1,0 +1,21 @@
+---
+name: daliuren
+description: 使用可信程序课盘完成大六壬占事研判，核心交接、按需查证、独立裁决并完整交付。
+---
+
+# 大六壬占事
+
+主线：原问与可信盘→依问取用及有效作用→核心交接→独立裁决→核对交付。
+
+1. 理解实际事件、对象、阶段、期限、成功标准及条件分支；取得或复用liuren_chart的archive。读judgment-core及本问domain，依简明规范综合取用、完整课传、气态、空墓、神将、神煞、动态及最强反证。固定排盘/神煞起法直接用程序；初势不冻结成败。
+2. 详细通用方法和原书按具体疑点查，不再固定通读原8模块。决定性规则条件不清、反证冲突或摘要不足时，查相应模块/连续原段。应期、数量、年命按实际需要；只给占时或比较迟速不自动要求整套应期取数。原方法全文保留可查，同版同上下文已读复用，不统一无关异说。
+3. 读adjudication后准备中性材料：facts仅补现实事实或来源身份，不重复整盘；entities写候选取用与简短理由；observations仅留影响本问且程序表未表达的必要观察；focus_issues只列真实未决处，无则[]。method_modules只列确需备查的模块，原书交精确handoff，不复制章节。程序生成完整盘与核心、来源索引；参考正文另存，不作为裁决必读。
+4. packet返回task_prompt原样交新task，裁决者按next_call读完核心，必要时用同一reader的material_id/module定点读原文，可从完整盘补漏。参考不是强制阅读清单。主智能体返回只核事实、引用、问项覆盖和一致性，不重新权衡折中；读report后按回执领取完整正文。
+
+准备必读judgment-core、adjudication及本问domain；report在交付前读。详细positioning/liqi/structure/void/shensha-use/movement及其他专项均保留，按真实缺口触发。16占类沿用当前manifest；时间任务查timing，数量查quantity，数表缺口查quantity-sources，采用年命查nianming。
+
+保留占类专法对待轴、完整盘查漏、有效制救与最强反证；类象按对象、位置、气态和条件参与结果，不凭名象数票。普通研判不检索案例/经验库、旧缓存或现实反馈；知识维护另走liuren-cases/liuren-extract。正常年命/行年保留，出生推命及运限退出占事。
+
+参数不明查liuren_tool_help；成功按next_call接续。工具契约liuren-tools-31，workflow须execution_health.ready及features.core_handoff/on_demand_sources为true。工程校验不证明专业或预测效果。
+
+已确认判断口径以活动judgment-core的U01—U11为准。主智能体准备时不将已定规则重列为两说，真实缺口才列C编号及所缺条件；子智能体依同版规则独立查漏裁决，不能从旧摘录任选反向口径。返回核对包含U口径一致性；发现具体违规，逐字定位报告及U编号，附绑定规则证据，沿宿主一次补核协议处理，不由主智能体自行折中改判。

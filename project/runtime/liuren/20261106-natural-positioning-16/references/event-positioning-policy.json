@@ -1,0 +1,59 @@
+{
+  "schema": "liuren-event-positioning-v1",
+  "release": "20261106-natural-positioning-16",
+  "authority": "explicit-user-instruction",
+  "scope": "local-opencode-event-divination",
+  "domains": [
+    "exam",
+    "illness",
+    "finance",
+    "recruitment",
+    "promotion-salary",
+    "relationship",
+    "interpersonal",
+    "period-outlook",
+    "long-period",
+    "pregnancy",
+    "lost-person-object",
+    "classical-conflict",
+    "home",
+    "travel",
+    "weather",
+    "agriculture"
+  ],
+  "readDomainRequired": true,
+  "attachFullDomainMethods": true,
+  "kinshipDoesNotSelectActor": true,
+  "sourceReferences": [
+    {
+      "path": "书籍库/北海闲人/六壬金针_修正版.md",
+      "lf": [
+        584,
+        586,
+        587,
+        588,
+        589,
+        2365,
+        2366,
+        2368
+      ]
+    },
+    {
+      "path": "书籍库/北海闲人/理法简易.txt",
+      "lf": [
+        377,
+        381,
+        1005,
+        1007,
+        1346
+      ]
+    }
+  ],
+  "sourceDisagreement": "嫡属六亲异法保留，不在本机普通单事自动执行",
+  "predictiveValidation": false,
+  "interpretation": "model-event-interpretation",
+  "semanticRoleChecks": false,
+  "actorReferenceRequired": false,
+  "outputRoleLock": false,
+  "addedRoleReviewStage": false
+}

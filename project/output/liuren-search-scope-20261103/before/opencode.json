@@ -1,0 +1,51 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "skills": {
+    "paths": [
+      ".opencode/skills"
+    ]
+  },
+  "references": {
+    "liuren-cases": {
+      "path": "案例项目库",
+      "description": "本机六壬案例库；按子问短词检索并实际阅读原档，保留来源、条件、相似与差异。同卦追问续用有效资料，prepare/read/check仅可选审计，不是回答门禁。"
+    },
+    "liuren-index": {
+      "path": "案例项目库/_metadata_index.md",
+      "description": "旧案例索引，只作兼容定位；日常使用search-cases.py定位原档，说明实际查询与未读范围。"
+    },
+    "jingyan-log": {
+      "path": "经验日志",
+      "description": "六壬经验与来源方法；仅为条件候选，先核对原文、反例和来源身份，来源称验不等于本案验证。"
+    },
+    "liuren-guji": {
+      "path": "书籍库",
+      "description": "六壬古籍原文与速查资料库（只读）：古籍蒸馏、断法查阅时使用"
+    },
+    "liuren-sucha": {
+      "path": "书籍库/解课速查",
+      "description": "六壬速查表（课体、干支关系、天将、神煞、占类等）：断课快速查表"
+    },
+    "liuren-mingpan": {
+      "path": "书籍库/六壬命法",
+      "description": "六壬推命专书（格局/十二宫/运限）：liuren-tuiming 参考"
+    },
+    "paipan-archive": {
+      "path": "排盘存档",
+      "description": "六壬程序排盘归档；同卦复用可靠程序盘，需要新盘时用本机直接排盘。facts与解释断语分别核对，不为追问强制prepare。"
+    },
+    "liuren-research": {
+      "path": "knowledge/liuren-research/20261102",
+      "description": "带来源与条件的审读规则。默认过滤暂停项；来源方法与可迁移规则区分，统一会话检查不证明术理正确。"
+    }
+  },
+  "instructions": [
+    "docs/本机OpenCode完整输出规则.md",
+    "docs/本机六壬高效执行.md"
+  ],
+  "permission": {
+    "skill": {
+      "wenheng-public-output": "deny"
+    }
+  }
+}

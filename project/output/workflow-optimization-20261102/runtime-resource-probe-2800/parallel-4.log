@@ -1,0 +1,20 @@
+Running as unit: wenheng-runtime-parallel-4-20261102102453.service; invocation ID: 02f950dd1fc5401e86f3ae29d5bc7131
+LOCAL_CONCURRENCY_BEGIN {"concurrency":4,"nodeRssBytes":107810816}
+LOCAL_CONCURRENCY_PHASE_RESULT {"concurrency":4,"durationMs":30408,"requests":8,"maxActive":4,"isolatedContexts":4,"nodeRssBytes":499646464}
+LOCAL_CONCURRENCY_EVIDENCE {"paidApiRequests":0,"results":[{"concurrency":4,"durationMs":30408,"requests":8,"maxActive":4,"isolatedContexts":4,"nodeRssBytes":499646464}]}
+✔ 隔离OpenCode并发2/4：上下文不混、仅模拟费用、所有运行正常回收 (30410.159183ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 31406.353508
+CGROUP_FINAL_MEMORY_PEAK_BYTES=2753544192
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 31.447s
+CPU time consumed: 31.419s
+Memory peak: 2.5G
+Memory swap peak: 0B

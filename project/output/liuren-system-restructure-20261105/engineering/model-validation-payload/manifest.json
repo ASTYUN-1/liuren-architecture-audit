@@ -1,0 +1,40 @@
+{
+  "candidate": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05",
+  "methodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "files": {
+    "user-prompt.txt": {
+      "sha256": "d98aecec56a36e734aecc951e78d0f665375eba073cacd041621f8341ac85623",
+      "bytes": 468
+    },
+    "void-condition-output.json": {
+      "sha256": "816af7a20793387c39b52b94c700281e4bef13bf8802adc5de3e0a538397354c",
+      "bytes": 4818
+    },
+    "void-method-output.txt": {
+      "sha256": "87428ef17bb355847997d482d8c57919849eb6447e947738848099888a34dc1a",
+      "bytes": 5601
+    },
+    "instructions/AGENTS.md": {
+      "sha256": "5dc819a181efe30ce7d8aa32290efe890524ffeed8bc8f4cb9b407af1f7f60eb",
+      "bytes": 1009
+    },
+    "skills/daliuren/SKILL.md": {
+      "sha256": "e72320436f9ea45478cb1eae40f9ddad766ee31b816f709698f6f8a600c5c86d",
+      "bytes": 4745
+    },
+    "skills/liuren-cases/SKILL.md": {
+      "sha256": "17188918526a556d1a59b01dded22e6cd8a127a514221c6e9076476f46220249",
+      "bytes": 859
+    },
+    "skills/liuren-extract/SKILL.md": {
+      "sha256": "aca5f44befa1efa4097d31d9792efd249e0ecd5ced0e311cd9cf67a37a967694",
+      "bytes": 806
+    },
+    "instructions/docs/候选执行说明.md": {
+      "sha256": "2dcb18ab635de257b21fb6550169054655b956149e5b97e2309593f211497493",
+      "bytes": 563
+    }
+  },
+  "totalPreparedBytes": 18869,
+  "nativeOpenCodeSystemPromptNotIncludedInByteCount": true
+}

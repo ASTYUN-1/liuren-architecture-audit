@@ -1,0 +1,23 @@
+{
+  "release": "20261111-bifa-use-45-final",
+  "runtime": "runtime/liuren/20261111-bifa-use-45-final",
+  "methodVersion": "2582a8b2dbc9d7173d8d0079c3c54c2f75b50f65a6c16b7339db8d7c6d52bfd1",
+  "files": {
+    "tools/liuren-core-handoff.mjs": "efc3034745b5835eaa4b4855f3660b0b77fe856d2da4718e088e67a486107f03",
+    ".opencode/plugins/liuren-adjudication.ts": "a99f34b905636ff25b28c775d25f1807532e1133cf2a337322c9ec1b984a02cd",
+    "opencode.json": "a8e3b6c4f7e928460b81819144eadd453cdd835c374f06bb8e2528c18490121d",
+    ".opencode/oh-my-opencode-slim.jsonc": "68b6c75b652c7da94eb8cc3e302f9335afd5ec1f9e4838c17553272352bc567f",
+    ".opencode/liuren-active.json": "78f9418f7da12a91e18f364c71957c067d4b7257777f4f8a1878b82fc0a9fb2d",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "c686ca3c36f0c6406473f0cddd90fd8d2efa2d0dfd6816accf8ba6d128badf47",
+    "integrations/codex/daliuren-codex/SKILL.md": "e8db315588738f56b61b603ac696267baaff31916e8facb4276432dc9ecba824",
+    "integrations/codex/daliuren-codex/references/host.md": "ecd0e89636649e0a896b5f6281513cf73f961e37d578b70ac8e18366e08b27f5",
+    "README.md": "b4e497b50d8191840f2417da956f03b7c8b82a66b68449b44271246ace5f4377",
+    "目录总索引.md": "d5acfbb2b60839347695b9762c54a5c589edfd8bd29a4e7d2a699c4b56e6802f",
+    "docs/本机六壬高效执行.md": "3680b7572ad4bf7415ceb86b25e37cabb758dfdfa243b69cf7e61f036bc1331b",
+    "tools/tests/liuren-core-handoff.test.mjs": "0d8c336349ceb7c7e0104110e0301463f72501b975638f4367a4aac8137ad108",
+    "tools/tests/liuren-codex.test.mjs": "e8af3c9bbec3f35030f8f11ed1de778e2e4948beb6f4092a381b2b696e97f290"
+  },
+  "frozen44_unchanged": true,
+  "interim45_unchanged": true,
+  "models_unchanged": true
+}

@@ -1,0 +1,335 @@
+{
+  "count": 23,
+  "files": [
+    {
+      "case_id": "raw-anli001-0005",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\anli001\\raw-anli001-0005.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "anli001",
+      "sha256": "7de4b98fcd36bfd70b31baaa414e061fc81171d810c516272ea5807e656ed476",
+      "has_chart_facts": false,
+      "issues": [
+        "SPECIAL_DIVINATION_METHOD"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-anli001-0011",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\anli001\\raw-anli001-0011.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "anli001",
+      "sha256": "fd7719d7e0e3085035bf3101ea991bd8d1e0db66b6ae0b69df50c232d1859a68",
+      "has_chart_facts": false,
+      "issues": [
+        "MINUTE_NOT_SUPPLIED"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-anli001-0021",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\anli001\\raw-anli001-0021.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "anli001",
+      "sha256": "4d6d7a61a1f5f130719e909bef8c6f849f0ce3e57cfb3b85e330a5015503c374",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-anli001-0030",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\anli001\\raw-anli001-0030.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "anli001",
+      "sha256": "e75e7551215a21d137326afe07d646d6d3a5c1ab22e7da767f5fd356917540e0",
+      "has_chart_facts": false,
+      "issues": [
+        "HOUR_PILLAR_NEEDS_RESOLUTION"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-anli002-0006",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\anli002\\raw-anli002-0006.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "anli002",
+      "sha256": "465bbae2f39aee21fc258b26a8b850703029d54a03c91e48261fc86d2aa8a89d",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0001",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0001.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "3131903b9201ed921ae66c382f279a54bc96eb600fb6d78fa12f054faa9027e9",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0006",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0006.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "30b1426d4574fbaf6a328dcf54c22872878ec824a8e458540076d7f51ddcdb32",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0008",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0008.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "4187fada2d122ef413c54ff043451a5c9c3dadbd6022061322e5216aabb83957",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0010",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0010.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "cd32bf2f3aee70a7766992a7dc8c3dcb2d7936c904e73fd1d22253315242632c",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_PILLARS_MISMATCH",
+          "message": "程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0012",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0012.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "7f5d08778c0104b62bdb6bf8a1c709c1043b8ef63818c4d51c83d5d005f5ee82",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_PILLARS_MISMATCH",
+          "message": "程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0024",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0024.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "93a98c8c558974fbbdc1133d228815bb4e9adb0758778f95ab92f43191f503ac",
+      "has_chart_facts": false,
+      "issues": [
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0033",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0033.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "bf4d3c8394eefa844ebc8a54a110a077d46c913329e8b2d2dbac2b7c3b4e4f75",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_MONTH_GENERAL_MISMATCH",
+          "message": "程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0044",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0044.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "a438f98a070b6b4eaf7d1f7ae4652372e5e307bb5f12404323e4c92689149b75",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0048",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0048.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "4d3c77dee2ba89cd66b4f6729ec8dffc3abedc1538e82c5df3da0c51aa4867d3",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_PILLARS_MISMATCH",
+          "message": "程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0049",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0049.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "3968d22942a172ebe28f8aed84e08575843cc10fc4ef8d9c442140e9bcca7be8",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_MONTH_GENERAL_MISMATCH",
+          "message": "程序月将与初级资料转录的月将不一致，须复核图源或换将约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0056b",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0056b.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "3d34efd37aa3bf407fe64336c816d634d031fc50d81d8eb900e300e2bfff5579",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0057",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0057.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "29d6a118f3dbd950135e53dbc7fc5bbc10c77b47ec00dcfc26dfa73587d0eb6c",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0060a",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0060a.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "741e5c6aed8d19a735f24d8cecfbccf5375e1dbe66cfaaeaa9b739caa87a212b",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_PILLARS_MISMATCH",
+          "message": "程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0060b",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0060b.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "f0d0abe6a0051d5471780b904fb1600568ee51bab6ac43f50238b1f8f08dd24d",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0061",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0061.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "901aa568bfde91fcf0dee70c6112c1347e3e32f854dac261f0b4d9a92164131f",
+      "has_chart_facts": true,
+      "issues": [],
+      "validation_errors": [
+        {
+          "code": "SOURCE_PILLARS_MISMATCH",
+          "message": "程序四柱与初级资料转录的题干四柱不一致，须复核图源或历法约定"
+        }
+      ]
+    },
+    {
+      "case_id": "raw-qqwb20261018-0065",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0065.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "c08e3b62f4c500d6b3e7c5fb23cd61c8b5bd04173c454899ae3d52f3cfbfe0ce",
+      "has_chart_facts": false,
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+        "IMAGE_LEDGER_TIME_MISMATCH",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0067",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0067.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "306c10cec9182aa2a82f4591b5e9f37abcefb0acfad8f8510cbbe41d2dae8527",
+      "has_chart_facts": false,
+      "issues": [
+        "SPECIAL_DIVINATION_METHOD"
+      ],
+      "validation_errors": []
+    },
+    {
+      "case_id": "raw-qqwb20261018-0069",
+      "file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\盘面资料\\batch-20261018\\qqwb20261018\\raw-qqwb20261018-0069.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false,
+      "source": "qqwb20261018",
+      "sha256": "31719d8bf84fbc89f57d74a98dc74a9d9b38d7354a16ef769318dca2ef428b4e",
+      "has_chart_facts": false,
+      "issues": [
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+      ],
+      "validation_errors": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "release": "20261106-receipt-handoff-13",
+  "allInstalledHashesMatch": true,
+  "oldRuntimeUnchanged": true,
+  "tests": 161,
+  "passed": 161,
+  "installedTestLogSha256": "340bcd8970b8d6595960972bf40f661f607de05c404c3080bcab83496ad3bacf",
+  "doctorProgramChartOk": true,
+  "doctorResearchIssues": 85,
+  "realModelCalled": false,
+  "realReportReplayedWithoutChange": true
+}

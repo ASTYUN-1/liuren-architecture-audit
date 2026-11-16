@@ -1,0 +1,45 @@
+{
+  "ui": {
+    "origin": "https://wen.qiluhub.com",
+    "passed": true,
+    "browser": "Edge / Playwright; Browser plugin not available",
+    "viewports": [
+      "1310x950",
+      "390x844"
+    ],
+    "posts": 3,
+    "checks": [
+      "dashboard entry",
+      "page identity/nonblank/no overlay",
+      "console health",
+      "reservation and amounts",
+      "summary + completion checkbox required",
+      "successful redemption and history",
+      "search + empty state",
+      "conflict preserves form",
+      "dispute blocks redemption; release works",
+      "mobile no overflow and usable modal",
+      "Escape close",
+      "English",
+      "ordinary user and guest gated"
+    ],
+    "realBookingsModified": 0
+  },
+  "publicSmoke": {
+    "/": {
+      "status": 200
+    },
+    "/api/status": {
+      "status": 200,
+      "workerOnline": true,
+      "aiEnabled": true,
+      "modelConfigured": true
+    },
+    "/admin/human-assists": {
+      "status": 200
+    },
+    "/api/admin/human-assists": {
+      "status": 401
+    }
+  }
+}

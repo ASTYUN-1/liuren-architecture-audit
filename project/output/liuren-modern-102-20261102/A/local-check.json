@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "case_ids": [
+    "BK26-MODERN-002",
+    "BK26-MODERN-003",
+    "BK26-MODERN-004",
+    "BK26-MODERN-005",
+    "BK26-MODERN-006",
+    "BK26-MODERN-007",
+    "BK26-MODERN-008",
+    "BK26-MODERN-009",
+    "BK26-MODERN-011",
+    "BK26-MODERN-012",
+    "BK26-MODERN-013",
+    "BK26-MODERN-014",
+    "BK26-MODERN-015",
+    "BK26-MODERN-017",
+    "BK26-MODERN-018",
+    "BK26-MODERN-019",
+    "BK26-MODERN-020",
+    "BK26-MODERN-021",
+    "BK26-MODERN-022",
+    "BK26-MODERN-023",
+    "BK26-MODERN-024",
+    "BK26-MODERN-025",
+    "BK26-MODERN-026",
+    "BK26-MODERN-027",
+    "BK26-MODERN-028",
+    "BK26-MODERN-029",
+    "BK26-MODERN-030"
+  ],
+  "counts": {
+    "cases": 27,
+    "segments": 287,
+    "subjudgments": 365,
+    "rules": 71,
+    "families": 5,
+    "exact_refs": 1730
+  },
+  "independent_validation_count": 0,
+  "global_validation_owner": "/root/knowledge_tools"
+}

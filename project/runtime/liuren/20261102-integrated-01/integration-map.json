@@ -1,0 +1,75 @@
+{
+  "parent": "20261023-modular-03",
+  "checkpoint": "fffb14cbb62a1a0130c7acb85e12ed9e9b6b5ba7",
+  "changes": {
+    "methods/timing.md": {
+      "reason": "沿原E节补起点、尺度、条件、轮次；六组导航与行路语境",
+      "before": "12d4de1f35890fd1b2c3c2441c063cd85c06ad132c95e9e7e9769a4c20d4d159",
+      "after": "8aa69ca3080ac60f431de990bf41b2b4cb5296252836849c97ed91f2b67558d7",
+      "sourceSha256": "d1033da9dc127346f89b93eadac51c98f8c099ef93338eca647f0094b427c608"
+    },
+    "methods/liqi.md": {
+      "reason": "区分力量、时态、大小与运算；日干及遁干的参助职责",
+      "before": "80f218b6d7a191c96607e14aabbc7022d68166ec6000886279609c8063e7b83d",
+      "after": "cc85c696e94b1d1b30df1932d4efc4b430e5e629c2a5096bddb9a4941ab33ade",
+      "sourceSha256": "ca20c3f1f403adc9692fe9d20f10fdc5242ccd7170d847f24b8fd67c6c21b58c"
+    },
+    "methods/quantity.md": {
+      "reason": "同一Skill内条件加载的共用数量六环及精度",
+      "before": null,
+      "after": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0",
+      "sourceSha256": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0"
+    },
+    "references/quantity-sources.md": {
+      "reason": "按需核数表、互斥数法、原断和待补算法",
+      "before": null,
+      "after": "3e63faff33de2c75cfca6bc892fb2767762fd4d5d8dbc40f7f27a6a63af726fe",
+      "sourceSha256": "4efed311b729a46f00b6b9b69677c167fc33cba1dbeeeee29a4bf0bbb06e2788"
+    },
+    "domains/finance.md": {
+      "reason": "数量入口接共用规程，保留金额口径职责",
+      "before": "37b5893861abfc8aadb2663af5671fd99ab0c58a0d75da5398115d3c58bcfbbd",
+      "after": "43d23119cf8feabbf6e58ed1c1fa975dfdf74ea3859c374cfef8974f3da3c043",
+      "sourceSha256": "43d23119cf8feabbf6e58ed1c1fa975dfdf74ea3859c374cfef8974f3da3c043"
+    },
+    "domains/exam.md": {
+      "reason": "数量入口接共用规程，保留成绩口径职责",
+      "before": "fdd00e6820922a78fad9e7b8a09be09a15b206756f4055ec0da49c753eb385ed",
+      "after": "a606cecd01a3a3a88e6ed0972fb06f9f00920d5adf3977a8e2a9a4e545a3d2c1",
+      "sourceSha256": "a606cecd01a3a3a88e6ed0972fb06f9f00920d5adf3977a8e2a9a4e545a3d2c1"
+    },
+    "domains/lost-person-object.md": {
+      "reason": "数量入口接共用规程，保留空间和距离口径",
+      "before": "7805770f7ba9d3c1983b317f21154ebbfa85840935180cb658d6f627e3a1e7c8",
+      "after": "04104e82e4c62e2fbb942d97f4fbb1885c34fc583acbcec4aa29abb608b0f973",
+      "sourceSha256": "04104e82e4c62e2fbb942d97f4fbb1885c34fc583acbcec4aa29abb608b0f973"
+    },
+    "methods/report.md": {
+      "reason": "复用逐问结论给数式；应期补起点，不增常驻附表",
+      "before": "a463195242c04ab6f6a2f47780da51bee57c9d9bc28e3ccb7cfe66ba2f3713d2",
+      "after": "7280de4c94d0cd98ecdf19bb5296b078fa21713eb350d286f6e7055749d7598e",
+      "sourceSha256": "7280de4c94d0cd98ecdf19bb5296b078fa21713eb350d286f6e7055749d7598e"
+    },
+    "entry.md": {
+      "reason": "生成条件读取入口",
+      "before": "9a184197a13bf28850e093f05ca8bf26b0a687e38f09500f4b7b69a80909f004",
+      "after": "fcbc7cc4a373cf100f0ae269f9c53f6680af8fee9f52caee391ed77e82121ef0",
+      "sourceSha256": "285bead568e18fb0a901f83abdba93f8851e30a9c5f0f1da91f75d674595da16"
+    },
+    "reading-route.json": {
+      "reason": "新增数量及来源条件，仍为十一环节",
+      "before": "8bfe19248fe13405492e5003c59aa33926ca64be7f14b098128c57f4c3014916",
+      "after": "a7338e77bed9c459ee62c314eab2655e3ed831793c691042ac2c0275b8126a4c",
+      "sourceSha256": "a7338e77bed9c459ee62c314eab2655e3ed831793c691042ac2c0275b8126a4c"
+    }
+  },
+  "historicalCoverage": "coverage.json/seed-receipt.json retain parent migration history; this map records the delta",
+  "evidence": {
+    "docs/应期取数归纳-20261027/原文证据摘录.md": "90dbb48ec8deac68fb3d1eea686b0c223f8828a71598c83b462ba0a24f8d203c",
+    "docs/应期取数归纳-20261027/核心归纳-审阅稿.md": "e878af037360495f394bf99da092add32d5ed5b43f1fc20680ea0640ff72c00f",
+    "docs/应期取数归纳-20261027/天干参与及奇门参照-补充审阅稿.md": "3f16bf74924c758057c0ee782191f07b734337e875a00bcf35531e689f821800",
+    "docs/应期取数归纳-20261027/天一群笔记专项核查.md": "db3c156778239b45602ea181ce9cf84bbcd2c79667032d226aec83e2155d32c4",
+    "output/应期取数归纳-20261027/curated-evidence.json": "8b4b43ba6ecf593412de6e66233bd99d7844383dff62111f17a68db3a090042d"
+  },
+  "predictionTested": false
+}

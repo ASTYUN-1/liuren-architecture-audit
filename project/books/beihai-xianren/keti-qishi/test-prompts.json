@@ -1,0 +1,73 @@
+{
+  "skill": "keti-qishi",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我占一下接下来一年经济走势，这轮危机会不会加深？",
+      "expected_behavior": "应激活 keti-qishi, 并按九宗门→毕法→位次三层读课体气势：先定课名大势（如返吟主反复/凝阴主低迷），再列毕法课传结构（干支生合刑克/乘墓等），输出方向性结论与气势强弱。",
+      "notes": "正面场景：占大势/走向/危机加深，取不到具体类神，走课体线（A2-1）。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "占人民币升值的走势，未来是升值还是贬值，向哪个方向发展？",
+      "expected_behavior": "应激活 keti-qishi, 并读课体气势判断方向：如初传蛇末传龙『蛇化为龙』由小变大、初传空末传实主升值必然，太岁登天门主本年行权；输出方向性结论。",
+      "notes": "正面场景：向何方向发展类宏观问题，书中案例 3 同类（A2-1）。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我是单位的中层，占下有没有升迁可能，但具体岗位什么的我也说不清楚。",
+      "expected_behavior": "应激活 keti-qishi, 并先读课体大势：干支上神关系与九宗门课名（如干支乘墓/鬼墓发用则『不能升不能迁』、墓主阻滞），输出升迁与否的方向性结论；若发现明确凶课体则转交 xiongsha-suduan 细化神将层。",
+      "notes": "正面场景：问升迁但取不到具体类神的宏观问题（A2-2）。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "占我这两年的整体格局，课体气势怎么样？是不是凝阴课、有没有乘墓？",
+      "expected_behavior": "应激活 keti-qishi, 并明确课名（九宗门）与毕法格局清单：如纯阴课主阴晦无阳气/暂无升迁，干支乘墓主阻滞、墓覆支走下坡路；输出格局与阻滞点。",
+      "notes": "正面场景：用户直接点名格局/课体/气势关键词（A2-4、A2-5）。"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "divination: what is the trend and direction of the stock market for the coming months?",
+      "expected_behavior": "应激活 keti-qishi, 并对英文关键词（divination/trend/direction/stock/market）命中后读课体气势，输出股市方向性结论（吉课则吉、凶课则凶）。",
+      "notes": "正面场景：英文触发词（trend/direction/stock/market）。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我算一下今年农历除夕是哪一天，顺便看看这月有没有闰月。",
+      "expected_behavior": "不应激活本 skill, 因为这是纯历法计算，无占课、无大势吉凶判断需求。",
+      "notes": "诱饵: 完全无关场景（历法计算）——历法运算不属课体气势阅读。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占一下我能不能拍到这块地皮，这件具体的物事到底能不能得到？",
+      "expected_behavior": "不应激活本 skill, 应激活 leishen-keti：这是具体物件能否得到、类神象明晰的单事成败，应走类神线确立主线，而非读课体大势（两条主线二选一，不可同课双线并行抢结论）。",
+      "notes": "跨 skill 混淆诱饵 (硬性要求至少 1 条): 类神 vs 课体主线分叉，contrasts-with 关系的核心边界测试。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "这个课里哪个象会被引动？接下来事件会怎么动、是什么在引发变化？",
+      "expected_behavior": "不应激活本 skill, 应激活 youlu-lilun：用户问的是动态引动（合刑冲破害六种有路、阴神推演），而本 skill 读的是静态课体结构（九宗门→毕法→位次）；动静两条路线不可混淆。",
+      "notes": "跨 skill 混淆诱饵: 课体静态结构 vs 有路动态引动，contrasts-with 关系的边界测试。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占下公司明年的整体方向，但我还担心这一波会不会裁员裁到我头上。",
+      "expected_behavior": "应激活 keti-qishi 读课体大势给出公司方向与阶段吉凶（走课体线）；但『会不会裁到我个人』已落入单事成败，应再以类神线（leishen-keti）或对应专项复核，本 skill 不应对个人成败下结论。",
+      "notes": "边界: 大势与个人单事混杂在同一问句，合理做法是以课体读大势、个人成败移交类神线，不能把课体结论直接套到个人头上。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "5 should_trigger + 3 should_not_trigger + 1 edge_case。诱饵类型：1 条完全无关（历法计算）、2 条同书兄弟 skill 混淆（leishen-keti 类神线、youlu-lilun 动态引动）。全部 should_not_trigger 必须通过（诱饵容错为 0），且含 1 条以上同书兄弟 skill 场景（跨 skill 混淆测试）。"
+}

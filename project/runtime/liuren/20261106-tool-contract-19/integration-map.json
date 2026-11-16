@@ -1,0 +1,42 @@
+{
+  "parent": "20261105-subagent-adjudication-07",
+  "change": "准备到可裁决；完整盘查错漏与重点裁决；返回核查和依据复用",
+  "authoringSource": "output/liuren-workflow-boundaries-20261106",
+  "previousIntegration": {
+    "parent": "20261105-restructure-01",
+    "change": "高手断例调查后把真假、取与、类聚及区别依据融入原三阶段；14必查、16专项、11覆盖不变",
+    "authoringSource": "output/liuren-adjudication-integration-20261105",
+    "previousIntegration": {
+      "parent": "20261105-liqi-led-01",
+      "previousIntegration": {
+        "parent": "20261104-shensha-authority-02",
+        "change": "对象与事实定位、结果与程度、反证裁决在原步骤内替换；常驻+298字符，无新增必读模块",
+        "independentValidation": 0
+      },
+      "change": "用户指定理气统摄、象法表达；关键类神与四课三传及彼此关系一体分析；结构前移，保留十一环节与原方法",
+      "authoringSource": "knowledge/liuren-v3/revisions/20261105-liqi-led-02",
+      "changedFiles": [
+        "entry.md",
+        "methods/adjudication.md",
+        "methods/class-mapping.md",
+        "methods/evidence.md",
+        "methods/liqi.md",
+        "methods/movement.md",
+        "methods/positioning.md",
+        "methods/relations.md",
+        "methods/report.md",
+        "methods/shenjiang-use.md",
+        "methods/structure.md",
+        "reading-route.json",
+        "references/shensha-use.md"
+      ],
+      "independentValidation": 0,
+      "revisionMap": "mapping-preservation.json",
+      "note": "在不改动已激活01包的前提下补齐正文修订追溯；语义政策保持01版"
+    },
+    "revisionMap": "adjudication-revision-map.json",
+    "independentValidation": 0
+  },
+  "revisionMap": "workflow-boundaries-revision.json",
+  "independentValidation": 0
+}

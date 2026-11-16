@@ -1,0 +1,346 @@
+{
+  "schema": "image-ledger-v1",
+  "note": "哈希为本轮对本地现有图片计算，未改动采集原台账",
+  "images": [
+    {
+      "seq": 2,
+      "idx": 1,
+      "file": "pan/002_1.jpg",
+      "sha256": "c480a02dd5fee12765c07e7ac5581bbf58728b847b5f535dc283aa1c01ef4d6d",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-05-22 22:52",
+      "time_raw": "2026年5月22日(四月初六)22:52"
+    },
+    {
+      "seq": 2,
+      "idx": 2,
+      "file": "pan/002_2.jpg",
+      "sha256": "fa2f5146d7a200c3996700881bab5b1b0277cbe4cb0b26f4f2062f6f94c6a9fd",
+      "sha256_origin": "computed_this_run",
+      "type": "事件示意",
+      "time_norm": "",
+      "time_raw": ""
+    },
+    {
+      "seq": 3,
+      "idx": 1,
+      "file": "pan/003_1.jpg",
+      "sha256": "be301753b90489d11b7257745ee962e73f0bae114d04a0da8ab3c40312018a55",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-08-14 20:37",
+      "time_raw": "公历 2026年8月14日 20:37（农历 2026年7月2日 戌时 星期五）"
+    },
+    {
+      "seq": 11,
+      "idx": 1,
+      "file": "pan/011_1.jpg",
+      "sha256": "f2b9ce77be85fb31c9ef54e4e9048cadbdb5327eaf12240ff342257a1bfcf8c7",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2025-07-09 18:45",
+      "time_raw": "2025-07-09 18:45"
+    },
+    {
+      "seq": 22,
+      "idx": 1,
+      "file": "pan/022_1.jpg",
+      "sha256": "3edbf99a9277df9ef2fc5ee33257f7263bfa07266ad45ca5dcabcd63928e2645",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-08-19 19:25",
+      "time_raw": "2026年8月19日19时25分 农历:七月初七 周三"
+    },
+    {
+      "seq": 27,
+      "idx": 1,
+      "file": "pan/027_1.jpg",
+      "sha256": "296033b21f2ed679dd8659acc1e483e164ef8305517283b550945d607a3759b9",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-06-24 15:57",
+      "time_raw": "2026年6月24日(五月初十)15:57"
+    },
+    {
+      "seq": 33,
+      "idx": 1,
+      "file": "pan/033_1.jpg",
+      "sha256": "d6769948a3f39073cec065e976b9c2c6c593871045367b7b2cdfa9f856ced6ae",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-03-05 17:25",
+      "time_raw": "[当代]中国公历纪元2026年 2026年3月5日 17时25分 星期四 正月十七 雨水(正时、甲戊庚牛羊、卯酉夜、孟仲季、中气换将)"
+    },
+    {
+      "seq": 36,
+      "idx": 1,
+      "file": "pan/036_1.jpg",
+      "sha256": "dea0b0bce94e8c6f7aae282a720abd3226219ba0de7524b76e1811f626af6844",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-06-11 21:29",
+      "time_raw": "2026年06月11日 21时29分(四月廿六)"
+    },
+    {
+      "seq": 43,
+      "idx": 1,
+      "file": "pan/043_1.jpg",
+      "sha256": "39eef007594cc7e862296a07b00da228298e2dd0d13814fa9ba67d07321dc1a4",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-08-11 23:13",
+      "time_raw": "2026年08月11日 23时13分(六月廿九)"
+    },
+    {
+      "seq": 54,
+      "idx": 1,
+      "file": "pan/054_1.jpg",
+      "sha256": "8eaba794218e3e398a988051bb7bc5017e069c1f1adad32cca1eff59bbede433",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-05-28 22:54",
+      "time_raw": "2026年05月28日 22时54分(四月十二)"
+    },
+    {
+      "seq": 57,
+      "idx": 1,
+      "file": "pan/057_1.jpg",
+      "sha256": "843adb290a800d14646c4112725e241222dc76bc837a6a13a374539df07ed041",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-07-29 16:18",
+      "time_raw": "2026-07-29 16:18"
+    },
+    {
+      "seq": 63,
+      "idx": 1,
+      "file": "pan/063_1.jpg",
+      "sha256": "0fce4812123f820d9170d2d0cfb362cd50bca7ba277c2bbb35e639c9ff9608a4",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "",
+      "time_raw": ""
+    },
+    {
+      "seq": 71,
+      "idx": 1,
+      "file": "pan/071_1.jpeg",
+      "sha256": "46fc3eac7a0d84d63b9b36ef35f6691d0a8415be6ef27167fe7a4c9dba4a77d6",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-07-29 23:10",
+      "time_raw": "2026-07-29 23:10"
+    },
+    {
+      "seq": 74,
+      "idx": 1,
+      "file": "pan/074_1.jpeg",
+      "sha256": "141ad49d7785e362cc92abe5cd9a8fe9406ea305a55f143c5a3b0504c4e22d4e",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-06-13 16:58",
+      "time_raw": "[当代]中国 公历纪元2026年 2026年6月13日 16时58分 星期六"
+    },
+    {
+      "seq": 77,
+      "idx": 1,
+      "file": "pan/077_1.jpg",
+      "sha256": "2e43753e34193242de39a474381ffca03008f779dca35ae9f316fc52f4a5012a",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2025-05-01 16:51",
+      "time_raw": "2025年5月1日 16:51"
+    },
+    {
+      "seq": 96,
+      "idx": 1,
+      "file": "pan/096_1.jpg",
+      "sha256": "070f7de270be3169426b404be2fa5ebf41f5cae62c184ac636c6a26663a261e2",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-07-20 03:30",
+      "time_raw": "2026年7月20日3时30分"
+    },
+    {
+      "seq": 96,
+      "idx": 2,
+      "file": "pan/096_2.jpg",
+      "sha256": "76d89cc0b86868f723e618e85254c5cd3403f57c98e90e16dbdad97d63b64b99",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-07-20 08:34",
+      "time_raw": "2026年7月20日8时34分"
+    },
+    {
+      "seq": 99,
+      "idx": 1,
+      "file": "pan/099_1.jpg",
+      "sha256": "dc814b30376f4961a0fc72ff1cec492c70e2a03ee23ecafbbf0757a82e8e55b9",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-07-09 23:11",
+      "time_raw": "2026年07月09日 23时11分"
+    },
+    {
+      "seq": 121,
+      "idx": 1,
+      "file": "pan/121_1.jpeg",
+      "sha256": "45ee0a69cba7bfca92285468571df73f763e2cb83d6837ff93d70086899b9615",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-01-11 20:03",
+      "time_raw": "2026年01月11日 20:03"
+    },
+    {
+      "seq": 129,
+      "idx": 1,
+      "file": "pan/129_1.jpg",
+      "sha256": "9060395f5315f52002a0dd6126244f1053978dd29853bd67db4d7d85af54f51b",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-01-11 18:55",
+      "time_raw": "2026-01-11 18:55:02（冬）"
+    },
+    {
+      "seq": 153,
+      "idx": 1,
+      "file": "pan/153_1.jpg",
+      "sha256": "55ec8cc63f0f8bc3f54cb2358f24ed4fbebd530a48e06cf3a9cbd946ff7e7dd2",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2025-10-22 00:55",
+      "time_raw": "2025年10月22日 00时55分"
+    },
+    {
+      "seq": 159,
+      "idx": 1,
+      "file": "pan/159_1.jpg",
+      "sha256": "259114592904d4a134a42edc0bbadb2f11b9c66b811420caec111edff3347537",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-06-06 13:59",
+      "time_raw": "公历:2026/06/06 13:59"
+    },
+    {
+      "seq": 180,
+      "idx": 1,
+      "file": "pan/180_1.jpg",
+      "sha256": "28f9d59d84647b9ac01f993affbe95644524c45fa063cd0928ea316b9696e63a",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-05-10 10:59",
+      "time_raw": "2026-05-10(三月廿四) 10:59"
+    },
+    {
+      "seq": 180,
+      "idx": 2,
+      "file": "pan/180_2.jpg",
+      "sha256": "b9fba7a7a301bca2686bdf72daf5d5c0f01fcd5eb4543fe3af751ff0590eaca4",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2025-05-27 17:59",
+      "time_raw": "2025-05-27(五月初一) 17:59"
+    },
+    {
+      "seq": 181,
+      "idx": 1,
+      "file": "pan/181_1.jpg",
+      "sha256": "3d6eeb0d9cfa9c0aef038f141bd8124afce2a78a8fc0e17ef9cf26461296d574",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2025-12-02 16:10",
+      "time_raw": "2025-12-02(十月十三) 16:10"
+    },
+    {
+      "seq": 201,
+      "idx": 1,
+      "file": "pan/201_1.jpg",
+      "sha256": "cc5ff63982922773622ec12fd55260ef930c373d8514976bff6a9a4fa6175ab7",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2025-09-27 08:27",
+      "time_raw": "2025年9月27日 08:27"
+    },
+    {
+      "seq": 203,
+      "idx": 1,
+      "file": "pan/203_1.jpg",
+      "sha256": "cb91290c350a07489723b6e79b938fbf3fc5bc5521ce3d23d4ce2993c198d7fa",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-05-03 23:08",
+      "time_raw": "2026-05-03 23:08"
+    },
+    {
+      "seq": 205,
+      "idx": 1,
+      "file": "pan/205_1.jpg",
+      "sha256": "dc848e8528de4547d65a273e0ea6b311dce5c8e0cea29b8b1846233ace5eca07",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-02-04 18:23",
+      "time_raw": "北京时间: 2026-02-04 18:23:00"
+    },
+    {
+      "seq": 215,
+      "idx": 1,
+      "file": "pan/215_1.jpg",
+      "sha256": "a121e6e9472e5d26822652dee49dc1d058caa5b57a54a2d1e9c7299497a8af38",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-04-21 13:08",
+      "time_raw": "2026-04-21 13:08"
+    },
+    {
+      "seq": 218,
+      "idx": 1,
+      "file": "pan/218_1.jpg",
+      "sha256": "4879a92e194fd58d0fe11566ecc252d907bcd1968ad22e5c07e35386247c2ed1",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-01-30 09:32",
+      "time_raw": "2026年01月30日 09时32分(十二月十二)"
+    },
+    {
+      "seq": 229,
+      "idx": 1,
+      "file": "pan/229_1.png",
+      "sha256": "210779da0b643e3b7fd70f7d22d9bc77b3fb36d840f25e18517959b5a307b00a",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-03-02 23:14",
+      "time_raw": "2026年3月2日(正月十四)23:14"
+    },
+    {
+      "seq": 235,
+      "idx": 1,
+      "file": "pan/235_1.jpg",
+      "sha256": "63d0b885215aaf3c38d3fe921d865ffb0ff2f8fed82f46a76dab33c8e26bb58f",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-04-25 22:11",
+      "time_raw": "2026年04月25日 22时11分(三月初九)"
+    },
+    {
+      "seq": 237,
+      "idx": 1,
+      "file": "pan/237_1.png",
+      "sha256": "6f630f18bc32cff9438aafd36e05d2eeec3616de2cab0123ebb38a3b5c0338ba",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "",
+      "time_raw": "2026/03/30(农二月十二)"
+    },
+    {
+      "seq": 239,
+      "idx": 1,
+      "file": "pan/239_1.jpg",
+      "sha256": "383aff508701d71c06ca3553b4f5276773bc9333b2904a015108a7aebd87ff7f",
+      "sha256_origin": "computed_this_run",
+      "type": "课盘",
+      "time_norm": "2026-04-10 23:38",
+      "time_raw": "2026年04月10日 23时38分"
+    }
+  ]
+}

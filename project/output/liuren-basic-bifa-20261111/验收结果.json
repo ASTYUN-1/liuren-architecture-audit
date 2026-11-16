@@ -1,0 +1,196 @@
+{
+  "release": "20261111-basic-bifa-42",
+  "ready": true,
+  "method_version": "5da60d5a51f1b4526d41333e0fe94ad9963f50346f207fc36bd58b5a1f9c79a2",
+  "chart_archive": {
+    "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261111-155456-基本毕法42版交接工程验证-1b156f71-2054-462d-9086-90ba736e7a3f.corrected-4ac565effe15fe4b.json",
+    "sha256": "064e5724f07d9bdc9580023fc5360edd1a9f2fde1dfa6bb86b8fcdef79a09564",
+    "raw_sha256": "7de8b24dc94ae8625d240aabae1aa9c2934b0bfe557b2354c181b016ef4f97b4"
+  },
+  "ai_chart_file": {
+    "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261111-155456-基本毕法42版交接工程验证-1b156f71-2054-462d-9086-90ba736e7a3f.corrected-4ac565effe15fe4b.ai-f33f2c5a53d71637.json",
+    "sha256": "f33f2c5a53d71637e8ada3aa26cdb4e2fb1b0c66b027ed7b59ea58fda609a2f8"
+  },
+  "packet_ref": {
+    "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\bifa42-proof-1794383697167-65ea1bd3-6874-48cf-b95e-42457641638f.json",
+    "sha256": "fd56c496e03b5d1da619cc9ff5016f5e6c588c612d14b5e3ebc2ac199dea8e4e"
+  },
+  "run": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\codex-liuren\\codex-d827fe42-cab1-4406-83ec-31242bc761e9",
+  "bifa_core_field": "chart.bifa_conditions",
+  "chart_equals_core": true,
+  "reader_pages": 4,
+  "matched": [
+    {
+      "id": "BF06-yin",
+      "name": "课传全阴",
+      "checks": [
+        {
+          "condition": "四课上神与三传均为阴支",
+          "met": true,
+          "actual": {
+            "四课": [
+              "卯",
+              "亥",
+              "酉",
+              "巳"
+            ],
+            "三传": [
+              "巳",
+              "丑",
+              "酉"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "BF26-ding",
+      "name": "财乘旬丁",
+      "checks": [
+        {
+          "condition": "日财旬遁丁且见课传",
+          "met": true,
+          "actual": [
+            "亥"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BF26-horse",
+      "name": "财乘日驿马",
+      "checks": [
+        {
+          "condition": "日财兼日驿马且见课传",
+          "met": true,
+          "actual": [
+            "亥"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BF27-drain",
+      "name": "三传合局脱干",
+      "checks": [
+        {
+          "condition": "三传三合成局",
+          "met": true,
+          "actual": "巳酉丑"
+        },
+        {
+          "condition": "日干生合局",
+          "met": true,
+          "actual": "金"
+        }
+      ]
+    },
+    {
+      "id": "BF31-chain",
+      "name": "三传递生",
+      "checks": [
+        {
+          "condition": "初生中生末或末生中生初",
+          "met": true,
+          "actual": [
+            "巳",
+            "丑",
+            "酉"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BF47-prison",
+      "name": "贵临辰戌",
+      "checks": [
+        {
+          "condition": "实际贵人临地盘辰戌",
+          "met": true,
+          "actual": {
+            "di": "辰",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "xungan": "戊"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BF69-plain-hidden",
+      "name": "干明支暗二鬼",
+      "checks": [
+        {
+          "condition": "明鬼支克日干",
+          "met": true,
+          "actual": {
+            "支": "卯",
+            "日干": "己"
+          }
+        },
+        {
+          "condition": "暗鬼旬遁干克日干",
+          "met": true,
+          "actual": {
+            "支": "酉",
+            "旬干": "乙",
+            "日干": "己"
+          }
+        }
+      ]
+    }
+  ],
+  "source_excerpt_ids": [
+    "BF-D26",
+    "BF-D27",
+    "BF-D31",
+    "BF-D47",
+    "BF-D69",
+    "BF-B06",
+    "BF-B31"
+  ],
+  "geometries": 1440,
+  "condition_evaluations": 46080,
+  "counts": {
+    "BF02-boundary": 20,
+    "BF02-return": 270,
+    "BF05-yang": 120,
+    "BF06-yin": 188,
+    "BF16-empty": 83,
+    "BF21-cross": 110,
+    "BF22-main": 20,
+    "BF22-vertical": 20,
+    "BF22-upper": 120,
+    "BF23-to-stem": 20,
+    "BF24-to-branch": 26,
+    "BF26-ding": 116,
+    "BF26-horse": 154,
+    "BF27-drain": 64,
+    "BF31-chain": 352,
+    "BF32-chain": 102,
+    "BF37-assist": 238,
+    "BF41-luma": 12,
+    "BF47-prison": 240,
+    "BF51-gate": 30,
+    "BF52-gate": 120,
+    "BF61-tomb": 6,
+    "BF69-hidden": 107,
+    "BF69-plain-hidden": 156,
+    "BF69-hidden-plain": 48,
+    "BF70-two": 64,
+    "BF77-cross": 50,
+    "BF77-each": 70,
+    "BF83-call": 20,
+    "BF85-clamp": 207,
+    "BF86-internal": 225,
+    "BF91-tiger": 145
+  },
+  "geometry_file_sha256": "9b50e96291c326cafa8f500e11de8e10c992c9be723d06ec70f86302a1cafc0c",
+  "frozen41_unchanged": true,
+  "registered_structures": 32,
+  "represented_laws": 25,
+  "all100LawsComplete": false,
+  "model_calls": 0,
+  "predictive_validation_count": 0,
+  "scope": "实际引擎、正式AI盘、packet及裁决reader链路；未运行真实模型，不证明模型理解或现实预测效果"
+}

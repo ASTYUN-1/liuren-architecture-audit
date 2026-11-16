@@ -1,0 +1,13 @@
+from pathlib import Path
+import hashlib,json,shutil
+R=Path(__file__).resolve().parents[2];O=Path(__file__).resolve().parent
+load=lambda p:json.loads(p.read_text('utf-8-sig'))
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+b=load(O/'before.json');a=load(O/'after.json')
+changed=[f for f,h in a['files'].items() if not (R/f).is_file() or sha(R/f)!=h]
+if changed:raise SystemExit('Refusing changed files: '+', '.join(changed))
+assert all(sha(O/'before'/f)==h for f,h in b['files'].items())
+for f in b['files']:shutil.copy2(O/'before'/f,R/f)
+for f in b['new_files']:
+ p=(R/f).resolve();assert p.is_relative_to(R.resolve());p.unlink()
+print('Restored 59; restart OpenCode. Frozen 60 and experiment records retained.')

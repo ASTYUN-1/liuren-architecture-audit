@@ -1,0 +1,27 @@
+{
+  "release": "20261111-reviewed-bifa-43",
+  "runtime": "runtime/liuren/20261111-reviewed-bifa-43",
+  "methodVersion": "e92435166d4de1ce7b5cbe565ac04c2b260f792bc69e5e5b20a7e0d3f8598459",
+  "old_runtime_unchanged": true,
+  "files": {
+    "tools/liuren-bifa-basic.mjs": "c8c88db406cf4e0064155ff7e72eec0faa7c5e8536984d712626aa327c66c9ba",
+    "tools/liuren-bifa-basic-rules.json": "dbe39e69368f447b90aa8dc12ddddff47dbb8cc47b3bc8cde26b2948c413c4b7",
+    "tools/tests/liuren-bifa-basic.test.mjs": "f19c55f0b1ba302737785e969cab2e0415c89de32365eec247fe704f83f55b86",
+    "tools/liuren-core-handoff.mjs": "77b1b76664d5495d04a156898c0bc36d5960a87d55de47bddfd0a06a12459ae8",
+    ".opencode/liuren-active.json": "35635d8def79ef1ae8d1251b2c19ff190297312ad9150cd69766d50b6d9e805c",
+    "opencode.json": "637e7df64dd198adce27b5901953da314b75165121f67f06d0879c4b20f1f1d7",
+    ".opencode/oh-my-opencode-slim.jsonc": "f135590bab60767a1680936961b53ec63e3e54d10b28f166e724ac53ab6c258c",
+    "README.md": "b304e660b095d9a47a373bd60c38c5db5e98308641bb68e43ab86c5bb6b56521",
+    "目录总索引.md": "1c4c20b5d3eca42ae262d9c8d05f7125c191547789aea150ee400bd42beb00ed",
+    "AGENTS.md": "040c94da9cd54a8b4f4f9b16f590218cf06d3064dc77bf61b57251ff5d491620",
+    "docs/本机六壬高效执行.md": "caaa5149f0192b08993429649ea4a1316fffa3383765f31dc08b16429de4f00b",
+    "integrations/codex/daliuren-codex/SKILL.md": "aba8d0d54f871d0f84bb3b9c807cf3277e053cdf76fa8b226606e7d5374372e2",
+    "integrations/codex/daliuren-codex/references/host.md": "dec292919891eaa9d8707204adfba9b84a4c7dda4ab55cce3b522980cd07ff36",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "be6e547ab32b15736ab8ff1da13bc01a4c74207105e9a5b07cf5289b6d9df621",
+    "tools/tests/liuren-core-handoff.test.mjs": "c7a7bc31fbe6bf7b9c35aa0eb1d03a5218b29eedf88e7a1ad258146de95013d4",
+    "tools/tests/liuren-codex.test.mjs": "10709dcd4bad6a3bae95dbdd0cd8d15af9a2b4fa4d3ae0c032a0f667845d10f0"
+  },
+  "created_test_files": {
+    "tools/tests/liuren-bifa-reviewed.test.mjs": "3dcae73a14f1ccec91d4da64d5cccc039f6367e4d4dbb0de6462e787c2306cd3"
+  }
+}

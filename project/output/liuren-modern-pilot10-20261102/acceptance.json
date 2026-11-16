@@ -1,0 +1,106 @@
+{
+  "result": "PASS",
+  "scope": "E2固定十案及授权E1派生分类同步；没有全库语义复审或预测效果验证",
+  "case_ids": [
+    "BK26-MODERN-031",
+    "BK26-MODERN-042",
+    "BK26-MODERN-044",
+    "BK26-MODERN-073",
+    "BK26-MODERN-074",
+    "BK26-MODERN-075",
+    "BK26-MODERN-077",
+    "BK26-MODERN-082",
+    "BK26-MODERN-087",
+    "BK26-MODERN-096"
+  ],
+  "counts": {
+    "cases": 10,
+    "complete_cases": 10,
+    "author_phase_segments": 107,
+    "subjudgments": 156,
+    "new_source_method_cards": 31,
+    "reused_topic_groups": 6,
+    "new_comparison_families": 5,
+    "existing_rules_compared": 23,
+    "legacy_units_compared": 25,
+    "existing_families_compared": 4,
+    "existing_equivalent_merges": 0,
+    "deletions": 0,
+    "preserved_modern_reviews": 3,
+    "new_modern_reviews": 10
+  },
+  "current_overlay": {
+    "record_count": 492,
+    "eligible_count": 492,
+    "mechanical_valid": true,
+    "explicit_rule_family_count": 43,
+    "semantic_validation": "external_review_declaration_only",
+    "independent_validation_count": 0,
+    "complete": false,
+    "present": true
+  },
+  "evidence_checks": {
+    "exact_contiguous_refs": 782,
+    "unique_source_files": 1,
+    "selected_legacy_exact_units": 25,
+    "original_modern_case_register_unchanged": true,
+    "original_book_sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+  },
+  "e1_derived_sync": {
+    "result": "PASS",
+    "mapped_units": 1419,
+    "legacy_units": 958,
+    "rules": 461,
+    "new_e2_rule_ids_covered": 31,
+    "historical_e1_rules": 430,
+    "historical_e1_mapped_units": 1388,
+    "classification_semantics_changed": false
+  },
+  "method_questions_remain": [
+    "031干孩/父母及计时起点",
+    "075干支正反定位",
+    "077遥克轻重和救链因果",
+    "082月建填空正反说",
+    "087伏吟盘丑未互加坐标",
+    "096单处填实后修订与当次未过"
+  ],
+  "limits": {
+    "independent_validation_count": 0,
+    "project_complete": false,
+    "ten_case_extraction_complete": true,
+    "no_new_cases": true,
+    "no_new_reserved_questions": true,
+    "chart_recalculation": false,
+    "external_model_calls": false,
+    "deployment": false
+  },
+  "retrieval": {
+    "actual_cli_expected_rule_found": true,
+    "ten_case_queries_passed": 10,
+    "details": "search-ten-cases.json / search-digestion.json"
+  },
+  "source_hashes": {
+    "书籍库/现代著作/当代壬占汇选第五版.md": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+    "knowledge/liuren-research/20261102/book-cases/modern.json": "52b649b464684dcbe38541102db88e48d0f8042428f938f434abaf8a5f539a5f"
+  },
+  "artifact_sha256": {
+    "knowledge/liuren-research/20261102/rules/modern-pilot10.json": "fb3300d04cb34a794c8b3f507b29d16adfd4c84067360bf26d55bfda2583dd5d",
+    "knowledge/liuren-research/20261102/families/modern-pilot10.json": "9642fef5b6e669a75542d5aca59381680a52535be379a8c4d1e47e14962eea58",
+    "knowledge/liuren-research/20261102/method-reviews/modern.json": "174608135bad9fa9837cc1912714df2e6f9199058309f6de51855b0022254348",
+    "docs/六壬知识整理-20261102/当代汇选十例经验试提.md": "e65c278c3b489d3047b7746147ee097d855f50d42dc4e7291b2e25a2dc771a98",
+    "output/liuren-modern-pilot10-20261102/author-segments.json": "04b24527f61d56188f4bdd709b0bbfc2a54dcf2090cc4a93a21d26a12be071de",
+    "output/liuren-modern-pilot10-20261102/subjudgments.json": "efe491fa57e54cbd2d06010b6cd87ebd4a941e0cad557a7ca78ca04b0cd99147",
+    "output/liuren-modern-pilot10-20261102/case-manifest.json": "5132b6c77fd6f89fd665906215d15e823548cd6a2d9a99ba933c345c9d632d20",
+    "output/liuren-modern-pilot10-20261102/substantive-comparisons.json": "83a35da0f802450172d1d78514e8d3cb25cc4861812df2d9170fca248c5a02d1",
+    "output/liuren-modern-pilot10-20261102/final-check.json": "9e2b6a1d7dfd246aa2b4a9026ef178422ea291de1d730fc8e278cb8bff217074",
+    "output/liuren-modern-pilot10-20261102/search-ten-cases.json": "29f51a47257c16c025c1acc48ae86d36116ff25905bea02321673c9faeb8d3f6",
+    "output/liuren-modern-pilot10-20261102/search-digestion.json": "2e9eb8a5576d5f43dd821815ba689c58f6c7d81e09f0170aa4fab35e1a210140",
+    "output/liuren-modern-pilot10-20261102/overlay-validation.json": "ef4328352af03d147796281088dfaffeb5608e7c221e0cf015c08d5f9a1a02ca",
+    "output/liuren-experience-organization-20261102/organize.py": "0130e1dd50c4d69ed912dbda618945780ec386634b83ac7a5189fa220d7625bf",
+    "output/liuren-experience-organization-20261102/classification.json": "79658a7461f8e856a1e5ff032fc29e6edbdc2fd27ec854ea73c775bc951f7e1c",
+    "output/liuren-experience-organization-20261102/classification.jsonl": "609185b62ffd6b7f10184d65c09e5da5f2bebe57ab0e82ab3eeb78b00121b892",
+    "output/liuren-experience-organization-20261102/manifest.json": "d1258bd94caa1e935156f1598f0f17c4fd5e0bd0581262edd5d4b31c06073c1d",
+    "output/liuren-experience-organization-20261102/validation.json": "71884281d99ba588546dc22c9285e6f1106c974d6d133fe7bf80dca6ae83840b",
+    "docs/六壬知识整理-20261102/已有经验统一整理.md": "9d439e1f8d689cd6745641244bf3f2ed6c100ca717c187750fbeaf396aea795a"
+  }
+}

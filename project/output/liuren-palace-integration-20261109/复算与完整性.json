@@ -1,0 +1,271 @@
+{
+  "health": {
+    "schema": "liuren-codex-status-v1",
+    "ready": true,
+    "root": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+    "release": "20261109-palace-strength-34",
+    "runtime": "runtime/liuren/20261109-palace-strength-34",
+    "method_version": "ff00024270122d126c98fd39a1980a4a30de8f3ede98e911700d590d1d4522ea",
+    "adjudicator": {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "fork_turns": "none"
+    },
+    "native_subagent_required": true,
+    "mismatches": [],
+    "domains": [
+      "classical-conflict",
+      "exam",
+      "finance",
+      "illness",
+      "interpersonal",
+      "long-period",
+      "lost-person-object",
+      "period-outlook",
+      "pregnancy",
+      "promotion-salary",
+      "recruitment",
+      "relationship",
+      "home",
+      "travel",
+      "weather",
+      "agriculture"
+    ],
+    "modules": [
+      "risk",
+      "shensha-tradition",
+      "classical-conflict",
+      "exam",
+      "finance",
+      "illness",
+      "interpersonal",
+      "long-period",
+      "lost-person-object",
+      "period-outlook",
+      "pregnancy",
+      "promotion-salary",
+      "recruitment",
+      "relationship",
+      "adjudication",
+      "evidence",
+      "liqi",
+      "movement",
+      "positioning",
+      "relations",
+      "report",
+      "structure",
+      "timing",
+      "void",
+      "bashajiubao",
+      "beihai-extend-sop",
+      "bifa",
+      "blade-methods",
+      "case-retrieval-v2",
+      "daliuren-paipan",
+      "daliuren-shensha",
+      "engine-shensha-output",
+      "experience-retrieval-v2",
+      "keti-quanbiao",
+      "kundun",
+      "liqi-examples",
+      "liqi-sources",
+      "nianming",
+      "rule-semantics",
+      "shensha-engine-index",
+      "shensha-field-meanings",
+      "shensha-focus",
+      "shensha-meaning-sources",
+      "shensha-meanings",
+      "shensha-other-meanings",
+      "shensha-sources",
+      "shensha-use",
+      "quantity",
+      "quantity-sources",
+      "workflow-contract",
+      "class-mapping",
+      "shenjiang-use",
+      "shen-symbols",
+      "jiang-symbols",
+      "home",
+      "travel",
+      "weather",
+      "agriculture",
+      "mapping-provenance",
+      "judgment-core",
+      "confirmed-policy",
+      "pending-conflicts",
+      "confirmed-policy-evidence",
+      "confirmed-policy-supplements"
+    ],
+    "professional_content_changed": true,
+    "judgment_policy": {
+      "id": "liuren-palace-policy-34",
+      "rules": "U01-U11",
+      "mandatoryCore": true,
+      "pendingRegistry": "pending-conflicts",
+      "registryIsConfirmationQueue": false,
+      "sourceConsensus": false,
+      "predictiveValidationCount": 0,
+      "numericPolicy": "single-palace-and-selected-relations-v1"
+    },
+    "note": "ready checks local files only; host spawn settings must be supplied explicitly. No accuracy claim."
+  },
+  "reports": [
+    {
+      "name": "应聘盘",
+      "source": "排盘存档\\六壬\\六壬-20261108-180639-次日应聘结果及公司职位辨识-18cea112-d303-4c6f-a54f-d5a1d2e9da84.corrected-7d8f4da2258d400a.json",
+      "source_sha256": "625ba54906e40e804668308785e3ed0562a6f83dc720ac23bebb30a87f76814b",
+      "chart_file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-palace-integration-20261109\\应聘盘\\AI盘.json",
+      "bytes": 12469,
+      "scores": [
+        {
+          "tian": "子",
+          "status": "",
+          "score": 4.797,
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "丑",
+          "status": "",
+          "score": 4.082,
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "寅",
+          "status": "",
+          "score": 2.499,
+          "level": "弱，仍有作用"
+        },
+        {
+          "tian": "午",
+          "status": "",
+          "score": 2.739,
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "申",
+          "status": "旬空",
+          "score": 5.271,
+          "level": "较强"
+        },
+        {
+          "tian": "戌",
+          "status": "坐空",
+          "score": 3.662,
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "亥",
+          "status": "坐空",
+          "score": 6.001,
+          "level": "较强"
+        }
+      ]
+    },
+    {
+      "name": "寅午戌盘",
+      "example": [
+        {
+          "id": "T:酉",
+          "role": "演示假设施助金神",
+          "basis": "用户所举金生子水的接口假设，不代表本课真实取用",
+          "single_palace": 5.68858,
+          "single_palace_level": "较强",
+          "adjusted": 5.469526,
+          "delta": -0.219054,
+          "level": "较强"
+        },
+        {
+          "id": "T:子",
+          "role": "演示目标类神",
+          "basis": "用户假设子水为类神",
+          "single_palace": 1.007031,
+          "single_palace_level": "弱，仍有作用",
+          "adjusted": 1.445138,
+          "delta": 0.438107,
+          "level": "弱，仍有作用"
+        }
+      ]
+    },
+    {
+      "name": "寅午戌盘",
+      "source": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-energy-yin-20261106-1443\\chart-result.json",
+      "source_sha256": "98848507266e8e8c1dfb0eb6560a0b1a66b7796d1108966b2872d5a98b482f7f",
+      "chart_file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-palace-integration-20261109\\寅午戌盘\\AI盘.json",
+      "bytes": 14623,
+      "scores": [
+        {
+          "tian": "子",
+          "status": "",
+          "score": {
+            "四季": 4.064,
+            "季土": 1.007
+          },
+          "level": {
+            "四季": "偏弱至中等，可发挥作用",
+            "季土": "弱，仍有作用"
+          }
+        },
+        {
+          "tian": "丑",
+          "status": "",
+          "score": {
+            "四季": 2.843,
+            "季土": 4.285
+          },
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "寅",
+          "status": "坐空",
+          "score": {
+            "四季": 1.215,
+            "季土": 1.434
+          },
+          "level": "弱，仍有作用"
+        },
+        {
+          "tian": "午",
+          "status": "旬空",
+          "score": {
+            "四季": 1.36,
+            "季土": 2.206
+          },
+          "level": "弱，仍有作用"
+        },
+        {
+          "tian": "申",
+          "status": "",
+          "score": {
+            "四季": 3.943,
+            "季土": 3.73
+          },
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "戌",
+          "status": "",
+          "score": {
+            "四季": 2.609,
+            "季土": 4.149
+          },
+          "level": "偏弱至中等，可发挥作用"
+        },
+        {
+          "tian": "亥",
+          "status": "",
+          "score": {
+            "四季": 2.608,
+            "季土": 0.372
+          },
+          "level": {
+            "四季": "偏弱至中等，可发挥作用",
+            "季土": "极弱，通常难以独立显著作用"
+          }
+        }
+      ]
+    }
+  ],
+  "paidModelCalls": 0,
+  "predictionValidation": false
+}

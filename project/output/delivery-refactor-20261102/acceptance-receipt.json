@@ -1,0 +1,108 @@
+{
+  "status": "implemented-and-verified-candidate-only",
+  "baseline": "20261102-workflow-optimization-01",
+  "candidate": "output/delivery-refactor-20261102/candidate",
+  "scope": {
+    "production_deployed": false,
+    "production_restarted": false,
+    "production_migrated": false,
+    "paid_model_called": false,
+    "new_pages_or_routes": false
+  },
+  "source": {
+    "files": 376,
+    "changed_files": 25,
+    "deleted_files": [],
+    "manifest": "change-manifest.json",
+    "manifest_sha256": "1efdaad8ec5e5181fde46a3a68fdf86d9b0de44effb1c2f8c42d609ee18f62a9"
+  },
+  "archive": {
+    "file": "candidate-source.tar.gz",
+    "bytes": 1407102,
+    "sha256": "11ba6799f7a3c04725c310e34dd9121032dc85d5ac21639a4d29eaae5ce0aa99",
+    "members": 378,
+    "all_member_bytes_verified": true,
+    "all_members_match_isolated_stage": true
+  },
+  "tests": {
+    "total": 56,
+    "failed": 0,
+    "groups": [
+      {
+        "name": "delivery unit and MCP",
+        "passed": 13
+      },
+      {
+        "name": "delivery native OpenCode with isolated supplier",
+        "passed": 4
+      },
+      {
+        "name": "legacy and v2 incomplete upstream stream",
+        "passed": 6
+      },
+      {
+        "name": "workflow professional output paging execution regression",
+        "passed": 17
+      },
+      {
+        "name": "legacy native OpenCode report and follow-up",
+        "passed": 3
+      },
+      {
+        "name": "session completion and retry policy",
+        "passed": 4
+      },
+      {
+        "name": "isolated PostgreSQL",
+        "passed": 9
+      }
+    ],
+    "database": "wenheng_test_delivery_20261102",
+    "native_supplier": "synthetic loopback fixture; other external requests guarded"
+  },
+  "typecheck": {
+    "status": "passed",
+    "final_local_command": "node node_modules/typescript/bin/tsc --noEmit --incremental false"
+  },
+  "isolated_build": {
+    "status": "passed",
+    "build_id": "v98YxGw6X_ekNDMvKC2Yy",
+    "application_sources_match_final_archive": true,
+    "source_change_after_build": "tests/delivery.test.ts only; final corrected version passed 13 tests"
+  },
+  "ui": {
+    "base": "http://127.0.0.1:3192",
+    "viewports": [
+      1280,
+      390
+    ],
+    "browser": "Chrome / Playwright",
+    "browserPlugin": "not available",
+    "api": "synthetic GET-only fixtures",
+    "checks": [
+      "1280: correct page, report + follow-up labelled limited, zero credits, editable composer, no horizontal overflow",
+      "1280: admin shows limited delivery and resolved/active diagnostics; task filtering updates rows",
+      "390: correct page, report + follow-up labelled limited, zero credits, editable composer, no horizontal overflow",
+      "390: admin shows limited delivery and resolved/active diagnostics; task filtering updates rows"
+    ],
+    "errors": [],
+    "consoleMessages": [],
+    "external": []
+  },
+  "preview_running": false,
+  "production_readonly_check": {
+    "web_pid": 2004358,
+    "worker_pid": 2004357,
+    "both_active": true,
+    "both_restarts": 0,
+    "worker_release": "/opt/wenheng/releases/20261102-workflow-optimization-01",
+    "delivery_protocol_column_present": false
+  },
+  "limitations": [
+    "No paid-model or predictive-quality validation.",
+    "Mechanical checks do not establish semantic correctness or complete privacy assurance.",
+    "No automatic OpenCode session recovery after worker crash.",
+    "Closeout at about 25 minutes occurs at a subsequent request boundary; a running supplier request is not interrupted at that boundary.",
+    "Deployment and rollback require coordination of migrations, task protocol, web and worker; old worker cannot take v2 tasks."
+  ]
+}

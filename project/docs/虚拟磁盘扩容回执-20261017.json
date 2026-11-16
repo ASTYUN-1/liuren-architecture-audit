@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "at": "2026-10-17T03:11:48.803170+00:00",
+  "virtualDiskBeforeBytes": 34359738368,
+  "virtualDiskAfterBytes": 51539607552,
+  "filesystem": {
+    "total": 48803864576,
+    "used": 8030720000,
+    "free": 40756367360
+  },
+  "root": "/dev/sda1",
+  "filesystemType": "ext4",
+  "partitionStartAndUUIDUnchanged": true,
+  "bootPartitionsUnchanged": true,
+  "servicesUnchanged": true,
+  "online": true,
+  "health": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true
+  }
+}

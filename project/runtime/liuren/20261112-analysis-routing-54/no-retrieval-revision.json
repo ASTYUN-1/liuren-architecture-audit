@@ -1,0 +1,103 @@
+{
+  "parentRelease": "20261105-adjudication-01",
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "method modules, books including book examples, chart, shensha, adjudication, report",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  },
+  "changes": [
+    {
+      "path": "entry.md",
+      "before": "bb102ee3f9599f9dd0406a4405d550c6f914c857b774d4e984db91b175a19481",
+      "after": "0dd28112bb04b892732ebaa977f7fab86cb63a6f0c52a5db2a19e1f84cdf6edc",
+      "reason": "disable only incremental case/experience library access"
+    },
+    {
+      "path": "methods/evidence.md",
+      "before": "e4286ca2b6b877fb1f4419ca18d6265e8d5ea5d7b20b3fdb15f18e399fb59d92",
+      "after": "be1b3238bb2737c12cd04f5dcd0972971deacd83bd5febdd6badfb4e3f7660e6",
+      "reason": "replace retrieval with the same question-level self-check; retain evidence module"
+    },
+    {
+      "path": "methods/adjudication.md",
+      "before": "508a3daa3349c8ddbb3252cae978ec867e213910e359707f8bb9bf1480043841",
+      "after": "7ab7d3c91cb442f7dc11cd927c4ad28f416ff554a824ee1a5afe33404034c706",
+      "reason": "remove only external case/experience retrieval requirement"
+    },
+    {
+      "path": "methods/adjudication.md",
+      "before": "508a3daa3349c8ddbb3252cae978ec867e213910e359707f8bb9bf1480043841",
+      "after": "a931da57489cc6061c72c5a81bc06a382806b1b2fe2a86de7c70bf91c32cfd91",
+      "reason": "remove only external case/experience retrieval requirement"
+    },
+    {
+      "path": "methods/adjudication.md",
+      "before": "508a3daa3349c8ddbb3252cae978ec867e213910e359707f8bb9bf1480043841",
+      "after": "3ba3f0b7ae4245b02e29de13f5bd9566be3b1b7ef2964427341b16f3f65891ba",
+      "reason": "remove only external case/experience retrieval requirement"
+    },
+    {
+      "path": "methods/report.md",
+      "before": "a94aeda38821c1f13b26eb7b49ea37f16d3dfece80c769c79929bc86c6cf8b8c",
+      "after": "8c83471f90f6c3a926caab648700606dee4f6421827468045f19bf4a1c6d6b25",
+      "reason": "remove only external case/experience retrieval requirement"
+    },
+    {
+      "path": "methods/report.md",
+      "before": "a94aeda38821c1f13b26eb7b49ea37f16d3dfece80c769c79929bc86c6cf8b8c",
+      "after": "af32a30437540be9d4e683ca272b69a3710f214622b2b3101e76dcf3484e7cd9",
+      "reason": "remove only external case/experience retrieval requirement"
+    },
+    {
+      "path": "methods/workflow-contract.md",
+      "before": "8c0fbec8297cc84c68425824027e0da5d563c6f072968f3352afcc89b1b52351",
+      "after": "6ac507171c3db2a93f0186b2110f088e0574b77d52956d4e3ab321789a869b35",
+      "reason": "remove only external case/experience retrieval requirement"
+    },
+    {
+      "path": "procedures/liuren-cases.md",
+      "before": "38c359da7a3e262ac7f9824b642f568a33588528bf3f2aebedd17a0043ac31eb",
+      "after": "d7da0741833856a3054a61c8a11eeb9620661f73f57181ee44bc20c7c75d68f1",
+      "reason": "prevent maintenance procedure from reintroducing excluded libraries into experiment"
+    },
+    {
+      "path": "procedures/liuren-extract.md",
+      "before": "e0562ae1497df0a0b80c9380e1080edc0c15e2bcb41215eabd416902d4fa0db2",
+      "after": "22b6b1fd2ee6ccc2ce01d93781bcc55354b21734c1c36b8e71fac3c5ea7fa7c8",
+      "reason": "prevent maintenance procedure from reintroducing excluded libraries into experiment"
+    },
+    {
+      "path": "reading-route.json",
+      "before": "ad7709982d0071ea119814a73628884520ae69128f02597d260a6f3422b763ca",
+      "after": "6fd80eb0513665ff1a490457023641a7cd7109ef63df6d7a79adfe67097a9cfb",
+      "reason": "keep stage/module ordering; replace only dual retrieval action"
+    },
+    {
+      "path": "references/shensha-policy.json",
+      "before": "1deeadcbf9cc235cacbef32c010a6875fdd6d740b327bed946c0c93d02ac79e2",
+      "after": "90f15bef53703d7a7766fc98c4a3e5ac67979ba3e48f87041020e4b54f8e29f8",
+      "reason": "release identity only; calculation rules identical"
+    },
+    {
+      "path": "source-read-map.json",
+      "before": "17c904d38277b28b2d3d186578487f5105e968d2380256cadc78fe98452feb2f",
+      "after": "d4c3fec26a1c28d06adff59a3e8f056fc786a34cd0b9045ba40f61430e402a00",
+      "reason": "rebase virtual keys; preserve actual source paths and bytes; excluded library sources denied at read"
+    },
+    {
+      "path": "loader-contract.json",
+      "before": "c5970c2a018234a6ed02d28d66ddc5d486d145d3463ab80591c55f75829c178c",
+      "after": "7a61ed0d8740d5a178c498188251b92c2afed74f651948b89a070eb2d4374bc8",
+      "reason": "record variant policy and conditional guards"
+    },
+    {
+      "path": "experiment.json",
+      "before": null,
+      "after": "e5211aa550d6dbb446feeb6e5b36a379c84654c4a971b3e11405299c77aacf39",
+      "reason": "explicit one-variable experiment boundary"
+    }
+  ],
+  "inheritedProfessionalRevision": "adjudication-revision-map.json",
+  "predictiveValidationCount": 0
+}

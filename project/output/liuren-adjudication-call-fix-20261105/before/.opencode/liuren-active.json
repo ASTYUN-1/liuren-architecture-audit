@@ -1,0 +1,90 @@
+{
+  "release": "20261105-subagent-adjudication-04",
+  "status": "active",
+  "scope": "local-opencode",
+  "runtime": "runtime/liuren/20261105-subagent-adjudication-04",
+  "methodVersion": "ce96a0ae14f1279caf5dd346f43b2a93a0bf0ca901110b1a767f575b25de73ab",
+  "previousRelease": "20261105-no-retrieval-01",
+  "backup": "output/liuren-subagent-adjudication-20261105/before-budget",
+  "files": {
+    "liuren/daliuren/SKILL.md": "25e5fdbb7df9353d7ff33f6a823bd20cad6431b44bf13a65fae410ba3670ff25",
+    "liuren/liuren-cases/SKILL.md": "c90154c60c98585e93105ed0daa79d2309cb8885c222027861ab6e523bcbce8a",
+    "liuren/liuren-extract/SKILL.md": "e53dd272cb594d0f18e7caccab21d760be6541117e1b21296430dca8df7fdc42"
+  },
+  "activeSkillNames": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "groups": [
+    "liuren"
+  ],
+  "localModuleOverrides": {
+    "daliuren-paipan": {
+      "file": "docs/本机六壬直接排盘.md",
+      "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d",
+      "version": "20261030-direct-01",
+      "scope": "local-opencode"
+    }
+  },
+  "entry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "workflowEntry": ".opencode/skills/liuren/daliuren/SKILL.md",
+  "defaultMode": "local-professional",
+  "optionalAuditEntry": "tools/liuren-workflow.py",
+  "websiteChanged": false,
+  "websiteOutputPolicy": false,
+  "methodHierarchy": "liqi-throughout-conditioned-symbols",
+  "authoringSource": "output/liuren-subagent-adjudication-20261105",
+  "boundedReview": {
+    "registeredModuleRevisions": 31,
+    "effectiveMethodBodyChanges": 30,
+    "sourceReferencePages": 3,
+    "migratedProcedures": 2,
+    "sharedPolicyCards": 83,
+    "sharedPolicyFields": 137,
+    "exhaustiveSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "workflowImplementation": {
+    "tools/load-liuren-methods.py": "99c0eb04080f272ea9bb9855e651bf566f3cbb159302cffa914cbbaccb97dee9",
+    "tools/load-liuren-procedure.py": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+    "tools/liuren_material_scope.py": "35f308e7d7c8bdec59e1f4e514d56351bbc230263d0811aefdbe3422e1b1bc92",
+    "tools/liuren_research_overlay.py": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+    "tools/liuren-local-read.py": "d146c8215edb2846c8be5677c3c6d44547daa06a1bb70507506809687169970c",
+    "tools/liuren-direct.mjs": "594d2172268dcae324b90dac3d8250e22545d544fac8d7ca80ae7b400bfed906",
+    "tools/liuren-shensha.mjs": "fb5ef143e3811d736690ae75dcf1fdd49f3a966098b596ed65c35c6407686d89",
+    "tools/liuren-adjudication-contract.mjs": "14ededeaa8d3d60211aa6b07521de5ecc9f91ac6edd3870915217a5f8162cce0",
+    ".opencode/plugins/liuren-adjudication.ts": "a6040b02cebc929aab178f2c761cf97a491352cc3849b805fee43f5f611e6743",
+    ".opencode/oh-my-opencode-slim.jsonc": "b577d20fecee1c8a3f742522132296e4dfa94c0e098c842113aa1c49f9ce6613"
+  },
+  "inheritedAcceptedCandidateMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "expertAdjudicationReview": {
+    "sourceFiles": 7,
+    "selectedPassages": 34,
+    "caseUnits": 23,
+    "revisionFile": "adjudication-revision-map.json",
+    "fullSourceReviewComplete": false,
+    "predictiveValidationCount": 0
+  },
+  "experiment": {
+    "id": "no-case-experience-retrieval",
+    "disableCaseExperience": true,
+    "retained": "no case/experience retrieval; existing chart, methods, books and full report; adjudication now delegated",
+    "measures": "incremental case/experience library access only; not removal of prior learned methods"
+  },
+  "adjudication": {
+    "agent": "liuren-adjudicator",
+    "model": "deepseek/deepseek-flash",
+    "variant": "high",
+    "reasoningEffort": "high",
+    "maxOutputTokens": 65536,
+    "plugin": "oh-my-opencode-slim",
+    "installedPluginVersion": "2.2.18",
+    "tool": "task",
+    "freshSession": true,
+    "mainAgentAdjudicates": false,
+    "inputSchema": "liuren-adjudication-input-v1",
+    "outputSchema": "liuren-adjudication-output-v1",
+    "predictiveValidationCount": 0
+  }
+}

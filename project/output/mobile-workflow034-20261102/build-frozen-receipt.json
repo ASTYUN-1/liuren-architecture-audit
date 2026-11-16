@@ -1,0 +1,108 @@
+{
+  "frozenAtUtc": "2026-11-02T03:31:51.311776+00:00",
+  "apk": "mobile/dist/wenheng-0.3.4.apk",
+  "sha256": "09d586eca219d95c6071511f41036570dcb2d80f35afdfc9882310b8b4000a7a",
+  "bytes": 8914519,
+  "versionName": "0.3.4",
+  "versionCode": 8,
+  "source": {
+    "directory": "../output/workflow-optimization-20261102/candidate",
+    "release": "20261102-workflow-optimization-01",
+    "buildId": "Uy6oVPMn1TPPjzz8wnFQ2"
+  },
+  "rebuildAfterFreeze": false,
+  "sameSignerAs033": true,
+  "debuggable": false,
+  "publicAssetsMatchTestedBytes": true,
+  "licensedEngineAndAuthorAttributionPreserved": true,
+  "sourceRuntimeForbiddenImports": [],
+  "reactRuntimeInputs": [
+    "web/node_modules/.pnpm/react@19.3.0/node_modules/react/cjs/react.production.js",
+    "web/node_modules/.pnpm/react@19.3.0/node_modules/react/index.js",
+    "web/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom/cjs/react-dom.production.js",
+    "web/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom/index.js",
+    "web/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom/cjs/react-dom-client.production.js",
+    "web/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom/client.js",
+    "web/node_modules/.pnpm/react@19.3.0/node_modules/react/cjs/react-jsx-runtime.production.js",
+    "web/node_modules/.pnpm/react@19.3.0/node_modules/react/jsx-runtime.js"
+  ],
+  "tests": [
+    {
+      "command": "node mobile/build-web.mjs",
+      "exitCode": 0
+    },
+    {
+      "command": "node output/workflow-optimization-20261102/candidate/node_modules/typescript/bin/tsc --noEmit -p mobile/tsconfig.json",
+      "exitCode": 0,
+      "sourceAlias": "current published candidate, not dirty root web"
+    },
+    {
+      "command": "node mobile/verify-network-stream.mjs",
+      "checks": 6,
+      "exitCode": 0
+    },
+    {
+      "command": "TZ=America/Los_Angeles node mobile/verify-engine-parity.mjs",
+      "checks": 20,
+      "exitCode": 0,
+      "method": "isolated Node VM; not a browser or device assertion"
+    },
+    {
+      "command": "python mobile/build-android.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python mobile/verify-packed-engine.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python mobile/verify-release.py",
+      "exitCode": 0
+    }
+  ],
+  "changedSourceSha256": {
+    "mobile/version.json": "33a53a0741ec4ef3ea883a7000d2dbe125676a11b96684a8560dd888fe7a6ca5",
+    "mobile/source-release.json": "7c86eaf0b74a7835d7e0d885636464ab795cd82743eb4d294814781aa963feea",
+    "mobile/build-web.mjs": "5cddad6edd7df60143127ef5cd78410a6cc07e6e4d30cd4044bf0b7093a12cd4",
+    "mobile/build-android.py": "0a7fc9cf3a209d532a84cd18204fc4b96c974c4d2a18d3b7634ce6a9bca489f2",
+    "mobile/verify-release.py": "ce6280083702743951317da21eccc8cc0ca601b60e1615d3a2b7b2626c25117d",
+    "mobile/tsconfig.json": "5cbcf8c79fd1a480b5c01c7814d762a8e5df1b520267a5eb4e250434a170df7c",
+    "mobile/src/network.ts": "be0e929ddcc3ea8d8ea9185ca77d33a93ed90d0109aff77fa228ac460faf2a8f",
+    "mobile/verify-network-stream.mjs": "328bbc155179728407cf07a6aa54b2e84d47e72fb7382f7992341477b6568849",
+    "mobile/verify-engine-parity.mjs": "a4edc458be278e03c6885cab729e76c6cedf7c7e14575e1a5c6cba11c28a714c"
+  },
+  "assetSha256": {
+    "app.css": "ac17e8bfc1befd82d70f3a7941402f4fa4e65873e50eb775e62d39efc332fd1a",
+    "app.js": "e7d9e42cc28ddebfe66a6e21298121022ede598f36293298b54fb082da7ba758",
+    "chart-worker.js": "b9c52283add155442599b4323bea48fdd61f5413a6f2f2ce439457e76f8d9d94",
+    "index.html": "93144c6f7d0f4923cb780ca583f7118d1d376b8d6ac525da690c25b6c43cfc85",
+    "mobile-icon.png": "0865b970f2b2f0882637b39366c9d3189692ce17c8ceb0d6ef64e65ad45727da",
+    "advisors\\congkui.jpg": "02afb01e980543a5b4a0db17a8ef6743bf0e629211bd1331c04deaabd2a8a09a",
+    "advisors\\liurenshi.jpg": "c3c1451acf6c50a89f8181ff1232950ef029ba12fd843f28de8b51226f8a8961",
+    "advisors\\ming.jpg": "9bf9607e63f042d242c4f1b52728362d2be61204217e553b6949fec8f95b4dbe",
+    "advisors\\qing.jpg": "c6b113e87acc0c460c205959cb1ecead6931d0f98c2b69801e283643d44bce2d",
+    "advisors\\wenwen.jpg": "893c9e3841547fce9ca9a412fbbe78e8fa24675fe09a73afdbd8231bea23c593",
+    "fonts\\OFL.txt": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+    "fonts\\provenance.json": "5f9a3b71a2de303961673e5c84bda91b75a48ff2948e8fb7deb498ba886772be",
+    "fonts\\wenheng-serif.woff2": "3b357369728473152c497205e84f43cb9ea8d40653f7986848200f1aaf997791"
+  },
+  "receipts": {
+    "mobile/dist/build-receipt.json": "build-apk-receipt.json",
+    "mobile/dist/update-verification.json": "build-update-verification.json",
+    "mobile/build/packed-engine-qa.json": "build-packed-engine-qa.json",
+    "mobile/build/source-receipt.json": "build-source-receipt.json",
+    "mobile/build/network-stream-qa.json": "build-network-stream-qa.json",
+    "mobile/build/engine-parity-qa.json": "build-engine-parity-qa.json",
+    "mobile/dist/signing-verification.txt": "build-signing-verification.txt",
+    "mobile/dist/apk-badging.txt": "build-apk-badging.txt"
+  },
+  "notPerformed": [
+    "production deployment",
+    "physical device installation",
+    "physical native installer flow",
+    "real paid model API",
+    "real account or payment transaction"
+  ],
+  "browserEvidenceOwner": "parent agent; local Cua browser fixture acceptance recorded separately",
+  "knownLimit": "Client-side engine packing increases extraction effort, not absolute secrecy."
+}

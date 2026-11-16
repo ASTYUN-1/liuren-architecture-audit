@@ -1,0 +1,455 @@
+{
+  "schema": "fourteen-paths-bounded-metadata-audit-v1",
+  "scope": "Only explicit fourteen previously denied paths; depth <=4; entries <=1000 per directory; lstat/scandir names and metadata only; no file contents read or ACL changes. Three paths share an ancestor project link to in-project web, verified separately; no child reparse was traversed.",
+  "directories": [
+    {
+      "directory": ".pnpm-store/v11/projects/e613f695dcb10680aed6bcf18394d30d/test-results/edge-transfer",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": false,
+      "status": "metadata_enumerated",
+      "entries": 0,
+      "file_count": 0,
+      "extension_counts": {},
+      "bazi_name_candidates": [],
+      "top_level_names": [],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "resolved_relative": "web/test-results/edge-transfer",
+      "ancestor_reparse": [
+        {
+          "path": ".pnpm-store/v11/projects/e613f695dcb10680aed6bcf18394d30d",
+          "target": "web",
+          "target_within_project": true
+        }
+      ],
+      "classification": "out_of_scope_mixed_web_private_test_outputs",
+      "scope_decision": "Retain by explicit mixed-product scope: pnpm project link resolves to web/test-results; no Bazi filename candidates. Private body not read or archived."
+    },
+    {
+      "directory": ".pnpm-store/v11/projects/e613f695dcb10680aed6bcf18394d30d/test-results/owner-private",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": false,
+      "status": "metadata_enumerated",
+      "entries": 1,
+      "file_count": 1,
+      "extension_counts": {
+        ".env": 1
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "[private names omitted; metadata counts only]"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "ed1027af6d443b21d8a62d9acccc4d3d2e0b4c7eea8490c4235293fbe3e83441",
+      "resolved_relative": "web/test-results/owner-private",
+      "ancestor_reparse": [
+        {
+          "path": ".pnpm-store/v11/projects/e613f695dcb10680aed6bcf18394d30d",
+          "target": "web",
+          "target_within_project": true
+        }
+      ],
+      "classification": "out_of_scope_mixed_web_private_test_outputs",
+      "scope_decision": "Retain by explicit mixed-product scope: pnpm project link resolves to web/test-results; no Bazi filename candidates. Private body not read or archived."
+    },
+    {
+      "directory": ".pnpm-store/v11/projects/e613f695dcb10680aed6bcf18394d30d/test-results/recovery",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": false,
+      "status": "metadata_enumerated",
+      "entries": 9,
+      "file_count": 9,
+      "extension_counts": {
+        ".json": 1,
+        ".dpapi": 1,
+        ".whb": 7
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "[private names omitted; metadata counts only]"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "e2347e14960490dde90ecb3b090ddb15fd965594716e624b05cff22f54209e88",
+      "resolved_relative": "web/test-results/recovery",
+      "ancestor_reparse": [
+        {
+          "path": ".pnpm-store/v11/projects/e613f695dcb10680aed6bcf18394d30d",
+          "target": "web",
+          "target_within_project": true
+        }
+      ],
+      "classification": "out_of_scope_mixed_web_private_test_outputs",
+      "scope_decision": "Retain by explicit mixed-product scope: pnpm project link resolves to web/test-results; no Bazi filename candidates. Private body not read or archived."
+    },
+    {
+      "directory": "output/resource-monitor-20261025/.private",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 2,
+      "file_count": 2,
+      "extension_counts": {
+        ".json": 2
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "[private names omitted; metadata counts only]"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "7cb918021e6976f93c9e1ce203e74400213fec84119eefd503eef75fb72a4cbb",
+      "resolved_relative": "output/resource-monitor-20261025/.private",
+      "ancestor_reparse": [],
+      "classification": "out_of_scope_private_operations",
+      "scope_decision": "Retain by scope: private resource-monitor operational output; no Bazi filename candidates. Private body not read or archived."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/bin",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 1,
+      "file_count": 1,
+      "extension_counts": {
+        ".exe": 1
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "qr.exe"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "569916bd17c67b346b978cc05610956bfa536f433fccd5bc065a426bd39cc210",
+      "resolved_relative": "output/site-qr-20261024/runtime/bin",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/colorama",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 29,
+      "file_count": 26,
+      "extension_counts": {
+        ".py": 13,
+        ".pyc": 13
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "ansi.py",
+        "ansitowin32.py",
+        "initialise.py",
+        "tests",
+        "win32.py",
+        "winterm.py",
+        "__init__.py",
+        "__pycache__"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "29ca12c1a788185f81d95361d180a4826e9e5aa3aabfe7782e9acdef0852ace7",
+      "resolved_relative": "output/site-qr-20261024/runtime/colorama",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/colorama-0.4.6.dist-info",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 6,
+      "file_count": 5,
+      "extension_counts": {
+        "": 4,
+        ".txt": 1
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "INSTALLER",
+        "licenses",
+        "METADATA",
+        "RECORD",
+        "WHEEL"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "6b65ada9405566230f898e2211ac7baa366ff7cc21e2e93ef74a7b5e103959bf",
+      "resolved_relative": "output/site-qr-20261024/runtime/colorama-0.4.6.dist-info",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/qrcode",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 79,
+      "file_count": 68,
+      "extension_counts": {
+        ".py": 34,
+        ".pyc": 34
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "base.py",
+        "compat",
+        "console_scripts.py",
+        "constants.py",
+        "exceptions.py",
+        "image",
+        "LUT.py",
+        "main.py",
+        "release.py",
+        "tests",
+        "util.py",
+        "__init__.py",
+        "__pycache__"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "a9a604c7e6900f9895555e16e0592020302a7a5472a9a2d39d9e184f7334eab6",
+      "resolved_relative": "output/site-qr-20261024/runtime/qrcode",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/qrcode-8.2.dist-info",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 7,
+      "file_count": 7,
+      "extension_counts": {
+        ".txt": 1,
+        "": 6
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "entry_points.txt",
+        "INSTALLER",
+        "LICENSE",
+        "METADATA",
+        "RECORD",
+        "REQUESTED",
+        "WHEEL"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "c80b359b0a96afd6bfb5d186a153058f3c363b297ae0c2fc8a385c9b22c01e8a",
+      "resolved_relative": "output/site-qr-20261024/runtime/qrcode-8.2.dist-info",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/zxingcpp",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 6,
+      "file_count": 5,
+      "extension_counts": {
+        ".typed": 1,
+        ".pyd": 1,
+        ".pyi": 1,
+        ".py": 1,
+        ".pyc": 1
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "py.typed",
+        "zxingcpp.pyd",
+        "zxingcpp.pyi",
+        "__init__.py",
+        "__pycache__"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "1d48d45e5e56d0b8fe1ee3f6264dc39c9ef7847c8b14b4cfacb4617959e3a3b5",
+      "resolved_relative": "output/site-qr-20261024/runtime/zxingcpp",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/site-qr-20261024/runtime/zxing_cpp-3.1.1.dist-info",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 7,
+      "file_count": 6,
+      "extension_counts": {
+        "": 6
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "INSTALLER",
+        "licenses",
+        "METADATA",
+        "RECORD",
+        "REQUESTED",
+        "WHEEL"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "46772bbdbc20ed90e7875f9f2937647eea4ecba1d01fa82e730d142b929fda7d",
+      "resolved_relative": "output/site-qr-20261024/runtime/zxing_cpp-3.1.1.dist-info",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/壬归融合实施-20261023/20261023-local-01/validation-deps/pyyaml-6.0.3.dist-info",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 8,
+      "file_count": 7,
+      "extension_counts": {
+        "": 6,
+        ".txt": 1
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "INSTALLER",
+        "licenses",
+        "METADATA",
+        "RECORD",
+        "REQUESTED",
+        "top_level.txt",
+        "WHEEL"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "29668207875e22feaaba818eba79ae68804911c56497218b6a800923e8e9c409",
+      "resolved_relative": "output/壬归融合实施-20261023/20261023-local-01/validation-deps/pyyaml-6.0.3.dist-info",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/壬归融合实施-20261023/20261023-local-01/validation-deps/yaml",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 36,
+      "file_count": 35,
+      "extension_counts": {
+        ".py": 17,
+        ".pyd": 1,
+        ".pyc": 17
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "composer.py",
+        "constructor.py",
+        "cyaml.py",
+        "dumper.py",
+        "emitter.py",
+        "error.py",
+        "events.py",
+        "loader.py",
+        "nodes.py",
+        "parser.py",
+        "reader.py",
+        "representer.py",
+        "resolver.py",
+        "scanner.py",
+        "serializer.py",
+        "tokens.py",
+        "_yaml.cp313-win_amd64.pyd",
+        "__init__.py",
+        "__pycache__"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "57e0b00642754f81d30d3c87cbca659d7a00c42c5f97d36df12b22d76420e87a",
+      "resolved_relative": "output/壬归融合实施-20261023/20261023-local-01/validation-deps/yaml",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    },
+    {
+      "directory": "output/壬归融合实施-20261023/20261023-local-01/validation-deps/_yaml",
+      "resolved_in_project": true,
+      "reparse": false,
+      "resolved_same_path": true,
+      "status": "metadata_enumerated",
+      "entries": 3,
+      "file_count": 2,
+      "extension_counts": {
+        ".py": 1,
+        ".pyc": 1
+      },
+      "bazi_name_candidates": [],
+      "top_level_names": [
+        "__init__.py",
+        "__pycache__"
+      ],
+      "reparse_children": [],
+      "errors": [],
+      "truncated": false,
+      "filenames_sha256": "9f4bdc0135dd34b07c5eb59ca20c54c04fa59bd4e0e3029f275e2a2dd9246641",
+      "resolved_relative": "output/壬归融合实施-20261023/20261023-local-01/validation-deps/_yaml",
+      "ancestor_reparse": [],
+      "classification": "reproducible_non_bazi_dependencies",
+      "scope_decision": "Retain historical dependency tree: QR/colorama/zxing or PyYAML package files, based on technical names and layout; no Bazi filename candidates."
+    }
+  ],
+  "summary": {
+    "directories": 14,
+    "all_resolved_inside_project": true,
+    "directory_or_child_reparse_count": 0,
+    "ancestor_reparse_count": 1,
+    "directories_reached_via_project_internal_ancestor_link": 3,
+    "ancestor_link_target": "web",
+    "enumeration_errors": 0,
+    "bounded_scan_truncated": false,
+    "metadata_entries": 194,
+    "files": 174,
+    "bazi_filename_candidates": 0,
+    "classification_counts": {
+      "out_of_scope_mixed_web_private_test_outputs": 3,
+      "out_of_scope_private_operations": 1,
+      "reproducible_non_bazi_dependencies": 10
+    },
+    "new_pure_bazi_candidates_requiring_archive": 0,
+    "content_read": false,
+    "acl_modified": false,
+    "scope_limit": "Only names, sizes, types and path attributes were inspected. No private or package file body was inspected. Three pnpm project-link paths resolve to the retained project web/test-results; the shared ancestor link targets project web, not outside. The result establishes bounded filename coverage and scope exceptions; it does not claim a semantic audit of every project file."
+  }
+}

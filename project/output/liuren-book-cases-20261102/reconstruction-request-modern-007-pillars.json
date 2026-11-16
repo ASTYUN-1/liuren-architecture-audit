@@ -1,0 +1,73 @@
+{
+  "schema": "liuren-book-reconstruction-request-v1",
+  "id": "RC26-MODERN-007-PILLARS",
+  "case_id": "BK26-MODERN-007",
+  "input": {
+    "mode": "manual-pillars",
+    "pillars": {
+      "year": "甲辰",
+      "month_branch": "辰",
+      "day": "庚申",
+      "hour_branch": "酉"
+    },
+    "month_general": "戌"
+  },
+  "input_evidence": [
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "line_start": 2037,
+      "line_end": 2039,
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "quote": "占测：庚辰命男问：明天公务员面试会逆袭上岸吗？公元：2024 年 04 月 26 日 16 时 16 分\n\n干支：甲辰 戊辰 庚申 乙酉甲寅旬子丑空 月将：戌",
+      "role": "原书断语"
+    }
+  ],
+  "input_sources": {
+    "pillars.year": "2039甲辰年。",
+    "pillars.month_branch": "2039戊辰月柱取支辰。",
+    "pillars.day": "2039庚申日。",
+    "pillars.hour_branch": "2039明示乙酉时取支酉；不改2037的16:16钟表时间，原文冲突保留。",
+    "month_general": "2039明示月将戌；与首盘酉将分开。"
+  },
+  "constraints": [
+    {
+      "field": "chart_types",
+      "expected": "八专",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2045,
+          "line_end": 2045,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "干上羊刃主争竞，酉为少女，得岁合月合，干干不过。太阴玄武主暗昧，内定。八专重叠，故主并列，两贵不亲干，终不能上案。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked",
+      "operator": "contains"
+    },
+    {
+      "field": "lessons.0.tianpan",
+      "expected": "酉",
+      "evidence_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2045,
+          "line_end": 2045,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "quote": "干上羊刃主争竞，酉为少女，得岁合月合，干干不过。太阴玄武主暗昧，内定。八专重叠，故主并列，两贵不亲干，终不能上案。",
+          "role": "原书断语"
+        }
+      ],
+      "extraction_review_state": "source_checked"
+    }
+  ],
+  "settings_mode": "enumerate_unverified",
+  "max_candidates": 8,
+  "original_source_condition": "按来源中一组输入/盘式独立复原；原图未载、异盘及正文冲突身份保留。",
+  "notes": [
+    "2045干上羊刃、酉为少女按庚日羊刃酉绑定观察；未把内定断语或录取反馈当盘式。",
+    "2039明示乙酉时取支酉；不改2037的16:16钟表时间，原文冲突保留。",
+    "不按原载反馈择盘，不自动升级完整性；原书与生成登记均不修改。"
+  ]
+}

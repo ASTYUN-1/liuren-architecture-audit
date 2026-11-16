@@ -1,0 +1,50 @@
+{
+  "active": true,
+  "release": "20261023-modular-02",
+  "methodVersion": "97136257bc473df3dc24b9f8d4d19ec405738d9d4331161df73bd2a5dfb7372a",
+  "package": "hash-verified",
+  "archive": "byte-identical",
+  "bazi": "body byte-identical; YAML syntax repaired",
+  "discoveryVerified": true,
+  "modules": 47,
+  "registeredEntries": 7,
+  "predictionTested": false,
+  "entries": [
+    {
+      "name": "daliuren",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\daliuren\\SKILL.md",
+      "contentHash": "9e9d2b6572c56c80f5bb03a472adf600e9b46185a29278c514e350a8474312e0"
+    },
+    {
+      "name": "liuren-cases",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-cases\\SKILL.md",
+      "contentHash": "bc8aed76d62b109152ca917657ed9dff4ab413cd3904dfb5836e9538cc28b1b7"
+    },
+    {
+      "name": "liuren-extract",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-extract\\SKILL.md",
+      "contentHash": "f3d1ddfe277bfd5beb9d50a9af054adc143c5ee22a45ed41be234a96ed429e18"
+    },
+    {
+      "name": "liuren-tuiming",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\liuren\\liuren-tuiming\\SKILL.md",
+      "contentHash": "98c3555edfc5f7ebb72db1ddead46dda492724697a2b12d02bbedf5495d2c29a"
+    },
+    {
+      "name": "bazi",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\bazi\\bazi\\SKILL.md",
+      "contentHash": "76344332175c02819576df98bfffe0624bbbf1e2540acb83328575a35ec411fd"
+    },
+    {
+      "name": "bazi-extract",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\bazi\\bazi-extract\\SKILL.md",
+      "contentHash": "f2c7fa4cdb2a46cbee8d183e74cf307f3373aa538e0eed60d175933e48c65b3f"
+    },
+    {
+      "name": "bazi-yingqi",
+      "location": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\.opencode\\skills\\bazi\\bazi-yingqi\\SKILL.md",
+      "contentHash": "78acc597f849f0ec47ffa06373029908cb8840f2920a8861ea949dd6e00851cf"
+    }
+  ],
+  "retiredAliasesAbsent": true
+}

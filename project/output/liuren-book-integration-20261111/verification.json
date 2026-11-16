@@ -1,0 +1,220 @@
+{
+  "schema": "liuren-book41-verification-v1",
+  "release": "20261111-book-logic-41",
+  "methodVersion": "55e06bc2ce35ce3b2f8f53e94625bb828a9cc3b25e9209e1e1dc3a1eb17682a6",
+  "checks": [
+    {
+      "name": "All versioned runtime hashes",
+      "passed": true
+    },
+    {
+      "name": "Active implementation bindings",
+      "passed": true
+    },
+    {
+      "name": "Frozen40 all files unchanged",
+      "passed": true
+    },
+    {
+      "name": "Rollback exact backups",
+      "passed": true
+    },
+    {
+      "name": "Live rollback guards",
+      "passed": true
+    },
+    {
+      "name": "24 user selections mapped",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-气势",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-阴神施受取数",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-理气概括",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-财阴补充",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-迟速与类阴",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-年命",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-类神课传",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-旺衰神将",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-相貌",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-发用制救类聚动静",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-空亡全节",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-寄宫空续论",
+      "passed": true
+    },
+    {
+      "name": "Continuous quote B41-空亡减数原载",
+      "passed": true
+    },
+    {
+      "name": "Void entire section and continuation retained",
+      "passed": true
+    },
+    {
+      "name": "User deferred decision retained",
+      "passed": true
+    },
+    {
+      "name": "Runtime module book-logic",
+      "passed": true
+    },
+    {
+      "name": "Runtime module quantity-strength",
+      "passed": true
+    },
+    {
+      "name": "Runtime module void-class-applications",
+      "passed": true
+    },
+    {
+      "name": "Runtime module book-annotation-evidence",
+      "passed": true
+    },
+    {
+      "name": "Readable complete module judgment-core",
+      "passed": true
+    },
+    {
+      "name": "Readable complete module book-logic",
+      "passed": true
+    },
+    {
+      "name": "Readable complete module quantity-strength",
+      "passed": true
+    },
+    {
+      "name": "Readable complete module void-class-applications",
+      "passed": true
+    },
+    {
+      "name": "Readable complete module book-annotation-evidence",
+      "passed": true
+    },
+    {
+      "name": "Numeric route includes correction before adjudication",
+      "passed": true
+    },
+    {
+      "name": "All 16 domains kept",
+      "passed": true
+    },
+    {
+      "name": "User term corrections live in core",
+      "passed": true
+    },
+    {
+      "name": "Host model choices unchanged",
+      "passed": true
+    },
+    {
+      "name": "Adjudicator option preserved model",
+      "passed": true
+    },
+    {
+      "name": "Adjudicator option preserved variant",
+      "passed": true
+    },
+    {
+      "name": "Adjudicator option preserved maxTokens",
+      "passed": true
+    },
+    {
+      "name": "Adjudicator option preserved maxOutputTokens",
+      "passed": true
+    },
+    {
+      "name": "Adjudicator option preserved reasoningEffort",
+      "passed": true
+    },
+    {
+      "name": "12 research cards have exact source refs",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-1-气势",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-3-阴神",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-6-取数",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-7-理气",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-9-迟速",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-11-年命",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-13-类传",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-16-神将",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-18-相貌",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-19-制救",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-24-空亡",
+      "passed": true
+    },
+    {
+      "name": "Card quote LR26-BOOK41-24-寄宫空",
+      "passed": true
+    }
+  ],
+  "sourceSpans": 13,
+  "selectionCount": 24,
+  "independentPredictiveValidationCount": 0,
+  "modelCalls": 0,
+  "websiteChanged": false
+}

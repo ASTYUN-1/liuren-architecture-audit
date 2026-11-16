@@ -1,0 +1,175 @@
+{
+  "schema": "liuren-selected-strength-v1",
+  "model": "liuren-palace-strength-v1",
+  "base_model": "liuren-strength-research-v05-direct",
+  "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+  "selected_policy": {
+    "id": "liuren-selected-relations-v1",
+    "route_gate": 0.75,
+    "local_balance": "frozen",
+    "source_loss": "baseline-direct-greedy-and-binding",
+    "groups": false
+  },
+  "chart_sha256": "7d66000abf600017b015d922dd86a706e4244be70ef96bc45d933b0a540877c9",
+  "scope": "selected_relations",
+  "season_profile": "quarter-earth",
+  "season_basis": "预先固定采用辰未戌丑整月土旺条件表，只作工程演示",
+  "actors": [
+    {
+      "id": "T:酉",
+      "role": "假设施助方",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；指定酉金生子水",
+      "single_palace": 5.68858,
+      "single_palace_level": "较旺",
+      "adjusted": 5.469526,
+      "delta": -0.219054,
+      "level": "较旺"
+    },
+    {
+      "id": "T:子",
+      "role": "假设目标类神",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；指定子水为受助对象",
+      "single_palace": 1.007031,
+      "single_palace_level": "衰弱",
+      "adjusted": 1.445138,
+      "delta": 0.438107,
+      "level": "衰弱"
+    },
+    {
+      "id": "T:卯",
+      "role": "并列观察对象，未采用其与其他对象的跨宫作用",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；用于展示冲刑事实和未采用关系",
+      "single_palace": 1.458288,
+      "single_palace_level": "衰弱",
+      "adjusted": 1.458288,
+      "delta": 0,
+      "level": "衰弱"
+    }
+  ],
+  "applied_relations": [
+    {
+      "source": "T:酉",
+      "target": "T:子",
+      "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；本次只检验已声明金生水的计算通路",
+      "type": "生",
+      "gate": 0.75,
+      "tau": 0.7333569550669803,
+      "received": 0.601667,
+      "source_cost": 0.300834
+    }
+  ],
+  "already_local_or_blocked": [],
+  "interpretation": "本题相关的日干、关键类神、官鬼及凶神统一喜旺恶衰：越旺，吉的倾向越强；越衰，凶的倾向越强。官鬼凶神旺默认不以侵害为主，衰败则凶态显；不得反向解释为鬼旺伤害大、鬼弱无害。",
+  "strength_interpretation": {
+    "id": "liuren-strength-meaning-58",
+    "origin": "用户确认的本地判断约定；不是预测校准或古籍数值阈值",
+    "bands": [
+      {
+        "range": "0",
+        "label": "本模型计算下限"
+      },
+      {
+        "range": "0<E<1",
+        "label": "极衰"
+      },
+      {
+        "range": "1≤E<2.5",
+        "label": "衰弱"
+      },
+      {
+        "range": "2.5≤E<5",
+        "label": "偏弱至中等"
+      },
+      {
+        "range": "5≤E<7.5",
+        "label": "较旺"
+      },
+      {
+        "range": "7.5≤E≤10",
+        "label": "强旺"
+      }
+    ],
+    "reference": 5,
+    "unified_rule": "本题相关的日干、关键类神、官鬼及凶神统一喜旺恶衰：越旺，吉的倾向越强；越衰，凶的倾向越强。官鬼凶神旺默认不以侵害为主，衰败则凶态显；不得反向解释为鬼旺伤害大、鬼弱无害。",
+    "score_is_usability": false,
+    "low_score_means_harmless": false,
+    "zero_means_harmless": false,
+    "high_ghost_score_means_more_harm": false,
+    "control_delta_is_event_harm": false,
+    "applicability": "先核本题职责、对象、位置与真实作用通路；不把无关旺神拼成成功证据。",
+    "usability": "能否实际作用另核位置、通路、受制及先后，不设低分失用开关；低分、零或null均不能自动证明官鬼无害或制救成功。null是缺计算。",
+    "control": "克关系的负增量只表示计算中受者旺衰下降，不是侵害概率、现实伤害量或考试失败量。不得用鬼高、身分下降直接推出失败；须依喜旺恶衰解释双方性质及本问实际作用。",
+    "rescue": "制救须解释实际解除哪一阻碍，不能把压低官鬼指数本身当成救成；泄耗先核去向，泄干而生本题主类可体现付出，不默认等于失败。",
+    "scope": "这是综合取舍所用的旺衰倾向，不是整件事的成败分数；保留空墓、刑合、时序和兑现条件。数量修正4至6不增不减的分段不用于本项。",
+    "legacy_coefficients": "不使用旧harm_tendency/favorable_tendency小数作为本轮吉凶裁决依据；计算系数和数值算法未改。"
+  },
+  "receipt_sha256": "02f4cf3526feca51284c8a298f097342921e8f7f6a32dc193eea7f89df27e68e",
+  "convergence": {
+    "residual": 8.246188176741498e-10,
+    "spread": 1.45618450630991e-9
+  },
+  "coverage": {
+    "actors": [
+      "T:酉",
+      "T:子",
+      "T:卯"
+    ],
+    "submitted_relations": 1,
+    "computed_relations": 1,
+    "skipped_relations": 0,
+    "unselected_palaces_updated": false,
+    "semantic_role_validated": false,
+    "relation_applicability_validated": false,
+    "event_verdict_supported": false,
+    "qualitative_conditions": "刑冲合害、神煞专项、制救通达与兑现仍依原法；合局数值暂缓"
+  },
+  "quantity_basis": {
+    "schema": "liuren-quantity-strength-basis-v1",
+    "void_excluded_by_recomputation": true,
+    "scope": "selected_relations",
+    "baseline_reference": 5,
+    "calibration": "research-unvalidated",
+    "rows": [
+      {
+        "id": "T:酉",
+        "seasonal": "相",
+        "with_void": 5.469526,
+        "without_void": 5.469526,
+        "void_self": false,
+        "void_ground": false,
+        "void_carrier": false,
+        "body_base": 5.665,
+        "tomb_access": 0.7281553398058253,
+        "local_net": 2.147316097556066,
+        "outward_restriction": 0.2666430449330197
+      },
+      {
+        "id": "T:子",
+        "seasonal": "死",
+        "with_void": 1.445138,
+        "without_void": 1.445138,
+        "void_self": false,
+        "void_ground": false,
+        "void_carrier": false,
+        "body_base": 2.06,
+        "tomb_access": 0.7281553398058253,
+        "local_net": -0.6770111097143772,
+        "outward_restriction": 0.29528816936483127
+      },
+      {
+        "id": "T:卯",
+        "seasonal": "囚",
+        "with_void": 1.458288,
+        "without_void": 1.906161,
+        "void_self": false,
+        "void_ground": true,
+        "void_carrier": false,
+        "body_base": 3.09,
+        "tomb_access": 0.7281553398058253,
+        "local_net": -0.5045046702203235,
+        "outward_restriction": 0.07628749161207804
+      }
+    ],
+    "limitations": "不含空亡视图将本次图中各源与目标的数值空减一起移除，重算原关系；保留事实空位、墓与生克。5是模型基准，非已校准的数量中气；不裁成败，不映射量级。"
+  }
+}

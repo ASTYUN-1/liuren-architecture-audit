@@ -1,0 +1,56 @@
+{
+  "candidate": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05",
+  "packageMethodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+  "artifactFingerprint": "e4e9204f3710edfa43b64207ce3ae8a0744e4ecd32eb7e4726bd3c0672f643d2",
+  "packageManifestSha256": "f5294f5adc7fed60d4e8d4ac78a92aca893f68f6ec68cfbcb203a8848e27b598",
+  "importsSha256": "f083e42c0e4e54bfc052b3a47ed8766db209ea218210f160383328ffd25b0442",
+  "referenceImportsSha256": "d765f3735c79e6be921db5817ac50cad549ee60a08ca77fd2fc5e4a68dab5e98",
+  "sourceContextSha256": "361f03834fb54265a7c2c994313d05d374b77c868c0f4f37fbdea7f0621cbd44",
+  "instructions": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "5dc819a181efe30ce7d8aa32290efe890524ffeed8bc8f4cb9b407af1f7f60eb"
+    },
+    {
+      "path": "docs/候选执行说明.md",
+      "sha256": "2dcb18ab635de257b21fb6550169054655b956149e5b97e2309593f211497493"
+    },
+    {
+      "path": "docs/本机OpenCode完整输出规则.md",
+      "sha256": "8750117bc859e0e8393375d16dcd4f0e271bd438511880546099e8ef32af3fe8"
+    }
+  ],
+  "operationGuideSha256": "ca52c149181f81dbc8a7e220eefc7645ad181bf926fa2e0144884822ada1b16c",
+  "discoveredBusinessSkills": [
+    {
+      "name": "liuren-cases",
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05\\.opencode\\skills\\liuren\\liuren-cases\\SKILL.md",
+      "sha256": "17188918526a556d1a59b01dded22e6cd8a127a514221c6e9076476f46220249"
+    },
+    {
+      "name": "liuren-extract",
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05\\.opencode\\skills\\liuren\\liuren-extract\\SKILL.md",
+      "sha256": "aca5f44befa1efa4097d31d9792efd249e0ecd5ced0e311cd9cf67a37a967694"
+    },
+    {
+      "name": "daliuren",
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05\\.opencode\\skills\\liuren\\daliuren\\SKILL.md",
+      "sha256": "e72320436f9ea45478cb1eae40f9ddad766ee31b816f709698f6f8a600c5c86d"
+    }
+  ],
+  "currentRuntimeUnresolvedMarkdownLinks": [],
+  "status": "awaiting-coordinator-acceptance-and-model-outbound-authorization",
+  "modelRequests": 0,
+  "predictiveValidationCount": 0,
+  "captureStage": "pre-authorization local engineering acceptance snapshot",
+  "subsequentAuthorizedModelRun": "model-validation-observed-evidence.json",
+  "modelRequestsFieldScope": "The original 0 describes only this local capture stage; later authorized session had at least five completed provider responses.",
+  "currentHandoff": {
+    "localE1": "bounded local integration accepted by coordinator",
+    "I1": "restricted validation ended; five loading subchecks accepted, session incomplete at timeout",
+    "fixedSnapshotValidationOnly": true,
+    "lastConditionPageModelConsumption": "not established by tool-output event alone",
+    "authorizationConsumed": true,
+    "activeSwitched": false
+  }
+}

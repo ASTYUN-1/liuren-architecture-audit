@@ -1,0 +1,73 @@
+{
+  "skill": "cailu-panduan",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "占财运，我今年收入怎么样，能攒下钱吗？",
+      "expected_behavior": "应激活 cailu-panduan, 并先拆分『收入』（薪水/固定进账→禄或父母爻）与『纯财』（薪水之外→财爻/龙虎阴），收入线逐条过六条件（旺相不空陷、不乘蛇虎玄空、不作闭口、不乘丁神、不落墓地），纯财线查财怕空/破碎煞/三传全财，输出收入结论+纯财结论+风险清单。",
+      "notes": "正面场景：问财运但未分清收入与纯财，先分类再断（A2-1）。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "老板说工资可能会拖欠，占一下我的工钱会不会被欠、拿不拿得到？",
+      "expected_behavior": "应激活 cailu-panduan, 并走收入线：查禄/父母爻六条件缺陷（如作闭口=看得见拿不着、空陷=钱消失、乘丁=被移易），输出工钱能否到手的结论；若用户同时问『何时到手』再移交 yingqi-panduan。",
+      "notes": "正面场景：讨工钱/钱会不会被欠（A2-2 语言信号）。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "占一下这个月有没有薪水之外的进账，比如外快、额外收入？",
+      "expected_behavior": "应激活 cailu-panduan, 并走纯财线：以财爻或龙虎阴为类神，查财空/破碎煞/脱气（尤忌乘玄乘空=脱耗格/脱空格），并检查传递象（干支互传/申卯相加=帐目划拨）补位，输出外快有无的结论。",
+      "notes": "正面场景：纯财类问题（薪水之外的外快），书中案例 c18 同类。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "我今年会不会破财、背上负债，会不会因财惹祸？",
+      "expected_behavior": "应激活 cailu-panduan, 并查风险清单：三传全财（大凶、身体与收入双困）、三传财局生干支年命之鬼（因财致祸）、玄武乘财乘鬼（财耗/既灾又损财）、脱气最忌，输出破财/负债/因财致祸的风险等级。",
+      "notes": "正面场景：破财/负债/因财惹祸（A2-2 语言信号）。"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "financial forecast: will I get paid on time this month? is my money safe?",
+      "expected_behavior": "应激活 cailu-panduan, 并对英文关键词（financial forecast/get paid/is my money safe）命中后走收入线六条件校验，输出本月薪资是否安稳的结论。",
+      "notes": "正面场景：英文触发词（get paid/is my money safe/financial forecast）。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下今天美元对人民币的汇率是多少。",
+      "expected_behavior": "不应激活本 skill, 因为这是纯信息查询（查现成汇率数据），无占课、无财爻/禄父类神判断需求，不涉吉凶推断。",
+      "notes": "诱饵: 完全无关场景（信息查询）——查汇率≠占财运，只是字面相关。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "占一下我今年能不能升职、有没有加薪名额？",
+      "expected_behavior": "不应激活本 skill, 应激活 shengzhi-jiaxin：用户问的是职位进达与待遇提升（晋升/加薪名额），属升职加薪 skill 的进达象/增益象判断；本 skill 只管钱本身（收入/纯财），不判职位名额。",
+      "notes": "跨 skill 混淆诱饵 (硬性要求至少 1 条): 加薪（收入向上）易被误归财禄，实际应走 shengzhi-jiaxin，contrasts-with 关系核心边界。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "工资什么时候能发下来？这笔欠款大概何时能讨回？",
+      "expected_behavior": "不应激活本 skill, 应激活 yingqi-panduan：『何时/什么时候』是应期判断（先定迟速再定日期），而本 skill 管钱的吉凶与类型，不判时间点。",
+      "notes": "跨 skill 混淆诱饵: 讨工钱场景中『会不会被欠』属本 skill、『何时讨回』属 yingqi-panduan，以是否含时间问句为界。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "占一下这个月工资和奖金，另外我也有点外快想看看能不能到手。",
+      "expected_behavior": "应激活 cailu-panduan：问题同时落在收入线（工资）与纯财线（外快），先分类（禄/父母爻 vs 财爻）再双线校验，输出两条各自结论；若附带『什么时候』类时间问句，期限部分移交 yingqi-panduan。",
+      "notes": "边界: 收入与纯财两类目标混在同一问句，正是本 skill 要求『先分类再断』的典型场景，激活正确但执行时必须双线并行。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "5 should_trigger + 3 should_not_trigger + 1 edge_case。诱饵类型：1 条完全无关（汇率信息查询，字面相关但非占断）、2 条同书兄弟 skill 混淆（shengzhi-jiaxin 加薪升职、yingqi-panduan 何时发工资）。全部 should_not_trigger 必须通过（诱饵容错为 0），且含 1 条以上同书兄弟 skill 场景（跨 skill 混淆测试）。"
+}

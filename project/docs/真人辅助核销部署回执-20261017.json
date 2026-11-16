@@ -1,0 +1,31 @@
+{
+  "completed": true,
+  "at": "2026-10-17T04:12:49.242Z",
+  "release": "/opt/wenheng/releases/20261017-human-redeem-01",
+  "previous": "/opt/wenheng/releases/20261017-avatar-01",
+  "changedFiles": [
+    "src/server/human-assist.ts",
+    "src/app/admin/page.tsx",
+    "src/app/admin/points/page.tsx",
+    "src/components/human-assistance.tsx",
+    "src/server/human-assist-admin.ts",
+    "src/app/api/admin/human-assists/route.ts",
+    "src/app/admin/human-assists/page.tsx",
+    "src/app/admin/human-assists/page.module.css",
+    "tests/human-redemption.test.ts"
+  ],
+  "testsPassed": 54,
+  "realBookingsRedeemed": 0,
+  "webRestarted": true,
+  "workerUnchanged": true,
+  "worker": "MainPID=41257\nExecMainStartTimestamp=Sat 2026-10-17 10:17:34 CST",
+  "skillFilesUnchanged": 78,
+  "settingsUnchanged": true,
+  "databaseMigration": false,
+  "proxyChanged": false,
+  "status": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true
+  }
+}

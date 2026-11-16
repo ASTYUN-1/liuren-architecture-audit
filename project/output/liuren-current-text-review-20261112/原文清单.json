@@ -1,0 +1,1010 @@
+{
+  "release": "20261112-consistency-52",
+  "methodVersion": "127fa469a8d16335cfa2be23774af1dee8fcfa188e67b804487b321318138b77",
+  "review_only": true,
+  "files": [
+    {
+      "key": "daliuren-skill",
+      "title": "总入口 SKILL",
+      "source": ".opencode/skills/liuren/daliuren/SKILL.md",
+      "snapshot": "现行共用原文/daliuren-skill.md",
+      "sha256": "e824bfcca5a07f3102d7face197a93b95f67013fb6ea6eef41db9573776ba396",
+      "bytes": 2049,
+      "lines": 16,
+      "description": "规定实际读取什么、怎样交接与交付"
+    },
+    {
+      "key": "codex-skill",
+      "title": "Codex宿主 SKILL",
+      "source": "integrations/codex/daliuren-codex/SKILL.md",
+      "snapshot": "执行与工具原文/codex-skill.md",
+      "sha256": "74bac543b33959b7330c33895ac9cfc3c75006ab1fedbb61b061b4e8f980425f",
+      "bytes": 3250,
+      "lines": 22,
+      "description": "Codex专用执行职责，不是另一套专业取用法"
+    },
+    {
+      "key": "judgment-core",
+      "title": "共用判断规范",
+      "source": "runtime/liuren/20261112-consistency-52/references/judgment-core.md",
+      "snapshot": "现行共用原文/judgment-core.md",
+      "sha256": "e9da27017555c86fd86c0d5c49937794000cbf182aeac1aecf50ed14b9fd544b",
+      "bytes": 18051,
+      "lines": 65,
+      "description": "所有子问共同采用的主线、U01—U11及旺衰取数边界"
+    },
+    {
+      "key": "positioning",
+      "title": "原问、对象与取用",
+      "source": "runtime/liuren/20261112-consistency-52/methods/positioning.md",
+      "snapshot": "现行共用原文/positioning.md",
+      "sha256": "9719cb38df29a15601fac0f18b7dcc15b3e2845e2766332b67c70b2eb90a7019",
+      "bytes": 4150,
+      "lines": 30,
+      "description": "当事人与代问者、干支职责、九系统、通类与专类、类不现"
+    },
+    {
+      "key": "classification-priority",
+      "title": "分类职责、首取与条件递补",
+      "source": "runtime/liuren/20261112-consistency-52/references/classification-priority.md",
+      "snapshot": "现行共用原文/classification-priority.md",
+      "sha256": "21970c5bed925387feb791c24536fb4a4ad45242cacc599d74e2b2fa03654864",
+      "bytes": 4325,
+      "lines": 26,
+      "description": "婚恋、考试、职位、工作求财、寻物行人和官讼等主次条件"
+    },
+    {
+      "key": "shenjiang-use",
+      "title": "神将同用与互换",
+      "source": "runtime/liuren/20261112-consistency-52/methods/shenjiang-use.md",
+      "snapshot": "现行共用原文/shenjiang-use.md",
+      "sha256": "1ae7123f805a240eb0d784926f947b7ecfbaab09de5a2de5bdb4490ef8476a7d",
+      "bytes": 4300,
+      "lines": 31,
+      "description": "天神/天将对应、替代路径与不可迁移的坐标和力量"
+    },
+    {
+      "key": "shen-symbols",
+      "title": "十二天神象义",
+      "source": "runtime/liuren/20261112-consistency-52/references/shen-symbols.md",
+      "snapshot": "现行共用原文/shen-symbols.md",
+      "sha256": "6f9d565e437ce8455effad4ba3331656ee8716de22adb6928f06a5c4ad797469",
+      "bytes": 5841,
+      "lines": 81,
+      "description": "基础物类、形质功能及复合取义"
+    },
+    {
+      "key": "jiang-symbols",
+      "title": "十二天将象义",
+      "source": "runtime/liuren/20261112-consistency-52/references/jiang-symbols.md",
+      "snapshot": "现行共用原文/jiang-symbols.md",
+      "sha256": "3b24fb83f4fb48eba107c5eee81a527967fa20cc87169ffbb7ba856faed46a5b",
+      "bytes": 4220,
+      "lines": 84,
+      "description": "人物事职能，不能把名目直接当结果"
+    },
+    {
+      "key": "liqi",
+      "title": "关键对象的有效作用",
+      "source": "runtime/liuren/20261112-consistency-52/methods/liqi.md",
+      "snapshot": "现行共用原文/liqi.md",
+      "sha256": "8b016186ef016157c9f88f8c209291ee014d5a90fc4f3f89f97826894e6672d8",
+      "bytes": 13934,
+      "lines": 115,
+      "description": "气态、位置、施受、制救和实际兑现"
+    },
+    {
+      "key": "void",
+      "title": "空亡",
+      "source": "runtime/liuren/20261112-consistency-52/methods/void.md",
+      "snapshot": "现行共用原文/void.md",
+      "sha256": "539924e2bed7b7a5e9917e6ba17ff5cdc094a04e642d6a02c91f03ab55796666",
+      "bytes": 4956,
+      "lines": 36,
+      "description": "空的对象、状态与具体环节，不凭空名结案"
+    },
+    {
+      "key": "movement",
+      "title": "动静、流向与行止",
+      "source": "runtime/liuren/20261112-consistency-52/methods/movement.md",
+      "snapshot": "现行共用原文/movement.md",
+      "sha256": "d874dd3022a5d1728d0d52ab54f9f0cd5321452f02456b214e194322c4374013",
+      "bytes": 4070,
+      "lines": 34,
+      "description": "状态变化、流动方向、关墓空与冲解"
+    },
+    {
+      "key": "structure",
+      "title": "课传结构",
+      "source": "runtime/liuren/20261112-consistency-52/methods/structure.md",
+      "snapshot": "现行共用原文/structure.md",
+      "sha256": "ae1c4f4cbf57483adfff539a298207b4337c2f741fdafa3e9c6cba36eecb291a",
+      "bytes": 3804,
+      "lines": 36,
+      "description": "结构与本问对象的联系，不能只凭课名"
+    },
+    {
+      "key": "analysis-workflow",
+      "title": "北海综合流程的原文与归纳",
+      "source": "runtime/liuren/20261112-consistency-52/references/analysis-workflow.md",
+      "snapshot": "现行共用原文/analysis-workflow.md",
+      "sha256": "59343d874c9fb57b18406950cbeb8060fe5339c08a7f5d1b8d12c8b027d588cf",
+      "bytes": 6945,
+      "lines": 67,
+      "description": "原书总论与本机采用边界分别保留"
+    },
+    {
+      "key": "confirmed-policy",
+      "title": "采用口径 U01—U11 全文",
+      "source": "runtime/liuren/20261112-consistency-52/references/confirmed-judgment-policy.md",
+      "snapshot": "现行共用原文/confirmed-policy.md",
+      "sha256": "68138dbe962b270ec43b032c0378783cec616bf5628c6776efbaf57f1b1f6647",
+      "bytes": 14202,
+      "lines": 52,
+      "description": "本地采用规则，不冒充各书共识"
+    },
+    {
+      "key": "book-logic",
+      "title": "类神状态及作用的书证执行补充",
+      "source": "runtime/liuren/20261112-consistency-52/references/book-logic.md",
+      "snapshot": "现行共用原文/book-logic.md",
+      "sha256": "733243a7c4d992ba96834968702d1684eb5bfa8199b195bcbae97c67386e70d8",
+      "bytes": 10298,
+      "lines": 66,
+      "description": "不现、阴阳、气势、施受及阶段的细节"
+    },
+    {
+      "key": "bifa",
+      "title": "毕法使用边界",
+      "source": "runtime/liuren/20261112-consistency-52/references/bifa.md",
+      "snapshot": "现行共用原文/bifa.md",
+      "sha256": "85d2b27530d7ef940eb8131a02308e1e2641f1a9bb957807a5df478139d3d7f2",
+      "bytes": 922,
+      "lines": 12,
+      "description": "毕法描述辅助定位"
+    },
+    {
+      "key": "bifa-basic",
+      "title": "毕法基本条件及适配边界",
+      "source": "runtime/liuren/20261112-consistency-52/references/bifa-basic.md",
+      "snapshot": "现行共用原文/bifa-basic.md",
+      "sha256": "d16627afcb86e731626b399745e1398de78ce8d105e9f86b64a29fa2b412768c",
+      "bytes": 18299,
+      "lines": 166,
+      "description": "成格事实与按问取义分开"
+    },
+    {
+      "key": "shensha-use",
+      "title": "神煞取用",
+      "source": "runtime/liuren/20261112-consistency-52/references/shensha-use.md",
+      "snapshot": "现行共用原文/shensha-use.md",
+      "sha256": "a63278afa0aad0763737b1032153e81b7e52a54e5f9b5ade6b66f8b00b888484",
+      "bytes": 10641,
+      "lines": 70,
+      "description": "直接取类、修饰与制救的具体条件"
+    },
+    {
+      "key": "quantity",
+      "title": "数量取法",
+      "source": "runtime/liuren/20261112-consistency-52/methods/quantity.md",
+      "snapshot": "现行共用原文/quantity.md",
+      "sha256": "c7f80698acdbccb96901f2d0cfc1eb66d641ad64a15ec7ace0db4d2fa2493409",
+      "bytes": 9636,
+      "lines": 67,
+      "description": "数量对象、数法、单位与实际估计"
+    },
+    {
+      "key": "quantity-strength",
+      "title": "旺衰对取数的作用",
+      "source": "runtime/liuren/20261112-consistency-52/references/quantity-strength.md",
+      "snapshot": "现行共用原文/quantity-strength.md",
+      "sha256": "89cf003d429338e203ca94173b299b0b85c16bdb5399b75f4a9b8bb5196d900f",
+      "bytes": 2803,
+      "lines": 23,
+      "description": "气态选法与后续修正的分工"
+    },
+    {
+      "key": "quantity-correction",
+      "title": "旺衰与数量兑现",
+      "source": "runtime/liuren/20261112-consistency-52/references/quantity-correction.md",
+      "snapshot": "现行共用原文/quantity-correction.md",
+      "sha256": "1780be0244c84b6eee59f5d2cfdcaabefea9046cd5e452a89ff6da033fc3db02",
+      "bytes": 6785,
+      "lines": 45,
+      "description": "source/experimental、空减、量级及真实回执"
+    },
+    {
+      "key": "timing",
+      "title": "应期",
+      "source": "runtime/liuren/20261112-consistency-52/methods/timing.md",
+      "snapshot": "现行共用原文/timing.md",
+      "sha256": "61e07258b79b13015cf39a95fe742ae1c76cb66e14db2c78dbe3c301a3012482",
+      "bytes": 23695,
+      "lines": 167,
+      "description": "时段、起点、尺度与兑现条件"
+    },
+    {
+      "key": "adjudication",
+      "title": "中性交接与独立裁决",
+      "source": "runtime/liuren/20261112-consistency-52/methods/adjudication.md",
+      "snapshot": "执行与工具原文/adjudication.md",
+      "sha256": "0ce4d62fbdf91b14f3600253dfbadb95a825c7236ca97a0f08dbcf9f0d36bc46",
+      "bytes": 2645,
+      "lines": 15,
+      "description": "准备、独立裁决、一次同会话补核"
+    },
+    {
+      "key": "report",
+      "title": "完整报告与核对",
+      "source": "runtime/liuren/20261112-consistency-52/methods/report.md",
+      "snapshot": "执行与工具原文/report.md",
+      "sha256": "6fd91db9af72c066254c016948d1eb727146aedd5ccf85849711fe4ab9492723",
+      "bytes": 3343,
+      "lines": 21,
+      "description": "结论、反证、依据及缺口怎样交付"
+    },
+    {
+      "key": "consistency-audit",
+      "title": "五项一致性核对",
+      "source": "runtime/liuren/20261112-consistency-52/references/consistency-audit.md",
+      "snapshot": "执行与工具原文/consistency-audit.md",
+      "sha256": "6a1fe90a970166784ea4f7ae9fb0e46d435d736a9cbece0367c2a28d9c94e2eb",
+      "bytes": 7658,
+      "lines": 87,
+      "description": "事实身份、职责阶段、计算范围、反证与逐问约束"
+    },
+    {
+      "key": "deterministic-tools",
+      "title": "程序工具接口与计算边界",
+      "source": "runtime/liuren/20261112-consistency-52/references/deterministic-tools.md",
+      "snapshot": "执行与工具原文/deterministic-tools.md",
+      "sha256": "ce3534d91f131974bf30a02ccd6e679d6a2f2bf662c875d0368dc07de2caff52",
+      "bytes": 20924,
+      "lines": 222,
+      "description": "正文文件存在且在manifest.files；当前未登记同名module ID，不能直接用该ID查询"
+    },
+    {
+      "key": "relationship",
+      "title": "婚姻爱情",
+      "source": "runtime/liuren/20261112-consistency-52/domains/relationship.md",
+      "snapshot": "分类占原文/relationship.md",
+      "sha256": "fd97f1b25b11d80bc3d3d027e5b72240cdd4ed1f79415fa56739907eb913b8da",
+      "bytes": 7755,
+      "lines": 75,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "exam",
+      "title": "学业考试",
+      "source": "runtime/liuren/20261112-consistency-52/domains/exam.md",
+      "snapshot": "分类占原文/exam.md",
+      "sha256": "6f747fb10ec8f64d711799da2ea271f6fb31daed71b34fd6871be69c50a07f77",
+      "bytes": 5236,
+      "lines": 41,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "promotion-salary",
+      "title": "职位晋升与薪酬",
+      "source": "runtime/liuren/20261112-consistency-52/domains/promotion-salary.md",
+      "snapshot": "分类占原文/promotion-salary.md",
+      "sha256": "b4246a89a43f5f26d06e6dd50d2b59cce9e1d81ffa67d5e505fe01f3fefc604b",
+      "bytes": 5675,
+      "lines": 67,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "recruitment",
+      "title": "应聘与工作录用",
+      "source": "runtime/liuren/20261112-consistency-52/domains/recruitment.md",
+      "snapshot": "分类占原文/recruitment.md",
+      "sha256": "7d4337d69af980ef20d340e28cd58a1465f18702097f4bb820bab64a6bb419ec",
+      "bytes": 6652,
+      "lines": 73,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "finance",
+      "title": "经营求财",
+      "source": "runtime/liuren/20261112-consistency-52/domains/finance.md",
+      "snapshot": "分类占原文/finance.md",
+      "sha256": "6a5edf2854eb23b8014a5927ca98e3293dc4a440857b707156417c3e4ba2214a",
+      "bytes": 11088,
+      "lines": 114,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "lost-person-object",
+      "title": "失物寻物与走失",
+      "source": "runtime/liuren/20261112-consistency-52/domains/lost-person-object.md",
+      "snapshot": "分类占原文/lost-person-object.md",
+      "sha256": "cd55ef98ccfa0a960a71e9eb7e893cf98a5c36613051d7b7d3614bdea89e5f9c",
+      "bytes": 3909,
+      "lines": 37,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "litigation",
+      "title": "官讼诉讼",
+      "source": "runtime/liuren/20261112-consistency-52/domains/litigation.md",
+      "snapshot": "分类占原文/litigation.md",
+      "sha256": "0762736bbb2e99a72e94332754003851f45a5a4b66b99cff318785e85630dc41",
+      "bytes": 1723,
+      "lines": 10,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "interpersonal",
+      "title": "人际是非",
+      "source": "runtime/liuren/20261112-consistency-52/domains/interpersonal.md",
+      "snapshot": "分类占原文/interpersonal.md",
+      "sha256": "ebafcceee8b068acf9f6c42a5ef681d2ecf8444fee6610b48f454cbf293ad999",
+      "bytes": 4443,
+      "lines": 59,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "illness",
+      "title": "疾病求医",
+      "source": "runtime/liuren/20261112-consistency-52/domains/illness.md",
+      "snapshot": "分类占原文/illness.md",
+      "sha256": "0cda95cc57d6dfe43171c34f5de55765c75766fd678787fd5f48de284c8fd58c",
+      "bytes": 5636,
+      "lines": 49,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "pregnancy",
+      "title": "胎产生育",
+      "source": "runtime/liuren/20261112-consistency-52/domains/pregnancy.md",
+      "snapshot": "分类占原文/pregnancy.md",
+      "sha256": "3875cfbb86f69a17cd991a1388649e6b549ff62654878ae59441836eb9aaaa9a",
+      "bytes": 5905,
+      "lines": 57,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "home",
+      "title": "家宅地产",
+      "source": "runtime/liuren/20261112-consistency-52/domains/home.md",
+      "snapshot": "分类占原文/home.md",
+      "sha256": "fbe99a410a25c124c30a3d81326b06a84dad92508802438ea2c70043340292d9",
+      "bytes": 1819,
+      "lines": 25,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "travel",
+      "title": "出行行人",
+      "source": "runtime/liuren/20261112-consistency-52/domains/travel.md",
+      "snapshot": "分类占原文/travel.md",
+      "sha256": "35e9be33691e8d24a32b9cfcedd190c79cb7fb89bedbe30f19e4b3d0af2227cb",
+      "bytes": 2480,
+      "lines": 36,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "weather",
+      "title": "天时天气",
+      "source": "runtime/liuren/20261112-consistency-52/domains/weather.md",
+      "snapshot": "分类占原文/weather.md",
+      "sha256": "d286277e964da35d08c01fe15d30953f40cf795a24ebd39fccfb7707ebe8d2cb",
+      "bytes": 1372,
+      "lines": 23,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "agriculture",
+      "title": "农渔畜养",
+      "source": "runtime/liuren/20261112-consistency-52/domains/agriculture.md",
+      "snapshot": "分类占原文/agriculture.md",
+      "sha256": "fc7863ca1246ffd9b623dc82da8b3867192c71d1002d89f6fd1507543b7a9a75",
+      "bytes": 3693,
+      "lines": 55,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "period-outlook",
+      "title": "阶段时运",
+      "source": "runtime/liuren/20261112-consistency-52/domains/period-outlook.md",
+      "snapshot": "分类占原文/period-outlook.md",
+      "sha256": "03b5ba120dde9e20e83086c8dc1aa5ff02364a5a38dac3b3c68d13972da13813",
+      "bytes": 6375,
+      "lines": 55,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "long-period",
+      "title": "长期占事",
+      "source": "runtime/liuren/20261112-consistency-52/domains/long-period.md",
+      "snapshot": "分类占原文/long-period.md",
+      "sha256": "7df8ec8f987989c6baca1978482061523c1e9af4e870e9b59203711cc71aff06",
+      "bytes": 3929,
+      "lines": 23,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "classical-conflict",
+      "title": "兵盗等古典专题补充",
+      "source": "runtime/liuren/20261112-consistency-52/domains/classical-conflict.md",
+      "snapshot": "分类占原文/classical-conflict.md",
+      "sha256": "118be457307843e6a35b4d0b1876111d04a74096ceeb470dee59d49e585f6b15",
+      "bytes": 5793,
+      "lines": 46,
+      "description": "该分类当前完整正文，保留全部条件及来源标识"
+    },
+    {
+      "key": "confirmed-policy-evidence",
+      "title": "U口径的SG连续书证",
+      "source": "runtime/liuren/20261112-consistency-52/references/confirmed-policy-evidence.md",
+      "snapshot": "书证/confirmed-policy-evidence.md",
+      "sha256": "51ccd4d47726ccfd660ea35b5712901d96cb4d40c3c9ebd476956b873ccc78f7",
+      "bytes": 30869,
+      "lines": 301,
+      "description": "SG来源原文与采用边界；不是待执行的新规则"
+    }
+  ],
+  "verified_book_passages": [
+    {
+      "id": "CF-E01",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 1155,
+      "line_end": 1173,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E02",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 1391,
+      "line_end": 1395,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E03",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 2709,
+      "line_end": 2715,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E04",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 3433,
+      "line_end": 3447,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E05",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 3481,
+      "line_end": 3487,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E06",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 355,
+      "line_end": 363,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E07",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 3981,
+      "line_end": 4011,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E08",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 475,
+      "line_end": 491,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E09",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 505,
+      "line_end": 527,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E10",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 4499,
+      "line_end": 4505,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E11",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 1409,
+      "line_end": 1437,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E12",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 455,
+      "line_end": 469,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E13",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2352,
+      "line_end": 2371,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E14",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 1927,
+      "line_end": 1945,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E15",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 608,
+      "line_end": 620,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E16",
+      "source": "书籍库/北海闲人/北海闲人大六壬指南问答〔完全版〕.txt",
+      "sha256": "df3f689687e17d6137efe478d4738c7319f2ec8d481791a20daef642cc674bf6",
+      "encoding": "utf-8-sig",
+      "line_start": 459,
+      "line_end": 479,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E17",
+      "source": "书籍库/北海闲人/北海闲人，特训班讲义.txt",
+      "sha256": "4bc1a33167ba5b064890bfefa008b680568a79ca5db7c95d8bdca68b6f71ccc2",
+      "encoding": "gb18030",
+      "line_start": 458,
+      "line_end": 464,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E18",
+      "source": "书籍库/北海闲人/北海闲人-大六门64课经精讲解注.txt",
+      "sha256": "22f2fb47cc2650dae0d369342e73941fdcc744b0807290ae4bafe8543cc70cdf",
+      "encoding": "gb18030",
+      "line_start": 134,
+      "line_end": 180,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E19",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8-sig",
+      "line_start": 2695,
+      "line_end": 2701,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E20",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2407,
+      "line_end": 2448,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E21",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2556,
+      "line_end": 2561,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E22",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 4800,
+      "line_end": 4814,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E23",
+      "source": "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt",
+      "sha256": "16b5c104551cb118aebe2651e4d1fdfb88945f464d3db933a6a21145e8f181bc",
+      "encoding": "utf-8-sig",
+      "line_start": 1685,
+      "line_end": 1707,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E24",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2627,
+      "line_end": 2648,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E25",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2648,
+      "line_end": 2678,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E26",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2680,
+      "line_end": 2695,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E27",
+      "source": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+      "sha256": "e3312f2d3910f14f809c8e364f7c38e96c2ca36557dd158a077a6052de06ec69",
+      "encoding": "utf-8-sig",
+      "line_start": 1064,
+      "line_end": 1076,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E28",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 1317,
+      "line_end": 1327,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E29",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 3388,
+      "line_end": 3399,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E30",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 3718,
+      "line_end": 3748,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E31",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 3864,
+      "line_end": 3872,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E32",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 3334,
+      "line_end": 3348,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E33",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 2797,
+      "line_end": 2816,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E34",
+      "source": "书籍库/北海闲人/北海闲人大六壬指南问答〔完全版〕.txt",
+      "sha256": "df3f689687e17d6137efe478d4738c7319f2ec8d481791a20daef642cc674bf6",
+      "encoding": "utf-8-sig",
+      "line_start": 263,
+      "line_end": 275,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E35",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 1449,
+      "line_end": 1467,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E36",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 1725,
+      "line_end": 1759,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E37",
+      "source": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8-sig",
+      "line_start": 1500,
+      "line_end": 1521,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E38",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 2033,
+      "line_end": 2055,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E39",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 759,
+      "line_end": 773,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E40",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8-sig",
+      "line_start": 1797,
+      "line_end": 1809,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E41",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 917,
+      "line_end": 921,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E42",
+      "source": "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt",
+      "sha256": "16b5c104551cb118aebe2651e4d1fdfb88945f464d3db933a6a21145e8f181bc",
+      "encoding": "utf-8-sig",
+      "line_start": 1295,
+      "line_end": 1311,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E43",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 662,
+      "line_end": 696,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E44",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 702,
+      "line_end": 710,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E45",
+      "source": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8-sig",
+      "line_start": 730,
+      "line_end": 748,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E46",
+      "source": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+      "sha256": "e3312f2d3910f14f809c8e364f7c38e96c2ca36557dd158a077a6052de06ec69",
+      "encoding": "utf-8-sig",
+      "line_start": 938,
+      "line_end": 940,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E47",
+      "source": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+      "sha256": "e3312f2d3910f14f809c8e364f7c38e96c2ca36557dd158a077a6052de06ec69",
+      "encoding": "utf-8-sig",
+      "line_start": 970,
+      "line_end": 974,
+      "quote_matches_source": true
+    },
+    {
+      "id": "CF-E48",
+      "source": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+      "sha256": "e3312f2d3910f14f809c8e364f7c38e96c2ca36557dd158a077a6052de06ec69",
+      "encoding": "utf-8-sig",
+      "line_start": 1206,
+      "line_end": 1208,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-01",
+      "source": "书籍库/北海闲人/北海闲人，特训班讲义.txt",
+      "sha256": "4bc1a33167ba5b064890bfefa008b680568a79ca5db7c95d8bdca68b6f71ccc2",
+      "encoding": "gb18030",
+      "line_start": 8,
+      "line_end": 16,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-02",
+      "source": "书籍库/北海闲人/北海闲人，特训班讲义.txt",
+      "sha256": "4bc1a33167ba5b064890bfefa008b680568a79ca5db7c95d8bdca68b6f71ccc2",
+      "encoding": "gb18030",
+      "line_start": 34,
+      "line_end": 52,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-03",
+      "source": "书籍库/北海闲人/北海闲人，特训班讲义.txt",
+      "sha256": "4bc1a33167ba5b064890bfefa008b680568a79ca5db7c95d8bdca68b6f71ccc2",
+      "encoding": "gb18030",
+      "line_start": 103,
+      "line_end": 107,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-04",
+      "source": "书籍库/北海闲人/北海闲人 《大六门括囊赋》略疏.txt",
+      "sha256": "e8e595128985a30df7443a75de124729ea5b6f61559517605fd7c899fe3a2bd0",
+      "encoding": "gb18030",
+      "line_start": 19,
+      "line_end": 24,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-05",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 503,
+      "line_end": 535,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-06",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 537,
+      "line_end": 567,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-07",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 613,
+      "line_end": 643,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-08",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 2139,
+      "line_end": 2151,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-09",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 3151,
+      "line_end": 3151,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-10",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 1031,
+      "line_end": 1035,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-11",
+      "source": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "line_start": 983,
+      "line_end": 987,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-12",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8",
+      "line_start": 3761,
+      "line_end": 3763,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-13",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8",
+      "line_start": 4771,
+      "line_end": 4781,
+      "quote_matches_source": true
+    },
+    {
+      "id": "BH-FLOW-14",
+      "source": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8",
+      "line_start": 4794,
+      "line_end": 4832,
+      "quote_matches_source": true
+    }
+  ],
+  "active_files_modified": false,
+  "case_experience_retrieval": false,
+  "predictive_validation_count": 0
+}

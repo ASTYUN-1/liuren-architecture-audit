@@ -1,0 +1,137 @@
+{
+  "at": "2026-11-02T03:09:00.316861+00:00",
+  "checks": [
+    {
+      "base": "http://127.0.0.1:3100",
+      "route": "/",
+      "status": 200
+    },
+    {
+      "base": "http://127.0.0.1:3100",
+      "route": "/login",
+      "status": 200
+    },
+    {
+      "base": "http://127.0.0.1:3100",
+      "route": "/admin",
+      "status": 200
+    },
+    {
+      "base": "http://127.0.0.1:3100",
+      "route": "/api/status",
+      "status": 200,
+      "health": {
+        "aiEnabled": true,
+        "workerOnline": true,
+        "modelConfigured": true
+      }
+    },
+    {
+      "base": "http://127.0.0.1:3100",
+      "route": "/api/admin/overview",
+      "status": 401
+    },
+    {
+      "base": "https://wen.qiluhub.com",
+      "route": "/",
+      "status": 200
+    },
+    {
+      "base": "https://wen.qiluhub.com",
+      "route": "/login",
+      "status": 200
+    },
+    {
+      "base": "https://wen.qiluhub.com",
+      "route": "/admin",
+      "status": 200
+    },
+    {
+      "base": "https://wen.qiluhub.com",
+      "route": "/api/status",
+      "status": 200,
+      "health": {
+        "aiEnabled": true,
+        "workerOnline": true,
+        "modelConfigured": true
+      }
+    },
+    {
+      "base": "https://wen.qiluhub.com",
+      "route": "/api/admin/overview",
+      "status": 401
+    }
+  ],
+  "publicScriptHashes": [
+    {
+      "path": "/_next/static/chunks/1w332i5wg5ktr.js",
+      "sha256": "32bdc8067bf791eafafec2bd584590235e5bde67d91809cacb386a6fb0625120"
+    },
+    {
+      "path": "/_next/static/chunks/3erq2bmdl2bkk.js",
+      "sha256": "823ce330ecb3d681ec67b106f6cda1da4b81487ddf567d37f51c7d98c14e58c3"
+    },
+    {
+      "path": "/_next/static/chunks/0s0_hsdclr4xk.js",
+      "sha256": "8446543f50950c3cab74d57cd73f96d9ef66d00fa589e4e02d818c532ba8e8ad"
+    },
+    {
+      "path": "/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+      "sha256": "b5f9b5199b99ab6c141f4540f0b7d0fe803c4ecf6956849ecb6e59d3d439272e"
+    },
+    {
+      "path": "/_next/static/chunks/3xb-4kaam9_9y.js",
+      "sha256": "191e72a80e45133acd954c3a4ad68e752f177708c9c559d122b073aad38af112"
+    },
+    {
+      "path": "/_next/static/chunks/1lt8-yiw30e3v.js",
+      "sha256": "31576a5405a5516331f1d5fd8ea13e2e13402f3add9a6be88ae60722e9bc2370"
+    },
+    {
+      "path": "/_next/static/chunks/3i79lxazj7bpe.js",
+      "sha256": "47a4904c098d286dbd1a692f1993e7234cb9780cdbe17731e24a24ce5f540151"
+    },
+    {
+      "path": "/_next/static/chunks/0wk16zeurul2k.js",
+      "sha256": "3bfdf5daa4c77beb1f645333c8fee25a4dd376b0a031a3e32438792240d9a253"
+    },
+    {
+      "path": "/_next/static/chunks/2jzcl5n10aig6.js",
+      "sha256": "c5920c59a0f94d19ee40f47b6e7c4cb8388291cd3ff4aeae44925c2278035512"
+    },
+    {
+      "path": "/_next/static/chunks/38adr9v36jw6u.js",
+      "sha256": "93bbd98f5c7f067f1c273db4af3e364118d63db229efd5cfe09f017410388020"
+    },
+    {
+      "path": "/_next/static/chunks/3ivji5usps4sg.js",
+      "sha256": "7e60691395d4e56a1ca269a917b88fb85636e84986c76be98d9f246abe6ded65"
+    },
+    {
+      "path": "/_next/static/chunks/191yk5efyoyfx.js",
+      "sha256": "89902e9c13ea45832c5a1468a5a1aa2cd4f7c7d195317053884402b823253dcb"
+    },
+    {
+      "path": "/_next/static/chunks/3_uuvwjujg-b_.js",
+      "sha256": "0540528e34839e4dd7bf8d15fa323ea8cb6ca2e4cc02663d12a9186384ac0886"
+    },
+    {
+      "path": "/_next/static/chunks/28iddq4el4j6b.js",
+      "sha256": "e6cb1a6d5863f316bbfddd6402ce661f6f6f0ea4108c8be5d09f29b100bfedaf"
+    },
+    {
+      "path": "/_next/static/chunks/348cw7biyst83.js",
+      "sha256": "72ade572ecb57539490e1421aa2819adf23e18ef4ec3a00594e87ca7280d04fb"
+    },
+    {
+      "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "path": "/_next/static/chunks/39udxyzxhiqy2.js",
+      "sha256": "0b2c9ae979c4489d617cb4855a0572d164c3dfa2bf3668d7beed91e17b7268c7"
+    }
+  ],
+  "services": "MainPID=2004358\nNRestarts=0\nWorkingDirectory=/opt/wenheng/current\nActiveState=active\n\nMainPID=2004357\nNRestarts=0\nWorkingDirectory=/opt/wenheng/releases/20261102-workflow-optimization-01\nActiveState=active\n",
+  "paidApiTests": 0
+}

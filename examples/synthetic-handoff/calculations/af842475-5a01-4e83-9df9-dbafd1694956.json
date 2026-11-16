@@ -1,0 +1,66 @@
+{
+  "request": {
+    "action": "quantity",
+    "quantity_method": {
+      "id": "WY67-shenjiang-base",
+      "target": "T:丑",
+      "basis": "合成传输验收"
+    }
+  },
+  "result": {
+    "schema": "liuren-method-quantity-v1",
+    "method": "WY67-shenjiang-base",
+    "chart_sha256": "b0d2dfcb0c4b0d8d350ccc241e6a452153cd684d9a96d6b902f4c38e47bf03ec",
+    "stage": "base-only",
+    "facts": {
+      "target": "T:丑",
+      "ground": "辰",
+      "general": "腾蛇",
+      "general_number": 4
+    },
+    "value": 32,
+    "unit": null,
+    "unresolved": [
+      "量级未由本算式确定",
+      "单位",
+      "仅完成本法基础取数，后续步骤未执行"
+    ],
+    "source": {
+      "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+      "line_start": 66,
+      "line_end": 67,
+      "line_mode": "lf",
+      "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+    },
+    "calculation": {
+      "expression": {
+        "op": "multiply",
+        "args": [
+          {
+            "table": "branch",
+            "symbol": "丑"
+          },
+          {
+            "value": 4
+          }
+        ]
+      },
+      "exact_fraction": {
+        "numerator": "32",
+        "denominator": "1"
+      }
+    },
+    "basis": "合成传输验收",
+    "calculation_scope": {
+      "included": {
+        "seasonal_state": null,
+        "month_build_break_factor": null,
+        "source_formula": "WY67-shenjiang-base"
+      },
+      "composite_strength_index_read": false,
+      "void_quantity_adjustment_applied": false,
+      "reality_scale_resolved": false,
+      "next_review": "51版：具名数法已用月令时走source路径，不能再叠实验强弱倍率；若改走experimental须另取未含气态/空减的原始expression本数。strength返回真实不含空亡重算。绑定新任务用quantity_adjustment引用基数与strength回执，独立说明量级、单位、上下限及旬空处理；原法未明示的空半不冒充原文。旧任务沿原绑定方法。"
+    }
+  }
+}

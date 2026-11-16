@@ -1,0 +1,281 @@
+{
+  "release": "20261103-class-mapping-02",
+  "parentRelease": "20261103-class-mapping-01",
+  "originalMethodBaseline": "20261103-local-restore-01",
+  "original_modules": [
+    {
+      "module": "risk",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-tradition",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "classical-conflict",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "exam",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "finance",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "illness",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "interpersonal",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "long-period",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "lost-person-object",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "period-outlook",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "pregnancy",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "promotion-salary",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "recruitment",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "relationship",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "adjudication",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "evidence",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "liqi",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "movement",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "positioning",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "relations",
+      "original_text_preserved": true,
+      "unchanged": false
+    },
+    {
+      "module": "report",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "structure",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "timing",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "void",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "bashajiubao",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "beihai-extend-sop",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "bifa",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "blade-methods",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "case-retrieval-v2",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "daliuren-paipan",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "daliuren-shensha",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "engine-shensha-output",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "experience-retrieval-v2",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "keti-quanbiao",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "kundun",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "liqi-examples",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "liqi-sources",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "nianming",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "rule-semantics",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-engine-index",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-field-meanings",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-focus",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-meaning-sources",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-meanings",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-other-meanings",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-sources",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "shensha-use",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "quantity",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "quantity-sources",
+      "original_text_preserved": true,
+      "unchanged": true
+    },
+    {
+      "module": "workflow-contract",
+      "original_text_preserved": true,
+      "unchanged": true
+    }
+  ],
+  "original_modules_fully_preserved": 50,
+  "old_frozen_runtime_count_unchanged": 8,
+  "websiteChanged": false,
+  "independentValidation": 0,
+  "positioning_original_sha256": "6ed7893ef32fcd48a5554d5df9e4161d6393f4f63d74c95c4aa5187a9145d0f5",
+  "applied": {
+    ".opencode/liuren-active.json": "a2d53add686b6908854dd57806f4365414ca73af05e97134c548fb549a4e05be",
+    ".opencode/skills/liuren/daliuren/refs/daliuren-paipan.md": "e61eb4a57fcd681873b532149e6a3154f7c16060dd8fc37a86a78a81b3db29fb",
+    ".opencode/skills/liuren/daliuren/refs/judgment-workflow.md": "36664478ea3cc2c17f30ee473995c52a640a80c51d9f989360b5d125dfdca7b7",
+    ".opencode/skills/liuren/daliuren/refs/liqi-analysis.md": "907c7f72ec5e28f0440f6e3ed0999b0e31d429335994118594a71cdfc9a3e1fb",
+    ".opencode/skills/liuren/daliuren/refs/liqi-sources.md": "12e61fda7089cf2266b3ecfa5223def332d9455b9b1559f7df4467a6db86df32",
+    ".opencode/skills/liuren/daliuren/refs/rule-semantics.md": "66b1fbada16a8db30a0f885377fc711539ee7f5cd03f7732b0dfa290992ad9c5",
+    ".opencode/skills/liuren/daliuren/refs/shensha-use.md": "e55068a639f7b686e0953d3fa87fb888de0f423d00470edabbdaeece15a14057",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "823c535dfd428c6ccedcf108e6554d57572a21ba47aa81b2e09d4e4651f59081",
+    ".opencode/skills/liuren/liuren-cases/refs/case-retrieval-v2.md": "ae9ce3b8a96df420a23ff3ca00f4633084fa85ac404f3142140ebeda0e818f8b",
+    ".opencode/skills/liuren/liuren-cases/refs/experience-retrieval-v2.md": "567d7ac409f33660823a9869dbb1665c6358e056564d7d49dcd8b74de343d66b",
+    ".opencode/skills/liuren/liuren-cases/SKILL.md": "3d3c9f2b8eaf1ec9a7bf1b16c7215f069237adec54e2c63d7b276048eebf147b",
+    ".opencode/skills/liuren/liuren-extract/SKILL.md": "a8a98180c21c089c1eb3e2e63eaf2d8cb904324e4e324511c59c3125a74fa074",
+    ".opencode/skills/liuren/liuren-tuiming/SKILL.md": "9103bdc8feb326b13a5aeeea4b08b625a93985106d22ebf340c361d5c8988e42",
+    "README.md": "de66b18c3a771d92ba8fc954a94bb1270cdd37e8c6b18ff8d7d64a04094c5a8f",
+    "目录总索引.md": "700ff2e58c551645cde77d85cf2e6480af4689278f085e3ad1d90d0f5f9cbbdb"
+  },
+  "readPermissionsBefore": "before/opencode-liuren-read.json",
+  "rollback": "若需回退，先核 applied 字节未变，再恢复 before 对应文件与仅六壬 read 权限映射；保留新运行包和研究补充。"
+}

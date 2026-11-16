@@ -1,0 +1,2522 @@
+[
+  {
+    "path": ".opencode/node_modules/@opencode-ai/plugin/dist/index.js",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": ".opencode/node_modules/@opencode-ai/plugin/dist/tool.js",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": ".opencode/node_modules/@opencode-ai/plugin/package.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-分流-20261019/异常待核/analysis-ready/private/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-分流-20261019/正常可用/analysis-ready/private/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-000edd8210.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-00e113178c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-016ce7f079.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-028f4474ef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-0297f876db.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-02cacaa924.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-04afc04b9d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-054dbbd944.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-07b448475b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-07b9ff2392.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-090516c41a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-0c444631d4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-0e6f21791b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-103e0afea3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-1103c91b91.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-127b7fdcc7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-13916531f3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-1394589896.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-141f6b51d6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-14271a4eb9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-15a5446fe3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-15de52b119.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-16fe0c7813.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-18cfb749c5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-1a63148620.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-1cb7f7dd11.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-1e0dabeed3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-1fdd9c194a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-209c49c9ec.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-20ba998ba3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-20c6340acd.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-2244c1a836.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-24dc85f63f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-257ab73c20.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-25b7ae3f73.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-2634aff8ed.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-26905d16ba.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-28d4134371.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-2a0abdfae8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-2afb8c1f47.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-2bd6fbe7c2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-2be2993a11.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-30c7b5232c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-32646403a9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-34ca59a18d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-3691564a22.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-37a665b215.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-389acbe9f8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-3e0c2f6659.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-401924321b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-4096d103f9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-41eafdfa78.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-43bfd00de5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-447eedbeb2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-455e10551a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-497853da3a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-499db844e3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-49d8c5a3ba.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-4a6c320a1f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-4b4408e986.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-4b98cb8e6e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-4beedebabe.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-4df67a38d3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-50771b5812.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-5154722119.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-52cf3c03bb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-5794b98ea9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-580b4abcc5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-5fedb0fac1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-61f998c95b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-634d9427e4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-63840ab7ef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-63971e1b88.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-63e0612ff8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-66aa442cd7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-66f4b34547.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-68bf2c6cee.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6933421324.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6a47f506ad.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6ae29cf6d8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6cf51f0fcc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6d8b452d80.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6e8270bfab.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6f6103e608.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-6fcdfa8a4e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-70dfa15e1a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-70f8da1ff1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-71a4d74ba5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-71aeb3df81.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-722dd2f137.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-763189d2df.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-79a9bc59a2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-7a2869cbb7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-7d27a1015b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-7eefeb81dc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-835af1e20e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-85116fcfdf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8687d40e0f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8984ae782b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8a38d8b305.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8b50e43f16.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8c5a3ae3c6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8ca04fe11c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8cda94801a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8dc8486a4c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8e1e7c50ea.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8e5c27d6bf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-8ecd6bf9ec.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-929bd54288.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-930216d8d6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-93580eb6ae.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-94c792f654.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-9537d64096.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-95a5e4ceda.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-97338991e4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-97a6aa1c9d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-985f03ee2b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-991b254d9a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-99a7fde12a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-9ed54a2aff.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-9f7382ec01.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a1238129f1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a20894f313.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a20f301b9e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a462ad1e98.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a73a56020e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a7de5a5905.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a7e37e960f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a7e9b93645.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a8986797b2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a8c18788da.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a921691db7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-a9b48051a8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-aa0f645a6a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-abf7c19b5f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-ad07c2bf93.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-ae598144a9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-afe4591ff3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b036a358fb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b0a1ad8338.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b1fbca80ef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b23ee14dbf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b42b5d4db7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b48b06c212.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b56f398563.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b7fdcabd03.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-b8e058e06f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-ba3701f263.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-ba892ff84e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-bd69b8c2dc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-bddd80f0c8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-bdf89190cc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-bfd26f4daf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c1a9b56f0a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c1d5c61ab6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c2f3990b77.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c3d28aaf5b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c3d5191963.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c4503172ae.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c6be3c5627.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c8b9707635.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c94435f87d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-c95cbe4b9a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-caac23dd98.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-cc465ef174.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-cda99797f8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-cdf4444e45.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-cf45a653d4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d07c04857a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d1ace151c4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d27be9071e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d4145df034.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d49d2c607b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d52b1b4e44.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d7a8e46c3e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d87bf83596.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-d9ee117dc8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-dcbbb964c6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-de0db8791e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-de131005aa.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-dfbaf90ee3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-e2fb33a7bf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-eaf88c0184.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-eb0dac6695.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-eb9362d87b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-ecce1ca655.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-eef87e6673.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-efa37436db.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-f0f603c922.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-f41a8bc801.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-f49f6823eb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-f6017140d3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-f68f716c05.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-f9b3680358.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-fb1ebadbe3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-fc4763e960.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-fc778d641f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-fdbc027e35.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-fe5bed2201.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-febb7ad5c6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/初级案例整理/初级案例资料/qqwb20261019-有效201例-修订版/analysis-ready/private/case-ff044011ed.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "docs/经验库梳理/20261019/work/__pycache__/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "mobile/dist/wenheng-0.3.4.apk",
+    "reason": "嵌套压缩包、二进制运行环境或构建产物；源码另收录"
+  },
+  {
+    "path": "output/liuren-adjudication-requests/20261107-liuren-bus-01-5fdfd0bf-e787-47f7-aaf2-503f58c3b7d9.json",
+    "reason": "真实任务/客户会话或运行状态；用合成样例替代"
+  },
+  {
+    "path": "output/liuren-adjudication-requests/20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.archive.json",
+    "reason": "真实任务/客户会话或运行状态；用合成样例替代"
+  },
+  {
+    "path": "output/liuren-adjudication-requests/LR-20261018-screen-repair-01-3ac03d0b-35bf-4224-9ad8-a8b927f3b751.json",
+    "reason": "真实任务/客户会话或运行状态；用合成样例替代"
+  },
+  {
+    "path": "output/liuren-adjudication-requests/LR-20261018-screen-repair-02-correction-999946bd-4aea-4bb7-b287-6b6b08521f1e.json",
+    "reason": "真实任务/客户会话或运行状态；用合成样例替代"
+  },
+  {
+    "path": "output/liuren-adjudication-requests/codex-transport-1794145416335-2925f8dc-d03a-4ac4-9fc5-f1d13392d014.json",
+    "reason": "真实任务/客户会话或运行状态；用合成样例替代"
+  },
+  {
+    "path": "output/liuren-analysis-routing-54/before/tools/tests/__pycache__/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "output/公众号-竞赛省二复盘-完整素材.zip",
+    "reason": "嵌套压缩包、二进制运行环境或构建产物；源码另收录"
+  },
+  {
+    "path": "tests/__pycache__/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/__pycache__/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/audit-wenheng-ai-acceptance.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/build-package.ps1",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/capture-domestic-block.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/domestic-entry-ops.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/export-server-skills.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/export-wenheng-ai-acceptance.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/probe-wenheng-ingress.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/tests/__pycache__/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_case_retrieval.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_experience_retrieval.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_knowledge_release.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_book_search.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_class_mapping.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_knowledge_workbench.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_local_read.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_material_scope.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_method_loader.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_plan_transport.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_quantity_candidate.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_research_overlay.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_runtime.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_single_method.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_liuren_workflow.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_opencode_case_archive.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_opencode_case_batch.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_opencode_case_pause.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_opencode_case_wave.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/tests/__pycache__/test_opencode_case_workflow.cpython-313.pyc",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "tools/verify-domestic-entry.py",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "tools/verify-nbzhifu-production.mts",
+    "reason": "网站、服务器或支付运维；不属于本机专业工作流"
+  },
+  {
+    "path": "归档/八字专项/八字资产-20261102.zip",
+    "reason": "嵌套压缩包、二进制运行环境或构建产物；源码另收录"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/",
+    "reason": "目录排除：依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-000edd8210.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-00e113178c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-016ce7f079.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-022cd553ca.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-028f4474ef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-0297f876db.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-02cacaa924.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-035f89461f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-04afc04b9d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-054dbbd944.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-07b448475b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-07b9ff2392.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-0834e6aec7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-090516c41a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-0c444631d4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-0e6f21791b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-0e7fcc924c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-103e0afea3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1103c91b91.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-127b7fdcc7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-13916531f3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1394589896.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-141569c646.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-141f6b51d6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-14271a4eb9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1468d04342.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-15a5446fe3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-15de52b119.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-16fe0c7813.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-18cfb749c5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-19e82b0793.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1a63148620.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1cb7f7dd11.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1e0dabeed3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-1fdd9c194a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-209c49c9ec.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-20ba998ba3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-20c6340acd.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2244c1a836.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-24dc85f63f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-257ab73c20.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-25b7ae3f73.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2634aff8ed.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-263ad901e8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-26905d16ba.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-28d4134371.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2a0abdfae8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2afb8c1f47.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2bd6fbe7c2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2be2993a11.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-2cce80d98c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-30c7b5232c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-32646403a9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-34ca59a18d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-3691564a22.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-36f77f18cc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-37a665b215.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-389acbe9f8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-3d6e1b1ef3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-3e0c2f6659.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-401924321b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4096d103f9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-41eafdfa78.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-43bfd00de5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-447eedbeb2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4525f37bb9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-455e10551a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-497853da3a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-499db844e3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-49d8c5a3ba.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4a11c8c22d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4a6c320a1f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4b4408e986.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4b98cb8e6e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4beedebabe.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-4df67a38d3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-50771b5812.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-5154722119.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-52cf3c03bb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-5794b98ea9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-580b4abcc5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-599ccb4eae.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-5a4fc49fa5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-5dab886aba.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-5fedb0fac1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-61f998c95b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-623f14dd02.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-634d9427e4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-63840ab7ef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-63971e1b88.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-63e0612ff8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-66aa442cd7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-66f4b34547.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-68bf2c6cee.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6933421324.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6969353791.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6a47f506ad.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6ae29cf6d8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6cf51f0fcc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6d8b452d80.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6e8270bfab.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6f6103e608.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-6fcdfa8a4e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-70dfa15e1a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-70f8da1ff1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-71a4d74ba5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-71aeb3df81.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-722dd2f137.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-73f4d2fd00.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-74c2bdfd64.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-763189d2df.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-79a9bc59a2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-7a2869cbb7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-7b52553da6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-7d27a1015b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-7ea15ebfcb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-7eefeb81dc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-805a35c858.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-835af1e20e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-85116fcfdf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8687d40e0f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8984ae782b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-89df7b2f52.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8a38d8b305.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8b50e43f16.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8c5a3ae3c6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8ca04fe11c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8cda94801a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8dc8486a4c.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8e1e7c50ea.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8e5c27d6bf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-8ecd6bf9ec.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-929bd54288.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-930216d8d6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-93580eb6ae.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-94c792f654.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-9537d64096.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-95a5e4ceda.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-97338991e4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-97a6aa1c9d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-985f03ee2b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-991b254d9a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-99a7fde12a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-9ed54a2aff.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-9f7382ec01.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a1238129f1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a20894f313.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a20f301b9e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a2772a1eba.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a3ea21aebb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a462ad1e98.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a73a56020e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a7de5a5905.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a7e37e960f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a7e9b93645.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a8254f5e29.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a8986797b2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a8c18788da.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a921691db7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-a9b48051a8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-aa0f645a6a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-abe52bffc8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-abf7c19b5f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ad07c2bf93.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ae040cec7d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ae598144a9.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-aec029b1da.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-afe4591ff3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b036a358fb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b0a1ad8338.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b1fbca80ef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b23ee14dbf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b42b5d4db7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b48b06c212.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b4f669fbca.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b56f398563.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b73e5ce168.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b7fdcabd03.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-b8e058e06f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ba3701f263.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ba892ff84e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-bd69b8c2dc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-bddd80f0c8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-bdf89190cc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-bfd26f4daf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c1a9b56f0a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c1d5c61ab6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c2f3990b77.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c3d28aaf5b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c3d5191963.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c4503172ae.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c6be3c5627.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c77bba6dfc.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c8b9707635.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c8e2df5402.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c94435f87d.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-c95cbe4b9a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-caac23dd98.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-cc465ef174.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-cda99797f8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-cdf4444e45.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-cf45a653d4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d07c04857a.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d1ace151c4.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d26d13d2f1.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d27be9071e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d4145df034.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d49d2c607b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d52b1b4e44.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d62cfa1548.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d7a8e46c3e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d87bf83596.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d90cb9d9b8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d9c5544849.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-d9ee117dc8.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-dcbbb964c6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-de0b3308d2.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-de0db8791e.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-de131005aa.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-dfbaf90ee3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-e2fb33a7bf.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-eaf88c0184.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-eb0dac6695.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-eb9362d87b.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ecce1ca655.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-eef87e6673.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-efa37436db.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f0f603c922.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f41a8bc801.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f49f6823eb.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f6017140d3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f68f716c05.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f866217cf5.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f9b3680358.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-f9ebd764b7.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-fb1ebadbe3.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-fb7b489cef.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-fc4763e960.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-fc778d641f.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-fdbc027e35.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-fe5bed2201.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-febb7ad5c6.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "资料来源/qq-homework-20261018/batch_20261019/stage1_ready_v1/analysis-ready/private/case-ff044011ed.json",
+    "reason": "依赖缓存、运行环境或测试私有资料"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/check.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/context.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/coverage.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/evidence-packet.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/judgment.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/reads.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run/session.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final/context.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final/coverage.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final/evidence-packet.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final/reads.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final/session.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/check.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/context.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/coverage.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/evidence-packet.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/judgment.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/reads.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/acceptance-run-final2/session.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/synthetic-run/evidence-packet.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/synthetic-run/reads.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "output/liuren-consolidation-20261102/workflow/synthetic-run/session.json",
+    "reason": "历史生成运行会话缓存；源码与合成验收另供"
+  },
+  {
+    "path": "课程写作/AGENTS.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "运营资料/公众号/README.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "web/AGENTS.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/README.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": ".orchestration/liuren-knowledge-20261102/TASKS.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "output/case-index-v2/index.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/experience-index-v2/index.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "归档/八字专项/恢复说明.txt",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/manifest.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/校验结果.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "排盘存档/六壬/六壬-20261108-180639-次日应聘结果及公司职位辨识-18cea112-d303-4c6f-a54f-d5a1d2e9da84.corrected-7d8f4da2258d400a.json",
+    "reason": "真实排盘记录；合成样例另供"
+  },
+  {
+    "path": "排盘存档/六壬/六壬-20261108-214237-基础状态接入验收-41b34a16-3c4e-400f-a551-35c73cd652da.corrected-7d8f4da2258d400a.json",
+    "reason": "真实排盘记录；合成样例另供"
+  },
+  {
+    "path": "output/codex-liuren-prep-20261108-interview/packet-request.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/问衡AI验收档案-20261015/主报告与追问完整记录.md",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/问衡AI验收档案-20261015/工具与判断规则核查.md",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/imagegen/wenheng-group-avatar.png",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/网站用户输出约束-20261017/配置与部署说明.md",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/imagegen/20261025-pengyouquan/bazi-prompt.txt",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/imagegen/20261025-pengyouquan/bazi.png",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/网站六壬新版上线-20261023/resources/经验日志/六壬推命增补方案-八字紫微框架嫁接.md",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/visa-registration-filled.png",
+    "reason": "历史渲染或无关媒体；必要原书与知识源在source目录保留"
+  },
+  {
+    "path": "output/课程写作技能调研-20261027.md",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "tools/verify-domestic-entry.py",
+    "reason": "网站服务器运维，非本机流程"
+  },
+  {
+    "path": "归档/八字专项/docs/八字人生专题完善-20261024/交付说明.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字人生专题完善-20261024/启用核对.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字人生专题完善-20261024/条件规则全文.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字人生专题完善-20261024/资料核查与能力覆盖.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系完善-20261023/排盘引擎核查与开源方案.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系完善-20261023/新增文本筛选与规则线索.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系完善-20261023/资料盘点与补充清单.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系重构-20261024/交付说明.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系重构-20261024/仓颉交付回执.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系重构-20261024/启用回执.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字体系重构-20261024/实施记录.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字反人生模板-20261024/交付说明.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字反人生模板-20261024/反模板规则全文.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字反人生模板-20261024/启用核对.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字规则完善-20261024/交付说明.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字规则完善-20261024/启用核对.json",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "归档/八字专项/docs/八字规则完善-20261024/条件规则全文.md",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "课程写作/课程规划/大六壬教材章节目细化稿-v0.8.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/课程写作进度.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/基础篇修订-20261028/本轮反馈与修订记录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "output/imagegen/home-concept.png",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/网站六壬新版上线-20261023/deployment-receipt.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "web/tests/liuren-modular.test.ts",
+    "reason": "文档溯源链接指向无关产品/八字/运营；非六壬本机流程依赖"
+  },
+  {
+    "path": "output/网站输出末步注入-20261023/server-receipts/deployment-receipt.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/网站输出末步注入-20261023/server-receipts/post-activation-verification.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/网站输出末步注入-20261023/server-receipts/validation/actual-opencode-delivery.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "output/网站输出末步注入-20261023/server-receipts/validation/actual-opencode-followup-delivery.json",
+    "reason": "历史链接进入无关业务、运行缓存、客户任务或环境"
+  },
+  {
+    "path": "课程写作/课程规划/大六壬教材整合编排稿-v0.7.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/基础篇参考书分工与选材入口-v0.1.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/课程特色判断专题清单-v0.1.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/runtime-card.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/样章/导读-怎样开始学大六壬-完整初稿.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/导读-完整初稿-编写依据与审校记录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基01-阴阳与四象.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基02-五行与生克.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基03-十天干.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基04-十二地支.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基05-干支历法与天文.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基06-合冲刑破害.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基07-六亲与参照.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基08-四时旺衰.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基09-十二长生.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基10-八卦与方位.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第01章-问题起课输入与课盘.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第02章-天地盘怎样相加.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第03章-从日干支到四课.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第04章-三传及课盘上的其他标记.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/样章/第09章-生克合冲怎样作用于所问.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/样章/第09章-练习参考解答.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/第09章-编写依据与审校记录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基础篇-阅读目录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/独立基础篇-编写依据与审校记录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第一篇-阅读目录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/附录A-本课手排核对与九宗门查阅.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/基础篇与大六壬开篇-双线编写建议-v0.1.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第一篇-查用练习.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第一篇-练习参考解答.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/独立基础篇-合并初稿.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基础篇-查用练习.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/基础篇修订-20261028/定稿前复审记录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第一篇-合并初稿.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/第一篇-阅读版.html",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/第一篇-车库课/编写依据与审校记录.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/第一篇-车库课/按批注修订-20261028/修订说明.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/style-profile.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基础篇-练习参考解答.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/基础篇/基础篇-综合查用.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/图片/01-原图分区标注.png",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/图片/02-天地盘加临.png",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/图片/03-四课取得过程.png",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/正文/第一篇-读懂一张六壬课/图片/04-三传字段.png",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/大六壬教材章节任务稿-v0.5.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/课体毕法神煞与固定格局-增补任务稿-v0.6.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/大六壬文本课程规划-v0.3.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/课程规划/大六壬教材编排建议-v0.4.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/SKILL.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/voice-and-examples.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/worked-examples.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/evidence-and-limits.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/examples.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/evidence.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/sources.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/feedback.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/research/full-coverage-audit.json",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/sources/source-copies.json",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/research/phase-2-synthesis.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/女娲蒸馏/beihai-teaching-voice/references/research/phase-2-candidate-selection.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/专业底稿/第09章-试读反馈与讲解调整-20261028.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/source-manifest.json",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/风格档案/北海闲人/tools/source_reader.py",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "课程写作/样章/第09章-俱生与互生-讲解试写.md",
+    "reason": "课程产物；不参与本机占断"
+  },
+  {
+    "path": "tools/export-liuren-architecture-20261116.py",
+    "reason": "本次新建导出辅助脚本，不参与原专业流程；包内另附恢复、验证与样例生成工具"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "alias": "case-0007",
+    "sourceDirectory": "output\\opencode-case-continuous-20261018-192624\\wave-001\\jobs\\case-0007\\cases\\case-0007",
+    "firstHashMatches": true,
+    "firstSha256": "d7882bf2426a6fe7178fb0742e4f436fe24825993779e492be01f5f9ab98a29d",
+    "reviewSha256": "cf1c3e26b1b23a8e8306d5cae0a1ecc9e7d11d024ab832e22f3e22dba3743d06",
+    "exactFeedbackAbsentFromFirstSession": true,
+    "exactFeedbackAbsentFromInput": true,
+    "firstTime": {
+      "created": 1792322828948
+    },
+    "lastFirstTime": {
+      "created": 1792322976920,
+      "completed": 1792323090579
+    },
+    "feedbackRevealPromptSha256": "3b1f12d16a80215c4237e0f9d64a672c6997e22497e8de354daaa6cf2f9e5f67",
+    "models": [
+      "deepseek-flash"
+    ],
+    "sameCaseRisk": "不能排除（弱）。考试占case-007为2023-11-28庚寅日、同甲申旬空午未、同元首+闭口、同为面试，与本课仅月将、占时不同，三传辰申子对巳寅亥全异，岗位为空姐而非公务员；无完全同盘原案。但同日柱、同旬、同课体、同占事类型，存在同一求测者多次占或资料同源风险，故不把该“验”案当独立盲测证据。",
+    "permissionToPublish": "not-established",
+    "evidenceType": "historical-reanalysis-not-prospective"
+  },
+  {
+    "alias": "case-0015",
+    "sourceDirectory": "output\\opencode-case-continuous-20261018-192624\\wave-002\\jobs\\case-0015\\cases\\case-0015",
+    "firstHashMatches": true,
+    "firstSha256": "c5f6dcb440cb59fe3cd370be5cfc30480b919736168cedb6e1e48aaf544b2b66",
+    "reviewSha256": "501e30778205d8f4255850f01e97f7d77b709277f89d40eb0635be67087155ec",
+    "exactFeedbackAbsentFromFirstSession": true,
+    "exactFeedbackAbsentFromInput": true,
+    "firstTime": {
+      "created": 1792324501993
+    },
+    "lastFirstTime": {
+      "created": 1792324629186,
+      "completed": 1792324744619
+    },
+    "feedbackRevealPromptSha256": "3c96d03245db31de190e2dce7eb491bce19b8e19f79dde443b708719f9282c1f",
+    "models": [
+      "deepseek-flash"
+    ],
+    "sameCaseRisk": "不能排除。案例库case-020与本课课式完全同构（四课、三传、天将、旬空、日干全同），且为“验”例，可能造成答案迁移偏差；但占问（寻药vs寻证）、时间（2026-04-24 vs 2024-09-01）、四柱年月/月将均不同，非同一原案。仅取其“非盗/自忘/南柜”机理，不照搬“冰箱/母亲家”结论。",
+    "permissionToPublish": "not-established",
+    "evidenceType": "historical-reanalysis-not-prospective"
+  },
+  {
+    "alias": "case-0044",
+    "sourceDirectory": "output\\opencode-case-continuous-20261018-192624\\wave-008\\jobs\\case-0044\\cases\\case-0044",
+    "firstHashMatches": true,
+    "firstSha256": "48c6f5c4487c53db2b3c525f741961a6c3b868e4689437c7ee0f18edf5cf993c",
+    "reviewSha256": "26583cafa0e245ecb56c43790a1e493fc4d8074a0d4903c21bbef1a8e04be352",
+    "exactFeedbackAbsentFromFirstSession": true,
+    "exactFeedbackAbsentFromInput": true,
+    "firstTime": {
+      "created": 1792332679619
+    },
+    "lastFirstTime": {
+      "created": 1792332998643,
+      "completed": 1792333048710
+    },
+    "feedbackRevealPromptSha256": "bfdd9bda9b9d7656503e00df1591d882a19d92ea26f848651479dd2e328163a2",
+    "models": [
+      "deepseek-flash"
+    ],
+    "sameCaseRisk": "无同盘同案；同三传未子巳的来意占case-015（乙酉日、诈骗、未载）仅结构参照，非独立盲测；case-006主题近但无课式、时间人物不同，不能当同案。",
+    "permissionToPublish": "not-established",
+    "evidenceType": "historical-reanalysis-not-prospective"
+  }
+]

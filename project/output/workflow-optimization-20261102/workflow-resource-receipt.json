@@ -1,0 +1,30 @@
+{
+  "identity": "offline-resource-build-no-model-no-deployment",
+  "localRelease": "20261027-quantity-02",
+  "localMethodVersion": "c92f8987e41b01824c2b64e73eeb7c5dc8afb26cfded19c7818d2ab5f750c24e",
+  "websiteVersion": "aff66b61e6769154e5db1390e8bd127324b13a083de8a6da87e365a862a04b76",
+  "moduleCount": 49,
+  "sharedModules": 47,
+  "unchangedShared": 41,
+  "changedModules": [
+    "exam",
+    "finance",
+    "lost-person-object",
+    "liqi",
+    "report",
+    "timing"
+  ],
+  "newModules": [
+    "quantity",
+    "quantity-sources"
+  ],
+  "documents": 4413,
+  "sourceFilesAdded": 38,
+  "linkSources": 144,
+  "linkCount": 1667,
+  "manifestHash": "06cee413b456a9f2c00c5690380cd3576527beac72f2c85ce4e2cc2bbdfa9e0a",
+  "unresolvedLinks": [],
+  "destination": "\\\\?\\C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\workflow-optimization-20261102\\resource-candidate-v2",
+  "runtimeBaseline": "output/workflow-optimization-20261102/resource-runtime-baseline",
+  "sourceTargetsTracked": 82
+}

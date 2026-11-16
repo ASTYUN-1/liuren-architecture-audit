@@ -1,0 +1,39 @@
+{
+  "schema": "liuren-reconstruction-semantic-review-v1",
+  "case_id": "BK26-MODERN-028",
+  "result_id": "RC26-MODERN-028-ALT-ZI",
+  "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-MODERN-028-ALT-ZI.json",
+  "result_sha256": "e7d9e91a0f9d73c1c800488966b60cdf63c43dc70a4ee38c3c4bd958fe1a26af",
+  "semantic_review_state": "source_checked",
+  "request_path": "output/liuren-book-cases-20261102/reconstruction-request-modern-028-alt-zi.json",
+  "request_sha256": "40787bff7f0f6a436ae27e9f76f2b9b7d716ba9477c830e87a3f1debc0d7780a",
+  "excluded_setting_label_paths": [
+    "nobleman.rule",
+    "nobleman.requested_zhouye",
+    "nobleman.actual_zhouye"
+  ],
+  "equivalent_candidate_groups": [
+    {
+      "candidate_ids": [
+        "RC26-MODERN-028-ALT-ZI-C01",
+        "RC26-MODERN-028-ALT-ZI-C02",
+        "RC26-MODERN-028-ALT-ZI-C05",
+        "RC26-MODERN-028-ALT-ZI-C06"
+      ]
+    },
+    {
+      "candidate_ids": [
+        "RC26-MODERN-028-ALT-ZI-C03",
+        "RC26-MODERN-028-ALT-ZI-C04",
+        "RC26-MODERN-028-ALT-ZI-C07",
+        "RC26-MODERN-028-ALT-ZI-C08"
+      ]
+    }
+  ],
+  "note": "逐读3853–3860、3913–3927：原甲辰丁丑戊寅己未，另明确子将，8候选均子巳戌且第四课子发用，合两个盘都是四课发用。昼贵组01/02/05/06初子蛇中巳常末戌合，夜贵组03/04/07/08初子龙中巳阴末戌合，各为完整facts等价组；仅组内贵人设置标签不同，作者实际昼夜规则未知。未把主丑将反吟或马空禄绝官空之论套作子将约束，未用面试成功/试岗反馈筛选。",
+  "selected_candidate_id": null,
+  "outcome_feedback_used_for_selection": false,
+  "original_image_recovered": false,
+  "independent_prediction_validation_count": 0,
+  "request_file_sha256": "f3c25c8674e4712b1178093738e0bcea6d92474948a20438c0919620007cb564"
+}

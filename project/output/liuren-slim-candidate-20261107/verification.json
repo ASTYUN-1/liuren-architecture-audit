@@ -1,0 +1,180 @@
+{
+  "checks": [
+    {
+      "check": "原活动包及外围113文件未改",
+      "passed": true,
+      "detail": {
+        "checked": 113,
+        "changed": []
+      }
+    },
+    {
+      "check": "原活动指针仍为25版",
+      "passed": true
+    },
+    {
+      "check": "候选指针与manifest路由一致",
+      "passed": true
+    },
+    {
+      "check": "候选全文件hash一致",
+      "passed": true,
+      "detail": {
+        "files": 106
+      }
+    },
+    {
+      "check": "全部登记模块可读",
+      "passed": true,
+      "detail": {
+        "modules": 59
+      }
+    },
+    {
+      "check": "神煞policy只变release元数据",
+      "passed": true
+    },
+    {
+      "check": "候选程序源码逐字节未改",
+      "passed": true,
+      "detail": {
+        "files": 118,
+        "differences": []
+      }
+    },
+    {
+      "check": "测试引擎副本字节未改",
+      "passed": true,
+      "detail": {
+        "files": 8
+      }
+    },
+    {
+      "check": "默认只读8个唯一共用模块",
+      "passed": true
+    },
+    {
+      "check": "旧6模块退出必读链",
+      "passed": true
+    },
+    {
+      "check": "16专项按本问进入且无旁支",
+      "passed": true,
+      "detail": {
+        "domains": 16
+      }
+    },
+    {
+      "check": "13触发分支可达",
+      "passed": true,
+      "detail": {
+        "conditions": 13
+      }
+    },
+    {
+      "check": "时间数量年命分支保留",
+      "passed": true
+    },
+    {
+      "check": "实际CLI逐页全文与回执一致",
+      "passed": true,
+      "detail": {
+        "modules": 14,
+        "pages": 19
+      }
+    },
+    {
+      "check": "专项独有段落及未决路径原样保留",
+      "passed": true,
+      "detail": {
+        "paragraphs": 350
+      }
+    },
+    {
+      "check": "裁决依据与E01—E22条件全文保留",
+      "passed": true
+    },
+    {
+      "check": "裁决模型及high未变",
+      "passed": true
+    }
+  ],
+  "measurements": {
+    "共用必读": {
+      "before": {
+        "modules": 14,
+        "chars": 44470,
+        "utf8_bytes": 113282,
+        "pages": 23
+      },
+      "after": {
+        "modules": 8,
+        "chars": 17560,
+        "utf8_bytes": 44672,
+        "pages": 10
+      },
+      "charsReductionPercent": 60.51
+    },
+    "考试": {
+      "before": {
+        "modules": 15,
+        "chars": 46110,
+        "utf8_bytes": 117502,
+        "pages": 24
+      },
+      "after": {
+        "modules": 9,
+        "chars": 19019,
+        "utf8_bytes": 48475,
+        "pages": 11
+      },
+      "charsReductionPercent": 58.75
+    },
+    "疾病": {
+      "before": {
+        "modules": 15,
+        "chars": 46652,
+        "utf8_bytes": 119068,
+        "pages": 24
+      },
+      "after": {
+        "modules": 9,
+        "chars": 19561,
+        "utf8_bytes": 50041,
+        "pages": 11
+      },
+      "charsReductionPercent": 58.07
+    },
+    "财务与应期": {
+      "before": {
+        "modules": 16,
+        "chars": 56456,
+        "utf8_bytes": 144466,
+        "pages": 28
+      },
+      "after": {
+        "modules": 10,
+        "chars": 29364,
+        "utf8_bytes": 75438,
+        "pages": 15
+      },
+      "charsReductionPercent": 47.99
+    },
+    "入口加主prompt加自动instructions": {
+      "beforeChars": 19206,
+      "afterChars": 1805,
+      "note": "AGENTS is separately compared; this is not measured inference token usage."
+    },
+    "AGENTS": {
+      "beforeChars": 6680,
+      "afterChars": 183
+    },
+    "裁决prompt": {
+      "beforeChars": 5005,
+      "afterChars": 3863
+    }
+  },
+  "predictiveValidationCount": 0,
+  "nativeModelRun": false,
+  "candidateActivated": false
+}

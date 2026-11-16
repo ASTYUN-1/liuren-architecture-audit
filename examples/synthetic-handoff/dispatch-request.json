@@ -1,0 +1,7 @@
+{
+  "task_name": "liuren_adjudicator_d52d2371",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "fork_turns": "none",
+  "message": "你是本次大六壬独立裁决子智能体。仅执行本任务，不再派子智能体。工作目录：C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify。本任务run：C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-audit55-verify\\output\\codex-liuren\\codex-d52d2371-ef74-41cd-b751-4b7222a19159。\n使用JSON请求文件调用 node tools/liuren-codex.mjs --request 请求文件。先调用 {\"action\":\"role\",\"run\":\"C:\\\\Users\\\\QLMa_\\\\Documents\\\\六壬八字测算\\\\output\\\\liuren-audit55-verify\\\\output\\\\codex-liuren\\\\codex-d52d2371-ef74-41cd-b751-4b7222a19159\"} 读取本任务绑定的专业指令与宿主映射；再以 {\"action\":\"read\",\"run\":\"C:\\\\Users\\\\QLMa_\\\\Documents\\\\六壬八字测算\\\\output\\\\liuren-audit55-verify\\\\output\\\\codex-liuren\\\\codex-d52d2371-ef74-41cd-b751-4b7222a19159\",\"page\":1,\"page_count\":1} 读取全部核心，按next_request接续。每次shell读取设置足够输出额度；若出现显示截断，重读补齐，不能把回执当成已读全文。\n只使用本任务核心、绑定参考及compute；不读取主会话、其他任务、案例库、经验库或已知答案。主智能体候选可纠正，从完整盘查漏。原书按需查。完整报告写到本run/report-draft.md，再调用submit，成功后只回小回执。不得把内部推理当报告。若role标明transport-test，只验证传输，不作专业占断。"
+}

@@ -1,0 +1,531 @@
+[
+  {
+    "case_id": "BK26-MODERN-002",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "玄叶九年未给取数算法；贺兰五数起步未明单位与取数过程，不能由380万或刑期别说补足。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原载尚未判定；6年、9年、11余年、4年及后年出狱均未获刑期反馈。己干墓丑/戌/辰有作者自纠与相反用法，末将白虎/玄武及行年戌/丑异说不改盘。"
+  },
+  {
+    "case_id": "BK26-MODERN-003",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-003-A-Q004",
+        "author": "有有",
+        "phase": "群断",
+        "axis": "人物",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      }
+    ],
+    "review_note": "已协议财产让步、分居、拟登记后又拖签；正式离婚未明。女无三的原反馈不以怀疑隐藏推翻；巳/午年后续未载。"
+  },
+  {
+    "case_id": "BK26-MODERN-004",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-004-A-Q002",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "人物",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-004-A-Q003",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "治疗宅景",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "骑牛饮食蛇虫、相亲和日光灯等原段无明确推导，后注的三才/铸印论不能代补全部原话。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "1677反馈段混合原断、建议与作者称述；腹痛从有到1742更正只有便秘。三才/四课、旺空与相空、是否填实及先后阶段冲突保留；饮酒、药物不转为治疗建议。"
+  },
+  {
+    "case_id": "BK26-MODERN-005",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "review_note": "至今未抓到的截止时间未载；托关系是求测者转述，未独核监控缺失或官方包庇。原自首与后改跑掉不可并成命中。"
+  },
+  {
+    "case_id": "BK26-MODERN-006",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "野鸡大学/女友多等人物等级细节未有完整定位推链；不把学校方位与录取顺序自动互换。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原题丙戌男而盘申命，异文保留；实际第二志愿长沙，学校是大专仅原载好像；女友/学校混乱未反馈。"
+  },
+  {
+    "case_id": "BK26-MODERN-007",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "八专顺三第三为原载算法，但并列与前二/前一的具体人数依据未展开。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "酉将主盘、戌将替代盘另有16:16/17:21异时，昼夜贵又不同；只保留原盘体系，不靠换盘计独立命中。无上岸第三差三分；并列、前一/前二等口径不一致。"
+  },
+  {
+    "case_id": "BK26-MODERN-008",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "review_note": "实际检出与受孕推估、出生分开；无流产/剖宫产反馈，女孩断与男出生相反；各时间算法不同不汇成一次命中。"
+  },
+  {
+    "case_id": "BK26-MODERN-009",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "review_note": "混合验孕棒结果及来月经是原载，不能确诊从未受孕或生化妊娠；子时换日、五行/十干胎法分歧保留。"
+  },
+  {
+    "case_id": "BK26-MODERN-011",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-011-A-Q001",
+        "author": "明陽居士",
+        "phase": "群断",
+        "axis": "压力人物",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-011-A-Q009",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "婚礼人物",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-011-A-Q011",
+        "author": "丁（一粟）",
+        "phase": "群断",
+        "axis": "图缺",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "丁（一粟）飞魂所附图为[]，图上信息无法恢复；原文丑戌飞魂已存不复造图。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "摘照片后不做噩梦为原载前后变化，不能认证鬼祟病因、剑法或未来财忧；女性长辈/丧夫婚礼口舌被否，提问答复不算错断。"
+  },
+  {
+    "case_id": "BK26-MODERN-012",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-012-A-Q001",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "约见",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-012-A-Q002",
+        "author": "青山绿水、壬龙德禄",
+        "phase": "群断",
+        "axis": "约见",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "网名对应视力血压及烟外应的固定映射未展开；外应询问不生成可复现算法。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "未先联系直接去找未见，不能改成女已答应后爽约。未吃饭和后来水布丁有反馈，亥时馄饨饺子不合；后续女来找未反馈。"
+  },
+  {
+    "case_id": "BK26-MODERN-013",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-013-A-Q001",
+        "author": "明镜",
+        "phase": "群断",
+        "axis": "劈叉成败",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      }
+    ],
+    "review_note": "未练成与换老师所述原方法错误仅覆盖原训练路径；韧带/筋膜描述是原载转述，不能推出所有训练终身无效。沐尘原文不见末传不擅自改字。"
+  },
+  {
+    "case_id": "BK26-MODERN-014",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "骑牛退连茹连降三级未展开职级换算；不能以降科员反推恰三级。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原断支巳勾、干丑贵、子后与主盘及后注的巳雀、丑空、子虎不一致，按作者阶段保留。保工作与降科员并存，查不出/不了了之不等于实际无处分；连降三级未核级数。"
+  },
+  {
+    "case_id": "BK26-MODERN-015",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "杨先生只称气弱一片杀气，没有指定具体神将和作用位置。地理教师、在校与走过场含猜问，未有完整可重走推链。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "只反馈过了，未证走过场、旧交、地理教师、在校或将来辞职。教师编由青山明确，不能降成教师资格；乙未考试日填实与兄弟空落榜为不同后释。"
+  },
+  {
+    "case_id": "BK26-MODERN-017",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-017-A-Q008",
+        "author": "有有",
+        "phase": "群断",
+        "axis": "状态人物",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "骑牛双方身体有问题、未来官司债务未对每个子问给具体取用步骤；不能由刑害总链补成所有细节的独立理由。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "所问是复合回原好状态；离婚不离家、搬出、暂缓和未实质和好分阶段。网恋已散与泛相好分开，兄弟邻居为询问非错断；未来官司、债、健康、孩子牵绊未证。"
+  },
+  {
+    "case_id": "BK26-MODERN-018",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-018-A-Q003",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "垫资",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "骑牛复盘市场/疗养院及至多平成本没有展开各自额外推理；后注资源垫资链另留后注，不回填原断。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "只有部分反馈，未签合同，利润、垫资及午期未落定；雷称人脉已验为原载。主盘戊寅与作者金日/全兄解释有异，不重排替换。平本与赚不少、不成与能成互存。"
+  },
+  {
+    "case_id": "BK26-MODERN-019",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "另类斩关（日支辰戌上发用）原作者明确未实践；游神动象自承有强解释，欠固定判准，保假说而不恢复成确定算法。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原载卯时回、辰时得信，归人与消息不能混成辰时回家命中；子时换日与翌日文字保留。朋友家曾事前排除，后注重新提出不得改原断。贺兰丁巳应与反馈丙辰口径相异。"
+  },
+  {
+    "case_id": "BK26-MODERN-020",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-020-A-Q001",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "杂怪人物地点",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "青山指男女老少可用中黄法，原段未逐步演算本案具体男女年龄；女鬼/老头实物身份也无独核。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "近水、邻居老人过世及道士自述退煞搞定为原载，未有持续症状随访；神婆另称老头与女鬼说相异，都非实体鬼怪证明。艺术天赋、学习及以后喜事未反馈。"
+  },
+  {
+    "case_id": "BK26-MODERN-021",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "review_note": "只核本次打针保胎时段无事，尚未出生；不把本次平安扩成顺产或后续掉胎验证。八专特征与原载贼克/重审分清；青山后续难生与艺术家顺利生冲突待核。"
+  },
+  {
+    "case_id": "BK26-MODERN-022",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "姜玄衣只给太常追玄魁入天门，没有进一步解释太常发用与主盘白虎初传的衔接。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原载拒绝投案后10:33被逮捕，主动投案与被抓拆开；抓一串、后续入狱定罪、放弃抵抗均无独核。太常发用文字与主盘初白虎有异；不外查新闻扩样。"
+  },
+  {
+    "case_id": "BK26-MODERN-023",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "review_note": "反馈为学费争执、没离成；公司投资/隐收入未被反馈证成。反馈段含卦师原思路，复盘又承空断气不到干，形式朝干不等真撞干；终身矛盾/中年后安宁未核。"
+  },
+  {
+    "case_id": "BK26-MODERN-024",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-024-A-Q001",
+        "author": "玄叶",
+        "phase": "群断",
+        "axis": "安危方位",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-024-A-Q002",
+        "author": "江山奇门",
+        "phase": "群断",
+        "axis": "安危日期",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-024-A-Q003",
+        "author": "n",
+        "phase": "群断",
+        "axis": "安危",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-024-A-Q007",
+        "author": "骑牛打酱油（来源署名；原断未重署）",
+        "phase": "群断",
+        "axis": "数量应期建议",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "玄叶南树林、江山戊戌日期及骑牛六七/十三公里多尺度没有原文明示取数算法；不从申未沙滩后注补数。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原载当日未时问获找到去殡仪馆，称时方都对但无精确发现时刻与距离，只称距离稍近。午时、戊戌日、明后、6/7/13多尺度分别保留，不按概称都对核精度。主盘进茹，沐尘称伏吟冲突；贺兰无年命用甲而题称未男也分层。"
+  },
+  {
+    "case_id": "BK26-MODERN-025",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-025-A-Q001",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "地点时辰",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "骑牛初断申时饭桌馄饨无理由；卯将后注虽补申时依据，不能倒填为主寅将完整推导。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "寅将主盘与骑牛卯将另一盘分开。实际未时约10分钟饭店前台，申时和桌上不符；馄饨面条、病符医疗无反馈。他案探病只旁引不扩案。艺术家为反馈段中后释，陆文把包内身份证当失物未改题。"
+  },
+  {
+    "case_id": "BK26-MODERN-026",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-026-A-Q001",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "位置物态时间",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "骑牛原朱雀在卯答复自称勉强给解释，原断卯类位置与未申/寅卯多尺度时间未在该段给明链。寅将后注另存。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "主盘丑将反吟与骑牛寅将斫轮分开，证件类神天空/六合印与临时朱雀解释不可拼接。实际家南次卧红旧秋衣挂起口袋，原西南/后南卧一般西南不是精确方位证据；医院、丈夫帮线索未核。"
+  },
+  {
+    "case_id": "BK26-MODERN-027",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-027-A-Q001",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "得物与询问",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "骑牛替代寅将盘图为[]，原口述合局与财在酉下可记录，但各格位置无法按遗失图逐项重核。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "主丑将全鬼盘与骑牛寅将合局缺图两系统，替代盘不补画。实际亥时床下西墙，雨田戌时内与此不同；起课日期1/4而来源1/8且称过宫时间未定基准，保原口径。灯下只是问，多个床木地家具、搬床和他人相助未反馈。"
+  },
+  {
+    "case_id": "BK26-MODERN-028",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "青山子将盘只有讨论无完整排盘；不据隐藏信息已对、两候选反复或反吟共词补一套子将推链。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "现场面试过、试岗未过、没最终上岗为两次反馈，不能将一边改判全程。实际主丑将反吟，复盘另提子将未有全盘；阴极生阳和长期不做是后述非事前。岗位行政、派遣原载，工资发放方、城投具体水工程、试岗失败确因节气未核。"
+  },
+  {
+    "case_id": "BK26-MODERN-029",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "gap": "原逼毁约、辞退和期权的对象细分链未展开；竞赛获奖在反馈后被用来替换原升职解释，保持阶段身份。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "实际职级不变、薪略降、转岗杂忙不适；升职仅作者起初误读，不改成已升。竞赛获奖挖人是起课前背景，原合同撕毁/辞退/期权与故意优化未证。原文丁火寅生与十干死/月死分体系保留，未来做不长或向上跳板未反馈。"
+  },
+  {
+    "case_id": "BK26-MODERN-030",
+    "method_extraction_complete": true,
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q001",
+        "author": "有有",
+        "phase": "群断",
+        "axis": "健康",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q002",
+        "author": "有有",
+        "phase": "群断",
+        "axis": "全年财运",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q003",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "财与机构",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q005",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "axis": "家宅人物",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q006",
+        "author": "熊猫堇",
+        "phase": "群断",
+        "axis": "健康",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q007",
+        "author": "熊猫堇",
+        "phase": "群断",
+        "axis": "全年财",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q010",
+        "author": "雷",
+        "phase": "群断",
+        "axis": "财分期",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q011",
+        "author": "雷",
+        "phase": "群断",
+        "axis": "健康与家人",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q012",
+        "author": "雷",
+        "phase": "群断",
+        "axis": "子竞选感情",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q013",
+        "author": "雷",
+        "phase": "群断",
+        "axis": "家宅怪异",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q014",
+        "author": "幸运龙女",
+        "phase": "群断",
+        "axis": "财梦搬胃",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q015",
+        "author": "壬龙德禄",
+        "phase": "群断",
+        "axis": "出行健康",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q016",
+        "author": "沈好谦",
+        "phase": "群断",
+        "axis": "财时段",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q017",
+        "author": "沈好谦",
+        "phase": "群断",
+        "axis": "家宅丧事",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-030-A-Q018",
+        "author": "沈好谦",
+        "phase": "群断",
+        "axis": "健康时间",
+        "gap": "原段此子判断未明示理由；后注如有细链保留后注身份，不回填为原断。"
+      },
+      {
+        "gap": "群断多人直接列健康、全年财和家宅结论，大多无原文明理由；沈好谦后注有完整分对象细链也不署给他人原断。",
+        "type": "原文局部推导未展开"
+      }
+    ],
+    "review_note": "原题癸丑女命与盘戊戌、立春前癸卯乙丑四柱按原留。此为同一年度一案四子问，非标题案例2/3/4另拆样本。浮盈30多万没卖回吐、全年平，不能叫全年赚财或破财。老公大姐非当然长辈；儿子落选、疾病原载转述，未得独立凭证。"
+  }
+]

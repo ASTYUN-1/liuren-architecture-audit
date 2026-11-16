@@ -1,0 +1,60 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-qqwb20261018-0069",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-qqwb20261018-0069.md",
+    "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\stage1_v2\\cases\\raw-qqwb20261018-0069.md",
+    "locator": "raw/records.jsonl 第 69 行（seq=68）detail 与 mofan 字段",
+    "shared_original_group": null,
+    "case_file_sha256": "540fe4e50e6b7bb6eb7f10c94085ca358ca8044a5c02feddb5b0330d335566b7",
+    "original_time": "2026年09月05日 13时06分(七月廿四)",
+    "source_text_sha256": "f84cd6ae519cc694e1c2ad9697398985acef55663f29b5a1c51f3f76ed943806",
+    "image_evidence": {
+      "file": "pan/068_1.jpg",
+      "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\068_1.jpg",
+      "sha256": "74636d75db4f91e3edc3287db64007da9de76870587fab27e68ba24ef5246e7d",
+      "hash_origin": "source_ledger",
+      "seq": 68,
+      "transcription": "existing_stage1_image_transcription",
+      "time_crosschecked_with_ledger": true,
+      "independently_visually_verified_this_run": false,
+      "declaration": "题干盘图提取（pan/068_1.jpg）"
+    }
+  },
+  "time": {
+    "precision": "minute",
+    "date": "2026-09-05",
+    "datetime": "2026-09-05T13:06"
+  },
+  "time_selection": null,
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "effective_settings": {
+    "yuejiang": "中气换将",
+    "guiren": "甲戊庚牛羊",
+    "zhouye": "自动选择",
+    "shehai": "孟仲季"
+  },
+  "issues": [
+    "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

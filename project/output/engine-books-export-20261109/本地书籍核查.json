@@ -1,0 +1,858 @@
+{
+  "existing": [
+    {
+      "path": "books/beihai-xianren/BOOK_OVERVIEW.md",
+      "sha256": "6532561ea92ce1e82c5efea17b2ccbdfd20e7aba1f284d23383b5192022584de",
+      "encoding": "utf-8",
+      "chars": 4606
+    },
+    {
+      "path": "books/beihai-xianren/DIGEST.md",
+      "sha256": "08bdc397a7a790b3d37393d49c04595791b9eb32c293b5e4a332a28a40140128",
+      "encoding": "utf-8",
+      "chars": 13698
+    },
+    {
+      "path": "books/beihai-xianren/GLOSSARY.md",
+      "sha256": "0a9a2e5cd9466ea6c2e50223ce76942601a8a2a2b3e689b5c10c4eb4cbc04b40",
+      "encoding": "utf-8",
+      "chars": 20004
+    },
+    {
+      "path": "books/beihai-xianren/INDEX.md",
+      "sha256": "179151c063b06ddfe3a3107602ab8c65865713220a9cdffca274eb9fbfad6ad3",
+      "encoding": "utf-8",
+      "chars": 5925
+    },
+    {
+      "path": "books/beihai-xianren/INTEGRATION_PLAN.md",
+      "sha256": "bc7785ef61599495350ab23daedcd485d1fd98d806204bdb3e5769c721cec2c6",
+      "encoding": "utf-8",
+      "chars": 2614
+    },
+    {
+      "path": "books/beihai-xianren/PIPELINE_STATE.md",
+      "sha256": "7cccbe043ef925864f83674f1d30c00f5f088a9967b36e486b5455ee67b18f64",
+      "encoding": "utf-8",
+      "chars": 5096
+    },
+    {
+      "path": "books/beihai-xianren/cailu-panduan/test-results.md",
+      "sha256": "362c13b90f8791d56934185c5d6a28257b23552ffd0776ddb2f46a642252c736",
+      "encoding": "utf-8",
+      "chars": 571
+    },
+    {
+      "path": "books/beihai-xianren/candidates/cases.md",
+      "sha256": "d9680bdfdd9209df55029e4ea91916fd2e903cbf8e74c6b9c011e341fb45e50b",
+      "encoding": "utf-8",
+      "chars": 17512
+    },
+    {
+      "path": "books/beihai-xianren/candidates/counter-examples.md",
+      "sha256": "c16d157aa1a32922deba01f7df2851a2582a785b2b489fb484669228a4a2c62f",
+      "encoding": "utf-8",
+      "chars": 9910
+    },
+    {
+      "path": "books/beihai-xianren/candidates/frameworks.md",
+      "sha256": "3c33360882ca80ccd5cd07a9019b3613c55779a1c875029a67b1208dd1d147c6",
+      "encoding": "utf-8",
+      "chars": 8852
+    },
+    {
+      "path": "books/beihai-xianren/candidates/glossary.md",
+      "sha256": "f3014f3fa7a329900fe7afa409bb5cee10742dd528114e768e934ddaab7fca7d",
+      "encoding": "utf-8",
+      "chars": 9598
+    },
+    {
+      "path": "books/beihai-xianren/candidates/principles.md",
+      "sha256": "5e8bfc19ee8401ee506a68a9d3965045d851a9c819cc031662ab7806116ebb02",
+      "encoding": "utf-8",
+      "chars": 15395
+    },
+    {
+      "path": "books/beihai-xianren/jixiong-tiaozhi/test-results.md",
+      "sha256": "84aa7d14f41889d6da33c5557be3753b77bdd491f464fed9cfa21de3a7daa92c",
+      "encoding": "utf-8",
+      "chars": 651
+    },
+    {
+      "path": "books/beihai-xianren/keti-qishi/test-results.md",
+      "sha256": "134a048f8df3b672a0044ecdb34bb2858161a8d80b505125f495884cf76b79d9",
+      "encoding": "utf-8",
+      "chars": 561
+    },
+    {
+      "path": "books/beihai-xianren/kongwang-bianzhi/test-results.md",
+      "sha256": "a655808120b295388671f9a5d1ee3a5102b6b30be496e8f54c30b16bfe23d426",
+      "encoding": "utf-8",
+      "chars": 590
+    },
+    {
+      "path": "books/beihai-xianren/leishen-keti/test-results.md",
+      "sha256": "62603231712c24deb3a48ca52bac926a88bfc89f5bdf440d62585b7a67c8d9d9",
+      "encoding": "utf-8",
+      "chars": 1102
+    },
+    {
+      "path": "books/beihai-xianren/lianai-panduan/test-results.md",
+      "sha256": "bfb694a75675af19b609125471b2dda80953e49ccc3f9f2e84d08c02b3887131",
+      "encoding": "utf-8",
+      "chars": 754
+    },
+    {
+      "path": "books/beihai-xianren/rejected/p03-fengshui-zhishang.md",
+      "sha256": "804c34bf4a5beee29fdb5404b91cdad83618cd847fce890ec3a5955993ce0b82",
+      "encoding": "utf-8",
+      "chars": 402
+    },
+    {
+      "path": "books/beihai-xianren/rejected/p33-haoshi-fenggui.md",
+      "sha256": "e6e31eec4cf71df2d3d03a6d56ccf6ca82be2f31c7a3186e40ddf9a71bcf7a29",
+      "encoding": "utf-8",
+      "chars": 401
+    },
+    {
+      "path": "books/beihai-xianren/renji-guanxi/test-results.md",
+      "sha256": "b3d4011bd605b469f3e4da44033e893ee5e76097457f1f9a3ef078f007b90447",
+      "encoding": "utf-8",
+      "chars": 748
+    },
+    {
+      "path": "books/beihai-xianren/sanbu-duanke/test-results.md",
+      "sha256": "a29c7e30156abdcf01bcd8e8c3e7c0faeef99c1a02e375614335426892cbe29d",
+      "encoding": "utf-8",
+      "chars": 627
+    },
+    {
+      "path": "books/beihai-xianren/shengzhi-jiaxin/test-results.md",
+      "sha256": "e32905db17627f5441965639859381f4e806696f0194e0f49f485713dd5ef646",
+      "encoding": "utf-8",
+      "chars": 602
+    },
+    {
+      "path": "books/beihai-xianren/shiyun-zonghe/test-results.md",
+      "sha256": "ca7a00c1e03a83d5b521911503d72ff822aa855e9b4dc3049d521ee52badfd20",
+      "encoding": "utf-8",
+      "chars": 579
+    },
+    {
+      "path": "books/beihai-xianren/verified.md",
+      "sha256": "0c45248213b706f808651aec32177fb71c215faf659ccd9696a5ac4188ed5720",
+      "encoding": "utf-8",
+      "chars": 5380
+    },
+    {
+      "path": "books/beihai-xianren/xiongsha-suduan/test-results.md",
+      "sha256": "e8221eafb047a904d09a069f4d8e8bf12cc8fdf2ebae215ef0de15d790adefa4",
+      "encoding": "utf-8",
+      "chars": 830
+    },
+    {
+      "path": "books/beihai-xianren/yingpin-gongzuo/test-results.md",
+      "sha256": "f924fb5441a8f0e7ed42810975ce451f4906bef3e89abbea2288cb4751149f2e",
+      "encoding": "utf-8",
+      "chars": 602
+    },
+    {
+      "path": "books/beihai-xianren/yingqi-panduan/test-results.md",
+      "sha256": "db0e717277440c9a5becefcb47e9281572e3339dbb1176bb2c3d971847e57c9b",
+      "encoding": "utf-8",
+      "chars": 608
+    },
+    {
+      "path": "books/beihai-xianren/youlu-lilun/test-results.md",
+      "sha256": "13e631c8ba062880197ed2f80de25398748a2a4e2ff816071a6e1f8fc80296f7",
+      "encoding": "utf-8",
+      "chars": 571
+    },
+    {
+      "path": "books/beihai-xianren/yunchan-panduan/test-results.md",
+      "sha256": "77a2eb6e2b47fd9768b7ca9683b17a8ac25c8f0cae1f1383c9891849a8422971",
+      "encoding": "utf-8",
+      "chars": 2152
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/BOOK_OVERVIEW.md",
+      "sha256": "ff1a22bbc64217e4b8fd9546ac39fb3b89be3174bbcd4a0d883b68315df7acd2",
+      "encoding": "utf-8",
+      "chars": 6216
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/candidates/cases.md",
+      "sha256": "ae8726ef051387413a24ddce10f39021fa1249a49896172d91b0e30b9f14950a",
+      "encoding": "utf-8",
+      "chars": 20259
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/candidates/counter-examples.md",
+      "sha256": "26c03abae4cbd1021676c913be94577ed60fd9450c3873e823e2a9f53cebb52a",
+      "encoding": "utf-8",
+      "chars": 18456
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/candidates/frameworks.md",
+      "sha256": "c7e8d37445fc0b7d8d5997a5a30c7ae284ddfa50068f5bf851e40aa733b07745",
+      "encoding": "utf-8",
+      "chars": 20230
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/candidates/glossary.md",
+      "sha256": "d0f60c79e7a488184fdd86b3b2de631b7b959512fb6f2bffe5668b3ab7b24866",
+      "encoding": "utf-8",
+      "chars": 32025
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/candidates/principles.md",
+      "sha256": "1745296b80119733c91806137a13c1c0bea0ee1028f968802b419cffa3d3b39d",
+      "encoding": "utf-8",
+      "chars": 27226
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/rejected/rejected-summary.md",
+      "sha256": "25d2d476d369c1a1d28562cc5b96ad56fd8e48bcde6844fbed8c5d785e5ed59e",
+      "encoding": "utf-8",
+      "chars": 2040
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-wenda/verified.md",
+      "sha256": "ecaaa1f3bc3d357069cce518aa823a292ffc4134a55ab62eae0b0633b7241907",
+      "encoding": "utf-8",
+      "chars": 15168
+    },
+    {
+      "path": "books/beihai-xianren/zhinan-zhanbing/test-results.md",
+      "sha256": "2fb2bec0cf4adc27d76f052027724844e90a25bc84528f495a9fe2bf52a6a591",
+      "encoding": "utf-8",
+      "chars": 1924
+    },
+    {
+      "path": "books/beihai-xianren/zhongshen-nianyun/test-results.md",
+      "sha256": "8a70d8291b15ab87ac49df7aa00b771e72d6157a2ac2719ccd1aeb940ac80d1b",
+      "encoding": "utf-8",
+      "chars": 618
+    },
+    {
+      "path": "书籍库/六壬命法/README.md",
+      "sha256": "90e2e4142f005becf227219d2f9fdc50897ec1cfbe8c6a635240fff41609220d",
+      "encoding": "utf-8",
+      "chars": 682
+    },
+    {
+      "path": "书籍库/六壬命法/六壬推命学.md",
+      "sha256": "e73ec15346c9f6885b9251d998154eeeb54b2ac89443ac08dff7e550595c028b",
+      "encoding": "utf-8",
+      "chars": 52918
+    },
+    {
+      "path": "书籍库/六壬命法/大六壬推命精要-仿古.md",
+      "sha256": "e9a197199504d0c3020b4df8521b67433140bc0fb0e18e1fa2b4acb88a95464b",
+      "encoding": "utf-8",
+      "chars": 6367
+    },
+    {
+      "path": "书籍库/六壬命法/大六壬推命精要.md",
+      "sha256": "b6620e810a904af4f568cf247eca7093dba3efb75bffa224cca90a44c125325c",
+      "encoding": "utf-8",
+      "chars": 9649
+    },
+    {
+      "path": "书籍库/六壬命法/大六壬终身论命秘要_总论.md",
+      "sha256": "cd3b748855929193047e2bb0c4d449cba565d5af7b2e38b3d9b42d176ab88bbe",
+      "encoding": "utf-8",
+      "chars": 8004
+    },
+    {
+      "path": "书籍库/北海闲人/修订报告-对话A.md",
+      "sha256": "ef47f727a84f5ec230b2b9aee06a8b5b149561a581a5cbae9f7c9728811d575f",
+      "encoding": "utf-8",
+      "chars": 15143
+    },
+    {
+      "path": "书籍库/北海闲人/修订报告-对话B.md",
+      "sha256": "6ab049e58852269bc27f3b430480b82876b78105a227624adcaa3a0c7850ac38",
+      "encoding": "utf-8",
+      "chars": 13985
+    },
+    {
+      "path": "书籍库/北海闲人/六壬金针-审查增补任务书.md",
+      "sha256": "37ee8bd26c0ed4a88e4f44aac89045d4640f184fdefa48271bea49e2caf6a9fd",
+      "encoding": "utf-8",
+      "chars": 5859
+    },
+    {
+      "path": "书籍库/北海闲人/六壬金针_修正版.md",
+      "sha256": "8b6fd57f39d24c3b99bb86660363a8870c75bcb3dbe5cc292ffd7c76713db168",
+      "encoding": "utf-8",
+      "chars": 113078
+    },
+    {
+      "path": "书籍库/北海闲人/北海闲人 《大六门括囊赋》略疏.txt",
+      "sha256": "e8e595128985a30df7443a75de124729ea5b6f61559517605fd7c899fe3a2bd0",
+      "encoding": "gb18030",
+      "chars": 5921
+    },
+    {
+      "path": "书籍库/北海闲人/北海闲人-大六门64课经精讲解注.txt",
+      "sha256": "22f2fb47cc2650dae0d369342e73941fdcc744b0807290ae4bafe8543cc70cdf",
+      "encoding": "gb18030",
+      "chars": 191385
+    },
+    {
+      "path": "书籍库/北海闲人/北海闲人-神将释.txt",
+      "sha256": "79229f1e45dfdef83570cf909d194877a7d6b2c782bcdd6f25b957f69e9ebb87",
+      "encoding": "utf-8",
+      "chars": 44208
+    },
+    {
+      "path": "书籍库/北海闲人/北海闲人大六壬指南问答〔完全版〕.txt",
+      "sha256": "df3f689687e17d6137efe478d4738c7319f2ec8d481791a20daef642cc674bf6",
+      "encoding": "utf-8",
+      "chars": 21286
+    },
+    {
+      "path": "书籍库/北海闲人/北海闲人，特训班讲义.txt",
+      "sha256": "4bc1a33167ba5b064890bfefa008b680568a79ca5db7c95d8bdca68b6f71ccc2",
+      "encoding": "gb18030",
+      "chars": 25712
+    },
+    {
+      "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+      "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+      "encoding": "utf-8",
+      "chars": 195459
+    },
+    {
+      "path": "书籍库/北海闲人/理法简易.txt",
+      "sha256": "afd2707315061e9423d8d444e00c3e9cce497c304449be8c37bcdb0d5aa19279",
+      "encoding": "utf-8",
+      "chars": 192181
+    },
+    {
+      "path": "书籍库/现代著作/《壬占汇选》.txt",
+      "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+      "encoding": "utf-8",
+      "chars": 250624
+    },
+    {
+      "path": "书籍库/现代著作/万占方编·十二地支类象信息（入门）.txt",
+      "sha256": "4dd273480b24c36f14ced69246b32670a543c10a19558ec3e47d1cfdf0abe643",
+      "encoding": "utf-8",
+      "chars": 8309
+    },
+    {
+      "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+      "sha256": "cd6ca97192696f2800c2b4edd6f2f334a111e8a842db862c7f566f25866014fe",
+      "encoding": "utf-8",
+      "chars": 314882
+    },
+    {
+      "path": "书籍库/现代著作/六壬针见血（全文，有课例）.txt",
+      "sha256": "7eb574523f7a09ed54679fe4100c39d7e8bccef7604eae68ced05c643f76ca58",
+      "encoding": "utf-8",
+      "chars": 82717
+    },
+    {
+      "path": "书籍库/现代著作/大六壬射覆指掌.txt",
+      "sha256": "884c6ce8ab2cd27ae3cf058b4badcf7f7a20881968c3b64d462d0785e3e0a0a1",
+      "encoding": "utf-8",
+      "chars": 14460
+    },
+    {
+      "path": "书籍库/现代著作/大六壬应期断诀窍.md",
+      "sha256": "de1b5cad9317ae6b9ce7b6446217a86e9a9e3ca22d9689207116ee1cdccde88e",
+      "encoding": "utf-8",
+      "chars": 36743
+    },
+    {
+      "path": "书籍库/现代著作/大六壬心镜加排盘（打印）.txt",
+      "sha256": "c476650481476b9e7f1bac870e6c83b84c4e586af6a40e0b1762bacbdb6b7816",
+      "encoding": "utf-8",
+      "chars": 71584
+    },
+    {
+      "path": "书籍库/现代著作/大六壬毕法赋详解.txt",
+      "sha256": "d56d6dedea4f0d870b7d49c47b961b3e96f31ad63abf5915e143d9c8b4f3361d",
+      "encoding": "utf-8",
+      "chars": 119775
+    },
+    {
+      "path": "书籍库/现代著作/宋壬四大家占案.txt",
+      "sha256": "6ee1f1a170f0f9e5e9ff0ceea551dc65b88bc8659d2b7d7cee33f71102fbd9e5",
+      "encoding": "utf-8",
+      "chars": 16842
+    },
+    {
+      "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+      "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+      "encoding": "utf-8",
+      "chars": 495333
+    },
+    {
+      "path": "书籍库/现代著作/新建 文本文档.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoding": "utf-8",
+      "chars": 0
+    },
+    {
+      "path": "书籍库/现代著作/献给六壬天一群的六壬笔记-2023年.txt",
+      "sha256": "ad936a9da5bd32a803e911b341c1c350ead8ac7f0be2eaa28a3f45722541dc4d",
+      "encoding": "utf-8",
+      "chars": 78381
+    },
+    {
+      "path": "书籍库/现代著作/精校本六壬大全.txt",
+      "sha256": "f471d8825cdf48689a1ffd525ebe4008e9d821f40c4b39194150cb22bf355b2d",
+      "encoding": "utf-8",
+      "chars": 314358
+    },
+    {
+      "path": "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt",
+      "sha256": "16b5c104551cb118aebe2651e4d1fdfb88945f464d3db933a6a21145e8f181bc",
+      "encoding": "utf-8",
+      "chars": 93374
+    },
+    {
+      "path": "书籍库/神煞资料/万占方编·十二地支类象信息（入门）.txt",
+      "sha256": "4dd273480b24c36f14ced69246b32670a543c10a19558ec3e47d1cfdf0abe643",
+      "encoding": "utf-8",
+      "chars": 8309
+    },
+    {
+      "path": "书籍库/神煞资料/六壬思辨-神煞.txt",
+      "sha256": "7e1d1ca8a95c9c61b2b22f0aa19e9e11b7d7139b978012384e4c69f4f7c30046",
+      "encoding": "gb18030",
+      "chars": 1175
+    },
+    {
+      "path": "书籍库/神煞资料/六壬神煞.txt",
+      "sha256": "a15b0ac182e060fe66ba42a8b2dc6fb968b5daa444162fc7f31cbacdae4624f3",
+      "encoding": "utf-8",
+      "chars": 3298
+    },
+    {
+      "path": "书籍库/神煞资料/注解大六壬指南.txt",
+      "sha256": "fc9e09a113f6c142fa2ebf531f937f77dbeee5503898222d8c0ca4c60d2fce8c",
+      "encoding": "utf-8",
+      "chars": 123864
+    },
+    {
+      "path": "书籍库/神煞资料/神煞全解.txt",
+      "sha256": "1ecd3384d84f5051149b1bce6502aa606d4d2fc4a8ed501dacc39314ce0076fa",
+      "encoding": "utf-8",
+      "chars": 24662
+    },
+    {
+      "path": "书籍库/神煞资料/神煞概要.txt",
+      "sha256": "044baa558c4d7b6316a64ebd4b52717a908935a9eb2122734041c4c450d78d88",
+      "encoding": "utf-8",
+      "chars": 4262
+    },
+    {
+      "path": "书籍库/经典古籍/三命通会_明_万民英.txt",
+      "sha256": "0f42258a91904b703bf989f56c8b1098ef4218cf269f8f08cf46dd291d04cdec",
+      "encoding": "utf-8",
+      "chars": 497572
+    },
+    {
+      "path": "书籍库/经典古籍/五行大义_隋_萧吉.txt",
+      "sha256": "3a8a44033ea570c45042198200d5889f985365f4c2cf3099a007803db93f260a",
+      "encoding": "utf-8",
+      "chars": 82498
+    },
+    {
+      "path": "书籍库/经典古籍/五行精纪_南宋_廖中.txt",
+      "sha256": "3fd13d726ccc066200b42cda406d530a5e956af3b323ac6606fdafbc4ae37ee7",
+      "encoding": "utf-8",
+      "chars": 203416
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/_index.md",
+      "sha256": "be93243d6d8112d10178c58a62d26a7250118657d1066a03039960ade54196db",
+      "encoding": "utf-8",
+      "chars": 4961
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬括囊赋略疏--.txt",
+      "sha256": "47bf29715a463c67e2774983e78fa7e92d411379c7e2b15b78660224d0b626c1",
+      "encoding": "utf-8",
+      "chars": 6339
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬灵觉经--佚名.txt",
+      "sha256": "301319e947b1a7c1b3a869eb8888e31a1fb9061dbcff97b57075886b88440bba",
+      "encoding": "utf-8",
+      "chars": 85234
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬神课金口诀古本--佚名.txt",
+      "sha256": "30d38a4f749e72975beb2df39e18cc405c5913dfa747a5a61327d67a1e0b6f62",
+      "encoding": "utf-8",
+      "chars": 66041
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬苗公射覆鬼撮脚--佚名.txt",
+      "sha256": "f7d41c25c4e106ddcc8f2a273c3884233d9ed13c0e0f5c5feced68a098a3383e",
+      "encoding": "utf-8",
+      "chars": 13813
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬苗公射覆鬼撮脚-utf8.txt",
+      "sha256": "fae8c3c2cfaed5c4b934441cddf94f99cc3a38e160f34b0db79da86e900948e7",
+      "encoding": "utf-8",
+      "chars": 13816
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬论命秘要--佚名.txt",
+      "sha256": "7b368855159c0a6483c8c3d5efe99e783ab709b8bfe6980a3a446e83533af3aa",
+      "encoding": "utf-8",
+      "chars": 8340
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬金铰剪--徐养浩.txt",
+      "sha256": "10f544b423652629baf61c72dd18118c7b3d1ccf11eb26a084a4650c209788eb",
+      "encoding": "utf-8",
+      "chars": 31898
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬银河櫂-utf8.txt",
+      "sha256": "c1dc11be6370f3d622083c989b6d58567618e8606ef5a8b3fa48d54225e75cc4",
+      "encoding": "utf-8",
+      "chars": 55186
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+      "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0",
+      "encoding": "utf-8",
+      "chars": 24881
+    },
+    {
+      "path": "书籍库/经典古籍/佚名/壬归.txt",
+      "sha256": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+      "encoding": "utf-8",
+      "chars": 32680
+    },
+    {
+      "path": "书籍库/经典古籍/唐宋/_index.md",
+      "sha256": "7a3fc75764eb2964a1675aced355c66b45c54e612d8d4252bcc76e0871e83c6d",
+      "encoding": "utf-8",
+      "chars": 1638
+    },
+    {
+      "path": "书籍库/经典古籍/唐宋/六壬一字诀玉连环-宋-徐汶滨.txt",
+      "sha256": "bbd2191f3afd51192c6a0d72bbfd94afffa903ae3c08618a6a1c70a52d4314eb",
+      "encoding": "utf-8",
+      "chars": 18337
+    },
+    {
+      "path": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+      "sha256": "e3312f2d3910f14f809c8e364f7c38e96c2ca36557dd158a077a6052de06ec69",
+      "encoding": "utf-8",
+      "chars": 60598
+    },
+    {
+      "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+      "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+      "encoding": "utf-8",
+      "chars": 94173
+    },
+    {
+      "path": "书籍库/经典古籍/唐宋/六壬神定经-宋-扬维德.txt",
+      "sha256": "551f26e18ad9e5dbfd5a7fe269dbc0296cf3c28544c5e1044cb2071e04146580",
+      "encoding": "utf-8",
+      "chars": 15242
+    },
+    {
+      "path": "书籍库/经典古籍/唐宋/六壬管辂神书-三国-管辂.txt",
+      "sha256": "4f6e6309b0eae359a03214dd2b4ee9d60fc2bf7457216694bde8a9129f2419d3",
+      "encoding": "utf-8",
+      "chars": 21949
+    },
+    {
+      "path": "书籍库/经典古籍/大六壬玉藻金英.txt",
+      "sha256": "5ddf8ee5ba69070fbbf67c026518e52cdf37ff1548fdccec46da36f069aaefcd",
+      "encoding": "gb18030",
+      "chars": 35506
+    },
+    {
+      "path": "书籍库/经典古籍/御定星历考原_清_李光地等.txt",
+      "sha256": "7235571b2ccd160fd8e117427b6c2abda45cc36f9a1b0f8b8e9fc0640ee1eb23",
+      "encoding": "utf-8",
+      "chars": 59867
+    },
+    {
+      "path": "书籍库/经典古籍/明代/_index.md",
+      "sha256": "27425cf1e0732cf81656e4638834d70a2acd9c363709712bdae9c6860e6fe990",
+      "encoding": "utf-8",
+      "chars": 1991
+    },
+    {
+      "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "sha256": "c82bbd18f2d1efb7afd57f8bd9691685146685c119089e522d7c9f16d9dc5ba2",
+      "encoding": "utf-8",
+      "chars": 303647
+    },
+    {
+      "path": "书籍库/经典古籍/明代/六壬拃河棹-明-张松源.txt",
+      "sha256": "ef5b18b130b4ed008734243942534f40cfe33cb46c109eb476745d9ecf131b20",
+      "encoding": "utf-8",
+      "chars": 29477
+    },
+    {
+      "path": "书籍库/经典古籍/明代/六壬指南-明-陈公献.txt",
+      "sha256": "3e1c574e010be9542c0065c2973feafccc846828270e997eb12c3da9e02aeec3",
+      "encoding": "utf-8",
+      "chars": 27611
+    },
+    {
+      "path": "书籍库/经典古籍/明代/六壬指南注解-明-陈公献.txt",
+      "sha256": "ca985cd0bbbe354e2ebff036bcd004878377c57343dd0d5d77291cfc5d518774",
+      "encoding": "utf-8",
+      "chars": 114317
+    },
+    {
+      "path": "书籍库/经典古籍/明代/六壬翠雨歌-明-高大器.txt",
+      "sha256": "eb6f5a232225bc2d2999d2969618517ce1100b3bcfdb168ee8347b5ef31b8b97",
+      "encoding": "utf-8",
+      "chars": 22463
+    },
+    {
+      "path": "书籍库/经典古籍/清代/_index.md",
+      "sha256": "337485af4fa819de8ee474b0831d07d1601e237a52697b4ce3da453d92754aef",
+      "encoding": "utf-8",
+      "chars": 2118
+    },
+    {
+      "path": "书籍库/经典古籍/清代/六壬存验-清-吴师青.txt",
+      "sha256": "6401faebc66194107a58c507a5f0839ba18a62458e4bed4d1a4ba3723d330df1",
+      "encoding": "utf-8",
+      "chars": 33512
+    },
+    {
+      "path": "书籍库/经典古籍/清代/六壬寻源-清-张纯照.txt",
+      "sha256": "ad2e4978741929dc3e51b487fb17a1195356cad8cbde982563b890fb75531de1",
+      "encoding": "utf-8",
+      "chars": 16799
+    },
+    {
+      "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "sha256": "cd9de3ba4b6fbbca1af4ee19dc14d2f10c453e3a29bfe41c94a4ddf5068af8d8",
+      "encoding": "utf-8",
+      "chars": 388373
+    },
+    {
+      "path": "书籍库/经典古籍/清代/六壬秘本-清-金正音.txt",
+      "sha256": "3d7f996bdbf5a3bfc7b7dd976113dfe293c8494a5f8d4b4688e081b0ffe93733",
+      "encoding": "utf-8",
+      "chars": 116710
+    },
+    {
+      "path": "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt",
+      "sha256": "af0b11cc713bf323d7534cce8fdde912d3f93ddb78531b47b1bcb7b136c063f1",
+      "encoding": "utf-8",
+      "chars": 84893
+    },
+    {
+      "path": "书籍库/经典古籍/清代/六壬经纬-清-京江铁瓮子.txt",
+      "sha256": "70fc85f758488214d33a760027dd911394501c5e0c2dcfc386530ae2d3e92391",
+      "encoding": "utf-8",
+      "chars": 26772
+    },
+    {
+      "path": "书籍库/经典古籍/清代/壬学琐记-清-程树勋.txt",
+      "sha256": "4c63f818fe30ac0265975a92a7cfa3cf83c673bc627c474fa183213064aba9bb",
+      "encoding": "utf-8",
+      "chars": 18873
+    },
+    {
+      "path": "书籍库/经典古籍/钦定协纪辨方书_清_允禄等.txt",
+      "sha256": "43a5354ebe829c4a734240bf0839933bae37820995be6ecefabe122c5454c445",
+      "encoding": "utf-8",
+      "chars": 301293
+    },
+    {
+      "path": "书籍库/解课速查/README.md",
+      "sha256": "c7c35e4bf8d1f485f9856f81205350bf2e2ce520bf5b1af24c800883bb3b0668",
+      "encoding": "utf-8",
+      "chars": 372
+    },
+    {
+      "path": "书籍库/解课速查/三传走向与三合局.md",
+      "sha256": "dba15e4f22eef435cc653acf1842f6591c2f3a52b72578a3c49419ee5e13a430",
+      "encoding": "utf-8",
+      "chars": 778
+    },
+    {
+      "path": "书籍库/解课速查/九宗门与支位排序.md",
+      "sha256": "b893b6b9b3880ccb8988cf645f17b76820c71850ce7679f92840c055efa5f212",
+      "encoding": "utf-8",
+      "chars": 862
+    },
+    {
+      "path": "书籍库/解课速查/十二天将与分类取类.md",
+      "sha256": "3d2eaa2400867f9aa323175c1735a50f3c4e4155b88a9f12532b2a551caf7311",
+      "encoding": "utf-8",
+      "chars": 993
+    },
+    {
+      "path": "书籍库/解课速查/四课关系与发用.md",
+      "sha256": "0e713a6466a14c895f7c6394e4b61ed28bd5619d278f9af42ffdbd01c222ee56",
+      "encoding": "utf-8",
+      "chars": 956
+    },
+    {
+      "path": "书籍库/解课速查/断应期方法.md",
+      "sha256": "4a1d458410ec6663ee5fd16a4f5618282c4b08fa885036a94e05a7c1fe28e719",
+      "encoding": "utf-8",
+      "chars": 185
+    },
+    {
+      "path": "书籍库/解课速查/神煞年命速查.md",
+      "sha256": "661651b829df53970dc53a882f3e8d43eeb94e663b75e10ac0bbce80717fe937",
+      "encoding": "utf-8",
+      "chars": 680
+    }
+  ],
+  "missing_registered": [
+    "书籍库/八字书籍/AI可读原文-20261024/ditiansui-original.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/ditiansui-ren.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/liang-essentials.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/liang-fu.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/liang-notes.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/liang-practice.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/liang-yuanhai.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/mingli-tanyuan.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/qianli-minggao.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/qiongtong-baojian.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/sanming-tonghui.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/shenfeng-tongkao.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/yuanhai-ziping.txt",
+    "书籍库/八字书籍/AI可读原文-20261024/ziping-zhenquan.txt",
+    "书籍库/八字书籍/《命理探源》.txt",
+    "书籍库/八字书籍/三命通会.txt",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/001_渊海子平.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/004_穷通宝鉴.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/005_三命通会.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/006_滴天髓.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/007_滴天髓阐微.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/008_神峰通考.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/009_命理探原.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/010_李虚中命书.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/011_五行大义.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/012_玉照定真经.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/013_五行精纪.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/014_星平会海.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/016_鬼谷遗文.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/018_命理约言.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/019_造化元钥评注.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/020_子平管见.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/021_御定子平.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/023_月谈赋.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/024_珞琭子消息赋.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/025_星命抉古录.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/026_兰台妙选原文.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/029_星学大成.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/21_三车一览.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85849.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85850.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85851.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85852.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85853.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85854.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85855.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85856.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85857.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85880.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/江湖_85887.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_三命指迷赋.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_中黄经.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_五行原理消息赋.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_五言独步.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_人鉴.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_伤官说.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_八字看病方法.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_喜忌篇.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_四言独步.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_太岁.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_女命泾渭篇.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_女命论.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_子平举要歌.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_岁运之吉凶.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_岁运通论.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_幽微赋.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_滴天髓.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_爱憎赋.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_玉照神应真经.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_续善篇.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_节气断.md",
+    "书籍库/八字书籍/八字命理书籍/01_公有领域/短篇_论岁运.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/002_子平真诠.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/003_千里命稿.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/015_八字提要.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/017_呱呱集.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/022_星命总括.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/18_命理真诀导读.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/23_巾箱秘术.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/24_盲派初级命理学.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/25_其它单篇.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/26_八字与用神.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/27_四柱预测经验技巧.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85858.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85859.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85860.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85861.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85862.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85863.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85864.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85865.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85866.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85867.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85868.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85869.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85870.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85871.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85872.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85873.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85874.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85875.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85876.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85877.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85878.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85879.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85881.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85882.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85883.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85884.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85885.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/江湖_85886.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/盲派_.md",
+    "书籍库/八字书籍/八字命理书籍/02_近现代/盲派_命术.md",
+    "书籍库/八字书籍/八字命理书籍/03_影印本OCR/书影OCR_任铁樵 《滴天髓阐微》.md",
+    "书籍库/八字书籍/八字命理书籍/03_影印本OCR/书影OCR_子平精粹3 穷通宝鉴.md",
+    "书籍库/八字书籍/八字命理书籍/03_影印本OCR/书影OCR_子平精粹4-神峰通考.md",
+    "书籍库/八字书籍/八字命理书籍/03_影印本OCR/书影OCR_渊海子平评注.md",
+    "书籍库/八字书籍/千里命稿.txt",
+    "书籍库/八字书籍/原注滴天髓.md",
+    "书籍库/八字书籍/原注滴天髓.txt",
+    "书籍库/八字书籍/古籍-三命通会-精简版.md",
+    "书籍库/八字书籍/古籍-命理探源-精简版.md",
+    "书籍库/八字书籍/子平真诠评注.md",
+    "书籍库/八字书籍/子平真诠评注.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/1_梁老师子平基础概要最后一课---实务批命.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/梁湘润-八字实务精选.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/梁湘润-命学精华.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/梁湘润-命理传承班笔记.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/梁湘润-子平赋集注.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/梁湘润-渊海喜忌随笔.txt",
+    "书籍库/八字书籍/梁湘润-待校资料/提取文本/梁湘润-渊海随笔.txt",
+    "书籍库/八字书籍/渊海子平.md",
+    "书籍库/八字书籍/渊海子平.txt",
+    "书籍库/八字书籍/滴天髓阐微_任铁樵_中华典藏整理.txt",
+    "书籍库/八字书籍/神峰通考.md",
+    "书籍库/八字书籍/神峰通考.txt",
+    "书籍库/八字书籍/穷通宝鉴.md",
+    "书籍库/八字书籍/穷通宝鉴.txt"
+  ]
+}

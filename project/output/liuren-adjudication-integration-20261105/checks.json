@@ -1,0 +1,34 @@
+{
+  "testsRun": 24,
+  "passed": 16,
+  "failures": 1,
+  "errors": 7,
+  "baselineFailuresReproduced": 8,
+  "baselineMethodView": "20261105-restructure-01",
+  "livePointerUntouchedDuringBaseline": true,
+  "failedTests": [
+    "tools.tests.test_liuren_method_loader.MethodLoaderTests.test_year_life_and_conditional_routes_obey_workflow_stages",
+    "tools.tests.test_liuren_material_scope.ScopeTests.test_docs_are_exact_file_exceptions_never_a_search_library",
+    "tools.tests.test_liuren_material_scope.ScopeTests.test_hit_limit_is_disclosed_and_never_claims_full_coverage",
+    "tools.tests.test_liuren_material_scope.ScopeTests.test_read_retains_line_numbers_and_explicit_continuation",
+    "tools.tests.test_liuren_material_scope.ScopeTests.test_scans_never_enter_development_old_runtime_or_nested_archive",
+    "tools.tests.test_liuren_material_scope.ScopeTests.test_symlink_cannot_expand_library_to_development_or_outside_project",
+    "tools.tests.test_liuren_material_scope.ScopeTests.test_traversal_outside_scope_is_rejected_before_read",
+    "tools.tests.test_liuren_local_read.LocalReadTests.test_parallel_search_keeps_both_original_results_and_unmodified_renderers"
+  ],
+  "doctorOk": true,
+  "procedures": [
+    {
+      "name": "liuren-cases",
+      "parts": 9,
+      "sha256": "38c359da7a3e262ac7f9824b642f568a33588528bf3f2aebedd17a0043ac31eb"
+    },
+    {
+      "name": "liuren-extract",
+      "parts": 8,
+      "sha256": "e0562ae1497df0a0b80c9380e1080edc0c15e2bcb41215eabd416902d4fa0db2"
+    }
+  ],
+  "modelCalls": 0,
+  "limitation": "Existing suite is not all green; baseline fixtures/11-stage expectation are stale. Full native probes are separate."
+}

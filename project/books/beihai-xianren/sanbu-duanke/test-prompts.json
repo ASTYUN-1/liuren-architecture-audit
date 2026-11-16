@@ -1,0 +1,80 @@
+{
+  "skill": "sanbu-duanke",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我占一下，我这次跳槽到底能不能成？",
+      "expected_behavior": "应激活 sanbu-duanke, 并执行三步断课法: 明占类(成败二元)→定侧重(类神/课体)→看显象, 输出占类标签与完整结论链",
+      "notes": "典型'能否成'占问, 三步法第一入口 (A2 触发场景 1)"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "占一下我下半年运势怎么样？会往哪个方向发展？",
+      "expected_behavior": "应激活 sanbu-duanke, 并按'向何方发展'方向类归类, 定侧重后走看显象, 输出发展走向结论与置信度",
+      "notes": "典型'方向/趋势'占问 (A2 触发场景 1+4)"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我起了一课（干支三传都有了），你帮我看看这课怎么断、从哪看起？",
+      "expected_behavior": "应激活 sanbu-duanke, 先明占类再定侧重再看显象, 建立完整判断框架而非直接给某一细节判据",
+      "notes": "A2 触发场景 2: 用户给盘面要判断框架"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "同一件事换个问法，占出来的结论会不会变？",
+      "expected_behavior": "应激活 sanbu-duanke, 用三类结果导向分类(能否成/能否出现/向何方发展)对比两种问法对结论的影响",
+      "notes": "A2 触发场景 4: 问法对结论的敏感性"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "帮我测测，下个月这笔尾款能不能收回来？",
+      "expected_behavior": "应激活 sanbu-duanke 作为总入口, 先明占类为'能否出现/能否成', 再定主线; 若确认属财运门类再下钻 cailu-panduan",
+      "notes": "泛化/跨门类问题, 先走总入口定占类 (A2 触发场景 3)"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下，2026年立春具体是哪一天几点？",
+      "expected_behavior": "不应激活 sanbu-duanke, 因为这是纯历法/节气信息查询, 无占问目标, 直接查历法数据回答即可",
+      "notes": "诱饵: 完全无关场景(纯历法信息查询)"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我占一卦，看我这个月什么时候能发工资？",
+      "expected_behavior": "不应激活本 skill(sanbu-duanke), 应激活 cailu-panduan(财禄判断) 与 yingqi-panduan(应期判断): 问题已明确是'财运+何时到手', 属应用域下钻而非泛化总入口",
+      "notes": "诱饵: 跨 skill 混淆诱饵(硬性要求), 防止 sanbu-duanke 抢走分类 skill 的调用"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我占一下，这套房我到底能不能买得到？",
+      "expected_behavior": "不应激活本 skill(sanbu-duanke), 应激活 leishen-keti: 对象(房产)具体可取类神, 属'定侧重'环节的下钻, 直接由 leishen-keti 取类神扫课传",
+      "notes": "诱饵: 跨 skill 混淆(composes-with), 总入口框架 vs 类神/课体主线下钻"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我占下这周末相亲能不能成？",
+      "expected_behavior": "应激活 lianai-panduan 而非 sanbu-duanke: 用户已给出明确门类(恋爱/相亲), 属分类 skill 直接下钻; 但若盘面数据缺失, 可先按三步法定占类再澄清",
+      "notes": "边界: '泛化总入口 vs 明确门类下钻'的模糊地带"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "我起的这课白虎发用，是不是有大灾？",
+      "expected_behavior": "不直接激活 sanbu-duanke 的三步法全文, 先走 xiongsha-suduan 的凶煞速断做否定式过滤; 若凶煞排除后仍有'成不成'疑问, 再回总入口定占类——快筛优先",
+      "notes": "边界: '凶煞否定前置'与'总入口框架'的先后之争"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "should_trigger×5 + should_not_trigger×3(含 1 条跨 skill 兄弟诱饵 + 1 条完全无关) + edge_case×2。诱饵类型: ①纯历法立春查询(无关) ②'何时发工资'→cailu-panduan/yingqi-panduan(兄弟 skill 混淆) ③'占能否买到房'→leishen-keti(总入口 vs 主线下钻)。所有 should_not_trigger 必须通过(诱饵容错为 0)。"
+}

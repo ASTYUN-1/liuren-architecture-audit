@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>意图采集与收款落地 · 六壬八字</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f5f0;--card:#fff;--line:#e9e3d6;--line-soft:#f0ebe0;--ink:#14171e;--ink2:#3a4256;--muted:#7c7a72;
+--primary:#2f6f5e;--p-soft:rgba(47,111,94,.08);--amber:#c97b3f;--a-soft:rgba(201,123,63,.10);
+--rose:#b06367;--r-soft:rgba(176,99,103,.10);--ind:#3d4a5c;--i-soft:rgba(61,74,92,.07)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Outfit',sans-serif;font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased;
+background-image:radial-gradient(ellipse 900px 520px at 6% -8%,rgba(47,111,94,.05),transparent 60%),radial-gradient(ellipse 820px 500px at 97% 3%,rgba(201,123,63,.045),transparent 60%);background-attachment:fixed}
+.wrap{max-width:1010px;margin:0 auto;padding:0 24px}
+section{padding:48px 0;border-top:1px solid var(--line)}section:first-of-type{border-top:none}
+h1,h2{font-family:'DM Serif Display',serif;font-weight:400;letter-spacing:-.005em}
+h1{font-size:36px;line-height:1.18;margin-bottom:14px}h2{font-size:23px;line-height:1.3;margin-bottom:8px}
+h3{font-size:15.5px;font-weight:600;font-family:'Outfit';margin-bottom:8px}
+.lede{color:var(--ink2);font-size:15.5px;max-width:73ch}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:10px;display:flex;align-items:center;gap:9px}
+.eyebrow svg{width:15px;height:15px;stroke-width:2}
+.note{color:var(--muted);font-size:13px;margin-top:9px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:19px 21px;box-shadow:0 2px 8px rgba(0,0,0,.035)}
+.grid{display:grid;gap:13px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+.tag{display:inline-flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.05em;padding:2.5px 8px;border-radius:20px;white-space:nowrap}
+.t-ok{background:var(--p-soft);color:var(--primary)}.t-no{background:var(--r-soft);color:var(--rose)}
+.t-warn{background:var(--a-soft);color:var(--amber)}.t-mid{background:var(--i-soft);color:var(--ind)}
+code,.mono{font-family:'JetBrains Mono',monospace;font-size:12.5px}
+pre{background:#fbfaf7;border:1px solid var(--line);border-radius:10px;padding:13px 16px;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.75;color:var(--ink2)}
+pre .c{color:var(--muted)}pre .k{color:var(--primary);font-weight:500}pre .s{color:var(--amber)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.07em;text-transform:uppercase;padding:0 10px 8px 0;border-bottom:1px solid var(--line)}
+td{padding:9px 10px 9px 0;border-bottom:1px solid var(--line-soft);vertical-align:top}td:first-child{font-weight:600}
+.hit{background:linear-gradient(transparent 62%,rgba(47,111,94,.16) 0);font-weight:600}
+.warnbox{background:var(--a-soft);border:1px solid rgba(201,123,63,.28);border-radius:14px;padding:15px 19px}
+.okbox{background:var(--p-soft);border:1px solid rgba(47,111,94,.28);border-radius:14px;padding:15px 19px}
+.riskbox{background:var(--r-soft);border:1px solid rgba(176,99,103,.26);border-radius:14px;padding:15px 19px}
+ul.tick{list-style:none;font-size:14px;color:var(--ink2)}
+ul.tick li{padding-left:19px;position:relative;margin-bottom:6px}
+ul.tick li::before{content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;border-radius:50%;background:var(--primary);opacity:.55}
+.flowwrap{overflow-x:auto;padding:2px 0}
+.bench{display:grid;grid-template-columns:126px 1fr 74px;gap:11px;align-items:center;padding:4.5px 0}
+.bench-track{height:15px;background:var(--line-soft);border-radius:6px;overflow:hidden}
+.bench-fill{height:100%;border-radius:6px}
+/* 线框图 */
+.wire{border:1px solid var(--line);border-radius:13px;background:#fff;padding:17px 19px}
+.wire-h{font-family:'DM Serif Display',serif;font-size:21px;color:var(--ink);margin-bottom:4px}
+.wire-sub{font-size:13px;color:var(--muted);margin-bottom:14px}
+.wire-label{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.wire-box{border:1px dashed var(--line);border-radius:9px;padding:13px 14px;background:#fdfcfa;font-size:13.5px;color:var(--ink2);line-height:1.75}
+.wire-box.hi{border-style:solid;border-color:rgba(47,111,94,.4);background:rgba(47,111,94,.045)}
+.wire-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;margin-top:4px}
+.wire-card{border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:12.5px;color:var(--ink2)}
+.wire-btn{display:inline-block;background:var(--ink);color:#fff;border-radius:8px;padding:9px 17px;font-size:13px;margin-top:13px}
+.wire-btn.sec{background:none;color:var(--muted);border:1px solid var(--line);margin-left:8px}
+@media(max-width:768px){h1{font-size:27px}h2{font-size:20px}body{font-size:14.5px}.g2,.g3{grid-template-columns:1fr}section{padding:36px 0}.wire-cards{grid-template-columns:1fr}.bench{grid-template-columns:96px 1fr 68px;gap:9px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section style="padding-top:58px">
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>意图采集 · 收款落地</div>
+  <h1>你提的两点都对，<br>而且<span class="hit">比我的方案更好</span></h1>
+  <p class="lede">固定 8 个主题是我把问题想简单了——真实的人生困境本来就是跨域的，"因为感情导致的财务问题"硬塞进任何一个标签都会失真。你的方案（<strong>大方向 + 自由描述</strong>）更接近人真实的思考方式。</p>
+  <p class="lede" style="margin-top:11px">收款那件事，你的判断也是对的：个人开发者确实有真实困难，但<strong>困难不在技术，在于类目审核和主体</strong>。这两件事我查到了比较硬的结论。</p>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15h6"/></svg>意图采集</div>
+  <h2>让用户写下来，比让他选更快准</h2>
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <h3>为什么自由描述完胜固定主题</h3>
+      <ul class="tick" style="font-size:13.5px;margin-top:6px">
+        <li><strong>真实问题跨域</strong>——感情、财运、家庭本来就是缠在一起的</li>
+        <li><strong>信息量差一个量级</strong>——"他管钱我不工作"vs 选了个"财务"标签，前者含六亲、财星、事业三层信息</li>
+        <li><strong>写下来本身有价值</strong>——用户来算命，很多是想被理解。让他先说，比直接给结论更留得住人</li>
+        <li><strong>直接对上你的第 0 步</strong>——<code>明来意：定问事类别 + 定侧重</code>，本来就该从用户的原话里抽</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>但纯自由文本有风险，要配结构</h3>
+      <ul class="tick" style="font-size:13.5px;margin-top:6px">
+        <li>有人会写一整段有的没的，<strong>抽不出主类</strong> → 配"大方向卡片"作为锚点，可跳过</li>
+        <li>有人会写"我想知道我的命运"这种空泛的 → <strong>回显环节</strong>帮他收敛</li>
+        <li>写描述会吓跑"我就想看看命盘"的人 → <strong>双通道入口</strong>，一个直接跳到生辰</li>
+        <li>自由文本是敏感数据 → <strong>不用于模型训练</strong>，报告默认 90 天删除</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:13px;padding:20px">
+    <h3>Describe 页线框</h3>
+    <div class="wire" style="margin-top:10px;background:#fbfaf7">
+      <div class="wire-h">What brings you here?</div>
+      <div class="wire-sub">Write it however you'd say it to a friend. There are no wrong words.</div>
+      <div class="grid g2" style="gap:15px;align-items:start">
+        <div>
+          <div class="wire-label">主通道 · 自由描述</div>
+          <div class="wire-box hi" style="min-height:118px">
+            <span style="color:var(--muted)">e.g. My husband has started keeping his salary in his mother's account. I don't work. I feel trapped but I don't know if this can change…</span>
+          </div>
+          <div class="wire-btn">Continue</div>
+          <div class="wire-btn sec">Skip — just show my chart</div>
+          <div class="note" style="margin-top:9px">「Skip」给的是没想好问什么的人，不是失败路径——他们拿到的仍然是全量解读。</div>
+        </div>
+        <div>
+          <div class="wire-label">辅助 · 大方向（可跳过）</div>
+          <div class="wire-cards">
+            <div class="wire-card">Relationships</div>
+            <div class="wire-card">Money</div>
+            <div class="wire-card">Career</div>
+            <div class="wire-card">Health</div>
+            <div class="wire-card">Life direction</div>
+            <div class="wire-card">Something else</div>
+          </div>
+          <div class="note" style="margin-top:11px">卡片只是给检索一个初始侧重，<strong>不构成硬约束</strong>。用户选了 Money 但写了感情问题，以文字为准。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l2.4 6.6H21l-5.3 4 2 6.6-5.7-4.1-5.7 4.1 2-6.6-5.3-4h6.6z"/></svg>最高性价比的一步</div>
+  <h2>回显确认：让系统先说出它听到的</h2>
+  <p class="lede" style="margin-bottom:18px">这是整个 intake 里投入产出比最高的交互。多花一次 LLM 调用（几百 token），换回来的是：准确率跃升、信任建立、纠错窗口。</p>
+  <div class="grid g2" style="align-items:start">
+    <div class="card">
+      <div class="wire" style="background:#fbfaf7">
+        <div class="wire-label">系统回显</div>
+        <div class="wire-box hi" style="margin-top:7px">
+          <strong>Let me make sure I've understood.</strong><br><br>
+          Your chart is a <strong>Xin Metal day master born in Horse month</strong> — strong metal held down by fire, with spouse-palace pressure. You're describing a situation where <strong>partner controls the household money</strong> and you've <strong>lost your own financial footing</strong>.<br><br>
+          I'll read this from two angles: <strong>marriage structure</strong> and <strong>household money flow</strong>.
+        </div>
+        <div class="wire-btn">Yes, that's it</div>
+        <div class="wire-btn sec">Not quite — let me correct it</div>
+      </div>
+      <div class="note" style="margin-top:11px">「Not quite」点开就是一个可编辑的复述框，用户改一两个字就行。<strong>纠错成本必须低</strong>——如果纠正要重新写一段，就没人愿意纠了。</div>
+    </div>
+    <div class="okbox">
+      <h3>这一屏解决四件事</h3>
+      <ul class="tick" style="font-size:13.5px;margin-top:6px">
+        <li><strong>准确率</strong>——抽取错了还有一道人工修正，比事后投诉便宜一百倍</li>
+        <li><strong>信任</strong>——用户看到"它听懂了"会立刻认真对待结果</li>
+        <li><strong>防退款</strong>——"我算错了"和"它误解了我的问题"是两回事，回显把后者消掉了</li>
+        <li><strong>档案素材</strong>——确认后的回显文本，是后面反馈闭环的对照基准</li>
+      </ul>
+      <div class="note" style="margin-top:10px">而且它顺手把"复合问题"规范化了：<strong>主类 + 关联类</strong>的结构，比单标签清晰，比多标签有用。报告章节按这个组织。</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:13px">
+    <h3>追问漂移判定表</h3>
+    <p class="note" style="margin:0 0 11px">约束不再是"topic 硬锁"，而是"是否仍在展开同一组关注点"。用小模型做二分类，每次几百 token，成本可忽略。</p>
+    <table>
+      <thead><tr><th style="width:30%">首诊：长期伴侣控制家庭财务，我没工作，很焦虑</th><th style="width:14%">判定</th><th style="width:22%">处理</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td>"他会不会一直这样？"</td><td><span class="tag t-ok">展开</span></td><td>正常作答，计次</td><td>同一对象、同一关注点</td></tr>
+        <tr><td>"那我的财运整体怎么样？"</td><td><span class="tag t-ok">展开</span></td><td>正常作答，计次</td><td>关联类交叉，财是婚的一部分</td></tr>
+        <tr><td>"详细说说我的性格弱点"</td><td><span class="tag t-ok">展开</span></td><td>正常作答，计次</td><td>同一张盘的另一面</td></tr>
+        <tr><td>"顺便帮我看看我弟弟的婚事"</td><td><span class="tag t-no">漂移</span></td><td>三段式话术 + upsell</td><td>新对象 + 新问题</td></tr>
+        <tr><td>"帮我算一下明年股票走势"</td><td><span class="tag t-no">漂移+违规</span></td><td>合规话术，明确不给投资建议</td><td>叠加 schema 层过滤</td></tr>
+        <tr><td>"我妈最近身体不好，能算算吗"</td><td><span class="tag t-no">漂移</span></td><td>引导话术 + 建议单独起一卦</td><td>新对象；健康信息也敏感</td></tr>
+      </tbody>
+    </table>
+    <div class="note" style="margin-top:10px">注意第 2 行——<strong>"我的财运整体如何"必须判为展开</strong>。这是用户最自然的后续问题，硬拦会显得蠢。它和首诊本来就是同一件事的两面。</div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>收款 · 硬结论</div>
+  <h2>个人开发者的收款，真正卡点在两处</h2>
+  <p class="lede" style="margin-bottom:20px">不是技术上收不到钱，是 <strong>① 类目审核 ② 主体与提现路径</strong>。第一处可能直接否掉你，第二处决定你能不能把钱拿回银行卡。</p>
+
+  <div class="riskbox">
+    <div style="display:flex;gap:11px;align-items:flex-start">
+      <span class="tag t-no" style="margin-top:2px">卡点 1</span>
+      <div style="font-size:14px;color:var(--ink2)"><strong style="color:var(--ink)">占卜类目在支付平台是敏感区，且规则不完全公开。</strong>Lemon Squeezy 的限制类目里明确列了「regulated products and services」；法国支付机构 Lemonway 的风控说明里则把 <strong>fortune-telling 直接列为"风险活动"</strong>。这说明"算命"在支付通道眼里确实是个需要审查的标签，而不是空白地带。</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:11px">
+    <h3>可选通道（大陆个人，2026 年中状态）</h3>
+    <table>
+      <thead><tr><th style="width:17%">通道</th><th style="width:13%">费率</th><th style="width:22%">大陆个人提现</th><th>状态与风险</th></tr></thead>
+      <tbody>
+        <tr><td>Creem</td><td class="mono">3.9%+$0.40</td><td><strong>支付宝可提</strong>，$50 起</td><td><span class="tag t-ok">推荐首选</span> 大陆路径最直接</td></tr>
+        <tr><td>Dodo Payments</td><td class="mono">4%+$0.40</td><td>支持，$50 起</td><td><span class="tag t-ok">推荐</span> 适合当第二通道</td></tr>
+        <tr><td>Polar</td><td class="mono">4%+$0.40</td><td>Stripe Connect 打通</td><td>国际卡 +1.5%、订阅 +0.5%，实际可能到 6%+</td></tr>
+        <tr><td>Paddle</td><td class="mono">5%+$0.50</td><td>$100 起，按月结</td><td>审核最重，个人可用但要产品描述</td></tr>
+        <tr><td>Lemon Squeezy</td><td class="mono">5%+$0.50</td><td>本地银行路径缺失</td><td><span class="tag t-no">已关闭</span> Stripe 收购后停接大陆主体新申请</td></tr>
+        <tr><td>Payhip</td><td class="mono">~5%</td><td>—</td><td>即时开通无审核，适合先跑通</td></tr>
+        <tr><td>PayPal 大陆</td><td class="mono">4.4%+固定</td><td>提现 $35 手续费</td><td><span class="tag t-no">别做主通道</span> 有冻结历史风险</td></tr>
+        <tr><td>Stripe</td><td class="mono">2.9%+$0.30</td><td><span style="color:var(--rose)">不支持大陆</span></td><td>需海外主体（香港/Atlas LLC）</td></tr>
+      </tbody>
+    </table>
+    <div class="note" style="margin-top:10px">费率均为公开基础费率，不含国际卡附加、税、汇兑和提现费。$20 订单的 MoR 实际成本约在 6–8%。<strong>务必按自己的用户地域和付款方式重算一遍</strong>，别只看第一行百分比。</div>
+  </div>
+
+  <div class="card" style="margin-top:11px">
+    <h3>被忽略的合规底线</h3>
+    <ul class="tick" style="font-size:13.5px">
+      <li><strong>5 万美元结汇额度</strong>——个人每年便利化结汇上限，超过必须走对公账户，也就是必须有主体。这是硬线，早晚要撞上。</li>
+      <li><strong>MoR 只解决"收"和"代扣 VAT"</strong>——不解决你自己的所得税、个税申报和外汇申报。这部分责任永远在开发者身上。</li>
+      <li><strong>Payoneer 是国内最普及的收款落地</strong>——上面几乎所有平台都能直接打款到 Payoneer 虚拟账户，手续费 1.2–1.5%，再提现到国内银行卡。</li>
+      <li><strong>香港公司</strong>——约 1 万人民币注册，年维护 5000，能开 Stripe 香港账户。但大陆居民控股可能触发 CFC 申报规则。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>最快路径</div>
+  <h2>如果只做一件事：做 B2B，不要做 B2C</h2>
+  <div class="card" style="border-color:rgba(47,111,94,.4);box-shadow:0 4px 16px -2px rgba(47,111,94,.10);padding:21px">
+    <p style="font-size:14.5px;color:var(--ink2)">把你的引擎打包成 <strong>「给占星师/塔罗师用的白标测算工具」</strong>，他们卖 $60–120 一单，分你 $20–30。</p>
+    <div class="grid g2" style="margin-top:14px;gap:14px">
+      <div class="okbox">
+        <h3 style="margin-bottom:7px">这一步同时解决四个问题</h3>
+        <ul class="tick" style="font-size:13.5px">
+          <li><strong>支付</strong>——他们自己收款付你，你是 B2B 软件供应商，<strong>根本不需要面对占卜类目审核</strong></li>
+          <li><strong>获客</strong>——他们有受众，你不用做 SEO / 广告</li>
+          <li><strong>信任</strong>——他们已经和客户建立了关系</li>
+          <li><strong>数据质量</strong>——他们的客户本来就信这套，命中率更高，反馈闭环转得更快</li>
+        </ul>
+      </div>
+      <div class="warnbox">
+        <h3 style="margin-bottom:7px">代价也要说清</h3>
+        <ul class="tick" style="font-size:13.5px">
+          <li>单价被压低——他们卖 $60，分你 $20，你的净利远低于自己卖 $19.99</li>
+          <li>你处在产业链下游，没有定价权</li>
+          <li>需要谈判、要签协议、要处理分成结算</li>
+          <li>不适合当长期终局，但<strong>适合当第一笔钱</strong></li>
+        </ul>
+      </div>
+    </div>
+    <div class="okbox" style="margin-top:12px">
+      <p style="font-size:14px;color:var(--ink2)"><strong>为什么这条特别值：</strong>支付平台审核的是"你在卖什么"，不是"你的客户是谁"。<em>astrology practice management SaaS</em> 是一个再正常不过的软件类目——而占卜行为发生在他们那边，不在你的产品描述里。这一步同时绕开了类目审核和获客成本。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4v16h16"/><path d="M8 9h8M8 15h5"/></svg>分阶段落地</div>
+  <h2>三个阶段，每阶段只解决一个问题</h2>
+  <div class="grid" style="gap:10px">
+    <div class="card" style="border-left:3px solid var(--primary);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-ok">阶段 0</span><strong style="font-size:16px">0–2 个月 · 拿到第一笔钱</strong>
+        <span style="color:var(--muted);font-size:13px">目标是"证明有人愿意付 $20"，不是赚钱</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        <strong>同时开两条线：</strong>① 找 2–3 家 MoR 申请（Creem / Dodo / Paddle），如实描述业务，等审核结果——<strong>这期间不写任何支付代码</strong>；② 同步接洽 3–5 位海外占星师谈白标分成，用手动交付（发激活码/发报告）跑通前 10 单。<br>
+        <strong>如果 MoR 全被拒：</strong>把产品定位调整成"AI-assisted self-reflection journal"或"traditional Chinese metaphysics reference tool"，强调学习与文化属性而非预测。这不是洗白——你的古籍蒸馏和方法论页本来就有教育价值，只是把它放到前面说。
+      </div>
+    </div>
+    <div class="card" style="border-left:3px solid var(--amber);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-warn">阶段 1</span><strong style="font-size:16px">2–6 个月 · 主体与自动化</strong>
+        <span style="color:var(--muted);font-size:13px">月入稳定过 $1K 之后</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        注册<strong>个体工商户或个人独资企业</strong>（1–2 周，几十到几百块，部分地区核定征收综合税负 3–5%）。费率从 8% 降到 3–5%。同步接第二家 MoR 当备份通道。<strong>流水必须留档</strong>——5 万美元结汇线不是开玩笑的。
+      </div>
+    </div>
+    <div class="card" style="border-left:3px solid var(--ind);padding:16px 20px">
+      <div style="display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px">
+        <span class="tag t-mid">阶段 2</span><strong style="font-size:16px">6 个月+ · 规模化</strong>
+        <span style="color:var(--muted);font-size:13px">月入过 $10K</span>
+      </div>
+      <div style="font-size:13.5px;color:var(--ink2);line-height:1.95">
+        有限公司 + 香港或 Atlas LLC → 申请 Stripe 拿到 2.9% 费率。能签企业合同、能开发票、能接 B 端客户。这个阶段才值得考虑从 MoR 迁到直连 PSP。
+      </div>
+    </div>
+  </div>
+  <div class="note" style="margin-top:12px">个人结汇 5 万美元/年、核定征收政策、Stripe Atlas 对大陆申请人的政策都在变，<strong>做决策前请找专业税务顾问核一遍</strong>，不要只依赖我这里的信息。</div>
+</section>
+
+<section style="padding-bottom:58px">
+  <div class="card" style="background:linear-gradient(135deg,rgba(47,111,94,.05),rgba(201,123,63,.04));border-color:rgba(47,111,94,.22)">
+    <h2 style="margin-bottom:12px">这轮真正要做的决定</h2>
+    <div class="grid g2" style="gap:14px;margin-top:6px">
+      <div>
+        <span class="tag t-p2" style="background:rgba(47,111,94,.1);color:#2f6f5e">优先级最高</span>
+        <p style="font-size:14px;color:var(--ink2);margin-top:8px"><strong>先发 3 家 MoR 申请，还是先谈白标分成？</strong>我的建议是<strong>同时做</strong>——申请结果要等，而白标可以立刻手动跑通。两条线互不冲突，且白标那条完全不依赖平台审核结果。</p>
+      </div>
+      <div>
+        <span class="tag t-warn">影响产品形态</span>
+        <p style="font-size:14px;color:var(--ink2);margin-top:8px"><strong>B2C 还是 B2B 双轨？</strong>B2C 利润高但要过类目审核；B2B 稳但单价低。<strong>建议架构上预留</strong>：引擎和多语言层共用，只换前端外壳和付费逻辑——这样两条线共用 90% 的工程量。</p>
+      </div>
+    </div>
+    <div class="note" style="margin-top:16px">这两件事都不影响引擎工作。<strong>第 1–3 项任务（computeChart + 真太阳时 + 地理编码）无论走哪条线都得做</strong>，而且 B2B 白标对这三项的需求反而更急——合作方要的就是一个能嵌入他们网站的测算接口。</div>
+  </div>
+</section>
+
+</div>
+</body>
+</html>

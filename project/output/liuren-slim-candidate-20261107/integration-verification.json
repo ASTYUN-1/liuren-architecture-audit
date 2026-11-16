@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "check": "实际工具门禁使用候选7项准备加考试，不要求旧6项",
+      "passed": true
+    },
+    {
+      "check": "已读回执复用，缺一项只要求补一项",
+      "passed": true
+    },
+    {
+      "check": "候选固定排盘与神煞policy可正常载入",
+      "passed": true
+    },
+    {
+      "check": "同一真实程序盘的全部神煞计算与采用状态一致",
+      "passed": true
+    },
+    {
+      "check": "7份专业全文原样装配，定位与专项自动项去重，不自动加应期取数",
+      "passed": true,
+      "materialCount": 7,
+      "aliases": 2
+    },
+    {
+      "check": "裁决文件多页全文与hash完整接续读取",
+      "passed": true,
+      "readCalls": 2,
+      "fileChars": 52531
+    },
+    {
+      "check": "report交付前门禁仍阻止缺读交付",
+      "passed": true
+    },
+    {
+      "check": "自由正文保存、领取、重启复用及deliver原文一致",
+      "passed": true
+    },
+    {
+      "check": "实际tasks触发完整应期与取数专法自动装配",
+      "passed": true
+    }
+  ],
+  "syntheticOnly": true,
+  "modelCalls": 0,
+  "predictiveValidationCount": 0
+}

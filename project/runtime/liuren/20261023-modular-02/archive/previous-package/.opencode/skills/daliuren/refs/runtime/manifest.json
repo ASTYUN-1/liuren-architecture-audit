@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "maintenanceVersion": "20261023-fusion-1",
+  "modules": {
+    "core": {
+      "file": "core.md",
+      "requires": [],
+      "when": "本问涉及daliuren/sanbu-duanke/leishen-keti"
+    },
+    "evidence": {
+      "file": "evidence.md",
+      "requires": [],
+      "when": "本问涉及liuren-cases"
+    },
+    "state-and-rescue": {
+      "file": "mechanisms/state-and-rescue.md",
+      "requires": [
+        "core"
+      ],
+      "when": "本问涉及kongwang-bianzhi/jixiong-tiaozhi"
+    },
+    "movement-and-yinshen": {
+      "file": "mechanisms/movement-and-yinshen.md",
+      "requires": [
+        "core"
+      ],
+      "when": "本问涉及keti-qishi/youlu-lilun"
+    },
+    "shensha": {
+      "file": "mechanisms/shensha.md",
+      "requires": [],
+      "when": "本问涉及shensha-panduan/xiongsha-suduan"
+    },
+    "timing": {
+      "file": "mechanisms/timing.md",
+      "requires": [
+        "core"
+      ],
+      "when": "本问涉及yingqi-panduan"
+    },
+    "finance": {
+      "file": "domains/finance.md",
+      "requires": [],
+      "when": "本问涉及cailu-panduan"
+    },
+    "recruitment": {
+      "file": "domains/recruitment.md",
+      "requires": [],
+      "when": "本问涉及yingpin-gongzuo"
+    },
+    "promotion-salary": {
+      "file": "domains/promotion-salary.md",
+      "requires": [],
+      "when": "本问涉及shengzhi-jiaxin"
+    },
+    "relationship": {
+      "file": "domains/relationship.md",
+      "requires": [],
+      "when": "本问涉及lianai-panduan"
+    },
+    "interpersonal": {
+      "file": "domains/interpersonal.md",
+      "requires": [],
+      "when": "本问涉及renji-guanxi"
+    },
+    "period-outlook": {
+      "file": "domains/period-outlook.md",
+      "requires": [],
+      "when": "本问涉及shiyun-zonghe"
+    },
+    "long-period": {
+      "file": "domains/long-period.md",
+      "requires": [],
+      "when": "本问涉及zhongshen-nianyun"
+    },
+    "pregnancy": {
+      "file": "domains/pregnancy.md",
+      "requires": [],
+      "when": "本问涉及yunchan-panduan"
+    },
+    "exam": {
+      "file": "domains/exam.md",
+      "requires": [],
+      "when": "本问涉及kaoshi-panduan"
+    },
+    "illness": {
+      "file": "domains/illness.md",
+      "requires": [],
+      "when": "本问涉及jibing-panduan"
+    },
+    "lost-person-object": {
+      "file": "domains/lost-person-object.md",
+      "requires": [],
+      "when": "本问涉及shiwu-xunren"
+    },
+    "classical-conflict": {
+      "file": "domains/classical-conflict.md",
+      "requires": [],
+      "when": "本问涉及zhinan-zhanbing"
+    }
+  },
+  "routes": {
+    "finance": [
+      "finance"
+    ],
+    "recruitment": [
+      "recruitment"
+    ],
+    "promotion-salary": [
+      "promotion-salary"
+    ],
+    "relationship": [
+      "relationship"
+    ],
+    "interpersonal": [
+      "interpersonal"
+    ],
+    "period-outlook": [
+      "period-outlook"
+    ],
+    "long-period": [
+      "long-period"
+    ],
+    "pregnancy": [
+      "pregnancy"
+    ],
+    "exam": [
+      "exam"
+    ],
+    "illness": [
+      "illness"
+    ],
+    "lost-person-object": [
+      "lost-person-object"
+    ],
+    "classical-conflict": [
+      "classical-conflict"
+    ]
+  },
+  "legacyAliases": {
+    "daliuren": [
+      "core"
+    ],
+    "sanbu-duanke": [
+      "core"
+    ],
+    "leishen-keti": [
+      "core"
+    ],
+    "liuren-cases": [
+      "evidence"
+    ],
+    "kongwang-bianzhi": [
+      "state-and-rescue"
+    ],
+    "jixiong-tiaozhi": [
+      "state-and-rescue"
+    ],
+    "keti-qishi": [
+      "movement-and-yinshen"
+    ],
+    "youlu-lilun": [
+      "movement-and-yinshen"
+    ],
+    "shensha-panduan": [
+      "shensha"
+    ],
+    "xiongsha-suduan": [
+      "shensha"
+    ],
+    "yingqi-panduan": [
+      "timing"
+    ],
+    "cailu-panduan": [
+      "finance"
+    ],
+    "yingpin-gongzuo": [
+      "recruitment"
+    ],
+    "shengzhi-jiaxin": [
+      "promotion-salary"
+    ],
+    "lianai-panduan": [
+      "relationship"
+    ],
+    "renji-guanxi": [
+      "interpersonal"
+    ],
+    "shiyun-zonghe": [
+      "period-outlook"
+    ],
+    "zhongshen-nianyun": [
+      "long-period"
+    ],
+    "yunchan-panduan": [
+      "pregnancy"
+    ],
+    "kaoshi-panduan": [
+      "exam"
+    ],
+    "jibing-panduan": [
+      "illness"
+    ],
+    "shiwu-xunren": [
+      "lost-person-object"
+    ],
+    "zhinan-zhanbing": [
+      "classical-conflict"
+    ]
+  },
+  "independentTasks": [
+    "liuren-extract",
+    "liuren-tuiming"
+  ],
+  "files": {
+    "core.md": "da15555f01bc29d2c5d85a4a76e09061db845f50364a0076bc89c4bb76b925e0",
+    "domains/classical-conflict.md": "ca7fa9c54fa8de0fab2239575862fc047d1b9d8aafd91de7356003b20a0f47af",
+    "domains/exam.md": "52993efaf76fc3a01252f1a35a37b29b78430d27fda9f04cae8bc2a91651086a",
+    "domains/finance.md": "a85962ed6250bb05d91703965c867d0c6df4eda5083a7698c7d1d5f2473f2451",
+    "domains/illness.md": "b9be2e001252f88115c66061d8b382b0ad235450371f454d9dd3d9d0676bfe97",
+    "domains/interpersonal.md": "afb7dc50b3a827e9d3230a227f0d9f96aecd7141631f3a26c3a0c963a6ae5373",
+    "domains/long-period.md": "704c2715bea1a00c256db46bc10b040da5d2824d00c97b442af50bc5537b3fb3",
+    "domains/lost-person-object.md": "af824b690218e8cbe96e309e4ad61cf5e6f184344269087757b97394fc2ae060",
+    "domains/period-outlook.md": "96fdaa40079406a49329c8d29683d441dae7267172a9696d7c14ab44ce168afc",
+    "domains/pregnancy.md": "63489ca498c87b8396c36098bdaedd86f4544cb7b2050b41c54f2f47aa7893bd",
+    "domains/promotion-salary.md": "8f2816748a23715e41c58db815b87391eb71aa558c758072b5b9c41a98aab2b2",
+    "domains/recruitment.md": "37e19bf5a41ab70ff5c99e98bd530e5367c9503af17e0ee8cb2f21e27e123959",
+    "domains/relationship.md": "66d25febd84542d9d21b0e6959be5944bc28f584bece02939a06f2a4d79f57c4",
+    "evidence.md": "ec7e1b354d98edacb304a8cb4c134b483fbd6effaa02d3c05101ba9145046447",
+    "mechanisms/movement-and-yinshen.md": "3b84654b7fce3c20def7cb178bb19b0a141e77c548314d2b2005c5035d2d3c65",
+    "mechanisms/shensha.md": "9da752a1c37f4bbe1a777567788de324eff9d6bf418f6fbba1c9dfddce1a9ac5",
+    "mechanisms/state-and-rescue.md": "8e48549b54c08925a9ee419006159e9575eb5faf96e3aba7284dd55dbed27a43",
+    "mechanisms/timing.md": "06a441c0c7d3a1090344c73cedf2eddc38a73f8f12e293aa69300c5de911d5a9",
+    "migration-map.json": "d24d738b43ff7f00c49b04296105abc975782f2e29e27596d71b505d41d7469b",
+    "question-record.schema.json": "44f0d0da1c8388234180a23f1104856b7e4d9f36ee5319396846b21eee2cd137",
+    "semantic-delta.md": "fa6a37ca7ef33625958795a0e28a52ca8332b6729180bb82a6c6c09f26a63947",
+    "sources/fusion-source-map.json": "0375acba498d9f25b961a8e4c0889c735b2207a2278ded8bc69b60d9560a4f02",
+    "sources/fusion-sources.md": "c455492349f1d720c86fd78213f253cc6f436a5132d492be2ea8daa7e6c4bc28",
+    "sources/snapshots/.opencode/skills/cailu-panduan/SKILL.md": "fc117581564f40a01996a47b961ce65494392192687ec7ebeca25058061bbfec",
+    "sources/snapshots/.opencode/skills/daliuren/refs/bashajiubao.md": "b0d9c5105c11efa25c874c65127ea84cd6f345fc3f462e0574d39910aeb48b30",
+    "sources/snapshots/.opencode/skills/daliuren/refs/beihai-extend-sop.md": "16db58c1691bfd381a4d7fddc5ab847f594db254178c4f9aa48be8f93ce92a68",
+    "sources/snapshots/.opencode/skills/daliuren/refs/bifa.md": "f6d4960ec916ef280c9cc007cfa884e48b5a1c2400f9eece797c7b8a1b9a5957",
+    "sources/snapshots/.opencode/skills/daliuren/refs/blade-methods.md": "195bfe694a4d9c797a1214ae1a0e6b493b6650a2155bc7370476b1017a93a440",
+    "sources/snapshots/.opencode/skills/daliuren/refs/daliuren-paipan.md": "ec14a1f8bb7a6f5e8587f31cb7e0502227f8381b05445a65bdd81f77303d89fd",
+    "sources/snapshots/.opencode/skills/daliuren/refs/daliuren-shensha.md": "f8753b7bd0bc4d59d0a2ae45ac067358e9377a5459a375259a8cbeea1fd2acac",
+    "sources/snapshots/.opencode/skills/daliuren/refs/engine-shensha-output.md": "23fb609b149b65df7ad06fc733669afebf84d7671a326174b53a68251c2d6b8f",
+    "sources/snapshots/.opencode/skills/daliuren/refs/judgment-workflow.md": "bb81b18da41366164aacf38be88ffc4c15f11119f88ad900380fbfdd918d4f85",
+    "sources/snapshots/.opencode/skills/daliuren/refs/keti-quanbiao.md": "6a26aecb9293c01d3b68406ebd26bfdaadbf5793b53a53eb7b54b85c755febff",
+    "sources/snapshots/.opencode/skills/daliuren/refs/kundun.md": "117583697e2fdee7551724402706e8913cd42e6386b7ea9f268e290e04c6679d",
+    "sources/snapshots/.opencode/skills/daliuren/refs/liqi-analysis.md": "fe68087cbdd1081b3b2ec191665c4f411a879eea4d2b6b5aa40e97940a51a3c5",
+    "sources/snapshots/.opencode/skills/daliuren/refs/liqi-examples.md": "7c0dda79a9176298e82bed0eb6bbb155c1167c87ad5c91ba5c27af36b3bc0dcb",
+    "sources/snapshots/.opencode/skills/daliuren/refs/liqi-source-map.json": "6e5e56675eec7f10eb51fd4899e47b211edb61d3ea9d4600c40262f96c5310c1",
+    "sources/snapshots/.opencode/skills/daliuren/refs/liqi-sources.md": "7ea965055fb82097e311db99540724aa665bc0703dff3914fcc6f3b6d98f67fb",
+    "sources/snapshots/.opencode/skills/daliuren/refs/nianming.md": "aa3c3273b9918c7da0e56e9da5f74a8befc263c49e4e9bf7ddf1b4fbd1952a8e",
+    "sources/snapshots/.opencode/skills/daliuren/refs/rule-semantics.md": "68871e3dfb4a9c86f2db7bcda515b038fb92c2a1f155b407cc2987541395cec3",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-engine-index.md": "c2a439dec66d13917b4b8b4a0a0db8264106d79dc800e6240260f8b2aba5cc83",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-field-meanings.md": "dc4849dbe3697c0ceedb0c2c5f75f30be0a1b8880ad2144d8e21df6285e06176",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-focus.md": "2fb5c40c1c8de8899f782be376bc6aa0eb15ad67c578076fb856da012a8e5470",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-meaning-source-map.json": "93509df7a164072ccf76495a0ce6d95e03cc47bc8591f1bd778e199afe363452",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-meaning-sources.md": "aa357a17c6a18254627230c235d70501d5fcdd4d09c087e21898d86315ede071",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-meanings.md": "b0674952415abb9c5cc05f8b6ff7a4da93f9b5ec0a02696b91cbe78a114bad28",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-other-meanings.md": "595c4ffb45dd3f2e25364b48a48a34b3e1ae76d38c2d6c2394d4249e02bdb524",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-source-map.json": "d86011d49d3e831c919e54781bdc0338256d718f98181a5535edd69dfe1c8a33",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-sources.md": "8497e27c6407337ea7e75fa20baaa510868e2562ba40fc775aea71d6fac0749b",
+    "sources/snapshots/.opencode/skills/daliuren/refs/shensha-use.md": "6ed2c6d210d5ba0399267451b2d6ee2a2b07f3de6c52186eb12a5510a8e796eb",
+    "sources/snapshots/.opencode/skills/daliuren/SKILL.md": "7c36533d50dcec1a2e498760acce9471c9fedf043e41ebcfa8a4650d24d838ed",
+    "sources/snapshots/.opencode/skills/jibing-panduan/SKILL.md": "d7e5b751782e09c8240ab26ff209bda9dd180a50106b03955077459972bd3db1",
+    "sources/snapshots/.opencode/skills/jixiong-tiaozhi/SKILL.md": "88a60cfcbf02a735de4e239b887f8fe078b92a09f2dd4d14052acc577696be90",
+    "sources/snapshots/.opencode/skills/kaoshi-panduan/SKILL.md": "1458fa2aa36319267a6e76466d96e668459a02711d537041d4c9d2247b75e60c",
+    "sources/snapshots/.opencode/skills/keti-qishi/SKILL.md": "cbb4b35c112b497cfa01135a82f901e47d86343e6adec53d9ac655ddb35385e6",
+    "sources/snapshots/.opencode/skills/kongwang-bianzhi/SKILL.md": "a336cb28b2789d7f760dd40169b511ae7a7c5c6cdfc927e7a699489d0c81b84c",
+    "sources/snapshots/.opencode/skills/leishen-keti/SKILL.md": "fac9577595fead20c4bc03cf7842e5aa432424717b9b736134598c9a27f9afee",
+    "sources/snapshots/.opencode/skills/lianai-panduan/SKILL.md": "ce04e4862f62fae47ef8d9176c0d24e92361c2685ba792c51dc352ff96f78e99",
+    "sources/snapshots/.opencode/skills/liuren-cases/refs/case-retrieval-v2.md": "003515d3639dc1ad4bcda8168d6fad8a72c59dbef24bef236279c4001778d91d",
+    "sources/snapshots/.opencode/skills/liuren-cases/refs/experience-retrieval-v2.md": "2991e4226ecad57db703957fbf79446aa866c6548acdc11ff6dcd2c7c69931db",
+    "sources/snapshots/.opencode/skills/liuren-cases/SKILL.md": "f230178ad60afdf73fb9a1108ed072e72e6544570c9dd692dd0a35dd690a73eb",
+    "sources/snapshots/.opencode/skills/liuren-cases/SKILL.md.bak": "eaba52b395f3022584b78646f0234d047e05f3f88490d738bc920917f583fd5d",
+    "sources/snapshots/.opencode/skills/liuren-extract/refs/observable-methods.md": "497e11215912e03b784c054ad0c7718ed7394d9d26a108dabed8b245b2c2f002",
+    "sources/snapshots/.opencode/skills/liuren-extract/SKILL.md": "f4122c07bcf210b14efed716c94664e9c83de70783e8b3dc6d5fb117d3110acc",
+    "sources/snapshots/.opencode/skills/liuren-extract/SKILL.md.bak": "99da4c30072a1b6adb58b2f8f678a70bfa9071703222168acfde36474de49a56",
+    "sources/snapshots/.opencode/skills/liuren-tuiming/SKILL.md": "a62a8a9536756ddd2f05ade3c58cf5feffa705d8402fe1621303e24bd60eee39",
+    "sources/snapshots/.opencode/skills/renji-guanxi/SKILL.md": "f6a038dbf8884c72ba9b35bc6bf3d992fd103d49a9ccf57fdaa79ebf848c11e4",
+    "sources/snapshots/.opencode/skills/sanbu-duanke/SKILL.md": "c2bba7b6838cfb486a421e085f8d5f125fc4e1ca86a2a1592be048f8ec401f22",
+    "sources/snapshots/.opencode/skills/shengzhi-jiaxin/SKILL.md": "b9021048362011003323d3831db964a52f3000e0205e0ca683cc59b78356add2",
+    "sources/snapshots/.opencode/skills/shensha-panduan/SKILL.md": "85678fa88c3f1836834cfa369846f2fc5a497449ba16b117fe813b0cdf6d2cd8",
+    "sources/snapshots/.opencode/skills/shiwu-xunren/SKILL.md": "37d9ddcc7fa0866b4d835f55b63a51315753b0b78882a40ed23b11287384c324",
+    "sources/snapshots/.opencode/skills/shiyun-zonghe/SKILL.md": "6bd8850e72dca37450825c6a2580f733f41763a542979565f7479624a172a7cd",
+    "sources/snapshots/.opencode/skills/xiongsha-suduan/SKILL.md": "686e27e0e9ec04a3798d6d4181941d6d3c29a34731cacc85289e7b8667a996de",
+    "sources/snapshots/.opencode/skills/yingpin-gongzuo/SKILL.md": "264aade0b4617970828b8d5e00eb7d7482d9bbf309b38ba4c55912c5e854e07d",
+    "sources/snapshots/.opencode/skills/yingqi-panduan/SKILL.md": "47f97987f07e57e2860fb77b960d8ee0f21fe1f229c86985e9fd1d927e6c3aea",
+    "sources/snapshots/.opencode/skills/youlu-lilun/SKILL.md": "757e84be57a3238b6f41e81170100b16e7a33e1ffd92b2662b6836d36ad1e707",
+    "sources/snapshots/.opencode/skills/yunchan-panduan/SKILL.md": "600d35e38824d3a39c7d77f6410c58c6bfed854a906142b5f4d65d20f2cc1979",
+    "sources/snapshots/.opencode/skills/zhinan-zhanbing/SKILL.md": "0b77f0726bdf356c391ee8207e2fe2a2db8d122bf3b3d8a008239ddee9e68a56",
+    "sources/snapshots/.opencode/skills/zhongshen-nianyun/SKILL.md": "5977994325112c4b3d029233de39d081c75a12bb5c5c106c911f3286ec4af061",
+    "sources/snapshots/书籍库/现代著作/六壬大全（简体版）.txt": "cd6ca97192696f2800c2b4edd6f2f334a111e8a842db862c7f566f25866014fe",
+    "sources/snapshots/书籍库/现代著作/当代壬占汇选第五版.md": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+    "sources/snapshots/书籍库/现代著作/献给六壬天一群的六壬笔记-2023年.txt": "ad936a9da5bd32a803e911b341c1c350ead8ac7f0be2eaa28a3f45722541dc4d",
+    "sources/snapshots/书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt": "16b5c104551cb118aebe2651e4d1fdfb88945f464d3db933a6a21145e8f181bc",
+    "sources/snapshots/书籍库/神煞资料/六壬神煞.txt": "a15b0ac182e060fe66ba42a8b2dc6fb968b5daa444162fc7f31cbacdae4624f3",
+    "sources/snapshots/书籍库/神煞资料/注解大六壬指南.txt": "fc9e09a113f6c142fa2ebf531f937f77dbeee5503898222d8c0ca4c60d2fce8c",
+    "sources/snapshots/书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0",
+    "sources/snapshots/书籍库/经典古籍/佚名/壬归.txt": "8d73a7545db29361db47fc65887f8238a4634c4449f52028ee35cabc093d3335",
+    "sources/snapshots/书籍库/经典古籍/明代/六壬拃河棹-明-张松源.txt": "ef5b18b130b4ed008734243942534f40cfe33cb46c109eb476745d9ecf131b20",
+    "sources/snapshots/经验日志/2026-10-18-感情占-raw-anli001-0027-待验证记录.md": "250e85b69f6cd8d2b7fedaa0f0c7ed604224d928476209e465831edf1373863d",
+    "sources/snapshots/经验日志/2026-10-19-感情占-胎产末传应期与白虎入墓断剖.md": "56556b373d5b0f2b408e145f8ecd5c98e973858f6888a6cac8a01426bbaf2b8a",
+    "sources/structural-core.md": "93cf486231157d195a4a238abf7b3562fa66e80b8cc977249eab739b915fe29e"
+  },
+  "scope": "single-event",
+  "provenancePolicy": "archived source and engineering constraints are not independent predictive validation"
+}

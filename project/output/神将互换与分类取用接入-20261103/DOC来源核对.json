@@ -1,0 +1,22 @@
+{
+  "source": "C:\\Users\\QLMa_\\Desktop\\大六壬书籍\\万占方编·十二地支类象信息（入门）.doc",
+  "sha256": "1c089eb970da6d84dc8d951e49b33c59f174cf555dda1e2b6ce011d6d013f44a",
+  "method": "Word97 CFB/FIB/CLX正文piece table解码；不执行宏、不改源文件；未渲染版式",
+  "ccpText": 7927,
+  "pieces": 1,
+  "normalized_chars": 7243,
+  "comparisons": [
+    {
+      "path": "书籍库/现代著作/万占方编·十二地支类象信息（入门）.txt",
+      "sha256": "4dd273480b24c36f14ced69246b32670a543c10a19558ec3e47d1cfdf0abe643",
+      "whitespace_normalized_identical": true,
+      "normalized_chars": 7243
+    },
+    {
+      "path": "书籍库/神煞资料/万占方编·十二地支类象信息（入门）.txt",
+      "sha256": "4dd273480b24c36f14ced69246b32670a543c10a19558ec3e47d1cfdf0abe643",
+      "whitespace_normalized_identical": true,
+      "normalized_chars": 7243
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "release": "20261111-book-logic-41",
+  "files": {
+    ".opencode/liuren-active.json": "6e705ba35ad46f74d8e02cdbdd65332997a9ef62bdc6cc8563371d7d60444b04",
+    "opencode.json": "bec959669240bd99a2ae288257a89cc4d26323228b1834e03fe145fdbb287583",
+    ".opencode/oh-my-opencode-slim.jsonc": "86ff5a258858b9355be9107860f0c21d6df79d4a7e08f0d47f3ab06397396dcf",
+    "README.md": "4dedc82b60acebf9ebd2980d84a5cfb9afaa3590d72fe9885831ee30abd4a7b9",
+    "目录总索引.md": "07ff3f1734326189140932262c53faec9e037c8b5953c00e0aed2d4a0cbcd699",
+    "AGENTS.md": "dbdef29936ca910687e86134007d169893069695b2f47ea85f772ad7aef07a6c",
+    "docs/本机六壬高效执行.md": "15a1672dc920272bcc0f79a406471effec6e38a3e622ca96bbcfed0de2d0bc9a",
+    "integrations/codex/daliuren-codex/references/host.md": "41fa6d9e40c4349b968816fff81a750e988182c1b0ae582f6b03e81724868853",
+    "tools/liuren-compute-schema.mjs": "52998d8e91c90dc92316b3eef05f281732711f50c377fbd04a0ba464f0754c37",
+    "tools/liuren-method-tools.mjs": "228d026724da9e12843bbbc3996ba9fc7443973abcdddb269a98a9833faa92d4",
+    "tools/liuren-method-registry.json": "0749ae7e9057310cd19ef453ce6de02b88fd79d241b3faa4492b788f1b25b89c",
+    "tools/tests/liuren-codex.test.mjs": "7998e935d1020513f032babfd59e4a41e1dce49b6526d65eef0dc2ad9f862b99"
+  }
+}

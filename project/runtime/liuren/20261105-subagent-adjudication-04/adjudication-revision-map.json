@@ -1,0 +1,163 @@
+{
+  "schema": "liuren-method-revision-v1",
+  "release": "20261105-adjudication-01",
+  "parentRelease": "20261105-restructure-01",
+  "sourceStudy": "references/expert-adjudication-sources.json",
+  "caseNotes": "references/expert-adjudication-cases.md",
+  "origin": "本轮有界文献研究后的执行归纳，非诸书统一算法",
+  "changes": [
+    {
+      "path": "methods/positioning.md",
+      "before": "3bbc97aa917b986045fc4288ea3af891b7284680620109677161be94431ce103",
+      "after": "c2c9a43f71fdb968cf33ed4f50b88b4b70d54ab236d1f0013c5217a0aba850ae",
+      "reason": "make the actual outcome distinction part of positioning"
+    },
+    {
+      "path": "methods/positioning.md",
+      "before": "3bbc97aa917b986045fc4288ea3af891b7284680620109677161be94431ce103",
+      "after": "d3d856bae985e5f89d98d10f172f846f2b3005c058dd2b2a6e3a44c6b9f9c701",
+      "reason": "choose a provisional line for a stated reason, with distinct roles"
+    },
+    {
+      "path": "methods/liqi.md",
+      "before": "194afb178add0455b12c0a78dcf9cf3f281b5949c2ae285ef5efaf6f7bd01f4e",
+      "after": "83e7db08c0e31bdd09906f37f3a27dedabfcd8f5df1462687688d51f1006b925",
+      "reason": "integrate quality changes, effective clustering and actual acquisition"
+    },
+    {
+      "path": "methods/liqi.md",
+      "before": "194afb178add0455b12c0a78dcf9cf3f281b5949c2ae285ef5efaf6f7bd01f4e",
+      "after": "eaa28761b0908ed048ec3907f3b076ec6a4a23094babfe2ae29ef516d4f17007",
+      "reason": "distinguish clustering from duplicate votes; remove inherited candidate heading from the published method"
+    },
+    {
+      "path": "methods/adjudication.md",
+      "before": "2105169d8b599956542d83c8194cee0b8f78114aa94a90e4eac434b688539b15",
+      "after": "508a3daa3349c8ddbb3252cae978ec867e213910e359707f8bb9bf1480043841",
+      "reason": "replace scattered cautions with evidence-based adjudication and closure"
+    },
+    {
+      "path": "methods/structure.md",
+      "before": "4eaaec7e19aa6db6b6fc408051ea4b3d4f15cbed966ce7d225c7afc808a7cbd7",
+      "after": "51a783b2ea33cb20f1851a5fbb84665004cbb3e8745f931ffa051441353e70c8",
+      "reason": "require relevance of a structure rather than a label priority"
+    },
+    {
+      "path": "references/shensha-use.md",
+      "before": "5da3a21a6ca6eb9eda259967b9c7e2310a0daf17e10a2dd4450cbfdc64910df7",
+      "after": "0bbb674ff433ccf69b5d778dd5a3d6494dd162d380a3e8cf680c915ae21e499f",
+      "reason": "retain qualified combinations alongside no-voting policy"
+    },
+    {
+      "path": "methods/evidence.md",
+      "before": "7af053b456b2cb2bbd989b217cb929991e58672b9880c5b7d177f24d26e0bd8b",
+      "after": "e4286ca2b6b877fb1f4419ca18d6265e8d5ea5d7b20b3fdb15f18e399fb59d92",
+      "reason": "compare explicit adjudication and distinguish source layers"
+    },
+    {
+      "path": "methods/report.md",
+      "before": "57d61fea007d2c6471f48673a660bf8beda3f570790147087aeffbdbd5758b06",
+      "after": "88665a4d19259bb238370d469117851beff857f62bb1f74c50de2c34e7abfd97",
+      "reason": "expose discriminating support in the actual answer"
+    },
+    {
+      "path": "methods/report.md",
+      "before": "57d61fea007d2c6471f48673a660bf8beda3f570790147087aeffbdbd5758b06",
+      "after": "a94aeda38821c1f13b26eb7b49ea37f16d3dfece80c769c79929bc86c6cf8b8c",
+      "reason": "check final meaning and preserve effective clustering"
+    },
+    {
+      "path": "domains/exam.md",
+      "before": "4ca1c1980048b9d526bf99ea55d3a19d5733a1f1cb083216a9e9c9e90130b79c",
+      "after": "6bd9b13bd732ed00a00ae20292886d441fae6f7d793d6cb39ae60aff5dba1a64",
+      "reason": "align exam precision with the shared adjudication rule"
+    },
+    {
+      "path": "procedures/liuren-cases.md",
+      "before": "c12208a67aa6ea515757280d44cdf8fad830678b9f82dab92c44540924ae85b3",
+      "after": "38c359da7a3e262ac7f9824b642f568a33588528bf3f2aebedd17a0043ac31eb",
+      "reason": "integrate method review into specialist maintenance without duplicating core rules"
+    },
+    {
+      "path": "procedures/liuren-extract.md",
+      "before": "d1021046998c7a996cf6570477da9e1fe79582017ec88292cfdbc912d3b0b449",
+      "after": "e0562ae1497df0a0b80c9380e1080edc0c15e2bcb41215eabd416902d4fa0db2",
+      "reason": "integrate method review into specialist maintenance without duplicating core rules"
+    },
+    {
+      "path": "references/expert-adjudication.md",
+      "before": null,
+      "after": "e055c1ff7941541ae2814dee255b23dbd6b5f0f075c0f357f3132b38a5471f0e",
+      "reason": "progressive reference for actual expert choices and counterexamples"
+    },
+    {
+      "path": "references/expert-adjudication-cases.md",
+      "before": null,
+      "after": "1fddc27c2156d701d46d569772c9348414b848e02b8bf242027c294e48416096",
+      "reason": "bounded case notes with failures and source ambiguity"
+    },
+    {
+      "path": "references/expert-adjudication-excerpts.md",
+      "before": null,
+      "after": "ddccc95ba70ff3eeb7cedfac24aa9bd9c880865e315765c8be0e028c6089e20e",
+      "reason": "freeze locally inspected continuous excerpts unchanged"
+    },
+    {
+      "path": "references/expert-adjudication-sources.json",
+      "before": null,
+      "after": "6ea08376c19fada04658a349be1563678c3c42be1c1b28028461efe70c73a7e3",
+      "reason": "freeze source coordinates, encodings and hashes unchanged"
+    },
+    {
+      "path": "entry.md",
+      "before": "054ca1ec55c1c6775abda4e5727d9aaca672f9025c26f265858f2acf2285f1fe",
+      "after": "bb102ee3f9599f9dd0406a4405d550c6f914c857b774d4e984db91b175a19481",
+      "reason": "short entry routing for the revised three-stage process; align source-dispute conditional route with dependency order"
+    },
+    {
+      "path": "reading-route.json",
+      "before": "4db6fc42174345177ecb94ef7eee17883eaca5624bf8dd57cbac53b41a8bb853",
+      "after": "ad7709982d0071ea119814a73628884520ae69128f02597d260a6f3422b763ca",
+      "reason": "clarify provisional versus final adjudication without extra mandatory modules; source-dispute reference precedes early liqi dependency"
+    },
+    {
+      "path": "references/shensha-policy.json",
+      "before": "fc28cb79b475ef65577968c1a13b1b3e0b15796a97fa2fa6c1c0413fa44cedd1",
+      "after": "1deeadcbf9cc235cacbef32c010a6875fdd6d740b327bed946c0c93d02ac79e2",
+      "reason": "release identity only, preserve all calculation rules"
+    },
+    {
+      "path": "source-read-map.json",
+      "before": "fc4f8a94a72e88145cd170a6a5fd57b9f82c418faf6a6ae8e6d78a455087bd7e",
+      "after": "17c904d38277b28b2d3d186578487f5105e968d2380256cadc78fe98452feb2f",
+      "reason": "rebase virtual aliases while retaining exact historical original targets"
+    },
+    {
+      "path": "loader-contract.json",
+      "before": "c55ec5ec761d96b3590f722616cb8b6be236a2ea33e0eb5020c9952890c812e9",
+      "after": "c5970c2a018234a6ed02d28d66ddc5d486d145d3463ab80591c55f75829c178c",
+      "reason": "remove inherited stale descriptive-only hierarchy and record actual loaders"
+    },
+    {
+      "path": "mapping-preservation.json",
+      "before": "2a172035e61f93d1cc2c2eb068316b33dfceb3f2d4dd139505f52233687d08d7",
+      "after": "e8f3957d0094e347ad9e067a465b96ca069b8679067b910c3ef820988bb3a7ee",
+      "reason": "retain historical map and attach current revision provenance"
+    },
+    {
+      "path": "integration-map.json",
+      "before": "d03e86bf2dda8e11ad1a7ac211fc92c97e31d3cde97fa22de30ac8a1f034cdf4",
+      "after": "d40ec5ff2a0c13ee140721a0552a145359b9188d27b73dd203f1f3448290032a",
+      "reason": "add actual current integration record and retain previous history"
+    },
+    {
+      "path": "references/daliuren-shensha.md",
+      "before": "10a6a3703962209edddf3d08cda2bf25bcd792e5bd2b2f2b580954d2a41bd488",
+      "after": "0de23c0a1ffb0fcca68b3b911fbfbcdd274862fff89ee02114b05f028bdcfaf2",
+      "reason": "retain effective same-branch combinations while rejecting label voting"
+    }
+  ],
+  "fullSourceReviewComplete": false,
+  "predictiveValidationCount": 0,
+  "inheritedCoverage": "coverage.json preserves prior mapping; this delta locates current modifications"
+}

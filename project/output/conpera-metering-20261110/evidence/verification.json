@@ -1,0 +1,42 @@
+{
+  "financialAfterReconciliation": {
+    "point_lots": "19|4d3d906f05eb45342be92c3da7e59720",
+    "point_ledger": "168|92ed143fe8a2aea65b5172752345eebf",
+    "point_debts": "0|a2e4822a98337283e39f7b60acf85ec9",
+    "point_holds": "68|b3578ef59c272419a77f819c0dc24e03"
+  },
+  "financialUnchanged": true,
+  "reviewCounts": "none|62\nresolved|2",
+  "solCosts": "conpera-codex-pro-self-standard-cny-20261110|t|t|14|667457|41165|570496|201507936",
+  "remainingUnknownEvents": "deepseek-flash|6",
+  "auditRepriced": "14",
+  "release": "/opt/wenheng/releases/20261110-conpera-metering-01",
+  "pids": {
+    "worker": "4071715",
+    "web": "4071716",
+    "internal": "3752767"
+  },
+  "runningPricesVerified": true,
+  "services": {
+    "wenheng-web": "active",
+    "wenheng-worker": "active",
+    "wenheng-backup.timer": "active"
+  },
+  "http://127.0.0.1:3100": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true
+  },
+  "https://wen.qiluhub.com": {
+    "workerOnline": true,
+    "aiEnabled": true,
+    "modelConfigured": true
+  },
+  "publicScriptMatches": 3,
+  "publicMeteringUiChunks": [
+    "/_next/static/chunks/0lw-_a2gju-jv.js",
+    "/_next/static/chunks/0d3ialmopir6h.js"
+  ],
+  "patchedFilesMatch": true,
+  "postdeployBackup": "Result=success\nExecMainStatus=0"
+}

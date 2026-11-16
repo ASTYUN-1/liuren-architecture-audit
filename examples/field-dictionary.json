@@ -1,0 +1,4699 @@
+[
+  {
+    "path": "raw",
+    "type": "object"
+  },
+  {
+    "path": "raw.schema",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic",
+    "type": "object"
+  },
+  {
+    "path": "raw.basic.pillars",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "raw.basic.pillars[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.datetime",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.lunar",
+    "type": "object"
+  },
+  {
+    "path": "raw.basic.lunar.y",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.lunar.m",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.lunar.d",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.jieqi",
+    "type": "object"
+  },
+  {
+    "path": "raw.basic.jieqi.name",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.jieqi.y",
+    "type": "number"
+  },
+  {
+    "path": "raw.basic.jieqi.m",
+    "type": "number"
+  },
+  {
+    "path": "raw.basic.jieqi.d",
+    "type": "number"
+  },
+  {
+    "path": "raw.basic.jieqi.h",
+    "type": "number"
+  },
+  {
+    "path": "raw.basic.jieqi.i",
+    "type": "number"
+  },
+  {
+    "path": "raw.basic.jieqi.s",
+    "type": "number"
+  },
+  {
+    "path": "raw.basic.jiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.xunkong",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "raw.basic.xunkong[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.xun",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings",
+    "type": "object"
+  },
+  {
+    "path": "raw.basic.settings.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.guiren",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.shehai",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.user",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw.basic.settings.cundang",
+    "type": "object"
+  },
+  {
+    "path": "raw.basic.settings.cundang.ws",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.cundang.dy",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.cundang.fk",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.cundang.tag",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.zhenghuoshi",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu",
+    "type": "object"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.yg",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.yz",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.mz",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.dg",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.dz",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.hz",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.sizhu.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.Date",
+    "type": "string"
+  },
+  {
+    "path": "raw.basic.settings.Time",
+    "type": "string"
+  },
+  {
+    "path": "raw.tiandipan",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "raw.tiandipan[]",
+    "type": "object"
+  },
+  {
+    "path": "raw.tiandipan[].di",
+    "type": "string"
+  },
+  {
+    "path": "raw.tiandipan[].tian",
+    "type": "string"
+  },
+  {
+    "path": "raw.tiandipan[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.tiandipan[].shensha",
+    "type": "array",
+    "length": 10
+  },
+  {
+    "path": "raw.tiandipan[].shensha[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.tiandipan[].nayin",
+    "type": "string"
+  },
+  {
+    "path": "raw.tiandipan[].xungan",
+    "type": "string"
+  },
+  {
+    "path": "raw.sike",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "raw.sike[]",
+    "type": "object"
+  },
+  {
+    "path": "raw.sike[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw.sike[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.sike[].tianpan",
+    "type": "string"
+  },
+  {
+    "path": "raw.sike[].dizhi",
+    "type": "string"
+  },
+  {
+    "path": "raw.sanchuan",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "raw.sanchuan[]",
+    "type": "object"
+  },
+  {
+    "path": "raw.sanchuan[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw.sanchuan[].liuqin",
+    "type": "string"
+  },
+  {
+    "path": "raw.sanchuan[].tianGan",
+    "type": "string"
+  },
+  {
+    "path": "raw.sanchuan[].diZhi",
+    "type": "string"
+  },
+  {
+    "path": "raw.sanchuan[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.sanchuan[].status",
+    "type": "string"
+  },
+  {
+    "path": "raw.keti",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "raw.keti[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.keyi",
+    "type": "string"
+  },
+  {
+    "path": "raw.keJing",
+    "type": "array",
+    "length": 7
+  },
+  {
+    "path": "raw.keJing[]",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "raw.keJing[][]",
+    "type": "object"
+  },
+  {
+    "path": "raw.keJing[][].key",
+    "type": "string"
+  },
+  {
+    "path": "raw.keJing[][].value",
+    "type": "string"
+  },
+  {
+    "path": "raw.bifa",
+    "type": "string"
+  },
+  {
+    "path": "raw.zhiZhi",
+    "type": "string"
+  },
+  {
+    "path": "raw.jiYingQian",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary",
+    "type": "object"
+  },
+  {
+    "path": "raw.summary.pillars",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.jiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.xun",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.xunkong",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "raw.summary.xunkong[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.keti",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "raw.summary.keti[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.gan",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.ganWx",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.zhi",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.zhiWx",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.ganZhiRel",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw.summary.ganZhiRel[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.ganShang",
+    "type": "object"
+  },
+  {
+    "path": "raw.summary.ganShang.dz",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.ganShang.wuxing",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.ganShang.tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.ganShang.liuqin",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.zhiShang",
+    "type": "object"
+  },
+  {
+    "path": "raw.summary.zhiShang.dz",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.zhiShang.wuxing",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.zhiShang.tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw.summary.zhiShang.liuqin",
+    "type": "string"
+  },
+  {
+    "path": "raw.keyShensha",
+    "type": "array",
+    "length": 17
+  },
+  {
+    "path": "raw.keyShensha[]",
+    "type": "object"
+  },
+  {
+    "path": "raw.keyShensha[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw.keyShensha[].at",
+    "type": "string"
+  },
+  {
+    "path": "raw.liuqinSeq",
+    "type": "string"
+  },
+  {
+    "path": "raw.userinfo",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw.nativeNobleman",
+    "type": "object"
+  },
+  {
+    "path": "raw.nativeNobleman.guiren_type",
+    "type": "string"
+  },
+  {
+    "path": "raw.nativeNobleman.zhouye_type",
+    "type": "string"
+  },
+  {
+    "path": "raw.nativeNobleman.hour_based_zhouye_label",
+    "type": "string"
+  },
+  {
+    "path": "raw.nativeNobleman.guiren_shunni_label",
+    "type": "string"
+  },
+  {
+    "path": "raw.nativeNobleman.guiren",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw.nativeNobleman.guiren[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.nativeNobleman.lianmu",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw.nativeNobleman.lianmu[]",
+    "type": "string"
+  },
+  {
+    "path": "raw.nativeNobleman.solar_terms_same_minute",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.schema",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.adapter_version",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.generated_at",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.requested_mode",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.input.datetime",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.timezone",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.declared_life",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.input.mode",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.time_basis",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.settings",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.input.settings.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.settings.guiren",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.settings.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.settings.shehai",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.input.participants",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.facts",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.schema",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.pillars",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "raw._direct.facts.pillars[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.year_pillar",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.month_pillar",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.day_pillar",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.hour_pillar",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.day_stem",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.day_branch",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.month_branch",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.hour_branch",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.month_general",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.void_branches",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "raw._direct.facts.void_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.xun",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.event_datetime",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lunar",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.lunar.y",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lunar.m",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lunar.d",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].di",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].tian",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].shensha",
+    "type": "array",
+    "length": 10
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].shensha[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].nayin",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.heaven_earth[].xungan",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lessons",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "raw._direct.facts.lessons[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.lessons[].index",
+    "type": "number"
+  },
+  {
+    "path": "raw._direct.facts.lessons[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lessons[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lessons[].tianpan",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.lessons[].dizhi",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "raw._direct.facts.transmissions[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].index",
+    "type": "number"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].liuqin",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].tianGan",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].diZhi",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].status",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmissions[].earth_position",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.transmission_sequence",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.chart_types",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "raw._direct.facts.chart_types[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.participants",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.facts.year_life_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.facts.declared_life",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.facts.nobleman",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.rule",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.requested_zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.actual_zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.heaven_branch",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.earth_position",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.direction",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.native_hour_label",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.nobleman.native_direction_label",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.day_stem.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.子.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.丑.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.寅.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.卯.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.辰.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.巳.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.午.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.未.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.申.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.酉.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.戌.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.长生",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.冠带",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.临官",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.衰",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.病",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.死",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.墓",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.绝",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.胎",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.growth.branches.亥.养",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.facts.seasonal_strength",
+    "type": "array",
+    "length": 6
+  },
+  {
+    "path": "raw._direct.facts.seasonal_strength[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.validation.ok",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.validation.status",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation.checks",
+    "type": "array",
+    "length": 18
+  },
+  {
+    "path": "raw._direct.validation.checks[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.validation.checks[].code",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation.checks[].ok",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.validation.checks[].severity",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation.checks[].detail",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation.errors",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.validation.warnings",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw._direct.validation.warnings[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.validation.warnings[].code",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation.warnings[].message",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.validation.prediction_accuracy_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.validation.whole_algorithm_exhaustively_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.conventions",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.timezone",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.input_precision",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.internal_seconds",
+    "type": "number"
+  },
+  {
+    "path": "raw._direct.conventions.engine_day_boundary",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.manual_date_is_placeholder",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.conventions.manual_reference_date",
+    "type": "null"
+  },
+  {
+    "path": "raw._direct.conventions.settings",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.settings.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.settings.guiren",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.settings.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.settings.shehai",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.guiren",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.shehai",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.user",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.cundang",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.cundang.ws",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.cundang.dy",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.cundang.fk",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.cundang.tag",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.zhenghuoshi",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.yg",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.yz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.mz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.dg",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.dz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.hz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.sizhu.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.Date",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_before.Time",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.guiren",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.shehai",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.user",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.cundang",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.cundang.ws",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.cundang.dy",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.cundang.fk",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.cundang.tag",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.zhenghuoshi",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.yg",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.yz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.mz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.dg",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.dz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.hz",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.sizhu.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.Date",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.native_input_after.Time",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.conventions.settings_mutated_by_engine",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.provenance",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.provenance.source",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.provenance.export_method",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.provenance.engine_hash_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.provenance.timestamp_input_iso",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.engine.id",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.manifest_hash",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.files",
+    "type": "array",
+    "length": 8
+  },
+  {
+    "path": "raw._direct.engine.files[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.engine.files[].path",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.files[].sha256",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.execution",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.network",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.engine.fallback",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.engine.algorithm_modified",
+    "type": "boolean"
+  },
+  {
+    "path": "raw._direct.engine.modified_scope",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.base_engine",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine.policy_sha256",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.raw_sha256",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.schema",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.release",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.policy_sha256",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.coordinate_contract",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.place_fields",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.place_fields.tian",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.place_fields.di",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.place_fields.jiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.calendar",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.meaning",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items",
+    "type": "array",
+    "length": 39
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].id",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].basis",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].status",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].places",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].places[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].places[].tian",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].places[].di",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].places[].jiang",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.items[].engine_check",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.disabled_names",
+    "type": "array",
+    "length": 22
+  },
+  {
+    "path": "raw._direct.shensha_resolution.disabled_names[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.disabled_observed_names",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "raw._direct.shensha_resolution.unregistered_names",
+    "type": "array",
+    "length": 109
+  },
+  {
+    "path": "raw._direct.shensha_resolution.unregistered_names[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.unregistered_policy",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.shensha_resolution.evidence_policy",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.legacy_archive",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.legacy_archive.path",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.legacy_archive.sha256",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.legacy_archive.raw_sha256",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine_corrections",
+    "type": "array",
+    "length": 5
+  },
+  {
+    "path": "raw._direct.engine_corrections[]",
+    "type": "object"
+  },
+  {
+    "path": "raw._direct.engine_corrections[].id",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine_corrections[].name",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine_corrections[].original_heaven_branches",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw._direct.engine_corrections[].original_heaven_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "raw._direct.engine_corrections[].corrected_heaven_branches",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "raw._direct.engine_corrections[].corrected_heaven_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized",
+    "type": "object"
+  },
+  {
+    "path": "normalized.ok",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.schema",
+    "type": "string"
+  },
+  {
+    "path": "normalized.adapter_version",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input",
+    "type": "object"
+  },
+  {
+    "path": "normalized.input.datetime",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.timezone",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.declared_life",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.input.mode",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.time_basis",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.settings",
+    "type": "object"
+  },
+  {
+    "path": "normalized.input.settings.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.settings.guiren",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.settings.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.settings.shehai",
+    "type": "string"
+  },
+  {
+    "path": "normalized.input.participants",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.facts",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.schema",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.pillars",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "normalized.facts.pillars[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.year_pillar",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.month_pillar",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.day_pillar",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.hour_pillar",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.day_stem",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.day_branch",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.month_branch",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.hour_branch",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.month_general",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.void_branches",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "normalized.facts.void_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.xun",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.event_datetime",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lunar",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.lunar.y",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lunar.m",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lunar.d",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.heaven_earth",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "normalized.facts.heaven_earth[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].di",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].tian",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].shensha",
+    "type": "array",
+    "length": 10
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].shensha[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].nayin",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.heaven_earth[].xungan",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lessons",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "normalized.facts.lessons[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.lessons[].index",
+    "type": "number"
+  },
+  {
+    "path": "normalized.facts.lessons[].name",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lessons[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lessons[].tianpan",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.lessons[].dizhi",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "normalized.facts.transmissions[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.transmissions[].index",
+    "type": "number"
+  },
+  {
+    "path": "normalized.facts.transmissions[].name",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions[].liuqin",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions[].tianGan",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions[].diZhi",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions[].status",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmissions[].earth_position",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.transmission_sequence",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.chart_types",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "normalized.facts.chart_types[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.participants",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.facts.year_life_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.facts.declared_life",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.facts.nobleman",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.nobleman.rule",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.requested_zhouye",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.actual_zhouye",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.heaven_branch",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.earth_position",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.direction",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.native_hour_label",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.nobleman.native_direction_label",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.day_stem.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.子.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.丑.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.寅.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.卯.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.辰.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.巳.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.午.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.未.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.申.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.酉.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.戌.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥",
+    "type": "object"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.growth.branches.亥.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.facts.seasonal_strength",
+    "type": "array",
+    "length": 6
+  },
+  {
+    "path": "normalized.facts.seasonal_strength[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation",
+    "type": "object"
+  },
+  {
+    "path": "normalized.validation.ok",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.validation.status",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation.checks",
+    "type": "array",
+    "length": 18
+  },
+  {
+    "path": "normalized.validation.checks[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.validation.checks[].code",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation.checks[].ok",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.validation.checks[].severity",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation.checks[].detail",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation.errors",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.validation.warnings",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.validation.warnings[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.validation.warnings[].code",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation.warnings[].message",
+    "type": "string"
+  },
+  {
+    "path": "normalized.validation.prediction_accuracy_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.validation.whole_algorithm_exhaustively_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.conventions",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.timezone",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.input_precision",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.internal_seconds",
+    "type": "number"
+  },
+  {
+    "path": "normalized.conventions.engine_day_boundary",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.manual_date_is_placeholder",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.conventions.manual_reference_date",
+    "type": "null"
+  },
+  {
+    "path": "normalized.conventions.settings",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.settings.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.settings.guiren",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.settings.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.settings.shehai",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.guiren",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.shehai",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.user",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.conventions.native_input_before.cundang",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.cundang.ws",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.cundang.dy",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.cundang.fk",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.cundang.tag",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.zhenghuoshi",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.yg",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.yz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.mz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.dg",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.dz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.hz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.sizhu.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.Date",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_before.Time",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.guiren",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.shehai",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.user",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.conventions.native_input_after.cundang",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.cundang.ws",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.cundang.dy",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.cundang.fk",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.cundang.tag",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.zhenghuoshi",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu",
+    "type": "object"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.yg",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.yz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.mz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.dg",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.dz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.hz",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.sizhu.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.Date",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.native_input_after.Time",
+    "type": "string"
+  },
+  {
+    "path": "normalized.conventions.settings_mutated_by_engine",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.provenance",
+    "type": "object"
+  },
+  {
+    "path": "normalized.provenance.source",
+    "type": "string"
+  },
+  {
+    "path": "normalized.provenance.export_method",
+    "type": "string"
+  },
+  {
+    "path": "normalized.provenance.engine_hash_verified",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.provenance.timestamp_input_iso",
+    "type": "string"
+  },
+  {
+    "path": "normalized.provenance.shensha_corrected",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.provenance.shensha_policy_sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.archive",
+    "type": "object"
+  },
+  {
+    "path": "normalized.archive.path",
+    "type": "string"
+  },
+  {
+    "path": "normalized.archive.sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.archive.raw_sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.elapsed_ms",
+    "type": "number"
+  },
+  {
+    "path": "normalized.field_notes",
+    "type": "object"
+  },
+  {
+    "path": "normalized.field_notes.shensha",
+    "type": "string"
+  },
+  {
+    "path": "normalized.field_notes.raw",
+    "type": "string"
+  },
+  {
+    "path": "normalized.field_notes.interpretation",
+    "type": "string"
+  },
+  {
+    "path": "normalized.field_notes.basic_states",
+    "type": "string"
+  },
+  {
+    "path": "normalized.legacy_archive",
+    "type": "object"
+  },
+  {
+    "path": "normalized.legacy_archive.path",
+    "type": "string"
+  },
+  {
+    "path": "normalized.legacy_archive.sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.legacy_archive.raw_sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.engine_version",
+    "type": "string"
+  },
+  {
+    "path": "normalized.engine_corrections",
+    "type": "array",
+    "length": 5
+  },
+  {
+    "path": "normalized.engine_corrections[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.engine_corrections[].id",
+    "type": "string"
+  },
+  {
+    "path": "normalized.engine_corrections[].name",
+    "type": "string"
+  },
+  {
+    "path": "normalized.engine_corrections[].original_heaven_branches",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.engine_corrections[].original_heaven_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.engine_corrections[].corrected_heaven_branches",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.engine_corrections[].corrected_heaven_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution",
+    "type": "object"
+  },
+  {
+    "path": "normalized.shensha_resolution.schema",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.release",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.policy_sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.coordinate_contract",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.place_fields",
+    "type": "object"
+  },
+  {
+    "path": "normalized.shensha_resolution.place_fields.tian",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.place_fields.di",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.place_fields.jiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.calendar",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.meaning",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items",
+    "type": "array",
+    "length": 39
+  },
+  {
+    "path": "normalized.shensha_resolution.items[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].id",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].name",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].basis",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].status",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].places",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].places[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].places[].tian",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].places[].di",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].places[].jiang",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.items[].engine_check",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.disabled_names",
+    "type": "array",
+    "length": 22
+  },
+  {
+    "path": "normalized.shensha_resolution.disabled_names[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.disabled_observed_names",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "normalized.shensha_resolution.unregistered_names",
+    "type": "array",
+    "length": 109
+  },
+  {
+    "path": "normalized.shensha_resolution.unregistered_names[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.unregistered_policy",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_resolution.evidence_policy",
+    "type": "string"
+  },
+  {
+    "path": "normalized.shensha_archive",
+    "type": "null"
+  },
+  {
+    "path": "normalized.basic_state_status",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.schema",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.chart_sha256",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.scope",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.policies.growth",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies.seasonal",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies.seasonal_profiles",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.policies.seasonal_profiles.four-seasons",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies.seasonal_profiles.quarter-earth",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies.general_void",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies.relations",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.policies.coexistence",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.branches",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.branches.columns",
+    "type": "array",
+    "length": 14
+  },
+  {
+    "path": "normalized.basic_states.branches.columns[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.branches.rows",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "normalized.basic_states.branches.rows[]",
+    "type": "array",
+    "length": 14
+  },
+  {
+    "path": "normalized.basic_states.branches.rows[][]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.generals",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.generals.columns",
+    "type": "array",
+    "length": 9
+  },
+  {
+    "path": "normalized.basic_states.generals.columns[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.generals.rows",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "normalized.basic_states.generals.rows[]",
+    "type": "array",
+    "length": 9
+  },
+  {
+    "path": "normalized.basic_states.generals.rows[][]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.local",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.local.columns",
+    "type": "array",
+    "length": 10
+  },
+  {
+    "path": "normalized.basic_states.local.columns[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.local.rows",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "normalized.basic_states.local.rows[]",
+    "type": "array",
+    "length": 10
+  },
+  {
+    "path": "normalized.basic_states.local.rows[][]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.coexistence",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.coexistence.columns",
+    "type": "array",
+    "length": 7
+  },
+  {
+    "path": "normalized.basic_states.coexistence.columns[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.coexistence.rows",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "normalized.basic_states.coexistence.rows[]",
+    "type": "array",
+    "length": 7
+  },
+  {
+    "path": "normalized.basic_states.coexistence.rows[][]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.id",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.symbol",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.element",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.home",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.upper",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.direct_yin",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.seasonal",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.seasonal.month",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.seasonal.profiles",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.seasonal.profiles.four-seasons",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.seasonal.profiles.quarter-earth",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.seasonal.adoption",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.growth",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.growth.profile",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.growth.reference",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.growth.home",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.growth.upper",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.growth.yin",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.growth.day_branch",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.upper_to_stem",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.upper_to_stem[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.upper_to_stem[].type",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.upper_to_stem[].from",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.upper_to_stem[].to",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.upper_to_stem[].value",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_upper",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_upper[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_upper[].type",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_upper[].from",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_upper[].to",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_upper[].value",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.yin_to_stem",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.yin_to_stem[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.yin_to_stem[].type",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.yin_to_stem[].from",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.yin_to_stem[].to",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.yin_to_stem[].value",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_yin",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_yin[]",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_yin[].type",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_yin[].from",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_yin[].to",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.local_relations.stem_to_yin[].value",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.长生",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.沐浴",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.冠带",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.临官",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.帝旺",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.衰",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.病",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.死",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.墓",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.绝",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.胎",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth.养",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.engine_growth_note",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.upper_void",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.basic_states.day.home_void",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.basic_states.day.yin_void",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi.profiles",
+    "type": "object"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi.profiles.four-seasons",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi.profiles.quarter-earth",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi.adopted",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi.status",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.day.month_qi.de_ling",
+    "type": "boolean"
+  },
+  {
+    "path": "normalized.basic_states.day.note",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_states.limits",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "normalized.basic_states.limits[]",
+    "type": "string"
+  },
+  {
+    "path": "normalized.basic_state_archive",
+    "type": "null"
+  },
+  {
+    "path": "ai",
+    "type": "object"
+  },
+  {
+    "path": "ai.ok",
+    "type": "boolean"
+  },
+  {
+    "path": "ai.facts",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.schema",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.datetime",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lunar",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.lunar.y",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lunar.m",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lunar.d",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.pillars",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "ai.facts.pillars[]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.month_general",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.xun",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.void_branches",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "ai.facts.void_branches[]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.chart_types",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "ai.facts.chart_types[]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.nobleman",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.nobleman.rule",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.nobleman.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.nobleman.heaven_branch",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.nobleman.direction",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.settings",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.settings.yuejiang",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.settings.guiren",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.settings.zhouye",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.settings.shehai",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.growth_basis",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.growth_basis.stems",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.growth_basis.branches_and_generals",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.strength_model.id",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.base_model",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.profile_sha256",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.kind",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.range",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "ai.facts.strength_model.range[]",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.strength_model.reference",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.strength_model.scope",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.bands",
+    "type": "array",
+    "length": 6
+  },
+  {
+    "path": "ai.facts.strength_model.bands[]",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.strength_model.bands[].range",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.bands[].label",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.selected_relations",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.seasonal_keys",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.strength_model.seasonal_keys.四季",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.seasonal_keys.季土",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.strength_model.general_void",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lessons",
+    "type": "array",
+    "length": 4
+  },
+  {
+    "path": "ai.facts.lessons[]",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.lessons[].index",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.lessons[].name",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lessons[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lessons[].tianpan",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lessons[].dizhi",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lessons[].day_stem_home",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.lessons[].status",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "ai.facts.transmissions[]",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.transmissions[].index",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.transmissions[].name",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions[].liuqin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions[].tianGan",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions[].diZhi",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions[].status",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.transmissions[].earth_position",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth",
+    "type": "array",
+    "length": 12
+  },
+  {
+    "path": "ai.facts.heaven_earth[]",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].id",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].di",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].tian",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].tianjiang",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].element",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].direct_yin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].liuqin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].xungan",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].nayin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].status",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].yin_status",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].lesson_slots",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "ai.facts.heaven_earth[].lesson_slots[]",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].transmission_slots",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.month_qi",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.growth_ground",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.growth_yin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.strength_index",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.strength_level",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.local",
+    "type": "array",
+    "length": 7
+  },
+  {
+    "path": "ai.facts.heaven_earth[].state.local[]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state.element",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state.month_qi",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state.growth_carrier",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state.growth_ground",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state.strength_index",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].general_state.strength_level",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.heaven_earth[].shensha",
+    "type": "array",
+    "length": 3
+  },
+  {
+    "path": "ai.facts.heaven_earth[].shensha[]",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "ai.facts.heaven_earth[].shensha[][]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.day.id",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.symbol",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.element",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.home",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.upper",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.direct_yin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.month_qi",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.growth",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.day.growth.home",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.growth.upper",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.growth.yin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.growth.day_branch",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.local",
+    "type": "array",
+    "length": 2
+  },
+  {
+    "path": "ai.facts.day.local[]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.day.void_positions",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "ai.facts.day.strength_index",
+    "type": "number"
+  },
+  {
+    "path": "ai.facts.day.strength_level",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.anchors",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.anchors.day_upper",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.anchors.day_yin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.anchors.branch_upper",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.anchors.branch_yin",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.active_relations",
+    "type": "array",
+    "length": 28
+  },
+  {
+    "path": "ai.facts.active_relations[]",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.active_relations[].a",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.active_relations[].b",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.active_relations[].state",
+    "type": "array",
+    "length": 1
+  },
+  {
+    "path": "ai.facts.active_relations[].state[]",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.structure",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.structure.transmission_same_element",
+    "type": "boolean"
+  },
+  {
+    "path": "ai.facts.structure.plate_is_identity",
+    "type": "boolean"
+  },
+  {
+    "path": "ai.facts.structure.plate_is_opposition",
+    "type": "boolean"
+  },
+  {
+    "path": "ai.facts.structure.triple_members",
+    "type": "array",
+    "length": 0
+  },
+  {
+    "path": "ai.facts.bifa_conditions",
+    "type": "array",
+    "length": 10
+  },
+  {
+    "path": "ai.facts.bifa_conditions[]",
+    "type": "object"
+  },
+  {
+    "path": "ai.facts.bifa_conditions[].条目",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.bifa_conditions[].成格",
+    "type": "string"
+  },
+  {
+    "path": "ai.facts.bifa_conditions[].意象",
+    "type": "string"
+  },
+  {
+    "path": "ai.archive",
+    "type": "object"
+  },
+  {
+    "path": "ai.archive.path",
+    "type": "string"
+  },
+  {
+    "path": "ai.archive.sha256",
+    "type": "string"
+  },
+  {
+    "path": "ai.archive.raw_sha256",
+    "type": "string"
+  },
+  {
+    "path": "ai.chart_file",
+    "type": "object"
+  },
+  {
+    "path": "ai.chart_file.path",
+    "type": "string"
+  },
+  {
+    "path": "ai.chart_file.sha256",
+    "type": "string"
+  }
+]

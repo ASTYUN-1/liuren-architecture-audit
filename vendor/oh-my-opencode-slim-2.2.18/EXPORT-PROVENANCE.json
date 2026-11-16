@@ -1,0 +1,1017 @@
+{
+  "version": "2.2.18",
+  "scope": "exact installed package distributions, typings, schema and license; no nested dependencies or runtime",
+  "upstream_typescript_source_complete": false,
+  "files": [
+    {
+      "path": "package.json",
+      "sha256": "9124c517582e5daeb24ab2a9efc93058f573b894472d6a272033921fc10e5cd2",
+      "bytes": 4835
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "bytes": 1056
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a11d97768e74327d0754ccafa342e094f96a2e1239e85de7143b47a135d9b859",
+      "bytes": 57565
+    },
+    {
+      "path": "oh-my-opencode-slim.schema.json",
+      "sha256": "9798a9aebc8b18d526aae4da0e1ee6b65872fd3c96e219378880bca4d514b887",
+      "bytes": 44511
+    },
+    {
+      "path": "dist/admission-runtime.d.ts",
+      "sha256": "1079a08112e6a05c3c90b7881d13377d861648991e1fbd734ac5a4d8bd1319a2",
+      "bytes": 1517
+    },
+    {
+      "path": "dist/health-check.d.ts",
+      "sha256": "33ae6a033300c9fae95efab46340a79cf17e76c6e4901b390539f230e0691880",
+      "bytes": 1479
+    },
+    {
+      "path": "dist/index-event.d.ts",
+      "sha256": "caaa76a8a106ae7d172a8f4bf347c1ad149181693ce7d80010d799282b5a8117",
+      "bytes": 534
+    },
+    {
+      "path": "dist/index.d.ts",
+      "sha256": "3da523fc8ef3fb54e4a87419854d94cea42cbab932fce2f3260578b483d0cce9",
+      "bytes": 1615
+    },
+    {
+      "path": "dist/index.js",
+      "sha256": "3f2eb7959022e5013ce73b1b69051f0007e9d2bbafbc58203f4dec2cddb78e37",
+      "bytes": 1659987
+    },
+    {
+      "path": "dist/plugin-entry.d.ts",
+      "sha256": "2d67baec7fbf27f1fe518ac366674000640b07122b78765d16bf78a343a43c18",
+      "bytes": 179
+    },
+    {
+      "path": "dist/tui-preset.d.ts",
+      "sha256": "26da811ccc8aec9d979408617865e80586994f53462e0decd21b053715c9ec57",
+      "bytes": 1805
+    },
+    {
+      "path": "dist/tui-state.d.ts",
+      "sha256": "5e6a1adef9ec976082280107c3f0b081e98f627093b9990a367357209d96c2c7",
+      "bytes": 1027
+    },
+    {
+      "path": "dist/tui.d.ts",
+      "sha256": "8189cddbe043964740b1c1ff73ba96f79bdea21d3a89a7b8bcaf10eab47d802d",
+      "bytes": 2451
+    },
+    {
+      "path": "dist/tui.js",
+      "sha256": "10362653ecf9265d6ae75465b3344fcad64a91d14c763f84f609e2f0ce275430",
+      "bytes": 91898
+    },
+    {
+      "path": "dist/tui2.js",
+      "sha256": "de7fd4b4f9ef9f7719bb46f07f220798a9b674c5c815ba29e37e883af0fc73d2",
+      "bytes": 564945
+    },
+    {
+      "path": "dist/agents/council-agents.d.ts",
+      "sha256": "688a8ad6db5779309bd2dc8ede930ad1d9e921c6ca7d76a1bf267735f60f8f1b",
+      "bytes": 810
+    },
+    {
+      "path": "dist/agents/council.d.ts",
+      "sha256": "a79e4f7ad7309405415f2ecf857a22f9cc8085aca5901e8c44e5782e6d1ba34b",
+      "bytes": 382
+    },
+    {
+      "path": "dist/agents/councillor.d.ts",
+      "sha256": "ec14f78132a68df1e7ca3788a3bdbc0aab15faf1abf0d6b1f50a45c478989e69",
+      "bytes": 204
+    },
+    {
+      "path": "dist/agents/designer.d.ts",
+      "sha256": "f22dced12897d99e8adad833290974e4b4726defe8f8393949b2087672975e30",
+      "bytes": 184
+    },
+    {
+      "path": "dist/agents/explorer.d.ts",
+      "sha256": "a05a36351ffd997bf6e67e2b0607dd029184935910a0360c649ba0954631e4a4",
+      "bytes": 184
+    },
+    {
+      "path": "dist/agents/fixer.d.ts",
+      "sha256": "dacc4506e110e6d8b36b73824ae4d02b59f927be73a72f584feaddee7c80e2a3",
+      "bytes": 181
+    },
+    {
+      "path": "dist/agents/index.d.ts",
+      "sha256": "68ddfea461ece4029dfdd575ce9069c1b1dfea2462610a697fc23c3b829625e9",
+      "bytes": 2922
+    },
+    {
+      "path": "dist/agents/librarian.d.ts",
+      "sha256": "7a8d2ebf2e69def41a5c85b9aeaaff1000eb4695bcfcbff22e67c6a44e3c9636",
+      "bytes": 185
+    },
+    {
+      "path": "dist/agents/observer.d.ts",
+      "sha256": "dc48a547c063bbfb19df02df25fb7b5112ed0b023393c710ee6a2dad729afcfa",
+      "bytes": 184
+    },
+    {
+      "path": "dist/agents/oracle.d.ts",
+      "sha256": "3d7b103cac7c4cd3d5a0f6fa1128d66c02a7e1072bfb4be9e1570246a244179f",
+      "bytes": 182
+    },
+    {
+      "path": "dist/agents/orchestrator.d.ts",
+      "sha256": "1306b91f79a324a0f75e823b33052f6192284f9f97b4770f861c6a21d36f4dac",
+      "bytes": 1785
+    },
+    {
+      "path": "dist/agents/permissions.d.ts",
+      "sha256": "7679547cab210c6ab6781c522424026ccf70eb98da937c80f6e1e8f00d7fc945",
+      "bytes": 843
+    },
+    {
+      "path": "dist/agents/task-rejection.d.ts",
+      "sha256": "035e2136244e23c37953ca25f5fe8171836e138de48309ca1dac32b9f436c874",
+      "bytes": 237
+    },
+    {
+      "path": "dist/cli/background-subagents.d.ts",
+      "sha256": "631966f2c9b32d6ab336c2d92ac25cd4046d40d19ca410de20b934c56745d714",
+      "bytes": 852
+    },
+    {
+      "path": "dist/cli/companion.d.ts",
+      "sha256": "2ec16e94f5176f1316b173f2beaac90332715b7951bc632c3d5c8e28c07bb5bc",
+      "bytes": 296
+    },
+    {
+      "path": "dist/cli/config-io.d.ts",
+      "sha256": "1a41499be95a05a60ee2ba6499fcc469c7c809adadbefe079ab583583be92f5d",
+      "bytes": 1178
+    },
+    {
+      "path": "dist/cli/config-manager.d.ts",
+      "sha256": "4fd78a3117cc2de80a0302cd2c41cdf1ab92ce72bf26229329a78c252f7b5772",
+      "bytes": 109
+    },
+    {
+      "path": "dist/cli/custom-skills-registry.d.ts",
+      "sha256": "cb1633d2773b7329bc39cb8a4f99dcaa6f4a64dd134140f4cc012f3970416221",
+      "bytes": 595
+    },
+    {
+      "path": "dist/cli/custom-skills.d.ts",
+      "sha256": "8917c2274ff1fbd5fa4a65ab9bb3c759c83c55633ca3999d53ae737d13c1a27f",
+      "bytes": 573
+    },
+    {
+      "path": "dist/cli/doctor.d.ts",
+      "sha256": "0f09343f6df558547ef34ce2f60cbea0dd36f1ab8932bdf5b22b0aee65d963eb",
+      "bytes": 1121
+    },
+    {
+      "path": "dist/cli/index.d.ts",
+      "sha256": "70e527f5804524a18671fc8a9f3712f16b68c126fdd4c2330b54b7ab100514c3",
+      "bytes": 128
+    },
+    {
+      "path": "dist/cli/index.js",
+      "sha256": "1d9ae3f4320776d18a982b50cc6a6d1fb0dfacdbe361ae1eaf04963d4d7dbad2",
+      "bytes": 138833
+    },
+    {
+      "path": "dist/cli/install.d.ts",
+      "sha256": "d81796a3f4781a2e8c70c572ad894e957c03a31503f0bde1d6fae30ec2845ee4",
+      "bytes": 364
+    },
+    {
+      "path": "dist/cli/paths.d.ts",
+      "sha256": "fc78ab5e54092279ea8b172508cb84a19fc6dac363195bbf463e86d636bd3a02",
+      "bytes": 1277
+    },
+    {
+      "path": "dist/cli/providers.d.ts",
+      "sha256": "1851e85d0f71f7f3a44b9486dfb9fa5d97198b15c72ad7ba2f9cd23e394b99fc",
+      "bytes": 4774
+    },
+    {
+      "path": "dist/cli/skills.d.ts",
+      "sha256": "ce992b441b9452722ada886eb9dfbc07e3d44133cbba6e6da5d26ff728e3a85c",
+      "bytes": 1130
+    },
+    {
+      "path": "dist/cli/system.d.ts",
+      "sha256": "608b121ccdc08141b17caa86ef2960481ef8a783bab047de29e6d857ddf3679c",
+      "bytes": 460
+    },
+    {
+      "path": "dist/cli/types.d.ts",
+      "sha256": "c2a59ed97490750e6dccfa98beb8832f6fb5b6c2ad1315337c776b967e045731",
+      "bytes": 1300
+    },
+    {
+      "path": "dist/companion/manager.d.ts",
+      "sha256": "6e9a4845bb07db7a470ecfd672e61dc2dd7126fb13eadee26661a4add1886b8b",
+      "bytes": 2041
+    },
+    {
+      "path": "dist/companion/updater.d.ts",
+      "sha256": "589d872458248c1161a63bf1a1e2c30c43f7585a6e54d64761da8f526ab80579",
+      "bytes": 1076
+    },
+    {
+      "path": "dist/config/agent-mcps.d.ts",
+      "sha256": "34d88d38e1e3eaf91aa19104eafccf3d41cc8d087511e351b5fc367c1eecdeec",
+      "bytes": 629
+    },
+    {
+      "path": "dist/config/constants.d.ts",
+      "sha256": "752b3ad49d1bad12fb7c8d52aa9ec0c01c59e04fd5338e62ef20a5efd8bded85",
+      "bytes": 4461
+    },
+    {
+      "path": "dist/config/council-schema.d.ts",
+      "sha256": "ec1b154edc31b93039fc5348376bd4be2c84588a8f1e142309ef99832ea4c24a",
+      "bytes": 3430
+    },
+    {
+      "path": "dist/config/index.d.ts",
+      "sha256": "db308e2fbad9bc882dc4ba7a1e9fd7d3eeb33b0aee1368ea79e68c14e5865e3f",
+      "bytes": 247
+    },
+    {
+      "path": "dist/config/loader.d.ts",
+      "sha256": "a4829a76710ea53570388b243713e8d6af09d35a279fc96b389513f766be63f7",
+      "bytes": 4552
+    },
+    {
+      "path": "dist/config/runtime.d.ts",
+      "sha256": "9914539a653d9203c2c8d85645ad146d4ab07f4452d8d125df86abe1d8c7302d",
+      "bytes": 6712
+    },
+    {
+      "path": "dist/config/schema.d.ts",
+      "sha256": "5c84612e68d36e99b18f2c888d9a3b2fd53ecdd3c6cb2516d43996fcc5d73540",
+      "bytes": 39880
+    },
+    {
+      "path": "dist/config/strip-orchestrator-model.d.ts",
+      "sha256": "c689eec3698c3a7e1099e04b8ab237b9971eec81e13b5cc261a3ecee5d760b9e",
+      "bytes": 452
+    },
+    {
+      "path": "dist/config/utils.d.ts",
+      "sha256": "3595401bcbedcc6f77b544d325da0cd4bb56ea9bc34e750c7db4d3ed1277d183",
+      "bytes": 820
+    },
+    {
+      "path": "dist/hooks/cache-safe-injection.d.ts",
+      "sha256": "af38f1a73b27dc56df6431ebba14590b3aee47fba522ca7083aab80c54dc1616",
+      "bytes": 3602
+    },
+    {
+      "path": "dist/hooks/chat-headers.d.ts",
+      "sha256": "bb6eb3c7e72367bd58a1ccc2fe32ee671d0bf2112c849745980b893ba64ab454",
+      "bytes": 573
+    },
+    {
+      "path": "dist/hooks/command-hook-utils.d.ts",
+      "sha256": "e368a8873bd9893d1449fb816c78c16b6f1868a954d621a27d87f8c6646e521d",
+      "bytes": 318
+    },
+    {
+      "path": "dist/hooks/image-hook.d.ts",
+      "sha256": "56d1652e53d2a810d6f4d965cf9c725d87222f8261316054f631411702019b22",
+      "bytes": 283
+    },
+    {
+      "path": "dist/hooks/index.d.ts",
+      "sha256": "8b64731f3092690ea94ce06a4a9bd8e2b3d428b27d6d7d17aeefe72e8d54133f",
+      "bytes": 1559
+    },
+    {
+      "path": "dist/hooks/session-lifecycle.d.ts",
+      "sha256": "67ae37679a83a74dd268f12059beac5a1b5a5ce62e2592596218d2ffbbc1c0c9",
+      "bytes": 456
+    },
+    {
+      "path": "dist/hooks/types.d.ts",
+      "sha256": "9142ad4eca3caa0a1b5be30a63e9084eba13ae9a04319f48f20cffe4897ea423",
+      "bytes": 1510
+    },
+    {
+      "path": "dist/interview/dashboard-manager.d.ts",
+      "sha256": "7ac678dbb56f58b233ee706bdb260aac02801601e81734f51c5eca04a985f6dc",
+      "bytes": 1203
+    },
+    {
+      "path": "dist/interview/dashboard.d.ts",
+      "sha256": "1b2cac11ef2037ff3e5464a7cf737cef2a79b991b47d89e86984686ef90eefcf",
+      "bytes": 3180
+    },
+    {
+      "path": "dist/interview/document.d.ts",
+      "sha256": "3fe5e4322878c0c0762f0ed7fa8f221d87b01a12cff166cda878b1eb10724822",
+      "bytes": 2845
+    },
+    {
+      "path": "dist/interview/helpers.d.ts",
+      "sha256": "e3abd479d5ae91f74af2b1bc4b80a4ac4be3c6a375dca37c456532455236bc64",
+      "bytes": 587
+    },
+    {
+      "path": "dist/interview/index.d.ts",
+      "sha256": "47ff61679f3d746d0b54051f20d13749c52c2e1271ca10414f572bdeaa817ccf",
+      "bytes": 52
+    },
+    {
+      "path": "dist/interview/manager.d.ts",
+      "sha256": "5043a12c5a12322d7ca445411e11d3b9b2caeb27b7bf6203b29c083c3bf5f9f0",
+      "bytes": 854
+    },
+    {
+      "path": "dist/interview/parser.d.ts",
+      "sha256": "207ebe203e33387d01b61c43e6102ba1277e40e5ac4a3174884445d7e4219189",
+      "bytes": 584
+    },
+    {
+      "path": "dist/interview/prompts.d.ts",
+      "sha256": "eed48a8a649e6ad51c70212829f9b454e13204a04d4b6c40060478a5523f56d7",
+      "bytes": 399
+    },
+    {
+      "path": "dist/interview/runtime.d.ts",
+      "sha256": "29466f9ce16be15ec564dcacb9376a6caeb717b603098c66c71614d3988c7121",
+      "bytes": 736
+    },
+    {
+      "path": "dist/interview/server.d.ts",
+      "sha256": "6ef1b2f2b3b20f97e3a55f007959bfd25b5db5aa492e1dff705cde3822a779a0",
+      "bytes": 947
+    },
+    {
+      "path": "dist/interview/service.d.ts",
+      "sha256": "4bb50206302098f237b01a484249a102971756b3d3c479aade88564f25e8f9fd",
+      "bytes": 2264
+    },
+    {
+      "path": "dist/interview/session-server.d.ts",
+      "sha256": "fe06f2c559d5bb69ed136bd0ac8d7828aefd6491535c01511649f2278335ca68",
+      "bytes": 750
+    },
+    {
+      "path": "dist/interview/test-port.d.ts",
+      "sha256": "e13d7cb9f2eb4c80b3f548da33723511ef1e1997b1419d8bb207bc17ca954a7e",
+      "bytes": 662
+    },
+    {
+      "path": "dist/interview/types.d.ts",
+      "sha256": "cd0ae810039ae74093905c04dbb9f2e734f2ff14a3f0577a0d30199fd7977751",
+      "bytes": 3037
+    },
+    {
+      "path": "dist/interview/ui.d.ts",
+      "sha256": "67c0d6ecd863666e5c3bd544ea0357506e1e96256267dd632c2f5ff94b5d395d",
+      "bytes": 485
+    },
+    {
+      "path": "dist/mcp/context7.d.ts",
+      "sha256": "afac5e51574da7eff278c4ab56799cb70fd5418e8eeacfb1974806d90cca9d90",
+      "bytes": 191
+    },
+    {
+      "path": "dist/mcp/grep-app.d.ts",
+      "sha256": "52dd2d484b0ff17623b2a91d0d4868e09d3a802140afdffda50bbd879cdd6a41",
+      "bytes": 192
+    },
+    {
+      "path": "dist/mcp/index.d.ts",
+      "sha256": "1e11980ac763d5081d21416784cfed0a453daf14d768c879a97d2af53c851870",
+      "bytes": 285
+    },
+    {
+      "path": "dist/mcp/types.d.ts",
+      "sha256": "4b7c3673939aaeb59319763666b387595e2f818bc12f5db5a042adaf68901962",
+      "bytes": 305
+    },
+    {
+      "path": "dist/multiplexer/factory.d.ts",
+      "sha256": "67885c0a7eb757c50885b2bd1309c8656bc08cbfe16eca8e6d2e4368ee822c49",
+      "bytes": 670
+    },
+    {
+      "path": "dist/multiplexer/index.d.ts",
+      "sha256": "ca7156d3037f8eb7e849f2f320f1111dce31fc5b37c534e1eeba94df2c87adc0",
+      "bytes": 685
+    },
+    {
+      "path": "dist/multiplexer/session-manager.d.ts",
+      "sha256": "3853c5e99846c8f091d201261ffe2963d4efdb011c1cfbef80399a4567bac203",
+      "bytes": 3749
+    },
+    {
+      "path": "dist/multiplexer/shared.d.ts",
+      "sha256": "933163a7a8063603124ca66c13e1c6525d9e8f3d5d2332ec9ef7db109a82f5e5",
+      "bytes": 4994
+    },
+    {
+      "path": "dist/multiplexer/tmux-pane-registry.d.ts",
+      "sha256": "38ed6f3ef7eb1494947d3397f9f8d5b9c8246bb97a0fd815aa4986de2eb7e6bf",
+      "bytes": 434
+    },
+    {
+      "path": "dist/multiplexer/types.d.ts",
+      "sha256": "7b2db79baaae29633f1d5e323266fb18fc18546710d039a1ba5cf5d52da6b178",
+      "bytes": 2144
+    },
+    {
+      "path": "dist/server/index.js",
+      "sha256": "bd187c4ae46ce2b521bb15a29ec3d6316db18a2e7719e3006f451602c368e9a1",
+      "bytes": 2581019
+    },
+    {
+      "path": "dist/tools/acp-run.d.ts",
+      "sha256": "cb54de0425c47603d4d9ac7c05611f7a8305de06635b33b7ec9136c26ddafcba",
+      "bytes": 380
+    },
+    {
+      "path": "dist/tools/cancel-task.d.ts",
+      "sha256": "a4a67437a4a134e5bc0a156d90a0cb90811a1128e142091dc64663e072fc5ba6",
+      "bytes": 1046
+    },
+    {
+      "path": "dist/tools/index.d.ts",
+      "sha256": "dccd0d29438360e65fbfd0eabc7b403eb1612dc101a1fe5e97499a6d476007cb",
+      "bytes": 490
+    },
+    {
+      "path": "dist/tools/preset-switch.d.ts",
+      "sha256": "2f3279673dc9495fa3bbbefafa2b1f2a70d9ff19cac8753426849cdbeff41162",
+      "bytes": 3106
+    },
+    {
+      "path": "dist/tools/task-activity.d.ts",
+      "sha256": "b8b38357a0b04588e6b869b0e3ce5a3851c43454cd6ed80f7521433204a2aadc",
+      "bytes": 1713
+    },
+    {
+      "path": "dist/tools/task-message.d.ts",
+      "sha256": "96b71ea2f839abfd6162e8fc5675694ec0f2e4c9383da1021f2c78c6e674e368",
+      "bytes": 350
+    },
+    {
+      "path": "dist/tools/task-policy.d.ts",
+      "sha256": "c5bae6ed2c0a38d35b31d631a47daecdebc3cab74c507fbd1d90fadcfa2c6d46",
+      "bytes": 2098
+    },
+    {
+      "path": "dist/tools/task-result.d.ts",
+      "sha256": "42ef3938fdeec70e997a332c438133397472d5953638fb8a945b03a6e4428f16",
+      "bytes": 375
+    },
+    {
+      "path": "dist/tools/task-revive.d.ts",
+      "sha256": "c283df8749521629beb2f97f43ef9acdebcb960c8722ef7ab2d9c845f8e3ad68",
+      "bytes": 583
+    },
+    {
+      "path": "dist/tools/task-status.d.ts",
+      "sha256": "e3df2d7964053f56d88dfc4a2efbf540a1debb5076a6cf1ce0a9b30430d9cefb",
+      "bytes": 474
+    },
+    {
+      "path": "dist/tools/wait-for-user.d.ts",
+      "sha256": "daa9de559ee796494817fcdb8642bdcba8cab645e2845cc74d7ddf61679c63cb",
+      "bytes": 555
+    },
+    {
+      "path": "dist/utils/agent-variant.d.ts",
+      "sha256": "784263aa4ce83d9cebd1600d3ad83be9d463c6b5a7e16090684c77eae5313ca5",
+      "bytes": 1071
+    },
+    {
+      "path": "dist/utils/background-job-board.d.ts",
+      "sha256": "b41d1e4ae53a20130ecf2e4d56800fcb9100ead4a0d7ed9710ca088f8c3719dc",
+      "bytes": 8957
+    },
+    {
+      "path": "dist/utils/background-job-coordinator.d.ts",
+      "sha256": "5f19648d0deddbb6efff54569e4d381b34fc3c92af7870389f0872d11fe9870e",
+      "bytes": 5709
+    },
+    {
+      "path": "dist/utils/background-job-store.d.ts",
+      "sha256": "98768209d12d46e9e0aefb1f45bde2852e6e0eae19ba38c647af4aa188f006b1",
+      "bytes": 6148
+    },
+    {
+      "path": "dist/utils/background-job-supervisor.d.ts",
+      "sha256": "1e22ec1f8070d0e7e9961f008bf42b51f6a16a3d084f730da741ebaa161da790",
+      "bytes": 1836
+    },
+    {
+      "path": "dist/utils/background-task-concurrency.d.ts",
+      "sha256": "d0c6754d6be841b2aec31ac15372baee30a8f89d6cb5115627d05f23a31de482",
+      "bytes": 4072
+    },
+    {
+      "path": "dist/utils/compat.d.ts",
+      "sha256": "d2929b0f0d493c798b234196c6e404310195e2ed96432e2f542030a37e6efded",
+      "bytes": 3632
+    },
+    {
+      "path": "dist/utils/councillor-models.d.ts",
+      "sha256": "e61e343d963a45d508c90cb48a2a571b1942e80ad7a9490b176f7f61dce26929",
+      "bytes": 895
+    },
+    {
+      "path": "dist/utils/env.d.ts",
+      "sha256": "63d159e51ace6ee17c4a39eaf5d1226520470285227f93c83636822e2f38c840",
+      "bytes": 232
+    },
+    {
+      "path": "dist/utils/escape-html.d.ts",
+      "sha256": "f1e4f40b696c9abf36c55d73553b0cc50c4cf195711d1af8280370815e078d44",
+      "bytes": 59
+    },
+    {
+      "path": "dist/utils/frontmatter.d.ts",
+      "sha256": "d3386bc768e2d236d88807caeda613058b0c420e215e0f315b634af98702f259",
+      "bytes": 240
+    },
+    {
+      "path": "dist/utils/guards.d.ts",
+      "sha256": "e591989f7f20a6a60d0e7e0b769ec4958f6723c49ad820484621e75ad03d9277",
+      "bytes": 154
+    },
+    {
+      "path": "dist/utils/index.d.ts",
+      "sha256": "aa9d63e09cf6d8bc8e1ff6563e9434f1ad3db3c0e7960a1e680898b5580064bf",
+      "bytes": 499
+    },
+    {
+      "path": "dist/utils/internal-initiator.d.ts",
+      "sha256": "8b3f40ac36bfcada8d6f210f493989c753781521b8ea70e1c547524e6d3b4e4c",
+      "bytes": 466
+    },
+    {
+      "path": "dist/utils/logger.d.ts",
+      "sha256": "08f921ae61eabbfd04ab73df44b77019a8049a5184f3f17fa227a5000f991ebd",
+      "bytes": 340
+    },
+    {
+      "path": "dist/utils/opencode-client.d.ts",
+      "sha256": "c52758e4c3c54f0fa0092314407252825f6c60dca1fbc43a6cd2bec6a923a6dc",
+      "bytes": 441
+    },
+    {
+      "path": "dist/utils/polling.d.ts",
+      "sha256": "6528eaec85af133fbf4de8234f2caf0daec7e591d3d93a2339e73eef566c596d",
+      "bytes": 682
+    },
+    {
+      "path": "dist/utils/session-calls.contract.d.ts",
+      "sha256": "cf9037092a6e2dc7b875d49ea49a8b1b63afd7d7180bdbcfb4ff20967035a5e3",
+      "bytes": 1008
+    },
+    {
+      "path": "dist/utils/session-metadata.d.ts",
+      "sha256": "caa717661d762b06285d2eb3868db6457d2016425b23f17b6e85bd21c82935a2",
+      "bytes": 823
+    },
+    {
+      "path": "dist/utils/session-runtime-status.d.ts",
+      "sha256": "21fb64b3bf15f53ef88f0c7587c75d0beaedf3847b11218f72fe49f718c8f975",
+      "bytes": 883
+    },
+    {
+      "path": "dist/utils/session.d.ts",
+      "sha256": "2d6c72b3a04e86e1d38e90cfe5e6160d7a18f1df1bf2c218a348b52d45a9fe55",
+      "bytes": 2868
+    },
+    {
+      "path": "dist/utils/system-collapse.d.ts",
+      "sha256": "b6179a88c89e967c2503315d6ec2d0c04b0e77aeb1d5928fbd4562d9d7ea2de9",
+      "bytes": 298
+    },
+    {
+      "path": "dist/utils/task.d.ts",
+      "sha256": "b05708312eb5dc64ea0760b45a71a459c32293534364630731958678567e1b08",
+      "bytes": 1847
+    },
+    {
+      "path": "dist/utils/zip-extractor.d.ts",
+      "sha256": "2ce758fe90ae3fab2a5d943388185dc3e61150e86c23d00fecdc07f484df89b0",
+      "bytes": 89
+    },
+    {
+      "path": "dist/v2/adapters.d.ts",
+      "sha256": "2f80858ea51bce2f1fe610133b4d734ec9036c0f7bf21fa09ac823116003a92d",
+      "bytes": 1646
+    },
+    {
+      "path": "dist/v2/client-shim.d.ts",
+      "sha256": "a8a5023319c9435039c0902c2051c366a0c97cf1683989ba337970d0061fcd45",
+      "bytes": 1961
+    },
+    {
+      "path": "dist/v2/delegation.d.ts",
+      "sha256": "4f7121863f5d067709c263786b20b4d69fdad447ea2bf8c148b48ed90816a6df",
+      "bytes": 1053
+    },
+    {
+      "path": "dist/v2/event-adapter.d.ts",
+      "sha256": "55a80b7789e69c44ea5da441cc96a0199424121fb0d6a666bdf8e9996b6f4d93",
+      "bytes": 1945
+    },
+    {
+      "path": "dist/v2/index.d.ts",
+      "sha256": "e5a9e007eb9f7ba43714a11ebdb41f40e0771e394aaf41128c5a057d10516217",
+      "bytes": 1015
+    },
+    {
+      "path": "dist/v2/interview-bridge.d.ts",
+      "sha256": "c90ea55fe246ae9a172f7338e04af1e8b302382b101e159db150d0a455d1e117",
+      "bytes": 1707
+    },
+    {
+      "path": "dist/v2/session-submit.d.ts",
+      "sha256": "74b8026698f713ba08fee655569b1e27126c5670ccdfebb48914802643a8fb71",
+      "bytes": 880
+    },
+    {
+      "path": "dist/v2/setup.d.ts",
+      "sha256": "48612d1de06f5375c691efb324e95c711f38880bccb7cf47694ae4dcf3de524b",
+      "bytes": 5473
+    },
+    {
+      "path": "dist/v2/tui.d.ts",
+      "sha256": "d19c94e19332ace1bf17a596dd836fc4b167b11873df4b6db5103e69895620e1",
+      "bytes": 3910
+    },
+    {
+      "path": "dist/v2/types.d.ts",
+      "sha256": "d00f6037223b27e00bbb74f9c7a3b21d9b25f07efdb068ff4fe0a28f68a60143",
+      "bytes": 6173
+    },
+    {
+      "path": "dist/tools/ast-grep/cli.d.ts",
+      "sha256": "0277364717a8e4da82632dc154e1acbfbbb665fb8d9ea7ee16e3777ee8a572ba",
+      "bytes": 548
+    },
+    {
+      "path": "dist/tools/ast-grep/constants.d.ts",
+      "sha256": "a27bd081eaac16b0649a737421f9e866f9cf15cce619a4b333b70220ffb1e30f",
+      "bytes": 586
+    },
+    {
+      "path": "dist/tools/ast-grep/downloader.d.ts",
+      "sha256": "392f2346f392eeeee5476e64aaddd557682d32d2c7c97a9fcc4985fc6dcec431",
+      "bytes": 312
+    },
+    {
+      "path": "dist/tools/ast-grep/index.d.ts",
+      "sha256": "4f057965d81b2f6fd5e716eabcf28489fe30509c472fb68563890bad43abfd70",
+      "bytes": 456
+    },
+    {
+      "path": "dist/tools/ast-grep/tools.d.ts",
+      "sha256": "c901696c1e9724cbced926da483307479b13fb87ee0ed9ce486ef18d60d5c018",
+      "bytes": 168
+    },
+    {
+      "path": "dist/tools/ast-grep/types.d.ts",
+      "sha256": "de1d2d231c300c538d0a84fada5803d346d70e5fa1eb64ab75e8946a1b646000",
+      "bytes": 918
+    },
+    {
+      "path": "dist/tools/ast-grep/utils.d.ts",
+      "sha256": "1c0b9f9bfa424c3fac541497e7d8f3e6f1d7cdc69e7bfc15a5c9cb98f1e12c10",
+      "bytes": 309
+    },
+    {
+      "path": "dist/tools/smartfetch/binary.d.ts",
+      "sha256": "a8fee82b6ec752dbb5dbfb4fb94d7099b0f8c2ed06a4078e59636eeebd929ae2",
+      "bytes": 278
+    },
+    {
+      "path": "dist/tools/smartfetch/cache.d.ts",
+      "sha256": "f8dc7e529f2c56b51a4a2744c5f6dccc4406889127567df94f2274e50aa3e5ef",
+      "bytes": 622
+    },
+    {
+      "path": "dist/tools/smartfetch/constants.d.ts",
+      "sha256": "e7a69f3e25c3b30c4d0c3ef7cb9199b83ee64940e229bd0ca938115fa9e70e69",
+      "bytes": 819
+    },
+    {
+      "path": "dist/tools/smartfetch/index.d.ts",
+      "sha256": "fdeaf519dd08fa595a001cdf2c497b4719cf2b1df85dfdfab7b55e480144104e",
+      "bytes": 187
+    },
+    {
+      "path": "dist/tools/smartfetch/network.d.ts",
+      "sha256": "23963dd9b52d9d3712b25e7618b37206ee8a85812b638e44a3092096a6a93252",
+      "bytes": 2684
+    },
+    {
+      "path": "dist/tools/smartfetch/secondary-model.d.ts",
+      "sha256": "c319a7f6efcc8a81596ad50490cd99c96cb69b0692138d71dae12b212f9bc0dd",
+      "bytes": 2382
+    },
+    {
+      "path": "dist/tools/smartfetch/tool.d.ts",
+      "sha256": "47020ea414044ee7221c0d249d650a8eddf1792c4486e60900650a38e510ac82",
+      "bytes": 240
+    },
+    {
+      "path": "dist/tools/smartfetch/types.d.ts",
+      "sha256": "c1aecad8a53f2bc506ed790ce37ce53f092e9e8f67d8129cb55e1a4d46555982",
+      "bytes": 4052
+    },
+    {
+      "path": "dist/tools/smartfetch/utils.d.ts",
+      "sha256": "1da2b4a173f647b11b5ff901ce69dd2e177fc7e1775c1fc47dc41aa8f1697fe2",
+      "bytes": 2645
+    },
+    {
+      "path": "dist/multiplexer/cmux/close-policy.d.ts",
+      "sha256": "48dcaa3ea74831abec95839578a3e6faacd0eb0fa5460c4129f946b454010ab8",
+      "bytes": 800
+    },
+    {
+      "path": "dist/multiplexer/cmux/index.d.ts",
+      "sha256": "710f4c8477c527d28c0082570b79526771a07e64e87bd07138f3b1bdd9737557",
+      "bytes": 3974
+    },
+    {
+      "path": "dist/multiplexer/cmux/session-lifecycle.d.ts",
+      "sha256": "2b004722914592d5858ee49d862e693f7ed05a1ecb68e9c70194280e355c7938",
+      "bytes": 3649
+    },
+    {
+      "path": "dist/multiplexer/cmux/session-state.d.ts",
+      "sha256": "c97eb4c86271633945e5f692ea9f9a92ece96e9bf60befabf08c1a22a5146184",
+      "bytes": 2736
+    },
+    {
+      "path": "dist/multiplexer/herdr/index.d.ts",
+      "sha256": "fd4ef586e53d2f9fe5b583750e34cbc39646a9b9b45f9e5eaf957eb82c11ef95",
+      "bytes": 1346
+    },
+    {
+      "path": "dist/multiplexer/kitty/index.d.ts",
+      "sha256": "9c414e35d656a8ac646f52023d1e8df0dab287a11f963a260301a8b7685ed6a4",
+      "bytes": 2853
+    },
+    {
+      "path": "dist/multiplexer/tmux/index.d.ts",
+      "sha256": "dec4fe47ede7506a31ad4427c278390f11ddf05cadfbe397dbc8e25aa9f33e8a",
+      "bytes": 1008
+    },
+    {
+      "path": "dist/multiplexer/zellij/index.d.ts",
+      "sha256": "26319a9faa87b338d50854834ade8f3694f24806a3c60f97121a7c7d81472e67",
+      "bytes": 3818
+    },
+    {
+      "path": "dist/hooks/apply-patch/codec.d.ts",
+      "sha256": "04d7de8385b3b561e39474726cc57443515c1c31723930ba3695c9df9d9b30aa",
+      "bytes": 447
+    },
+    {
+      "path": "dist/hooks/apply-patch/errors.d.ts",
+      "sha256": "dc1f078820f24ee1cd9b9598a81948800a3d5774d40eeab057400a438bf946e5",
+      "bytes": 1522
+    },
+    {
+      "path": "dist/hooks/apply-patch/execution-context.d.ts",
+      "sha256": "da7b41f776889e3f339f8283189e840a3a58c4d33bb17167020e00a2cfdb200b",
+      "bytes": 1298
+    },
+    {
+      "path": "dist/hooks/apply-patch/index.d.ts",
+      "sha256": "3b3217391bf3318b602fc3fbedbab6738d925b8b77d3d6f60c8d283eab9c7052",
+      "bytes": 444
+    },
+    {
+      "path": "dist/hooks/apply-patch/matching.d.ts",
+      "sha256": "abffd5da75125555dc8dd1bcbc8a213039017bbf60af308761a2997cee86ccab",
+      "bytes": 1929
+    },
+    {
+      "path": "dist/hooks/apply-patch/operations.d.ts",
+      "sha256": "a56e514ea136fdfe98d4677ba8fd98d25f16cd3277fc3710df42a187db5c9511",
+      "bytes": 199
+    },
+    {
+      "path": "dist/hooks/apply-patch/prepared-changes.d.ts",
+      "sha256": "2db4e10fd1f33bbdf3686aa58cc7a1ce8189794e53b10140ccc7aa2bbbc9895d",
+      "bytes": 1094
+    },
+    {
+      "path": "dist/hooks/apply-patch/resolution.d.ts",
+      "sha256": "f8eeb308bbae25190b77b7e90e1ffb60a0d8ec6ac327dea16e71669586dcec5e",
+      "bytes": 1284
+    },
+    {
+      "path": "dist/hooks/apply-patch/rewrite.d.ts",
+      "sha256": "7b79d61a4a0304158b290691d91c4ffec9a3908f4e94a218a1c0dba594538f79",
+      "bytes": 432
+    },
+    {
+      "path": "dist/hooks/apply-patch/test-helpers.d.ts",
+      "sha256": "4ff29a53d843af5f612f81d38d998ebe1d5210c25080c6940432906b1feadd4b",
+      "bytes": 504
+    },
+    {
+      "path": "dist/hooks/apply-patch/types.d.ts",
+      "sha256": "c19fdd8f365f58a4de3ea9b298d213483789f218c866cbaf99ebc102ad9ef561",
+      "bytes": 2169
+    },
+    {
+      "path": "dist/hooks/auto-update-checker/cache.d.ts",
+      "sha256": "7d1c19a58b37444d2206ee2bcbf814724b455b901326d7ec757bfe88594bbf62",
+      "bytes": 954
+    },
+    {
+      "path": "dist/hooks/auto-update-checker/checker.d.ts",
+      "sha256": "aebe6eeb55cc404d4e95bed46707d5f6edc64e2f8a75adb31d38b38de7758e67",
+      "bytes": 1741
+    },
+    {
+      "path": "dist/hooks/auto-update-checker/constants.d.ts",
+      "sha256": "49e6be39812e46171f2cdd2fbaa2cf732aaf92f4f9684a301cbbe7e2cd5dd23d",
+      "bytes": 857
+    },
+    {
+      "path": "dist/hooks/auto-update-checker/index.d.ts",
+      "sha256": "39cc2d11d3b51c40866921633b846fb25d90dc714598dd90ec5a20b23cc1351f",
+      "bytes": 729
+    },
+    {
+      "path": "dist/hooks/auto-update-checker/skill-sync.d.ts",
+      "sha256": "b347b7597a539412425eae4badc1de9d09a270de7d3fc5a48312f3d3b54c3b57",
+      "bytes": 2389
+    },
+    {
+      "path": "dist/hooks/auto-update-checker/types.d.ts",
+      "sha256": "8549716acf15afb7fb87f7c9d90f41abcf64d373135929e74d8d7e35e295c676",
+      "bytes": 912
+    },
+    {
+      "path": "dist/hooks/cache-monitor/index.d.ts",
+      "sha256": "be2b8814fd125414de9f667408d441a4c13274625a440365c32d10aa2f86e076",
+      "bytes": 942
+    },
+    {
+      "path": "dist/hooks/deepwork/index.d.ts",
+      "sha256": "478818d510a9a4b21cbf43307212fb9f9851bcf87b0524908e829e1168551309",
+      "bytes": 373
+    },
+    {
+      "path": "dist/hooks/filter-available-skills/index.d.ts",
+      "sha256": "5d0891e0c9bde98c43ac621141313bf2ed18a44ba77431ead28f27f4888bcb74",
+      "bytes": 940
+    },
+    {
+      "path": "dist/hooks/foreground-fallback/index.d.ts",
+      "sha256": "37e34f4dcf03b4f424dca0d0ab348633e6f953c362cb10230089134d7ab047be",
+      "bytes": 7923
+    },
+    {
+      "path": "dist/hooks/json-error-recovery/hook.d.ts",
+      "sha256": "12e24676f12b816420ae00f7bfb9da93876279e447bc228a1c906f886132b3cc",
+      "bytes": 1141
+    },
+    {
+      "path": "dist/hooks/loop-command/index.d.ts",
+      "sha256": "b29bdc76f1cfd334327642a46c08edcfb0d5eb1574efdaa07ebbf61fec41c749",
+      "bytes": 369
+    },
+    {
+      "path": "dist/hooks/orchestrator-wake/index.d.ts",
+      "sha256": "c9a8088706038b94fae3e3bf0a537382ddb6eb13c8839ca14b2cedfb539f4e5d",
+      "bytes": 3117
+    },
+    {
+      "path": "dist/hooks/orchestrator-wake/wake-gate.d.ts",
+      "sha256": "e298472fa12a34e3f2d7ac20219982e857712e97ad96472f9e10e16434b5fea7",
+      "bytes": 2955
+    },
+    {
+      "path": "dist/hooks/phase-reminder/index.d.ts",
+      "sha256": "81e024006d8828776e2185d79edff932ef625452372b80767c8691f27ab4e398",
+      "bytes": 1071
+    },
+    {
+      "path": "dist/hooks/post-file-tool-nudge/index.d.ts",
+      "sha256": "705cb4ee6f44604ae910606dd0a3d77f387bcda5da6e97f6206e6f40fffa584e",
+      "bytes": 886
+    },
+    {
+      "path": "dist/hooks/reflect/index.d.ts",
+      "sha256": "65d90aa7770473032cf97be24ef8c08e848e1bab3958fe98f0d5ae48e2c69878",
+      "bytes": 372
+    },
+    {
+      "path": "dist/hooks/search-path-guard/index.d.ts",
+      "sha256": "b2a43146aef3f8d94553d1facf7dd42c8e086c9e0904151880222ed322a28c29",
+      "bytes": 1091
+    },
+    {
+      "path": "dist/hooks/task-session-manager/admission-runtime.d.ts",
+      "sha256": "044b269875c0fd56ba230cb85136f4fbbca157fd70a93b29310c077296fe6c20",
+      "bytes": 41
+    },
+    {
+      "path": "dist/hooks/task-session-manager/board-injection.d.ts",
+      "sha256": "6a884bb7f331b3ef9feee44477d00c4afa5513d32883e140e27b137d4bef342d",
+      "bytes": 6930
+    },
+    {
+      "path": "dist/hooks/task-session-manager/continuation-model-selection.d.ts",
+      "sha256": "b6118f0c02c27749c08636009c5f842c629f0259b2e61c6192577138f2e38c2f",
+      "bytes": 484
+    },
+    {
+      "path": "dist/hooks/task-session-manager/event-router.d.ts",
+      "sha256": "591314ac776b88b594a27bcabd48e97b6c30b29b55af9dd1ddc7213886a14a93",
+      "bytes": 4176
+    },
+    {
+      "path": "dist/hooks/task-session-manager/idle-reconciliation.d.ts",
+      "sha256": "ddc10360b41f2dde46026221b493b9e2a22e9a1fabcfebe147b922143b8c26f2",
+      "bytes": 1507
+    },
+    {
+      "path": "dist/hooks/task-session-manager/idle-session-tokens.d.ts",
+      "sha256": "ce5b6761fdc340d51f5f0ddee2170d9a27eb0bc3ff03f4548ffe8389bc979bc1",
+      "bytes": 663
+    },
+    {
+      "path": "dist/hooks/task-session-manager/index.d.ts",
+      "sha256": "cc043da2bc9b2d1b24517a93da43cd9b48edc92bfbff13ff7d6f84014b46eca4",
+      "bytes": 4156
+    },
+    {
+      "path": "dist/hooks/task-session-manager/input-wait-tracker.d.ts",
+      "sha256": "52ba2d57714dcbaaa49a48b6bcf9a743ae8ce2a40d616e72fafc10724674cb6c",
+      "bytes": 627
+    },
+    {
+      "path": "dist/hooks/task-session-manager/pending-call-tracker.d.ts",
+      "sha256": "9c92df6f7f50dab7df074878474675a9035d01b8e74bc8403a9d293f3ed88d1b",
+      "bytes": 2114
+    },
+    {
+      "path": "dist/hooks/task-session-manager/revived-run-tracker.d.ts",
+      "sha256": "acb1950a4a896ade2ca08309f4367b378f716d48544306baa193f90f1e681d2f",
+      "bytes": 1333
+    },
+    {
+      "path": "dist/hooks/task-session-manager/runtime-status-reconciliation.d.ts",
+      "sha256": "257ea375c3a0cb9d29f58c2f842ff8745b45f9ab468f4e27c55e6abf57e30a5b",
+      "bytes": 722
+    },
+    {
+      "path": "dist/hooks/task-session-manager/status-utils.d.ts",
+      "sha256": "9515eb87cb50b83930ba1e87177c375b22c30805441815d900bd1a46eb7abbaa",
+      "bytes": 976
+    },
+    {
+      "path": "dist/hooks/task-session-manager/stop-confirmation.d.ts",
+      "sha256": "9cb1d2ecf1cbf69ee399b63c6cedc8fb49349ee8fcb2ca91b2e7bc02a8337475",
+      "bytes": 1265
+    },
+    {
+      "path": "dist/hooks/task-session-manager/task-context-tracker.d.ts",
+      "sha256": "0cebb60c7aa544ed1617ec3ea767ce56af7ea31499d527e4d88efb2a68653576",
+      "bytes": 513
+    },
+    {
+      "path": "dist/hooks/task-session-manager/tool-execute-hooks.d.ts",
+      "sha256": "47fa8da1d73c9a774b22870832b9082405136ab6c61bb5a966cf3ce79f547bc1",
+      "bytes": 2689
+    },
+    {
+      "path": "dist/hooks/task-session-manager/user-wait-gate.d.ts",
+      "sha256": "512ad32263ccef5896badd72face53505578267e24d7c0424a898fe3f155fbb2",
+      "bytes": 1126
+    },
+    {
+      "path": "dist/hooks/tool-loop-guard/hook.d.ts",
+      "sha256": "fe23832d1a18aee5865ece590b7096e933b51a5d84b99902dbec631a25b6c9d2",
+      "bytes": 1261
+    }
+  ]
+}

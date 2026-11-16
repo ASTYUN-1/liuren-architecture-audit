@@ -1,0 +1,244 @@
+{
+  "candidate": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05",
+  "identity": {
+    "release": "20261105-restructure-E0-candidate",
+    "methodVersion": "542b7ebbff6e5213f25b3fa3195ff0686dabe2c0092722e3ae21e44b4dcb92b3",
+    "overlayFingerprint": "8a59d11088b44994b361d31f9f547fe8de92ee769faf715f3158eb653c84fc83",
+    "sourceFingerprint": "ef044c404ed8f1748984c35681b8234693cf769ebcd15d8faead705924ea3c5a",
+    "sourceRoot": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+    "candidateRoot": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-system-restructure-20261105\\candidate\\integrated-final31-05",
+    "semanticCorrectness": "not_certified",
+    "predictiveValidationCount": 0
+  },
+  "checks": [
+    {
+      "id": "registered169-unchanged",
+      "pass_": true,
+      "count": 169
+    },
+    {
+      "id": "protected53-unchanged",
+      "pass_": true,
+      "count": 53
+    },
+    {
+      "id": "accepted-class-mapping",
+      "pass_": true
+    },
+    {
+      "id": "accepted-positioning",
+      "pass_": true
+    },
+    {
+      "id": "accepted-relations",
+      "pass_": true
+    },
+    {
+      "id": "accepted-liqi",
+      "pass_": true
+    },
+    {
+      "id": "accepted-void",
+      "pass_": true
+    },
+    {
+      "id": "accepted-structure",
+      "pass_": true
+    },
+    {
+      "id": "accepted-bashajiubao",
+      "pass_": true
+    },
+    {
+      "id": "accepted-engine-shensha-output",
+      "pass_": true
+    },
+    {
+      "id": "accepted-shensha-focus",
+      "pass_": true
+    },
+    {
+      "id": "accepted-shensha-use",
+      "pass_": true
+    },
+    {
+      "id": "accepted-movement",
+      "pass_": true
+    },
+    {
+      "id": "accepted-adjudication",
+      "pass_": true
+    },
+    {
+      "id": "accepted-evidence",
+      "pass_": true
+    },
+    {
+      "id": "accepted-report",
+      "pass_": true
+    },
+    {
+      "id": "accepted-period-outlook",
+      "pass_": true
+    },
+    {
+      "id": "accepted-liqi-sources",
+      "pass_": true
+    },
+    {
+      "id": "accepted-shenjiang-use",
+      "pass_": true
+    },
+    {
+      "id": "accepted-risk",
+      "pass_": true
+    },
+    {
+      "id": "accepted-finance",
+      "pass_": true
+    },
+    {
+      "id": "accepted-recruitment",
+      "pass_": true
+    },
+    {
+      "id": "accepted-relationship",
+      "pass_": true
+    },
+    {
+      "id": "accepted-long-period",
+      "pass_": true
+    },
+    {
+      "id": "accepted-timing",
+      "pass_": true
+    },
+    {
+      "id": "accepted-kundun",
+      "pass_": true
+    },
+    {
+      "id": "accepted-nianming",
+      "pass_": true
+    },
+    {
+      "id": "accepted-bifa",
+      "pass_": true
+    },
+    {
+      "id": "accepted-shen-symbols",
+      "pass_": true
+    },
+    {
+      "id": "accepted-jiang-symbols",
+      "pass_": true
+    },
+    {
+      "id": "accepted-shensha-tradition",
+      "pass_": true
+    },
+    {
+      "id": "accepted-shensha-field-meanings",
+      "pass_": true
+    },
+    {
+      "id": "accepted-daliuren-paipan",
+      "pass_": true
+    },
+    {
+      "id": "condition-void-method-conditions-posix",
+      "pass_": true
+    },
+    {
+      "id": "condition-void-method-conditions-windows",
+      "pass_": true
+    },
+    {
+      "id": "condition-void-method-conditions-dot",
+      "pass_": true
+    },
+    {
+      "id": "condition-adjudication-method-conditions-posix",
+      "pass_": true
+    },
+    {
+      "id": "condition-adjudication-method-conditions-windows",
+      "pass_": true
+    },
+    {
+      "id": "condition-adjudication-method-conditions-dot",
+      "pass_": true
+    },
+    {
+      "id": "condition-core-revision-provenance-posix",
+      "pass_": true
+    },
+    {
+      "id": "condition-core-revision-provenance-windows",
+      "pass_": true
+    },
+    {
+      "id": "condition-core-revision-provenance-dot",
+      "pass_": true
+    },
+    {
+      "id": "legacy3-cross-stage",
+      "pass_": true
+    },
+    {
+      "id": "existing-candidate-chart-selection",
+      "pass_": true,
+      "items": 38,
+      "sourceSha256": "a0c63c2569209dc23ff9a340d2597a6ad235108f15d07920396fcbc68b9de07e"
+    },
+    {
+      "id": "source-old-chart-found",
+      "pass_": true
+    },
+    {
+      "id": "source-old-chart-readonly-selection",
+      "pass_": true,
+      "sourcePath": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261030-094428-起课-1efa6243-68fc-4794-bfe3-ce155248b47f.json",
+      "sourceSha256": "47201f0d64aec4f2f132238c2900fb7a3f58068b35d71e09e7f0f43ca00638eb"
+    },
+    {
+      "id": "chart-invalid-preserved",
+      "pass_": true,
+      "exitCode": 2,
+      "stderr": "LIUREN_CANDIDATE_SHENSHA_ERROR: 原课盘验证未通过，不能采用其神煞\n"
+    },
+    {
+      "id": "chart-missing-preserved",
+      "pass_": true,
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "id": "missing-not-adopted",
+      "pass_": true
+    },
+    {
+      "id": "non-chart-path-denied",
+      "pass_": true
+    },
+    {
+      "id": "materials-shensha-transport",
+      "pass_": true,
+      "stdoutSha256": "629a1da23851d2f6dc0a4d77f3268247401f3a5408cd5f5306e86709810887f6",
+      "stdoutBytes": 17790
+    },
+    {
+      "id": "registered169-final-unchanged",
+      "pass_": true,
+      "count": 169
+    },
+    {
+      "id": "protected53-final-unchanged",
+      "pass_": true,
+      "count": 53
+    }
+  ],
+  "passed": 53,
+  "modelRequests": 0,
+  "predictiveValidationCount": 0
+}

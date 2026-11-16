@@ -1,0 +1,62 @@
+{
+  "schema": "liuren-workflow-doctor-v1",
+  "ok": true,
+  "checks": {
+    "shensha_policy": {
+      "release": "20261105-no-retrieval-01",
+      "rules": 38
+    },
+    "runtime": {
+      "release": "20261105-no-retrieval-01",
+      "method_version": "fd1f3a520e3dcd88c653d4b7646fca3176d70552e35103dd41894c6deacc4ad5",
+      "files": 88,
+      "modules": 59,
+      "groups": [
+        "liuren"
+      ]
+    },
+    "data_roots": {
+      "案例项目库": true,
+      "经验日志": true,
+      "书籍库": true,
+      "books": true,
+      "knowledge": true,
+      "资料来源/qq-homework-20261018": true,
+      "materials/vendor/liuren-chart-legacy-20261102": true
+    },
+    "vendor_engine_files": 8,
+    "system": {
+      "python": "3.13.15",
+      "python_executable": "C:\\Program Files\\Python313\\python.exe",
+      "node_executable": "C:\\Users\\QLMa_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE"
+    },
+    "program_chart": {
+      "ok": true,
+      "pillars": [
+        "丙午",
+        "乙未",
+        "庚戌",
+        "癸未"
+      ],
+      "heaven_earth": 12,
+      "shensha_release": "20261105-no-retrieval-01"
+    },
+    "research": {
+      "record_count": 730,
+      "eligible_count": 730,
+      "mechanical_valid": true,
+      "explicit_rule_family_count": 65,
+      "semantic_validation": "external_review_declaration_only",
+      "independent_validation_count": 0,
+      "complete": false,
+      "present": true,
+      "overlayFingerprint": "aaf91ad9a2a838ddf2d7ce7ae2ea7eca17c760ce939c530e844b74003f5b85ac"
+    },
+    "research_issues": []
+  },
+  "errors": [],
+  "model_calls": 0,
+  "services_started": 0,
+  "semantic_correctness": "unverified",
+  "predictive_accuracy": "unverified"
+}

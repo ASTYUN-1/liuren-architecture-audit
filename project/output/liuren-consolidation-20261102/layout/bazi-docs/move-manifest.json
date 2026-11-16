@@ -1,0 +1,143 @@
+{
+  "schema": "liuren-explicit-move-manifest-v1",
+  "root": "C:\\Users\\QLMa_\\Documents\\六壬八字测算",
+  "authorization": "F2 docs migration after F3 final Windows extracted hash PASS on 2026-11-02",
+  "archive_sha256": "5804a6fc0c9d774ab02c4e71af65244dd81f2388b49f38eb15353339085e2da0",
+  "operations": [
+    {
+      "source": "docs/八字人生专题完善-20261024",
+      "destination": "归档/八字专项/docs/八字人生专题完善-20261024",
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\八字人生专题完善-20261024",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\八字专项\\docs\\八字人生专题完善-20261024",
+      "kind": "directory",
+      "classification": "history-bazi",
+      "files": [
+        {
+          "relative": "交付说明.md",
+          "bytes": 5182,
+          "sha256": "54a2a1b022ca0191f49c1a5f52af1b8eaa238ffa7f8de55b1496bda36affd3cb"
+        },
+        {
+          "relative": "启用核对.json",
+          "bytes": 1130,
+          "sha256": "7a3b8f437414f3c05c972a718f16af988f2e848b1821be2e8e630b4ad25fa81a"
+        },
+        {
+          "relative": "条件规则全文.md",
+          "bytes": 94826,
+          "sha256": "b673a106a817e0708348e87cdce1438066aadef048a7724e7388617d244842b3"
+        },
+        {
+          "relative": "资料核查与能力覆盖.md",
+          "bytes": 4540,
+          "sha256": "35f10cf44d5c213dfd07b3521f9728f8ba3e9dfd10451d30c64dd418512f7c82"
+        }
+      ]
+    },
+    {
+      "source": "docs/八字体系完善-20261023",
+      "destination": "归档/八字专项/docs/八字体系完善-20261023",
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\八字体系完善-20261023",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\八字专项\\docs\\八字体系完善-20261023",
+      "kind": "directory",
+      "classification": "history-bazi",
+      "files": [
+        {
+          "relative": "排盘引擎核查与开源方案.md",
+          "bytes": 12172,
+          "sha256": "c4f6ad9911ac22b2f7cae9ccd32aea570d63d6882d72ef2d69f2244cf39352bf"
+        },
+        {
+          "relative": "新增文本筛选与规则线索.md",
+          "bytes": 10107,
+          "sha256": "020c5fa86de1f557593928da716a667910ec67b6ee61ea54f2d8a2588983e85f"
+        },
+        {
+          "relative": "资料盘点与补充清单.md",
+          "bytes": 13836,
+          "sha256": "517b5fb947c264510f47df051d32713eae1b40bc93d209570ed08b5f002970ce"
+        }
+      ]
+    },
+    {
+      "source": "docs/八字体系重构-20261024",
+      "destination": "归档/八字专项/docs/八字体系重构-20261024",
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\八字体系重构-20261024",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\八字专项\\docs\\八字体系重构-20261024",
+      "kind": "directory",
+      "classification": "history-bazi",
+      "files": [
+        {
+          "relative": "交付说明.md",
+          "bytes": 8257,
+          "sha256": "a6ec0bb60405a384e1c1c0216dbe8cf3e62ed65db57e9702b09777c37567ed1b"
+        },
+        {
+          "relative": "仓颉交付回执.json",
+          "bytes": 193,
+          "sha256": "18e3b063b1f264a3a080aaca4093d800d67b9739b21f50e631821113e6fe0e4c"
+        },
+        {
+          "relative": "启用回执.json",
+          "bytes": 741,
+          "sha256": "1bc36f91c06d7ab15738f9540065d93e02433a6ef49ea9cf1fecd3d6988746b8"
+        },
+        {
+          "relative": "实施记录.md",
+          "bytes": 3766,
+          "sha256": "c5d0ea489ccfc7863dd087dcf547daaed0f7f2278bd4a3860b8e11bf6f158e68"
+        }
+      ]
+    },
+    {
+      "source": "docs/八字反人生模板-20261024",
+      "destination": "归档/八字专项/docs/八字反人生模板-20261024",
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\八字反人生模板-20261024",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\八字专项\\docs\\八字反人生模板-20261024",
+      "kind": "directory",
+      "classification": "history-bazi",
+      "files": [
+        {
+          "relative": "交付说明.md",
+          "bytes": 3828,
+          "sha256": "dc876c088561529e6591922bf983ac2671cecc55895995a4fc14bd6535ca692f"
+        },
+        {
+          "relative": "反模板规则全文.md",
+          "bytes": 14920,
+          "sha256": "d27922eee908e45a318598bafa115a2243b8ecb4af4d26b71f13bafb9decf949"
+        },
+        {
+          "relative": "启用核对.json",
+          "bytes": 840,
+          "sha256": "2f97658f8fb612804c88d2a6d0ce1e91f2cb4699efc3e52149f5f1cccfb78254"
+        }
+      ]
+    },
+    {
+      "source": "docs/八字规则完善-20261024",
+      "destination": "归档/八字专项/docs/八字规则完善-20261024",
+      "source_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\八字规则完善-20261024",
+      "destination_absolute": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\归档\\八字专项\\docs\\八字规则完善-20261024",
+      "kind": "directory",
+      "classification": "history-bazi",
+      "files": [
+        {
+          "relative": "交付说明.md",
+          "bytes": 7946,
+          "sha256": "c3a3d021bffde6211ac111aaeed25142386d0b9049f83cde1203669ed9fce44a"
+        },
+        {
+          "relative": "启用核对.json",
+          "bytes": 482,
+          "sha256": "b2e64a944c9ef3d5c55cd5134cf3ff85bff8f610026b79e3fe5971c6de1cb6ec"
+        },
+        {
+          "relative": "条件规则全文.md",
+          "bytes": 68515,
+          "sha256": "2fab30da415a2eff2441e317585b1082b9c87d2b92c73f8383abb186e4c6aae0"
+        }
+      ]
+    }
+  ]
+}

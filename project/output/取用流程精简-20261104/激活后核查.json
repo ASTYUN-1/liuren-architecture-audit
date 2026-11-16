@@ -1,0 +1,194 @@
+{
+  "release": "20261104-mapping-lean-01",
+  "activeChecked": true,
+  "oldFrozenUnchanged": true,
+  "originalModulesPreserved": 58,
+  "sourceReadResponses": 61,
+  "unchangedModuleCount": 40,
+  "unchangedModules": [
+    "risk",
+    "shensha-tradition",
+    "classical-conflict",
+    "long-period",
+    "period-outlook",
+    "adjudication",
+    "evidence",
+    "liqi",
+    "movement",
+    "report",
+    "structure",
+    "timing",
+    "void",
+    "bashajiubao",
+    "beihai-extend-sop",
+    "bifa",
+    "blade-methods",
+    "case-retrieval-v2",
+    "daliuren-paipan",
+    "daliuren-shensha",
+    "engine-shensha-output",
+    "experience-retrieval-v2",
+    "keti-quanbiao",
+    "kundun",
+    "liqi-examples",
+    "liqi-sources",
+    "nianming",
+    "rule-semantics",
+    "shensha-engine-index",
+    "shensha-field-meanings",
+    "shensha-focus",
+    "shensha-meaning-sources",
+    "shensha-meanings",
+    "shensha-other-meanings",
+    "shensha-sources",
+    "shensha-use",
+    "quantity",
+    "quantity-sources",
+    "workflow-contract",
+    "shenjiang-use"
+  ],
+  "changedModules": [
+    "exam",
+    "finance",
+    "illness",
+    "interpersonal",
+    "lost-person-object",
+    "pregnancy",
+    "promotion-salary",
+    "recruitment",
+    "relationship",
+    "positioning",
+    "relations",
+    "class-mapping",
+    "shen-symbols",
+    "jiang-symbols",
+    "home",
+    "travel",
+    "weather",
+    "agriculture"
+  ],
+  "categoryCardsCovered": 33,
+  "exactRuleFieldChecks": 269,
+  "routeComparisons": 224,
+  "elevenStagesUnchanged": true,
+  "requiredSetUnchanged": true,
+  "rulesUnchanged": true,
+  "readingCosts": [
+    {
+      "scenario": "基础",
+      "before": {
+        "methodChars": 40592,
+        "entryChars": 7861,
+        "totalChars": 48453,
+        "modules": 14,
+        "pages": 21
+      },
+      "after": {
+        "methodChars": 37689,
+        "entryChars": 3365,
+        "totalChars": 41054,
+        "modules": 14,
+        "pages": 20
+      },
+      "methodReductionPct": 7.15,
+      "totalReductionPct": 15.27
+    },
+    {
+      "scenario": "婚恋",
+      "before": {
+        "methodChars": 44589,
+        "entryChars": 7861,
+        "totalChars": 52450,
+        "modules": 15,
+        "pages": 23
+      },
+      "after": {
+        "methodChars": 40073,
+        "entryChars": 3365,
+        "totalChars": 43438,
+        "modules": 15,
+        "pages": 21
+      },
+      "methodReductionPct": 10.13,
+      "totalReductionPct": 17.18
+    },
+    {
+      "scenario": "财务",
+      "before": {
+        "methodChars": 45336,
+        "entryChars": 7861,
+        "totalChars": 53197,
+        "modules": 15,
+        "pages": 23
+      },
+      "after": {
+        "methodChars": 40747,
+        "entryChars": 3365,
+        "totalChars": 44112,
+        "modules": 15,
+        "pages": 22
+      },
+      "methodReductionPct": 10.12,
+      "totalReductionPct": 17.08
+    },
+    {
+      "scenario": "疾病",
+      "before": {
+        "methodChars": 43276,
+        "entryChars": 7861,
+        "totalChars": 51137,
+        "modules": 15,
+        "pages": 22
+      },
+      "after": {
+        "methodChars": 39649,
+        "entryChars": 3365,
+        "totalChars": 43014,
+        "modules": 15,
+        "pages": 21
+      },
+      "methodReductionPct": 8.38,
+      "totalReductionPct": 15.88
+    },
+    {
+      "scenario": "家宅",
+      "before": {
+        "methodChars": 41781,
+        "entryChars": 7861,
+        "totalChars": 49642,
+        "modules": 15,
+        "pages": 22
+      },
+      "after": {
+        "methodChars": 38461,
+        "entryChars": 3365,
+        "totalChars": 41826,
+        "modules": 15,
+        "pages": 21
+      },
+      "methodReductionPct": 7.95,
+      "totalReductionPct": 15.74
+    },
+    {
+      "scenario": "婚恋并查天将",
+      "before": {
+        "methodChars": 49010,
+        "entryChars": 7861,
+        "totalChars": 56871,
+        "modules": 17,
+        "pages": 26
+      },
+      "after": {
+        "methodChars": 44063,
+        "entryChars": 3365,
+        "totalChars": 47428,
+        "modules": 17,
+        "pages": 23
+      },
+      "methodReductionPct": 10.09,
+      "totalReductionPct": 16.6
+    }
+  ],
+  "characterPolicy": "Unicode code points after LF normalization; excludes cases/experience/background, not model tokens",
+  "independentPredictionValidation": 0
+}

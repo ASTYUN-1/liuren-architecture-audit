@@ -1,0 +1,431 @@
+{
+  "release": "20261114-tool-reliability-55",
+  "reverse_snapshot_chain": [
+    "liuren-class-selection-62",
+    "liuren-trial-decision-61",
+    "liuren-trial-decision-60",
+    "liuren-trial-decision-59",
+    "liuren-strength-meaning-58",
+    "liuren-class-strength-trial-57",
+    "liuren-class-selection-trial-56"
+  ],
+  "origins": {
+    "opencode.json": "output/liuren-class-selection-trial-56/before/opencode.json",
+    "README.md": "output/liuren-class-selection-trial-56/before/README.md",
+    "目录总索引.md": "output/liuren-class-selection-trial-56/before/目录总索引.md",
+    ".opencode/liuren-active.json": "output/liuren-class-selection-trial-56/before/.opencode/liuren-active.json",
+    ".opencode/oh-my-opencode-slim.jsonc": "output/liuren-class-selection-trial-56/before/.opencode/oh-my-opencode-slim.jsonc",
+    ".opencode/plugins/liuren-adjudication.ts": "output/liuren-class-selection-trial-56/before/.opencode/plugins/liuren-adjudication.ts",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "runtime/liuren/20261114-tool-reliability-55/entry.md",
+    ".opencode/skills/liuren/liuren-cases/SKILL.md": "output/liuren-class-strength-trial-57/before/.opencode/skills/liuren/liuren-cases/SKILL.md",
+    ".opencode/skills/liuren/liuren-extract/SKILL.md": "output/liuren-class-strength-trial-57/before/.opencode/skills/liuren/liuren-extract/SKILL.md",
+    ".opencode/tools/liuren_chart.ts": "output/liuren-class-selection-trial-56/before/.opencode/tools/liuren_chart.ts",
+    ".opencode/tools/liuren_materials.ts": "output/liuren-class-selection-trial-56/before/.opencode/tools/liuren_materials.ts",
+    "docs/本机六壬稳定运行指南.md": "output/liuren-class-selection-trial-56/before/docs/本机六壬稳定运行指南.md",
+    "integrations/codex/daliuren-codex/SKILL.md": "output/liuren-class-selection-trial-56/before/integrations/codex/daliuren-codex/SKILL.md",
+    "integrations/codex/daliuren-codex/references/host.md": "output/liuren-class-selection-trial-56/before/integrations/codex/daliuren-codex/references/host.md",
+    "tools/case_retrieval.py": "output/liuren-class-selection-trial-56/before/tools/case_retrieval.py",
+    "tools/experience_retrieval.py": "output/liuren-class-selection-trial-56/before/tools/experience_retrieval.py",
+    "tools/liuren-adjudication-contract.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-adjudication-contract.mjs",
+    "tools/liuren-adjudication-files.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-adjudication-files.mjs",
+    "tools/liuren-adjudication-output.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-adjudication-output.mjs",
+    "tools/liuren-adjudication-schema.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-adjudication-schema.mjs",
+    "tools/liuren-analysis-route.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-analysis-route.mjs",
+    "tools/liuren-base-index-profile.json": "output/liuren-class-selection-trial-56/before/tools/liuren-base-index-profile.json",
+    "tools/liuren-basic-state-view.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-basic-state-view.mjs",
+    "tools/liuren-basic-states.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-basic-states.mjs",
+    "tools/liuren-bifa-basic-rules.json": "output/liuren-class-selection-trial-56/before/tools/liuren-bifa-basic-rules.json",
+    "tools/liuren-bifa-basic.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-bifa-basic.mjs",
+    "tools/liuren-bifa-statements.json": "output/liuren-class-selection-trial-56/before/tools/liuren-bifa-statements.json",
+    "tools/liuren-bifa-view.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-bifa-view.mjs",
+    "tools/liuren-calendar-v2.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-calendar-v2.mjs",
+    "tools/liuren-chart-view.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-chart-view.mjs",
+    "tools/liuren-codex.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-codex.mjs",
+    "tools/liuren-compute-schema.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-compute-schema.mjs",
+    "tools/liuren-consistency-audit.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-consistency-audit.mjs",
+    "tools/liuren-core-handoff.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-core-handoff.mjs",
+    "tools/liuren-deterministic-calendar.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-deterministic-calendar.mjs",
+    "tools/liuren-deterministic-io.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-deterministic-io.mjs",
+    "tools/liuren-deterministic.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-deterministic.mjs",
+    "tools/liuren-direct.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-direct.mjs",
+    "tools/liuren-engine-shensha.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-engine-shensha.mjs",
+    "tools/liuren-event-positioning.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-event-positioning.mjs",
+    "tools/liuren-flow-control.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-flow-control.mjs",
+    "tools/liuren-local-read.py": "output/liuren-class-selection-trial-56/before/tools/liuren-local-read.py",
+    "tools/liuren-local-strength-profile.json": "output/liuren-class-selection-trial-56/before/tools/liuren-local-strength-profile.json",
+    "tools/liuren-local-strength.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-local-strength.mjs",
+    "tools/liuren-materials.py": "output/liuren-class-selection-trial-56/before/tools/liuren-materials.py",
+    "tools/liuren-method-registry.json": "output/liuren-class-selection-trial-56/before/tools/liuren-method-registry.json",
+    "tools/liuren-method-tools.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-method-tools.mjs",
+    "tools/liuren-palace-strength.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-palace-strength.mjs",
+    "tools/liuren-preflight.py": "output/liuren-class-selection-trial-56/before/tools/liuren-preflight.py",
+    "tools/liuren-quantity-adjustment.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-quantity-adjustment.mjs",
+    "tools/liuren-quantity-review.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-quantity-review.mjs",
+    "tools/liuren-resolved-chart.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-resolved-chart.mjs",
+    "tools/liuren-shensha.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-shensha.mjs",
+    "tools/liuren-source-encodings.json": "output/liuren-class-selection-trial-56/before/tools/liuren-source-encodings.json",
+    "tools/liuren-strength-engine.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-strength-engine.mjs",
+    "tools/liuren-strength-interpretation.mjs": "output/liuren-trial-decision-59/before/tools/liuren-strength-interpretation.mjs",
+    "tools/liuren-strength-profile.json": "output/liuren-class-selection-trial-56/before/tools/liuren-strength-profile.json",
+    "tools/liuren-strength-rules.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-strength-rules.mjs",
+    "tools/liuren-time-evaluation.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-time-evaluation.mjs",
+    "tools/liuren-trial-decision.mjs": "output/liuren-trial-decision-60/before/tools/liuren-trial-decision.mjs",
+    "tools/liuren-workflow.py": "output/liuren-class-selection-trial-56/before/tools/liuren-workflow.py",
+    "tools/liuren-year-life.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-year-life.mjs",
+    "tools/liuren_book_cases.py": "output/liuren-class-selection-trial-56/before/tools/liuren_book_cases.py",
+    "tools/liuren_book_reconstruction.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren_book_reconstruction.mjs",
+    "tools/liuren_book_reconstruction_verify.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren_book_reconstruction_verify.mjs",
+    "tools/liuren_book_search.py": "output/liuren-class-selection-trial-56/before/tools/liuren_book_search.py",
+    "tools/liuren_knowledge_workbench.py": "output/liuren-class-selection-trial-56/before/tools/liuren_knowledge_workbench.py",
+    "tools/liuren_material_scope.py": "output/liuren-class-selection-trial-56/before/tools/liuren_material_scope.py",
+    "tools/liuren_research_overlay.py": "output/liuren-class-selection-trial-56/before/tools/liuren_research_overlay.py",
+    "tools/liuren_retrieval_policy.py": "output/liuren-class-selection-trial-56/before/tools/liuren_retrieval_policy.py",
+    "tools/liuren_workflow.py": "output/liuren-class-selection-trial-56/before/tools/liuren_workflow.py",
+    "tools/load-liuren-methods.py": "output/liuren-class-selection-trial-56/before/tools/load-liuren-methods.py",
+    "tools/load-liuren-procedure.py": "output/liuren-class-selection-trial-56/before/tools/load-liuren-procedure.py",
+    "tools/restore-liuren-local-20261103.py": "output/liuren-class-selection-trial-56/before/tools/restore-liuren-local-20261103.py",
+    "tools/stage-liuren-liqi-20261105.py": "output/liuren-class-selection-trial-56/before/tools/stage-liuren-liqi-20261105.py",
+    "tools/liuren-direct/chart.mjs": "output/liuren-class-selection-trial-56/before/tools/liuren-direct/chart.mjs",
+    "tools/tests/liuren-class-selection-trial.test.mjs": "output/liuren-class-strength-trial-57/before/tools/tests/liuren-class-selection-trial.test.mjs",
+    "tools/tests/liuren-deterministic.test.mjs": "output/liuren-trial-decision-61/before/tools/tests/liuren-deterministic.test.mjs",
+    "tools/tests/liuren-trial-decision.test.mjs": "output/liuren-trial-decision-60/before/tools/tests/liuren-trial-decision.test.mjs",
+    "docs/本机OpenCode完整输出规则.md": "output/liuren-class-selection-trial-56/before/docs/本机OpenCode完整输出规则.md",
+    "docs/本机六壬完整研判流程.md": "output/liuren-class-selection-trial-56/before/docs/本机六壬完整研判流程.md",
+    "docs/本机六壬高效执行.md": "output/liuren-class-selection-trial-56/before/docs/本机六壬高效执行.md",
+    "tools/tests/liuren-palace-strength.test.mjs": "output/liuren-strength-meaning-58/before/tools/tests/liuren-palace-strength.test.mjs"
+  },
+  "implementation_checks": [
+    {
+      "path": "tools/load-liuren-methods.py",
+      "expected": "0a2cbf2fdc2a245357d5e3d2ee6d5422a98ada76bda573bda31c32f9f9a8f802",
+      "actual": "0a2cbf2fdc2a245357d5e3d2ee6d5422a98ada76bda573bda31c32f9f9a8f802",
+      "ok": true
+    },
+    {
+      "path": "tools/load-liuren-procedure.py",
+      "expected": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+      "actual": "d557332ffa67a0406eef9c73429bf083f4eb7bc76598b108716d72e401b90d54",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren_material_scope.py",
+      "expected": "fb57b3b33a2b3be1481d412368a4b2a84b80284a73b68f423a9e6bc0ac8c36e3",
+      "actual": "fb57b3b33a2b3be1481d412368a4b2a84b80284a73b68f423a9e6bc0ac8c36e3",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren_research_overlay.py",
+      "expected": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+      "actual": "e37fb10f294062017ee53d8b85497feb4ea40ca3edda86a54af93ccc4f54dcf1",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-local-read.py",
+      "expected": "d5aef7015d17bab0e8252b8cba7370dfb53d82db110a71ea27a8b6dd719494d9",
+      "actual": "d5aef7015d17bab0e8252b8cba7370dfb53d82db110a71ea27a8b6dd719494d9",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-direct.mjs",
+      "expected": "57bf35e6cc101c499cfc0478a13c0b1e347bb44c6e1682f8fb8371c07cbb02c2",
+      "actual": "57bf35e6cc101c499cfc0478a13c0b1e347bb44c6e1682f8fb8371c07cbb02c2",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-shensha.mjs",
+      "expected": "7f7d6a0e1baa877d72e1bc0aa6c21da198006d2a82074f6695851960b526d087",
+      "actual": "7f7d6a0e1baa877d72e1bc0aa6c21da198006d2a82074f6695851960b526d087",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-adjudication-contract.mjs",
+      "expected": "823aee8f3a96d323e6a2331b8d3590f4ff78860107d24f8902f4469ab9e6d3ff",
+      "actual": "823aee8f3a96d323e6a2331b8d3590f4ff78860107d24f8902f4469ab9e6d3ff",
+      "ok": true
+    },
+    {
+      "path": ".opencode/plugins/liuren-adjudication.ts",
+      "expected": "c58d295ee3eba406ac9d7d06d6acedfec4656300723d4ddcd5ff19e1d2c10398",
+      "actual": "c58d295ee3eba406ac9d7d06d6acedfec4656300723d4ddcd5ff19e1d2c10398",
+      "ok": true
+    },
+    {
+      "path": ".opencode/oh-my-opencode-slim.jsonc",
+      "expected": "0e0e818d4f265a50e0a7465f88d0cf2185691bcdeba7bac1d8c0484a28ac51f2",
+      "actual": "0e0e818d4f265a50e0a7465f88d0cf2185691bcdeba7bac1d8c0484a28ac51f2",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-adjudication-files.mjs",
+      "expected": "8d9b9d7613a5997e03b058f055c74a065dbe2411f7634e339b3e19708156535d",
+      "actual": "8d9b9d7613a5997e03b058f055c74a065dbe2411f7634e339b3e19708156535d",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren_book_search.py",
+      "expected": "aa9f68781067a4f133f94eea122e93337c74a3cdb37e99294555a031b783770e",
+      "actual": "aa9f68781067a4f133f94eea122e93337c74a3cdb37e99294555a031b783770e",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-materials.py",
+      "expected": "66d3b3e33a3e8dafb00950f005b104135f4d2f03bf32b627e24419a4256bb129",
+      "actual": "66d3b3e33a3e8dafb00950f005b104135f4d2f03bf32b627e24419a4256bb129",
+      "ok": true
+    },
+    {
+      "path": ".opencode/tools/liuren_materials.ts",
+      "expected": "c63a91e0b282f88539cc6f839575c3b2ef9ef18c64b65eab633ae7837331d134",
+      "actual": "c63a91e0b282f88539cc6f839575c3b2ef9ef18c64b65eab633ae7837331d134",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-deterministic.mjs",
+      "expected": "58d8ef5be2eaa16804cc828b592b6404e9889b81b3c4d56a7d78c0f6149b77ce",
+      "actual": "58d8ef5be2eaa16804cc828b592b6404e9889b81b3c4d56a7d78c0f6149b77ce",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-deterministic-io.mjs",
+      "expected": "c41801087c780297c3dbc65db0cbd0eb1f18394c4623a0627bdced82baaa323b",
+      "actual": "c41801087c780297c3dbc65db0cbd0eb1f18394c4623a0627bdced82baaa323b",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-deterministic-calendar.mjs",
+      "expected": "506c3f0b4fb170609b5b599cc6ea824497dfad35d9c1db7588e0fe261612bbc1",
+      "actual": "506c3f0b4fb170609b5b599cc6ea824497dfad35d9c1db7588e0fe261612bbc1",
+      "ok": true
+    },
+    {
+      "path": ".opencode/tools/liuren_chart.ts",
+      "expected": "b987e4d471a4c3c22ed7d2b80368b00c92a6a9c102dc03765183fea42ab774cd",
+      "actual": "b987e4d471a4c3c22ed7d2b80368b00c92a6a9c102dc03765183fea42ab774cd",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-compute-schema.mjs",
+      "expected": "6383749d822469f75f917fb200393b2a9d90da2165cfb422f8dc9f494eb72cd2",
+      "actual": "6383749d822469f75f917fb200393b2a9d90da2165cfb422f8dc9f494eb72cd2",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-flow-control.mjs",
+      "expected": "72def3f4fce540c12c10c33e55618a1b34262520dfa3f89dce31e0a91f2423d3",
+      "actual": "72def3f4fce540c12c10c33e55618a1b34262520dfa3f89dce31e0a91f2423d3",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-adjudication-output.mjs",
+      "expected": "45f4089311bcc9a2b331ca3d5d4b2d228dc2d78f25cf437c4dc6ae90bb1964bd",
+      "actual": "45f4089311bcc9a2b331ca3d5d4b2d228dc2d78f25cf437c4dc6ae90bb1964bd",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-event-positioning.mjs",
+      "expected": "00f65d2de69d21a531125fe292d095cb54ae06b0f23bbe0487f765517b6d433b",
+      "actual": "00f65d2de69d21a531125fe292d095cb54ae06b0f23bbe0487f765517b6d433b",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-adjudication-schema.mjs",
+      "expected": "9423f9a11ffd1097477cab0392b99b9cd08bd8dc9e7d24276e8c9737f0dbc3fe",
+      "actual": "9423f9a11ffd1097477cab0392b99b9cd08bd8dc9e7d24276e8c9737f0dbc3fe",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-preflight.py",
+      "expected": "cb8176c70cea9e29bc207a4900ab37275b6d3b017a960fb0c1e47bded17d2541",
+      "actual": "cb8176c70cea9e29bc207a4900ab37275b6d3b017a960fb0c1e47bded17d2541",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-core-handoff.mjs",
+      "expected": "ca689cca468a0f19ca8f091e94e546ea09d645a28a8abb3f313d5d32b0953bee",
+      "actual": "ca689cca468a0f19ca8f091e94e546ea09d645a28a8abb3f313d5d32b0953bee",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-resolved-chart.mjs",
+      "expected": "7c6135ad8e6d5ff9edbee3a5f4cfd122af7098237e1c4c809a0219a9b579ba59",
+      "actual": "7c6135ad8e6d5ff9edbee3a5f4cfd122af7098237e1c4c809a0219a9b579ba59",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-basic-state-view.mjs",
+      "expected": "32665c18f019edb8dc9235206243727ba965ca701bb2e7fedd90a16d5e43bb75",
+      "actual": "32665c18f019edb8dc9235206243727ba965ca701bb2e7fedd90a16d5e43bb75",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-basic-states.mjs",
+      "expected": "036bdb17c7f9b0521a4b7b16c88818636de78b262864af13328789dede919421",
+      "actual": "036bdb17c7f9b0521a4b7b16c88818636de78b262864af13328789dede919421",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-chart-view.mjs",
+      "expected": "0de1ae9f5358e3615bfd6597c90cffd5db6c59571b7dc7ce0f890b0bfb36bb5c",
+      "actual": "0de1ae9f5358e3615bfd6597c90cffd5db6c59571b7dc7ce0f890b0bfb36bb5c",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-base-index-profile.json",
+      "expected": "5ce43e376591417b08186e22cf9998f83ae2a76fd32ec2f910a12228a100308c",
+      "actual": "5ce43e376591417b08186e22cf9998f83ae2a76fd32ec2f910a12228a100308c",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-local-strength.mjs",
+      "expected": "e329d1cd14508b0fca4e2c22c1bdfa663b9a02068c6c95f68092a268fcb315c3",
+      "actual": "e329d1cd14508b0fca4e2c22c1bdfa663b9a02068c6c95f68092a268fcb315c3",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-local-strength-profile.json",
+      "expected": "335f043784df24ec6a415653c1ca7e76ea454517999f769bd56fd77fe86d67cc",
+      "actual": "335f043784df24ec6a415653c1ca7e76ea454517999f769bd56fd77fe86d67cc",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-palace-strength.mjs",
+      "expected": "6e910661725e4e9fb2b7eed79b1e55e364c2edbe390d89fbf9a6f3b227de58d9",
+      "actual": "6e910661725e4e9fb2b7eed79b1e55e364c2edbe390d89fbf9a6f3b227de58d9",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-strength-engine.mjs",
+      "expected": "f2aaeeb796fc7b9d063b911deab1fcadb50fc042d3502affe61bb57ebe44bc8d",
+      "actual": "f2aaeeb796fc7b9d063b911deab1fcadb50fc042d3502affe61bb57ebe44bc8d",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-strength-rules.mjs",
+      "expected": "2b3a5fa5627db6bbf4d002e85b9fbeba24ddf330d0f7ee9b7af0ce5f61cbf8c4",
+      "actual": "2b3a5fa5627db6bbf4d002e85b9fbeba24ddf330d0f7ee9b7af0ce5f61cbf8c4",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-strength-profile.json",
+      "expected": "e2e43e3e6a16532460fc52c5bbfb3f820ede51a39c56b04e3079150466225749",
+      "actual": "e2e43e3e6a16532460fc52c5bbfb3f820ede51a39c56b04e3079150466225749",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-codex.mjs",
+      "expected": "28369f59db78cf3ee4d5ffd33fa9abcda3490c32aa2ce1c91387a81817f67760",
+      "actual": "28369f59db78cf3ee4d5ffd33fa9abcda3490c32aa2ce1c91387a81817f67760",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-calendar-v2.mjs",
+      "expected": "4847a93de740158a3f9720ded4c1649f3adda52403fb82f89fd305466544691d",
+      "actual": "4847a93de740158a3f9720ded4c1649f3adda52403fb82f89fd305466544691d",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-method-tools.mjs",
+      "expected": "99f0f356926b64d5c506a624174b3578bc3d3d62b9f1557afadd1413ac564032",
+      "actual": "99f0f356926b64d5c506a624174b3578bc3d3d62b9f1557afadd1413ac564032",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-method-registry.json",
+      "expected": "0749ae7e9057310cd19ef453ce6de02b88fd79d241b3faa4492b788f1b25b89c",
+      "actual": "0749ae7e9057310cd19ef453ce6de02b88fd79d241b3faa4492b788f1b25b89c",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-time-evaluation.mjs",
+      "expected": "83586f5fd2ff737e2152b2d2e16bd88bc6666a333967234a066c8a823aa8deb1",
+      "actual": "83586f5fd2ff737e2152b2d2e16bd88bc6666a333967234a066c8a823aa8deb1",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-consistency-audit.mjs",
+      "expected": "c463c68484aa4e46400c9b0c850d6502f9c287d7f769d6112677ee4bb06f493c",
+      "actual": "c463c68484aa4e46400c9b0c850d6502f9c287d7f769d6112677ee4bb06f493c",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-bifa-basic.mjs",
+      "expected": "6b1d2d2d8b1961d95844ee7f734dc17f9fbccb16c61e68dd20dbe25dc87bac3d",
+      "actual": "6b1d2d2d8b1961d95844ee7f734dc17f9fbccb16c61e68dd20dbe25dc87bac3d",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-bifa-basic-rules.json",
+      "expected": "dbe39e69368f447b90aa8dc12ddddff47dbb8cc47b3bc8cde26b2948c413c4b7",
+      "actual": "dbe39e69368f447b90aa8dc12ddddff47dbb8cc47b3bc8cde26b2948c413c4b7",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-bifa-view.mjs",
+      "expected": "870f779b0e4505500407993e4cfe4c1f9ebe55f67fbcf26c0dc912d6313f97fe",
+      "actual": "870f779b0e4505500407993e4cfe4c1f9ebe55f67fbcf26c0dc912d6313f97fe",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-bifa-statements.json",
+      "expected": "774f48ba1f08e8b6656e481c541918ab578fc6b4d80f108b5a29e4d456a73cd6",
+      "actual": "774f48ba1f08e8b6656e481c541918ab578fc6b4d80f108b5a29e4d456a73cd6",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-source-encodings.json",
+      "expected": "ccc395a836ccfc40492603c4bcd1b7f7903aaca4482aeede8fa3bbd4820bf7d0",
+      "actual": "ccc395a836ccfc40492603c4bcd1b7f7903aaca4482aeede8fa3bbd4820bf7d0",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-quantity-review.mjs",
+      "expected": "c61b9828cbb582bec5dbf454d361154cc2a3ec86a198a049ab1fbe43d6b37b59",
+      "actual": "c61b9828cbb582bec5dbf454d361154cc2a3ec86a198a049ab1fbe43d6b37b59",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-quantity-adjustment.mjs",
+      "expected": "a9c8816f3728f3271a29cc0254c4798c944f4c26868918b1d1f5896106eff268",
+      "actual": "a9c8816f3728f3271a29cc0254c4798c944f4c26868918b1d1f5896106eff268",
+      "ok": true
+    },
+    {
+      "path": "opencode.json",
+      "expected": "6a780bcce967bb3e30bf3c86e583f1aa98565e4a0f1e35ea00499b8512b73002",
+      "actual": "6a780bcce967bb3e30bf3c86e583f1aa98565e4a0f1e35ea00499b8512b73002",
+      "ok": true
+    },
+    {
+      "path": "integrations/codex/daliuren-codex/SKILL.md",
+      "expected": "36b25fec9cf527ca63ee308a070747acf484792ca86733a62742ff644d30f1bc",
+      "actual": "36b25fec9cf527ca63ee308a070747acf484792ca86733a62742ff644d30f1bc",
+      "ok": true
+    },
+    {
+      "path": "integrations/codex/daliuren-codex/references/host.md",
+      "expected": "64b09a24a81a74681623de426b531e0c8580896fd0926e61f7591b8959b63afd",
+      "actual": "64b09a24a81a74681623de426b531e0c8580896fd0926e61f7591b8959b63afd",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-year-life.mjs",
+      "expected": "70d5dc2b81b447db5c135a87cf8430db3e5a4870ac6748ef0db675dafe903b12",
+      "actual": "70d5dc2b81b447db5c135a87cf8430db3e5a4870ac6748ef0db675dafe903b12",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-direct/chart.mjs",
+      "expected": "831bca6804588fc40840f673c1441ec97f1cc8867b6f480b3639044f5f658c25",
+      "actual": "831bca6804588fc40840f673c1441ec97f1cc8867b6f480b3639044f5f658c25",
+      "ok": true
+    },
+    {
+      "path": "tools/liuren-analysis-route.mjs",
+      "expected": "aaba8215a713c080fb01214698f3cff74e657804ba3c0e7bb1784c427920a31b",
+      "actual": "aaba8215a713c080fb01214698f3cff74e657804ba3c0e7bb1784c427920a31b",
+      "ok": true
+    }
+  ],
+  "all_implementation_hashes_match": true,
+  "skill_recovery_note": "56 before does not contain daliuren Skill; recovered byte-identical original from frozen full55 entry.md, matching pointer skill SHA256."
+}

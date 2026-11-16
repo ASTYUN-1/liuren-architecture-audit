@@ -1,0 +1,8 @@
+EEXIST: file already exists, mkdir 'C:\Users\QLMa_\.config\opencode'
+    path: "C:\\Users\\QLMa_\\.config\\opencode",
+ syscall: "mkdir",
+   errno: -17,
+    code: "EEXIST"
+
+
+Bun v1.3.14 (Windows x64 baseline)

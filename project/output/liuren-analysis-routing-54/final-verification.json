@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "release": "20261112-analysis-routing-54",
+  "method_version": "e8e3311de626dfcc3557593d9e54bf07050ac6ec6f4a4e1ac0ff3c0c980be513",
+  "frozen_parent_files": 135,
+  "backup_files": 154,
+  "runtime_files": 135,
+  "readable_modules": 84,
+  "domains": 17,
+  "U01_U11_unchanged": true,
+  "strength_parameters_unchanged": true,
+  "models_budget_unchanged": true,
+  "installed_skill_synced": true,
+  "case_experience_retrieval_disabled": true,
+  "real_model_calls": 0,
+  "predictive_validation_count": 0
+}

@@ -1,0 +1,830 @@
+{
+  "schema": "staged-chart-unresolved-v1",
+  "count": 21,
+  "cases": [
+    {
+      "id": "raw-qqwb20261018-0001",
+      "filename": "raw-qqwb20261018-0001.md",
+      "shared_original_group": null,
+      "original_time": "未注明",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 1 行（seq=0）detail 字段（mofan 字段为空）",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "6ee55d5fd65ebe3c64cae75e3e8953879ead020af8eb905c03d4d9d09d793f59",
+      "case_file_sha256": "f261e3121b2f0225d959ba5c65fe42f927e78dbe9380e0dc0940a08a3619d1cd",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0002a",
+      "filename": "raw-qqwb20261018-0002a.md",
+      "shared_original_group": "group-qqwb20261018-0002",
+      "original_time": "2023年08月02日(六月十六) 16:35",
+      "normalized_time_field": "2023-08-02 16:35",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2023-08-02",
+        "datetime": "2023-08-02T16:35"
+      },
+      "issues": [
+        "IMAGE_EVIDENCE_INVALID",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 2 行（seq=1）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "2f6c0cbb981e7ab5fefd1e848f9b1311974eb6cc2ecf358d053c28396a7c44ac",
+      "case_file_sha256": "9467d8bc7738d79adf0f39947484fb31d58fe20c75552e62256a4303128d3a57",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0002b",
+      "filename": "raw-qqwb20261018-0002b.md",
+      "shared_original_group": "group-qqwb20261018-0002",
+      "original_time": "2026年07月29日(六月十六) 13:44",
+      "normalized_time_field": "2026-07-29 13:44",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-07-29",
+        "datetime": "2026-07-29T13:44"
+      },
+      "issues": [
+        "IMAGE_EVIDENCE_INVALID",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 2 行（seq=1）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "2f6c0cbb981e7ab5fefd1e848f9b1311974eb6cc2ecf358d053c28396a7c44ac",
+      "case_file_sha256": "839f88655e3022a7d502f669ebf4e0bd563f6b82f4c48cdfdba0afb644ed8102",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0006",
+      "filename": "raw-qqwb20261018-0006.md",
+      "shared_original_group": null,
+      "original_time": "未注明",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 6 行（seq=5）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "4f549c972357e6b790ab51b8cfb03be50d06b1aadde3db4236c6813273802c66",
+      "case_file_sha256": "2d62d82bfb425ecb1df6840e53099296b87419f6e568934488162339f7b7bcd7",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0008",
+      "filename": "raw-qqwb20261018-0008.md",
+      "shared_original_group": null,
+      "original_time": "未注明",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 8 行（seq=7）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "ec0b57b6f83159e608f33edeb46a277d8e4838011b2e9e8f42c78ff9946e16ca",
+      "case_file_sha256": "9945ea4041d92c25edb3d8cd13ce25e6a7829385b3cf57c41a38b02ab02363a8",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0010",
+      "filename": "raw-qqwb20261018-0010.md",
+      "shared_original_group": null,
+      "original_time": "2026年7月25日 16时20分 星期六",
+      "normalized_time_field": "2026-07-25 16:20",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-07-25",
+        "datetime": "2026-07-25T16:20"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/009_1.jpg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\009_1.jpg",
+        "sha256": "eee8f9f2331eff833655997b2e5b69e51430c6d8e14af7f1298173c78ba7e838",
+        "seq": 9,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/009_1.jpg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 10 行（seq=9）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "乙未",
+          "庚午",
+          "甲申"
+        ],
+        "source_month_general": null,
+        "source_chart_description": "四柱：丙午 乙未 庚午 甲申；课体：涉害、斩关、间传、六仪、励德、天网（盘图标注）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "ac01b86e8c10adfead5d34b4fb2a4ab2bdbac6504ec9597d05ee87b891f79045",
+      "case_file_sha256": "f8b72ccf7a67cddf04da39300d2d6fe533d71646934a09d46c783438fd653680",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0012",
+      "filename": "raw-qqwb20261018-0012.md",
+      "shared_original_group": null,
+      "original_time": "2022年05月15日 23时46分(四月十五)",
+      "normalized_time_field": "2022-05-15 23:46",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2022-05-15",
+        "datetime": "2022-05-15T23:46"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/011_1.jpg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\011_1.jpg",
+        "sha256": "0db33cd205414c7c81953266c8e812ef04aadf9597586bf3c67f17a5afd0656d",
+        "seq": 11,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/011_1.jpg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 12 行（seq=11）detail 字段（mofan 字段为空）",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "壬寅",
+          "乙巳",
+          "己巳",
+          "甲子"
+        ],
+        "source_month_general": null,
+        "source_chart_description": "四柱：壬寅 乙巳 己巳 甲子；课体：蒿矢、元胎、斩关、励德（盘图标注）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "38e43bd8ae1ecb08c32bf679e022ac97ef7a050ba12fef801f3dad446b72624d",
+      "case_file_sha256": "216e0291ed13fa24a241930fa6a1d93d996a4053aaf8e41622570f82e5f2dadd",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0024",
+      "filename": "raw-qqwb20261018-0024.md",
+      "shared_original_group": null,
+      "original_time": "2026-10-04(八月廿四) 19:44 (真)",
+      "normalized_time_field": "2026-10-04 19:44",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-10-04",
+        "datetime": "2026-10-04T19:44"
+      },
+      "issues": [
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+      ],
+      "image_evidence": {
+        "file": "pan/023_1.jpg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\023_1.jpg",
+        "sha256": "627562abf77bcd8d5517df1a1a04ca656e42c962e37e2150c9b4e816885e5cd4",
+        "seq": 23,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/023_1.jpg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 24 行（seq=23）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丁酉",
+          "辛亥",
+          "戊戌"
+        ],
+        "source_month_general": null,
+        "source_chart_description": "四柱：丙午 丁酉 辛亥 戊戌；课体：反吟、元胎、斩关（盘图标注）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "5834e3ed63c9507a90c9a2353dbf395140fcf07f71f2d13cf10d91071c5a08d2",
+      "case_file_sha256": "5a204367aadd74ee4543744fb6ea79de95a5ed9cf75f0609f0ae06bbd1fc703b",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0033",
+      "filename": "raw-qqwb20261018-0033.md",
+      "shared_original_group": null,
+      "original_time": "2026-09-26(八月十六) 15:25",
+      "normalized_time_field": "2026-09-26 15:25",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-09-26",
+        "datetime": "2026-09-26T15:25"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/032_1.jpeg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\032_1.jpeg",
+        "sha256": "92c0daf1cfa39ed14bbfeb825f8a846882299998001579d602ae22e33bdd8953",
+        "seq": 32,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/032_1.jpeg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 33 行（seq=32）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丁酉",
+          "癸卯",
+          "庚申"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丁酉 癸卯 庚申；课体 元首、稼穑、斩关；癸卯日第四局；月将巳将，甲午旬辰空",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "2ef53ca162c5431b53ca72c336bd8d697039de88cc0a0cd7eb60dc3dd351a9c2",
+      "case_file_sha256": "a1cc8acab654eecdfdeec96258e7cae14b48a41de2481ef32c021a976b4a3ee7",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0044",
+      "filename": "raw-qqwb20261018-0044.md",
+      "shared_original_group": null,
+      "original_time": "未注明",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 44 行（seq=43）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "14e27952ca01772a5429413bd4442719488685456bb579aae5151e024a9e7bb8",
+      "case_file_sha256": "05d930825fba79e17232af79296f0cdc2d4229f5d6e432deb60c94b23f9bd8a2",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0045",
+      "filename": "raw-qqwb20261018-0045.md",
+      "shared_original_group": null,
+      "original_time": "2026-07-26(六月十三) 15:34（pan/044_2.jpg）；另盘 pan/044_1.jpg 记为 2026-07-26(六月十三) 15:36",
+      "normalized_time_field": "2026-07-26 15:34",
+      "parsed_time": {
+        "precision": "unknown",
+        "date": "2026-07-26",
+        "datetime": null,
+        "issue": "MULTIPLE_TIME_CANDIDATES"
+      },
+      "issues": [
+        "MULTIPLE_TIME_CANDIDATES",
+        "IMAGE_LEDGER_TIME_MISMATCH",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 45 行（seq=44）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "两盘四柱均为 丙午 乙未 辛丑 丙申；pan/044_1 课体 重审、间传、时遁，月将午，甲午旬辰巳空；pan/044_2 课体 战击；pan/044_2 盘面占事「易友占问是否下雨，何时下雨」",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "649d06365b7651f9b2b6a46fd35e6a93a501589811b1fb9e8614e644b2c8cec7",
+      "case_file_sha256": "edd4c170123020a259bf08ffd008f7a0c2e7a7ac546d7c62ac7be59f94799f51",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0048",
+      "filename": "raw-qqwb20261018-0048.md",
+      "shared_original_group": null,
+      "original_time": "2026-09-04(七月廿三) 15:52",
+      "normalized_time_field": "2026-09-04 15:52",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-09-04",
+        "datetime": "2026-09-04T15:52"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/047_1.jpeg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\047_1.jpeg",
+        "sha256": "cfdd5e7ee3c0e0edc7b028158bfb28b6e7619a852c1acf6b532a61175578735b",
+        "seq": 47,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/047_1.jpeg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 48 行（seq=47）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙申",
+          "丙申",
+          "丙申",
+          "丙申"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙申 丙申 丙申 丙申；课体 遥克、弹射、元胎；月将巳，甲戊旬，昼贵；驿马亥；盘面占事「课题是否通过」",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "1ffa74c481dfd8437de26674b0e888de29b5404391b8d7a0967b0cc531784d91",
+      "case_file_sha256": "f93fe338ee52e88772ca0a9b1acf4e24c1fb847e4ce4dcf28b3b846df5c82a40",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0049",
+      "filename": "raw-qqwb20261018-0049.md",
+      "shared_original_group": null,
+      "original_time": "2026-07-27(六月十四) 14:30",
+      "normalized_time_field": "2026-07-27 14:30",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-07-27",
+        "datetime": "2026-07-27T14:30"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/048_2.jpeg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\048_2.jpeg",
+        "sha256": "8749360913c7ea2681b1c3b119bc3bc9ad8c28258a46de2b60ae80080cc4f051",
+        "seq": 48,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/048_2.jpeg）"
+      },
+      "source_settings": {
+        "yuejiang": "日躔换将"
+      },
+      "source_locator": "raw/records.jsonl 第 49 行（seq=48）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "乙未",
+          "壬寅",
+          "丁未"
+        ],
+        "source_month_general": "未",
+        "source_chart_description": "题干「原卦是六爻，我看的时候换成了六壬」，并注「我所用的换将法为日躔换将，这一卦用中气和月合的话，月将为午」；课盘四柱 丙午 乙未 壬寅 丁未；月将未，甲午旬，昼贵；驿马申；课体「伏吟 元胎 励德」；盘面标「已出题」，无所问之事原文",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "8bce941a115fc8c9c59aefd279221bee829cb5dd0daddf219c27e433662f84a8",
+      "case_file_sha256": "037396bb852a9fa239c19c5cd339fcb1caebf56cfaf60c79e3d78befcd1e09a0",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0056b",
+      "filename": "raw-qqwb20261018-0056b.md",
+      "shared_original_group": "group-qqwb20261018-0056",
+      "original_time": "未注明（本子案例对应盘图未确认）",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 56 行（seq=55）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供可明确归属本子案例的课式信息；不得沿用第一题戊寅女的盘面",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "95e11f5e86132388f4507d25bc25b352bc89582f5a4198e1bc1e3e6736a0b414",
+      "case_file_sha256": "f77f736690eb11fac2211dcd6fe1b74e38ef402522d42dac9a490cd66de057be",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0057",
+      "filename": "raw-qqwb20261018-0057.md",
+      "shared_original_group": null,
+      "original_time": "未注明",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 57 行（seq=56）detail 与 mofan 字段（均为空）",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "14e27952ca01772a5429413bd4442719488685456bb579aae5151e024a9e7bb8",
+      "case_file_sha256": "eb9d01efaf24c8a68e48698c474c7f1e986dd81642990c3d3cbe3b7e81d9cd71",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0060a",
+      "filename": "raw-qqwb20261018-0060a.md",
+      "shared_original_group": "group-qqwb20261018-0060",
+      "original_time": "[当代]中国公历纪元2026年 2026年8月28日 9时24分 星期五 七月十六处暑 (正时, 甲戊庚牛羊、卯酉夜、孟仲季、交节换将)",
+      "normalized_time_field": "2026-08-28 09:24",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-08-28",
+        "datetime": "2026-08-28T09:24"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/059_1.jpg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\059_1.jpg",
+        "sha256": "f0345bf81b4e048e8fddf911d2b114deaab9cf4fd3e4dc75ba619260f0cbeb88",
+        "seq": 59,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/059_1.jpg）"
+      },
+      "source_settings": {
+        "yuejiang": "交节换将",
+        "guiren": "甲戊庚牛羊",
+        "shehai": "孟仲季"
+      },
+      "source_locator": "raw/records.jsonl 第 60 行（seq=59）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "戊戌",
+          "己巳"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丙申 戊戌 己巳；旬首甲戌，空亡申酉，月将巳；图上未见课体名；盘面问事原文「xy说她要去看医生，耳朵有点问题，她耳朵咋了？」",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "5a0ef00cc0070d324e7082da4d8a6ccd237c6027bb861931abbe6c2dc9831734",
+      "case_file_sha256": "ac626da923d4bcbc376aeaae9b8cffd72d4ad96ccc9ec9e73ee783782dc81c5e",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0060b",
+      "filename": "raw-qqwb20261018-0060b.md",
+      "shared_original_group": "group-qqwb20261018-0060",
+      "original_time": "未注明",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 60 行（seq=59）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供（本题未附盘图）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "07fce68252e5509ffe352bc682d8f399af754f7f2e7dc1ca82cc83e8bde0c38a",
+      "case_file_sha256": "a2a8af9aaeeaf5a62c64e37bce94a8530308a66d50436a42ff547b2fca0478bc",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0061",
+      "filename": "raw-qqwb20261018-0061.md",
+      "shared_original_group": null,
+      "original_time": "2026-09-14(八月初四) 23:19",
+      "normalized_time_field": "2026-09-14 23:19",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-09-14",
+        "datetime": "2026-09-14T23:19"
+      },
+      "issues": [],
+      "image_evidence": {
+        "file": "pan/060_1.jpeg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\060_1.jpeg",
+        "sha256": "881ddd99a8aa7335441e616d598cbfa13ed6a251f09f544e935e2819bfcdb149",
+        "seq": 60,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/060_1.jpeg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 61 行（seq=60）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丁酉",
+          "壬辰",
+          "庚子"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丁酉 壬辰 庚子；月将巳，甲申旬，午未空；驿马寅、丁马亥、天马申；课体「重审 不备 乱首」；图上无年命、无所问之事",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "b3bc1a3134d7b853dd5f73c9cc74695ea2ac9c8fce6732defd7918a550623f9f",
+      "case_file_sha256": "e1426fbaf7a4784745a14b7165553bfe202d0ae6a702a593805fb7349d4504f7",
+      "staging_only": true,
+      "chart_status": "chart_validation_blocked",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0065",
+      "filename": "raw-qqwb20261018-0065.md",
+      "shared_original_group": null,
+      "original_time": "未注明（盘图仅有日期，原文为「公历：2026年9月5日　阴历：七月廿四」，无时刻）",
+      "normalized_time_field": "不转换",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE",
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW",
+        "IMAGE_LEDGER_TIME_MISMATCH",
+        "TIME_FIELD_SOURCE_MISMATCH"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 65 行（seq=64）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "壬午",
+          "丙午"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丙申 壬午 丙午；「月将:巳将 甲戌旬 申酉空」；课体「元首，退茹，六仪，斩关」；课义「关隔频频，虎戌临身，退求生意，空亡后蹲」；盘面无年命、无所问之事",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "d2ec1e0089d80017dc654e658e2eb3484c53296bdc5b366a4853d193130806e6",
+      "case_file_sha256": "6baab806e2128624518763af8b8ff95c65201e6bceb55ad643f486fe0c53ec26",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0067",
+      "filename": "raw-qqwb20261018-0067.md",
+      "shared_original_group": null,
+      "original_time": "2025年5月14日(四月十七)16:09",
+      "normalized_time_field": "2025-05-14 16:09",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2025-05-14",
+        "datetime": "2025-05-14T16:09"
+      },
+      "issues": [
+        "SPECIAL_DIVINATION_METHOD"
+      ],
+      "image_evidence": {
+        "file": "pan/066_1.jpg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\066_1.jpg",
+        "sha256": "e9268781124a67c1af03734ab54f4183b938865a01b90771263d79ca1c7ee953",
+        "seq": 66,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/066_1.jpg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 67 行（seq=66）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "乙巳",
+          "辛巳",
+          "癸未",
+          "庚申"
+        ],
+        "source_month_general": "酉",
+        "source_chart_description": "四柱 乙巳 辛巳 癸未 庚申；月将酉，盘图注「活时起课 巳时」；下部被裁切，未见图上标注的课体名与所问之事",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "13f601343baca1be2fdc79af0af492aa9e2168ab2f0d581ab811470e6a6bb9f3",
+      "case_file_sha256": "720eba579bece97d2664b8c381bffac246401b4cb430a83cf0ba1e50985712a9",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-qqwb20261018-0069",
+      "filename": "raw-qqwb20261018-0069.md",
+      "shared_original_group": null,
+      "original_time": "2026年09月05日 13时06分(七月廿四)",
+      "normalized_time_field": "2026-09-05 13:06",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2026-09-05",
+        "datetime": "2026-09-05T13:06"
+      },
+      "issues": [
+        "EXPLICIT_TIME_CONVENTION_NEEDS_REVIEW"
+      ],
+      "image_evidence": {
+        "file": "pan/068_1.jpg",
+        "absolute_file": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\pan\\068_1.jpg",
+        "sha256": "74636d75db4f91e3edc3287db64007da9de76870587fab27e68ba24ef5246e7d",
+        "seq": 68,
+        "transcription": "existing_stage1_image_transcription",
+        "time_crosschecked_with_ledger": true,
+        "independently_visually_verified_this_run": false,
+        "declaration": "题干盘图提取（pan/068_1.jpg）"
+      },
+      "source_settings": {},
+      "source_locator": "raw/records.jsonl 第 69 行（seq=68）detail 与 mofan 字段",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": [
+          "丙午",
+          "丙申",
+          "壬午",
+          "丁未"
+        ],
+        "source_month_general": "巳",
+        "source_chart_description": "四柱 丙午 丙申 壬午 丁未；月将巳，空亡申酉；课体「元首，斩关，间传」；课义「阳拱阳神，两贵为邻，辰酉合定，酒色败身」；另标真太阳时 13时15分（未采用）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "f84cd6ae519cc694e1c2ad9697398985acef55663f29b5a1c51f3f76ed943806",
+      "case_file_sha256": "540fe4e50e6b7bb6eb7f10c94085ca358ca8044a5c02feddb5b0330d335566b7",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    }
+  ]
+}

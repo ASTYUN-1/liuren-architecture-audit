@@ -1,0 +1,3022 @@
+{
+  "source_sha256": "5eeb7b3bba2c33b01da4e4c96e485d8be0d1b7eb46f440b41e622b8e4a0174de",
+  "local_books_checked": 119,
+  "engine_records": 69,
+  "exported": [
+    {
+      "index": 0,
+      "id": "28ad1a74635e075400425d6f5eb1df9a",
+      "title": "《六壬三传法详解》",
+      "source_html_sha256": "ea83c40142d9039499c802050ae0b71edf337e7d817d63e15d629a126b0c7426",
+      "text_sha256": "afcbdf07f99d24298af62a76c3f479ce20b5bf78ce8438391bb9193d34ac4bd9",
+      "text_chars": 11341,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-10-30/k9nqvzab4lku194iq2a4eca4ogh0x6ez_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-10-30/qduti5iccyklbeca15oqg94fuwicvqz7_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-10-30/unfqqkjrejgijn6gozyhmhd9a3uw8ccu_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-10-30/uvwlwupbjv1xhcyuq0xklxc8inz982ql_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-10-30/8u9os2oo0pk4i43xqwlom6wk9s4d2ihb_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-10-30/z4mx2eep57l6m1y3zlspkpur2in891i1_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-10-30/8mq9m93m3yxp7ikdf9lljl2pkoml4b7k_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-10-30/bdxlspxnjymcl4gfpjruxjb9iq8ag01e_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-10-30/dp11ny6whjtr8jb1mx5paqigrxj3irmn_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-10-30/8bf7zb9z3aju4pzizsbienshzzrickna_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-10-30/mc5azw5x359yep8r4yynq0w0vdu3v3lq_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-10-30/8989xt3wglicevxfwmcd3jtdnybdpl3u_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-10-30/b8xr0hslaxkxnnzty9mwvmon2roe9nxb_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-10-30/7wrcqwgned33o2tfbtbhwmalg723tvk6_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-10-30/pm7xd5ocsjig0b7piwtknbhhapotze3u_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-10-30/6c2ag42nfqfg8wxid9w9m56fuas2dey9_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-10-30/624sw10rql3d1brdxwzykfaqcb1tobf0_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-10-30/54ma3mhf2prdj1pmlvugl906z0hf4pap_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-10-30/syf70g6dfmm0errm6s7lu74twv7b3mkc_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-10-30/k587jxnb57gpi7ip21en0mqrgkf4yrcz_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-10-30/xqyqypargasj8y6s5q95eq89pynsembc_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-10-30/zdt76qsp3th9lea71g9rlmr9crdypk5l_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-10-30/so9x6ljlip2vork99uq8qr1mk032uwyn_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-10-30/tx355u3uzounn568l4ak69xsacp9riox_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-10-30/3rqb39xima72ghdtvkk8yxzcuyri4xkc_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-10-30/meg3uh5hx2g3fomcux4dh5xno9jbfun3_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-10-30/jmxc7vjlw8in5qokyhc87fngy3ak9pvp_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-10-30/osyttdqcticlehjy1pje1g3xh3u6v00v_.png",
+          "alt": ""
+        },
+        {
+          "index": 29,
+          "src": "./static/cms_updata/2022-10-30/t5v1ur8w879lu5trewjdweuk3nihyo86_.png",
+          "alt": ""
+        },
+        {
+          "index": 30,
+          "src": "./static/cms_updata/2022-10-30/5ngyb9q487xsyuq0oggcbxftmgv0ahh9_.png",
+          "alt": ""
+        },
+        {
+          "index": 31,
+          "src": "./static/cms_updata/2022-10-30/2ftaf8v9x127ygzee10opa5ofcm7vt8r_.png",
+          "alt": ""
+        },
+        {
+          "index": 32,
+          "src": "./static/cms_updata/2022-10-30/6jw61udquj3t6yaepba5wmn5a68efeon_.png",
+          "alt": ""
+        },
+        {
+          "index": 33,
+          "src": "./static/cms_updata/2022-10-30/3hkwpj8ydtfrmfhaqpjmjsk05zyas3l8_.png",
+          "alt": ""
+        },
+        {
+          "index": 34,
+          "src": "./static/cms_updata/2022-10-30/jnqljsrn3g2tg24j1ojy2y1kqqtxsazg_.png",
+          "alt": ""
+        },
+        {
+          "index": 35,
+          "src": "./static/cms_updata/2022-10-30/lu49ae99gkg04a7uc2p84ink2afeon7o_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬三传法详解.txt",
+      "output_sha256": "1af2fb24e17bcdb89cb6c6fd3c4406ff6a88e99d5de0fa8759478569ee433b1f"
+    },
+    {
+      "index": 1,
+      "id": "1f154439635e7bc90048d3610cd6c9d1",
+      "title": "《大六壬毕法案录》",
+      "source_html_sha256": "2b8ee3c8b747bc2d6b9a1648eb7f764b25e4b9c62b1ed48b96ca728103c953fb",
+      "text_sha256": "33935ccf2428b0e41c18a73a0e0fa143cc617e48b6e21a64dacf6b6ead513716",
+      "text_chars": 45752,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/大六壬毕法案录.txt",
+      "output_sha256": "b72018bbe82c9cf5be0779f8f4565307d57b44a082a7d280ddb94e9801384ee3"
+    },
+    {
+      "index": 2,
+      "id": "9c6f30ad635e7dd6003069c75691ae46",
+      "title": "《六壬辨疑》",
+      "source_html_sha256": "38582f45bdc3b867b49e194f4066b3deb1d7eeaf7564cc3e8678d42f6ff0bf11",
+      "text_sha256": "0d9dfaaad392eac30104d0b188eab505f7b295f7c3ba3372834b1bbee3a81ce3",
+      "text_chars": 18011,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬辨疑.txt",
+      "output_sha256": "04354aaca0dc05d2e942264c49f3a57bdf222cb8345ed16ba9ddab876d18ff23"
+    },
+    {
+      "index": 5,
+      "id": "c03e4445635e7e3700709ebb56ebd370",
+      "title": "《大六壬类集》",
+      "source_html_sha256": "6fc1b792ea0add42ad42c5842b61455a09f9bef9f8afed5ec4123d696e9b44b3",
+      "text_sha256": "dd182b09edb1a6681d51308172e78eb5bd86c6ef63a1aeafe645148f7227948d",
+      "text_chars": 9738,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬秘本-清-金正音.txt",
+          "hits": 2,
+          "total": 24
+        }
+      ],
+      "output": "书籍库/排盘引擎内置资料/大六壬类集.txt",
+      "output_sha256": "bd7a16f89920b6a90eb881b221b36a8c859388965041d1e209bc848c310ac226"
+    },
+    {
+      "index": 9,
+      "id": "c03e4445635e7e720070a01e0f1fbf5f",
+      "title": "《大六壬说约》",
+      "source_html_sha256": "78bd81f99c026d5397a79867dd51c02e69362aa5e713adbfd457ed5be760116d",
+      "text_sha256": "1c8216f8ad3cf8143bf8fb15dd2723b4f307dd03704c29ced16e8126461e2919",
+      "text_chars": 17231,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-14/yidosyz4c5q5648lg4v4jd4kfvj5x7xs_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-14/y8dno4x2b9gp3xquaabuwdtyfwldy67c_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/大六壬说约.txt",
+      "output_sha256": "2b4b22547f426e3478f1000b3d233f62d47458a2b5755d1a92a73a863a39e114"
+    },
+    {
+      "index": 11,
+      "id": "ac74c002635e7e8f0047edc31876371a",
+      "title": "《黄帝龙首经》",
+      "source_html_sha256": "ea9f9e47d34edd48c1b6807e6604527a8811837614b0a4f4a4227c9b80c0a1e5",
+      "text_sha256": "981ecc0f35b3203f449839109da66113066f9c3d0f7b6332eac177b075b36f30",
+      "text_chars": 23553,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/黄帝龙首经.txt",
+      "output_sha256": "22bbd31ee0caa43c10f4da03ebb7e9576cceece8dbcb2b824e4e0c12989457b3"
+    },
+    {
+      "index": 14,
+      "id": "28ad1a74635e7f1500454768121bf4dc",
+      "title": "《六壬古占课考》",
+      "source_html_sha256": "226ce79ec24429cddfadf3bb42b51407152e2af74d09acd197528aaf312e260a",
+      "text_sha256": "2f1454fc2e7c13f9982f40f83d7b8ad24d2489d0b21712b11f4af5865163e829",
+      "text_chars": 12588,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-10-31/5eh1xog0o97ocku9rz8aq52ix1l3v2vo_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-10-31/ka0yatcs9do1pp9aobx9jsqt4kkwgl63_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-10-31/bcw732rqugh7foxgfjj39zy0s2opuvlc_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-10-31/0yz3ua77iizee0od00kvyjwsavdzfzus_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-10-31/4tihlnfwdygn3rfk1hze5ckf3eiymu0q_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-10-31/6kn4r26mvlv8te03o6j64ldzru9q1nbf_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-10-31/zwfizl12czhlz0f63xyz2qo3jdkli8o3_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-10-31/942i2dkibllivzzwt9j8knqvzs1er2hp_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-10-31/yy8rfc0gu83zceqkyrhqftkx3v661uq7_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-10-31/a7nl0604n0kxuqxg85g9uk37ekmwzf5a_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-10-31/hffbrqnmkvfugumfkv1sxzf2nvpv7ioi_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬古占课考.txt",
+      "output_sha256": "2d1c5dcf248006c8086f9ad817587ca6e371013a7931d892a44c522880efbf79"
+    },
+    {
+      "index": 15,
+      "id": "eda7dd50635e7f2400593663722006c1",
+      "title": "《六壬五变中黄经》",
+      "source_html_sha256": "0e591637a90eea3b31e16affb97868df26a31a9e74495721a60c6874910eccb2",
+      "text_sha256": "95494b7fef1e8b251bb123dd17892838300cc190dcc99309b256adefebf7d8a0",
+      "text_chars": 14452,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬五变中黄经.txt",
+      "output_sha256": "610b35a448e6fa2cca18026d266f2da9979d61a9694b77c0f3e9700d0ecbf19e"
+    },
+    {
+      "index": 17,
+      "id": "371fb7ad635e80ca003c301728c742f8",
+      "title": "《六壬辑要启蒙》",
+      "source_html_sha256": "da8176d36d49e77222ee749a5c1782d89ad6170c98ae3c2aea89d50179375f28",
+      "text_sha256": "4265b0e45fcb40c4112ac48c774af097bfcba7f4e985d5a1b0614d20623e5786",
+      "text_chars": 35811,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬辑要启蒙.txt",
+      "output_sha256": "b947cc5e045641da0965463b4a9a60bb6ff6983c22ce2d630b6e00bfe1647500"
+    },
+    {
+      "index": 26,
+      "id": "d90a0a75635e823500345599322793ae",
+      "title": "《六壬明鉴》",
+      "source_html_sha256": "d1792c1213ff6ac11e997c43da0cbeda6c01e136e99fb60b5cc58249bdeec3fd",
+      "text_sha256": "5113f36240c65b3948075f239828dc9bd4f91fe1b8c90bdde47741924432f689",
+      "text_chars": 15450,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬明鉴.txt",
+      "output_sha256": "2e5e554530465e904b7880169ece61547d2df5369eed9b9eb36b057e545c7a2d"
+    },
+    {
+      "index": 27,
+      "id": "ab3f0baf635e8346005545355739ae32",
+      "title": "《大六壬探原》",
+      "source_html_sha256": "02bd565d5d4138c9e9f0f060f1866433462074da2844938aba03625040c0239d",
+      "text_sha256": "5730865da6762c8287a8c1a86ec7c6a9a4f6077dab1a09a317809b7ca778e0d8",
+      "text_chars": 69799,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/大六壬探原.txt",
+      "output_sha256": "7b2acd96a97e6292455e1efb7bec6bc9de709e1219e60acc4d78630868d9848a"
+    },
+    {
+      "index": 50,
+      "id": "91de7a616366308a00649649398443b0",
+      "title": "《六壬视斯》",
+      "source_html_sha256": "673f7dc50042434cb7401a1b353a88e5ec1a5c0f0a133d4d70abaceed425472c",
+      "text_sha256": "5973bc32b3c0a69312bd068dc4faf740c6002bd051bfdf6feff26ab1c21dd6be",
+      "text_chars": 21889,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬视斯.txt",
+      "output_sha256": "5e7e5362547de74d427776fcf759bb7e643fb547593d2eba33150c2b2bc94533"
+    },
+    {
+      "index": 56,
+      "id": "0bf1d874636e3c4b009c263a1cc428ac",
+      "title": "《六壬辨疑》卷二",
+      "source_html_sha256": "be1ccf46bbb87c4c0fea73e966479417db4ef9cfb6d8fee38e93e8f09d4c6b28",
+      "text_sha256": "f13e823bb089a2cd74e8b965f10eada8a63a9110e20297cf32ba60810988b785",
+      "text_chars": 17487,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-12/ua2flddmzuuh95ofq8mso4xv30be5jfy_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-12/nxd0uhmg71cb0hk9q30yfk4ruiqyv1ow_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-12/x27p5c9uheenmcojat759iir5dil4cik_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-12/b32rlghhoirchga5w72hmteo408b5rm8_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-12/pjkd0fsz74wl244jaszekr5iaal0h78y_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-12/hjb9sylqf3gm9utceyasd9ukwzvyda6t_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-12/faeogoc3u4v3b5ct714ctok1c4qhufhh_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-12/vme5xe6jz1tqrlubvxbw6ak9qtg7okgl_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-12/id10lf7h22ob86eje9i0duh6ww0yfpbc_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-12/kcm7pr5c3ojhe61xp6nk3pxuohefngy9_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-12/gxkg66qn36monzp47gvdpf7sd23tr9ck_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-12/go1l8k5y2dp3of27sv9zlb0qd816szc6_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-12/eeus8nmxzihyv7z4qns69zop8jq1qyol_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-12/o3sgpt8wz2sjpca78itewlbdatnt8ek8_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-12/hk845lmjoaujy3awnjxpt899awlct6wj_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-12/gu5aqrwjctcmndb3bfcihpklbbzwboin_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-12/ts9re3jk04kij04ofy4b1p1hvxvkydqn_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-12/mhtk91qx7dl0o4mqkacetzif90rwvxz3_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-11-12/zvolhz8tunwkxe0i4w5d25pz0y2bl060_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-11-12/2iqrc50om8xgbdrz7lqfumtpwcfz4dus_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-11-12/qt8bb2hzu7m5debfl1ag3rf6yvb6jpsg_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-11-12/93j1uudjk0vbjroouy2p0f0zxlcacerx_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-11-12/adben5db3yjjd60dc82sirp3pp76kr9r_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-11-12/pnt5oggsaasj04bvq1burkqsllibtjti_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-11-12/cpuhy7x28njud9tkaf9bq842uvqg1jho_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-11-12/gah9yzir57q73v4u3kaeao9313mq581g_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-11-12/epqfxr3jh5jq9dg2u2cvsh0cna1r6qil_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-11-12/tdqzo52juiks06ff3c80u0hhtsf0ftj4_.png",
+          "alt": ""
+        },
+        {
+          "index": 29,
+          "src": "./static/cms_updata/2022-11-12/jv102gxvg4djpmootdlg3m7ojooh353l_.png",
+          "alt": ""
+        },
+        {
+          "index": 30,
+          "src": "./static/cms_updata/2022-11-12/kny2e05johrrufpfvvre8y2jot2jw6t8_.png",
+          "alt": ""
+        },
+        {
+          "index": 31,
+          "src": "./static/cms_updata/2022-11-12/1lowrdjd1mll89gasbso41hp40bxv3wj_.png",
+          "alt": ""
+        },
+        {
+          "index": 32,
+          "src": "./static/cms_updata/2022-11-12/ztp9l97lv85ui7mmej69swaguuovoobh_.png",
+          "alt": ""
+        },
+        {
+          "index": 33,
+          "src": "./static/cms_updata/2022-11-12/z36jel3dfysb8va6vi4ukorwd0j4s1df_.png",
+          "alt": ""
+        },
+        {
+          "index": 34,
+          "src": "./static/cms_updata/2022-11-12/n8caasromhlpubtz8knelifstj4yq6f4_.png",
+          "alt": ""
+        },
+        {
+          "index": 35,
+          "src": "./static/cms_updata/2022-11-12/tlk014599tn8lmuqo3qchyd87zsvpgpk_.png",
+          "alt": ""
+        },
+        {
+          "index": 36,
+          "src": "./static/cms_updata/2022-11-12/iiz87fefdnqmq57j011loy8q62lsiqhp_.png",
+          "alt": ""
+        },
+        {
+          "index": 37,
+          "src": "./static/cms_updata/2022-11-12/3hk1fqbf07lb68pj3bpdh42yzrg3qmu6_.png",
+          "alt": ""
+        },
+        {
+          "index": 38,
+          "src": "./static/cms_updata/2022-11-12/uepdduf9jusd9wslodaeamkvpy6x8xfv_.png",
+          "alt": ""
+        },
+        {
+          "index": 39,
+          "src": "./static/cms_updata/2022-11-12/op8wqlx8mdr9xmxc2u7xtq5tao31re2y_.png",
+          "alt": ""
+        },
+        {
+          "index": 40,
+          "src": "./static/cms_updata/2022-11-12/04z06vjeb16l5cpcozl0lhw62axpmfie_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬辨疑卷二.txt",
+      "output_sha256": "d811606aee8a8de582a32081e3bbfe87aad92caded0501cf948bbe66b9bc2246"
+    },
+    {
+      "index": 57,
+      "id": "a07d7068636e3fc2005f061c02e1c640",
+      "title": "《六壬辨疑》卷三",
+      "source_html_sha256": "425af62dca46ce32d1243abe0c43c0d7e49dfa9a43387074b115de75e3778ab6",
+      "text_sha256": "c0fd8446f11d4a0f68a85ee417c407898b775fd59701852fcc2585e07924b2af",
+      "text_chars": 14951,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-13/hsek8vs90kdc2ucgkjbs9qh0w7clfc9s_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-13/6qdklqbyz1xfhwt19m9fuuob4is60mv6_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-13/zexzrragzfevvn58moz98hae6o6qxga4_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-13/epudh5a68qxp89tyr1ia1ympy9y3zgzx_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-13/2ob6w0nh473ay1golj1olf6agz4nkm9h_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-13/8xfkwfi2t079mzqqasf0rhtb7orpihzh_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-13/h0s9yn5zgaui8e0b7ve11ksglj3uo7qj_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-13/s945tipzovz7lazce7n28f1m7ysi2vc4_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-13/cmaqshvhzukxyw8z13bofjsdifg6k81e_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-13/9pwmalov16qjgdmfh3bo3mtc6evc635l_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-13/9y52csar453sdudy4mumxgkrjc9ofoog_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-13/8j6lu0ovl3ce3tuz4kj6q5rd6isd7665_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-13/d85m00zy4ru4kqln8qj8ikl8dwb13e4o_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-13/g02uzpnswrihxppta9tbtbdnphemb92c_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-13/zeq2l21ottcywwgmd4v93hotlcxw72hi_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-13/i8xp8fqa2tgok7fjimnz6qshy116jav4_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-13/lv74iyiom9nmugbqy598ylkj6o7zicie_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-13/5u93clutka6y8vq1nvcoewtljez39ugf_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-11-13/4hjesz1b64hao1n0r5caevvpsbxa2a8n_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-11-13/xpuqtg4skuik8ymfn2wwaek1j0lw7i1u_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-11-13/8lsowzgda3oddgrsfokpkf6t9mdngv3d_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-11-13/8bg3mid5gfptp5w0y5s9iys03wv21lgq_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-11-13/3ydtdc2iq2hpsedroxgubaekuv5q3yj1_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-11-13/ao09ucwjmo6cfqrrk3u9lkyc7e6dzb3k_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-11-13/27zrtjvp8jq7mzw8vunoucycwwzrpdk3_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-11-13/pln7hsi1xxkwie17myi9qsk8e6hiw7c8_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-11-13/5etk0ptd2jl5ks0smkd1260jn6pry8w5_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-11-13/6ov3nqxe8jutlfg2dibgysa5r44dpfy0_.png",
+          "alt": ""
+        },
+        {
+          "index": 29,
+          "src": "./static/cms_updata/2022-11-13/d77v4yt6rs9nbb3sgip82jsn34t5aha2_.png",
+          "alt": ""
+        },
+        {
+          "index": 30,
+          "src": "./static/cms_updata/2022-11-13/0qjkta1e3qt95mfgk5ev8lfrot7g3jss_.png",
+          "alt": ""
+        },
+        {
+          "index": 31,
+          "src": "./static/cms_updata/2022-11-13/12ztlslhv7ff1qba48qrn7udi5qwydli_.png",
+          "alt": ""
+        },
+        {
+          "index": 32,
+          "src": "./static/cms_updata/2022-11-13/y7oydmdi4rot1u3fz4bhqg4sgqis3ra4_.png",
+          "alt": ""
+        },
+        {
+          "index": 33,
+          "src": "./static/cms_updata/2022-11-13/09mz370ulpiecjxhkb8sdfis27shcxk9_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬辨疑卷三.txt",
+      "output_sha256": "2fb1ce7fc853d35a277fcb789783e36de60b6f5c011f5e5b25e010a740c9835f"
+    },
+    {
+      "index": 58,
+      "id": "04dd9d41636e4015003a325924e57dbf",
+      "title": "《六壬辨疑》卷四",
+      "source_html_sha256": "12b3f706ffef183315e7a10353f436fe57489285833807a8346973c9562a3cde",
+      "text_sha256": "e58d30a0dfaa970b80627b4438d7fb64ab75303e409b8ef66e014b04e12747de",
+      "text_chars": 14574,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-13/du9ixqvcuc82edsrh21pkmv6ckb0ji5i_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-13/81z3qgr42zre60ssmbscabcxe9hjy4d3_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-13/3wugdgo5xwaj43ys2239rs8zc2jz190i_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-13/a3bij0to2naw7bd9wy8ltdrp4vmczk1i_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-13/63syf057u0b6b373vlorswhliu4uk2n6_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-13/dtq613c126aaz347z9uc8valjy7ixq4o_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-13/wto6ul8n5edw4qbz0z9whiub7pv2gpxj_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-13/3n5f8rb9bnh3tzsq0osmhlvryfbwyzxq_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-13/vste8ciw5uvpvkk3p09idm2309bpeeun_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-13/b6vgzcq7uckkctacewcsk73s7gzjduxi_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-13/gefetbk2wut8exnvxlaa8mxgntkl8v3d_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-13/u9fumlbcd497l32078k8iregwd46hllf_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-13/nbtptwisvaaj5cncarz8gp7oei313p9h_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-13/51s1gm7t2mn08yw10o78kvsb4poti8m8_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-13/snzyqr5w0iitbceipuu81rzwi8o7mm1y_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-13/r390u83by1reipsrxcef39jcp0tclwpn_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-13/exp5gn03x0b88l384yumdbn0bid9kq9x_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-13/zp4h8p8n0o8nfgevjjvdacf2alrihalb_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-11-13/2lexiqr5xonxmuzah2hod474bo6vif5g_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-11-13/aouwpmbwpq4z9tw6hrzbrs9p7p91w7b9_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-11-13/1uu3bsda7jijpgarq0a7ykadftjyr72r_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-11-13/x3g4pwopocbqgg2rinlehptc2b4hm60h_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-11-13/qpdg351mrnifaeb2ezilydr0qx9cmuhl_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-11-13/cxsn7k7ydomi8lj5qi1uvmynl028s0ou_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-11-13/gc04girk3xoiumrkm5pgsa57xljg9gwb_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-11-13/n3t7gne10sgoq4xa990hpk8mlj93uhx7_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-11-13/06ttsjp9pv8yp0bpo61wvezlaod9799g_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-11-13/r5zoe5oyo2dmbaep3lgj5qt767l55gix_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬辨疑卷四.txt",
+      "output_sha256": "197a8898620a0efd40696474f777370e0920c9986dc41d9e58bd6baea2c80744"
+    },
+    {
+      "index": 59,
+      "id": "04dd9d41636e402e003a32b75efd7bcf",
+      "title": "《六壬辨疑》卷五",
+      "source_html_sha256": "7f769a8a64c95dfbde95e88be779a9f2d857c35f8fcdf41be15e458feb6aae49",
+      "text_sha256": "74d74df6dfc354dbce3e7dc323d2d97a07762c1e77e30d49c997af7be8449023",
+      "text_chars": 11983,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-13/r45ucahjip9dt6rb4k8k0cxs903b7s90_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-13/2wyulenlglsy92vwg27q82cldycsq8rf_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-13/jgdmcuyy4sog9bbkmzm519h2vivqsjvs_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-13/9vtt1x589yvel3hq0l3eyusg0uaxslga_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-13/zq1mcxfculaibprnuaz9tce8189w4fq4_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-13/c29naqdnvbk4zzmakpsc99avdgbtc73t_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-13/4ng6tyirck6fjcvk5w5nefnla5eg3klb_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-13/4qe7rqv5em4kv4j28f9ttiy4sbmq4stj_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-13/621yxx6fhngcb4knodh2cuymzagdl8il_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-13/d5m280xz4nvf1dj2huue6n9z6dkbu53z_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-13/ghvj7nb0rv7ityii03wh6nk7h4810oaq_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-13/gt6o80i23kh4dvrnkqawr7rbsuzfsl98_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-13/z0w3n10pjuqcd5wkd5e7msweho5drmh5_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-13/qe3shp4n1aprnxqwlfip8kalhaowhf75_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-13/jqly64ci627rh3kwy4jpgnncd562xpze_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-13/ps7953nsibsu8tg0cl3o97c3dwe0kzl4_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-13/jb2lntvoygg4r5dfgqffmvzw24phr02p_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-13/ouw7xm8pskr1yjq49w4hnjam7f2nsrar_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-11-13/fu1q6fwt2a62f3yyy2bhfz2m3bpty5e6_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-11-13/8dwd6slxiw6vc559liyboyxrsxzp6inc_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-11-13/1y302a54es3wv54s9nm3w96mr15biime_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-11-13/8aefqa2mchoylxm66osnspnstl4c0cv8_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-11-13/mp9xh9yh05lno68aiawjqsmcofc8n2rw_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-11-13/9nxpvs6cj873v3sa25zvj3f1571pmb5v_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-11-13/llhg6k8ae1n4m9bt3utj64x908yrdusq_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-11-13/rlehjg3793mq234uxmutybwckbzymftv_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-11-13/k6kdc4tbzcnf24h96q0zrdssam7o4i8c_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-11-13/evbbej33eeen0vtijubadnrsdvpcmy9v_.png",
+          "alt": ""
+        },
+        {
+          "index": 29,
+          "src": "./static/cms_updata/2022-11-13/ihro31abs8k1ct96307n7xwrd4i4yr6d_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬辨疑卷五.txt",
+      "output_sha256": "add97639932a9c6b83c0cbb5814bffb837c93aa46ae43a4a407c39182da5f4fc"
+    },
+    {
+      "index": 60,
+      "id": "28ad1a746371dae900a516594a2f4475",
+      "title": "《大六壬说约》卷中",
+      "source_html_sha256": "587e206a9fcf6f12e6f702cc7c6e2e0c30ab5ac5a67bfcf5a3d5a35b2c75b0c5",
+      "text_sha256": "1d15e44d1916c0242b8021f902da5403d3e0007e6affd348f0824717428625b0",
+      "text_chars": 16115,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/大六壬说约卷中.txt",
+      "output_sha256": "7396af4c32d18d18eed04fb58e3784ff88396715acf2e5da8d0631e1000c4250"
+    },
+    {
+      "index": 61,
+      "id": "371fb7ad6371db0e008f6fa8536f8ac6",
+      "title": "《大六壬说约》卷下",
+      "source_html_sha256": "dd2e7006c7b95baccd93724fe3f81b3c60770125a86e46586950600776a3933f",
+      "text_sha256": "341aee0cac482147fe464170481fbeee8cf328d10173d04bd9419d4e19567f3e",
+      "text_chars": 7009,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [
+        {
+          "path": "书籍库/北海闲人/理法简易.txt",
+          "hits": 20,
+          "total": 24
+        }
+      ],
+      "output": "书籍库/排盘引擎内置资料/大六壬说约卷下.txt",
+      "output_sha256": "c57abbd3120318ed79c986ca2f13a9d5395c5c1e310cbda977fc223c5ea4a716"
+    },
+    {
+      "index": 62,
+      "id": "bf0fecc56371db1d00ab755a47837bb5",
+      "title": "《大六壬说约》卷末",
+      "source_html_sha256": "6d7111874bd88b2b979d09235342423703327ec3feb36a371240d8d0c9a71cff",
+      "text_sha256": "13703799d817e05895aedc514778b1521d2399624375a999a82859a6b57c1b8c",
+      "text_chars": 29079,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-20/pspnj70dbjfbmt63bh7wzse3xhaqecyg_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": "书籍库/排盘引擎内置资料/大六壬说约卷末.txt",
+      "output_sha256": "0ed4ff2f23ac4a6486338f59b38923abd06910b6d24ce4c050265df7fe79b0ac"
+    },
+    {
+      "index": 63,
+      "id": "da7a77c8643e62d20015e0291b345c14",
+      "title": "《壬窍》",
+      "source_html_sha256": "59420bcdb2366b030d183eb73f4d6cbe9b65ded614744126d9754143697fca52",
+      "text_sha256": "34ec8da6eba3d5cac0a7421b7823885ae80f9306ff37f06612fe1bb4b9fb9af2",
+      "text_chars": 156448,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/壬窍.txt",
+      "output_sha256": "95357114f3a7dd9a20154e62129b87873956d9fb0ab83c9c7002ec4a4a278eeb"
+    },
+    {
+      "index": 64,
+      "id": "98a747816443746100059ab548cfe02b",
+      "title": "《六壬运移经》",
+      "source_html_sha256": "bae8c58326e7a5fa8b27d7bbc3d312721ab74dd0a86c4403ea754b302380b1d9",
+      "text_sha256": "3efedd4e4e326e85dc691544fc476942e252ceb9ad4a4bd7d0a86dd026034e9d",
+      "text_chars": 4224,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬运移经.txt",
+      "output_sha256": "21b56cef285943bbfa312a6641914739dadbc01921336257bd294abbf45d41c7"
+    },
+    {
+      "index": 65,
+      "id": "0f9bf1ee649048a80010e4722faab19b",
+      "title": "六壬东方朔射覆",
+      "source_html_sha256": "70ef2d924e79a0f99fb03f36f9bad58c6c3d5ef754bbdb14cb65ab48c7739669",
+      "text_sha256": "ad1d4fad080e735efc942af52d6d17dd120487706b3c10ab2fba62c0b40db7a1",
+      "text_chars": 19399,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/六壬东方朔射覆.txt",
+      "output_sha256": "ab01d081a1794d702e705f1dabe01608603f26f3270162d48de37494b6f5ac23"
+    },
+    {
+      "index": 66,
+      "id": "8de6ebcc650d841c03a6d78851274666",
+      "title": "太上感应篇",
+      "source_html_sha256": "337a63c33a366bb7c5789def6f25a05aed851b6418664344daed39de62e60fcc",
+      "text_sha256": "2e2169d35e01c45b02c3cc825521dac63e7b926b09eb51cb1f2cefc18829bd73",
+      "text_chars": 5127,
+      "images": [],
+      "decision": "export",
+      "existing": null,
+      "basis": "本地文件名、已登记书籍全文及正文取样未发现同书全文；片段引用不作为已有全书",
+      "best_content_matches": [],
+      "output": "书籍库/排盘引擎内置资料/太上感应篇.txt",
+      "output_sha256": "d60c39e041ce7a41915f48d34922d2276becf625738b7774e32123a2f04a0830"
+    }
+  ],
+  "skipped": [
+    {
+      "index": 3,
+      "id": "b17ee42c635e7dea001136556f1cae89",
+      "title": "《大六壬管辂神书》",
+      "source_html_sha256": "7ac22648a2d2f96d633582f26b0eb21098fc485d70dd7bf0075312dc7741787d",
+      "text_sha256": "44379d3396dc32da3f204146e98bc8f81ee0ec58ffaa948ebdaba96ceac22fbb",
+      "text_chars": 18814,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/唐宋/六壬管辂神书-三国-管辂.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬管辂神书-三国-管辂.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 4,
+      "id": "e1b4a816635e7e2b004ab2321a10163b",
+      "title": "《大六壬括囊赋》",
+      "source_html_sha256": "b7fbaece5a168617473fae0b95f62bcb9b937975cb28719739677c5a83078638",
+      "text_sha256": "2cba29a16b8f3455208da5c6eda8449eb550c06407770a1a3034f7dddd3db5d5",
+      "text_chars": 5710,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬括囊赋略疏--.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬括囊赋略疏--.txt",
+          "hits": 24,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/北海闲人 《大六门括囊赋》略疏.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 6,
+      "id": "8655d51b635e7e490055315615edd29d",
+      "title": "《大六壬灵觉经》",
+      "source_html_sha256": "fb364b9b106a26dda557ffcd3b76b62c55ea5e26ee50fec143642e11877d653a",
+      "text_sha256": "c04c96d89e9973a76e9c9f82f31cb4ed8bb9db84762a6637b0bd7ca7c9df47c3",
+      "text_chars": 83469,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬灵觉经--佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬灵觉经--佚名.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 7,
+      "id": "371fb7ad635e7e5b003c28227bdf6b8b",
+      "title": "《大六壬秘本》",
+      "source_html_sha256": "3806e3aad924193ffefc83d4745d4e55f2be52099acdf906f25901cf41af70aa",
+      "text_sha256": "878165895b82cf68405f3ac9cadeb273ecaee87a23de1352d632325ea3c68275",
+      "text_chars": 100906,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬秘本-清-金正音.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬秘本-清-金正音.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 8,
+      "id": "9c6f30ad635e7e6600306b4a184ffe74",
+      "title": "《大六壬苗公射覆鬼撮脚》",
+      "source_html_sha256": "aa4f9cec51db8ff42c511fe60396277141f145576d641754460604cf4ced9852",
+      "text_sha256": "435dae98e0a0902eaecc3363c8ee0eae2ef4e42e59ba86a7607815e9f301c781",
+      "text_chars": 13803,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬苗公射覆鬼撮脚-utf8.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬苗公射覆鬼撮脚--佚名.txt",
+          "hits": 17,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/佚名/六壬苗公射覆鬼撮脚-utf8.txt",
+          "hits": 17,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/理法简易.txt",
+          "hits": 5,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 10,
+      "id": "f80c64da635e7e7f0040a2a421a002c3",
+      "title": "《大六壬玉藻金英》",
+      "source_html_sha256": "8bf2d6cf6d52fda29279a69562f7971872306cb7f6a223ccd77eb4c5b488d6f7",
+      "text_sha256": "c800d2bc7bf7876e2dbb9c872a7b3a7933583210dab33ab55bde1ebd9591eec9",
+      "text_chars": 30919,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/大六壬玉藻金英.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/大六壬玉藻金英.txt",
+          "hits": 22,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 12,
+      "id": "f80c64da635e7e9b0040a2fa71a464e3",
+      "title": "《六壬存验》",
+      "source_html_sha256": "df19e8d02743c1054d89df853d47041a94507292de3eb060e507e7b45ca37246",
+      "text_sha256": "8d880df6ef187bcf676b4c87086b407c9401833d2a8e71c58d5d8f6c85571587",
+      "text_chars": 32036,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬存验-清-吴师青.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬存验-清-吴师青.txt",
+          "hits": 19,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 13,
+      "id": "c658c1c5635e7f010049d4fe49e12888",
+      "title": "《六壬大全》",
+      "source_html_sha256": "1acb971e0584c0bef999b2114b40c157d20a3ffc7d0b89b828afbcaaa6b87eb8",
+      "text_sha256": "a6761d9fa3fc246deff419de80d7595bbc2b23d07312ef7929616eeeb16aa56c",
+      "text_chars": 13679,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-10-31/rj4tzzwan8sbjtps5uhjijptc5vazl6l_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-10-31/9dtrkajt83t03ge1qto4eoxqtb2f1bau_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-10-31/tggw7opstzed04z5liscbyisuhmiww2s_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-10-31/e2dh12msc0kz52wpqcz0akg623lizxn4_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-10-31/w48i2zlw4mhfrc3ykll77atwmfkxckoh_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-10-31/9no3464mxq62bvy9a9mjwwjdumn3mv4p_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-10-31/yx5f245lncef9l3davabnne253nvc8oo_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-10-31/w295e8now4xt2pghp99lfrnffgstbvrz_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-10-31/xb7wi0f4l7yysd6c6s6es2m7lil4xfdt_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-10-31/mh8qgrimvlwtfh8ikfjwbykhs0iwdt79_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-10-31/ytxsdn0zdkjtzxq7288oxx7nka7r2vkv_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-10-31/7cm5cosc8hs1uana0r76v3rzzr7ldws8_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-10-31/xaw007lg3abog8t2vs8wa7nnc8asiwro_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-10-31/jqrp39xfoof3was82a19389sx0u0dsjp_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-10-31/oz7vkyqeljh1q3qy02o7w7q7f919c75p_.jpg",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-10-31/6w2469vicyjj4ku17n1ks9ew55xfshqf_.jpg",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 18,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 12,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 16,
+      "id": "91de7a61635e7fe20041d21f02870ae6",
+      "title": "《六壬粹言》",
+      "source_html_sha256": "1c64e009d319a3536638bd1f122ce1a88c655ebb109a51b87819c11542c12dbf",
+      "text_sha256": "4386e390a77d66492f36fdf09ae87e6699820f715e16ae5b9e456298281b7dcc",
+      "text_chars": 84787,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt",
+          "hits": 16,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 18,
+      "id": "30ed8da3635e80e50037f7db7b2f436a",
+      "title": "《六壬金铰剪》",
+      "source_html_sha256": "098ac795ffe34e98dbbdff799a3401e3a85b58845f08054b88d25fa18a3df9f1",
+      "text_sha256": "b05bf4176b0884e410106af11cbdafb0a090553bc21d85d6e2b5e28f75452e89",
+      "text_chars": 30786,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬金铰剪--徐养浩.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬金铰剪--徐养浩.txt",
+          "hits": 22,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 19,
+      "id": "1f154439635e81290048f28c327bf004",
+      "title": "《六壬经纬》",
+      "source_html_sha256": "2466e924ea4161a58f22984cd693476bec120121c7e233e07e7cf2ab8053d22e",
+      "text_sha256": "02e184d249a4e57daa978ae54e0207763d3f84b8db005148a45f0db40ed840f5",
+      "text_chars": 27406,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬经纬-清-京江铁瓮子.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬经纬-清-京江铁瓮子.txt",
+          "hits": 13,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 20,
+      "id": "a9ad01ce635e8143004b89a1766ccade",
+      "title": "《六壬论命秘要》",
+      "source_html_sha256": "ba130e928c1d2eda07ad7b1ea7aeb17e1e238e4a882872b527534dcb4ce2b0cb",
+      "text_sha256": "539ee5ea18e64e56b97f64a01097095b1b1d16bc38feaf3ee02534e5cc518a17",
+      "text_chars": 8076,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬论命秘要--佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬论命秘要--佚名.txt",
+          "hits": 21,
+          "total": 24
+        },
+        {
+          "path": "书籍库/六壬命法/大六壬终身论命秘要_总论.md",
+          "hits": 7,
+          "total": 24
+        },
+        {
+          "path": "书籍库/六壬命法/六壬推命学.md",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 21,
+      "id": "30ed8da3635e81540037f949413eeeb9",
+      "title": "《六壬神定经》",
+      "source_html_sha256": "969e8014d3dd71bc1fe81f490d17767327399696f1b8044ebf7721af3467f601",
+      "text_sha256": "b057e17265665ea922e9e8835ef5cd4fd096c75bdac6acff57dc1a16811859db",
+      "text_chars": 16092,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/唐宋/六壬神定经-宋-扬维德.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬神定经-宋-扬维德.txt",
+          "hits": 20,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 22,
+      "id": "e09f898e635e81d2005d55ab7e1e9f45",
+      "title": "《六壬银河櫂》",
+      "source_html_sha256": "ba5b15e35371b46734dba0231a62af8bb74135c64cad41b9163dd9f5a070bf07",
+      "text_sha256": "a76bc2494376c3c70cf2d9f7bc7123b7ba35899cc1e2ed44e432339d1e943587",
+      "text_chars": 55102,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬银河櫂-utf8.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬银河櫂-utf8.txt",
+          "hits": 22,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 23,
+      "id": "0e856be3635e81f4000c437244ec49af",
+      "title": "《六壬直指御定》",
+      "source_html_sha256": "de9419274460aa566897bd1ce2834dbc2e5c3558298192d7aae9373caddda1fd",
+      "text_sha256": "991755fbc516d6e791a8600aa22fa0e8d578e0a9408e332e86d4821b2b2d0837",
+      "text_chars": 62637,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+          "hits": 24,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 24,
+      "id": "e707b2f7635e8209004fe8fd6c951783",
+      "title": "《壬归》",
+      "source_html_sha256": "42f840bcb17dea62f3cca45eff4063d24aa19e1ede74c3f5da663095cc6c056d",
+      "text_sha256": "454793c5afebb1f6168feeeba0abbc71dc026e379b895e359fd7b0c5ff69a1cd",
+      "text_chars": 32755,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-04/xq6q4o28gafdl78bt07aedwpb9zry1b7_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-04/ovluc02q9nqs3z7pd0xlthwqnoloxyev_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/壬归.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/壬归.txt",
+          "hits": 20,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/理法简易.txt",
+          "hits": 5,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 25,
+      "id": "ab3f0baf635e821e005540816a1a671d",
+      "title": "《壬学琐记》",
+      "source_html_sha256": "5057b61d89264e7cb2a93b78672deb6b084882775f4f75ae4c47bdcdeabcb53e",
+      "text_sha256": "33c2d6e29e72880b8489509c14d98f87f1f030400de02721e41a0f98d2767264",
+      "text_chars": 18491,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/壬学琐记-清-程树勋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/壬学琐记-清-程树勋.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/北海闲人大六壬指南问答〔完全版〕.txt",
+          "hits": 1,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 28,
+      "id": "be09d2a0635e83a9005c011e27b8a445",
+      "title": "《大六壬集成五要权衡》",
+      "source_html_sha256": "52b5c9e032a1d7724f4deda3d0a6a0a90fd33d005d340a03fbd21e9965d56244",
+      "text_sha256": "ff694af140e8b80de8106cce57f371aeb820928a0ecf5a7759d180f2c9a613d2",
+      "text_chars": 10147,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬秘本-清-金正音.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 29,
+      "id": "8655d51b635e8418005553c36b3f5812",
+      "title": "《大六壬断案》",
+      "source_html_sha256": "eb106f12d7a9117e0caa477d424e99e27598c4e7c4fd13ad4e7c69a05abe6a4e",
+      "text_sha256": "7df71d84e6a063be53a6eba9af0a5bbbbc92843d589d546b443424e82f1f926b",
+      "text_chars": 89374,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "hits": 5,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "hits": 4,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/六壬针见血（全文，有课例）.txt",
+          "hits": 3,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 30,
+      "id": "e1b4a81663632f710061bbb91cf8e54d",
+      "title": "《六壬大全》卷二",
+      "source_html_sha256": "c1219915c4cb292b7bdb2f100916d95c6c8e2897bf08739322959129b15626f2",
+      "text_sha256": "de3ce8d9f05b73da2bd792f0caac7879d3ef11e62c18ed09a869f18ff6708e4d",
+      "text_chars": 24944,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 12,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 10,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 31,
+      "id": "f2db721563632fa6006936905b6533d6",
+      "title": "《六壬大全》卷三",
+      "source_html_sha256": "f3a9dee59a1ad88d5d5a913b3b4095e02eaad534940a04e53d685b4168fcdba1",
+      "text_sha256": "6eeed627889189412c14222cfab7dd3ba91eb78e550cf0a86e05e68ba185c3a1",
+      "text_chars": 24904,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-03/0co3n7tep4ses2mt3ar551csldbvcvjh_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-03/zuf5lqe8h3b231uaewun408ip8pig2cl_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 20,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 18,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 32,
+      "id": "8740f5ad63633004005da1d3381034df",
+      "title": "《六壬大全》卷四",
+      "source_html_sha256": "8055514d94a8e9c63b1abee709a5756f2f099e1f8cc0f754abdf1240cbc555b0",
+      "text_sha256": "9eeeff92ef5ee6f591b2208bb7ccdf5ac93276e865dfa1865179a8794dc1b543",
+      "text_chars": 20092,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-03/xx6izzdpqblbij6h3b444qx6qwvxr2ov_.jpg",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 22,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 22,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 33,
+      "id": "4c3f29d463633076004c39fb78ca4415",
+      "title": "《六壬大全》卷五",
+      "source_html_sha256": "d25e68eca86d7cdadf83c7401d6536f974c25e246679d0be68f40e9d09c171c8",
+      "text_sha256": "5815aa68568d2675585c03ada92cf21bce7947c9fbfbb5188a4ca5e89f375882",
+      "text_chars": 28172,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 24,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 34,
+      "id": "be09d2a0636330d80077fa2560461285",
+      "title": "《六壬大全》卷六",
+      "source_html_sha256": "b6e1c5b8cebb912cd438da04937b8ca054bc73095b9d047b1d5235756d69e322",
+      "text_sha256": "c0254ce6ff7b0f812b8603ec6ae27cb5c4068c09dd00843d7075fc016076b47b",
+      "text_chars": 16444,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 13,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 13,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 35,
+      "id": "52ba22a06363317000611199711c2abb",
+      "title": "《六壬大全》卷七",
+      "source_html_sha256": "bfbee17715f3b919808cb17ba7bf4df99fb40aaffbca7ca00002ceaba6506144",
+      "text_sha256": "6c9b087d1d3c979f0e7721405d62b67b21d6300a818ad5053db753ea2ac0d37a",
+      "text_chars": 27107,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-04/yitzck3xlpf25x8216755c76usqet8eg_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-04/ag5cmdi1z4ucnih3ubs3bpzik9hy55q2_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-04/fdjfpxk95okemr0y9idgun2svkh07mu6_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-04/m8udeft1lkazwjbftcrwma13juvz36rp_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-04/6ha1uj5tqihivp0lo44rz1nh40fvz2qg_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-04/d8tdbqgzerxq8f9xacv9fd3zkawtiewv_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-04/kk3hjgviwsobsfhsrj3bcqavt1tpdpel_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-04/99d62v9h2wjthuvx4jrszqw2gaff32jj_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-04/fu0m9ly1mb1g0zecfe6qeqr2dht463vc_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-04/avkcd0vq0ucidx0kg9oneukfbjh7kakf_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-04/mrqigwy4lpkz90j1d0m41i6q96yhkpti_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-04/axcesq5irjab2cdybcczgi8zsq5hbge9_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-04/kgo69oy85glcx3hugotrcpks3gyn4izo_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-04/ti80l9zbliralr4i7j3utapl94oi4yq3_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-04/nvehz2w6stjsd567oma779fycqxy8ykn_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-04/oxrx2eyl6q9izqw2e62n33h53rcvebzf_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-04/gd0ldnlw8ff2m1rs5l0tljbwdxlrcp10_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-04/jhqri1jav2n57e65fmf6a0qg4oyy7vor_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-11-04/0z9f0i8wlwihhm6sd05gvp9c55t4xwv9_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-11-04/69345acfhzklbb54kwhpm8s6j2nnuvlk_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-11-04/1dmi9rfd75qszmwz7tyz59vr7x4h8lal_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-11-04/ejjso74jwzc8uomae31lddh244w7p18m_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-11-04/ysvktijhlfxyosu5npp058lyp1r4yekn_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-11-04/5sf21i77tlq8p4knpuw4clhizw9p4arm_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-11-04/afww9go41ynf1j6qxxqapo73kkl9jc95_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-11-04/5tujvvrflkfpctfjm1aez617cmxs57ui_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-11-04/fpcxo89w156lfl1yhlq8yljv26qe1p2m_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-11-04/6ucvandx4dq1zvxzrdm0pzmp6uu2qyht_.png",
+          "alt": ""
+        },
+        {
+          "index": 29,
+          "src": "./static/cms_updata/2022-11-04/ubk7hacr21rfy2z0c8xg39o9ywxq7aja_.png",
+          "alt": ""
+        },
+        {
+          "index": 30,
+          "src": "./static/cms_updata/2022-11-04/r3npoogqnnnfu4cdx663f9gzf0knwcm4_.png",
+          "alt": ""
+        },
+        {
+          "index": 31,
+          "src": "./static/cms_updata/2022-11-04/rt1lahymb95p9e11n65r3y0acsqz7b6f_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 20,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 19,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/北海闲人-大六门64课经精讲解注.txt",
+          "hits": 2,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 36,
+      "id": "9890f4c6636331980075a6e53aa575b1",
+      "title": "《六壬大全》卷八",
+      "source_html_sha256": "cb933a24830efd010ddfc217f9b6e67aeab8ab93f101e664a4de2dbe9436c190",
+      "text_sha256": "a4b78b79b5559f1b7f80f9a1e64a714c67bac9c2f5413fde38dccce4cf1ae681",
+      "text_chars": 18741,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-05/lxjb1urv2nc8ej7e3ahcl9dwxg9ie45h_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-05/8r94esq0hzhkjg3mohih4mwbk4nxozkv_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-05/p01qhybc7ma6c4clfmh8vek2g08cz2lh_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-05/dg6mx3cx6u66v66rxvqpc16ai468fl4v_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-05/zbkxepsl99pgx1p078z6qiie6fbr1ksd_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-05/hdq48vkc8db4wj7l0r1wi96e1wd5lgbp_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-05/nwzdas8ma6fp8yb5v26jh10z5vgs003b_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-06/5tsehlysci6e9azden4wgol9j8z3m81z_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-06/ppeo4z7siapyolhu0yoor77kp916dh8t_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-06/v9f2eh7ma60bvlllbafeqerwjolfdvlz_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-06/0w5hwpre10pjy7nl8cdbexkylsm0wpx3_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-06/8loh3w8huglbudk0d18tjbqyto8obdld_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-06/5le4k862kjn558mlpym48qm1fbkw8vjj_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-06/6ts6uw65kkdn1vmqijkrljrbw5g4ie8k_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-06/ug6j90cd94jg45ssm3xjhsv3w0ntclwn_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-06/9agudmigukn3l8egql951j50jw7nui90_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-07/3blgg9xk5m64zyv2y8og8m1htrbu9vnh_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-06/30f428c1cyr3ney78vjdje9srhwh2qcx_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 24,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 37,
+      "id": "bf0fecc5636331d40066784814ca0575",
+      "title": "《六壬大全》卷九",
+      "source_html_sha256": "1c36056c977c82b508862cf73be96bcf513da2e1bf3eb691ececfb72913c4e98",
+      "text_sha256": "b60cddf75d7949efa94b6d24e4ffea5e7f3289bb0443970bf5c936abe483184f",
+      "text_chars": 34314,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-07/o8utocg5t3r00tq2ztunh060frk5l4m4_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-07/fylvfrn2z865i8fbp3tpq6t5ws7cuqrx_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-07/yefuptgyche9hrdt4nerfcf2026ydm9j_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-07/bzchn6ml6dr4pfwa7skrs8etjlqnpmkp_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-07/kipuabtnakosgl5qipmjm0mnxeka8tpg_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-07/r3l4n0nru8fhi0j7twehyajxwkcmkfc8_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-07/7ft0fcp1qjud2rxy53xoqgxlzwlcm6ir_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-07/iibtcmeubobyqrjwljf6fqwtexmpo57i_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-07/rcrzz2itlqjgta46quxiefbmuetgj6uy_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-07/egpb2y5jvlvpwz9ljawyhvwx6npt3axx_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-07/lpahvs9dv5f4yj9250hljwdt0id7jp6d_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-07/wj7uj26fd3r2gqlulq99obfpnt5vfqvk_.png",
+          "alt": ""
+        },
+        {
+          "index": 13,
+          "src": "./static/cms_updata/2022-11-07/1intv8e46cajxkruv5t3un3yfpzpv6co_.png",
+          "alt": ""
+        },
+        {
+          "index": 14,
+          "src": "./static/cms_updata/2022-11-07/b87iey8riiedymmkl6u779r6clxz4bjg_.png",
+          "alt": ""
+        },
+        {
+          "index": 15,
+          "src": "./static/cms_updata/2022-11-07/u03kcew0hd32uwaead3zu8rl3p7rv1dw_.png",
+          "alt": ""
+        },
+        {
+          "index": 16,
+          "src": "./static/cms_updata/2022-11-07/1wkph63mnlcmztotbhmepjamd6f2nefr_.png",
+          "alt": ""
+        },
+        {
+          "index": 17,
+          "src": "./static/cms_updata/2022-11-07/1dsc9ee739pdulcah3gppaufuudvlknn_.png",
+          "alt": ""
+        },
+        {
+          "index": 18,
+          "src": "./static/cms_updata/2022-11-07/6fv7dvrl0wc4ncnofre64aedap8c60ts_.png",
+          "alt": ""
+        },
+        {
+          "index": 19,
+          "src": "./static/cms_updata/2022-11-07/als0m895mghru3ouzmv4tocsyoemdhqr_.png",
+          "alt": ""
+        },
+        {
+          "index": 20,
+          "src": "./static/cms_updata/2022-11-07/2b9vg4gvwcwn6br5w2i72hah1zjujwun_.png",
+          "alt": ""
+        },
+        {
+          "index": 21,
+          "src": "./static/cms_updata/2022-11-07/v9y16lqh7kjho0xnvcfouac85h67k21b_.png",
+          "alt": ""
+        },
+        {
+          "index": 22,
+          "src": "./static/cms_updata/2022-11-07/9e5iwtb0yjyi15t1kck4f0waocitlfxe_.png",
+          "alt": ""
+        },
+        {
+          "index": 23,
+          "src": "./static/cms_updata/2022-11-07/q6b43tzsk4gyjcfbkphr587xeuwqi0mt_.png",
+          "alt": ""
+        },
+        {
+          "index": 24,
+          "src": "./static/cms_updata/2022-11-07/io8olle2ts8z6u3ctazmrjnlswr15zdw_.png",
+          "alt": ""
+        },
+        {
+          "index": 25,
+          "src": "./static/cms_updata/2022-11-07/lpav8gvhuyzpdmeks5vnccfqoxcdfada_.png",
+          "alt": ""
+        },
+        {
+          "index": 26,
+          "src": "./static/cms_updata/2022-11-07/bbu0z4yxi8g5brw98z52naymyl0qd8oi_.png",
+          "alt": ""
+        },
+        {
+          "index": 27,
+          "src": "./static/cms_updata/2022-11-07/2yxermho4wwqrhots7n4ajaawtqynwye_.png",
+          "alt": ""
+        },
+        {
+          "index": 28,
+          "src": "./static/cms_updata/2022-11-07/ry4zp25bbnmjkdnnbvq7uqtja52fj0j6_.png",
+          "alt": ""
+        },
+        {
+          "index": 29,
+          "src": "./static/cms_updata/2022-11-07/mlecf07rfiauqupijxtgfg2crlqj73n8_.png",
+          "alt": ""
+        },
+        {
+          "index": 30,
+          "src": "./static/cms_updata/2022-11-07/1k5slgbo8pjmdauv0cnmf0hefsueu5q6_.png",
+          "alt": ""
+        },
+        {
+          "index": 31,
+          "src": "./static/cms_updata/2022-11-07/botvilqbft6xjcwexsdse9seubpp9vnm_.png",
+          "alt": ""
+        },
+        {
+          "index": 32,
+          "src": "./static/cms_updata/2022-11-07/ut860zn5nycfsnglseugnocq55f2ezht_.png",
+          "alt": ""
+        },
+        {
+          "index": 33,
+          "src": "./static/cms_updata/2022-11-07/xl0e0tdbkw9adybojyfxnjcx4xra2zek_.png",
+          "alt": ""
+        },
+        {
+          "index": 34,
+          "src": "./static/cms_updata/2022-11-07/syh6h5lth0r0ikoupuhs2eda2ur3obty_.png",
+          "alt": ""
+        },
+        {
+          "index": 35,
+          "src": "./static/cms_updata/2022-11-07/v0fn5i7kapi2vrwgs8dtswup54ms0tdd_.png",
+          "alt": ""
+        },
+        {
+          "index": 36,
+          "src": "./static/cms_updata/2022-11-07/zc61tvyfpp0v1mu9wc93vfqr5kx8wnlv_.png",
+          "alt": ""
+        },
+        {
+          "index": 37,
+          "src": "./static/cms_updata/2022-11-07/d7zpsrulpbtxbqshtkloabqj2o9qf0ji_.png",
+          "alt": ""
+        },
+        {
+          "index": 38,
+          "src": "./static/cms_updata/2022-11-07/hvtrhii5nmwplzz2q0ooesr5qqeexq54_.png",
+          "alt": ""
+        },
+        {
+          "index": 39,
+          "src": "./static/cms_updata/2022-11-07/90dz8wh9ksi56cg8fbk8i2ig0hwcke6k_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 18,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 18,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/精校本六壬大全.txt",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 38,
+      "id": "aa9355ef6363321b0007853c47444cd7",
+      "title": "《六壬大全》卷十",
+      "source_html_sha256": "7b88edea6cce3d79c0e33a184a824e1dbc71d6c978d86fc72e118c45df098549",
+      "text_sha256": "771665fdf347026216a99f6ea6c78db697c551f5f173bdf1bce11664b52c9c4c",
+      "text_chars": 25016,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-08/ocfza700i2ncxtxdn4jtdb46f398xjnz_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-08/4dnl5yui9a9l6mb2hengfhkt7e1ey0yu_.png",
+          "alt": ""
+        },
+        {
+          "index": 3,
+          "src": "./static/cms_updata/2022-11-08/8hmq7w9wcxvscqfku54bx98fenrqyz2m_.png",
+          "alt": ""
+        },
+        {
+          "index": 4,
+          "src": "./static/cms_updata/2022-11-08/z8bzgua176h9fz92ts7vpc2lny8w1de5_.png",
+          "alt": ""
+        },
+        {
+          "index": 5,
+          "src": "./static/cms_updata/2022-11-08/pgnwgurxmholriisytm0stk3fry3dhfj_.png",
+          "alt": ""
+        },
+        {
+          "index": 6,
+          "src": "./static/cms_updata/2022-11-08/5kdjfzysblffah20l2znjcpxyvecme9e_.png",
+          "alt": ""
+        },
+        {
+          "index": 7,
+          "src": "./static/cms_updata/2022-11-08/vtj6xf0jmeor3dmojgpstpcnswjwpptx_.png",
+          "alt": ""
+        },
+        {
+          "index": 8,
+          "src": "./static/cms_updata/2022-11-08/au9n8zcvj8j14twrwx2myo82d2xgoqkc_.png",
+          "alt": ""
+        },
+        {
+          "index": 9,
+          "src": "./static/cms_updata/2022-11-08/67jyab0qgc3rz9907uaasm531z4z4vky_.png",
+          "alt": ""
+        },
+        {
+          "index": 10,
+          "src": "./static/cms_updata/2022-11-08/bvitmj9mjdg7gxnutmi2293ags22hjfe_.png",
+          "alt": ""
+        },
+        {
+          "index": 11,
+          "src": "./static/cms_updata/2022-11-08/e6ysrxvajeja990kcpfsgff9sb33686i_.png",
+          "alt": ""
+        },
+        {
+          "index": 12,
+          "src": "./static/cms_updata/2022-11-08/g8c2edelnocg0pmeoyj0t76flkz0bxxp_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 22,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 22,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/北海闲人-大六门64课经精讲解注.txt",
+          "hits": 2,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 39,
+      "id": "be09d2a063633242007817bb71106c70",
+      "title": "《六壬大全》卷十一",
+      "source_html_sha256": "72d3160df324bfa6045a9fe35f04bbd9458b031e7f3a9ea6d2a879a3ec127c7b",
+      "text_sha256": "b1bbe19e3b45ae687dc490933c64853eaf3d8b4e5774765689568175b5adbee7",
+      "text_chars": 26440,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 22,
+          "total": 24
+        },
+        {
+          "path": "书籍库/北海闲人/六壬金针_修正版.md",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 40,
+      "id": "4b8407906363327600065eb254e30fb3",
+      "title": "《六壬大全》卷十二",
+      "source_html_sha256": "d39fff2fb43820ec5d86c95643bdb024962570cd38bcebd485d06fda3b32c663",
+      "text_sha256": "8870363d331f56bfe73281067001fe759aea9da8626e370c8e8d93edc25d5bec",
+      "text_chars": 22518,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 21,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/大六壬毕法赋详解.txt",
+          "hits": 2,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 41,
+      "id": "b17ee42c63633a1b00343b242ea61606",
+      "title": "《御定六壬直指》甲戌旬",
+      "source_html_sha256": "d0c6329218f0af0578a0aa0573dfa76852b64b3b308dcb46ebdbb9bcbff3a4b9",
+      "text_sha256": "8ae5654af731b8bbc4e971bf4395fe66343ba6a2942471a097d000a101d9d332",
+      "text_chars": 60915,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+          "hits": 24,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 42,
+      "id": "0e856be363633a4b0024d03d2543d2a3",
+      "title": "《御定六壬直指》甲申旬",
+      "source_html_sha256": "15a7eff2c60ed850f7eec00dc5809eaf10d7fbab1496d27587b1691a789b7784",
+      "text_sha256": "69b52d26d60dbbdf3519a28d18d8042850139709255d6fc34895e5648bdda45b",
+      "text_chars": 60868,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+          "hits": 24,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 43,
+      "id": "1f15443963633a8d006068a50e609150",
+      "title": "《御定六壬直指》甲午旬",
+      "source_html_sha256": "98ad6d5729cc8f4939ef7f6defa73d37d9e4991be0efd9bae9f89500dd4c666a",
+      "text_sha256": "0fe7e7b2cf096905d7ef0540acdad1ed5498d0b38e9bcd885ec085ced43d46f9",
+      "text_chars": 60750,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+          "hits": 24,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 44,
+      "id": "2fb9e2a663633ac8009b5fe57b358597",
+      "title": "《御定六壬直指》甲辰旬",
+      "source_html_sha256": "bb18a8e4eb54ed24984061958f0a41ce1276d640ef9775f9197a7c2bda962372",
+      "text_sha256": "122b720007b441882a51bfb049b563a5f84171e00a3e38dd1da7f8a0a312395d",
+      "text_chars": 59987,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+          "hits": 23,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 45,
+      "id": "0e856be363633aec0024d3ab73d6fd4a",
+      "title": "《御定六壬直指》甲寅旬",
+      "source_html_sha256": "df807cdc164ba1f95a039f3886ed574b08a7ce61a29a6f0180d6d426c6d6e636",
+      "text_sha256": "e6f8ce5711a99847d9e156f71b94fc1923744ed687f189c45804f16522affbac",
+      "text_chars": 59784,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/清代/六壬直指御定-清-佚名.txt",
+          "hits": 24,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 46,
+      "id": "eda7dd50636374090076147c68ca9b2e",
+      "title": "《六壬军帐赋》",
+      "source_html_sha256": "c95916474450efad6f73e3d90eb41aafcbbbb616bee493b3ee12b76723399705",
+      "text_sha256": "41249d991399aa514e78c4d788875855d7aff125afdf94f2456547ec5f57456f",
+      "text_chars": 7508,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/现代著作/六壬大全（简体版）.txt",
+      "basis": "规范化正文所有取样均匹配本地来源；只作重复筛查，不宣称逐字校勘",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/六壬大全（简体版）.txt",
+          "hits": 24,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬大全-明-郭载騋.txt",
+          "hits": 24,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 47,
+      "id": "c03e44456364ed9e009b75c605477bea",
+      "title": "《六壬神课金口诀古本》",
+      "source_html_sha256": "d8f1f970e526760476a13584b2c3eece4bb818deeec7fd5703cad23413eecee9",
+      "text_sha256": "6325a13fc6b1c1d2d9f8ed8fbd5c03daa1af156c79695a7279aff082a0350584",
+      "text_chars": 36122,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬神课金口诀古本--佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬神课金口诀古本--佚名.txt",
+          "hits": 18,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 48,
+      "id": "8655d51b63660476007fcd9e4c610a8f",
+      "title": "《六壬神课金口诀古本》卷之中",
+      "source_html_sha256": "6d05148e21c1fc0ffaa9c5bb47e385475c0331b65b4f2fff5f978a1f4476a369",
+      "text_sha256": "fcb890666f407c70442be1d4b55cfe5ba237ca3ef7ed7ba6b867c603533f8dbc",
+      "text_chars": 28991,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬神课金口诀古本--佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/佚名/六壬神课金口诀古本--佚名.txt",
+          "hits": 16,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 49,
+      "id": "9890f4c663660afb0086b7a913068d99",
+      "title": "《六壬神课金口诀古本》卷之下",
+      "source_html_sha256": "763167114a214afcf626f2a7765f9aebd5bf18c12616854d5158aefd7a6c251d",
+      "text_sha256": "60f65536f56203cd78e9caff612d415d546edb4540ee0872c9f1c3a38a425f7b",
+      "text_chars": 25842,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/佚名/六壬神课金口诀古本--佚名.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [],
+      "output": null
+    },
+    {
+      "index": 51,
+      "id": "d90a0a75636a4a31006127ce65c04c20",
+      "title": "《六壬指南》卷一",
+      "source_html_sha256": "222f214108c23cd1b615792a1321116168cced0359aec8611893797c25dcc0a0",
+      "text_sha256": "b3414d4effd90c94f813946e3f799996f8707b4cfbeb14ac033e48c74a7a0d52",
+      "text_chars": 19938,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬指南-明-陈公献.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬指南注解-明-陈公献.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/神煞资料/注解大六壬指南.txt",
+          "hits": 19,
+          "total": 24
+        },
+        {
+          "path": "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt",
+          "hits": 5,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 52,
+      "id": "7f1acdb7636a4dcc008af93b2cec8c80",
+      "title": "《六壬指南》卷二  大六壬九天玄女指掌赋",
+      "source_html_sha256": "568ff8de0f7b9723c8afbc9a3bb5cebb536dee57546cd773b6cd42105466ddb2",
+      "text_sha256": "e0caad6ccc8a66010f05e8f5b85b2e0190252027eec5b828336e37e492657975",
+      "text_chars": 17743,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-21/eroy3auyqve025ysuew5eug4uivkdcnc_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-21/no8n5th0ke2slxznaivwqqgibpraveki_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬指南-明-陈公献.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬指南注解-明-陈公献.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/神煞资料/注解大六壬指南.txt",
+          "hits": 21,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬指南-明-陈公献.txt",
+          "hits": 11,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 53,
+      "id": "a54f4529636a4eca00ac8ce558ac2cfc",
+      "title": "《六壬指南》卷三 大六壬会纂占验指南",
+      "source_html_sha256": "2a8ab6bc4b9763031db7d95a19dba791d921c1cb2f771a5fb4b909dae889c10b",
+      "text_sha256": "8ce707d467cbf8c6ff6b201357ae5f221776bfcb73e6d9a43b1df0ace691fa95",
+      "text_chars": 64944,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬指南-明-陈公献.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/神煞资料/注解大六壬指南.txt",
+          "hits": 22,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/明代/六壬指南注解-明-陈公献.txt",
+          "hits": 22,
+          "total": 24
+        },
+        {
+          "path": "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt",
+          "hits": 3,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 54,
+      "id": "8740f5ad636a4f340083ab9401c479af",
+      "title": "《六壬指南》卷四 大六壬神煞指南",
+      "source_html_sha256": "1e86a4566889c9adf60f6f13dab668eee805272b7ad06caf1df19252fde32c7e",
+      "text_sha256": "379523a5b515dd6bb24c266f9a99417fdce45763506ae2f31791bae11a59d76b",
+      "text_chars": 9488,
+      "images": [
+        {
+          "index": 1,
+          "src": "./static/cms_updata/2022-11-21/3zb4oz61tzuntqyry9h8jc109kf51btj_.png",
+          "alt": ""
+        },
+        {
+          "index": 2,
+          "src": "./static/cms_updata/2022-11-21/a7xhuban59rnzsj7o3khp0h0r20henh7_.png",
+          "alt": ""
+        }
+      ],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/明代/六壬指南-明-陈公献.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/明代/六壬指南注解-明-陈公献.txt",
+          "hits": 23,
+          "total": 24
+        },
+        {
+          "path": "书籍库/神煞资料/注解大六壬指南.txt",
+          "hits": 19,
+          "total": 24
+        },
+        {
+          "path": "书籍库/神煞资料/413711725175564精校大六壬指南(珍藏全本).txt",
+          "hits": 4,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 55,
+      "id": "807e0f55636de1e60075fbea7edc54a4",
+      "title": "《一字玉连环》",
+      "source_html_sha256": "ee47c95c948c1f45d1ed428bb54e963ce2f4c0b154175b128100b2a6b530631b",
+      "text_sha256": "a56c59e490127617e127c8ac12c322bf95b6119f3527645e69447aa48934ce6d",
+      "text_chars": 17322,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/唐宋/六壬一字诀玉连环-宋-徐汶滨.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬一字诀玉连环-宋-徐汶滨.txt",
+          "hits": 18,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/献给六壬天一群的六壬笔记-2023年.txt",
+          "hits": 5,
+          "total": 24
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "hits": 2,
+          "total": 24
+        }
+      ],
+      "output": null
+    },
+    {
+      "index": 67,
+      "id": "fd1ab1d5654afc1902072b9711c540d0",
+      "title": "六十四课经",
+      "source_html_sha256": "095edb5637e2e4ddcfa4882580d6dab41d9c1901497d56dc11630716a1e3db95",
+      "text_sha256": "9f01daaab03549b840d6dafed9e8de3afce14bc0e18d1c56a90b7a325a069932",
+      "text_chars": 2088,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/北海闲人/北海闲人-大六门64课经精讲解注.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [],
+      "output": null
+    },
+    {
+      "index": 68,
+      "id": "b83aa8046555e9f502aadf2a0f04d221",
+      "title": "《大六壬心境》",
+      "source_html_sha256": "313e5fba3a9908c16789ae48072821374c488e76d3c73a81fcee9f22af826801",
+      "text_sha256": "02967fbd3eea5628a5064b2b70861879a65a9d43a6834cf643a978dd9aa2199c",
+      "text_chars": 148856,
+      "images": [],
+      "decision": "skip_existing",
+      "existing": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+      "basis": "本地已持有同书或收录该书正文的注本；按用户要求不另出引擎版本",
+      "best_content_matches": [
+        {
+          "path": "书籍库/现代著作/大六壬心镜加排盘（打印）.txt",
+          "hits": 2,
+          "total": 24
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬心镜-唐-徐道符.txt",
+          "hits": 1,
+          "total": 24
+        }
+      ],
+      "output": null
+    }
+  ],
+  "source_and_existing_books_unchanged": true,
+  "active_workflow_changed": false,
+  "images_transcribed": false,
+  "semantic_full_book_review": false
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "20261103-class-mapping-01",
+  "originalMethodBaseline": "20261103-local-restore-01",
+  "change": "定位方法原文完整保留；新增条件另列补充，其余专业模块不变",
+  "originalMethodModules": 50,
+  "semanticValidation": "source and text preservation review",
+  "independentValidation": 0
+}

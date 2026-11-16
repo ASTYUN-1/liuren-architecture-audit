@@ -1,0 +1,32 @@
+{
+  "release": "20261109-consistency-39",
+  "files": {
+    ".opencode/liuren-active.json": "59eab3584a0e8a0fcde296c187f5d9e4db73f3898503ca0297a6ffbdb94450e2",
+    ".opencode/oh-my-opencode-slim.jsonc": "d2408baa1fbe08260e689abf16438be2901a3086c5598cfc6f057895fde78a4f",
+    "opencode.json": "cd02c42604e8d7a92d791c89b81421afa74c7de3345fa02c02cad3c054fe9c03",
+    "tools/liuren-adjudication-contract.mjs": "7ff9dacbfe52d624560c11fb15d97c59fbcb62aa0aba6fa3f474fe7c902e7126",
+    "tools/liuren-adjudication-files.mjs": "15bce1c4f45b41126b714bc96e8a7c94a1a411c2a8c8675a957d855a4d4ed411",
+    "tools/liuren-core-handoff.mjs": "72a4261e31a40e27ca6f02e805f73234e8a61580abcd8b1987009517b525d5ad",
+    "tools/liuren-flow-control.mjs": "1474794cfaad5c75884c965a2463dd71e67983ed28b6888f04a9d50c02e2918f",
+    ".opencode/plugins/liuren-adjudication.ts": "09778eb343eb7f1affe54c64cb378cbec53ec5adf25820527bbe1bdfac413d17",
+    "tools/liuren-codex.mjs": "acd217d0108d920af480c893b5cfdd584e4f62dac36ee3bb3cbbb907f6074af7",
+    "tools/liuren-preflight.py": "28635c891bbc2d736a2f8e9d0b99a734f64ba3356bf8d62ab0eace2cffa768ef",
+    "AGENTS.md": "8d5dbe397c43086ce65bde7168e72e57689f4061ed01d879187115be62bba8fb",
+    "README.md": "7cd6e696ca83527bd2c5645f7ab461c1ee6e52594b1261e3ec50b6a060fa4ea0",
+    "目录总索引.md": "f76606a5cbf85390a4816403d0089dd98df01cf90b1fec07369fc335568e225c",
+    "docs/本机六壬高效执行.md": "1b182ff0b2ef6ab57be1431440d66e22d0a59f816f41d852d63f9fd72f4e8179",
+    "docs/本机六壬稳定运行指南.md": "8fd0b39664190238b4f21336d44bb4decafa63a06798277a8fdb0bc212c0a4c4",
+    "integrations/codex/daliuren-codex/SKILL.md": "5a276bdb203f8041cd5e3430285c1361c61f489921b54ada930d5bdab4651207",
+    "tools/tests/liuren-flow-control.test.mjs": "9d94a77860e86c87d1a825c84dc8554cbe2d5ee13ff637ec98c935497491331d",
+    "tools/tests/liuren-core-handoff.test.mjs": "a6a622d6187aa38095398590b180d60f820f2767d6ba873cae1e3b34176b99cc",
+    "tools/tests/liuren-deterministic.test.mjs": "7f68721a69cd165c9897d7cae50ea2b5044c365edd502f32207226ca6720625f",
+    "tools/tests/liuren-compute-interface.test.mjs": "3309d21c3776a70eefe71f37deac3ee9495572c9052929b6d24bc0bf5ae5144a",
+    "tools/tests/liuren-codex.test.mjs": "558adcf218b480c7661536bc858bacf59152426009caca67a478c841bdbd90a9",
+    "integrations/codex/daliuren-codex/references/host.md": "bda6402928ac931658ecd230b03ee02b018b507310a6f192df3bc83b155608a5"
+  },
+  "added": {
+    "tools/liuren-consistency-audit.mjs": "d16c89839035a6ed3caf2f7f93e9c74f328e0e7ad23c2a1cdc80cdeb3f81ef80",
+    "tools/tests/liuren-consistency-audit.test.mjs": "e6735e0f2455f844884ceabc11d8231519077a11e41d97c4900b5a0405c3393f",
+    "docs/本机六壬一致性核对-39.md": "b8fe35e9fa7a785c9e91766c3f1515a083f1fc1af67dbe5878adb83ccb360953"
+  }
+}

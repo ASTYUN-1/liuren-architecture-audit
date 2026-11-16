@@ -1,0 +1,6 @@
+interface:
+  display_name: "大六壬 · Codex 独立裁决"
+  short_description: "复用本机活动资料，由 GPT-6.1 Sol 高思考独立裁决并完整交付"
+  default_prompt: "使用 $daliuren-codex 按当前本机大六壬工作流程研判，交 GPT-6.1 Sol 高思考子智能体独立裁决。"
+policy:
+  allow_implicit_invocation: true

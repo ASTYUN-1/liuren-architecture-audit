@@ -1,0 +1,68 @@
+{
+  "release": "20261106-event-positioning-15",
+  "runtime": "runtime/liuren/20261106-event-positioning-15",
+  "activeSha256": "c62b2b053b37d2ebcf333275c52682f087fbffc0ced3947db4f4a0326bf5d070",
+  "checks": {
+    "liveFiles": {
+      "count": 23,
+      "mismatches": []
+    },
+    "candidateLiveFiles": {
+      "count": 22,
+      "mismatches": []
+    },
+    "runtimeFiles": {
+      "count": 102,
+      "mismatches": []
+    },
+    "candidateRuntimeFiles": {
+      "count": 102,
+      "mismatches": []
+    },
+    "parentRuntimeFiles": {
+      "count": 100,
+      "mismatches": []
+    },
+    "backupFiles": {
+      "count": 22,
+      "mismatches": []
+    },
+    "activeImplementationFiles": {
+      "count": 22,
+      "mismatches": []
+    },
+    "doctorBaselineErrorUnchanged": true,
+    "wireImplementationMatch": true
+  },
+  "nodeTests": {
+    "passed": 132,
+    "failed": 0
+  },
+  "singleMethodTests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "additionalLegacyPythonSuite": {
+    "tests": 15,
+    "failures": 1,
+    "errors": 6,
+    "status": "known-baseline-test-gaps"
+  },
+  "skillQuickValidate": "unavailable-missing-PyYAML",
+  "globalDoctorOk": false,
+  "externalModelCalled": false,
+  "predictiveValidationCount": 0,
+  "restartOpenCodeRequired": true,
+  "evidenceSha256": {
+    "acceptance-tests.log": "14e847c608ba71285b31e7f5f05c6d1fd663b18db04d104f5ab35c2768e6289b",
+    "single-method-tests.log": "00e34f4940acb14c4754a6f9ec8478c6f1256d7ce3b969947245706cb81ffe20",
+    "loader-tests.log": "cb3f5fcc53911d33bb660a60117df318e9a98245e6178da889dce91ee2b37314",
+    "doctor.json": "0ca90ef211630a4c4cc4de06378465bd2b0e1bbb1496c2514c933836d65abdca",
+    "current-wire.json": "eb239fbee3792fedb545547068e83bbd2e9f25783e422042191f0c083f17ace0",
+    "revision-map.json": "d8722a25fa27633f22474793d86b32eaa826065fd53bb2c229ed4803ab6d6ecb",
+    "activation-receipt.json": "13ad97a6795c1daaf370c0c4d949993b8ccb36b3d5137fca43eca2cb67fa42aa",
+    "candidate-manifest.json": "a861c05f8685b650a7fff63753e2c4b2276a25de52290f3ed13cf0ba9ff22f1c",
+    "整改与验收说明.md": "70f9595a7ff67d160353b4c2a43589eedd05d923d58930b1090ada188fc12961",
+    "finalize_acceptance.py": "15d257dad723b8cc01f3bf0d462fe6117bb50ca00107b923a1eb8f75b66727e8"
+  }
+}

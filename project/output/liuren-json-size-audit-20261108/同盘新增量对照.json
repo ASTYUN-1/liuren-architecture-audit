@@ -1,0 +1,159 @@
+{
+  "measurement": "Characters and UTF8 bytes; NOT measured model tokens",
+  "same_chart_tool": {
+    "previous": {
+      "characters": 27289,
+      "utf8_bytes": 33235
+    },
+    "current": {
+      "characters": 45541,
+      "utf8_bytes": 55041
+    },
+    "current_fields": {
+      "ok": {
+        "characters": 4,
+        "utf8_bytes": 4
+      },
+      "schema": {
+        "characters": 25,
+        "utf8_bytes": 25
+      },
+      "adapter_version": {
+        "characters": 20,
+        "utf8_bytes": 20
+      },
+      "input": {
+        "characters": 203,
+        "utf8_bytes": 235
+      },
+      "facts": {
+        "characters": 4535,
+        "utf8_bytes": 6411
+      },
+      "validation": {
+        "characters": 1925,
+        "utf8_bytes": 2509
+      },
+      "conventions": {
+        "characters": 911,
+        "utf8_bytes": 1043
+      },
+      "provenance": {
+        "characters": 316,
+        "utf8_bytes": 316
+      },
+      "archive": {
+        "characters": 311,
+        "utf8_bytes": 357
+      },
+      "elapsed_ms": {
+        "characters": 3,
+        "utf8_bytes": 3
+      },
+      "field_notes": {
+        "characters": 251,
+        "utf8_bytes": 533
+      },
+      "legacy_archive": {
+        "characters": 284,
+        "utf8_bytes": 330
+      },
+      "engine_version": {
+        "characters": 33,
+        "utf8_bytes": 33
+      },
+      "engine_corrections": {
+        "characters": 467,
+        "utf8_bytes": 515
+      },
+      "shensha_resolution": {
+        "characters": 6057,
+        "utf8_bytes": 7779
+      },
+      "shensha_archive": {
+        "characters": 229,
+        "utf8_bytes": 275
+      },
+      "basic_state_status": {
+        "characters": 10,
+        "utf8_bytes": 10
+      },
+      "basic_states": {
+        "characters": 14612,
+        "utf8_bytes": 17764
+      },
+      "basic_state_archive": {
+        "characters": 4,
+        "utf8_bytes": 4
+      },
+      "program_facts": {
+        "characters": 15027,
+        "utf8_bytes": 16561
+      }
+    }
+  },
+  "same_packet_core": {
+    "old": {
+      "characters": 23365,
+      "utf8_bytes": 38645
+    },
+    "current": {
+      "characters": 34415,
+      "utf8_bytes": 52639
+    },
+    "current_sections": {
+      "policies": {
+        "characters": 468,
+        "utf8_bytes": 486
+      },
+      "xun": {
+        "characters": 145,
+        "utf8_bytes": 201
+      },
+      "anchors": {
+        "characters": 67,
+        "utf8_bytes": 75
+      },
+      "table_legend": {
+        "characters": 345,
+        "utf8_bytes": 615
+      },
+      "basic_states": {
+        "characters": 6225,
+        "utf8_bytes": 8417
+      },
+      "nodes": {
+        "characters": 9845,
+        "utf8_bytes": 11653
+      },
+      "stems": {
+        "characters": 641,
+        "utf8_bytes": 875
+      },
+      "structure": {
+        "characters": 320,
+        "utf8_bytes": 362
+      },
+      "shensha": {
+        "characters": 3066,
+        "utf8_bytes": 4630
+      },
+      "calculations": {
+        "characters": 2,
+        "utf8_bytes": 2
+      },
+      "special_requirements": {
+        "characters": 2,
+        "utf8_bytes": 2
+      },
+      "warnings": {
+        "characters": 2,
+        "utf8_bytes": 2
+      },
+      "limits": {
+        "characters": 235,
+        "utf8_bytes": 235
+      }
+    }
+  }
+}

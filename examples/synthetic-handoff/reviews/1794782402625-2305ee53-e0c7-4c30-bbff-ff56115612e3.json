@@ -1,0 +1,68 @@
+{
+  "review": {
+    "report_sha256": "2803af849421cbf7ff5867a0d1ea5d6105a822eee0ed5bdf80606cdbeaab520b",
+    "checks": [
+      {
+        "check": "input_fidelity",
+        "status": "checked",
+        "report_quote": "# 工程传输验收\n\n只验证宿主、完整核心、绑定参考与报告保存。\n不作天气或录用预测。\n",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "role_stage_consistency",
+        "status": "checked",
+        "report_quote": "# 工程传输验收\n\n只验证宿主、完整核心、绑定参考与报告保存。\n不作天气或录用预测。\n",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "calculation_scope",
+        "status": "checked",
+        "report_quote": "# 工程传输验收\n\n只验证宿主、完整核心、绑定参考与报告保存。\n不作天气或录用预测。\n",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "counterevidence",
+        "status": "checked",
+        "report_quote": "# 工程传输验收\n\n只验证宿主、完整核心、绑定参考与报告保存。\n不作天气或录用预测。\n",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "answer_constraints",
+        "status": "checked",
+        "report_quote": "# 工程传输验收\n\n只验证宿主、完整核心、绑定参考与报告保存。\n不作天气或录用预测。\n",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      }
+    ]
+  },
+  "check": {
+    "ok": true,
+    "issues": [],
+    "unresolved": []
+  },
+  "report_sha256": "2803af849421cbf7ff5867a0d1ea5d6105a822eee0ed5bdf80606cdbeaab520b"
+}

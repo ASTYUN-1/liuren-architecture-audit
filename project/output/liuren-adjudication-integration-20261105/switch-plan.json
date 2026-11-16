@@ -1,0 +1,397 @@
+{
+  "schema": "liuren-release-switch-v1",
+  "release": "20261105-adjudication-01",
+  "previousRelease": "20261105-restructure-01",
+  "methodVersion": "56deba0ca86415f0425dbe64c27bddad6d37a277bf4959f8c8b9d44193985576",
+  "runtime": "runtime/liuren/20261105-adjudication-01",
+  "previousRuntime": "runtime/liuren/20261105-restructure-01",
+  "oldRuntimeHashes": {
+    "runtime/liuren/20261105-restructure-01/coverage.json": "a369af29dfe8cf80c10d4003e4eeb4b2f1c381bf00bab24eb3ae2e9a7039c3c2",
+    "runtime/liuren/20261105-restructure-01/entry.md": "054ca1ec55c1c6775abda4e5727d9aaca672f9025c26f265858f2acf2285f1fe",
+    "runtime/liuren/20261105-restructure-01/integration-map.json": "d03e86bf2dda8e11ad1a7ac211fc92c97e31d3cde97fa22de30ac8a1f034cdf4",
+    "runtime/liuren/20261105-restructure-01/loader-contract.json": "c55ec5ec761d96b3590f722616cb8b6be236a2ea33e0eb5020c9952890c812e9",
+    "runtime/liuren/20261105-restructure-01/manifest.json": "e282bfd7a1951d6599a6cbce432859e802cc21c1079f5f69b00af0045255802f",
+    "runtime/liuren/20261105-restructure-01/mapping-preservation.json": "2a172035e61f93d1cc2c2eb068316b33dfceb3f2d4dd139505f52233687d08d7",
+    "runtime/liuren/20261105-restructure-01/mapping-source-map.json": "4f4598c7e82ed2a95e63efa21c4c3f5c69d3e2e4123a60c3e689cdaf79f05e63",
+    "runtime/liuren/20261105-restructure-01/reading-route.json": "4db6fc42174345177ecb94ef7eee17883eaca5624bf8dd57cbac53b41a8bb853",
+    "runtime/liuren/20261105-restructure-01/seed-receipt.json": "142cebf455649e8af99bb1f778aba4b287f689dea612393edb5b2874fd3564da",
+    "runtime/liuren/20261105-restructure-01/source-read-map.json": "fc4f8a94a72e88145cd170a6a5fd57b9f82c418faf6a6ae8e6d78a455087bd7e",
+    "runtime/liuren/20261105-restructure-01/details/risk.md": "cd5acaa779369de141eb8585f66c4407606777760479ecd2ba6e7c1ec89247d1",
+    "runtime/liuren/20261105-restructure-01/details/shensha-tradition.md": "370562ff4e92905e8347c9f62ec710c72160416f430927fc2c0127afa301a6b4",
+    "runtime/liuren/20261105-restructure-01/domains/agriculture.md": "24cd5b367e354dfb4ac71148ff88618c58b36dcb478770122f080b605444470c",
+    "runtime/liuren/20261105-restructure-01/domains/classical-conflict.md": "63287a0a1b3fa3e9a259788ec38597e63fe5884d9030a0c7b8291455db768167",
+    "runtime/liuren/20261105-restructure-01/domains/exam.md": "4ca1c1980048b9d526bf99ea55d3a19d5733a1f1cb083216a9e9c9e90130b79c",
+    "runtime/liuren/20261105-restructure-01/domains/finance.md": "69f5d47be8c0a8e46588d6bcc85228329a34041087e41efd8394a68ba208e0aa",
+    "runtime/liuren/20261105-restructure-01/domains/home.md": "e0da99d988edad90f7b548553f90c3ac99dc1d53ad60fb62f11f9a417ab2c798",
+    "runtime/liuren/20261105-restructure-01/domains/illness.md": "aec7bec17dfde55b29924292e747b20b997b11f110d459dd46bb358104cc33e7",
+    "runtime/liuren/20261105-restructure-01/domains/interpersonal.md": "f3a1df48f39d4b35320f1cdbb2e2245b540374821b5f217240e3e49dbd960801",
+    "runtime/liuren/20261105-restructure-01/domains/long-period.md": "c3e5282f920e9b99a5fe86228ae25665592bb4f7b57618e5563537a8bc4bf550",
+    "runtime/liuren/20261105-restructure-01/domains/lost-person-object.md": "a371b1c0a72b67efa9e4117457b1172c37eafda43a844c82d01f19e182a50eb9",
+    "runtime/liuren/20261105-restructure-01/domains/period-outlook.md": "432ee14749c535193121f3937423e0d310c7bb061ca69e6ae8a4083f2354b973",
+    "runtime/liuren/20261105-restructure-01/domains/pregnancy.md": "fe303e73a303b0574d233ebe2cd274d5186cd03376fb502c745456d3e3c065dc",
+    "runtime/liuren/20261105-restructure-01/domains/promotion-salary.md": "9402b198f12c7e7a1d556d3de91d644797a14289c10e332c1e0b49e8eb32d782",
+    "runtime/liuren/20261105-restructure-01/domains/recruitment.md": "ac58cbd3796905757df6d134811154ea187ed523ef80de90488251803f701596",
+    "runtime/liuren/20261105-restructure-01/domains/relationship.md": "96bac4bea5e623f0a0a70446096c3aa5e4e552db626df0f07f78293ef16e7f6d",
+    "runtime/liuren/20261105-restructure-01/domains/travel.md": "9d31c5d570baba8c4802f71786ed11246162dda5eb6bf508e64eb43395d969b3",
+    "runtime/liuren/20261105-restructure-01/domains/weather.md": "b1c67d25de3cc29c9c78100494cc7d0edeb3ea4c5cc684c3ced7614d20a035ad",
+    "runtime/liuren/20261105-restructure-01/methods/adjudication.md": "2105169d8b599956542d83c8194cee0b8f78114aa94a90e4eac434b688539b15",
+    "runtime/liuren/20261105-restructure-01/methods/class-mapping.md": "3e252c9ccba0f81306d6395a92a652ff549c46ac96a0989558cf909269ae1a48",
+    "runtime/liuren/20261105-restructure-01/methods/evidence.md": "7af053b456b2cb2bbd989b217cb929991e58672b9880c5b7d177f24d26e0bd8b",
+    "runtime/liuren/20261105-restructure-01/methods/liqi.md": "194afb178add0455b12c0a78dcf9cf3f281b5949c2ae285ef5efaf6f7bd01f4e",
+    "runtime/liuren/20261105-restructure-01/methods/movement.md": "e4f656afddceb758f7566f19dc350ce654322b24625ac050a34a66f3ce6f3399",
+    "runtime/liuren/20261105-restructure-01/methods/positioning.md": "3bbc97aa917b986045fc4288ea3af891b7284680620109677161be94431ce103",
+    "runtime/liuren/20261105-restructure-01/methods/quantity.md": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0",
+    "runtime/liuren/20261105-restructure-01/methods/relations.md": "db6f2bd2ebc70cf807da005a24ffae71652e7f1d0c2d19fec35e6545227e4e01",
+    "runtime/liuren/20261105-restructure-01/methods/report.md": "57d61fea007d2c6471f48673a660bf8beda3f570790147087aeffbdbd5758b06",
+    "runtime/liuren/20261105-restructure-01/methods/shenjiang-use.md": "8009b8f3d37b95cb80be136e8ee8bf6dde4d38876eabf2b8a32bcf94fb73bdae",
+    "runtime/liuren/20261105-restructure-01/methods/structure.md": "4eaaec7e19aa6db6b6fc408051ea4b3d4f15cbed966ce7d225c7afc808a7cbd7",
+    "runtime/liuren/20261105-restructure-01/methods/timing.md": "8a2787b79f1262cd90ad12eaa560a0dfcc177f60666614597ba5cfe077540784",
+    "runtime/liuren/20261105-restructure-01/methods/void.md": "09ef32d5f0b6f60bae44785ab8674bbd7313f6abf4399a54f480baa1c74b766e",
+    "runtime/liuren/20261105-restructure-01/methods/workflow-contract.md": "8c0fbec8297cc84c68425824027e0da5d563c6f072968f3352afcc89b1b52351",
+    "runtime/liuren/20261105-restructure-01/procedures/liuren-cases.md": "c12208a67aa6ea515757280d44cdf8fad830678b9f82dab92c44540924ae85b3",
+    "runtime/liuren/20261105-restructure-01/procedures/liuren-extract.md": "d1021046998c7a996cf6570477da9e1fe79582017ec88292cfdbc912d3b0b449",
+    "runtime/liuren/20261105-restructure-01/references/adjudication-method-conditions.md": "d411fd035d35f6a5aa694437fb65dc1575c47d230df3c711391f8c95c13562ec",
+    "runtime/liuren/20261105-restructure-01/references/bashajiubao.md": "bc98b9f898b6a78be1bad9946122611750802f3b77f50e8867bd40951eb59c79",
+    "runtime/liuren/20261105-restructure-01/references/beihai-extend-sop.md": "074f94facf492c38312dfc997842ccc2c04f27576ba1e57462c345a25d275528",
+    "runtime/liuren/20261105-restructure-01/references/bifa.md": "fd54b0c6025d3df8832c42c68513b5cc0b7d5a380b5c02cda1085fff02bba215",
+    "runtime/liuren/20261105-restructure-01/references/blade-methods.md": "23687e614c7f5d275e3e332177d933ace8ee505d3e1feb8c0156fb0efd9e03d0",
+    "runtime/liuren/20261105-restructure-01/references/case-retrieval-v2.md": "981444d599730f160b86b520366741a11216b12fdfc2bd3b2e1e0c8e11543a84",
+    "runtime/liuren/20261105-restructure-01/references/core-revision-provenance.md": "ae8f56ee91a18c193379c4fcd3015c9040ac17b44eed2c7316adcf4a19349b89",
+    "runtime/liuren/20261105-restructure-01/references/daliuren-paipan.md": "ce2ae6a4d4a0c7d03c0a423a5eb3c65121f16efd5521257d8bda85df19521b61",
+    "runtime/liuren/20261105-restructure-01/references/daliuren-shensha.md": "10a6a3703962209edddf3d08cda2bf25bcd792e5bd2b2f2b580954d2a41bd488",
+    "runtime/liuren/20261105-restructure-01/references/engine-shensha-output.md": "01b59ed508fb4b040786f440c1454617b310c25c4051f7fe81e2eab3c0e488f5",
+    "runtime/liuren/20261105-restructure-01/references/experience-retrieval-v2.md": "213fe063420d1a9c000d27ff1b02e6794b5d838f3ed4be4704fc42a6e6aedc78",
+    "runtime/liuren/20261105-restructure-01/references/jiang-symbols.md": "b4126fdc93e30604085b5d3018b79546e1d64fd69878d475b604e476b55e66a3",
+    "runtime/liuren/20261105-restructure-01/references/keti-quanbiao.md": "44a529a03dbb6d54adcd10cae6dfb724e7a65b99666b95246f7b1b7d61e6d5ad",
+    "runtime/liuren/20261105-restructure-01/references/kundun.md": "eb67b4146bac6f9ed161d0980b5955ca8925048630958a255b74db76ee15c871",
+    "runtime/liuren/20261105-restructure-01/references/liqi-examples.md": "41506e95afb2b007d97b665749fde566d6c30476f7ad3a723b128d94ab6f455d",
+    "runtime/liuren/20261105-restructure-01/references/liqi-source-map.json": "6e5e56675eec7f10eb51fd4899e47b211edb61d3ea9d4600c40262f96c5310c1",
+    "runtime/liuren/20261105-restructure-01/references/liqi-sources.md": "1758249fa95438cac3185b7ff10789fd232ea6b4639dc0ce70ce466091e35c67",
+    "runtime/liuren/20261105-restructure-01/references/mapping-provenance.md": "080bcde5fcb51c7c431c474bd2048e2fa1e753418a1cecb5446d4263865bc58f",
+    "runtime/liuren/20261105-restructure-01/references/nianming.md": "e96b386ab31868b92a9b4aadd8f52315aea14faff6c7bcbf76171230c3c0bca5",
+    "runtime/liuren/20261105-restructure-01/references/quantity-sources.md": "3e63faff33de2c75cfca6bc892fb2767762fd4d5d8dbc40f7f27a6a63af726fe",
+    "runtime/liuren/20261105-restructure-01/references/rule-semantics.md": "92ee0c7f12a2e2f8d54e4cd55b220a867daa411129faaec838cbced54026682e",
+    "runtime/liuren/20261105-restructure-01/references/shen-symbols.md": "e89613e344bab6a437efb8ccaa9861701a3d271a230238ddd173c1e875b6fca8",
+    "runtime/liuren/20261105-restructure-01/references/shensha-authority-conflicts.md": "13fe3d5ed6c14965eff00bdb73aa3f7a746c45498fb3b185ab32dbb80f81eaba",
+    "runtime/liuren/20261105-restructure-01/references/shensha-authority-evidence.json": "d29fc5775078f80b9ecd2def43cf8e587b0d14df382a3263b3447964bf7cf636",
+    "runtime/liuren/20261105-restructure-01/references/shensha-authority-review.md": "6989f12684bf8e20c45b745be3201ea3aa00ce0183aa696dc9a9f1d1bfc961a5",
+    "runtime/liuren/20261105-restructure-01/references/shensha-engine-index.md": "ee1cf03c79c9ff49500aada31d4e8d3d88fc042a4659ea0a31cebd802d9a0a81",
+    "runtime/liuren/20261105-restructure-01/references/shensha-field-meanings.md": "c821bc375b75012720c842e722006c7bc4db2cd63e7b19723ef72db3eae26c46",
+    "runtime/liuren/20261105-restructure-01/references/shensha-focus.md": "0b8535489398dc006a9b240f67e4bc37c1af90d5fe39b27a3b894aa4ea67b6ba",
+    "runtime/liuren/20261105-restructure-01/references/shensha-meaning-source-map.json": "93509df7a164072ccf76495a0ce6d95e03cc47bc8591f1bd778e199afe363452",
+    "runtime/liuren/20261105-restructure-01/references/shensha-meaning-sources.md": "127da4527d5404f5bbf8e0d12404053c01a36be37842aa88772da50279741630",
+    "runtime/liuren/20261105-restructure-01/references/shensha-meanings.md": "858a6f461ad05cdbddaac3448b4924ce78b01b5a9a457fc94355d97771a56f52",
+    "runtime/liuren/20261105-restructure-01/references/shensha-other-meanings.md": "28b38a7e3f1b2d73247c4db1c54a9fb0a1b2af0870a88946d5c096cb9ad99552",
+    "runtime/liuren/20261105-restructure-01/references/shensha-policy-evidence.json": "aa8b06df24f8ff781984b613f0b947c6c7915aeea13b7e64fe0b62ef281d3a07",
+    "runtime/liuren/20261105-restructure-01/references/shensha-policy.json": "fc28cb79b475ef65577968c1a13b1b3e0b15796a97fa2fa6c1c0413fa44cedd1",
+    "runtime/liuren/20261105-restructure-01/references/shensha-source-map.json": "d86011d49d3e831c919e54781bdc0338256d718f98181a5535edd69dfe1c8a33",
+    "runtime/liuren/20261105-restructure-01/references/shensha-sources.md": "bec4fd67533d0970e38fd9fb6de95d7774a5784a7384cb10ce73871f5eff52a7",
+    "runtime/liuren/20261105-restructure-01/references/shensha-use.md": "5da3a21a6ca6eb9eda259967b9c7e2310a0daf17e10a2dd4450cbfdc64910df7",
+    "runtime/liuren/20261105-restructure-01/references/void-method-conditions.md": "e5362d32e2867ac83a6c85d90cf468eb5966496f1e266f6dbf622743a0e88330"
+  },
+  "externalFiles": [
+    {
+      "path": ".opencode/skills/liuren/daliuren/SKILL.md",
+      "before": "054ca1ec55c1c6775abda4e5727d9aaca672f9025c26f265858f2acf2285f1fe",
+      "after": "bb102ee3f9599f9dd0406a4405d550c6f914c857b774d4e984db91b175a19481"
+    },
+    {
+      "path": ".opencode/skills/liuren/liuren-cases/SKILL.md",
+      "before": "a75d5e45eabe9ac6aa979202ceab9cc5c79e52ec82f19d49d8659ee51118a1c8",
+      "after": "14e1bbdee6c1a4eea87c42adb8a086954f0f038f16b7b5c2c1af74db04e09477"
+    },
+    {
+      "path": ".opencode/skills/liuren/liuren-extract/SKILL.md",
+      "before": "49c6b08e697d5b736ef4802839566de2be42fb99888c23b6b7187cfb91a6877c",
+      "after": "17ef4c9195cc4b3f1028caa97500205eb0ee28703cc33f14187c4dea6c73d3bf"
+    },
+    {
+      "path": "opencode.json",
+      "before": "0b62c37bf0ccae37160d7307321b58f3d21b6fe3465f0086aa8313e4c58bf140",
+      "after": "be3198dec99d3ffd4ea2ce5f0fcaff4f86e9a559626494f0525e75d72833ef89"
+    },
+    {
+      "path": "README.md",
+      "before": "f0949be43db48ed88fdbfd82931e6e8883c434dab6a4ba9521d91947e78dfcf2",
+      "after": "67e819d7b4000b23f0b09ba9b4cbe65e9dfaa1a5313a0cf04f48326ffa376ec1"
+    },
+    {
+      "path": "目录总索引.md",
+      "before": "d0c809cea5d10bec8e3d1f5581a68b002daf3966dcd112f25a9efa9a1aa065d2",
+      "after": "70ee716788b9d858bcf5007acaab766a493159cba6fa866dd52102d929fd4b15"
+    },
+    {
+      "path": "docs/本机六壬高效执行.md",
+      "before": "a86263cd898566ee8a3186d45e41b2f696a4bffcc96ef1cd09688c2580bdce46",
+      "after": "b9b106ff93b8b6e97ee4b4d66ca6e3ede5db85cd1a77f8fb3e30e09366511af6"
+    },
+    {
+      "path": "docs/本机六壬资料检索范围.md",
+      "before": "91e2e521506c0181f1cd0d187dc15238a46d9606c5c74effca56566b3ef63410",
+      "after": "0606a9da8d263a15f2f8b9d64674b970c15b3484c2cb116f9b3bc32cd2932e78"
+    },
+    {
+      "path": "docs/本机六壬完整研判流程.md",
+      "before": "1611706a3a35917c9daab7c716960c3f4203ae097087e295c4e66ed5687b8f56",
+      "after": "d6601c7259d6bf908d5cef184d480dcaa4cba25313174b1fbc83e61a8e26f607"
+    },
+    {
+      "path": "docs/本机OpenCode完整输出规则.md",
+      "before": "8750117bc859e0e8393375d16dcd4f0e271bd438511880546099e8ef32af3fe8",
+      "after": "8f3355df35e53a3ee70d15573b18bf64246c2edb1b8bef5d3d995156e2c5cb5a"
+    },
+    {
+      "path": ".opencode/liuren-active.json",
+      "before": "87cd8678cbeb2e6c6365b86c56f6d4979a52f5165b071351f9355ac1c73c0fc6",
+      "after": "1217c4649f78c4eb203788a4bae0c470d78529578b0ff391e08184b169e9442f"
+    }
+  ],
+  "newRuntimeFiles": {
+    "adjudication-revision-map.json": "4728c2eece95eff534c692f445c90cb1ad5dad116d049ec9fdbd347c808455d7",
+    "coverage.json": "a369af29dfe8cf80c10d4003e4eeb4b2f1c381bf00bab24eb3ae2e9a7039c3c2",
+    "entry.md": "bb102ee3f9599f9dd0406a4405d550c6f914c857b774d4e984db91b175a19481",
+    "integration-map.json": "d40ec5ff2a0c13ee140721a0552a145359b9188d27b73dd203f1f3448290032a",
+    "loader-contract.json": "c5970c2a018234a6ed02d28d66ddc5d486d145d3463ab80591c55f75829c178c",
+    "manifest.json": "b259a4f7a5d653f224f22915a6e41cfc0acc32c625aa3a2d1b4d1e4af7558be4",
+    "mapping-preservation.json": "e8f3957d0094e347ad9e067a465b96ca069b8679067b910c3ef820988bb3a7ee",
+    "mapping-source-map.json": "4f4598c7e82ed2a95e63efa21c4c3f5c69d3e2e4123a60c3e689cdaf79f05e63",
+    "reading-route.json": "ad7709982d0071ea119814a73628884520ae69128f02597d260a6f3422b763ca",
+    "seed-receipt.json": "142cebf455649e8af99bb1f778aba4b287f689dea612393edb5b2874fd3564da",
+    "source-read-map.json": "17c904d38277b28b2d3d186578487f5105e968d2380256cadc78fe98452feb2f",
+    "details/risk.md": "cd5acaa779369de141eb8585f66c4407606777760479ecd2ba6e7c1ec89247d1",
+    "details/shensha-tradition.md": "370562ff4e92905e8347c9f62ec710c72160416f430927fc2c0127afa301a6b4",
+    "domains/agriculture.md": "24cd5b367e354dfb4ac71148ff88618c58b36dcb478770122f080b605444470c",
+    "domains/classical-conflict.md": "63287a0a1b3fa3e9a259788ec38597e63fe5884d9030a0c7b8291455db768167",
+    "domains/exam.md": "6bd9b13bd732ed00a00ae20292886d441fae6f7d793d6cb39ae60aff5dba1a64",
+    "domains/finance.md": "69f5d47be8c0a8e46588d6bcc85228329a34041087e41efd8394a68ba208e0aa",
+    "domains/home.md": "e0da99d988edad90f7b548553f90c3ac99dc1d53ad60fb62f11f9a417ab2c798",
+    "domains/illness.md": "aec7bec17dfde55b29924292e747b20b997b11f110d459dd46bb358104cc33e7",
+    "domains/interpersonal.md": "f3a1df48f39d4b35320f1cdbb2e2245b540374821b5f217240e3e49dbd960801",
+    "domains/long-period.md": "c3e5282f920e9b99a5fe86228ae25665592bb4f7b57618e5563537a8bc4bf550",
+    "domains/lost-person-object.md": "a371b1c0a72b67efa9e4117457b1172c37eafda43a844c82d01f19e182a50eb9",
+    "domains/period-outlook.md": "432ee14749c535193121f3937423e0d310c7bb061ca69e6ae8a4083f2354b973",
+    "domains/pregnancy.md": "fe303e73a303b0574d233ebe2cd274d5186cd03376fb502c745456d3e3c065dc",
+    "domains/promotion-salary.md": "9402b198f12c7e7a1d556d3de91d644797a14289c10e332c1e0b49e8eb32d782",
+    "domains/recruitment.md": "ac58cbd3796905757df6d134811154ea187ed523ef80de90488251803f701596",
+    "domains/relationship.md": "96bac4bea5e623f0a0a70446096c3aa5e4e552db626df0f07f78293ef16e7f6d",
+    "domains/travel.md": "9d31c5d570baba8c4802f71786ed11246162dda5eb6bf508e64eb43395d969b3",
+    "domains/weather.md": "b1c67d25de3cc29c9c78100494cc7d0edeb3ea4c5cc684c3ced7614d20a035ad",
+    "methods/adjudication.md": "508a3daa3349c8ddbb3252cae978ec867e213910e359707f8bb9bf1480043841",
+    "methods/class-mapping.md": "3e252c9ccba0f81306d6395a92a652ff549c46ac96a0989558cf909269ae1a48",
+    "methods/evidence.md": "e4286ca2b6b877fb1f4419ca18d6265e8d5ea5d7b20b3fdb15f18e399fb59d92",
+    "methods/liqi.md": "eaa28761b0908ed048ec3907f3b076ec6a4a23094babfe2ae29ef516d4f17007",
+    "methods/movement.md": "e4f656afddceb758f7566f19dc350ce654322b24625ac050a34a66f3ce6f3399",
+    "methods/positioning.md": "d3d856bae985e5f89d98d10f172f846f2b3005c058dd2b2a6e3a44c6b9f9c701",
+    "methods/quantity.md": "fdf823a35c62c685d36ca3e3841c6395a729c407b5b3769ccb5f1f292ad256c0",
+    "methods/relations.md": "db6f2bd2ebc70cf807da005a24ffae71652e7f1d0c2d19fec35e6545227e4e01",
+    "methods/report.md": "a94aeda38821c1f13b26eb7b49ea37f16d3dfece80c769c79929bc86c6cf8b8c",
+    "methods/shenjiang-use.md": "8009b8f3d37b95cb80be136e8ee8bf6dde4d38876eabf2b8a32bcf94fb73bdae",
+    "methods/structure.md": "51a783b2ea33cb20f1851a5fbb84665004cbb3e8745f931ffa051441353e70c8",
+    "methods/timing.md": "8a2787b79f1262cd90ad12eaa560a0dfcc177f60666614597ba5cfe077540784",
+    "methods/void.md": "09ef32d5f0b6f60bae44785ab8674bbd7313f6abf4399a54f480baa1c74b766e",
+    "methods/workflow-contract.md": "8c0fbec8297cc84c68425824027e0da5d563c6f072968f3352afcc89b1b52351",
+    "procedures/liuren-cases.md": "38c359da7a3e262ac7f9824b642f568a33588528bf3f2aebedd17a0043ac31eb",
+    "procedures/liuren-extract.md": "e0562ae1497df0a0b80c9380e1080edc0c15e2bcb41215eabd416902d4fa0db2",
+    "references/adjudication-method-conditions.md": "d411fd035d35f6a5aa694437fb65dc1575c47d230df3c711391f8c95c13562ec",
+    "references/bashajiubao.md": "bc98b9f898b6a78be1bad9946122611750802f3b77f50e8867bd40951eb59c79",
+    "references/beihai-extend-sop.md": "074f94facf492c38312dfc997842ccc2c04f27576ba1e57462c345a25d275528",
+    "references/bifa.md": "fd54b0c6025d3df8832c42c68513b5cc0b7d5a380b5c02cda1085fff02bba215",
+    "references/blade-methods.md": "23687e614c7f5d275e3e332177d933ace8ee505d3e1feb8c0156fb0efd9e03d0",
+    "references/case-retrieval-v2.md": "981444d599730f160b86b520366741a11216b12fdfc2bd3b2e1e0c8e11543a84",
+    "references/core-revision-provenance.md": "ae8f56ee91a18c193379c4fcd3015c9040ac17b44eed2c7316adcf4a19349b89",
+    "references/daliuren-paipan.md": "ce2ae6a4d4a0c7d03c0a423a5eb3c65121f16efd5521257d8bda85df19521b61",
+    "references/daliuren-shensha.md": "0de23c0a1ffb0fcca68b3b911fbfbcdd274862fff89ee02114b05f028bdcfaf2",
+    "references/engine-shensha-output.md": "01b59ed508fb4b040786f440c1454617b310c25c4051f7fe81e2eab3c0e488f5",
+    "references/experience-retrieval-v2.md": "213fe063420d1a9c000d27ff1b02e6794b5d838f3ed4be4704fc42a6e6aedc78",
+    "references/expert-adjudication-cases.md": "1fddc27c2156d701d46d569772c9348414b848e02b8bf242027c294e48416096",
+    "references/expert-adjudication-excerpts.md": "ddccc95ba70ff3eeb7cedfac24aa9bd9c880865e315765c8be0e028c6089e20e",
+    "references/expert-adjudication-sources.json": "6ea08376c19fada04658a349be1563678c3c42be1c1b28028461efe70c73a7e3",
+    "references/expert-adjudication.md": "e055c1ff7941541ae2814dee255b23dbd6b5f0f075c0f357f3132b38a5471f0e",
+    "references/jiang-symbols.md": "b4126fdc93e30604085b5d3018b79546e1d64fd69878d475b604e476b55e66a3",
+    "references/keti-quanbiao.md": "44a529a03dbb6d54adcd10cae6dfb724e7a65b99666b95246f7b1b7d61e6d5ad",
+    "references/kundun.md": "eb67b4146bac6f9ed161d0980b5955ca8925048630958a255b74db76ee15c871",
+    "references/liqi-examples.md": "41506e95afb2b007d97b665749fde566d6c30476f7ad3a723b128d94ab6f455d",
+    "references/liqi-source-map.json": "6e5e56675eec7f10eb51fd4899e47b211edb61d3ea9d4600c40262f96c5310c1",
+    "references/liqi-sources.md": "1758249fa95438cac3185b7ff10789fd232ea6b4639dc0ce70ce466091e35c67",
+    "references/mapping-provenance.md": "080bcde5fcb51c7c431c474bd2048e2fa1e753418a1cecb5446d4263865bc58f",
+    "references/nianming.md": "e96b386ab31868b92a9b4aadd8f52315aea14faff6c7bcbf76171230c3c0bca5",
+    "references/quantity-sources.md": "3e63faff33de2c75cfca6bc892fb2767762fd4d5d8dbc40f7f27a6a63af726fe",
+    "references/rule-semantics.md": "92ee0c7f12a2e2f8d54e4cd55b220a867daa411129faaec838cbced54026682e",
+    "references/shen-symbols.md": "e89613e344bab6a437efb8ccaa9861701a3d271a230238ddd173c1e875b6fca8",
+    "references/shensha-authority-conflicts.md": "13fe3d5ed6c14965eff00bdb73aa3f7a746c45498fb3b185ab32dbb80f81eaba",
+    "references/shensha-authority-evidence.json": "d29fc5775078f80b9ecd2def43cf8e587b0d14df382a3263b3447964bf7cf636",
+    "references/shensha-authority-review.md": "6989f12684bf8e20c45b745be3201ea3aa00ce0183aa696dc9a9f1d1bfc961a5",
+    "references/shensha-engine-index.md": "ee1cf03c79c9ff49500aada31d4e8d3d88fc042a4659ea0a31cebd802d9a0a81",
+    "references/shensha-field-meanings.md": "c821bc375b75012720c842e722006c7bc4db2cd63e7b19723ef72db3eae26c46",
+    "references/shensha-focus.md": "0b8535489398dc006a9b240f67e4bc37c1af90d5fe39b27a3b894aa4ea67b6ba",
+    "references/shensha-meaning-source-map.json": "93509df7a164072ccf76495a0ce6d95e03cc47bc8591f1bd778e199afe363452",
+    "references/shensha-meaning-sources.md": "127da4527d5404f5bbf8e0d12404053c01a36be37842aa88772da50279741630",
+    "references/shensha-meanings.md": "858a6f461ad05cdbddaac3448b4924ce78b01b5a9a457fc94355d97771a56f52",
+    "references/shensha-other-meanings.md": "28b38a7e3f1b2d73247c4db1c54a9fb0a1b2af0870a88946d5c096cb9ad99552",
+    "references/shensha-policy-evidence.json": "aa8b06df24f8ff781984b613f0b947c6c7915aeea13b7e64fe0b62ef281d3a07",
+    "references/shensha-policy.json": "1deeadcbf9cc235cacbef32c010a6875fdd6d740b327bed946c0c93d02ac79e2",
+    "references/shensha-source-map.json": "d86011d49d3e831c919e54781bdc0338256d718f98181a5535edd69dfe1c8a33",
+    "references/shensha-sources.md": "bec4fd67533d0970e38fd9fb6de95d7774a5784a7384cb10ce73871f5eff52a7",
+    "references/shensha-use.md": "0bbb674ff433ccf69b5d778dd5a3d6494dd162d380a3e8cf680c915ae21e499f",
+    "references/void-method-conditions.md": "e5362d32e2867ac83a6c85d90cf468eb5966496f1e266f6dbf622743a0e88330"
+  },
+  "packageChanges": [
+    {
+      "path": "methods/positioning.md",
+      "before": "3bbc97aa917b986045fc4288ea3af891b7284680620109677161be94431ce103",
+      "after": "c2c9a43f71fdb968cf33ed4f50b88b4b70d54ab236d1f0013c5217a0aba850ae",
+      "reason": "make the actual outcome distinction part of positioning"
+    },
+    {
+      "path": "methods/positioning.md",
+      "before": "3bbc97aa917b986045fc4288ea3af891b7284680620109677161be94431ce103",
+      "after": "d3d856bae985e5f89d98d10f172f846f2b3005c058dd2b2a6e3a44c6b9f9c701",
+      "reason": "choose a provisional line for a stated reason, with distinct roles"
+    },
+    {
+      "path": "methods/liqi.md",
+      "before": "194afb178add0455b12c0a78dcf9cf3f281b5949c2ae285ef5efaf6f7bd01f4e",
+      "after": "83e7db08c0e31bdd09906f37f3a27dedabfcd8f5df1462687688d51f1006b925",
+      "reason": "integrate quality changes, effective clustering and actual acquisition"
+    },
+    {
+      "path": "methods/liqi.md",
+      "before": "194afb178add0455b12c0a78dcf9cf3f281b5949c2ae285ef5efaf6f7bd01f4e",
+      "after": "eaa28761b0908ed048ec3907f3b076ec6a4a23094babfe2ae29ef516d4f17007",
+      "reason": "distinguish clustering from duplicate votes; remove inherited candidate heading from the published method"
+    },
+    {
+      "path": "methods/adjudication.md",
+      "before": "2105169d8b599956542d83c8194cee0b8f78114aa94a90e4eac434b688539b15",
+      "after": "508a3daa3349c8ddbb3252cae978ec867e213910e359707f8bb9bf1480043841",
+      "reason": "replace scattered cautions with evidence-based adjudication and closure"
+    },
+    {
+      "path": "methods/structure.md",
+      "before": "4eaaec7e19aa6db6b6fc408051ea4b3d4f15cbed966ce7d225c7afc808a7cbd7",
+      "after": "51a783b2ea33cb20f1851a5fbb84665004cbb3e8745f931ffa051441353e70c8",
+      "reason": "require relevance of a structure rather than a label priority"
+    },
+    {
+      "path": "references/shensha-use.md",
+      "before": "5da3a21a6ca6eb9eda259967b9c7e2310a0daf17e10a2dd4450cbfdc64910df7",
+      "after": "0bbb674ff433ccf69b5d778dd5a3d6494dd162d380a3e8cf680c915ae21e499f",
+      "reason": "retain qualified combinations alongside no-voting policy"
+    },
+    {
+      "path": "methods/evidence.md",
+      "before": "7af053b456b2cb2bbd989b217cb929991e58672b9880c5b7d177f24d26e0bd8b",
+      "after": "e4286ca2b6b877fb1f4419ca18d6265e8d5ea5d7b20b3fdb15f18e399fb59d92",
+      "reason": "compare explicit adjudication and distinguish source layers"
+    },
+    {
+      "path": "methods/report.md",
+      "before": "57d61fea007d2c6471f48673a660bf8beda3f570790147087aeffbdbd5758b06",
+      "after": "88665a4d19259bb238370d469117851beff857f62bb1f74c50de2c34e7abfd97",
+      "reason": "expose discriminating support in the actual answer"
+    },
+    {
+      "path": "methods/report.md",
+      "before": "57d61fea007d2c6471f48673a660bf8beda3f570790147087aeffbdbd5758b06",
+      "after": "a94aeda38821c1f13b26eb7b49ea37f16d3dfece80c769c79929bc86c6cf8b8c",
+      "reason": "check final meaning and preserve effective clustering"
+    },
+    {
+      "path": "domains/exam.md",
+      "before": "4ca1c1980048b9d526bf99ea55d3a19d5733a1f1cb083216a9e9c9e90130b79c",
+      "after": "6bd9b13bd732ed00a00ae20292886d441fae6f7d793d6cb39ae60aff5dba1a64",
+      "reason": "align exam precision with the shared adjudication rule"
+    },
+    {
+      "path": "procedures/liuren-cases.md",
+      "before": "c12208a67aa6ea515757280d44cdf8fad830678b9f82dab92c44540924ae85b3",
+      "after": "38c359da7a3e262ac7f9824b642f568a33588528bf3f2aebedd17a0043ac31eb",
+      "reason": "integrate method review into specialist maintenance without duplicating core rules"
+    },
+    {
+      "path": "procedures/liuren-extract.md",
+      "before": "d1021046998c7a996cf6570477da9e1fe79582017ec88292cfdbc912d3b0b449",
+      "after": "e0562ae1497df0a0b80c9380e1080edc0c15e2bcb41215eabd416902d4fa0db2",
+      "reason": "integrate method review into specialist maintenance without duplicating core rules"
+    },
+    {
+      "path": "references/expert-adjudication.md",
+      "before": null,
+      "after": "e055c1ff7941541ae2814dee255b23dbd6b5f0f075c0f357f3132b38a5471f0e",
+      "reason": "progressive reference for actual expert choices and counterexamples"
+    },
+    {
+      "path": "references/expert-adjudication-cases.md",
+      "before": null,
+      "after": "1fddc27c2156d701d46d569772c9348414b848e02b8bf242027c294e48416096",
+      "reason": "bounded case notes with failures and source ambiguity"
+    },
+    {
+      "path": "references/expert-adjudication-excerpts.md",
+      "before": null,
+      "after": "ddccc95ba70ff3eeb7cedfac24aa9bd9c880865e315765c8be0e028c6089e20e",
+      "reason": "freeze locally inspected continuous excerpts unchanged"
+    },
+    {
+      "path": "references/expert-adjudication-sources.json",
+      "before": null,
+      "after": "6ea08376c19fada04658a349be1563678c3c42be1c1b28028461efe70c73a7e3",
+      "reason": "freeze source coordinates, encodings and hashes unchanged"
+    },
+    {
+      "path": "entry.md",
+      "before": "054ca1ec55c1c6775abda4e5727d9aaca672f9025c26f265858f2acf2285f1fe",
+      "after": "bb102ee3f9599f9dd0406a4405d550c6f914c857b774d4e984db91b175a19481",
+      "reason": "short entry routing for the revised three-stage process; align source-dispute conditional route with dependency order"
+    },
+    {
+      "path": "reading-route.json",
+      "before": "4db6fc42174345177ecb94ef7eee17883eaca5624bf8dd57cbac53b41a8bb853",
+      "after": "ad7709982d0071ea119814a73628884520ae69128f02597d260a6f3422b763ca",
+      "reason": "clarify provisional versus final adjudication without extra mandatory modules; source-dispute reference precedes early liqi dependency"
+    },
+    {
+      "path": "references/shensha-policy.json",
+      "before": "fc28cb79b475ef65577968c1a13b1b3e0b15796a97fa2fa6c1c0413fa44cedd1",
+      "after": "1deeadcbf9cc235cacbef32c010a6875fdd6d740b327bed946c0c93d02ac79e2",
+      "reason": "release identity only, preserve all calculation rules"
+    },
+    {
+      "path": "source-read-map.json",
+      "before": "fc4f8a94a72e88145cd170a6a5fd57b9f82c418faf6a6ae8e6d78a455087bd7e",
+      "after": "17c904d38277b28b2d3d186578487f5105e968d2380256cadc78fe98452feb2f",
+      "reason": "rebase virtual aliases while retaining exact historical original targets"
+    },
+    {
+      "path": "loader-contract.json",
+      "before": "c55ec5ec761d96b3590f722616cb8b6be236a2ea33e0eb5020c9952890c812e9",
+      "after": "c5970c2a018234a6ed02d28d66ddc5d486d145d3463ab80591c55f75829c178c",
+      "reason": "remove inherited stale descriptive-only hierarchy and record actual loaders"
+    },
+    {
+      "path": "mapping-preservation.json",
+      "before": "2a172035e61f93d1cc2c2eb068316b33dfceb3f2d4dd139505f52233687d08d7",
+      "after": "e8f3957d0094e347ad9e067a465b96ca069b8679067b910c3ef820988bb3a7ee",
+      "reason": "retain historical map and attach current revision provenance"
+    },
+    {
+      "path": "integration-map.json",
+      "before": "d03e86bf2dda8e11ad1a7ac211fc92c97e31d3cde97fa22de30ac8a1f034cdf4",
+      "after": "d40ec5ff2a0c13ee140721a0552a145359b9188d27b73dd203f1f3448290032a",
+      "reason": "add actual current integration record and retain previous history"
+    },
+    {
+      "path": "adjudication-revision-map.json",
+      "before": null,
+      "after": "245ac4bbf2beb86c101e6e37f535eab2ab24708043abb77d8689b5af8d894c0a",
+      "reason": "register current professional and routing changes separately from historical coverage"
+    },
+    {
+      "path": "references/daliuren-shensha.md",
+      "before": "10a6a3703962209edddf3d08cda2bf25bcd792e5bd2b2f2b580954d2a41bd488",
+      "after": "0de23c0a1ffb0fcca68b3b911fbfbcdd274862fff89ee02114b05f028bdcfaf2",
+      "reason": "retain effective same-branch combinations while rejecting label voting"
+    }
+  ],
+  "externalModelCalls": 0
+}

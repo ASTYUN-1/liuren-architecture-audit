@@ -1,0 +1,82 @@
+{
+  "schema": "staged-chart-resolutions-v1",
+  "warning": "AI只能填proposed；人工核对后改confirmed，另以--accept-confirmed明确启用。确认标记不等于外部真实性证明。",
+  "resolutions": {
+    "raw-anli001-0005": {
+      "status": "proposed",
+      "case_file_sha256": "aa37e7afe254d72d63cd91b231fe70d75cfe9e219e8b352573623bf1728f402d",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "SPECIAL_DIVINATION_METHOD"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "报数24（原文“占此项目前景，报数24”，未按24时理解）"
+      }
+    },
+    "raw-anli001-0011": {
+      "status": "proposed",
+      "case_file_sha256": "548aa64e2f8c9c08477a446c21cd71394792ccd3d62603c1eb9e95f0f50d4fcd",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MINUTE_NOT_SUPPLIED"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli001-0021": {
+      "status": "proposed",
+      "case_file_sha256": "e23935ea1b34fa4c919a1571e603ad4c09cf743457487cdc0d20dca184915f19",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "constraints": {
+        "day_pillar": "丁巳",
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "干上未乘朱雀，子丑旬空。伏吟局（题干原载，未核验）",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli001-0030": {
+      "status": "proposed",
+      "case_file_sha256": "4b5dfd636cc8d5c8888dd67d9961439c5fc002a8a1530ad8803dc7f8d979830f",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "HOUR_PILLAR_NEEDS_RESOLUTION"
+      ],
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    }
+  }
+}

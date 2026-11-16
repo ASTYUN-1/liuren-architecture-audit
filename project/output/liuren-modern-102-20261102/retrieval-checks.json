@@ -1,0 +1,573 @@
+{
+  "experience_index_status": {
+    "source_files": 120,
+    "entries": 1574,
+    "curated_entries": 808,
+    "unreviewed_fragments": 150,
+    "changed_or_new_sources": [
+      "经验日志/2026-04-24-事业占-反吟空亡启事.md",
+      "经验日志/2026-10-18-感情占-raw-anli001-0027-待验证记录.md",
+      "经验日志/2026-10-19-健康占-肺癌病位金气集群与课经断语主次.md",
+      "经验日志/2026-10-19-官讼占-公职被举报-知一退茹三奇.md",
+      "经验日志/2026-10-19-感情占-前女友国庆回来见面-反推待验证记录.md",
+      "经验日志/2026-10-19-感情占-双合课酉月丑日分手.md",
+      "经验日志/2026-10-19-感情占-桃花日禄天后情侣直断与恋爱脑.md",
+      "经验日志/2026-10-19-感情占-胎产末传应期与白虎入墓断剖.md",
+      "经验日志/2026-10-19-感情占-财局须过墓劫脱三查.md",
+      "经验日志/2026-10-19-疾病占-幼儿流感住院蒿矢课复盘.md",
+      "经验日志/2026-10-19-疾病占-暴病逢空与白虎受制.md",
+      "经验日志/2026-10-21-出行占-寻人戌时归与信号断复盘.md",
+      "经验日志/2026-10-23-官讼占-儿子被公安传唤涉诈-元首斩关退茹.md",
+      "经验日志/2026-10-23-家宅占-水患不入传与不加软化层-元首退茹.md",
+      "经验日志/2026-10-24-感情占-旧情回流中传空亡与交车相合.md"
+    ],
+    "missing_sources": [],
+    "stale_annotations": [],
+    "independent_validation_increment": 0,
+    "research_overlay": {
+      "record_count": 647,
+      "eligible_count": 647,
+      "mechanical_valid": true,
+      "explicit_rule_family_count": 65,
+      "semantic_validation": "external_review_declaration_only",
+      "independent_validation_count": 0,
+      "complete": false,
+      "present": true
+    },
+    "research_issues": [],
+    "research_rule_entries": 616,
+    "research_audits": 31
+  },
+  "case_index_status": {
+    "source_files": 1054,
+    "case_files": 238,
+    "book_files": 816,
+    "question_units": 1086,
+    "explicit_question_units": 949,
+    "title_fallback_units": 107,
+    "source_groups": 1025,
+    "book_case_imports": {
+      "active": 798,
+      "issues": [],
+      "validation_identity": "按当前登记、原源与产物全文核对；失效整案不参与检索"
+    },
+    "missing_fields": {
+      "课体": 1,
+      "发用": 12,
+      "三传": 13,
+      "日干": 20,
+      "类神": 168
+    },
+    "research_overlay": {
+      "record_count": 647,
+      "eligible_count": 647,
+      "mechanical_valid": true,
+      "explicit_rule_family_count": 65,
+      "semantic_validation": "external_review_declaration_only",
+      "independent_validation_count": 0,
+      "complete": false,
+      "present": true
+    },
+    "research_issues": []
+  },
+  "owned_rule_id_presence": {
+    "expected": 155,
+    "present": 155
+  },
+  "case_id_presence": {
+    "expected": 102,
+    "present": 102
+  },
+  "experience_queries": [
+    {
+      "query": "中标 利润",
+      "result_ids": [
+        "LR26-M102C-069-PROFIT",
+        "H0128",
+        "LR26-M102A-018-PROFIT",
+        "LR26-M102N-TARGET-STAGE"
+      ],
+      "expected_any": [
+        "LR26-M102C-069-PROFIT",
+        "LR26-M102N-TARGET-STAGE"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-TARGET-STAGE"
+      ]
+    },
+    {
+      "query": "面试 试岗",
+      "result_ids": [
+        "LR26-M102A-028-OFFER",
+        "H0030",
+        "H0039",
+        "H0139",
+        "H0166",
+        "LR26-M102A-015-EXAM",
+        "LR26-M102A-015-FILL",
+        "LR26-M102A-015-LATER"
+      ],
+      "expected_any": [
+        "LR26-M102A-028-OFFER"
+      ],
+      "passed": true,
+      "canonical_entry_ids": []
+    },
+    {
+      "query": "裁员 签约 离职",
+      "result_ids": [
+        "LR26-M102AT-033-LEAVE",
+        "LR26-M102AT-033-TIMING",
+        "LR26-M102AT-033-PARENT",
+        "B0431",
+        "H0132",
+        "LR26-BOOK-BIFA-011",
+        "LR26-M102A-029-MOVE",
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ],
+      "expected_any": [
+        "LR26-M102AT-033-TIMING"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ]
+    },
+    {
+      "query": "月建 填空",
+      "result_ids": [
+        "H0079",
+        "LR26-MP10-082-VOID-YES",
+        "B0409",
+        "B0413",
+        "B0431",
+        "LR26-M102N-VOID-OBJECT",
+        "B0215",
+        "B0279"
+      ],
+      "expected_any": [
+        "LR26-M102N-VOID-OBJECT",
+        "LR26-MP10-082-VOID-YES",
+        "LR26-MP10-082-VOID-NO"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-VOID-OBJECT"
+      ]
+    },
+    {
+      "query": "已孕 男女 产日",
+      "result_ids": [
+        "LR26-M102N-PREGNANCY-QUESTION",
+        "B0060",
+        "H0116",
+        "H0117",
+        "H0208",
+        "U-587e0c698c089272",
+        "LR26-BOOK-BIFA-031",
+        "LR26-BOOK-SHAO-C062"
+      ],
+      "expected_any": [
+        "LR26-M102N-PREGNANCY-QUESTION",
+        "LR26-M102AT-034-SEX"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-PREGNANCY-QUESTION"
+      ]
+    },
+    {
+      "query": "补偿 折半",
+      "result_ids": [
+        "LR26-M102C-104-COMPENSATION",
+        "H0205",
+        "LR26-BOOK-SHAO-024",
+        "LR26-M102N-QUANTITY-UNIT",
+        "B0125",
+        "B0181",
+        "H0009",
+        "H0029"
+      ],
+      "expected_any": [
+        "LR26-M102C-104-COMPENSATION"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-QUANTITY-UNIT"
+      ]
+    },
+    {
+      "query": "背包 乘车卡",
+      "result_ids": [
+        "LR26-M102C-088-CARD",
+        "LR26-M102N-LOST-COORDINATE"
+      ],
+      "expected_any": [
+        "LR26-M102C-088-CARD"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-LOST-COORDINATE"
+      ]
+    },
+    {
+      "query": "羊 西北",
+      "result_ids": [
+        "LR26-M102B-038-SHEEP",
+        "LR26-BOOK-SHAO-187",
+        "LR26-M102N-LOST-COORDINATE",
+        "N0071",
+        "B0026",
+        "B0027",
+        "B0034",
+        "B0039"
+      ],
+      "expected_any": [
+        "LR26-M102B-038-SHEEP"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-LOST-COORDINATE"
+      ]
+    },
+    {
+      "query": "手术 清醒",
+      "result_ids": [
+        "LR26-M102C-090-SURGERY",
+        "LR26-M102B-036-TREAT",
+        "LR26-M102N-RESCUE-ENDPOINT",
+        "H0182",
+        "H0183",
+        "LR26-BOOK-BIFA-090",
+        "LR26-M102A-008-SEXT",
+        "LR26-M102B-036-SPINE"
+      ],
+      "expected_any": [
+        "LR26-M102C-090-SURGERY"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ]
+    },
+    {
+      "query": "复合 两天",
+      "result_ids": [
+        "N0064",
+        "LR26-M102B-049-ROLE",
+        "LR26-M102B-067-TIMING",
+        "LR26-M102A-017-REL",
+        "LR26-M102B-067-RECONCILE",
+        "N0065",
+        "N0071",
+        "LR26-BOOK-SHAO-C001"
+      ],
+      "expected_any": [
+        "LR26-M102B-067-RECONCILE"
+      ],
+      "passed": true,
+      "canonical_entry_ids": []
+    },
+    {
+      "query": "代问 角色 施受",
+      "result_ids": [
+        "LR26-M102N-ROLE-ACTION",
+        "LR26-BOOK-BIFA-018",
+        "LR26-BOOK-BIFA-043",
+        "LR26-BOOK-BIFA-058",
+        "LR26-BOOK-BIFA-036",
+        "LR26-BOOK-BIFA-136",
+        "LR26-BOOK-SHAO-004",
+        "LR26-M102B-051-ROLE"
+      ],
+      "expected_any": [
+        "LR26-M102N-ROLE-ACTION"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-ROLE-ACTION"
+      ]
+    },
+    {
+      "query": "刑期 运算 单位",
+      "result_ids": [
+        "LR26-M102N-QUANTITY-UNIT",
+        "LR26-M102B-059-SENTENCE",
+        "H0075",
+        "LR26-BOOK-BIFA-001",
+        "LR26-BOOK-MODERN-001",
+        "LR26-M102N-TARGET-STAGE",
+        "B0351",
+        "H0054"
+      ],
+      "expected_any": [
+        "LR26-M102N-QUANTITY-UNIT",
+        "LR26-M102B-059-SENTENCE"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-QUANTITY-UNIT",
+        "LR26-M102N-TARGET-STAGE"
+      ]
+    },
+    {
+      "query": "救制 存活 恢复",
+      "result_ids": [
+        "LR26-M102N-RESCUE-ENDPOINT",
+        "LR26-BOOK-SHAO-C129",
+        "LR26-M102B-055-RESCUE",
+        "LR26-K2-003",
+        "LR26-M102C-076-RESCUE",
+        "LR26-M102C-090-SURGERY",
+        "N0085",
+        "LR26-BOOK-BIFA-099"
+      ],
+      "expected_any": [
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ]
+    },
+    {
+      "query": "空间 层级 类神",
+      "result_ids": [
+        "LR26-M102N-LOST-COORDINATE",
+        "U-ca2039e44fbd533d",
+        "B0130",
+        "B0132",
+        "B0196",
+        "B0203",
+        "B0204",
+        "B0205"
+      ],
+      "expected_any": [
+        "LR26-M102N-LOST-COORDINATE"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-LOST-COORDINATE"
+      ]
+    },
+    {
+      "query": "成败 目标 阶段",
+      "result_ids": [
+        "LR26-M102N-TARGET-STAGE",
+        "LR26-BOOK-SHAO-058",
+        "LR26-BOOK-SHAO-C089",
+        "LR26-BOOK-BIFA-046",
+        "LR26-BOOK-BIFA-117",
+        "LR26-BOOK-BIFA-118",
+        "LR26-BOOK-BIFA-120",
+        "LR26-BOOK-SHAO-001"
+      ],
+      "expected_any": [
+        "LR26-M102N-TARGET-STAGE"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-TARGET-STAGE"
+      ]
+    },
+    {
+      "query": "代占 主体 施受",
+      "result_ids": [
+        "LR26-M102N-ROLE-ACTION",
+        "LR26-M102C-076-RESCUE",
+        "LR26-BOOK-SHAO-004",
+        "H0093",
+        "LR26-M102C-086-RETURN",
+        "LR26-BOOK-BIFA-058",
+        "LR26-M102AT-033-PARENT",
+        "LR26-BOOK-BIFA-044"
+      ],
+      "expected_any": [
+        "LR26-M102N-ROLE-ACTION"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-ROLE-ACTION"
+      ]
+    },
+    {
+      "query": "空实 填实 对象",
+      "result_ids": [
+        "LR26-M102N-VOID-OBJECT",
+        "LR26-BOOK-BIFA-114",
+        "LR26-BOOK-SHAO-045",
+        "LR26-BOOK-SHAO-154",
+        "LR26-BOOK-BIFA-030",
+        "LR26-BOOK-SHAO-034",
+        "LR26-BOOK-SHAO-041",
+        "LR26-BOOK-SHAO-107"
+      ],
+      "expected_any": [
+        "LR26-M102N-VOID-OBJECT"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-VOID-OBJECT"
+      ]
+    },
+    {
+      "query": "胎产 已孕 性别",
+      "result_ids": [
+        "LR26-M102N-PREGNANCY-QUESTION",
+        "LR26-M102AT-034-SEX",
+        "LR26-BOOK-SHAO-C130",
+        "H0208",
+        "N0068",
+        "B0031",
+        "B0060",
+        "B0208"
+      ],
+      "expected_any": [
+        "LR26-M102N-PREGNANCY-QUESTION"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-PREGNANCY-QUESTION"
+      ]
+    },
+    {
+      "query": "失物 空间 类神",
+      "result_ids": [
+        "LR26-M102N-LOST-COORDINATE",
+        "B0130",
+        "H0089",
+        "H0105",
+        "N0037",
+        "H0091",
+        "H0093",
+        "H0094"
+      ],
+      "expected_any": [
+        "LR26-M102N-LOST-COORDINATE"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-LOST-COORDINATE"
+      ]
+    },
+    {
+      "query": "病占 存活 稳定",
+      "result_ids": [
+        "LR26-M102N-RESCUE-ENDPOINT",
+        "B0026",
+        "B0036",
+        "B0150",
+        "B0151",
+        "B0152",
+        "B0153",
+        "B0154"
+      ],
+      "expected_any": [
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-RESCUE-ENDPOINT"
+      ]
+    },
+    {
+      "query": "数断 运算 单位",
+      "result_ids": [
+        "LR26-M102N-QUANTITY-UNIT",
+        "B0446",
+        "H0029",
+        "H0038",
+        "H0075",
+        "LR26-BOOK-BIFA-001",
+        "LR26-M102N-TARGET-STAGE",
+        "H0230"
+      ],
+      "expected_any": [
+        "LR26-M102N-QUANTITY-UNIT"
+      ],
+      "passed": true,
+      "canonical_entry_ids": [
+        "LR26-M102N-QUANTITY-UNIT",
+        "LR26-M102N-TARGET-STAGE"
+      ]
+    }
+  ],
+  "case_queries": [
+    {
+      "query": "打桩工程 中标 利润",
+      "result_ids": [
+        "BK26-MODERN-069",
+        "case-0a616f3454822f2f",
+        "BK26-BIFA-054",
+        "BK26-ANCIENT-416",
+        "case-32356b7b2b03dffe",
+        "case-35f09c459b886683",
+        "BK26-ANCIENT-179",
+        "BK26-SHAO-144"
+      ],
+      "expected": "BK26-MODERN-069",
+      "passed": true
+    },
+    {
+      "query": "脑出血 手术",
+      "result_ids": [
+        "BK26-MODERN-090",
+        "case-63b2b36085c8e060",
+        "BK26-MODERN-036",
+        "case-3f4e0f0a914b16bb",
+        "BK26-MODERN-030",
+        "BK26-MODERN-073",
+        "case-1f145ca4fc460aa1",
+        "case-2e8c47f1e8848e26"
+      ],
+      "expected": "BK26-MODERN-090",
+      "passed": true
+    },
+    {
+      "query": "乘车卡 背包",
+      "result_ids": [
+        "BK26-MODERN-088"
+      ],
+      "expected": "BK26-MODERN-088",
+      "passed": true
+    },
+    {
+      "query": "已经怀孕 胎儿性别",
+      "result_ids": [
+        "BK26-MODERN-034",
+        "BK26-ANCIENT-155",
+        "case-0c994385e700fef7",
+        "case-0620eb4c46dc5fe1",
+        "case-d80f11743896d480",
+        "case-1214cc8d28442cad",
+        "case-9ba2c847b10fd158",
+        "case-9d986ead38bfd9a6"
+      ],
+      "expected": "BK26-MODERN-034",
+      "passed": true
+    },
+    {
+      "query": "裁员 财务 业务",
+      "result_ids": [
+        "BK26-MODERN-033",
+        "case-d1374f4ab6c185bd",
+        "case-ca3aa53c8ed777c5"
+      ],
+      "expected": "BK26-MODERN-033",
+      "passed": true
+    },
+    {
+      "query": "妹妹 离家",
+      "result_ids": [
+        "BK26-MODERN-051",
+        "BK26-MODERN-055",
+        "BK26-MODERN-019"
+      ],
+      "expected": "BK26-MODERN-051",
+      "passed": true
+    }
+  ],
+  "ranking_is_not_accuracy": true,
+  "independent_validation_count": 0
+}

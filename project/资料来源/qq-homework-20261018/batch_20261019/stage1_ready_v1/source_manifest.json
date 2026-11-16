@@ -1,0 +1,2216 @@
+{
+ "schema": "source-manifest-v1",
+ "batch": "batch_20261019",
+ "source_id": "qqwb20261019",
+ "generated_at": "2026-10-19T08:17:13",
+ "inputs": {
+  "raw/records.jsonl": {
+   "bytes": 764729,
+   "sha256": "d2cf1e1981d095361c24c668a3617c5b774b0707203dbcd2dce29b211d102282"
+  },
+  "raw/images.jsonl": {
+   "bytes": 136974,
+   "sha256": "871179b5842b2fdfeb7bfa5b32270a66df9d9414f4c7726976dfcf84348cf556"
+  },
+  "ledger.json": {
+   "bytes": 209971,
+   "sha256": "e56ff7098c1496750074d7a2ff59832959cb4f687bc9d1c6a2abb8cda32a8d53"
+  }
+ },
+ "counts": {
+  "records": 243,
+  "cases_written": 243,
+  "skipped": 0,
+  "images": 263
+ },
+ "cases": [
+  {
+   "case_id": "raw-qqwb20261019-0001",
+   "seq": 0,
+   "time_norm": "2023-05-20 19:20",
+   "primary_image": "pan/000_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0002",
+   "seq": 1,
+   "time_norm": "2024-06-17 14:20",
+   "primary_image": "pan/001_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0003",
+   "seq": 2,
+   "time_norm": "2026-05-22 22:52",
+   "primary_image": "pan/002_1.jpg",
+   "materials": 16,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0004",
+   "seq": 3,
+   "time_norm": "2026-08-14 20:37",
+   "primary_image": "pan/003_1.jpg",
+   "materials": 2,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0005",
+   "seq": 4,
+   "time_norm": "2025-05-05 12:41",
+   "primary_image": "pan/004_1.jpg",
+   "materials": 13,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0006",
+   "seq": 5,
+   "time_norm": "2026-09-06 12:24",
+   "primary_image": "pan/005_1.jpg",
+   "materials": 25,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0007",
+   "seq": 6,
+   "time_norm": "2026-07-17 20:02",
+   "primary_image": "pan/006_1.jpeg",
+   "materials": 14,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0008",
+   "seq": 7,
+   "time_norm": "2026-08-27 14:54",
+   "primary_image": "pan/007_1.jpeg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0009",
+   "seq": 8,
+   "time_norm": "2025-12-18 17:28",
+   "primary_image": "pan/008_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0010",
+   "seq": 9,
+   "time_norm": "2024-08-06 11:23",
+   "primary_image": "pan/009_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0011",
+   "seq": 10,
+   "time_norm": "2024-11-29 10:30",
+   "primary_image": "pan/010_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0012",
+   "seq": 11,
+   "time_norm": "2025-07-09 18:45",
+   "primary_image": "pan/011_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0013",
+   "seq": 12,
+   "time_norm": "2020-06-16 00:39",
+   "primary_image": "pan/012_1.jpg",
+   "materials": 6,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0014",
+   "seq": 13,
+   "time_norm": "2026-05-22 16:47",
+   "primary_image": "pan/013_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0015",
+   "seq": 14,
+   "time_norm": "2026-08-12 22:25",
+   "primary_image": "pan/014_1.jpg",
+   "materials": 15,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0016",
+   "seq": 15,
+   "time_norm": "2026-08-22 19:01",
+   "primary_image": "pan/015_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0017",
+   "seq": 16,
+   "time_norm": "2020-04-18 22:34",
+   "primary_image": "pan/016_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0018",
+   "seq": 17,
+   "time_norm": "2026-02-14 00:37",
+   "primary_image": "pan/017_1.jpg",
+   "materials": 14,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0019",
+   "seq": 18,
+   "time_norm": "2026-08-12 10:28",
+   "primary_image": "pan/018_1.png",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0020",
+   "seq": 19,
+   "time_norm": "2025-02-04 20:46",
+   "primary_image": "pan/019_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0021",
+   "seq": 20,
+   "time_norm": "2026-08-25 16:52",
+   "primary_image": "pan/020_1.jpg",
+   "materials": 32,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0022",
+   "seq": 21,
+   "time_norm": "2026-08-28 12:08",
+   "primary_image": "pan/021_1.jpeg",
+   "materials": 23,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0023",
+   "seq": 22,
+   "time_norm": "2026-08-19 19:25",
+   "primary_image": "pan/022_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0024",
+   "seq": 23,
+   "time_norm": "2025-06-02 21:47",
+   "primary_image": "pan/023_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0025",
+   "seq": 24,
+   "time_norm": "2026-08-24 20:05",
+   "primary_image": "pan/024_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0026",
+   "seq": 25,
+   "time_norm": "2026-08-27 19:16",
+   "primary_image": "pan/025_1.jpg",
+   "materials": 21,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0027",
+   "seq": 26,
+   "time_norm": "2025-07-14 17:51",
+   "primary_image": "pan/026_1.jpg",
+   "materials": 14,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0028",
+   "seq": 27,
+   "time_norm": "2026-06-24 15:57",
+   "primary_image": "pan/027_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0029",
+   "seq": 28,
+   "time_norm": "2026-06-08 10:28",
+   "primary_image": "pan/028_1.jpg",
+   "materials": 15,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0030",
+   "seq": 29,
+   "time_norm": "2026-08-27 10:08",
+   "primary_image": "pan/029_1.jpg",
+   "materials": 12,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0031",
+   "seq": 30,
+   "time_norm": "2025-03-19 19:49",
+   "primary_image": "pan/030_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0032",
+   "seq": 31,
+   "time_norm": "2026-08-22 11:57",
+   "primary_image": "pan/031_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0033",
+   "seq": 32,
+   "time_norm": "2026-08-25 08:56",
+   "primary_image": "pan/032_1.jpeg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0034",
+   "seq": 33,
+   "time_norm": "2026-03-05 17:25",
+   "primary_image": "pan/033_1.jpg",
+   "materials": 14,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0035",
+   "seq": 34,
+   "time_norm": "2026-06-07 18:39",
+   "primary_image": "pan/034_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0036",
+   "seq": 35,
+   "time_norm": "2020-08-11 05:48",
+   "primary_image": "pan/035_1.jpg",
+   "materials": 29,
+   "feedback": "标记或范围待核",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0037",
+   "seq": 36,
+   "time_norm": "2026-06-11 21:29",
+   "primary_image": "pan/036_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0038",
+   "seq": 37,
+   "time_norm": "2025-08-04 13:45",
+   "primary_image": "pan/037_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0039",
+   "seq": 38,
+   "time_norm": "2026-06-11 17:34",
+   "primary_image": "pan/038_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0040",
+   "seq": 39,
+   "time_norm": "2026-07-07 08:53",
+   "primary_image": "pan/039_1.jpg",
+   "materials": 7,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0041",
+   "seq": 40,
+   "time_norm": "2026-07-09 13:44",
+   "primary_image": "pan/040_1.jpg",
+   "materials": 20,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0042",
+   "seq": 41,
+   "time_norm": "2024-07-06 12:40",
+   "primary_image": "pan/041_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0043",
+   "seq": 42,
+   "time_norm": "2026-08-07 21:09",
+   "primary_image": "pan/042_1.jpeg",
+   "materials": 21,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0044",
+   "seq": 43,
+   "time_norm": "2026-08-11 23:13",
+   "primary_image": "pan/043_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0045",
+   "seq": 44,
+   "time_norm": "2026-07-09 21:03",
+   "primary_image": "pan/044_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0046",
+   "seq": 45,
+   "time_norm": "2025-03-01 15:25",
+   "primary_image": "pan/045_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0047",
+   "seq": 46,
+   "time_norm": "2026-07-25 22:59",
+   "primary_image": "pan/046_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0048",
+   "seq": 47,
+   "time_norm": "2026-08-03 09:37",
+   "primary_image": "pan/047_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0049",
+   "seq": 48,
+   "time_norm": "2025-07-25 22:53",
+   "primary_image": "pan/048_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0050",
+   "seq": 49,
+   "time_norm": "2026-08-13 18:39",
+   "primary_image": "pan/049_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0051",
+   "seq": 50,
+   "time_norm": "2026-08-09 10:44",
+   "primary_image": "pan/050_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0052",
+   "seq": 51,
+   "time_norm": "2026-04-06 17:47",
+   "primary_image": "pan/051_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0053",
+   "seq": 52,
+   "time_norm": "2025-05-14 19:41",
+   "primary_image": "pan/052_1.jpg",
+   "materials": 6,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0054",
+   "seq": 53,
+   "time_norm": "2026-07-18 22:20",
+   "primary_image": "pan/053_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0055",
+   "seq": 54,
+   "time_norm": "2026-05-28 22:54",
+   "primary_image": "pan/054_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0056",
+   "seq": 55,
+   "time_norm": "2026-01-31 16:04",
+   "primary_image": "pan/055_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0057",
+   "seq": 56,
+   "time_norm": "2026-08-08 08:54",
+   "primary_image": "pan/056_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0058",
+   "seq": 57,
+   "time_norm": "2026-07-29 16:18",
+   "primary_image": "pan/057_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0059",
+   "seq": 58,
+   "time_norm": "2026-07-26 22:34",
+   "primary_image": "pan/058_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0060",
+   "seq": 59,
+   "time_norm": "2026-07-15 21:44",
+   "primary_image": "pan/059_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0061",
+   "seq": 60,
+   "time_norm": "2020-08-09 12:01",
+   "primary_image": "pan/060_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0062",
+   "seq": 61,
+   "time_norm": "2016-08-06 17:35",
+   "primary_image": "pan/061_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0063",
+   "seq": 62,
+   "time_norm": "2025-10-09 00:17",
+   "primary_image": "pan/062_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0064",
+   "seq": 63,
+   "time_norm": "",
+   "primary_image": "pan/063_1.jpg",
+   "materials": 16,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0065",
+   "seq": 64,
+   "time_norm": "2024-11-05 17:39",
+   "primary_image": "pan/064_1.jpeg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0066",
+   "seq": 65,
+   "time_norm": "2026-08-03 15:12",
+   "primary_image": "pan/065_1.jpg",
+   "materials": 35,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0067",
+   "seq": 66,
+   "time_norm": "2020-06-22 21:39",
+   "primary_image": "pan/066_1.jpg",
+   "materials": 20,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0068",
+   "seq": 67,
+   "time_norm": "2025-12-10 10:52",
+   "primary_image": "pan/067_1.jpg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0069",
+   "seq": 68,
+   "time_norm": "2026-07-31 12:09",
+   "primary_image": "pan/068_1.jpg",
+   "materials": 33,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0070",
+   "seq": 69,
+   "time_norm": "2025-09-11 14:58",
+   "primary_image": "pan/069_1.jpg",
+   "materials": 12,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0071",
+   "seq": 70,
+   "time_norm": "2025-05-28 22:00",
+   "primary_image": "pan/070_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0072",
+   "seq": 71,
+   "time_norm": "2026-07-29 23:10",
+   "primary_image": "pan/071_1.jpeg",
+   "materials": 36,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0073",
+   "seq": 72,
+   "time_norm": "2026-04-05 10:28",
+   "primary_image": "pan/072_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0074",
+   "seq": 73,
+   "time_norm": "2026-02-21 09:44",
+   "primary_image": "pan/073_1.jpeg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0075",
+   "seq": 74,
+   "time_norm": "2026-06-13 16:58",
+   "primary_image": "pan/074_1.jpeg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0076",
+   "seq": 75,
+   "time_norm": "2026-07-27 07:53",
+   "primary_image": "pan/075_1.jpeg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0077",
+   "seq": 76,
+   "time_norm": "2026-07-23 14:22",
+   "primary_image": "pan/076_1.jpeg",
+   "materials": 13,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0078",
+   "seq": 77,
+   "time_norm": "2025-05-01 16:51",
+   "primary_image": "pan/077_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0079",
+   "seq": 78,
+   "time_norm": "2025-07-04 17:34",
+   "primary_image": "pan/078_1.jpeg",
+   "materials": 13,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0080",
+   "seq": 79,
+   "time_norm": "2026-07-15 20:09",
+   "primary_image": "pan/079_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0081",
+   "seq": 80,
+   "time_norm": "2026-07-25 17:43",
+   "primary_image": "pan/080_1.jpeg",
+   "materials": 13,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0082",
+   "seq": 81,
+   "time_norm": "2026-07-23 11:35",
+   "primary_image": "pan/081_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0083",
+   "seq": 82,
+   "time_norm": "2024-10-14 10:47",
+   "primary_image": "pan/082_1.jpg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0084",
+   "seq": 83,
+   "time_norm": "2026-04-24 16:40",
+   "primary_image": "pan/083_1.jpg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0085",
+   "seq": 84,
+   "time_norm": "2026-07-23 20:46",
+   "primary_image": "pan/084_1.jpg",
+   "materials": 19,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0086",
+   "seq": 85,
+   "time_norm": "2026-07-23 16:06",
+   "primary_image": "pan/085_1.jpg",
+   "materials": 12,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0087",
+   "seq": 86,
+   "time_norm": "2026-07-13 13:39",
+   "primary_image": "pan/086_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0088",
+   "seq": 87,
+   "time_norm": "2026-07-22 19:51",
+   "primary_image": "pan/087_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0089",
+   "seq": 88,
+   "time_norm": "2021-09-06 10:15",
+   "primary_image": "pan/088_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0090",
+   "seq": 89,
+   "time_norm": "2026-05-19 09:22",
+   "primary_image": "pan/089_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0091",
+   "seq": 90,
+   "time_norm": "2026-07-21 09:18",
+   "primary_image": "pan/090_1.jpg",
+   "materials": 12,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0092",
+   "seq": 91,
+   "time_norm": "2026-01-30 09:44",
+   "primary_image": "pan/091_1.jpg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0093",
+   "seq": 92,
+   "time_norm": "2026-05-25 11:35",
+   "primary_image": "pan/092_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0094",
+   "seq": 93,
+   "time_norm": "2026-05-08 18:31",
+   "primary_image": "pan/093_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0095",
+   "seq": 94,
+   "time_norm": "2026-06-03 20:00",
+   "primary_image": "pan/094_1.jpeg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0096",
+   "seq": 95,
+   "time_norm": "2026-07-06 07:52",
+   "primary_image": "pan/095_1.jpeg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0097",
+   "seq": 96,
+   "time_norm": "2026-07-20 03:30",
+   "primary_image": "pan/096_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0098",
+   "seq": 97,
+   "time_norm": "2026-07-12 18:49",
+   "primary_image": "pan/097_1.jpeg",
+   "materials": 17,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0099",
+   "seq": 98,
+   "time_norm": "2026-04-03 07:30",
+   "primary_image": "pan/098_1.jpg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0100",
+   "seq": 99,
+   "time_norm": "2026-07-09 23:11",
+   "primary_image": "pan/099_1.jpg",
+   "materials": 20,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0101",
+   "seq": 100,
+   "time_norm": "2026-07-16 14:18",
+   "primary_image": "pan/100_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0102",
+   "seq": 101,
+   "time_norm": "2026-07-02 16:00",
+   "primary_image": "pan/101_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0103",
+   "seq": 102,
+   "time_norm": "2026-07-15 20:09",
+   "primary_image": "pan/102_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0104",
+   "seq": 103,
+   "time_norm": "2026-07-09 09:51",
+   "primary_image": "pan/103_1.jpeg",
+   "materials": 12,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0105",
+   "seq": 104,
+   "time_norm": "2016-01-12 16:45",
+   "primary_image": "pan/104_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0106",
+   "seq": 105,
+   "time_norm": "2024-06-11 13:33",
+   "primary_image": "pan/105_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0107",
+   "seq": 106,
+   "time_norm": "2025-11-10 14:16",
+   "primary_image": "pan/106_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0108",
+   "seq": 107,
+   "time_norm": "2026-07-11 12:07",
+   "primary_image": "pan/107_1.jpg",
+   "materials": 15,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0109",
+   "seq": 108,
+   "time_norm": "2026-04-30 12:01",
+   "primary_image": "pan/108_1.jpeg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0110",
+   "seq": 109,
+   "time_norm": "2026-07-08 11:45",
+   "primary_image": "pan/109_1.jpeg",
+   "materials": 6,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0111",
+   "seq": 110,
+   "time_norm": "2026-04-17 15:30",
+   "primary_image": "pan/110_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0112",
+   "seq": 111,
+   "time_norm": "2025-08-31 11:50",
+   "primary_image": "pan/111_1.jpg",
+   "materials": 7,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0113",
+   "seq": 112,
+   "time_norm": "2026-03-02 10:50",
+   "primary_image": "pan/112_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0114",
+   "seq": 113,
+   "time_norm": "2026-06-05 14:36",
+   "primary_image": "pan/113_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0115",
+   "seq": 114,
+   "time_norm": "2025-08-08 18:33",
+   "primary_image": "pan/114_1.jpeg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0116",
+   "seq": 115,
+   "time_norm": "2014-05-29 15:07",
+   "primary_image": "pan/115_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0117",
+   "seq": 116,
+   "time_norm": "2026-03-16 10:11",
+   "primary_image": "pan/116_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0118",
+   "seq": 117,
+   "time_norm": "2025-06-10 12:24",
+   "primary_image": "pan/117_1.jpg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0119",
+   "seq": 118,
+   "time_norm": "2026-07-04 16:42",
+   "primary_image": "pan/118_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0120",
+   "seq": 119,
+   "time_norm": "2025-12-03 00:26",
+   "primary_image": "pan/119_1.jpg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0121",
+   "seq": 120,
+   "time_norm": "2022-09-04 14:49",
+   "primary_image": "pan/120_1.jpeg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0122",
+   "seq": 121,
+   "time_norm": "2026-01-11 20:03",
+   "primary_image": "pan/121_1.jpeg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0123",
+   "seq": 122,
+   "time_norm": "2026-05-15 23:02",
+   "primary_image": "pan/122_1.jpeg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0124",
+   "seq": 123,
+   "time_norm": "2026-07-01 19:35",
+   "primary_image": "pan/123_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0125",
+   "seq": 124,
+   "time_norm": "2026-06-29 09:40",
+   "primary_image": "pan/124_1.jpg",
+   "materials": 12,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0126",
+   "seq": 125,
+   "time_norm": "2026-06-23 13:00",
+   "primary_image": "pan/125_1.jpeg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0127",
+   "seq": 126,
+   "time_norm": "2026-06-18 17:26",
+   "primary_image": "pan/126_1.jpeg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0128",
+   "seq": 127,
+   "time_norm": "2020-07-15 21:32",
+   "primary_image": "pan/127_1.jpeg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0129",
+   "seq": 128,
+   "time_norm": "2026-06-07 21:30",
+   "primary_image": "pan/128_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0130",
+   "seq": 129,
+   "time_norm": "2026-01-11 18:55",
+   "primary_image": "pan/129_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0131",
+   "seq": 130,
+   "time_norm": "2026-02-11 11:51",
+   "primary_image": "pan/130_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0132",
+   "seq": 131,
+   "time_norm": "2026-06-13 13:47",
+   "primary_image": "pan/131_1.jpeg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0133",
+   "seq": 132,
+   "time_norm": "2026-05-24 16:14",
+   "primary_image": "pan/132_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0134",
+   "seq": 133,
+   "time_norm": "2024-12-27 07:23",
+   "primary_image": "pan/133_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0135",
+   "seq": 134,
+   "time_norm": "2026-06-26 08:01",
+   "primary_image": "pan/134_1.png",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0136",
+   "seq": 135,
+   "time_norm": "2026-06-18 14:53",
+   "primary_image": "pan/135_1.png",
+   "materials": 5,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0137",
+   "seq": 136,
+   "time_norm": "2024-09-06 12:49",
+   "primary_image": "pan/136_1.jpg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0138",
+   "seq": 137,
+   "time_norm": "2026-06-25 21:16",
+   "primary_image": "pan/137_1.jpeg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0139",
+   "seq": 138,
+   "time_norm": "2026-06-24 02:12",
+   "primary_image": "pan/138_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0140",
+   "seq": 139,
+   "time_norm": "2026-06-25 09:31",
+   "primary_image": "pan/139_1.jpeg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0141",
+   "seq": 140,
+   "time_norm": "2026-04-11 13:23",
+   "primary_image": "pan/140_1.jpeg",
+   "materials": 25,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0142",
+   "seq": 141,
+   "time_norm": "2011-07-06 12:48",
+   "primary_image": "pan/141_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0143",
+   "seq": 142,
+   "time_norm": "2026-06-12 08:57",
+   "primary_image": "pan/142_1.jpeg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0144",
+   "seq": 143,
+   "time_norm": "2025-04-03 12:51",
+   "primary_image": "pan/143_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0145",
+   "seq": 144,
+   "time_norm": "2026-05-31 14:05",
+   "primary_image": "pan/144_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0146",
+   "seq": 145,
+   "time_norm": "2026-03-07 18:13",
+   "primary_image": "pan/145_1.jpg",
+   "materials": 7,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0147",
+   "seq": 146,
+   "time_norm": "2026-06-19 13:29",
+   "primary_image": "pan/146_1.jpeg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0148",
+   "seq": 147,
+   "time_norm": "2026-05-12 14:41",
+   "primary_image": "pan/147_1.png",
+   "materials": 1,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0149",
+   "seq": 148,
+   "time_norm": "2026-06-15 13:15",
+   "primary_image": "pan/148_1.jpeg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0150",
+   "seq": 149,
+   "time_norm": "2026-03-19 07:57",
+   "primary_image": "pan/149_1.png",
+   "materials": 3,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0151",
+   "seq": 150,
+   "time_norm": "2026-03-14 17:44",
+   "primary_image": "pan/150_1.jpeg",
+   "materials": 29,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0152",
+   "seq": 151,
+   "time_norm": "2021-04-21 18:32",
+   "primary_image": "pan/151_1.png",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0153",
+   "seq": 152,
+   "time_norm": "2026-06-01 08:15",
+   "primary_image": "pan/152_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0154",
+   "seq": 153,
+   "time_norm": "2025-10-22 00:55",
+   "primary_image": "pan/153_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0155",
+   "seq": 154,
+   "time_norm": "2026-04-05 13:29",
+   "primary_image": "pan/154_1.jpg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0156",
+   "seq": 155,
+   "time_norm": "2026-06-07 15:11",
+   "primary_image": "pan/155_1.jpeg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0157",
+   "seq": 156,
+   "time_norm": "2026-05-10 21:15",
+   "primary_image": "pan/156_1.png",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0158",
+   "seq": 157,
+   "time_norm": "2026-06-06 13:31",
+   "primary_image": "pan/157_1.jpeg",
+   "materials": 1,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0159",
+   "seq": 158,
+   "time_norm": "",
+   "primary_image": null,
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": false
+  },
+  {
+   "case_id": "raw-qqwb20261019-0160",
+   "seq": 159,
+   "time_norm": "2026-06-06 13:59",
+   "primary_image": "pan/159_1.jpg",
+   "materials": 4,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0161",
+   "seq": 160,
+   "time_norm": "2026-05-18 08:36",
+   "primary_image": "pan/160_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0162",
+   "seq": 161,
+   "time_norm": "2026-05-29 06:42",
+   "primary_image": "pan/161_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0163",
+   "seq": 162,
+   "time_norm": "2026-02-21 20:00",
+   "primary_image": "pan/162_1.jpeg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0164",
+   "seq": 163,
+   "time_norm": "2013-05-20 13:48",
+   "primary_image": "pan/163_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0165",
+   "seq": 164,
+   "time_norm": "2026-06-10 13:46",
+   "primary_image": "pan/164_1.jpeg",
+   "materials": 6,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0166",
+   "seq": 165,
+   "time_norm": "2024-07-07 20:00",
+   "primary_image": "pan/165_1.jpg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0167",
+   "seq": 166,
+   "time_norm": "2026-06-05 06:07",
+   "primary_image": "pan/166_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0168",
+   "seq": 167,
+   "time_norm": "2026-06-05 15:38",
+   "primary_image": "pan/167_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0169",
+   "seq": 168,
+   "time_norm": "2026-05-31 18:06",
+   "primary_image": "pan/168_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0170",
+   "seq": 169,
+   "time_norm": "2025-12-03 12:05",
+   "primary_image": "pan/169_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0171",
+   "seq": 170,
+   "time_norm": "2026-05-04 10:25",
+   "primary_image": "pan/170_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0172",
+   "seq": 171,
+   "time_norm": "2026-05-18 08:48",
+   "primary_image": "pan/171_1.png",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0173",
+   "seq": 172,
+   "time_norm": "2026-05-31 17:15",
+   "primary_image": "pan/172_1.jpeg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0174",
+   "seq": 173,
+   "time_norm": "2025-11-19 12:26",
+   "primary_image": "pan/173_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0175",
+   "seq": 174,
+   "time_norm": "2026-05-10 16:10",
+   "primary_image": "pan/174_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0176",
+   "seq": 175,
+   "time_norm": "2026-05-10 21:19",
+   "primary_image": "pan/175_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0177",
+   "seq": 176,
+   "time_norm": "2026-04-28 12:09",
+   "primary_image": "pan/176_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0178",
+   "seq": 177,
+   "time_norm": "2026-05-23 22:56",
+   "primary_image": "pan/177_1.jpg",
+   "materials": 15,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0179",
+   "seq": 178,
+   "time_norm": "2008-08-04 17:29",
+   "primary_image": "pan/178_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0180",
+   "seq": 179,
+   "time_norm": "2026-02-05 10:39",
+   "primary_image": "pan/179_1.jpeg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0181",
+   "seq": 180,
+   "time_norm": "2026-05-10 10:59",
+   "primary_image": "pan/180_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0182",
+   "seq": 181,
+   "time_norm": "2025-12-02 16:10",
+   "primary_image": "pan/181_1.jpg",
+   "materials": 12,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0183",
+   "seq": 182,
+   "time_norm": "2026-05-13 15:01",
+   "primary_image": "pan/182_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0184",
+   "seq": 183,
+   "time_norm": "2026-05-21 06:58",
+   "primary_image": "pan/183_1.jpeg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0185",
+   "seq": 184,
+   "time_norm": "2026-05-15 09:44",
+   "primary_image": "pan/184_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0186",
+   "seq": 185,
+   "time_norm": "2026-05-23 11:10",
+   "primary_image": "pan/185_1.jpeg",
+   "materials": 9,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0187",
+   "seq": 186,
+   "time_norm": "2026-05-07 17:44",
+   "primary_image": "pan/186_1.jpg",
+   "materials": 16,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0188",
+   "seq": 187,
+   "time_norm": "2026-05-01 07:51",
+   "primary_image": "pan/187_1.jpg",
+   "materials": 10,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0189",
+   "seq": 188,
+   "time_norm": "2025-06-21 13:55",
+   "primary_image": "pan/188_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0190",
+   "seq": 189,
+   "time_norm": "2026-04-18 17:44",
+   "primary_image": "pan/189_1.jpeg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0191",
+   "seq": 190,
+   "time_norm": "2014-06-20 19:25",
+   "primary_image": "pan/190_1.png",
+   "materials": 6,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0192",
+   "seq": 191,
+   "time_norm": "2024-11-22 15:37",
+   "primary_image": "pan/191_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0193",
+   "seq": 192,
+   "time_norm": "2023-10-25 13:32",
+   "primary_image": "pan/192_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0194",
+   "seq": 193,
+   "time_norm": "2026-01-12 18:52",
+   "primary_image": "pan/193_3.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0195",
+   "seq": 194,
+   "time_norm": "2026-05-16 11:46",
+   "primary_image": "pan/194_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0196",
+   "seq": 195,
+   "time_norm": "2026-05-23 18:13",
+   "primary_image": "pan/195_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0197",
+   "seq": 196,
+   "time_norm": "2026-05-21 06:58",
+   "primary_image": "pan/196_1.jpeg",
+   "materials": 11,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0198",
+   "seq": 197,
+   "time_norm": "2026-05-21 12:39",
+   "primary_image": "pan/197_1.jpeg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0199",
+   "seq": 198,
+   "time_norm": "2025-07-17 16:00",
+   "primary_image": "pan/198_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0200",
+   "seq": 199,
+   "time_norm": "2026-05-15 08:25",
+   "primary_image": "pan/199_1.jpeg",
+   "materials": 19,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0201",
+   "seq": 200,
+   "time_norm": "2026-04-12 19:00",
+   "primary_image": "pan/200_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0202",
+   "seq": 201,
+   "time_norm": "2025-09-27 08:27",
+   "primary_image": "pan/201_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0203",
+   "seq": 202,
+   "time_norm": "2025-02-28 14:38",
+   "primary_image": "pan/202_1.jpg",
+   "materials": 7,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0204",
+   "seq": 203,
+   "time_norm": "2026-05-03 23:08",
+   "primary_image": "pan/203_1.jpg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0205",
+   "seq": 204,
+   "time_norm": "2026-04-17 10:43",
+   "primary_image": "pan/204_1.jpg",
+   "materials": 20,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0206",
+   "seq": 205,
+   "time_norm": "2026-02-04 18:23",
+   "primary_image": "pan/205_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0207",
+   "seq": 206,
+   "time_norm": "2026-03-25 11:02",
+   "primary_image": "pan/206_1.jpeg",
+   "materials": 5,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0208",
+   "seq": 207,
+   "time_norm": "2026-05-16 04:08",
+   "primary_image": "pan/207_1.jpeg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0209",
+   "seq": 208,
+   "time_norm": "2025-08-13 11:48",
+   "primary_image": "pan/208_1.jpg",
+   "materials": 20,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0210",
+   "seq": 209,
+   "time_norm": "2026-04-16 11:03",
+   "primary_image": "pan/209_1.jpg",
+   "materials": 32,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0211",
+   "seq": 210,
+   "time_norm": "",
+   "primary_image": "pan/210_1.png",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0212",
+   "seq": 211,
+   "time_norm": "2026-05-01 11:18",
+   "primary_image": "pan/211_1.jpeg",
+   "materials": 22,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0213",
+   "seq": 212,
+   "time_norm": "2017-02-15 12:56",
+   "primary_image": "pan/212_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0214",
+   "seq": 213,
+   "time_norm": "2026-05-09 19:22",
+   "primary_image": "pan/213_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0215",
+   "seq": 214,
+   "time_norm": "2026-01-22 15:15",
+   "primary_image": "pan/214_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0216",
+   "seq": 215,
+   "time_norm": "2026-04-21 13:08",
+   "primary_image": "pan/215_1.jpg",
+   "materials": 9,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0217",
+   "seq": 216,
+   "time_norm": "2025-03-10 07:36",
+   "primary_image": "pan/216_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0218",
+   "seq": 217,
+   "time_norm": "2026-05-05 12:07",
+   "primary_image": "pan/217_1.jpeg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0219",
+   "seq": 218,
+   "time_norm": "2026-01-30 09:32",
+   "primary_image": "pan/218_1.jpg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0220",
+   "seq": 219,
+   "time_norm": "2026-03-17 14:03",
+   "primary_image": "pan/219_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0221",
+   "seq": 220,
+   "time_norm": "2026-05-08 07:36",
+   "primary_image": "pan/220_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0222",
+   "seq": 221,
+   "time_norm": "2025-05-30 13:50",
+   "primary_image": "pan/221_1.png",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0223",
+   "seq": 222,
+   "time_norm": "2026-02-22 20:10",
+   "primary_image": "pan/222_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0224",
+   "seq": 223,
+   "time_norm": "2014-08-04 00:55",
+   "primary_image": "pan/223_1.png",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0225",
+   "seq": 224,
+   "time_norm": "2026-04-30 15:24",
+   "primary_image": "pan/224_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0226",
+   "seq": 225,
+   "time_norm": "2026-05-04 12:52",
+   "primary_image": "pan/225_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0227",
+   "seq": 226,
+   "time_norm": "2025-09-20 21:24",
+   "primary_image": "pan/226_1.jpeg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0228",
+   "seq": 227,
+   "time_norm": "2026-04-22 13:35",
+   "primary_image": "pan/227_1.jpg",
+   "materials": 2,
+   "feedback": "有明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0229",
+   "seq": 228,
+   "time_norm": "2026-04-09 15:05",
+   "primary_image": "pan/228_1.jpg",
+   "materials": 8,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0230",
+   "seq": 229,
+   "time_norm": "2026-03-02 23:14",
+   "primary_image": "pan/229_1.png",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0231",
+   "seq": 230,
+   "time_norm": "2026-04-22 08:39",
+   "primary_image": "pan/230_1.jpeg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0232",
+   "seq": 231,
+   "time_norm": "2025-03-07 20:50",
+   "primary_image": "pan/231_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0233",
+   "seq": 232,
+   "time_norm": "2026-04-24 11:47",
+   "primary_image": "pan/232_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0234",
+   "seq": 233,
+   "time_norm": "2026-04-13 15:30",
+   "primary_image": "pan/233_1.jpg",
+   "materials": 11,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0235",
+   "seq": 234,
+   "time_norm": "2026-04-08 18:08",
+   "primary_image": "pan/234_1.jpg",
+   "materials": 27,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0236",
+   "seq": 235,
+   "time_norm": "2026-04-25 22:11",
+   "primary_image": "pan/235_1.jpg",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0237",
+   "seq": 236,
+   "time_norm": "2025-08-27 22:29",
+   "primary_image": "pan/236_1.jpeg",
+   "materials": 3,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0238",
+   "seq": 237,
+   "time_norm": "",
+   "primary_image": "pan/237_1.png",
+   "materials": 6,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0239",
+   "seq": 238,
+   "time_norm": "2026-03-30 11:47",
+   "primary_image": "pan/238_1.jpg",
+   "materials": 4,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0240",
+   "seq": 239,
+   "time_norm": "2026-04-10 23:38",
+   "primary_image": "pan/239_1.jpg",
+   "materials": 7,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0241",
+   "seq": 240,
+   "time_norm": "2026-04-21 09:46",
+   "primary_image": "pan/240_1.png",
+   "materials": 2,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0242",
+   "seq": 241,
+   "time_norm": "2025-08-07 21:04",
+   "primary_image": "pan/241_1.jpg",
+   "materials": 1,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  },
+  {
+   "case_id": "raw-qqwb20261019-0243",
+   "seq": 242,
+   "time_norm": "2025-05-24 13:49",
+   "primary_image": "pan/242_1.jpg",
+   "materials": 0,
+   "feedback": "未见明确标注反馈",
+   "has_ke": true
+  }
+ ],
+ "skipped": []
+}

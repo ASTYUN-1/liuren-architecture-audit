@@ -1,0 +1,36 @@
+{
+  "release": "20261107-slim-28",
+  "scope": "local-opencode-only",
+  "clientOutputBudgetOmitted": true,
+  "highRetained": true,
+  "installedHostFaultRecoveryPassed": true,
+  "node": {
+    "tests": 217,
+    "passed": 217
+  },
+  "python": {
+    "testsRun": 48,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "passed": true,
+    "scope": [
+      "test_liuren_method_loader",
+      "test_liuren_class_mapping",
+      "test_liuren_single_method",
+      "test_liuren_plan_transport",
+      "test_liuren_material_scope",
+      "test_liuren_book_search",
+      "test_liuren_local_read.LocalReadTests.test_batches_reconstruct_every_selected_module_without_abridgement",
+      "test_liuren_local_read.LocalReadTests.test_condition_routes_remain_intact_and_invalid_conditions_are_rejected"
+    ],
+    "externalModelCalls": 0,
+    "exclusions": "Historical two-library retrieval tests and the 20261027-only publication verifier are not current normal-flow checks; prior full-suite findings remain in activation evidence."
+  },
+  "originalRealChildReportRecovered": false,
+  "externalModelCalls": 0,
+  "websiteChanged": false,
+  "doctorErrors": [
+    "research mechanical validation has gaps"
+  ]
+}

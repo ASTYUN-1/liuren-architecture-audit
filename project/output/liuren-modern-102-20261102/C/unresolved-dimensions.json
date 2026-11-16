@@ -1,0 +1,1920 @@
+[
+  {
+    "case_id": "BK26-MODERN-069",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-069-E3C-Q003",
+        "author": "骑牛打酱油",
+        "phase": "背景",
+        "judgment": "背景：先猜围标后问分包",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7141,
+            "line_end": 7151,
+            "quote": "骑牛打酱油：围标呗，围标一般就能中，然后利润分点给参与围标的几家\n\n江山无限：不是围标，总包中标后再找分包就是看哪家分包报价合适就给谁不用正规\n\n流程\n\n潜：懂了，就相当于我买东西，然后再转卖给你，然后你给的价格合适，我就卖给你，\n\n应该是这样吧\n\n潜：感觉对事体不了解都不好断[捂脸]骑牛打酱油：哦那这个是分包还是总包",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-069-S013"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-069-E3C-Q005",
+        "author": "玄樸",
+        "phase": "群断",
+        "judgment": "利润过程：垫本、拖欠赚不到",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7155,
+            "line_end": 7155,
+            "quote": "玄樸：中标后，自己得垫付本钱，工程干完，又拖欠，款项。赚不到啥钱[抱拳]明天更美好：我看不能中标",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "玄樸",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-069-E3C-Q007",
+        "author": "楠尘.",
+        "phase": "群断",
+        "judgment": "中标利润：能中赔钱",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7157,
+            "line_end": 7157,
+            "quote": "楠尘.：中标赔钱",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "楠尘.",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-069-E3C-Q008",
+        "author": "丁（一粟）",
+        "phase": "群断",
+        "judgment": "中标利润：能中不赚",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7163,
+            "line_end": 7163,
+            "quote": "丁（一粟）：能中，赚不到钱",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "丁（一粟）",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-069-E3C-Q012",
+        "author": "江山无限",
+        "phase": "复盘",
+        "judgment": "利润：自述事前几乎无利及拖延协商",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7188,
+            "line_end": 7188,
+            "quote": "江山无限：也就是说设计文件有重大瑕疵，他投标前问我，我就说肯定中标但是估计利润几乎没有你看着办吧，他说只要不亏就能干，因为要养活全公司工人设备不能歇着，结果，开工后遇到两次困难，还是我劝他拖着干越慢越好，看看有无机会靠拖延工期让总包同意涨价，哑巴亏这词太贴切了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-070",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-070-E3C-Q005",
+        "author": "木琰林",
+        "phase": "群断",
+        "judgment": "经营：庙有钱应接",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7248,
+            "line_end": 7258,
+            "quote": "木琰林：其实接了也不错啊，接了 这道馆有钱，第四课辰太岁 说明是正规道馆，国家注册的，问求财，就应该接了好，谈及责任，自己不愿意，就另一回事了\n\n明天更美好：这个课问能不能接成和接了好不好是两码事\n\n木琰林：第三课子，月将，冲年命午，应该是不会接，又是太岁又是月将，最后国家单位派人出面接了，子冲午走了\n\n明天更美好：整体看，末传空亡了，日干空了，还是自己不愿意，最终也没有接\n\n陈潛岭：我觉得一个人测自己是接还是不接，把选权择交给了非自己，多没意思。要问就问接了之后会怎么样，这样问和接下去分析才合理些。\n\n木琰林：我的意见，强行接了，也呆不住，那个 子水冲的厉害木琰林：其实他问的就是接好还是不接好",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "木琰林",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-070-S009"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-070-E3C-Q012",
+        "note": "人减少有反馈；2028闭关未验；己日说与丙日异文不私改",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7267,
+            "line_end": 7295,
+            "quote": "木琰林：接了也呆不住，最后还会走，就是这个答案\n\n青蓝：我主要是目的，是看接了传承，怕给庙里带来不必要的麻烦，我能力尚浅，不足以担此大任\n\n明天更美好：这是已经接了\n\n青蓝：是的，宗教局已经备案过了\n\n泠泽：干弱不担财，因为改善庙宇环境内务之事而劳费钱财\n\n青蓝：所以我在初一时候，已经清理人了，以后就留我们三人在此修行，不大开山门，不接待善信\n\n热心市民李先生：1.干上丁酉朱雀，就是被告知门户要变更，干阴酉财破碎夹金墓，是庙里经营状况也不佳，现在前途暗淡。\n\n\n## 案例 2：支申为道观，化为支局鬼，鬼局合太岁辰，接了会有多方麻烦，尤其是国家方面。\n\n\n## 案例 3：末传巳为水绝，拒绝了，巳乘天空=戌蛇寺庙，冲辰，通过拒绝规避了麻烦木琰林：我的意见，下个猴年，2028 年，你可以溜之大吉\n\n泠泽：不知道最后宗教局会不会再来搞一手\n\n青蓝：非疾病者不接受，出家人不接受，会来的，所以我已经清理其余修行人，只留我们两个道士，一个做饭的\n\n木琰林：你看他描述的，他想的是闭关，实际上是不想接，但是现在已经接了，我的结论，干几年，然后可以溜之大吉，也就是安心自己闭关去了\n\n泠泽：寄宫空，但是都上传了，酉也是庙宇，贵人留下为己财，但中传墓财，革新劳累稍破点财\n\n木琰林：己日，三传合金泄气，也是人气冷清之意",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "木琰林",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-070-E3C-Q012",
+        "note": "人减少有反馈；2028闭关未验；己日说与丙日异文不私改"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-070-E3C-Q014",
+        "note": "拒绝与已接冲突；费用国家麻烦未验"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-070-E3C-Q019",
+        "note": "当前已接属于反馈层，长期闭关和经营未验"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-071",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q001",
+        "author": "小四爷",
+        "phase": "群断",
+        "judgment": "成败应期：今天申时能拿",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7349,
+            "line_end": 7349,
+            "quote": "小四爷：能拿到，应期就在今天申时知冉：如果断拿到，可以看看应期 青衣：能拿到，辰",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "小四爷",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-071-S011"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q002",
+        "author": "青衣",
+        "phase": "群断",
+        "judgment": "成败应期：能拿到辰",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7349,
+            "line_end": 7349,
+            "quote": "小四爷：能拿到，应期就在今天申时知冉：如果断拿到，可以看看应期 青衣：能拿到，辰",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "青衣",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q006",
+        "author": "丁（一粟）",
+        "phase": "群断",
+        "judgment": "应期：未日辰时或丙申最迟次日",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7353,
+            "line_end": 7361,
+            "quote": "肖遥：短期内应该都要不到 丁（一粟）：未日辰时差不多\n\n壬黄：拿不到我吃屎，就在丙申日或者丁酉日肖遥：你问的年前，年前应该是拿不到了。\n\n༊ི＾十六画生࿐：这不就昨天还是今天拿的到吗杨先生：课内藏传应吉\n\n丁（一粟）：丙申日出结果可能性很大，最晚明天能发骑牛打酱油：觉得够呛，我赌一把巳年发\n\n肖遥：是不是走了仲裁？丁（一粟）：肯定走申诉肖遥：我看也是",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "丁（一粟）",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q007",
+        "author": "壬黄",
+        "phase": "群断",
+        "judgment": "应期：丙申或丁酉",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7355,
+            "line_end": 7355,
+            "quote": "壬黄：拿不到我吃屎，就在丙申日或者丁酉日肖遥：你问的年前，年前应该是拿不到了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬黄",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-071-S017"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q008",
+        "author": "十六画生",
+        "phase": "群断",
+        "judgment": "应期：昨天今天可拿",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7357,
+            "line_end": 7357,
+            "quote": "༊ི＾十六画生࿐：这不就昨天还是今天拿的到吗杨先生：课内藏传应吉",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "十六画生",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q010",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "应期：巳年发",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7359,
+            "line_end": 7359,
+            "quote": "丁（一粟）：丙申日出结果可能性很大，最晚明天能发骑牛打酱油：觉得够呛，我赌一把巳年发",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-071-E3C-Q013",
+        "author": "骑牛打酱油",
+        "phase": "复盘",
+        "judgment": "填实：巳仍须填",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7379,
+            "line_end": 7379,
+            "quote": "小四爷：果验，时辰没对骑牛打酱油：巳还得填实",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-072",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-072-E3C-Q003",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "中介：花钱打水漂",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7442,
+            "line_end": 7444,
+            "quote": "骑牛打酱油：此次不行，卯年可能。六合财马，工签，可能没有接收单位。我都想断健康原因拒签，不知道有没有这个惯例。豆包说有。\n\n白龙涛：这个课还有个细节跟钱有关江山无限：估计因为材料作假被拒签 骑牛打酱油：花钱找了中介，打水漂了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-072-S006"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-072-E3C-Q004",
+        "author": "江山无限",
+        "phase": "群断",
+        "judgment": "成败原因：材料作假拒签",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7444,
+            "line_end": 7444,
+            "quote": "白龙涛：这个课还有个细节跟钱有关江山无限：估计因为材料作假被拒签 骑牛打酱油：花钱找了中介，打水漂了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-076",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-076-E3C-Q009",
+        "author": "白龙涛",
+        "phase": "群断",
+        "judgment": "凶象：一点帮扶没有、类比另课亡",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 7818,
+            "line_end": 7818,
+            "quote": "白龙涛：午发用 方向肯定就那些病了。主要是这人活没活下来。凶就是全局 一点帮扶没有。我记得有一个课也是这样，人没了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "白龙涛",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-076-S015"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-076-E3C-Q008",
+        "note": "手术稳定有反馈；入墓坐克必死是假设未验证"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-076-E3C-Q028",
+        "note": "稳定无法切包可对应；午未年凶未来未验"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-078",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-078-E3C-Q011",
+        "author": "陈潛岭",
+        "phase": "复盘",
+        "judgment": "定位：地支算女",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8139,
+            "line_end": 8139,
+            "quote": "陈潛岭：那应该地支才算女的陈曦：这是巳将盘",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "陈潛岭",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-078-E3C-Q010",
+        "note": "另一完整盘已有；未给巳将没孕细链，不补",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8133,
+            "line_end": 8171,
+            "quote": "༊ི＾十六画生࿐：胎财死气损胎推，老师断的好白龙涛：谁加谁是死气？\n\n陈曦：丑是死气午是胎神\n\n白龙涛：按五行 长生吗？午如果是胎，丑不是衰吗？\n\n陈潛岭：那应该地支才算女的陈曦：这是巳将盘\n\n明镜六壬排盘 1.0.0\n\n时间：2024-10-06 22：49 夜\n\n\n> 四柱：甲辰 癸酉 癸卯 癸亥 巳将 正时起课 甲午旬 辰巳空戌年 午命 女\n\n\n<details>\n<summary>盘局信息</summary>\n\n- **天将：** 勾 合 雀 蛇\n- **遁干：** 己 庚 辛 壬\n- **天盘：** 亥 子 丑 寅\n- **地盘：** 申 未 午 巳\n- **地盘遁干：** 丙 乙 甲\n- **地盘天将：** 虎 常 玄 阴\n- **四课天将：** 贵 空 雀 常\n- **四课三传：** 孙癸卯贵龙戊戌卯癸贵卯酉丑未父丁酉空空丁酉辰⌾后酉卯未癸孙癸卯贵\n\n</details>\n\n**癸卯日第七局干上未**\n\n课体：反吟，励德，龙战。\n\n毕法云：两贵受克难干贵，干支全伤防两损。青山：怎么感觉这女的这么挨欺负那\n\n陈曦：这个，我不知道该怎么回复你，不过生活中事主比较照顾女友青山：三传递克，发用夹克，卯申绝。这话这盘我不信啊\n\n陈曦：不过俩人在床上是主仆关系，所以你可以这么说白龙涛：这巳将，妥妥没怀孕啊",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "白龙涛",
+            "role": "后人注解"
+          }
+        ]
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-078-E3C-Q014",
+        "note": "该坐标按作者原述，勿与巳将反吟合证",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8176,
+            "line_end": 8180,
+            "quote": "这个课要站在两个角度思考，一个是十干长生宫一个是五行长生宫，站在十干长生宫的角度来看胎神在巳，巳临子受克，子巳绝，月令在酉金月建在癸，这一方面就是没有胎孕的。\n\n在看子孙，水生木，卯木也就是支神临在戌地，上逢申金受克，下逢戌中辛金之克，又卯戌化火，木生火泄出去了，天时又是酉月，根本就是不带有的嘛。\n\n在查五行宫位，水胎在午，午不在天时，不得地利，上神也是鬼，这根本就没机会嘛。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "青山",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-079",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-080",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-080-E3C-Q005",
+        "author": "诨人张屠狗",
+        "phase": "复盘",
+        "judgment": "原断自述：已怀后大概率打掉",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8321,
+            "line_end": 8321,
+            "quote": "诨人张屠狗：我当时断的怀了，后面他们过几天双休日去检查有接近一个月了，如果要的话要看到了中期的筛查结果。女的感觉犹豫不决，所以我后面私下跟男的说大概率是留不住，会打掉。最后在女方母亲的要求下于 1 月 22 流掉",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "诨人张屠狗",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-080-E3C-Q008",
+        "author": "凌诚",
+        "phase": "复盘",
+        "judgment": "行年：亥非戌、先有后流在年",
+        "gap": "没有展开年位到先有后的链；年异文不私改",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8330,
+            "line_end": 8330,
+            "quote": "凌诚：这课没有的象很明显，但是先有后流的象，在行年。行年是亥，不是戌",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "凌诚",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-080-S008"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-080-E3C-Q004",
+        "note": "主盘干卯支子而原说干酉支午，行年戌与亥冲突须保留",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8316,
+            "line_end": 8316,
+            "quote": "明天更美好：卯胎丁马，死神坐死气，不吉利，没有怀孕，支上午胎月破不利。胎午腾蛇是怀疑、心里不安，也是虚扰。干上玄武酉陷空，也是自我怀疑，弄不清是不是怀孕。本命未土上是午火，也是命胎神，月冲无气又是鬼爻。行年戌土坐亥为孩子魁度天门又旬空。胎卯腾蛇是怀疑心里不安 也是虚扰",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "明天更美好",
+            "role": "原书断语"
+          }
+        ]
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-080-E3C-Q008",
+        "note": "没有展开年位到先有后的链；年异文不私改",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8330,
+            "line_end": 8330,
+            "quote": "凌诚：这课没有的象很明显，但是先有后流的象，在行年。行年是亥，不是戌",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "凌诚",
+            "role": "后人注解"
+          }
+        ]
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-080-E3C-Q009",
+        "note": "有孕主动终止合；本人犹豫母要求，不证明单一主观拒留；引用酉等与主盘异文并存",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8335,
+            "line_end": 8343,
+            "quote": "占胎孕，看二胎神，此课干胎寅木在卯上得天时地利，说明有孕在身，但\n\n寅木不显于课，在看五行金胎在卯，遁丁带刃，气在中传而止，终难存。\n\n又看卯木二死相加，人遁癸水，支上丙午，支作丁未，丁癸相冲，午未合土，午卯相破，胎遭冲破也是主流。\n\n卯木遭到诸鬼相克又泄体，且日上酉金作冲，这就是日干本人不想留下这个孩子，如\n\n此之多凶相，活下来才是奇迹。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "青山",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-081",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-081-E3C-Q005",
+        "author": "幸运龙女",
+        "phase": "群断",
+        "judgment": "身体：肝火睡差压力多想胃口差",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8398,
+            "line_end": 8406,
+            "quote": "幸运龙女 ：这个人肝火很旺，睡眠不好，压力很大，喜欢胡思乱想。丁（一粟）：这课有点疑惑，看看反馈到底怀没怀上\n\n苏世独立：遥克空亡，酉胎支上为玄武和亥上下夹住脱耗，干上羊刃朱雀，只是自己\n\n吓唬自己。末传子孙青龙冬季无力，居衰地，月破，没怀孕。原因是肝气郁结，心情不佳，导致经期不规律。应和父母长辈领导有关。\n\n骑牛打酱油：没怀，寅日月信至。木胎在酉，空，传出白虎闭口是有点闭经，末传巳火青龙，虽是子孙但也月破，巳上见卯六合，六合为约定，主月信。寅朱雀，卯六合，寅卯交接时见月信。\n\n幸运龙女 ：胃口也不好",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "幸运龙女",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-081-E3C-Q008",
+        "author": "苏世独立",
+        "phase": "群断",
+        "judgment": "原因：肝郁情差与长辈领导有关",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8400,
+            "line_end": 8402,
+            "quote": "苏世独立：遥克空亡，酉胎支上为玄武和亥上下夹住脱耗，干上羊刃朱雀，只是自己\n\n吓唬自己。末传子孙青龙冬季无力，居衰地，月破，没怀孕。原因是肝气郁结，心情不佳，导致经期不规律。应和父母长辈领导有关。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "苏世独立",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-083",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-084",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-084-E3C-Q002",
+        "author": "白龙涛",
+        "phase": "群断",
+        "judgment": "去向：找母狗一会回",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8674,
+            "line_end": 8674,
+            "quote": "白龙涛：出去找婆娘了，一会就回来",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "白龙涛",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-084-E3C-Q003",
+        "author": "热心市民李先生",
+        "phase": "群断",
+        "judgment": "去向：东南高阁可见或触电",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8676,
+            "line_end": 8676,
+            "quote": "热心市民李先生：爬到东南高处阁楼，太混乱下不来，但是最终能见到，可能会触电浪浪：找吃的、并且和别的狗吵架",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "热心市民李先生",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-084-E3C-Q004",
+        "author": "浪浪",
+        "phase": "群断",
+        "judgment": "动因：吃东西与狗争",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8676,
+            "line_end": 8676,
+            "quote": "热心市民李先生：爬到东南高处阁楼，太混乱下不来，但是最终能见到，可能会触电浪浪：找吃的、并且和别的狗吵架",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "浪浪",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-084-E3C-Q007",
+        "note": "只确认另法盘别",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8720,
+            "line_end": 8720,
+            "quote": "陈潛岭：噢 就是认为月将应该取丑",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "陈潛岭",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-084-E3C-Q009",
+        "note": "无精确找到时答复"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-085",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-085-E3C-Q008",
+        "author": "十六画生",
+        "phase": "复盘",
+        "judgment": "自述原断：必抽中薪资没这么多",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 8797,
+            "line_end": 8797,
+            "quote": "我开始断语：必能抽中，但薪资不可能这么多",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "十六画生",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-085-E3C-Q002",
+        "note": "实际抽中；丁酉消息时未验"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-086",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-086-E3C-Q005",
+        "note": "背景支持双方各说法；未验证只有互骗才两墓的充分性"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-086-E3C-Q012",
+        "note": "反事实未验证，不抵原不回错误"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-086-E3C-Q017",
+        "note": "本案无后续再走反馈；情绪发泄泛例非事实"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-088",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-088-E3C-Q001",
+        "author": "江山无限",
+        "phase": "群断",
+        "judgment": "地点：衣袋破夹层",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9151,
+            "line_end": 9151,
+            "quote": "江山无限：衣服口袋开线了，卡掉入衣服夹层里去了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-088-S009"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-088-E3C-Q006",
+        "author": "江山无限",
+        "phase": "群断",
+        "judgment": "地点：原地未动",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9161,
+            "line_end": 9161,
+            "quote": "骑牛打酱油：辰戌勾阴，骑驴找驴了，还在背包里。江山无限：对，原地未动",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-088-S009"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-088-E3C-Q011",
+        "author": "源",
+        "phase": "复盘",
+        "judgment": "包类：丑艮库包",
+        "gap": "徐追问丑如何取到未直接答，不补成命上神已明",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9191,
+            "line_end": 9193,
+            "quote": "源：丑为艮卦就是包袱\n\n徐梦扬：丑在艮，土有库象。但丑是怎么取到的，看命上神吗？源：最后都要看天地盘，年命上下神来判断最终结论的",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "源",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-088-S011"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-089",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-089-E3C-Q006",
+        "author": "白龙涛",
+        "phase": "群断",
+        "judgment": "行程：雨滑耽误没修成另去",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9249,
+            "line_end": 9249,
+            "quote": "江山无限： 三传是三合官鬼，四课有三合子孙，我就不信啥事没有。二群：白龙涛： 下雨滑倒耽误了一下，没修成，去了其他地方？",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "白龙涛",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-089-E3C-Q007",
+        "author": "小秦",
+        "phase": "群断",
+        "judgment": "出行：不成或路车问题不到",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9251,
+            "line_end": 9251,
+            "quote": "小秦： 出行不成，或路中因车辆，路面问题，无法到达。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "小秦",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-089-E3C-Q012",
+        "note": "未取回不等后续反复故障，留未来未验"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-090",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-090-E3C-Q001",
+        "author": "小四爷",
+        "phase": "群断",
+        "judgment": "手术：肾病而顺利有后遗症",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9323,
+            "line_end": 9323,
+            "quote": "小四爷：因为肾的问题进医院，需要开刀做手术，最后手术顺利，但是会有后遗症程大橙：不是因为肾",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "小四爷",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-090-E3C-Q005",
+        "author": "江山无限",
+        "phase": "复盘",
+        "judgment": "医疗：等待是事故",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9347,
+            "line_end": 9351,
+            "quote": "江山无限：郑大一附院这么牛逼吗？危重病人都要等几个小时才手术\n\n程大橙：离家近去的省医，没去郑大一附院，总感觉这个手术有点耽误了，12 点送到医院，到 6 点才排上手术\n\n江山无限：不是有点是医疗事故",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-090-E3C-Q003",
+        "note": "存活支持救回，意识未复限制成功；未来未验"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-091",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-091-E3C-Q006",
+        "author": "凌诚",
+        "phase": "复盘",
+        "judgment": "药物：西药误治须停",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9424,
+            "line_end": 9425,
+            "quote": "- **四课三传：** 凌诚：@陈潛岭 之前是否有用寒凉或者西药治过\n- **四课三传：** 陈潛岭：病人比较忙面诊时间不多，没问太细，西药是有吃。凌诚：需停该西药，误治其病",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "凌诚",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-091-E3C-Q008",
+        "author": "陈潛岭",
+        "phase": "复盘",
+        "judgment": "通关与肿物手术：亥汤水、病宫受克医龙",
+        "gap": "段中转手术肿瘤未明是否另课；不冒成本早醒病案反馈",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9427,
+            "line_end": 9427,
+            "quote": "- **四课三传：** 陈潛岭：马后炮 酉金寅木相克，末传亥水通关，亥者己甲壬 混杂中药水剂，病宫受克，西医医生带青龙为良医外有贵人穿针，断手术顺利；土包水之患，勾陈比较顽固，于震卦且外，蒙筋肉瘤子之患，玄武不知良恶，但质圆多为良性。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "陈潛岭",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-091-S008"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-092",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-092-E3C-Q002",
+        "author": "壬黄",
+        "phase": "群断",
+        "judgment": "失因地点：装潢人挪南高遮",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9455,
+            "line_end": 9455,
+            "quote": "②壬黄：手表应该被放在南方某高处了，被东西遮挡住了，所以本人没看到，装修的人给挪动位置了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬黄",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-093",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-093-E3C-Q002",
+        "author": "雷",
+        "phase": "群断误题",
+        "judgment": "婚姻：目前不离今年未月难熬双方暧昧",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9533,
+            "line_end": 9533,
+            "quote": "②雷：这次离不了，到也难熬过今年，应该在未月左右。男方有出轨实锤，女方应该也有暧昧过。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "雷",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-093-E3C-Q005",
+        "author": "玄樸",
+        "phase": "群断误题",
+        "judgment": "婚姻官司：赌债官司女被离异者追",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9539,
+            "line_end": 9539,
+            "quote": "⑤玄樸：婚姻名存实亡，男方因为赌博或其他原因欠债，而有官司。女方被一个丧妻或者离异男士追求，而又牵挂家里，左右摇摆不定。即使这次离不成，近期婚姻也难保。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "玄樸",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-094",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-095",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-097",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-097-E3C-Q004",
+        "author": "希言自然",
+        "phase": "群断",
+        "judgment": "考核：学习好必顺",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9794,
+            "line_end": 9794,
+            "quote": "希言自然：学习方面很好，必然可以顺利通过。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "希言自然",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-097-E3C-Q006",
+        "author": "白龙涛",
+        "phase": "群断",
+        "judgment": "考核：难且不能顺过",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9798,
+            "line_end": 9798,
+            "quote": "白龙涛：我断个变难了，无法顺利通过。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "白龙涛",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-097-E3C-Q008",
+        "author": "骑牛打酱油",
+        "phase": "复盘",
+        "judgment": "内容：以为田野调查",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9812,
+            "line_end": 9812,
+            "quote": "骑牛打酱油：以为应田野调查。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-097-S011"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-097-E3C-Q005",
+        "note": "按骑牛三传的盘别未完整给式，不能与原未戌丑硬合",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9796,
+            "line_end": 9796,
+            "quote": "贺兰：蛇遁辛在戌月，是殚精竭虑，但蛇传空则无凶；按骑牛师的三传，末传贵人遁壬，作乙干之正印，则可论吉。贵人加申移途，可论批准进行到下一阶段了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "贺兰",
+            "role": "原书断语"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-098",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-098-E3C-Q003",
+        "author": "昊函",
+        "phase": "群断",
+        "judgment": "病位：阑尾或胆囊炎",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9863,
+            "line_end": 9863,
+            "quote": "昊函：急性阑尾炎或胆囊炎吧。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "昊函",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-098-E3C-Q005",
+        "author": "北窗",
+        "phase": "群断",
+        "judgment": "病位：肠梗阻",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9865,
+            "line_end": 9865,
+            "quote": "白龙涛：右腹 兄弟们 那地方不是胃北窗：肠梗阻。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "北窗",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-098-E3C-Q012",
+        "note": "原自称马后炮，癸卯今年与2025乙巳年异文保留",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9897,
+            "line_end": 9901,
+            "quote": "江山无限：我也来个马后炮：日干己病地在卯，子卯刑，卯为肾小管，子水为肾，刑就是疼，卯上也是玄武也是亥，正好还是行年，癸卯就是今年这地方发病。\n\n陈潛岭：我想看看卯化象到底代表的是输尿管的部分还是肾的部分，毕竟乙卯。\n\n江山无限：乙卯也是大溪水。辰是病符。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-098-E3C-Q005",
+        "note": "反馈无该项但并未给明确排除，保留未覆盖"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-099",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-099-E3C-Q003",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "颜色犬种：黄白苏牧",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9951,
+            "line_end": 9953,
+            "quote": "骑牛打酱油：“返回”找，藏（或者困住）起来了，类似在一个管道里，柜子，戌时。垣垣丙庚：断一下颜色。\n\n骑牛打酱油：黄白狗。是个啥狗？为啥我脑子里有个苏牧的画面，苏牧就黄白色。青山：感觉偏棕色哦。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-099-S006",
+          "M102C-099-S007"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-099-E3C-Q004",
+        "author": "青山",
+        "phase": "群断",
+        "judgment": "颜色与衣物：棕或是否穿衣",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9953,
+            "line_end": 9957,
+            "quote": "骑牛打酱油：黄白狗。是个啥狗？为啥我脑子里有个苏牧的画面，苏牧就黄白色。青山：感觉偏棕色哦。\n\n热心市民李先生：西边，黑色，带点黄白。\n\n青山：有点好奇的是，是不是人给他穿衣服了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "青山",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-099-E3C-Q005",
+        "author": "热心市民李先生",
+        "phase": "群断",
+        "judgment": "地点颜色：西黑带黄白",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9955,
+            "line_end": 9955,
+            "quote": "热心市民李先生：西边，黑色，带点黄白。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "热心市民李先生",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-099-E3C-Q008",
+        "note": "群断戌时黄白可对照；此推导在后，子将未列全课",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 9972,
+            "line_end": 9972,
+            "quote": "子将，得八专，三传亥戌戌。八专内外不分，退步见戌，不必外求，故言“返回”寻之。戌上白虎丑空，虎为道路，空则无路为困象，玄武发用，上见天空亦狗，天空寅临亥，相当符合北方阁楼书房之象。中末皆戌，戌时见狗。戌乘太阴，黄白之色。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-100",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-100-E3C-Q007",
+        "author": "江山无限",
+        "phase": "复盘",
+        "judgment": "填空：申日也算填空",
+        "gap": "没有指填谁哪层，不据8:47补法",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10033,
+            "line_end": 10033,
+            "quote": "希言自然：辰时退的是吧水到渠成：对，还没到巳希言自然：具体几点几分江山无限：申日也算填空水到渠成：8：47",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "江山无限",
+            "role": "后人注解"
+          }
+        ],
+        "later_same_author_method_segments": [
+          "M102C-100-S007"
+        ],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-100-E3C-Q010",
+        "note": "主传戌巳子而此巳戌卯异文不私改成一致",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10045,
+            "line_end": 10045,
+            "quote": "日干庚上卯财，斫轮，为要钱。斫轮后遇巳戌卯铸印，为顺利要回钱财。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "明镜",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-101",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-102",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": [
+      {
+        "subjudgment_id": "BK26-MODERN-102-E3C-Q004",
+        "note": "生理病已载，不能把中邪当实证；未来伏笔无结果"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-102-E3C-Q005",
+        "note": "出院合救；中医升降病机和未来多发属作者阐释，非确诊因果"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-102-E3C-Q011",
+        "note": "作者明确原断错，不严重出院反证；今年仍凶是未来不抵错"
+      }
+    ]
+  },
+  {
+    "case_id": "BK26-MODERN-103",
+    "method_derivation_restoration_complete": true,
+    "source_derivation_gaps": [],
+    "chart_or_text_conflicts": [
+      {
+        "subjudgment_id": "BK26-MODERN-103-E3C-Q001",
+        "note": "水亡遗体合，实际正西、转述自行跳河非凶器抓诱；前后天后寅发用与午用异文留",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10231,
+            "line_end": 10231,
+            "quote": "壬针度人 ：1.死气巳夹行年子空，子巳为死。2.申盖乙卯大溪水棺材，申又乘玄。本命未在子空亡被害，发用羊刃白虎冲行年。日禄临戌天后墓。支上水贵人入狱，都是被凶器击落而落水。落水死了，西南方水中，卯还被斫轮了，更麻烦了，大溪水上面壬戌大海水，淹没了。末传申冲克寅，寅克未命，未克子鬼，子克日干，逼克入戌墓。直断被抓干上一片动心，天后寅发用应该是被人引诱一起，被午火白虎抓了又回去了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针度人",
+            "role": "原书断语"
+          }
+        ]
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-103-E3C-Q008",
+        "note": "本盘中丑空末申实且落水，原规则适用条件未齐；自述正确2003未卯年留异文",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10253,
+            "line_end": 10253,
+            "quote": "丁丁：一般，看这些课，要特别关注井煞。三传吉凶有狐疑,全凭煞到解心迷。刃都是割腕这种，年命 2003 未，行年卯，女，这个刃吧，没对年命形成冲害刑，一般，要是中末空，都是从高处跌落的象。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "丁丁",
+            "role": "后人注解"
+          }
+        ]
+      }
+    ],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-104",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-104-E3C-Q001",
+        "author": "丁（一粟）",
+        "phase": "群断",
+        "judgment": "伤残金额：十级赔四万",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10293,
+            "line_end": 10293,
+            "quote": "丁（一粟）： 这个属于十级伤残，赔付四万。韵璃： 赔偿款协商不一致，最终走诉讼了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "丁（一粟）",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-104-E3C-Q002",
+        "author": "韵璃",
+        "phase": "群断",
+        "judgment": "途径：谈不一致最终诉讼",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10293,
+            "line_end": 10293,
+            "quote": "丁（一粟）： 这个属于十级伤残，赔付四万。韵璃： 赔偿款协商不一致，最终走诉讼了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "韵璃",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  },
+  {
+    "case_id": "BK26-MODERN-106",
+    "method_derivation_restoration_complete": false,
+    "source_derivation_gaps": [
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q001",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "地势：低",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q002",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "环境：近水",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q003",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "年代：老旧",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q004",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "外观：破损挂草",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q005",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "道路：附近断头路",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q006",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "家族：易出孤寡",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q007",
+        "author": "壬针渡人",
+        "phase": "群断",
+        "judgment": "学业：不好",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10422,
+            "line_end": 10424,
+            "quote": "壬针渡人：祖坟可能地势比较低，近水边，已经比较老旧了，有破损，上面挂了一些草，附近有一条断头路，子孙易出孤寡的人，学业不好，但孙子辈能出一些基层干部.朱雀\n\n+贵人是老师啊，我当做基层干部了",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "壬针渡人",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q010",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "职业：九流术士",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q011",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "职业：医生",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q012",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "财富：不出富人",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q013",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "朝向：坐西北朝东南或大体西东",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q014",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "左侧：山林稍高树",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q015",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "右侧：路或小径",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q016",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "朝案：前没有",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q017",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "地势：半坡",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q018",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "东南：平原无高东西",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q019",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "设施：右前高压线或信号塔",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q020",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "邻坟：出小贵",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q021",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "排行：教师行二或家中最小",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q022",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "排行：父辈单论老大男女混论老二",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      },
+      {
+        "subjudgment_id": "BK26-MODERN-106-E3C-Q023",
+        "author": "骑牛打酱油",
+        "phase": "群断",
+        "judgment": "姑家：有文人",
+        "gap": "本作者在本段只给结论，未明示对应取象链；保留原判断和反馈，不补法。",
+        "evidence_refs": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "line_start": 10426,
+            "line_end": 10426,
+            "quote": "骑牛打酱油：这种课，出九流术士，医生，教师，不出富人。.理论上是坐西北朝东南，但大体应该是坐西朝东，左边山林或者稍高有树，右侧有路，或者有小门径，前方没有朝案，位置有点在半坡的感觉。邻坟倒是有出小贵的.右前方有高压线信号塔，东南方向应该没有高的东西，平原，所以说没有朝案.这个朝案出的教师，可能行二，家的老小.就是父辈单论是老大，男女混论是老二.有个大姑家也出文人.基本就这样了，编不出啥了。丑为鬼墓作坟论，干上午天空是文书学堂，出教师。别的就顺着推吧，不讲了。",
+            "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+            "author": "骑牛打酱油",
+            "role": "原书断语"
+          }
+        ],
+        "later_same_author_method_segments": [],
+        "later_segment_note": "仅列候选同作者后述，须按原结论逐项核；后补理由不倒填为已保存的事前推导。"
+      }
+    ],
+    "chart_or_text_conflicts": [],
+    "unobserved_followup_or_outcome_limits": []
+  }
+]

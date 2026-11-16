@@ -1,0 +1,2636 @@
+{
+ "schema": "image-ledger-v1",
+ "note": "哈希为本轮对本地现有图片计算，未改动采集原台账",
+ "images": [
+  {
+   "seq": 0,
+   "idx": 1,
+   "file": "pan/000_1.jpg",
+   "sha256": "321c7d03954065fd0fd8ab8d2b7a858a921465e301b4cd83186893aba1dba2c1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2023-05-20 19:20",
+   "time_raw": "2023年05月20日 19时20分"
+  },
+  {
+   "seq": 1,
+   "idx": 1,
+   "file": "pan/001_1.jpg",
+   "sha256": "7b124c482e11c7804008243f317a6803d3047f53fbff4df0b35d4867eef016ae",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-06-17 14:20",
+   "time_raw": "2024-06-17(五月十二) 14:20"
+  },
+  {
+   "seq": 2,
+   "idx": 1,
+   "file": "pan/002_1.jpg",
+   "sha256": "c480a02dd5fee12765c07e7ac5581bbf58728b847b5f535dc283aa1c01ef4d6d",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-22 22:52",
+   "time_raw": "2026年5月22日(四月初六)22:52"
+  },
+  {
+   "seq": 2,
+   "idx": 2,
+   "file": "pan/002_2.jpg",
+   "sha256": "fa2f5146d7a200c3996700881bab5b1b0277cbe4cb0b26f4f2062f6f94c6a9fd",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 3,
+   "idx": 1,
+   "file": "pan/003_1.jpg",
+   "sha256": "be301753b90489d11b7257745ee962e73f0bae114d04a0da8ab3c40312018a55",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-14 20:37",
+   "time_raw": "公历 2026年8月14日 20:37（农历 2026年7月2日 戌时 星期五）"
+  },
+  {
+   "seq": 4,
+   "idx": 1,
+   "file": "pan/004_1.jpg",
+   "sha256": "5060f627d267209970a104e465b6deb31718886ec880456d8f0cda16fbfc5431",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-05 12:41",
+   "time_raw": "2025-05-05(四月初八) 12:41"
+  },
+  {
+   "seq": 5,
+   "idx": 1,
+   "file": "pan/005_1.jpg",
+   "sha256": "1495fef460f34cb598def038c0dfbabc37a25489ffb62c69fe6f1548be108f29",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-09-06 12:24",
+   "time_raw": "2026年09月06日 12时24分"
+  },
+  {
+   "seq": 6,
+   "idx": 1,
+   "file": "pan/006_1.jpeg",
+   "sha256": "1b3ba2fd24e1fee34539182e905e063d3f8d1f99578838d7598ddce3dfcd02f1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-17 20:02",
+   "time_raw": "2026-07-17(六月初四) 20:02"
+  },
+  {
+   "seq": 7,
+   "idx": 1,
+   "file": "pan/007_1.jpeg",
+   "sha256": "bbea8f2ce682a478f5addacf198076019a4fab3292cae4a155266ab4b755b1d2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-27 14:54",
+   "time_raw": "2026-08-27(七月十五) 14:54"
+  },
+  {
+   "seq": 8,
+   "idx": 1,
+   "file": "pan/008_1.jpg",
+   "sha256": "e1615af89a1570141991c13d3d7f638a6307b73d71c1b551c2977c1c91bb7e67",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-12-18 17:28",
+   "time_raw": "2025年12月18日 17时28分(十月廿九)"
+  },
+  {
+   "seq": 9,
+   "idx": 1,
+   "file": "pan/009_1.jpg",
+   "sha256": "db47999210f7b85aa7591f4c695b87434537bc1bf02e656c4ad93743ec013e29",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-08-06 11:23",
+   "time_raw": "2024年08月06日 11时23分(七月初三)"
+  },
+  {
+   "seq": 10,
+   "idx": 1,
+   "file": "pan/010_1.jpg",
+   "sha256": "e7a88354cb901508089c2b7d26006cdf018dfe75ef9cb46753ea80a5a56fa8f7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-11-29 10:30",
+   "time_raw": "2024年11月29日(十月廿九)10:30"
+  },
+  {
+   "seq": 11,
+   "idx": 1,
+   "file": "pan/011_1.jpg",
+   "sha256": "f2b9ce77be85fb31c9ef54e4e9048cadbdb5327eaf12240ff342257a1bfcf8c7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-07-09 18:45",
+   "time_raw": "2025-07-09 18:45"
+  },
+  {
+   "seq": 12,
+   "idx": 1,
+   "file": "pan/012_1.jpg",
+   "sha256": "58d4f79f927822f782956ba052ae2519642086d1bf493837246fa04154ef5941",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2020-06-16 00:39",
+   "time_raw": "2020-06-16(闰四月廿五) 00:39"
+  },
+  {
+   "seq": 13,
+   "idx": 1,
+   "file": "pan/013_1.jpg",
+   "sha256": "07417a9e24565d3e3a36250d8b3a5ffde84f261bdb9adcd7fc007cff64b48253",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-22 16:47",
+   "time_raw": "2026-05-22(四月初六) 16:47"
+  },
+  {
+   "seq": 14,
+   "idx": 1,
+   "file": "pan/014_1.jpg",
+   "sha256": "4676098566706d65f8f048996adeeb3406bd921e193fc8273f2f1e6fd40b8448",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-12 22:25",
+   "time_raw": "2026年8月12日(六月三十)22:25"
+  },
+  {
+   "seq": 15,
+   "idx": 1,
+   "file": "pan/015_1.jpg",
+   "sha256": "580b90e26ba9144f4c92751a9db7ba24f68bae810600cec18a4349ce74794058",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-22 19:01",
+   "time_raw": "2026年08月22日 19时01分"
+  },
+  {
+   "seq": 16,
+   "idx": 1,
+   "file": "pan/016_1.jpg",
+   "sha256": "00c51c3b2c287d82af1d011e078061eab611f14cdf062fb29fcd5ab1ee6042e2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2020-04-18 22:34",
+   "time_raw": "2020年04月18日 22时34分(三月廿六)"
+  },
+  {
+   "seq": 17,
+   "idx": 1,
+   "file": "pan/017_1.jpg",
+   "sha256": "f8e4d078b98b658a3233a623e894b01af1a036040c9e5a9b8dba905cce164b2c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-14 00:37",
+   "time_raw": "2026年2月14日(腊月廿七)00:37"
+  },
+  {
+   "seq": 18,
+   "idx": 1,
+   "file": "pan/018_1.png",
+   "sha256": "31f47f9171325d673a15be849032f31813b9489dfdc125e27b0b0e349c48e11b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-12 10:28",
+   "time_raw": "2026-08-12(六月三十) 10:28"
+  },
+  {
+   "seq": 19,
+   "idx": 1,
+   "file": "pan/019_1.jpg",
+   "sha256": "9545f69ed93084dc1644170c060b8bae657a854287f42a4da405b9e5f89dec09",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-02-04 20:46",
+   "time_raw": "2025-02-04 20:46"
+  },
+  {
+   "seq": 20,
+   "idx": 1,
+   "file": "pan/020_1.jpg",
+   "sha256": "11624ec06679ff2175fc6d2a58c6edab706a00a1c45fd49ecdc260765f6586dd",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-25 16:52",
+   "time_raw": "2026-08-25(七月十三) 16:52"
+  },
+  {
+   "seq": 21,
+   "idx": 1,
+   "file": "pan/021_1.jpeg",
+   "sha256": "5b88c1f374cf4062597c2acd73eb8c68f1473e53baee16377cc85761699c8845",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-28 12:08",
+   "time_raw": "2026-08-28(七月十六) 12:08"
+  },
+  {
+   "seq": 22,
+   "idx": 1,
+   "file": "pan/022_1.jpg",
+   "sha256": "3edbf99a9277df9ef2fc5ee33257f7263bfa07266ad45ca5dcabcd63928e2645",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-19 19:25",
+   "time_raw": "2026年8月19日19时25分 农历:七月初七 周三"
+  },
+  {
+   "seq": 23,
+   "idx": 1,
+   "file": "pan/023_1.jpg",
+   "sha256": "55bc386b22b9b7042b4908fd3c92b7593bda9bc347191340710d9e9c6ef911de",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-06-02 21:47",
+   "time_raw": "2025年6月2日(五月初七)21:47"
+  },
+  {
+   "seq": 24,
+   "idx": 1,
+   "file": "pan/024_1.jpg",
+   "sha256": "3bd6821809901b71ac15b974ecc97ff5dabf8fcf7acf3638cf76f71c5044903c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-24 20:05",
+   "time_raw": "2026-08-24 20:05"
+  },
+  {
+   "seq": 25,
+   "idx": 1,
+   "file": "pan/025_1.jpg",
+   "sha256": "fafb0fe615bbe15b51483e07d24fad41c961e2d202240a1706a42776b8589d94",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-27 19:16",
+   "time_raw": "2026-08-27(七月十五) 19:16"
+  },
+  {
+   "seq": 26,
+   "idx": 1,
+   "file": "pan/026_1.jpg",
+   "sha256": "1c3a846b476c4d2b31a4076323d9f2913e02ab8bb0d9c9db2c7d305bae3555b0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-07-14 17:51",
+   "time_raw": "2025-07-14(六月二十) 17:51"
+  },
+  {
+   "seq": 26,
+   "idx": 2,
+   "file": "pan/026_2.jpg",
+   "sha256": "e727c3ff8a3022dbc2ccd1d3524d5c0e3b7a5fa00405b06e264814ed2ee3b4b8",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 27,
+   "idx": 1,
+   "file": "pan/027_1.jpg",
+   "sha256": "296033b21f2ed679dd8659acc1e483e164ef8305517283b550945d607a3759b9",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-24 15:57",
+   "time_raw": "2026年6月24日(五月初十)15:57"
+  },
+  {
+   "seq": 28,
+   "idx": 1,
+   "file": "pan/028_1.jpg",
+   "sha256": "3bf08c899aa318e05c35ee0c0c843bfea9b8126e37d4d102c97fa097d24efcbb",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-08 10:28",
+   "time_raw": "2026-06-08(四月廿三) 10:28"
+  },
+  {
+   "seq": 29,
+   "idx": 1,
+   "file": "pan/029_1.jpg",
+   "sha256": "0dd7c53b65136325c3b02e3a8e3897c038e256dcc8155ebb6ca93f9234d4d304",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-27 10:08",
+   "time_raw": "2026年08月27日 10时08分(七月十五)"
+  },
+  {
+   "seq": 29,
+   "idx": 2,
+   "file": "pan/029_2.jpg",
+   "sha256": "f87039259d5b3dea4cbddd0bcb17238162fac6f74a4b0c755bcef14d94af3e33",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2026-08-27 10:08",
+   "time_raw": "2026年08月27日 10时08分(七月十五)"
+  },
+  {
+   "seq": 30,
+   "idx": 1,
+   "file": "pan/030_1.jpg",
+   "sha256": "4d9bda1750c47b88400833b1055312fb1e6bde11ce6d82d1d629483d384b7c98",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-03-19 19:49",
+   "time_raw": "2025年3月19日(二月二十)19:49"
+  },
+  {
+   "seq": 31,
+   "idx": 1,
+   "file": "pan/031_1.jpg",
+   "sha256": "b7450d3cb875f5e721b9f8003c4bc7b71479524fc6728a9d5e918dca1cc63362",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-22 11:57",
+   "time_raw": "2026年08月22日 11时57分(七月初十)"
+  },
+  {
+   "seq": 32,
+   "idx": 1,
+   "file": "pan/032_1.jpeg",
+   "sha256": "ce9bceca653dccd324d0ce67f796ca181b434e073ceb5159708f8cefea415a8c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-25 08:56",
+   "time_raw": "2026-08-25(七月十三) 08:56"
+  },
+  {
+   "seq": 33,
+   "idx": 1,
+   "file": "pan/033_1.jpg",
+   "sha256": "d6769948a3f39073cec065e976b9c2c6c593871045367b7b2cdfa9f856ced6ae",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-05 17:25",
+   "time_raw": "[当代]中国公历纪元2026年 2026年3月5日 17时25分 星期四 正月十七 雨水(正时、甲戊庚牛羊、卯酉夜、孟仲季、中气换将)"
+  },
+  {
+   "seq": 34,
+   "idx": 1,
+   "file": "pan/034_1.jpg",
+   "sha256": "e73fadc28cbb27707d18b02eddb2e7ef712e6b4c25e7bb6a323352bc9ea910fb",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-07 18:39",
+   "time_raw": "2026年6月7日(四月廿二)18:39"
+  },
+  {
+   "seq": 35,
+   "idx": 1,
+   "file": "pan/035_1.jpg",
+   "sha256": "e785c2803cfbbdc273ba7ab0dc06e2087def8fca13c014af8baf339dc5377f0f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2020-08-11 05:48",
+   "time_raw": "2020-08-11(六月廿二) 05:48"
+  },
+  {
+   "seq": 36,
+   "idx": 1,
+   "file": "pan/036_1.jpg",
+   "sha256": "dea0b0bce94e8c6f7aae282a720abd3226219ba0de7524b76e1811f626af6844",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-11 21:29",
+   "time_raw": "2026年06月11日 21时29分(四月廿六)"
+  },
+  {
+   "seq": 37,
+   "idx": 1,
+   "file": "pan/037_1.jpg",
+   "sha256": "761b0e875a39782a32fb261ffbf623986b267f117502780ffaa2a90580806662",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-08-04 13:45",
+   "time_raw": "2025-08-04(闰六月十一) 13:45"
+  },
+  {
+   "seq": 37,
+   "idx": 2,
+   "file": "pan/037_2.png",
+   "sha256": "c41d18718e2f7a3deea6557e55142f8ec583f897746e2f17d71251ff46c20268",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 38,
+   "idx": 1,
+   "file": "pan/038_1.jpg",
+   "sha256": "4567888ad09af27168150d39eaa5cfa044248ca5a31c5cab3e0bd60d31bae96f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-11 17:34",
+   "time_raw": "2026年6月11日(四月廿六)17:34"
+  },
+  {
+   "seq": 39,
+   "idx": 1,
+   "file": "pan/039_1.jpg",
+   "sha256": "11484aa77ed67c5ee57df61836452197f006cd7edcc277531b79cc89e93cbcbf",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-07 08:53",
+   "time_raw": "2026年7月7日 8:53"
+  },
+  {
+   "seq": 40,
+   "idx": 1,
+   "file": "pan/040_1.jpg",
+   "sha256": "49111b956e0469e639664d1163d59e63533f552c1c91fb88498d6419e3fd9ee5",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-09 13:44",
+   "time_raw": "2026年07月09日 13时44分"
+  },
+  {
+   "seq": 41,
+   "idx": 1,
+   "file": "pan/041_1.jpg",
+   "sha256": "5239795eaf0f1d6885527560d28eec64e0226408a6856afb29ed5bd904501f69",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-07-06 12:40",
+   "time_raw": "2024年7月6日(六月初一)12:40"
+  },
+  {
+   "seq": 41,
+   "idx": 2,
+   "file": "pan/041_2.jpg",
+   "sha256": "404043e82c8de52aa6d3eaa14c4be2bb5e31e89e186d2329ffd6f9b4ad59e586",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2024-07-06 12:42",
+   "time_raw": "2024年7月6日(六月初一)12:42"
+  },
+  {
+   "seq": 42,
+   "idx": 1,
+   "file": "pan/042_1.jpeg",
+   "sha256": "fd934d5394788704074b279efc2ba909bf5c7a9974bfd983498945f5b5551c3e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-07 21:09",
+   "time_raw": "2026-08-07(六月廿五) 21:09"
+  },
+  {
+   "seq": 43,
+   "idx": 1,
+   "file": "pan/043_1.jpg",
+   "sha256": "39eef007594cc7e862296a07b00da228298e2dd0d13814fa9ba67d07321dc1a4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-11 23:13",
+   "time_raw": "2026年08月11日 23时13分(六月廿九)"
+  },
+  {
+   "seq": 44,
+   "idx": 1,
+   "file": "pan/044_1.jpg",
+   "sha256": "a631d7eae16e6ff6454601f69ceb26a7968d76945bdfc800edc0ca17617aec34",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-09 21:03",
+   "time_raw": "2026年7月9日21时3分"
+  },
+  {
+   "seq": 45,
+   "idx": 1,
+   "file": "pan/045_1.jpg",
+   "sha256": "41757910102d00212455acbb44acd4b1b40c3c578a75fa5d21776800ef7a7b58",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-03-01 15:25",
+   "time_raw": "2025年3月1日(二月初二)15:25"
+  },
+  {
+   "seq": 46,
+   "idx": 1,
+   "file": "pan/046_1.jpg",
+   "sha256": "5880ee13f0b3e1255b2177f81f8517e15c3955e66a0ea0bf9fe898fb3d53ab4e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-25 22:59",
+   "time_raw": "2026-07-25 22:59"
+  },
+  {
+   "seq": 47,
+   "idx": 1,
+   "file": "pan/047_1.jpg",
+   "sha256": "b8db15acdceccf54d6ef0cd5b2b8776af112dae04622bc6c5e2636ef6636f69e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-03 09:37",
+   "time_raw": "2026-08-03(六月廿一) 09:37"
+  },
+  {
+   "seq": 48,
+   "idx": 1,
+   "file": "pan/048_1.jpg",
+   "sha256": "9741e88c091aafa8d3ae1620b1504a765beaba556ed21ce30b315f2dd334d4ef",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-07-25 22:53",
+   "time_raw": "2025-07-25(闰六月初一) 22:53"
+  },
+  {
+   "seq": 49,
+   "idx": 1,
+   "file": "pan/049_1.jpg",
+   "sha256": "6d18489d6e9840b724781e741ae246c2dbbdd3cdef340e140fa7fb422714650f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-13 18:39",
+   "time_raw": "2026年8月13日(七月初一)18:39"
+  },
+  {
+   "seq": 50,
+   "idx": 1,
+   "file": "pan/050_1.jpg",
+   "sha256": "419dad6369e44ef548eb6cc93fccca636296e0371722afd04dca4d584b38eaa5",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-09 10:44",
+   "time_raw": "2026年8月9日(六月廿七)10:44"
+  },
+  {
+   "seq": 51,
+   "idx": 1,
+   "file": "pan/051_1.jpg",
+   "sha256": "2498559bc2dd6c57ff4e9e7c84c27e31297a4f29f6e1e0a07d8f30a917a0d009",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-06 17:47",
+   "time_raw": "2026年04月06日 17时47分(二月十九)"
+  },
+  {
+   "seq": 51,
+   "idx": 2,
+   "file": "pan/051_2.jpg",
+   "sha256": "1bb6808c5b650c5a1785df38558768d515b3ec7faac88ca0aa26f26b552cc83f",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2026-04-06 18:48",
+   "time_raw": "2026年04月06日 18时48分(二月十九)"
+  },
+  {
+   "seq": 52,
+   "idx": 1,
+   "file": "pan/052_1.jpg",
+   "sha256": "aa51e3b1b4dd79f97c4824956112c74e2778c86ea3695b1e34aee807d96b7fdc",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-14 19:41",
+   "time_raw": "2025年5月14日(四月十七)19:41"
+  },
+  {
+   "seq": 53,
+   "idx": 1,
+   "file": "pan/053_1.jpg",
+   "sha256": "d13b8fcc6c32deb3f7173c3fe54769d864ee089276e64040946f41484282abf4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-18 22:20",
+   "time_raw": "2026年07月18日 22时20分"
+  },
+  {
+   "seq": 54,
+   "idx": 1,
+   "file": "pan/054_1.jpg",
+   "sha256": "8eaba794218e3e398a988051bb7bc5017e069c1f1adad32cca1eff59bbede433",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-28 22:54",
+   "time_raw": "2026年05月28日 22时54分(四月十二)"
+  },
+  {
+   "seq": 55,
+   "idx": 1,
+   "file": "pan/055_1.png",
+   "sha256": "b5da6255a62139fe44d844b213375be1f20773cea7673e61a29348c320957731",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-31 16:04",
+   "time_raw": "2026-01-31 16:04"
+  },
+  {
+   "seq": 56,
+   "idx": 1,
+   "file": "pan/056_1.jpg",
+   "sha256": "6ca27c787505ea657af7fdf340beea7b8ebee2096c62d2e80d0e5045425bfbc3",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-08 08:54",
+   "time_raw": "2026年8月8日8时54分"
+  },
+  {
+   "seq": 57,
+   "idx": 1,
+   "file": "pan/057_1.jpg",
+   "sha256": "843adb290a800d14646c4112725e241222dc76bc837a6a13a374539df07ed041",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-29 16:18",
+   "time_raw": "2026-07-29 16:18"
+  },
+  {
+   "seq": 58,
+   "idx": 1,
+   "file": "pan/058_1.jpg",
+   "sha256": "ff61fa25cb0f621c20e4c8efc122e5bb1263d7eba3381f96af0f5c7e8b2c02e9",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-26 22:34",
+   "time_raw": "2026-07-26(六月十三) 22:34"
+  },
+  {
+   "seq": 59,
+   "idx": 1,
+   "file": "pan/059_1.jpg",
+   "sha256": "91799d52855400c4a067e621e95682847db7289680c917b2f3d409869bd7e2a7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-15 21:44",
+   "time_raw": "2026年7月15日(六月初二)21:44"
+  },
+  {
+   "seq": 60,
+   "idx": 1,
+   "file": "pan/060_1.jpg",
+   "sha256": "d804cd28836ba2fd564df4627d10bde58978096d6b8dc549c0d0c680c96cf3fb",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2020-08-09 12:01",
+   "time_raw": "2020-08-09(六月二十) 12:01"
+  },
+  {
+   "seq": 61,
+   "idx": 1,
+   "file": "pan/061_1.jpg",
+   "sha256": "45fc6b9740fad43116fc70be8b41e90eb2b63876d763b3917f79e56e84297c19",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2016-08-06 17:35",
+   "time_raw": "2016年8月6日 17时35分(正时)"
+  },
+  {
+   "seq": 61,
+   "idx": 2,
+   "file": "pan/061_2.jpg",
+   "sha256": "92b0b768b3600cacf3e4bfb5067dd77c21212de9d2b1c8ce7365682a79b12df2",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2016-08-06 17:35",
+   "time_raw": "2016年08月06日 17时35分(七月初四)"
+  },
+  {
+   "seq": 61,
+   "idx": 3,
+   "file": "pan/061_3.jpg",
+   "sha256": "2b3c63cb205e242831b2e89e7ef1e53a84caba8e7525214385915ad2caff6214",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 62,
+   "idx": 1,
+   "file": "pan/062_1.jpg",
+   "sha256": "da0afac8adb917cc0edbda4b76ebb8ec3ce7aebb9db81fc1f9ca32a2bee67bf7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-10-09 00:17",
+   "time_raw": "2025年10月09日 00时17分(八月十八)"
+  },
+  {
+   "seq": 62,
+   "idx": 2,
+   "file": "pan/062_2.jpg",
+   "sha256": "729065908d3d97849481fc3b6d0023571b937c47127e9c6b8a64dd453e36a457",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2025-10-09 00:17",
+   "time_raw": "2025年10月09日 00时17分(八月十八)"
+  },
+  {
+   "seq": 63,
+   "idx": 1,
+   "file": "pan/063_1.jpg",
+   "sha256": "0fce4812123f820d9170d2d0cfb362cd50bca7ba277c2bbb35e639c9ff9608a4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 64,
+   "idx": 1,
+   "file": "pan/064_1.jpeg",
+   "sha256": "581465d9f7aeab816e3263bb3f1e91b877fee24900761b343500c85b23a74318",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-11-05 17:39",
+   "time_raw": "2024-11-05 17:39"
+  },
+  {
+   "seq": 65,
+   "idx": 1,
+   "file": "pan/065_1.jpg",
+   "sha256": "52c7d9094d5ffe726791c17539003d9fecd7809bd812d4230119a88bfc2780ee",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-08-03 15:12",
+   "time_raw": "2026年08月03日 15时12分"
+  },
+  {
+   "seq": 66,
+   "idx": 1,
+   "file": "pan/066_1.jpg",
+   "sha256": "08694905aff3fb41ca270a74c3e83a6316fd5d03312b47cfa54a7c91eb5560f4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2020-06-22 21:39",
+   "time_raw": "2020-06-22 21:39"
+  },
+  {
+   "seq": 67,
+   "idx": 1,
+   "file": "pan/067_1.jpg",
+   "sha256": "0b1ceb444f7a8387e35c90a55dd98564afb8ff4a8f907741949dace5eb5ca2be",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-12-10 10:52",
+   "time_raw": "2025年12月10日 10:52"
+  },
+  {
+   "seq": 68,
+   "idx": 1,
+   "file": "pan/068_1.jpg",
+   "sha256": "25ea25dbe86b6292fe9caed97c6bf222bcab861ab9dbec90d2837fb4bb299ab1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-31 12:09",
+   "time_raw": "2026-07-31 12:09"
+  },
+  {
+   "seq": 69,
+   "idx": 1,
+   "file": "pan/069_1.jpg",
+   "sha256": "77443947985ae1ac3f93bc4a526f17c07f9dd579f8af3e3c5425e14821b844d4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-09-11 14:58",
+   "time_raw": "2025年09月11日 14时58分"
+  },
+  {
+   "seq": 70,
+   "idx": 1,
+   "file": "pan/070_1.jpg",
+   "sha256": "5c16d6f60f973c5fd3caf02d8352754e21a41592b254174c151dd70c8f710a51",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-28 22:00",
+   "time_raw": "2025年5月28日 22:00"
+  },
+  {
+   "seq": 71,
+   "idx": 1,
+   "file": "pan/071_1.jpeg",
+   "sha256": "46fc3eac7a0d84d63b9b36ef35f6691d0a8415be6ef27167fe7a4c9dba4a77d6",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-29 23:10",
+   "time_raw": "2026-07-29 23:10"
+  },
+  {
+   "seq": 72,
+   "idx": 1,
+   "file": "pan/072_1.jpg",
+   "sha256": "63bab5b99ac1682080bd18cdaf9ad629717fc60d4f2cac27e3d72eb0e7fca834",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-05 10:28",
+   "time_raw": "2026年04月05日 10时28分"
+  },
+  {
+   "seq": 72,
+   "idx": 2,
+   "file": "pan/072_2.jpg",
+   "sha256": "c0efd639fc81f908b3a12cecad451d85e0000d62ff148198b8af8d0ceaa2e5cf",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2026-04-05 10:28",
+   "time_raw": "2026年04月05日 10时28分"
+  },
+  {
+   "seq": 72,
+   "idx": 3,
+   "file": "pan/072_3.jpg",
+   "sha256": "f3cd7fd3abd44abf8a928741f9c68abd1f8389e97f91df7a74ffe210da9d855c",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2026-04-05 10:28",
+   "time_raw": "2026-04-05 10:28"
+  },
+  {
+   "seq": 73,
+   "idx": 1,
+   "file": "pan/073_1.jpeg",
+   "sha256": "d5b287dc35776c34c01b7a681828226f949f4f679cbe788afae0621e9aa2d03d",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-21 09:44",
+   "time_raw": "2026年2月21日 09:44"
+  },
+  {
+   "seq": 74,
+   "idx": 1,
+   "file": "pan/074_1.jpeg",
+   "sha256": "141ad49d7785e362cc92abe5cd9a8fe9406ea305a55f143c5a3b0504c4e22d4e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-13 16:58",
+   "time_raw": "[当代]中国 公历纪元2026年 2026年6月13日 16时58分 星期六"
+  },
+  {
+   "seq": 75,
+   "idx": 1,
+   "file": "pan/075_1.jpeg",
+   "sha256": "34e35cb773064d6f1451802664af970240a1f5ddf88647d9b0b16bd02b30817e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-27 07:53",
+   "time_raw": "2026-07-27 07:53"
+  },
+  {
+   "seq": 76,
+   "idx": 1,
+   "file": "pan/076_1.jpeg",
+   "sha256": "ad67af6f743f6f904d5d96b5a5526db16171e49ed408edb4a7babe7d28bf5049",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-23 14:22",
+   "time_raw": "2026年7月23日 14:22"
+  },
+  {
+   "seq": 77,
+   "idx": 1,
+   "file": "pan/077_1.jpg",
+   "sha256": "2e43753e34193242de39a474381ffca03008f779dca35ae9f316fc52f4a5012a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-01 16:51",
+   "time_raw": "2025年5月1日 16:51"
+  },
+  {
+   "seq": 78,
+   "idx": 1,
+   "file": "pan/078_1.jpeg",
+   "sha256": "6ceb176f84728fc7b81cdaeaacfc5b9da91ec118f0ea9d0a1240bef33fbee27e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-07-04 17:34",
+   "time_raw": "2025-07-04 17:34"
+  },
+  {
+   "seq": 79,
+   "idx": 1,
+   "file": "pan/079_1.jpg",
+   "sha256": "986e59baae19bbd94ca13388627c03fa395d4b86d19e67fdee37c10f1e65dc6e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-15 20:09",
+   "time_raw": "2026年7月15日20时9分"
+  },
+  {
+   "seq": 79,
+   "idx": 2,
+   "file": "pan/079_2.jpg",
+   "sha256": "1b34d9c5518c377ab42491575b665c58a588fb7d2677f000154aaa0f151b9f98",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-16 18:17",
+   "time_raw": "2026年7月16日18时17分"
+  },
+  {
+   "seq": 80,
+   "idx": 1,
+   "file": "pan/080_1.jpeg",
+   "sha256": "e0f19c1ac966d8f85e818189c96269a3b60ab5f6c61a276935604675354e3992",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-25 17:43",
+   "time_raw": "2026年07月25日 17时43分"
+  },
+  {
+   "seq": 81,
+   "idx": 1,
+   "file": "pan/081_1.jpg",
+   "sha256": "786476d0c33ed02c1485ced4db9c2d131c25bf1dab390fbcf8ae100d3ba1f4e6",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-23 11:35",
+   "time_raw": "2026年7月23日11时35分"
+  },
+  {
+   "seq": 82,
+   "idx": 1,
+   "file": "pan/082_1.jpg",
+   "sha256": "31ceb6befa11a0f80a54521e883046bc23eb595efe884259a0f3a376b1cba6df",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-10-14 10:47",
+   "time_raw": "2024年10月14日 10时47分"
+  },
+  {
+   "seq": 83,
+   "idx": 1,
+   "file": "pan/083_1.jpg",
+   "sha256": "0852eba9f5738bc40993ea43c950b36ad77e43b925d445a54418c25ebc59addf",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-24 16:40",
+   "time_raw": "2026年4月24日 16:40"
+  },
+  {
+   "seq": 84,
+   "idx": 1,
+   "file": "pan/084_1.jpg",
+   "sha256": "0489ec764ac15b5a7241171bb6fba6dcaa61ccb03f67bf1a6ccce6debbc680dc",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-23 20:46",
+   "time_raw": "2026年07月23日 20时46分"
+  },
+  {
+   "seq": 85,
+   "idx": 1,
+   "file": "pan/085_1.jpg",
+   "sha256": "927fba8e9f6d4a4b1df9cc13507837a52fba7752e5fe43f5ad1fefc522fa958a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-23 16:06",
+   "time_raw": "2026年7月23日16时6分"
+  },
+  {
+   "seq": 86,
+   "idx": 1,
+   "file": "pan/086_1.jpg",
+   "sha256": "b1430cd545b1507a62e314475d376c5d90941682a7199e914b97a59c2674b36a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-13 13:39",
+   "time_raw": "2026-07-13 13:39"
+  },
+  {
+   "seq": 87,
+   "idx": 1,
+   "file": "pan/087_1.jpg",
+   "sha256": "09aa906a6f2c295bc2a548ea8b8a5db42e5209516fd751c1218b0ed72dfd9bf0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-22 19:51",
+   "time_raw": "2026年7月22日19时51分"
+  },
+  {
+   "seq": 88,
+   "idx": 1,
+   "file": "pan/088_1.png",
+   "sha256": "d8553ba9cc8b9d3dcd2378a3cb93fbda2224c1ac075e08c48a941abffc5626d9",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2021-09-06 10:15",
+   "time_raw": "2021年9月6日10时15分（北京时间）"
+  },
+  {
+   "seq": 89,
+   "idx": 1,
+   "file": "pan/089_1.jpg",
+   "sha256": "41eca78fe9d563caa033ddc287d76531cdb1a61ea41989c43fb3ae4d09cce621",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-19 09:22",
+   "time_raw": "2026年5月19日09:22"
+  },
+  {
+   "seq": 90,
+   "idx": 1,
+   "file": "pan/090_1.jpg",
+   "sha256": "4247546bcb1e06a8806a7ae44d6341db1273b0fcb449a65f9bea5e8bdc4a3493",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-21 09:18",
+   "time_raw": "2026年7月21日 9:18"
+  },
+  {
+   "seq": 91,
+   "idx": 1,
+   "file": "pan/091_1.jpg",
+   "sha256": "50135a7facdafba0a31d88d6d1840de8f6cccb256f6f350a7b8c402210cc3d54",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-30 09:44",
+   "time_raw": "2026-01-30 09:44"
+  },
+  {
+   "seq": 92,
+   "idx": 1,
+   "file": "pan/092_1.jpg",
+   "sha256": "f9ff466af62085c5105c21d80a11e8963d3a236d40efc8e8657d27e83c84a3c8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-25 11:35",
+   "time_raw": "2026-05-25 11:35"
+  },
+  {
+   "seq": 93,
+   "idx": 1,
+   "file": "pan/093_1.jpg",
+   "sha256": "863c6a4a86612953b4471e3bd601d224e73506e8874286d5743115a497fcfe10",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-08 18:31",
+   "time_raw": "2026-05-08 18:31"
+  },
+  {
+   "seq": 94,
+   "idx": 1,
+   "file": "pan/094_1.jpeg",
+   "sha256": "82bc20cacdcd30d7c6a15d8fe22bbde9f09893f8b9f71867b5543702ce199bba",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-03 20:00",
+   "time_raw": "2026-06-03 20:00"
+  },
+  {
+   "seq": 95,
+   "idx": 1,
+   "file": "pan/095_1.jpeg",
+   "sha256": "86f6739f00ea3c96e4aaa6ac04619290fff69d78c9af89a29bd5f07fc3f76069",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-06 07:52",
+   "time_raw": "2026-07-06 07:52"
+  },
+  {
+   "seq": 96,
+   "idx": 1,
+   "file": "pan/096_1.jpg",
+   "sha256": "070f7de270be3169426b404be2fa5ebf41f5cae62c184ac636c6a26663a261e2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-20 03:30",
+   "time_raw": "2026年7月20日3时30分"
+  },
+  {
+   "seq": 96,
+   "idx": 2,
+   "file": "pan/096_2.jpg",
+   "sha256": "76d89cc0b86868f723e618e85254c5cd3403f57c98e90e16dbdad97d63b64b99",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-20 08:34",
+   "time_raw": "2026年7月20日8时34分"
+  },
+  {
+   "seq": 97,
+   "idx": 1,
+   "file": "pan/097_1.jpeg",
+   "sha256": "f495c04835a439cda3df53b008fd42f2c770e391604218490ffda371aff1bef9",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-12 18:49",
+   "time_raw": "2026年07月12日 18时49分"
+  },
+  {
+   "seq": 98,
+   "idx": 1,
+   "file": "pan/098_1.jpg",
+   "sha256": "8b367dfb84a98a544e9d067deacc57e9d2744f404c0be3de60810d52c1a7a0a3",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-03 07:30",
+   "time_raw": "2026年4月3日(二月十六)07:30"
+  },
+  {
+   "seq": 99,
+   "idx": 1,
+   "file": "pan/099_1.jpg",
+   "sha256": "dc814b30376f4961a0fc72ff1cec492c70e2a03ee23ecafbbf0757a82e8e55b9",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-09 23:11",
+   "time_raw": "2026年07月09日 23时11分"
+  },
+  {
+   "seq": 100,
+   "idx": 1,
+   "file": "pan/100_1.jpg",
+   "sha256": "fd0f02226ae92ac61570a23e4aa831136402726f18e571105c80ddf89de80bfa",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-16 14:18",
+   "time_raw": "2026年7月16日14时18分"
+  },
+  {
+   "seq": 101,
+   "idx": 1,
+   "file": "pan/101_1.jpg",
+   "sha256": "7f76dcc1dfd61c01e62843e6d7060a4d9ed9773203efe5ada90ce7afd8a1d73e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-02 16:00",
+   "time_raw": "2026年07月02日(五月十八) 16:00"
+  },
+  {
+   "seq": 102,
+   "idx": 1,
+   "file": "pan/102_1.jpg",
+   "sha256": "986e59baae19bbd94ca13388627c03fa395d4b86d19e67fdee37c10f1e65dc6e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-15 20:09",
+   "time_raw": "2026年7月15日20时9分"
+  },
+  {
+   "seq": 103,
+   "idx": 1,
+   "file": "pan/103_1.jpeg",
+   "sha256": "58feb49161ca41408c64c0d5a2565c684c6bd3ad37dbf8b9385fcf844c4b0975",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-09 09:51",
+   "time_raw": "2026年07月09日 09时51分(五月廿五)"
+  },
+  {
+   "seq": 104,
+   "idx": 1,
+   "file": "pan/104_1.png",
+   "sha256": "cbdc866f3f7e57616e0d47377767b2902fe8be29e36148443c988a79d3e38bf3",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2016-01-12 16:45",
+   "time_raw": "2016年1月12日16时45分(北京时间)"
+  },
+  {
+   "seq": 105,
+   "idx": 1,
+   "file": "pan/105_1.jpg",
+   "sha256": "780a39c67744b075bade96fbfda1a35fc0e1600da97ef4aeea31f4dc6e297531",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-06-11 13:33",
+   "time_raw": "2024年6月11日(五月初六)13:33"
+  },
+  {
+   "seq": 106,
+   "idx": 1,
+   "file": "pan/106_1.jpg",
+   "sha256": "cb317f929fe580c1d41d6c596c7ba6419ab405470c06bb46ee4d461f8c4b056f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-11-10 14:16",
+   "time_raw": "2025年11月10日14时16分"
+  },
+  {
+   "seq": 107,
+   "idx": 1,
+   "file": "pan/107_1.jpg",
+   "sha256": "66ccf5fef472afc5427d91f036a61273d763582cfe1b70d772ff4b796d0e353c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-11 12:07",
+   "time_raw": "2026-07-11 12:07"
+  },
+  {
+   "seq": 108,
+   "idx": 1,
+   "file": "pan/108_1.jpeg",
+   "sha256": "1d5135cf0c6deead219883108116b1a3ae4177ccb1ae4ea16869af4198da9515",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-30 12:01",
+   "time_raw": "2026-04-30(三月十四) 12:01"
+  },
+  {
+   "seq": 109,
+   "idx": 1,
+   "file": "pan/109_1.jpeg",
+   "sha256": "e8cc6be999f38ac35dec725e7d2d5431af08edbee8386931cb5021eccfc8e0de",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-08 11:45",
+   "time_raw": "2026年07月08日 11时45分"
+  },
+  {
+   "seq": 110,
+   "idx": 1,
+   "file": "pan/110_1.jpg",
+   "sha256": "f7884b70323d7b6199772916c22acaac66b3408122d99925440aac77aab5a335",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-17 15:30",
+   "time_raw": "2026-04-17 15:30"
+  },
+  {
+   "seq": 111,
+   "idx": 1,
+   "file": "pan/111_1.jpg",
+   "sha256": "b6c8e87c52a552e2a1eed5f924c74bc719340df7fb8b9e3dc40c02c85738f6a8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-08-31 11:50",
+   "time_raw": "2025年08月31日 11时50分"
+  },
+  {
+   "seq": 111,
+   "idx": 2,
+   "file": "pan/111_2.jpg",
+   "sha256": "ec0b28df6755a4419988ddbefded98cf058e751d8a33b60d73051425137fd9ea",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "2025-08-31 11:50",
+   "time_raw": "2025-08-31 11:50"
+  },
+  {
+   "seq": 112,
+   "idx": 1,
+   "file": "pan/112_1.jpg",
+   "sha256": "21429cf0b75bd26381553f14f76893602ff520b6a2d56eceda3e1145749a69a0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-02 10:50",
+   "time_raw": "2026年03月02日 10:50"
+  },
+  {
+   "seq": 113,
+   "idx": 1,
+   "file": "pan/113_1.jpg",
+   "sha256": "b337b16fdd3eb76b3beb4f1fdf4bea5ed7b914c60358ec17afa30440de1863e4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-05 14:36",
+   "time_raw": "2026年06月05日 14时36分"
+  },
+  {
+   "seq": 114,
+   "idx": 1,
+   "file": "pan/114_1.jpeg",
+   "sha256": "95777b0f088c0509ee7aec149072046a244fa1bed29306e8485830319745d148",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-08-08 18:33",
+   "time_raw": "2025-08-08 18:33"
+  },
+  {
+   "seq": 115,
+   "idx": 1,
+   "file": "pan/115_1.png",
+   "sha256": "30c3a5ca5c75220d29f42559ebf9eeaa7593969fc2bf56054b5552599ce59026",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2014-05-29 15:07",
+   "time_raw": "2014年5月29日15时7分（北京时间）"
+  },
+  {
+   "seq": 116,
+   "idx": 1,
+   "file": "pan/116_1.jpg",
+   "sha256": "b7aedf3b5aecb59dab0d3176f0cf1d81342f0120c08307ccef00fed33ed50b85",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-16 10:11",
+   "time_raw": "2026年3月16日10:11"
+  },
+  {
+   "seq": 117,
+   "idx": 1,
+   "file": "pan/117_1.jpg",
+   "sha256": "9b5b64162f43145173f2f0a34488d3b3d0068c0827b00edf84b396ef5a0d9626",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-06-10 12:24",
+   "time_raw": "2025年6月10日12:24"
+  },
+  {
+   "seq": 118,
+   "idx": 1,
+   "file": "pan/118_1.jpg",
+   "sha256": "61638f955473dee814c076af1cefee2944ad2127a071614e56f7ffa0577ee813",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-04 16:42",
+   "time_raw": "2026-07-04 16:42"
+  },
+  {
+   "seq": 119,
+   "idx": 1,
+   "file": "pan/119_1.jpg",
+   "sha256": "98207dfa54654db7d6f1926dcf95be9e69e5b9f08e8293926191294a01a51537",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-12-03 00:26",
+   "time_raw": "2025-12-03 00:26"
+  },
+  {
+   "seq": 120,
+   "idx": 1,
+   "file": "pan/120_1.jpeg",
+   "sha256": "d3859f89ce664cf195b59453995e84e8f30afd469122429b7f642695dc4a79f5",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2022-09-04 14:49",
+   "time_raw": "2022年09月04日 14:49"
+  },
+  {
+   "seq": 121,
+   "idx": 1,
+   "file": "pan/121_1.jpeg",
+   "sha256": "45ee0a69cba7bfca92285468571df73f763e2cb83d6837ff93d70086899b9615",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-11 20:03",
+   "time_raw": "2026年01月11日 20:03"
+  },
+  {
+   "seq": 122,
+   "idx": 1,
+   "file": "pan/122_1.jpeg",
+   "sha256": "dfd4f4ad70a120e4833c64565d6488d838bd6fb463b7e3b719409e857873b135",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-15 23:02",
+   "time_raw": "2026年05月15日 23时02分"
+  },
+  {
+   "seq": 123,
+   "idx": 1,
+   "file": "pan/123_1.jpg",
+   "sha256": "a4b27ab8ec6a6cbdbfd2dd446bf93882ab07559ebd227278150fd9616c94237a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-07-01 19:35",
+   "time_raw": "2026年07月01日 19时35分(五月十七)"
+  },
+  {
+   "seq": 123,
+   "idx": 2,
+   "file": "pan/123_2.jpg",
+   "sha256": "fce294f95f41ad11e44eea6a886fcd31ef8586f7eaa163b426cb96083164976f",
+   "sha256_origin": "computed_this_run",
+   "type": "其他",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 124,
+   "idx": 1,
+   "file": "pan/124_1.jpg",
+   "sha256": "f8754c8e3f04cbb8819b916718db0b9ddd5de07cfda3dcdd2ba4868ffb34382b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-29 09:40",
+   "time_raw": "2026-06-29(五月十五) 09:40"
+  },
+  {
+   "seq": 125,
+   "idx": 1,
+   "file": "pan/125_1.jpeg",
+   "sha256": "38bbb61694bfe3842ad767589af343a0cfd6f80f203346d240f7ea61b7816a45",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-23 13:00",
+   "time_raw": "2026年06月23日(五月初九) 13:00"
+  },
+  {
+   "seq": 126,
+   "idx": 1,
+   "file": "pan/126_1.jpeg",
+   "sha256": "728caeac5ec4e3c3fed6e7a59f807e6f7db6c4b4c5ea292ff26a71f85382af20",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-18 17:26",
+   "time_raw": "2026年06月18日(五月初四) 17:26"
+  },
+  {
+   "seq": 127,
+   "idx": 1,
+   "file": "pan/127_1.jpeg",
+   "sha256": "81d93e56679a3a3afaf35605cb8d30b14dbd33b18beb611b83b7e8fe5072e38f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2020-07-15 21:32",
+   "time_raw": "2020-07-15 21:32"
+  },
+  {
+   "seq": 128,
+   "idx": 1,
+   "file": "pan/128_1.jpg",
+   "sha256": "7b8f0e307ce2a0ba28fd0eb7944e2608ba32aab07b06d944ec44fff5fb6eabbc",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-07 21:30",
+   "time_raw": "2026年6月7日21时30分"
+  },
+  {
+   "seq": 129,
+   "idx": 1,
+   "file": "pan/129_1.jpg",
+   "sha256": "9060395f5315f52002a0dd6126244f1053978dd29853bd67db4d7d85af54f51b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-11 18:55",
+   "time_raw": "2026-01-11 18:55:02（冬）"
+  },
+  {
+   "seq": 130,
+   "idx": 1,
+   "file": "pan/130_1.jpg",
+   "sha256": "cafe89d699ce397b7f8c992594eb0277b8a791f637d852da48cd6e800b7829ff",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-11 11:51",
+   "time_raw": "2026年2月11日(腊月廿四)11:51"
+  },
+  {
+   "seq": 131,
+   "idx": 1,
+   "file": "pan/131_1.jpeg",
+   "sha256": "e146b12fae817e6017aa6a21638a544a9c9c843663833028e95a601360ef66c8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-13 13:47",
+   "time_raw": "2026年06月13日(四月廿八) 13:47"
+  },
+  {
+   "seq": 132,
+   "idx": 1,
+   "file": "pan/132_1.jpg",
+   "sha256": "fe33b61299ef4b57a6437ebd7f428301a2e5f0f10b8e09208078389d5f126eb1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-24 16:14",
+   "time_raw": "2026-05-24 16:14"
+  },
+  {
+   "seq": 133,
+   "idx": 1,
+   "file": "pan/133_1.jpg",
+   "sha256": "5ab901f7de1df46410e4df76d88b03d3bab5bca18d7cee1bc605f55b51c3938f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-12-27 07:23",
+   "time_raw": "2024-12-27(冬月廿七) 07:23"
+  },
+  {
+   "seq": 134,
+   "idx": 1,
+   "file": "pan/134_1.png",
+   "sha256": "6408f47a5e50a93f87c97b1c2374dc7486d16265eeb5a0306854d2f634b41099",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-26 08:01",
+   "time_raw": "2026年06月26日 08时01分"
+  },
+  {
+   "seq": 135,
+   "idx": 1,
+   "file": "pan/135_1.png",
+   "sha256": "0f498423f103269149ab0afb429a09b8497c74866fd122f42f75379f6d56a66b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-18 14:53",
+   "time_raw": "2026-06-18 14:53"
+  },
+  {
+   "seq": 136,
+   "idx": 1,
+   "file": "pan/136_1.jpg",
+   "sha256": "a19d4c84be1ea0be1f0a52c4e702b49f98b8478edc274b293c89abd73bfb2f58",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-09-06 12:49",
+   "time_raw": "2024/09/06 12:49"
+  },
+  {
+   "seq": 137,
+   "idx": 1,
+   "file": "pan/137_1.jpeg",
+   "sha256": "6ef20bb213b62f65f7ffbe9885deceb3d9dc5457f9932c0bc9272f593c30eabd",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-25 21:16",
+   "time_raw": "2026-06-25 21:16"
+  },
+  {
+   "seq": 138,
+   "idx": 1,
+   "file": "pan/138_1.jpg",
+   "sha256": "be479f29a6b314890f7f886567e155940f68706689c95efbbeeb4948be63c88a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-24 02:12",
+   "time_raw": "2026年06月24日 02时12分"
+  },
+  {
+   "seq": 139,
+   "idx": 1,
+   "file": "pan/139_1.jpeg",
+   "sha256": "08574092214bde36cfdb8537041eb87678a9a2728099dd8f218b4116701da6d0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-25 09:31",
+   "time_raw": "2026年06月25日(五月十一) 09:31"
+  },
+  {
+   "seq": 140,
+   "idx": 1,
+   "file": "pan/140_1.jpeg",
+   "sha256": "1e9469c26f9d75971bf8f7e5c32aed87963c1b5d44af078fa5841dfdbfb8e386",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-11 13:23",
+   "time_raw": "2026年04月11日(二月廿四) 13:23"
+  },
+  {
+   "seq": 141,
+   "idx": 1,
+   "file": "pan/141_1.png",
+   "sha256": "00eeda9efec422720b5b54b2faccd4f5db27d0caf0faa505e28a712cab769d0c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2011-07-06 12:48",
+   "time_raw": "2011年7月6日12时48分"
+  },
+  {
+   "seq": 142,
+   "idx": 1,
+   "file": "pan/142_1.jpeg",
+   "sha256": "c14c94ff8595a87037d6fe7ac01bf99f9f61dfea492e4ec2d61c86d3e64241db",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-12 08:57",
+   "time_raw": "2026年06月12日(四月廿七) 08:57"
+  },
+  {
+   "seq": 143,
+   "idx": 1,
+   "file": "pan/143_1.jpg",
+   "sha256": "d7338e3a34651e0b3c7677dbfcd39381e0a9ac649955e22f49bea50c0ff04b94",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-04-03 12:51",
+   "time_raw": "2025年4月3日(三月初六)12:51"
+  },
+  {
+   "seq": 144,
+   "idx": 1,
+   "file": "pan/144_1.jpg",
+   "sha256": "c64756bb78a9ab42f6d490f7f36a7647fd498548584f9d1b12200e847ff51e46",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-31 14:05",
+   "time_raw": "2026-05-31 14:05"
+  },
+  {
+   "seq": 145,
+   "idx": 1,
+   "file": "pan/145_1.jpg",
+   "sha256": "e872753622dcb4799819023b5164df95f49cdbd35f748187439022c533a4f3aa",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-07 18:13",
+   "time_raw": "2026-03-07(正月十九) 18:13"
+  },
+  {
+   "seq": 146,
+   "idx": 1,
+   "file": "pan/146_1.jpeg",
+   "sha256": "1655c1dba995eb9a303176ea8d72b9118359a863a2bb0d6134b682aed1c07958",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-19 13:29",
+   "time_raw": "2026年06月19日 13时29分"
+  },
+  {
+   "seq": 147,
+   "idx": 1,
+   "file": "pan/147_1.png",
+   "sha256": "50015d5e183e5333ba92b76fb86fc7a33344230bafd785236f1049cbfa4e33f1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-12 14:41",
+   "time_raw": "2026-05-12 14:41"
+  },
+  {
+   "seq": 148,
+   "idx": 1,
+   "file": "pan/148_1.jpeg",
+   "sha256": "b78e6f25d85de48693e0c675d477737ce911c40a947ee9bcc475b3164bdf0287",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-15 13:15",
+   "time_raw": "2026-06-15 13:15"
+  },
+  {
+   "seq": 149,
+   "idx": 1,
+   "file": "pan/149_1.png",
+   "sha256": "5b17dd7e47a8f5bfeafe918a4dda7ab338abbaf0afa7e813717d2299efbabdec",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-19 07:57",
+   "time_raw": "2026年3月19日 07:57"
+  },
+  {
+   "seq": 150,
+   "idx": 1,
+   "file": "pan/150_1.jpeg",
+   "sha256": "0e12b755c2e543ae8650dfe7d2faeb0db79b0026d0fb3058f077e91e27c056b0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-14 17:44",
+   "time_raw": "2026年03月14日 17:44"
+  },
+  {
+   "seq": 151,
+   "idx": 1,
+   "file": "pan/151_1.png",
+   "sha256": "d6e9af5002b190101a5080e15a378c6bddbbb641fdbaadfe5bc207b0f3763525",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2021-04-21 18:32",
+   "time_raw": "2021年4月21日18时32分（北京时间）"
+  },
+  {
+   "seq": 152,
+   "idx": 1,
+   "file": "pan/152_1.jpg",
+   "sha256": "10d7323c9edada5c40a4d799cd1be21efccb0b2055b3f65eeb14a9346809f206",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-01 08:15",
+   "time_raw": "2026-06-01(四月十六)08:15"
+  },
+  {
+   "seq": 153,
+   "idx": 1,
+   "file": "pan/153_1.jpg",
+   "sha256": "55ec8cc63f0f8bc3f54cb2358f24ed4fbebd530a48e06cf3a9cbd946ff7e7dd2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-10-22 00:55",
+   "time_raw": "2025年10月22日 00时55分"
+  },
+  {
+   "seq": 154,
+   "idx": 1,
+   "file": "pan/154_1.jpg",
+   "sha256": "b587abe01fec11057f60ba55726c33c929a41d7d4081260ca251899d5f594e7c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-05 13:29",
+   "time_raw": "2026-04-05(二月十八) 13:29"
+  },
+  {
+   "seq": 155,
+   "idx": 1,
+   "file": "pan/155_1.jpeg",
+   "sha256": "69efcb3d556fb5e14ca0419285500ef76dde61eb325962ebb61a1bfdc3878d9d",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-07 15:11",
+   "time_raw": "2026年06月07日 15时11分"
+  },
+  {
+   "seq": 155,
+   "idx": 2,
+   "file": "pan/155_2.jpeg",
+   "sha256": "41cbc588b2a909872874b79e6f216fd9d5a37023b3b049bc2ea1284349089dd5",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 156,
+   "idx": 1,
+   "file": "pan/156_1.png",
+   "sha256": "02661186c4ac7648e73cedf460b6428d3f09b2fe59ebe567f2b3bac5bd247d4e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-10 21:15",
+   "time_raw": "2026-05-10(三月廿四) 21:15"
+  },
+  {
+   "seq": 157,
+   "idx": 1,
+   "file": "pan/157_1.jpeg",
+   "sha256": "bd7a554826c96c8db9d0889de790caf8b61e3173f03e8cc2dbb4f39b62e25fd7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-06 13:31",
+   "time_raw": "2026-06-06 13:31"
+  },
+  {
+   "seq": 159,
+   "idx": 1,
+   "file": "pan/159_1.jpg",
+   "sha256": "259114592904d4a134a42edc0bbadb2f11b9c66b811420caec111edff3347537",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-06 13:59",
+   "time_raw": "公历:2026/06/06 13:59"
+  },
+  {
+   "seq": 160,
+   "idx": 1,
+   "file": "pan/160_1.jpg",
+   "sha256": "4b61427271ddcfd08faf8ff4904170c3fec366849cf9a2d8fd4f1a452c8bd906",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-18 08:36",
+   "time_raw": "2026年05月18日 08时36分"
+  },
+  {
+   "seq": 161,
+   "idx": 1,
+   "file": "pan/161_1.jpg",
+   "sha256": "4198308696781c9db2f2296e40b67a1b0c1ff3c177b31163dd5c7b7da6b2ad23",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-29 06:42",
+   "time_raw": "2026年05月29日 06:42"
+  },
+  {
+   "seq": 162,
+   "idx": 1,
+   "file": "pan/162_1.jpeg",
+   "sha256": "7eff29c245ce55d0fee769f9f0576bd56cf2a77aed133610e967ac944f08f2e2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-21 20:00",
+   "time_raw": "2026年02月21日 20:00"
+  },
+  {
+   "seq": 163,
+   "idx": 1,
+   "file": "pan/163_1.png",
+   "sha256": "dc96459eafd1d4351a6755418da9454bcd9270ca0530754029378cf62ab1fde6",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2013-05-20 13:48",
+   "time_raw": "2013年5月20日13时48分(北京时间)"
+  },
+  {
+   "seq": 164,
+   "idx": 1,
+   "file": "pan/164_1.jpeg",
+   "sha256": "a979ab48e904b158851f64b0dfd15b3ecd43b9960db1c0826725f22ac82a071b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-10 13:46",
+   "time_raw": "2026-06-10 13:46"
+  },
+  {
+   "seq": 165,
+   "idx": 1,
+   "file": "pan/165_1.jpg",
+   "sha256": "b483fb7d76cd716b90f54a3803c534aa9fb3eee1bac1a6e0c1793a9854e756ef",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-07-07 20:00",
+   "time_raw": "2024年7月7日 20:00"
+  },
+  {
+   "seq": 166,
+   "idx": 1,
+   "file": "pan/166_1.jpg",
+   "sha256": "6590a9dc7a93a1d5cc1b0c09160c2ca2c726a5d2eb4a7515dd40d1d48d2bb101",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-05 06:07",
+   "time_raw": "2026-06-05 06:07"
+  },
+  {
+   "seq": 167,
+   "idx": 1,
+   "file": "pan/167_1.jpg",
+   "sha256": "fdba5f1eac7c37db32489fdc8c19cfa33dfb742345c6c9c3525a9b44413b1332",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-06-05 15:38",
+   "time_raw": "2026年6月5日15时38分"
+  },
+  {
+   "seq": 168,
+   "idx": 1,
+   "file": "pan/168_1.jpg",
+   "sha256": "47c00f1213484ed73ad61d947f4c3591c6f7b02bd962ec97809084846b62a6f8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-31 18:06",
+   "time_raw": "2026-05-31 18:06"
+  },
+  {
+   "seq": 169,
+   "idx": 1,
+   "file": "pan/169_1.jpg",
+   "sha256": "0865a6f212f19627254348611b531124234dc5ac712bb6f981918626fcccaad8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-12-03 12:05",
+   "time_raw": "2025-12-03 12:05"
+  },
+  {
+   "seq": 170,
+   "idx": 1,
+   "file": "pan/170_1.png",
+   "sha256": "9eb6615c84c0ba575020040f49b95ce50d44f1ff7b7c2dd43c20ad4157ede563",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-04 10:25",
+   "time_raw": "2026-05-04 10:25"
+  },
+  {
+   "seq": 171,
+   "idx": 1,
+   "file": "pan/171_1.png",
+   "sha256": "6d392220c084e58503c00daae72575726fbc651e7e18f70c6a5476914ecdced5",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-18 08:48",
+   "time_raw": "2026-05-18(四月初二) 08:48"
+  },
+  {
+   "seq": 172,
+   "idx": 1,
+   "file": "pan/172_1.jpeg",
+   "sha256": "811b268e9ab8f8574067a655025ba3b938a3bbf1f68f51ea7d329081a9f3d7a1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-31 17:15",
+   "time_raw": "2026-05-31 17:15"
+  },
+  {
+   "seq": 173,
+   "idx": 1,
+   "file": "pan/173_1.jpg",
+   "sha256": "dccb5855673f58fed9632a21f54d31d92c1a3ca686e70342a970e8998215eb7d",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-11-19 12:26",
+   "time_raw": "2025-11-19(九月三十) 12:26"
+  },
+  {
+   "seq": 174,
+   "idx": 1,
+   "file": "pan/174_1.jpg",
+   "sha256": "c221f98684cc75c2ea8ac023f641a6e35c0977c47891eb81ef19c63210dcaaff",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-10 16:10",
+   "time_raw": "2026年5月10日16时10分"
+  },
+  {
+   "seq": 175,
+   "idx": 1,
+   "file": "pan/175_1.jpg",
+   "sha256": "d929964c578c6a401b11ed878336bfcbc4641fa06ab5dd72d1e2dc9dba39e1a9",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-10 21:19",
+   "time_raw": "2026年05月10日 21时19分"
+  },
+  {
+   "seq": 176,
+   "idx": 1,
+   "file": "pan/176_1.jpg",
+   "sha256": "c0af060d6b9eae010e59d0efb6dbc2d4a1362ffab32b0ae1938fe3dda321bd67",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-28 12:09",
+   "time_raw": "2026年04月28日(三月十二) 12:09"
+  },
+  {
+   "seq": 177,
+   "idx": 1,
+   "file": "pan/177_1.jpg",
+   "sha256": "d33df4ac36699713f58bb805495215179815b636c2e1c842220a92db318c31b8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-23 22:56",
+   "time_raw": "2026年5月23日22时56分"
+  },
+  {
+   "seq": 178,
+   "idx": 1,
+   "file": "pan/178_1.png",
+   "sha256": "e0911b34485aa6f307dd9f6510921ef0a6e276c4a2d9bd2efa1e7c52f469e8ad",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2008-08-04 17:29",
+   "time_raw": "2008年8月4日17时29分(北京时间)"
+  },
+  {
+   "seq": 179,
+   "idx": 1,
+   "file": "pan/179_1.jpeg",
+   "sha256": "c46780bc46f2049453654e7cc72c4b07f98c45fcb148a1939d9e3b156f44a109",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-05 10:39",
+   "time_raw": "2026年02月05日(腊月十八) 10:39"
+  },
+  {
+   "seq": 180,
+   "idx": 1,
+   "file": "pan/180_1.jpg",
+   "sha256": "28f9d59d84647b9ac01f993affbe95644524c45fa063cd0928ea316b9696e63a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-10 10:59",
+   "time_raw": "2026-05-10(三月廿四) 10:59"
+  },
+  {
+   "seq": 180,
+   "idx": 2,
+   "file": "pan/180_2.jpg",
+   "sha256": "b9fba7a7a301bca2686bdf72daf5d5c0f01fcd5eb4543fe3af751ff0590eaca4",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-27 17:59",
+   "time_raw": "2025-05-27(五月初一) 17:59"
+  },
+  {
+   "seq": 181,
+   "idx": 1,
+   "file": "pan/181_1.jpg",
+   "sha256": "3d6eeb0d9cfa9c0aef038f141bd8124afce2a78a8fc0e17ef9cf26461296d574",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-12-02 16:10",
+   "time_raw": "2025-12-02(十月十三) 16:10"
+  },
+  {
+   "seq": 182,
+   "idx": 1,
+   "file": "pan/182_1.jpg",
+   "sha256": "e542ad34c613c70faa286bdef42e9c59a2b248d144fe831bf2b3b8b57d03dc15",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-13 15:01",
+   "time_raw": "2026-05-13 15:01"
+  },
+  {
+   "seq": 183,
+   "idx": 1,
+   "file": "pan/183_1.jpeg",
+   "sha256": "e6d395c8d9572df53c2d9c2172b6dedc51dcb65efa0703a94cb4931c68c67ded",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-21 06:58",
+   "time_raw": "2026年05月21日 06时58分"
+  },
+  {
+   "seq": 184,
+   "idx": 1,
+   "file": "pan/184_1.png",
+   "sha256": "8c6c9f2b053d65c320f16810b1b84dea49486777eb30f73affd7482f4e146121",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-15 09:44",
+   "time_raw": "2026-05-15 09:44"
+  },
+  {
+   "seq": 185,
+   "idx": 1,
+   "file": "pan/185_1.jpeg",
+   "sha256": "bd3202a85d3026f0cad60575a6a8c1ea32be938f20fed8fb0b38b4be167ec39e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-23 11:10",
+   "time_raw": "2026-05-23 11:10"
+  },
+  {
+   "seq": 186,
+   "idx": 1,
+   "file": "pan/186_1.jpg",
+   "sha256": "5231bdb33d10bebcdf983545108de427289fd37722a7cf0dee0548208fe5367f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-07 17:44",
+   "time_raw": "2026年5月7日 17:44"
+  },
+  {
+   "seq": 187,
+   "idx": 1,
+   "file": "pan/187_1.jpg",
+   "sha256": "f2570a790bdd59d564c530fc818394a77a6e9975df081faa86cdb1fa8b569882",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-01 07:51",
+   "time_raw": "2026年05月01日 07时51分"
+  },
+  {
+   "seq": 188,
+   "idx": 1,
+   "file": "pan/188_1.png",
+   "sha256": "747def68d13f5e1bf1fcdf221bf54afb852fb2aab0c3f4fec997cc4fdbe7ca59",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-06-21 13:55",
+   "time_raw": "2025年6月21日 13:55"
+  },
+  {
+   "seq": 189,
+   "idx": 1,
+   "file": "pan/189_1.jpeg",
+   "sha256": "86219751674ebc7bb33c242930760decb70e0e5d73ddbe81caafa5b221ad6d7a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-18 17:44",
+   "time_raw": "2026年04月18日 17:44"
+  },
+  {
+   "seq": 190,
+   "idx": 1,
+   "file": "pan/190_1.png",
+   "sha256": "285f245c46b0f48de593360309db46e8cd42c0cb7955637af0092d6739a7a963",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2014-06-20 19:25",
+   "time_raw": "2014年6月20日19时25分(北京时间)"
+  },
+  {
+   "seq": 191,
+   "idx": 1,
+   "file": "pan/191_1.jpg",
+   "sha256": "c26c91e9c1764530b13f46d4fae04465af43876f471571186ad6183c3ec9b498",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2024-11-22 15:37",
+   "time_raw": "2024-11-22 15:37"
+  },
+  {
+   "seq": 192,
+   "idx": 1,
+   "file": "pan/192_1.jpg",
+   "sha256": "dbfcca109f9c21afb22cdeb3c2f8b48b4982f0d286ed1d08becb50baaf589307",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2023-10-25 13:32",
+   "time_raw": "2023年10月25日 13:32"
+  },
+  {
+   "seq": 193,
+   "idx": 1,
+   "file": "pan/193_1.jpg",
+   "sha256": "e8129cc519a3de6c7f9668a6f226a1429a7881b62dddd3b3942865beff5c69aa",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 193,
+   "idx": 2,
+   "file": "pan/193_2.jpg",
+   "sha256": "3313c76991e8cfc96c0e51346657a28bde3f5d63e15bbf2674e64825b81d9a94",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 193,
+   "idx": 3,
+   "file": "pan/193_3.jpg",
+   "sha256": "0dd51fba2379f0d1d2d311b8e9ac2f8546bd4ec7068066b4425a84f547fb934b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-12 18:52",
+   "time_raw": "2026-01-12 18:52"
+  },
+  {
+   "seq": 194,
+   "idx": 1,
+   "file": "pan/194_1.jpg",
+   "sha256": "0c1df4fed6ab79d317b51968d34643a831874a937ef8979b31f87a931ae5d045",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-16 11:46",
+   "time_raw": "2026-05-16 11:46"
+  },
+  {
+   "seq": 195,
+   "idx": 1,
+   "file": "pan/195_1.jpg",
+   "sha256": "4b231ef0ac8f7af88d76172e29c0ac457efba62c8ca780fe500117f386f2075a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-23 18:13",
+   "time_raw": "2026-05-23 18:13"
+  },
+  {
+   "seq": 196,
+   "idx": 1,
+   "file": "pan/196_1.jpeg",
+   "sha256": "b64f7f88b40f5200606e694965db1015341d39a8087d920fdbf6d195c5267d70",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-21 06:58",
+   "time_raw": "2026年05月21日 06时58分"
+  },
+  {
+   "seq": 197,
+   "idx": 1,
+   "file": "pan/197_1.jpeg",
+   "sha256": "cdd176e9f066699801bf3801a9e9782c91f8c1a17ac4a6f401c7221e03ad27e7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-21 12:39",
+   "time_raw": "2026-05-21 12:39"
+  },
+  {
+   "seq": 198,
+   "idx": 1,
+   "file": "pan/198_1.png",
+   "sha256": "d794634a4f5b17f24cc058c1a5fb4743e1c14a5d6aded8b4becafde42105648b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-07-17 16:00",
+   "time_raw": "2025年7月17日 16:00"
+  },
+  {
+   "seq": 199,
+   "idx": 1,
+   "file": "pan/199_1.jpeg",
+   "sha256": "c50bd167df5f6c0a8d3cc43f66473ebe15267514b01726fb7182df86385bfff0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-15 08:25",
+   "time_raw": "2026年05月15日 08:25"
+  },
+  {
+   "seq": 200,
+   "idx": 1,
+   "file": "pan/200_1.png",
+   "sha256": "17a3ff9ed0df0541286fa8ceb8ed48faa9998999afce814c47590c0781c158ed",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-12 19:00",
+   "time_raw": "2026年4月12日19时0分"
+  },
+  {
+   "seq": 201,
+   "idx": 1,
+   "file": "pan/201_1.jpg",
+   "sha256": "cc5ff63982922773622ec12fd55260ef930c373d8514976bff6a9a4fa6175ab7",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-09-27 08:27",
+   "time_raw": "2025年9月27日 08:27"
+  },
+  {
+   "seq": 202,
+   "idx": 1,
+   "file": "pan/202_1.jpg",
+   "sha256": "ab4a3ec2598fc05d363cfc224f0bbbb74b3cfa15afeb89ad419e21aadbf38086",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-02-28 14:38",
+   "time_raw": "2025-02-28 14:38"
+  },
+  {
+   "seq": 203,
+   "idx": 1,
+   "file": "pan/203_1.jpg",
+   "sha256": "cb91290c350a07489723b6e79b938fbf3fc5bc5521ce3d23d4ce2993c198d7fa",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-03 23:08",
+   "time_raw": "2026-05-03 23:08"
+  },
+  {
+   "seq": 204,
+   "idx": 1,
+   "file": "pan/204_1.jpg",
+   "sha256": "05182b9fa150caf722ded2e2444d7dce0cf22c8f0fceb93f2c97c4d7935e60c0",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-17 10:43",
+   "time_raw": "2026-04-17 10:43"
+  },
+  {
+   "seq": 205,
+   "idx": 1,
+   "file": "pan/205_1.jpg",
+   "sha256": "dc848e8528de4547d65a273e0ea6b311dce5c8e0cea29b8b1846233ace5eca07",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-04 18:23",
+   "time_raw": "北京时间: 2026-02-04 18:23:00"
+  },
+  {
+   "seq": 206,
+   "idx": 1,
+   "file": "pan/206_1.jpeg",
+   "sha256": "281abd9a28b98845b786fd3df22dc35985c2df561bf57868638e02661e91a92a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-25 11:02",
+   "time_raw": "2026年03月25日 11时02分"
+  },
+  {
+   "seq": 207,
+   "idx": 1,
+   "file": "pan/207_1.jpeg",
+   "sha256": "bf1fbddfedb6e3ef339e3555ef0989bb1556f608abe737acc3bcfb28ec7a8cb2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-16 04:08",
+   "time_raw": "2026-05-16 04:08"
+  },
+  {
+   "seq": 208,
+   "idx": 1,
+   "file": "pan/208_1.jpg",
+   "sha256": "f7324a44d43de3d280c3464110d11cd9c43f1ca0289118256c6b5832e3948e25",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-08-13 11:48",
+   "time_raw": "2025年8月13日 11:48"
+  },
+  {
+   "seq": 209,
+   "idx": 1,
+   "file": "pan/209_1.jpg",
+   "sha256": "449897f41d45eef81a4019191e298a7194262622b93a0798985c1a90ea20d197",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-16 11:03",
+   "time_raw": "2026年04月16日 11时03分"
+  },
+  {
+   "seq": 210,
+   "idx": 1,
+   "file": "pan/210_1.png",
+   "sha256": "9c04596a965b557b398240d9607e19b783ed5a183b63bb380769dfbec1043d0b",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 211,
+   "idx": 1,
+   "file": "pan/211_1.jpeg",
+   "sha256": "c1b79647a1c40d2fbb183ca73567b9dda9e9edd0fb47d552a873d3a8b4991a61",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-01 11:18",
+   "time_raw": "2026年05月01日(三月十五) 11:18"
+  },
+  {
+   "seq": 212,
+   "idx": 1,
+   "file": "pan/212_1.png",
+   "sha256": "9fbb043c3cf573879bde57863522852f91810dfbcf70ad7ff2e9b2802f024e69",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2017-02-15 12:56",
+   "time_raw": "2017年2月15日12时56分"
+  },
+  {
+   "seq": 213,
+   "idx": 1,
+   "file": "pan/213_1.jpg",
+   "sha256": "66d4b93b1cf98f6006c6a00976ffe9f7ec714c0fb73119e2fe49d88bbaa9648e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-09 19:22",
+   "time_raw": "2026-05-09(三月廿三) 19:22"
+  },
+  {
+   "seq": 214,
+   "idx": 1,
+   "file": "pan/214_1.jpg",
+   "sha256": "e50e0a6ecc12400a59de19e9266eab788fd260735f3edcbf78399f9632913a2c",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-22 15:15",
+   "time_raw": "2026年1月22日(腊月初四)15:15"
+  },
+  {
+   "seq": 215,
+   "idx": 1,
+   "file": "pan/215_1.jpg",
+   "sha256": "a121e6e9472e5d26822652dee49dc1d058caa5b57a54a2d1e9c7299497a8af38",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-21 13:08",
+   "time_raw": "2026-04-21 13:08"
+  },
+  {
+   "seq": 216,
+   "idx": 1,
+   "file": "pan/216_1.jpg",
+   "sha256": "c9480755b06dd4acd8c60319f81b04fc271d8e0545d3cfcabc03a7c055a9ad39",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-03-10 07:36",
+   "time_raw": "2025-03-10(二月十一) 07:36"
+  },
+  {
+   "seq": 217,
+   "idx": 1,
+   "file": "pan/217_1.jpeg",
+   "sha256": "0e7934f179323b239c22df3b9190c61e609c3d69a60bd4539b5e99e313dddf29",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-05 12:07",
+   "time_raw": "2026年05月05日 12时07分(三月十九)"
+  },
+  {
+   "seq": 217,
+   "idx": 2,
+   "file": "pan/217_2.jpeg",
+   "sha256": "780c6cd3f91b827325be841a59bd565825d6a797f0ae117cf78bc7e6bee66da6",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 218,
+   "idx": 1,
+   "file": "pan/218_1.jpg",
+   "sha256": "4879a92e194fd58d0fe11566ecc252d907bcd1968ad22e5c07e35386247c2ed1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-01-30 09:32",
+   "time_raw": "2026年01月30日 09时32分(十二月十二)"
+  },
+  {
+   "seq": 219,
+   "idx": 1,
+   "file": "pan/219_1.jpg",
+   "sha256": "171c62df2e79de2a52953d531ae23ecb50d243ebb27832d88b00b75672771efb",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-17 14:03",
+   "time_raw": "2026年3月17日 14:3"
+  },
+  {
+   "seq": 219,
+   "idx": 2,
+   "file": "pan/219_2.jpg",
+   "sha256": "bd07ed557d641a9c499892fe5c5a01f607a58e5ce795eacfd44bfe44d8e31d0c",
+   "sha256_origin": "computed_this_run",
+   "type": "事件示意",
+   "time_norm": "",
+   "time_raw": ""
+  },
+  {
+   "seq": 220,
+   "idx": 1,
+   "file": "pan/220_1.jpg",
+   "sha256": "a74c44463a86e1645f05021a9162fff4aea4535c3ec18c31d9ecfabb98aa0109",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-08 07:36",
+   "time_raw": "2026年5月8日(三月廿二)07:36"
+  },
+  {
+   "seq": 221,
+   "idx": 1,
+   "file": "pan/221_1.png",
+   "sha256": "5b220db8d2cffe2f6a86fc5f5275bc75b1e8843c8d8985cb14b37078fdb0eeed",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-30 13:50",
+   "time_raw": "2025年5月30日(五月初四)13:50"
+  },
+  {
+   "seq": 222,
+   "idx": 1,
+   "file": "pan/222_1.jpg",
+   "sha256": "d92db72352dc2c632796ccc0a5f91c9715fc3aa05f896d35d81007f3131ca6b6",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-02-22 20:10",
+   "time_raw": "2026年02月22日 20时10分"
+  },
+  {
+   "seq": 223,
+   "idx": 1,
+   "file": "pan/223_1.png",
+   "sha256": "21fa85d6f99a5ab23feaa756bc72579624ca7dbbd595aa91e5d5ed2b57e219a1",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2014-08-04 00:55",
+   "time_raw": "2014年8月4日0时55分(北京时间)"
+  },
+  {
+   "seq": 224,
+   "idx": 1,
+   "file": "pan/224_1.jpg",
+   "sha256": "71c309cdc3ae902553f29d194a7ac84d8f7b97a19643a1a1a7d559fb32019c1f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-30 15:24",
+   "time_raw": "2026年04月30日 15时24分(三月十四)"
+  },
+  {
+   "seq": 225,
+   "idx": 1,
+   "file": "pan/225_1.jpg",
+   "sha256": "7ac3bfac755bca02ac62e4838d9af0be14805e66e4b1d8ba9378a5ae2a78f423",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-05-04 12:52",
+   "time_raw": "2026-05-04 12:52"
+  },
+  {
+   "seq": 226,
+   "idx": 1,
+   "file": "pan/226_1.jpeg",
+   "sha256": "8b55b6d51f192c663ee94cc112f3b0969c072c08892cbca072604d231eabbfb2",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-09-20 21:24",
+   "time_raw": "2025年09月20日(七月廿九) 21:24"
+  },
+  {
+   "seq": 227,
+   "idx": 1,
+   "file": "pan/227_1.jpg",
+   "sha256": "fed60996d3af65c6367dde50d8f052f213be3b01c22976fbd4411e658e895829",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-22 13:35",
+   "time_raw": "2026年4月22日 13:35"
+  },
+  {
+   "seq": 228,
+   "idx": 1,
+   "file": "pan/228_1.jpg",
+   "sha256": "e60b5cc7ce02452cccfef08053c4a0c475ab327f29aaad4c9d7641f72d97830d",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-09 15:05",
+   "time_raw": "2026年04月09日 15时05分"
+  },
+  {
+   "seq": 229,
+   "idx": 1,
+   "file": "pan/229_1.png",
+   "sha256": "210779da0b643e3b7fd70f7d22d9bc77b3fb36d840f25e18517959b5a307b00a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-02 23:14",
+   "time_raw": "2026年3月2日(正月十四)23:14"
+  },
+  {
+   "seq": 230,
+   "idx": 1,
+   "file": "pan/230_1.jpeg",
+   "sha256": "717cd7818f79082d44c8fde844ba8e14b918aef55c802790586f93aa0cc51218",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-22 08:39",
+   "time_raw": "2026年04月22日(三月初六) 08:39"
+  },
+  {
+   "seq": 231,
+   "idx": 1,
+   "file": "pan/231_1.jpg",
+   "sha256": "88f313e6c1b64196cc7a14be136cb2a73884f27ad5d680cee97478ac10102961",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-03-07 20:50",
+   "time_raw": "2025年3月7日(二月初八)20:50"
+  },
+  {
+   "seq": 232,
+   "idx": 1,
+   "file": "pan/232_1.jpg",
+   "sha256": "6cba7bc2cd4170f1cbd03c16af7a226bdb6c0feebd7b81d0063c2edf8d5ebbfe",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-24 11:47",
+   "time_raw": "2026-04-24(三月初八) 11:47"
+  },
+  {
+   "seq": 233,
+   "idx": 1,
+   "file": "pan/233_1.jpg",
+   "sha256": "4039c0d086a63bd537fe6dac4cb388b7dde1cdfc06793fa73e15f020a8c2e49e",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-13 15:30",
+   "time_raw": "2026-04-13(二月廿六) 15:30"
+  },
+  {
+   "seq": 234,
+   "idx": 1,
+   "file": "pan/234_1.jpg",
+   "sha256": "156f43bf6e6f07537b48b1946011ba7a98857cf5a954fc5875864421f0be76ca",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-08 18:08",
+   "time_raw": "2026-04-08 18:08"
+  },
+  {
+   "seq": 235,
+   "idx": 1,
+   "file": "pan/235_1.jpg",
+   "sha256": "63d0b885215aaf3c38d3fe921d865ffb0ff2f8fed82f46a76dab33c8e26bb58f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-25 22:11",
+   "time_raw": "2026年04月25日 22时11分(三月初九)"
+  },
+  {
+   "seq": 236,
+   "idx": 1,
+   "file": "pan/236_1.jpeg",
+   "sha256": "4d3a3e63a9acc457f733c414f9a6aeed058229e20211432da02a429f0cfecb77",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-08-27 22:29",
+   "time_raw": "2025年08月27日(七月初五) 22:29"
+  },
+  {
+   "seq": 237,
+   "idx": 1,
+   "file": "pan/237_1.png",
+   "sha256": "6f630f18bc32cff9438aafd36e05d2eeec3616de2cab0123ebb38a3b5c0338ba",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "",
+   "time_raw": "2026/03/30(农二月十二)"
+  },
+  {
+   "seq": 238,
+   "idx": 1,
+   "file": "pan/238_1.jpg",
+   "sha256": "ae9ac5449e5264a995acf9529c411ea98a21689e04e2dffc411fec797a3a4c3a",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-03-30 11:47",
+   "time_raw": "2026年3月30日11时47分"
+  },
+  {
+   "seq": 239,
+   "idx": 1,
+   "file": "pan/239_1.jpg",
+   "sha256": "383aff508701d71c06ca3553b4f5276773bc9333b2904a015108a7aebd87ff7f",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-10 23:38",
+   "time_raw": "2026年04月10日 23时38分"
+  },
+  {
+   "seq": 240,
+   "idx": 1,
+   "file": "pan/240_1.png",
+   "sha256": "6fd84090dfe6dc54a716cc0f9d4edf994faf8b5e57d4690ee5f36a3a47bbce99",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2026-04-21 09:46",
+   "time_raw": "2026年4月21日(三月初五)09:46"
+  },
+  {
+   "seq": 241,
+   "idx": 1,
+   "file": "pan/241_1.jpg",
+   "sha256": "23b827dfdef20a4359eb41fe0c1f00184f36eac329ac2bf8b7f9ae97e4da22d8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-08-07 21:04",
+   "time_raw": "2025年8月7日(闰六月十四)21:04"
+  },
+  {
+   "seq": 242,
+   "idx": 1,
+   "file": "pan/242_1.jpg",
+   "sha256": "654c527d17274e34d1649e948b7834951b4e72a0fe063c1787c60c0905215bb8",
+   "sha256_origin": "computed_this_run",
+   "type": "课盘",
+   "time_norm": "2025-05-24 13:49",
+   "time_raw": "2025年5月24日(四月廿七)13:49"
+  }
+ ]
+}

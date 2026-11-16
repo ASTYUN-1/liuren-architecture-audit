@@ -1,0 +1,1394 @@
+{
+  "scope": "public artifacts and executed tool inputs; no private reasoning",
+  "timezone": "Asia/Shanghai",
+  "sessions": {
+    "ses_e4007fd43ffeFOBY1GnmZnM0rB": {
+      "agent": "liuren",
+      "model": {
+        "id": "deepseek-flash",
+        "providerID": "deepseek",
+        "variant": "high"
+      },
+      "created": "2026-11-09T19:01:04.316+08:00",
+      "updated": "2026-11-09T19:11:45.736+08:00",
+      "parts": [
+        {
+          "type": "text",
+          "created": "2026-11-09T19:01:04.502+08:00",
+          "updated": "2026-11-09T19:01:04.503+08:00",
+          "text": "97男问面试，能否通过面试入职\r\r\n1.面试是否通过？\r\n\r\n2.是什么工作？限二\r\n时间，2026年10月9日8:15"
+        },
+        {
+          "type": "tool",
+          "tool": "skill",
+          "status": "completed",
+          "created": "2026-11-09T19:01:19.550+08:00",
+          "updated": "2026-11-09T19:01:19.556+08:00",
+          "input": {
+            "name": "daliuren"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_tool_help",
+          "status": "completed",
+          "created": "2026-11-09T19:01:23.930+08:00",
+          "updated": "2026-11-09T19:01:23.961+08:00",
+          "input": {
+            "topic": "workflow",
+            "domains": [
+              "recruitment"
+            ]
+          },
+          "health": {
+            "release": "20261109-deepseek-child-38",
+            "execution_health": {
+              "schema": "liuren-loaded-implementation-v1",
+              "ready": true,
+              "release": "20261109-deepseek-child-38",
+              "loaded": {
+                ".opencode/plugins/liuren-adjudication.ts": "6f1c29b0ea3ba63d1fa753593ca05134ced9b8c7caf15ea64887a828b042a4df",
+                "tools/liuren-flow-control.mjs": "d4540bc4f83e28beb6968d747c754e509f7f765e41bc8e523fc6022ebe90e312",
+                "tools/liuren-core-handoff.mjs": "b9ca63948b5602385155d8946085090fccb2c71c811ded2f03bbb3f9d41ef5f1"
+              },
+              "mismatches": []
+            },
+            "features": {
+              "core_handoff": true,
+              "on_demand_sources": true,
+              "full_page_batch": 4,
+              "method_module_assembly": true,
+              "exact_source_aliases": true,
+              "calculation_receipts": true,
+              "archive_metadata_passthrough": true,
+              "provider_default_output_budget": false,
+              "explicit_output_budget": true,
+              "requested_max_output_tokens": 393216,
+              "bounded_same_session_recovery": true,
+              "pending_task_discovery": true,
+              "loaded_implementation_check": true
+            }
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_chart",
+          "status": "completed",
+          "created": "2026-11-09T19:01:23.941+08:00",
+          "updated": "2026-11-09T19:01:24.594+08:00",
+          "input": {
+            "mode": "datetime",
+            "datetime": "2026-10-09T08:15",
+            "timezone": "Asia/Shanghai",
+            "time_basis": "civil",
+            "participants": [
+              {
+                "sex": "男",
+                "birth_year": 1997
+              }
+            ]
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:01:28.069+08:00",
+          "updated": "2026-11-09T19:01:28.152+08:00",
+          "input": {
+            "action": "method",
+            "module": "judgment-core"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:01:28.074+08:00",
+          "updated": "2026-11-09T19:01:28.294+08:00",
+          "input": {
+            "action": "method",
+            "module": "adjudication"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:01:28.130+08:00",
+          "updated": "2026-11-09T19:01:28.431+08:00",
+          "input": {
+            "action": "method",
+            "module": "recruitment"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_compute",
+          "status": "completed",
+          "created": "2026-11-09T19:02:45.047+08:00",
+          "updated": "2026-11-09T19:02:45.918+08:00",
+          "input": {
+            "action": "life",
+            "archive": {
+              "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261109-190124-起课-5be19893-25b9-4b7d-bf34-106f123ed6d8.corrected-a9d3984e1f17d451.json",
+              "sha256": "9ff6d0e17cae36ed4b621fa375c013cb35d89ea23f166306fd3a4eb876f42fe9",
+              "raw_sha256": "c6fe39c4f13e01c66fe3be22e434696a3659986a956d1a6a0beb682767fe71b6"
+            },
+            "life": {
+              "age": 30,
+              "sex": "男",
+              "age_basis": "虚岁-已核",
+              "birth_pillar": "丁丑"
+            }
+          },
+          "result": {
+            "age": 30,
+            "sex": "男",
+            "age_basis": "虚岁-已核",
+            "xingnian": "乙未",
+            "upper": {
+              "di": "未",
+              "tian": "未",
+              "tianjiang": "太常",
+              "shensha": [
+                "迷惑煞",
+                "天车",
+                "三丘",
+                "管神",
+                "月刑",
+                "相负",
+                "丧魄",
+                "天诏",
+                "游魂",
+                "天解",
+                "寡宿",
+                "退神",
+                "关神"
+              ],
+              "nayin": "天上火",
+              "xungan": "己"
+            },
+            "direct_yin": "未",
+            "declared_birth_pillar": "丁丑",
+            "life_branch": "丑",
+            "life_upper": {
+              "di": "丑",
+              "tian": "丑",
+              "tianjiang": "朱雀",
+              "shensha": [
+                "岁煞",
+                "岁墓",
+                "枉屈",
+                "泰神",
+                "小煞",
+                "天鸡",
+                "火烛煞",
+                "日医",
+                "支破",
+                "金神",
+                "红沙",
+                "破碎",
+                "死神",
+                "退神"
+              ],
+              "nayin": "无纳音",
+              "xungan": "空"
+            },
+            "method": "references/nianming.md: 男一岁丙寅顺数，女一岁壬申逆数；输入年龄已核，不从出生年推测",
+            "limits": [
+              "Age declaration is not independently verified by arithmetic."
+            ]
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:02:46.016+08:00",
+          "updated": "2026-11-09T19:02:46.274+08:00",
+          "input": {
+            "action": "method",
+            "module": "nianming"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:03:20.051+08:00",
+          "updated": "2026-11-09T19:03:20.376+08:00",
+          "input": {
+            "action": "method",
+            "module": "structure"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:03:20.231+08:00",
+          "updated": "2026-11-09T19:03:20.503+08:00",
+          "input": {
+            "action": "method",
+            "module": "void"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:03:24.916+08:00",
+          "updated": "2026-11-09T19:03:25.244+08:00",
+          "input": {
+            "action": "method",
+            "module": "keti-quanbiao"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_packet",
+          "status": "completed",
+          "created": "2026-11-09T19:04:57.914+08:00",
+          "updated": "2026-11-09T19:05:13.784+08:00",
+          "input": {
+            "packet_keys": [
+              "schema",
+              "request_id",
+              "questions",
+              "chart",
+              "facts",
+              "entities",
+              "observations",
+              "method_materials",
+              "focus_issues",
+              "unknowns"
+            ]
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "task",
+          "status": "completed",
+          "created": "2026-11-09T19:05:17.760+08:00",
+          "updated": "2026-11-09T19:10:43.642+08:00",
+          "input": {
+            "description": "大六壬独立裁决",
+            "subagent_type": "liuren-adjudicator",
+            "prompt": "LIUREN_ADJUDICATION_FILE_V1\nC:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.json\n2fbd0a04932987579f561e3b494bfd10c17b01f7b8dc4fd0bcd90375bb8b6110"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "task_result",
+          "status": "completed",
+          "created": "2026-11-09T19:10:47.546+08:00",
+          "updated": "2026-11-09T19:10:47.625+08:00",
+          "input": {
+            "task_id": "ses_e40041ce9ffe2MOyH46R9WP7b9"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_materials",
+          "status": "completed",
+          "created": "2026-11-09T19:10:51.459+08:00",
+          "updated": "2026-11-09T19:10:51.689+08:00",
+          "input": {
+            "action": "method",
+            "module": "report"
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_result",
+          "status": "completed",
+          "created": "2026-11-09T19:10:55.878+08:00",
+          "updated": "2026-11-09T19:10:55.886+08:00",
+          "input": {
+            "action": "deliver",
+            "task_id": "ses_e40041ce9ffe2MOyH46R9WP7b9"
+          }
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:11:25.544+08:00",
+          "updated": "2026-11-09T19:11:44.426+08:00",
+          "text": "# 97男面试占（2026-10-09 08:15，丙午年 戊戌月 丙辰日 壬辰时）\n\n## 一、占问、阶段与取用\n\n原问两项：①面试是否通过；②是什么工作，限二。阶段为面试后、结果未出；成功标准是明确通过／未通过／条件性通过，并把“面试通过”和“最终入职”分开。未给面试具体日期，观察边界取占后近期通知。\n\n取用（保留主智能体候选主体，作四处纠正）：\n\n- **人**：日干丙（寄宫巳，干上神巳、干阴巳）；**单位**：日支辰（上神辰乘青龙）。\n- **职位**：禄巳（《理法》LF709“应聘以禄为第一类神”，参河魁、天空、从魁、太阴）。巳为日禄S13、日德S12、成神S06、旬丁S05，初传，临日干上神。\n- **面试／文书／合同**：父母寅（末传，六合、日驿马S03、文星S25）。\n- **待遇**：妻财申（中传，玄武）。**录用方／上司**：官鬼亥（乘贵人，不入传；子为官鬼乘腾蛇而旬空）。\n- 年命：本命丁丑（丑宫乘朱雀，旬空、坐空）；行年乙未（未宫乘太常、季关神S33），按1997年生、2026年虚岁30取；若改用周岁29则行年为甲午，未宫与关神的判读须改，但年命只作次级参考，不改主结论。\n\n**纠正1（重要）**：丙日伏吟，干上神恒为巳（丙寄巳），且伏吟刚日无克取干上神为“自任”，故“禄临干上、禄发用”是盘式必然，不是偶然出现的吉征，不能额外加分；其吉凶须由所乘天空与三传五行定性。主智能体O_lu的事实成立，证据力应下调。  \n**纠正2**：官鬼亥乘贵人不入传，仍是录用方主类神，不能因不入传而略去。  \n**纠正3**：三传递克是巳克申、申克寅的内部递克；三传对日干实为巳比和、申受丙克（我克财）、寅生丙，**无一克干**。“三传递克”之名成立，但不能读成“克我”。  \n**纠正4**：励德课未在所查课体表明列定义，不作决定依据；斩关本义“利出行远游潜藏阴私”，只借其“传见寅卯子未乘吉将则天地独通”一条作通关之象，非应聘专法。\n\n**月令口径**：戌为季月、月建土，取“土旺四季”季土表；原盘四季表分数并列保留作敏感性。两表下禄巳皆非旺（休／囚）、财申皆旺相、父寅皆死／囚，主要方向不因换表改变。以下分数是研究指标，不是概率。\n\n## 二、盘面关键事实\n\n伏吟课：天地盘同位（十二宫天盘支＝地盘支），四课皆伏吟；三传巳→申→寅。月将辰，月建戌，旬甲寅，空亡子丑，昼贵亥顺行。\n\n| 地盘 | 天盘 | 天将 | 六亲 | 状态与关键神煞 |\n|---|---|---|---|---|\n| 子 | 子 | 腾蛇 | 官鬼 | 旬空、坐空；天医、日进神 |\n| 丑 | 丑 | 朱雀 | 子孙 | 旬空、坐空；日破碎、月死神、日退神 |\n| 寅 | 寅 | 六合 | 父母 | 旬仪、文星、日驿马、月死气；末传 |\n| 卯 | 卯 | 勾陈 | 父母 | 季丧车 |\n| 辰 | 辰 | 青龙 | 子孙 | 月破S15、神与地自刑、将克神；季天喜、吊客；月将；三、四课 |\n| 巳 | 巳 | 天空 | 兄弟 | 旬丁、成神、日德、日禄；岁病符、月血忌；初传、一、二课 |\n| 午 | 午 | 白虎 | 兄弟 | 太岁、阳刃、羊刃、地医、日进神 |\n| 未 | 未 | 太常 | 子孙 | 季寡宿、季关神S33、日退神；行年 |\n| 申 | 申 | 玄武 | 妻财 | 月生气、月血光、丧门；中传 |\n| 酉 | 酉 | 太阴 | 妻财 | 帘幕贵人、支德、日桃花、月血支 |\n| 戌 | 戌 | 天后 | 子孙 | 天马 |\n| 亥 | 亥 | 贵人 | 官鬼 | 旬奇、旬癸闭口、岁小耗、岁干死符、季孤辰；自刑、将克神 |\n\n三传：初传丁巳（兄弟·天空·临巳）→中传庚申（妻财·玄武·临申）→末传甲寅（父母·六合·临寅）。\n\n## 三、关键作用逐项核查\n\n### 1. 禄巳（职位）——成事主星\n- 位置与通路：巳临巳（本家），与日干丙比和；干上神即禄，发用。不落旬空、不坐空。\n- 气态：单宫季土4.675（偏弱至中等），得末传父母寅生后补算5.210（较强）。巳火在戌月休／囚，属失令，但自身临官、日德日禄加成，不弱到不能用。\n- 所乘天空：天空为土将，巳火生之（神生将），是禄气泄向虚将、而非被绊住（不属U03“临生临合自贪其荣”的停用情形，此处是泄气）。天空主虚、名实未符、信息不实。\n- 结论：职位本身是**实位**（禄不空、补算有力、与我比和），但对外呈现的名目／承诺／信息有虚，须核实。不能因天空二字直接断“无位”，也不能把禄临干当成高把握吉兆。\n\n### 2. 父母寅（面试／文书）——结果生身而受冲\n- 末传寅乘六合吉将（将神比和），带文星S25、旬仪S27，为日驿马，生丙。单宫3.837，补算3.569（因生禄生干自耗），偏弱至中等。\n- 受制：中传申冲寅、申克寅；寅又与初传巳相刑相害；寅与官鬼亥六合而兼六破。结果有生我之意（面试结果对我有利），但力弱、被冲、合中带破，表现为程序反复：补材料、复核、改期、加一轮。\n- 六合主文书合意，非破格；冲不等于断，按U05/E19，冲可动可散、可破合，此处主要破“合”的稳定性，不是取消结果。\n\n### 3. 财申（待遇）——旺而暗，冲文书\n- 中传申临官，单宫6.05（季土）／7.15（四季），较强；乘玄武（金生水，神生将，泄），带月生气。财有实质、有分量可谈；玄武主暗昧，待遇信息不透明、可能有未明说的部分。\n- 与日干：丙克申，我克财，方向是“我能争取待遇”；但火失令、金得旺，按E17“死火克不动旺金”，我之议价力受限，易被对方条件主导。\n- 与父母：申冲寅、申刑寅，待遇与合同文书相冲。这是通过后的一关，不是面试环节的否决。\n- 巳申六合兼六破、相刑：禄与财挂钩，但合中带破，薪资与岗位匹配易反复。\n\n### 4. 单位辰——青龙月将 vs 月破自刑\n- 辰临辰乘青龙，辰为月将，青龙主文书财帛喜庆：单位正规、有一定规模或名目。\n- 但辰逢月破（月建戌冲）、神与地自刑、青龙木克辰土（将克神）：单位内部有调整、破损、自乱，或岗位编制／招聘计划正在变动。辰对丙为子孙，子孙主解厄、技艺、服务，且子孙旺克亥官鬼，提示录用拍板并非单一上司可定，内部有制衡。\n\n### 5. 官鬼亥（录用方）——贵人不入传\n- 亥临亥乘贵人，不空；但自刑、贵人土克亥水（将克神），不入三传。可解为：录用方是正式权威、有赏识之意，但拍板者不在面试现场或决策有内部掣肘；贵人自刑，上层意见不统一。\n- 子官鬼乘腾蛇而旬空：另一条职位／口头线索为空、不实，不能作为希望所在（若同时有多个机会，宜以本盘辰、巳这条为主线）。\n\n### 6. 年命\n- 本命丑旬空坐空（朱雀将生丑土，生而落空）：本人在此事上的“缘／力”偏虚、信息不落底；丑与初传巳有巳酉丑半三合之形，但三合数值未计，且丑空，只记关系、不作主证。\n- 行年未乘太常、季关神S33（秋关未）：有一道关卡；未又冲本命丑，有冲动、冲关之意。关神不自动等于不能动：此处关不临干，课为斩关、三传有丁马与驿马，属“阻而可通”，效应是迟缓和需主动推进，不是否定。\n- 日上神巳生命上丑、年上未，是我之禄气流向年命，也可读作“职位之利归我”，但丑空则生虚，故只算弱助。\n\n### 7. 结构：伏吟、斩关、元胎、三刑\n- 伏吟：静守、迟滞、守旧待新；见丁马则动。初传巳带旬丁，末传寅为日驿马，两马俱见，故非死滞，是“迟而能动”。\n- 斩关：魁罡（辰）加日辰，且传见寅乘六合吉将，合“天地独通”一条，有通关之象；但本义利出行潜藏，用于面试只是借象。\n- 元胎：三传皆孟（巳申寅），事未发、暗中酝酿，与结果未出、后续仍有发展相应。\n- 寅巳申三刑完整，加初克中、中克末的递克：主过程纠缠、多方意见不一、评审摩擦（毕法“三传递克众人欺／攻讦”）。关键限定：三传对日干无一克，且末传回生初传、末传生干，故递克是**内部与过程**，不是结果被否；且伏吟三传本就由刑递推，刑是取传方式，不能单独作必败依据（U01）。\n\n## 四、取用后补算（程序数值，直接采信）\n\n| 对象 | 单宫（季土） | 补入关系 | 补算 | 分档 |\n|---|---|---|---|---|\n| 禄巳 | 4.675 | 末传父母寅生巳 +0.535 | 5.210 | 较强 |\n| 父母寅 | 3.837 | 生禄自耗 −0.268 | 3.569 | 偏弱至中等 |\n| 日干丙 | 5.168 | 末传寅生丙 +0.535 | 5.703 | 较强 |\n\n说明：补算只计已取用且经原法确认的跨宫生克；申冲寅、巳申刑破、神煞与事件条件未量化，仍由原法另判，不以分数覆盖。季土表为“土旺四季”口径，四季表并列分数方向一致。\n\n## 五、最强反证\n\n**最强反证：禄乘天空。** 它直接作用在职位主类神上，可读作“职位虚而不实／名实不符／口头承诺不兑现”，叠加本命旬空、行年关神、单位月破自刑，会指向“面试通过而岗位落空，或录用后变卦”。\n\n何以不足以推翻“面试通过”：\n1. 禄本身不落旬空、不坐空，天空是天将而非旬空，二者须分开；\n2. 禄由末传父母生扶，补算5.210（较强），非虚而无力；\n3. 三传对日干无一克，末传生干、干上比和，结果层不伤我；\n4. 斩关“传见寅乘吉将”通关，丁马＋驿马俱见，非死局。\n\n故天空的效力落在**兑现环节**（岗位名实、用工形式、承诺内容）与**入职**，不足以推翻面试结果本身；但若现实已知该岗为外包／派遣／储备／编制待定，此反证即升级，“通过”的实质价值须重估。\n\n**次强反证：三刑＋递克。** 会被读成“评审多方反对、竞争激烈”。限定在于三传内部递克且末回生，不克日干；应解为过程摩擦、轮次往返，不是结果被否。  \n**再次：单位辰月破自刑。** 影响岗位稳定与入职时间，不是面试评分。  \n**年命：本命空、行年关。** 提示自身信息不落底、有关卡需主动推进；关而可通，单凭此不改结论。\n\n## 六、逐问答案\n\n### Q1 面试是否通过\n\n**主判：通过（偏成），但属经反复、带条件的通过，不是一次定局的顺利通过。**\n- 直接成事依据：禄临干上发用且不空、补算较强；末传父母六合带文星生干，日干补算5.703较强；斩关合“天地独通”；伏吟见丁马则动。三传对干无克。\n- 形式预期：本轮／初面偏向通过，之后可能进入下一轮，或需补材料、复核岗位名实、改期确认；被直接否定的证据不足。通知偏慢（伏吟），且可能经一次折返。\n- **面试通过 ≠ 最终入职**：待遇与合同是主要关口（申财冲寅父母、玄武暗昧、火失令难克旺金，议价力偏弱）；单位月破自刑，岗位可能调整、延后或换负责人。入职可成，但宜按“条件谈成才落定”理解，宜书面明确薪资结构、用工形式、入职时间、岗位职责。\n- 条件分支：若已知岗位属外包／派遣／储备／编制待定，或单位正在裁撤该岗，则天空＋月破效应升级，可转为“流程性通过而实位难落实”；此时仍不是面试被拒，而是兑现落空。\n- 迟速：伏吟主迟，丁马主能动，消息不会太快，但会来；原问未要求应期，不定具体日期。\n\n### Q2 是什么工作（限二）\n\n取象以禄（第一类神）为主，参父母、财及从魁太阴；按切题程度排序：\n\n**第一候选：文书／行政／合同资料类（含教育培训、文化、人事行政、秘书助理）**\n依据：禄巳乘天空发用临干，巳火主文书文明，天空主文书与空间；末传父母寅乘六合、带文星S25、旬仪S27，主文书合同成合；单位辰对丙为子孙、乘青龙，带技艺服务文书之气，与此类相合。\n\n**第二候选：金融／财务／贸易／物流运输类（含采购、销售、外勤往来、中介）**\n依据：中传财申乘玄武，申金旺相、临官，主金融金属与流通；从魁酉乘太阴、极旺且为帘幕贵人，主金融财务审核；末传寅为日驿马，主往来外勤。\n\n**排序说明**：禄为应聘第一类神且临干发用，其取象优先；酉、申金虽旺，属参类与待遇类，故列次。两线并非互斥，若岗位同时涉文书与金融（如金融机构的合同、合规、行政），可合一。  \n**精度限制**：三传类神分散（禄／财／父母各主一面），只能到“工作性质／行业方向”一层，无法再细到具体岗位名称；单位提示为正规但内部有调整，可能是新设、扩编或正在变动的部门。\n\n## 七、条件、缺口与来源\n\n- 未提供招聘单位、岗位名称、行业、面试日期与轮次、是否已有口头承诺或offer，故取象与“兑现”判断只能到方向层；若补入这些信息，天空与单位月破的效力须重估。\n- 行年按虚岁30取乙未；若按周岁29则行年甲午，年命部分须改，但只影响次级参考，不改主结论。\n- 未检索案例库、经验库；未以现实反馈回填。\n- 来源：本任务程序盘（liuren-ai-chart-v1，chart_sha256 a5ca7dc3…）；runtime/liuren/20261109-deepseek-child-38/references/keti-quanbiao.md（伏吟“见丁马则动”、斩关“魁罡加日辰／传见寅卯子未乘吉将则天地独通”、元胎＝三传皆孟）；methods/structure.md（三传递克、坐墓等结构边界）；references/nianming.md（年命引动、行年顺数）；domains/recruitment.md（应聘以禄为第一类神、限二取象、分阶段收束）；judgment-core U01—U11及E01／E03／E17条件摘要；liuren_compute strength 两次补算回执。\n- 本报告按U11只就本问裁关键作用与结果；未发现影响本问的同条件互斥矛盾，故不登记新矛盾。"
+        }
+      ],
+      "tool_counts": {
+        "skill": 1,
+        "liuren_tool_help": 1,
+        "liuren_chart": 1,
+        "liuren_materials": 8,
+        "liuren_compute": 1,
+        "liuren_adjudication_packet": 1,
+        "task": 1,
+        "task_result": 1,
+        "liuren_adjudication_result": 1
+      }
+    },
+    "ses_e40041ce9ffe2MOyH46R9WP7b9": {
+      "agent": "liuren-adjudicator",
+      "model": {
+        "id": "deepseek-flash",
+        "providerID": "deepseek",
+        "variant": "high"
+      },
+      "created": "2026-11-09T19:05:18.360+08:00",
+      "updated": "2026-11-09T19:10:43.615+08:00",
+      "parts": [
+        {
+          "type": "text",
+          "created": "2026-11-09T19:05:18.382+08:00",
+          "updated": "2026-11-09T19:05:18.382+08:00",
+          "text": "LIUREN_ADJUDICATION_FILE_V1\nC:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.json\n2fbd0a04932987579f561e3b494bfd10c17b01f7b8dc4fd0bcd90375bb8b6110"
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:05:21.505+08:00",
+          "updated": "2026-11-09T19:05:21.529+08:00",
+          "text": "我先读取本次裁决任务的核心材料。"
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_read",
+          "status": "completed",
+          "created": "2026-11-09T19:05:21.507+08:00",
+          "updated": "2026-11-09T19:05:21.530+08:00",
+          "input": {
+            "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.json",
+            "sha256": "2fbd0a04932987579f561e3b494bfd10c17b01f7b8dc4fd0bcd90375bb8b6110",
+            "page": 1,
+            "page_count": 4
+          }
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:07:02.640+08:00",
+          "updated": "2026-11-09T19:07:04.962+08:00",
+          "text": "核心材料已完整读取。接着核对有几个决定性条件：伏吟见丁马、斩关的构成、三传递克，以及年命；为此定点查原文。"
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_read",
+          "status": "completed",
+          "created": "2026-11-09T19:07:03.007+08:00",
+          "updated": "2026-11-09T19:07:03.695+08:00",
+          "input": {
+            "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.json",
+            "sha256": "2fbd0a04932987579f561e3b494bfd10c17b01f7b8dc4fd0bcd90375bb8b6110",
+            "material_id": "M_keti-quanbiao",
+            "page": 1,
+            "page_count": 4
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_read",
+          "status": "completed",
+          "created": "2026-11-09T19:07:03.701+08:00",
+          "updated": "2026-11-09T19:07:04.281+08:00",
+          "input": {
+            "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.json",
+            "sha256": "2fbd0a04932987579f561e3b494bfd10c17b01f7b8dc4fd0bcd90375bb8b6110",
+            "material_id": "M_structure",
+            "page": 1,
+            "page_count": 3
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_read",
+          "status": "completed",
+          "created": "2026-11-09T19:07:04.321+08:00",
+          "updated": "2026-11-09T19:07:04.965+08:00",
+          "input": {
+            "file_path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.json",
+            "sha256": "2fbd0a04932987579f561e3b494bfd10c17b01f7b8dc4fd0bcd90375bb8b6110",
+            "material_id": "M_nianming",
+            "page": 1,
+            "page_count": 3
+          }
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:07:28.953+08:00",
+          "updated": "2026-11-09T19:07:33.190+08:00",
+          "text": "原文已确认：伏吟课“见丁马则动”；斩关课在“传见寅卯子未乘吉将”时，有“天地独通”之象（末传寅乘六合正合此条）；三传递克主“众人欺”或“攻讦”。现在需要对取用后的跨宫作用做一次补算：末传父母寅生初传禄巳、生干，中传申克末寅。"
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_compute",
+          "status": "completed",
+          "created": "2026-11-09T19:07:29.851+08:00",
+          "updated": "2026-11-09T19:07:31.769+08:00",
+          "input": {
+            "action": "strength",
+            "strength": {
+              "mode": "selected_relations",
+              "season_profile": "quarter-earth",
+              "season_basis": "戌月为季月，月建戌土，依土旺四季取季土表；原盘四季表分数并列保留作敏感性，两表下禄巳均非旺（休/囚）、财申均旺相、父寅均死囚，主要方向不因换表改变。",
+              "actors": [
+                {
+                  "id": "T:巳",
+                  "role": "禄、职位（应聘第一类神），丙禄在巳，初传且临日干上神",
+                  "basis": "理法LF709应聘以禄为第一类神；巳为日禄S13、日德S12、成神S06、旬丁S05，乘天空，单宫季土4.675"
+                },
+                {
+                  "id": "T:寅",
+                  "role": "父母、文书面试合同，末传，乘六合，日驿马，生丙",
+                  "basis": "父母爻取文书考试面试合同；末传寅，单宫季土3.837，六合吉将，日驿马S03"
+                }
+              ],
+              "links": [
+                {
+                  "source": "T:寅",
+                  "target": "T:巳",
+                  "basis": "末传父母寅生初传禄巳，三传内直接回生关系，使递克不完全单向到底"
+                }
+              ]
+            }
+          },
+          "result": {
+            "schema": "liuren-selected-strength-v1",
+            "model": "liuren-palace-strength-v1",
+            "base_model": "liuren-strength-research-v05-direct",
+            "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+            "selected_policy": {
+              "id": "liuren-selected-relations-v1",
+              "route_gate": 0.75,
+              "local_balance": "frozen",
+              "source_loss": "baseline-direct-greedy-and-binding",
+              "groups": false
+            },
+            "chart_sha256": "a5ca7dc35e3bc1340a1270aa4be4cd0d670e5fa115159d5624e8a943252dd65a",
+            "scope": "selected_relations",
+            "season_profile": "quarter-earth",
+            "season_basis": "戌月为季月，月建戌土，依土旺四季取季土表；原盘四季表分数并列保留作敏感性，两表下禄巳均非旺（休/囚）、财申均旺相、父寅均死囚，主要方向不因换表改变。",
+            "actors": [
+              {
+                "id": "T:巳",
+                "role": "禄、职位（应聘第一类神），丙禄在巳，初传且临日干上神",
+                "basis": "理法LF709应聘以禄为第一类神；巳为日禄S13、日德S12、成神S06、旬丁S05，乘天空，单宫季土4.675",
+                "single_palace": 4.675,
+                "single_palace_level": "偏弱至中等，可发挥作用",
+                "adjusted": 5.210395,
+                "delta": 0.535395,
+                "level": "较强"
+              },
+              {
+                "id": "T:寅",
+                "role": "父母、文书面试合同，末传，乘六合，日驿马，生丙",
+                "basis": "父母爻取文书考试面试合同；末传寅，单宫季土3.837，六合吉将，日驿马S03",
+                "single_palace": 3.837,
+                "single_palace_level": "偏弱至中等，可发挥作用",
+                "adjusted": 3.569302,
+                "delta": -0.267698,
+                "level": "偏弱至中等，可发挥作用"
+              }
+            ],
+            "applied_relations": [
+              {
+                "source": "T:寅",
+                "target": "T:巳",
+                "basis": "末传父母寅生初传禄巳，三传内直接回生关系，使递克不完全单向到底",
+                "type": "生",
+                "gate": 0.75,
+                "tau": 1,
+                "received": 0.535395,
+                "source_cost": 0.267698
+              }
+            ],
+            "already_local_or_blocked": [],
+            "interpretation": "分数描述力量；弱仍可作用，0不等于整件事绝对不成。取用与关系适用性由AI依原法判断；未选关系及合局数值未补入。",
+            "receipt_sha256": "4e6f1dbb81158136a2d5de8ea8829cb619c5ca5f2f7cd7466fa0cc55a737590d",
+            "convergence": {
+              "residual": 5.581375361884966e-10,
+              "spread": 1.6640377964449726e-09
+            }
+          }
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_compute",
+          "status": "error",
+          "created": "2026-11-09T19:07:31.774+08:00",
+          "updated": "2026-11-09T19:07:33.206+08:00",
+          "input": {
+            "action": "strength",
+            "strength": {
+              "mode": "selected_relations",
+              "season_profile": "quarter-earth",
+              "season_basis": "戌月季土表，土旺；日干丙火在季土表为休、在四季表为囚，两表皆失令，取季土以与其余对象同表比较。",
+              "actors": [
+                {
+                  "id": "S:丙",
+                  "role": "问者本人日干，1997男应聘者",
+                  "basis": "干为人；丙寄宫巳，干上神巳与干比和，干阴巳比和，单宫季土5.168"
+                }
+              ],
+              "links": [
+                {
+                  "source": "T:寅",
+                  "target": "S:丙",
+                  "basis": "末传父母寅生丙，文书面试结果生身；寅受中传申冲克，生力减损须并列"
+                }
+              ]
+            }
+          },
+          "error": "LIUREN_STRENGTH_ARGUMENTS: links双方须先取用并明确作用依据；不能自指"
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:07:41.055+08:00",
+          "updated": "2026-11-09T19:07:43.028+08:00",
+          "text": "第一次补算已经给出关键数值：禄巳经末传父母寅生扶后为5.210（较强），但寅因生禄和自身被冲自耗，降至3.569。第二次补算失败，是因为links两端的对象都必须先取用并列入actors；补入父母寅后重算。"
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_compute",
+          "status": "completed",
+          "created": "2026-11-09T19:07:41.730+08:00",
+          "updated": "2026-11-09T19:07:43.048+08:00",
+          "input": {
+            "action": "strength",
+            "strength": {
+              "actors": [
+                {
+                  "basis": "干为人；丙寄宫巳，干上神巳与干比和，单宫季土5.168",
+                  "id": "S:丙",
+                  "role": "问者本人日干，1997男应聘者"
+                },
+                {
+                  "basis": "末传父母寅，乘六合吉将，日驿马，单宫季土3.837；受中传申冲克",
+                  "id": "T:寅",
+                  "role": "父母、文书面试合同，生丙之源"
+                }
+              ],
+              "links": [
+                {
+                  "basis": "末传父母寅生丙，文书面试结果生身；寅同时受中传申冲克，生力有限",
+                  "source": "T:寅",
+                  "target": "S:丙"
+                }
+              ],
+              "mode": "selected_relations",
+              "season_basis": "戌月季土表，土旺；日干丙火在季土表为休、四季表为囚，两表皆失令，取季土与其余对象同表比较。",
+              "season_profile": "quarter-earth"
+            }
+          },
+          "result": {
+            "schema": "liuren-selected-strength-v1",
+            "model": "liuren-palace-strength-v1",
+            "base_model": "liuren-strength-research-v05-direct",
+            "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+            "selected_policy": {
+              "id": "liuren-selected-relations-v1",
+              "route_gate": 0.75,
+              "local_balance": "frozen",
+              "source_loss": "baseline-direct-greedy-and-binding",
+              "groups": false
+            },
+            "chart_sha256": "a5ca7dc35e3bc1340a1270aa4be4cd0d670e5fa115159d5624e8a943252dd65a",
+            "scope": "selected_relations",
+            "season_profile": "quarter-earth",
+            "season_basis": "戌月季土表，土旺；日干丙火在季土表为休、四季表为囚，两表皆失令，取季土与其余对象同表比较。",
+            "actors": [
+              {
+                "id": "S:丙",
+                "role": "问者本人日干，1997男应聘者",
+                "basis": "干为人；丙寄宫巳，干上神巳与干比和，单宫季土5.168",
+                "single_palace": 5.168,
+                "single_palace_level": "较强",
+                "adjusted": 5.703395,
+                "delta": 0.535395,
+                "level": "较强"
+              },
+              {
+                "id": "T:寅",
+                "role": "父母、文书面试合同，生丙之源",
+                "basis": "末传父母寅，乘六合吉将，日驿马，单宫季土3.837；受中传申冲克",
+                "single_palace": 3.837,
+                "single_palace_level": "偏弱至中等，可发挥作用",
+                "adjusted": 3.569302,
+                "delta": -0.267698,
+                "level": "偏弱至中等，可发挥作用"
+              }
+            ],
+            "applied_relations": [
+              {
+                "source": "T:寅",
+                "target": "S:丙",
+                "basis": "末传父母寅生丙，文书面试结果生身；寅同时受中传申冲克，生力有限",
+                "type": "生",
+                "gate": 0.75,
+                "tau": 1,
+                "received": 0.535395,
+                "source_cost": 0.267698
+              }
+            ],
+            "already_local_or_blocked": [],
+            "interpretation": "分数描述力量；弱仍可作用，0不等于整件事绝对不成。取用与关系适用性由AI依原法判断；未选关系及合局数值未补入。",
+            "receipt_sha256": "e904f65dd8a6acdb148cc42bc980312a30b6a3498141a49692561b418e2715ac",
+            "convergence": {
+              "residual": 8.771214865532784e-10,
+              "spread": 1.6640377964449726e-09
+            }
+          }
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:10:05.123+08:00",
+          "updated": "2026-11-09T19:10:36.966+08:00",
+          "text": "关键条件与补算都已完成，现在提交完整裁决正文。"
+        },
+        {
+          "type": "tool",
+          "tool": "liuren_adjudication_submit",
+          "status": "completed",
+          "created": "2026-11-09T19:10:05.321+08:00",
+          "updated": "2026-11-09T19:10:36.974+08:00",
+          "input": {
+            "result_excerpt": "# 97男面试占（2026-10-09 08:15，丙午年 戊戌月 丙辰日 壬辰时）独立裁决\n\n## 一、占问、阶段与取用\n\n原问两项：①面试是否通过；②是什么工作，限二。阶段为面试后、结果未出；成功标准是明确通过／未通过／条件性通过，并把“面试通过”和“最终入职”分开。未给面试具体日期，观察边界取占后近期通知。\n\n取用（保留主智能体候选主体，作四处纠正）：\n\n- **人**：日干丙（寄宫巳，干上神巳、干阴巳）；**单位**：日支辰（上神辰乘青龙）。\n- **职位**：禄巳（《理法》LF709“应聘以禄为第一类神”，参河魁、天空、从魁、太阴）。巳为日禄S13、日德S12、成神S06、旬丁S05，初传，临日干上神。\n- **面试／文书／合同**：父母寅（末传，六合、日驿马S03、文星S25）。\n- **待遇**：妻财申（中传，玄武）。**录用方／上司**：官鬼亥（乘贵人，不入传；子为官鬼乘腾蛇而旬空）。\n- 年命：本命丁丑（丑宫乘朱雀，旬空、坐空）；行年乙未（未宫乘太常、季关神S33），按1997年生、2026年虚岁30取；若改用周岁29则行年为甲午，未宫与关神的判读须改，但年命只作次级"
+          }
+        },
+        {
+          "type": "text",
+          "created": "2026-11-09T19:10:42.240+08:00",
+          "updated": "2026-11-09T19:10:42.244+08:00",
+          "text": "已保存：`ses_e40041ce9ffe2MOyH46R9WP7b9`（已完成；报告已按原样写入 task_result，只做了传输校验，未对专业内容做校验）。"
+        }
+      ],
+      "tool_counts": {
+        "liuren_adjudication_read": 4,
+        "liuren_compute": 3,
+        "liuren_adjudication_submit": 1
+      }
+    }
+  },
+  "packets": {
+    "dual_deepseek": {
+      "questions": [
+        {
+          "id": "Q_interview",
+          "text": "面试是否通过？",
+          "subject": "1997年男应聘者本次面试能否通过",
+          "domain": "recruitment",
+          "stage": "面试环节，结果尚未出来（占时2026-10-09 08:15）",
+          "deadline": "未给面试具体日期；以占后近期的面试结果通知为观察边界",
+          "success_criteria": "明确回答通过、未通过或条件性通过，并区分面试通过与最终入职",
+          "alternatives": [
+            "通过",
+            "未通过",
+            "条件性通过（补面、补材料、延期或转岗）"
+          ],
+          "tasks": [
+            "outcome"
+          ],
+          "task_basis": [
+            {
+              "task": "outcome",
+              "origin": "user_requested",
+              "request_quote": "面试是否通过？",
+              "reason": "原问直接询问面试结果，未要求应期或数量"
+            }
+          ]
+        },
+        {
+          "id": "Q_job",
+          "text": "是什么工作？限二",
+          "subject": "该应聘岗位的工作性质或行业方向，最多两项",
+          "domain": "recruitment",
+          "stage": "岗位信息未明，面试前后均需识别",
+          "deadline": "同占后近期；不要求应期",
+          "success_criteria": "给出不超过两项的工作性质或行业方向候选，并说明取象依据和排序",
+          "alternatives": [
+            "文书、行政、教育、合同类",
+            "金融、贸易、物流、交通、外勤类"
+          ],
+          "tasks": [
+            "outcome"
+          ],
+          "task_basis": [
+            {
+              "task": "outcome",
+              "origin": "user_requested",
+              "request_quote": "是什么工作？限二",
+              "reason": "原问要求识别工作性质并限两项，属于取象判断，不是应期或数量任务"
+            }
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "F_asker",
+          "text": "问者为1997年出生男性，自述“97男”。",
+          "source": "用户原问"
+        },
+        {
+          "id": "F_time",
+          "text": "问事时间2026年10月9日8:15（北京时间），由用户给出并用于起课。",
+          "source": "用户原问"
+        },
+        {
+          "id": "F_questions",
+          "text": "原问两项：1.面试是否通过；2.是什么工作，限二项。",
+          "source": "用户原问"
+        },
+        {
+          "id": "F_missing",
+          "text": "未提供招聘单位、岗位名称、行业、面试日期、面试轮次，也未说明是否已有口头承诺或offer。",
+          "source": "用户原问未提供"
+        }
+      ],
+      "entities": [
+        {
+          "id": "S_asker",
+          "question_ids": [
+            "Q_interview",
+            "Q_job"
+          ],
+          "referent": "问者本人（1997年男，应聘者）",
+          "branch": "丙",
+          "mapping_basis": "北海常法干为人：日干丙为应聘者本人；丙寄宫巳，日干上神巳为其临身位。",
+          "position": "丙:寄宫巳;寄宫上神巳"
+        },
+        {
+          "id": "S_unit",
+          "question_ids": [
+            "Q_interview",
+            "Q_job"
+          ],
+          "referent": "招聘单位/岗位所在单位",
+          "branch": "辰",
+          "mapping_basis": "支为单位：日支辰；伏吟上神辰乘青龙，辰为月将，又逢月破、自刑。",
+          "position": "辰:天盘临辰乘青龙;地盘本宫上辰乘青龙"
+        },
+        {
+          "id": "S_lu",
+          "question_ids": [
+            "Q_interview",
+            "Q_job"
+          ],
+          "referent": "职位/俸禄（禄）",
+          "branch": "巳",
+          "mapping_basis": "应聘以禄为第一类神（理法LF709）：丙禄在巳；初传巳为日禄、日德、成神、旬丁，乘天空，临日干上神。",
+          "position": "巳:天盘临巳乘天空;地盘本宫上巳乘天空"
+        },
+        {
+          "id": "S_cai",
+          "question_ids": [
+            "Q_interview",
+            "Q_job"
+          ],
+          "referent": "薪资、待遇及现实条件（财）",
+          "branch": "申",
+          "mapping_basis": "中传申为妻财，乘玄武；财爻取薪资、待遇及现实条件。",
+          "position": "申:天盘临申乘玄武;地盘本宫上申乘玄武"
+        },
+        {
+          "id": "S_fumu",
+          "question_ids": [
+            "Q_interview",
+            "Q_job"
+          ],
+          "referent": "面试、文书、考试、合同（父母）",
+          "branch": "寅",
+          "mapping_basis": "父母爻取文书、考试、面试、合同；末传寅为父母，乘六合，为日驿马，生丙。",
+          "position": "寅:天盘临寅乘六合;地盘本宫上寅乘六合"
+        },
+        {
+          "id": "S_guangui",
+          "question_ids": [
+            "Q_interview",
+            "Q_job"
+          ],
+          "referent": "工作权威、上司、录用方（官鬼）",
+          "branch": "亥",
+          "mapping_basis": "官鬼取工作权威、上司、录用方；亥为官鬼乘贵人临亥，子为官鬼乘腾蛇旬空，均不入三传。",
+          "position": "亥:天盘临亥乘贵人;地盘本宫上亥乘贵人"
+        },
+        {
+          "id": "S_benming",
+          "question_ids": [
+            "Q_interview"
+          ],
+          "referent": "本命（丁丑）",
+          "branch": "丑",
+          "mapping_basis": "1997年为丁丑年，本命支丑；丑宫上神丑乘朱雀，旬空、坐空。",
+          "position": "丑:天盘临丑乘朱雀;地盘本宫上丑乘朱雀"
+        },
+        {
+          "id": "S_xingnian",
+          "question_ids": [
+            "Q_interview"
+          ],
+          "referent": "行年（乙未，2026年虚岁30）",
+          "branch": "未",
+          "mapping_basis": "男一岁丙寅顺数，2026年虚岁30为乙未；程序life已核；未宫上神未乘太常、季关神S33。",
+          "position": "未:天盘临未乘太常;地盘本宫上未乘太常"
+        }
+      ],
+      "observations": [
+        {
+          "id": "O_struct",
+          "entity_ids": [
+            "S_asker",
+            "S_lu"
+          ],
+          "kind": "structure",
+          "statement": "伏吟课天地盘同位、四课皆伏吟；三传巳申寅由初传所刑递推，构成寅巳申三刑。伏吟主静守、迟滞、待新，见丁马则动，初传巳带旬丁。斩关课传见末传寅乘六合吉将，原表有“天地独通”之象。元胎课三传皆孟，主事未发、暗中酝酿。",
+          "reference": "chart_types=伏吟/斩关/元胎/励德；keti-quanbiao伏吟、斩关条；transmissions巳申寅",
+          "source": "程序盘+keti-quanbiao",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_lu",
+          "entity_ids": [
+            "S_lu",
+            "S_asker"
+          ],
+          "kind": "relation",
+          "statement": "初传巳为丙日禄（S13）、日德S12、成神S06、旬丁S05，临日干上神发用；巳不落旬空、不坐空，单宫旺衰3.3（偏弱至中等）。",
+          "reference": "transmissions[0]；D_B5；lessons[0]",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_tiankong",
+          "entity_ids": [
+            "S_lu"
+          ],
+          "kind": "shenjiang",
+          "statement": "初传禄巳乘天空。天空为天将，不是旬空字段；主虚、空、信息不实或名实未符，须与禄自身不落旬空分开。",
+          "reference": "transmissions[0].tianjiang=天空；D_B5",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_cai",
+          "entity_ids": [
+            "S_cai"
+          ],
+          "kind": "relation",
+          "statement": "中传申为妻财、乘玄武、临申，单宫7.15较强；申与初传巳六合、六破、相刑，与末传寅六冲、相刑。",
+          "reference": "transmissions[1]；active_relations",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_fumu",
+          "entity_ids": [
+            "S_fumu"
+          ],
+          "kind": "relation",
+          "statement": "末传寅为父母、乘六合、为日驿马，生丙，单宫2.558偏弱；寅与巳相刑相害，被申冲。",
+          "reference": "transmissions[2]；D_B2；active_relations",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_unit",
+          "entity_ids": [
+            "S_unit"
+          ],
+          "kind": "shenjiang",
+          "statement": "日支辰为单位：上神辰乘青龙，辰为月将；但辰逢月破S15、神与地自刑，青龙木克辰土（将克神、将克地）。单位有正规吉象，也带破损、变动、自刑之象。",
+          "reference": "D_B4；lessons[2,3]；S15月破",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_void",
+          "entity_ids": [
+            "S_guangui",
+            "S_benming"
+          ],
+          "kind": "void",
+          "statement": "旬空子丑：子为官鬼、乘腾蛇而空；丑为本命位、乘朱雀而空（旬空、坐空）。禄巳、财申、父母寅、官鬼亥均不落旬空。",
+          "reference": "void_branches=[子,丑]；D_B0、D_B1、D_B11",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_nianming",
+          "entity_ids": [
+            "S_xingnian",
+            "S_benming"
+          ],
+          "kind": "shensha",
+          "statement": "行年乙未临未宫，乘太常、季关神S33；本命丁丑临丑宫，乘朱雀、旬空坐空。",
+          "reference": "liuren_compute life；D_B1、D_B7；S33关神",
+          "source": "程序盘+life",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_guangui",
+          "entity_ids": [
+            "S_guangui"
+          ],
+          "kind": "shenjiang",
+          "statement": "官鬼不上三传：亥为官鬼乘贵人、临亥，单宫6.227较强；子为官鬼乘腾蛇而旬空。",
+          "reference": "D_B11；D_B0；transmissions",
+          "source": "程序盘",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_dike",
+          "entity_ids": [
+            "S_lu",
+            "S_cai",
+            "S_fumu"
+          ],
+          "kind": "structure",
+          "statement": "三传六亲为兄弟→妻财→父母：初传巳克中传申，中传申克末传寅，成三传递克；末传寅又生初传巳。",
+          "reference": "transmissions六亲及active_relations；structure毕法三传递克条",
+          "source": "程序盘+structure",
+          "verification": "method_interpretation"
+        }
+      ],
+      "focus_issues": [
+        {
+          "id": "I_pass",
+          "question_ids": [
+            "Q_interview"
+          ],
+          "entity_ids": [
+            "S_asker",
+            "S_lu",
+            "S_unit"
+          ],
+          "observation_ids": [
+            "O_struct",
+            "O_lu",
+            "O_dike",
+            "O_fumu",
+            "O_unit"
+          ],
+          "question": "禄临干发用、末传父母六合生干，偏向成事；但三传成寅巳申三刑并递克、伏吟主静滞、禄乘天空、日支辰月破自刑。面试究竟是可通过、条件性通过，还是最终不通过？"
+        },
+        {
+          "id": "I_tiankong",
+          "question_ids": [
+            "Q_interview"
+          ],
+          "entity_ids": [
+            "S_lu"
+          ],
+          "observation_ids": [
+            "O_lu",
+            "O_tiankong"
+          ],
+          "question": "天空乘禄应解为职位临身但名实待核、信息未实，还是“空禄”虚而不实、口头承诺难兑现？"
+        },
+        {
+          "id": "I_nianming",
+          "question_ids": [
+            "Q_interview"
+          ],
+          "entity_ids": [
+            "S_benming",
+            "S_xingnian"
+          ],
+          "observation_ids": [
+            "O_void",
+            "O_nianming"
+          ],
+          "question": "本命丑旬空坐空、行年未乘关神，与课传生合年命之间如何权衡？是否足以改变录用结论？"
+        },
+        {
+          "id": "I_offer",
+          "question_ids": [
+            "Q_interview"
+          ],
+          "entity_ids": [
+            "S_cai",
+            "S_fumu"
+          ],
+          "observation_ids": [
+            "O_cai",
+            "O_fumu"
+          ],
+          "question": "中传财申冲末传父母寅、玄武乘财：是薪资或条件谈不拢而阻碍合同与入职，还是仅待遇信息不透明、不影响面试通过？"
+        },
+        {
+          "id": "I_job",
+          "question_ids": [
+            "Q_job"
+          ],
+          "entity_ids": [
+            "S_lu",
+            "S_cai",
+            "S_fumu"
+          ],
+          "observation_ids": [
+            "O_lu",
+            "O_tiankong",
+            "O_cai",
+            "O_fumu"
+          ],
+          "question": "工作性质在禄巳天空、财申玄武、父母寅六合（驿马）三路取象之间，应取哪两项并如何排序？"
+        }
+      ],
+      "unknowns": [
+        "面试的具体日期、招聘单位、岗位名称和行业未提供。",
+        "面试轮次、是否还有笔试/复试/体检/背调，以及是否已有口头承诺或offer未提供。",
+        "出生月日未提供；行年按1997年生、2026年虚岁30计为乙未，若年龄口径不同需复核。"
+      ],
+      "material_ids": [
+        "M_judgment-core",
+        "M_adjudication",
+        "M_recruitment",
+        "M_nianming",
+        "M_structure",
+        "M_void",
+        "M_keti-quanbiao",
+        "M_EVENT_POSITIONING"
+      ]
+    },
+    "deepseek_sol": {
+      "questions": [
+        {
+          "id": "Q_mianshi",
+          "text": "面试是否通过，能否入职？",
+          "subject": "1997年出生男性，2026年10月9日8:15（北京时间）起占，问应聘面试能否通过并入职",
+          "domain": "recruitment",
+          "stage": "面试及录用阶段，面试结果待定；未提供单位、岗位、轮次及是否已面",
+          "deadline": "未明确",
+          "success_criteria": "通过面试并获得录用、入职机会",
+          "alternatives": [
+            "面试通过但录用/入职延迟或岗位条件变动",
+            "面试未通过"
+          ],
+          "tasks": [
+            "outcome"
+          ],
+          "task_basis": [
+            {
+              "task": "outcome",
+              "origin": "user_requested",
+              "request_quote": "1.面试是否通过？",
+              "reason": "原问直接问面试是否通过及能否入职，属结果判断；未要求具体应期。"
+            }
+          ]
+        },
+        {
+          "id": "Q_worktype",
+          "text": "是什么工作？限二",
+          "subject": "同一占，问所应聘工作的类型或行业方向，要求最多两个答案",
+          "domain": "recruitment",
+          "stage": "应聘面试阶段，工作内容与行业未知",
+          "deadline": "未明确",
+          "success_criteria": "给出不超过两个有盘面依据的工作方向",
+          "alternatives": [
+            "文职文书/行政类",
+            "财务金融/金属精密类",
+            "其他更贴合盘象的方向"
+          ],
+          "tasks": [
+            "outcome"
+          ],
+          "task_basis": [
+            {
+              "task": "outcome",
+              "origin": "user_requested",
+              "request_quote": "2.是什么工作？限二",
+              "reason": "原问要求判断工作性质/行业方向并限两个，属取象判断。"
+            }
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "F_asker",
+          "text": "来问者自述为1997年出生男性（“97男”），于2026年10月9日8:15（北京时间）起占，问应聘面试能否通过入职及工作类型。",
+          "source": "用户原问与给定时间"
+        },
+        {
+          "id": "F_missing",
+          "text": "未提供招聘单位名称、岗位名称或行业、面试轮次、面试具体日期、是否已面试、是否已有口头承诺或offer、入职期限及薪资条件；这些现实条件不猜补。",
+          "source": "用户原问（信息缺口）"
+        },
+        {
+          "id": "F_nianming",
+          "text": "仅知“97男”，未给出生月日。程序按出生年1997登记本命丁丑、行年乙未，participants显示age=29，且year_life_verified=false；年命、行年未经核对，只能作条件性资料。",
+          "source": "liuren_chart participants 与 year_life_verified 字段；用户原问"
+        }
+      ],
+      "entities": [
+        {
+          "id": "S_qiuzhi",
+          "question_ids": [
+            "Q_mianshi"
+          ],
+          "referent": "求职者本人",
+          "branch": "丙",
+          "mapping_basis": "recruitment LR26-TXY-C07：干为人、支为单位；日干丙代表来问的求职者本人。",
+          "position": "丙:寄宫巳;寄宫上神巳"
+        },
+        {
+          "id": "S_lu",
+          "question_ids": [
+            "Q_mianshi",
+            "Q_worktype"
+          ],
+          "referent": "职位与俸禄（应聘第一类神）",
+          "branch": "巳",
+          "mapping_basis": "LF1381—1438、LF705—713：应聘以禄神为第一类神；丙禄在巳，巳临日干上神并发初传。",
+          "position": "巳:天盘临巳乘天空;地盘本宫上巳乘天空"
+        },
+        {
+          "id": "S_danwei",
+          "question_ids": [
+            "Q_mianshi",
+            "Q_worktype"
+          ],
+          "referent": "招聘单位/岗位所在方",
+          "branch": "辰",
+          "mapping_basis": "recruitment LR26-TXY-C07：支为单位；日支辰临辰乘青龙，辰又为月将。",
+          "position": "辰:天盘临辰乘青龙;地盘本宫上辰乘青龙"
+        },
+        {
+          "id": "S_wenshu",
+          "question_ids": [
+            "Q_mianshi"
+          ],
+          "referent": "录用文书与最终归宿",
+          "branch": "寅",
+          "mapping_basis": "末传父母寅木乘六合生干；父母主文书、单位来源，末传为归计。",
+          "position": "寅:天盘临寅乘六合;地盘本宫上寅乘六合"
+        },
+        {
+          "id": "S_nianming",
+          "question_ids": [
+            "Q_mianshi"
+          ],
+          "referent": "本命（条件性，未核验）",
+          "branch": "丑",
+          "mapping_basis": "程序按1997丁丑年登记本命支丑；year_life_verified=false，仅作条件性观察。",
+          "position": "丑:天盘临丑乘朱雀;地盘本宫上丑乘朱雀"
+        },
+        {
+          "id": "S_xingnian",
+          "question_ids": [
+            "Q_mianshi"
+          ],
+          "referent": "行年（条件性，未核验）",
+          "branch": "未",
+          "mapping_basis": "程序登记行年乙未；未核验，仅作条件性观察。",
+          "position": "未:天盘临未乘太常;地盘本宫上未乘太常"
+        }
+      ],
+      "observations": [
+        {
+          "id": "O_lu",
+          "entity_ids": [
+            "S_lu",
+            "S_qiuzhi"
+          ],
+          "kind": "relation",
+          "statement": "禄神巳临日干上神并发初传，乘天空，旬空子丑而巳不空；戌月火囚但临巳为临官得地，单宫季土4.675，按明确取用关系补算为4.349（偏弱至中等，可发挥作用）。既有“类神现、旺相不空事可成”的成事基础，又有天空主虚诞、会议、合同、文书之象。",
+          "reference": "程序盘D_B5/S_lu；lf1381-1438、lf724-929类神与天空；liuren_compute strength receipt 0ac95db7…",
+          "source": "liuren_chart + liuren_compute(strength)",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_danwei",
+          "entity_ids": [
+            "S_danwei"
+          ],
+          "kind": "structure",
+          "statement": "日支辰临辰，乘青龙且为月将，同时带月破、自刑、吊客、小耗；单宫季土3.967，补算4.836（偏弱至中等）。单位既有正规、文职、财帛文书的青龙吉象，又有月破自刑的破缺与内部变动之象，两象并存。",
+          "reference": "程序盘D_B4；structure、shenjiang-use；liuren_compute strength receipt 0ac95db7…",
+          "source": "liuren_chart + liuren_compute(strength)",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_sanju",
+          "entity_ids": [
+            "S_lu",
+            "S_wenshu",
+            "S_danwei"
+          ],
+          "kind": "structure",
+          "statement": "三传巳—申—寅循环相刑（巳刑申、申刑寅、寅刑巳），且为伏吟课；初传禄乘天空，末传父母寅乘六合生干，中传妻财申乘玄武。三刑主过程压制、反复、先好后坏；末传生干又示终局有文书生扶，先难后易与反复并存。",
+          "reference": "程序盘三传；LF724—929“刑合如巳刑申…终见乖淫”、LF4271—4328初凶末吉先难后易；structure",
+          "source": "liuren_chart + 理法简易",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_fuyin",
+          "entity_ids": [
+            "S_qiuzhi",
+            "S_danwei"
+          ],
+          "kind": "movement",
+          "statement": "课体伏吟，天地盘同位，主静滞、迁延、事多原地反复；程序并列斩关、元胎、励德，末传寅为日驿马，伏吟马动主出入在近或出而便归，元胎主孕育渐成。整体为动而不速、先伏后动。",
+          "reference": "程序chart_types；TY4074—4187“伏吟马动，主出入在近或出而便归”；LF4961—4996斩关主动；movement",
+          "source": "liuren_chart + 天一群笔记/理法简易",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_ganzhi",
+          "entity_ids": [
+            "S_qiuzhi",
+            "S_danwei",
+            "S_wenshu"
+          ],
+          "kind": "relation",
+          "statement": "日干丙生辰土，干上禄神巳亦生辰，均属我方向单位投入、我求彼；支辰不生干，末传寅木生丙火。此为我方付出争取与终得文书生身并存，单位一方不直接生我。",
+          "reference": "程序active_relations；liuren_compute strength receipt 0ac95db7…",
+          "source": "liuren_chart + liuren_compute(strength)",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_void",
+          "entity_ids": [
+            "S_lu",
+            "S_nianming"
+          ],
+          "kind": "void",
+          "statement": "旬空子丑：四课三传的禄神巳、财申、父母寅均不空；空亡落在子、丑及本命丑（坐空乘朱雀）。职位主类不空，但本命支空且乘朱雀，表达、文书或底气层面有虚象，需按U08结合旺衰与作用判断，不能由“空必败”或“旺必不空”直接结案。",
+          "reference": "程序void_branches与D_B1；void模块；U08",
+          "source": "liuren_chart + void",
+          "verification": "method_interpretation"
+        },
+        {
+          "id": "O_nianming",
+          "entity_ids": [
+            "S_nianming",
+            "S_xingnian"
+          ],
+          "kind": "special_method",
+          "statement": "本命丑旬空坐空乘朱雀；行年未临未乘太常，未为季关神，并带寡宿、日退神。太常有印绶文书之象，季关神主阻隔；但年命、行年均未经核验，且用户未给生日，不能作为已核主证。",
+          "reference": "程序participants与D_B1/D_B7；36版S33季关神；nianming",
+          "source": "liuren_chart",
+          "verification": "unverified"
+        },
+        {
+          "id": "O_worktype",
+          "entity_ids": [
+            "S_lu",
+            "S_danwei",
+            "S_wenshu"
+          ],
+          "kind": "shenjiang",
+          "statement": "工作取象候选并存：①禄神巳乘天空，天空主会议、合同、文书、上书通启，巳为太乙主文书火类，支上青龙主文职、财帛、书吏；②从魁酉乘太阴主金刃、金银、阴私、财务，中传妻财申乘玄武主信息、财、暗昧，青龙亦主财帛；③河魁戌乘天后主印绶、闭藏、管理，辰为天罡可类公检法外勤；④末传寅乘六合带文星，主文教、合作、文书。多象并存，需按应聘禄神为主、参看河魁天空从魁太阴的次序裁定。",
+          "reference": "LF1381—1438应聘与天将类象；LF5801—5869指掌类象；recruitment C08与C15",
+          "source": "理法简易 + recruitment",
+          "verification": "method_interpretation"
+        }
+      ],
+      "focus_issues": [
+        {
+          "id": "I_pass",
+          "question_ids": [
+            "Q_mianshi"
+          ],
+          "entity_ids": [
+            "S_lu",
+            "S_danwei",
+            "S_wenshu"
+          ],
+          "observation_ids": [
+            "O_lu",
+            "O_danwei",
+            "O_sanju",
+            "O_fuyin"
+          ],
+          "question": "面试能否通过：禄神现而不空、末传父母六合生身构成成事基础，但禄乘天空、支辰月破自刑、三传全刑、伏吟静滞构成反证；何者决定面试结果，需说明是面试通过、待定还是未通过及条件。"
+        },
+        {
+          "id": "I_worktype",
+          "question_ids": [
+            "Q_worktype"
+          ],
+          "entity_ids": [
+            "S_lu",
+            "S_danwei",
+            "S_wenshu"
+          ],
+          "observation_ids": [
+            "O_worktype"
+          ],
+          "question": "工作类型限二：应按禄神巳乘天空与青龙取文书文职/行政会议类，还是按从魁酉太阴、申财玄武取财务金融/金属精密类，或按河魁戌天后取管理/公检法类？需给出两个最贴合方向及取舍理由。"
+        },
+        {
+          "id": "I_nianming",
+          "question_ids": [
+            "Q_mianshi"
+          ],
+          "entity_ids": [
+            "S_nianming",
+            "S_xingnian"
+          ],
+          "observation_ids": [
+            "O_nianming",
+            "O_void"
+          ],
+          "question": "本命丑旬空坐空乘朱雀、行年未临关神，是否可作为判断条件；在year_life_verified=false且无生日时，应按已核资料不用年命，还是仅作条件性参考？"
+        }
+      ],
+      "unknowns": [
+        "招聘单位名称、岗位名称或行业、面试轮次、面试具体日期、是否已面试均未知。",
+        "是否已有口头承诺、offer、入职期限及薪资条件未知。",
+        "出生月日未提供，仅知“97男”；本命丁丑、行年乙未由出生年推得且year_life_verified=false，未核验。",
+        "起占时用户只给“2026年10月9日8:15”，按北京时间民用时起盘。"
+      ],
+      "material_ids": [
+        "M_judgment-core",
+        "M_adjudication",
+        "M_recruitment",
+        "M_structure",
+        "M_shenjiang-use",
+        "M_void",
+        "M_movement",
+        "B_LF_1381_1438",
+        "B_LF_724_929",
+        "B_LF_2887_2954",
+        "B_LF_4271_4328",
+        "B_LF_4961_4996",
+        "B_LF_5801_5869",
+        "B_TY_455_466",
+        "B_TY_4074_4187",
+        "B_TY_2904_2927",
+        "B_TY_5373_5401",
+        "M_EVENT_POSITIONING"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261109-liuren-interview-97m-01-9785dfd2-565d-4d71-b707-b5ec75f96b9f.archive.json",
+      "sha256": "0584dab42400e3513f97f0635422c727f393d2074b8006a8107d9a5fbad3ce5b"
+    },
+    {
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-adjudication-requests\\20261009-liuren-interview-01-36dfa86a-b875-4360-aeed-3ab66981d54f.archive.json",
+      "sha256": "da735d4b5e22441ce69c00a30f2552ad5c22013b86abbd8ec63a738b024883e1"
+    },
+    {
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\liuren-flow-state\\ses_e4007fd43ffeFOBY1GnmZnM0rB--ses_e40041ce9ffe2MOyH46R9WP7b9--83c476cb-9a88-45a5-aad2-1c1ff70bf6b0.json",
+      "sha256": "dff2fc2678f16447362b95901aa7460623f357655614710e680bd6e038f7617c"
+    }
+  ],
+  "verified": {
+    "both_models_deepseek_flash_high": true,
+    "successful_strength_calls": 2,
+    "selected_links": [
+      {
+        "source": "T:寅",
+        "target": "T:巳",
+        "basis": "末传父母寅生初传禄巳，三传内直接回生关系，使递克不完全单向到底"
+      },
+      {
+        "basis": "末传父母寅生丙，文书面试结果生身；寅同时受中传申冲克，生力有限",
+        "source": "T:寅",
+        "target": "S:丙"
+      }
+    ],
+    "shen_to_yin_not_in_numeric_calculation": true,
+    "re_adjudication_count": 0
+  }
+}

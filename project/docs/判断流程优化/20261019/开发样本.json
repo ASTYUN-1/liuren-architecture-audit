@@ -1,0 +1,50 @@
+{
+  "schema": "method-development-sources-v1",
+  "excluded_from_independent_evaluation": [
+    "raw-qqwb20261019-0002",
+    "raw-qqwb20261019-0009",
+    "raw-qqwb20261019-0011",
+    "raw-qqwb20261019-0017",
+    "raw-qqwb20261019-0026",
+    "raw-qqwb20261019-0029",
+    "raw-qqwb20261019-0034",
+    "raw-qqwb20261019-0037",
+    "raw-qqwb20261019-0072",
+    "raw-qqwb20261019-0074",
+    "raw-qqwb20261019-0112",
+    "raw-qqwb20261019-0124",
+    "raw-qqwb20261019-0131",
+    "raw-qqwb20261019-0150",
+    "raw-qqwb20261019-0173",
+    "raw-qqwb20261019-0188",
+    "raw-qqwb20261019-0193",
+    "raw-qqwb20261019-0200",
+    "raw-qqwb20261019-0217",
+    "raw-qqwb20261019-0235"
+  ],
+  "observed_method_sources": [
+    "raw-qqwb20261019-0002",
+    "raw-qqwb20261019-0009",
+    "raw-qqwb20261019-0026",
+    "raw-qqwb20261019-0072",
+    "raw-qqwb20261019-0074",
+    "raw-qqwb20261019-0017",
+    "raw-qqwb20261019-0112",
+    "raw-qqwb20261019-0124",
+    "raw-qqwb20261019-0150",
+    "raw-qqwb20261019-0188",
+    "raw-qqwb20261019-0193",
+    "raw-qqwb20261019-0200",
+    "raw-qqwb20261019-0217",
+    "raw-qqwb20261019-0235",
+    "raw-qqwb20261019-0029",
+    "raw-qqwb20261019-0037"
+  ],
+  "exposed_but_not_adopted_sources": [
+    "raw-qqwb20261019-0034",
+    "raw-qqwb20261019-0011",
+    "raw-qqwb20261019-0131",
+    "raw-qqwb20261019-0173"
+  ],
+  "reason": "本轮方法开发已读取作答；相关转引也不能算独立测试。此清单不自动更改批处理队列。"
+}

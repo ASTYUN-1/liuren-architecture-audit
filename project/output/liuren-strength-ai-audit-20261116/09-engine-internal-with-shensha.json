@@ -1,0 +1,3970 @@
+{
+  "schema": "liuren-strength-research-v05",
+  "model": "liuren-strength-research-v05-direct",
+  "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+  "chart_sha256": "7d66000abf600017b015d922dd86a706e4244be70ef96bc45d933b0a540877c9",
+  "context": {
+    "seasonProfile": "quarter-earth",
+    "seasonBasis": "预先固定采用辰未戌丑整月土旺条件表，只作工程演示",
+    "phase": "outcome",
+    "month": "戌",
+    "voidMode": "included",
+    "goal": {
+      "id": "day",
+      "target": "S:甲",
+      "mode": "external"
+    },
+    "effectRules": [],
+    "shenshaRules": [],
+    "groupModes": {},
+    "includeGroupEffects": false
+  },
+  "independent_strength_line": 2.5,
+  "original_void": [
+    "午",
+    "未"
+  ],
+  "evaluation_void": [
+    "午",
+    "未"
+  ],
+  "rows": [
+    {
+      "id": "T:子",
+      "symbol": "子",
+      "kind": "branch",
+      "ground": "辰",
+      "general": "腾蛇",
+      "direct_yin": "申",
+      "lessons": [
+        4
+      ],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "死",
+      "base": 2.06,
+      "access": 0.7281553398058253,
+      "refs": [
+        {
+          "place": "辰",
+          "state": "墓",
+          "weight": 0.7,
+          "body_ratio": 1,
+          "access": 0.6
+        },
+        {
+          "place": "申",
+          "state": "长生",
+          "weight": 0.3,
+          "body_ratio": 1.1,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 1.5,
+      "element": "水",
+      "strength": 1.0070307457087053,
+      "delta": -0.6770111097143772,
+      "formations": [
+        "内战"
+      ],
+      "action_index": null,
+      "partial_action_index": 0.6386998322828528,
+      "activation": 0.9,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.29528816936483127,
+      "goal_loss": 0.29528816936483127,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.9,
+        "favorable_tendency": 0.2,
+        "qualified_adverse_index": null
+      },
+      "pending": [
+        "S17",
+        "S26",
+        "S29"
+      ],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:腾蛇",
+      "symbol": "腾蛇",
+      "kind": "general",
+      "carrier": "子",
+      "ground": "辰",
+      "lessons": [
+        4
+      ],
+      "transmissions": [],
+      "season": "休",
+      "base": 3.2725,
+      "access": 1,
+      "refs": [
+        {
+          "place": "子",
+          "state": "胎",
+          "weight": 0.7,
+          "body_ratio": 0.65,
+          "access": 1
+        },
+        {
+          "place": "辰",
+          "state": "冠带",
+          "weight": 0.3,
+          "body_ratio": 1.05,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 3.2725,
+      "element": "火",
+      "strength": 3.1489215929977634,
+      "delta": -0.12357840656781267,
+      "formations": [],
+      "action_index": 2.834029433697987,
+      "partial_action_index": 2.834029433697987,
+      "activation": 0.9,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.45,
+        "favorable_tendency": 0.65,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:辰",
+      "symbol": "辰",
+      "kind": "ground",
+      "season": "旺",
+      "base": 6.5,
+      "access": 1,
+      "retention": 1,
+      "seed": 6.5,
+      "refs": [],
+      "element": "土",
+      "strength": 6.5,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:丑",
+      "symbol": "丑",
+      "kind": "branch",
+      "ground": "巳",
+      "general": "贵人",
+      "direct_yin": "酉",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "旺",
+      "base": 3.4774999999999996,
+      "access": 1,
+      "refs": [
+        {
+          "place": "巳",
+          "state": "绝",
+          "weight": 0.7,
+          "body_ratio": 0.4,
+          "access": 1
+        },
+        {
+          "place": "酉",
+          "state": "沐浴",
+          "weight": 0.3,
+          "body_ratio": 0.85,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 3.4774999999999996,
+      "element": "土",
+      "strength": 4.284976744186109,
+      "delta": 0.807476744186042,
+      "formations": [],
+      "action_index": 2.4135919261574568,
+      "partial_action_index": 2.4135919261574568,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.24897548800554936,
+      "goal_loss": 0.24897548800554936,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:贵人",
+      "symbol": "贵人",
+      "kind": "general",
+      "carrier": "丑",
+      "ground": "巳",
+      "lessons": [],
+      "transmissions": [],
+      "season": "旺",
+      "base": 4.6475,
+      "access": 1,
+      "refs": [
+        {
+          "place": "丑",
+          "state": "衰",
+          "weight": 0.7,
+          "body_ratio": 0.85,
+          "access": 1
+        },
+        {
+          "place": "巳",
+          "state": "绝",
+          "weight": 0.3,
+          "body_ratio": 0.4,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 4.6475,
+      "element": "土",
+      "strength": 4.856150000000261,
+      "delta": 0.20864999999999997,
+      "formations": [],
+      "action_index": 3.6421125000001955,
+      "partial_action_index": 3.6421125000001955,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:巳",
+      "symbol": "巳",
+      "kind": "ground",
+      "season": "休",
+      "base": 4.25,
+      "access": 1,
+      "retention": 1,
+      "seed": 4.25,
+      "refs": [],
+      "element": "火",
+      "strength": 4.25,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:寅",
+      "symbol": "寅",
+      "kind": "branch",
+      "ground": "午",
+      "general": "天后",
+      "direct_yin": "戌",
+      "lessons": [],
+      "transmissions": [
+        3
+      ],
+      "void_self": false,
+      "void_ground": true,
+      "season": "囚",
+      "base": 1.77,
+      "access": 1,
+      "refs": [
+        {
+          "place": "午",
+          "state": "死",
+          "weight": 0.7,
+          "body_ratio": 0.5,
+          "access": 1
+        },
+        {
+          "place": "戌",
+          "state": "养",
+          "weight": 0.3,
+          "body_ratio": 0.8,
+          "access": 1
+        }
+      ],
+      "retention": 0.7745966692414834,
+      "seed": 1.3710361045574257,
+      "element": "木",
+      "strength": 1.4339938650384454,
+      "delta": 0.0812781192843337,
+      "formations": [],
+      "action_index": null,
+      "partial_action_index": 1.7207926380461345,
+      "activation": 1.2,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.7,
+        "favorable_tendency": 0.4,
+        "qualified_adverse_index": null
+      },
+      "pending": [
+        "S12",
+        "S21"
+      ],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:天后",
+      "symbol": "天后",
+      "kind": "general",
+      "carrier": "寅",
+      "ground": "午",
+      "lessons": [],
+      "transmissions": [
+        3
+      ],
+      "season": "死",
+      "base": 1.3699999999999999,
+      "access": 1,
+      "refs": [
+        {
+          "place": "寅",
+          "state": "病",
+          "weight": 0.7,
+          "body_ratio": 0.7,
+          "access": 1
+        },
+        {
+          "place": "午",
+          "state": "胎",
+          "weight": 0.3,
+          "body_ratio": 0.65,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 1.3699999999999999,
+      "element": "水",
+      "strength": 1.2454545454546575,
+      "delta": -0.12454545454546576,
+      "formations": [],
+      "action_index": 1.494545454545589,
+      "partial_action_index": 1.494545454545589,
+      "activation": 1.2,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.9,
+        "favorable_tendency": 0.2,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:午",
+      "symbol": "午",
+      "kind": "ground",
+      "season": "休",
+      "base": 4.25,
+      "access": 1,
+      "retention": 1,
+      "seed": 4.25,
+      "refs": [],
+      "element": "火",
+      "strength": 4.25,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:卯",
+      "symbol": "卯",
+      "kind": "branch",
+      "ground": "未",
+      "general": "太阴",
+      "direct_yin": "亥",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": true,
+      "season": "囚",
+      "base": 3.09,
+      "access": 0.7281553398058253,
+      "refs": [
+        {
+          "place": "未",
+          "state": "墓",
+          "weight": 0.7,
+          "body_ratio": 1,
+          "access": 0.6
+        },
+        {
+          "place": "亥",
+          "state": "长生",
+          "weight": 0.3,
+          "body_ratio": 1.1,
+          "access": 1
+        }
+      ],
+      "retention": 0.7745966692414834,
+      "seed": 1.7428425057933377,
+      "element": "木",
+      "strength": 1.4582884010701156,
+      "delta": -0.5045046702203235,
+      "formations": [
+        "外战"
+      ],
+      "action_index": 1.0102794276791165,
+      "partial_action_index": 1.0102794276791165,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.07628749161207804,
+      "goal_loss": 0.07628749161207804,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.7,
+        "favorable_tendency": 0.4,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:太阴",
+      "symbol": "太阴",
+      "kind": "general",
+      "carrier": "卯",
+      "ground": "未",
+      "lessons": [],
+      "transmissions": [],
+      "season": "相",
+      "base": 4.235,
+      "access": 1,
+      "refs": [
+        {
+          "place": "卯",
+          "state": "胎",
+          "weight": 0.7,
+          "body_ratio": 0.65,
+          "access": 1
+        },
+        {
+          "place": "未",
+          "state": "冠带",
+          "weight": 0.3,
+          "body_ratio": 1.05,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 4.235,
+      "element": "金",
+      "strength": 4.107790130293336,
+      "delta": -0.1272098697113833,
+      "formations": [],
+      "action_index": 3.080842597720002,
+      "partial_action_index": 3.080842597720002,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.25,
+        "favorable_tendency": 0.9,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:未",
+      "symbol": "未",
+      "kind": "ground",
+      "season": "旺",
+      "base": 6.5,
+      "access": 1,
+      "retention": 1,
+      "seed": 6.5,
+      "refs": [],
+      "element": "土",
+      "strength": 6.5,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:辰",
+      "symbol": "辰",
+      "kind": "branch",
+      "ground": "申",
+      "general": "玄武",
+      "direct_yin": "子",
+      "lessons": [
+        3
+      ],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "旺",
+      "base": 7.4425,
+      "access": 1,
+      "refs": [
+        {
+          "place": "申",
+          "state": "长生",
+          "weight": 0.7,
+          "body_ratio": 1.1,
+          "access": 1
+        },
+        {
+          "place": "子",
+          "state": "帝旺",
+          "weight": 0.3,
+          "body_ratio": 1.25,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 7.4425,
+      "element": "土",
+      "strength": 6.406200987746616,
+      "delta": -1.0362990123584344,
+      "formations": [],
+      "action_index": null,
+      "partial_action_index": 5.765580888971955,
+      "activation": 0.9,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [
+        "自刑|T:辰",
+        "S08M",
+        "S11",
+        "S15",
+        "S32D"
+      ],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:玄武",
+      "symbol": "玄武",
+      "kind": "general",
+      "carrier": "辰",
+      "ground": "申",
+      "lessons": [
+        3
+      ],
+      "transmissions": [],
+      "season": "死",
+      "base": 2.06,
+      "access": 0.7281553398058253,
+      "refs": [
+        {
+          "place": "辰",
+          "state": "墓",
+          "weight": 0.7,
+          "body_ratio": 1,
+          "access": 0.6
+        },
+        {
+          "place": "申",
+          "state": "长生",
+          "weight": 0.3,
+          "body_ratio": 1.1,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 1.5,
+      "element": "水",
+      "strength": 0.6785367090573278,
+      "delta": -1.128142920609927,
+      "formations": [],
+      "action_index": 0.610683038151595,
+      "partial_action_index": 0.610683038151595,
+      "activation": 0.9,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.9,
+        "favorable_tendency": 0.2,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:申",
+      "symbol": "申",
+      "kind": "ground",
+      "season": "相",
+      "base": 5.5,
+      "access": 1,
+      "retention": 1,
+      "seed": 5.5,
+      "refs": [],
+      "element": "金",
+      "strength": 5.5,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:巳",
+      "symbol": "巳",
+      "kind": "branch",
+      "ground": "酉",
+      "general": "太常",
+      "direct_yin": "丑",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "休",
+      "base": 2.5075,
+      "access": 1,
+      "refs": [
+        {
+          "place": "酉",
+          "state": "死",
+          "weight": 0.7,
+          "body_ratio": 0.5,
+          "access": 1
+        },
+        {
+          "place": "丑",
+          "state": "养",
+          "weight": 0.3,
+          "body_ratio": 0.8,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 2.5075,
+      "element": "火",
+      "strength": 2.1000000000000005,
+      "delta": -0.40750000000000014,
+      "formations": [],
+      "action_index": 1.5750000000000004,
+      "partial_action_index": 1.5750000000000004,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.45,
+        "favorable_tendency": 0.65,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:太常",
+      "symbol": "太常",
+      "kind": "general",
+      "carrier": "巳",
+      "ground": "酉",
+      "lessons": [],
+      "transmissions": [],
+      "season": "旺",
+      "base": 3.4774999999999996,
+      "access": 1,
+      "refs": [
+        {
+          "place": "巳",
+          "state": "绝",
+          "weight": 0.7,
+          "body_ratio": 0.4,
+          "access": 1
+        },
+        {
+          "place": "酉",
+          "state": "沐浴",
+          "weight": 0.3,
+          "body_ratio": 0.85,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 3.4774999999999996,
+      "element": "土",
+      "strength": 3.8975000000074402,
+      "delta": 0.42000000000000015,
+      "formations": [],
+      "action_index": 2.92312500000558,
+      "partial_action_index": 2.92312500000558,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:酉",
+      "symbol": "酉",
+      "kind": "ground",
+      "season": "相",
+      "base": 5.5,
+      "access": 1,
+      "retention": 1,
+      "seed": 5.5,
+      "refs": [],
+      "element": "金",
+      "strength": 5.5,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:午",
+      "symbol": "午",
+      "kind": "branch",
+      "ground": "戌",
+      "general": "白虎",
+      "direct_yin": "寅",
+      "lessons": [
+        2
+      ],
+      "transmissions": [
+        2
+      ],
+      "void_self": true,
+      "void_ground": false,
+      "season": "休",
+      "base": 4.3775,
+      "access": 0.7281553398058253,
+      "refs": [
+        {
+          "place": "戌",
+          "state": "墓",
+          "weight": 0.7,
+          "body_ratio": 1,
+          "access": 0.6
+        },
+        {
+          "place": "寅",
+          "state": "长生",
+          "weight": 0.3,
+          "body_ratio": 1.1,
+          "access": 1
+        }
+      ],
+      "retention": 0.7,
+      "seed": 2.23125,
+      "element": "火",
+      "strength": 2.205970825285008,
+      "delta": -0.04959533325064959,
+      "formations": [],
+      "action_index": null,
+      "partial_action_index": 1.8800732309016273,
+      "activation": 1,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.1477343175385265,
+      "goal_loss": 0.1477343175385265,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.45,
+        "favorable_tendency": 0.65,
+        "qualified_adverse_index": null
+      },
+      "pending": [
+        "自刑|T:午",
+        "S18",
+        "S29"
+      ],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:白虎",
+      "symbol": "白虎",
+      "kind": "general",
+      "carrier": "午",
+      "ground": "戌",
+      "lessons": [
+        2
+      ],
+      "transmissions": [
+        2
+      ],
+      "season": "相",
+      "base": 4.675,
+      "access": 1,
+      "refs": [
+        {
+          "place": "午",
+          "state": "沐浴",
+          "weight": 0.7,
+          "body_ratio": 0.85,
+          "access": 1
+        },
+        {
+          "place": "戌",
+          "state": "衰",
+          "weight": 0.3,
+          "body_ratio": 0.85,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 4.675,
+      "element": "金",
+      "strength": 4.441350065391118,
+      "delta": -0.2336499345968932,
+      "formations": [],
+      "action_index": 4.441350065391118,
+      "partial_action_index": 4.441350065391118,
+      "activation": 1,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.25,
+        "favorable_tendency": 0.9,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:戌",
+      "symbol": "戌",
+      "kind": "ground",
+      "season": "旺",
+      "base": 6.5,
+      "access": 1,
+      "retention": 1,
+      "seed": 6.5,
+      "refs": [],
+      "element": "土",
+      "strength": 6.5,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:未",
+      "symbol": "未",
+      "kind": "branch",
+      "ground": "亥",
+      "general": "天空",
+      "direct_yin": "卯",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": true,
+      "void_ground": false,
+      "season": "旺",
+      "base": 6.2075,
+      "access": 1,
+      "refs": [
+        {
+          "place": "亥",
+          "state": "临官",
+          "weight": 0.7,
+          "body_ratio": 1.15,
+          "access": 1
+        },
+        {
+          "place": "卯",
+          "state": "死",
+          "weight": 0.3,
+          "body_ratio": 0.5,
+          "access": 1
+        }
+      ],
+      "retention": 0.85,
+      "seed": 5.276375,
+      "element": "土",
+      "strength": 5.362142387223482,
+      "delta": 0.10090280849872102,
+      "formations": [],
+      "action_index": 4.021606790417612,
+      "partial_action_index": 4.021606790417612,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:天空",
+      "symbol": "天空",
+      "kind": "general",
+      "carrier": "未",
+      "ground": "亥",
+      "lessons": [],
+      "transmissions": [],
+      "season": "旺",
+      "base": 5.882499999999999,
+      "access": 1,
+      "refs": [
+        {
+          "place": "未",
+          "state": "养",
+          "weight": 0.7,
+          "body_ratio": 0.8,
+          "access": 1
+        },
+        {
+          "place": "亥",
+          "state": "临官",
+          "weight": 0.3,
+          "body_ratio": 1.15,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 5.882499999999999,
+      "element": "土",
+      "strength": 6.199082499997754,
+      "delta": 0.3165825,
+      "formations": [],
+      "action_index": 4.6493118749983156,
+      "partial_action_index": 4.6493118749983156,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:亥",
+      "symbol": "亥",
+      "kind": "ground",
+      "season": "死",
+      "base": 2,
+      "access": 1,
+      "retention": 1,
+      "seed": 2,
+      "refs": [],
+      "element": "水",
+      "strength": 2,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:申",
+      "symbol": "申",
+      "kind": "branch",
+      "ground": "子",
+      "general": "青龙",
+      "direct_yin": "辰",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "相",
+      "base": 3.2449999999999997,
+      "access": 1,
+      "refs": [
+        {
+          "place": "子",
+          "state": "死",
+          "weight": 0.7,
+          "body_ratio": 0.5,
+          "access": 1
+        },
+        {
+          "place": "辰",
+          "state": "养",
+          "weight": 0.3,
+          "body_ratio": 0.8,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 3.2449999999999997,
+      "element": "金",
+      "strength": 3.7304909826462174,
+      "delta": 0.4854909826329399,
+      "formations": [],
+      "action_index": null,
+      "partial_action_index": 2.134792958739095,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.23699303258118487,
+      "goal_loss": 0.23699303258118487,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.25,
+        "favorable_tendency": 0.9,
+        "qualified_adverse_index": null
+      },
+      "pending": [
+        "S10",
+        "S30",
+        "S32"
+      ],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:青龙",
+      "symbol": "青龙",
+      "kind": "general",
+      "carrier": "申",
+      "ground": "子",
+      "lessons": [],
+      "transmissions": [],
+      "season": "囚",
+      "base": 1.6049999999999998,
+      "access": 1,
+      "refs": [
+        {
+          "place": "申",
+          "state": "绝",
+          "weight": 0.7,
+          "body_ratio": 0.4,
+          "access": 1
+        },
+        {
+          "place": "子",
+          "state": "沐浴",
+          "weight": 0.3,
+          "body_ratio": 0.85,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 1.6049999999999998,
+      "element": "木",
+      "strength": 0.9813085538534421,
+      "delta": -0.6236914462877624,
+      "formations": [],
+      "action_index": 0.7359814153900816,
+      "partial_action_index": 0.7359814153900816,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.7,
+        "favorable_tendency": 0.4,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:子",
+      "symbol": "子",
+      "kind": "ground",
+      "season": "死",
+      "base": 2,
+      "access": 1,
+      "retention": 1,
+      "seed": 2,
+      "refs": [],
+      "element": "水",
+      "strength": 2,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:酉",
+      "symbol": "酉",
+      "kind": "branch",
+      "ground": "丑",
+      "general": "勾陈",
+      "direct_yin": "巳",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "相",
+      "base": 5.665,
+      "access": 0.7281553398058253,
+      "refs": [
+        {
+          "place": "丑",
+          "state": "墓",
+          "weight": 0.7,
+          "body_ratio": 1,
+          "access": 0.6
+        },
+        {
+          "place": "巳",
+          "state": "长生",
+          "weight": 0.3,
+          "body_ratio": 1.1,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 4.125,
+      "element": "金",
+      "strength": 5.6885796826844945,
+      "delta": 2.147316097556066,
+      "formations": [
+        "夹生"
+      ],
+      "action_index": 3.1288196060620423,
+      "partial_action_index": 3.1288196060620423,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.2666430449330197,
+      "goal_loss": 0.2666430449330197,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.25,
+        "favorable_tendency": 0.9,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:勾陈",
+      "symbol": "勾陈",
+      "kind": "general",
+      "carrier": "酉",
+      "ground": "丑",
+      "lessons": [],
+      "transmissions": [],
+      "season": "旺",
+      "base": 5.5249999999999995,
+      "access": 1,
+      "refs": [
+        {
+          "place": "酉",
+          "state": "沐浴",
+          "weight": 0.7,
+          "body_ratio": 0.85,
+          "access": 1
+        },
+        {
+          "place": "丑",
+          "state": "衰",
+          "weight": 0.3,
+          "body_ratio": 0.85,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 5.5249999999999995,
+      "element": "土",
+      "strength": 5.022727272727272,
+      "delta": -0.5022727272727272,
+      "formations": [],
+      "action_index": 3.7670454545454537,
+      "partial_action_index": 3.7670454545454537,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:丑",
+      "symbol": "丑",
+      "kind": "ground",
+      "season": "旺",
+      "base": 6.5,
+      "access": 1,
+      "retention": 1,
+      "seed": 6.5,
+      "refs": [],
+      "element": "土",
+      "strength": 6.5,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:戌",
+      "symbol": "戌",
+      "kind": "branch",
+      "ground": "寅",
+      "general": "六合",
+      "direct_yin": "午",
+      "lessons": [
+        1
+      ],
+      "transmissions": [
+        1
+      ],
+      "void_self": false,
+      "void_ground": false,
+      "season": "旺",
+      "base": 4.4525,
+      "access": 1,
+      "refs": [
+        {
+          "place": "寅",
+          "state": "病",
+          "weight": 0.7,
+          "body_ratio": 0.7,
+          "access": 1
+        },
+        {
+          "place": "午",
+          "state": "胎",
+          "weight": 0.3,
+          "body_ratio": 0.65,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 4.4525,
+      "element": "土",
+      "strength": 4.149440314710525,
+      "delta": -0.3030596852520716,
+      "formations": [
+        "夹克"
+      ],
+      "action_index": 3.609336924433371,
+      "partial_action_index": 3.609336924433371,
+      "activation": 1,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0.13016294953379348,
+      "goal_loss": 0.13016294953379348,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.15,
+        "favorable_tendency": 1,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:六合",
+      "symbol": "六合",
+      "kind": "general",
+      "carrier": "戌",
+      "ground": "寅",
+      "lessons": [
+        1
+      ],
+      "transmissions": [
+        1
+      ],
+      "season": "囚",
+      "base": 2.715,
+      "access": 1,
+      "refs": [
+        {
+          "place": "戌",
+          "state": "养",
+          "weight": 0.7,
+          "body_ratio": 0.8,
+          "access": 1
+        },
+        {
+          "place": "寅",
+          "state": "临官",
+          "weight": 0.3,
+          "body_ratio": 1.15,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 2.715,
+      "element": "木",
+      "strength": 2.6569216571552765,
+      "delta": -0.05807834284428223,
+      "formations": [],
+      "action_index": 2.6569216571552765,
+      "partial_action_index": 2.6569216571552765,
+      "activation": 1,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.7,
+        "favorable_tendency": 0.4,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:寅",
+      "symbol": "寅",
+      "kind": "ground",
+      "season": "囚",
+      "base": 3,
+      "access": 1,
+      "retention": 1,
+      "seed": 3,
+      "refs": [],
+      "element": "木",
+      "strength": 3,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "T:亥",
+      "symbol": "亥",
+      "kind": "branch",
+      "ground": "卯",
+      "general": "朱雀",
+      "direct_yin": "未",
+      "lessons": [],
+      "transmissions": [],
+      "void_self": false,
+      "void_ground": false,
+      "season": "死",
+      "base": 1.18,
+      "access": 1,
+      "refs": [
+        {
+          "place": "卯",
+          "state": "死",
+          "weight": 0.7,
+          "body_ratio": 0.5,
+          "access": 1
+        },
+        {
+          "place": "未",
+          "state": "养",
+          "weight": 0.3,
+          "body_ratio": 0.8,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 1.18,
+      "element": "水",
+      "strength": 0.3724288774015118,
+      "delta": -0.8075711226096371,
+      "formations": [],
+      "action_index": 0.27932165805113385,
+      "partial_action_index": 0.27932165805113385,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.9,
+        "favorable_tendency": 0.2,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "J:朱雀",
+      "symbol": "朱雀",
+      "kind": "general",
+      "carrier": "亥",
+      "ground": "卯",
+      "lessons": [],
+      "transmissions": [],
+      "season": "休",
+      "base": 2.2737499999999997,
+      "access": 1,
+      "refs": [
+        {
+          "place": "亥",
+          "state": "绝",
+          "weight": 0.7,
+          "body_ratio": 0.4,
+          "access": 1
+        },
+        {
+          "place": "卯",
+          "state": "沐浴",
+          "weight": 0.3,
+          "body_ratio": 0.85,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 2.2737499999999997,
+      "element": "火",
+      "strength": 2.2221826420128448,
+      "delta": -0.05156735793900039,
+      "formations": [],
+      "action_index": 1.6666369815096336,
+      "partial_action_index": 1.6666369815096336,
+      "activation": 0.75,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.45,
+        "favorable_tendency": 0.65,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    },
+    {
+      "id": "D:卯",
+      "symbol": "卯",
+      "kind": "ground",
+      "season": "囚",
+      "base": 3,
+      "access": 1,
+      "retention": 1,
+      "seed": 3,
+      "refs": [],
+      "element": "木",
+      "strength": 3,
+      "delta": 0,
+      "formations": []
+    },
+    {
+      "id": "S:甲",
+      "symbol": "甲",
+      "kind": "day",
+      "ground": "寅",
+      "upper": "戌",
+      "direct_yin": "午",
+      "lessons": [],
+      "transmissions": [],
+      "season": "囚",
+      "base": 2.4000000000000004,
+      "access": 1,
+      "refs": [
+        {
+          "place": "戌",
+          "state": "养",
+          "weight": 1,
+          "body_ratio": 0.8,
+          "access": 1
+        }
+      ],
+      "retention": 1,
+      "seed": 2.4000000000000004,
+      "element": "木",
+      "strength": 2.1880655853057913,
+      "delta": -0.21193441469316476,
+      "formations": [],
+      "action_index": 2.1880655853057913,
+      "partial_action_index": 2.1880655853057913,
+      "activation": 1,
+      "disruption": 0,
+      "binding": 0,
+      "greedy": 0,
+      "goal_loss": 0,
+      "virtue_reduction": 0,
+      "interpretation": {
+        "harm_tendency": 0.7,
+        "favorable_tendency": 0.4,
+        "qualified_adverse_index": null
+      },
+      "pending": [],
+      "mechanisms": {
+        "disruption": [],
+        "binding": [],
+        "movement": [],
+        "releases": []
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "申子辰",
+      "type": "半合",
+      "members": [
+        "T:子",
+        "T:辰"
+      ],
+      "coverage": 0.5,
+      "mode": "deferred",
+      "formed": null,
+      "transformed": false,
+      "numeric_enabled": false,
+      "integrity": null,
+      "gate_multiplier": 1
+    },
+    {
+      "id": "寅午戌",
+      "type": "三合",
+      "members": [
+        "T:寅",
+        "T:午",
+        "T:戌"
+      ],
+      "coverage": 1,
+      "mode": "deferred",
+      "formed": null,
+      "transformed": false,
+      "numeric_enabled": false,
+      "integrity": null,
+      "gate_multiplier": 1
+    },
+    {
+      "id": "寅卯辰",
+      "type": "未成会",
+      "members": [
+        "T:寅",
+        "T:辰"
+      ],
+      "coverage": 0.5,
+      "mode": "deferred",
+      "formed": null,
+      "transformed": false,
+      "numeric_enabled": false,
+      "integrity": null,
+      "gate_multiplier": 1
+    }
+  ],
+  "four_buildings": [
+    {
+      "role": "岁",
+      "branch": "午",
+      "upper": "寅"
+    },
+    {
+      "role": "月",
+      "branch": "戌",
+      "upper": "午"
+    },
+    {
+      "role": "日",
+      "branch": "申",
+      "upper": "辰"
+    },
+    {
+      "role": "时",
+      "branch": "未",
+      "upper": "卯"
+    }
+  ],
+  "coverage": {
+    "numeric_scope": "已登记基础与关系机制；事件专项按pending限制；合局数值依用户指示暂缓",
+    "strength_scope_complete": true,
+    "complete_for_declared_actions": false,
+    "event_verdict_supported": false,
+    "pending": [
+      {
+        "id": "T:子",
+        "rule": "S17",
+        "scope": "神煞专项事件适配未完成:天医"
+      },
+      {
+        "id": "T:子",
+        "rule": "S26",
+        "scope": "神煞专项事件适配未完成:旬奇"
+      },
+      {
+        "id": "T:子",
+        "rule": "S29",
+        "scope": "神煞专项事件适配未完成:日进神"
+      },
+      {
+        "id": "T:寅",
+        "rule": "S12",
+        "scope": "神煞专项事件适配未完成:日德"
+      },
+      {
+        "id": "T:寅",
+        "rule": "S21",
+        "scope": "神煞专项事件适配未完成:月死气"
+      },
+      {
+        "id": "T:辰",
+        "rule": "自刑|T:辰",
+        "scope": "专项作用方向未适配"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S08M",
+        "scope": "神煞专项事件适配未完成:月天鼠小耗"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S11",
+        "scope": "神煞专项事件适配未完成:季天喜"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S15",
+        "scope": "神煞专项事件适配未完成:月破"
+      },
+      {
+        "id": "T:辰",
+        "rule": "S32D",
+        "scope": "神煞专项事件适配未完成:吊客"
+      },
+      {
+        "id": "T:午",
+        "rule": "自刑|T:午",
+        "scope": "专项作用方向未适配"
+      },
+      {
+        "id": "T:午",
+        "rule": "S18",
+        "scope": "神煞专项事件适配未完成:地医"
+      },
+      {
+        "id": "T:午",
+        "rule": "S29",
+        "scope": "神煞专项事件适配未完成:日进神"
+      },
+      {
+        "id": "T:申",
+        "rule": "S10",
+        "scope": "神煞专项事件适配未完成:月生气"
+      },
+      {
+        "id": "T:申",
+        "rule": "S30",
+        "scope": "神煞专项事件适配未完成:月血光"
+      },
+      {
+        "id": "T:申",
+        "rule": "S32",
+        "scope": "神煞专项事件适配未完成:丧门"
+      }
+    ],
+    "adapters": [
+      "五气/十二气",
+      "旬空/坐空一次",
+      "墓闭藏/定向冲开",
+      "直接加临生扶泄耗克制",
+      "比和源限幅",
+      "本节点一层阴神观察",
+      "直接贪生合",
+      "六合牵绊",
+      "有条件刑冲破害",
+      "直接关系内的初末制鬼时序",
+      "庚辛临巳共同预算",
+      "德解资格接口",
+      "马的动静限制",
+      "四建身份不新增跨宫生克",
+      "评价时段更新"
+    ],
+    "deferred_by_user": [
+      "三合/半合/三会数值作用"
+    ],
+    "not_claimed": [
+      "全年季土自动判定",
+      "所有神煞及课体专项",
+      "合局数值及自动合化",
+      "遁干纳音全专项",
+      "录用/行业/成败裁决"
+    ]
+  },
+  "global_qi": {
+    "by_element": {
+      "木": {
+        "actors": [
+          "T:寅"
+        ],
+        "mean_strength": 1.4339938650384454
+      },
+      "火": {
+        "actors": [
+          "T:午"
+        ],
+        "mean_strength": 2.205970825285008
+      },
+      "土": {
+        "actors": [
+          "T:辰",
+          "T:戌"
+        ],
+        "mean_strength": 5.277820651228571
+      },
+      "金": {
+        "actors": [
+          "T:申"
+        ],
+        "mean_strength": 3.7304909826462174
+      },
+      "水": {
+        "actors": [
+          "T:子"
+        ],
+        "mean_strength": 1.0070307457087053
+      }
+    },
+    "strongest": "T:辰",
+    "method": "相关天盘神分五行均值；不叠加地盘、乘将与合局成为额外票数"
+  },
+  "audit": {
+    "ledger": [
+      {
+        "id": "D:辰>T:子",
+        "source": "D:辰",
+        "target": "T:子",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 6.5,
+        "target_strength": 1.0070307457087053,
+        "tau": 1,
+        "received": -1.0820653789134442,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -1.0820653789134442,
+        "observed_source_cost": 0.21641307578268887
+      },
+      {
+        "id": "T:申>T:子|view:T:子",
+        "source": "T:申",
+        "target": "T:子",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:子",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 2.86513300341753,
+        "target_strength": 1.0070307457087053,
+        "tau": 1,
+        "received": 0.42976995051262956,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:子",
+        "observed_received": 0.42976995051262956,
+        "observed_source_cost": 0.21488497525631478
+      },
+      {
+        "id": "T:子>J:腾蛇",
+        "source": "T:子",
+        "target": "J:腾蛇",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 1.0070307457087053,
+        "target_strength": 3.1489215929977634,
+        "tau": 1,
+        "received": -0.12357840656781267,
+        "source_cost": 0.024715681313562537,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.12357840656781267,
+        "observed_source_cost": 0.024715681313562537
+      },
+      {
+        "id": "D:巳>T:丑",
+        "source": "D:巳",
+        "target": "T:丑",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 4.25,
+        "target_strength": 4.284976744186109,
+        "tau": 1,
+        "received": 0.8500000000000001,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.8500000000000001,
+        "observed_source_cost": 0.42500000000000004
+      },
+      {
+        "id": "T:丑>T:酉|view:T:丑",
+        "source": "T:丑",
+        "target": "T:酉",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:丑",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 4.284976744186109,
+        "target_strength": 5.8030670785509955,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.3213732558139582,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:丑",
+        "observed_received": 0.6427465116279164,
+        "observed_source_cost": 0.3213732558139582
+      },
+      {
+        "id": "J:贵人>T:丑",
+        "source": "J:贵人",
+        "target": "T:丑",
+        "type": "比和",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 4.856150000000261,
+        "target_strength": 4.284976744186109,
+        "tau": 1,
+        "received": 0.27885,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.27885,
+        "observed_source_cost": 0
+      },
+      {
+        "id": "T:丑>J:贵人",
+        "source": "T:丑",
+        "target": "J:贵人",
+        "type": "比和",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 4.284976744186109,
+        "target_strength": 4.856150000000261,
+        "tau": 1,
+        "received": 0.20864999999999997,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.20864999999999997,
+        "observed_source_cost": 0
+      },
+      {
+        "id": "T:寅>D:午",
+        "source": "T:寅",
+        "target": "D:午",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 1.4339938650384454,
+        "target_strength": 4.25,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.14339938650384454,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.2867987730076891,
+        "observed_source_cost": 0.14339938650384454
+      },
+      {
+        "id": "T:寅>T:戌|view:T:寅",
+        "source": "T:寅",
+        "target": "T:戌",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:寅",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 1.4339938650384454,
+        "target_strength": 3.810696201930542,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.024413403302753277,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:寅",
+        "observed_received": -0.12206701651376638,
+        "observed_source_cost": 0.024413403302753277
+      },
+      {
+        "id": "J:天后>T:寅",
+        "source": "J:天后",
+        "target": "T:寅",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 1.2454545454546575,
+        "target_strength": 1.4339938650384454,
+        "tau": 1,
+        "received": 0.2490909090909315,
+        "source_cost": 0.12454545454546576,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.2490909090909315,
+        "observed_source_cost": 0.12454545454546576
+      },
+      {
+        "id": "T:卯>D:未",
+        "source": "T:卯",
+        "target": "D:未",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 1.4582884010701156,
+        "target_strength": 6.5,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.025361537409915053,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.12680768704957526,
+        "observed_source_cost": 0.025361537409915053
+      },
+      {
+        "id": "T:亥>T:卯|view:T:卯",
+        "source": "T:亥",
+        "target": "T:卯",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:卯",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 1.046041438310053,
+        "target_strength": 1.4582884010701156,
+        "tau": 1,
+        "received": 0.15690621574650795,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:卯",
+        "observed_received": 0.15690621574650795,
+        "observed_source_cost": 0.07845310787325398
+      },
+      {
+        "id": "J:太阴>T:卯",
+        "source": "J:太阴",
+        "target": "T:卯",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 4.107790130293336,
+        "target_strength": 1.4582884010701156,
+        "tau": 1,
+        "received": -0.6360493485569164,
+        "source_cost": 0.1272098697113833,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.6360493485569164,
+        "observed_source_cost": 0.1272098697113833
+      },
+      {
+        "id": "T:辰>D:申",
+        "source": "T:辰",
+        "target": "D:申",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 6.406200987746616,
+        "target_strength": 5.5,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.6406200987746616,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 1.2812401975493233,
+        "observed_source_cost": 0.6406200987746616
+      },
+      {
+        "id": "T:辰>T:子|view:T:辰",
+        "source": "T:辰",
+        "target": "T:子",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:辰",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 6.406200987746616,
+        "target_strength": 0.6508573150275894,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.17005032946178733,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:辰",
+        "observed_received": -0.8502516473089365,
+        "observed_source_cost": 0.17005032946178733
+      },
+      {
+        "id": "T:辰>J:玄武",
+        "source": "T:辰",
+        "target": "J:玄武",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 6.406200987746616,
+        "target_strength": 0.6785367090573278,
+        "tau": 1,
+        "received": -1.128142920609927,
+        "source_cost": 0.2256285841219854,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -1.128142920609927,
+        "observed_source_cost": 0.2256285841219854
+      },
+      {
+        "id": "T:巳>D:酉",
+        "source": "T:巳",
+        "target": "D:酉",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 2.1000000000000005,
+        "target_strength": 5.5,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.040000000000000015,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.20000000000000007,
+        "observed_source_cost": 0.040000000000000015
+      },
+      {
+        "id": "T:巳>T:丑|view:T:巳",
+        "source": "T:巳",
+        "target": "T:丑",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:巳",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 2.1000000000000005,
+        "target_strength": 4.606350000000717,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.15750000000000006,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:巳",
+        "observed_received": 0.3150000000000001,
+        "observed_source_cost": 0.15750000000000006
+      },
+      {
+        "id": "T:巳>J:太常",
+        "source": "T:巳",
+        "target": "J:太常",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 2.1000000000000005,
+        "target_strength": 3.8975000000074402,
+        "tau": 1,
+        "received": 0.42000000000000015,
+        "source_cost": 0.21000000000000008,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.42000000000000015,
+        "observed_source_cost": 0.21000000000000008
+      },
+      {
+        "id": "T:午>D:戌",
+        "source": "T:午",
+        "target": "D:戌",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 2.205970825285008,
+        "target_strength": 6.5,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.22059708252850083,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.44119416505700165,
+        "observed_source_cost": 0.22059708252850083
+      },
+      {
+        "id": "T:寅>T:午|view:T:午",
+        "source": "T:寅",
+        "target": "T:午",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:午",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 1.4515449079815324,
+        "target_strength": 2.205970825285008,
+        "tau": 1,
+        "received": 0.21773173619722988,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:午",
+        "observed_received": 0.21773173619722988,
+        "observed_source_cost": 0.10886586809861494
+      },
+      {
+        "id": "T:午>J:白虎",
+        "source": "T:午",
+        "target": "J:白虎",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 2.205970825285008,
+        "target_strength": 4.441350065391118,
+        "tau": 1,
+        "received": -0.2336499345968932,
+        "source_cost": 0.046729986919378644,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.2336499345968932,
+        "observed_source_cost": 0.046729986919378644
+      },
+      {
+        "id": "T:未>D:亥",
+        "source": "T:未",
+        "target": "D:亥",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 5.362142387223482,
+        "target_strength": 2,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.1532040682063852,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.7660203410319261,
+        "observed_source_cost": 0.1532040682063852
+      },
+      {
+        "id": "T:卯>T:未|view:T:未",
+        "source": "T:卯",
+        "target": "T:未",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:未",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 1.3656353567727666,
+        "target_strength": 5.362142387223482,
+        "tau": 1,
+        "received": -0.09884312329489371,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:未",
+        "observed_received": -0.09884312329489371,
+        "observed_source_cost": 0.019768624658978745
+      },
+      {
+        "id": "J:天空>T:未",
+        "source": "J:天空",
+        "target": "T:未",
+        "type": "比和",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 6.199082499997754,
+        "target_strength": 5.362142387223482,
+        "tau": 1,
+        "received": 0.35294999999999993,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.35294999999999993,
+        "observed_source_cost": 0
+      },
+      {
+        "id": "T:未>J:天空",
+        "source": "T:未",
+        "target": "J:天空",
+        "type": "比和",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 5.362142387223482,
+        "target_strength": 6.199082499997754,
+        "tau": 1,
+        "received": 0.3165825,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.3165825,
+        "observed_source_cost": 0
+      },
+      {
+        "id": "T:申>D:子",
+        "source": "T:申",
+        "target": "D:子",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 3.7304909826462174,
+        "target_strength": 2,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.37304909826462174,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.7460981965292435,
+        "observed_source_cost": 0.37304909826462174
+      },
+      {
+        "id": "T:辰>T:申|view:T:申",
+        "source": "T:辰",
+        "target": "T:申",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:申",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 6.555189134367426,
+        "target_strength": 3.7304909826462174,
+        "tau": 1,
+        "received": 0.9832783701551141,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:申",
+        "observed_received": 0.9832783701551141,
+        "observed_source_cost": 0.49163918507755705
+      },
+      {
+        "id": "T:申>J:青龙",
+        "source": "T:申",
+        "target": "J:青龙",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 3.7304909826462174,
+        "target_strength": 0.9813085538534421,
+        "tau": 1,
+        "received": -0.6236914462877624,
+        "source_cost": 0.12473828925755248,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.6236914462877624,
+        "observed_source_cost": 0.12473828925755248
+      },
+      {
+        "id": "D:丑>T:酉",
+        "source": "D:丑",
+        "target": "T:酉",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 6.5,
+        "target_strength": 5.6885796826844945,
+        "tau": 1,
+        "received": 1.3,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 1.3,
+        "observed_source_cost": 0.65
+      },
+      {
+        "id": "T:巳>T:酉|view:T:酉",
+        "source": "T:巳",
+        "target": "T:酉",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:酉",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 2.2407446808510993,
+        "target_strength": 5.6885796826844945,
+        "tau": 1,
+        "received": -0.15722935698938847,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:酉",
+        "observed_received": -0.15722935698938847,
+        "observed_source_cost": 0.031445871397877696
+      },
+      {
+        "id": "J:勾陈>T:酉",
+        "source": "J:勾陈",
+        "target": "T:酉",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 5.022727272727272,
+        "target_strength": 5.6885796826844945,
+        "tau": 1,
+        "received": 1.0045454545454544,
+        "source_cost": 0.5022727272727272,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 1.0045454545454544,
+        "observed_source_cost": 0.5022727272727272
+      },
+      {
+        "id": "D:寅>T:戌",
+        "source": "D:寅",
+        "target": "T:戌",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 3,
+        "target_strength": 4.149440314710525,
+        "tau": 1,
+        "received": -0.32788890869932036,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.32788890869932036,
+        "observed_source_cost": 0.06557778173986407
+      },
+      {
+        "id": "T:午>T:戌|view:T:戌",
+        "source": "T:午",
+        "target": "T:戌",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:戌",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 2.1014729177910656,
+        "target_strength": 4.149440314710525,
+        "tau": 1,
+        "received": 0.3152209376686599,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:戌",
+        "observed_received": 0.3152209376686599,
+        "observed_source_cost": 0.15761046883432994
+      },
+      {
+        "id": "J:六合>T:戌",
+        "source": "J:六合",
+        "target": "T:戌",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 2.6569216571552765,
+        "target_strength": 4.149440314710525,
+        "tau": 1,
+        "received": -0.29039171422141113,
+        "source_cost": 0.05807834284428223,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.29039171422141113,
+        "observed_source_cost": 0.05807834284428223
+      },
+      {
+        "id": "T:亥>D:卯",
+        "source": "T:亥",
+        "target": "D:卯",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "ground",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "ground",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 0.3724288774015118,
+        "target_strength": 3,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.037242887740151186,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": 0.07448577548030237,
+        "observed_source_cost": 0.037242887740151186
+      },
+      {
+        "id": "T:未>T:亥|view:T:亥",
+        "source": "T:未",
+        "target": "T:亥",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "T:亥",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 5.444167015341337,
+        "target_strength": 0.3724288774015118,
+        "tau": 1,
+        "received": -0.7600147632816859,
+        "source_cost": 0,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "T:亥",
+        "observed_received": -0.7600147632816859,
+        "observed_source_cost": 0.1520029526563372
+      },
+      {
+        "id": "T:亥>J:朱雀",
+        "source": "T:亥",
+        "target": "J:朱雀",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "carrier",
+            "gate": 1
+          }
+        ],
+        "owner": null,
+        "blocked": null,
+        "route": "carrier",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 0.3724288774015118,
+        "target_strength": 2.2221826420128448,
+        "tau": 1,
+        "received": -0.05156735793900039,
+        "source_cost": 0.010313471587800079,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": null,
+        "observed_received": -0.05156735793900039,
+        "observed_source_cost": 0.010313471587800079
+      },
+      {
+        "id": "S:甲>T:戌|view:S:甲",
+        "source": "S:甲",
+        "target": "T:戌",
+        "type": "克",
+        "routes": [
+          {
+            "kind": "day_upper",
+            "gate": 1
+          }
+        ],
+        "owner": "S:甲",
+        "blocked": null,
+        "route": "day_upper",
+        "raw_gate": 1,
+        "gate": 1,
+        "source_strength": 2.1880655853057913,
+        "target_strength": 4.149440314710525,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.047829495795230374,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "S:甲",
+        "observed_received": -0.23914747897615185,
+        "observed_source_cost": 0.047829495795230374
+      },
+      {
+        "id": "S:甲>T:午|view:S:甲",
+        "source": "S:甲",
+        "target": "T:午",
+        "type": "生",
+        "routes": [
+          {
+            "kind": "yin",
+            "gate": 0.75
+          }
+        ],
+        "owner": "S:甲",
+        "blocked": null,
+        "route": "yin",
+        "raw_gate": 0.75,
+        "gate": 0.75,
+        "source_strength": 2.1880655853057913,
+        "target_strength": 2.1014729177910656,
+        "tau": 1,
+        "received": 0,
+        "source_cost": 0.16410491889793438,
+        "reference_reallocation": 0,
+        "special": null,
+        "local_observation": "S:甲",
+        "observed_received": 0.32820983779586876,
+        "observed_source_cost": 0.16410491889793438
+      }
+    ],
+    "lower_depth": {
+      "values": {
+        "T:子": 0.6508573150275894,
+        "J:腾蛇": 3.193059921831146,
+        "D:辰": 6.5,
+        "T:丑": 4.606350000000717,
+        "J:贵人": 4.856150000000261,
+        "D:巳": 4.25,
+        "T:寅": 1.4515449079815324,
+        "J:天后": 1.2454545454546575,
+        "D:午": 4.25,
+        "T:卯": 1.3656353567727666,
+        "J:太阴": 4.105994967898425,
+        "D:未": 6.5,
+        "T:辰": 6.555189134367426,
+        "J:玄武": 0.6560972617976342,
+        "D:申": 5.5,
+        "T:巳": 2.2407446808510993,
+        "J:太常": 3.9256489361805382,
+        "D:酉": 5.5,
+        "T:午": 2.1014729177910656,
+        "J:白虎": 4.452685081022592,
+        "D:戌": 6.5,
+        "T:未": 5.444167015341337,
+        "J:天空": 6.199082499997773,
+        "D:亥": 2,
+        "T:申": 2.86513300341753,
+        "J:青龙": 1.138231518822042,
+        "D:子": 2,
+        "T:酉": 5.8030670785509955,
+        "J:勾陈": 5.022727272727272,
+        "D:丑": 6.5,
+        "T:戌": 3.810696201930542,
+        "J:六合": 2.6547382857178854,
+        "D:寅": 3,
+        "T:亥": 1.046041438310053,
+        "J:朱雀": 2.1269779107028075,
+        "D:卯": 3,
+        "S:甲": 2.346729976325636
+      },
+      "iterations": 39,
+      "residual": 8.586907851437786e-10,
+      "initials": [
+        {
+          "iterations": 38,
+          "residual": 8.828550113193501e-10
+        },
+        {
+          "iterations": 39,
+          "residual": 8.586907851437786e-10
+        },
+        {
+          "iterations": 40,
+          "residual": 7.64013075027492e-10
+        }
+      ],
+      "spread": 1.1384482245802019e-9,
+      "mapped": {
+        "T:子": 0.6508573143439057,
+        "J:腾蛇": 3.1930599225152347,
+        "D:辰": 6.5,
+        "T:丑": 4.60635,
+        "J:贵人": 4.8561499999999995,
+        "D:巳": 4.25,
+        "T:寅": 1.4515449079799012,
+        "J:天后": 1.245454545454534,
+        "D:午": 4.25,
+        "T:卯": 1.3656353567599944,
+        "J:太阴": 4.105994967893352,
+        "D:未": 6.5,
+        "T:辰": 6.555189134234487,
+        "J:玄武": 0.6560972609389434,
+        "D:申": 5.5,
+        "T:巳": 2.2407446808510594,
+        "J:太常": 3.9256489361702194,
+        "D:酉": 5.5,
+        "T:午": 2.1014729177908964,
+        "J:白虎": 4.452685081034803,
+        "D:戌": 6.5,
+        "T:未": 5.44416701534171,
+        "J:天空": 6.199082499999999,
+        "D:亥": 2,
+        "T:申": 2.8651330034142393,
+        "J:青龙": 1.138231518779962,
+        "D:子": 2,
+        "T:酉": 5.803067078552516,
+        "J:勾陈": 5.0227272727272725,
+        "D:丑": 6.5,
+        "T:戌": 3.810696201966553,
+        "J:六合": 2.6547382857183024,
+        "D:寅": 3,
+        "T:亥": 1.046041438310082,
+        "J:朱雀": 2.1269779107054365,
+        "D:卯": 3,
+        "S:甲": 2.3467299763255616
+      },
+      "delta": {
+        "T:子": -1.166155954967703,
+        "J:腾蛇": -0.07944007748476506,
+        "D:辰": 0,
+        "T:丑": 1.1288500000000001,
+        "J:贵人": 0.20864999999999997,
+        "D:巳": 0,
+        "T:寅": 0.10393641829277828,
+        "J:天后": -0.12454545454546576,
+        "D:午": 0,
+        "T:卯": -0.6687753406510278,
+        "J:太阴": -0.12900503210664813,
+        "D:未": 0,
+        "T:辰": -0.8873108657655129,
+        "J:玄武": -1.1589597616438512,
+        "D:申": 0,
+        "T:巳": -0.2667553191489404,
+        "J:太常": 0.4481489361702199,
+        "D:酉": 0,
+        "T:午": -0.254610275572146,
+        "J:白虎": -0.22231491896519717,
+        "D:戌": 0,
+        "T:未": 0.1974023709902474,
+        "J:天空": 0.3165825,
+        "D:亥": 0,
+        "T:申": -0.3798669965857605,
+        "J:青龙": -0.4667684812200377,
+        "D:子": 0,
+        "T:酉": 2.3045454545454547,
+        "J:勾陈": -0.5022727272727272,
+        "D:丑": 0,
+        "T:戌": -0.6418037980334467,
+        "J:六合": -0.06026171428169766,
+        "D:寅": 0,
+        "T:亥": -0.133958561689918,
+        "J:朱雀": -0.14677208929456334,
+        "D:卯": 0,
+        "S:甲": -0.05327002367443872
+      },
+      "ledger": [
+        {
+          "id": "D:辰>T:子",
+          "source": "D:辰",
+          "target": "T:子",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 6.5,
+          "target_strength": 0.6508573150275894,
+          "tau": 1,
+          "received": -1.15026793947075,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -1.15026793947075,
+          "observed_source_cost": 0.23005358789415
+        },
+        {
+          "id": "T:子>J:腾蛇",
+          "source": "T:子",
+          "target": "J:腾蛇",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 0.6508573150275894,
+          "target_strength": 3.193059921831146,
+          "tau": 1,
+          "received": -0.07944007748476506,
+          "source_cost": 0.015888015496953012,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.07944007748476506,
+          "observed_source_cost": 0.015888015496953012
+        },
+        {
+          "id": "D:巳>T:丑",
+          "source": "D:巳",
+          "target": "T:丑",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 4.25,
+          "target_strength": 4.606350000000717,
+          "tau": 1,
+          "received": 0.8500000000000001,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.8500000000000001,
+          "observed_source_cost": 0.42500000000000004
+        },
+        {
+          "id": "J:贵人>T:丑",
+          "source": "J:贵人",
+          "target": "T:丑",
+          "type": "比和",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 4.856150000000261,
+          "target_strength": 4.606350000000717,
+          "tau": 1,
+          "received": 0.27885,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.27885,
+          "observed_source_cost": 0
+        },
+        {
+          "id": "T:丑>J:贵人",
+          "source": "T:丑",
+          "target": "J:贵人",
+          "type": "比和",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 4.606350000000717,
+          "target_strength": 4.856150000000261,
+          "tau": 1,
+          "received": 0.20864999999999997,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.20864999999999997,
+          "observed_source_cost": 0
+        },
+        {
+          "id": "T:寅>D:午",
+          "source": "T:寅",
+          "target": "D:午",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 1.4515449079815324,
+          "target_strength": 4.25,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.14515449079815324,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.29030898159630647,
+          "observed_source_cost": 0.14515449079815324
+        },
+        {
+          "id": "J:天后>T:寅",
+          "source": "J:天后",
+          "target": "T:寅",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 1.2454545454546575,
+          "target_strength": 1.4515449079815324,
+          "tau": 1,
+          "received": 0.2490909090909315,
+          "source_cost": 0.12454545454546576,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.2490909090909315,
+          "observed_source_cost": 0.12454545454546576
+        },
+        {
+          "id": "T:卯>D:未",
+          "source": "T:卯",
+          "target": "D:未",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 1.3656353567727666,
+          "target_strength": 6.5,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.023750180117787248,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.11875090058893624,
+          "observed_source_cost": 0.023750180117787248
+        },
+        {
+          "id": "J:太阴>T:卯",
+          "source": "J:太阴",
+          "target": "T:卯",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 4.105994967898425,
+          "target_strength": 1.3656353567727666,
+          "tau": 1,
+          "received": -0.6450251605332405,
+          "source_cost": 0.12900503210664813,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.6450251605332405,
+          "observed_source_cost": 0.12900503210664813
+        },
+        {
+          "id": "T:辰>D:申",
+          "source": "T:辰",
+          "target": "D:申",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 6.555189134367426,
+          "target_strength": 5.5,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.6555189134367426,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 1.3110378268734852,
+          "observed_source_cost": 0.6555189134367426
+        },
+        {
+          "id": "T:辰>J:玄武",
+          "source": "T:辰",
+          "target": "J:玄武",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 6.555189134367426,
+          "target_strength": 0.6560972617976342,
+          "tau": 1,
+          "received": -1.1589597616438512,
+          "source_cost": 0.23179195232877026,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -1.1589597616438512,
+          "observed_source_cost": 0.23179195232877026
+        },
+        {
+          "id": "T:巳>D:酉",
+          "source": "T:巳",
+          "target": "D:酉",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.2407446808510993,
+          "target_strength": 5.5,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.04268085106383047,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.21340425531915233,
+          "observed_source_cost": 0.04268085106383047
+        },
+        {
+          "id": "T:巳>J:太常",
+          "source": "T:巳",
+          "target": "J:太常",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.2407446808510993,
+          "target_strength": 3.9256489361805382,
+          "tau": 1,
+          "received": 0.4481489361702199,
+          "source_cost": 0.22407446808510995,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.4481489361702199,
+          "observed_source_cost": 0.22407446808510995
+        },
+        {
+          "id": "T:午>D:戌",
+          "source": "T:午",
+          "target": "D:戌",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.1014729177910656,
+          "target_strength": 6.5,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.21014729177910657,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.42029458355821314,
+          "observed_source_cost": 0.21014729177910657
+        },
+        {
+          "id": "T:午>J:白虎",
+          "source": "T:午",
+          "target": "J:白虎",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.1014729177910656,
+          "target_strength": 4.452685081022592,
+          "tau": 1,
+          "received": -0.22231491896519717,
+          "source_cost": 0.04446298379303944,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.22231491896519717,
+          "observed_source_cost": 0.04446298379303944
+        },
+        {
+          "id": "T:未>D:亥",
+          "source": "T:未",
+          "target": "D:亥",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 5.444167015341337,
+          "target_strength": 2,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.15554762900975252,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.7777381450487626,
+          "observed_source_cost": 0.15554762900975252
+        },
+        {
+          "id": "J:天空>T:未",
+          "source": "J:天空",
+          "target": "T:未",
+          "type": "比和",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 6.199082499997773,
+          "target_strength": 5.444167015341337,
+          "tau": 1,
+          "received": 0.35294999999999993,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.35294999999999993,
+          "observed_source_cost": 0
+        },
+        {
+          "id": "T:未>J:天空",
+          "source": "T:未",
+          "target": "J:天空",
+          "type": "比和",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 5.444167015341337,
+          "target_strength": 6.199082499997773,
+          "tau": 1,
+          "received": 0.3165825,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.3165825,
+          "observed_source_cost": 0
+        },
+        {
+          "id": "T:申>D:子",
+          "source": "T:申",
+          "target": "D:子",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.86513300341753,
+          "target_strength": 2,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.286513300341753,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.573026600683506,
+          "observed_source_cost": 0.286513300341753
+        },
+        {
+          "id": "T:申>J:青龙",
+          "source": "T:申",
+          "target": "J:青龙",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.86513300341753,
+          "target_strength": 1.138231518822042,
+          "tau": 1,
+          "received": -0.4667684812200377,
+          "source_cost": 0.09335369624400755,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.4667684812200377,
+          "observed_source_cost": 0.09335369624400755
+        },
+        {
+          "id": "D:丑>T:酉",
+          "source": "D:丑",
+          "target": "T:酉",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 6.5,
+          "target_strength": 5.8030670785509955,
+          "tau": 1,
+          "received": 1.3,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 1.3,
+          "observed_source_cost": 0.65
+        },
+        {
+          "id": "J:勾陈>T:酉",
+          "source": "J:勾陈",
+          "target": "T:酉",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 5.022727272727272,
+          "target_strength": 5.8030670785509955,
+          "tau": 1,
+          "received": 1.0045454545454544,
+          "source_cost": 0.5022727272727272,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 1.0045454545454544,
+          "observed_source_cost": 0.5022727272727272
+        },
+        {
+          "id": "D:寅>T:戌",
+          "source": "D:寅",
+          "target": "T:戌",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 3,
+          "target_strength": 3.810696201930542,
+          "tau": 1,
+          "received": -0.3404952266249584,
+          "source_cost": 0,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.3404952266249584,
+          "observed_source_cost": 0.06809904532499168
+        },
+        {
+          "id": "J:六合>T:戌",
+          "source": "J:六合",
+          "target": "T:戌",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.6547382857178854,
+          "target_strength": 3.810696201930542,
+          "tau": 1,
+          "received": -0.30130857140848827,
+          "source_cost": 0.06026171428169766,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.30130857140848827,
+          "observed_source_cost": 0.06026171428169766
+        },
+        {
+          "id": "T:亥>D:卯",
+          "source": "T:亥",
+          "target": "D:卯",
+          "type": "生",
+          "routes": [
+            {
+              "kind": "ground",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "ground",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 1.046041438310053,
+          "target_strength": 3,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.1046041438310053,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": 0.2092082876620106,
+          "observed_source_cost": 0.1046041438310053
+        },
+        {
+          "id": "T:亥>J:朱雀",
+          "source": "T:亥",
+          "target": "J:朱雀",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "carrier",
+              "gate": 1
+            }
+          ],
+          "owner": null,
+          "blocked": null,
+          "route": "carrier",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 1.046041438310053,
+          "target_strength": 2.1269779107028075,
+          "tau": 1,
+          "received": -0.14677208929456334,
+          "source_cost": 0.02935441785891267,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": null,
+          "observed_received": -0.14677208929456334,
+          "observed_source_cost": 0.02935441785891267
+        },
+        {
+          "id": "S:甲>T:戌|view:S:甲",
+          "source": "S:甲",
+          "target": "T:戌",
+          "type": "克",
+          "routes": [
+            {
+              "kind": "day_upper",
+              "gate": 1
+            }
+          ],
+          "owner": "S:甲",
+          "blocked": null,
+          "route": "day_upper",
+          "raw_gate": 1,
+          "gate": 1,
+          "source_strength": 2.346729976325636,
+          "target_strength": 3.810696201930542,
+          "tau": 1,
+          "received": 0,
+          "source_cost": 0.05327002367443872,
+          "reference_reallocation": 0,
+          "special": null,
+          "local_observation": "S:甲",
+          "observed_received": -0.2663501183721936,
+          "observed_source_cost": 0.05327002367443872
+        }
+      ],
+      "access": {
+        "T:子": 0.7281553398058253,
+        "J:腾蛇": 1,
+        "D:辰": 1,
+        "T:丑": 1,
+        "J:贵人": 1,
+        "D:巳": 1,
+        "T:寅": 1,
+        "J:天后": 1,
+        "D:午": 1,
+        "T:卯": 0.7281553398058253,
+        "J:太阴": 1,
+        "D:未": 1,
+        "T:辰": 1,
+        "J:玄武": 0.7281553398058253,
+        "D:申": 1,
+        "T:巳": 1,
+        "J:太常": 1,
+        "D:酉": 1,
+        "T:午": 0.7281553398058253,
+        "J:白虎": 1,
+        "D:戌": 1,
+        "T:未": 1,
+        "J:天空": 1,
+        "D:亥": 1,
+        "T:申": 1,
+        "J:青龙": 1,
+        "D:子": 1,
+        "T:酉": 0.7281553398058253,
+        "J:勾陈": 1,
+        "D:丑": 1,
+        "T:戌": 1,
+        "J:六合": 1,
+        "D:寅": 1,
+        "T:亥": 1,
+        "J:朱雀": 1,
+        "D:卯": 1,
+        "S:甲": 1
+      },
+      "groups": [
+        {
+          "id": "申子辰",
+          "type": "半合",
+          "members": [
+            "T:子",
+            "T:辰"
+          ],
+          "coverage": 0.5,
+          "mode": "deferred",
+          "formed": null,
+          "transformed": false,
+          "numeric_enabled": false,
+          "integrity": null,
+          "gate_multiplier": 1
+        },
+        {
+          "id": "寅午戌",
+          "type": "三合",
+          "members": [
+            "T:寅",
+            "T:午",
+            "T:戌"
+          ],
+          "coverage": 1,
+          "mode": "deferred",
+          "formed": null,
+          "transformed": false,
+          "numeric_enabled": false,
+          "integrity": null,
+          "gate_multiplier": 1
+        },
+        {
+          "id": "寅卯辰",
+          "type": "未成会",
+          "members": [
+            "T:寅",
+            "T:辰"
+          ],
+          "coverage": 0.5,
+          "mode": "deferred",
+          "formed": null,
+          "transformed": false,
+          "numeric_enabled": false,
+          "integrity": null,
+          "gate_multiplier": 1
+        }
+      ]
+    },
+    "convergence": {
+      "iterations": 39,
+      "residual": 7.635851950738015e-10,
+      "spread": 8.265406137297759e-10,
+      "initials": [
+        {
+          "iterations": 38,
+          "residual": 6.963374321600213e-10
+        },
+        {
+          "iterations": 39,
+          "residual": 7.635851950738015e-10
+        },
+        {
+          "iterations": 40,
+          "residual": 6.531146734545246e-10
+        }
+      ]
+    },
+    "blocked_edges": [],
+    "relations": [
+      {
+        "id": "自刑|T:辰",
+        "type": "自刑",
+        "source": "T:辰",
+        "target": "T:辰",
+        "gate": 1
+      },
+      {
+        "id": "自刑|T:午",
+        "type": "自刑",
+        "source": "T:午",
+        "target": "T:午",
+        "gate": 1
+      },
+      {
+        "id": "自刑|T:酉",
+        "type": "自刑",
+        "source": "T:酉",
+        "target": "T:酉",
+        "gate": 1
+      },
+      {
+        "id": "自刑|T:亥",
+        "type": "自刑",
+        "source": "T:亥",
+        "target": "T:亥",
+        "gate": 1
+      }
+    ],
+    "mechanisms": [],
+    "active": [
+      "T:申",
+      "T:戌",
+      "T:午",
+      "T:辰",
+      "T:子",
+      "T:寅"
+    ],
+    "tomb_before": null
+  }
+}

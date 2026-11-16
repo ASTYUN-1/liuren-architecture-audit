@@ -1,0 +1,323 @@
+{
+  "schema": "staged-chart-resolutions-v1",
+  "warning": "AI只能填proposed；人工核对后改confirmed，另以--accept-confirmed明确启用。确认标记不等于外部真实性证明。",
+  "resolutions": {
+    "raw-anli002-0001": {
+      "status": "proposed",
+      "case_file_sha256": "951e9760684b21ebb7c36240f857d8ca5c6ec9575ff083b42133f8e95177eec0",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0002": {
+      "status": "proposed",
+      "case_file_sha256": "c8d5dfc4af9e08060e9995fbeec1560ccb4c985f2cdc89cab8fbcb36beb610f5",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0003": {
+      "status": "proposed",
+      "case_file_sha256": "2a4f95590d97022891c1bf72799d42942133f3c9fdd0994ecae15d7c5076e892",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0004": {
+      "status": "proposed",
+      "case_file_sha256": "2bb580f991d6174eb8f3cd81a814804bc0ad3e24f9389a56a36c83119ef538aa",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0005": {
+      "status": "proposed",
+      "case_file_sha256": "fd51806aa171f70ea7e84fc3776c01296ecf2a2128e37f3b5e914277b3d7f972",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0006": {
+      "status": "proposed",
+      "case_file_sha256": "73eadd33e652df08d81603658803376ddc4f5a2f2c77326606d6ab7a3652a26b",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "constraints": {
+        "day_pillar": "甲子",
+        "source_chart_description": "甲辰年丙寅月甲子日己巳时（题干原载，未核验）",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0007": {
+      "status": "proposed",
+      "case_file_sha256": "56c8da7a0ceb48f89c03faba895c768948bd262a87fe6e37687486db13f84b04",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0008": {
+      "status": "proposed",
+      "case_file_sha256": "374a45566925d5325c2e59c8bd93ebf0e08ff4b24970b12b0e6138f8d3af35df",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0009": {
+      "status": "proposed",
+      "case_file_sha256": "b19ce14d88e1c952b0ec70a64dac138e25506d4edf3511fff0a62ff5bf494bc9",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0010": {
+      "status": "proposed",
+      "case_file_sha256": "47ebdf81563d215218b7c9affe193ef46c6f3a5a34d8720710da8a1e4afa2c35",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0011": {
+      "status": "proposed",
+      "case_file_sha256": "8461c0e93fa3dfc7543a31c211eed3fafc53c1e3cc66386802b7486a4f2a52a1",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0012": {
+      "status": "proposed",
+      "case_file_sha256": "e3d4845de74a2bc22a9847b706bc83ada00b01c013b27783cd4327fbe5171030",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0013": {
+      "status": "proposed",
+      "case_file_sha256": "852f8c92e5fa940f03815119653c052072a6ef91c17e38a9b2b37347f8e9b366",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0014": {
+      "status": "proposed",
+      "case_file_sha256": "306c1129bdd120f2ef7b3ab0b1a6841a5fab64df3284d6ae1ef65c7314e6d028",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0015": {
+      "status": "proposed",
+      "case_file_sha256": "e957ec60fc6a7034ce196661f8753f6d80dee5810bf7d0dd30d60483e067464e",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0016": {
+      "status": "proposed",
+      "case_file_sha256": "1e4b6a2c260ef6aa2c0319496f609f9b43849b121a74c25ea64a9e3aab708337",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0017": {
+      "status": "proposed",
+      "case_file_sha256": "961deb963099cd38542a4cc2b5f08cf45756ee546193c4f63c5abf9ae3d5c728",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0018": {
+      "status": "proposed",
+      "case_file_sha256": "5fbcd9c7197ebabab96ac5c93af135464e692f8f6e9f6b1f0da03692425b6a99",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0019": {
+      "status": "proposed",
+      "case_file_sha256": "6c93a97c6106421de05a315bbda2a7087914b7823d74d49793d8a032a59b5b74",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0020": {
+      "status": "proposed",
+      "case_file_sha256": "64c7b9f7afb76ae54fa28cb96b75c044a0e823c8dfcef684350c358202cd181d",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    },
+    "raw-anli002-0021": {
+      "status": "proposed",
+      "case_file_sha256": "a0b879a28748a872354f384d72f10f72265b756ce98184077c49742a413eb81a",
+      "datetime": null,
+      "method": null,
+      "evidence": "",
+      "reviewed_by": "",
+      "candidate_dates": [],
+      "missing_fields": [],
+      "constraints": {
+        "day_pillar": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      }
+    }
+  }
+}

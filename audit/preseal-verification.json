@@ -1,0 +1,7 @@
+{
+  "source_files_checked": 20330,
+  "source_export_hash_issues": [],
+  "strong_credential_pattern_findings": [],
+  "ok": true,
+  "scope": "source files export hashes and strong credential patterns; exclusions checked across package; no model calls"
+}

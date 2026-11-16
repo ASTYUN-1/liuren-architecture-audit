@@ -1,0 +1,33 @@
+{
+  "started": "2026-11-09T17:32:02.561852+00:00",
+  "previous": "/opt/wenheng/releases/20261102-workflow-optimization-01",
+  "backup": "Result=success\nExecMainExitTimestamp=Tue 2026-11-10 01:32:02 CST\nExecMainStatus=0",
+  "release": "/opt/wenheng/releases/20261110-opencode40-02",
+  "resources": "/opt/wenheng/resource-releases/20261110-opencode40-01",
+  "workflow": "20261109-direct-answer-40",
+  "main": "deepseek/deepseek-flash",
+  "child": "conpera/gpt-6.1-sol",
+  "reasoning": "high",
+  "libraries": false,
+  "services": "active",
+  "buildId": "Dmk3i7GUDN5KmVOntyC5F",
+  "health": {
+    "data": {
+      "aggregatePaymentsEnabled": false,
+      "paymentsEnabled": true,
+      "aiEnabled": true,
+      "workerOnline": true,
+      "paymentQrUrl": "/uploads/payment/alipay-b912d4de45d8.jpg",
+      "paymentQrIsPlaceholder": false,
+      "overseasPaymentsEnabled": false,
+      "smtpConfigured": true,
+      "resultNotificationsEnabled": true,
+      "modelConfigured": true,
+      "paymentUnavailableReason": null,
+      "aiUnavailableReason": null
+    }
+  },
+  "finished": "2026-11-09T17:32:05.304449+00:00",
+  "initialRelease": "/opt/wenheng/releases/20261110-opencode40-01",
+  "gatewayUsageValidation": true
+}

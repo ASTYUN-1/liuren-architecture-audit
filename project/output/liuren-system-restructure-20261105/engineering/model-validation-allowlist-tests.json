@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "request": {
+        "action": "method",
+        "module": "void"
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "read",
+        "path": "runtime/liuren/20261105-restructure-E0-candidate/references/void-method-conditions.md",
+        "start": 1,
+        "count": 100
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "retrieve",
+        "case_query": "x",
+        "experience_query": "x"
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "shensha",
+        "path": "x"
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "method",
+        "module": "liqi"
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "read",
+        "path": "案例项目库/x.md"
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "read",
+        "path": "../AGENTS.md"
+      },
+      "pass_": true
+    },
+    {
+      "request": {
+        "action": "read",
+        "path": "runtime/liuren/20261105-restructure-E0-candidate/references/void-method-conditions.md",
+        "start": 101,
+        "count": 100
+      },
+      "pass_": true
+    }
+  ],
+  "passed": 8,
+  "modelRequests": 0
+}

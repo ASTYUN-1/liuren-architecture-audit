@@ -1,0 +1,2299 @@
+{
+  "exitCode": 0,
+  "requests": [
+    {
+      "path": "/v1/chat/completions",
+      "tools": [
+        {
+          "name": "liuren_adjudication_packet",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "packet": {
+                "type": "object",
+                "properties": {
+                  "schema": {
+                    "type": "string",
+                    "const": "liuren-adjudication-input-v2"
+                  },
+                  "request_id": {
+                    "description": "1..128 ASCII字母数字/_/-，首位字母或数字；日期开头和UUID均可，如20261106-liuren-01；不含路径分隔符",
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
+                  },
+                  "questions": {
+                    "minItems": 1,
+                    "maxItems": 12,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "subject": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "domain": {
+                          "description": "本版必填，本子问对应的分类占模块；必须实际读过当前版全文",
+                          "type": "string",
+                          "enum": [
+                            "finance",
+                            "recruitment",
+                            "promotion-salary",
+                            "relationship",
+                            "interpersonal",
+                            "period-outlook",
+                            "long-period",
+                            "pregnancy",
+                            "exam",
+                            "illness",
+                            "lost-person-object",
+                            "classical-conflict",
+                            "home",
+                            "travel",
+                            "weather",
+                            "agriculture"
+                          ]
+                        },
+                        "actor_entity_id": {
+                          "description": "仅兼容旧交接，可省略；事件当事对象和干支取用由模型依原问及分类专法判断，程序不绑定",
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "stage": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "deadline": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "success_criteria": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "alternatives": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "tasks": {
+                          "description": "必填，只声明原问要求或判断该问必需的任务；给了占时不等于问应期",
+                          "minItems": 1,
+                          "maxItems": 3,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "outcome",
+                              "timing",
+                              "quantity"
+                            ]
+                          }
+                        },
+                        "task_basis": {
+                          "description": "每个task一条依据：原问明确要求填user_requested和逐字request_quote；必要附属任务填necessary及具体理由，不为完整性默认加应期/取数",
+                          "minItems": 1,
+                          "maxItems": 3,
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "task": {
+                                "type": "string",
+                                "enum": [
+                                  "outcome",
+                                  "timing",
+                                  "quantity"
+                                ]
+                              },
+                              "origin": {
+                                "type": "string",
+                                "enum": [
+                                  "user_requested",
+                                  "necessary"
+                                ]
+                              },
+                              "request_quote": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 16000,
+                                "pattern": "\\S"
+                              },
+                              "reason": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "required": [
+                              "task",
+                              "origin",
+                              "reason"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "text",
+                        "subject",
+                        "stage",
+                        "deadline",
+                        "success_criteria",
+                        "alternatives",
+                        "tasks",
+                        "task_basis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "chart": {
+                    "description": "优先用archive：原样填liuren_chart返回的archive.path和archive.sha256，程序直接读可靠盘，不手抄盘。无归档时才原样复制完整facts；不要重组或混入旺衰解释。两种形式只能选一种。",
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "archive": {
+                            "type": "object",
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "source",
+                          "archive"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "facts": {
+                            "type": "object",
+                            "properties": {
+                              "schema": {
+                                "description": "内层课盘schema，必须连同完整facts原样复制，不能只给外层schema",
+                                "type": "string",
+                                "const": "liuren-chart-facts-v1"
+                              },
+                              "pillars": {
+                                "minItems": 4,
+                                "maxItems": 4,
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "day_stem": {
+                                "type": "string"
+                              },
+                              "day_branch": {
+                                "type": "string"
+                              },
+                              "month_branch": {
+                                "type": "string"
+                              },
+                              "hour_branch": {
+                                "type": "string"
+                              },
+                              "month_general": {
+                                "type": "string"
+                              },
+                              "void_branches": {
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "heaven_earth": {
+                                "minItems": 12,
+                                "maxItems": 12,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "di": {
+                                      "type": "string"
+                                    },
+                                    "tian": {
+                                      "type": "string"
+                                    },
+                                    "tianjiang": {
+                                      "type": "string"
+                                    },
+                                    "shensha": {},
+                                    "nayin": {},
+                                    "xungan": {}
+                                  },
+                                  "required": [
+                                    "di",
+                                    "tian",
+                                    "tianjiang"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              },
+                              "lessons": {
+                                "minItems": 4,
+                                "maxItems": 4,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "index": {
+                                      "type": "integer",
+                                      "minimum": -9007199254740991,
+                                      "maximum": 9007199254740991
+                                    },
+                                    "tianpan": {
+                                      "type": "string"
+                                    },
+                                    "dizhi": {
+                                      "type": "string"
+                                    },
+                                    "tianjiang": {
+                                      "type": "string"
+                                    },
+                                    "name": {}
+                                  },
+                                  "required": [
+                                    "index",
+                                    "tianpan",
+                                    "dizhi",
+                                    "tianjiang"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              },
+                              "transmissions": {
+                                "minItems": 3,
+                                "maxItems": 3,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "index": {
+                                      "type": "integer",
+                                      "minimum": -9007199254740991,
+                                      "maximum": 9007199254740991
+                                    },
+                                    "diZhi": {
+                                      "type": "string"
+                                    },
+                                    "tianjiang": {
+                                      "type": "string"
+                                    },
+                                    "liuqin": {
+                                      "type": "string"
+                                    },
+                                    "name": {},
+                                    "tianGan": {},
+                                    "status": {},
+                                    "earth_position": {}
+                                  },
+                                  "required": [
+                                    "index",
+                                    "diZhi",
+                                    "tianjiang",
+                                    "liuqin"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              },
+                              "year_pillar": {},
+                              "month_pillar": {},
+                              "day_pillar": {},
+                              "hour_pillar": {},
+                              "xun": {},
+                              "event_datetime": {},
+                              "lunar": {},
+                              "transmission_sequence": {},
+                              "chart_types": {},
+                              "participants": {},
+                              "year_life_verified": {},
+                              "declared_life": {},
+                              "nobleman": {},
+                              "growth": {},
+                              "seasonal_strength": {}
+                            },
+                            "required": [
+                              "schema",
+                              "pillars",
+                              "day_stem",
+                              "day_branch",
+                              "month_branch",
+                              "hour_branch",
+                              "month_general",
+                              "void_branches",
+                              "heaven_earth",
+                              "lessons",
+                              "transmissions"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "source",
+                          "facts"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  },
+                  "facts": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "source": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1200,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "text",
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "entities": {
+                    "minItems": 1,
+                    "maxItems": 40,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "question_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "referent": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "branch": {
+                          "description": "仅单干支、纯支组合如未卯亥，或辛（寄宫戌）；其他说明放mapping_basis，日干不能改成寄宫支",
+                          "type": "string",
+                          "pattern": "^(?:[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678]|[\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]{1,12}|[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\uFF08(]\\u5BC4\\u5BAB[\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5][\\uFF09)])$"
+                        },
+                        "position": {
+                          "description": "省略或@program；由程序生成坐标",
+                          "type": "string"
+                        },
+                        "mapping_basis": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "question_ids",
+                        "referent",
+                        "branch",
+                        "mapping_basis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "observations": {
+                    "maxItems": 80,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "entity_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "five_qi",
+                            "twelve_states",
+                            "relation",
+                            "void",
+                            "shenjiang",
+                            "structure",
+                            "movement",
+                            "special_method"
+                          ]
+                        },
+                        "statement": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "reference": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "source": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1200,
+                          "pattern": "\\S"
+                        },
+                        "verification": {
+                          "type": "string",
+                          "enum": [
+                            "method_interpretation",
+                            "unverified"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "entity_ids",
+                        "kind",
+                        "statement",
+                        "reference",
+                        "source",
+                        "verification"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "method_materials": {
+                    "description": "当前runtime方法可只传id/title/source_path及已知sha256，程序校manifest并读取完整正文；书籍传准确line_start/line_end/line_mode，优先复用liuren_compute source或检索返回范围。保留原文，不抄摘要。应期取数全文由tasks自动装入。报错只修指出的字段，不删facts/observations/focus_issues/unknowns做探针。",
+                    "maxItems": 40,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "source_path": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "quote": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 16000,
+                          "pattern": "\\S"
+                        },
+                        "line_start": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "line_end": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "line_mode": {
+                          "type": "string",
+                          "enum": [
+                            "lf",
+                            "universal"
+                          ]
+                        },
+                        "sha256": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "source_path"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "focus_issues": {
+                    "description": "只列可能改变本问答案、精度或关键取用的中性争点，引用现有观察ID；不传初判或排序；无争点填[]，不凑正反。",
+                    "maxItems": 12,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "question_ids": {
+                          "minItems": 1,
+                          "maxItems": 12,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "entity_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "observation_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "question": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 2000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "question_ids",
+                        "entity_ids",
+                        "observation_ids",
+                        "question"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "unknowns": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 6000,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "computation_requests": {
+                    "description": "保存已有程序计算请求；calendar及expression字段与liuren_compute完全相同",
+                    "maxItems": 30,
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^C_[A-Za-z0-9_-]+$"
+                            },
+                            "action": {
+                              "type": "string",
+                              "const": "calendar"
+                            },
+                            "calendar": {
+                              "description": "calendar须含start、end（YYYY-MM-DD）、timezone=\"Asia/Shanghai\"、day_boundary=\"civil-midnight\"（00:00换日）或\"zi-hour\"（23:00换日）。day_boundary是枚举字符串，不是\"midnight\"、\"00:00\"或对象。最小调用：{\"action\":\"calendar\",\"calendar\":{\"start\":\"2024-01-15\",\"end\":\"2024-02-05\",\"timezone\":\"Asia/Shanghai\",\"day_boundary\":\"civil-midnight\"}}。示例日期只示范结构，实际范围按本问确定。按字段错误更正，不猜参数、不手算公历代替程序。",
+                              "type": "object",
+                              "properties": {
+                                "start": {
+                                  "description": "枚举起点，含当天。字段名start",
+                                  "type": "string",
+                                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                },
+                                "end": {
+                                  "description": "枚举终点，含当天。单次最多732天",
+                                  "type": "string",
+                                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                },
+                                "timezone": {
+                                  "description": "必须显式填写Asia/Shanghai；不使用系统本地时区",
+                                  "type": "string",
+                                  "const": "Asia/Shanghai"
+                                },
+                                "day_boundary": {
+                                  "description": "必填字符串：civil-midnight=00:00换日；zi-hour=23:00换日。禁止midnight、00:00或对象",
+                                  "type": "string",
+                                  "enum": [
+                                    "civil-midnight",
+                                    "zi-hour"
+                                  ]
+                                },
+                                "branches": {
+                                  "description": "可选，按日支筛选；不指定则列全部日期",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string",
+                                    "enum": [
+                                      "子",
+                                      "丑",
+                                      "寅",
+                                      "卯",
+                                      "辰",
+                                      "巳",
+                                      "午",
+                                      "未",
+                                      "申",
+                                      "酉",
+                                      "戌",
+                                      "亥"
+                                    ]
+                                  }
+                                },
+                                "pillars": {
+                                  "description": "可选，按完整日柱筛选，例如辛巳；程序再核六十甲子有效性",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string",
+                                    "pattern": "^[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]$"
+                                  }
+                                },
+                                "hour": {
+                                  "description": "每日取样小时，默认12；23点结果须按显式换日口径解释",
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 23
+                                },
+                                "minute": {
+                                  "description": "取样分钟，默认0",
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 59
+                                }
+                              },
+                              "required": [
+                                "start",
+                                "end",
+                                "timezone",
+                                "day_boundary"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "action",
+                            "calendar"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^C_[A-Za-z0-9_-]+$"
+                            },
+                            "action": {
+                              "type": "string",
+                              "const": "quantity"
+                            },
+                            "expression": {
+                              "description": "算式节点三选一：{value:6}；{table:\"branch\",symbol:\"丑\"}；{op:\"multiply\",args:[{table:\"branch\",symbol:\"丑\"},{value:6}]}。args每项仍按这三种节点格式，可继续嵌套；程序逐层严格校验，限制深度12/节点100。无统一天将数表，不猜腾蛇数。",
+                              "anyOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "value": {
+                                      "type": "number",
+                                      "minimum": -1000000000000,
+                                      "maximum": 1000000000000
+                                    }
+                                  },
+                                  "required": [
+                                    "value"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "table": {
+                                      "type": "string",
+                                      "enum": [
+                                        "branch",
+                                        "stem",
+                                        "sheng",
+                                        "cheng"
+                                      ]
+                                    },
+                                    "symbol": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 4
+                                    }
+                                  },
+                                  "required": [
+                                    "table",
+                                    "symbol"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "op": {
+                                      "type": "string",
+                                      "enum": [
+                                        "add",
+                                        "subtract",
+                                        "multiply",
+                                        "divide"
+                                      ]
+                                    },
+                                    "args": {
+                                      "minItems": 2,
+                                      "maxItems": 20,
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "propertyNames": {
+                                          "type": "string"
+                                        },
+                                        "additionalProperties": {}
+                                      }
+                                    }
+                                  },
+                                  "required": [
+                                    "op",
+                                    "args"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "action",
+                            "expression"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "retry_context": {
+                    "description": "仅needs_input或具体事实/引用错误且新增材料时一次补核；错误需给原报告/实体或关系/字段路径error_path；格式错误不能重派",
+                    "type": "object",
+                    "properties": {
+                      "previous_task_id": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                      },
+                      "reason": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 6000,
+                        "pattern": "\\S"
+                      },
+                      "error_path": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 6000,
+                        "pattern": "\\S"
+                      }
+                    },
+                    "required": [
+                      "previous_task_id",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "schema",
+                  "request_id",
+                  "questions",
+                  "chart",
+                  "facts",
+                  "entities",
+                  "observations",
+                  "method_materials",
+                  "focus_issues",
+                  "unknowns"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "packet"
+            ]
+          }
+        },
+        {
+          "name": "liuren_adjudication_read",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "file_path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string"
+              },
+              "page": {
+                "default": 1,
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "file_path",
+              "sha256"
+            ]
+          }
+        },
+        {
+          "name": "liuren_adjudication_result",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "task_id": {
+                "description": "仅用task返回回执中的子会话ID，不用request_id/文件UUID/hash；省略时只在当前主会话恰有一个已保存结果时自动定位",
+                "type": "string"
+              },
+              "action": {
+                "type": "string",
+                "enum": [
+                  "locate",
+                  "read",
+                  "repair",
+                  "deliver"
+                ]
+              }
+            },
+            "required": [
+              "action"
+            ]
+          }
+        },
+        {
+          "name": "liuren_adjudication_submit",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "result": {
+                "type": "object",
+                "properties": {
+                  "schema": {
+                    "type": "string",
+                    "const": "liuren-adjudication-output-v2"
+                  },
+                  "request_id": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "completed",
+                      "needs_input"
+                    ]
+                  },
+                  "scope_review": {
+                    "type": "object",
+                    "properties": {
+                      "question_ids": {
+                        "maxItems": 100,
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "mapping_status": {
+                        "type": "string",
+                        "enum": [
+                          "confirmed",
+                          "corrected",
+                          "needs_input"
+                        ]
+                      },
+                      "added_entity_ids": {
+                        "maxItems": 100,
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "corrections": {
+                        "maxItems": 100,
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "omission_check": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 6000,
+                        "pattern": "\\S"
+                      }
+                    },
+                    "required": [
+                      "question_ids",
+                      "mapping_status",
+                      "added_entity_ids",
+                      "corrections",
+                      "omission_check"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "entity_checks": {
+                    "maxItems": 60,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "referent": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "branch": {
+                          "description": "仅干支/纯支组合/戊（寄宫巳），注释放mapping_review",
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "allOf": [
+                            {
+                              "pattern": "\\S"
+                            },
+                            {
+                              "pattern": "^(?:[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678]|[\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]{1,12}|[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\uFF08(]\\u5BC4\\u5BAB[\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5][\\uFF09)])$"
+                            }
+                          ]
+                        },
+                        "mapping_review": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "limits": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "referent",
+                        "branch",
+                        "mapping_review",
+                        "limits"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "relation_checks": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "from": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "to": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "relation": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "validity": {
+                          "type": "string",
+                          "enum": [
+                            "effective",
+                            "limited",
+                            "ineffective",
+                            "unresolved"
+                          ]
+                        },
+                        "basis_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "effect_scope": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "application": {
+                          "type": "object",
+                          "properties": {
+                            "object": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            },
+                            "mechanism": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            },
+                            "stage": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            },
+                            "goal_effect": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            },
+                            "alternative_resolution": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            }
+                          },
+                          "required": [
+                            "object",
+                            "mechanism",
+                            "stage",
+                            "goal_effect",
+                            "alternative_resolution"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "from",
+                        "to",
+                        "relation",
+                        "validity",
+                        "basis_ids",
+                        "reason",
+                        "effect_scope"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "issue_resolutions": {
+                    "maxItems": 12,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "issue_id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "resolved",
+                            "unresolved"
+                          ]
+                        },
+                        "relation_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "resolution": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "limits": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        }
+                      },
+                      "required": [
+                        "issue_id",
+                        "status",
+                        "relation_ids",
+                        "resolution",
+                        "limits"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "answers": {
+                    "minItems": 1,
+                    "maxItems": 12,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "question_id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                        },
+                        "verdict": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "precision": {
+                          "type": "string",
+                          "enum": [
+                            "exact",
+                            "direction",
+                            "unresolved"
+                          ]
+                        },
+                        "decisive_relation_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "counter_relation_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "counter_resolution": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "process": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "timing": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "conditions": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "limits": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        }
+                      },
+                      "required": [
+                        "question_id",
+                        "verdict",
+                        "precision",
+                        "decisive_relation_ids",
+                        "counter_relation_ids",
+                        "counter_resolution",
+                        "process",
+                        "timing",
+                        "conditions",
+                        "limits"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "source_conflicts": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "basis_ids": {
+                          "maxItems": 100,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 6000,
+                            "pattern": "\\S"
+                          }
+                        },
+                        "issue": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        },
+                        "resolution": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 6000,
+                          "pattern": "\\S"
+                        }
+                      },
+                      "required": [
+                        "basis_ids",
+                        "issue",
+                        "resolution"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "missing_inputs": {
+                    "maxItems": 100,
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 6000,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "special_methods": {
+                    "maxItems": 24,
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "question_id": {
+                              "type": "string",
+                              "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                            },
+                            "status": {
+                              "type": "string",
+                              "enum": [
+                                "completed",
+                                "unresolved"
+                              ]
+                            },
+                            "target": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            },
+                            "basis_ids": {
+                              "description": "只填E01-E22或M方法来源；盘面/观察放fact_ids",
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "fact_ids": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "calculation_ids": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "alternatives": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "limits": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "kind": {
+                              "type": "string",
+                              "const": "timing"
+                            },
+                            "record": {
+                              "type": "object",
+                              "properties": {
+                                "event": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "stage": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "scale": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "start": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "count_rule": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "trigger": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "selected_method": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "round_comparison": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "candidates": {
+                                  "maxItems": 732,
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "date": {
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "maxLength": 6000,
+                                        "pattern": "\\S"
+                                      },
+                                      "day": {
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "maxLength": 6000,
+                                        "pattern": "\\S"
+                                      },
+                                      "event": {
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "maxLength": 6000,
+                                        "pattern": "\\S"
+                                      }
+                                    },
+                                    "required": [
+                                      "date",
+                                      "day",
+                                      "event"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                }
+                              },
+                              "required": [
+                                "event",
+                                "stage",
+                                "scale",
+                                "start",
+                                "count_rule",
+                                "trigger",
+                                "selected_method",
+                                "round_comparison"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "question_id",
+                            "status",
+                            "target",
+                            "basis_ids",
+                            "calculation_ids",
+                            "alternatives",
+                            "limits",
+                            "kind",
+                            "record"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "question_id": {
+                              "type": "string",
+                              "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                            },
+                            "status": {
+                              "type": "string",
+                              "enum": [
+                                "completed",
+                                "unresolved"
+                              ]
+                            },
+                            "target": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 6000,
+                              "pattern": "\\S"
+                            },
+                            "basis_ids": {
+                              "description": "只填E01-E22或M方法来源；盘面/观察放fact_ids",
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "fact_ids": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "calculation_ids": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "alternatives": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "limits": {
+                              "maxItems": 100,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 6000,
+                                "pattern": "\\S"
+                              }
+                            },
+                            "kind": {
+                              "type": "string",
+                              "const": "quantity"
+                            },
+                            "record": {
+                              "type": "object",
+                              "properties": {
+                                "object": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "position": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "number_table": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "operation": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "adjustments": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "magnitude": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "unit": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "precision": {
+                                  "type": "string",
+                                  "minLength": 1,
+                                  "maxLength": 6000,
+                                  "pattern": "\\S"
+                                },
+                                "value": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "object",
+                                "position",
+                                "number_table",
+                                "operation",
+                                "adjustments",
+                                "magnitude",
+                                "unit",
+                                "precision"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "question_id",
+                            "status",
+                            "target",
+                            "basis_ids",
+                            "calculation_ids",
+                            "alternatives",
+                            "limits",
+                            "kind",
+                            "record"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "calculations": {
+                    "maxItems": 30,
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^C_[A-Za-z0-9_-]+$"
+                            },
+                            "action": {
+                              "type": "string",
+                              "const": "calendar"
+                            },
+                            "calendar": {
+                              "description": "calendar须含start、end（YYYY-MM-DD）、timezone=\"Asia/Shanghai\"、day_boundary=\"civil-midnight\"（00:00换日）或\"zi-hour\"（23:00换日）。day_boundary是枚举字符串，不是\"midnight\"、\"00:00\"或对象。最小调用：{\"action\":\"calendar\",\"calendar\":{\"start\":\"2024-01-15\",\"end\":\"2024-02-05\",\"timezone\":\"Asia/Shanghai\",\"day_boundary\":\"civil-midnight\"}}。示例日期只示范结构，实际范围按本问确定。按字段错误更正，不猜参数、不手算公历代替程序。",
+                              "type": "object",
+                              "properties": {
+                                "start": {
+                                  "description": "枚举起点，含当天。字段名start",
+                                  "type": "string",
+                                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                },
+                                "end": {
+                                  "description": "枚举终点，含当天。单次最多732天",
+                                  "type": "string",
+                                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                                },
+                                "timezone": {
+                                  "description": "必须显式填写Asia/Shanghai；不使用系统本地时区",
+                                  "type": "string",
+                                  "const": "Asia/Shanghai"
+                                },
+                                "day_boundary": {
+                                  "description": "必填字符串：civil-midnight=00:00换日；zi-hour=23:00换日。禁止midnight、00:00或对象",
+                                  "type": "string",
+                                  "enum": [
+                                    "civil-midnight",
+                                    "zi-hour"
+                                  ]
+                                },
+                                "branches": {
+                                  "description": "可选，按日支筛选；不指定则列全部日期",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string",
+                                    "enum": [
+                                      "子",
+                                      "丑",
+                                      "寅",
+                                      "卯",
+                                      "辰",
+                                      "巳",
+                                      "午",
+                                      "未",
+                                      "申",
+                                      "酉",
+                                      "戌",
+                                      "亥"
+                                    ]
+                                  }
+                                },
+                                "pillars": {
+                                  "description": "可选，按完整日柱筛选，例如辛巳；程序再核六十甲子有效性",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string",
+                                    "pattern": "^[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]$"
+                                  }
+                                },
+                                "hour": {
+                                  "description": "每日取样小时，默认12；23点结果须按显式换日口径解释",
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 23
+                                },
+                                "minute": {
+                                  "description": "取样分钟，默认0",
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 59
+                                }
+                              },
+                              "required": [
+                                "start",
+                                "end",
+                                "timezone",
+                                "day_boundary"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "action",
+                            "calendar"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^C_[A-Za-z0-9_-]+$"
+                            },
+                            "action": {
+                              "type": "string",
+                              "const": "quantity"
+                            },
+                            "expression": {
+                              "description": "算式节点三选一：{value:6}；{table:\"branch\",symbol:\"丑\"}；{op:\"multiply\",args:[{table:\"branch\",symbol:\"丑\"},{value:6}]}。args每项仍按这三种节点格式，可继续嵌套；程序逐层严格校验，限制深度12/节点100。无统一天将数表，不猜腾蛇数。",
+                              "anyOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "value": {
+                                      "type": "number",
+                                      "minimum": -1000000000000,
+                                      "maximum": 1000000000000
+                                    }
+                                  },
+                                  "required": [
+                                    "value"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "table": {
+                                      "type": "string",
+                                      "enum": [
+                                        "branch",
+                                        "stem",
+                                        "sheng",
+                                        "cheng"
+                                      ]
+                                    },
+                                    "symbol": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 4
+                                    }
+                                  },
+                                  "required": [
+                                    "table",
+                                    "symbol"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "op": {
+                                      "type": "string",
+                                      "enum": [
+                                        "add",
+                                        "subtract",
+                                        "multiply",
+                                        "divide"
+                                      ]
+                                    },
+                                    "args": {
+                                      "minItems": 2,
+                                      "maxItems": 20,
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "propertyNames": {
+                                          "type": "string"
+                                        },
+                                        "additionalProperties": {}
+                                      }
+                                    }
+                                  },
+                                  "required": [
+                                    "op",
+                                    "args"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "action",
+                            "expression"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "schema",
+                  "request_id",
+                  "status",
+                  "scope_review",
+                  "entity_checks",
+                  "relation_checks",
+                  "issue_resolutions",
+                  "answers",
+                  "source_conflicts",
+                  "missing_inputs",
+                  "special_methods",
+                  "calculations"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "result"
+            ]
+          }
+        },
+        {
+          "name": "liuren_compute",
+          "parameters": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "type": "object",
+            "properties": {
+              "action": {
+                "description": "calendar必须给calendar对象；quantity必须给expression；source给source；lookup给lookup；life给life",
+                "type": "string",
+                "enum": [
+                  "chart",
+                  "lookup",
+                  "calendar",
+                  "quantity",
+                  "life",
+                  "source"
+                ]
+              },
+              "archive": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "additionalProperties": false
+              },
+              "symbols": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "lookup": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string"
+                  },
+                  "place": {
+                    "type": "string"
+                  },
+                  "reference": {
+                    "type": "string"
+                  },
+                  "profile": {
+                    "type": "string",
+                    "enum": [
+                      "four-seasons",
+                      "quarter-earth"
+                    ]
+                  }
+                },
+                "required": [
+                  "subject"
+                ],
+                "additionalProperties": false
+              },
+              "calendar": {
+                "description": "calendar须含start、end（YYYY-MM-DD）、timezone=\"Asia/Shanghai\"、day_boundary=\"civil-midnight\"（00:00换日）或\"zi-hour\"（23:00换日）。day_boundary是枚举字符串，不是\"midnight\"、\"00:00\"或对象。最小调用：{\"action\":\"calendar\",\"calendar\":{\"start\":\"2024-01-15\",\"end\":\"2024-02-05\",\"timezone\":\"Asia/Shanghai\",\"day_boundary\":\"civil-midnight\"}}。示例日期只示范结构，实际范围按本问确定。按字段错误更正，不猜参数、不手算公历代替程序。",
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "description": "枚举起点，含当天。字段名start",
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "end": {
+                    "description": "枚举终点，含当天。单次最多732天",
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "timezone": {
+                    "description": "必须显式填写Asia/Shanghai；不使用系统本地时区",
+                    "type": "string",
+                    "const": "Asia/Shanghai"
+                  },
+                  "day_boundary": {
+                    "description": "必填字符串：civil-midnight=00:00换日；zi-hour=23:00换日。禁止midnight、00:00或对象",
+                    "type": "string",
+                    "enum": [
+                      "civil-midnight",
+                      "zi-hour"
+                    ]
+                  },
+                  "branches": {
+                    "description": "可选，按日支筛选；不指定则列全部日期",
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "子",
+                        "丑",
+                        "寅",
+                        "卯",
+                        "辰",
+                        "巳",
+                        "午",
+                        "未",
+                        "申",
+                        "酉",
+                        "戌",
+                        "亥"
+                      ]
+                    }
+                  },
+                  "pillars": {
+                    "description": "可选，按完整日柱筛选，例如辛巳；程序再核六十甲子有效性",
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[\\u7532\\u4E59\\u4E19\\u4E01\\u620A\\u5DF1\\u5E9A\\u8F9B\\u58EC\\u7678][\\u5B50\\u4E11\\u5BC5\\u536F\\u8FB0\\u5DF3\\u5348\\u672A\\u7533\\u9149\\u620C\\u4EA5]$"
+                    }
+                  },
+                  "hour": {
+                    "description": "每日取样小时，默认12；23点结果须按显式换日口径解释",
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 23
+                  },
+                  "minute": {
+                    "description": "取样分钟，默认0",
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 59
+                  }
+                },
+                "required": [
+                  "start",
+                  "end",
+                  "timezone",
+                  "day_boundary"
+                ],
+                "additionalProperties": false
+              },
+              "expression": {
+                "description": "算式节点三选一：{value:6}；{table:\"branch\",symbol:\"丑\"}；{op:\"multiply\",args:[{table:\"branch\",symbol:\"丑\"},{value:6}]}。args每项仍按这三种节点格式，可继续嵌套；程序逐层严格校验，限制深度12/节点100。无统一天将数表，不猜腾蛇数。",
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "number",
+                        "minimum": -1000000000000,
+                        "maximum": 1000000000000
+                      }
+                    },
+                    "required": [
+                      "value"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "table": {
+                        "type": "string",
+                        "enum": [
+                          "branch",
+                          "stem",
+                          "sheng",
+                          "cheng"
+                        ]
+                      },
+                      "symbol": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 4
+                      }
+                    },
+                    "required": [
+                      "table",
+                      "symbol"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "enum": [
+                          "add",
+                          "subtract",
+                          "multiply",
+                          "divide"
+                        ]
+                      },
+                      "args": {
+                        "minItems": 2,
+                        "maxItems": 20,
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "propertyNames": {
+                            "type": "string"
+                          },
+                          "additionalProperties": {}
+                        }
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "args"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "life": {
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "sex": {
+                    "type": "string",
+                    "enum": [
+                      "男",
+                      "女"
+                    ]
+                  },
+                  "age_basis": {
+                    "type": "string",
+                    "const": "虚岁-已核"
+                  },
+                  "birth_pillar": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "age",
+                  "sex",
+                  "age_basis"
+                ],
+                "additionalProperties": false
+              },
+              "source": {
+                "description": "当前runtime方法可省略行界，程序核manifest并装入全文；书籍必须给line_start/line_end/line_mode",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "source_path": {
+                    "type": "string"
+                  },
+                  "line_start": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 9007199254740991
+                  },
+                  "line_end": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 9007199254740991
+                  },
+                  "line_mode": {
+                    "type": "string",
+                    "enum": [
+                      "lf",
+                      "universal"
+                    ]
+                  },
+                  "sha256": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "source_path"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "action"
+            ]
+          }
+        }
+      ],
+      "referenceErrors": []
+    }
+  ],
+  "loopbackOnlyProvider": true,
+  "realModelCalled": false,
+  "implementationSha256": {
+    "tools/liuren-compute-schema.mjs": "b4e81b36a031f7c129eaba8d8bb7a3cb94b773d569304b25d535932e3ae30007",
+    ".opencode/plugins/liuren-adjudication.ts": "df54c6675096c73199b576368eab0545d12d8d8e903f254a339236af336998de",
+    "tools/liuren-adjudication-output.mjs": "a7af5c6b5d7b66c0c792a3a0e1114bf18845e2ac9e455193aece8b5165c7d087",
+    "tools/liuren-flow-control.mjs": "bbdf2cf25bb846480b8af5ce2e8d5a1b973bfb2091de13ec3f6f5b5919dcc892",
+    "tools/liuren-adjudication-schema.mjs": "396fab36eded521b95cf4ae40d6bfee0542b443f3d3c0732b8d19acedcb27ddb",
+    "tools/liuren-adjudication-contract.mjs": "b28c2d80ddd943c00eec0af276c1c75d251b1b067a1e52c008fb0610edcf1b52",
+    "tools/liuren-deterministic-io.mjs": "8212df5cf9d6a58212fd9547eedae682328397f96139245d2f894adccab777fa"
+  }
+}

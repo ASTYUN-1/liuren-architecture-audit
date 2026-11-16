@@ -1,0 +1,63 @@
+{
+  "release": "20261106-natural-positioning-16",
+  "runtime": "runtime/liuren/20261106-natural-positioning-16",
+  "checks": {
+    "live": {
+      "count": 18,
+      "mismatches": []
+    },
+    "candidateLive": {
+      "count": 17,
+      "mismatches": []
+    },
+    "runtime": {
+      "count": 103,
+      "mismatches": []
+    },
+    "candidateRuntime": {
+      "count": 103,
+      "mismatches": []
+    },
+    "parentRuntimeUnchanged": {
+      "count": 102,
+      "mismatches": []
+    },
+    "backups": {
+      "count": 18,
+      "mismatches": []
+    },
+    "activeImplementations": {
+      "count": 22,
+      "mismatches": []
+    },
+    "entryMatchesSkill": true,
+    "adjudicatorPromptMatches": true,
+    "doctorBaselineErrorUnchanged": true
+  },
+  "nodeTests": {
+    "passed": 132,
+    "failed": 0
+  },
+  "singleMethodTests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "semanticRoleChecks": false,
+  "extraModelCallsAdded": 0,
+  "externalModelCalled": false,
+  "predictiveValidationCount": 0,
+  "globalDoctorOk": false,
+  "skillQuickValidate": "not-rerun-missing-PyYAML",
+  "restartOpenCodeRequired": true,
+  "evidenceSha256": {
+    "activation-receipt.json": "39b88ffef74bd53f6b91669176a308469820a6e703d231ffd2abcb48ba7fb05b",
+    "candidate-manifest.json": "b2996646ff20b8c2af19c5cf490a5ff5a57e48e74773547d78c72c6f4aa5bdc7",
+    "preflight-tests.log": "c1f34b1144fe041ae1209227b87644824dab0298810c161180a0d5842a896129",
+    "acceptance-tests.log": "9f624e6ab90aeccb829c0e41956be08f8173d7cc23ddcf19d5382b6f31236e17",
+    "single-method-tests.log": "f5916af5f34aade7f1ccb7a2a66aad9281962a421e9270da9830c8a6ea4b1242",
+    "doctor.json": "f4301fd719aac7054ed4b1b51479440588a943dfa52d8123531009afd2d3d59f",
+    "current-wire.json": "dc82ff0188ad317488025eb5848897efe464961e45ce6e6269a6f2f82d7ae11c",
+    "revision.json": "b3a15013be08491533a85d457b428f4198c3cf45ca29c864020dbbcbcc03f9bb",
+    "调整与验收说明.md": "bcd499196c5898ffcc51d89d19716ade9229f4d541de1f3060db7e7e2d552232"
+  }
+}

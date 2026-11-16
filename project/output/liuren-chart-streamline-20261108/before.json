@@ -1,0 +1,54 @@
+[
+  {
+    "path": ".opencode/liuren-active.json",
+    "sha256": "2f7476581c9373b2e143344fa3d9df1d1e1f7600faa73f53c4a050c438d3948b"
+  },
+  {
+    "path": "docs/排盘基础状态导出.md",
+    "sha256": "d758d36158a4ba629d6e8effe80c76cff855dcaed167fcd151ad74077a13c36a"
+  },
+  {
+    "path": "docs/本机六壬直接排盘.md",
+    "sha256": "2027abc84e7fba85641261333b82bb702e5c5cdabc801d04308b11a22235463d"
+  },
+  {
+    "path": "tools/liuren-codex.mjs",
+    "sha256": "77049df13a00b8e258679aa97f2d8831a9a462712c38f080eb6fc21369c17714"
+  },
+  {
+    "path": "tools/liuren-core-handoff.mjs",
+    "sha256": "0ebebe9978e0cd0a3dfcf07e73cb661d892db30737db59533f115c8a5ec8526d"
+  },
+  {
+    "path": "tools/liuren-resolved-chart.mjs",
+    "sha256": "e40fbbeb6107c0cd7a2192ffc78d313b65a5fd76129457b8f03061dac5da3611"
+  },
+  {
+    "path": "tools/liuren-shensha.mjs",
+    "sha256": "fb5ef143e3811d736690ae75dcf1fdd49f3a966098b596ed65c35c6407686d89"
+  },
+  {
+    "path": "tools/tests/liuren-chart-health.test.mjs",
+    "sha256": "b3da6c5da2de78f256ae1e8374e48e45c8a2b446d45b34c8066d5f8c798bb881"
+  },
+  {
+    "path": "tools/tests/liuren-codex.test.mjs",
+    "sha256": "8e768bb09459d6c090a4539cc68b6a29a861d7fd9e8c82e3c9414932da98f876"
+  },
+  {
+    "path": "tools/tests/liuren-core-handoff.test.mjs",
+    "sha256": "03adf2429aae99e96e69ffd53682a6e50dd767fe9c577b9ea799e300b2f4a466"
+  },
+  {
+    "path": "tools/tests/liuren-deterministic.test.mjs",
+    "sha256": "37ad85ace65ba235979d7b8e893a0d8cc1b3b55c38d60d3dc71bce79fdd2c476"
+  },
+  {
+    "path": ".opencode/plugins/liuren-adjudication.ts",
+    "sha256": "f47b92d5f844e7564a015d3761fd895eb4c045432f117a4b9e218d4e6596c03f"
+  },
+  {
+    "path": ".opencode/tools/liuren_chart.ts",
+    "sha256": "6c3756409c679bae37086b3ac7e426980f17c165e224aff25e8b7d08ead4df02"
+  }
+]

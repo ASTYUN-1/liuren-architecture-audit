@@ -1,0 +1,61 @@
+{
+  "at": "2026-11-02T03:31:26.657086+00:00",
+  "environment": "Codex IAB, synthetic local HTTP API; no production writes or paid models",
+  "urls": [
+    "http://127.0.0.1:3383/",
+    "http://127.0.0.1:3384/"
+  ],
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      1280,
+      800
+    ]
+  ],
+  "sourceAssetsSha256": {
+    "app.js": "e7d9e42cc28ddebfe66a6e21298121022ede598f36293298b54fb082da7ba758",
+    "app.css": "ac17e8bfc1befd82d70f3a7941402f4fa4e65873e50eb775e62d39efc332fd1a",
+    "chart-worker.js": "b9c52283add155442599b4323bea48fdd61f5413a6f2f2ce439457e76f8d9d94",
+    "index.html": "93144c6f7d0f4923cb780ca583f7118d1d376b8d6ac525da690c25b6c43cfc85"
+  },
+  "checks": {
+    "actual033ApkAssetsShow034Update": true,
+    "oldBannerNativeLink": "https://wen.qiluhub.com/downloads/android/install",
+    "034HasNoSelfUpdateBanner": true,
+    "http200WhitespaceThenTerminalErrorSpecificMessage": true,
+    "inputSubmitEnabledAfterFailure": true,
+    "moduleBadgesIndependent": true,
+    "reviewModalMobileReadable": true,
+    "savingReviewRemovesPendingOnly": true,
+    "localChartGenerated": true,
+    "authorAttributionPresent": true,
+    "desktopNoDocumentOverflow": true,
+    "pageIdentityAndMeaningfulContent": true,
+    "noFrameworkOverlay": true
+  },
+  "fixedFailure": "Initial duplicated React runtime caused blank page; unified React resolution, rebuilt, rechecked all target flows",
+  "consoleAfterFixErrorsWarnings": [],
+  "browserLogCutoffUtc": "2026-11-02T03:28:00Z",
+  "screenshotsRoot": "C:/Users/QLMa_/AppData/Local/Temp/wenheng-apk034-20261102",
+  "screenshots": [
+    "033-update-banner.png",
+    "034-stream-error.png",
+    "034-admin-badges.png",
+    "034-review-modal.png",
+    "034-local-chart.png",
+    "034-home-wide.png",
+    "033-update-banner-final.png",
+    "033-update-banner-crop.png"
+  ],
+  "physicalAndroidInstallTested": false,
+  "publicManifestTested": true,
+  "formalPreparedManifestTested": true,
+  "formalManifestVersionCode": 8,
+  "formalManifestSha256": "09d586eca219d95c6071511f41036570dcb2d80f35afdfc9882310b8b4000a7a",
+  "publicManifestEvidence": "publish-public-verification.json; public JSON equals exact local manifest used by the browser fixture",
+  "testFixtureIssue": "When formal UTF-8 notes first appeared, fixture default GBK reading failed; explicit UTF-8 fixed fixture, old APK banner was then reverified. Product assets unchanged.",
+  "cleanup": "Both synthetic HTTP ports stopped and test browser tabs closed."
+}

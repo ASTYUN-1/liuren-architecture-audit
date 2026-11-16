@@ -1,0 +1,41 @@
+{
+  "action": "compute",
+  "request": {
+    "action": "strength",
+    "archive": {
+      "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261116-053114-strength_AI接口演示-ffe1a55c-860d-4ff8-8c6e-59c64f47d680.corrected-689b27f8f2d1e9e5.json",
+      "sha256": "a865f22a62cf5514d682b6c1c4010ffc49e0d825fc313ef4821be9bb0579b304",
+      "raw_sha256": "dfd2c6b9e1d3ea311e388505cd969c8ceae9e173abfa134c3dbb8ae98404e809"
+    },
+    "strength": {
+      "season_profile": "quarter-earth",
+      "season_basis": "预先固定采用辰未戌丑整月土旺条件表，只作工程演示",
+      "review": true,
+      "mode": "selected_relations",
+      "actors": [
+        {
+          "id": "T:酉",
+          "role": "假设施助方",
+          "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；指定酉金生子水"
+        },
+        {
+          "id": "T:子",
+          "role": "假设目标类神",
+          "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；指定子水为受助对象"
+        },
+        {
+          "id": "T:卯",
+          "role": "并列观察对象，未采用其与其他对象的跨宫作用",
+          "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；用于展示冲刑事实和未采用关系"
+        }
+      ],
+      "links": [
+        {
+          "source": "T:酉",
+          "target": "T:子",
+          "basis": "纯工程输出核查：预先指定对象，不验证专业取类，不作现实事件预测；本次只检验已声明金生水的计算通路"
+        }
+      ]
+    }
+  }
+}

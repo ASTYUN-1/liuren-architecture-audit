@@ -1,0 +1,30 @@
+{
+  "release": "20261104-mapping-lean-01",
+  "parentRelease": "20261103-class-mapping-02",
+  "methodVersion": "cb25b54321f2c9d2eea0bb9d7943c3274f95f4134ca0a661af6c6d61771f603f",
+  "applied": {
+    "README.md": "c60ab0802f3aaff7cc1209d06e92a483bb2d6c606427f2c12681f379bde58f3e",
+    "目录总索引.md": "d3359535afae3b5942f19f428676de0cfa2fd9069eae67ef6614ece091662f8d",
+    "docs/本机六壬完整研判流程.md": "6598e20a50ccade3b0d4f77f98faa2f2749d3b5925ebb53600e48bb295538878",
+    "tools/tests/test_liuren_class_mapping.py": "c24efd68064de300937d66f103cf56e3685f3b24c0521fefd736b5b5fe694eb6",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "5caf0f1c4cf3cf6b62ae8e36a1e881ee13c710daf802a8344e667c9158883938",
+    ".opencode/skills/liuren/liuren-cases/SKILL.md": "695c447f80a97d175c37319311e727efcf4e583edfc2a27c33b6917cd81a7114",
+    ".opencode/skills/liuren/liuren-extract/SKILL.md": "6fd7bf1f3c742487764e03ab0044b6383be55750e54ebf45b0a2436659845b94",
+    ".opencode/skills/liuren/liuren-tuiming/SKILL.md": "2e04799715d1785a1153dd04f94cc093e3e3a23b37f87362c8fb470e7eeacf80",
+    ".opencode/skills/liuren/liuren-cases/refs/case-retrieval-v2.md": "d2e27b88de3377659e04c9bc1dd7a65151aa21ac9390e1d7e501310dcfe0c230",
+    ".opencode/skills/liuren/liuren-cases/refs/experience-retrieval-v2.md": "9148e66081454fe24fda54c1b61b48ad8fc31509acf1fdb104c65660771bcc74",
+    ".opencode/skills/liuren/daliuren/refs/daliuren-paipan.md": "e61eb4a57fcd681873b532149e6a3154f7c16060dd8fc37a86a78a81b3db29fb",
+    ".opencode/skills/liuren/daliuren/refs/judgment-workflow.md": "9a7dddb130ac5f1adc81377991a76379c8a5fc962f3b40a46e73125cbdab4adf",
+    ".opencode/skills/liuren/daliuren/refs/liqi-analysis.md": "3f677d0b5c40fc5f354096909b77a2495ca29df899e2caf88b10cf7cdaf42e05",
+    ".opencode/skills/liuren/daliuren/refs/liqi-sources.md": "d3e08d73063d31b65481dc9d29b7e0db37170d1c046bab1b4feb5ce3e7dbf01c",
+    ".opencode/skills/liuren/daliuren/refs/rule-semantics.md": "121366bcf60db21362fe76ac34164f4ec841a32adeb5df1336858021d07e011e",
+    ".opencode/skills/liuren/daliuren/refs/shensha-use.md": "5a9ddbb0835ff41fc111b6ae65d6253a14f83493091cd5b9316661b98acb343d",
+    ".opencode/liuren-active.json": "2dbe8c453d001549f1bef9abb93558b0b3370f305dc849ac74a0b939fe0ef3e3",
+    "docs/六壬知识整理-20261102/新知识提取记录.md": "db8b93fe9a574905c39848e8668b2f6f6456ec0efede581d6a901dfd6b29d7db"
+  },
+  "readPermissionSha256": "f253f0909c16ba77191b9c35508a6cb5c7aa29391bdd3c5342d0f7f8871fb407",
+  "websiteChanged": false,
+  "modelCalls": 0,
+  "independentPredictionValidation": 0,
+  "rollback": "构建精简版.py rollback"
+}

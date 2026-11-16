@@ -1,0 +1,527 @@
+[
+  {
+    "release": "20261023-modular-02",
+    "checked": 147,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261023-modular-03",
+    "checked": 149,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261027-quantity-01",
+    "checked": 152,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261027-quantity-02",
+    "checked": 152,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261102-integrated-01",
+    "checked": 153,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261103-class-mapping-01",
+    "checked": 162,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261103-class-mapping-02",
+    "checked": 162,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261103-local-restore-01",
+    "checked": 153,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261104-chart-first-01",
+    "checked": 169,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261104-chart-first-02",
+    "checked": 169,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261104-judgment-focus-01",
+    "checked": 169,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261104-mapping-lean-01",
+    "checked": 164,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261104-shensha-authority-02",
+    "checked": 169,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261104-shensha-policy-01",
+    "checked": 166,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-adjudication-01",
+    "checked": 86,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-liqi-led-01",
+    "checked": 169,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-liqi-led-02",
+    "checked": 169,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-no-retrieval-01",
+    "checked": 88,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-restructure-01",
+    "checked": 81,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-01",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-02",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-03",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-04",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-05",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-06",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261105-subagent-adjudication-07",
+    "checked": 92,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-compute-interface-10",
+    "checked": 97,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-deterministic-foundation-09",
+    "checked": 96,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-event-positioning-14",
+    "checked": 101,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-event-positioning-15",
+    "checked": 101,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-flow-recovery-12",
+    "checked": 98,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-handoff-chain-20",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-natural-positioning-16",
+    "checked": 102,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-packet-diagnostics-17",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-performance-24",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-performance-25",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-receipt-handoff-13",
+    "checked": 99,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-schema-compat-11",
+    "checked": 98,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-system-audit-18",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-tool-continuation-23",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-tool-contract-19",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-tool-usage-21",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-workflow-22",
+    "checked": 103,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261106-workflow-boundaries-08",
+    "checked": 93,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261107-slim-26",
+    "checked": 106,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261107-slim-27",
+    "checked": 106,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261107-slim-28",
+    "checked": 106,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261107-slim-29",
+    "checked": 106,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261107-slim-30",
+    "checked": 106,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261107-slim-31",
+    "checked": 107,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261108-clarified-33",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261108-unified-32",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-consistency-39",
+    "checked": 114,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-deepseek-child-38",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-deterministic-tools-35",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-direct-answer-40",
+    "checked": 115,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-guanshen-36",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-palace-strength-34",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261109-sol-37",
+    "checked": 113,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-basic-bifa-42",
+    "checked": 121,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-bifa-use-45",
+    "checked": 123,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-bifa-use-45-final",
+    "checked": 123,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-bifa-use-45-r2",
+    "checked": 123,
+    "ok": false,
+    "issues": [
+      {
+        "path": "loader-contract.json",
+        "missing": false
+      },
+      {
+        "path": "reading-route.json",
+        "missing": false
+      },
+      {
+        "path": "references/shensha-authority-evidence.json",
+        "missing": false
+      },
+      {
+        "path": "references/shensha-policy.json",
+        "missing": false
+      },
+      {
+        "path": "references/confirmed-policy-register.json",
+        "missing": false
+      }
+    ]
+  },
+  {
+    "release": "20261111-book-logic-41",
+    "checked": 119,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-compact-bifa-44",
+    "checked": 122,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-numeric-answer-47",
+    "checked": 125,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-numeric-answer-47-final",
+    "checked": 125,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-quantity-logic-46",
+    "checked": 125,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261111-reviewed-bifa-43",
+    "checked": 121,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-analysis-routing-54",
+    "checked": 135,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-book-search-48",
+    "checked": 125,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-consistency-52",
+    "checked": 134,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-integrated-flow-49",
+    "checked": 130,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-quantity-correction-50",
+    "checked": 132,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-strength-quantity-51",
+    "checked": 133,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261112-year-life-53",
+    "checked": 134,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261114-class-selection-trial-56",
+    "checked": 136,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261114-class-strength-trial-57",
+    "checked": 136,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261114-tool-reliability-55",
+    "checked": 135,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261115-class-selection-62",
+    "checked": 153,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261115-strength-meaning-58",
+    "checked": 136,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261115-trial-decision-59",
+    "checked": 153,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261115-trial-decision-60",
+    "checked": 153,
+    "ok": true,
+    "issues": []
+  },
+  {
+    "release": "20261115-trial-decision-61",
+    "checked": 153,
+    "ok": true,
+    "issues": []
+  }
+]

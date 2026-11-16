@@ -1,0 +1,31 @@
+{
+  "release": "20261103-class-mapping-01",
+  "parentRelease": "20261103-local-restore-01",
+  "methodVersion": "cae700c6f839f273b8e939ea5988325717f5918036141112dd07de858e2918c9",
+  "localOnly": true,
+  "websiteChanged": false,
+  "originalRuntimesUnchanged": true,
+  "sourceBytesUnchanged": true,
+  "applied": {
+    "README.md": "94143af7b48cd1ed78f6f9b49b51a0d414b3089700239c71b576f4ca71f2af3a",
+    "目录总索引.md": "2563398c06f9079a5fc9909651e0b04782daec77001e132cbce363787f26fb7e",
+    "docs/本机六壬完整研判流程.md": "8168e2ef8b04b77a561becea58c7c4587d715f549a7c5e258e9963ca26ef77a1",
+    "tools/experience_retrieval.py": "99e0f0460d88635dc8d994c5e6baf362710dd2a2f7c181ec4064d9d82a0420d6",
+    ".opencode/skills/liuren/daliuren/SKILL.md": "8ece3274f0e50ac8be1ab14cc0bb9009c2fa65cdf3cf454811f11dba1a2b2541",
+    ".opencode/skills/liuren/liuren-cases/SKILL.md": "29f7122a6aa1ef467a96fcb86ff48c498206e28b543c609916b1eb1bf33026b4",
+    ".opencode/skills/liuren/liuren-extract/SKILL.md": "4c165723bb8521e386c0b7f1cc15e80beea93b279874b781e21a87ea9c9c3fb7",
+    ".opencode/skills/liuren/liuren-tuiming/SKILL.md": "0aabb95416e3501edbb90f42c044395f48e9d8eff71241ef7902f5a9c0645445",
+    ".opencode/skills/liuren/liuren-cases/refs/case-retrieval-v2.md": "fb7b2ed8859e17ff5a9145256b703aa8b07ab23800d74c94156a5d382cf241ef",
+    ".opencode/skills/liuren/liuren-cases/refs/experience-retrieval-v2.md": "a00cd39e67bd446184f7e8080a56a84e5e905a2544af0bc9cc591f6bfcc77f3c",
+    ".opencode/skills/liuren/daliuren/refs/daliuren-paipan.md": "e61eb4a57fcd681873b532149e6a3154f7c16060dd8fc37a86a78a81b3db29fb",
+    ".opencode/skills/liuren/daliuren/refs/judgment-workflow.md": "d79ce781b0bfa58d58ec1787784cac95563a11c87d2f3b4db0765fb63a70b863",
+    ".opencode/skills/liuren/daliuren/refs/liqi-analysis.md": "6ec71c658d6e58cf8fe51143783df0c958de91875dcff196f2c1308405ebd02b",
+    ".opencode/skills/liuren/daliuren/refs/liqi-sources.md": "c46f9f72a1fc7c6d5d8f705432a75e381b0a94b9cf1dac625944105f06ee1e4f",
+    ".opencode/skills/liuren/daliuren/refs/rule-semantics.md": "e179256dd145a871daef55ae406c95eeeb27e6f5c07cdd6f906b2fcc2054fdc7",
+    ".opencode/skills/liuren/daliuren/refs/shensha-use.md": "bb734fc6af863756d3b82b3d07845f9f31df880c0cec37381cadcd0e8057c889",
+    ".opencode/liuren-active.json": "f004763791d01d237c335964ea0389d26dd7ebb1230052df4229b8cce7ea44e6"
+  },
+  "readPermissionSha256": "bbccd84933b8a50837cae87dc53a4f39edcb47266995bbd4c8b7288ecb662b21",
+  "independentValidation": 0,
+  "predictiveAccuracy": "unverified"
+}

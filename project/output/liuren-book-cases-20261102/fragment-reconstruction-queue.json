@@ -1,0 +1,5404 @@
+{
+  "schema": "liuren-book-fragment-reconstruction-queue-v1",
+  "scope": "阶段停止时的当前登记快照；未核输入保留pending，后续授权接续时可运行本脚本刷新",
+  "summary": {
+    "text_loss_not_recoverable_by_chart": 5,
+    "missing_explicit_inputs": 19,
+    "pending_input_review": 58,
+    "existing_reconstruction_owner_review": 11,
+    "conflicting_explicit_inputs": 1,
+    "explicit_inputs_ready": 4,
+    "nonchart_evidence_gap": 2
+  },
+  "case_count": 100,
+  "complete": false,
+  "items": [
+    {
+      "case_id": "BK26-ANCIENT-005",
+      "title": "何三公占身位：人宅墓鬼及残字补论",
+      "state": "text_loss_not_recoverable_by_chart",
+      "next_action": "缺关键文字，盘式不能还原；检索同源善本，不由反馈补写。",
+      "chart_fields": {
+        "日": "丙寅",
+        "月将": "未",
+        "占时": "寅",
+        "年/月": "戊申年六月"
+      },
+      "missing_fields": [
+        "631补论有再（）及其他空括号，若干文字缺失，未找到可校版本。",
+        "鬼墓、伏尸、旧冢与病亡因果为原作者说法，现实记录和因果未核真。",
+        "戌年戌月原断与庚戌九月未日叙事反馈存在月份差别，不能写精确应期已中。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L615-L631",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 615,
+          "line_end": 631,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-006",
+      "title": "某占宅内鬼哭：四课发用与人宅晦暗",
+      "state": "text_loss_not_recoverable_by_chart",
+      "next_action": "缺关键文字，盘式不能还原；检索同源善本，不由反馈补写。",
+      "chart_fields": {
+        "年/月": "丁卯年未月",
+        "日": "丙寅",
+        "月将": "未",
+        "占时": "寅"
+      },
+      "missing_fields": [
+        "647末尾“弃小遇内外整？则？”等句转录残损，未校底本。",
+        "原载鬼哭、女鬼、月厌等属于作者解释，没有声音来源或现实反馈。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L633-L647",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 633,
+          "line_end": 647,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-101",
+      "title": "辛巳年官讼：中申空断三刑与沉搁",
+      "state": "text_loss_not_recoverable_by_chart",
+      "next_action": "缺关键文字，盘式不能还原；检索同源善本，不由反馈补写。",
+      "chart_fields": {
+        "日期": "乾隆辛巳年酉月戊寅日",
+        "月将": "巳将",
+        "占时": "巳时"
+      },
+      "missing_fields": [
+        "2321益挑动？？？及不得请？？？？蛇等关键处置句显式损字，未校底本。",
+        "占者叹服不等于官司结案实证。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L2307-L2321",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2307,
+          "line_end": 2321,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-102",
+      "title": "程桐江文书轶事：旧官用墨详与送鱼证",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {},
+      "missing_fields": [
+        "原文明说失日时，缺完整主盘与起课日期，不能凭零散亥六合重建唯一课。",
+        "送？鱼、原稿？及督批？县等多处失字。",
+        "旧官墨详结案及送鱼故事未独立核实。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L2323-L2323",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2323,
+          "line_end": 2323,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-115",
+      "title": "仪征吴兄占产短记：缺独立盘式",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {},
+      "missing_fields": [
+        "未列起课日期、将时及完整主盘，也未明说与前课同式。",
+        "其母、厄于产的家庭角色表述照存，不擅认一定同前产妇。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L2513-L2513",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2513,
+          "line_end": 2513,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-116",
+      "title": "程秀田夫人产期：作者明记课遗失",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {},
+      "missing_fields": [
+        "原文明说课遗失，无起课日期将时/完整盘，不能硬算补作者原课。",
+        "声称日时俱不差而未载实际日时，无精确可对数据。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L2515-L2515",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2515,
+          "line_end": 2515,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-117",
+      "title": "朱礼山侧室七年未孕：次年二月孕与遗课",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {},
+      "missing_fields": [
+        "原课明确遗失，时间与完整盘未存，不从应期倒推出课。",
+        "七年未孕及后来生男仅原载故事，无独立材料。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L2517-L2517",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2517,
+          "line_end": 2517,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-211",
+      "title": "徐大夫前程：母妻丧与赃败、末两行脱漏",
+      "state": "text_loss_not_recoverable_by_chart",
+      "next_action": "缺关键文字，盘式不能还原；检索同源善本，不由反馈补写。",
+      "chart_fields": {
+        "日期": "戊申年正月初一丙戌日",
+        "月将": "子将",
+        "占时": "未时"
+      },
+      "missing_fields": [
+        "原文明说末两行俱有脱漏且后人稍润色，关键后析理原貌未恢复。",
+        "母原判六月而后五月、妻六月；不能抹时序差别。",
+        "赃败自刎及医病因果只作原历史叙事，未核史料。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L4073-L4087",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 4073,
+          "line_end": 4087,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-213",
+      "title": "张奉初代弟观初病：初占与亲属再占、三日亡",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "日期": "崇正辛巳九月丁亥辛丑时"
+      },
+      "missing_fields": [
+        "第二次独立起课仅未亥卯和天将概要，未载完整四课天地盘，不能借首盘填补。",
+        "病亡仅原载故事；吕纯阳下降为来源叙事，无现实神明验证。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L4113-L4127",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 4113,
+          "line_end": 4127,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-317",
+      "title": "天宁寺夜惊与贼船：申时再占缺全盘",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "日期": "顺治己丑年六月乙未日",
+        "月将": "未将",
+        "占时": "亥时"
+      },
+      "missing_fields": [
+        "己亥日报后申时再占只存戌酉申三传返驾及初旺生末，无完整第二课式；占月将未重载，不能凭退贼反馈补盘。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L5937-L5951",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 5937,
+          "line_end": 5951,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-ANCIENT-353",
+      "title": "产期三课呼应：本课全盘而前两课缺式",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "日期": "崇正癸酉年十一月戊戌日",
+        "月将": "寅将",
+        "占时": "午时"
+      },
+      "missing_fields": [
+        "作者核心三课合参中两前课没有完整四课天地天将盘，年月将时输入多疑，不据产期补造。",
+        "果是巳日生否/又临戌必是日生原字歧义，不能硬选实际巳日或戌日产时。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/《壬占汇选》.txt:L6589-L6603",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 6589,
+          "line_end": 6603,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-003",
+      "title": "代田大冢宰占仕途：递克、空墓与人宅坐墓",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "戊寅三月丙寅日辛卯时",
+        "原载课体": "知一、涉害、周遍"
+      },
+      "missing_fields": [
+        "转录2565行明确课盘OCR错乱从略。",
+        "转录可读三传写未、子、寅，却六亲行列父未、财寅、子子；讲解称三传递克，次序矛盾影响核心方法核对。",
+        "不可自行改成任一顺序或重造盘以凑complete。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2189-L2195",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2189,
+          "line_end": 2195,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2563,
+          "line_end": 2571,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "docs/六壬知识整理-20261102/引擎古例参考源/古例全文.md",
+          "line_start": 7207,
+          "line_end": 7246,
+          "sha256": "3278d1e2163301a29247796cedeba638eebccda2f750f49637853ac5d671f8cc",
+          "role": "后人注解"
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-003",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-003.json",
+          "result_sha256": "1e9e98fd4be3dd52292904e2ac32d250561d912c99f397a8005b42dee8008f8c",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-003.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-007",
+      "title": "两人受贿被逮：天将救与一年十三年",
+      "state": "conflicting_explicit_inputs",
+      "next_action": "后文补己巳辛酉亥将卯时，但三月/巳月冲突；将来分输入组保存，不按原追赃失验选月份。",
+      "chart_fields": {},
+      "missing_fields": [
+        "未载完整占日、月将、时刻及两人的年命。",
+        "转录1353课盘OCR错乱从略；干支两人身份只给分占原则，未给姓名。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1139-L1143",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1139,
+          "line_end": 1143,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1351,
+          "line_end": 1357,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 118,
+          "line_end": 118,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3262,
+          "line_end": 3274,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3787,
+          "line_end": 3801,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-008",
+      "title": "左藩南侵与田百原出兵：同课相关两问",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "乙酉四月辛酉日丙申时",
+        "原载课体": "重审、进茹",
+        "转录可读三传": "亥、子、丑；子亥虎、子子空、父丑龙"
+      },
+      "missing_fields": [
+        "转录1407行明确课盘OCR错乱从略，完整原图缺失。",
+        "北海讲解中的历史叙述未与其他史料独立核对，原断和后述来源层次不能混为现场反馈。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1183-L1197",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1183,
+          "line_end": 1197,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1405,
+          "line_end": 1421,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 120,
+          "line_end": 120,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-009",
+      "title": "张克用远方买卖：舟行类象与月将脱气",
+      "state": "explicit_inputs_ready",
+      "next_action": "明载输入可另制来源绑定请求；须逐案核年月映射/盘式约束和异文，枚举未核设置。",
+      "chart_fields": {
+        "原载时间": "己未日酉将亥时",
+        "转录残留": "子酉合、子酉合、子酉合、子酉合；蛇合蛇合；亥酉亥酉；酉未酉己"
+      },
+      "missing_fields": [
+        "转录1477行明确课盘OCR错乱从略，完整原图缺失。",
+        "转录舟/虹、舟车/升车等明显字形差异，保留两版全文；未以原扫描逐字核定。",
+        "未载完整年月与年命，原载果应没有交代实际金额、路线及核验过程。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1247-L1255",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1247,
+          "line_end": 1255,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1475,
+          "line_end": 1485,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4082,
+          "line_end": 4082,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4765,
+          "line_end": 4765,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-013",
+      "title": "回子托孙石渠占生产：手先出与母子分断",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "己丑二月辛丑日己亥时",
+        "原载课体": "天狱、重审、退茹",
+        "转录可读三传": "子、亥、戌；子子阴、亥子玄、父戌常"
+      },
+      "missing_fields": [
+        "转录1777明确课盘OCR错乱从略。",
+        "未直接载月将、产母年命与完整贵人昼夜法。",
+        "1523干土虎等文字仍有残损疑点，不在本轮擅改原句。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1521-L1525",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1521,
+          "line_end": 1525,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1775,
+          "line_end": 1781,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-014",
+      "title": "访戴羲字占六甲：缓急定月、冲胎日与日上神时",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "甲子四月癸卯日戊午时",
+        "原载课体": "蒿矢、不备",
+        "转录可读三传": "未、酉、亥；鬼未朱、父酉勾、兄亥空"
+      },
+      "missing_fields": [
+        "转录1847明确课盘OCR错乱从略。",
+        "未直接载月将、产母年命和完整昼夜贵人法。",
+        "男女与六月等的果一一如所断在原句中先于后补子日寅时，后者是否另有明确反馈未分列。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1588-L1594",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1588,
+          "line_end": 1594,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1845,
+          "line_end": 1853,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1656,
+          "line_end": 1666,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1921,
+          "line_end": 1933,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-016",
+      "title": "丁丑日问是否已经生产：干子支母的空实",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载日": "丁丑日",
+        "原载关系": "干上酉，支上卯"
+      },
+      "missing_fields": [
+        "原载随讲简例未给年月、月将、占时、年命或完整盘；没有证据说这里原图曾有而被OCR删去。",
+        "只保全日干支、干支上神和原载自验称述，关键全盘尚不能核。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1576-L1578",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1576,
+          "line_end": 1578,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1833,
+          "line_end": 1835,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-017",
+      "title": "江右傅姓邻人占六甲：伏吟双胎与产期异文",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "庚辰三月辛卯日丙戌时",
+        "第二十法课体": "伏吟、龙虎",
+        "第二十一法课体": "伏吟、龙战"
+      },
+      "missing_fields": [
+        "转录1909及2027明确课盘OCR错乱从略。",
+        "月将、产母年命、贵人昼夜法未直接载明。",
+        "第二十法戊日/龙虎，第二十一法戌日/龙战并存；月建重叠与日建卯、戌为养神与辛养辰的解释亦有内部差别，未据结局或常识删改。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1644-L1654",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1644,
+          "line_end": 1654,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1907,
+          "line_end": 1919,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1734,
+          "line_end": 1738,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2025,
+          "line_end": 2031,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-017-RELATION",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-017-RELATION.json",
+          "result_sha256": "87ee63bcbf469c13cc1faee7d0b6f60ce3e64cc92a2e0a08f134405e099aae22",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-017-RELATION.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-018",
+      "title": "证元子问寄物是否到达：干归支主线与空克反证",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "乙酉年未月，未将巳时壬戌日"
+      },
+      "missing_fields": [
+        "转录2043明确课盘OCR错乱从略。",
+        "未载公历日期、所在地时区、年命与贵人昼夜法。",
+        "没有明确签收回报，原断是到了的不能本身当已核结果。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1746-L1750",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1746,
+          "line_end": 1750,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2041,
+          "line_end": 2047,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-018",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-018.json",
+          "result_sha256": "65743d97aaea320478aa67b99901c6e06038be316e7a01976cc8a12687822643",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-018.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-021",
+      "title": "戊子日占废弃厂房宅：宅广人稀与阴湿原载",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "丙戌年壬辰月，酉将申时戊子日"
+      },
+      "missing_fields": [
+        "转录2445课盘OCR错乱从略。",
+        "未载公历日、时区地点、年命及贵人昼夜法。",
+        "原断脑血管病症，后述高血压，相关但不等同，不改为确诊同一种疾病。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2091-L2095",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2091,
+          "line_end": 2095,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2443,
+          "line_end": 2449,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-021-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-021-AUDIT.json",
+          "result_sha256": "0e16b4128d62d02e305313161eceb236acbc470d79a15b21b922a4ec13a84cec",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-021-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-022",
+      "title": "钱三郎开店：虚账亲缘扰店与其子相打歇业",
+      "state": "explicit_inputs_ready",
+      "next_action": "明载输入可另制来源绑定请求；须逐案核年月映射/盘式约束和异文，枚举未核设置。",
+      "chart_fields": {
+        "原载时间": "己酉年丙戌日辰将寅时",
+        "原载年命": "钱三郎甲戌生三十六岁"
+      },
+      "missing_fields": [
+        "转录2473课盘OCR错乱从略。",
+        "占月未载，重阳开店是后述事件日期，不能倒填为占月。",
+        "虚账/美虚账本、未辰/末辰等两本字词差异保留，不冒称原扫描已校。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2115-L2119",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2115,
+          "line_end": 2119,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2471,
+          "line_end": 2477,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1446,
+          "line_end": 1454,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-023",
+      "title": "作者自述白虎小巷简例：支上神与现场核象",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载关系": "支上白虎"
+      },
+      "missing_fields": [
+        "未载年月日、将时、年命或完整盘，没有证据说这里曾有原图被OCR删除。",
+        "只留支上白虎及小巷后述，所问细节和现场核验过程未载。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2109-L2109",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2109,
+          "line_end": 2109,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2465,
+          "line_end": 2465,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-024",
+      "title": "指南乙酉日坟边小路：卯玄遁辛与兄弟断语",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载关系": "卯作玄武遁辛"
+      },
+      "missing_fields": [
+        "仅载乙酉日、卯玄遁辛及断语，年月、将时、年命与全盘未列。",
+        "指南原篇页未给，尚未另查源案；不将作者归属当原指南已复核。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2107-L2107",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2107,
+          "line_end": 2107,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2463,
+          "line_end": 2463,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-027",
+      "title": "班主任问感化学生：恩多怨深与后述借款",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载关系": "戊日三传申亥寅"
+      },
+      "missing_fields": [
+        "只载戊日与三传申亥寅，年月、日支、将时、年命及全盘未载。",
+        "人物评价及借款事实均作者回忆，未独立核实，未载具体金额。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2275-L2275",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2275,
+          "line_end": 2275,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2667,
+          "line_end": 2667,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-028",
+      "title": "凶手能否抓获：获人断语与酉期失验午期实应",
+      "state": "explicit_inputs_ready",
+      "next_action": "明载输入可另制来源绑定请求；须逐案核年月映射/盘式约束和异文，枚举未核设置。",
+      "chart_fields": {
+        "原载时间": "午将巳时戊辰日"
+      },
+      "missing_fields": [
+        "转录2713残盘；占年/月、年命、具体案名地点均未给。",
+        "有获人原载，但酉期未中，不把后改午期当事前预测。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2316-L2320",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2316,
+          "line_end": 2320,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2711,
+          "line_end": 2717,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-030",
+      "title": "童三十四公占宅：子息财库与月建未载之疑",
+      "state": "explicit_inputs_ready",
+      "next_action": "明载输入可另制来源绑定请求；须逐案核年月映射/盘式约束和异文，枚举未核设置。",
+      "chart_fields": {
+        "原载时间": "己酉年戊申日巳将卯时",
+        "原载年命": "童三十四公丙申生七十四岁"
+      },
+      "missing_fields": [
+        "转录2767课盘残损。",
+        "原载巳将但占月未给，北海先推七月，后又讨论七/八月且纠死气/死神，不能当已知月。",
+        "行年引破败、中寅日德空亡为作者明确不知何解，不能讲顺抹去。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2364-L2398",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2364,
+          "line_end": 2398,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2765,
+          "line_end": 2801,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 329,
+          "line_end": 338,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-033",
+      "title": "指南湾子街寻子简引：乙日火制鬼应丙丁",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {},
+      "missing_fields": [
+        "只载乙日无日支、年月、将时、年命或全盘。",
+        "原指南源章页未给，此段只作简引；丙丁为原断，无本段现实反馈。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2546-L2550",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2546,
+          "line_end": 2550,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 2961,
+          "line_end": 2965,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-034",
+      "title": "仇庸足占功名：曲直官局与命上恩星、蛇化龙",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "辛未四月己未日戊辰时",
+        "原载课体": "八专、曲直"
+      },
+      "missing_fields": [
+        "转录3087课盘残损。",
+        "本命丁马恩星仅原关系，完整年命及月将未直接明载；不可反推补命。",
+        "官历与历史身份只原书后述，未外核史料。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2657-L2661",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2657,
+          "line_end": 2661,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3085,
+          "line_end": 3091,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 10647,
+          "line_end": 10661,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-035",
+      "title": "男问女友：贵人不旺而断父母公职无官",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {},
+      "missing_fields": [
+        "未载年月日将时、年命、贵人所乘神和全盘。",
+        "果验仅作者称述，无逐人职务或核实过程。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2707-L2707",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2707,
+          "line_end": 2707,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3143,
+          "line_end": 3143,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-036",
+      "title": "刘一纯代问梁大司马升迁：贵履天罗与请告",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "辛未四月丁酉日癸卯时",
+        "原载课体": "重审、斩关"
+      },
+      "missing_fields": [
+        "转录3191列亥午午，但古汇选6339–6353完整盘亥午丑；末朱雀说明与北海残列午虎不一致。",
+        "毕法辛未四月，古汇选三月；原日时一致但月序异文保留。",
+        "年上蛇未载完整行年，本命辰仅后注明载，未独立反推。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2752-L2760",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2752,
+          "line_end": 2760,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3189,
+          "line_end": 3199,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 6339,
+          "line_end": 6353,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3998,
+          "line_end": 3998,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4002,
+          "line_end": 4002,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4000,
+          "line_end": 4000,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4647,
+          "line_end": 4649,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4653,
+          "line_end": 4653,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4651,
+          "line_end": 4651,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4681,
+          "line_end": 4681,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4683,
+          "line_end": 4683,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4685,
+          "line_end": 4685,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5469,
+          "line_end": 5471,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5473,
+          "line_end": 5473,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5475,
+          "line_end": 5475,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 6339,
+          "line_end": 6351,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "dependency_type": "same_event_parallel_source",
+          "same_event": true
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-039",
+      "title": "乙亥生人占终身：腹块应答、夹墓与后续灾期",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "戊申年正月初一日丙戌子将未时",
+        "原载年命": "乙亥生三十四岁"
+      },
+      "missing_fields": [
+        "转录3347主列申卯午，六亲列申丑午；断案及汇选也列申丑午，不静默修复转录。",
+        "北海到子年方死为解释；原毕法与断案未另列真实死亡回访，汇选八月卒在叙述中出现但未给核验过程。",
+        "年命原乙亥/三十四及行年亥照录，不为匹配另算。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2889-L2899",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2889,
+          "line_end": 2899,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3345,
+          "line_end": 3357,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1177,
+          "line_end": 1186,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 4091,
+          "line_end": 4105,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-039-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-039-AUDIT.json",
+          "result_sha256": "3730f84834cfc1f53421e86f775cb09d0f51f116bf950a8274fa3cc732004f57",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-039-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-041",
+      "title": "宋太斗占功名：虎马铸印先升而后降",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "辛未四月己未日戊辰时",
+        "原载课体": "八专、绝嗣、铸印"
+      },
+      "missing_fields": [
+        "转录3473主列巳子子，而六亲列巳戌卯，残盘次序冲突。",
+        "月将未直载；年命未载。",
+        "转升再降仅原书称述，无任职档案外核。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2998-L3008",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 2998,
+          "line_end": 3008,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3471,
+          "line_end": 3483,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 651,
+          "line_end": 655,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 759,
+          "line_end": 765,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-042",
+      "title": "潘云从代占郑潜庵升迁：递生空亡与参劾请退",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "庚辰正月丁丑日癸卯时",
+        "原载课体": "元首、从革"
+      },
+      "missing_fields": [
+        "月将未直载，转录3543残盘需核。",
+        "转录3549中传朱雀与正式3058末传朱雀异文；按原盘丑朱列末，保留两书差别而不改源。",
+        "历史政治后述未独立核史。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3052-L3064",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3052,
+          "line_end": 3064,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3541,
+          "line_end": 3555,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-043",
+      "title": "王旋官占上疏：递生初末空与君相鬼",
+      "state": "missing_explicit_inputs",
+      "next_action": "缺将/完整日支/第二盘日期等；完整missing_fields照存，找同源不反推唯一盘。",
+      "chart_fields": {
+        "原载时间": "辛未六月癸卯日卯时",
+        "原载课体": "从革、绝嗣"
+      },
+      "missing_fields": [
+        "原问答非荐而参，后果以上章荐人，两句矛盾保留。",
+        "月将未直载，原载年命未给。",
+        "皇帝宰相不喜、神将致免死为原作者解释，未独立核历史原因。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3066-L3076",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3066,
+          "line_end": 3076,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3557,
+          "line_end": 3569,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-044",
+      "title": "寺僧望长老文字：文至与得后受伤分开",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "辛亥日申将巳时"
+      },
+      "missing_fields": [
+        "转录3671主列巳寅亥，六亲列巳申亥；断案同巳申亥。",
+        "占月未明；北海3160推四月、3164又言卯月，占月不能择一补入。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3154-L3164",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3154,
+          "line_end": 3164,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3669,
+          "line_end": 3681,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1651,
+          "line_end": 1659,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-045",
+      "title": "琐记戌命人病：群未不能冲丑墓的原载死亡",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "巳年申月辛未日午将酉时",
+        "原载问占": "占戌命人病"
+      },
+      "missing_fields": [
+        "只载巳年，完整年干未载。",
+        "3176亥未未与后句申未未相冲，两版均存；原图未核。",
+        "北海3168脱漏十九字后的不能救为猜测，不当程子原话。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3174-L3178",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3174,
+          "line_end": 3178,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3691,
+          "line_end": 3697,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4380,
+          "line_end": 4382,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5111,
+          "line_end": 5115,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-046",
+      "title": "钱是庵代陈南洲逮问：冢墓门开与廷杖",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "丁丑七月丁亥日甲辰时",
+        "原载课体": "重审、进茹"
+      },
+      "missing_fields": [
+        "转录3723主列午未申，正文却申发用/酉中/戌末；月将未直接载。",
+        "行年午仅后注关系，完整本命不载；未空遁乙用下一旬为原作者特殊处理。",
+        "廷杖与死亡史料未独立核实。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3202-L3210",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3202,
+          "line_end": 3210,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3721,
+          "line_end": 3731,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-047",
+      "title": "某占家宅：蛇虎二八门与太阳幽暗异解",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "正月丁卯日子将卯时"
+      },
+      "missing_fields": [
+        "占年与年命未载，原转录残图待核。",
+        "太阳射宅却门户暗是北海提出并解释的冲突，不能抹去。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3212-L3218",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3212,
+          "line_end": 3218,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3733,
+          "line_end": 3741,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 359,
+          "line_end": 367,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-049",
+      "title": "姜子庚反胃病局部简引",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {},
+      "missing_fields": [
+        "仅随讲局部盘位，未载占日年月将时及完整课传。",
+        "暂无本段独立结果反馈；同名不能自动挂另一事件。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3246-L3246",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3246,
+          "line_end": 3246,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3771,
+          "line_end": 3771,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-050",
+      "title": "叶八郎代占反胃局部简引",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {},
+      "missing_fields": [
+        "仅随讲局部盘位，未载占日年月将时及完整课传。",
+        "暂无本段独立结果反馈；同名不能自动挂另一事件。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3248-L3248",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3248,
+          "line_end": 3248,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3773,
+          "line_end": 3773,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-053",
+      "title": "水局风水课：财旺生绝与收入不高",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {},
+      "missing_fields": [
+        "原未明年月日将时，转录3957四课仅见戊申残留，不补日柱。",
+        "果然紧随收入不高，不能扩大为周围环境每项均真实回访。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3418-L3422",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3418,
+          "line_end": 3422,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 3955,
+          "line_end": 3961,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-055",
+      "title": "程树勋自占居宅：鬼空与长生年旬的事后反省",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载占日": "甲戌日"
+      },
+      "missing_fields": [
+        "完整占年/月将/时未载。",
+        "正式甲戌至癸未十年与转录甲寅至癸未十年不同；不可用十年倒填占年。",
+        "病丧与住房因果均程子/北海解释，未排其他现实原因。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3482-L3484",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3482,
+          "line_end": 3484,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4033,
+          "line_end": 4037,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-057",
+      "title": "重病丧吊全逢：五一前病故",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "公历2005年3月4日，乙酉年寅月，亥将未时丁亥日"
+      },
+      "missing_fields": [
+        "转录未卯亥主列与六亲未亥卯次序不同；死亡日期仅相对五一，原医疗证明未载。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3540-L3544",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3540,
+          "line_end": 3544,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4103,
+          "line_end": 4109,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-057-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-057-AUDIT.json",
+          "result_sha256": "f2c033b7f762b42c92d73cf64a3db8737bc49d24de440e3ef813a85a201fa7ac",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-057-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-058",
+      "title": "中行上市股价：火空暂发而后清寒",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "公历2006年7月5日，丙戌年午月，未将巳时乙日"
+      },
+      "missing_fields": [
+        "只载乙日未全日柱；转录四课可见未，不自动补乙未。价格均书中转述未查行情，买卖盈亏未核。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3619-L3623",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3619,
+          "line_end": 3623,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4197,
+          "line_end": 4203,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-059",
+      "title": "大盘走势：先冲高与后期下降",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "公历2006年7月25日，丙戌年未月，午将辰时乙日"
+      },
+      "missing_fields": [
+        "只载乙日，转录主列未戌丑而六亲申戌子疑复制上案；不可统一盘。日内时点为原载未外核行情。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3625-L3629",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3625,
+          "line_end": 3629,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4205,
+          "line_end": 4211,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-060",
+      "title": "陈公明代占黄虎山：诸吉空与御敌身亡",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "甲申十月辛亥日丁亥时"
+      },
+      "missing_fields": [
+        "题行子丑空与后注明寅卯空冲突；月将卯仅3657明载。史事、官名说明和凶期原理未明均保留。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3637-L3667",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3637,
+          "line_end": 3667,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4221,
+          "line_end": 4253,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-063",
+      "title": "唐丞务年事：丧妻复娶、店讼与厨地争",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "戊申年庚辰日子将子时"
+      },
+      "missing_fields": [
+        "占月未直接载；同庚辰子子与赵将仕盘同但为不同人不同事，不以同盘并案。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3700-L3706",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3700,
+          "line_end": 3706,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4291,
+          "line_end": 4299,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1229,
+          "line_end": 1237,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2733,
+          "line_end": 2747,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-064",
+      "title": "某占讼助刑戕德：未了又发与吃棒",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "七月庚午日午将未时"
+      },
+      "missing_fields": [
+        "占年未载；何以吃棒的两种解释北海明确不知邵子取哪一个，不强选。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3736-L3745",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3736,
+          "line_end": 3745,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4329,
+          "line_end": 4341,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 2186,
+          "line_end": 2198,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 1081,
+          "line_end": 1095,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-065",
+      "title": "某占宅死败：家内阴私与后述公媳事",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "癸酉日巳将申时"
+      },
+      "missing_fields": [
+        "缺占年月年命；原未见独立当事证据，保持原书指控身份，不当已证事实。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3747-L3753",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3747,
+          "line_end": 3753,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4343,
+          "line_end": 4351,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 377,
+          "line_end": 386,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-066",
+      "title": "老妇占家事：官龙夫与子合女的原载指控",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "壬午日"
+      },
+      "missing_fields": [
+        "只有日柱，转录主列寅辰未与神将寅子戌不合；后续身份私人指控未独立核实。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3755-L3757",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3755,
+          "line_end": 3757,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4353,
+          "line_end": 4357,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-067",
+      "title": "李四官失盗：回环内贼与未空不制",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "十月辛卯日寅将巳时"
+      },
+      "missing_fields": [
+        "占年未载，原行年卯仅照录；支上子与支神子六合的前句有误字，不能为此改案日卯。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3796-L3806",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3796,
+          "line_end": 3806,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4407,
+          "line_end": 4419,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1939,
+          "line_end": 1948,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-068",
+      "title": "叶助教前程：赴任、父丧、官阶寿数原断",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "戊寅日申将未时"
+      },
+      "missing_fields": [
+        "占年/月未载，不由年龄行年推出占年；与020叶助教占宅不是同事件。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3902-L3927",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3902,
+          "line_end": 3927,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4535,
+          "line_end": 4563,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 507,
+          "line_end": 516,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 2325,
+          "line_end": 2339,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-069",
+      "title": "王知县身位：受财争产、母弟与在任亡",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间": "戊申年四月甲申日申将丑时"
+      },
+      "missing_fields": [
+        "转录末主寅而六亲父子龙冲突；原指曹属降职与庚戌仍在任的叙述并存，不擅断完整官历。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3929-L3941",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3929,
+          "line_end": 3941,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4565,
+          "line_end": 4579,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 1122,
+          "line_end": 1132,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 3695,
+          "line_end": 3713,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-069-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-069-AUDIT.json",
+          "result_sha256": "253df12981d6f9a7b3e2378140ba7cc5c6dbd08f46ba79a913daf969257b4d0b",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-069-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-071",
+      "title": "卢承山病：目今无虑与七月不测",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "乙酉正月己亥日己巳时"
+      },
+      "missing_fields": [
+        "月将未直载，年命完整欠参；原脾经及用药论是作者说法，未经医学验证。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3976-L3982",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3976,
+          "line_end": 3982,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4619,
+          "line_end": 4627,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 916,
+          "line_end": 924,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1085,
+          "line_end": 1097,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-072",
+      "title": "阮实夫代刘若宜会试：中试与官途不远",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "丁丑二月乙未日丙戌时"
+      },
+      "missing_fields": [
+        "未直载月将；补官后述不能扩写为独立核验具体名次考试履历。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3984-L3988",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3984,
+          "line_end": 3988,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4629,
+          "line_end": 4635,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-073",
+      "title": "贺中怜代周首揆：去位原断与身份后知",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "癸酉二月甲子日己巳时"
+      },
+      "missing_fields": [
+        "己丑日为对问生年之原字，不能静默改成年柱；月将仅后文朱雀月将关系未明确支。",
+        "完整原图/原始贵人设置未核；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L3990-L3996",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 3990,
+          "line_end": 3996,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4637,
+          "line_end": 4645,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4518,
+          "line_end": 4522,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5275,
+          "line_end": 5281,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 908,
+          "line_end": 914,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1075,
+          "line_end": 1083,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-075",
+      "title": "何生独足：五女无子的局部引例",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "己未日"
+      },
+      "missing_fields": [
+        "只有己未独足语境，未载完整年月将时；不可借张克用酉将亥时补本案。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4082-L4082",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4082,
+          "line_end": 4082,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4765,
+          "line_end": 4765,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-076",
+      "title": "周粮厅功名：求迁、参罢、救制与原因分层",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "辛卯三月癸酉日乙卯时"
+      },
+      "missing_fields": [
+        "月将未直接载；转录主戌巳子而正文初卯中戌末巳，不改残列；贪污为原书指控未独立核证。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4094-L4132",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4094,
+          "line_end": 4132,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4781,
+          "line_end": 4821,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 243,
+          "line_end": 249,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 275,
+          "line_end": 283,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 657,
+          "line_end": 661,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 767,
+          "line_end": 773,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 1060,
+          "line_end": 1064,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1257,
+          "line_end": 1263,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-078",
+      "title": "徐养浩避难：马实诸空与家物遗失",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "戊寅九月己丑日酉时"
+      },
+      "missing_fields": [
+        "未直载月将，不以返吟推将冒作原载；战争背景及阿片自述与北海后析分层；阴神此处明确非第四课。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4144-L4162",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4144,
+          "line_end": 4162,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4835,
+          "line_end": 4855,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-079",
+      "title": "刘汉式复旧缺：初成复任与月余再逮",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "乙酉七月庚子日甲申时"
+      },
+      "missing_fields": [
+        "题行缺将，后文月将青龙发用可作约束；不把中末空改成一开始没复官。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4164-L4172",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4164,
+          "line_end": 4172,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4857,
+          "line_end": 4867,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 774,
+          "line_end": 778,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 905,
+          "line_end": 911,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 6931,
+          "line_end": 6933,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "dependency_type": "same_event_parallel_source",
+          "same_event": true
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-080",
+      "title": "陈东明出师：三合局逐传与合中犯煞",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "丙子二月辛巳日辛卯时"
+      },
+      "missing_fields": [
+        "缺直载月将；转录主午寅戌与后析戌午寅逆传不合；陈洪范道德历史评价未外核。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4203-L4211",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4203,
+          "line_end": 4211,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4905,
+          "line_end": 4915,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4259,
+          "line_end": 4263,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4971,
+          "line_end": 4977,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-082",
+      "title": "官子玄会试：犯煞与考试诸吉取舍",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "癸未二月乙丑日己卯时"
+      },
+      "missing_fields": [
+        "月将未直接给；命中与名次只是原断，不冒充实际结果。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4243-L4257",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4243,
+          "line_end": 4257,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4953,
+          "line_end": 4969,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-083",
+      "title": "杀二人后问罪：已知罪情与勾陈夹克",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "壬辰日酉将寅时"
+      },
+      "missing_fields": [
+        "缺年月年命；杀二人是已知因，不能计为排盘推得人数；死不完尸未另有独立反馈。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4294-L4302",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4294,
+          "line_end": 4302,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5011,
+          "line_end": 5021,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 5497,
+          "line_end": 5513,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "dependency_type": "same_event_parallel_source",
+          "same_event": true
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-084",
+      "title": "失狗：类神临干与虎夹克反断",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "甲辰日戌将寅时"
+      },
+      "missing_fields": [
+        "缺年月；转录主戌寅午却正文称寅虎在末，保留盘序疑点；木排象的六合/卯解释两层不强并。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4304-L4312",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4304,
+          "line_end": 4312,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5023,
+          "line_end": 5033,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7631,
+          "line_end": 7645,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语",
+          "dependency_type": "same_event_parallel_source",
+          "same_event": true
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-086",
+      "title": "徐盟鹿全家远行：空墓、劫丁与五人遇盗",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "庚寅五月庚申日丁丑时"
+      },
+      "missing_fields": [
+        "缺直载月将；沉尸江中是北海看来推测，不是原反馈；日劫/月劫口径分存。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4370-L4376",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4370,
+          "line_end": 4376,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5099,
+          "line_end": 5107,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-087",
+      "title": "邵孙杨赴扬州：干神归支的局部引例",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "癸之寄宫丑加支"
+      },
+      "missing_fields": [
+        "未列年月日将时，不能从上一例的假设图补完整时间；只局部引法，实际任期未另载。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4404-L4404",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4404,
+          "line_end": 4404,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5139,
+          "line_end": 5139,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-088",
+      "title": "迟父师等占东省：伏吟虎马与官民分项",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "辛未四月丙子日丁酉时"
+      },
+      "missing_fields": [
+        "缺直载月将；官被劾与民流亡为不同取象，历史伤亡和身份未经外核。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4436-L4446",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4436,
+          "line_end": 4446,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5173,
+          "line_end": 5185,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-089",
+      "title": "邮购六壬书：扣书与电子稿大部分到手",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "巳将辰时癸未日"
+      },
+      "missing_fields": [
+        "缺年月；初断可得及航空寄来不能当实体书如期收到；大部分电子稿不等于全书到齐。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4497-L4509",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4497,
+          "line_end": 4509,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5249,
+          "line_end": 5263,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-090",
+      "title": "楠姓代董晋侯问病：禄绝马墓与死期原断",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "辛卯二月丁未日癸卯时"
+      },
+      "missing_fields": [
+        "未直接载月将；主酉寅亥与六亲酉亥亥冲突；原医疗解释不当诊断证实。",
+        "完整原图、原始贵人设置及独立现实核验未齐。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4512-L4516",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4512,
+          "line_end": 4516,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5267,
+          "line_end": 5273,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4834,
+          "line_end": 4838,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5643,
+          "line_end": 5649,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-092",
+      "title": "借钱数额：虎鬼气势大的局部实例",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "虎鬼发用不空"
+      },
+      "missing_fields": [
+        "未载年月日将时；只有虎鬼发用不空关系，不据不少补量或收益。",
+        "原图与原始贵人设置未全；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4562-L4562",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4562,
+          "line_end": 4562,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5339,
+          "line_end": 5339,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-094",
+      "title": "邵百一占宅父母：弹射与常法不同起例",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "己酉年二月乙巳日戊将亥时"
+      },
+      "missing_fields": [
+        "戊将是原字，不能静默改戌；邵取辰卯寅弹射与常法卯寅丑并存，北海明确存疑仍按常法起。",
+        "原图与原始贵人设置未全；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4617-L4629",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4617,
+          "line_end": 4629,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5397,
+          "line_end": 5411,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-098",
+      "title": "东省万应斗：另一占的速问拟罪简引",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "在辰时壬申又占此"
+      },
+      "missing_fields": [
+        "整行混合梁案和万案；仅最后万公句属本案，年月将及完整日时关系未全；又占此不等于可借梁课盘。",
+        "原图与原始贵人设置未全；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4683-L4683",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4683,
+          "line_end": 4683,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5473,
+          "line_end": 5473,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4000,
+          "line_end": 4000,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 4651,
+          "line_end": 4651,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-099",
+      "title": "懋芳与李父母脱难：以凶制凶与谪戍",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "丁丑十一月癸未日丙辰时"
+      },
+      "missing_fields": [
+        "缺直载月将和两人的完整年命；原断脱难不等于恢复原职无处分，谪戍仍是处分；不从共课造两独立事件。",
+        "原图与原始贵人设置未全；独立现实效果验证为0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L4885-L4893",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 4885,
+          "line_end": 4893,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 5699,
+          "line_end": 5709,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-101",
+      "title": "急事找友：引从马星与多人在道路",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "马星发用。前后引从，干上申金"
+      },
+      "missing_fields": [
+        "未给年月日将时，只有申干上及马引从关系；人数没具体值。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L178-L178",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 178,
+          "line_end": 178,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 183,
+          "line_end": 183,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-102",
+      "title": "阿拉法特病：丧吊棺材的引从画面",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间或关系": "公历2004年10月29日下午一点半，甲申年戌月，未将卯时辛巳日"
+      },
+      "missing_fields": [
+        "钟点下午一点半与卯时矛盾、题戌月与后注亥月死煞参照不同，均不静默校正。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L233-L241",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 233,
+          "line_end": 241,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 263,
+          "line_end": 273,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-102-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-102-AUDIT.json",
+          "result_sha256": "81a36464bbc7ff87d0cd36a688c6701f697df4a9876743ea8f4b5ae331732268",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-102-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-104",
+      "title": "支午上申食品生意：局部生活取象",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "支午，上神申"
+      },
+      "missing_fields": [
+        "只有午支申上神，未载占问全貌及断前断后，不能借时监院盘；同一行其余病象为泛例。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L340-L340",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 340,
+          "line_end": 340,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 399,
+          "line_end": 399,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-105",
+      "title": "男向女表意：开口闭口与拒绝",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "干上旬首，支上旬尾"
+      },
+      "missing_fields": [
+        "仅首尾干支关系，无年月日将时及独立当事反馈。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L374-L374",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 374,
+          "line_end": 374,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 433,
+          "line_end": 433,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-106",
+      "title": "宜陵景兄府院试：天心诸吉与首进",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "庚寅七月甲申日丙寅时"
+      },
+      "missing_fields": [
+        "缺直载月将及年命完整值；原后果首进与北海两次第一分层，未外核榜录。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L389-L395",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 389,
+          "line_end": 395,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 449,
+          "line_end": 457,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-108",
+      "title": "壬戌生女问学历：重印与研究生",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "申将申时辛酉日"
+      },
+      "missing_fields": [
+        "命壬戌女，但占年月未知；惊讶并非学历原件核验；太常不为印与本段太常印象差别保留。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L475-L475",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 475,
+          "line_end": 475,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 547,
+          "line_end": 549,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-109",
+      "title": "女子导游：不旺河魁领头的局部见闻",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "干上河魁不旺"
+      },
+      "missing_fields": [
+        "未载年月日将时及预先问断，余同行官职例为泛论。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L487-L487",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 487,
+          "line_end": 487,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 561,
+          "line_end": 561,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-111",
+      "title": "2000年考试：德入天门三传空的简引",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "在2000年的时候"
+      },
+      "missing_fields": [
+        "只载年份与戊日类型，无全时占；同段指南另例不能合入。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L501-L501",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 501,
+          "line_end": 501,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 577,
+          "line_end": 577,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-112",
+      "title": "公务员考试：德入天门虽空而中",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间或关系": "公历2005年12月10日，乙酉年子月，寅将申时戊辰日"
+      },
+      "missing_fields": [
+        "未给分数名次及正式录用证明；原载考中不外推已入职。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L503-L505",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 503,
+          "line_end": 505,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 579,
+          "line_end": 583,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-112-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-112-AUDIT.json",
+          "result_sha256": "56714e8ac70b085b51b2ab9c3a57fc2ed71479a38e94b9e76a65ed75c34f3af9",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-112-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-113",
+      "title": "校内中层：源消根断与得职不爽多病",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "源消根断"
+      },
+      "missing_fields": [
+        "不借前面己未日示意盘作为本人的时盘；疾病类型、任职日期均未载。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L521-L521",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 521,
+          "line_end": 521,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 603,
+          "line_end": 603,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-114",
+      "title": "宗开科场：幕贵、月将与空未年期",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间或关系": "癸酉七月辛卯日庚寅时"
+      },
+      "missing_fields": [
+        "缺直接月将，后注明午将；三传木局与转录财局/初中空末实相冲，保留整理修正身份。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L560-L566",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 560,
+          "line_end": 566,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 645,
+          "line_end": 653,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-114-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-114-AUDIT.json",
+          "result_sha256": "b935350c772bd8ed8c00f39e454d400f3608e6f3c11c5098616eac71501d2b6e",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-114-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-115",
+      "title": "何伴鹤代占陈兄弟武举：同中与名次",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "丁卯八月乙巳日甲申时"
+      },
+      "missing_fields": [
+        "另一位午命不知陈公献或另兄弟；寅空借下旬遁甲作者存疑，不能当已确认秘法；蒿矢/弹矢两版不同。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L568-L578",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 568,
+          "line_end": 578,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 655,
+          "line_end": 667,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-116",
+      "title": "孙大宜会试：贵德财马与本年甲榜",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "丁丑二月癸未日戊午时"
+      },
+      "missing_fields": [
+        "题会试，后文乡试主文/酉为月建与二月冲突；三传酉巳丑不是递生，作者末段自己指出，不强修。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L580-L590",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 580,
+          "line_end": 590,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 669,
+          "line_end": 681,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-118",
+      "title": "涂松亭代彭南溟迁官：南京任所与后罢",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "丁卯正月丁巳日癸卯时"
+      },
+      "missing_fields": [
+        "缺直载月将；迁擢和不久被罢分阶段，姓名取象与现实因果未经外核。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L622-L626",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 622,
+          "line_end": 626,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 725,
+          "line_end": 731,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-119",
+      "title": "童保仪占宅：六阴衰败与家事原断",
+      "state": "existing_reconstruction_owner_review",
+      "next_action": "已有结果和全raw，负责人复核facts、原文及登记两轴；不自动complete。",
+      "chart_fields": {
+        "原载时间或关系": "戊申年六月丁巳未将酉时"
+      },
+      "missing_fields": [
+        "本段无单列实际反馈；转录主亥酉丑与六亲丑亥酉次序不同，保留不择。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L696-L700",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 696,
+          "line_end": 700,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 813,
+          "line_end": 819,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [
+        {
+          "id": "RC26-BIFA-119-AUDIT",
+          "result_path": "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-119-AUDIT.json",
+          "result_sha256": "49e38ce3815113c701f18a6ba4a86f2367621f89bb6826f380dbb5a1254d84fc",
+          "review_path": "output/liuren-book-cases-20261102/bifa_reconstruction_review.json",
+          "review_sha256": "2e770e660d8c4459a0b2586f2e20ee8d96fd116bed6e3b5c0e20e78141f4f726",
+          "review_state": "source_checked",
+          "note": "原转录残图保留；以当前语义审查中的全facts实质等价组或来源冲突作判断，不强选设置、不改不符原列。完整性须与completeness及复原附录同读。"
+        }
+      ],
+      "available_result_paths": [
+        "output/liuren-book-cases-20261102/reconstructions/RC26-BIFA-119-AUDIT.json"
+      ],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-122",
+      "title": "福藩大晕：迎阳辅象与君国分取",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "甲申五月己丑日庚午时"
+      },
+      "missing_fields": [
+        "月将未直接给；朱由崧人格历史批评保留作者身份，未把酉合等同现实品德证实。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L740-L762",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 740,
+          "line_end": 762,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 867,
+          "line_end": 891,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-123",
+      "title": "马康庄入相：顾祖初龙空与归乡",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "戊辰十二月庚寅日庚辰时"
+      },
+      "missing_fields": [
+        "缺直载月将；从赤松子游原文不直接硬定具体死亡日及年月。",
+        "原图与原贵人设置未全；独立验证0。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L768-L772",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 768,
+          "line_end": 772,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 897,
+          "line_end": 903,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-124",
+      "title": "孙鲁山请告：仅转录存案、不允退休反升官",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间": "戊寅三月丙寅日丙申时"
+      },
+      "missing_fields": [
+        "正式本第5/6法在刘汉式案后结束，孙鲁山原段整案未保留；转录三传主午辰申/六亲辰午申不合，太岁卯与戊寅题年也冲突。",
+        "缺直载月将及原图，不据结局修日期盘序。"
+      ],
+      "source_case_identity": "book:课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md:L913-L921",
+      "source_refs": [
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 913,
+          "line_end": 921,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 774,
+          "line_end": 778,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-127",
+      "title": "癸亥男问夫妻：相生旺禄与支二课空",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "申将未时癸亥日"
+      },
+      "missing_fields": [
+        "缺年月/年命；支二课空与干支相生先后取舍，不把危险改成离婚事实。",
+        "原图残损，原始贵人及昼夜设置未明。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L894-L896",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 894,
+          "line_end": 896,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1055,
+          "line_end": 1059,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-BIFA-128",
+      "title": "甲申工作：支干相加而德丧禄绝",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "原载时间或关系": "申将寅时甲申日"
+      },
+      "missing_fields": [
+        "缺年月/年命；寅申寅残列可读，强断是原作者意见。",
+        "原图残损，原始贵人及昼夜设置未明。"
+      ],
+      "source_case_identity": "book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L898-L900",
+      "source_refs": [
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 898,
+          "line_end": 900,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "原书断语"
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+          "line_start": 1061,
+          "line_end": 1065,
+          "sha256": "a91ac6c3eb31f510c2b20aacab450f2835060450179449b16b4f4a8468d713e8",
+          "role": "原书断语"
+        },
+        {
+          "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+          "line_start": 6,
+          "line_end": 12,
+          "sha256": "bbf276518dedf76bf282129b9a6521a98d7b664b86d64ea28538e47a72211bd6",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        },
+        {
+          "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+          "line_start": 15,
+          "line_end": 21,
+          "sha256": "6c2467dca2f42ad126cbda1ab3e6664209f6661d3f7dbf1e1a36e53a0eb40d8c",
+          "role": "后人注解",
+          "dependency_type": "borrowed_context",
+          "same_event": false
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-001",
+      "title": "辰命女问带父母旅行及母亲病情",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "四柱": "甲辰 甲戌 甲寅 己巳",
+        "月将": "辰",
+        "课体": "知一，退茹，孤辰",
+        "原载局": "甲寅日第二局干上丑"
+      },
+      "missing_fields": [
+        "复盘另起的交节/月合换将盘在1326行仅[]，未找到该盘图及完整盘式。",
+        "主盘四课三传字符连排且有⌾⊙，尚未逐图核对。",
+        "原断、群断、复盘和各家注解的原始发言时间戳不全。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/当代壬占汇选第五版.md:L1260-L1388",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1260,
+          "line_end": 1388,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-010",
+      "title": "申男租房破财昏沉：奇门转课与缺图",
+      "state": "nonchart_evidence_gap",
+      "next_action": "缺原断/奇门转课等证据，单排六壬不能恢复。",
+      "chart_fields": {
+        "四柱": "甲辰 丙子 癸酉 壬戌",
+        "月将": "丑",
+        "原载局": "癸酉日第十局干上辰"
+      },
+      "missing_fields": [
+        "2368/2387图片仅[]，原奇门局、转课依据和图片所载反馈无法核对。",
+        "2366说明奇门转六壬，与题头正时起课的记录关系未明。",
+        "原载多注明确没有反馈，方位、坟墓、鬼神、健康及财产解释没有现实核验。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/当代壬占汇选第五版.md:L2311-L2414",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2311,
+          "line_end": 2414,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-016",
+      "title": "男代女亲人问身孕：角色自纠与另起月合课",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "四柱": "甲辰 丁丑 己卯 癸酉",
+        "月将": "丑",
+        "原载局": "己卯日第九局干上亥"
+      },
+      "missing_fields": [
+        "2948另月合课无完整图/盘，只有第四课天后酉临午、酉空、午朱雀克酉、酉发用等关系。",
+        "贺兰原始聊天截图未附，2928编者称依据聊天记录，不能独立核其成文先后。",
+        "未怀及第三日月事仅原载反馈，无医学记录。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/当代壬占汇选第五版.md:L2875-L2958",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2875,
+          "line_end": 2958,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-047",
+      "title": "卯女预约顺风车：接单与行程结果分开",
+      "state": "nonchart_evidence_gap",
+      "next_action": "缺原断/奇门转课等证据，单排六壬不能恢复。",
+      "chart_fields": {
+        "四柱": "甲辰 丁丑 辛卯 丙申",
+        "月将": "子将",
+        "原载局": "辛卯日第九局干上寅"
+      },
+      "missing_fields": [
+        "5385骑牛首断仅[]，后续一路顺风短句不能恢复原图是否另含判断依据，暂保关键性待核。",
+        "只反馈有人接单司机约7:30到，未载实际到达、旅途拥堵和抵姐家。",
+        "黑车/不按规则及戌时动是作者解释，未有独立反馈。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/当代壬占汇选第五版.md:L5349-L5408",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 5349,
+          "line_end": 5408,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-MODERN-061",
+      "title": "未命弟缅甸受困：巳月生还与正活两课错位",
+      "state": "pending_input_review",
+      "next_action": "新登记尚未逐条核输入，不能仅由chart_fields机械判断一定缺参或可补。",
+      "chart_fields": {
+        "四柱": "癸卯 乙卯 己丑 己巳",
+        "原载将时": "戌将 活时 丑",
+        "原载局": "己丑日第四局干上辰"
+      },
+      "missing_fields": [
+        "6582明确看过正活两课，另述巳寅亥与主盘子辰戌不合，另一完整盘未载；原始正活身份仍待核。",
+        "6529为10:33/四柱己巳，主表又戌将活时丑，全部保留不统一。",
+        "反馈当年巳月生还状态差，没有归国医疗或救援文书；受辱折磨等细节部分仅象义。"
+      ],
+      "source_case_identity": "book:书籍库/现代著作/当代壬占汇选第五版.md:L6524-L6587",
+      "source_refs": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 6524,
+          "line_end": 6587,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原书断语",
+          "author": "原载署名见完整案文"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    },
+    {
+      "case_id": "BK26-SHAO-003",
+      "title": "州官占雨（原载断语遗失）",
+      "state": "text_loss_not_recoverable_by_chart",
+      "next_action": "缺关键文字，盘式不能还原；检索同源善本，不由反馈补写。",
+      "chart_fields": {
+        "日干": "癸"
+      },
+      "missing_fields": [
+        "原文明示断语遗失",
+        "结果未载"
+      ],
+      "source_case_identity": "book:书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt:L30-L36",
+      "source_refs": [
+        {
+          "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+          "line_start": 30,
+          "line_end": 36,
+          "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+          "role": "原书断语"
+        }
+      ],
+      "reconstruction_refs": [],
+      "available_result_paths": [],
+      "independent_validation_count": 0
+    }
+  ]
+}

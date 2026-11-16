@@ -1,0 +1,53 @@
+{
+  "session_id": "ses_e513b1685ffe3We4TZhV4bOdv2",
+  "calls": [
+    {
+      "part_id": "prt_1aec8ef480015G6mQzHJ3AL5E0",
+      "time_created": 1793933766472,
+      "status": "error",
+      "input": {
+        "action": "calendar",
+        "calendar": {
+          "start": "2024-01-15",
+          "end": "2024-02-05",
+          "timezone": "Asia/Shanghai"
+        }
+      },
+      "error": "LIUREN_CALENDAR: explicit Asia/Shanghai timezone and day_boundary required"
+    },
+    {
+      "part_id": "prt_1aec980d50010O4r4KW5yAUOVI",
+      "time_created": 1793933803733,
+      "status": "error",
+      "input": {
+        "action": "calendar",
+        "calendar": {
+          "start": "2024-01-15",
+          "end": "2024-02-05",
+          "timezone": "Asia/Shanghai",
+          "day_boundary": "midnight"
+        }
+      },
+      "error": "LIUREN_CALENDAR: explicit Asia/Shanghai timezone and day_boundary required"
+    },
+    {
+      "part_id": "prt_1aec9caad001zcjomm5o5VkG1X",
+      "time_created": 1793933822637,
+      "status": "error",
+      "input": {
+        "action": "calendar",
+        "calendar": {
+          "start": "2024-01-15",
+          "end": "2024-02-05",
+          "timezone": "Asia/Shanghai",
+          "day_boundary": {
+            "type": "midnight",
+            "at": "00:00"
+          }
+        }
+      },
+      "error": "LIUREN_CALENDAR: explicit Asia/Shanghai timezone and day_boundary required"
+    }
+  ],
+  "scope": "calendar tool arguments and errors only"
+}

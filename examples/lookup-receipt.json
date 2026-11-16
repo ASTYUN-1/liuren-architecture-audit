@@ -1,0 +1,30 @@
+{
+  "subject": "申",
+  "reference": "庚",
+  "kin": "兄弟",
+  "seasonal": {
+    "profile": "four-seasons",
+    "month": "亥",
+    "value": "休"
+  },
+  "place": "午",
+  "growth": "沐浴",
+  "growth_profile": "element-forward-water-earth",
+  "subject_to_place": [
+    {
+      "type": "five_elements",
+      "from": "申",
+      "to": "午",
+      "value": "被克"
+    }
+  ],
+  "fact_refs": [
+    "D_B8"
+  ],
+  "position": "申:天盘临亥乘白虎;地盘本宫上巳乘勾陈",
+  "site_yin": "申:临亥;直接阴神巳",
+  "five_qi": "申:{\"month\":\"亥\",\"profiles\":{\"four-seasons\":\"休\",\"quarter-earth\":\"休\"},\"adoption\":\"select and state the applicable source convention; profiles are not votes\"}",
+  "twelve_states": "申:{\"profile\":\"element-forward-water-earth\",\"reference\":\"申\",\"ground\":\"病\",\"yin\":\"长生\"}",
+  "shenjiang": "申:白虎",
+  "note": "Relationship and state lookup, not efficacy."
+}

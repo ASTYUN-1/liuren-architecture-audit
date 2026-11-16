@@ -1,0 +1,19 @@
+{
+  "release": "20261106-event-positioning-14",
+  "parentRelease": "20261106-receipt-handoff-13",
+  "authority": "user event-centered role policy",
+  "problems": [
+    "domain reads were not enforced by preparation coverage",
+    "exam omitted an explicit actor binding",
+    "illness allowed family-role reference switching",
+    "adjudicator received observations without automatic complete domain rules"
+  ],
+  "changes": [
+    "event role policy in shared methods and all 16 domains",
+    "program checks domain reading, actor references and day stem for exam/illness",
+    "full positioning and selected domains accompany scoped file",
+    "completed adjudication cannot replace protected actor symbol"
+  ],
+  "predictiveValidation": false,
+  "externalModelCalled": false
+}

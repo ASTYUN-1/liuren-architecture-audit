@@ -1,0 +1,1252 @@
+{
+  "schema": "liuren-book-experience-organization-v1",
+  "scope": "仅B2既有10卡与B38已读15案同步方法记录；用户要求本轮后停止连续拆案",
+  "complete_for_this_scope": true,
+  "whole_books_complete": false,
+  "cards_reviewed": 10,
+  "cards_merged": 0,
+  "cards_retained": 10,
+  "merge_reason": "未发现同义且同条件的重复卡；角色、问事、类神显隐、阶段和作者分支不同者只归主题，不实质合并。",
+  "evidence_corrections": "本轮核现卡摘要对其已存逐字原据，没有发现需改写的无来源核心论断；原作者强断继续作为source_method且保限制，未升级经验有效性。",
+  "entries": [
+    {
+      "rule_id": "LR26-BOOK-MODERN-001",
+      "title": "问他人牢狱时先固定干支角色，并将当前拘留、正式判决和刑期分开",
+      "family": "转问角色与目标",
+      "condition_branch": "他人拘留/正式判决/刑期及牵连者财产分开；不是所有转问均支为他。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-MODERN-002",
+        "book:书籍库/现代著作/当代壬占汇选第五版.md:L1391-L1494"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1422,
+          "line_end": 1452,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1455,
+          "line_end": 1462,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        }
+      ],
+      "exclusions": [
+        "本卡不把问他人一律支、干一律我升级为所有课的唯一取用。",
+        "原断六年/十一年及其他作者四年、九年均无终局裁判反馈，不能视为已验。"
+      ],
+      "limitations": [
+        "只确认文本有此角色与状态分层方法；本轮没有重新排盘或核司法材料。",
+        "未来判刑和刑期仍待后续，部分原载牵连事实不验证全部推导。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-MODERN-002",
+      "title": "离婚问同时见递生与三合：原作者分别用来钱与迟缓解释，登记不等于办结",
+      "family": "结果与过程分层",
+      "condition_branch": "离婚案递生论钱、三合论迟；登记和办结不同，巳午期未验。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-MODERN-003",
+        "book:书籍库/现代著作/当代壬占汇选第五版.md:L1497-L1627"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1556,
+          "line_end": 1558,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载反馈"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1625,
+          "line_end": 1627,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1547,
+          "line_end": 1553,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        }
+      ],
+      "exclusions": [
+        "不把所有三合、润下都判离婚或所有生干都判得款。",
+        "巳年结束事件、午年脱离的原作者应期未有本案后续验证，照原说保留。"
+      ],
+      "limitations": [
+        "原文明示指注解文字存在，不代表注解在反馈前形成或全部正确。",
+        "未核两阶段手续在现实中的最终状态，也不以疑似隐瞒代替事实核查。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-MODERN-003",
+      "title": "逃逸与追捕分目标：斩关出空和空上逢空不可抹成同一结果",
+      "family": "结果与过程分层",
+      "condition_branch": "追捕方与逃方目标相反；月令填实跑掉和空上逢空抓不住是青山后修，凌诚真空论另支。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-MODERN-005",
+        "book:书籍库/现代著作/当代壬占汇选第五版.md:L1770-L1866"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1810,
+          "line_end": 1829,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1854,
+          "line_end": 1856,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        }
+      ],
+      "exclusions": [
+        "不推广成所有斩关必逃或空上逢空永远不可捕。",
+        "课主转述有人打招呼不能证明现实官方干预。"
+      ],
+      "limitations": [
+        "反馈截止时间未知，未来是否抓获未载。",
+        "同案事后解释与原判必须区分。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-MODERN-004",
+      "title": "志愿录取与外出愿望分问，方位类象须受明确学校角色约束",
+      "family": "转问角色与目标",
+      "condition_branch": "某校/多校/只求离乡分问；寅东北不能直接等同题中学校。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-MODERN-006",
+        "book:书籍库/现代著作/当代壬占汇选第五版.md:L1869-L1993"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1875,
+          "line_end": 1886,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1907,
+          "line_end": 1916,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1942,
+          "line_end": 1956,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 1984,
+          "line_end": 1988,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        }
+      ],
+      "exclusions": [
+        "不把中传一律等同第二志愿，也不把寅一律等同东北学校。",
+        "学校好坏、女友及混乱等衍生象无反馈，不能作本案验证项。"
+      ],
+      "limitations": [
+        "原载录取材料未核验，申命/丙戌命异文未解决。",
+        "后注在反馈后形成的可能性保留，独立验证仍0。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-MODERN-005",
+      "title": "求孕的成胎、检出与出生分段，流产猜测不得回填",
+      "family": "胎产角色与阶段",
+      "condition_branch": "丈夫问妻：成胎、检查、出生分阶段；分男女取胎与不分取胎两法不并，流产未载。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-MODERN-008",
+        "book:书籍库/现代著作/当代壬占汇选第五版.md:L2121-L2221"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2154,
+          "line_end": 2172,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2178,
+          "line_end": 2189,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2214,
+          "line_end": 2216,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        }
+      ],
+      "exclusions": [
+        "不以此案证明反吟一定流产或男问一律支妻。",
+        "检查日、怀孕月、生产月是不同目标；白虎手术及性格象无反馈。"
+      ],
+      "limitations": [
+        "未查医学原始记录；方法存在与效果证实分开。",
+        "反馈后解释不补造既往流产或手术。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-MODERN-006",
+      "title": "男代女亲人求孕须先问关系；获知角色后的自撤首断与馈后补理分开",
+      "family": "胎产角色与阶段",
+      "condition_branch": "男代女亲人：先核关系；骑牛撤首断、编者馈后补与艺术家另月合第四课各自身份。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-MODERN-016",
+        "book:书籍库/现代著作/当代壬占汇选第五版.md:L2875-L2958"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2907,
+          "line_end": 2938,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "原载作答"
+        },
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 2941,
+          "line_end": 2948,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e",
+          "role": "后人注解"
+        }
+      ],
+      "exclusions": [
+        "不将男问女亲人一律支或第四课一律子孙升为通则。",
+        "鬼胎、瘫痪等强断缺现实支持，不用未孕结果替它们保真。"
+      ],
+      "limitations": [
+        "关键另盘待现有引擎复原，主原载文字仍可用于角色自纠观察。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-ANCIENT-001",
+      "title": "失麦面案：贼人不机械锁定玄武，按食物与场所链参初中末",
+      "family": "失物取用条件",
+      "condition_branch": "麦面问偷者：物业场所链及初中末可代玄武；不等所有失物不用玄武。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-ANCIENT-009",
+        "book:书籍库/现代著作/《壬占汇选》.txt:L687-L701"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 687,
+          "line_end": 701,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "exclusions": [
+        "不凭食物类象先验认定现实盗贼职业。",
+        "没有原始侦查记录，叙事后知果是仅作原载结果。"
+      ],
+      "limitations": [
+        "只确认本案有该取用链条；本轮未重排、未验证一般预测效力。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-ANCIENT-002",
+      "title": "任所定位失准后的暗拱解释须保留事后身份，不当固定地名算法",
+      "family": "定位复盘与自限",
+      "condition_branch": "任所卫燕失准后暗拱周地和编者字音新野两支；作者明说后占不必尽照。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-ANCIENT-020",
+        "book:书籍库/现代著作/《壬占汇选》.txt:L869-L883"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 869,
+          "line_end": 883,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "exclusions": [
+        "不得把事后解释作为本案原预测命中。",
+        "不将相似字、分野或暗拱任意映射所有地名。"
+      ],
+      "limitations": [
+        "作者亲自告诫执一便谬；仅确认其复盘和自限说法。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-ANCIENT-003",
+      "title": "寻银两占：类神并见合断，方向取初传或类神所临须分前提",
+      "family": "失物取用条件",
+      "condition_branch": "银物并见酉/太阴须合断；方向未见类取初、已见取所临；同事件初再占不增验证。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-ANCIENT-036",
+        "book:书籍库/现代著作/《壬占汇选》.txt:L1113-L1127",
+        "BK26-ANCIENT-035",
+        "book:书籍库/现代著作/《壬占汇选》.txt:L1097-L1111"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 1097,
+          "line_end": 1127,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "exclusions": [
+        "不把两次占课当两件独立验证事件。",
+        "不将金银类神或方向法扩大至所有失物类别而不核条件。"
+      ],
+      "limitations": [
+        "同事件两次盘需各自保存，不以第二次叙事倒灌初课命中。"
+      ]
+    },
+    {
+      "rule_id": "LR26-BOOK-ANCIENT-004",
+      "title": "三人约同行以初末引从干辨先后，三次出发不算同行成功",
+      "family": "结果与过程分层",
+      "condition_branch": "三人约同日：初末引从干区分先后，地盘与发用各取期；都能出发不等同行。",
+      "decision": "retain_distinct_condition_branch",
+      "source_case_ids": [
+        "BK26-ANCIENT-050",
+        "book:书籍库/现代著作/《壬占汇选》.txt:L1389-L1403"
+      ],
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 1389,
+          "line_end": 1403,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f",
+          "role": "原书断语"
+        }
+      ],
+      "exclusions": [
+        "不能将所有初末引从干都判同行失败，须保留多人同约及该课结构前提。",
+        "不把同一同行事件的三人出发当三次独立验证。"
+      ],
+      "limitations": [
+        "原书日期和真实出行未外核；映射先验步骤不全。"
+      ]
+    }
+  ],
+  "current_batch_method_review_case_ids": [
+    "BK26-MODERN-105",
+    "BK26-MODERN-106",
+    "BK26-MODERN-107",
+    "BK26-ANCIENT-426",
+    "BK26-ANCIENT-427",
+    "BK26-ANCIENT-428",
+    "BK26-ANCIENT-429",
+    "BK26-ANCIENT-430",
+    "BK26-ANCIENT-431",
+    "BK26-ANCIENT-432",
+    "BK26-ANCIENT-433",
+    "BK26-ANCIENT-434",
+    "BK26-ANCIENT-435",
+    "BK26-ANCIENT-436",
+    "BK26-ANCIENT-437"
+  ],
+  "current_batch_method_review_files": [
+    "knowledge/liuren-research/20261102/method-reviews/modern.json",
+    "knowledge/liuren-research/20261102/method-reviews/ancient.json"
+  ],
+  "recorded_source_methods": [
+    {
+      "case_id": "BK26-MODERN-105",
+      "subjudgment_id": "BK26-MODERN-105-Q01",
+      "judgment": "能成行但行程推迟",
+      "category_tags": [
+        "出行占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "骑牛虎动主能去，合局难动且虎作墓主阻；沈好谦三合禄集体旺气可组织，干贵空合有停滞。反馈2/22课延期3/1、2/28实际出发，不能用推迟验证永久走不成。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10345,
+          "line_end": 10385,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-105",
+      "subjudgment_id": "BK26-MODERN-105-Q02",
+      "judgment": "不成行法与学堂闭口",
+      "category_tags": [
+        "出行占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "壬针行年墓、马空/坐死、命勾绊与亥学堂闭口；明天类马课空。两家初断走不成，与实去反证，复盘课堂没了仅对应延期，非终无课。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10347,
+          "line_end": 10371,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-105",
+      "subjudgment_id": "BK26-MODERN-105-Q03",
+      "judgment": "学习角色由公派改自费",
+      "category_tags": [
+        "出行占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "初断回来升迁、领导病及贺兰津贴不满皆以公派猜想。10353已更正自费；骑牛10385自承主观，不能改为境界升级便算职位升迁命中。父病关联不能替领导预测获证。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10345,
+          "line_end": 10385,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-105",
+      "subjudgment_id": "BK26-MODERN-105-Q04",
+      "judgment": "卯丑冲未墓与实际往返期",
+      "category_tags": [
+        "出行占"
+      ],
+      "judgment_stage_tags": [
+        "应期",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "骑牛后注春木旺卯丑冲未墓取期；原实际戊辰出发辛未回，未给卯丑实际相符事件。只记录作者取期，不能倒配。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10360,
+          "line_end": 10385,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-106",
+      "subjudgment_id": "BK26-MODERN-106-Q01",
+      "judgment": "坟地形势与方位高低",
+      "category_tags": [
+        "家宅占"
+      ],
+      "judgment_stage_tags": [
+        "方位定位",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "骑牛坐乾巽大体西东、左树右路、无朝案半坡/东南平原；壬针低近水草断路。反馈乾巽/左右/高压线部分合，有朝案低洼东南山反证，不能以基本对应抹平。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10422,
+          "line_end": 10439,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-106",
+      "subjudgment_id": "BK26-MODERN-106-Q02",
+      "judgment": "职业贵贱与财富",
+      "category_tags": [
+        "家宅占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "过程结果",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "骑牛丑鬼墓为坟、午空文书学堂取教师九流医，不出富；邻坟小贵。反馈二师/术数爱好无医生、多人百万千万发财及邻坟军职后衰，逐项目分开，坟因果未核。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10426,
+          "line_end": 10439,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-106",
+      "subjudgment_id": "BK26-MODERN-106-Q03",
+      "judgment": "排行与姑家文人",
+      "category_tags": [
+        "家宅占"
+      ],
+      "judgment_stage_tags": [
+        "数量",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "骑牛教师行二或家老小、父单老大男女老二及姑家文人；反馈教师老二老三(老三最小)、姑孙女硕士。具体排行推导未给，不据反馈补算法。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10426,
+          "line_end": 10439,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-107",
+      "subjudgment_id": "BK26-MODERN-107-Q01",
+      "judgment": "四课禄吉与天后落后凶分歧",
+      "category_tags": [
+        "学业占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "小四爷/源禄与年命吉神上传判过；清歌多申冲旬仪龙、后多落后判不过。反馈国线过校线未过，原问对象未细分，不能替两方指定各自命中目标。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10476,
+          "line_end": 10492,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-107",
+      "subjudgment_id": "BK26-MODERN-107-Q02",
+      "judgment": "伏吟动刑不录",
+      "category_tags": [
+        "学业占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "骑牛大象不动变、动则刑而不顺；明镜禄起刑到巳学堂朱雀，官又遁丁鬼判不过。只支持保存此源法，未报校线与国线在原判中的精确对象。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10495,
+          "line_end": 10512,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-MODERN-107",
+      "subjudgment_id": "BK26-MODERN-107-Q03",
+      "judgment": "丁巳国家线与个人七杀",
+      "category_tags": [
+        "学业占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "贺兰丁作庚官、巳太岁指国线，但对辛命为七杀；雨田榜丁马不过线却雀昼翔太岁上传考尚可。皆后注分层解释，辛命来源未全列不补具体辛年。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+          "line_start": 10500,
+          "line_end": 10512,
+          "sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-426",
+      "subjudgment_id": "BK26-ANCIENT-426-Q01",
+      "judgment": "被戮的复合条件",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "陈公献从革春金返射肃杀、合中刑干害支，戌命长生尽克无救、干死气支墓及年命刑墓害合断；原三日果应是转述。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7941,
+          "line_end": 7941,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-426",
+      "subjudgment_id": "BK26-ANCIENT-426-Q02",
+      "judgment": "主客皆不利",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "不惟主堕客计而主亦自愚，原对象分主客；后果应并未逐列双方全部结局。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7941,
+          "line_end": 7941,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-426",
+      "subjudgment_id": "BK26-ANCIENT-426-Q03",
+      "judgment": "三日应期",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "应期"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "原载三日后果应，未明三日推法，不补数。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7941,
+          "line_end": 7941,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-427",
+      "subjudgment_id": "BK26-ANCIENT-427-Q01",
+      "judgment": "两命先后与不同职",
+      "category_tags": [
+        "事业占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "亥贵官临支为吾兄亥命，辰命入支阴发用且辰自亥传，故先吾兄后蔡；实际旬内吴淞与两月狼山分人分职。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7959,
+          "line_end": 7959,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-427",
+      "subjudgment_id": "BK26-ANCIENT-427-Q02",
+      "judgment": "辰陈同音及具体旬月",
+      "category_tags": [
+        "事业占"
+      ],
+      "judgment_stage_tags": [
+        "类象链",
+        "应期"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "辰陈同音为作者姓氏象，未给独立文字校验；未明旬日/两月算法，不由实报反填。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7959,
+          "line_end": 7959,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-428",
+      "subjudgment_id": "BK26-ANCIENT-428-Q01",
+      "judgment": "飞去时方和折西",
+      "category_tags": [
+        "射覆占"
+      ],
+      "judgment_stage_tags": [
+        "方位定位",
+        "应期"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "斩关、正时加太岁虎说时下起，丙午天网择旺南，太岁并立回兑西；原未时飞与正时辰张力不改，整段无后验。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7975,
+          "line_end": 7975,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-428",
+      "subjudgment_id": "BK26-ANCIENT-428-Q02",
+      "judgment": "不出一里",
+      "category_tags": [
+        "射覆占"
+      ],
+      "judgment_stage_tags": [
+        "数量"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "原一里未明明确取数，不能据无反馈自行补。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7975,
+          "line_end": 7975,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-428",
+      "subjudgment_id": "BK26-ANCIENT-428-Q03",
+      "judgment": "九月壬寅辰死期",
+      "category_tags": [
+        "射覆占"
+      ],
+      "judgment_stage_tags": [
+        "应期",
+        "取象"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "日上戌取九月，终于寅玄武取壬寅、辰亥支联系水边与辰；这些是奏断方法，未有死亡实报。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7975,
+          "line_end": 7975,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-428",
+      "subjudgment_id": "BK26-ANCIENT-428-Q04",
+      "judgment": "军人青黑饵罗网见血",
+      "category_tags": [
+        "射覆占"
+      ],
+      "judgment_stage_tags": [
+        "类象链",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "玄黑色食，辰军人兼大杀死气虎、行年辰、干蛇说及时见血；罗网详细推导未明；无后验。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7975,
+          "line_end": 7975,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-429",
+      "subjudgment_id": "BK26-ANCIENT-429-Q01",
+      "judgment": "游都秋冬衰与当下退",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "巳游都火临子下贼上、秋冬无气、戌墓抑塞，蛇归家说狐疑退；月建城府天空卒归壁。原是奏判断无实报。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7997,
+          "line_end": 7997,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-429",
+      "subjudgment_id": "BK26-ANCIENT-429-Q02",
+      "judgment": "月建与游都贵人神位",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "pending_specific_source_review",
+      "method_note": "游都在日辰五位、贵人在三位等具体原说俱存；文末太常发用与盘巳空发用冲突，待校不手改。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7997,
+          "line_end": 7997,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-429",
+      "subjudgment_id": "BK26-ANCIENT-429-Q03",
+      "judgment": "深冬再来戒备",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "应期",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "作者以此课参此前九十月之交小寇说、恐深冬再来，只预测/建议，未有后来军情。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 7997,
+          "line_end": 7997,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-430",
+      "subjudgment_id": "BK26-ANCIENT-430-Q01",
+      "judgment": "旧事牵绊两件与失任",
+      "category_tags": [
+        "事业占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "数量",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "一火生四土四勾脱气，行年木不得地救不了，丑旧事/子孙勾说诸事耗财；原后叙追拘赦/保正/侄争等不硬凑恰两件。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8013,
+          "line_end": 8015,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-430",
+      "subjudgment_id": "BK26-ANCIENT-430-Q02",
+      "judgment": "初马动与60或120里",
+      "category_tags": [
+        "事业占"
+      ],
+      "judgment_stage_tags": [
+        "应期",
+        "数量"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "驿马动主先起程，数60/120未列完整算法，后百余里为原近似反馈，不当准确120。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8013,
+          "line_end": 8013,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-430",
+      "subjudgment_id": "BK26-ANCIENT-430-Q03",
+      "judgment": "母坟次年死归因",
+      "category_tags": [
+        "事业占"
+      ],
+      "judgment_stage_tags": [
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "原后叙地道犯后六月死，没有独立病因或反事实，不能从旧事法推为已核坟因果。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8013,
+          "line_end": 8015,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-431",
+      "subjudgment_id": "BK26-ANCIENT-431-Q01",
+      "judgment": "病重无救的禄马及行年链",
+      "category_tags": [
+        "健康占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "陈公献午禄加亥绝、巳马临戌墓、行年游魂、子巳死字/三传死墓绝合断。毕法同源仅转引，营养行动是北海后释，不新验。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8031,
+          "line_end": 8031,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-431",
+      "subjudgment_id": "BK26-ANCIENT-431-Q02",
+      "judgment": "病症风癫发搐与应日时",
+      "category_tags": [
+        "健康占"
+      ],
+      "judgment_stage_tags": [
+        "取象",
+        "应期",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "卯加申、戌加卯说风癫发搐；久病卯加申取申日子时，子时完整推法未细明，且原无独立死亡实报。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8031,
+          "line_end": 8031,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-432",
+      "subjudgment_id": "BK26-ANCIENT-432-Q01",
+      "judgment": "盛讼可辩雪",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "辰月将青龙临干支、卯勾生日丁、亥子鬼临寅卯空，故谓到京公讼前休；实际后述破京脱归，时间过程不直接等到京前即结。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8047,
+          "line_end": 8047,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-432",
+      "subjudgment_id": "BK26-ANCIENT-432-Q02",
+      "judgment": "相同盘的年命限制",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "盛寅命与周己丑不同，作者明确乌能无罪作比较；这是不同人两问，不用盛生还对周吉凶互证。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8047,
+          "line_end": 8047,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-433",
+      "subjudgment_id": "BK26-ANCIENT-433-Q01",
+      "judgment": "棋子余8同课与周凶",
+      "category_tags": [
+        "官讼占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "32除12余8明再起亦此课；己丑命见丁墓戌临丑、太岁未三刑，故与寅命差甚判有罪；后相国赐死只原叙。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8047,
+          "line_end": 8047,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-434",
+      "subjudgment_id": "BK26-ANCIENT-434-Q01",
+      "judgment": "课吉年命空不受",
+      "category_tags": [
+        "学业占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "贵德官星发、龙喜太阳末虽气不足仍吉，而年命空无人受故不中，初七榜不中特指今科。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8063,
+          "line_end": 8063,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-435",
+      "subjudgment_id": "BK26-ANCIENT-435-Q01",
+      "judgment": "羊在西南亲眷家不失",
+      "category_tags": [
+        "失物占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "方位定位",
+        "作用与救制"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "未羊类上太阳月将、丁未未发用，本位西南未眷属；本位不旺但将相气说不失。原妻姐家寻获仅原叙。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8079,
+          "line_end": 8079,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-435",
+      "subjudgment_id": "BK26-ANCIENT-435-Q02",
+      "judgment": "申时找到与月份异文",
+      "category_tags": [
+        "失物占"
+      ],
+      "judgment_stage_tags": [
+        "应期",
+        "反馈范围/方法缺口"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "申时可见有原反馈却未明推法；题六月而论五月相气，原条件冲突存，不据找到选择月份。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8079,
+          "line_end": 8079,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-436",
+      "subjudgment_id": "BK26-ANCIENT-436-Q01",
+      "judgment": "功名不许与妻财经商",
+      "category_tags": [
+        "财运占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "身宅初传财、中传上下财宜营运且妻资起，功名难许不同目标；原后娶嫁资十余年富。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8095,
+          "line_end": 8097,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-436",
+      "subjudgment_id": "BK26-ANCIENT-436-Q02",
+      "judgment": "末火库熔财非财库与婢仆事",
+      "category_tags": [
+        "财运占"
+      ],
+      "judgment_stage_tags": [
+        "作用与救制",
+        "过程结果",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "丁财金，末火库非金库不能收财反熔坏，蛇非横说婢仆破财，原51仆案费用尽、次年死；不从结果校定伦理指控。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8095,
+          "line_end": 8097,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-436",
+      "subjudgment_id": "BK26-ANCIENT-436-Q03",
+      "judgment": "具体年龄寿期",
+      "category_tags": [
+        "财运占"
+      ],
+      "judgment_stage_tags": [
+        "应期",
+        "数量"
+      ],
+      "disposition": "no_explicit_derivation",
+      "method_note": "42/47或48/51及甲戌死为后叙，原未明各年龄算法，不补造定量卡。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8097,
+          "line_end": 8097,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-437",
+      "subjudgment_id": "BK26-ANCIENT-437-Q01",
+      "judgment": "斗禽取财与胜负应日时",
+      "category_tags": [
+        "财运占"
+      ],
+      "judgment_stage_tags": [
+        "取用",
+        "应期"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "酉羽毛/丁财，休酉受火制有战；行年卯见巳勾与酉合主斗，酉日卯时见斗。原斗鹑胜是源反馈。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8115,
+          "line_end": 8115,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-437",
+      "subjudgment_id": "BK26-ANCIENT-437-Q02",
+      "judgment": "内官武职及喧争不见官",
+      "category_tags": [
+        "财运占"
+      ],
+      "judgment_stage_tags": [
+        "类象链",
+        "作用与救制",
+        "过程结果"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "商征取酉丁，亥阴贵、末常武臣酒食加亥入狱，年勾合喧争且勾空不见官；原二内官与张直殿争后和未见官。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8115,
+          "line_end": 8115,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    },
+    {
+      "case_id": "BK26-ANCIENT-437",
+      "subjudgment_id": "BK26-ANCIENT-437-Q03",
+      "judgment": "万千金额与损三分",
+      "category_tags": [
+        "财运占"
+      ],
+      "judgment_stage_tags": [
+        "数量",
+        "反证"
+      ],
+      "disposition": "source_method_recorded",
+      "method_note": "断万缗、实千余、议月建千缗异文，丁未损破而亥壬旺胜说只损三分；实际费三百余千，数额口径和比例只原叙，不能抹万/千差。",
+      "source_spans": [
+        {
+          "path": "书籍库/现代著作/《壬占汇选》.txt",
+          "line_start": 8115,
+          "line_end": 8115,
+          "sha256": "242496a7ff631585e4b7cef58b93898b2c182b34e0fb88812af7a91db1d9e42f"
+        }
+      ]
+    }
+  ],
+  "next_unread": {
+    "modern_line": 10515,
+    "ancient_line": 8117
+  },
+  "independent_validation_count": 0
+}

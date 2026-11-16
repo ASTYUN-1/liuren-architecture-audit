@@ -1,0 +1,10 @@
+{
+  "release": "20261106-compute-interface-10",
+  "parent": "20261106-deterministic-foundation-09",
+  "scope": "local-opencode",
+  "observedFailures": 3,
+  "cause": "calendar and calculation request schemas used unknown; errors omitted legal day_boundary values",
+  "engineAlgorithmModified": false,
+  "methodBodiesChanged": false,
+  "independentPredictiveValidationCount": 0
+}

@@ -1,0 +1,8 @@
+{
+  "id": "no-case-experience-retrieval",
+  "disableCaseExperience": true,
+  "retained": "method modules, books including book examples, chart, shensha, adjudication, report",
+  "measures": "incremental case/experience library access only; not removal of prior learned methods",
+  "parentRelease": "20261105-adjudication-01",
+  "predictiveValidationCount": 0
+}

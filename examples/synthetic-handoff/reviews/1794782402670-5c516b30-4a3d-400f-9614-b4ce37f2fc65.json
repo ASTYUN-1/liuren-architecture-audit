@@ -1,0 +1,68 @@
+{
+  "review": {
+    "report_sha256": "9030d853e1bfe8fcf5cd74dbdf9261f7c813f02020451204b3b49d68485266b7",
+    "checks": [
+      {
+        "check": "input_fidelity",
+        "status": "checked",
+        "report_quote": "修订工程验收报告，阶段身份已说明，仍不作预测。",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "role_stage_consistency",
+        "status": "checked",
+        "report_quote": "修订工程验收报告，阶段身份已说明，仍不作预测。",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "calculation_scope",
+        "status": "checked",
+        "report_quote": "修订工程验收报告，阶段身份已说明，仍不作预测。",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "counterevidence",
+        "status": "checked",
+        "report_quote": "修订工程验收报告，阶段身份已说明，仍不作预测。",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      },
+      {
+        "check": "answer_constraints",
+        "status": "checked",
+        "report_quote": "修订工程验收报告，阶段身份已说明，仍不作预测。",
+        "basis": "已核工程原问、绑定盘、自由正文和回执",
+        "evidence_refs": [
+          "input",
+          "core",
+          "route:Q_transport"
+        ]
+      }
+    ]
+  },
+  "check": {
+    "ok": true,
+    "issues": [],
+    "unresolved": []
+  },
+  "report_sha256": "9030d853e1bfe8fcf5cd74dbdf9261f7c813f02020451204b3b49d68485266b7"
+}

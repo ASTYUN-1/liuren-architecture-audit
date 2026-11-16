@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {packet,result} from '../../tools/tests/fixtures/liuren-adjudication-v2.mjs';
+import {runResolvedChart} from '../../tools/liuren-resolved-chart.mjs';
+const p=packet(),r=result(),c=await runResolvedChart({datetime:'2026-10-18T13:22'},{persist:false});
+p.chart={source:'Synthetic local integration fixture, no prediction',facts:c.facts};p.entities[0].branch='丑';delete p.entities[0].position;
+p.request_id='20261106-synthetic-chain';r.request_id=p.request_id;
+p.questions[0].tasks=['outcome','timing','quantity'];p.questions[0].task_basis=p.questions[0].tasks.map(task=>({task,origin:'user_requested',request_quote:{outcome:'能否完成',timing:'何时修好',quantity:'费用多少'}[task],reason:'合成原问明确要求'}));
+r.entity_checks[0].branch='丑';for(const k of ['position','five_qi','twelve_states','site_yin','shenjiang'])delete r.entity_checks[0][k];
+r.relation_checks[0].application={object:'合成对象',mechanism:'仅验接口',stage:'完成',goal_effect:'仅验结果传输',alternative_resolution:'不验证预测'};
+r.calculations=[{id:'C_date',action:'calendar',calendar:{start:'2026-11-03',end:'2026-11-03',timezone:'Asia/Shanghai',day_boundary:'civil-midnight'}},{id:'C_amount',action:'quantity',expression:{op:'multiply',args:[{value:8},{value:6}]}}];
+r.special_methods=[{question_id:'Q1',kind:'timing',status:'completed',target:'合成修复完成',basis_ids:['M_AUTO_TIMING'],calculation_ids:['C_date'],alternatives:[],limits:[],record:{event:'修复完成',stage:'终局',scale:'日',start:'合成占时',count_rule:'自然日',trigger:'合成触发',selected_method:'仅验接口',round_comparison:'单日范围',candidates:[{date:'2026-11-03',day:'辛巳',event:'修复完成'}]}},{question_id:'Q1',kind:'quantity',status:'completed',target:'合成费用',basis_ids:['M_AUTO_QUANTITY'],calculation_ids:['C_amount'],alternatives:[],limits:[],record:{object:'维修费用',position:'合成',number_table:'显式常量',operation:'8乘6',adjustments:'无',magnitude:'合成单位',unit:'元',precision:'仅验接口',value:48}}];
+await fs.writeFile(new URL('./synthetic-fixture.json',import.meta.url),JSON.stringify({question:'电脑维修能否完成？何时修好？费用多少？',packet:p,result:'# 合成裁决报告\n\n修复完成；应期辛巳日；计算值：48元。\n附加说明：第四问条件未满足，依原问不答。'},null,2)+'\n');

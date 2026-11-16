@@ -1,0 +1,531 @@
+[
+  {
+    "case_id": "BK26-MODERN-002",
+    "query": "铸印 牢狱 枷锁",
+    "candidate_ids": [
+      "LR26-BOOK-BIFA-002",
+      "LR26-BOOK-BIFA-097",
+      "LR26-BOOK-SHAO-C001"
+    ],
+    "existing_registration_ids": [
+      "LR26-BOOK-MODERN-001"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [
+      "LR26-BOOK-MODERN-001"
+    ],
+    "decision": "同源BOOK-MODERN-001直接复用骑牛蛇墓、父财与刑数；铸印墓空与各家刑期另开分支。BIFA铸印/传墓与此具体牢案条件不同，不整卡归并。",
+    "new_source_card_ids": [
+      "LR26-M102A-002-TIME",
+      "LR26-M102A-002-SEAL",
+      "LR26-M102A-002-VOID",
+      "LR26-M102A-002-LOSS",
+      "LR26-M102A-002-ART"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-003",
+    "query": "离婚 干支 合局",
+    "candidate_ids": [
+      "LR26-BOOK-MODERN-002",
+      "LR26-BOOK-BIFA-028",
+      "LR26-BOOK-SHAO-021"
+    ],
+    "existing_registration_ids": [
+      "LR26-BOOK-MODERN-002"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [
+      "LR26-BOOK-MODERN-002"
+    ],
+    "decision": "同源BOOK-MODERN-002复用递生来钱和三合拖延；新增对象第三者、隐忍和将来时间分支，不把已协议当离婚完成。",
+    "new_source_card_ids": [
+      "LR26-M102A-003-DIV",
+      "LR26-M102A-003-WATER",
+      "LR26-M102A-003-ROLE"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-004",
+    "query": "寄生虫 铸印 便秘",
+    "candidate_ids": [
+      "LR26-BOOK-BIFA-002",
+      "LR26-BOOK-BIFA-097",
+      "LR26-BOOK-SHAO-C001"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "已比三才/四课、铸印与胎病旧卡BIFA-026/030的对象前提；三才定位、旺相空/虚气、津液印空并非同条件，保新增作者分支。",
+    "new_source_card_ids": [
+      "LR26-M102A-004-FOOD",
+      "LR26-M102A-004-SANC",
+      "LR26-M102A-004-SEAL",
+      "LR26-M102A-004-MID",
+      "LR26-M102A-004-LING"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-005",
+    "query": "斩关 逃亡 监控",
+    "candidate_ids": [
+      "LR26-MP10-075-VOID",
+      "LR26-BOOK-MODERN-003",
+      "LR26-MP10-042-FAIL"
+    ],
+    "existing_registration_ids": [
+      "LR26-BOOK-MODERN-003"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [
+      "LR26-BOOK-MODERN-003"
+    ],
+    "decision": "同源BOOK-MODERN-003复用青山原自首反证和后改逃/追目标；其他作者监控/斩关加临、年命填谁需新增，登三天婚介旧例不同目标。",
+    "new_source_card_ids": [
+      "LR26-M102A-005-CATCH",
+      "LR26-M102A-005-ACCIDENT",
+      "LR26-M102A-005-VIDEO",
+      "LR26-M102A-005-ZHANG"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-006",
+    "query": "考试 志愿 伏吟",
+    "candidate_ids": [
+      "LR26-BOOK-MODERN-004",
+      "LR26-LEGACY-007",
+      "LR26-BOOK-BIFA-095"
+    ],
+    "existing_registration_ids": [
+      "LR26-BOOK-MODERN-004"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [
+      "LR26-BOOK-MODERN-004"
+    ],
+    "decision": "同源BOOK-MODERN-004复用离乡目标/指定学校区别和沈后注；寅东北/第二志愿、申家人/学校的互异定位新增而不混。",
+    "new_source_card_ids": [
+      "LR26-M102A-006-SCHOOL",
+      "LR26-M102A-006-DEPART"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-007",
+    "query": "面试 酉将 戌将",
+    "candidate_ids": [
+      "LR26-BOOK-SHAO-C020",
+      "LR26-BOOK-SHAO-C137",
+      "LR26-BOOK-SHAO-007"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "旧卡检索癸日宅财/商旅倍利为噪音，不能以同官禄/数词归并考公。两将换贵、第三数与竞争权重具体记录新分支。",
+    "new_source_card_ids": [
+      "LR26-M102A-007-COMPETE",
+      "LR26-M102A-007-ALT",
+      "LR26-M102A-007-RANK"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-008",
+    "query": "成胎 怀孕 空亡",
+    "candidate_ids": [
+      "LR26-BOOK-SHAO-C157",
+      "LR26-BOOK-SHAO-035",
+      "LR26-BOOK-SHAO-C071"
+    ],
+    "existing_registration_ids": [
+      "LR26-BOOK-MODERN-005"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [
+      "LR26-BOOK-MODERN-005"
+    ],
+    "decision": "同源BOOK-MODERN-005复用骑牛、青山求孕男女定位分歧；坎男、阳盛阴女、受孕月份与出生月多算法分开。来客孤身/宅长生空不是本孕题法。",
+    "new_source_card_ids": [
+      "LR26-M102A-008-SEXT",
+      "LR26-M102A-008-CHILD"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-009",
+    "query": "怀孕 反吟 太阴",
+    "candidate_ids": [
+      "LR26-MP10-077-RESCUE",
+      "LR26-BOOK-SHAO-149",
+      "LR26-MP10-074-YEAR"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "候选误食救制、反吟商旅与未孕不对应；胎空、子闭口、顺火血行和层脱判断按作者新存，不仅凭救应词并旧胎产卡。",
+    "new_source_card_ids": [
+      "LR26-M102A-009-PREG",
+      "LR26-M102A-009-FLOW"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-011",
+    "query": "噩梦 家宅 朱雀",
+    "candidate_ids": [
+      "LR26-MP10-087-PASS",
+      "LR26-LEGACY-006",
+      "LR26-LEGACY-008"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "候选中考、教资同见丑未朱雀不能对应梦鬼/照片；丑蛇三刑财、照片巳龙/申常和剑法互异故新增。",
+    "new_source_card_ids": [
+      "LR26-M102A-011-DREAM",
+      "LR26-M102A-011-PHOTO"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-012",
+    "query": "吃饭 约会 玄武",
+    "candidate_ids": [
+      "LR26-BOOK-ANCIENT-001",
+      "LR26-BOOK-BIFA-054",
+      "LR26-BOOK-SHAO-082"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "捕逃玄阴链和麦面失窃与盲谒互墓不等价；约饭未联系、传空通信与鬼门斩关别立具体分支。",
+    "new_source_card_ids": [
+      "LR26-M102A-012-VISIT",
+      "LR26-M102A-012-FOOD"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-013",
+    "query": "劈叉 进退 连茹",
+    "candidate_ids": [
+      "LR26-BOOK-BIFA-025",
+      "LR26-BOOK-SHAO-C044",
+      "LR26-BOOK-SHAO-C054"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "BIFA-025是趋避空间、SHAO-C044是禄奇救退茹，均非左右腿分合；本案合阻劈叉、门户及退茹着地不强并。",
+    "new_source_card_ids": [
+      "LR26-M102A-013-LEG",
+      "LR26-M102A-013-DOOR"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-014",
+    "query": "工作 官职 降职",
+    "candidate_ids": [
+      "LR26-MP10-073-WORK",
+      "LR26-BOOK-BIFA-139",
+      "LR26-K2-010"
+    ],
+    "existing_registration_ids": [
+      "LR26-K2-001"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "K2-001可作保职/降级的目标分离入口，非具体天赦皇恩算法。MP10-073工作与BIFA139斫轮官位条件异，新增原将/后将及剥官分支。",
+    "new_source_card_ids": [
+      "LR26-M102A-014-SAVE",
+      "LR26-M102A-014-DEMOTE",
+      "LR26-M102A-014-PEACH"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-015",
+    "query": "教师编 考试 朱雀",
+    "candidate_ids": [
+      "LR26-MP10-087-PASS",
+      "LR26-LEGACY-006",
+      "LR26-LEGACY-007"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "LEGACY006教资丑未不空，与教师编中末空/乙未填日不同；MP10-087中考幕贵也非本案龙印日填，不用统一通过律。",
+    "new_source_card_ids": [
+      "LR26-M102A-015-EXAM",
+      "LR26-M102A-015-LATER",
+      "LR26-M102A-015-FILL"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-017",
+    "query": "复合 关系 六合",
+    "candidate_ids": [
+      "LR26-MP10-044-CLASH",
+      "LR26-SHAO-CANON-WATER-LAND",
+      "LR26-BOOK-BIFA-035"
+    ],
+    "existing_registration_ids": [
+      "LR26-K2-001"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "MP10-044-CLASH好友交合冲刑可作关系反续的比较入口，但好友/前妻、支财和中桥、曾同住财支出差异仍保；K2-001不是具体复合法。",
+    "new_source_card_ids": [
+      "LR26-M102A-017-REL",
+      "LR26-M102A-017-CHILD"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-018",
+    "query": "合作 财利 合局",
+    "candidate_ids": [
+      "LR26-MP10-042-FAIL",
+      "LR26-BOOK-SHAO-C1271",
+      "LR26-BOOK-SHAO-136"
+    ],
+    "existing_registration_ids": [
+      "LR26-BOOK-BIFA-007"
+    ],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [
+      "LR26-BOOK-BIFA-007"
+    ],
+    "decision": "BOOK-BIFA-007递生结构与受益分开，骑牛递生举荐直接复用；MP10-042担保开票已签而黄单与本待签土方不同交易阶段，不合并财利结果。",
+    "new_source_card_ids": [
+      "LR26-M102A-018-PROFIT",
+      "LR26-M102A-018-TIME"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-019",
+    "query": "失联 行人 消息",
+    "candidate_ids": [
+      "LR26-LEGACY-013",
+      "LR26-BOOK-BIFA-036",
+      "LR26-BOOK-ANCIENT-004"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "LEGACY013末丑归墓迟至与本支传回环、子鬼空自归不同；BIFA036互传角色/流向可作入口，不等支发归支全部条件。",
+    "new_source_card_ids": [
+      "LR26-M102A-019-FIND",
+      "LR26-M102A-019-RETURN",
+      "LR26-M102A-019-RAIN"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-020",
+    "query": "儿童 夜哭 白虎",
+    "candidate_ids": [
+      "LR26-BOOK-SHAO-045",
+      "LR26-K2-006",
+      "LR26-BOOK-BIFA-130"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "SHAO045白虎妻丧和K2-006飞廉校按不是本女童后贵鬼、蛇阴取类；新记原方法与其自限，不以术语相同归并鬼事实。",
+    "new_source_card_ids": [
+      "LR26-M102A-020-STRANGE",
+      "LR26-M102A-020-RELIEF"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-021",
+    "query": "保胎 胎产 空亡",
+    "candidate_ids": [
+      "LR26-BOOK-SHAO-C157",
+      "LR26-BOOK-SHAO-035",
+      "LR26-BOOK-BIFA-030"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "SHAO035长生空救链不承接与本子孙月建填空/空免克对象不同；不得并成空吉或空凶的单项法。",
+    "new_source_card_ids": [
+      "LR26-M102A-021-KEEP",
+      "LR26-M102A-021-LATER"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-022",
+    "query": "总统 被捕 斩关",
+    "candidate_ids": [
+      "LR26-MP10-075-VOID",
+      "LR26-BOOK-MODERN-003",
+      "LR26-MP10-042-FAIL"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "BOOK-MODERN003逃逸追捕与本新闻总统拒投后捕的目标背景不同；MP10-075媒介斩关空也非互墓对冲与天狱支主。",
+    "new_source_card_ids": [
+      "LR26-M102A-022-ARREST",
+      "LR26-M102A-022-JAIL"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-023",
+    "query": "离婚 争执 空亡",
+    "candidate_ids": [
+      "LR26-BOOK-SHAO-C157",
+      "LR26-BOOK-SHAO-035",
+      "LR26-BOOK-MODERN-002"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "SHAO035救链空不承接可比较气断不真撞干，但本登天合回与其宅病不同；新存合地实、空动撮合、旬仪转阳链。",
+    "new_source_card_ids": [
+      "LR26-M102A-023-DIV",
+      "LR26-M102A-023-FEE",
+      "LR26-M102A-023-LONG"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-024",
+    "query": "寻人 墓 空亡",
+    "candidate_ids": [
+      "LR26-BOOK-SHAO-C078",
+      "LR26-BOOK-SHAO-C069",
+      "LR26-BOOK-BIFA-104"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "BIFA104坐地空墓病/全家远行、SHAO069败逼墓或078夹引墓与此支墓阴申虎尸不同；不把空墓死亡套到所有寻人。",
+    "new_source_card_ids": [
+      "LR26-M102A-024-DEATH",
+      "LR26-M102A-024-LOC"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-025",
+    "query": "失物 书包 寅将",
+    "candidate_ids": [
+      "LR26-LEGACY-004",
+      "LR26-BOOK-ANCIENT-001",
+      "LR26-BOOK-BIFA-121"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "LEGACY004初空不能独判失物可作入口；本卯将玄生、主寅将未时冲合各留条件。古麦面锁人物非本找书包对象，BIFA121组合论仅一般方法。",
+    "new_source_card_ids": [
+      "LR26-M102A-025-FIND",
+      "LR26-M102A-025-ALT"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-026",
+    "query": "身份证 朱雀 文书",
+    "candidate_ids": [
+      "LR26-MP10-087-PASS",
+      "LR26-LEGACY-006",
+      "LR26-K2-014"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "候选中考/教资朱雀与证件天官取类不同；另比25/27三种玄武不克、生我或空的无贼可寻条件，两个用将和天空证件保原作者。",
+    "new_source_card_ids": [
+      "LR26-M102A-026-ALT",
+      "LR26-M102A-026-MAIN"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-027",
+    "query": "钱包 财 失物",
+    "candidate_ids": [
+      "LR26-BOOK-BIFA-042",
+      "LR26-BOOK-BIFA-021",
+      "LR26-BOOK-BIFA-012"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "BIFA042鬼化财、021财旺或012土将助财均是求财/讨债/病体，不能由钱包有财字合并；与25/26只共玄不克/类现找回路径，时地各存。",
+    "new_source_card_ids": [
+      "LR26-M102A-027-ALT",
+      "LR26-M102A-027-MAIN"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-028",
+    "query": "求职 面试 入职",
+    "candidate_ids": [
+      "LR26-LEGACY-007"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "LEGACY007已明offer与入职不同；本面过试岗败承接同一分期原则，但丑未格不是本反吟寅申巳亥、传鬼重现法，条件不归一。",
+    "new_source_card_ids": [
+      "LR26-M102A-028-OFFER",
+      "LR26-M102A-028-ROLE",
+      "LR26-M102A-028-ALT"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-029",
+    "query": "调岗 降薪 太常",
+    "candidate_ids": [
+      "LR26-MP10-073-DIGEST",
+      "LR26-BOOK-BIFA-040",
+      "LR26-BOOK-ANCIENT-001"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "MP10-073消化、BIFA040婚常和古麦面因太常关键词命中，不构成调岗旧法；与14/28只作工作吉类神和后程不利的条件比较。",
+    "new_source_card_ids": [
+      "LR26-M102A-029-MOVE",
+      "LR26-M102A-029-LATER"
+    ],
+    "independent_validation_count": 0
+  },
+  {
+    "case_id": "BK26-MODERN-030",
+    "query": "年运 财 病 子孙",
+    "candidate_ids": [
+      "LR26-BOOK-BIFA-012",
+      "LR26-BOOK-BIFA-042",
+      "LR26-BOOK-BIFA-021"
+    ],
+    "existing_registration_ids": [],
+    "read_scope": "候选条件/结论/推导字段定点比对；非旧库全文穷尽语义去重",
+    "reused_rule_ids": [],
+    "decision": "BIFA012财助病体反向、042鬼财、021财旺为分对象参照；本戊年运子财空绝浮盈和子小孩、巳常家丧不同具体链，不能一财字并。",
+    "new_source_card_ids": [
+      "LR26-M102A-030-HEALTH",
+      "LR26-M102A-030-WEALTH",
+      "LR26-M102A-030-HOME",
+      "LR26-M102A-030-CHILD"
+    ],
+    "independent_validation_count": 0
+  }
+]

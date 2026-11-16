@@ -1,0 +1,35 @@
+{
+  "apk": "wenheng-0.3.1.apk",
+  "bytes": 8881750,
+  "sha256": "ba16054db2d27033c9833ac1cc1279b490c1dd4b2d5edff29729efc254a71b89",
+  "package": "com.qiluhub.wenheng.preview",
+  "version": "0.3.1",
+  "versionCode": 5,
+  "qaOnly": false,
+  "minAndroid": "8.0 (API 26)",
+  "targetSdk": 35,
+  "debuggable": false,
+  "signing": "existing dedicated update RSA key; v2 signature verified",
+  "websiteRelease": "20261027-public-ui-01",
+  "websiteBuildId": "BrVQ7OvwP6wibb4V947rm",
+  "localUI": true,
+  "serverCredentialsBundled": false,
+  "bundledFont": {
+    "upstream": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+    "license": "SIL OFL 1.1",
+    "upstreamSha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+    "family": "Wenheng Serif",
+    "weight": 400,
+    "glyphs": 7672,
+    "bytes": 1367308,
+    "sha256": "3b357369728473152c497205e84f43cb9ea8d40653f7986848200f1aaf997791"
+  },
+  "mobileFixes": [
+    "Persistent navigation and fixed keyboard-aware bottom bar",
+    "Same-row output preference and usage help",
+    "Always-visible input border; collapsed settings",
+    "Scrollable drawer navigation and pinned account",
+    "Verified native in-app updater",
+    "Automatic offline chart and archive without extra entry points"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "result": "PASS",
+  "cases": 30,
+  "segments": 339,
+  "subjudgments": 379,
+  "source_cards": 32,
+  "families": 2,
+  "quote_hash_role_checks": 1698,
+  "own_retrieval_queries_passed": 30,
+  "per_case_counts": [
+    {
+      "case_id": "BK26-MODERN-069",
+      "author_phase_segments": 14,
+      "subjudgments": 14,
+      "source_cards": 1,
+      "source_derivation_gaps": 5,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-070",
+      "author_phase_segments": 16,
+      "subjudgments": 19,
+      "source_cards": 1,
+      "source_derivation_gaps": 1,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-071",
+      "author_phase_segments": 18,
+      "subjudgments": 19,
+      "source_cards": 1,
+      "source_derivation_gaps": 7,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-072",
+      "author_phase_segments": 10,
+      "subjudgments": 11,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-076",
+      "author_phase_segments": 28,
+      "subjudgments": 30,
+      "source_cards": 2,
+      "source_derivation_gaps": 1,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-078",
+      "author_phase_segments": 16,
+      "subjudgments": 16,
+      "source_cards": 1,
+      "source_derivation_gaps": 1,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-079",
+      "author_phase_segments": 7,
+      "subjudgments": 8,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-080",
+      "author_phase_segments": 10,
+      "subjudgments": 10,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-081",
+      "author_phase_segments": 15,
+      "subjudgments": 16,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-083",
+      "author_phase_segments": 6,
+      "subjudgments": 6,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-084",
+      "author_phase_segments": 12,
+      "subjudgments": 12,
+      "source_cards": 1,
+      "source_derivation_gaps": 3,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-085",
+      "author_phase_segments": 14,
+      "subjudgments": 15,
+      "source_cards": 1,
+      "source_derivation_gaps": 1,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-086",
+      "author_phase_segments": 18,
+      "subjudgments": 19,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-088",
+      "author_phase_segments": 11,
+      "subjudgments": 11,
+      "source_cards": 1,
+      "source_derivation_gaps": 3,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-089",
+      "author_phase_segments": 12,
+      "subjudgments": 12,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-090",
+      "author_phase_segments": 12,
+      "subjudgments": 14,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-091",
+      "author_phase_segments": 10,
+      "subjudgments": 10,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-092",
+      "author_phase_segments": 8,
+      "subjudgments": 8,
+      "source_cards": 1,
+      "source_derivation_gaps": 1,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-093",
+      "author_phase_segments": 11,
+      "subjudgments": 11,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-094",
+      "author_phase_segments": 8,
+      "subjudgments": 9,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-095",
+      "author_phase_segments": 8,
+      "subjudgments": 8,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-097",
+      "author_phase_segments": 11,
+      "subjudgments": 11,
+      "source_cards": 1,
+      "source_derivation_gaps": 3,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-098",
+      "author_phase_segments": 13,
+      "subjudgments": 13,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-099",
+      "author_phase_segments": 8,
+      "subjudgments": 9,
+      "source_cards": 1,
+      "source_derivation_gaps": 3,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-100",
+      "author_phase_segments": 10,
+      "subjudgments": 10,
+      "source_cards": 1,
+      "source_derivation_gaps": 1,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-101",
+      "author_phase_segments": 6,
+      "subjudgments": 6,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-102",
+      "author_phase_segments": 10,
+      "subjudgments": 13,
+      "source_cards": 2,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-103",
+      "author_phase_segments": 9,
+      "subjudgments": 9,
+      "source_cards": 1,
+      "source_derivation_gaps": 0,
+      "method_derivation_restoration_complete": true
+    },
+    {
+      "case_id": "BK26-MODERN-104",
+      "author_phase_segments": 5,
+      "subjudgments": 6,
+      "source_cards": 1,
+      "source_derivation_gaps": 2,
+      "method_derivation_restoration_complete": false
+    },
+    {
+      "case_id": "BK26-MODERN-106",
+      "author_phase_segments": 3,
+      "subjudgments": 24,
+      "source_cards": 1,
+      "source_derivation_gaps": 21,
+      "method_derivation_restoration_complete": false
+    }
+  ],
+  "source_derivation_gap_cases": [
+    "BK26-MODERN-069",
+    "BK26-MODERN-070",
+    "BK26-MODERN-071",
+    "BK26-MODERN-072",
+    "BK26-MODERN-076",
+    "BK26-MODERN-078",
+    "BK26-MODERN-080",
+    "BK26-MODERN-081",
+    "BK26-MODERN-084",
+    "BK26-MODERN-085",
+    "BK26-MODERN-088",
+    "BK26-MODERN-089",
+    "BK26-MODERN-090",
+    "BK26-MODERN-091",
+    "BK26-MODERN-092",
+    "BK26-MODERN-093",
+    "BK26-MODERN-097",
+    "BK26-MODERN-098",
+    "BK26-MODERN-099",
+    "BK26-MODERN-100",
+    "BK26-MODERN-104",
+    "BK26-MODERN-106"
+  ],
+  "method_extraction_complete_means": "all present source author subjudgments dispositioned, not all original missing reasoning restored",
+  "independent_validation_count": 0,
+  "shared_modern_reviews_written": false,
+  "artifact_sha256": {
+    "output/liuren-modern-102-20261102/C/build.py": "65b32e15bbb03988d008089a58346f57dc270e7aa405a6c9bf3ff908a2953282",
+    "output/liuren-modern-102-20261102/C/author-segments.json": "bd121b69d8cb443ad9c2a024ae9bcd70e8a9e97a9ccc23eb70c7b4769ac316d2",
+    "output/liuren-modern-102-20261102/C/subjudgments.json": "4b1199e7a8154ae7e56aa019726a03f34f0e3f34ab2d52dbeaf92fae9268ed38",
+    "output/liuren-modern-102-20261102/C/method-reviews.json": "7c12bba18ea3f7e60a81051b55a7413cc1b4dc5bf7dce9dc822c22f1ee59e46f",
+    "output/liuren-modern-102-20261102/C/substantive-comparisons.json": "8765f10e2a4b61e2b622d3aab010d71f1bb8428ca4b59bd02432ad657c5d6285",
+    "output/liuren-modern-102-20261102/C/case-manifest.json": "0128ad0a12d0324b959bf0d6c7f8630fa35acb4fce724a74801e5485e810cb06",
+    "output/liuren-modern-102-20261102/C/unresolved-dimensions.json": "8e935425ed6a25debd883324e31cdbcf3592eb1a8b259d4f80c5af67b0248b51",
+    "output/liuren-modern-102-20261102/C/preserved-106-review.json": "480e428ac6ea171aebc21e9ccc5ec610ae27c1157043c085a1bac14327ab920f",
+    "output/liuren-modern-102-20261102/C/author-coverage.json": "22cddc25d88c71d28e2b58b1ef026f942f10c761f1d83273ddad6dffc541f393",
+    "output/liuren-modern-102-20261102/C/search-thirty-cases.json": "1713718c036cd59f1a676c199191e74dead19b507ea06456ad9114f3a17d0d90",
+    "output/liuren-modern-102-20261102/C/overlay-validation.json": "7b019dfc3800fb30d981ea00633e3065676967d462a1d4687f9caf1bc0c877d5",
+    "knowledge/liuren-research/20261102/rules/modern-102-c.json": "70d8bd8d57f4517b9717bbba4acdcd189eb622ecbe48d77f195b77756a7502c3",
+    "knowledge/liuren-research/20261102/families/modern-102-c.json": "e170ac93f9a64a358e3106f1dc39ee4e37201b08367e3d791e2774ae6bf8253d",
+    "docs/六壬知识整理-20261102/当代汇选102例-C.md": "fddcbb87b7bf21852681869c3cf612d97e3e6c1503a175f071ea2ab16f228221"
+  }
+}

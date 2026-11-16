@@ -1,0 +1,10 @@
+{
+  "identity": "offline-lossless-bound-json",
+  "chartBytes": 42376,
+  "chartPages": 6,
+  "historyBytes": 322275,
+  "historyPages": 41,
+  "chartHashExact": true,
+  "historyExact": true,
+  "incompleteContextBlocked": true
+}

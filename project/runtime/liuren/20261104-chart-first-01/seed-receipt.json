@@ -1,0 +1,108 @@
+{
+  "previous": "runtime\\liuren\\20261023-local-active-01",
+  "files": {
+    "methods/void.md": {
+      "origin": "kongwang-bianzhi",
+      "blocks": 19,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "methods/structure.md": {
+      "origin": "keti-qishi",
+      "blocks": 28,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "methods/movement.md": {
+      "origin": "youlu-lilun",
+      "blocks": 17,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "methods/adjudication.md": {
+      "origin": "jixiong-tiaozhi",
+      "blocks": 24,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "methods/timing.md": {
+      "origin": "yingqi-panduan",
+      "blocks": 40,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "details/shensha-tradition.md": {
+      "origin": "shensha-panduan",
+      "blocks": 22,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "details/risk.md": {
+      "origin": "xiongsha-suduan",
+      "blocks": 10,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/finance.md": {
+      "origin": "cailu-panduan",
+      "blocks": 17,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/recruitment.md": {
+      "origin": "yingpin-gongzuo",
+      "blocks": 18,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/promotion-salary.md": {
+      "origin": "shengzhi-jiaxin",
+      "blocks": 18,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/relationship.md": {
+      "origin": "lianai-panduan",
+      "blocks": 18,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/interpersonal.md": {
+      "origin": "renji-guanxi",
+      "blocks": 17,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/period-outlook.md": {
+      "origin": "shiyun-zonghe",
+      "blocks": 17,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/long-period.md": {
+      "origin": "zhongshen-nianyun",
+      "blocks": 18,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/pregnancy.md": {
+      "origin": "yunchan-panduan",
+      "blocks": 18,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/exam.md": {
+      "origin": "kaoshi-panduan",
+      "blocks": 3,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/illness.md": {
+      "origin": "jibing-panduan",
+      "blocks": 3,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/lost-person-object.md": {
+      "origin": "shiwu-xunren",
+      "blocks": 3,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    },
+    "domains/classical-conflict.md": {
+      "origin": "zhinan-zhanbing",
+      "blocks": 16,
+      "operation": "retain substantive rules; remove shared preamble and obsolete independent routing"
+    }
+  },
+  "transformations": [
+    "shared preamble removed",
+    "legacy Skill aliases linked to methods",
+    "standalone-routing boundaries replaced",
+    "illness positioning corrected",
+    "same-sex unsupported-method boundary explicit",
+    "risk counting wording corrected"
+  ]
+}

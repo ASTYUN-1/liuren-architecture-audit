@@ -1,0 +1,179 @@
+{
+  "schema": "liuren-path-routes-v1",
+  "date": "2026-11-02",
+  "policy": "Historical text stays unchanged. Apply the longest matching root route when resolving a historical path; copies do not imply originals were moved.",
+  "moves": [
+    {
+      "source": "六壬体系包-20260805(2).zip",
+      "destination": "归档/原始安装包/六壬体系包-20260805(2).zip",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "六壬体系包-增量-20260806(4).zip",
+      "destination": "归档/原始安装包/六壬体系包-增量-20260806(4).zip",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "六壬八字体系包-20260916-全量整合版.zip",
+      "destination": "归档/原始安装包/六壬八字体系包-20260916-全量整合版.zip",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "opencode.json.orig",
+      "destination": "归档/配置与旧说明/opencode.json.orig",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "verify-system.ps1.orig",
+      "destination": "归档/配置与旧说明/verify-system.ps1.orig",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "使用说明.txt.gbk.bak",
+      "destination": "归档/配置与旧说明/使用说明.txt.gbk.bak",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "使用说明.txt",
+      "destination": "归档/配置与旧说明/使用说明.txt",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "更新说明.txt",
+      "destination": "归档/配置与旧说明/更新说明.txt",
+      "kind": "file",
+      "classification": "history"
+    },
+    {
+      "source": "output/公众号",
+      "destination": "运营资料/公众号/系列文章",
+      "kind": "directory",
+      "classification": "operations"
+    },
+    {
+      "source": "output/公众号-竞赛省二复盘",
+      "destination": "运营资料/公众号/公众号-竞赛省二复盘",
+      "kind": "directory",
+      "classification": "operations"
+    },
+    {
+      "source": "output/公众号-胎产课盘复盘-20261021",
+      "destination": "运营资料/公众号/公众号-胎产课盘复盘-20261021",
+      "kind": "directory",
+      "classification": "operations"
+    },
+    {
+      "source": "output/公众号介绍-20261020",
+      "destination": "运营资料/公众号/公众号介绍-20261020",
+      "kind": "directory",
+      "classification": "operations"
+    },
+    {
+      "source": "docs/八字人生专题完善-20261024",
+      "destination": "归档/八字专项/docs/八字人生专题完善-20261024",
+      "kind": "directory",
+      "classification": "history-bazi"
+    },
+    {
+      "source": "docs/八字体系完善-20261023",
+      "destination": "归档/八字专项/docs/八字体系完善-20261023",
+      "kind": "directory",
+      "classification": "history-bazi"
+    },
+    {
+      "source": "docs/八字体系重构-20261024",
+      "destination": "归档/八字专项/docs/八字体系重构-20261024",
+      "kind": "directory",
+      "classification": "history-bazi"
+    },
+    {
+      "source": "docs/八字反人生模板-20261024",
+      "destination": "归档/八字专项/docs/八字反人生模板-20261024",
+      "kind": "directory",
+      "classification": "history-bazi"
+    },
+    {
+      "source": "docs/八字规则完善-20261024",
+      "destination": "归档/八字专项/docs/八字规则完善-20261024",
+      "kind": "directory",
+      "classification": "history-bazi"
+    }
+  ],
+  "copies": [
+    {
+      "source_root": "C:/Users/QLMa_/Documents/大六壬研判工作流",
+      "destination_root": "materials/vendor/liuren-chart-legacy-20261102",
+      "scope": "11 manifest-listed adapter/legacy-engine files only",
+      "original_unchanged": true
+    },
+    {
+      "source_root": "C:/Users/QLMa_/WorkBuddy/2026-10-18-12-01-33/qq_homework",
+      "destination_root": "资料来源/qq-homework-20261018",
+      "scope": "1851 manifest-listed records/cases/referenced images/package closure only",
+      "original_unchanged": true
+    }
+  ],
+  "move_manifest": "output/liuren-consolidation-20261102/layout/move-manifest.json",
+  "copy_manifest": "output/liuren-consolidation-20261102/layout/external-copy-manifest.json",
+  "bazi_docs_move_manifest": "output/liuren-consolidation-20261102/layout/bazi-docs/move-manifest.json",
+  "backups": [
+    {
+      "source": "README.md",
+      "destination": "归档/配置与旧说明/接续入口-20261102/README.md",
+      "sha256": "c7d3047ee25bbfc1aa18410d8ca71e5d056162007cf2ef54b9ae55a59eaa690a"
+    },
+    {
+      "source": "AGENTS.md",
+      "destination": "归档/配置与旧说明/接续入口-20261102/AGENTS.md",
+      "sha256": "faf75fb1b257faadc9a8252f4b43eac648d8aac0ce9f85af0c0575cd2cd5db6a"
+    },
+    {
+      "source": "verify-system.ps1",
+      "destination": "归档/配置与旧说明/融合前-20261102/verify-system.ps1",
+      "sha256": "1d45659f34601169e10153ed6083e4b215b845e60e379e53a89a0b12cfc233be",
+      "kind": "copy-before-edit"
+    },
+    {
+      "source": "verify-system.bat",
+      "destination": "归档/配置与旧说明/融合前-20261102/verify-system.bat",
+      "sha256": "ff592989559366832c115134f14f3871fe2bda33d9119183e7e30d6f07a719d1",
+      "kind": "copy-before-edit"
+    }
+  ],
+  "archive_routes": [
+    {
+      "archive": "归档/八字专项/八字资产-20261102.zip",
+      "archive_sha256": "5804a6fc0c9d774ab02c4e71af65244dd81f2388b49f38eb15353339085e2da0",
+      "manifest": "归档/八字专项/manifest.json",
+      "entry_list": "entries",
+      "original_path_field": "original_path",
+      "archive_path_field": "archive_path",
+      "action_field": "action",
+      "note": "Use each entry action/source_location; shared/mixed copy_retain records do not mean their originals were moved. docs routing above has priority for the separately moved live docs originals.",
+      "windows_validation": "归档/八字专项/校验结果.json",
+      "migration_receipts": [
+        "output/liuren-consolidation-20261102/bazi/migration-receipt.json",
+        "output/liuren-consolidation-20261102/bazi/restricted-migration-receipt.json"
+      ],
+      "final_retirement_receipt": "output/liuren-consolidation-20261102/bazi/final-retirement-receipt.json",
+      "coverage_report": "output/liuren-consolidation-20261102/bazi/coverage-report.json"
+    },
+    {
+      "archive": "归档/八字专项/八字工具缓存补充-20261102.zip",
+      "manifest": "归档/八字专项/缓存补充清单.json",
+      "entry_list": "entries",
+      "original_path_field": "original_path",
+      "archive_path_field": "archive_path",
+      "migration_receipts": [
+        "output/liuren-consolidation-20261102/bazi/cache-supplement-receipt.json"
+      ]
+    }
+  ]
+}

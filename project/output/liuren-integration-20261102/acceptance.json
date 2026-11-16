@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "name": "experience-correction",
+      "args": [
+        "tools/search-experience.py",
+        "--query",
+        "巳日 冲戌",
+        "--limit",
+        "3"
+      ],
+      "exit_code": 0,
+      "output_file": "experience-correction.txt"
+    },
+    {
+      "name": "experience-method",
+      "args": [
+        "tools/search-experience.py",
+        "--query",
+        "轮岗 职务",
+        "--limit",
+        "3"
+      ],
+      "exit_code": 0,
+      "output_file": "experience-method.txt"
+    },
+    {
+      "name": "case-audit",
+      "args": [
+        "tools/search-cases.py",
+        "--query",
+        "教师编 险过",
+        "--limit",
+        "3"
+      ],
+      "exit_code": 0,
+      "output_file": "case-audit.txt"
+    },
+    {
+      "name": "validation",
+      "args": [
+        "tools/liuren_knowledge_workbench.py",
+        "validate"
+      ],
+      "exit_code": 0,
+      "output_file": "validation.txt"
+    },
+    {
+      "name": "experience-correction-specific",
+      "args": [
+        "tools/search-experience.py",
+        "--query",
+        "巳上辰 破墓",
+        "--limit",
+        "2"
+      ],
+      "exit_code": 0,
+      "output_file": "experience-correction-specific.txt",
+      "contains_expected_rule": true
+    }
+  ],
+  "sha256": {
+    "tools/liuren_research_overlay.py": "95e8fff74beb725e99fc00eaaaf87ac5cfb2f4eba5d6e3b3d78b4f0e18d2ccc3",
+    "tools/experience_retrieval.py": "970e1021029e7ae6590ecaca5f9652bd32e3f8e630bf75cb436bcd6ebb56f5c9",
+    "tools/case_retrieval.py": "8bd95081c784acf438118b822fef392131ced9952e075cea3c591a96ba5436f6",
+    "tools/liuren_knowledge_workbench.py": "48bc8d420c9e255a5f07e9fc8b62aa7401804338f94c1b17d2acbefe985217fc",
+    "tools/opencode-case-batch.py": "784e706450f950ba1b8973c7ac9712c4bb718bc42dcd5c7ceaae05d9485ac2ca"
+  }
+}

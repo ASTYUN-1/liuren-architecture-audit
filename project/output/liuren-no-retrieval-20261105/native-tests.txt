@@ -1,0 +1,14 @@
+(node:34836) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/QLMa_/Documents/%E5%85%AD%E5%A3%AC%E5%85%AB%E5%AD%97%E6%B5%8B%E7%AE%97/.opencode/tools/liuren_materials.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\QLMa_\Documents\六壬八字测算\.opencode\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ native tool reads a complete current method by ID without a batch plan (354.9395ms)
+✔ native tool binds identity to trusted session, keeps old calls and full-plan escape (668.8357ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1159.4858

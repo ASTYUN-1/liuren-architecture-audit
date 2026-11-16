@@ -1,0 +1,372 @@
+{
+  "methods": {
+    "schema": "liuren-method-catalog-v1",
+    "kind": "quantity",
+    "methods": [
+      {
+        "id": "CY501-use-ground",
+        "title": "粹言501：发用与地盘、五气分支",
+        "scope": "实际初传；月令五气按明确条件表。相乘2，休相加，死囚相加折半，旺列上下相乘后10倍及100倍候选。不同段落不混用。",
+        "requires": [
+          "target",
+          "season_profile",
+          "basis"
+        ],
+        "precision": "旺为离散量级候选；其余为算式值，现实量级另定",
+        "source": {
+          "path": "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt",
+          "line_start": 500,
+          "line_end": 501,
+          "line_mode": "lf",
+          "sha256": "af0b11cc713bf323d7534cce8fdde912d3f93ddb78531b47b1bcb7b136c063f1"
+        }
+      },
+      {
+        "id": "WY67-shenjiang-base",
+        "title": "五要67：神将相乘基础数",
+        "scope": "AI选定天盘类神，支数乘本段天将数；不强制入传。仅基础数，本段后续倍率条件不完整，不自动实施。",
+        "requires": [
+          "target",
+          "basis"
+        ],
+        "precision": "base-only",
+        "source": {
+          "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+          "line_start": 66,
+          "line_end": 67,
+          "line_mode": "lf",
+          "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+        }
+      },
+      {
+        "id": "WY244-month",
+        "title": "五要244：月建倍、月破半分支",
+        "scope": "实际初传。AI按原法选branch/sheng/cheng表；月建倍，月破半，其他不增减；不并入地盘天将。",
+        "requires": [
+          "target",
+          "number_table",
+          "basis"
+        ],
+        "precision": "本分支算式值，量级另定",
+        "source": {
+          "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+          "line_start": 243,
+          "line_end": 244,
+          "line_mode": "lf",
+          "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+        }
+      },
+      {
+        "id": "WY242-generated-base",
+        "title": "五要242：旺相成数、休囚生数基础步",
+        "scope": "选定传用神；旺相取五行成数，其余取生数。仅基础步；连地盘的具体运算、胎产日期推演未编译。",
+        "requires": [
+          "target",
+          "season_profile",
+          "basis"
+        ],
+        "precision": "base-only",
+        "source": {
+          "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+          "line_start": 241,
+          "line_end": 242,
+          "line_mode": "lf",
+          "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+        }
+      }
+    ]
+  },
+  "quantity": {
+    "schema": "liuren-method-quantity-v1",
+    "method": "CY501-use-ground",
+    "stage": "source-scale-candidates",
+    "facts": {
+      "target": "T:戌",
+      "ground": "寅",
+      "general": "六合"
+    },
+    "seasonal": "旺",
+    "value": null,
+    "candidates": [
+      350,
+      3500
+    ],
+    "base_value": 35,
+    "unit": null,
+    "unresolved": [
+      "量级未由本算式确定",
+      "单位",
+      "原文350或3500类量级分支，不能择有利值"
+    ],
+    "source": {
+      "path": "书籍库/经典古籍/清代/六壬粹言-清-刘赤江.txt",
+      "line_start": 500,
+      "line_end": 501,
+      "line_mode": "lf",
+      "sha256": "af0b11cc713bf323d7534cce8fdde912d3f93ddb78531b47b1bcb7b136c063f1"
+    },
+    "calculation": {
+      "expression": {
+        "op": "multiply",
+        "args": [
+          {
+            "table": "branch",
+            "symbol": "戌"
+          },
+          {
+            "table": "branch",
+            "symbol": "寅"
+          }
+        ]
+      },
+      "exact_fraction": {
+        "numerator": "35",
+        "denominator": "1"
+      }
+    },
+    "basis": "固定工程算例：原盘戌初传临寅，戌月采用季土表；不作现实取数预测"
+  },
+  "base_quantity": {
+    "schema": "liuren-method-quantity-v1",
+    "method": "WY67-shenjiang-base",
+    "stage": "base-only",
+    "facts": {
+      "target": "T:戌",
+      "ground": "寅",
+      "general": "六合",
+      "general_number": 6
+    },
+    "value": 30,
+    "unit": null,
+    "unresolved": [
+      "量级未由本算式确定",
+      "单位",
+      "仅完成本法基础取数，后续步骤未执行"
+    ],
+    "source": {
+      "path": "书籍库/经典古籍/佚名/六壬集成五要权衡--佚名.txt",
+      "line_start": 66,
+      "line_end": 67,
+      "line_mode": "lf",
+      "sha256": "e56b3cc15e909b8ecfbc3c6ccfd51865fb231e20e194df07e1363462e5b582b0"
+    },
+    "calculation": {
+      "expression": {
+        "op": "multiply",
+        "args": [
+          {
+            "table": "branch",
+            "symbol": "戌"
+          },
+          {
+            "value": 6
+          }
+        ]
+      },
+      "exact_fraction": {
+        "numerator": "30",
+        "denominator": "1"
+      }
+    },
+    "basis": "固定工程算例，只核本段神将相乘基础数"
+  },
+  "calendar": {
+    "schema": "liuren-calendar-v1",
+    "query": {
+      "start": "2026-11-06",
+      "end": "2026-11-20",
+      "timezone": "Asia/Shanghai",
+      "day_boundary": "civil-midnight",
+      "mode": "boundaries",
+      "origin": "2026-11-06T14:43"
+    },
+    "calendar_sha256": "de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3",
+    "enumerated_days": 15,
+    "rows": [
+      {
+        "datetime": "2026-11-06T00:00:00",
+        "types": [
+          "旬界"
+        ],
+        "date": "2026-11-06",
+        "day": "甲申",
+        "xun": "甲申",
+        "void_branches": [
+          "午",
+          "未"
+        ],
+        "year": "丙午",
+        "month": "戊戌",
+        "hour": "甲子",
+        "lunar": "二〇二六年九月廿八",
+        "in_origin_xun": true
+      },
+      {
+        "datetime": "2026-11-07T17:52:05",
+        "name": "立冬",
+        "types": [
+          "节气",
+          "节月"
+        ],
+        "date": "2026-11-07",
+        "day": "乙酉",
+        "xun": "甲申",
+        "void_branches": [
+          "午",
+          "未"
+        ],
+        "year": "丙午",
+        "month": "己亥",
+        "hour": "乙酉",
+        "lunar": "二〇二六年九月廿九",
+        "in_origin_xun": true
+      },
+      {
+        "datetime": "2026-11-16T00:00:00",
+        "types": [
+          "旬界"
+        ],
+        "date": "2026-11-16",
+        "day": "甲午",
+        "xun": "甲午",
+        "void_branches": [
+          "辰",
+          "巳"
+        ],
+        "year": "丙午",
+        "month": "己亥",
+        "hour": "甲子",
+        "lunar": "二〇二六年十月初八",
+        "in_origin_xun": false
+      }
+    ],
+    "origin": {
+      "datetime": "2026-11-06T14:43",
+      "day": "甲申",
+      "xun": "甲申",
+      "void_branches": [
+        "午",
+        "未"
+      ]
+    },
+    "convention": "Fixed Beijing civil components; explicit midnight/23h day boundary. Date samples default to noon. offset_days=0 at start.",
+    "limits": [
+      "Enumerates dates only; no event selection, timing confidence, or new chart is computed.",
+      "Original chart voids, generals and lessons remain unchanged."
+    ]
+  },
+  "imagery": {
+    "schema": "liuren-imagery-v1",
+    "method": "DF449-growth",
+    "facts": {
+      "target": "T:寅",
+      "ground": "午",
+      "general": "天后",
+      "reference": "ground",
+      "place": "午",
+      "growth": "死"
+    },
+    "matches": [
+      {
+        "attribute": "新旧",
+        "candidate": "废旧（本段专项取象）"
+      }
+    ],
+    "source": {
+      "path": "书籍库/排盘引擎内置资料/六壬东方朔射覆.txt",
+      "line_start": 449,
+      "line_end": 450,
+      "line_mode": "lf",
+      "sha256": "ab01d081a1794d702e705f1dabe01608603f26f3270162d48de37494b6f5ac23"
+    },
+    "basis": "固定工程算例，仅显示原段十二气物态候选"
+  },
+  "evaluation": {
+    "schema": "liuren-time-evaluation-v1",
+    "chart_sha256": "8f7dee5ab75d30a6a5598e071a942d0fe6df6c31dd6a0673f9f4a8daebfdc062",
+    "void_policy": "original",
+    "original_void": [
+      "午",
+      "未"
+    ],
+    "scope": "原盘位置和日干固定；按评价节月更新五气。original保留原空亡条件；evaluation-xun-research仅为以新旬替换的研究情景，不等于出旬填实规则已确定。",
+    "rows": [
+      {
+        "datetime": "2026-11-06T12:00:00",
+        "day": "甲申",
+        "month": "戊戌",
+        "hour": "庚午",
+        "xun": "甲申",
+        "evaluation_void": [
+          "午",
+          "未"
+        ],
+        "in_origin_xun": true,
+        "actors": [
+          {
+            "id": "T:寅",
+            "role": "测试对象",
+            "basis": "只核接口，非实际取用结论",
+            "single_palace": 1.433994,
+            "single_palace_level": "弱，仍有作用",
+            "adjusted": 1.433994,
+            "delta": 0,
+            "level": "弱，仍有作用"
+          }
+        ],
+        "receipt_sha256": "0d2ac8ccf5aae76df181511ab66dd6ac4d5172885cf6f0089f8226b35715f86b"
+      },
+      {
+        "datetime": "2026-11-07T12:00:00",
+        "day": "乙酉",
+        "month": "戊戌",
+        "hour": "壬午",
+        "xun": "甲申",
+        "evaluation_void": [
+          "午",
+          "未"
+        ],
+        "in_origin_xun": true,
+        "actors": [
+          {
+            "id": "T:寅",
+            "role": "测试对象",
+            "basis": "只核接口，非实际取用结论",
+            "single_palace": 1.433994,
+            "single_palace_level": "弱，仍有作用",
+            "adjusted": 1.433994,
+            "delta": 0,
+            "level": "弱，仍有作用"
+          }
+        ],
+        "receipt_sha256": "0d2ac8ccf5aae76df181511ab66dd6ac4d5172885cf6f0089f8226b35715f86b"
+      },
+      {
+        "datetime": "2026-11-08T12:00:00",
+        "day": "丙戌",
+        "month": "己亥",
+        "hour": "甲午",
+        "xun": "甲申",
+        "evaluation_void": [
+          "午",
+          "未"
+        ],
+        "in_origin_xun": true,
+        "actors": [
+          {
+            "id": "T:寅",
+            "role": "测试对象",
+            "basis": "只核接口，非实际取用结论",
+            "single_palace": 3.248746,
+            "single_palace_level": "偏弱至中等，可发挥作用",
+            "adjusted": 3.248746,
+            "delta": 0,
+            "level": "偏弱至中等，可发挥作用"
+          }
+        ],
+        "receipt_sha256": "7810ce775aa31be52b2fd480f0eb3c9e61acd24f25f6d78fc83c434651e52600"
+      }
+    ],
+    "calendar_sha256": "de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3"
+  }
+}

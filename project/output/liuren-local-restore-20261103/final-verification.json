@@ -1,0 +1,76 @@
+{
+  "release": "20261103-local-restore-01",
+  "old_runtimes_unchanged": {
+    "runtime/liuren/20261027-quantity-02": true,
+    "runtime/liuren/20261102-integrated-01": true
+  },
+  "implementation_hashes_match": true,
+  "live_skill_hashes_match": true,
+  "skill_format_validation": {
+    "daliuren": true,
+    "liuren-cases": true,
+    "liuren-extract": true,
+    "liuren-tuiming": true
+  },
+  "opencode_discovery_exit": 0,
+  "doctor_exit": 0,
+  "doctor": {
+    "schema": "liuren-workflow-doctor-v1",
+    "ok": true,
+    "checks": {
+      "runtime": {
+        "release": "20261103-local-restore-01",
+        "method_version": "eecb5fe123aa8b43a2ad8035c2cf2bde37d680ba3099f6c901db8cbf3a095c67",
+        "files": 153,
+        "modules": 50,
+        "groups": [
+          "liuren"
+        ]
+      },
+      "data_roots": {
+        "案例项目库": true,
+        "经验日志": true,
+        "书籍库": true,
+        "books": true,
+        "knowledge": true,
+        "资料来源/qq-homework-20261018": true,
+        "materials/vendor/liuren-chart-legacy-20261102": true
+      },
+      "vendor_engine_files": 8,
+      "system": {
+        "python": "3.13.15",
+        "python_executable": "C:\\Program Files\\Python313\\python.exe",
+        "node_executable": "C:\\Users\\QLMa_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE"
+      },
+      "program_chart": {
+        "ok": true,
+        "pillars": [
+          "丙午",
+          "乙未",
+          "庚戌",
+          "癸未"
+        ],
+        "heaven_earth": 12
+      },
+      "research": {
+        "record_count": 647,
+        "eligible_count": 647,
+        "mechanical_valid": true,
+        "explicit_rule_family_count": 65,
+        "semantic_validation": "external_review_declaration_only",
+        "independent_validation_count": 0,
+        "complete": false,
+        "present": true
+      },
+      "research_issues": []
+    },
+    "errors": [],
+    "model_calls": 0,
+    "services_started": 0,
+    "semantic_correctness": "unverified",
+    "predictive_accuracy": "unverified"
+  },
+  "model_calls": 0,
+  "full_model_workflow_validation": "not_run",
+  "predictive_accuracy": "unverified"
+}

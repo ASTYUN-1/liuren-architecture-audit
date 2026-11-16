@@ -1,0 +1,81 @@
+[
+  {
+    "args": [
+      "validate"
+    ],
+    "returncode": 0,
+    "record_count": 49,
+    "passed": 49,
+    "blocked": 0,
+    "valid": true,
+    "load_errors": 0
+  },
+  {
+    "args": [
+      "search",
+      "应期",
+      "--limit",
+      "2"
+    ],
+    "returncode": 0,
+    "ids": [
+      "LR26-LEGACY-012",
+      "LA26-LEGACY-012"
+    ],
+    "family_counts": [
+      1,
+      1
+    ]
+  },
+  {
+    "args": [
+      "next",
+      "--kind",
+      "book_text",
+      "--max-chars",
+      "1200"
+    ],
+    "returncode": 0,
+    "paths": [
+      "books/beihai-xianren/BOOK_OVERVIEW.md"
+    ],
+    "span": [
+      [
+        1,
+        39
+      ]
+    ],
+    "private_included": false
+  },
+  {
+    "args": [
+      "next",
+      "--kind",
+      "legacy_entry",
+      "--max-chars",
+      "1200"
+    ],
+    "returncode": 0,
+    "paths": [
+      "经验日志/1-案例库经验提取.md"
+    ],
+    "span": [
+      [
+        59,
+        68
+      ]
+    ],
+    "private_included": false
+  },
+  {
+    "args": [
+      "status"
+    ],
+    "returncode": 0,
+    "rule_count": 31,
+    "audit_count": 18,
+    "family_count": 6,
+    "pending_entries": 937,
+    "complete": false
+  }
+]

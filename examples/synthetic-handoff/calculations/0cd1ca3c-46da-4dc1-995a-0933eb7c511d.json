@@ -1,0 +1,63 @@
+{
+  "request": {
+    "action": "evaluation",
+    "evaluation": {
+      "calendar": {
+        "start": "2026-10-18",
+        "end": "2026-10-18",
+        "timezone": "Asia/Shanghai",
+        "day_boundary": "civil-midnight"
+      },
+      "strength": {
+        "mode": "single_palace",
+        "season_profile": "quarter-earth",
+        "season_basis": "合成宿主测试",
+        "review": true,
+        "actors": [
+          {
+            "id": "T:子",
+            "role": "测试类神",
+            "basis": "传输验证指定"
+          }
+        ]
+      }
+    }
+  },
+  "result": {
+    "schema": "liuren-time-evaluation-v1",
+    "chart_sha256": "b0d2dfcb0c4b0d8d350ccc241e6a452153cd684d9a96d6b902f4c38e47bf03ec",
+    "void_policy": "original",
+    "original_void": [
+      "戌",
+      "亥"
+    ],
+    "scope": "原盘位置和日干固定；按评价节月更新五气。original保留原空亡条件；evaluation-xun-research仅为以新旬替换的研究情景，不等于出旬填实规则已确定。",
+    "rows": [
+      {
+        "datetime": "2026-10-18T12:00:00",
+        "day": "乙丑",
+        "month": "戊戌",
+        "hour": "壬午",
+        "xun": "甲子",
+        "evaluation_void": [
+          "戌",
+          "亥"
+        ],
+        "actors": [
+          {
+            "id": "T:子",
+            "role": "测试类神",
+            "basis": "传输验证指定",
+            "single_palace": 0.395724,
+            "single_palace_level": "极弱，通常难以独立显著作用",
+            "adjusted": 0.395724,
+            "delta": 0,
+            "level": "极弱，通常难以独立显著作用"
+          }
+        ],
+        "receipt_sha256": "093b11c61085e3d8b8163f1ea7d735c2789c6113b57397965b1c39e72a9e4180"
+      }
+    ],
+    "calendar_sha256": "de07f93cf5543e7402f9b8418dc82453e6927ba3e2569c78d125422ae634dcc3"
+  }
+}

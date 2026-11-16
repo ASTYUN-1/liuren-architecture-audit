@@ -1,0 +1,50 @@
+{
+  "schema": "staged-case-chart-v1",
+  "case_id": "raw-anli002-0006",
+  "stage": "初级资料",
+  "official_library_eligible": false,
+  "status": "needs_resolution",
+  "usable_for_batch_analysis": false,
+  "source": {
+    "file": "raw-anli002-0006.md",
+    "absolute_file": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\docs\\初级案例整理\\初级案例资料\\anli002\\raw-anli002-0006.md",
+    "locator": "案例.txt 第80–87行（以本批 _来源快照.txt 第80–87行为准）",
+    "shared_original_group": null,
+    "case_file_sha256": "73eadd33e652df08d81603658803376ddc4f5a2f2c77326606d6ab7a3652a26b",
+    "original_time": "时间：甲辰年丙寅月甲子日己巳时",
+    "source_text_sha256": "93dc1ee19b8b5f004087a7c46a762cd53a9662d085de9da8c0beab5091f80448",
+    "image_evidence": null
+  },
+  "time": {
+    "precision": "unknown",
+    "datetime": null,
+    "issue": "MISSING_CALENDAR_DATE"
+  },
+  "time_selection": null,
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    },
+    "source_status": "explicit_batch_assumptions_not_source_facts"
+  },
+  "source_settings": {},
+  "effective_settings": {
+    "yuejiang": "中气换将",
+    "guiren": "甲戊庚牛羊",
+    "zhouye": "自动选择",
+    "shehai": "孟仲季"
+  },
+  "issues": [
+    "MISSING_CALENDAR_DATE"
+  ],
+  "resolution": null,
+  "chart_input": null,
+  "facts": null
+}

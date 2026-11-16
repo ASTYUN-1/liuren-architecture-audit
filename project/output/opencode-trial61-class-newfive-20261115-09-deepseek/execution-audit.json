@@ -1,0 +1,242 @@
+{
+  "release": "20261115-trial-decision-61",
+  "completed": 5,
+  "all_new_sessions": true,
+  "answers_supplied_to_sessions": false,
+  "all_loaded_current_policy": true,
+  "adjudication_calls": 0,
+  "active_release_changed": false,
+  "cases": [
+    {
+      "alias": "new-01",
+      "title": "同事今日到公司",
+      "case_id": "raw-qqwb20261019-0197",
+      "session_id": "ses_e224dfbb1ffeV0PN5dhPU4VTxI",
+      "tools": [
+        "liuren_tool_help",
+        "liuren_materials",
+        "liuren_chart",
+        "liuren_materials",
+        "liuren_materials"
+      ],
+      "errors": [],
+      "material_calls": [
+        {
+          "action": "method",
+          "modules": [
+            "class-selection-trial",
+            "interpersonal"
+          ]
+        },
+        {
+          "action": "method",
+          "modules": [
+            "trial-domain-travel",
+            "trial-domain-lost-person-object"
+          ]
+        },
+        {
+          "action": "book_search",
+          "queries": [
+            "占行人以日干为行人日支为家",
+            "行人年命马六亲",
+            "行人归期干上支上"
+          ],
+          "book": "QA",
+          "limit": 4
+        }
+      ],
+      "chart_differences": [],
+      "archives": [
+        {
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261115-133413-colleague-arrival-20260521-18bf9575-dc28-44e9-9fa7-6d5bca926a79.corrected-e970d7c5b80ca757.json",
+          "sha256": "97d019d8cc9a85de5fb7cd114b3c2eefc5f84f194e76779ae13e96f8029ef06d",
+          "matches": true
+        }
+      ],
+      "strength_calls": [],
+      "final_file": "new-01-final.md",
+      "final_sha256": "1b43004ef02e8c322ad024e338a3fa432a9e5cab7443f095f166885d2360e7c1",
+      "jsonl_sha256": "75e8b925b78b06d9fffdab58810ab5d2abb49234ffb1ee71d541920aedc20c40",
+      "chinese_characters": 339,
+      "prohibited_calls": []
+    },
+    {
+      "alias": "new-02",
+      "title": "暧昧关系发展",
+      "case_id": "raw-qqwb20261019-0024",
+      "session_id": "ses_e224dfc0affeJS9BJN9VejIQgY",
+      "tools": [
+        "liuren_tool_help",
+        "liuren_materials",
+        "liuren_chart"
+      ],
+      "errors": [],
+      "material_calls": [
+        {
+          "action": "method",
+          "modules": [
+            "class-selection-trial",
+            "relationship"
+          ]
+        }
+      ],
+      "chart_differences": [],
+      "archives": [
+        {
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261115-133417-meta-relationship-20250602-66f61ad0-c5c8-4bb0-af33-73015ab4d97f.corrected-e970d7c5b80ca757.json",
+          "sha256": "0c8203af56b4297d65a0d11f9dd76c67c9e3c886ca49115f682dac7e118221ed",
+          "matches": true
+        }
+      ],
+      "strength_calls": [],
+      "final_file": "new-02-final.md",
+      "final_sha256": "d3914dda2df83a090bdd867776cdc6cf2edfa818321f76ec2a94c1eb5cfc9e64",
+      "jsonl_sha256": "7bb46f70a9021deabef292605536ab46bdbbbb6dc799ef716e48b0d144a9ebd3",
+      "chinese_characters": 406,
+      "prohibited_calls": []
+    },
+    {
+      "alias": "new-03",
+      "title": "技校辅导员应聘",
+      "case_id": "raw-qqwb20261019-0068",
+      "session_id": "ses_e224dfc18ffeeUaRXBZNTD372G",
+      "tools": [
+        "liuren_tool_help",
+        "liuren_materials",
+        "liuren_chart"
+      ],
+      "errors": [],
+      "material_calls": [
+        {
+          "action": "method",
+          "modules": [
+            "class-selection-trial",
+            "recruitment"
+          ]
+        }
+      ],
+      "chart_differences": [],
+      "archives": [
+        {
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261115-133417-技校辅导员求职-086babc4-ec76-4b83-bd1b-6f26126d80b8.corrected-e970d7c5b80ca757.json",
+          "sha256": "d5a3088bbe01b7fcd35799cd14d9f120a4e53002df09c5d5f6aed6c8c8009a94",
+          "matches": true
+        }
+      ],
+      "strength_calls": [],
+      "final_file": "new-03-final.md",
+      "final_sha256": "851ce5a7f298edf580b8db5bee81ce6aec0137517b64c7db817ede837eb2597d",
+      "jsonl_sha256": "167b76e4772baa9fced76ea071b8c7099ca79e853670a57bef98c3e4dba4982f",
+      "chinese_characters": 338,
+      "prohibited_calls": []
+    },
+    {
+      "alias": "new-04",
+      "title": "朋友开店经营",
+      "case_id": "raw-qqwb20261019-0108",
+      "session_id": "ses_e224dfc02ffeO5kWQDSO7TYIAX",
+      "tools": [
+        "liuren_tool_help",
+        "liuren_materials",
+        "liuren_chart"
+      ],
+      "errors": [],
+      "material_calls": [
+        {
+          "action": "method",
+          "modules": [
+            "class-selection-trial",
+            "finance"
+          ]
+        }
+      ],
+      "chart_differences": [],
+      "archives": [
+        {
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261115-133409-trial-finance-shop-0711-1938703d-d408-4a1c-ad90-f87144fd9c12.corrected-e970d7c5b80ca757.json",
+          "sha256": "b13ecc039429beb89fa37258e84442176f5d8bc24b329901878ba055b79c8a6a",
+          "matches": true
+        }
+      ],
+      "strength_calls": [],
+      "final_file": "new-04-final.md",
+      "final_sha256": "879bc05e016ca0fbe28ba1060df92eec1e4cb23752571deb25d61e4e31e32579",
+      "jsonl_sha256": "ce9618382daa7703571a3977f81baf7ebc6c509f5e86ca1ba9b8d93914bcdd70",
+      "chinese_characters": 374,
+      "prohibited_calls": []
+    },
+    {
+      "alias": "new-05",
+      "title": "走失猫能否寻回",
+      "case_id": "raw-qqwb20261019-0038",
+      "session_id": "ses_e224dfb7dffed8PXfldQ0DtO2y",
+      "tools": [
+        "liuren_tool_help",
+        "liuren_materials",
+        "liuren_chart",
+        "liuren_materials",
+        "liuren_materials"
+      ],
+      "errors": [
+        {
+          "tool": "liuren_materials",
+          "input": {
+            "action": "book_search",
+            "queries": [
+              "失猫",
+              "猫",
+              "六畜类神",
+              "失物空亡"
+            ],
+            "limit": 6
+          },
+          "error": "LIUREN_MATERIAL_ERROR: 使用至少两个字符的争点词；每次最多16个词"
+        }
+      ],
+      "material_calls": [
+        {
+          "action": "method",
+          "modules": [
+            "class-selection-trial",
+            "lost-person-object"
+          ]
+        },
+        {
+          "action": "book_search",
+          "queries": [
+            "失猫",
+            "猫",
+            "六畜类神",
+            "失物空亡"
+          ],
+          "limit": 6
+        },
+        {
+          "action": "book_search",
+          "limit": 6,
+          "queries": [
+            "失猫",
+            "猫犬",
+            "六畜",
+            "失物空亡"
+          ]
+        }
+      ],
+      "chart_differences": [],
+      "archives": [
+        {
+          "path": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\排盘存档\\六壬\\六壬-20261115-133417-cat-lost-20260804-b81e8671-2f7a-4125-91ec-5529b7287910.corrected-e970d7c5b80ca757.json",
+          "sha256": "9c39b2d5f9d96030e143fa74ba416fbf0da814e1bfb9afa12f024196bafc4145",
+          "matches": true
+        }
+      ],
+      "strength_calls": [],
+      "final_file": "new-05-final.md",
+      "final_sha256": "e2330eee9f7feb6eb64d45bdf7825de9623138781a6ab903fcd4d8f706e4ec4f",
+      "jsonl_sha256": "51374d2734057880b1145323608d6321babd6ecb857048e6dd11c476c1a0322d",
+      "chinese_characters": 333,
+      "prohibited_calls": []
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "baseline": "runtime/liuren/20261106-performance-25",
+  "baselineManifestSha256": "3b76563f00c0b84227f016cf40f91b5280888b18ab093cfd6225596fb9aaf34d",
+  "candidate": "20261107-slim-candidate-01",
+  "mergedModules": {
+    "class-mapping": "positioning",
+    "relations": "liqi",
+    "evidence": "adjudication",
+    "bashajiubao": "liqi",
+    "engine-shensha-output": "shensha-use",
+    "shensha-focus": "shensha-use"
+  },
+  "verbatimRetainedSpans": [
+    {
+      "source": "methods/liqi.md",
+      "line_start": 74,
+      "line_end": 132,
+      "sha256": "a1b726ee36422e6123ca732d804f916ed90d31a196c7ed09fc19d9039f42d588"
+    },
+    {
+      "source": "references/bashajiubao.md",
+      "line_start": 15,
+      "line_end": 27,
+      "sha256": "e98289a58b9829cc1960bf1845efc4bde91d31494eeb5ce9c7e9e1c50ebd01a8"
+    },
+    {
+      "source": "references/bashajiubao.md",
+      "line_start": 27,
+      "line_end": 40,
+      "sha256": "e98289a58b9829cc1960bf1845efc4bde91d31494eeb5ce9c7e9e1c50ebd01a8"
+    },
+    {
+      "source": "methods/structure.md",
+      "line_start": 24,
+      "line_end": 49,
+      "sha256": "2151951172ef588d527350a31b8def4288f8459f3835d60e8ccde4c2faf05493"
+    },
+    {
+      "source": "methods/movement.md",
+      "line_start": 19,
+      "line_end": 35,
+      "sha256": "190aef2334d70658d8959299ea25da6a505e3070b98918307f859ba6c352687c"
+    },
+    {
+      "source": "references/shensha-focus.md",
+      "line_start": 60,
+      "line_end": 70,
+      "sha256": "c1494f3255664b3dad3b7732145edf96838789baa2957c1984465b49e02d5b0d"
+    },
+    {
+      "source": "details/risk.md",
+      "line_start": 7,
+      "line_end": 13,
+      "sha256": "ea5a1d29850297eaac72b71d43233a94b1290e39523fb23db99cbfa909b16ed8"
+    },
+    {
+      "source": "procedures/liuren-extract.md",
+      "line_start": 7,
+      "line_end": 11,
+      "sha256": "5ecf585e250f87b20dc39aa8c7ed61a0c5e2fcf37ffb6e0301df8ece6198c404"
+    },
+    {
+      "source": "references/deterministic-tools.md",
+      "line_start": 9,
+      "line_end": 41,
+      "sha256": "f15a208a75d4171b3cb11ec0d6298702f60699dfb041a44d6567e013d98b5435"
+    }
+  ],
+  "boilerplateRemoved": [
+    {
+      "file": "domains/agriculture.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/agriculture.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/exam.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/exam.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/finance.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/finance.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/home.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/home.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/illness.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/illness.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/interpersonal.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/interpersonal.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/lost-person-object.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/lost-person-object.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/pregnancy.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/pregnancy.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/promotion-salary.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/promotion-salary.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/recruitment.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/recruitment.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/relationship.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/relationship.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/travel.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/travel.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/weather.md",
+      "text": "共同规则只按 class-mapping 执行一次。以下保留每条适用、结论和排除；通法/专法先分层，不将旧默认扩成无例外。各 ID 的完整引文、双行号、哈希、候选身份和细节见原规则卡。",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "domains/weather.md",
+      "text": "原专项上下文与历史来源身份见 mapping-provenance。原载“必成/必凶”不省略本节及共用制救核查；旧 I/B 的公共研究限制见 class-mapping。\n",
+      "reason": "共同取用与来源身份集中于positioning/adjudication"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/shen-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "适用：先明确所问对象、阶段、目标与盘中实际位置，再从候选义中取用。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "边界：候选象辞不等于本问事实；单个字义不直接决定吉凶。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    },
+    {
+      "file": "references/jiang-symbols.md",
+      "text": "待辨：北海为研究组织主线，重点参照壬归；具体采用先核对象、位置、条件及反证。同条件仍冲突时保留分支，不按作者固定名次自动裁决。其他材料保留补充及自身方法身份。",
+      "reason": "同页共同条件只保留首次，具体义项与例外未删"
+    }
+  ],
+  "semanticValidation": "manual bounded comparison; not exhaustive source adjudication or predictive validation",
+  "activatedRelease": "20261107-slim-26"
+}

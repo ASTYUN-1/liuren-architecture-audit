@@ -1,0 +1,73 @@
+{
+  "skill": "kongwang-bianzhi",
+  "version": "0.1.0",
+  "source_book": "《北海的六壬特训班讲义》 — 北海闲人",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我占财运，财在干上但好像空亡了，这财到底能不能拿到？",
+      "expected_behavior": "应激活 kongwang-bianzhi, 执行空亡两查(查旺衰+查得助), 输出'旺不为空/得助不为空/真空'状态, 再结合它象定夺",
+      "notes": "A2 触发场景 1+4: 吉象现课传但有空亡标记"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这课里日禄乘了玄武，是不是禄要变质了？",
+      "expected_behavior": "应激活 kongwang-bianzhi, 执行变质六查(乘凶将/闭口/破碎煞/阴神见鬼/落墓/乘丁), 输出命中的变质项清单并据此降级吉断",
+      "notes": "书原文'日禄乘玄武作闭口则禄难到手', 典型变质校验"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "这课看着是吉象，但会不会是空欢喜、竹篮打水一场空？",
+      "expected_behavior": "应激活 kongwang-bianzhi, 对吉象做真假校验, 区分'真的能成'与'假象/半真', 输出置信度而非武断下'必成'",
+      "notes": "A2 触发场景 2: 结果不确定性的校验需求"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "占怀孕，胎神现了但空亡，会不会保不住？",
+      "expected_behavior": "应激活 kongwang-bianzhi, 先空亡两查(如月建则旺不为空), 再做变质六查(阴神破害/乘鬼蛇), 输出'有孕但破胎'式真假报告",
+      "notes": "书案例 c03 的校验环节"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "六壬里的空亡到底是什么概念？和旬空有什么区别？",
+      "expected_behavior": "不应激活 kongwang-bianzhi, 因为这是纯术语知识问答, 没有盘面与类神可校验, 直接引用术语词典解释即可",
+      "notes": "诱饵: 完全无关场景(纯知识查询)"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "快帮我看看这课有没有灾？白虎、勾陈、天空全发用了！",
+      "expected_behavior": "不应激活本 skill(kongwang-bianzhi), 应激活 xiongsha-suduan: 这是凶煞为主的快速否定式断法, 而非对既定吉象做空亡/变质系统校验",
+      "notes": "诱饵: 跨 skill 混淆诱饵(硬性要求), 防止真假校验引擎抢走凶煞速断的调用"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "我这财运会不会被耗光、花光？",
+      "expected_behavior": "不应激活本 skill(kongwang-bianzhi), 应激活 cailu-panduan: 财空/财破碎/脱气等财运领域的领域细则已归 cailu-panduan, 本 skill 只提供通用校验引擎",
+      "notes": "诱饵: 跨 skill 混淆(composes-with), 领域细则 vs 通用引擎"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "财空亡了，是不是反而能有外快？",
+      "expected_behavior": "应激活 kongwang-bianzhi: 空亡不能孤立看, 需结合课体结构与它象变通(如书案例 c18'帐目非现金、空来空去'断不凶); 表面是怀疑'空=凶', 实际正是空亡辨析的应用",
+      "notes": "边界: '空亡必凶'的直觉 vs 课体变通法"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "我这个吉象是不是真的？",
+      "expected_behavior": "若用户已给出课传, 激活 kongwang-bianzhi 做校验; 若未给出任何盘面数据, 先向用户澄清干支/三传/天将, 而不是空泛讨论——数据缺失时宁可不硬断",
+      "notes": "边界: 有校验需求但盘面数据缺失"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "should_trigger×4 + should_not_trigger×3(含 1 条跨 skill 兄弟诱饵 + 1 条完全无关) + edge_case×2。诱饵类型: ①空亡术语知识问答(无关) ②'白虎勾陈天空全发用'→xiongsha-suduan(兄弟 skill 混淆, 凶煞速断) ③'财会被耗光'→cailu-panduan(领域细则)。所有 should_not_trigger 必须通过(诱饵容错为 0)。"
+}

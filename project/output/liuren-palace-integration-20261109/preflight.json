@@ -1,0 +1,94 @@
+{
+  "schema": "liuren-local-preflight-v1",
+  "ready": true,
+  "required": [
+    {
+      "name": "active release",
+      "ok": true,
+      "detail": "20261109-palace-strength-34"
+    },
+    {
+      "name": "runtime files",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "loaded implementation sources",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "active tool sources",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "skill entries",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "default liuren agent",
+      "ok": true
+    },
+    {
+      "name": "main tool permissions",
+      "ok": true
+    },
+    {
+      "name": "active runtime read permissions",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "adjudicator model and tools",
+      "ok": true
+    },
+    {
+      "name": "compact handoff enabled",
+      "ok": true
+    },
+    {
+      "name": "durable flow enabled",
+      "ok": true
+    },
+    {
+      "name": "explicit adjudicator output budget",
+      "ok": true,
+      "detail": 393216
+    },
+    {
+      "name": "pinned slim plugin",
+      "ok": true,
+      "detail": {
+        "expected": "2.2.18",
+        "installed": "2.2.18"
+      }
+    },
+    {
+      "name": "project SDK dependency",
+      "ok": true
+    },
+    {
+      "name": "python executable",
+      "ok": true
+    },
+    {
+      "name": "node executable",
+      "ok": true
+    },
+    {
+      "name": "adopted shensha release",
+      "ok": true
+    },
+    {
+      "name": "book index",
+      "ok": true
+    }
+  ],
+  "auxiliary": [],
+  "modelCalls": 0,
+  "servicesStarted": 0,
+  "scope": "本机执行与加载；辅助MCP/研究库单列，不证明专业或预测效果",
+  "next": "重启后首次在liuren调用liuren_tool_help(topic=workflow,domains=[本问占类])，确认execution_health.ready；其后按next_call执行。"
+}

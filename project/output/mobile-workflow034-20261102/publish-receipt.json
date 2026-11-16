@@ -1,0 +1,21 @@
+{
+  "published": {
+    "versionCode": 8,
+    "versionName": "0.3.4",
+    "apkUrl": "https://wen.qiluhub.com/downloads/android/wenheng-0.3.4.apk",
+    "sha256": "09d586eca219d95c6071511f41036570dcb2d80f35afdfc9882310b8b4000a7a",
+    "bytes": 8914519,
+    "notes": "同步新版解读流程，优化长任务等待和异常提示；新增运营消息角标、任务耗时与用量核对，保留离线排盘及档案功能。"
+  },
+  "previousManifest": "/var/backups/wenheng-apk034-20261102-20261102T033524.456263Z/latest.json",
+  "oldApkHashes": {
+    "wenheng-0.3.3.apk": "4cff24858577305fa7619c285d7aa149e0c8be8be9b13b126664a29741b81da6",
+    "wenheng-0.3.1.apk": "ba16054db2d27033c9833ac1cc1279b490c1dd4b2d5edff29729efc254a71b89",
+    "wenheng-0.3.2.apk": "adef2d619ba196a82e3ed28496de711468c93d13313a71d94d8188b6040b113c"
+  },
+  "allOldApksPreserved": true,
+  "nginxReloaded": false,
+  "webRestarted": false,
+  "workerRestarted": false,
+  "at": "2026-11-02T03:35:24.615371+00:00"
+}

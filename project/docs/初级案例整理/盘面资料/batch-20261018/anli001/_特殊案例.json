@@ -1,0 +1,142 @@
+{
+  "schema": "staged-chart-unresolved-v1",
+  "count": 4,
+  "cases": [
+    {
+      "id": "raw-anli001-0005",
+      "filename": "raw-anli001-0005.md",
+      "shared_original_group": null,
+      "original_time": "2024年1月23日17:31",
+      "normalized_time_field": "2024-01-23 17:31",
+      "parsed_time": {
+        "precision": "minute",
+        "date": "2024-01-23",
+        "datetime": "2024-01-23T17:31"
+      },
+      "issues": [
+        "SPECIAL_DIVINATION_METHOD"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "time_selection": null,
+      "source_locator": "案例.txt 第41–47行",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "报数24（原文“占此项目前景，报数24”，未按24时理解）"
+      },
+      "source_text_sha256": "619249e3e15c0a54e0ff742fa87342871167265ab926e674844191b508509068",
+      "case_file_sha256": "aa37e7afe254d72d63cd91b231fe70d75cfe9e219e8b352573623bf1728f402d",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli001-0011",
+      "filename": "raw-anli001-0011.md",
+      "shared_original_group": null,
+      "original_time": "2024年9月11日15时",
+      "normalized_time_field": "2024-09-11 15时（仅保留小时精度）",
+      "parsed_time": {
+        "precision": "hour",
+        "date": "2024-09-11",
+        "hour": 15,
+        "datetime": null,
+        "issue": "MINUTE_NOT_SUPPLIED"
+      },
+      "issues": [
+        "MINUTE_NOT_SUPPLIED"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "time_selection": null,
+      "source_locator": "案例.txt 第97–101行",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "ca7062f8d657289e0573d56affb032126e0f8a31da92cd97c4b88eb0e2532c5a",
+      "case_file_sha256": "548aa64e2f8c9c08477a446c21cd71394792ccd3d62603c1eb9e95f0f50d4fcd",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli001-0021",
+      "filename": "raw-anli001-0021.md",
+      "shared_original_group": null,
+      "original_time": "时间：丁巳日，干上未乘朱雀，子丑旬空。伏吟局（原文整行；“丁巳日”为起课时间，其余为课式）",
+      "normalized_time_field": "不转换（原文只记干支日，未记年月日与钟点）",
+      "parsed_time": {
+        "precision": "unknown",
+        "datetime": null,
+        "issue": "MISSING_CALENDAR_DATE"
+      },
+      "issues": [
+        "MISSING_CALENDAR_DATE"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "time_selection": null,
+      "source_locator": "案例.txt 第202–214行",
+      "constraints": {
+        "day_pillar": "丁巳",
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "干上未乘朱雀，子丑旬空。伏吟局（题干原载，未核验）",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "d19a421323d32651f7f8a9d4a335975bde04fd0c65768da00cc09095d98ca572",
+      "case_file_sha256": "e23935ea1b34fa4c919a1571e603ad4c09cf743457487cdc0d20dca184915f19",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    },
+    {
+      "id": "raw-anli001-0030",
+      "filename": "raw-anli001-0030.md",
+      "shared_original_group": null,
+      "original_time": "2022年6月6日庚辰时",
+      "normalized_time_field": "不转换（原文用“庚辰时”，未换算钟点）",
+      "parsed_time": {
+        "precision": "pillar-hour",
+        "date": "2022-06-06",
+        "hour_pillar": "庚辰",
+        "datetime": null,
+        "issue": "HOUR_PILLAR_NEEDS_RESOLUTION"
+      },
+      "issues": [
+        "HOUR_PILLAR_NEEDS_RESOLUTION"
+      ],
+      "image_evidence": null,
+      "source_settings": {},
+      "time_selection": null,
+      "source_locator": "案例.txt 第352–362行",
+      "constraints": {
+        "day_pillar": null,
+        "source_pillars": null,
+        "source_month_general": null,
+        "source_chart_description": "未提供",
+        "other_input": "未注明"
+      },
+      "source_text_sha256": "a01225b893a2183e8c8593956064f6cc64864e80194909139df7c7a868a760f8",
+      "case_file_sha256": "4b5dfd636cc8d5c8888dd67d9961439c5fc002a8a1530ad8803dc7f8d979830f",
+      "staging_only": true,
+      "chart_status": "needs_resolution",
+      "error": null,
+      "resolution": null,
+      "suggestion": "保留原字段；只用题干约束与外部来源补全，禁止用反馈倒推。没有唯一依据则保持未决。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-02",
+  "scope": "independent maintenance backup fix; local synthetic verification only",
+  "authority": {
+    "local": "web/deploy/backup.mjs",
+    "remote": "/opt/wenheng/releases/20261029-home-apk-download-01/deploy/backup.mjs",
+    "sha256": "b6f4fda839b783886ee0b2ebcdb2123ccca12c8081ae0775e2ed2bbaa008902b"
+  },
+  "frozenFiles": {
+    "backup.mjs": "3410698bb9d03c4015e0020ebd4360093eae0b7c97655d1907f77d55e17c1900",
+    "backup-support.mjs": "a8b65721239a3bf1cdd6a7b4ed249f3f28a5715f09936c04d51138d661e5c102",
+    "backup.test.mjs": "5d9d8b113ea928d94485848747892c2dc556f198036a58f53e4fe991b6613205"
+  },
+  "tests": {"passed": 9, "failed": 0, "skipped": 0, "syntheticKeysOnly": true},
+  "syntax": {"backup.mjs": "pass", "backup-support.mjs": "pass"},
+  "lastObservedBackup": {
+    "logUtc": "2026-11-01T13:33:07.651006Z",
+    "path": "/var/backups/wenheng/wenheng-2026-11-01T13-33-07.526Z.whb",
+    "bytes": 124588917,
+    "mode": "0600",
+    "header": "WHB1",
+    "restoredThisReview": false
+  },
+  "limitsUnchanged": {"commandOutputBytes": 134217728, "extractedAssetBytes": 536870912},
+  "readOnlyMeasurements": {
+    "legacyResourcesBytes": 21835592,
+    "currentResourceBytes": 154289684,
+    "candidateResourceBytes": 161409626,
+    "avatarBytes": 9518,
+    "uploadBytes": 68437,
+    "uploadIsSymlink": false,
+    "currentAndCandidateResourceSymlinksFound": 0
+  },
+  "productionWritesByB": false,
+  "candidateWritesByB": false,
+  "paidApiCalls": 0,
+  "realBackupAndRestore": "pending parent installation and execution"
+}

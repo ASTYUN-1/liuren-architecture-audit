@@ -1,0 +1,538 @@
+{
+  "release_inspected": "20261105-liqi-led-02",
+  "status": "设计稿，未启用",
+  "principle": "先调整职责、调用时机和单一维护位置；保留现有模块ID与文件路径，不为外观搬目录",
+  "modules": [
+    {
+      "id": "daliuren-paipan",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/daliuren-paipan.md",
+      "proposed_group": "核题核盘",
+      "call_timing": "核题后、采用相应数据前",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "提供可靠课盘、已核年命；不预判吉凶",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "nianming",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/nianming.md",
+      "proposed_group": "核题核盘",
+      "call_timing": "核题后、采用相应数据前",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "提供可靠课盘、已核年命；不预判吉凶",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "class-mapping",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/class-mapping.md",
+      "proposed_group": "取用与定侧重",
+      "call_timing": "初观课势后与对应占类共同使用",
+      "change": "保留取用入口，削弱机械九系统遍历倾向",
+      "responsibility": "九系统用于有依据的候选；本问已有主取后不为齐全而制造全部人物和对象",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "positioning",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/positioning.md",
+      "proposed_group": "取用与定侧重",
+      "call_timing": "初观课势后与对应占类共同使用",
+      "change": "侧重选择与返查的唯一维护位置",
+      "responsibility": "明确选择侧重的理由；占类差异由专项给出，不在多处重复颁布全局顺序",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "relations",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/relations.md",
+      "proposed_group": "贯穿主线的方法",
+      "call_timing": "随关键节点连续使用，部分方法按条件触发",
+      "change": "放在取用后，并随节点复用",
+      "responsibility": "负责坐标与关系事实；关系存在和作用得力分开，不独立给终局",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "liqi",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/liqi.md",
+      "proposed_group": "贯穿主线的方法",
+      "call_timing": "随关键节点连续使用，部分方法按条件触发",
+      "change": "从前置成败裁判改为全程准则",
+      "responsibility": "维护气态、作用、制救等共同判断准则；不把尚未察类的课体背景先冻结为结果",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "void",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/void.md",
+      "proposed_group": "贯穿主线的方法",
+      "call_timing": "随关键节点连续使用，部分方法按条件触发",
+      "change": "嵌入类神及结构的真伪审查",
+      "responsibility": "分空亡事实、作用、实现与应期；不同来源分支不能顺次自动执行",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "structure",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/structure.md",
+      "proposed_group": "贯穿主线的方法",
+      "call_timing": "随关键节点连续使用，部分方法按条件触发",
+      "change": "分初观与深核两次用途，同一模块复用",
+      "responsibility": "初观课势不先终判；选中切题结构后核组成关系、占类宜忌和变质",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "movement",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/movement.md",
+      "proposed_group": "贯穿主线的方法",
+      "call_timing": "随关键节点连续使用，部分方法按条件触发",
+      "change": "从固定后置深化移到相关作用链旁",
+      "responsibility": "关键作用涉及引动、直接阴神、年命时即时核；无新争点不无限扩层",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shenjiang-use",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/shenjiang-use.md",
+      "proposed_group": "贯穿主线的方法",
+      "call_timing": "随关键节点连续使用，部分方法按条件触发",
+      "change": "从结论后的描述工具前移到取用和察类",
+      "responsibility": "神将职能及有条件互换可以帮助定对象与辨事；本家映射不改真实课盘坐标和气态",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "bashajiubao",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/bashajiubao.md",
+      "proposed_group": "综合核查与定点复审",
+      "call_timing": "基础核查保留；相关项发现时立即参与，收束前再查漏",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "risk不设速断捷径；季煞等仍按原触发条件；未采用神煞不进入风险",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "engine-shensha-output",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/engine-shensha-output.md",
+      "proposed_group": "综合核查与定点复审",
+      "call_timing": "基础核查保留；相关项发现时立即参与，收束前再查漏",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "risk不设速断捷径；季煞等仍按原触发条件；未采用神煞不进入风险",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-focus",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-focus.md",
+      "proposed_group": "综合核查与定点复审",
+      "call_timing": "基础核查保留；相关项发现时立即参与，收束前再查漏",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "risk不设速断捷径；季煞等仍按原触发条件；未采用神煞不进入风险",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-use",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-use.md",
+      "proposed_group": "综合核查与定点复审",
+      "call_timing": "基础核查保留；相关项发现时立即参与，收束前再查漏",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "risk不设速断捷径；季煞等仍按原触发条件；未采用神煞不进入风险",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "risk",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/details/risk.md",
+      "proposed_group": "综合核查与定点复审",
+      "call_timing": "基础核查保留；相关项发现时立即参与，收束前再查漏",
+      "change": "从凶象速断出口改为相关节点复审",
+      "responsibility": "核凶象的对象、位置、状态、有效制救和结论范围；不因命中凶名跳过全课",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-tradition",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/details/shensha-tradition.md",
+      "proposed_group": "综合核查与定点复审",
+      "call_timing": "基础核查保留；相关项发现时立即参与，收束前再查漏",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "risk不设速断捷径；季煞等仍按原触发条件；未采用神煞不进入风险",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "adjudication",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/adjudication.md",
+      "proposed_group": "收束、应期与取数",
+      "call_timing": "主要作用辨清后收束；时间与数量按原问触发",
+      "change": "从吉凶调制改为反证与分歧收束",
+      "responsibility": "保留原书神将组合方法供有条件引用；取消无条件四象限缩放作为候选改动，不删除原文",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "timing",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/timing.md",
+      "proposed_group": "收束、应期与取数",
+      "call_timing": "主要作用辨清后收束；时间与数量按原问触发",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "裁决处理争点与净作用；不以将名四象限统一乘算；应期取数可因主判修订回查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "quantity",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/quantity.md",
+      "proposed_group": "收束、应期与取数",
+      "call_timing": "主要作用辨清后收束；时间与数量按原问触发",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "裁决处理争点与净作用；不以将名四象限统一乘算；应期取数可因主判修订回查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "evidence",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/evidence.md",
+      "proposed_group": "参照与交付",
+      "call_timing": "相关方法原文可在争点处早查；两路案例经验在盘面初判后；报告最后",
+      "change": "拆清方法原文回查与类案检索时机",
+      "responsibility": "原法不明可即时查原段；类案和经验仍分别在盘面初判后复核，不用反馈替本案定结果",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "report",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/report.md",
+      "proposed_group": "参照与交付",
+      "call_timing": "相关方法原文可在争点处早查；两路案例经验在盘面初判后；报告最后",
+      "change": "移出思维控制，负责最终交付覆盖",
+      "responsibility": "完整判断原文保留；十一项覆盖映射内部使用，同一依据不在多个环节反复抄写",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "finance",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/finance.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "recruitment",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/recruitment.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "promotion-salary",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/promotion-salary.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "relationship",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/relationship.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "interpersonal",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/interpersonal.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "pregnancy",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/pregnancy.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "exam",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/exam.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "illness",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/illness.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "lost-person-object",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/lost-person-object.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "classical-conflict",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/classical-conflict.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "home",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/home.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "travel",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/travel.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "weather",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/weather.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "agriculture",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/agriculture.md",
+      "proposed_group": "单事专项",
+      "call_timing": "明占类即进入，贯穿该问",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不是末尾附录；提供本问取用、宜忌、重要关系和专法；各专项完整性仍待逐条审查",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "period-outlook",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/period-outlook.md",
+      "proposed_group": "泛占与长期专项",
+      "call_timing": "原问确属阶段或长期时分流",
+      "change": "单独的阶段泛占分支",
+      "responsibility": "各维依对应对象判断，背景影响须说明作用；取消安全凶象使所有维度无条件打折的候选规则",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "long-period",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/domains/long-period.md",
+      "proposed_group": "泛占与长期专项",
+      "call_timing": "原问确属阶段或长期时分流",
+      "change": "与阶段泛占、出生推命分开",
+      "responsibility": "时间范围及专法逐条核实；不能默认每限都经过将名四象限乘算",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "bifa",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/bifa.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "blade-methods",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/blade-methods.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "case-retrieval-v2",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/case-retrieval-v2.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "daliuren-shensha",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/daliuren-shensha.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "experience-retrieval-v2",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/experience-retrieval-v2.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "keti-quanbiao",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/keti-quanbiao.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "kundun",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/kundun.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "liqi-examples",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/liqi-examples.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "liqi-sources",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/liqi-sources.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "统一维护具体来源口径",
+      "responsibility": "当前对《笔记》的全局优先条款需随用户北海优先研究方向协调；原法出处与选用口径分开记录",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "rule-semantics",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/rule-semantics.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-engine-index",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-engine-index.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-field-meanings",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-field-meanings.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-meaning-sources",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-meaning-sources.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-meanings",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-meanings.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-other-meanings",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-other-meanings.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shensha-sources",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shensha-sources.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "quantity-sources",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/quantity-sources.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "shen-symbols",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/shen-symbols.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "jiang-symbols",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/jiang-symbols.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "mapping-provenance",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/mapping-provenance.md",
+      "proposed_group": "方法与来源参考库",
+      "call_timing": "遇到该规则、象义、起法或来源争点时定点回查",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "参考身份不等于禁止参与判断；通用解释集中维护，专项只存差异；不要求每课读全库",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "beihai-extend-sop",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/references/beihai-extend-sop.md",
+      "proposed_group": "维护与可选审计",
+      "call_timing": "维护任务或显式结构化审计",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不成为普通断课前置门禁",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    },
+    {
+      "id": "workflow-contract",
+      "current_file": "runtime/liuren/20261105-liqi-led-02/methods/workflow-contract.md",
+      "proposed_group": "维护与可选审计",
+      "call_timing": "维护任务或显式结构化审计",
+      "change": "按职责归组，保留ID与路径",
+      "responsibility": "不成为普通断课前置门禁",
+      "status": "候选位置设计；未修改活动规则，未完成逐条语义验收"
+    }
+  ]
+}

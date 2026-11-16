@@ -1,0 +1,16 @@
+[
+  {
+    "name": "before",
+    "script": "\\\\?\\C:\\Users\\QLMa_\\Documents\\六壬八字测算\\output\\本机直接排盘路径修复-20261030\\before-cli.mjs",
+    "code": 0,
+    "stdout_bytes": 0,
+    "stderr": ""
+  },
+  {
+    "name": "after",
+    "script": "\\\\?\\C:\\Users\\QLMa_\\Documents\\六壬八字测算\\tools\\liuren-direct.mjs",
+    "code": 0,
+    "stdout_bytes": 281,
+    "stderr": ""
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "release": "20261106-deterministic-foundation-09",
+  "parent": "20261106-workflow-boundaries-08",
+  "scope": "local-opencode",
+  "sourceFactsRetained": true,
+  "engineAlgorithmModified": false,
+  "libraryExperimentChanged": false,
+  "fixedBookEvidenceRetained": true,
+  "independentPredictiveValidationCount": 0
+}

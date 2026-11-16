@@ -1,0 +1,219 @@
+{
+  "schema": "staged-chart-batch-v1",
+  "run_input_sha256": "7f7526ee8548fc0427968a6d22f8775b4f605a4bce9fb498ff5f9267fa74ab38",
+  "source_directory": "C:\\Users\\QLMa_\\WorkBuddy\\2026-10-18-12-01-33\\qq_homework\\batch_20261019\\stage1_ready_v1\\cases",
+  "engine_root": "C:\\Users\\QLMa_\\Documents\\大六壬研判工作流",
+  "policy": {
+    "calendar": "gregorian",
+    "timezone": "Asia/Shanghai",
+    "time_basis": "civil",
+    "ordinary_method": "datetime",
+    "settings": {
+      "yuejiang": "中气换将",
+      "guiren": "甲戊庚牛羊",
+      "zhouye": "自动选择",
+      "shehai": "孟仲季"
+    }
+  },
+  "total": 32,
+  "analysis_usable": 24,
+  "counts": {
+    "needs_resolution": 5,
+    "generated_under_recorded_assumptions": 24,
+    "chart_validation_blocked": 3
+  },
+  "files": [
+    {
+      "case_id": "raw-qqwb20261019-0001",
+      "file": "raw-qqwb20261019-0001.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0002",
+      "file": "raw-qqwb20261019-0002.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0003",
+      "file": "raw-qqwb20261019-0003.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0004",
+      "file": "raw-qqwb20261019-0004.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0005",
+      "file": "raw-qqwb20261019-0005.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0006",
+      "file": "raw-qqwb20261019-0006.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0007",
+      "file": "raw-qqwb20261019-0007.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0008",
+      "file": "raw-qqwb20261019-0008.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0009",
+      "file": "raw-qqwb20261019-0009.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0010",
+      "file": "raw-qqwb20261019-0010.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0011",
+      "file": "raw-qqwb20261019-0011.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0012",
+      "file": "raw-qqwb20261019-0012.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0013",
+      "file": "raw-qqwb20261019-0013.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0014",
+      "file": "raw-qqwb20261019-0014.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0015",
+      "file": "raw-qqwb20261019-0015.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0016",
+      "file": "raw-qqwb20261019-0016.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0017",
+      "file": "raw-qqwb20261019-0017.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0018",
+      "file": "raw-qqwb20261019-0018.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0019",
+      "file": "raw-qqwb20261019-0019.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0020",
+      "file": "raw-qqwb20261019-0020.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0021",
+      "file": "raw-qqwb20261019-0021.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0022",
+      "file": "raw-qqwb20261019-0022.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0023",
+      "file": "raw-qqwb20261019-0023.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0024",
+      "file": "raw-qqwb20261019-0024.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0025",
+      "file": "raw-qqwb20261019-0025.json",
+      "status": "needs_resolution",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0026",
+      "file": "raw-qqwb20261019-0026.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0027",
+      "file": "raw-qqwb20261019-0027.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0028",
+      "file": "raw-qqwb20261019-0028.json",
+      "status": "chart_validation_blocked",
+      "usable_for_batch_analysis": false
+    },
+    {
+      "case_id": "raw-qqwb20261019-0029",
+      "file": "raw-qqwb20261019-0029.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0030",
+      "file": "raw-qqwb20261019-0030.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0031",
+      "file": "raw-qqwb20261019-0031.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    },
+    {
+      "case_id": "raw-qqwb20261019-0032",
+      "file": "raw-qqwb20261019-0032.json",
+      "status": "generated_under_recorded_assumptions",
+      "usable_for_batch_analysis": true
+    }
+  ]
+}

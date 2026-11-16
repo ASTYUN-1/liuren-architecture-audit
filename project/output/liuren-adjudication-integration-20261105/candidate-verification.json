@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "phase": "candidate",
+  "release": "20261105-adjudication-01",
+  "methodVersion": "56deba0ca86415f0425dbe64c27bddad6d37a277bf4959f8c8b9d44193985576",
+  "packageFiles": 87,
+  "modulesRead": 59,
+  "required": 14,
+  "domains": 16,
+  "domainPlansChecked": 64,
+  "conditionalCombinationsChecked": 8192,
+  "sourcePassagesChecked": 34,
+  "skillsManuallyChecked": [
+    "daliuren",
+    "liuren-cases",
+    "liuren-extract"
+  ],
+  "oldRuntimeUnchanged": true,
+  "calculationPolicyUnchanged": true,
+  "configDiffScopeChecked": true,
+  "quickValidate": "not run successfully: both existing Python runtimes lack PyYAML; native discovery checked separately",
+  "modelCalls": 0,
+  "predictiveValidationCount": 0
+}

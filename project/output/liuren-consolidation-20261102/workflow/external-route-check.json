@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "tools": [
+    {
+      "path": "tools/batch-case-charts.mjs",
+      "sha256": "84bc5b989cb4c7d1fe75bd7621af9b2057eb38ee2bfe0884f53219cdc17a39a1",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": false
+    },
+    {
+      "path": "tools/generate-current-case-charts.mjs",
+      "sha256": "62d2138c3a34841b91ff9716224ef7da269d46fa0d2c88aa2fef12d10aead665",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": false
+    },
+    {
+      "path": "tools/repair-qqwb20261019-charts.mjs",
+      "sha256": "9918a65442b434ecc39a86cf120f4651fcdc99ad636c7d4e8af8ff5c77b22b99",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": false
+    },
+    {
+      "path": "tools/package-qqwb20261019-repaired.py",
+      "sha256": "38754f5ee0d2179e5abce67784e8a8cd019cdc89d3b9ef039d35e9668d2c07b0",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": false
+    },
+    {
+      "path": "tools/separate-qqwb20261019.py",
+      "sha256": "33e2b2cf31cd5f0bf923ea978a8bdc77be6055eb53739a3c657e08fde2ac6f39",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": false
+    },
+    {
+      "path": "tools/qqwb20261019-reviewed-images.py",
+      "sha256": "6b7b521941ebec63d709b8e5f7ce5b3a9ceabcbd10f9ccac1e45a277353bd778",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": false
+    },
+    {
+      "path": "tools/verify-qqwb20261019-repaired.py",
+      "sha256": "047bd5fcfd7d5c9888a641d77430f8b3a9acafc76c7f13b226d1bb2b2f5c57ca",
+      "local_default": true,
+      "external_fallback": false,
+      "historical_source_prefix_only": true
+    }
+  ],
+  "historical_prefix_resolution": "C:\\Users\\QLMa_\\Documents\\六壬八字测算\\资料来源\\qq-homework-20261018\\batch_20261019\\raw\\records.jsonl",
+  "prefix_target_present": true,
+  "no_source_fallback": "All defaults directly read/import project-local paths; missing copies produce native FileNotFound/ERR_MODULE_NOT_FOUND errors.",
+  "copy_manifest": "output/liuren-consolidation-20261102/layout/external-copy-manifest.json",
+  "copy_manifest_sha256": "74c9221a553236cb5655d1d9cbeb3295faa2680964f79fe03e3db7c32e86665c"
+}

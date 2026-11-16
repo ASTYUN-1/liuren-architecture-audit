@@ -1,0 +1,79 @@
+{
+  "baseline": "20261106-handoff-chain-20",
+  "originalSessionUnchanged": true,
+  "results": [
+    {
+      "case": "original duplicate IDs",
+      "rejected": true,
+      "issues": [
+        {
+          "path": "/packet/focus_issues/0/id",
+          "code": "duplicate_id",
+          "received": "F01",
+          "conflicts_with": "/packet/facts/0/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/1/id",
+          "code": "duplicate_id",
+          "received": "F02",
+          "conflicts_with": "/packet/facts/1/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/2/id",
+          "code": "duplicate_id",
+          "received": "F03",
+          "conflicts_with": "/packet/facts/2/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/3/id",
+          "code": "duplicate_id",
+          "received": "F04",
+          "conflicts_with": "/packet/facts/3/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/4/id",
+          "code": "duplicate_id",
+          "received": "F05",
+          "conflicts_with": "/packet/facts/4/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/5/id",
+          "code": "duplicate_id",
+          "received": "F06",
+          "conflicts_with": "/packet/facts/5/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/6/id",
+          "code": "duplicate_id",
+          "received": "F07",
+          "conflicts_with": "/packet/facts/6/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        },
+        {
+          "path": "/packet/focus_issues/7/id",
+          "code": "duplicate_id",
+          "received": "F08",
+          "conflicts_with": "/packet/facts/7/id",
+          "message": "所有数组的id全局唯一：questions用Q_、facts用F_、entities用S_、observations用O_、method_materials保留工具handoff的M_/B_、focus_issues用I_；不要把事实和争点都编号F01。E数字和D_留给程序。"
+        }
+      ]
+    },
+    {
+      "case": "only namespace correction",
+      "accepted": true,
+      "observationCount": 30,
+      "shenshaObservations": 4,
+      "observationsByteEquivalent": true,
+      "questionsByteEquivalent": true,
+      "requestSha256": "1272861eb3d0700b67253effbace49b2cef40652ab3addc6cd8fee356f27d768",
+      "nextCall": "task",
+      "dispatched": false
+    }
+  ]
+}

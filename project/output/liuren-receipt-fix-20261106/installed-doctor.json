@@ -1,0 +1,2475 @@
+{
+  "schema": "liuren-workflow-doctor-v1",
+  "ok": false,
+  "checks": {
+    "shensha_policy": {
+      "release": "20261106-receipt-handoff-13",
+      "rules": 38
+    },
+    "runtime": {
+      "release": "20261106-receipt-handoff-13",
+      "method_version": "def8e21b7bd3d43cc03f72ab5cafa2e0e1d288a99407c670aca9105aae87b947",
+      "files": 99,
+      "modules": 59,
+      "groups": [
+        "liuren"
+      ]
+    },
+    "data_roots": {
+      "案例项目库": true,
+      "经验日志": true,
+      "书籍库": true,
+      "books": true,
+      "knowledge": true,
+      "资料来源/qq-homework-20261018": true,
+      "materials/vendor/liuren-chart-legacy-20261102": true
+    },
+    "vendor_engine_files": 8,
+    "system": {
+      "python": "3.13.15",
+      "python_executable": "C:\\Program Files\\Python313\\python.exe",
+      "node_executable": "C:\\Users\\QLMa_\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE"
+    },
+    "program_chart": {
+      "ok": true,
+      "pillars": [
+        "丙午",
+        "乙未",
+        "庚戌",
+        "癸未"
+      ],
+      "heaven_earth": 12,
+      "shensha_release": "20261106-receipt-handoff-13"
+    },
+    "research": {
+      "record_count": 730,
+      "eligible_count": 645,
+      "mechanical_valid": false,
+      "explicit_rule_family_count": 65,
+      "semantic_validation": "external_review_declaration_only",
+      "independent_validation_count": 0,
+      "complete": false,
+      "present": true,
+      "overlayFingerprint": "aaf91ad9a2a838ddf2d7ce7ae2ea7eca17c760ce939c530e844b74003f5b85ac"
+    },
+    "research_issues": [
+      {
+        "id": "LR26-BOOK-BIFA-001",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-001"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-002",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-001"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-003",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-002"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-010",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-003"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-011",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-004"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-013",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-005"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-015",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-006",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1040-L1058"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-016",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-006"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-015",
+            "type": "合并候选",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-BOOK-BIFA-021",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-010"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/校勘记录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-022",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-011"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-026",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-012",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1636-L1642",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1740-L1744",
+          "案例ID未注册:BK26-BIFA-017",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1644-L1654",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1734-L1738"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-027",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-012",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1493-L1495",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1636-L1642",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1740-L1744"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-029",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-017",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1734-L1738"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-030",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-015"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-031",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-012",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1493-L1495",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1740-L1744"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-032",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-012",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1493-L1495",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1636-L1642",
+          "案例ID未注册:BK26-BIFA-017",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1644-L1654"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-033",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-026"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-034",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-018"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-037",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-019",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L1886-L1923"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-038",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-019"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-043",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-020",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2057-L2067",
+          "案例ID未注册:BK26-BIFA-021"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-044",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-020"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-045",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-021"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-047",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-025",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2250-L2256"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-048",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-025"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-043",
+            "type": "合并候选",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-BOOK-BIFA-049",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-026"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-051",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-029"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-053",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-031",
+          "案例ID未注册:BK26-BIFA-032"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-062",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-037"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-066",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-038"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-068",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-039"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-070",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-040"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-076",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-048"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-079",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-051"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-081",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-052"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-083",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-054"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-085",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-056"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-087",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-057"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-090",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-061",
+          "案例ID未注册:BK26-BIFA-062"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-093",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-069"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-094",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-070"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-096",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-074"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-098",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-077"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-100",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-081"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-102",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-085"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-103",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-037",
+          "案例ID未注册:book:书籍库/北海闲人/毕法赋全解-正式整理本.md:L2762-L2778"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-109",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-091"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-110",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-093"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-113",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-095"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-029",
+            "type": "合并候选",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-BOOK-BIFA-115",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-097"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-116",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-096"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-120",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-100"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-122",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-102"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-123",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-103"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-125",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-107"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-127",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-110",
+          "案例ID未注册:BK26-BIFA-112"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-128",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-114",
+          "案例ID未注册:BK26-BIFA-117"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-131",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-119"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-132",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-120"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-029",
+            "type": "合并候选",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-BOOK-BIFA-133",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-121"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-135",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-125",
+          "案例ID未注册:BK26-BIFA-126"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-013",
+            "type": "合并候选",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-BOOK-BIFA-137",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-129"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-138",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-130"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-BOOK-BIFA-139",
+        "record_file": "knowledge/liuren-research/20261102/rules/book-bifa.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-BIFA-131"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "课程写作/整理本/毕法赋全解/原始资料/毕法赋全解DeepSeek转录.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-015",
+            "type": "合并候选",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-LEGACY-BIFA-001",
+        "record_file": "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-BOOK-BIFA-013,LR26-BOOK-BIFA-135"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-LEGACY-BIFA-002",
+        "record_file": "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-BOOK-BIFA-001,LR26-BOOK-BIFA-002"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-LEGACY-BIFA-004",
+        "record_file": "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-BOOK-BIFA-068"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-LEGACY-BIFA-005",
+        "record_file": "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-BOOK-BIFA-096"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-LEGACY-BIFA-006",
+        "record_file": "knowledge/liuren-research/20261102/rules/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-BOOK-BIFA-010,LR26-BOOK-BIFA-011"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-007-COMPETE",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-007",
+          "案例ID未注册:BK26-MODERN-007"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-007-ALT",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-007"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-007-RANK",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-007"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-025-FIND",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-025"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-025-ALT",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-025",
+          "案例ID未注册:BK26-MODERN-025"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-027-ALT",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-027"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-027-MAIN",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-027",
+          "案例ID未注册:BK26-MODERN-027"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-028-OFFER",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-028",
+          "案例ID未注册:BK26-MODERN-028"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102A-028-ROLE",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-a.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-028"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LR26-M102C-098-PAIN",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-c.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-098"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-081",
+            "type": "条件分支",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LR26-M102C-099-DOG",
+        "record_file": "knowledge/liuren-research/20261102/rules/modern-102-c.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "案例ID未注册:BK26-MODERN-099"
+        ],
+        "evidence_checks": [
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/当代壬占汇选第五版.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [],
+        "target_case_paths": [],
+        "related_status_notes": [
+          {
+            "target_id": "LR26-BOOK-BIFA-034",
+            "type": "条件分支",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          },
+          {
+            "target_id": "LR26-BOOK-BIFA-098",
+            "type": "条件分支",
+            "state": "blocked",
+            "review_state": "source_checked",
+            "note": "非依赖关联保留其自身身份，不据此断言本卡失效或方法已验证"
+          }
+        ]
+      },
+      {
+        "id": "LA26-LEGACY-BIFA-001",
+        "record_file": "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-LEGACY-BIFA-001"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [
+          "B0303"
+        ],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LA26-LEGACY-BIFA-002",
+        "record_file": "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-LEGACY-BIFA-002"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [
+          "B0303"
+        ],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LA26-LEGACY-BIFA-004",
+        "record_file": "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-LEGACY-BIFA-004"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [
+          "B0303"
+        ],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LA26-LEGACY-BIFA-005",
+        "record_file": "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-LEGACY-BIFA-005"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [
+          "B0303"
+        ],
+        "target_case_paths": [],
+        "related_status_notes": []
+      },
+      {
+        "id": "LA26-LEGACY-BIFA-006",
+        "record_file": "knowledge/liuren-research/20261102/audits/legacy-bifa-continuation.json",
+        "semantic_review_state": "source_checked",
+        "mechanical_state": "blocked",
+        "eligible_for_search": false,
+        "errors": [
+          "关联记录失效:LR26-LEGACY-BIFA-006"
+        ],
+        "evidence_checks": [
+          {
+            "path": "经验日志/古籍-壬占汇选.md",
+            "errors": []
+          },
+          {
+            "path": "书籍库/现代著作/《壬占汇选》.txt",
+            "errors": []
+          },
+          {
+            "path": "书籍库/北海闲人/毕法赋全解-正式整理本.md",
+            "errors": []
+          }
+        ],
+        "target_entry_ids": [
+          "B0303"
+        ],
+        "target_case_paths": [],
+        "related_status_notes": []
+      }
+    ]
+  },
+  "errors": [
+    "research mechanical validation has gaps"
+  ],
+  "model_calls": 0,
+  "services_started": 0,
+  "semantic_correctness": "unverified",
+  "predictive_accuracy": "unverified"
+}

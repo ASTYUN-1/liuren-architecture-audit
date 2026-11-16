@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "context": {
+    "release": "20261105-adjudication-01",
+    "methodVersion": "56deba0ca86415f0425dbe64c27bddad6d37a277bf4959f8c8b9d44193985576",
+    "overlayFingerprint": "aaf91ad9a2a838ddf2d7ce7ae2ea7eca17c760ce939c530e844b74003f5b85ac"
+  },
+  "caseCandidates": 3,
+  "experienceCandidates": 3,
+  "timing": {
+    "cases_seconds": 17.04061139999976,
+    "experience_seconds": 11.482718500003102,
+    "wall_seconds": 17.04330309999932
+  },
+  "validates": "transport identity only; candidates not adopted as professional evidence",
+  "modelCalls": 0
+}

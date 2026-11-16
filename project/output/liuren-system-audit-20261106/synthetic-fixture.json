@@ -1,0 +1,823 @@
+{
+  "question": "电脑维修能否完成？何时修好？费用多少？",
+  "packet": {
+    "schema": "liuren-adjudication-input-v2",
+    "request_id": "20261106-synthetic-chain",
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "合成接口问题",
+        "domain": "finance",
+        "subject": "测试对象",
+        "stage": "测试",
+        "deadline": "未限定",
+        "success_criteria": "只检查接口",
+        "alternatives": [],
+        "tasks": [
+          "outcome",
+          "timing",
+          "quantity"
+        ],
+        "task_basis": [
+          {
+            "task": "outcome",
+            "origin": "user_requested",
+            "request_quote": "能否完成",
+            "reason": "合成原问明确要求"
+          },
+          {
+            "task": "timing",
+            "origin": "user_requested",
+            "request_quote": "何时修好",
+            "reason": "合成原问明确要求"
+          },
+          {
+            "task": "quantity",
+            "origin": "user_requested",
+            "request_quote": "费用多少",
+            "reason": "合成原问明确要求"
+          }
+        ]
+      }
+    ],
+    "chart": {
+      "source": "Synthetic local integration fixture, no prediction",
+      "facts": {
+        "schema": "liuren-chart-facts-v1",
+        "pillars": [
+          "丙午",
+          "戊戌",
+          "乙丑",
+          "癸未"
+        ],
+        "year_pillar": "丙午",
+        "month_pillar": "戊戌",
+        "day_pillar": "乙丑",
+        "hour_pillar": "癸未",
+        "day_stem": "乙",
+        "day_branch": "丑",
+        "month_branch": "戌",
+        "hour_branch": "未",
+        "month_general": "辰",
+        "void_branches": [
+          "戌",
+          "亥"
+        ],
+        "xun": "甲子",
+        "event_datetime": "2026-10-18T13:22:00+08:00",
+        "lunar": {
+          "y": "二〇二六",
+          "m": "九月",
+          "d": "初九"
+        },
+        "heaven_earth": [
+          {
+            "di": "子",
+            "tian": "酉",
+            "tianjiang": "玄武",
+            "shensha": [
+              "戏神",
+              "金神",
+              "天坑",
+              "月害",
+              "游祸",
+              "阴煞",
+              "天咒",
+              "天鬼",
+              "长绳",
+              "天吏",
+              "日鬼",
+              "闭口",
+              "血支"
+            ],
+            "nayin": "剑锋金",
+            "xungan": "癸"
+          },
+          {
+            "di": "丑",
+            "tian": "戌",
+            "tianjiang": "太阴",
+            "shensha": [
+              "官符",
+              "天目",
+              "浴盆",
+              "门煞",
+              "黄幡",
+              "天怪",
+              "支刑",
+              "天马"
+            ],
+            "nayin": "无纳音",
+            "xungan": "空"
+          },
+          {
+            "di": "寅",
+            "tian": "亥",
+            "tianjiang": "天后",
+            "shensha": [
+              "岁宅",
+              "劫煞",
+              "游神",
+              "阴奸",
+              "阳煞",
+              "五鬼",
+              "天龙",
+              "天恩",
+              "皇恩",
+              "女灾",
+              "墓门",
+              "雷煞",
+              "天狱",
+              "奸私",
+              "劫杀",
+              "日医",
+              "天盗",
+              "日盗",
+              "驿马",
+              "支马",
+              "岁小耗",
+              "死符",
+              "孤辰",
+              "文星"
+            ],
+            "nayin": "无纳音",
+            "xungan": "空"
+          },
+          {
+            "di": "卯",
+            "tian": "子",
+            "tianjiang": "贵人",
+            "shensha": [
+              "大耗",
+              "岁破",
+              "灾煞",
+              "火鬼",
+              "天解",
+              "风伯",
+              "雨师",
+              "贵人",
+              "游都",
+              "支害",
+              "天医",
+              "旬仪",
+              "进神"
+            ],
+            "nayin": "海中金",
+            "xungan": "甲"
+          },
+          {
+            "di": "辰",
+            "tian": "丑",
+            "tianjiang": "腾蛇",
+            "shensha": [
+              "岁煞",
+              "岁墓",
+              "枉屈",
+              "泰神",
+              "小煞",
+              "天鸡",
+              "火烛煞",
+              "福星",
+              "金神",
+              "红沙",
+              "华盖",
+              "破碎",
+              "死神",
+              "旬奇",
+              "退神"
+            ],
+            "nayin": "海中金",
+            "xungan": "乙"
+          },
+          {
+            "di": "巳",
+            "tian": "寅",
+            "tianjiang": "朱雀",
+            "shensha": [
+              "岁虎",
+              "天刑",
+              "雷公",
+              "月官符",
+              "月厌",
+              "天狗",
+              "死气"
+            ],
+            "nayin": "炉中火",
+            "xungan": "丙"
+          },
+          {
+            "di": "午",
+            "tian": "卯",
+            "tianjiang": "六合",
+            "shensha": [
+              "将军",
+              "天盗",
+              "四废",
+              "悬索",
+              "月合",
+              "圣心",
+              "丁马",
+              "日禄",
+              "丧车"
+            ],
+            "nayin": "炉中火",
+            "xungan": "丁"
+          },
+          {
+            "di": "未",
+            "tian": "辰",
+            "tianjiang": "勾陈",
+            "shensha": [
+              "五墓",
+              "天耳",
+              "忧神",
+              "解神",
+              "飞符",
+              "支破",
+              "月天鼠小耗",
+              "天喜",
+              "月破",
+              "羊刃",
+              "吊客"
+            ],
+            "nayin": "大林木",
+            "xungan": "戊"
+          },
+          {
+            "di": "申",
+            "tian": "巳",
+            "tianjiang": "青龙",
+            "shensha": [
+              "返魂",
+              "信神",
+              "信煞",
+              "天德",
+              "月德",
+              "亡神",
+              "月亡神",
+              "仪神",
+              "成神",
+              "病符",
+              "血忌"
+            ],
+            "nayin": "大林木",
+            "xungan": "己"
+          },
+          {
+            "di": "酉",
+            "tian": "午",
+            "tianjiang": "天空",
+            "shensha": [
+              "岁刑",
+              "返魂",
+              "天书",
+              "大煞",
+              "天破",
+              "风煞",
+              "天贼",
+              "鲁都",
+              "太岁",
+              "支德",
+              "地医",
+              "桃花",
+              "咸池",
+              "进神"
+            ],
+            "nayin": "路旁土",
+            "xungan": "庚"
+          },
+          {
+            "di": "戌",
+            "tian": "未",
+            "tianjiang": "白虎",
+            "shensha": [
+              "迷惑煞",
+              "天车",
+              "三丘",
+              "关神",
+              "管神",
+              "月刑",
+              "相负",
+              "丧魄",
+              "天诏",
+              "游魂",
+              "支冲",
+              "晴朗煞",
+              "寡宿",
+              "退神"
+            ],
+            "nayin": "路旁土",
+            "xungan": "辛"
+          },
+          {
+            "di": "亥",
+            "tian": "申",
+            "tianjiang": "太常",
+            "shensha": [
+              "时盗",
+              "奸神",
+              "丝麻煞",
+              "天赦",
+              "皇书",
+              "天财",
+              "天贼",
+              "奸门",
+              "天解",
+              "日官",
+              "支亡",
+              "日亡神",
+              "帘幕",
+              "生气",
+              "日德",
+              "干德",
+              "血光",
+              "丧门"
+            ],
+            "nayin": "剑锋金",
+            "xungan": "壬"
+          }
+        ],
+        "lessons": [
+          {
+            "index": 1,
+            "name": "第一课",
+            "tianjiang": "腾蛇",
+            "tianpan": "丑",
+            "dizhi": "乙"
+          },
+          {
+            "index": 2,
+            "name": "第二课",
+            "tianjiang": "太阴",
+            "tianpan": "戌",
+            "dizhi": "丑"
+          },
+          {
+            "index": 3,
+            "name": "第三课",
+            "tianjiang": "太阴",
+            "tianpan": "戌",
+            "dizhi": "丑"
+          },
+          {
+            "index": 4,
+            "name": "第四课",
+            "tianjiang": "白虎",
+            "tianpan": "未",
+            "dizhi": "戌"
+          }
+        ],
+        "transmissions": [
+          {
+            "index": 1,
+            "name": "初传",
+            "liuqin": "妻财",
+            "tianGan": "乙",
+            "diZhi": "丑",
+            "tianjiang": "腾蛇",
+            "status": "",
+            "earth_position": "辰"
+          },
+          {
+            "index": 2,
+            "name": "中传",
+            "liuqin": "妻财",
+            "tianGan": "空",
+            "diZhi": "戌",
+            "tianjiang": "太阴",
+            "status": "○",
+            "earth_position": "丑"
+          },
+          {
+            "index": 3,
+            "name": "末传",
+            "liuqin": "妻财",
+            "tianGan": "辛",
+            "diZhi": "未",
+            "tianjiang": "白虎",
+            "status": "⨀",
+            "earth_position": "戌"
+          }
+        ],
+        "transmission_sequence": "丑戌未",
+        "chart_types": [
+          "稼穑",
+          "赘婿",
+          "励德",
+          "游子",
+          "三丘",
+          "五墓"
+        ],
+        "participants": [],
+        "year_life_verified": false,
+        "declared_life": [],
+        "nobleman": {
+          "rule": "甲戊庚牛羊",
+          "requested_zhouye": "自动选择",
+          "actual_zhouye": "昼贵",
+          "heaven_branch": "子",
+          "earth_position": "卯",
+          "direction": "顺行",
+          "native_hour_label": "昼",
+          "native_direction_label": "顺行"
+        },
+        "growth": {
+          "day_stem": {
+            "长生": "午",
+            "沐浴": "巳",
+            "冠带": "辰",
+            "临官": "卯",
+            "帝旺": "寅",
+            "衰": "丑",
+            "病": "子",
+            "死": "亥",
+            "墓": "戌",
+            "绝": "酉",
+            "胎": "申",
+            "养": "未"
+          },
+          "branches": {
+            "子": {
+              "长生": "申",
+              "沐浴": "酉",
+              "冠带": "戌",
+              "临官": "亥",
+              "帝旺": "子",
+              "衰": "丑",
+              "病": "寅",
+              "死": "卯",
+              "墓": "辰",
+              "绝": "巳",
+              "胎": "午",
+              "养": "未"
+            },
+            "丑": {
+              "长生": "申",
+              "沐浴": "酉",
+              "冠带": "戌",
+              "临官": "亥",
+              "帝旺": "子",
+              "衰": "丑",
+              "病": "寅",
+              "死": "卯",
+              "墓": "辰",
+              "绝": "巳",
+              "胎": "午",
+              "养": "未"
+            },
+            "寅": {
+              "长生": "亥",
+              "沐浴": "子",
+              "冠带": "丑",
+              "临官": "寅",
+              "帝旺": "卯",
+              "衰": "辰",
+              "病": "巳",
+              "死": "午",
+              "墓": "未",
+              "绝": "申",
+              "胎": "酉",
+              "养": "戌"
+            },
+            "卯": {
+              "长生": "亥",
+              "沐浴": "子",
+              "冠带": "丑",
+              "临官": "寅",
+              "帝旺": "卯",
+              "衰": "辰",
+              "病": "巳",
+              "死": "午",
+              "墓": "未",
+              "绝": "申",
+              "胎": "酉",
+              "养": "戌"
+            },
+            "辰": {
+              "长生": "申",
+              "沐浴": "酉",
+              "冠带": "戌",
+              "临官": "亥",
+              "帝旺": "子",
+              "衰": "丑",
+              "病": "寅",
+              "死": "卯",
+              "墓": "辰",
+              "绝": "巳",
+              "胎": "午",
+              "养": "未"
+            },
+            "巳": {
+              "长生": "寅",
+              "沐浴": "卯",
+              "冠带": "辰",
+              "临官": "巳",
+              "帝旺": "午",
+              "衰": "未",
+              "病": "申",
+              "死": "酉",
+              "墓": "戌",
+              "绝": "亥",
+              "胎": "子",
+              "养": "丑"
+            },
+            "午": {
+              "长生": "寅",
+              "沐浴": "卯",
+              "冠带": "辰",
+              "临官": "巳",
+              "帝旺": "午",
+              "衰": "未",
+              "病": "申",
+              "死": "酉",
+              "墓": "戌",
+              "绝": "亥",
+              "胎": "子",
+              "养": "丑"
+            },
+            "未": {
+              "长生": "申",
+              "沐浴": "酉",
+              "冠带": "戌",
+              "临官": "亥",
+              "帝旺": "子",
+              "衰": "丑",
+              "病": "寅",
+              "死": "卯",
+              "墓": "辰",
+              "绝": "巳",
+              "胎": "午",
+              "养": "未"
+            },
+            "申": {
+              "长生": "巳",
+              "沐浴": "午",
+              "冠带": "未",
+              "临官": "申",
+              "帝旺": "酉",
+              "衰": "戌",
+              "病": "亥",
+              "死": "子",
+              "墓": "丑",
+              "绝": "寅",
+              "胎": "卯",
+              "养": "辰"
+            },
+            "酉": {
+              "长生": "巳",
+              "沐浴": "午",
+              "冠带": "未",
+              "临官": "申",
+              "帝旺": "酉",
+              "衰": "戌",
+              "病": "亥",
+              "死": "子",
+              "墓": "丑",
+              "绝": "寅",
+              "胎": "卯",
+              "养": "辰"
+            },
+            "戌": {
+              "长生": "申",
+              "沐浴": "酉",
+              "冠带": "戌",
+              "临官": "亥",
+              "帝旺": "子",
+              "衰": "丑",
+              "病": "寅",
+              "死": "卯",
+              "墓": "辰",
+              "绝": "巳",
+              "胎": "午",
+              "养": "未"
+            },
+            "亥": {
+              "长生": "申",
+              "沐浴": "酉",
+              "冠带": "戌",
+              "临官": "亥",
+              "帝旺": "子",
+              "衰": "丑",
+              "病": "寅",
+              "死": "卯",
+              "墓": "辰",
+              "绝": "巳",
+              "胎": "午",
+              "养": "未"
+            }
+          }
+        },
+        "seasonal_strength": [
+          "戌月秋占",
+          "相",
+          "囚",
+          "死",
+          "休",
+          "旺"
+        ]
+      }
+    },
+    "facts": [],
+    "entities": [
+      {
+        "id": "S1",
+        "question_ids": [
+          "Q1"
+        ],
+        "referent": "测试对象",
+        "branch": "丑",
+        "mapping_basis": "合成映射"
+      }
+    ],
+    "observations": [
+      {
+        "id": "O1",
+        "entity_ids": [
+          "S1"
+        ],
+        "kind": "relation",
+        "statement": "合成关系，未验证作用",
+        "reference": "S1自身",
+        "source": "合成盘",
+        "verification": "unverified"
+      }
+    ],
+    "method_materials": [],
+    "focus_issues": [
+      {
+        "id": "C1",
+        "question_ids": [
+          "Q1"
+        ],
+        "entity_ids": [
+          "S1"
+        ],
+        "observation_ids": [
+          "O1"
+        ],
+        "question": "该关系是否有效影响本问？"
+      }
+    ],
+    "unknowns": []
+  },
+  "result": {
+    "schema": "liuren-adjudication-output-v2",
+    "request_id": "20261106-synthetic-chain",
+    "status": "completed",
+    "scope_review": {
+      "question_ids": [
+        "Q1"
+      ],
+      "mapping_status": "confirmed",
+      "added_entity_ids": [],
+      "corrections": [],
+      "omission_check": "合成查漏记录，仅测字段"
+    },
+    "entity_checks": [
+      {
+        "id": "S1",
+        "referent": "测试对象",
+        "branch": "丑",
+        "mapping_review": "合成取用复核",
+        "limits": []
+      }
+    ],
+    "relation_checks": [
+      {
+        "id": "R1",
+        "from": "S1",
+        "to": "S1",
+        "relation": "合成关系",
+        "validity": "limited",
+        "basis_ids": [
+          "O1"
+        ],
+        "reason": "合成作用摘要，不构成专业规则",
+        "effect_scope": [
+          "接口测试"
+        ],
+        "application": {
+          "object": "合成对象",
+          "mechanism": "仅验接口",
+          "stage": "完成",
+          "goal_effect": "仅验结果传输",
+          "alternative_resolution": "不验证预测"
+        }
+      }
+    ],
+    "issue_resolutions": [
+      {
+        "issue_id": "C1",
+        "status": "resolved",
+        "relation_ids": [
+          "R1"
+        ],
+        "resolution": "合成取舍",
+        "limits": []
+      }
+    ],
+    "answers": [
+      {
+        "question_id": "Q1",
+        "verdict": "接口测试通过",
+        "precision": "direction",
+        "decisive_relation_ids": [
+          "R1"
+        ],
+        "counter_relation_ids": [],
+        "counter_resolution": "合成反证检查",
+        "process": "不适用",
+        "timing": "不适用",
+        "conditions": [],
+        "limits": []
+      }
+    ],
+    "source_conflicts": [],
+    "missing_inputs": [],
+    "calculations": [
+      {
+        "id": "C_date",
+        "action": "calendar",
+        "calendar": {
+          "start": "2026-11-03",
+          "end": "2026-11-03",
+          "timezone": "Asia/Shanghai",
+          "day_boundary": "civil-midnight"
+        }
+      },
+      {
+        "id": "C_amount",
+        "action": "quantity",
+        "expression": {
+          "op": "multiply",
+          "args": [
+            {
+              "value": 8
+            },
+            {
+              "value": 6
+            }
+          ]
+        }
+      }
+    ],
+    "special_methods": [
+      {
+        "question_id": "Q1",
+        "kind": "timing",
+        "status": "completed",
+        "target": "合成修复完成",
+        "basis_ids": [
+          "M_AUTO_TIMING"
+        ],
+        "calculation_ids": [
+          "C_date"
+        ],
+        "alternatives": [],
+        "limits": [],
+        "record": {
+          "event": "修复完成",
+          "stage": "终局",
+          "scale": "日",
+          "start": "合成占时",
+          "count_rule": "自然日",
+          "trigger": "合成触发",
+          "selected_method": "仅验接口",
+          "round_comparison": "单日范围",
+          "candidates": [
+            {
+              "date": "2026-11-03",
+              "day": "辛巳",
+              "event": "修复完成"
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "Q1",
+        "kind": "quantity",
+        "status": "completed",
+        "target": "合成费用",
+        "basis_ids": [
+          "M_AUTO_QUANTITY"
+        ],
+        "calculation_ids": [
+          "C_amount"
+        ],
+        "alternatives": [],
+        "limits": [],
+        "record": {
+          "object": "维修费用",
+          "position": "合成",
+          "number_table": "显式常量",
+          "operation": "8乘6",
+          "adjustments": "无",
+          "magnitude": "合成单位",
+          "unit": "元",
+          "precision": "仅验接口",
+          "value": 48
+        }
+      }
+    ]
+  }
+}

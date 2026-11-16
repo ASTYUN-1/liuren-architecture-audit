@@ -1,0 +1,59 @@
+[
+  {
+    "id": "LP26-1d97be1066480e238c88",
+    "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+    "line_start": 310,
+    "line_end": 453,
+    "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+    "outcome": "extracted",
+    "note": "逐字阅读31至45整案，15完整案6方法；46仅作比较上下文未计完成",
+    "linked_record_ids": [
+      "LR26-BOOK-SHAO-034",
+      "LR26-BOOK-SHAO-035",
+      "LR26-BOOK-SHAO-039",
+      "LR26-BOOK-SHAO-041",
+      "LR26-BOOK-SHAO-043",
+      "LR26-BOOK-SHAO-045"
+    ],
+    "declared_at": "2026-11-02T05:42:34.937382+00:00",
+    "supersedes": []
+  },
+  {
+    "id": "LP26-1a497c588a1ab967328d",
+    "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+    "line_start": 454,
+    "line_end": 612,
+    "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+    "outcome": "extracted",
+    "note": "逐案阅读全文46至60，15完整案6方法；61仅标题作边界",
+    "linked_record_ids": [
+      "LR26-BOOK-SHAO-046",
+      "LR26-BOOK-SHAO-048",
+      "LR26-BOOK-SHAO-049",
+      "LR26-BOOK-SHAO-050",
+      "LR26-BOOK-SHAO-055",
+      "LR26-BOOK-SHAO-058"
+    ],
+    "declared_at": "2026-11-02T05:45:47.091352+00:00",
+    "supersedes": []
+  },
+  {
+    "id": "LP26-eb1cb0e0a4d38f0caa3b",
+    "path": "书籍库/经典古籍/唐宋/六壬断案-宋-邵彦和.txt",
+    "line_start": 613,
+    "line_end": 769,
+    "sha256": "daaa8f3eb5a4d2b06c277b6373b45b4afa99210dc33067be48e9de831528b7af",
+    "outcome": "extracted",
+    "note": "逐案阅读全文61至75，15完整案6方法；76只作下一批上下文",
+    "linked_record_ids": [
+      "LR26-BOOK-SHAO-062",
+      "LR26-BOOK-SHAO-064",
+      "LR26-BOOK-SHAO-067",
+      "LR26-BOOK-SHAO-068",
+      "LR26-BOOK-SHAO-072",
+      "LR26-BOOK-SHAO-073"
+    ],
+    "declared_at": "2026-11-02T05:56:48.227668+00:00",
+    "supersedes": []
+  }
+]

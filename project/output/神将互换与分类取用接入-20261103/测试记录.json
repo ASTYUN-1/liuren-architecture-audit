@@ -1,0 +1,15 @@
+{
+  "tests": 35,
+  "passed": 34,
+  "skipped": [
+    {
+      "test": "test_symlink_cannot_expand_library_to_development_or_outside_project (tools.tests.test_liuren_material_scope.ScopeTests.test_symlink_cannot_expand_library_to_development_or_outside_project)",
+      "reason": "platform cannot create symlink: OSError"
+    }
+  ],
+  "failures": 0,
+  "errors": 0,
+  "ok": true,
+  "output": "..............s....................\n----------------------------------------------------------------------\nRan 35 tests in 1.197s\n\nOK (skipped=1)\n",
+  "prediction_validation": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "timeout",
+  "exitCode": 1,
+  "elapsedSeconds": 65.13,
+  "outputCapturedBytes": 25539,
+  "maxOutputBytes": 1048576,
+  "maxSeconds": 65,
+  "credentialFilesCopied": false,
+  "redactedFields": 0,
+  "payloadManifestSha256": "86738e80c4d8c53573078065c03f8185cf1cc935903dac175f25fa54a883aed0",
+  "provider": "conpera/gpt-6.1-sol",
+  "endpoint": "https://code.conpera.ai/v1",
+  "verdict": "requires actual trace review; not automatically passed"
+}

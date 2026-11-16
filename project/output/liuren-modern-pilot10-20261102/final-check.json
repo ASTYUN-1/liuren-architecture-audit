@@ -1,0 +1,174 @@
+{
+  "result": "PASS",
+  "scope": "E2固定十案及授权E1派生分类同步；没有全库语义复审或预测效果验证",
+  "case_ids": [
+    "BK26-MODERN-031",
+    "BK26-MODERN-042",
+    "BK26-MODERN-044",
+    "BK26-MODERN-073",
+    "BK26-MODERN-074",
+    "BK26-MODERN-075",
+    "BK26-MODERN-077",
+    "BK26-MODERN-082",
+    "BK26-MODERN-087",
+    "BK26-MODERN-096"
+  ],
+  "counts": {
+    "cases": 10,
+    "complete_cases": 10,
+    "author_phase_segments": 107,
+    "subjudgments": 156,
+    "new_source_method_cards": 31,
+    "reused_topic_groups": 6,
+    "new_comparison_families": 5,
+    "existing_rules_compared": 23,
+    "legacy_units_compared": 25,
+    "existing_families_compared": 4,
+    "existing_equivalent_merges": 0,
+    "deletions": 0,
+    "preserved_modern_reviews": 3,
+    "new_modern_reviews": 10
+  },
+  "current_overlay": {
+    "record_count": 492,
+    "eligible_count": 492,
+    "mechanical_valid": true,
+    "explicit_rule_family_count": 43,
+    "semantic_validation": "external_review_declaration_only",
+    "independent_validation_count": 0,
+    "complete": false,
+    "present": true
+  },
+  "evidence_checks": {
+    "exact_contiguous_refs": 782,
+    "unique_source_files": 1,
+    "selected_legacy_exact_units": 25,
+    "original_modern_case_register_unchanged": true,
+    "original_book_sha256": "dbc35765d7e92fc92b94febcffda00dfb563b99cea93fe851b2ea936b6b7da2e"
+  },
+  "e1_derived_sync": {
+    "result": "PASS",
+    "mapped_units": 1419,
+    "legacy_units": 958,
+    "rules": 461,
+    "new_e2_rule_ids_covered": 31,
+    "historical_e1_rules": 430,
+    "historical_e1_mapped_units": 1388,
+    "classification_semantics_changed": false
+  },
+  "retrieval": {
+    "actual_cli": "python -X utf8 tools/search-experience.py --query \"禅外流云 消化\" --limit 3 --json --out output/liuren-modern-pilot10-20261102/search-digestion.json",
+    "actual_cli_expected_rule_found": true,
+    "ten_case_queries": [
+      {
+        "case_id": "BK26-MODERN-031",
+        "query": "艺术家走失链",
+        "expected_rule_id": "LR26-MP10-031-STEPS",
+        "result_ids": [
+          "LR26-MP10-031-STEPS"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-042",
+        "query": "已签工程担保单",
+        "expected_rule_id": "LR26-MP10-042-FAIL",
+        "result_ids": [
+          "LR26-MP10-042-FAIL"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-044",
+        "query": "交车合而多冲",
+        "expected_rule_id": "LR26-MP10-044-PROCESS",
+        "result_ids": [
+          "LR26-MP10-044-PROCESS"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-073",
+        "query": "禅外流云消化链",
+        "expected_rule_id": "LR26-MP10-073-DIGEST",
+        "result_ids": [
+          "LR26-MP10-073-DIGEST"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-074",
+        "query": "雨田升象并聚",
+        "expected_rule_id": "LR26-MP10-074-SIGNS",
+        "result_ids": [
+          "LR26-MP10-074-SIGNS"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-075",
+        "query": "青山相亲定位",
+        "expected_rule_id": "LR26-MP10-075-ROLE-A",
+        "result_ids": [
+          "LR26-MP10-075-ROLE-A"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-077",
+        "query": "误食救制分支",
+        "expected_rule_id": "LR26-MP10-077-RESCUE",
+        "result_ids": [
+          "LR26-MP10-077-RESCUE"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-082",
+        "query": "冤酒案填空说",
+        "expected_rule_id": "LR26-MP10-082-VOID-YES",
+        "result_ids": [
+          "LR26-MP10-082-VOID-YES"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-087",
+        "query": "中考取分",
+        "expected_rule_id": "LR26-MP10-087-NUMBER",
+        "result_ids": [
+          "LR26-MP10-087-NUMBER"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "BK26-MODERN-096",
+        "query": "银行资格原过关链",
+        "expected_rule_id": "LR26-MP10-096-PASS",
+        "result_ids": [
+          "LR26-MP10-096-PASS"
+        ],
+        "passed": true
+      }
+    ]
+  },
+  "method_questions_remain": [
+    "031干孩/父母及计时起点",
+    "075干支正反定位",
+    "077遥克轻重和救链因果",
+    "082月建填空正反说",
+    "087伏吟盘丑未互加坐标",
+    "096单处填实后修订与当次未过"
+  ],
+  "limits": {
+    "independent_validation_count": 0,
+    "project_complete": false,
+    "ten_case_extraction_complete": true,
+    "no_new_cases": true,
+    "no_new_reserved_questions": true,
+    "chart_recalculation": false,
+    "external_model_calls": false,
+    "deployment": false
+  },
+  "artifacts": {}
+}

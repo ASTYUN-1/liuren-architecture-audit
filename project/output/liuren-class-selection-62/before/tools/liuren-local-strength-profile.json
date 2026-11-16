@@ -1,0 +1,29 @@
+{
+  "id": "liuren-local-strength-research-v1",
+  "kind": "研究局部生克指数",
+  "source_profile": "liuren-energy-joint-research-v0.3",
+  "relation": {
+    "support": 0.2,
+    "leak": 0.1,
+    "control": 0.2,
+    "control_cost_ratio": 0.2,
+    "peer": 0.06,
+    "resistance_reference": 5,
+    "outgoing_gate_budget": 2
+  },
+  "routes": {
+    "ground": 1,
+    "yin": 0.75,
+    "carrier": 1,
+    "general_ground": 1,
+    "day_upper": 1,
+    "day_yin": 0.75
+  },
+  "iteration": {
+    "damping": 0.5,
+    "tolerance": 1e-09,
+    "max_iterations": 1000
+  },
+  "environment": "fixed baseline times seasonal multiplier; no hidden growth reference",
+  "scope": "12天盘神、12天将、12地盘环境及本日日干；仅直接坐处、阴神及同宫神将通路"
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "liuren-selected-strength-v1",
+  "model": "liuren-palace-strength-v1",
+  "base_model": "liuren-strength-research-v05-direct",
+  "profile_sha256": "12bea6d66846289aee9d40c9982bc7c8171d716cd789487e7d66c4ba03ed4cc8",
+  "selected_policy": {
+    "id": "liuren-selected-relations-v1",
+    "route_gate": 0.75,
+    "local_balance": "frozen",
+    "source_loss": "baseline-direct-greedy-and-binding",
+    "groups": false
+  },
+  "chart_sha256": "8f7dee5ab75d30a6a5598e071a942d0fe6df6c31dd6a0673f9f4a8daebfdc062",
+  "scope": "selected_relations",
+  "season_profile": "quarter-earth",
+  "season_basis": "固定沿季土条件表示范补算，不依结果择表",
+  "actors": [
+    {
+      "id": "T:酉",
+      "role": "演示假设施助金神",
+      "basis": "用户所举金生子水的接口假设，不代表本课真实取用",
+      "single_palace": 5.68858,
+      "single_palace_level": "较强",
+      "adjusted": 5.469526,
+      "delta": -0.219054,
+      "level": "较强"
+    },
+    {
+      "id": "T:子",
+      "role": "演示目标类神",
+      "basis": "用户假设子水为类神",
+      "single_palace": 1.007031,
+      "single_palace_level": "弱，仍有作用",
+      "adjusted": 1.445138,
+      "delta": 0.438107,
+      "level": "弱，仍有作用"
+    }
+  ],
+  "applied_relations": [
+    {
+      "source": "T:酉",
+      "target": "T:子",
+      "basis": "仅演示：假设取用后已确认酉对子的生扶通路，不据全盘五行自动添加",
+      "type": "生",
+      "gate": 0.75,
+      "tau": 0.7333569550669803,
+      "received": 0.601667,
+      "source_cost": 0.300834
+    }
+  ],
+  "already_local_or_blocked": [],
+  "interpretation": "分数描述力量；弱仍可作用，0不等于整件事绝对不成。取用与关系适用性由AI依原法判断；未选关系及合局数值未补入。",
+  "receipt_sha256": "e9fe3acb6713e67b0a1bb55c651c09a4b6db1411ba15b83f2281f8924a363eb9",
+  "convergence": {
+    "residual": 6.705218602576224e-10,
+    "spread": 1.45618450630991e-9
+  }
+}
